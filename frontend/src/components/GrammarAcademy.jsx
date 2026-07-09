@@ -24,6 +24,9 @@ const LANGUAGES = [
   { code: 'hi', label: 'Hindi', flag: '🇮🇳', ttsLang: 'hi' },
   { code: 'tr', label: 'Turkish', flag: '🇹🇷', ttsLang: 'tr' },
   { code: 'fa', label: 'Farsi', flag: '🇮🇷', ttsLang: 'fa' },
+  { code: 'bn', label: 'Bangla', flag: '🇧🇩', ttsLang: 'bn' },
+  { code: 'ur', label: 'Urdu', flag: '🇵🇰', ttsLang: 'ur' },
+  { code: 'sw', label: 'Swahili', flag: '🇰🇪', ttsLang: 'sw' },
 ];
 
 export default function GrammarAcademy() {

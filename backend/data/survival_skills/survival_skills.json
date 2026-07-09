@@ -1562,6 +1562,161 @@
           "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
         }
       }
+    ],
+    "adult_personal_safety": [
+      {
+        "name": "Situational Awareness for Adults",
+        "grade_range": "Adult",
+        "category": "adult_personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Notice environmental risk cues before they escalate",
+          "Build habits that reduce personal risk",
+          "Trust intuition about unsafe situations"
+        ],
+        "key_steps": [
+          "Keep your head up and stay off your phone when walking alone at night",
+          "Identify exits whenever you enter a new place",
+          "Vary routines and routes when practical",
+          "Trust your gut instinct and leave a situation that feels wrong"
+        ],
+        "practice_activities": [
+          "Do a 'safety scan' the next time you enter an unfamiliar venue",
+          "Share your live location with a trusted contact on a solo trip"
+        ],
+        "quiz": [
+          {
+            "q": "What is usually the most effective form of self-defense?",
+            "a": "Avoiding the dangerous situation altogether through awareness"
+          },
+          {
+            "q": "What should you do if a situation feels wrong, even without clear proof?",
+            "a": "Trust your instinct and leave"
+          }
+        ],
+        "important_note": "This module covers general safety awareness, not a substitute for a certified self-defense or personal safety course.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=personal+safety+awareness+tips+for+adults",
+          "text_link": "https://www.rainn.org/articles/self-defense",
+          "resource_link": "https://www.youtube.com/results?search_query=women%27s+safety+tips+walking+alone",
+          "video_search_general": "https://www.youtube.com/results?search_query=adult+personal+safety+self+defense"
+        }
+      },
+      {
+        "name": "Verbal De-escalation Techniques",
+        "grade_range": "Adult",
+        "category": "adult_personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Use calm, assertive language to defuse tension",
+          "Maintain safe distance and open body language",
+          "Recognize when to disengage and seek help"
+        ],
+        "key_steps": [
+          "Keep your voice calm, low, and steady",
+          "Keep hands visible and open, avoid crossing arms or clenching fists",
+          "Give the other person an easy way to back down",
+          "Move toward an exit or other people while talking"
+        ],
+        "practice_activities": [
+          "Role-play a tense conversation with a friend and practice de-escalating calmly"
+        ],
+        "quiz": [
+          {
+            "q": "What voice tone helps de-escalate a tense situation?",
+            "a": "Calm, low, and steady"
+          }
+        ],
+        "important_note": "If a situation feels physically dangerous, prioritize leaving and calling for help over continued conversation.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=verbal+de-escalation+techniques+adults",
+          "text_link": "https://www.rainn.org/articles/self-defense",
+          "resource_link": "https://www.youtube.com/results?search_query=conflict+de-escalation+training+basics",
+          "video_search_general": "https://www.youtube.com/results?search_query=de-escalation+skills+training"
+        }
+      },
+      {
+        "name": "Travel and Public Transport Safety",
+        "grade_range": "Adult",
+        "category": "adult_personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Apply safety habits when traveling or commuting alone",
+          "Plan ahead for unfamiliar destinations",
+          "Know how to get help while traveling"
+        ],
+        "key_steps": [
+          "Share your itinerary with someone you trust",
+          "Research the safety reputation of an area before visiting",
+          "Sit near the driver or other passengers on public transport when possible",
+          "Keep your phone charged and emergency numbers saved"
+        ],
+        "practice_activities": [
+          "Write a simple travel safety checklist for your next trip"
+        ],
+        "quiz": [
+          {
+            "q": "What is a simple safety habit for solo travel?",
+            "a": "Share your itinerary with a trusted contact"
+          }
+        ],
+        "important_note": "Local emergency numbers and norms vary by country -- always check before you travel.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=solo+travel+safety+tips+adults",
+          "text_link": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/travel-safety.html",
+          "resource_link": "https://www.youtube.com/results?search_query=public+transport+safety+tips",
+          "video_search_general": "https://www.youtube.com/results?search_query=adult+travel+safety+tips"
+        }
+      },
+      {
+        "name": "Digital and Online Safety for Adults",
+        "grade_range": "Adult",
+        "category": "adult_personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Protect personal information online",
+          "Recognize common scams and phishing attempts",
+          "Practice safe password and account habits"
+        ],
+        "key_steps": [
+          "Use unique, strong passwords and a password manager",
+          "Enable two-factor authentication on important accounts",
+          "Be skeptical of urgent requests for money or personal information",
+          "Limit how much personal/location information you share publicly"
+        ],
+        "practice_activities": [
+          "Audit your most important accounts and enable two-factor authentication where missing"
+        ],
+        "quiz": [
+          {
+            "q": "What is a simple way to protect an important online account?",
+            "a": "Enable two-factor authentication and use a strong, unique password"
+          }
+        ],
+        "important_note": "If you suspect fraud, contact your bank or platform directly using an official number, not one provided by the suspicious contact.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=online+safety+tips+for+adults",
+          "text_link": "https://www.cisa.gov/topics/cybersecurity-best-practices",
+          "resource_link": "https://www.youtube.com/results?search_query=how+to+spot+a+phishing+scam",
+          "video_search_general": "https://www.youtube.com/results?search_query=cybersecurity+basics+for+adults"
+        }
+      }
     ]
   }
 }

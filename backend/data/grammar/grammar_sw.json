@@ -1,0 +1,165 @@
+{
+  "name": "Swahili",
+  "native": "Kiswahili",
+  "flag": "🇰🇪",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Msingi",
+      "lessons": [
+        {
+          "id": "sw_bg1",
+          "title": "Noun Classes",
+          "explanation": "Swahili is a Bantu language, and instead of grammatical gender it groups nouns into 'noun classes' by prefix. The M-/WA- class is for people (mtu 'person' → watu 'people'); the M-/MI- class is often for plants and objects (mti 'tree' → miti 'trees'). Every adjective and verb in a sentence must agree with the noun's class.",
+          "examples": [
+            "mtu (person) → watu (people) — M-/WA- class",
+            "mti (tree) → miti (trees) — M-/MI- class",
+            "kitabu (book) → vitabu (books) — KI-/VI- class",
+            "mtoto (child) → watoto (children) — M-/WA- class"
+          ],
+          "tip": "Unlike Hindi, Urdu, or Bangla, Swahili has no masculine/feminine gender — noun class (not sex) drives all agreement.",
+          "quiz": [
+            {
+              "question": "What determines agreement of adjectives and verbs in Swahili?",
+              "options": ["Grammatical gender", "Noun class", "Word length", "Vowel sound"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_bg2",
+          "title": "Verb Structure — Subject Prefix + Tense Marker + Stem",
+          "explanation": "A Swahili verb is built from: subject prefix + tense marker + verb stem. Ninasoma = Ni- (I) + -na- (present) + -soma (read) = 'I am reading / I read'.",
+          "examples": [
+            "Ninasoma. (Ni-na-soma.) — I am reading.",
+            "Anasoma. (A-na-soma.) — He/she is reading.",
+            "Tunasoma. (Tu-na-soma.) — We are reading.",
+            "Wanasoma. (Wa-na-soma.) — They are reading."
+          ],
+          "tip": "Learn the subject prefixes (ni-, u-, a-, tu-, m-, wa-) first — they appear at the start of almost every verb.",
+          "quiz": [
+            {
+              "question": "In 'Ninasoma', what does 'Ni-' represent?",
+              "options": ["Present tense", "The verb stem", "The subject 'I'", "Negation"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_bg3",
+          "title": "Tense Markers — -na-, -li-, -ta-",
+          "explanation": "Swahili marks tense with an infix right after the subject prefix: -na- (present), -li- (past), -ta- (future).",
+          "examples": [
+            "Ninasoma. — I read/am reading. (present, -na-)",
+            "Nilisoma. — I read (past). (-li-)",
+            "Nitasoma. — I will read. (-ta-)",
+            "Alisoma kitabu. — He/she read a book. (past, -li-)"
+          ],
+          "tip": "Swap only the tense infix (-na-/-li-/-ta-) to change tense — the subject prefix and verb stem stay the same.",
+          "quiz": [
+            {
+              "question": "Which infix marks the future tense in Swahili?",
+              "options": ["-na-", "-li-", "-ta-", "-me-"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_bg4",
+          "title": "Word Order — SVO",
+          "explanation": "Unlike Hindi, Urdu, and Bangla (all SOV), Swahili follows Subject-Verb-Object word order, much like English.",
+          "examples": [
+            "Mimi ninasoma kitabu. — I am reading a book. (Subject-Verb-Object)",
+            "Rafiki yangu anapenda muziki. — My friend likes music.",
+            "Watoto wanacheza mpira. — The children are playing ball.",
+            "Mama anapika chakula. — Mother is cooking food."
+          ],
+          "tip": "Because Swahili word order matches English (SVO), many learners find sentence structure easier than Hindi/Urdu's SOV.",
+          "quiz": [
+            {
+              "question": "What word order does Swahili use?",
+              "options": ["SOV", "VSO", "SVO", "OSV"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Msingi wa Kati",
+      "lessons": [
+        {
+          "id": "sw_el1",
+          "title": "Object Markers (Infixes)",
+          "explanation": "Swahili can insert an object marker right before the verb stem to mean 'him/her/it/them' without needing a separate pronoun: Ninampenda = Ni-na-m-penda = I-present-him/her-love = 'I love him/her'.",
+          "examples": [
+            "Ninampenda. (Ni-na-m-penda.) — I love him/her.",
+            "Tunawapenda. (Tu-na-wa-penda.) — We love them.",
+            "Anakisoma kitabu. (A-na-ki-soma.) — He/she is reading it (the book).",
+            "Ninakiona. (Ni-na-ki-ona.) — I see it."
+          ],
+          "tip": "The object marker's shape depends on the noun class of the thing being referred to, just like subject prefixes.",
+          "quiz": [
+            {
+              "question": "In 'Ninampenda', what does '-m-' refer to?",
+              "options": ["Present tense", "Him/her (object)", "The subject", "Negation"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Kiwango cha Kati",
+      "lessons": [
+        {
+          "id": "sw_in1",
+          "title": "Noun Class Agreement Across a Sentence",
+          "explanation": "Adjectives and verbs must agree with a noun's class throughout the sentence. For the M-/WA- (people) class: mtu mzuri anasoma ('the good person is reading') — mzuri and anasoma both carry the class-agreeing prefixes. For the M-/MI- class: mti mzuri unaanguka ('the good tree is falling') uses different agreement markers.",
+          "examples": [
+            "Mtu mzuri anasoma. — The good person is reading. (M-/WA- class: m-/a-)",
+            "Watu wazuri wanasoma. — The good people are reading. (plural: wa-/wa-)",
+            "Kitabu kizuri kinasomwa. — The good book is being read. (KI-/VI- class: ki-/ki-)",
+            "Vitabu vizuri vinasomwa. — The good books are being read. (plural: vi-/vi-)"
+          ],
+          "tip": "Memorize noun classes in pairs (singular/plural) — each pair has its own consistent set of agreement prefixes.",
+          "quiz": [
+            {
+              "question": "In 'Kitabu kizuri kinasomwa', which noun class is being used?",
+              "options": ["M-/WA-", "M-/MI-", "KI-/VI-", "N- class"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Kiwango cha Juu",
+      "lessons": [
+        {
+          "id": "sw_ad1",
+          "title": "Relative Clauses (-enye, -o, -cho infixes)",
+          "explanation": "Swahili forms relative clauses ('that/which/who') with a class-agreeing infix inserted into the verb, rather than a separate relative pronoun. For the KI-/VI- class, '-cho-' marks 'which': kitabu ninachosoma ('the book that I am reading') = ki-tabu ni-na-cho-soma.",
+          "examples": [
+            "Kitabu ninachosoma ni kizuri. — The book that I am reading is good.",
+            "Mtu ninayemwona ni rafiki yangu. — The person whom I see is my friend.",
+            "Watu wanaocheza ni wanafunzi. — The people who are playing are students.",
+            "Nyumba niliyoijenga ni kubwa. — The house that I built is big."
+          ],
+          "tip": "The relative infix (-cho-, -ye-, -o-, -yo-, etc.) always matches the noun class of what's being referred to — this is one of Swahili's most distinctive advanced features.",
+          "quiz": [
+            {
+              "question": "How does Swahili typically form a relative clause like 'the book that I am reading'?",
+              "options": [
+                "With a separate relative pronoun before the verb",
+                "With a class-agreeing infix inserted into the verb",
+                "By reversing word order",
+                "By adding 'that' after the verb"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
