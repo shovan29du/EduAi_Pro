@@ -1,0 +1,306 @@
+import React, { useEffect, useState, Suspense, lazy, Component } from 'react';
+
+class ErrorBoundary extends Component {
+  constructor(props) { super(props); this.state = { error: null }; }
+  static getDerivedStateFromError(error) { return { error }; }
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-700 p-6 text-center">
+          <p className="font-semibold text-red-700 dark:text-red-300">Something went wrong loading this section.</p>
+          <p className="text-xs text-red-500 mt-1">{String(this.state.error)}</p>
+          <button
+            onClick={() => this.setState({ error: null })}
+            className="mt-3 px-4 py-1.5 rounded-lg bg-red-600 text-white text-sm hover:bg-red-700"
+          >Try again</button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+import Header from './components/Header.jsx';
+import LevelSelector from './components/LevelSelector.jsx';
+import LoadingSpinner from './components/LoadingSpinner.jsx';
+import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
+import { fetchLevel } from './api/level.js';
+
+const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
+const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
+const SearchBar = lazy(() => import('./components/SearchBar.jsx'));
+const ResourceLibrary = lazy(() => import('./components/ResourceLibrary.jsx'));
+const CodeEditor = lazy(() => import('./components/CodeEditor.jsx'));
+const ColouringCanvas = lazy(() => import('./components/ColouringCanvas.jsx'));
+const ParentCuration = lazy(() => import('./components/ParentCuration.jsx'));
+const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
+const ParentProgressOverview = lazy(() => import('./components/ParentProgressOverview.jsx'));
+const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
+const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
+const SafeMusicPlayer = lazy(() => import('./components/SafeMusicPlayer.jsx'));
+const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
+const Games = lazy(() => import('./components/Games.jsx'));
+const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
+const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
+const ResourceTab = lazy(() => import('./components/ResourceTab.jsx'));
+const AiTutor = lazy(() => import('./components/AiTutor.jsx'));
+const LanguageAcademy = lazy(() => import('./components/LanguageAcademy.jsx'));
+const AssessmentCentre = lazy(() => import('./components/AssessmentCentre.jsx'));
+const GrammarAcademy = lazy(() => import('./components/GrammarAcademy.jsx'));
+const CountriesExplorer = lazy(() => import('./components/CountriesExplorer.jsx'));
+const VocabularyAcademy = lazy(() => import('./components/VocabularyAcademy.jsx'));
+const StemLab = lazy(() => import('./components/StemLab.jsx'));
+const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'));
+const PracticalSkills = lazy(() => import('./components/PracticalSkills.jsx'));
+const VirtualMuseum = lazy(() => import('./components/VirtualMuseum.jsx'));
+const WorldLiteratureLibrary = lazy(() => import('./components/WorldLiteratureLibrary.jsx'));
+const CriticalThinking = lazy(() => import('./components/CriticalThinking.jsx'));
+const SurvivalSkills = lazy(() => import('./components/SurvivalSkills.jsx'));
+const WorldPolitics = lazy(() => import('./components/WorldPolitics.jsx'));
+const MathTools = lazy(() => import('./components/MathTools.jsx'));
+const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
+const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
+const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
+const Civics = lazy(() => import('./components/Civics.jsx'));
+const WeeklyReport = lazy(() => import('./components/WeeklyReport.jsx'));
+const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
+const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
+const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
+const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
+const UserManager = lazy(() => import('./components/UserManager.jsx'));
+const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
+const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
+
+const CHILD_TABS = [
+  'Subjects',
+  'Library',
+  'Search',
+  'Favourites',
+  'AI Tutor',
+  'Languages',
+  'Grammar',
+  'Vocabulary',
+  'STEM Lab',
+  'Non-Fiction',
+  'Practical Skills',
+  'Museum',
+  'World Lit',
+  'Critical Thinking',
+  'Survival Skills',
+  'Brain Teasers',
+  'Environment',
+  'World Politics',
+  'World Religions',
+  'Math Tools',
+  'Health',
+  'Business',
+  'Civics',
+  'Countries',
+  'Assessment',
+  'Colouring',
+  'Code Editor',
+  'Study Timer',
+  'Fact of the Day',
+  'History of the Day',
+  'Music',
+  'Music & Instruments',
+  'Song Centre',
+  'Sing-Along',
+  'World Cinema',
+  'Games',
+  'Appearance',
+  'Resource Tab',
+];
+// Shovan & Bely get everything: all child tabs + parent admin tabs
+const SHOVAN_BELY_TABS = [
+  ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
+  'Overview', 'Attendance', 'Weekly Report', 'Curate', 'Resource Tab',
+];
+
+const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
+
+export default function App() {
+  const { child } = useChild();
+  const isParent = isParentProfile(child);
+  const isShovanOrBely = child === 'Shovan' || child === 'Bely';
+  const tabs = isShovanOrBely ? SHOVAN_BELY_TABS : isParent ? PARENT_TABS : CHILD_TABS;
+
+  // `level` drives the main learning flow (school Grade 1-10, College C1-C2,
+  // Undergraduate UG1-UG4, or Master's M1-M2). `standard` is the legacy
+  // numeric-grade-only state still used by features that are school-grade
+  // specific (Search, Curate, Fact of the Day, Games) and stays in sync
+  // whenever `level` is itself a plain school grade.
+  const [level, setLevel] = useState('1');
+  const [standard, setStandard] = useState(1);
+  const [grade, setGrade] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [activeSubject, setActiveSubject] = useState(null);
+
+  useEffect(() => {
+    if (!tabs.includes(activeTab)) {
+      setActiveTab(tabs[0]);
+    }
+  }, [isParent, isShovanOrBely]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    const asNumber = parseInt(level, 10);
+    if (!Number.isNaN(asNumber) && String(asNumber) === level) {
+      setStandard(asNumber);
+    }
+  }, [level]);
+
+  useEffect(() => {
+    setLoading(true);
+    setError(null);
+    fetchLevel(level)
+      .then((data) => {
+        setGrade(data);
+        setActiveSubject(Object.keys(data.subjects || {})[0] || null);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setGrade(null);
+        setActiveSubject(null);
+        setLoading(false);
+      });
+  }, [level]);
+
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+      <Header />
+      <main className="mx-auto max-w-5xl space-y-6 p-4">
+        <LevelSelector level={level} onChange={setLevel} />
+        <Suspense fallback={<LoadingSpinner />}>
+          <ProgressDashboard />
+        </Suspense>
+
+        <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
+          {tabs.map((tab) => (
+            <button
+              key={tab}
+              role="tab"
+              aria-selected={activeTab === tab}
+              onClick={() => setActiveTab(tab)}
+              className={`rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500 ${
+                activeTab === tab ? 'bg-blue-600 text-white' : ''
+              }`}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+
+        {loading && <LoadingSpinner />}
+        {error && (
+          <div role="alert" className="rounded-lg border border-red-300 bg-red-50 p-4 text-red-700 dark:border-red-700 dark:bg-red-950 dark:text-red-300">
+            <p className="font-semibold">Could not load grade data</p>
+            <p className="mt-1 text-sm">{error}</p>
+            <p className="mt-2 text-sm">Make sure the backend is running: <code className="rounded bg-red-100 px-1 dark:bg-red-900">bash start.sh</code></p>
+          </div>
+        )}
+
+        <ErrorBoundary>
+        <Suspense fallback={<LoadingSpinner />}>
+          {!loading && !error && activeTab === 'Subjects' && grade && (
+            <div className="space-y-4">
+              <div>
+                <p className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">Choose a subject to start learning:</p>
+                <div className="flex flex-wrap gap-2">
+                  {Object.keys(grade.subjects).map((name) => (
+                    <button
+                      key={name}
+                      onClick={() => setActiveSubject(name)}
+                      className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline focus:outline-2 focus:outline-blue-500 ${
+                        activeSubject === name
+                          ? 'bg-blue-600 text-white border-blue-600'
+                          : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700'
+                      }`}
+                    >
+                      {name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              {activeSubject && grade.subjects[activeSubject] && (
+                <SubjectLessons
+                  key={activeSubject}
+                  subjectName={activeSubject}
+                  subject={grade.subjects[activeSubject]}
+                  standard={level}
+                  onChangeGrade={(g) => setLevel(String(g))}
+                />
+              )}
+            </div>
+          )}
+
+          {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
+
+          {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
+
+          {activeTab === 'Favourites' && <FavoritesList />}
+
+          {activeTab === 'Colouring' && <ColouringCanvas />}
+
+          {activeTab === 'Code Editor' && <CodeEditor />}
+
+          {activeTab === 'Study Timer' && <StudyTimer />}
+
+          {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
+
+          {activeTab === 'History of the Day' && <HistoryOfTheDay />}
+
+          {activeTab === 'Appearance' && <AppearanceSettings />}
+
+          {activeTab === 'Music' && <SafeMusicPlayer />}
+
+          {activeTab === 'Music & Instruments' && <MusicInstruments />}
+
+          {activeTab === 'Sing-Along' && <SingAlong />}
+
+          {activeTab === 'Games' && <Games grade={grade} />}
+
+          {activeTab === 'Curate' && <ParentCuration standard={standard} />}
+
+          {activeTab === 'Overview' && <ParentProgressOverview />}
+          {activeTab === 'Attendance' && <AttendanceTracker />}
+          {activeTab === 'Weekly Report' && <WeeklyReport />}
+
+          {activeTab === 'Resource Tab' && <ResourceTab />}
+
+          {activeTab === 'Users' && <UserManager />}
+
+          {activeTab === 'AI Tutor' && <AiTutor level={level} subjectName={activeSubject || ''} />}
+
+          {activeTab === 'Languages' && <LanguageAcademy />}
+
+          {activeTab === 'Grammar' && <GrammarAcademy />}
+          {activeTab === 'Vocabulary' && <VocabularyAcademy />}
+          {activeTab === 'STEM Lab' && <StemLab />}
+          {activeTab === 'Non-Fiction' && <NonfictionLibrary />}
+          {activeTab === 'Practical Skills' && <PracticalSkills />}
+          {activeTab === 'Museum' && <VirtualMuseum />}
+{activeTab === 'World Lit' && <WorldLiteratureLibrary />}
+          {activeTab === 'Critical Thinking' && <CriticalThinking />}
+          {activeTab === 'Survival Skills' && <SurvivalSkills />}
+          {activeTab === 'Brain Teasers' && <BrainTeasers />}
+          {activeTab === 'Environment' && <EnvironmentalScience />}
+          {activeTab === 'World Politics' && <WorldPolitics />}
+          {activeTab === 'World Religions' && <WorldReligions />}
+          {activeTab === 'Song Centre' && <SongCentre />}
+          {activeTab === 'World Cinema' && <MoviesLibrary />}
+          {activeTab === 'Math Tools' && <MathTools />}
+          {activeTab === 'Health' && <HealthEducation />}
+          {activeTab === 'Business' && <BusinessStudies />}
+          {activeTab === 'Civics' && <Civics />}
+
+          {activeTab === 'Countries' && <CountriesExplorer />}
+
+          {activeTab === 'Assessment' && <AssessmentCentre />}
+        </Suspense>
+        </ErrorBoundary>
+      </main>
+    </div>
+  );
+}

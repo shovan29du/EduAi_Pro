@@ -1,0 +1,1567 @@
+{
+  "title": "Survival Skills Academy",
+  "description": "Essential outdoor, emergency, and life skills to keep you safe and self-reliant in any situation.",
+  "categories": {
+    "personal_safety": [
+      {
+        "name": "Stranger Awareness",
+        "grade_range": "1-4",
+        "category": "personal_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify safe adults",
+          "Know what to do if approached by a stranger",
+          "Understand personal boundaries"
+        ],
+        "key_steps": [
+          "Learn the 'safe adult' circle (family, known teachers)",
+          "Recognise warning signs: adult asking for help, offering gifts",
+          "Practise saying 'No, I'm going to find a trusted adult'",
+          "Know your full name, parent's name, and phone number"
+        ],
+        "practice_activities": [
+          "Role-play with a parent: practise saying no and walking away",
+          "Memorise emergency contact number"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do if a stranger offers you a gift?",
+            "a": "Say no and find a trusted adult immediately"
+          },
+          {
+            "q": "Who is in your 'safe adults' circle?",
+            "a": "Parents, known family members, and school staff"
+          }
+        ],
+        "important_note": "This lesson is for awareness and safety — always practise with a trusted adult at home.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Stranger+Awareness+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      },
+      {
+        "name": "Lost Child Procedures",
+        "grade_range": "1-4",
+        "category": "personal_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Know what to do when lost in a public place",
+          "Identify safe places to go",
+          "Stay calm and find help"
+        ],
+        "key_steps": [
+          "STOP: stay where you are if safe",
+          "Look for a uniformed worker (police, shop assistant)",
+          "Go to a customer service desk in a shop",
+          "Call out to a mum or dad with children nearby",
+          "Never leave with a stranger even if they say your parents sent them"
+        ],
+        "practice_activities": [
+          "Practise with a parent: what would you do if separated in a shopping centre?",
+          "Memorise your parent's phone number"
+        ],
+        "quiz": [
+          {
+            "q": "What is the first thing to do if you get lost?",
+            "a": "Stop and stay where you are if it is safe"
+          },
+          {
+            "q": "Who is a safe person to ask for help when lost in a shop?",
+            "a": "A uniformed shop worker or customer service staff"
+          }
+        ],
+        "important_note": "Always practise this scenario with a parent or guardian.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Lost+Child+Procedures+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      },
+      {
+        "name": "Online Safety Basics",
+        "grade_range": "3-7",
+        "category": "personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Identify safe and unsafe online behaviour",
+          "Know not to share personal information",
+          "Report uncomfortable content to a trusted adult"
+        ],
+        "key_steps": [
+          "Never share: full name, address, school, or phone number online",
+          "Use privacy settings on apps",
+          "If someone online makes you uncomfortable, tell an adult",
+          "Recognise phishing attempts and fake messages",
+          "Block and report — do not engage with trolls"
+        ],
+        "practice_activities": [
+          "Review privacy settings on a device with a parent",
+          "Discuss: what information is safe to share online and what is not"
+        ],
+        "quiz": [
+          {
+            "q": "Name one thing you should never share online.",
+            "a": "Home address, school name, phone number, or full name"
+          },
+          {
+            "q": "What should you do if someone online makes you uncomfortable?",
+            "a": "Tell a trusted adult immediately"
+          }
+        ],
+        "important_note": "Online safety rules apply to everyone, including friends and classmates.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Online+Safety+Basics+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      },
+      {
+        "name": "Body Safety and Personal Boundaries",
+        "grade_range": "2-5",
+        "category": "personal_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Understand the concept of personal boundaries",
+          "Know the correct terms for body parts",
+          "Know how to say no and report unsafe touch"
+        ],
+        "key_steps": [
+          "Understand: your body belongs to you",
+          "Safe vs unsafe touch: medical, accidental vs uncomfortable",
+          "Practise saying 'No, stop, I will tell'",
+          "Always tell a trusted adult if something feels wrong"
+        ],
+        "practice_activities": [
+          "Role-play boundary scenarios with a parent",
+          "Practise the phrases: 'No', 'Stop', 'I will tell'"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do if a touch feels uncomfortable?",
+            "a": "Say no, get away, and tell a trusted adult"
+          },
+          {
+            "q": "Whose body belongs to you?",
+            "a": "Your own body belongs to you"
+          }
+        ],
+        "important_note": "This lesson should be guided and discussed by a parent or guardian.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Body+Safety+and+Personal+Boundaries+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      },
+      {
+        "name": "Safe Use of the Internet and Social Media",
+        "grade_range": "6-10",
+        "category": "personal_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Understand digital footprint",
+          "Recognise cyberbullying and how to respond",
+          "Protect passwords and accounts"
+        ],
+        "key_steps": [
+          "A digital footprint is everything you post online — it can be permanent",
+          "Use strong passwords (12+ characters, mix of types)",
+          "Cyberbullying: save evidence, block, report, tell an adult",
+          "Think before you post: would you be comfortable if a teacher saw this?",
+          "Verify news before sharing — misinformation spreads fast"
+        ],
+        "practice_activities": [
+          "Audit your social media privacy settings",
+          "Create a strong password for a mock account exercise"
+        ],
+        "quiz": [
+          {
+            "q": "What is a digital footprint?",
+            "a": "The trail of data you leave online through posts, searches, and messages"
+          },
+          {
+            "q": "What should you do if you receive cyberbullying messages?",
+            "a": "Save evidence, block the sender, and tell a trusted adult"
+          }
+        ],
+        "important_note": "Once something is posted online, it may never be fully deleted.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Safe+Use+of+the+Internet+and+Social+Media+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      },
+      {
+        "name": "Personal Emergency Plan",
+        "grade_range": "3-8",
+        "category": "personal_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Create a personal emergency contact list",
+          "Agree a family meeting point",
+          "Know emergency service numbers"
+        ],
+        "key_steps": [
+          "Write down: 3 emergency contacts (name + number)",
+          "Agree a family meeting point if separated in an emergency",
+          "Know your local emergency numbers (police, fire, ambulance)",
+          "Put the list in your school bag"
+        ],
+        "practice_activities": [
+          "Create a physical emergency contact card with a parent",
+          "Memorise two key phone numbers"
+        ],
+        "quiz": [
+          {
+            "q": "What is the emergency number in your country?",
+            "a": "Varies by country — e.g. 999 (UK), 911 (USA), 112 (EU)"
+          },
+          {
+            "q": "Where should you keep your emergency contact list?",
+            "a": "In your school bag, in your phone, memorised"
+          }
+        ],
+        "important_note": "Update the contact list whenever family phone numbers change.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Personal+Emergency+Plan+personal+safety+for+children+kids",
+          "text_link": "https://www.nspcc.org.uk/keeping-children-safe/",
+          "resource_link": "https://www.childline.org.uk/info-advice/you-your-body/you-your-body/safety/",
+          "video_search_general": "https://www.youtube.com/results?search_query=personal+safety+for+children+kids"
+        }
+      }
+    ],
+    "emergency_preparedness": [
+      {
+        "name": "Fire Safety at Home",
+        "grade_range": "2-6",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify fire hazards",
+          "Know the stop-drop-roll technique",
+          "Plan and practise a home fire escape"
+        ],
+        "key_steps": [
+          "Identify common fire hazards: candles, unattended stoves, overloaded sockets",
+          "Stop, Drop, Roll if clothing catches fire",
+          "Plan two exit routes from every room",
+          "Agree a meeting point outside",
+          "Call emergency services from outside — never go back in"
+        ],
+        "practice_activities": [
+          "Walk through your home escape routes with a family member",
+          "Practise stop-drop-roll in an open area"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do if your clothes catch fire?",
+            "a": "Stop, drop to the ground, and roll to smother the flames"
+          },
+          {
+            "q": "Where should you meet your family after escaping a fire?",
+            "a": "At a pre-agreed safe meeting point outside"
+          }
+        ],
+        "important_note": "Never go back into a burning building for any reason.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Fire+Safety+at+Home+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Earthquake Safety",
+        "grade_range": "4-8",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Identify safe spots during an earthquake",
+          "Know the drop-cover-hold technique",
+          "Know what to do after shaking stops"
+        ],
+        "key_steps": [
+          "Drop to hands and knees",
+          "Cover your head and neck under a sturdy table or against an interior wall",
+          "Hold on until shaking stops",
+          "After: check for injuries, expect aftershocks",
+          "Stay away from damaged buildings and power lines"
+        ],
+        "practice_activities": [
+          "Practise drop-cover-hold at school or home",
+          "Identify safe spots in your classroom"
+        ],
+        "quiz": [
+          {
+            "q": "What is the correct response during an earthquake?",
+            "a": "Drop, Cover, Hold — get under a sturdy surface and protect your head"
+          },
+          {
+            "q": "What should you do after an earthquake stops?",
+            "a": "Check for injuries, expect aftershocks, and move to open ground away from buildings"
+          }
+        ],
+        "important_note": "Knowing in advance what to do removes panic in a real event.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Earthquake+Safety+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Flood Safety",
+        "grade_range": "4-8",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Understand flood warning signs",
+          "Know what to do if caught in flooding",
+          "Prepare a flood emergency kit"
+        ],
+        "key_steps": [
+          "Move to higher ground immediately",
+          "Never walk or drive through floodwater — 15 cm can knock you down",
+          "Turn off electricity at the mains if safe to do so",
+          "Emergency kit: torch, water, food, first aid, phone charger",
+          "Listen to emergency service announcements"
+        ],
+        "practice_activities": [
+          "Prepare a simple emergency kit list with a parent",
+          "Discuss your home's flood risk and escape routes"
+        ],
+        "quiz": [
+          {
+            "q": "How shallow can floodwater be and still knock a person down?",
+            "a": "15 cm (6 inches)"
+          },
+          {
+            "q": "Name two items for a flood emergency kit.",
+            "a": "Torch, bottled water, food, first aid kit, phone charger (any two)"
+          }
+        ],
+        "important_note": "Never attempt to cross floodwater on foot or in a vehicle — it is extremely dangerous.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Flood+Safety+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Storm and Cyclone Safety",
+        "grade_range": "4-8",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify warning signs of a severe storm",
+          "Know how to take shelter safely",
+          "Avoid common storm dangers"
+        ],
+        "key_steps": [
+          "Monitor weather warnings and alerts",
+          "Move indoors — away from windows",
+          "Avoid trees, water, and metal objects",
+          "If outdoors and lightning strikes: crouch low, spread out from others",
+          "Do not use landline phones during lightning",
+          "After storm: check for hazards before going outside"
+        ],
+        "practice_activities": [
+          "Identify the safest room in your home during a storm",
+          "Create a storm safety checklist with a parent"
+        ],
+        "quiz": [
+          {
+            "q": "Where should you shelter during a severe storm?",
+            "a": "Inside a sturdy building, away from windows"
+          },
+          {
+            "q": "Why avoid trees during lightning?",
+            "a": "Trees are tall and attract lightning strikes"
+          }
+        ],
+        "important_note": "A charged portable phone and emergency kit should be ready before storm season.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Storm+and+Cyclone+Safety+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Safe Drinking Water",
+        "grade_range": "3-7",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify safe and unsafe water sources",
+          "Know basic water purification methods",
+          "Understand hygiene when water is limited"
+        ],
+        "key_steps": [
+          "Running, treated tap water is safest",
+          "Boiling: bring to a rolling boil for 1 full minute (adult required)",
+          "Collect rainwater if tap water is unavailable",
+          "Never drink from stagnant water sources",
+          "Store purified water in a clean sealed container"
+        ],
+        "practice_activities": [
+          "Demonstrate boiling water with adult supervision",
+          "Discuss what makes water contaminated"
+        ],
+        "quiz": [
+          {
+            "q": "How long should you boil water to make it safe to drink?",
+            "a": "1 full minute at a rolling boil"
+          },
+          {
+            "q": "Name one sign that water may be unsafe.",
+            "a": "Cloudy, smells bad, stagnant, or comes from an unknown source"
+          }
+        ],
+        "important_note": "Boiling requires adult supervision — never leave a fire or stove unattended.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Safe+Drinking+Water+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Emergency Signalling",
+        "grade_range": "6-10",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Learn three universal distress signals",
+          "Use a whistle and mirror signal correctly",
+          "Understand when and how to signal for help"
+        ],
+        "key_steps": [
+          "Universal distress: three of any signal (whistle, fire, mirror flash)",
+          "Whistle: three short blasts, pause, repeat",
+          "Mirror signal: reflect sunlight at aircraft or rescue teams",
+          "Ground signals: stamp SOS in sand or snow",
+          "Stay in one place so rescuers can find you"
+        ],
+        "practice_activities": [
+          "Practise the three-blast whistle signal",
+          "Demonstrate a mirror-flash with a reflective surface in sunlight"
+        ],
+        "quiz": [
+          {
+            "q": "What is the universal distress signal number?",
+            "a": "Three — three blasts, three fires, three flashes"
+          },
+          {
+            "q": "What letters should you stamp in the ground to signal SOS?",
+            "a": "SOS"
+          }
+        ],
+        "important_note": "Stay calm and conserve energy while waiting for rescue.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Emergency+Signalling+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Emergency Kit Preparation",
+        "grade_range": "3-8",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify essential items for a 72-hour emergency kit",
+          "Pack and maintain a kit at home",
+          "Know how long to store food and water"
+        ],
+        "key_steps": [
+          "Water: 3 litres per person per day for 3 days",
+          "Non-perishable food for 3 days",
+          "First aid kit and prescribed medications",
+          "Torch and extra batteries",
+          "Phone charger and emergency radio",
+          "Important documents in a waterproof bag",
+          "Change of clothes and warm blanket",
+          "Review kit every 6 months"
+        ],
+        "practice_activities": [
+          "Pack a 72-hour emergency kit with a parent",
+          "Check expiry dates and rotate food supplies"
+        ],
+        "quiz": [
+          {
+            "q": "How much water should you store per person per day?",
+            "a": "At least 3 litres"
+          },
+          {
+            "q": "How often should you check your emergency kit?",
+            "a": "Every 6 months"
+          }
+        ],
+        "important_note": "Store your kit in an easy-to-carry bag near the main exit.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Emergency+Kit+Preparation+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      },
+      {
+        "name": "Heat and Cold Safety",
+        "grade_range": "3-7",
+        "category": "emergency_preparedness",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Recognise signs of heat exhaustion and hypothermia",
+          "Know how to prevent heat and cold illness",
+          "Respond appropriately to temperature emergencies"
+        ],
+        "key_steps": [
+          "Heat exhaustion: heavy sweating, weakness, cool pale skin — move to shade, give water, loosen clothing",
+          "Heat stroke: very high temperature, red dry skin, confusion — call emergency immediately",
+          "Hypothermia: shivering, confusion, slurred speech — warm slowly, add layers, call for help",
+          "Frostbite: numb, pale, hard skin — rewarm gently, do not rub"
+        ],
+        "practice_activities": [
+          "Create a heat safety checklist for summer outings",
+          "Practise identifying signs using case-study scenarios"
+        ],
+        "quiz": [
+          {
+            "q": "Name two signs of heat exhaustion.",
+            "a": "Heavy sweating, weakness, nausea, pale cool skin"
+          },
+          {
+            "q": "What is the first action for suspected heat stroke?",
+            "a": "Call emergency services immediately — it is life-threatening"
+          }
+        ],
+        "important_note": "Stay hydrated and seek shade in hot weather; layer up and stay dry in cold.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Heat+and+Cold+Safety+emergency+preparedness+for+kids+families",
+          "text_link": "https://www.ready.gov/kids",
+          "resource_link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=emergency+preparedness+for+kids+families"
+        }
+      }
+    ],
+    "outdoor_and_navigation": [
+      {
+        "name": "Basic Map Reading",
+        "grade_range": "5-8",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Read a simple map key",
+          "Find north using a map and compass",
+          "Plot a route between two points"
+        ],
+        "key_steps": [
+          "Identify map symbols: scale, contour lines, north arrow",
+          "Practice locating landmarks on a local map",
+          "Use grid references to find a location",
+          "Plan a simple route between two points"
+        ],
+        "practice_activities": [
+          "Use a local park map to plan a walk",
+          "Identify 5 landmarks on a printed map"
+        ],
+        "quiz": [
+          {
+            "q": "What does the scale on a map show?",
+            "a": "The ratio between distance on the map and real-world distance"
+          },
+          {
+            "q": "What is a grid reference?",
+            "a": "A number pair used to identify an exact location on a map"
+          }
+        ],
+        "important_note": "Always tell a trusted adult your planned route before going outdoors.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Basic+Map+Reading+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Using a Compass",
+        "grade_range": "6-9",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify the four cardinal directions",
+          "Take a bearing with a compass",
+          "Follow a compass bearing to a destination"
+        ],
+        "key_steps": [
+          "Hold compass flat and level",
+          "Let needle settle and point to magnetic north",
+          "Rotate the compass housing to set a bearing",
+          "Walk in the direction the arrow points",
+          "Adjust for magnetic declination if needed"
+        ],
+        "practice_activities": [
+          "Practise finding north in the schoolyard",
+          "Walk a 4-point compass course around the playground"
+        ],
+        "quiz": [
+          {
+            "q": "What do the four cardinal points stand for?",
+            "a": "North, South, East, West"
+          },
+          {
+            "q": "What does the red needle on a compass always point to?",
+            "a": "Magnetic north"
+          }
+        ],
+        "important_note": "Always use a compass with adult supervision in unfamiliar outdoor areas.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Using+a+Compass+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Weather Awareness",
+        "grade_range": "4-7",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Read basic weather signs in nature",
+          "Understand cloud types and what they predict",
+          "Plan outdoor activities safely around weather"
+        ],
+        "key_steps": [
+          "Cumulus clouds = fair weather; cumulonimbus = thunderstorm approaching",
+          "Red sky at night = fair tomorrow; red sky in morning = weather warning",
+          "Wind direction changes can signal incoming storms",
+          "Check a reliable weather app before outdoor plans"
+        ],
+        "practice_activities": [
+          "Observe and sketch the clouds each day for a week",
+          "Compare predictions to actual weather"
+        ],
+        "quiz": [
+          {
+            "q": "What do dark cumulonimbus clouds indicate?",
+            "a": "Thunderstorm approaching"
+          },
+          {
+            "q": "What does a red sky in the morning indicate?",
+            "a": "Possible bad weather ahead (sailor's warning)"
+          }
+        ],
+        "important_note": "Weather forecasting apps are your best tool — always check before outdoor activities.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Weather+Awareness+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Safe Hiking Basics",
+        "grade_range": "5-9",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Plan a safe day hike",
+          "Pack essential items",
+          "Follow trail safety rules"
+        ],
+        "key_steps": [
+          "Always hike with a group and tell an adult your route",
+          "Pack: water, snacks, first aid, sunscreen, torch, map",
+          "Stay on marked trails",
+          "Turn around if the weather changes or you feel uncertain",
+          "Leave no trace: take litter home"
+        ],
+        "practice_activities": [
+          "Plan a hypothetical day hike using a trail map",
+          "Pack a trial hiking day bag at home"
+        ],
+        "quiz": [
+          {
+            "q": "Name three things to pack for a day hike.",
+            "a": "Water, snacks, first aid kit, sunscreen, map, torch (any three)"
+          },
+          {
+            "q": "What should you do if the weather changes on a hike?",
+            "a": "Turn around and return to safety immediately"
+          }
+        ],
+        "important_note": "Always hike with a responsible adult and inform others of your planned route.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Safe+Hiking+Basics+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Camping Basics",
+        "grade_range": "6-9",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Set up a simple tent",
+          "Stay safe and warm overnight outdoors",
+          "Follow campsite rules and leave no trace"
+        ],
+        "key_steps": [
+          "Choose a flat, sheltered campsite away from water",
+          "Set up tent: insert poles, clip on body, peg out guy ropes",
+          "Sleep in layers: moisture-wicking base, warm mid, wind-resistant shell",
+          "Keep food sealed to avoid attracting wildlife",
+          "Leave no trace: bury waste, pack litter"
+        ],
+        "practice_activities": [
+          "Set up a tent in the garden with adult supervision",
+          "Practise packing a camping bag with the right layers"
+        ],
+        "quiz": [
+          {
+            "q": "Where should you not set up a tent?",
+            "a": "In a low-lying area prone to flooding or under dead trees"
+          },
+          {
+            "q": "Why seal food when camping?",
+            "a": "To avoid attracting animals to your campsite"
+          }
+        ],
+        "important_note": "Always camp with experienced adults and inform others of your location.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Camping+Basics+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Wildlife Awareness",
+        "grade_range": "4-8",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Identify common local wildlife",
+          "Know safe distances from wild animals",
+          "Respond calmly to wildlife encounters"
+        ],
+        "key_steps": [
+          "Observe wildlife from a distance — never feed wild animals",
+          "Make noise on trails to avoid surprising animals",
+          "If confronted by a large animal: stay calm, back away slowly, do not run",
+          "Recognise local hazardous plants and insects",
+          "Never handle an unknown animal — even if it appears tame"
+        ],
+        "practice_activities": [
+          "Research local wildlife that live in your region",
+          "Visit a nature park and practise identifying animals from a distance"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do if you encounter a large wild animal?",
+            "a": "Stay calm, back away slowly, do not run or make sudden movements"
+          },
+          {
+            "q": "Why should you never feed wild animals?",
+            "a": "It makes them dependent on humans and can make them aggressive"
+          }
+        ],
+        "important_note": "Enjoy wildlife from a respectful distance — do not disturb natural behaviours.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Wildlife+Awareness+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      },
+      {
+        "name": "Basic Rope Knots",
+        "grade_range": "5-9",
+        "category": "outdoor_and_navigation",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Tie three essential knots correctly",
+          "Know what each knot is used for",
+          "Untie knots safely"
+        ],
+        "key_steps": [
+          "Square knot: joining two ropes of equal thickness",
+          "Bowline: making a fixed loop",
+          "Cleat hitch: securing a rope to a post",
+          "Practise each knot until fluent from memory"
+        ],
+        "practice_activities": [
+          "Practise each knot 5 times until you can tie them without instructions",
+          "Use rope to practise hanging a simple tarp shelter"
+        ],
+        "quiz": [
+          {
+            "q": "What is a bowline knot used for?",
+            "a": "Making a fixed loop that does not slip"
+          },
+          {
+            "q": "What is a square knot used for?",
+            "a": "Joining two ropes of equal thickness together"
+          }
+        ],
+        "important_note": "Practise knots with adult supervision — rope safety is important.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Basic+Rope+Knots+outdoor+survival+skills+navigation+for+kids",
+          "text_link": "https://www.scouts.org.uk/activities/",
+          "resource_link": "https://www.nationalgeographic.com/adventure/article/survival-skills",
+          "video_search_general": "https://www.youtube.com/results?search_query=outdoor+survival+skills+navigation+for+kids"
+        }
+      }
+    ],
+    "health_and_hygiene": [
+      {
+        "name": "Handwashing and Hygiene",
+        "grade_range": "1-4",
+        "category": "health_and_hygiene",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Wash hands correctly using 7 steps",
+          "Know when to wash hands",
+          "Understand how germs spread"
+        ],
+        "key_steps": [
+          "Wet hands with clean water",
+          "Apply soap and lather for 20 seconds",
+          "Scrub all surfaces including between fingers and thumbs",
+          "Rinse thoroughly",
+          "Dry with a clean towel or air dry",
+          "Wash before eating, after toilet, after touching animals, after sneezing"
+        ],
+        "practice_activities": [
+          "Practise 7-step handwashing technique",
+          "Time yourself: 20 seconds of scrubbing"
+        ],
+        "quiz": [
+          {
+            "q": "How long should you scrub your hands with soap?",
+            "a": "At least 20 seconds"
+          },
+          {
+            "q": "Name two times you should wash your hands.",
+            "a": "Before eating, after using the toilet, after touching animals, after sneezing (any two)"
+          }
+        ],
+        "important_note": "Proper handwashing is one of the most effective ways to prevent illness.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Handwashing+and+Hygiene+health+hygiene+for+kids+healthy+habits",
+          "text_link": "https://www.who.int/health-topics/hand-hygiene",
+          "resource_link": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=health+hygiene+for+kids+healthy+habits"
+        }
+      },
+      {
+        "name": "Food Safety and Storage",
+        "grade_range": "4-7",
+        "category": "health_and_hygiene",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify safe food storage temperatures",
+          "Recognise signs of spoiled food",
+          "Handle raw and cooked food safely"
+        ],
+        "key_steps": [
+          "Keep fridge below 5°C and freezer below -18°C",
+          "Store raw meat on the bottom shelf of the fridge",
+          "Never leave cooked food at room temperature for more than 2 hours",
+          "Signs of spoilage: mould, unusual smell, slimy texture, swollen packaging",
+          "Wash hands and surfaces before and after handling raw meat"
+        ],
+        "practice_activities": [
+          "Check fridge temperature at home",
+          "Identify which items in a fridge are correctly stored"
+        ],
+        "quiz": [
+          {
+            "q": "What temperature should a fridge be kept at?",
+            "a": "Below 5°C"
+          },
+          {
+            "q": "Name one sign that food may be spoiled.",
+            "a": "Mould, unusual smell, slimy texture, or swollen packaging"
+          }
+        ],
+        "important_note": "When in doubt, throw it out — food poisoning can be very serious.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Food+Safety+and+Storage+health+hygiene+for+kids+healthy+habits",
+          "text_link": "https://www.who.int/health-topics/hand-hygiene",
+          "resource_link": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=health+hygiene+for+kids+healthy+habits"
+        }
+      },
+      {
+        "name": "Hygiene in Emergencies",
+        "grade_range": "4-8",
+        "category": "health_and_hygiene",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Maintain hygiene when normal facilities are unavailable",
+          "Purify water when clean water is unavailable",
+          "Prevent disease spread in emergency conditions"
+        ],
+        "key_steps": [
+          "Use hand sanitiser if soap and water unavailable",
+          "Use wet wipes to clean wounds if running water is not available",
+          "Dispose of waste safely away from water sources and sleeping areas",
+          "Signal for help rather than trying to find food or water in unknown terrain",
+          "Boil water if uncertain about safety (adult required)"
+        ],
+        "practice_activities": [
+          "Pack a hygiene kit for emergency use (list items with a parent)",
+          "Practise waterless handwashing with hand sanitiser"
+        ],
+        "quiz": [
+          {
+            "q": "What can you use to clean hands when there is no water?",
+            "a": "Alcohol-based hand sanitiser (at least 60% alcohol)"
+          },
+          {
+            "q": "Where should you dispose of waste in an emergency outdoor situation?",
+            "a": "At least 60 metres from water sources and sleeping areas"
+          }
+        ],
+        "important_note": "Good hygiene prevents disease which is a leading cause of harm in emergencies.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Hygiene+in+Emergencies+health+hygiene+for+kids+healthy+habits",
+          "text_link": "https://www.who.int/health-topics/hand-hygiene",
+          "resource_link": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=health+hygiene+for+kids+healthy+habits"
+        }
+      },
+      {
+        "name": "Insect and Animal Bite Safety",
+        "grade_range": "3-7",
+        "category": "health_and_hygiene",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify common dangerous insects and animals in your region",
+          "Treat minor insect bites and stings correctly",
+          "Know when to seek medical help"
+        ],
+        "key_steps": [
+          "Bee sting: remove stinger by scraping (not squeezing), wash, apply ice",
+          "Mosquito: apply repellent, wear long sleeves at dusk",
+          "Tick: use tweezers to remove close to skin, clean area, monitor for rash",
+          "Jellyfish: rinse with seawater (not fresh water), apply heat",
+          "Seek medical help if: severe swelling, difficulty breathing, unknown bite"
+        ],
+        "practice_activities": [
+          "Identify local insects that require caution",
+          "Practise removing a simulated tick with tweezers"
+        ],
+        "quiz": [
+          {
+            "q": "How do you remove a bee stinger?",
+            "a": "Scrape it out sideways — do not squeeze it"
+          },
+          {
+            "q": "When must you seek medical help after a bite?",
+            "a": "Severe swelling, difficulty breathing, or an unknown bite"
+          }
+        ],
+        "important_note": "For severe allergic reactions (anaphylaxis), call emergency services immediately.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Insect+and+Animal+Bite+Safety+health+hygiene+for+kids+healthy+habits",
+          "text_link": "https://www.who.int/health-topics/hand-hygiene",
+          "resource_link": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=health+hygiene+for+kids+healthy+habits"
+        }
+      },
+      {
+        "name": "Backpack Preparation for Emergencies",
+        "grade_range": "4-8",
+        "category": "health_and_hygiene",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Pack a grab bag for evacuation",
+          "Prioritise essential items",
+          "Maintain and update the bag regularly"
+        ],
+        "key_steps": [
+          "Bag: sturdy, comfortable backpack",
+          "Water bottle and purification tablets",
+          "3 days of non-perishable snacks",
+          "Basic first aid kit",
+          "Torch and spare batteries",
+          "Phone charger (power bank)",
+          "Spare clothing and rain cover",
+          "Copy of emergency contacts and ID"
+        ],
+        "practice_activities": [
+          "Pack a real grab bag at home with a parent",
+          "Review and update contents every 6 months"
+        ],
+        "quiz": [
+          {
+            "q": "What is a 'grab bag'?",
+            "a": "A pre-packed backpack containing essentials for emergency evacuation"
+          },
+          {
+            "q": "How often should you update your grab bag?",
+            "a": "Every 6 months — check food expiry and battery condition"
+          }
+        ],
+        "important_note": "Keep your grab bag near the main exit so it is easy to take when leaving quickly.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Backpack+Preparation+for+Emergencies+health+hygiene+for+kids+healthy+habits",
+          "text_link": "https://www.who.int/health-topics/hand-hygiene",
+          "resource_link": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+          "video_search_general": "https://www.youtube.com/results?search_query=health+hygiene+for+kids+healthy+habits"
+        }
+      }
+    ],
+    "home_and_road_safety": [
+      {
+        "name": "Road Safety Basics",
+        "grade_range": "1-4",
+        "category": "home_and_road_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Cross roads safely",
+          "Identify road hazards",
+          "Understand traffic signals"
+        ],
+        "key_steps": [
+          "Always use a crossing or pedestrian crossing",
+          "Look right-left-right before crossing (left-right-left if driving on right)",
+          "Make eye contact with drivers before crossing",
+          "Never use phones while crossing",
+          "Understand: green man = cross, red man = wait"
+        ],
+        "practice_activities": [
+          "Practise road crossing with a parent at a real crossing",
+          "Identify safe crossing points in your local area"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do before stepping onto the road?",
+            "a": "Look right, left, right (or left, right, left depending on country) and check all vehicles have stopped"
+          },
+          {
+            "q": "What does the red traffic light mean?",
+            "a": "Stop — vehicles must wait"
+          }
+        ],
+        "important_note": "Always cross with an adult until you are confident in road safety.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Road+Safety+Basics+home+safety+road+safety+for+children",
+          "text_link": "https://www.rospa.com/road-safety/advice/child-safety",
+          "resource_link": "https://www.nhs.uk/live-well/healthy-body/safety-in-the-home/",
+          "video_search_general": "https://www.youtube.com/results?search_query=home+safety+road+safety+for+children"
+        }
+      },
+      {
+        "name": "Bicycle Safety",
+        "grade_range": "3-7",
+        "category": "home_and_road_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Wear a properly fitted helmet",
+          "Follow road rules on a bicycle",
+          "Be visible to drivers"
+        ],
+        "key_steps": [
+          "Always wear a correctly fitted helmet",
+          "Check brakes and tyres before riding",
+          "Ride on the correct side of the road",
+          "Use hand signals for turning",
+          "Wear bright or reflective clothing",
+          "Use lights when riding in low light"
+        ],
+        "practice_activities": [
+          "Fit a helmet correctly with a parent",
+          "Practise hand signals for left and right turn"
+        ],
+        "quiz": [
+          {
+            "q": "Why must you wear a helmet when cycling?",
+            "a": "It protects your head from serious injury in a fall or collision"
+          },
+          {
+            "q": "What hand signal means 'I am turning left'?",
+            "a": "Extend left arm straight out to the side"
+          }
+        ],
+        "important_note": "Always cycle with adult supervision until you demonstrate road safety competence.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Bicycle+Safety+home+safety+road+safety+for+children",
+          "text_link": "https://www.rospa.com/road-safety/advice/child-safety",
+          "resource_link": "https://www.nhs.uk/live-well/healthy-body/safety-in-the-home/",
+          "video_search_general": "https://www.youtube.com/results?search_query=home+safety+road+safety+for+children"
+        }
+      },
+      {
+        "name": "Home Safety Hazard Check",
+        "grade_range": "2-5",
+        "category": "home_and_road_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Identify common home hazards",
+          "Report hazards to an adult",
+          "Understand how accidents happen at home"
+        ],
+        "key_steps": [
+          "Trip hazards: loose rugs, cluttered stairways, cables across walkways",
+          "Electrical: never use devices near water, do not overload sockets",
+          "Kitchen: hot surfaces, sharp knives — always ask adult",
+          "Chemicals: keep cleaning products out of reach and locked",
+          "Window safety: do not climb on furniture near windows"
+        ],
+        "practice_activities": [
+          "Walk through your home with a parent and identify 5 hazards",
+          "Create a home hazard checklist"
+        ],
+        "quiz": [
+          {
+            "q": "Name two home trip hazards.",
+            "a": "Loose rugs, cluttered stairways, cables on the floor (any two)"
+          },
+          {
+            "q": "Why should cleaning products be stored in a locked cupboard?",
+            "a": "They are toxic and dangerous if swallowed or touched by young children"
+          }
+        ],
+        "important_note": "Most home accidents are preventable — regular safety checks save lives.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Home+Safety+Hazard+Check+home+safety+road+safety+for+children",
+          "text_link": "https://www.rospa.com/road-safety/advice/child-safety",
+          "resource_link": "https://www.nhs.uk/live-well/healthy-body/safety-in-the-home/",
+          "video_search_general": "https://www.youtube.com/results?search_query=home+safety+road+safety+for+children"
+        }
+      },
+      {
+        "name": "Public Transport Safety",
+        "grade_range": "3-7",
+        "category": "home_and_road_safety",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Travel safely on public transport",
+          "Know what to do if separated from a group",
+          "Stay alert to surroundings"
+        ],
+        "key_steps": [
+          "Wait behind the yellow line on platforms",
+          "Let passengers exit before boarding",
+          "Hold a fixed support while the vehicle is moving",
+          "Keep bag in front and valuables out of sight",
+          "Know your stop in advance",
+          "If lost: find a station staff member or uniformed officer"
+        ],
+        "practice_activities": [
+          "Plan a journey using a local transport map",
+          "Practise identifying safe waiting areas at a bus stop or station"
+        ],
+        "quiz": [
+          {
+            "q": "Where should you stand while waiting for a train or bus?",
+            "a": "Behind the safety line, away from the edge"
+          },
+          {
+            "q": "What should you do if you get separated from your group on public transport?",
+            "a": "Stay at the last stop, find station staff, or call a trusted adult"
+          }
+        ],
+        "important_note": "Share your travel plan with a trusted adult before travelling.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Public+Transport+Safety+home+safety+road+safety+for+children",
+          "text_link": "https://www.rospa.com/road-safety/advice/child-safety",
+          "resource_link": "https://www.nhs.uk/live-well/healthy-body/safety-in-the-home/",
+          "video_search_general": "https://www.youtube.com/results?search_query=home+safety+road+safety+for+children"
+        }
+      },
+      {
+        "name": "Water Safety",
+        "grade_range": "2-7",
+        "category": "home_and_road_safety",
+        "adult_supervision_required": true,
+        "learning_objectives": [
+          "Know safe swimming rules",
+          "Recognise drowning signs",
+          "Respond safely to a water emergency"
+        ],
+        "key_steps": [
+          "Never swim alone",
+          "Only swim in supervised areas with lifeguards",
+          "If someone is in trouble: throw, don't go (throw a rope, ring, or float)",
+          "Call emergency services immediately",
+          "Learn to float on your back to conserve energy if struggling in water"
+        ],
+        "practice_activities": [
+          "Practise floating on your back in a swimming pool with adult supervision",
+          "Identify safety equipment at your local pool or beach"
+        ],
+        "quiz": [
+          {
+            "q": "What should you do if you see someone in trouble in the water?",
+            "a": "Throw something that floats, call for help — do not jump in"
+          },
+          {
+            "q": "What swimming technique helps you conserve energy if you are tired in water?",
+            "a": "Floating on your back"
+          }
+        ],
+        "important_note": "Always swim with adult supervision and follow lifeguard instructions.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Water+Safety+home+safety+road+safety+for+children",
+          "text_link": "https://www.rospa.com/road-safety/advice/child-safety",
+          "resource_link": "https://www.nhs.uk/live-well/healthy-body/safety-in-the-home/",
+          "video_search_general": "https://www.youtube.com/results?search_query=home+safety+road+safety+for+children"
+        }
+      }
+    ],
+    "mental_resilience": [
+      {
+        "name": "Managing Stress",
+        "grade_range": "5-9",
+        "category": "mental_resilience",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Identify personal stress triggers",
+          "Use three stress-management techniques",
+          "Build a personal stress toolkit"
+        ],
+        "key_steps": [
+          "Identify: what makes you feel stressed?",
+          "Technique 1: deep breathing (4-4-4)",
+          "Technique 2: progressive muscle relaxation (tense and release)",
+          "Technique 3: physical activity — walk, run, stretch",
+          "Write or draw about stressful feelings to process them"
+        ],
+        "practice_activities": [
+          "Keep a 1-week stress journal",
+          "Practise one stress-management technique each day"
+        ],
+        "quiz": [
+          {
+            "q": "Name two signs of stress.",
+            "a": "Headache, irritability, difficulty sleeping, stomach ache, worry"
+          },
+          {
+            "q": "Name one healthy stress management technique.",
+            "a": "Deep breathing, exercise, journalling, talking to someone (any one)"
+          }
+        ],
+        "important_note": "Stress is normal — what matters is how you manage it.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Managing+Stress+mental+resilience+mindfulness+for+kids+stress+management",
+          "text_link": "https://www.youngminds.org.uk/young-person/",
+          "resource_link": "https://www.mindful.org/mindfulness-for-kids/",
+          "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
+        }
+      },
+      {
+        "name": "Emotional Regulation",
+        "grade_range": "4-8",
+        "category": "mental_resilience",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Name and identify emotions",
+          "Use the pause-breathe-respond strategy",
+          "Choose a healthy response to strong emotions"
+        ],
+        "key_steps": [
+          "Identify emotions: angry, anxious, sad, overwhelmed",
+          "Pause: recognise the emotion before acting",
+          "Breathe: use 4-4-4 breathing to create space",
+          "Respond: choose a healthy action rather than reacting impulsively",
+          "Talk to a trusted adult if emotions feel overwhelming"
+        ],
+        "practice_activities": [
+          "Emotion check-in each morning this week",
+          "Practise the pause-breathe-respond sequence with a partner"
+        ],
+        "quiz": [
+          {
+            "q": "What is the pause-breathe-respond sequence?",
+            "a": "Pause to recognise the emotion, breathe to calm down, then choose a thoughtful response"
+          },
+          {
+            "q": "Who should you talk to if emotions feel overwhelming?",
+            "a": "A trusted adult: parent, teacher, or school counsellor"
+          }
+        ],
+        "important_note": "All emotions are valid — it is what you do with them that matters.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Emotional+Regulation+mental+resilience+mindfulness+for+kids+stress+management",
+          "text_link": "https://www.youngminds.org.uk/young-person/",
+          "resource_link": "https://www.mindful.org/mindfulness-for-kids/",
+          "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
+        }
+      },
+      {
+        "name": "Seeking Help and Building Support",
+        "grade_range": "5-10",
+        "category": "mental_resilience",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Identify people to ask for help",
+          "Understand that asking for help is strength not weakness",
+          "Know where to get help in different situations"
+        ],
+        "key_steps": [
+          "Build your support network: list trusted people you can talk to",
+          "Understand that struggling is normal and seeking help is brave",
+          "Different help for different problems: teacher, parent, counsellor, helpline",
+          "Know your country's youth helpline number"
+        ],
+        "practice_activities": [
+          "Draw your support network: family, friends, teachers, community",
+          "Practise asking for help in a low-stakes situation this week"
+        ],
+        "quiz": [
+          {
+            "q": "Is asking for help a sign of weakness?",
+            "a": "No — asking for help is a sign of courage and self-awareness"
+          },
+          {
+            "q": "Who can you turn to if you feel unsafe or very upset?",
+            "a": "Parent, trusted teacher, school counsellor, or a youth helpline"
+          }
+        ],
+        "important_note": "You do not need to handle everything alone — support is always available.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Seeking+Help+and+Building+Support+mental+resilience+mindfulness+for+kids+stress+management",
+          "text_link": "https://www.youngminds.org.uk/young-person/",
+          "resource_link": "https://www.mindful.org/mindfulness-for-kids/",
+          "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
+        }
+      },
+      {
+        "name": "Teamwork in Emergency Situations",
+        "grade_range": "4-9",
+        "category": "mental_resilience",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Communicate clearly under pressure",
+          "Assign roles within a group",
+          "Trust and support team members"
+        ],
+        "key_steps": [
+          "Clear communication: say what you see, say what you need",
+          "Assign roles: one calls for help, one monitors the situation, one provides first aid if trained",
+          "Stay calm: panic spreads — focused calm is contagious",
+          "Debrief after the emergency to learn from the experience"
+        ],
+        "practice_activities": [
+          "Role-play an emergency response with classmates",
+          "Assign roles and practise clear communication under a simulated scenario"
+        ],
+        "quiz": [
+          {
+            "q": "Why is clear communication important in an emergency?",
+            "a": "It prevents confusion and ensures everyone acts on the same information"
+          },
+          {
+            "q": "What is debriefing?",
+            "a": "Discussing what happened after an event to learn and improve"
+          }
+        ],
+        "important_note": "A calm leader improves outcomes for everyone in an emergency.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Teamwork+in+Emergency+Situations+mental+resilience+mindfulness+for+kids+stress+management",
+          "text_link": "https://www.youngminds.org.uk/young-person/",
+          "resource_link": "https://www.mindful.org/mindfulness-for-kids/",
+          "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
+        }
+      },
+      {
+        "name": "Building Resilience and Coping with Failure",
+        "grade_range": "5-10",
+        "category": "mental_resilience",
+        "adult_supervision_required": false,
+        "learning_objectives": [
+          "Understand that failure is part of learning",
+          "Use a growth mindset to reframe setbacks",
+          "Build personal resilience habits"
+        ],
+        "key_steps": [
+          "Define resilience: bouncing back from setbacks",
+          "Growth mindset: 'I cannot do this YET' — effort changes ability",
+          "Reframe failure: what did I learn? What will I do differently?",
+          "Build habits: sleep, exercise, connection, purpose",
+          "Reflect on a past challenge you overcame — what helped?"
+        ],
+        "practice_activities": [
+          "Write about a time you failed and what you learned",
+          "Create a personal resilience action plan"
+        ],
+        "quiz": [
+          {
+            "q": "What is a growth mindset?",
+            "a": "The belief that abilities can be developed through effort and learning"
+          },
+          {
+            "q": "Name two habits that build resilience.",
+            "a": "Regular sleep, exercise, social connection, mindfulness, purposeful goals (any two)"
+          }
+        ],
+        "important_note": "Every expert was once a beginner — resilience is built one challenge at a time.",
+        "progress_tracking": {
+          "completion_required": true,
+          "min_quiz_score": 70
+        },
+        "links": {
+          "video_link": "https://www.youtube.com/results?search_query=Building+Resilience+and+Coping+with+Failure+mental+resilience+mindfulness+for+kids+stress+management",
+          "text_link": "https://www.youngminds.org.uk/young-person/",
+          "resource_link": "https://www.mindful.org/mindfulness-for-kids/",
+          "video_search_general": "https://www.youtube.com/results?search_query=mental+resilience+mindfulness+for+kids+stress+management"
+        }
+      }
+    ]
+  }
+}
