@@ -120,6 +120,30 @@ def _epa() -> str:
     return "https://www.epa.gov/environmental-topics"
 
 
+def _python_docs() -> str:
+    return "https://docs.python.org/3/"
+
+
+def _r_project() -> str:
+    return "https://www.r-project.org/"
+
+
+def _mdn_search(topic: str) -> str:
+    return "https://developer.mozilla.org/en-US/search?q=" + quote_plus(topic)
+
+
+def _anthropic_prompting_guide() -> str:
+    return "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+
+
+def _smarthistory_search(topic: str) -> str:
+    return "https://smarthistory.org/?s=" + quote_plus(topic)
+
+
+def _kaggle_search(topic: str) -> str:
+    return "https://www.kaggle.com/search?q=" + quote_plus(topic)
+
+
 # ─── External course-provider integration (search/catalog links only) ──────
 # No login or personal account is used or required here -- these are honest,
 # always-real catalog/search URLs on each provider's own site. There is no
@@ -372,6 +396,240 @@ FLAGSHIP_MODULES: dict[str, list[tuple[str, str]]] = {
         ("Advanced Agile Scaling", "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."),
         ("Project Management Capstone", "Planning and managing a complete project from charter to closure."),
     ],
+    "Economics": [
+        ("Introduction to Economics", "Scarcity, opportunity cost, and the basic questions every economy must answer."),
+        ("Supply and Demand", "How prices emerge from the interaction of buyers and sellers in a market."),
+        ("Elasticity", "Measuring how responsive quantity demanded/supplied is to price and other changes."),
+        ("Market Structures", "Perfect competition, monopoly, oligopoly, and monopolistic competition."),
+        ("Consumer & Producer Theory", "Utility maximization and cost/profit-maximizing production decisions."),
+        ("Macroeconomic Indicators", "GDP, unemployment, and inflation as measures of an economy's health."),
+        ("Aggregate Demand & Supply", "Modelling the whole economy's output and price level together."),
+        ("Fiscal Policy", "How government spending and taxation influence the economy."),
+        ("Monetary Policy", "How central banks use interest rates and money supply to manage the economy."),
+        ("International Trade", "Comparative advantage and the gains and costs of trading across borders."),
+        ("Exchange Rates & the Balance of Payments", "How currencies are valued and how international accounts balance."),
+        ("Behavioral Economics", "How real human decision-making departs from purely rational models."),
+        ("Development Economics", "Why some economies grow faster than others, and how policy can help."),
+        ("Econometrics Fundamentals", "Using statistical methods to test economic theories against real data."),
+        ("Game Theory in Economics", "Strategic decision-making between competing economic actors."),
+        ("Economics Capstone & Research Methods", "Designing and conducting an original piece of economic research."),
+    ],
+    "Finance": [
+        ("Personal Finance Fundamentals", "Budgeting, saving, and the time value of money."),
+        ("Financial Statements", "Reading a balance sheet, income statement, and cash flow statement."),
+        ("Time Value of Money", "Present value, future value, and discounting cash flows."),
+        ("Risk and Return", "The trade-off between expected return and the risk investors must accept."),
+        ("Corporate Finance Fundamentals", "How firms raise, allocate, and manage capital."),
+        ("Capital Budgeting", "Evaluating whether a company's investment projects create value (NPV, IRR)."),
+        ("Cost of Capital", "Estimating the return a company must earn to satisfy its investors."),
+        ("Equity Markets", "How stocks are issued, traded, and valued."),
+        ("Fixed Income & Bonds", "How bonds are priced and what drives interest rate risk."),
+        ("Portfolio Theory", "Diversification and the trade-off between risk and return across assets."),
+        ("Derivatives Fundamentals", "Options, futures, and how they are used to hedge or speculate."),
+        ("Financial Markets & Institutions", "How banks, exchanges, and regulators shape the financial system."),
+        ("Valuation Methods", "Discounted cash flow and comparable-company approaches to valuing a business."),
+        ("Behavioral Finance", "How psychology and bias affect investor and market behaviour."),
+        ("Financial Risk Management", "Identifying, measuring, and mitigating financial risk in an organization."),
+        ("Finance Capstone", "Building a complete valuation or investment analysis for a real company."),
+    ],
+    "Philosophy": [
+        ("Introduction to Philosophy", "What philosophy is, and its major branches (metaphysics, epistemology, ethics, logic)."),
+        ("Logic & Argumentation", "Constructing and evaluating valid arguments."),
+        ("Ancient Philosophy", "Socrates, Plato, and Aristotle's foundational questions about knowledge and the good life."),
+        ("Medieval Philosophy", "How Augustine, Aquinas, and others reconciled faith and reason."),
+        ("Modern Philosophy", "Descartes, Locke, Hume, and Kant on knowledge, mind, and reality."),
+        ("Ethics: Consequentialism & Deontology", "Comparing outcome-based and duty-based moral theories."),
+        ("Virtue Ethics", "Character and flourishing as the basis of ethical life, from Aristotle onward."),
+        ("Political Philosophy", "Justice, authority, and the legitimate basis of the state."),
+        ("Epistemology", "What knowledge is, and how (if at all) we can be justified in our beliefs."),
+        ("Metaphysics", "The nature of reality, existence, causation, and identity."),
+        ("Philosophy of Mind", "Consciousness, the mind-body problem, and personal identity."),
+        ("Philosophy of Science", "What makes a theory scientific, and how scientific knowledge progresses."),
+        ("Existentialism", "Freedom, authenticity, and meaning in a world without given purpose."),
+        ("Applied Ethics", "Philosophy applied to real dilemmas in medicine, technology, business, and the environment."),
+        ("Contemporary Philosophy", "Major 20th/21st-century movements and debates."),
+        ("Philosophy Capstone", "An original philosophical essay defending a thesis with rigorous argument."),
+    ],
+    "Art History": [
+        ("Introduction to Art History", "How art historians analyze and interpret visual works across time."),
+        ("Prehistoric & Ancient Art", "Cave paintings through Egyptian, Greek, and Roman art."),
+        ("Medieval Art", "Byzantine, Romanesque, and Gothic art and architecture."),
+        ("Renaissance Art", "The rebirth of classical ideals in Italy and Northern Europe."),
+        ("Baroque & Rococo Art", "Drama, movement, and ornamentation in 17th-18th century art."),
+        ("19th-Century Art", "Romanticism, Realism, and the birth of Impressionism."),
+        ("Modern Art Movements", "Cubism, Surrealism, and Expressionism in the early 20th century."),
+        ("Contemporary Art", "Art since 1945, from Abstract Expressionism to conceptual art."),
+        ("Non-Western Art Traditions", "Art historical traditions of Asia, Africa, and the Americas."),
+        ("Islamic Art & Architecture", "Calligraphy, geometric pattern, and architecture across the Islamic world."),
+        ("Art and Patronage", "How churches, courts, and collectors shaped what art was made."),
+        ("Art Criticism & Theory", "Frameworks for interpreting meaning and value in art."),
+        ("Museums & Curation", "How museums collect, preserve, and present art to the public."),
+        ("Art Markets & Provenance", "How art is bought, sold, authenticated, and traced through history."),
+        ("Digital Art History", "Using digital tools and databases in art historical research."),
+        ("Art History Capstone", "An original research paper analyzing a work or movement in depth."),
+    ],
+    "Python": [
+        ("Python Fundamentals", "Variables, data types, and basic operators."),
+        ("Control Flow & Functions", "Conditionals, loops, and writing reusable functions."),
+        ("Data Structures in Python", "Lists, dictionaries, sets, and tuples."),
+        ("Object-Oriented Python", "Classes, objects, inheritance, and encapsulation."),
+        ("File I/O & Error Handling", "Reading/writing files and handling exceptions gracefully."),
+        ("Python Standard Library", "Common built-in modules for everyday tasks."),
+        ("Working with Data Libraries", "Introduction to NumPy and pandas for data manipulation."),
+        ("APIs & Web Requests in Python", "Fetching and working with data from web APIs."),
+        ("Testing in Python", "Writing unit tests with pytest/unittest."),
+        ("Automation & Scripting", "Using Python to automate repetitive tasks."),
+        ("Python for Data Analysis", "Cleaning, analyzing, and visualizing data with pandas/matplotlib."),
+        ("Python Web Development Basics", "Building a simple web app with Flask or Django."),
+        ("Advanced Python", "Decorators, generators, and context managers."),
+        ("Packaging & Virtual Environments", "Managing dependencies and distributing Python code."),
+        ("Concurrency in Python", "Threading, multiprocessing, and async I/O."),
+        ("Python Capstone Project", "Designing and building a complete Python application."),
+    ],
+    "R": [
+        ("R Fundamentals & RStudio", "Getting started with R syntax and the RStudio environment."),
+        ("Vectors & Data Types", "R's core data types and vectorized operations."),
+        ("Data Frames & the Tidyverse", "Working with tabular data using tidyverse conventions."),
+        ("Data Visualization with ggplot2", "Building publication-quality plots layer by layer."),
+        ("Data Wrangling with dplyr", "Filtering, transforming, and summarizing data efficiently."),
+        ("Statistical Analysis in R", "Running and interpreting common statistical tests."),
+        ("R Markdown & Reporting", "Combining code, output, and narrative in reproducible reports."),
+        ("Functions & Control Flow in R", "Writing custom functions and control structures."),
+        ("Working with CRAN Packages", "Finding, installing, and using R's package ecosystem."),
+        ("R for Machine Learning", "Building predictive models using R's ML packages."),
+        ("Time Series Analysis in R", "Modelling and forecasting time-dependent data."),
+        ("Shiny Web Apps", "Building interactive data applications with Shiny."),
+        ("R for Specialized Domains", "Applying R in fields like bioinformatics or econometrics."),
+        ("Debugging & Testing in R", "Finding and fixing bugs, and testing R code."),
+        ("Advanced R Programming", "Functional programming and performance in R."),
+        ("R Capstone Data Analysis Project", "An end-to-end data analysis project in R."),
+    ],
+    "JavaScript": [
+        ("JavaScript Fundamentals", "Variables, types, and operators in JavaScript."),
+        ("Functions & Scope", "Function declarations, closures, and variable scope."),
+        ("Arrays & Objects", "JavaScript's core data structures and their methods."),
+        ("DOM Manipulation", "Reading and updating a web page dynamically."),
+        ("Asynchronous JavaScript", "Callbacks, promises, and async/await."),
+        ("Modern JavaScript (ES6+)", "Arrow functions, destructuring, and other modern syntax."),
+        ("Error Handling & Debugging", "Catching errors and debugging JavaScript effectively."),
+        ("Modules & Bundling", "Organizing code into modules and bundling it for production."),
+        ("Node.js Fundamentals", "Running JavaScript outside the browser on the server."),
+        ("Working with APIs", "Fetching and handling JSON data from web APIs."),
+        ("Frontend Frameworks Overview", "Comparing React, Vue, and Angular at a conceptual level."),
+        ("TypeScript Basics", "Adding static types to JavaScript for safer code."),
+        ("Testing JavaScript", "Writing unit and integration tests for JS code."),
+        ("Build Tools & Package Managers", "npm/yarn and bundlers like Vite/webpack."),
+        ("Advanced JavaScript Patterns", "Design patterns and performance techniques in JS."),
+        ("JavaScript Capstone Project", "Building and deploying a complete JavaScript application."),
+    ],
+    "Prompt Engineering": [
+        ("Introduction to Prompt Engineering", "Why the way you ask an AI model matters as much as what you ask."),
+        ("How LLMs Interpret Prompts", "A conceptual model of how language models process instructions."),
+        ("Zero-Shot & Few-Shot Prompting", "Getting good results with no examples versus a few examples."),
+        ("Chain-of-Thought Prompting", "Encouraging step-by-step reasoning for better answers."),
+        ("Role & Persona Prompting", "Shaping model behaviour by assigning it a role or persona."),
+        ("Prompt Templates & Reusability", "Designing reusable prompt structures for repeated tasks."),
+        ("System Prompts vs User Prompts", "How different prompt roles shape model behaviour."),
+        ("Structured Output Prompting", "Getting reliable JSON or other structured formats from a model."),
+        ("Prompt Chaining & Pipelines", "Breaking a complex task into a sequence of connected prompts."),
+        ("Retrieval-Augmented Prompting", "Grounding prompts in real documents to reduce hallucination."),
+        ("Evaluating Prompt Quality", "Systematically testing and comparing different prompts."),
+        ("Prompt Injection & Security", "Understanding and defending against adversarial prompt manipulation."),
+        ("Prompt Engineering for Coding Tasks", "Effective prompting patterns for code generation and review."),
+        ("Prompt Engineering for Creative Tasks", "Prompting for writing, brainstorming, and creative work."),
+        ("Advanced Agentic Prompting", "Prompting patterns for multi-step, tool-using AI agents."),
+        ("Prompt Engineering Capstone", "Building a tested prompt library for a real application."),
+    ],
+    "Computer Science Engineering": [
+        ("Introduction to Computer Science Engineering", "The discipline's scope, from hardware to software systems."),
+        ("Data Structures & Algorithms", "Core structures and algorithms every CSE program covers."),
+        ("Computer Organization & Architecture", "How a CPU, memory, and I/O systems actually work."),
+        ("Discrete Mathematics for CSE", "Logic, set theory, and combinatorics underlying computer science."),
+        ("Operating Systems", "Processes, memory management, and how an OS manages hardware."),
+        ("Computer Networks", "How data moves reliably across networks including the Internet."),
+        ("Database Systems", "Relational models, SQL, and transaction management."),
+        ("Software Engineering Principles", "Designing, building, and maintaining large software systems."),
+        ("Theory of Computation", "Automata, formal languages, and the limits of computation."),
+        ("Compiler Design", "How source code is translated into executable machine code."),
+        ("Object-Oriented Design & Patterns", "Structuring maintainable, extensible software."),
+        ("Distributed Systems", "Designing systems that run across many machines reliably."),
+        ("Computer Security Fundamentals", "Core security principles for CSE engineers."),
+        ("Embedded Systems", "Programming hardware-constrained, real-time computing systems."),
+        ("Advanced Algorithms", "Complexity theory and advanced algorithmic design techniques."),
+        ("CSE Capstone Project", "Designing and building a substantial software/systems project."),
+    ],
+    "Big Data": [
+        ("Introduction to Big Data", "The scale, variety, and velocity that define 'big data' problems."),
+        ("The Hadoop Ecosystem", "HDFS and MapReduce for distributed storage and processing."),
+        ("Apache Spark Fundamentals", "In-memory distributed computing for large-scale data."),
+        ("Distributed File Systems", "How data is stored reliably across many machines."),
+        ("NoSQL Databases for Big Data", "Document, key-value, and column-family stores at scale."),
+        ("Data Ingestion Pipelines", "Getting large volumes of data into a big data system reliably."),
+        ("Stream Processing", "Processing data in real time as it arrives (Kafka, Spark Streaming)."),
+        ("Data Lakes & Data Warehouses", "Storing and organizing big data for analysis."),
+        ("Big Data Query Engines", "SQL-on-Hadoop tools for querying huge datasets."),
+        ("Spark SQL & DataFrames", "Structured processing at big-data scale."),
+        ("Machine Learning at Scale", "Training models on datasets too large for a single machine."),
+        ("Big Data Governance & Quality", "Ensuring data is trustworthy, documented, and compliant at scale."),
+        ("Cloud-Based Big Data Platforms", "Managed big data services in the cloud."),
+        ("Big Data Security & Privacy", "Protecting sensitive data across distributed big data systems."),
+        ("Big Data Architecture Design", "Designing end-to-end big data systems for real workloads."),
+        ("Big Data Capstone", "Building an end-to-end big data pipeline for a real dataset."),
+    ],
+    "MBA": [
+        ("Introduction to MBA Studies", "The scope of a business administration education and core disciplines."),
+        ("Managerial Accounting", "Using accounting information to make internal business decisions."),
+        ("Corporate Finance for Managers", "Capital budgeting and financing decisions from a manager's view."),
+        ("Marketing Management", "Segmentation, targeting, positioning, and the marketing mix."),
+        ("Organizational Behavior", "How individuals and groups behave within organizations."),
+        ("Strategic Management", "Analyzing competitive advantage and setting long-term company direction."),
+        ("Business Law & Ethics", "Legal and ethical foundations every manager must understand."),
+        ("Negotiation & Persuasion", "Structured approaches to reaching favorable agreements."),
+        ("Leadership Development", "Theories and practice of effective organizational leadership."),
+        ("Entrepreneurship & New Ventures", "Identifying opportunities and launching new businesses."),
+        ("Global Business Strategy", "Managing operations and strategy across international markets."),
+        ("Business Analytics for Managers", "Using data to support high-stakes managerial decisions."),
+        ("Human Resource Management", "Recruiting, developing, and retaining organizational talent."),
+        ("Corporate Strategy & M&A", "Growth strategy, mergers, and acquisitions at the corporate level."),
+        ("Business Consulting Skills", "Structuring and solving ambiguous business problems."),
+        ("MBA Capstone", "An integrative consulting-style project solving a real business challenge."),
+    ],
+    "Operations Management": [
+        ("Introduction to Operations Management", "How organizations design and manage the processes that create value."),
+        ("Process Design & Analysis", "Mapping and improving business processes."),
+        ("Supply Chain Management", "Coordinating suppliers, production, and distribution."),
+        ("Inventory Management", "Balancing inventory costs against service levels."),
+        ("Quality Management", "Six Sigma, TQM, and systematic approaches to quality."),
+        ("Lean Operations", "Eliminating waste and improving flow in operations."),
+        ("Capacity Planning", "Matching production capacity to demand over time."),
+        ("Project Scheduling", "Sequencing and scheduling work to meet deadlines efficiently."),
+        ("Operations Strategy", "Aligning operational choices with overall business strategy."),
+        ("Logistics & Distribution", "Moving goods efficiently from production to customer."),
+        ("Service Operations Management", "Applying operations principles to service (not just manufacturing) businesses."),
+        ("Sustainability in Operations", "Designing environmentally responsible operations."),
+        ("Operations Analytics", "Using data and models to optimize operational decisions."),
+        ("Global Operations Management", "Managing operations across multiple countries and facilities."),
+        ("Operations Technology & Automation", "Robotics, automation, and digital tools in modern operations."),
+        ("Operations Management Capstone", "Redesigning a real operational process for measurable improvement."),
+    ],
+    "AI Tools": [
+        ("The AI Tools Landscape", "A map of the major categories of practical AI tools available today."),
+        ("Conversational AI Assistants", "Effective everyday use of assistants like Claude, ChatGPT, and Gemini."),
+        ("AI Writing & Productivity Tools", "Using AI to draft, edit, and organize written work."),
+        ("AI Image & Video Generation Tools", "Practical use of generative image and video tools."),
+        ("AI Coding Assistants", "Using tools like GitHub Copilot to accelerate software development."),
+        ("AI Tools for Research & Data Analysis", "Using AI to summarize literature and analyze data faster."),
+        ("No-Code AI App Builders", "Building simple AI-powered applications without traditional coding."),
+        ("AI Tools for Business Workflows", "Integrating AI tools into everyday business processes."),
+        ("Evaluating & Choosing AI Tools", "Criteria for selecting the right AI tool for a task."),
+        ("Ethical & Responsible Use of AI Tools", "Using AI tools honestly, safely, and transparently."),
+        ("AI Tools for Education", "Using AI tools to support learning and teaching."),
+        ("AI Automation & Agents", "Using AI to automate multi-step tasks and workflows."),
+        ("Building Simple AI-Powered Workflows", "Connecting AI tools together to solve a real task."),
+        ("Integrating Multiple AI Tools", "Combining several AI tools into a single working process."),
+        ("The Future of AI Tooling", "Emerging trends in the practical AI tools landscape."),
+        ("AI Tools Capstone", "Assembling and documenting an AI tool stack for a real project."),
+    ],
 }
 
 # ─── Existing subjects: theme ladders (auto-expanded across the 8 levels) ──
@@ -409,13 +667,10 @@ EXISTING_SUBJECT_THEMES: dict[str, list[str]] = {
     "Social Studies": ["Society & Institutions", "Culture & Identity", "Comparative Social Systems", "Social Research Methods"],
     "Environmental Science": ["Ecosystems & Biodiversity", "Climate Science", "Environmental Policy", "Sustainability & Applied Environmental Management"],
     "Physical Education & Self-Defense": ["Fitness Fundamentals", "Applied Self-Defense Technique", "Sports Science", "Coaching & Performance Management"],
-    "Economics": ["Microeconomics Fundamentals", "Macroeconomics Fundamentals", "Applied & Behavioural Economics", "Econometrics & Advanced Economic Theory"],
-    "Finance": ["Personal Finance Fundamentals", "Corporate Finance", "Investment & Portfolio Theory", "Advanced Financial Modelling & Risk"],
     "First Aid": ["Basic First Aid & CPR", "Emergency Response Protocols", "Wilderness & Remote Medicine", "Advanced Life Support Concepts"],
     "Physics": ["Classical Mechanics", "Electricity, Magnetism & Waves", "Modern & Quantum Physics", "Advanced Theoretical Physics"],
     "Chemistry": ["General & Inorganic Chemistry", "Organic Chemistry", "Physical Chemistry", "Advanced & Analytical Chemistry"],
     "Biology": ["Cell & Molecular Biology", "Genetics & Evolution", "Physiology & Anatomy", "Advanced & Systems Biology"],
-    "Philosophy": ["Introduction to Philosophy & Logic", "Ethics & Political Philosophy", "Epistemology & Metaphysics", "Advanced Philosophy of Mind & Science"],
     "Critical Thinking": ["Logic & Argument Structure", "Cognitive Bias & Fallacies", "Evidence Evaluation & Research Literacy", "Applied Decision Analysis"],
     "Civics": ["Government & Constitutions", "Rights, Law & Institutions", "Civic Participation & Public Policy", "Comparative Governance"],
     "Health Education": ["Personal Health & Wellbeing", "Public Health Fundamentals", "Health Systems & Policy", "Advanced Health Science & Epidemiology"],
@@ -433,6 +688,9 @@ RESOURCE_SITE_BY_SUBJECT: dict[str, str] = {
     "Environmental Science": "epa", "Health Education": "who", "World Politics": "un", "Civics": "un",
     "Web Development": "mit", "Cybersecurity": "coursera", "Cloud Computing": "coursera",
     "Digital Marketing": "coursera", "UI/UX Design": "coursera", "Project Management": "coursera",
+    "Art History": "smarthistory", "Python": "python_docs", "R": "r_project", "JavaScript": "mdn",
+    "Prompt Engineering": "anthropic_prompting", "Computer Science Engineering": "mit",
+    "Big Data": "kaggle", "MBA": "coursera", "Operations Management": "coursera", "AI Tools": "coursera",
 }
 
 
@@ -459,6 +717,18 @@ def _resource_links(subject: str, topic: str) -> tuple[str, str]:
         text_url = _who()
     elif site == "un":
         text_url = _un()
+    elif site == "smarthistory":
+        text_url = _smarthistory_search(topic)
+    elif site == "python_docs":
+        text_url = _python_docs()
+    elif site == "r_project":
+        text_url = _r_project()
+    elif site == "mdn":
+        text_url = _mdn_search(topic)
+    elif site == "anthropic_prompting":
+        text_url = _anthropic_prompting_guide()
+    elif site == "kaggle":
+        text_url = _kaggle_search(topic)
     else:
         text_url = _wikipedia_search(topic)
     return text_url, _youtube_search(f"{topic} {subject} lecture")
