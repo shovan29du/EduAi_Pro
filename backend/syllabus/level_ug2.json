@@ -249,7 +249,51 @@
         "How 'Planning' shows up in real-world artificial intelligence practice: Classical planning, STRIPS-style representations, and plan search for multi-step goals.",
         "How 'Uncertainty & Probabilistic Reasoning' shows up in real-world artificial intelligence practice: Bayesian networks and reasoning about AI decisions under uncertainty."
       ],
-      "learning_path": "At Undergraduate Year 2, Artificial Intelligence progresses through Planning, Uncertainty & Probabilistic Reasoning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Artificial Intelligence progresses through Planning, Uncertainty & Probabilistic Reasoning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Planning+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Planning+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Planning+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Planning+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Planning+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Planning+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Planning+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -497,7 +541,51 @@
         "How 'Unsupervised Learning' shows up in real-world machine learning practice: Learning structure from unlabelled data: dimensionality reduction and density estimation.",
         "How 'Clustering' shows up in real-world machine learning practice: K-means, hierarchical clustering, and DBSCAN for grouping similar data points."
       ],
-      "learning_path": "At Undergraduate Year 2, Machine Learning progresses through Unsupervised Learning, Clustering. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Machine Learning progresses through Unsupervised Learning, Clustering. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Unsupervised+Learning+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Unsupervised+Learning+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Unsupervised+Learning+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Unsupervised+Learning+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Unsupervised+Learning+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Unsupervised+Learning+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Unsupervised+Learning+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -746,7 +834,51 @@
         "How 'Sentiment Analysis' shows up in real-world natural language processing practice: Classifying the emotional tone or opinion expressed in a piece of text.",
         "How 'Sequence Models' shows up in real-world natural language processing practice: RNNs and LSTMs for modelling order and long-range dependencies in text."
       ],
-      "learning_path": "At Undergraduate Year 2, Natural Language Processing progresses through Sentiment Analysis, Sequence Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Natural Language Processing progresses through Sentiment Analysis, Sequence Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Sentiment+Analysis+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Sentiment+Analysis+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -995,7 +1127,51 @@
         "How 'Predictive Modelling' shows up in real-world data science practice: Applying regression and classification models to real datasets.",
         "How 'Big Data Tools' shows up in real-world data science practice: Working with data too large for a single machine using distributed tools."
       ],
-      "learning_path": "At Undergraduate Year 2, Data Science progresses through Predictive Modelling, Big Data Tools. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Data Science progresses through Predictive Modelling, Big Data Tools. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Predictive+Modelling+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Predictive+Modelling+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Predictive+Modelling+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Predictive+Modelling+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Predictive+Modelling+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Predictive+Modelling+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Predictive+Modelling+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1246,7 +1422,1817 @@
         "How 'Operations & Supply Chain Analytics' shows up in real-world business analytics practice: Optimizing inventory, logistics, and process efficiency with data.",
         "How 'Financial Analytics' shows up in real-world business analytics practice: Using analytics for budgeting, risk assessment, and investment decisions."
       ],
-      "learning_path": "At Undergraduate Year 2, Business Analytics progresses through Operations & Supply Chain Analytics, Financial Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Business Analytics progresses through Operations & Supply Chain Analytics, Financial Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Operations+%26+Supply+Chain+Analytics+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Operations+%26+Supply+Chain+Analytics+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-ug2-book1",
+          "title": "Web Development: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=Backend+Development+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Backend Development Fundamentals — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Backend+Development+Fundamentals+Web+Development+lecture",
+          "description": "Curated video search for backend development fundamentals at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: Backend Development Fundamentals",
+          "url": "https://ocw.mit.edu/search/?q=Backend+Development+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Backend Development Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Server-side logic and routing with a framework such as Node.js/Express.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Server-side logic and routing with a framework such as Node.js/Express."
+        },
+        {
+          "question": "What is the focus of the 'Databases for Web Apps' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Storing and querying application data with SQL and NoSQL databases.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Storing and querying application data with SQL and NoSQL databases."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Backend Development Fundamentals.",
+            "type": "short_answer",
+            "answer": "Server-side logic and routing with a framework such as Node.js/Express."
+          },
+          {
+            "question": "Briefly explain: Databases for Web Apps.",
+            "type": "short_answer",
+            "answer": "Storing and querying application data with SQL and NoSQL databases."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Undergraduate Year 2 Companion",
+          "url": "https://ocw.mit.edu/search/?q=Backend+Development+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Server-side logic and routing with a framework such as Node.js/Express.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-ug2-l1",
+          "title": "Backend Development Fundamentals",
+          "unit": "Backend Development Fundamentals",
+          "level": "UG2",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of backend development fundamentals at Undergraduate Year 2 depth.",
+            "Apply backend development fundamentals concepts to worked examples and problems.",
+            "Critically discuss how backend development fundamentals connects to real-world practice in web development."
+          ],
+          "reading_material": "Server-side logic and routing with a framework such as Node.js/Express.",
+          "key_concepts": [
+            "Backend",
+            "Development",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on backend development fundamentals",
+            "Small-group discussion / problem set on backend development fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind backend development fundamentals?",
+              "type": "short_answer",
+              "answer": "Server-side logic and routing with a framework such as Node.js/Express."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting backend development fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Server-side logic and routing with a framework such as Node.js/Express.",
+            "tip": "Review backend development fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes backend development fundamentals?",
+                "options": [
+                  "Server-side logic and routing with a framework such as Node.js/Express.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Server-side logic and routing with a framework such as Node.js/Express."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands backend development fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Backend+Development+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Backend+Development+Fundamentals+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "web-development-ug2-l2",
+          "title": "Databases for Web Apps",
+          "unit": "Databases for Web Apps",
+          "level": "UG2",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of databases for web apps at Undergraduate Year 2 depth.",
+            "Apply databases for web apps concepts to worked examples and problems.",
+            "Critically discuss how databases for web apps connects to real-world practice in web development."
+          ],
+          "reading_material": "Storing and querying application data with SQL and NoSQL databases.",
+          "key_concepts": [
+            "Databases",
+            "Apps"
+          ],
+          "practical_activities": [
+            "Guided worked example on databases for web apps",
+            "Small-group discussion / problem set on databases for web apps"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind databases for web apps?",
+              "type": "short_answer",
+              "answer": "Storing and querying application data with SQL and NoSQL databases."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting databases for web apps to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Storing and querying application data with SQL and NoSQL databases.",
+            "tip": "Review databases for web apps before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes databases for web apps?",
+                "options": [
+                  "Storing and querying application data with SQL and NoSQL databases.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Storing and querying application data with SQL and NoSQL databases."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands databases for web apps",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Databases+for+Web+Apps"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Databases+for+Web+Apps+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Backend Development Fundamentals' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'Databases for Web Apps' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'Backend Development Fundamentals' shows up in real-world web development practice: Server-side logic and routing with a framework such as Node.js/Express.",
+        "How 'Databases for Web Apps' shows up in real-world web development practice: Storing and querying application data with SQL and NoSQL databases."
+      ],
+      "learning_path": "At Undergraduate Year 2, Web Development progresses through Backend Development Fundamentals, Databases for Web Apps. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Backend+Development+Fundamentals+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Backend+Development+Fundamentals+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Backend+Development+Fundamentals+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Backend+Development+Fundamentals+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Backend+Development+Fundamentals+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Backend+Development+Fundamentals+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Backend+Development+Fundamentals+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-ug2-book1",
+          "title": "Cybersecurity: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Malware+Analysis+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Malware Analysis Fundamentals — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Malware+Analysis+Fundamentals+Cybersecurity+lecture",
+          "description": "Curated video search for malware analysis fundamentals at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Malware Analysis Fundamentals",
+          "url": "https://www.coursera.org/search?query=Malware+Analysis+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Malware Analysis Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "How malicious software behaves and how analysts study it safely.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "How malicious software behaves and how analysts study it safely."
+        },
+        {
+          "question": "What is the focus of the 'Authorized Security Testing Basics' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Ethical, permission-based penetration testing methodology and scope.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Ethical, permission-based penetration testing methodology and scope."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Malware Analysis Fundamentals.",
+            "type": "short_answer",
+            "answer": "How malicious software behaves and how analysts study it safely."
+          },
+          {
+            "question": "Briefly explain: Authorized Security Testing Basics.",
+            "type": "short_answer",
+            "answer": "Ethical, permission-based penetration testing methodology and scope."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Undergraduate Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Malware+Analysis+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "How malicious software behaves and how analysts study it safely.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-ug2-l1",
+          "title": "Malware Analysis Fundamentals",
+          "unit": "Malware Analysis Fundamentals",
+          "level": "UG2",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of malware analysis fundamentals at Undergraduate Year 2 depth.",
+            "Apply malware analysis fundamentals concepts to worked examples and problems.",
+            "Critically discuss how malware analysis fundamentals connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "How malicious software behaves and how analysts study it safely.",
+          "key_concepts": [
+            "Malware",
+            "Analysis",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on malware analysis fundamentals",
+            "Small-group discussion / problem set on malware analysis fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind malware analysis fundamentals?",
+              "type": "short_answer",
+              "answer": "How malicious software behaves and how analysts study it safely."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting malware analysis fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "How malicious software behaves and how analysts study it safely.",
+            "tip": "Review malware analysis fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes malware analysis fundamentals?",
+                "options": [
+                  "How malicious software behaves and how analysts study it safely.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "How malicious software behaves and how analysts study it safely."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands malware analysis fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Malware+Analysis+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Malware+Analysis+Fundamentals+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "cybersecurity-ug2-l2",
+          "title": "Authorized Security Testing Basics",
+          "unit": "Authorized Security Testing Basics",
+          "level": "UG2",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of authorized security testing basics at Undergraduate Year 2 depth.",
+            "Apply authorized security testing basics concepts to worked examples and problems.",
+            "Critically discuss how authorized security testing basics connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Ethical, permission-based penetration testing methodology and scope.",
+          "key_concepts": [
+            "Authorized",
+            "Security",
+            "Testing",
+            "Basics"
+          ],
+          "practical_activities": [
+            "Guided worked example on authorized security testing basics",
+            "Small-group discussion / problem set on authorized security testing basics"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind authorized security testing basics?",
+              "type": "short_answer",
+              "answer": "Ethical, permission-based penetration testing methodology and scope."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting authorized security testing basics to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Ethical, permission-based penetration testing methodology and scope.",
+            "tip": "Review authorized security testing basics before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes authorized security testing basics?",
+                "options": [
+                  "Ethical, permission-based penetration testing methodology and scope.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Ethical, permission-based penetration testing methodology and scope."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands authorized security testing basics",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Authorized+Security+Testing+Basics"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Authorized+Security+Testing+Basics+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Malware Analysis Fundamentals' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Authorized Security Testing Basics' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Malware Analysis Fundamentals' shows up in real-world cybersecurity practice: How malicious software behaves and how analysts study it safely.",
+        "How 'Authorized Security Testing Basics' shows up in real-world cybersecurity practice: Ethical, permission-based penetration testing methodology and scope."
+      ],
+      "learning_path": "At Undergraduate Year 2, Cybersecurity progresses through Malware Analysis Fundamentals, Authorized Security Testing Basics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Malware+Analysis+Fundamentals+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Malware+Analysis+Fundamentals+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-ug2-book1",
+          "title": "Cloud Computing: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Serverless+Computing",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Serverless Computing — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Serverless+Computing+Cloud+Computing+lecture",
+          "description": "Curated video search for serverless computing at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Serverless Computing",
+          "url": "https://www.coursera.org/search?query=Serverless+Computing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Serverless Computing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Running code without managing servers, and when serverless fits.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Running code without managing servers, and when serverless fits."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Databases' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Managed relational and NoSQL database services in the cloud.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Managed relational and NoSQL database services in the cloud."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Serverless Computing.",
+            "type": "short_answer",
+            "answer": "Running code without managing servers, and when serverless fits."
+          },
+          {
+            "question": "Briefly explain: Cloud Databases.",
+            "type": "short_answer",
+            "answer": "Managed relational and NoSQL database services in the cloud."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Undergraduate Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Serverless+Computing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Running code without managing servers, and when serverless fits.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-ug2-l1",
+          "title": "Serverless Computing",
+          "unit": "Serverless Computing",
+          "level": "UG2",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of serverless computing at Undergraduate Year 2 depth.",
+            "Apply serverless computing concepts to worked examples and problems.",
+            "Critically discuss how serverless computing connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Running code without managing servers, and when serverless fits.",
+          "key_concepts": [
+            "Serverless",
+            "Computing"
+          ],
+          "practical_activities": [
+            "Guided worked example on serverless computing",
+            "Small-group discussion / problem set on serverless computing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind serverless computing?",
+              "type": "short_answer",
+              "answer": "Running code without managing servers, and when serverless fits."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting serverless computing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Running code without managing servers, and when serverless fits.",
+            "tip": "Review serverless computing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes serverless computing?",
+                "options": [
+                  "Running code without managing servers, and when serverless fits.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Running code without managing servers, and when serverless fits."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands serverless computing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Serverless+Computing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Serverless+Computing+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "cloud-computing-ug2-l2",
+          "title": "Cloud Databases",
+          "unit": "Cloud Databases",
+          "level": "UG2",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of cloud databases at Undergraduate Year 2 depth.",
+            "Apply cloud databases concepts to worked examples and problems.",
+            "Critically discuss how cloud databases connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Managed relational and NoSQL database services in the cloud.",
+          "key_concepts": [
+            "Cloud",
+            "Databases"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud databases",
+            "Small-group discussion / problem set on cloud databases"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud databases?",
+              "type": "short_answer",
+              "answer": "Managed relational and NoSQL database services in the cloud."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud databases to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Managed relational and NoSQL database services in the cloud.",
+            "tip": "Review cloud databases before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud databases?",
+                "options": [
+                  "Managed relational and NoSQL database services in the cloud.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Managed relational and NoSQL database services in the cloud."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud databases",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Databases"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Databases+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Serverless Computing' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Databases' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Serverless Computing' shows up in real-world cloud computing practice: Running code without managing servers, and when serverless fits.",
+        "How 'Cloud Databases' shows up in real-world cloud computing practice: Managed relational and NoSQL database services in the cloud."
+      ],
+      "learning_path": "At Undergraduate Year 2, Cloud Computing progresses through Serverless Computing, Cloud Databases. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Serverless+Computing+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Serverless+Computing+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Serverless+Computing+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Serverless+Computing+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Serverless+Computing+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Serverless+Computing+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Serverless+Computing+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-ug2-book1",
+          "title": "Digital Marketing: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Marketing+Analytics+%26+Data",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Marketing Analytics & Data — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Marketing+Analytics+%26+Data+Digital+Marketing+lecture",
+          "description": "Curated video search for marketing analytics & data at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Marketing Analytics & Data",
+          "url": "https://www.coursera.org/search?query=Marketing+Analytics+%26+Data",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Marketing Analytics & Data' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Measuring campaign performance and attributing results to channels.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Measuring campaign performance and attributing results to channels."
+        },
+        {
+          "question": "What is the focus of the 'Conversion Rate Optimization' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Testing and improving how many visitors take a desired action.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Testing and improving how many visitors take a desired action."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Marketing Analytics & Data.",
+            "type": "short_answer",
+            "answer": "Measuring campaign performance and attributing results to channels."
+          },
+          {
+            "question": "Briefly explain: Conversion Rate Optimization.",
+            "type": "short_answer",
+            "answer": "Testing and improving how many visitors take a desired action."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Undergraduate Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Marketing+Analytics+%26+Data",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Measuring campaign performance and attributing results to channels.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-ug2-l1",
+          "title": "Marketing Analytics & Data",
+          "unit": "Marketing Analytics & Data",
+          "level": "UG2",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of marketing analytics & data at Undergraduate Year 2 depth.",
+            "Apply marketing analytics & data concepts to worked examples and problems.",
+            "Critically discuss how marketing analytics & data connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Measuring campaign performance and attributing results to channels.",
+          "key_concepts": [
+            "Marketing",
+            "Analytics",
+            "Data"
+          ],
+          "practical_activities": [
+            "Guided worked example on marketing analytics & data",
+            "Small-group discussion / problem set on marketing analytics & data"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind marketing analytics & data?",
+              "type": "short_answer",
+              "answer": "Measuring campaign performance and attributing results to channels."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting marketing analytics & data to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Measuring campaign performance and attributing results to channels.",
+            "tip": "Review marketing analytics & data before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes marketing analytics & data?",
+                "options": [
+                  "Measuring campaign performance and attributing results to channels.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Measuring campaign performance and attributing results to channels."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands marketing analytics & data",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Marketing+Analytics+%26+Data"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Marketing+Analytics+%26+Data+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "digital-marketing-ug2-l2",
+          "title": "Conversion Rate Optimization",
+          "unit": "Conversion Rate Optimization",
+          "level": "UG2",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of conversion rate optimization at Undergraduate Year 2 depth.",
+            "Apply conversion rate optimization concepts to worked examples and problems.",
+            "Critically discuss how conversion rate optimization connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Testing and improving how many visitors take a desired action.",
+          "key_concepts": [
+            "Conversion",
+            "Rate",
+            "Optimization"
+          ],
+          "practical_activities": [
+            "Guided worked example on conversion rate optimization",
+            "Small-group discussion / problem set on conversion rate optimization"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind conversion rate optimization?",
+              "type": "short_answer",
+              "answer": "Testing and improving how many visitors take a desired action."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting conversion rate optimization to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Testing and improving how many visitors take a desired action.",
+            "tip": "Review conversion rate optimization before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes conversion rate optimization?",
+                "options": [
+                  "Testing and improving how many visitors take a desired action.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Testing and improving how many visitors take a desired action."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands conversion rate optimization",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Conversion+Rate+Optimization"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Conversion+Rate+Optimization+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Marketing Analytics & Data' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Conversion Rate Optimization' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Marketing Analytics & Data' shows up in real-world digital marketing practice: Measuring campaign performance and attributing results to channels.",
+        "How 'Conversion Rate Optimization' shows up in real-world digital marketing practice: Testing and improving how many visitors take a desired action."
+      ],
+      "learning_path": "At Undergraduate Year 2, Digital Marketing progresses through Marketing Analytics & Data, Conversion Rate Optimization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Marketing+Analytics+%26+Data+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Marketing+Analytics+%26+Data+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-ug2-book1",
+          "title": "UI/UX Design: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Interaction+Design",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Interaction Design — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Interaction+Design+UI%2FUX+Design+lecture",
+          "description": "Curated video search for interaction design at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Interaction Design",
+          "url": "https://www.coursera.org/search?query=Interaction+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Interaction Design' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing how a user moves through and interacts with an interface.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing how a user moves through and interacts with an interface."
+        },
+        {
+          "question": "What is the focus of the 'Usability Testing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Observing real users to find and fix interface problems.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Observing real users to find and fix interface problems."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Interaction Design.",
+            "type": "short_answer",
+            "answer": "Designing how a user moves through and interacts with an interface."
+          },
+          {
+            "question": "Briefly explain: Usability Testing.",
+            "type": "short_answer",
+            "answer": "Observing real users to find and fix interface problems."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Undergraduate Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Interaction+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Designing how a user moves through and interacts with an interface.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-ug2-l1",
+          "title": "Interaction Design",
+          "unit": "Interaction Design",
+          "level": "UG2",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of interaction design at Undergraduate Year 2 depth.",
+            "Apply interaction design concepts to worked examples and problems.",
+            "Critically discuss how interaction design connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Designing how a user moves through and interacts with an interface.",
+          "key_concepts": [
+            "Interaction",
+            "Design"
+          ],
+          "practical_activities": [
+            "Guided worked example on interaction design",
+            "Small-group discussion / problem set on interaction design"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind interaction design?",
+              "type": "short_answer",
+              "answer": "Designing how a user moves through and interacts with an interface."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting interaction design to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing how a user moves through and interacts with an interface.",
+            "tip": "Review interaction design before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes interaction design?",
+                "options": [
+                  "Designing how a user moves through and interacts with an interface.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing how a user moves through and interacts with an interface."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands interaction design",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Interaction+Design"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Interaction+Design+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "ui/ux-design-ug2-l2",
+          "title": "Usability Testing",
+          "unit": "Usability Testing",
+          "level": "UG2",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of usability testing at Undergraduate Year 2 depth.",
+            "Apply usability testing concepts to worked examples and problems.",
+            "Critically discuss how usability testing connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Observing real users to find and fix interface problems.",
+          "key_concepts": [
+            "Usability",
+            "Testing"
+          ],
+          "practical_activities": [
+            "Guided worked example on usability testing",
+            "Small-group discussion / problem set on usability testing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind usability testing?",
+              "type": "short_answer",
+              "answer": "Observing real users to find and fix interface problems."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting usability testing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Observing real users to find and fix interface problems.",
+            "tip": "Review usability testing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes usability testing?",
+                "options": [
+                  "Observing real users to find and fix interface problems.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Observing real users to find and fix interface problems."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands usability testing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Usability+Testing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Usability+Testing+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Interaction Design' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Usability Testing' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Interaction Design' shows up in real-world ui/ux design practice: Designing how a user moves through and interacts with an interface.",
+        "How 'Usability Testing' shows up in real-world ui/ux design practice: Observing real users to find and fix interface problems."
+      ],
+      "learning_path": "At Undergraduate Year 2, UI/UX Design progresses through Interaction Design, Usability Testing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Interaction+Design+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Interaction+Design+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Interaction+Design+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Interaction+Design+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Interaction+Design+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Interaction+Design+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Interaction+Design+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-ug2-book1",
+          "title": "Project Management: Undergraduate Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Agile+%26+Scrum+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Agile & Scrum Fundamentals — Undergraduate Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Agile+%26+Scrum+Fundamentals+Project+Management+lecture",
+          "description": "Curated video search for agile & scrum fundamentals at Undergraduate Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Agile & Scrum Fundamentals",
+          "url": "https://www.coursera.org/search?query=Agile+%26+Scrum+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Agile & Scrum Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Iterative delivery, sprints, and the core Scrum roles and ceremonies."
+        },
+        {
+          "question": "What is the focus of the 'Kanban & Lean Methods' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Visualizing work and limiting work-in-progress to improve flow.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Visualizing work and limiting work-in-progress to improve flow."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Agile & Scrum Fundamentals.",
+            "type": "short_answer",
+            "answer": "Iterative delivery, sprints, and the core Scrum roles and ceremonies."
+          },
+          {
+            "question": "Briefly explain: Kanban & Lean Methods.",
+            "type": "short_answer",
+            "answer": "Visualizing work and limiting work-in-progress to improve flow."
+          }
+        ],
+        "passing_score": 68
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Undergraduate Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Agile+%26+Scrum+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-ug2-l1",
+          "title": "Agile & Scrum Fundamentals",
+          "unit": "Agile & Scrum Fundamentals",
+          "level": "UG2",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of agile & scrum fundamentals at Undergraduate Year 2 depth.",
+            "Apply agile & scrum fundamentals concepts to worked examples and problems.",
+            "Critically discuss how agile & scrum fundamentals connects to real-world practice in project management."
+          ],
+          "reading_material": "Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+          "key_concepts": [
+            "Agile",
+            "Scrum",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on agile & scrum fundamentals",
+            "Small-group discussion / problem set on agile & scrum fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind agile & scrum fundamentals?",
+              "type": "short_answer",
+              "answer": "Iterative delivery, sprints, and the core Scrum roles and ceremonies."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting agile & scrum fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+            "tip": "Review agile & scrum fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes agile & scrum fundamentals?",
+                "options": [
+                  "Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Iterative delivery, sprints, and the core Scrum roles and ceremonies."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands agile & scrum fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Agile+%26+Scrum+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Agile+%26+Scrum+Fundamentals+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "project-management-ug2-l2",
+          "title": "Kanban & Lean Methods",
+          "unit": "Kanban & Lean Methods",
+          "level": "UG2",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of kanban & lean methods at Undergraduate Year 2 depth.",
+            "Apply kanban & lean methods concepts to worked examples and problems.",
+            "Critically discuss how kanban & lean methods connects to real-world practice in project management."
+          ],
+          "reading_material": "Visualizing work and limiting work-in-progress to improve flow.",
+          "key_concepts": [
+            "Kanban",
+            "Lean",
+            "Methods"
+          ],
+          "practical_activities": [
+            "Guided worked example on kanban & lean methods",
+            "Small-group discussion / problem set on kanban & lean methods"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind kanban & lean methods?",
+              "type": "short_answer",
+              "answer": "Visualizing work and limiting work-in-progress to improve flow."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting kanban & lean methods to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Visualizing work and limiting work-in-progress to improve flow.",
+            "tip": "Review kanban & lean methods before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes kanban & lean methods?",
+                "options": [
+                  "Visualizing work and limiting work-in-progress to improve flow.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Visualizing work and limiting work-in-progress to improve flow."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands kanban & lean methods",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Kanban+%26+Lean+Methods"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Kanban+%26+Lean+Methods+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Agile & Scrum Fundamentals' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Kanban & Lean Methods' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a undergraduate year 2 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Agile & Scrum Fundamentals' shows up in real-world project management practice: Iterative delivery, sprints, and the core Scrum roles and ceremonies.",
+        "How 'Kanban & Lean Methods' shows up in real-world project management practice: Visualizing work and limiting work-in-progress to improve flow."
+      ],
+      "learning_path": "At Undergraduate Year 2, Project Management progresses through Agile & Scrum Fundamentals, Kanban & Lean Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Agile+%26+Scrum+Fundamentals+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Agile+%26+Scrum+Fundamentals+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1500,7 +3486,51 @@
         "How 'Applied Methods: Discrete Mathematics & Proof' shows up in real-world math practice: Applied Methods: Discrete Mathematics & Proof is an applied undergraduate module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Algebra & Functions' shows up in real-world math practice: Applied Methods: Algebra & Functions extends Math at Undergraduate Year 2, connecting algebra & functions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Math progresses through Applied Methods: Discrete Mathematics & Proof, Applied Methods: Algebra & Functions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Math progresses through Applied Methods: Discrete Mathematics & Proof, Applied Methods: Algebra & Functions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Discrete+Mathematics+%26+Proof+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1752,7 +3782,51 @@
         "How 'Applied Methods: Linguistics' shows up in real-world english practice: Applied Methods: Linguistics is an applied undergraduate module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Composition & Rhetoric' shows up in real-world english practice: Applied Methods: Composition & Rhetoric extends English at Undergraduate Year 2, connecting composition & rhetoric to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, English progresses through Applied Methods: Linguistics, Applied Methods: Composition & Rhetoric. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, English progresses through Applied Methods: Linguistics, Applied Methods: Composition & Rhetoric. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Linguistics+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Linguistics+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Linguistics+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Linguistics+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Linguistics+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Linguistics+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Linguistics+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2006,7 +4080,51 @@
         "How 'Applied Methods: Physical Science' shows up in real-world science practice: Applied Methods: Physical Science is an applied undergraduate module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Scientific Method & Measurement' shows up in real-world science practice: Applied Methods: Scientific Method & Measurement extends Science at Undergraduate Year 2, connecting scientific method & measurement to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Science progresses through Applied Methods: Physical Science, Applied Methods: Scientific Method & Measurement. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Science progresses through Applied Methods: Physical Science, Applied Methods: Scientific Method & Measurement. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Physical+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Physical+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Physical+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Physical+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Physical+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Physical+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Physical+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2260,7 +4378,51 @@
         "How 'Applied Methods: Geographic Information Systems' shows up in real-world geography practice: Applied Methods: Geographic Information Systems is an applied undergraduate module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Physical Geography' shows up in real-world geography practice: Applied Methods: Physical Geography extends Geography at Undergraduate Year 2, connecting physical geography to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Geography progresses through Applied Methods: Geographic Information Systems, Applied Methods: Physical Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Geography progresses through Applied Methods: Geographic Information Systems, Applied Methods: Physical Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Geographic+Information+Systems+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2515,7 +4677,51 @@
         "How 'Applied Methods: Historiography & Research Methods' shows up in real-world world history practice: Applied Methods: Historiography & Research Methods is an applied undergraduate module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Ancient & Classical Civilizations' shows up in real-world world history practice: Applied Methods: Ancient & Classical Civilizations extends World History at Undergraduate Year 2, connecting ancient & classical civilizations to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, World History progresses through Applied Methods: Historiography & Research Methods, Applied Methods: Ancient & Classical Civilizations. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, World History progresses through Applied Methods: Historiography & Research Methods, Applied Methods: Ancient & Classical Civilizations. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Historiography+%26+Research+Methods+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2769,7 +4975,51 @@
         "How 'Applied Methods: Comparative Religious Thought' shows up in real-world islamic studies practice: Applied Methods: Comparative Religious Thought is an applied undergraduate module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Quranic Studies' shows up in real-world islamic studies practice: Applied Methods: Quranic Studies extends Islamic Studies at Undergraduate Year 2, connecting quranic studies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Islamic Studies progresses through Applied Methods: Comparative Religious Thought, Applied Methods: Quranic Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Islamic Studies progresses through Applied Methods: Comparative Religious Thought, Applied Methods: Quranic Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Comparative+Religious+Thought+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3022,7 +5272,51 @@
         "How 'Applied Methods: Systems & Architecture' shows up in real-world coding practice: Applied Methods: Systems & Architecture is an applied undergraduate module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Programming Fundamentals' shows up in real-world coding practice: Applied Methods: Programming Fundamentals extends Coding at Undergraduate Year 2, connecting programming fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Coding progresses through Applied Methods: Systems & Architecture, Applied Methods: Programming Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Coding progresses through Applied Methods: Systems & Architecture, Applied Methods: Programming Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Systems+%26+Architecture+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3276,7 +5570,51 @@
         "How 'Applied Methods: Comparative Literature' shows up in real-world world literature practice: Applied Methods: Comparative Literature is an applied undergraduate module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Classic World Literature' shows up in real-world world literature practice: Applied Methods: Classic World Literature extends World Literature at Undergraduate Year 2, connecting classic world literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, World Literature progresses through Applied Methods: Comparative Literature, Applied Methods: Classic World Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, World Literature progresses through Applied Methods: Comparative Literature, Applied Methods: Classic World Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Comparative+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3530,7 +5868,51 @@
         "How 'Applied Methods: Contemporary & Critical Art Practice' shows up in real-world art practice: Applied Methods: Contemporary & Critical Art Practice is an applied undergraduate module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Art Fundamentals & Technique' shows up in real-world art practice: Applied Methods: Art Fundamentals & Technique extends Art at Undergraduate Year 2, connecting art fundamentals & technique to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Art progresses through Applied Methods: Contemporary & Critical Art Practice, Applied Methods: Art Fundamentals & Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Art progresses through Applied Methods: Contemporary & Critical Art Practice, Applied Methods: Art Fundamentals & Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3785,7 +6167,51 @@
         "How 'Applied Methods: Music Technology & Composition' shows up in real-world music practice: Applied Methods: Music Technology & Composition is an applied undergraduate module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Music Theory Fundamentals' shows up in real-world music practice: Applied Methods: Music Theory Fundamentals extends Music at Undergraduate Year 2, connecting music theory fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Music progresses through Applied Methods: Music Technology & Composition, Applied Methods: Music Theory Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Music progresses through Applied Methods: Music Technology & Composition, Applied Methods: Music Theory Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Music+Technology+%26+Composition+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4040,7 +6466,51 @@
         "How 'Applied Methods: Advanced Expedition & Risk Management' shows up in real-world survival skills practice: Applied Methods: Advanced Expedition & Risk Management is an applied undergraduate module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Outdoor Safety Fundamentals' shows up in real-world survival skills practice: Applied Methods: Outdoor Safety Fundamentals extends Survival Skills at Undergraduate Year 2, connecting outdoor safety fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Survival Skills progresses through Applied Methods: Advanced Expedition & Risk Management, Applied Methods: Outdoor Safety Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Survival Skills progresses through Applied Methods: Advanced Expedition & Risk Management, Applied Methods: Outdoor Safety Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4295,7 +6765,51 @@
         "How 'Applied Methods: Culinary Arts Management' shows up in real-world cooking practice: Applied Methods: Culinary Arts Management is an applied undergraduate module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Kitchen Fundamentals & Food Safety' shows up in real-world cooking practice: Applied Methods: Kitchen Fundamentals & Food Safety extends Cooking at Undergraduate Year 2, connecting kitchen fundamentals & food safety to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Cooking progresses through Applied Methods: Culinary Arts Management, Applied Methods: Kitchen Fundamentals & Food Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Cooking progresses through Applied Methods: Culinary Arts Management, Applied Methods: Kitchen Fundamentals & Food Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Culinary+Arts+Management+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4549,7 +7063,51 @@
         "How 'Applied Methods: Applied Translation & Linguistics' shows up in real-world foreign languages practice: Applied Methods: Applied Translation & Linguistics is an applied undergraduate module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Beginner Communication' shows up in real-world foreign languages practice: Applied Methods: Beginner Communication extends Foreign Languages at Undergraduate Year 2, connecting beginner communication to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Foreign Languages progresses through Applied Methods: Applied Translation & Linguistics, Applied Methods: Beginner Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Foreign Languages progresses through Applied Methods: Applied Translation & Linguistics, Applied Methods: Beginner Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4804,7 +7362,51 @@
         "How 'Applied Methods: Interdisciplinary General Studies' shows up in real-world general knowledge practice: Applied Methods: Interdisciplinary General Studies is an applied undergraduate module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Current Affairs Fundamentals' shows up in real-world general knowledge practice: Applied Methods: Current Affairs Fundamentals extends General Knowledge at Undergraduate Year 2, connecting current affairs fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, General Knowledge progresses through Applied Methods: Interdisciplinary General Studies, Applied Methods: Current Affairs Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, General Knowledge progresses through Applied Methods: Interdisciplinary General Studies, Applied Methods: Current Affairs Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5058,7 +7660,51 @@
         "How 'Applied Methods: Social Research Methods' shows up in real-world social studies practice: Applied Methods: Social Research Methods is an applied undergraduate module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Society & Institutions' shows up in real-world social studies practice: Applied Methods: Society & Institutions extends Social Studies at Undergraduate Year 2, connecting society & institutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Social Studies progresses through Applied Methods: Social Research Methods, Applied Methods: Society & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Social Studies progresses through Applied Methods: Social Research Methods, Applied Methods: Society & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Social+Research+Methods+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5312,7 +7958,51 @@
         "How 'Applied Methods: Sustainability & Applied Environmental Management' shows up in real-world environmental science practice: Applied Methods: Sustainability & Applied Environmental Management is an applied undergraduate module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Ecosystems & Biodiversity' shows up in real-world environmental science practice: Applied Methods: Ecosystems & Biodiversity extends Environmental Science at Undergraduate Year 2, connecting ecosystems & biodiversity to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Environmental Science progresses through Applied Methods: Sustainability & Applied Environmental Management, Applied Methods: Ecosystems & Biodiversity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Environmental Science progresses through Applied Methods: Sustainability & Applied Environmental Management, Applied Methods: Ecosystems & Biodiversity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5566,7 +8256,51 @@
         "How 'Applied Methods: Coaching & Performance Management' shows up in real-world physical education & self-defense practice: Applied Methods: Coaching & Performance Management is an applied undergraduate module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Fitness Fundamentals' shows up in real-world physical education & self-defense practice: Applied Methods: Fitness Fundamentals extends Physical Education & Self-Defense at Undergraduate Year 2, connecting fitness fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Physical Education & Self-Defense progresses through Applied Methods: Coaching & Performance Management, Applied Methods: Fitness Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Physical Education & Self-Defense progresses through Applied Methods: Coaching & Performance Management, Applied Methods: Fitness Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5820,7 +8554,51 @@
         "How 'Applied Methods: Econometrics & Advanced Economic Theory' shows up in real-world economics practice: Applied Methods: Econometrics & Advanced Economic Theory is an applied undergraduate module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Microeconomics Fundamentals' shows up in real-world economics practice: Applied Methods: Microeconomics Fundamentals extends Economics at Undergraduate Year 2, connecting microeconomics fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Economics progresses through Applied Methods: Econometrics & Advanced Economic Theory, Applied Methods: Microeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Economics progresses through Applied Methods: Econometrics & Advanced Economic Theory, Applied Methods: Microeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6075,7 +8853,51 @@
         "How 'Applied Methods: Advanced Financial Modelling & Risk' shows up in real-world finance practice: Applied Methods: Advanced Financial Modelling & Risk is an applied undergraduate module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Personal Finance Fundamentals' shows up in real-world finance practice: Applied Methods: Personal Finance Fundamentals extends Finance at Undergraduate Year 2, connecting personal finance fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Finance progresses through Applied Methods: Advanced Financial Modelling & Risk, Applied Methods: Personal Finance Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Finance progresses through Applied Methods: Advanced Financial Modelling & Risk, Applied Methods: Personal Finance Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6329,7 +9151,51 @@
         "How 'Applied Methods: Advanced Life Support Concepts' shows up in real-world first aid practice: Applied Methods: Advanced Life Support Concepts is an applied undergraduate module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Basic First Aid & CPR' shows up in real-world first aid practice: Applied Methods: Basic First Aid & CPR extends First Aid at Undergraduate Year 2, connecting basic first aid & cpr to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, First Aid progresses through Applied Methods: Advanced Life Support Concepts, Applied Methods: Basic First Aid & CPR. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, First Aid progresses through Applied Methods: Advanced Life Support Concepts, Applied Methods: Basic First Aid & CPR. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Life+Support+Concepts+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6583,7 +9449,51 @@
         "How 'Applied Methods: Advanced Theoretical Physics' shows up in real-world physics practice: Applied Methods: Advanced Theoretical Physics is an applied undergraduate module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Classical Mechanics' shows up in real-world physics practice: Applied Methods: Classical Mechanics extends Physics at Undergraduate Year 2, connecting classical mechanics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Physics progresses through Applied Methods: Advanced Theoretical Physics, Applied Methods: Classical Mechanics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Physics progresses through Applied Methods: Advanced Theoretical Physics, Applied Methods: Classical Mechanics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Theoretical+Physics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6838,7 +9748,51 @@
         "How 'Applied Methods: Advanced & Analytical Chemistry' shows up in real-world chemistry practice: Applied Methods: Advanced & Analytical Chemistry is an applied undergraduate module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: General & Inorganic Chemistry' shows up in real-world chemistry practice: Applied Methods: General & Inorganic Chemistry extends Chemistry at Undergraduate Year 2, connecting general & inorganic chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Chemistry progresses through Applied Methods: Advanced & Analytical Chemistry, Applied Methods: General & Inorganic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Chemistry progresses through Applied Methods: Advanced & Analytical Chemistry, Applied Methods: General & Inorganic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7093,7 +10047,51 @@
         "How 'Applied Methods: Advanced & Systems Biology' shows up in real-world biology practice: Applied Methods: Advanced & Systems Biology is an applied undergraduate module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Cell & Molecular Biology' shows up in real-world biology practice: Applied Methods: Cell & Molecular Biology extends Biology at Undergraduate Year 2, connecting cell & molecular biology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Biology progresses through Applied Methods: Advanced & Systems Biology, Applied Methods: Cell & Molecular Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Biology progresses through Applied Methods: Advanced & Systems Biology, Applied Methods: Cell & Molecular Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+%26+Systems+Biology+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7348,7 +10346,51 @@
         "How 'Applied Methods: Advanced Philosophy of Mind & Science' shows up in real-world philosophy practice: Applied Methods: Advanced Philosophy of Mind & Science is an applied undergraduate module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Introduction to Philosophy & Logic' shows up in real-world philosophy practice: Applied Methods: Introduction to Philosophy & Logic extends Philosophy at Undergraduate Year 2, connecting introduction to philosophy & logic to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Philosophy progresses through Applied Methods: Advanced Philosophy of Mind & Science, Applied Methods: Introduction to Philosophy & Logic. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Philosophy progresses through Applied Methods: Advanced Philosophy of Mind & Science, Applied Methods: Introduction to Philosophy & Logic. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7603,7 +10645,51 @@
         "How 'Applied Methods: Applied Decision Analysis' shows up in real-world critical thinking practice: Applied Methods: Applied Decision Analysis is an applied undergraduate module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Logic & Argument Structure' shows up in real-world critical thinking practice: Applied Methods: Logic & Argument Structure extends Critical Thinking at Undergraduate Year 2, connecting logic & argument structure to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Critical Thinking progresses through Applied Methods: Applied Decision Analysis, Applied Methods: Logic & Argument Structure. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Critical Thinking progresses through Applied Methods: Applied Decision Analysis, Applied Methods: Logic & Argument Structure. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Applied+Decision+Analysis+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7856,7 +10942,51 @@
         "How 'Applied Methods: Comparative Governance' shows up in real-world civics practice: Applied Methods: Comparative Governance is an applied undergraduate module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Government & Constitutions' shows up in real-world civics practice: Applied Methods: Government & Constitutions extends Civics at Undergraduate Year 2, connecting government & constitutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Civics progresses through Applied Methods: Comparative Governance, Applied Methods: Government & Constitutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Civics progresses through Applied Methods: Comparative Governance, Applied Methods: Government & Constitutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Comparative+Governance+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Comparative+Governance+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8111,7 +11241,51 @@
         "How 'Applied Methods: Advanced Health Science & Epidemiology' shows up in real-world health education practice: Applied Methods: Advanced Health Science & Epidemiology is an applied undergraduate module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Personal Health & Wellbeing' shows up in real-world health education practice: Applied Methods: Personal Health & Wellbeing extends Health Education at Undergraduate Year 2, connecting personal health & wellbeing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Health Education progresses through Applied Methods: Advanced Health Science & Epidemiology, Applied Methods: Personal Health & Wellbeing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Health Education progresses through Applied Methods: Advanced Health Science & Epidemiology, Applied Methods: Personal Health & Wellbeing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8365,7 +11539,51 @@
         "How 'Applied Methods: Advanced Corporate Strategy' shows up in real-world business studies practice: Applied Methods: Advanced Corporate Strategy is an applied undergraduate module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Business Fundamentals' shows up in real-world business studies practice: Applied Methods: Business Fundamentals extends Business Studies at Undergraduate Year 2, connecting business fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, Business Studies progresses through Applied Methods: Advanced Corporate Strategy, Applied Methods: Business Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, Business Studies progresses through Applied Methods: Advanced Corporate Strategy, Applied Methods: Business Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Corporate+Strategy+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8620,7 +11838,51 @@
         "How 'Applied Methods: Advanced Geopolitical Analysis' shows up in real-world world politics practice: Applied Methods: Advanced Geopolitical Analysis is an applied undergraduate module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: International Relations Fundamentals' shows up in real-world world politics practice: Applied Methods: International Relations Fundamentals extends World Politics at Undergraduate Year 2, connecting international relations fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, World Politics progresses through Applied Methods: Advanced Geopolitical Analysis, Applied Methods: International Relations Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, World Politics progresses through Applied Methods: Advanced Geopolitical Analysis, Applied Methods: International Relations Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8875,7 +12137,51 @@
         "How 'Applied Methods: Advanced Computing & Research Topics' shows up in real-world ict & computer science practice: Applied Methods: Advanced Computing & Research Topics is an applied undergraduate module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 2.",
         "How 'Applied Methods: Computer Systems Fundamentals' shows up in real-world ict & computer science practice: Applied Methods: Computer Systems Fundamentals extends ICT & Computer Science at Undergraduate Year 2, connecting computer systems fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 2, ICT & Computer Science progresses through Applied Methods: Advanced Computing & Research Topics, Applied Methods: Computer Systems Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 2, ICT & Computer Science progresses through Applied Methods: Advanced Computing & Research Topics, Applied Methods: Computer Systems Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

@@ -120,6 +120,55 @@ def _epa() -> str:
     return "https://www.epa.gov/environmental-topics"
 
 
+# ─── External course-provider integration (search/catalog links only) ──────
+# No login or personal account is used or required here -- these are honest,
+# always-real catalog/search URLs on each provider's own site. There is no
+# public API for embedding a specific person's paid Udemy library or Netflix/
+# Prime Video catalog into a third-party app, so this is the closest genuine
+# integration: one click from any module straight into that provider's real
+# search results for the same topic.
+
+def _udemy_search(topic: str) -> str:
+    return "https://www.udemy.com/courses/search/?q=" + quote_plus(topic)
+
+
+def _edx_search(topic: str) -> str:
+    return "https://www.edx.org/search?q=" + quote_plus(topic)
+
+
+def _harvard_online_search(topic: str) -> str:
+    return "https://pll.harvard.edu/catalog?keywords=" + quote_plus(topic)
+
+
+def _class_central_search(topic: str) -> str:
+    """Class Central aggregates free/audit courses from every major provider
+    (Coursera, edX, MIT OCW, HarvardX, and more) in one search."""
+    return "https://www.classcentral.com/search?q=" + quote_plus(topic)
+
+
+def _pinterest_search(topic: str) -> str:
+    return "https://www.pinterest.com/search/pins/?q=" + quote_plus(topic)
+
+
+def _external_courses(subject: str, topic: str) -> list[dict]:
+    """Real catalog/search links on each provider's own site for this topic.
+
+    No personal account, login, or API key is used -- this is not a
+    'connected account' integration, just an honest one-click search into
+    each provider's real, live catalog for the same topic.
+    """
+    query = f"{topic} {subject}"
+    return [
+        {"title": "Udemy — course search", "url": _udemy_search(query), "source": "Udemy", "safe": True},
+        {"title": "Coursera — course search", "url": _coursera_search(query), "source": "Coursera", "safe": True},
+        {"title": "edX — course search", "url": _edx_search(query), "source": "edX", "safe": True},
+        {"title": "MIT OpenCourseWare — search", "url": _mit_ocw_search(query), "source": "MIT OpenCourseWare", "safe": True},
+        {"title": "Harvard Online — free course search", "url": _harvard_online_search(query), "source": "Harvard Online Learning", "safe": True},
+        {"title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)", "url": _class_central_search(query), "source": "Class Central", "safe": True},
+        {"title": "Pinterest — study notes & visual resources", "url": _pinterest_search(f"{topic} {subject} study notes"), "source": "Pinterest", "safe": True},
+    ]
+
+
 # ─── Flagship subjects with explicit, bespoke module ladders ────────────────
 # Each list has exactly 16 (module_title, one_line_summary) entries, distributed
 # two-per-level across the 8 levels (C1..M2), matching the task's example lists.
@@ -215,6 +264,114 @@ FLAGSHIP_MODULES: dict[str, list[tuple[str, str]]] = {
         ("Business Analytics Ethics & Governance", "Data governance, privacy, and ethical use of analytics in decision-making."),
         ("Business Analytics Capstone", "A consulting-style analytics project solving a real organizational problem."),
     ],
+    "Web Development": [
+        ("HTML & CSS Fundamentals", "Structuring content with HTML and styling it with CSS -- the foundation of every web page."),
+        ("JavaScript Fundamentals", "Variables, functions, and control flow for making web pages interactive."),
+        ("Responsive Web Design", "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops."),
+        ("DOM Manipulation & Events", "Reading and updating a page live in the browser in response to user actions."),
+        ("Frontend Frameworks", "Component-based UI development with a modern framework such as React."),
+        ("State Management in Frontend Apps", "Managing shared application data across components as an app grows."),
+        ("Backend Development Fundamentals", "Server-side logic and routing with a framework such as Node.js/Express."),
+        ("Databases for Web Apps", "Storing and querying application data with SQL and NoSQL databases."),
+        ("RESTful APIs & HTTP", "Designing and consuming HTTP APIs that connect frontend and backend."),
+        ("Authentication & Authorization", "Verifying who a user is and what they're allowed to do in a web app."),
+        ("Full-Stack Project Architecture", "Structuring a complete application: frontend, backend, database, and deployment."),
+        ("Web Security Fundamentals", "Common vulnerabilities (the OWASP Top 10) and how to defend against them."),
+        ("Performance Optimization & Caching", "Making web apps load and respond fast at scale."),
+        ("Testing & Quality Assurance", "Unit, integration, and end-to-end testing for web applications."),
+        ("DevOps & Deployment", "CI/CD pipelines, containers, and deploying a web app to production."),
+        ("Full-Stack Capstone", "Designing, building, and deploying a complete full-stack web application."),
+    ],
+    "Cybersecurity": [
+        ("Introduction to Cybersecurity", "Core concepts of confidentiality, integrity, and availability, and why security matters."),
+        ("Networking Fundamentals for Security", "How data moves across networks, and where common attack surfaces arise."),
+        ("Operating System Security", "Hardening, permissions, and security models in modern operating systems."),
+        ("Cryptography Fundamentals", "Encryption, hashing, and digital signatures that protect data and identity."),
+        ("Web Application Security", "Defending web applications against common vulnerabilities (OWASP Top 10)."),
+        ("Threat Modeling & Risk Assessment", "Systematically identifying and prioritizing security risks in a system."),
+        ("Malware Analysis Fundamentals", "How malicious software behaves and how analysts study it safely."),
+        ("Authorized Security Testing Basics", "Ethical, permission-based penetration testing methodology and scope."),
+        ("Identity & Access Management", "Authentication, authorization, and least-privilege access design."),
+        ("Security Operations & Incident Response", "Detecting, responding to, and recovering from security incidents."),
+        ("Cloud Security Fundamentals", "Securing data and workloads in cloud environments."),
+        ("Governance, Risk & Compliance", "Security policy, regulatory frameworks, and organizational risk management."),
+        ("Digital Forensics Fundamentals", "Preserving and analyzing digital evidence after a security incident."),
+        ("Security Auditing & Vulnerability Management", "Finding, tracking, and remediating vulnerabilities systematically."),
+        ("Advanced Threat Intelligence", "Tracking attacker techniques and emerging threats at an organizational level."),
+        ("Cybersecurity Capstone", "An authorized security assessment project in a lab/sandboxed environment."),
+    ],
+    "Cloud Computing": [
+        ("Introduction to Cloud Computing", "What cloud computing is, and why organizations moved workloads off their own hardware."),
+        ("Cloud Service Models", "The differences between IaaS, PaaS, and SaaS and when to use each."),
+        ("Virtualization & Containers", "How virtual machines and containers (e.g. Docker) isolate and package workloads."),
+        ("Cloud Storage Solutions", "Object, block, and file storage trade-offs in the cloud."),
+        ("Cloud Networking Fundamentals", "Virtual networks, load balancing, and connecting cloud resources securely."),
+        ("Compute Services & Auto-Scaling", "Running and automatically scaling workloads to match demand."),
+        ("Serverless Computing", "Running code without managing servers, and when serverless fits."),
+        ("Cloud Databases", "Managed relational and NoSQL database services in the cloud."),
+        ("Cloud Security & Identity Management", "Securing cloud accounts, resources, and data access."),
+        ("Infrastructure as Code", "Defining and provisioning cloud infrastructure through version-controlled code."),
+        ("Container Orchestration", "Managing many containers reliably at scale with a tool such as Kubernetes."),
+        ("Cloud Cost Management & Optimization", "Monitoring and controlling cloud spend as usage grows."),
+        ("Multi-Cloud & Hybrid Cloud Strategy", "Combining multiple cloud providers or on-premises and cloud infrastructure."),
+        ("Cloud Monitoring & Observability", "Logging, metrics, and tracing to understand system health in production."),
+        ("Cloud Architecture Design Patterns", "Common reliable, scalable architecture patterns for cloud systems."),
+        ("Cloud Architecture Capstone", "Designing a scalable, secure cloud architecture for a real-world scenario."),
+    ],
+    "Digital Marketing": [
+        ("Introduction to Digital Marketing", "The digital marketing landscape and how channels fit together."),
+        ("Search Engine Optimization Fundamentals", "How search engines rank content, and how to structure content to be found."),
+        ("Content Marketing Strategy", "Planning and creating content that attracts and retains an audience."),
+        ("Social Media Marketing", "Building and engaging an audience across social platforms."),
+        ("Email Marketing", "Building lists and campaigns that nurture leads and customers."),
+        ("Pay-Per-Click Advertising", "Running and optimizing paid search and display ad campaigns."),
+        ("Marketing Analytics & Data", "Measuring campaign performance and attributing results to channels."),
+        ("Conversion Rate Optimization", "Testing and improving how many visitors take a desired action."),
+        ("Brand Strategy & Positioning", "Defining what a brand stands for and how it's differentiated."),
+        ("Influencer & Affiliate Marketing", "Partnering with creators and affiliates to reach new audiences."),
+        ("Marketing Automation", "Using tools to trigger personalized marketing at scale."),
+        ("E-commerce Marketing", "Marketing strategies specific to online retail and conversion funnels."),
+        ("Video & Multimedia Marketing", "Producing and distributing video content across platforms."),
+        ("Marketing Ethics & Data Privacy", "Responsible use of customer data and honest marketing practice."),
+        ("Growth Hacking & Experimentation", "Rapid, data-driven experimentation to find scalable growth levers."),
+        ("Integrated Marketing Capstone", "Designing a complete, multi-channel digital marketing campaign."),
+    ],
+    "UI/UX Design": [
+        ("Introduction to UI/UX Design", "The difference between user interface and user experience design, and why both matter."),
+        ("User Research Fundamentals", "Interviews, surveys, and observation methods for understanding users."),
+        ("Information Architecture", "Organizing content and navigation so users can find what they need."),
+        ("Wireframing & Prototyping", "Sketching and testing interface ideas before writing code."),
+        ("Visual Design Principles", "Layout, hierarchy, contrast, and balance in interface design."),
+        ("Typography & Color Theory", "Choosing type and color systems that communicate and are accessible."),
+        ("Interaction Design", "Designing how a user moves through and interacts with an interface."),
+        ("Usability Testing", "Observing real users to find and fix interface problems."),
+        ("Design Systems & Component Libraries", "Building reusable, consistent design components at scale."),
+        ("Accessibility in Design", "Designing interfaces usable by people with a wide range of abilities."),
+        ("Mobile & Responsive Design", "Adapting interface design across phone, tablet, and desktop."),
+        ("Design Tooling Workflows", "Efficient design and handoff workflows using tools such as Figma."),
+        ("UX Writing & Microcopy", "Writing the small pieces of text that guide users through a product."),
+        ("Design Thinking & Ideation", "Structured creative methods for generating and evaluating design solutions."),
+        ("Advanced UX Research Methods", "Quantitative and mixed-methods research for mature products."),
+        ("UX Design Capstone", "An end-to-end product design project from research through polished prototype."),
+    ],
+    "Project Management": [
+        ("Introduction to Project Management", "What a project is, and the core role of a project manager."),
+        ("Project Life Cycle & Initiation", "Defining a project's goals, scope, and stakeholders before work begins."),
+        ("Scope Management", "Defining and controlling what is -- and isn't -- part of a project."),
+        ("Time & Schedule Management", "Building and tracking realistic project schedules."),
+        ("Cost Estimation & Budgeting", "Estimating and managing a project's budget through its life cycle."),
+        ("Risk Management", "Identifying, assessing, and planning responses to project risks."),
+        ("Agile & Scrum Fundamentals", "Iterative delivery, sprints, and the core Scrum roles and ceremonies."),
+        ("Kanban & Lean Methods", "Visualizing work and limiting work-in-progress to improve flow."),
+        ("Stakeholder Management & Communication", "Keeping the right people informed and aligned throughout a project."),
+        ("Team Leadership & Conflict Resolution", "Leading a project team and resolving disagreements constructively."),
+        ("Quality Management", "Building quality checkpoints into a project rather than inspecting for it at the end."),
+        ("Procurement & Vendor Management", "Managing external vendors and contracts within a project."),
+        ("Project Portfolio Management", "Prioritizing and balancing multiple projects across an organization."),
+        ("Program Management", "Coordinating a group of related projects toward a shared strategic goal."),
+        ("Advanced Agile Scaling", "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."),
+        ("Project Management Capstone", "Planning and managing a complete project from charter to closure."),
+    ],
 }
 
 # ─── Existing subjects: theme ladders (auto-expanded across the 8 levels) ──
@@ -274,6 +431,8 @@ RESOURCE_SITE_BY_SUBJECT: dict[str, str] = {
     "Artificial Intelligence": "mit", "Machine Learning": "fastai", "Natural Language Processing": "huggingface",
     "Philosophy": "plato", "Critical Thinking": "plato",
     "Environmental Science": "epa", "Health Education": "who", "World Politics": "un", "Civics": "un",
+    "Web Development": "mit", "Cybersecurity": "coursera", "Cloud Computing": "coursera",
+    "Digital Marketing": "coursera", "UI/UX Design": "coursera", "Project Management": "coursera",
 }
 
 
@@ -432,6 +591,7 @@ def _subject_content(subject: str, level: str, modules: list[tuple[str, str]]) -
         "project_ideas": project_ideas,
         "real_world_examples": real_world_examples,
         "learning_path": learning_path,
+        "external_courses": _external_courses(subject, primary_topic),
     }
 
 

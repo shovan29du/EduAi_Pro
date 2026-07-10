@@ -248,7 +248,51 @@
         "How 'Introduction to AI' shows up in real-world artificial intelligence practice: What intelligence and 'artificial' intelligence mean, and a tour of AI's history and subfields.",
         "How 'Intelligent Agents' shows up in real-world artificial intelligence practice: Modelling AI systems as agents that perceive an environment and choose actions to achieve goals."
       ],
-      "learning_path": "At College Level 1, Artificial Intelligence progresses through Introduction to AI, Intelligent Agents. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Artificial Intelligence progresses through Introduction to AI, Intelligent Agents. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+AI+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+AI+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+AI+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+AI+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+AI+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+AI+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+AI+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -498,7 +542,51 @@
         "How 'Introduction to Machine Learning' shows up in real-world machine learning practice: What learning from data means, and the difference between AI, ML, and deep learning.",
         "How 'Data Preparation' shows up in real-world machine learning practice: Cleaning, normalizing, and splitting data into training, validation, and test sets."
       ],
-      "learning_path": "At College Level 1, Machine Learning progresses through Introduction to Machine Learning, Data Preparation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Machine Learning progresses through Introduction to Machine Learning, Data Preparation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Machine+Learning+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Machine+Learning+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -746,7 +834,51 @@
         "How 'Introduction to NLP' shows up in real-world natural language processing practice: What NLP is, and why human language is hard for computers to process.",
         "How 'Text Preprocessing' shows up in real-world natural language processing practice: Cleaning, normalizing, and preparing raw text for downstream NLP tasks."
       ],
-      "learning_path": "At College Level 1, Natural Language Processing progresses through Introduction to NLP, Text Preprocessing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Natural Language Processing progresses through Introduction to NLP, Text Preprocessing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+NLP+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+NLP+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -996,7 +1128,51 @@
         "How 'Introduction to Data Science' shows up in real-world data science practice: The data science lifecycle: asking questions, collecting data, and communicating findings.",
         "How 'Data Wrangling' shows up in real-world data science practice: Cleaning, reshaping, and joining messy real-world datasets."
       ],
-      "learning_path": "At College Level 1, Data Science progresses through Introduction to Data Science, Data Wrangling. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Data Science progresses through Introduction to Data Science, Data Wrangling. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Data+Science+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Data+Science+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Data+Science+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Data+Science+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Data+Science+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Data+Science+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Data+Science+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1246,7 +1422,1820 @@
         "How 'Introduction to Business Analytics' shows up in real-world business analytics practice: How organizations use data to improve decisions, from descriptive to prescriptive analytics.",
         "How 'Descriptive Analytics' shows up in real-world business analytics practice: Summarizing historical business performance with KPIs and dashboards."
       ],
-      "learning_path": "At College Level 1, Business Analytics progresses through Introduction to Business Analytics, Descriptive Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Business Analytics progresses through Introduction to Business Analytics, Descriptive Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Business+Analytics+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Business+Analytics+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-c1-book1",
+          "title": "Web Development: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=HTML+%26+CSS+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "HTML & CSS Fundamentals — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=HTML+%26+CSS+Fundamentals+Web+Development+lecture",
+          "description": "Curated video search for html & css fundamentals at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: HTML & CSS Fundamentals",
+          "url": "https://ocw.mit.edu/search/?q=HTML+%26+CSS+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'HTML & CSS Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Structuring content with HTML and styling it with CSS -- the foundation of every web page."
+        },
+        {
+          "question": "What is the focus of the 'JavaScript Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Variables, functions, and control flow for making web pages interactive.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Variables, functions, and control flow for making web pages interactive."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: HTML & CSS Fundamentals.",
+            "type": "short_answer",
+            "answer": "Structuring content with HTML and styling it with CSS -- the foundation of every web page."
+          },
+          {
+            "question": "Briefly explain: JavaScript Fundamentals.",
+            "type": "short_answer",
+            "answer": "Variables, functions, and control flow for making web pages interactive."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "Web Development College Level 1 Companion",
+          "url": "https://ocw.mit.edu/search/?q=HTML+%26+CSS+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-c1-l1",
+          "title": "HTML & CSS Fundamentals",
+          "unit": "HTML & CSS Fundamentals",
+          "level": "C1",
+          "subject": "Web Development",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of html & css fundamentals at College Level 1 depth.",
+            "Apply html & css fundamentals concepts to worked examples and problems.",
+            "Critically discuss how html & css fundamentals connects to real-world practice in web development."
+          ],
+          "reading_material": "Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+          "key_concepts": [
+            "HTML",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on html & css fundamentals",
+            "Small-group discussion / problem set on html & css fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind html & css fundamentals?",
+              "type": "short_answer",
+              "answer": "Structuring content with HTML and styling it with CSS -- the foundation of every web page."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting html & css fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+            "tip": "Review html & css fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes html & css fundamentals?",
+                "options": [
+                  "Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Structuring content with HTML and styling it with CSS -- the foundation of every web page."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands html & css fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=HTML+%26+CSS+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=HTML+%26+CSS+Fundamentals+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "web-development-c1-l2",
+          "title": "JavaScript Fundamentals",
+          "unit": "JavaScript Fundamentals",
+          "level": "C1",
+          "subject": "Web Development",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of javascript fundamentals at College Level 1 depth.",
+            "Apply javascript fundamentals concepts to worked examples and problems.",
+            "Critically discuss how javascript fundamentals connects to real-world practice in web development."
+          ],
+          "reading_material": "Variables, functions, and control flow for making web pages interactive.",
+          "key_concepts": [
+            "JavaScript",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on javascript fundamentals",
+            "Small-group discussion / problem set on javascript fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind javascript fundamentals?",
+              "type": "short_answer",
+              "answer": "Variables, functions, and control flow for making web pages interactive."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting javascript fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Variables, functions, and control flow for making web pages interactive.",
+            "tip": "Review javascript fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes javascript fundamentals?",
+                "options": [
+                  "Variables, functions, and control flow for making web pages interactive.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Variables, functions, and control flow for making web pages interactive."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands javascript fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=JavaScript+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=JavaScript+Fundamentals+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'HTML & CSS Fundamentals' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'JavaScript Fundamentals' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'HTML & CSS Fundamentals' shows up in real-world web development practice: Structuring content with HTML and styling it with CSS -- the foundation of every web page.",
+        "How 'JavaScript Fundamentals' shows up in real-world web development practice: Variables, functions, and control flow for making web pages interactive."
+      ],
+      "learning_path": "At College Level 1, Web Development progresses through HTML & CSS Fundamentals, JavaScript Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=HTML+%26+CSS+Fundamentals+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=HTML+%26+CSS+Fundamentals+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-c1-book1",
+          "title": "Cybersecurity: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Introduction+to+Cybersecurity",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Introduction to Cybersecurity — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Introduction+to+Cybersecurity+Cybersecurity+lecture",
+          "description": "Curated video search for introduction to cybersecurity at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Introduction to Cybersecurity",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cybersecurity",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Introduction to Cybersecurity' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Core concepts of confidentiality, integrity, and availability, and why security matters.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Core concepts of confidentiality, integrity, and availability, and why security matters."
+        },
+        {
+          "question": "What is the focus of the 'Networking Fundamentals for Security' module?",
+          "type": "multiple_choice",
+          "options": [
+            "How data moves across networks, and where common attack surfaces arise.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "How data moves across networks, and where common attack surfaces arise."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Introduction to Cybersecurity.",
+            "type": "short_answer",
+            "answer": "Core concepts of confidentiality, integrity, and availability, and why security matters."
+          },
+          {
+            "question": "Briefly explain: Networking Fundamentals for Security.",
+            "type": "short_answer",
+            "answer": "How data moves across networks, and where common attack surfaces arise."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity College Level 1 Companion",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cybersecurity",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Core concepts of confidentiality, integrity, and availability, and why security matters.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-c1-l1",
+          "title": "Introduction to Cybersecurity",
+          "unit": "Introduction to Cybersecurity",
+          "level": "C1",
+          "subject": "Cybersecurity",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to cybersecurity at College Level 1 depth.",
+            "Apply introduction to cybersecurity concepts to worked examples and problems.",
+            "Critically discuss how introduction to cybersecurity connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Core concepts of confidentiality, integrity, and availability, and why security matters.",
+          "key_concepts": [
+            "Introduction",
+            "Cybersecurity"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to cybersecurity",
+            "Small-group discussion / problem set on introduction to cybersecurity"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to cybersecurity?",
+              "type": "short_answer",
+              "answer": "Core concepts of confidentiality, integrity, and availability, and why security matters."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to cybersecurity to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Core concepts of confidentiality, integrity, and availability, and why security matters.",
+            "tip": "Review introduction to cybersecurity before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to cybersecurity?",
+                "options": [
+                  "Core concepts of confidentiality, integrity, and availability, and why security matters.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Core concepts of confidentiality, integrity, and availability, and why security matters."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to cybersecurity",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Introduction+to+Cybersecurity"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Cybersecurity+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "cybersecurity-c1-l2",
+          "title": "Networking Fundamentals for Security",
+          "unit": "Networking Fundamentals for Security",
+          "level": "C1",
+          "subject": "Cybersecurity",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of networking fundamentals for security at College Level 1 depth.",
+            "Apply networking fundamentals for security concepts to worked examples and problems.",
+            "Critically discuss how networking fundamentals for security connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "How data moves across networks, and where common attack surfaces arise.",
+          "key_concepts": [
+            "Networking",
+            "Fundamentals",
+            "Security"
+          ],
+          "practical_activities": [
+            "Guided worked example on networking fundamentals for security",
+            "Small-group discussion / problem set on networking fundamentals for security"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind networking fundamentals for security?",
+              "type": "short_answer",
+              "answer": "How data moves across networks, and where common attack surfaces arise."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting networking fundamentals for security to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "How data moves across networks, and where common attack surfaces arise.",
+            "tip": "Review networking fundamentals for security before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes networking fundamentals for security?",
+                "options": [
+                  "How data moves across networks, and where common attack surfaces arise.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "How data moves across networks, and where common attack surfaces arise."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands networking fundamentals for security",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Networking+Fundamentals+for+Security"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Networking+Fundamentals+for+Security+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Introduction to Cybersecurity' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Networking Fundamentals for Security' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Introduction to Cybersecurity' shows up in real-world cybersecurity practice: Core concepts of confidentiality, integrity, and availability, and why security matters.",
+        "How 'Networking Fundamentals for Security' shows up in real-world cybersecurity practice: How data moves across networks, and where common attack surfaces arise."
+      ],
+      "learning_path": "At College Level 1, Cybersecurity progresses through Introduction to Cybersecurity, Networking Fundamentals for Security. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Cybersecurity+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Cybersecurity+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-c1-book1",
+          "title": "Cloud Computing: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Introduction+to+Cloud+Computing",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Introduction to Cloud Computing — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Introduction+to+Cloud+Computing+Cloud+Computing+lecture",
+          "description": "Curated video search for introduction to cloud computing at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Introduction to Cloud Computing",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cloud+Computing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Introduction to Cloud Computing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "What cloud computing is, and why organizations moved workloads off their own hardware.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "What cloud computing is, and why organizations moved workloads off their own hardware."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Service Models' module?",
+          "type": "multiple_choice",
+          "options": [
+            "The differences between IaaS, PaaS, and SaaS and when to use each.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "The differences between IaaS, PaaS, and SaaS and when to use each."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Introduction to Cloud Computing.",
+            "type": "short_answer",
+            "answer": "What cloud computing is, and why organizations moved workloads off their own hardware."
+          },
+          {
+            "question": "Briefly explain: Cloud Service Models.",
+            "type": "short_answer",
+            "answer": "The differences between IaaS, PaaS, and SaaS and when to use each."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing College Level 1 Companion",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cloud+Computing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "What cloud computing is, and why organizations moved workloads off their own hardware.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-c1-l1",
+          "title": "Introduction to Cloud Computing",
+          "unit": "Introduction to Cloud Computing",
+          "level": "C1",
+          "subject": "Cloud Computing",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to cloud computing at College Level 1 depth.",
+            "Apply introduction to cloud computing concepts to worked examples and problems.",
+            "Critically discuss how introduction to cloud computing connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "What cloud computing is, and why organizations moved workloads off their own hardware.",
+          "key_concepts": [
+            "Introduction",
+            "Cloud",
+            "Computing"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to cloud computing",
+            "Small-group discussion / problem set on introduction to cloud computing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to cloud computing?",
+              "type": "short_answer",
+              "answer": "What cloud computing is, and why organizations moved workloads off their own hardware."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to cloud computing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "What cloud computing is, and why organizations moved workloads off their own hardware.",
+            "tip": "Review introduction to cloud computing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to cloud computing?",
+                "options": [
+                  "What cloud computing is, and why organizations moved workloads off their own hardware.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "What cloud computing is, and why organizations moved workloads off their own hardware."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to cloud computing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Introduction+to+Cloud+Computing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Cloud+Computing+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "cloud-computing-c1-l2",
+          "title": "Cloud Service Models",
+          "unit": "Cloud Service Models",
+          "level": "C1",
+          "subject": "Cloud Computing",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of cloud service models at College Level 1 depth.",
+            "Apply cloud service models concepts to worked examples and problems.",
+            "Critically discuss how cloud service models connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "The differences between IaaS, PaaS, and SaaS and when to use each.",
+          "key_concepts": [
+            "Cloud",
+            "Service",
+            "Models"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud service models",
+            "Small-group discussion / problem set on cloud service models"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud service models?",
+              "type": "short_answer",
+              "answer": "The differences between IaaS, PaaS, and SaaS and when to use each."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud service models to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "The differences between IaaS, PaaS, and SaaS and when to use each.",
+            "tip": "Review cloud service models before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud service models?",
+                "options": [
+                  "The differences between IaaS, PaaS, and SaaS and when to use each.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "The differences between IaaS, PaaS, and SaaS and when to use each."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud service models",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Service+Models"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Service+Models+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Introduction to Cloud Computing' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Service Models' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Introduction to Cloud Computing' shows up in real-world cloud computing practice: What cloud computing is, and why organizations moved workloads off their own hardware.",
+        "How 'Cloud Service Models' shows up in real-world cloud computing practice: The differences between IaaS, PaaS, and SaaS and when to use each."
+      ],
+      "learning_path": "At College Level 1, Cloud Computing progresses through Introduction to Cloud Computing, Cloud Service Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Cloud+Computing+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Cloud+Computing+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-c1-book1",
+          "title": "Digital Marketing: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Introduction+to+Digital+Marketing",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Introduction to Digital Marketing — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Introduction+to+Digital+Marketing+Digital+Marketing+lecture",
+          "description": "Curated video search for introduction to digital marketing at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Introduction to Digital Marketing",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Digital+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Introduction to Digital Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "The digital marketing landscape and how channels fit together.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "The digital marketing landscape and how channels fit together."
+        },
+        {
+          "question": "What is the focus of the 'Search Engine Optimization Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "How search engines rank content, and how to structure content to be found.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "How search engines rank content, and how to structure content to be found."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Introduction to Digital Marketing.",
+            "type": "short_answer",
+            "answer": "The digital marketing landscape and how channels fit together."
+          },
+          {
+            "question": "Briefly explain: Search Engine Optimization Fundamentals.",
+            "type": "short_answer",
+            "answer": "How search engines rank content, and how to structure content to be found."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing College Level 1 Companion",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Digital+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The digital marketing landscape and how channels fit together.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-c1-l1",
+          "title": "Introduction to Digital Marketing",
+          "unit": "Introduction to Digital Marketing",
+          "level": "C1",
+          "subject": "Digital Marketing",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to digital marketing at College Level 1 depth.",
+            "Apply introduction to digital marketing concepts to worked examples and problems.",
+            "Critically discuss how introduction to digital marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "The digital marketing landscape and how channels fit together.",
+          "key_concepts": [
+            "Introduction",
+            "Digital",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to digital marketing",
+            "Small-group discussion / problem set on introduction to digital marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to digital marketing?",
+              "type": "short_answer",
+              "answer": "The digital marketing landscape and how channels fit together."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to digital marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "The digital marketing landscape and how channels fit together.",
+            "tip": "Review introduction to digital marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to digital marketing?",
+                "options": [
+                  "The digital marketing landscape and how channels fit together.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "The digital marketing landscape and how channels fit together."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to digital marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Introduction+to+Digital+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Digital+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "digital-marketing-c1-l2",
+          "title": "Search Engine Optimization Fundamentals",
+          "unit": "Search Engine Optimization Fundamentals",
+          "level": "C1",
+          "subject": "Digital Marketing",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of search engine optimization fundamentals at College Level 1 depth.",
+            "Apply search engine optimization fundamentals concepts to worked examples and problems.",
+            "Critically discuss how search engine optimization fundamentals connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "How search engines rank content, and how to structure content to be found.",
+          "key_concepts": [
+            "Search",
+            "Engine",
+            "Optimization",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on search engine optimization fundamentals",
+            "Small-group discussion / problem set on search engine optimization fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind search engine optimization fundamentals?",
+              "type": "short_answer",
+              "answer": "How search engines rank content, and how to structure content to be found."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting search engine optimization fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "How search engines rank content, and how to structure content to be found.",
+            "tip": "Review search engine optimization fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes search engine optimization fundamentals?",
+                "options": [
+                  "How search engines rank content, and how to structure content to be found.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "How search engines rank content, and how to structure content to be found."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands search engine optimization fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Search+Engine+Optimization+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Search+Engine+Optimization+Fundamentals+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Introduction to Digital Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Search Engine Optimization Fundamentals' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Introduction to Digital Marketing' shows up in real-world digital marketing practice: The digital marketing landscape and how channels fit together.",
+        "How 'Search Engine Optimization Fundamentals' shows up in real-world digital marketing practice: How search engines rank content, and how to structure content to be found."
+      ],
+      "learning_path": "At College Level 1, Digital Marketing progresses through Introduction to Digital Marketing, Search Engine Optimization Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Digital+Marketing+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Digital+Marketing+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-c1-book1",
+          "title": "UI/UX Design: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Introduction+to+UI%2FUX+Design",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Introduction to UI/UX Design — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Introduction+to+UI%2FUX+Design+UI%2FUX+Design+lecture",
+          "description": "Curated video search for introduction to ui/ux design at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Introduction to UI/UX Design",
+          "url": "https://www.coursera.org/search?query=Introduction+to+UI%2FUX+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Introduction to UI/UX Design' module?",
+          "type": "multiple_choice",
+          "options": [
+            "The difference between user interface and user experience design, and why both matter.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "The difference between user interface and user experience design, and why both matter."
+        },
+        {
+          "question": "What is the focus of the 'User Research Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Interviews, surveys, and observation methods for understanding users.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Interviews, surveys, and observation methods for understanding users."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Introduction to UI/UX Design.",
+            "type": "short_answer",
+            "answer": "The difference between user interface and user experience design, and why both matter."
+          },
+          {
+            "question": "Briefly explain: User Research Fundamentals.",
+            "type": "short_answer",
+            "answer": "Interviews, surveys, and observation methods for understanding users."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design College Level 1 Companion",
+          "url": "https://www.coursera.org/search?query=Introduction+to+UI%2FUX+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The difference between user interface and user experience design, and why both matter.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-c1-l1",
+          "title": "Introduction to UI/UX Design",
+          "unit": "Introduction to UI/UX Design",
+          "level": "C1",
+          "subject": "UI/UX Design",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to ui/ux design at College Level 1 depth.",
+            "Apply introduction to ui/ux design concepts to worked examples and problems.",
+            "Critically discuss how introduction to ui/ux design connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "The difference between user interface and user experience design, and why both matter.",
+          "key_concepts": [
+            "Introduction",
+            "UI/UX",
+            "Design"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to ui/ux design",
+            "Small-group discussion / problem set on introduction to ui/ux design"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to ui/ux design?",
+              "type": "short_answer",
+              "answer": "The difference between user interface and user experience design, and why both matter."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to ui/ux design to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "The difference between user interface and user experience design, and why both matter.",
+            "tip": "Review introduction to ui/ux design before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to ui/ux design?",
+                "options": [
+                  "The difference between user interface and user experience design, and why both matter.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "The difference between user interface and user experience design, and why both matter."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to ui/ux design",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Introduction+to+UI%2FUX+Design"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+UI%2FUX+Design+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "ui/ux-design-c1-l2",
+          "title": "User Research Fundamentals",
+          "unit": "User Research Fundamentals",
+          "level": "C1",
+          "subject": "UI/UX Design",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of user research fundamentals at College Level 1 depth.",
+            "Apply user research fundamentals concepts to worked examples and problems.",
+            "Critically discuss how user research fundamentals connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Interviews, surveys, and observation methods for understanding users.",
+          "key_concepts": [
+            "User",
+            "Research",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on user research fundamentals",
+            "Small-group discussion / problem set on user research fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind user research fundamentals?",
+              "type": "short_answer",
+              "answer": "Interviews, surveys, and observation methods for understanding users."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting user research fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Interviews, surveys, and observation methods for understanding users.",
+            "tip": "Review user research fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes user research fundamentals?",
+                "options": [
+                  "Interviews, surveys, and observation methods for understanding users.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Interviews, surveys, and observation methods for understanding users."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands user research fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=User+Research+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=User+Research+Fundamentals+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Introduction to UI/UX Design' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'User Research Fundamentals' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Introduction to UI/UX Design' shows up in real-world ui/ux design practice: The difference between user interface and user experience design, and why both matter.",
+        "How 'User Research Fundamentals' shows up in real-world ui/ux design practice: Interviews, surveys, and observation methods for understanding users."
+      ],
+      "learning_path": "At College Level 1, UI/UX Design progresses through Introduction to UI/UX Design, User Research Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+UI%2FUX+Design+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+UI%2FUX+Design+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-c1-book1",
+          "title": "Project Management: College Level 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Introduction+to+Project+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Introduction to Project Management — College Level 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Introduction+to+Project+Management+Project+Management+lecture",
+          "description": "Curated video search for introduction to project management at College Level 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Introduction to Project Management",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Project+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Introduction to Project Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "What a project is, and the core role of a project manager.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "What a project is, and the core role of a project manager."
+        },
+        {
+          "question": "What is the focus of the 'Project Life Cycle & Initiation' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Defining a project's goals, scope, and stakeholders before work begins.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Defining a project's goals, scope, and stakeholders before work begins."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Introduction to Project Management.",
+            "type": "short_answer",
+            "answer": "What a project is, and the core role of a project manager."
+          },
+          {
+            "question": "Briefly explain: Project Life Cycle & Initiation.",
+            "type": "short_answer",
+            "answer": "Defining a project's goals, scope, and stakeholders before work begins."
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "Project Management College Level 1 Companion",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Project+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "What a project is, and the core role of a project manager.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-c1-l1",
+          "title": "Introduction to Project Management",
+          "unit": "Introduction to Project Management",
+          "level": "C1",
+          "subject": "Project Management",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to project management at College Level 1 depth.",
+            "Apply introduction to project management concepts to worked examples and problems.",
+            "Critically discuss how introduction to project management connects to real-world practice in project management."
+          ],
+          "reading_material": "What a project is, and the core role of a project manager.",
+          "key_concepts": [
+            "Introduction",
+            "Project",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to project management",
+            "Small-group discussion / problem set on introduction to project management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to project management?",
+              "type": "short_answer",
+              "answer": "What a project is, and the core role of a project manager."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to project management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "What a project is, and the core role of a project manager.",
+            "tip": "Review introduction to project management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to project management?",
+                "options": [
+                  "What a project is, and the core role of a project manager.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "What a project is, and the core role of a project manager."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to project management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Introduction+to+Project+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Project+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "project-management-c1-l2",
+          "title": "Project Life Cycle & Initiation",
+          "unit": "Project Life Cycle & Initiation",
+          "level": "C1",
+          "subject": "Project Management",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of project life cycle & initiation at College Level 1 depth.",
+            "Apply project life cycle & initiation concepts to worked examples and problems.",
+            "Critically discuss how project life cycle & initiation connects to real-world practice in project management."
+          ],
+          "reading_material": "Defining a project's goals, scope, and stakeholders before work begins.",
+          "key_concepts": [
+            "Project",
+            "Life",
+            "Cycle",
+            "Initiation"
+          ],
+          "practical_activities": [
+            "Guided worked example on project life cycle & initiation",
+            "Small-group discussion / problem set on project life cycle & initiation"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind project life cycle & initiation?",
+              "type": "short_answer",
+              "answer": "Defining a project's goals, scope, and stakeholders before work begins."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting project life cycle & initiation to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Defining a project's goals, scope, and stakeholders before work begins.",
+            "tip": "Review project life cycle & initiation before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes project life cycle & initiation?",
+                "options": [
+                  "Defining a project's goals, scope, and stakeholders before work begins.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Defining a project's goals, scope, and stakeholders before work begins."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands project life cycle & initiation",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Project+Life+Cycle+%26+Initiation"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Project+Life+Cycle+%26+Initiation+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Introduction to Project Management' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Project Life Cycle & Initiation' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a college level 1 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Introduction to Project Management' shows up in real-world project management practice: What a project is, and the core role of a project manager.",
+        "How 'Project Life Cycle & Initiation' shows up in real-world project management practice: Defining a project's goals, scope, and stakeholders before work begins."
+      ],
+      "learning_path": "At College Level 1, Project Management progresses through Introduction to Project Management, Project Life Cycle & Initiation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Introduction+to+Project+Management+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Introduction+to+Project+Management+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Introduction+to+Project+Management+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Introduction+to+Project+Management+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Introduction+to+Project+Management+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Introduction+to+Project+Management+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Introduction+to+Project+Management+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1496,7 +3485,51 @@
         "How 'Foundations of Algebra & Functions' shows up in real-world math practice: Foundations of Algebra & Functions is an introductory module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Calculus' shows up in real-world math practice: Foundations of Calculus extends Math at College Level 1, connecting calculus to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Math progresses through Foundations of Algebra & Functions, Foundations of Calculus. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Math progresses through Foundations of Algebra & Functions, Foundations of Calculus. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Algebra+%26+Functions+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Algebra+%26+Functions+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1747,7 +3780,51 @@
         "How 'Foundations of Composition & Rhetoric' shows up in real-world english practice: Foundations of Composition & Rhetoric is an introductory module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Literary Analysis' shows up in real-world english practice: Foundations of Literary Analysis extends English at College Level 1, connecting literary analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, English progresses through Foundations of Composition & Rhetoric, Foundations of Literary Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, English progresses through Foundations of Composition & Rhetoric, Foundations of Literary Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Composition+%26+Rhetoric+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Composition+%26+Rhetoric+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2000,7 +4077,51 @@
         "How 'Foundations of Scientific Method & Measurement' shows up in real-world science practice: Foundations of Scientific Method & Measurement is an introductory module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Earth & Space Science' shows up in real-world science practice: Foundations of Earth & Space Science extends Science at College Level 1, connecting earth & space science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Science progresses through Foundations of Scientific Method & Measurement, Foundations of Earth & Space Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Science progresses through Foundations of Scientific Method & Measurement, Foundations of Earth & Space Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Scientific+Method+%26+Measurement+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Scientific+Method+%26+Measurement+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2251,7 +4372,51 @@
         "How 'Foundations of Physical Geography' shows up in real-world geography practice: Foundations of Physical Geography is an introductory module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Human Geography' shows up in real-world geography practice: Foundations of Human Geography extends Geography at College Level 1, connecting human geography to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Geography progresses through Foundations of Physical Geography, Foundations of Human Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Geography progresses through Foundations of Physical Geography, Foundations of Human Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Physical+Geography+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Physical+Geography+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Physical+Geography+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Physical+Geography+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Physical+Geography+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Physical+Geography+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Physical+Geography+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2505,7 +4670,51 @@
         "How 'Foundations of Ancient & Classical Civilizations' shows up in real-world world history practice: Foundations of Ancient & Classical Civilizations is an introductory module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Medieval & Early Modern History' shows up in real-world world history practice: Foundations of Medieval & Early Modern History extends World History at College Level 1, connecting medieval & early modern history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, World History progresses through Foundations of Ancient & Classical Civilizations, Foundations of Medieval & Early Modern History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, World History progresses through Foundations of Ancient & Classical Civilizations, Foundations of Medieval & Early Modern History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Ancient+%26+Classical+Civilizations+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2757,7 +4966,51 @@
         "How 'Foundations of Quranic Studies' shows up in real-world islamic studies practice: Foundations of Quranic Studies is an introductory module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Islamic History & Civilization' shows up in real-world islamic studies practice: Foundations of Islamic History & Civilization extends Islamic Studies at College Level 1, connecting islamic history & civilization to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Islamic Studies progresses through Foundations of Quranic Studies, Foundations of Islamic History & Civilization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Islamic Studies progresses through Foundations of Quranic Studies, Foundations of Islamic History & Civilization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Quranic+Studies+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Quranic+Studies+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3009,7 +5262,51 @@
         "How 'Foundations of Programming Fundamentals' shows up in real-world coding practice: Foundations of Programming Fundamentals is an introductory module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Data Structures & Algorithms' shows up in real-world coding practice: Foundations of Data Structures & Algorithms extends Coding at College Level 1, connecting data structures & algorithms to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Coding progresses through Foundations of Programming Fundamentals, Foundations of Data Structures & Algorithms. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Coding progresses through Foundations of Programming Fundamentals, Foundations of Data Structures & Algorithms. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Programming+Fundamentals+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Programming+Fundamentals+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3262,7 +5559,51 @@
         "How 'Foundations of Classic World Literature' shows up in real-world world literature practice: Foundations of Classic World Literature is an introductory module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Modern & Contemporary Literature' shows up in real-world world literature practice: Foundations of Modern & Contemporary Literature extends World Literature at College Level 1, connecting modern & contemporary literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, World Literature progresses through Foundations of Classic World Literature, Foundations of Modern & Contemporary Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, World Literature progresses through Foundations of Classic World Literature, Foundations of Modern & Contemporary Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Classic+World+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Classic+World+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3512,7 +5853,51 @@
         "How 'Foundations of Art Fundamentals & Technique' shows up in real-world art practice: Foundations of Art Fundamentals & Technique is an introductory module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Art History' shows up in real-world art practice: Foundations of Art History extends Art at College Level 1, connecting art history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Art progresses through Foundations of Art Fundamentals & Technique, Foundations of Art History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Art progresses through Foundations of Art Fundamentals & Technique, Foundations of Art History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Art+Fundamentals+%26+Technique+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Art+Fundamentals+%26+Technique+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3764,7 +6149,51 @@
         "How 'Foundations of Music Theory Fundamentals' shows up in real-world music practice: Foundations of Music Theory Fundamentals is an introductory module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Music History' shows up in real-world music practice: Foundations of Music History extends Music at College Level 1, connecting music history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Music progresses through Foundations of Music Theory Fundamentals, Foundations of Music History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Music progresses through Foundations of Music Theory Fundamentals, Foundations of Music History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Music+Theory+Fundamentals+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Music+Theory+Fundamentals+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4017,7 +6446,51 @@
         "How 'Foundations of Outdoor Safety Fundamentals' shows up in real-world survival skills practice: Foundations of Outdoor Safety Fundamentals is an introductory module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Wilderness First Response' shows up in real-world survival skills practice: Foundations of Wilderness First Response extends Survival Skills at College Level 1, connecting wilderness first response to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Survival Skills progresses through Foundations of Outdoor Safety Fundamentals, Foundations of Wilderness First Response. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Survival Skills progresses through Foundations of Outdoor Safety Fundamentals, Foundations of Wilderness First Response. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Outdoor+Safety+Fundamentals+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4270,7 +6743,51 @@
         "How 'Foundations of Kitchen Fundamentals & Food Safety' shows up in real-world cooking practice: Foundations of Kitchen Fundamentals & Food Safety is an introductory module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Global Cuisines' shows up in real-world cooking practice: Foundations of Global Cuisines extends Cooking at College Level 1, connecting global cuisines to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Cooking progresses through Foundations of Kitchen Fundamentals & Food Safety, Foundations of Global Cuisines. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Cooking progresses through Foundations of Kitchen Fundamentals & Food Safety, Foundations of Global Cuisines. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Kitchen+Fundamentals+%26+Food+Safety+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4522,7 +7039,51 @@
         "How 'Foundations of Beginner Communication' shows up in real-world foreign languages practice: Foundations of Beginner Communication is an introductory module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Intermediate Grammar & Conversation' shows up in real-world foreign languages practice: Foundations of Intermediate Grammar & Conversation extends Foreign Languages at College Level 1, connecting intermediate grammar & conversation to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Foreign Languages progresses through Foundations of Beginner Communication, Foundations of Intermediate Grammar & Conversation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Foreign Languages progresses through Foundations of Beginner Communication, Foundations of Intermediate Grammar & Conversation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Beginner+Communication+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Beginner+Communication+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4775,7 +7336,51 @@
         "How 'Foundations of Current Affairs Fundamentals' shows up in real-world general knowledge practice: Foundations of Current Affairs Fundamentals is an introductory module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Global Institutions & Systems' shows up in real-world general knowledge practice: Foundations of Global Institutions & Systems extends General Knowledge at College Level 1, connecting global institutions & systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, General Knowledge progresses through Foundations of Current Affairs Fundamentals, Foundations of Global Institutions & Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, General Knowledge progresses through Foundations of Current Affairs Fundamentals, Foundations of Global Institutions & Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Current+Affairs+Fundamentals+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5026,7 +7631,51 @@
         "How 'Foundations of Society & Institutions' shows up in real-world social studies practice: Foundations of Society & Institutions is an introductory module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Culture & Identity' shows up in real-world social studies practice: Foundations of Culture & Identity extends Social Studies at College Level 1, connecting culture & identity to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Social Studies progresses through Foundations of Society & Institutions, Foundations of Culture & Identity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Social Studies progresses through Foundations of Society & Institutions, Foundations of Culture & Identity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Society+%26+Institutions+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Society+%26+Institutions+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5277,7 +7926,51 @@
         "How 'Foundations of Ecosystems & Biodiversity' shows up in real-world environmental science practice: Foundations of Ecosystems & Biodiversity is an introductory module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Climate Science' shows up in real-world environmental science practice: Foundations of Climate Science extends Environmental Science at College Level 1, connecting climate science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Environmental Science progresses through Foundations of Ecosystems & Biodiversity, Foundations of Climate Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Environmental Science progresses through Foundations of Ecosystems & Biodiversity, Foundations of Climate Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Ecosystems+%26+Biodiversity+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5529,7 +8222,51 @@
         "How 'Foundations of Fitness Fundamentals' shows up in real-world physical education & self-defense practice: Foundations of Fitness Fundamentals is an introductory module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Applied Self-Defense Technique' shows up in real-world physical education & self-defense practice: Foundations of Applied Self-Defense Technique extends Physical Education & Self-Defense at College Level 1, connecting applied self-defense technique to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Physical Education & Self-Defense progresses through Foundations of Fitness Fundamentals, Foundations of Applied Self-Defense Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Physical Education & Self-Defense progresses through Foundations of Fitness Fundamentals, Foundations of Applied Self-Defense Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Fitness+Fundamentals+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5780,7 +8517,51 @@
         "How 'Foundations of Microeconomics Fundamentals' shows up in real-world economics practice: Foundations of Microeconomics Fundamentals is an introductory module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Macroeconomics Fundamentals' shows up in real-world economics practice: Foundations of Macroeconomics Fundamentals extends Economics at College Level 1, connecting macroeconomics fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Economics progresses through Foundations of Microeconomics Fundamentals, Foundations of Macroeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Economics progresses through Foundations of Microeconomics Fundamentals, Foundations of Macroeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Microeconomics+Fundamentals+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Microeconomics+Fundamentals+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6032,7 +8813,51 @@
         "How 'Foundations of Personal Finance Fundamentals' shows up in real-world finance practice: Foundations of Personal Finance Fundamentals is an introductory module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Corporate Finance' shows up in real-world finance practice: Foundations of Corporate Finance extends Finance at College Level 1, connecting corporate finance to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Finance progresses through Foundations of Personal Finance Fundamentals, Foundations of Corporate Finance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Finance progresses through Foundations of Personal Finance Fundamentals, Foundations of Corporate Finance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Personal+Finance+Fundamentals+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Personal+Finance+Fundamentals+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6284,7 +9109,51 @@
         "How 'Foundations of Basic First Aid & CPR' shows up in real-world first aid practice: Foundations of Basic First Aid & CPR is an introductory module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Emergency Response Protocols' shows up in real-world first aid practice: Foundations of Emergency Response Protocols extends First Aid at College Level 1, connecting emergency response protocols to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, First Aid progresses through Foundations of Basic First Aid & CPR, Foundations of Emergency Response Protocols. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, First Aid progresses through Foundations of Basic First Aid & CPR, Foundations of Emergency Response Protocols. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Basic+First+Aid+%26+CPR+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6536,7 +9405,51 @@
         "How 'Foundations of Classical Mechanics' shows up in real-world physics practice: Foundations of Classical Mechanics is an introductory module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Electricity, Magnetism & Waves' shows up in real-world physics practice: Foundations of Electricity, Magnetism & Waves extends Physics at College Level 1, connecting electricity, magnetism & waves to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Physics progresses through Foundations of Classical Mechanics, Foundations of Electricity, Magnetism & Waves. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Physics progresses through Foundations of Classical Mechanics, Foundations of Electricity, Magnetism & Waves. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Classical+Mechanics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Classical+Mechanics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Classical+Mechanics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Classical+Mechanics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Classical+Mechanics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Classical+Mechanics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Classical+Mechanics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6788,7 +9701,51 @@
         "How 'Foundations of General & Inorganic Chemistry' shows up in real-world chemistry practice: Foundations of General & Inorganic Chemistry is an introductory module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Organic Chemistry' shows up in real-world chemistry practice: Foundations of Organic Chemistry extends Chemistry at College Level 1, connecting organic chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Chemistry progresses through Foundations of General & Inorganic Chemistry, Foundations of Organic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Chemistry progresses through Foundations of General & Inorganic Chemistry, Foundations of Organic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+General+%26+Inorganic+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7040,7 +9997,51 @@
         "How 'Foundations of Cell & Molecular Biology' shows up in real-world biology practice: Foundations of Cell & Molecular Biology is an introductory module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Genetics & Evolution' shows up in real-world biology practice: Foundations of Genetics & Evolution extends Biology at College Level 1, connecting genetics & evolution to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Biology progresses through Foundations of Cell & Molecular Biology, Foundations of Genetics & Evolution. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Biology progresses through Foundations of Cell & Molecular Biology, Foundations of Genetics & Evolution. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Cell+%26+Molecular+Biology+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Cell+%26+Molecular+Biology+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7293,7 +10294,51 @@
         "How 'Foundations of Introduction to Philosophy & Logic' shows up in real-world philosophy practice: Foundations of Introduction to Philosophy & Logic is an introductory module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Ethics & Political Philosophy' shows up in real-world philosophy practice: Foundations of Ethics & Political Philosophy extends Philosophy at College Level 1, connecting ethics & political philosophy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Philosophy progresses through Foundations of Introduction to Philosophy & Logic, Foundations of Ethics & Political Philosophy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Philosophy progresses through Foundations of Introduction to Philosophy & Logic, Foundations of Ethics & Political Philosophy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Introduction+to+Philosophy+%26+Logic+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7546,7 +10591,51 @@
         "How 'Foundations of Logic & Argument Structure' shows up in real-world critical thinking practice: Foundations of Logic & Argument Structure is an introductory module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Cognitive Bias & Fallacies' shows up in real-world critical thinking practice: Foundations of Cognitive Bias & Fallacies extends Critical Thinking at College Level 1, connecting cognitive bias & fallacies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Critical Thinking progresses through Foundations of Logic & Argument Structure, Foundations of Cognitive Bias & Fallacies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Critical Thinking progresses through Foundations of Logic & Argument Structure, Foundations of Cognitive Bias & Fallacies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Logic+%26+Argument+Structure+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7797,7 +10886,51 @@
         "How 'Foundations of Government & Constitutions' shows up in real-world civics practice: Foundations of Government & Constitutions is an introductory module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Rights, Law & Institutions' shows up in real-world civics practice: Foundations of Rights, Law & Institutions extends Civics at College Level 1, connecting rights, law & institutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Civics progresses through Foundations of Government & Constitutions, Foundations of Rights, Law & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Civics progresses through Foundations of Government & Constitutions, Foundations of Rights, Law & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Government+%26+Constitutions+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Government+%26+Constitutions+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8050,7 +11183,51 @@
         "How 'Foundations of Personal Health & Wellbeing' shows up in real-world health education practice: Foundations of Personal Health & Wellbeing is an introductory module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Public Health Fundamentals' shows up in real-world health education practice: Foundations of Public Health Fundamentals extends Health Education at College Level 1, connecting public health fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Health Education progresses through Foundations of Personal Health & Wellbeing, Foundations of Public Health Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Health Education progresses through Foundations of Personal Health & Wellbeing, Foundations of Public Health Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Personal+Health+%26+Wellbeing+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8302,7 +11479,51 @@
         "How 'Foundations of Business Fundamentals' shows up in real-world business studies practice: Foundations of Business Fundamentals is an introductory module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Management & Organizational Behaviour' shows up in real-world business studies practice: Foundations of Management & Organizational Behaviour extends Business Studies at College Level 1, connecting management & organizational behaviour to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, Business Studies progresses through Foundations of Business Fundamentals, Foundations of Management & Organizational Behaviour. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, Business Studies progresses through Foundations of Business Fundamentals, Foundations of Management & Organizational Behaviour. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Business+Fundamentals+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Business+Fundamentals+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8555,7 +11776,51 @@
         "How 'Foundations of International Relations Fundamentals' shows up in real-world world politics practice: Foundations of International Relations Fundamentals is an introductory module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Comparative Political Systems' shows up in real-world world politics practice: Foundations of Comparative Political Systems extends World Politics at College Level 1, connecting comparative political systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, World Politics progresses through Foundations of International Relations Fundamentals, Foundations of Comparative Political Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, World Politics progresses through Foundations of International Relations Fundamentals, Foundations of Comparative Political Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+International+Relations+Fundamentals+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+International+Relations+Fundamentals+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8807,7 +12072,51 @@
         "How 'Foundations of Computer Systems Fundamentals' shows up in real-world ict & computer science practice: Foundations of Computer Systems Fundamentals is an introductory module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 1.",
         "How 'Foundations of Networks & Databases' shows up in real-world ict & computer science practice: Foundations of Networks & Databases extends ICT & Computer Science at College Level 1, connecting networks & databases to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 1, ICT & Computer Science progresses through Foundations of Computer Systems Fundamentals, Foundations of Networks & Databases. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 1, ICT & Computer Science progresses through Foundations of Computer Systems Fundamentals, Foundations of Networks & Databases. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Foundations+of+Computer+Systems+Fundamentals+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

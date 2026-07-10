@@ -251,7 +251,51 @@
         "How 'AI in Society: Healthcare & Education' shows up in real-world artificial intelligence practice: Applied AI case studies in diagnosis support, tutoring systems, and adaptive learning.",
         "How 'AI in Society: Business & Governance' shows up in real-world artificial intelligence practice: Applied AI case studies in industry automation, policy, and regulation of AI."
       ],
-      "learning_path": "At Master's Year 2, Artificial Intelligence progresses through AI in Society: Healthcare & Education, AI in Society: Business & Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Artificial Intelligence progresses through AI in Society: Healthcare & Education, AI in Society: Business & Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=AI+in+Society%3A+Healthcare+%26+Education+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -500,7 +544,51 @@
         "How 'Responsible ML' shows up in real-world machine learning practice: Fairness, bias auditing, interpretability, and privacy-preserving machine learning.",
         "How 'ML Capstone & Research Methods' shows up in real-world machine learning practice: Designing an original ML experiment, from hypothesis to evaluation and write-up."
       ],
-      "learning_path": "At Master's Year 2, Machine Learning progresses through Responsible ML, ML Capstone & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Machine Learning progresses through Responsible ML, ML Capstone & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Responsible+ML+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Responsible+ML+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Responsible+ML+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Responsible+ML+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Responsible+ML+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Responsible+ML+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Responsible+ML+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -750,7 +838,51 @@
         "How 'NLP Ethics & Bias' shows up in real-world natural language processing practice: Bias in training corpora, representational harms, and fairness in language technology.",
         "How 'NLP Capstone & Research Methods' shows up in real-world natural language processing practice: Designing an original NLP project, from data collection to evaluation."
       ],
-      "learning_path": "At Master's Year 2, Natural Language Processing progresses through NLP Ethics & Bias, NLP Capstone & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Natural Language Processing progresses through NLP Ethics & Bias, NLP Capstone & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=NLP+Ethics+%26+Bias+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=NLP+Ethics+%26+Bias+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -1001,7 +1133,51 @@
         "How 'Data Science in Industry' shows up in real-world data science practice: Case studies of data science applied in business, healthcare, and public policy.",
         "How 'Data Science Capstone' shows up in real-world data science practice: An end-to-end applied project: a real dataset, a business question, and a data-driven answer."
       ],
-      "learning_path": "At Master's Year 2, Data Science progresses through Data Science in Industry, Data Science Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Data Science progresses through Data Science in Industry, Data Science Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Data+Science+in+Industry+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Data+Science+in+Industry+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Data+Science+in+Industry+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Data+Science+in+Industry+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Data+Science+in+Industry+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Data+Science+in+Industry+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Data+Science+in+Industry+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1253,7 +1429,1818 @@
         "How 'Business Analytics Ethics & Governance' shows up in real-world business analytics practice: Data governance, privacy, and ethical use of analytics in decision-making.",
         "How 'Business Analytics Capstone' shows up in real-world business analytics practice: A consulting-style analytics project solving a real organizational problem."
       ],
-      "learning_path": "At Master's Year 2, Business Analytics progresses through Business Analytics Ethics & Governance, Business Analytics Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Business Analytics progresses through Business Analytics Ethics & Governance, Business Analytics Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Business+Analytics+Ethics+%26+Governance+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Business+Analytics+Ethics+%26+Governance+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-m2-book1",
+          "title": "Web Development: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=DevOps+%26+Deployment",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "DevOps & Deployment — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=DevOps+%26+Deployment+Web+Development+lecture",
+          "description": "Curated video search for devops & deployment at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: DevOps & Deployment",
+          "url": "https://ocw.mit.edu/search/?q=DevOps+%26+Deployment",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'DevOps & Deployment' module?",
+          "type": "multiple_choice",
+          "options": [
+            "CI/CD pipelines, containers, and deploying a web app to production.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "CI/CD pipelines, containers, and deploying a web app to production."
+        },
+        {
+          "question": "What is the focus of the 'Full-Stack Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing, building, and deploying a complete full-stack web application.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing, building, and deploying a complete full-stack web application."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: DevOps & Deployment.",
+            "type": "short_answer",
+            "answer": "CI/CD pipelines, containers, and deploying a web app to production."
+          },
+          {
+            "question": "Briefly explain: Full-Stack Capstone.",
+            "type": "short_answer",
+            "answer": "Designing, building, and deploying a complete full-stack web application."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Master's Year 2 Companion",
+          "url": "https://ocw.mit.edu/search/?q=DevOps+%26+Deployment",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "CI/CD pipelines, containers, and deploying a web app to production.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-m2-l1",
+          "title": "DevOps & Deployment",
+          "unit": "DevOps & Deployment",
+          "level": "M2",
+          "subject": "Web Development",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of devops & deployment at Master's Year 2 depth.",
+            "Apply devops & deployment concepts to worked examples and problems.",
+            "Critically discuss how devops & deployment connects to real-world practice in web development."
+          ],
+          "reading_material": "CI/CD pipelines, containers, and deploying a web app to production.",
+          "key_concepts": [
+            "DevOps",
+            "Deployment"
+          ],
+          "practical_activities": [
+            "Guided worked example on devops & deployment",
+            "Small-group discussion / problem set on devops & deployment"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind devops & deployment?",
+              "type": "short_answer",
+              "answer": "CI/CD pipelines, containers, and deploying a web app to production."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting devops & deployment to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "CI/CD pipelines, containers, and deploying a web app to production.",
+            "tip": "Review devops & deployment before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes devops & deployment?",
+                "options": [
+                  "CI/CD pipelines, containers, and deploying a web app to production.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "CI/CD pipelines, containers, and deploying a web app to production."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands devops & deployment",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=DevOps+%26+Deployment"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=DevOps+%26+Deployment+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "web-development-m2-l2",
+          "title": "Full-Stack Capstone",
+          "unit": "Full-Stack Capstone",
+          "level": "M2",
+          "subject": "Web Development",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of full-stack capstone at Master's Year 2 depth.",
+            "Apply full-stack capstone concepts to worked examples and problems.",
+            "Critically discuss how full-stack capstone connects to real-world practice in web development."
+          ],
+          "reading_material": "Designing, building, and deploying a complete full-stack web application.",
+          "key_concepts": [
+            "Full-Stack",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on full-stack capstone",
+            "Small-group discussion / problem set on full-stack capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind full-stack capstone?",
+              "type": "short_answer",
+              "answer": "Designing, building, and deploying a complete full-stack web application."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting full-stack capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing, building, and deploying a complete full-stack web application.",
+            "tip": "Review full-stack capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes full-stack capstone?",
+                "options": [
+                  "Designing, building, and deploying a complete full-stack web application.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing, building, and deploying a complete full-stack web application."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands full-stack capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Full-Stack+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Full-Stack+Capstone+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'DevOps & Deployment' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'Full-Stack Capstone' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'DevOps & Deployment' shows up in real-world web development practice: CI/CD pipelines, containers, and deploying a web app to production.",
+        "How 'Full-Stack Capstone' shows up in real-world web development practice: Designing, building, and deploying a complete full-stack web application."
+      ],
+      "learning_path": "At Master's Year 2, Web Development progresses through DevOps & Deployment, Full-Stack Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=DevOps+%26+Deployment+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=DevOps+%26+Deployment+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=DevOps+%26+Deployment+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=DevOps+%26+Deployment+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=DevOps+%26+Deployment+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=DevOps+%26+Deployment+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=DevOps+%26+Deployment+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-m2-book1",
+          "title": "Cybersecurity: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Advanced+Threat+Intelligence",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Advanced Threat Intelligence — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Advanced+Threat+Intelligence+Cybersecurity+lecture",
+          "description": "Curated video search for advanced threat intelligence at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Advanced Threat Intelligence",
+          "url": "https://www.coursera.org/search?query=Advanced+Threat+Intelligence",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Advanced Threat Intelligence' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Tracking attacker techniques and emerging threats at an organizational level.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Tracking attacker techniques and emerging threats at an organizational level."
+        },
+        {
+          "question": "What is the focus of the 'Cybersecurity Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "An authorized security assessment project in a lab/sandboxed environment.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "An authorized security assessment project in a lab/sandboxed environment."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Advanced Threat Intelligence.",
+            "type": "short_answer",
+            "answer": "Tracking attacker techniques and emerging threats at an organizational level."
+          },
+          {
+            "question": "Briefly explain: Cybersecurity Capstone.",
+            "type": "short_answer",
+            "answer": "An authorized security assessment project in a lab/sandboxed environment."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Master's Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Advanced+Threat+Intelligence",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Tracking attacker techniques and emerging threats at an organizational level.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-m2-l1",
+          "title": "Advanced Threat Intelligence",
+          "unit": "Advanced Threat Intelligence",
+          "level": "M2",
+          "subject": "Cybersecurity",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of advanced threat intelligence at Master's Year 2 depth.",
+            "Apply advanced threat intelligence concepts to worked examples and problems.",
+            "Critically discuss how advanced threat intelligence connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Tracking attacker techniques and emerging threats at an organizational level.",
+          "key_concepts": [
+            "Advanced",
+            "Threat",
+            "Intelligence"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced threat intelligence",
+            "Small-group discussion / problem set on advanced threat intelligence"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced threat intelligence?",
+              "type": "short_answer",
+              "answer": "Tracking attacker techniques and emerging threats at an organizational level."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced threat intelligence to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Tracking attacker techniques and emerging threats at an organizational level.",
+            "tip": "Review advanced threat intelligence before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced threat intelligence?",
+                "options": [
+                  "Tracking attacker techniques and emerging threats at an organizational level.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Tracking attacker techniques and emerging threats at an organizational level."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced threat intelligence",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Advanced+Threat+Intelligence"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+Threat+Intelligence+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "cybersecurity-m2-l2",
+          "title": "Cybersecurity Capstone",
+          "unit": "Cybersecurity Capstone",
+          "level": "M2",
+          "subject": "Cybersecurity",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of cybersecurity capstone at Master's Year 2 depth.",
+            "Apply cybersecurity capstone concepts to worked examples and problems.",
+            "Critically discuss how cybersecurity capstone connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "An authorized security assessment project in a lab/sandboxed environment.",
+          "key_concepts": [
+            "Cybersecurity",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on cybersecurity capstone",
+            "Small-group discussion / problem set on cybersecurity capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cybersecurity capstone?",
+              "type": "short_answer",
+              "answer": "An authorized security assessment project in a lab/sandboxed environment."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cybersecurity capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "An authorized security assessment project in a lab/sandboxed environment.",
+            "tip": "Review cybersecurity capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cybersecurity capstone?",
+                "options": [
+                  "An authorized security assessment project in a lab/sandboxed environment.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "An authorized security assessment project in a lab/sandboxed environment."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cybersecurity capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cybersecurity+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cybersecurity+Capstone+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Advanced Threat Intelligence' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Cybersecurity Capstone' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Advanced Threat Intelligence' shows up in real-world cybersecurity practice: Tracking attacker techniques and emerging threats at an organizational level.",
+        "How 'Cybersecurity Capstone' shows up in real-world cybersecurity practice: An authorized security assessment project in a lab/sandboxed environment."
+      ],
+      "learning_path": "At Master's Year 2, Cybersecurity progresses through Advanced Threat Intelligence, Cybersecurity Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Threat+Intelligence+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Threat+Intelligence+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-m2-book1",
+          "title": "Cloud Computing: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Cloud+Architecture+Design+Patterns",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Cloud Architecture Design Patterns — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Cloud+Architecture+Design+Patterns+Cloud+Computing+lecture",
+          "description": "Curated video search for cloud architecture design patterns at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Cloud Architecture Design Patterns",
+          "url": "https://www.coursera.org/search?query=Cloud+Architecture+Design+Patterns",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Cloud Architecture Design Patterns' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Common reliable, scalable architecture patterns for cloud systems.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Common reliable, scalable architecture patterns for cloud systems."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Architecture Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing a scalable, secure cloud architecture for a real-world scenario.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing a scalable, secure cloud architecture for a real-world scenario."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Cloud Architecture Design Patterns.",
+            "type": "short_answer",
+            "answer": "Common reliable, scalable architecture patterns for cloud systems."
+          },
+          {
+            "question": "Briefly explain: Cloud Architecture Capstone.",
+            "type": "short_answer",
+            "answer": "Designing a scalable, secure cloud architecture for a real-world scenario."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Master's Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Cloud+Architecture+Design+Patterns",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Common reliable, scalable architecture patterns for cloud systems.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-m2-l1",
+          "title": "Cloud Architecture Design Patterns",
+          "unit": "Cloud Architecture Design Patterns",
+          "level": "M2",
+          "subject": "Cloud Computing",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of cloud architecture design patterns at Master's Year 2 depth.",
+            "Apply cloud architecture design patterns concepts to worked examples and problems.",
+            "Critically discuss how cloud architecture design patterns connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Common reliable, scalable architecture patterns for cloud systems.",
+          "key_concepts": [
+            "Cloud",
+            "Architecture",
+            "Design",
+            "Patterns"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud architecture design patterns",
+            "Small-group discussion / problem set on cloud architecture design patterns"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud architecture design patterns?",
+              "type": "short_answer",
+              "answer": "Common reliable, scalable architecture patterns for cloud systems."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud architecture design patterns to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Common reliable, scalable architecture patterns for cloud systems.",
+            "tip": "Review cloud architecture design patterns before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud architecture design patterns?",
+                "options": [
+                  "Common reliable, scalable architecture patterns for cloud systems.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Common reliable, scalable architecture patterns for cloud systems."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud architecture design patterns",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Architecture+Design+Patterns"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Architecture+Design+Patterns+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "cloud-computing-m2-l2",
+          "title": "Cloud Architecture Capstone",
+          "unit": "Cloud Architecture Capstone",
+          "level": "M2",
+          "subject": "Cloud Computing",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of cloud architecture capstone at Master's Year 2 depth.",
+            "Apply cloud architecture capstone concepts to worked examples and problems.",
+            "Critically discuss how cloud architecture capstone connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Designing a scalable, secure cloud architecture for a real-world scenario.",
+          "key_concepts": [
+            "Cloud",
+            "Architecture",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud architecture capstone",
+            "Small-group discussion / problem set on cloud architecture capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud architecture capstone?",
+              "type": "short_answer",
+              "answer": "Designing a scalable, secure cloud architecture for a real-world scenario."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud architecture capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing a scalable, secure cloud architecture for a real-world scenario.",
+            "tip": "Review cloud architecture capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud architecture capstone?",
+                "options": [
+                  "Designing a scalable, secure cloud architecture for a real-world scenario.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing a scalable, secure cloud architecture for a real-world scenario."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud architecture capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Architecture+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Architecture+Capstone+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Cloud Architecture Design Patterns' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Architecture Capstone' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Cloud Architecture Design Patterns' shows up in real-world cloud computing practice: Common reliable, scalable architecture patterns for cloud systems.",
+        "How 'Cloud Architecture Capstone' shows up in real-world cloud computing practice: Designing a scalable, secure cloud architecture for a real-world scenario."
+      ],
+      "learning_path": "At Master's Year 2, Cloud Computing progresses through Cloud Architecture Design Patterns, Cloud Architecture Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Cloud+Architecture+Design+Patterns+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Cloud+Architecture+Design+Patterns+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-m2-book1",
+          "title": "Digital Marketing: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Growth+Hacking+%26+Experimentation",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Growth Hacking & Experimentation — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Growth+Hacking+%26+Experimentation+Digital+Marketing+lecture",
+          "description": "Curated video search for growth hacking & experimentation at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Growth Hacking & Experimentation",
+          "url": "https://www.coursera.org/search?query=Growth+Hacking+%26+Experimentation",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Growth Hacking & Experimentation' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Rapid, data-driven experimentation to find scalable growth levers.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Rapid, data-driven experimentation to find scalable growth levers."
+        },
+        {
+          "question": "What is the focus of the 'Integrated Marketing Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing a complete, multi-channel digital marketing campaign.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing a complete, multi-channel digital marketing campaign."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Growth Hacking & Experimentation.",
+            "type": "short_answer",
+            "answer": "Rapid, data-driven experimentation to find scalable growth levers."
+          },
+          {
+            "question": "Briefly explain: Integrated Marketing Capstone.",
+            "type": "short_answer",
+            "answer": "Designing a complete, multi-channel digital marketing campaign."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Master's Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Growth+Hacking+%26+Experimentation",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Rapid, data-driven experimentation to find scalable growth levers.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-m2-l1",
+          "title": "Growth Hacking & Experimentation",
+          "unit": "Growth Hacking & Experimentation",
+          "level": "M2",
+          "subject": "Digital Marketing",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of growth hacking & experimentation at Master's Year 2 depth.",
+            "Apply growth hacking & experimentation concepts to worked examples and problems.",
+            "Critically discuss how growth hacking & experimentation connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Rapid, data-driven experimentation to find scalable growth levers.",
+          "key_concepts": [
+            "Growth",
+            "Hacking",
+            "Experimentation"
+          ],
+          "practical_activities": [
+            "Guided worked example on growth hacking & experimentation",
+            "Small-group discussion / problem set on growth hacking & experimentation"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind growth hacking & experimentation?",
+              "type": "short_answer",
+              "answer": "Rapid, data-driven experimentation to find scalable growth levers."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting growth hacking & experimentation to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Rapid, data-driven experimentation to find scalable growth levers.",
+            "tip": "Review growth hacking & experimentation before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes growth hacking & experimentation?",
+                "options": [
+                  "Rapid, data-driven experimentation to find scalable growth levers.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Rapid, data-driven experimentation to find scalable growth levers."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands growth hacking & experimentation",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Growth+Hacking+%26+Experimentation"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Growth+Hacking+%26+Experimentation+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "digital-marketing-m2-l2",
+          "title": "Integrated Marketing Capstone",
+          "unit": "Integrated Marketing Capstone",
+          "level": "M2",
+          "subject": "Digital Marketing",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of integrated marketing capstone at Master's Year 2 depth.",
+            "Apply integrated marketing capstone concepts to worked examples and problems.",
+            "Critically discuss how integrated marketing capstone connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Designing a complete, multi-channel digital marketing campaign.",
+          "key_concepts": [
+            "Integrated",
+            "Marketing",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on integrated marketing capstone",
+            "Small-group discussion / problem set on integrated marketing capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind integrated marketing capstone?",
+              "type": "short_answer",
+              "answer": "Designing a complete, multi-channel digital marketing campaign."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting integrated marketing capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing a complete, multi-channel digital marketing campaign.",
+            "tip": "Review integrated marketing capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes integrated marketing capstone?",
+                "options": [
+                  "Designing a complete, multi-channel digital marketing campaign.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing a complete, multi-channel digital marketing campaign."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands integrated marketing capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Integrated+Marketing+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Integrated+Marketing+Capstone+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Growth Hacking & Experimentation' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Integrated Marketing Capstone' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Growth Hacking & Experimentation' shows up in real-world digital marketing practice: Rapid, data-driven experimentation to find scalable growth levers.",
+        "How 'Integrated Marketing Capstone' shows up in real-world digital marketing practice: Designing a complete, multi-channel digital marketing campaign."
+      ],
+      "learning_path": "At Master's Year 2, Digital Marketing progresses through Growth Hacking & Experimentation, Integrated Marketing Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Growth+Hacking+%26+Experimentation+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Growth+Hacking+%26+Experimentation+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-m2-book1",
+          "title": "UI/UX Design: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Advanced+UX+Research+Methods",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Advanced UX Research Methods — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Advanced+UX+Research+Methods+UI%2FUX+Design+lecture",
+          "description": "Curated video search for advanced ux research methods at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Advanced UX Research Methods",
+          "url": "https://www.coursera.org/search?query=Advanced+UX+Research+Methods",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Advanced UX Research Methods' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Quantitative and mixed-methods research for mature products.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Quantitative and mixed-methods research for mature products."
+        },
+        {
+          "question": "What is the focus of the 'UX Design Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "An end-to-end product design project from research through polished prototype.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "An end-to-end product design project from research through polished prototype."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Advanced UX Research Methods.",
+            "type": "short_answer",
+            "answer": "Quantitative and mixed-methods research for mature products."
+          },
+          {
+            "question": "Briefly explain: UX Design Capstone.",
+            "type": "short_answer",
+            "answer": "An end-to-end product design project from research through polished prototype."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Master's Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Advanced+UX+Research+Methods",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Quantitative and mixed-methods research for mature products.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-m2-l1",
+          "title": "Advanced UX Research Methods",
+          "unit": "Advanced UX Research Methods",
+          "level": "M2",
+          "subject": "UI/UX Design",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of advanced ux research methods at Master's Year 2 depth.",
+            "Apply advanced ux research methods concepts to worked examples and problems.",
+            "Critically discuss how advanced ux research methods connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Quantitative and mixed-methods research for mature products.",
+          "key_concepts": [
+            "Advanced",
+            "Research",
+            "Methods"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced ux research methods",
+            "Small-group discussion / problem set on advanced ux research methods"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced ux research methods?",
+              "type": "short_answer",
+              "answer": "Quantitative and mixed-methods research for mature products."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced ux research methods to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Quantitative and mixed-methods research for mature products.",
+            "tip": "Review advanced ux research methods before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced ux research methods?",
+                "options": [
+                  "Quantitative and mixed-methods research for mature products.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Quantitative and mixed-methods research for mature products."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced ux research methods",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Advanced+UX+Research+Methods"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+UX+Research+Methods+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "ui/ux-design-m2-l2",
+          "title": "UX Design Capstone",
+          "unit": "UX Design Capstone",
+          "level": "M2",
+          "subject": "UI/UX Design",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of ux design capstone at Master's Year 2 depth.",
+            "Apply ux design capstone concepts to worked examples and problems.",
+            "Critically discuss how ux design capstone connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "An end-to-end product design project from research through polished prototype.",
+          "key_concepts": [
+            "Design",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on ux design capstone",
+            "Small-group discussion / problem set on ux design capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind ux design capstone?",
+              "type": "short_answer",
+              "answer": "An end-to-end product design project from research through polished prototype."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting ux design capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "An end-to-end product design project from research through polished prototype.",
+            "tip": "Review ux design capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes ux design capstone?",
+                "options": [
+                  "An end-to-end product design project from research through polished prototype.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "An end-to-end product design project from research through polished prototype."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands ux design capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=UX+Design+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=UX+Design+Capstone+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Advanced UX Research Methods' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'UX Design Capstone' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Advanced UX Research Methods' shows up in real-world ui/ux design practice: Quantitative and mixed-methods research for mature products.",
+        "How 'UX Design Capstone' shows up in real-world ui/ux design practice: An end-to-end product design project from research through polished prototype."
+      ],
+      "learning_path": "At Master's Year 2, UI/UX Design progresses through Advanced UX Research Methods, UX Design Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+UX+Research+Methods+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+UX+Research+Methods+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-m2-book1",
+          "title": "Project Management: Master's Year 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Advanced+Agile+Scaling",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Advanced Agile Scaling — Master's Year 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Advanced+Agile+Scaling+Project+Management+lecture",
+          "description": "Curated video search for advanced agile scaling at Master's Year 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Advanced Agile Scaling",
+          "url": "https://www.coursera.org/search?query=Advanced+Agile+Scaling",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Advanced Agile Scaling' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."
+        },
+        {
+          "question": "What is the focus of the 'Project Management Capstone' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Planning and managing a complete project from charter to closure.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Planning and managing a complete project from charter to closure."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Advanced Agile Scaling.",
+            "type": "short_answer",
+            "answer": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."
+          },
+          {
+            "question": "Briefly explain: Project Management Capstone.",
+            "type": "short_answer",
+            "answer": "Planning and managing a complete project from charter to closure."
+          }
+        ],
+        "passing_score": 78
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Master's Year 2 Companion",
+          "url": "https://www.coursera.org/search?query=Advanced+Agile+Scaling",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-m2-l1",
+          "title": "Advanced Agile Scaling",
+          "unit": "Advanced Agile Scaling",
+          "level": "M2",
+          "subject": "Project Management",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of advanced agile scaling at Master's Year 2 depth.",
+            "Apply advanced agile scaling concepts to worked examples and problems.",
+            "Critically discuss how advanced agile scaling connects to real-world practice in project management."
+          ],
+          "reading_material": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+          "key_concepts": [
+            "Advanced",
+            "Agile",
+            "Scaling"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced agile scaling",
+            "Small-group discussion / problem set on advanced agile scaling"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced agile scaling?",
+              "type": "short_answer",
+              "answer": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced agile scaling to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+            "tip": "Review advanced agile scaling before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced agile scaling?",
+                "options": [
+                  "Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Scaling agile practices across multiple teams (e.g. SAFe, LeSS)."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced agile scaling",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Advanced+Agile+Scaling"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+Agile+Scaling+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        },
+        {
+          "id": "project-management-m2-l2",
+          "title": "Project Management Capstone",
+          "unit": "Project Management Capstone",
+          "level": "M2",
+          "subject": "Project Management",
+          "difficulty": "graduate-advanced",
+          "estimated_time_minutes": 90,
+          "learning_objectives": [
+            "Explain the core ideas of project management capstone at Master's Year 2 depth.",
+            "Apply project management capstone concepts to worked examples and problems.",
+            "Critically discuss how project management capstone connects to real-world practice in project management."
+          ],
+          "reading_material": "Planning and managing a complete project from charter to closure.",
+          "key_concepts": [
+            "Project",
+            "Management",
+            "Capstone"
+          ],
+          "practical_activities": [
+            "Guided worked example on project management capstone",
+            "Small-group discussion / problem set on project management capstone"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind project management capstone?",
+              "type": "short_answer",
+              "answer": "Planning and managing a complete project from charter to closure."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting project management capstone to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Planning and managing a complete project from charter to closure.",
+            "tip": "Review project management capstone before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes project management capstone?",
+                "options": [
+                  "Planning and managing a complete project from charter to closure.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Planning and managing a complete project from charter to closure."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands project management capstone",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 78
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Project+Management+Capstone"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Project+Management+Capstone+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 78
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Advanced Agile Scaling' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Project Management Capstone' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a master's year 2 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Advanced Agile Scaling' shows up in real-world project management practice: Scaling agile practices across multiple teams (e.g. SAFe, LeSS).",
+        "How 'Project Management Capstone' shows up in real-world project management practice: Planning and managing a complete project from charter to closure."
+      ],
+      "learning_path": "At Master's Year 2, Project Management progresses through Advanced Agile Scaling, Project Management Capstone. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Agile+Scaling+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Agile+Scaling+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Agile+Scaling+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Agile+Scaling+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Agile+Scaling+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Agile+Scaling+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Agile+Scaling+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1508,7 +3495,51 @@
         "How 'Graduate Research Methods: Discrete Mathematics & Proof' shows up in real-world math practice: Graduate Research Methods: Discrete Mathematics & Proof is an advanced graduate/research-level module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Algebra & Functions' shows up in real-world math practice: Graduate Research Methods: Algebra & Functions extends Math at Master's Year 2, connecting algebra & functions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Math progresses through Graduate Research Methods: Discrete Mathematics & Proof, Graduate Research Methods: Algebra & Functions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Math progresses through Graduate Research Methods: Discrete Mathematics & Proof, Graduate Research Methods: Algebra & Functions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Discrete+Mathematics+%26+Proof+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1762,7 +3793,51 @@
         "How 'Graduate Research Methods: Linguistics' shows up in real-world english practice: Graduate Research Methods: Linguistics is an advanced graduate/research-level module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Composition & Rhetoric' shows up in real-world english practice: Graduate Research Methods: Composition & Rhetoric extends English at Master's Year 2, connecting composition & rhetoric to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, English progresses through Graduate Research Methods: Linguistics, Graduate Research Methods: Composition & Rhetoric. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, English progresses through Graduate Research Methods: Linguistics, Graduate Research Methods: Composition & Rhetoric. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Linguistics+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Linguistics+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2017,7 +4092,51 @@
         "How 'Graduate Research Methods: Physical Science' shows up in real-world science practice: Graduate Research Methods: Physical Science is an advanced graduate/research-level module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Scientific Method & Measurement' shows up in real-world science practice: Graduate Research Methods: Scientific Method & Measurement extends Science at Master's Year 2, connecting scientific method & measurement to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Science progresses through Graduate Research Methods: Physical Science, Graduate Research Methods: Scientific Method & Measurement. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Science progresses through Graduate Research Methods: Physical Science, Graduate Research Methods: Scientific Method & Measurement. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Physical+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Physical+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2272,7 +4391,51 @@
         "How 'Graduate Research Methods: Geographic Information Systems' shows up in real-world geography practice: Graduate Research Methods: Geographic Information Systems is an advanced graduate/research-level module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Physical Geography' shows up in real-world geography practice: Graduate Research Methods: Physical Geography extends Geography at Master's Year 2, connecting physical geography to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Geography progresses through Graduate Research Methods: Geographic Information Systems, Graduate Research Methods: Physical Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Geography progresses through Graduate Research Methods: Geographic Information Systems, Graduate Research Methods: Physical Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Geographic+Information+Systems+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2527,7 +4690,51 @@
         "How 'Graduate Research Methods: Historiography & Research Methods' shows up in real-world world history practice: Graduate Research Methods: Historiography & Research Methods is an advanced graduate/research-level module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Ancient & Classical Civilizations' shows up in real-world world history practice: Graduate Research Methods: Ancient & Classical Civilizations extends World History at Master's Year 2, connecting ancient & classical civilizations to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, World History progresses through Graduate Research Methods: Historiography & Research Methods, Graduate Research Methods: Ancient & Classical Civilizations. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, World History progresses through Graduate Research Methods: Historiography & Research Methods, Graduate Research Methods: Ancient & Classical Civilizations. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Historiography+%26+Research+Methods+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2782,7 +4989,51 @@
         "How 'Graduate Research Methods: Comparative Religious Thought' shows up in real-world islamic studies practice: Graduate Research Methods: Comparative Religious Thought is an advanced graduate/research-level module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Quranic Studies' shows up in real-world islamic studies practice: Graduate Research Methods: Quranic Studies extends Islamic Studies at Master's Year 2, connecting quranic studies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Islamic Studies progresses through Graduate Research Methods: Comparative Religious Thought, Graduate Research Methods: Quranic Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Islamic Studies progresses through Graduate Research Methods: Comparative Religious Thought, Graduate Research Methods: Quranic Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Comparative+Religious+Thought+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3037,7 +5288,51 @@
         "How 'Graduate Research Methods: Systems & Architecture' shows up in real-world coding practice: Graduate Research Methods: Systems & Architecture is an advanced graduate/research-level module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Programming Fundamentals' shows up in real-world coding practice: Graduate Research Methods: Programming Fundamentals extends Coding at Master's Year 2, connecting programming fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Coding progresses through Graduate Research Methods: Systems & Architecture, Graduate Research Methods: Programming Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Coding progresses through Graduate Research Methods: Systems & Architecture, Graduate Research Methods: Programming Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Systems+%26+Architecture+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3292,7 +5587,51 @@
         "How 'Graduate Research Methods: Comparative Literature' shows up in real-world world literature practice: Graduate Research Methods: Comparative Literature is an advanced graduate/research-level module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Classic World Literature' shows up in real-world world literature practice: Graduate Research Methods: Classic World Literature extends World Literature at Master's Year 2, connecting classic world literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, World Literature progresses through Graduate Research Methods: Comparative Literature, Graduate Research Methods: Classic World Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, World Literature progresses through Graduate Research Methods: Comparative Literature, Graduate Research Methods: Classic World Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Comparative+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3547,7 +5886,51 @@
         "How 'Graduate Research Methods: Contemporary & Critical Art Practice' shows up in real-world art practice: Graduate Research Methods: Contemporary & Critical Art Practice is an advanced graduate/research-level module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Art Fundamentals & Technique' shows up in real-world art practice: Graduate Research Methods: Art Fundamentals & Technique extends Art at Master's Year 2, connecting art fundamentals & technique to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Art progresses through Graduate Research Methods: Contemporary & Critical Art Practice, Graduate Research Methods: Art Fundamentals & Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Art progresses through Graduate Research Methods: Contemporary & Critical Art Practice, Graduate Research Methods: Art Fundamentals & Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Contemporary+%26+Critical+Art+Practice+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3802,7 +6185,51 @@
         "How 'Graduate Research Methods: Music Technology & Composition' shows up in real-world music practice: Graduate Research Methods: Music Technology & Composition is an advanced graduate/research-level module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Music Theory Fundamentals' shows up in real-world music practice: Graduate Research Methods: Music Theory Fundamentals extends Music at Master's Year 2, connecting music theory fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Music progresses through Graduate Research Methods: Music Technology & Composition, Graduate Research Methods: Music Theory Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Music progresses through Graduate Research Methods: Music Technology & Composition, Graduate Research Methods: Music Theory Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Music+Technology+%26+Composition+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4057,7 +6484,51 @@
         "How 'Graduate Research Methods: Advanced Expedition & Risk Management' shows up in real-world survival skills practice: Graduate Research Methods: Advanced Expedition & Risk Management is an advanced graduate/research-level module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Outdoor Safety Fundamentals' shows up in real-world survival skills practice: Graduate Research Methods: Outdoor Safety Fundamentals extends Survival Skills at Master's Year 2, connecting outdoor safety fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Survival Skills progresses through Graduate Research Methods: Advanced Expedition & Risk Management, Graduate Research Methods: Outdoor Safety Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Survival Skills progresses through Graduate Research Methods: Advanced Expedition & Risk Management, Graduate Research Methods: Outdoor Safety Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Expedition+%26+Risk+Management+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4312,7 +6783,51 @@
         "How 'Graduate Research Methods: Culinary Arts Management' shows up in real-world cooking practice: Graduate Research Methods: Culinary Arts Management is an advanced graduate/research-level module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Kitchen Fundamentals & Food Safety' shows up in real-world cooking practice: Graduate Research Methods: Kitchen Fundamentals & Food Safety extends Cooking at Master's Year 2, connecting kitchen fundamentals & food safety to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Cooking progresses through Graduate Research Methods: Culinary Arts Management, Graduate Research Methods: Kitchen Fundamentals & Food Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Cooking progresses through Graduate Research Methods: Culinary Arts Management, Graduate Research Methods: Kitchen Fundamentals & Food Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Culinary+Arts+Management+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4567,7 +7082,51 @@
         "How 'Graduate Research Methods: Applied Translation & Linguistics' shows up in real-world foreign languages practice: Graduate Research Methods: Applied Translation & Linguistics is an advanced graduate/research-level module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Beginner Communication' shows up in real-world foreign languages practice: Graduate Research Methods: Beginner Communication extends Foreign Languages at Master's Year 2, connecting beginner communication to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Foreign Languages progresses through Graduate Research Methods: Applied Translation & Linguistics, Graduate Research Methods: Beginner Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Foreign Languages progresses through Graduate Research Methods: Applied Translation & Linguistics, Graduate Research Methods: Beginner Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Applied+Translation+%26+Linguistics+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4822,7 +7381,51 @@
         "How 'Graduate Research Methods: Interdisciplinary General Studies' shows up in real-world general knowledge practice: Graduate Research Methods: Interdisciplinary General Studies is an advanced graduate/research-level module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Current Affairs Fundamentals' shows up in real-world general knowledge practice: Graduate Research Methods: Current Affairs Fundamentals extends General Knowledge at Master's Year 2, connecting current affairs fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, General Knowledge progresses through Graduate Research Methods: Interdisciplinary General Studies, Graduate Research Methods: Current Affairs Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, General Knowledge progresses through Graduate Research Methods: Interdisciplinary General Studies, Graduate Research Methods: Current Affairs Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Interdisciplinary+General+Studies+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5077,7 +7680,51 @@
         "How 'Graduate Research Methods: Social Research Methods' shows up in real-world social studies practice: Graduate Research Methods: Social Research Methods is an advanced graduate/research-level module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Society & Institutions' shows up in real-world social studies practice: Graduate Research Methods: Society & Institutions extends Social Studies at Master's Year 2, connecting society & institutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Social Studies progresses through Graduate Research Methods: Social Research Methods, Graduate Research Methods: Society & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Social Studies progresses through Graduate Research Methods: Social Research Methods, Graduate Research Methods: Society & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Social+Research+Methods+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5332,7 +7979,51 @@
         "How 'Graduate Research Methods: Sustainability & Applied Environmental Management' shows up in real-world environmental science practice: Graduate Research Methods: Sustainability & Applied Environmental Management is an advanced graduate/research-level module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Ecosystems & Biodiversity' shows up in real-world environmental science practice: Graduate Research Methods: Ecosystems & Biodiversity extends Environmental Science at Master's Year 2, connecting ecosystems & biodiversity to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Environmental Science progresses through Graduate Research Methods: Sustainability & Applied Environmental Management, Graduate Research Methods: Ecosystems & Biodiversity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Environmental Science progresses through Graduate Research Methods: Sustainability & Applied Environmental Management, Graduate Research Methods: Ecosystems & Biodiversity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Sustainability+%26+Applied+Environmental+Management+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5587,7 +8278,51 @@
         "How 'Graduate Research Methods: Coaching & Performance Management' shows up in real-world physical education & self-defense practice: Graduate Research Methods: Coaching & Performance Management is an advanced graduate/research-level module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Fitness Fundamentals' shows up in real-world physical education & self-defense practice: Graduate Research Methods: Fitness Fundamentals extends Physical Education & Self-Defense at Master's Year 2, connecting fitness fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Physical Education & Self-Defense progresses through Graduate Research Methods: Coaching & Performance Management, Graduate Research Methods: Fitness Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Physical Education & Self-Defense progresses through Graduate Research Methods: Coaching & Performance Management, Graduate Research Methods: Fitness Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Coaching+%26+Performance+Management+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5842,7 +8577,51 @@
         "How 'Graduate Research Methods: Econometrics & Advanced Economic Theory' shows up in real-world economics practice: Graduate Research Methods: Econometrics & Advanced Economic Theory is an advanced graduate/research-level module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Microeconomics Fundamentals' shows up in real-world economics practice: Graduate Research Methods: Microeconomics Fundamentals extends Economics at Master's Year 2, connecting microeconomics fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Economics progresses through Graduate Research Methods: Econometrics & Advanced Economic Theory, Graduate Research Methods: Microeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Economics progresses through Graduate Research Methods: Econometrics & Advanced Economic Theory, Graduate Research Methods: Microeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Econometrics+%26+Advanced+Economic+Theory+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6097,7 +8876,51 @@
         "How 'Graduate Research Methods: Advanced Financial Modelling & Risk' shows up in real-world finance practice: Graduate Research Methods: Advanced Financial Modelling & Risk is an advanced graduate/research-level module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Personal Finance Fundamentals' shows up in real-world finance practice: Graduate Research Methods: Personal Finance Fundamentals extends Finance at Master's Year 2, connecting personal finance fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Finance progresses through Graduate Research Methods: Advanced Financial Modelling & Risk, Graduate Research Methods: Personal Finance Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Finance progresses through Graduate Research Methods: Advanced Financial Modelling & Risk, Graduate Research Methods: Personal Finance Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Financial+Modelling+%26+Risk+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6352,7 +9175,51 @@
         "How 'Graduate Research Methods: Advanced Life Support Concepts' shows up in real-world first aid practice: Graduate Research Methods: Advanced Life Support Concepts is an advanced graduate/research-level module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Basic First Aid & CPR' shows up in real-world first aid practice: Graduate Research Methods: Basic First Aid & CPR extends First Aid at Master's Year 2, connecting basic first aid & cpr to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, First Aid progresses through Graduate Research Methods: Advanced Life Support Concepts, Graduate Research Methods: Basic First Aid & CPR. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, First Aid progresses through Graduate Research Methods: Advanced Life Support Concepts, Graduate Research Methods: Basic First Aid & CPR. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Life+Support+Concepts+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6607,7 +9474,51 @@
         "How 'Graduate Research Methods: Advanced Theoretical Physics' shows up in real-world physics practice: Graduate Research Methods: Advanced Theoretical Physics is an advanced graduate/research-level module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Classical Mechanics' shows up in real-world physics practice: Graduate Research Methods: Classical Mechanics extends Physics at Master's Year 2, connecting classical mechanics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Physics progresses through Graduate Research Methods: Advanced Theoretical Physics, Graduate Research Methods: Classical Mechanics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Physics progresses through Graduate Research Methods: Advanced Theoretical Physics, Graduate Research Methods: Classical Mechanics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Theoretical+Physics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6862,7 +9773,51 @@
         "How 'Graduate Research Methods: Advanced & Analytical Chemistry' shows up in real-world chemistry practice: Graduate Research Methods: Advanced & Analytical Chemistry is an advanced graduate/research-level module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: General & Inorganic Chemistry' shows up in real-world chemistry practice: Graduate Research Methods: General & Inorganic Chemistry extends Chemistry at Master's Year 2, connecting general & inorganic chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Chemistry progresses through Graduate Research Methods: Advanced & Analytical Chemistry, Graduate Research Methods: General & Inorganic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Chemistry progresses through Graduate Research Methods: Advanced & Analytical Chemistry, Graduate Research Methods: General & Inorganic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+%26+Analytical+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7117,7 +10072,51 @@
         "How 'Graduate Research Methods: Advanced & Systems Biology' shows up in real-world biology practice: Graduate Research Methods: Advanced & Systems Biology is an advanced graduate/research-level module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Cell & Molecular Biology' shows up in real-world biology practice: Graduate Research Methods: Cell & Molecular Biology extends Biology at Master's Year 2, connecting cell & molecular biology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Biology progresses through Graduate Research Methods: Advanced & Systems Biology, Graduate Research Methods: Cell & Molecular Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Biology progresses through Graduate Research Methods: Advanced & Systems Biology, Graduate Research Methods: Cell & Molecular Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+%26+Systems+Biology+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7372,7 +10371,51 @@
         "How 'Graduate Research Methods: Advanced Philosophy of Mind & Science' shows up in real-world philosophy practice: Graduate Research Methods: Advanced Philosophy of Mind & Science is an advanced graduate/research-level module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Introduction to Philosophy & Logic' shows up in real-world philosophy practice: Graduate Research Methods: Introduction to Philosophy & Logic extends Philosophy at Master's Year 2, connecting introduction to philosophy & logic to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Philosophy progresses through Graduate Research Methods: Advanced Philosophy of Mind & Science, Graduate Research Methods: Introduction to Philosophy & Logic. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Philosophy progresses through Graduate Research Methods: Advanced Philosophy of Mind & Science, Graduate Research Methods: Introduction to Philosophy & Logic. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Philosophy+of+Mind+%26+Science+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7627,7 +10670,51 @@
         "How 'Graduate Research Methods: Applied Decision Analysis' shows up in real-world critical thinking practice: Graduate Research Methods: Applied Decision Analysis is an advanced graduate/research-level module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Logic & Argument Structure' shows up in real-world critical thinking practice: Graduate Research Methods: Logic & Argument Structure extends Critical Thinking at Master's Year 2, connecting logic & argument structure to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Critical Thinking progresses through Graduate Research Methods: Applied Decision Analysis, Graduate Research Methods: Logic & Argument Structure. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Critical Thinking progresses through Graduate Research Methods: Applied Decision Analysis, Graduate Research Methods: Logic & Argument Structure. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Applied+Decision+Analysis+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7882,7 +10969,51 @@
         "How 'Graduate Research Methods: Comparative Governance' shows up in real-world civics practice: Graduate Research Methods: Comparative Governance is an advanced graduate/research-level module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Government & Constitutions' shows up in real-world civics practice: Graduate Research Methods: Government & Constitutions extends Civics at Master's Year 2, connecting government & constitutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Civics progresses through Graduate Research Methods: Comparative Governance, Graduate Research Methods: Government & Constitutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Civics progresses through Graduate Research Methods: Comparative Governance, Graduate Research Methods: Government & Constitutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Comparative+Governance+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Comparative+Governance+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8137,7 +11268,51 @@
         "How 'Graduate Research Methods: Advanced Health Science & Epidemiology' shows up in real-world health education practice: Graduate Research Methods: Advanced Health Science & Epidemiology is an advanced graduate/research-level module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Personal Health & Wellbeing' shows up in real-world health education practice: Graduate Research Methods: Personal Health & Wellbeing extends Health Education at Master's Year 2, connecting personal health & wellbeing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Health Education progresses through Graduate Research Methods: Advanced Health Science & Epidemiology, Graduate Research Methods: Personal Health & Wellbeing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Health Education progresses through Graduate Research Methods: Advanced Health Science & Epidemiology, Graduate Research Methods: Personal Health & Wellbeing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Health+Science+%26+Epidemiology+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8392,7 +11567,51 @@
         "How 'Graduate Research Methods: Advanced Corporate Strategy' shows up in real-world business studies practice: Graduate Research Methods: Advanced Corporate Strategy is an advanced graduate/research-level module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Business Fundamentals' shows up in real-world business studies practice: Graduate Research Methods: Business Fundamentals extends Business Studies at Master's Year 2, connecting business fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, Business Studies progresses through Graduate Research Methods: Advanced Corporate Strategy, Graduate Research Methods: Business Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, Business Studies progresses through Graduate Research Methods: Advanced Corporate Strategy, Graduate Research Methods: Business Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Corporate+Strategy+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8647,7 +11866,51 @@
         "How 'Graduate Research Methods: Advanced Geopolitical Analysis' shows up in real-world world politics practice: Graduate Research Methods: Advanced Geopolitical Analysis is an advanced graduate/research-level module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: International Relations Fundamentals' shows up in real-world world politics practice: Graduate Research Methods: International Relations Fundamentals extends World Politics at Master's Year 2, connecting international relations fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, World Politics progresses through Graduate Research Methods: Advanced Geopolitical Analysis, Graduate Research Methods: International Relations Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, World Politics progresses through Graduate Research Methods: Advanced Geopolitical Analysis, Graduate Research Methods: International Relations Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Geopolitical+Analysis+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8902,7 +12165,51 @@
         "How 'Graduate Research Methods: Advanced Computing & Research Topics' shows up in real-world ict & computer science practice: Graduate Research Methods: Advanced Computing & Research Topics is an advanced graduate/research-level module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 2.",
         "How 'Graduate Research Methods: Computer Systems Fundamentals' shows up in real-world ict & computer science practice: Graduate Research Methods: Computer Systems Fundamentals extends ICT & Computer Science at Master's Year 2, connecting computer systems fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 2, ICT & Computer Science progresses through Graduate Research Methods: Advanced Computing & Research Topics, Graduate Research Methods: Computer Systems Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 2, ICT & Computer Science progresses through Graduate Research Methods: Advanced Computing & Research Topics, Graduate Research Methods: Computer Systems Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Research+Methods%3A+Advanced+Computing+%26+Research+Topics+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

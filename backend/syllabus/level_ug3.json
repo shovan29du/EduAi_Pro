@@ -250,7 +250,51 @@
         "How 'Machine Learning Foundations for AI' shows up in real-world artificial intelligence practice: How learning from data fits into the broader AI toolbox alongside search and logic.",
         "How 'Neural Networks' shows up in real-world artificial intelligence practice: Perceptrons, multilayer networks, backpropagation, and why depth matters."
       ],
-      "learning_path": "At Undergraduate Year 3, Artificial Intelligence progresses through Machine Learning Foundations for AI, Neural Networks. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Artificial Intelligence progresses through Machine Learning Foundations for AI, Neural Networks. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Machine+Learning+Foundations+for+AI+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Machine+Learning+Foundations+for+AI+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -499,7 +543,51 @@
         "How 'Model Evaluation' shows up in real-world machine learning practice: Cross-validation, precision/recall/F1, ROC curves, and avoiding overfitting.",
         "How 'Ensemble Methods' shows up in real-world machine learning practice: Bagging, boosting, and random forests for combining many weak models."
       ],
-      "learning_path": "At Undergraduate Year 3, Machine Learning progresses through Model Evaluation, Ensemble Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Machine Learning progresses through Model Evaluation, Ensemble Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Model+Evaluation+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Model+Evaluation+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Model+Evaluation+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Model+Evaluation+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Model+Evaluation+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Model+Evaluation+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Model+Evaluation+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -748,7 +836,51 @@
         "How 'Transformers' shows up in real-world natural language processing practice: Self-attention and the transformer architecture behind modern NLP systems.",
         "How 'Large Language Models' shows up in real-world natural language processing practice: How LLMs are pretrained, fine-tuned, and prompted for downstream tasks."
       ],
-      "learning_path": "At Undergraduate Year 3, Natural Language Processing progresses through Transformers, Large Language Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Natural Language Processing progresses through Transformers, Large Language Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Transformers+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Transformers+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Transformers+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Transformers+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Transformers+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Transformers+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Transformers+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -999,7 +1131,51 @@
         "How 'Experiment Design & A/B Testing' shows up in real-world data science practice: Designing controlled experiments and interpreting statistical significance.",
         "How 'Time Series Analysis' shows up in real-world data science practice: Forecasting methods for data that changes over time."
       ],
-      "learning_path": "At Undergraduate Year 3, Data Science progresses through Experiment Design & A/B Testing, Time Series Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Data Science progresses through Experiment Design & A/B Testing, Time Series Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Experiment+Design+%26+A%2FB+Testing+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Experiment+Design+%26+A%2FB+Testing+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1250,7 +1426,1822 @@
         "How 'Prescriptive Analytics & Optimization' shows up in real-world business analytics practice: Linear programming and optimization for resource allocation decisions.",
         "How 'Data Visualization for Business' shows up in real-world business analytics practice: Dashboards and executive reporting with BI tools."
       ],
-      "learning_path": "At Undergraduate Year 3, Business Analytics progresses through Prescriptive Analytics & Optimization, Data Visualization for Business. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Business Analytics progresses through Prescriptive Analytics & Optimization, Data Visualization for Business. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Prescriptive+Analytics+%26+Optimization+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Prescriptive+Analytics+%26+Optimization+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-ug3-book1",
+          "title": "Web Development: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=RESTful+APIs+%26+HTTP",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "RESTful APIs & HTTP — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=RESTful+APIs+%26+HTTP+Web+Development+lecture",
+          "description": "Curated video search for restful apis & http at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: RESTful APIs & HTTP",
+          "url": "https://ocw.mit.edu/search/?q=RESTful+APIs+%26+HTTP",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'RESTful APIs & HTTP' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing and consuming HTTP APIs that connect frontend and backend.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing and consuming HTTP APIs that connect frontend and backend."
+        },
+        {
+          "question": "What is the focus of the 'Authentication & Authorization' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Verifying who a user is and what they're allowed to do in a web app.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Verifying who a user is and what they're allowed to do in a web app."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: RESTful APIs & HTTP.",
+            "type": "short_answer",
+            "answer": "Designing and consuming HTTP APIs that connect frontend and backend."
+          },
+          {
+            "question": "Briefly explain: Authentication & Authorization.",
+            "type": "short_answer",
+            "answer": "Verifying who a user is and what they're allowed to do in a web app."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Undergraduate Year 3 Companion",
+          "url": "https://ocw.mit.edu/search/?q=RESTful+APIs+%26+HTTP",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Designing and consuming HTTP APIs that connect frontend and backend.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-ug3-l1",
+          "title": "RESTful APIs & HTTP",
+          "unit": "RESTful APIs & HTTP",
+          "level": "UG3",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of restful apis & http at Undergraduate Year 3 depth.",
+            "Apply restful apis & http concepts to worked examples and problems.",
+            "Critically discuss how restful apis & http connects to real-world practice in web development."
+          ],
+          "reading_material": "Designing and consuming HTTP APIs that connect frontend and backend.",
+          "key_concepts": [
+            "RESTful",
+            "APIs",
+            "HTTP"
+          ],
+          "practical_activities": [
+            "Guided worked example on restful apis & http",
+            "Small-group discussion / problem set on restful apis & http"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind restful apis & http?",
+              "type": "short_answer",
+              "answer": "Designing and consuming HTTP APIs that connect frontend and backend."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting restful apis & http to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing and consuming HTTP APIs that connect frontend and backend.",
+            "tip": "Review restful apis & http before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes restful apis & http?",
+                "options": [
+                  "Designing and consuming HTTP APIs that connect frontend and backend.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing and consuming HTTP APIs that connect frontend and backend."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands restful apis & http",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=RESTful+APIs+%26+HTTP"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=RESTful+APIs+%26+HTTP+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "web-development-ug3-l2",
+          "title": "Authentication & Authorization",
+          "unit": "Authentication & Authorization",
+          "level": "UG3",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of authentication & authorization at Undergraduate Year 3 depth.",
+            "Apply authentication & authorization concepts to worked examples and problems.",
+            "Critically discuss how authentication & authorization connects to real-world practice in web development."
+          ],
+          "reading_material": "Verifying who a user is and what they're allowed to do in a web app.",
+          "key_concepts": [
+            "Authentication",
+            "Authorization"
+          ],
+          "practical_activities": [
+            "Guided worked example on authentication & authorization",
+            "Small-group discussion / problem set on authentication & authorization"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind authentication & authorization?",
+              "type": "short_answer",
+              "answer": "Verifying who a user is and what they're allowed to do in a web app."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting authentication & authorization to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Verifying who a user is and what they're allowed to do in a web app.",
+            "tip": "Review authentication & authorization before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes authentication & authorization?",
+                "options": [
+                  "Verifying who a user is and what they're allowed to do in a web app.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Verifying who a user is and what they're allowed to do in a web app."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands authentication & authorization",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Authentication+%26+Authorization"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Authentication+%26+Authorization+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'RESTful APIs & HTTP' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'Authentication & Authorization' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'RESTful APIs & HTTP' shows up in real-world web development practice: Designing and consuming HTTP APIs that connect frontend and backend.",
+        "How 'Authentication & Authorization' shows up in real-world web development practice: Verifying who a user is and what they're allowed to do in a web app."
+      ],
+      "learning_path": "At Undergraduate Year 3, Web Development progresses through RESTful APIs & HTTP, Authentication & Authorization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=RESTful+APIs+%26+HTTP+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=RESTful+APIs+%26+HTTP+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-ug3-book1",
+          "title": "Cybersecurity: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Identity+%26+Access+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Identity & Access Management — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=Identity+%26+Access+Management+Cybersecurity+lecture",
+          "description": "Curated video search for identity & access management at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Identity & Access Management",
+          "url": "https://www.coursera.org/search?query=Identity+%26+Access+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Identity & Access Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Authentication, authorization, and least-privilege access design.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Authentication, authorization, and least-privilege access design."
+        },
+        {
+          "question": "What is the focus of the 'Security Operations & Incident Response' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Detecting, responding to, and recovering from security incidents.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Detecting, responding to, and recovering from security incidents."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Identity & Access Management.",
+            "type": "short_answer",
+            "answer": "Authentication, authorization, and least-privilege access design."
+          },
+          {
+            "question": "Briefly explain: Security Operations & Incident Response.",
+            "type": "short_answer",
+            "answer": "Detecting, responding to, and recovering from security incidents."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Undergraduate Year 3 Companion",
+          "url": "https://www.coursera.org/search?query=Identity+%26+Access+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Authentication, authorization, and least-privilege access design.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-ug3-l1",
+          "title": "Identity & Access Management",
+          "unit": "Identity & Access Management",
+          "level": "UG3",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of identity & access management at Undergraduate Year 3 depth.",
+            "Apply identity & access management concepts to worked examples and problems.",
+            "Critically discuss how identity & access management connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Authentication, authorization, and least-privilege access design.",
+          "key_concepts": [
+            "Identity",
+            "Access",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on identity & access management",
+            "Small-group discussion / problem set on identity & access management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind identity & access management?",
+              "type": "short_answer",
+              "answer": "Authentication, authorization, and least-privilege access design."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting identity & access management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Authentication, authorization, and least-privilege access design.",
+            "tip": "Review identity & access management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes identity & access management?",
+                "options": [
+                  "Authentication, authorization, and least-privilege access design.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Authentication, authorization, and least-privilege access design."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands identity & access management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Identity+%26+Access+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Identity+%26+Access+Management+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "cybersecurity-ug3-l2",
+          "title": "Security Operations & Incident Response",
+          "unit": "Security Operations & Incident Response",
+          "level": "UG3",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of security operations & incident response at Undergraduate Year 3 depth.",
+            "Apply security operations & incident response concepts to worked examples and problems.",
+            "Critically discuss how security operations & incident response connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Detecting, responding to, and recovering from security incidents.",
+          "key_concepts": [
+            "Security",
+            "Operations",
+            "Incident",
+            "Response"
+          ],
+          "practical_activities": [
+            "Guided worked example on security operations & incident response",
+            "Small-group discussion / problem set on security operations & incident response"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind security operations & incident response?",
+              "type": "short_answer",
+              "answer": "Detecting, responding to, and recovering from security incidents."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting security operations & incident response to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Detecting, responding to, and recovering from security incidents.",
+            "tip": "Review security operations & incident response before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes security operations & incident response?",
+                "options": [
+                  "Detecting, responding to, and recovering from security incidents.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Detecting, responding to, and recovering from security incidents."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands security operations & incident response",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Security+Operations+%26+Incident+Response"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Security+Operations+%26+Incident+Response+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Identity & Access Management' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Security Operations & Incident Response' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Identity & Access Management' shows up in real-world cybersecurity practice: Authentication, authorization, and least-privilege access design.",
+        "How 'Security Operations & Incident Response' shows up in real-world cybersecurity practice: Detecting, responding to, and recovering from security incidents."
+      ],
+      "learning_path": "At Undergraduate Year 3, Cybersecurity progresses through Identity & Access Management, Security Operations & Incident Response. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Identity+%26+Access+Management+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Identity+%26+Access+Management+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Identity+%26+Access+Management+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Identity+%26+Access+Management+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Identity+%26+Access+Management+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Identity+%26+Access+Management+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Identity+%26+Access+Management+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-ug3-book1",
+          "title": "Cloud Computing: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Cloud+Security+%26+Identity+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Cloud Security & Identity Management — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=Cloud+Security+%26+Identity+Management+Cloud+Computing+lecture",
+          "description": "Curated video search for cloud security & identity management at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Cloud Security & Identity Management",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+%26+Identity+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Cloud Security & Identity Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Securing cloud accounts, resources, and data access.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Securing cloud accounts, resources, and data access."
+        },
+        {
+          "question": "What is the focus of the 'Infrastructure as Code' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Defining and provisioning cloud infrastructure through version-controlled code.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Defining and provisioning cloud infrastructure through version-controlled code."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Cloud Security & Identity Management.",
+            "type": "short_answer",
+            "answer": "Securing cloud accounts, resources, and data access."
+          },
+          {
+            "question": "Briefly explain: Infrastructure as Code.",
+            "type": "short_answer",
+            "answer": "Defining and provisioning cloud infrastructure through version-controlled code."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Undergraduate Year 3 Companion",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+%26+Identity+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Securing cloud accounts, resources, and data access.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-ug3-l1",
+          "title": "Cloud Security & Identity Management",
+          "unit": "Cloud Security & Identity Management",
+          "level": "UG3",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of cloud security & identity management at Undergraduate Year 3 depth.",
+            "Apply cloud security & identity management concepts to worked examples and problems.",
+            "Critically discuss how cloud security & identity management connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Securing cloud accounts, resources, and data access.",
+          "key_concepts": [
+            "Cloud",
+            "Security",
+            "Identity",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud security & identity management",
+            "Small-group discussion / problem set on cloud security & identity management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud security & identity management?",
+              "type": "short_answer",
+              "answer": "Securing cloud accounts, resources, and data access."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud security & identity management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Securing cloud accounts, resources, and data access.",
+            "tip": "Review cloud security & identity management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud security & identity management?",
+                "options": [
+                  "Securing cloud accounts, resources, and data access.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Securing cloud accounts, resources, and data access."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud security & identity management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Security+%26+Identity+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Security+%26+Identity+Management+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "cloud-computing-ug3-l2",
+          "title": "Infrastructure as Code",
+          "unit": "Infrastructure as Code",
+          "level": "UG3",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of infrastructure as code at Undergraduate Year 3 depth.",
+            "Apply infrastructure as code concepts to worked examples and problems.",
+            "Critically discuss how infrastructure as code connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Defining and provisioning cloud infrastructure through version-controlled code.",
+          "key_concepts": [
+            "Infrastructure",
+            "Code"
+          ],
+          "practical_activities": [
+            "Guided worked example on infrastructure as code",
+            "Small-group discussion / problem set on infrastructure as code"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind infrastructure as code?",
+              "type": "short_answer",
+              "answer": "Defining and provisioning cloud infrastructure through version-controlled code."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting infrastructure as code to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Defining and provisioning cloud infrastructure through version-controlled code.",
+            "tip": "Review infrastructure as code before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes infrastructure as code?",
+                "options": [
+                  "Defining and provisioning cloud infrastructure through version-controlled code.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Defining and provisioning cloud infrastructure through version-controlled code."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands infrastructure as code",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Infrastructure+as+Code"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Infrastructure+as+Code+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Cloud Security & Identity Management' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Infrastructure as Code' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Cloud Security & Identity Management' shows up in real-world cloud computing practice: Securing cloud accounts, resources, and data access.",
+        "How 'Infrastructure as Code' shows up in real-world cloud computing practice: Defining and provisioning cloud infrastructure through version-controlled code."
+      ],
+      "learning_path": "At Undergraduate Year 3, Cloud Computing progresses through Cloud Security & Identity Management, Infrastructure as Code. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Cloud+Security+%26+Identity+Management+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Cloud+Security+%26+Identity+Management+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-ug3-book1",
+          "title": "Digital Marketing: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Brand+Strategy+%26+Positioning",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Brand Strategy & Positioning — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=Brand+Strategy+%26+Positioning+Digital+Marketing+lecture",
+          "description": "Curated video search for brand strategy & positioning at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Brand Strategy & Positioning",
+          "url": "https://www.coursera.org/search?query=Brand+Strategy+%26+Positioning",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Brand Strategy & Positioning' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Defining what a brand stands for and how it's differentiated.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Defining what a brand stands for and how it's differentiated."
+        },
+        {
+          "question": "What is the focus of the 'Influencer & Affiliate Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Partnering with creators and affiliates to reach new audiences.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Partnering with creators and affiliates to reach new audiences."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Brand Strategy & Positioning.",
+            "type": "short_answer",
+            "answer": "Defining what a brand stands for and how it's differentiated."
+          },
+          {
+            "question": "Briefly explain: Influencer & Affiliate Marketing.",
+            "type": "short_answer",
+            "answer": "Partnering with creators and affiliates to reach new audiences."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Undergraduate Year 3 Companion",
+          "url": "https://www.coursera.org/search?query=Brand+Strategy+%26+Positioning",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Defining what a brand stands for and how it's differentiated.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-ug3-l1",
+          "title": "Brand Strategy & Positioning",
+          "unit": "Brand Strategy & Positioning",
+          "level": "UG3",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of brand strategy & positioning at Undergraduate Year 3 depth.",
+            "Apply brand strategy & positioning concepts to worked examples and problems.",
+            "Critically discuss how brand strategy & positioning connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Defining what a brand stands for and how it's differentiated.",
+          "key_concepts": [
+            "Brand",
+            "Strategy",
+            "Positioning"
+          ],
+          "practical_activities": [
+            "Guided worked example on brand strategy & positioning",
+            "Small-group discussion / problem set on brand strategy & positioning"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind brand strategy & positioning?",
+              "type": "short_answer",
+              "answer": "Defining what a brand stands for and how it's differentiated."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting brand strategy & positioning to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Defining what a brand stands for and how it's differentiated.",
+            "tip": "Review brand strategy & positioning before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes brand strategy & positioning?",
+                "options": [
+                  "Defining what a brand stands for and how it's differentiated.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Defining what a brand stands for and how it's differentiated."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands brand strategy & positioning",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Brand+Strategy+%26+Positioning"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Brand+Strategy+%26+Positioning+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "digital-marketing-ug3-l2",
+          "title": "Influencer & Affiliate Marketing",
+          "unit": "Influencer & Affiliate Marketing",
+          "level": "UG3",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of influencer & affiliate marketing at Undergraduate Year 3 depth.",
+            "Apply influencer & affiliate marketing concepts to worked examples and problems.",
+            "Critically discuss how influencer & affiliate marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Partnering with creators and affiliates to reach new audiences.",
+          "key_concepts": [
+            "Influencer",
+            "Affiliate",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on influencer & affiliate marketing",
+            "Small-group discussion / problem set on influencer & affiliate marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind influencer & affiliate marketing?",
+              "type": "short_answer",
+              "answer": "Partnering with creators and affiliates to reach new audiences."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting influencer & affiliate marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Partnering with creators and affiliates to reach new audiences.",
+            "tip": "Review influencer & affiliate marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes influencer & affiliate marketing?",
+                "options": [
+                  "Partnering with creators and affiliates to reach new audiences.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Partnering with creators and affiliates to reach new audiences."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands influencer & affiliate marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Influencer+%26+Affiliate+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Influencer+%26+Affiliate+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Brand Strategy & Positioning' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Influencer & Affiliate Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Brand Strategy & Positioning' shows up in real-world digital marketing practice: Defining what a brand stands for and how it's differentiated.",
+        "How 'Influencer & Affiliate Marketing' shows up in real-world digital marketing practice: Partnering with creators and affiliates to reach new audiences."
+      ],
+      "learning_path": "At Undergraduate Year 3, Digital Marketing progresses through Brand Strategy & Positioning, Influencer & Affiliate Marketing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Brand+Strategy+%26+Positioning+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Brand+Strategy+%26+Positioning+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-ug3-book1",
+          "title": "UI/UX Design: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Design+Systems+%26+Component+Libraries",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Design Systems & Component Libraries — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=Design+Systems+%26+Component+Libraries+UI%2FUX+Design+lecture",
+          "description": "Curated video search for design systems & component libraries at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Design Systems & Component Libraries",
+          "url": "https://www.coursera.org/search?query=Design+Systems+%26+Component+Libraries",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Design Systems & Component Libraries' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Building reusable, consistent design components at scale.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Building reusable, consistent design components at scale."
+        },
+        {
+          "question": "What is the focus of the 'Accessibility in Design' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Designing interfaces usable by people with a wide range of abilities.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Designing interfaces usable by people with a wide range of abilities."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Design Systems & Component Libraries.",
+            "type": "short_answer",
+            "answer": "Building reusable, consistent design components at scale."
+          },
+          {
+            "question": "Briefly explain: Accessibility in Design.",
+            "type": "short_answer",
+            "answer": "Designing interfaces usable by people with a wide range of abilities."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Undergraduate Year 3 Companion",
+          "url": "https://www.coursera.org/search?query=Design+Systems+%26+Component+Libraries",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Building reusable, consistent design components at scale.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-ug3-l1",
+          "title": "Design Systems & Component Libraries",
+          "unit": "Design Systems & Component Libraries",
+          "level": "UG3",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of design systems & component libraries at Undergraduate Year 3 depth.",
+            "Apply design systems & component libraries concepts to worked examples and problems.",
+            "Critically discuss how design systems & component libraries connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Building reusable, consistent design components at scale.",
+          "key_concepts": [
+            "Design",
+            "Systems",
+            "Component",
+            "Libraries"
+          ],
+          "practical_activities": [
+            "Guided worked example on design systems & component libraries",
+            "Small-group discussion / problem set on design systems & component libraries"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind design systems & component libraries?",
+              "type": "short_answer",
+              "answer": "Building reusable, consistent design components at scale."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting design systems & component libraries to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Building reusable, consistent design components at scale.",
+            "tip": "Review design systems & component libraries before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes design systems & component libraries?",
+                "options": [
+                  "Building reusable, consistent design components at scale.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Building reusable, consistent design components at scale."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands design systems & component libraries",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Design+Systems+%26+Component+Libraries"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Design+Systems+%26+Component+Libraries+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "ui/ux-design-ug3-l2",
+          "title": "Accessibility in Design",
+          "unit": "Accessibility in Design",
+          "level": "UG3",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of accessibility in design at Undergraduate Year 3 depth.",
+            "Apply accessibility in design concepts to worked examples and problems.",
+            "Critically discuss how accessibility in design connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Designing interfaces usable by people with a wide range of abilities.",
+          "key_concepts": [
+            "Accessibility",
+            "Design"
+          ],
+          "practical_activities": [
+            "Guided worked example on accessibility in design",
+            "Small-group discussion / problem set on accessibility in design"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind accessibility in design?",
+              "type": "short_answer",
+              "answer": "Designing interfaces usable by people with a wide range of abilities."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting accessibility in design to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Designing interfaces usable by people with a wide range of abilities.",
+            "tip": "Review accessibility in design before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes accessibility in design?",
+                "options": [
+                  "Designing interfaces usable by people with a wide range of abilities.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Designing interfaces usable by people with a wide range of abilities."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands accessibility in design",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Accessibility+in+Design"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Accessibility+in+Design+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Design Systems & Component Libraries' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Accessibility in Design' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Design Systems & Component Libraries' shows up in real-world ui/ux design practice: Building reusable, consistent design components at scale.",
+        "How 'Accessibility in Design' shows up in real-world ui/ux design practice: Designing interfaces usable by people with a wide range of abilities."
+      ],
+      "learning_path": "At Undergraduate Year 3, UI/UX Design progresses through Design Systems & Component Libraries, Accessibility in Design. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Design+Systems+%26+Component+Libraries+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Design+Systems+%26+Component+Libraries+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-ug3-book1",
+          "title": "Project Management: Undergraduate Year 3 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Stakeholder+Management+%26+Communication",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Stakeholder Management & Communication — Undergraduate Year 3 overview",
+          "url": "https://www.youtube.com/results?search_query=Stakeholder+Management+%26+Communication+Project+Management+lecture",
+          "description": "Curated video search for stakeholder management & communication at Undergraduate Year 3.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Stakeholder Management & Communication",
+          "url": "https://www.coursera.org/search?query=Stakeholder+Management+%26+Communication",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Stakeholder Management & Communication' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Keeping the right people informed and aligned throughout a project.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Keeping the right people informed and aligned throughout a project."
+        },
+        {
+          "question": "What is the focus of the 'Team Leadership & Conflict Resolution' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Leading a project team and resolving disagreements constructively.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Leading a project team and resolving disagreements constructively."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Stakeholder Management & Communication.",
+            "type": "short_answer",
+            "answer": "Keeping the right people informed and aligned throughout a project."
+          },
+          {
+            "question": "Briefly explain: Team Leadership & Conflict Resolution.",
+            "type": "short_answer",
+            "answer": "Leading a project team and resolving disagreements constructively."
+          }
+        ],
+        "passing_score": 70
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Undergraduate Year 3 Companion",
+          "url": "https://www.coursera.org/search?query=Stakeholder+Management+%26+Communication",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Keeping the right people informed and aligned throughout a project.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-ug3-l1",
+          "title": "Stakeholder Management & Communication",
+          "unit": "Stakeholder Management & Communication",
+          "level": "UG3",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of stakeholder management & communication at Undergraduate Year 3 depth.",
+            "Apply stakeholder management & communication concepts to worked examples and problems.",
+            "Critically discuss how stakeholder management & communication connects to real-world practice in project management."
+          ],
+          "reading_material": "Keeping the right people informed and aligned throughout a project.",
+          "key_concepts": [
+            "Stakeholder",
+            "Management",
+            "Communication"
+          ],
+          "practical_activities": [
+            "Guided worked example on stakeholder management & communication",
+            "Small-group discussion / problem set on stakeholder management & communication"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind stakeholder management & communication?",
+              "type": "short_answer",
+              "answer": "Keeping the right people informed and aligned throughout a project."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting stakeholder management & communication to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Keeping the right people informed and aligned throughout a project.",
+            "tip": "Review stakeholder management & communication before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes stakeholder management & communication?",
+                "options": [
+                  "Keeping the right people informed and aligned throughout a project.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Keeping the right people informed and aligned throughout a project."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands stakeholder management & communication",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Stakeholder+Management+%26+Communication"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Stakeholder+Management+%26+Communication+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "project-management-ug3-l2",
+          "title": "Team Leadership & Conflict Resolution",
+          "unit": "Team Leadership & Conflict Resolution",
+          "level": "UG3",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of team leadership & conflict resolution at Undergraduate Year 3 depth.",
+            "Apply team leadership & conflict resolution concepts to worked examples and problems.",
+            "Critically discuss how team leadership & conflict resolution connects to real-world practice in project management."
+          ],
+          "reading_material": "Leading a project team and resolving disagreements constructively.",
+          "key_concepts": [
+            "Team",
+            "Leadership",
+            "Conflict",
+            "Resolution"
+          ],
+          "practical_activities": [
+            "Guided worked example on team leadership & conflict resolution",
+            "Small-group discussion / problem set on team leadership & conflict resolution"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind team leadership & conflict resolution?",
+              "type": "short_answer",
+              "answer": "Leading a project team and resolving disagreements constructively."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting team leadership & conflict resolution to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Leading a project team and resolving disagreements constructively.",
+            "tip": "Review team leadership & conflict resolution before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes team leadership & conflict resolution?",
+                "options": [
+                  "Leading a project team and resolving disagreements constructively.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Leading a project team and resolving disagreements constructively."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands team leadership & conflict resolution",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Team+Leadership+%26+Conflict+Resolution"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Team+Leadership+%26+Conflict+Resolution+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Stakeholder Management & Communication' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Team Leadership & Conflict Resolution' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a undergraduate year 3 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Stakeholder Management & Communication' shows up in real-world project management practice: Keeping the right people informed and aligned throughout a project.",
+        "How 'Team Leadership & Conflict Resolution' shows up in real-world project management practice: Leading a project team and resolving disagreements constructively."
+      ],
+      "learning_path": "At Undergraduate Year 3, Project Management progresses through Stakeholder Management & Communication, Team Leadership & Conflict Resolution. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Stakeholder+Management+%26+Communication+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Stakeholder+Management+%26+Communication+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1500,7 +3491,51 @@
         "How 'Advanced Algebra & Functions' shows up in real-world math practice: Advanced Algebra & Functions is an advanced undergraduate module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Calculus' shows up in real-world math practice: Advanced Calculus extends Math at Undergraduate Year 3, connecting calculus to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Math progresses through Advanced Algebra & Functions, Advanced Calculus. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Math progresses through Advanced Algebra & Functions, Advanced Calculus. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Algebra+%26+Functions+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Algebra+%26+Functions+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Algebra+%26+Functions+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Algebra+%26+Functions+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Algebra+%26+Functions+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Algebra+%26+Functions+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Algebra+%26+Functions+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1751,7 +3786,51 @@
         "How 'Advanced Composition & Rhetoric' shows up in real-world english practice: Advanced Composition & Rhetoric is an advanced undergraduate module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Literary Analysis' shows up in real-world english practice: Advanced Literary Analysis extends English at Undergraduate Year 3, connecting literary analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, English progresses through Advanced Composition & Rhetoric, Advanced Literary Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, English progresses through Advanced Composition & Rhetoric, Advanced Literary Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Composition+%26+Rhetoric+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Composition+%26+Rhetoric+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Composition+%26+Rhetoric+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Composition+%26+Rhetoric+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Composition+%26+Rhetoric+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Composition+%26+Rhetoric+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Composition+%26+Rhetoric+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2004,7 +4083,51 @@
         "How 'Advanced Scientific Method & Measurement' shows up in real-world science practice: Advanced Scientific Method & Measurement is an advanced undergraduate module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Earth & Space Science' shows up in real-world science practice: Advanced Earth & Space Science extends Science at Undergraduate Year 3, connecting earth & space science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Science progresses through Advanced Scientific Method & Measurement, Advanced Earth & Space Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Science progresses through Advanced Scientific Method & Measurement, Advanced Earth & Space Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Scientific+Method+%26+Measurement+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Scientific+Method+%26+Measurement+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2255,7 +4378,51 @@
         "How 'Advanced Physical Geography' shows up in real-world geography practice: Advanced Physical Geography is an advanced undergraduate module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Human Geography' shows up in real-world geography practice: Advanced Human Geography extends Geography at Undergraduate Year 3, connecting human geography to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Geography progresses through Advanced Physical Geography, Advanced Human Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Geography progresses through Advanced Physical Geography, Advanced Human Geography. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Physical+Geography+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Physical+Geography+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Physical+Geography+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Physical+Geography+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Physical+Geography+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Physical+Geography+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Physical+Geography+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2509,7 +4676,51 @@
         "How 'Advanced Ancient & Classical Civilizations' shows up in real-world world history practice: Advanced Ancient & Classical Civilizations is an advanced undergraduate module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Medieval & Early Modern History' shows up in real-world world history practice: Advanced Medieval & Early Modern History extends World History at Undergraduate Year 3, connecting medieval & early modern history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, World History progresses through Advanced Ancient & Classical Civilizations, Advanced Medieval & Early Modern History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, World History progresses through Advanced Ancient & Classical Civilizations, Advanced Medieval & Early Modern History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Ancient+%26+Classical+Civilizations+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Ancient+%26+Classical+Civilizations+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2761,7 +4972,51 @@
         "How 'Advanced Quranic Studies' shows up in real-world islamic studies practice: Advanced Quranic Studies is an advanced undergraduate module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Islamic History & Civilization' shows up in real-world islamic studies practice: Advanced Islamic History & Civilization extends Islamic Studies at Undergraduate Year 3, connecting islamic history & civilization to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Islamic Studies progresses through Advanced Quranic Studies, Advanced Islamic History & Civilization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Islamic Studies progresses through Advanced Quranic Studies, Advanced Islamic History & Civilization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Quranic+Studies+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Quranic+Studies+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3013,7 +5268,51 @@
         "How 'Advanced Programming Fundamentals' shows up in real-world coding practice: Advanced Programming Fundamentals is an advanced undergraduate module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Data Structures & Algorithms' shows up in real-world coding practice: Advanced Data Structures & Algorithms extends Coding at Undergraduate Year 3, connecting data structures & algorithms to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Coding progresses through Advanced Programming Fundamentals, Advanced Data Structures & Algorithms. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Coding progresses through Advanced Programming Fundamentals, Advanced Data Structures & Algorithms. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Programming+Fundamentals+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Programming+Fundamentals+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Programming+Fundamentals+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Programming+Fundamentals+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Programming+Fundamentals+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Programming+Fundamentals+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Programming+Fundamentals+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3266,7 +5565,51 @@
         "How 'Advanced Classic World Literature' shows up in real-world world literature practice: Advanced Classic World Literature is an advanced undergraduate module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Modern & Contemporary Literature' shows up in real-world world literature practice: Advanced Modern & Contemporary Literature extends World Literature at Undergraduate Year 3, connecting modern & contemporary literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, World Literature progresses through Advanced Classic World Literature, Advanced Modern & Contemporary Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, World Literature progresses through Advanced Classic World Literature, Advanced Modern & Contemporary Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Classic+World+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Classic+World+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Classic+World+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Classic+World+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Classic+World+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Classic+World+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Classic+World+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3516,7 +5859,51 @@
         "How 'Advanced Art Fundamentals & Technique' shows up in real-world art practice: Advanced Art Fundamentals & Technique is an advanced undergraduate module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Art History' shows up in real-world art practice: Advanced Art History extends Art at Undergraduate Year 3, connecting art history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Art progresses through Advanced Art Fundamentals & Technique, Advanced Art History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Art progresses through Advanced Art Fundamentals & Technique, Advanced Art History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Art+Fundamentals+%26+Technique+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Art+Fundamentals+%26+Technique+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3768,7 +6155,51 @@
         "How 'Advanced Music Theory Fundamentals' shows up in real-world music practice: Advanced Music Theory Fundamentals is an advanced undergraduate module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Music History' shows up in real-world music practice: Advanced Music History extends Music at Undergraduate Year 3, connecting music history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Music progresses through Advanced Music Theory Fundamentals, Advanced Music History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Music progresses through Advanced Music Theory Fundamentals, Advanced Music History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Music+Theory+Fundamentals+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Music+Theory+Fundamentals+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4021,7 +6452,51 @@
         "How 'Advanced Outdoor Safety Fundamentals' shows up in real-world survival skills practice: Advanced Outdoor Safety Fundamentals is an advanced undergraduate module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Wilderness First Response' shows up in real-world survival skills practice: Advanced Wilderness First Response extends Survival Skills at Undergraduate Year 3, connecting wilderness first response to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Survival Skills progresses through Advanced Outdoor Safety Fundamentals, Advanced Wilderness First Response. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Survival Skills progresses through Advanced Outdoor Safety Fundamentals, Advanced Wilderness First Response. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Outdoor+Safety+Fundamentals+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4274,7 +6749,51 @@
         "How 'Advanced Kitchen Fundamentals & Food Safety' shows up in real-world cooking practice: Advanced Kitchen Fundamentals & Food Safety is an advanced undergraduate module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Global Cuisines' shows up in real-world cooking practice: Advanced Global Cuisines extends Cooking at Undergraduate Year 3, connecting global cuisines to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Cooking progresses through Advanced Kitchen Fundamentals & Food Safety, Advanced Global Cuisines. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Cooking progresses through Advanced Kitchen Fundamentals & Food Safety, Advanced Global Cuisines. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Kitchen+Fundamentals+%26+Food+Safety+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4526,7 +7045,51 @@
         "How 'Advanced Beginner Communication' shows up in real-world foreign languages practice: Advanced Beginner Communication is an advanced undergraduate module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Intermediate Grammar & Conversation' shows up in real-world foreign languages practice: Advanced Intermediate Grammar & Conversation extends Foreign Languages at Undergraduate Year 3, connecting intermediate grammar & conversation to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Foreign Languages progresses through Advanced Beginner Communication, Advanced Intermediate Grammar & Conversation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Foreign Languages progresses through Advanced Beginner Communication, Advanced Intermediate Grammar & Conversation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Beginner+Communication+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Beginner+Communication+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4779,7 +7342,51 @@
         "How 'Advanced Current Affairs Fundamentals' shows up in real-world general knowledge practice: Advanced Current Affairs Fundamentals is an advanced undergraduate module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Global Institutions & Systems' shows up in real-world general knowledge practice: Advanced Global Institutions & Systems extends General Knowledge at Undergraduate Year 3, connecting global institutions & systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, General Knowledge progresses through Advanced Current Affairs Fundamentals, Advanced Global Institutions & Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, General Knowledge progresses through Advanced Current Affairs Fundamentals, Advanced Global Institutions & Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Current+Affairs+Fundamentals+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Current+Affairs+Fundamentals+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5030,7 +7637,51 @@
         "How 'Advanced Society & Institutions' shows up in real-world social studies practice: Advanced Society & Institutions is an advanced undergraduate module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Culture & Identity' shows up in real-world social studies practice: Advanced Culture & Identity extends Social Studies at Undergraduate Year 3, connecting culture & identity to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Social Studies progresses through Advanced Society & Institutions, Advanced Culture & Identity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Social Studies progresses through Advanced Society & Institutions, Advanced Culture & Identity. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Society+%26+Institutions+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Society+%26+Institutions+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5281,7 +7932,51 @@
         "How 'Advanced Ecosystems & Biodiversity' shows up in real-world environmental science practice: Advanced Ecosystems & Biodiversity is an advanced undergraduate module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Climate Science' shows up in real-world environmental science practice: Advanced Climate Science extends Environmental Science at Undergraduate Year 3, connecting climate science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Environmental Science progresses through Advanced Ecosystems & Biodiversity, Advanced Climate Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Environmental Science progresses through Advanced Ecosystems & Biodiversity, Advanced Climate Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Ecosystems+%26+Biodiversity+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5533,7 +8228,51 @@
         "How 'Advanced Fitness Fundamentals' shows up in real-world physical education & self-defense practice: Advanced Fitness Fundamentals is an advanced undergraduate module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Applied Self-Defense Technique' shows up in real-world physical education & self-defense practice: Advanced Applied Self-Defense Technique extends Physical Education & Self-Defense at Undergraduate Year 3, connecting applied self-defense technique to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Physical Education & Self-Defense progresses through Advanced Fitness Fundamentals, Advanced Applied Self-Defense Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Physical Education & Self-Defense progresses through Advanced Fitness Fundamentals, Advanced Applied Self-Defense Technique. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Fitness+Fundamentals+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5784,7 +8523,51 @@
         "How 'Advanced Microeconomics Fundamentals' shows up in real-world economics practice: Advanced Microeconomics Fundamentals is an advanced undergraduate module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Macroeconomics Fundamentals' shows up in real-world economics practice: Advanced Macroeconomics Fundamentals extends Economics at Undergraduate Year 3, connecting macroeconomics fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Economics progresses through Advanced Microeconomics Fundamentals, Advanced Macroeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Economics progresses through Advanced Microeconomics Fundamentals, Advanced Macroeconomics Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Microeconomics+Fundamentals+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Microeconomics+Fundamentals+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6036,7 +8819,51 @@
         "How 'Advanced Personal Finance Fundamentals' shows up in real-world finance practice: Advanced Personal Finance Fundamentals is an advanced undergraduate module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Corporate Finance' shows up in real-world finance practice: Advanced Corporate Finance extends Finance at Undergraduate Year 3, connecting corporate finance to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Finance progresses through Advanced Personal Finance Fundamentals, Advanced Corporate Finance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Finance progresses through Advanced Personal Finance Fundamentals, Advanced Corporate Finance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Personal+Finance+Fundamentals+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Personal+Finance+Fundamentals+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6288,7 +9115,51 @@
         "How 'Advanced Basic First Aid & CPR' shows up in real-world first aid practice: Advanced Basic First Aid & CPR is an advanced undergraduate module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Emergency Response Protocols' shows up in real-world first aid practice: Advanced Emergency Response Protocols extends First Aid at Undergraduate Year 3, connecting emergency response protocols to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, First Aid progresses through Advanced Basic First Aid & CPR, Advanced Emergency Response Protocols. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, First Aid progresses through Advanced Basic First Aid & CPR, Advanced Emergency Response Protocols. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Basic+First+Aid+%26+CPR+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Basic+First+Aid+%26+CPR+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6540,7 +9411,51 @@
         "How 'Advanced Classical Mechanics' shows up in real-world physics practice: Advanced Classical Mechanics is an advanced undergraduate module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Electricity, Magnetism & Waves' shows up in real-world physics practice: Advanced Electricity, Magnetism & Waves extends Physics at Undergraduate Year 3, connecting electricity, magnetism & waves to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Physics progresses through Advanced Classical Mechanics, Advanced Electricity, Magnetism & Waves. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Physics progresses through Advanced Classical Mechanics, Advanced Electricity, Magnetism & Waves. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Classical+Mechanics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Classical+Mechanics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Classical+Mechanics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Classical+Mechanics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Classical+Mechanics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Classical+Mechanics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Classical+Mechanics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6792,7 +9707,51 @@
         "How 'Advanced General & Inorganic Chemistry' shows up in real-world chemistry practice: Advanced General & Inorganic Chemistry is an advanced undergraduate module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Organic Chemistry' shows up in real-world chemistry practice: Advanced Organic Chemistry extends Chemistry at Undergraduate Year 3, connecting organic chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Chemistry progresses through Advanced General & Inorganic Chemistry, Advanced Organic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Chemistry progresses through Advanced General & Inorganic Chemistry, Advanced Organic Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+General+%26+Inorganic+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+General+%26+Inorganic+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7044,7 +10003,51 @@
         "How 'Advanced Cell & Molecular Biology' shows up in real-world biology practice: Advanced Cell & Molecular Biology is an advanced undergraduate module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Genetics & Evolution' shows up in real-world biology practice: Advanced Genetics & Evolution extends Biology at Undergraduate Year 3, connecting genetics & evolution to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Biology progresses through Advanced Cell & Molecular Biology, Advanced Genetics & Evolution. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Biology progresses through Advanced Cell & Molecular Biology, Advanced Genetics & Evolution. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Cell+%26+Molecular+Biology+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Cell+%26+Molecular+Biology+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7297,7 +10300,51 @@
         "How 'Advanced Introduction to Philosophy & Logic' shows up in real-world philosophy practice: Advanced Introduction to Philosophy & Logic is an advanced undergraduate module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Ethics & Political Philosophy' shows up in real-world philosophy practice: Advanced Ethics & Political Philosophy extends Philosophy at Undergraduate Year 3, connecting ethics & political philosophy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Philosophy progresses through Advanced Introduction to Philosophy & Logic, Advanced Ethics & Political Philosophy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Philosophy progresses through Advanced Introduction to Philosophy & Logic, Advanced Ethics & Political Philosophy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Introduction+to+Philosophy+%26+Logic+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7550,7 +10597,51 @@
         "How 'Advanced Logic & Argument Structure' shows up in real-world critical thinking practice: Advanced Logic & Argument Structure is an advanced undergraduate module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Cognitive Bias & Fallacies' shows up in real-world critical thinking practice: Advanced Cognitive Bias & Fallacies extends Critical Thinking at Undergraduate Year 3, connecting cognitive bias & fallacies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Critical Thinking progresses through Advanced Logic & Argument Structure, Advanced Cognitive Bias & Fallacies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Critical Thinking progresses through Advanced Logic & Argument Structure, Advanced Cognitive Bias & Fallacies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Logic+%26+Argument+Structure+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Logic+%26+Argument+Structure+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7801,7 +10892,51 @@
         "How 'Advanced Government & Constitutions' shows up in real-world civics practice: Advanced Government & Constitutions is an advanced undergraduate module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Rights, Law & Institutions' shows up in real-world civics practice: Advanced Rights, Law & Institutions extends Civics at Undergraduate Year 3, connecting rights, law & institutions to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Civics progresses through Advanced Government & Constitutions, Advanced Rights, Law & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Civics progresses through Advanced Government & Constitutions, Advanced Rights, Law & Institutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Government+%26+Constitutions+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Government+%26+Constitutions+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Government+%26+Constitutions+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Government+%26+Constitutions+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Government+%26+Constitutions+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Government+%26+Constitutions+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Government+%26+Constitutions+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8054,7 +11189,51 @@
         "How 'Advanced Personal Health & Wellbeing' shows up in real-world health education practice: Advanced Personal Health & Wellbeing is an advanced undergraduate module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Public Health Fundamentals' shows up in real-world health education practice: Advanced Public Health Fundamentals extends Health Education at Undergraduate Year 3, connecting public health fundamentals to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Health Education progresses through Advanced Personal Health & Wellbeing, Advanced Public Health Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Health Education progresses through Advanced Personal Health & Wellbeing, Advanced Public Health Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Personal+Health+%26+Wellbeing+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Personal+Health+%26+Wellbeing+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8306,7 +11485,51 @@
         "How 'Advanced Business Fundamentals' shows up in real-world business studies practice: Advanced Business Fundamentals is an advanced undergraduate module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Management & Organizational Behaviour' shows up in real-world business studies practice: Advanced Management & Organizational Behaviour extends Business Studies at Undergraduate Year 3, connecting management & organizational behaviour to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, Business Studies progresses through Advanced Business Fundamentals, Advanced Management & Organizational Behaviour. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, Business Studies progresses through Advanced Business Fundamentals, Advanced Management & Organizational Behaviour. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Business+Fundamentals+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Business+Fundamentals+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8559,7 +11782,51 @@
         "How 'Advanced International Relations Fundamentals' shows up in real-world world politics practice: Advanced International Relations Fundamentals is an advanced undergraduate module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Comparative Political Systems' shows up in real-world world politics practice: Advanced Comparative Political Systems extends World Politics at Undergraduate Year 3, connecting comparative political systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, World Politics progresses through Advanced International Relations Fundamentals, Advanced Comparative Political Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, World Politics progresses through Advanced International Relations Fundamentals, Advanced Comparative Political Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+International+Relations+Fundamentals+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+International+Relations+Fundamentals+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8811,7 +12078,51 @@
         "How 'Advanced Computer Systems Fundamentals' shows up in real-world ict & computer science practice: Advanced Computer Systems Fundamentals is an advanced undergraduate module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 3.",
         "How 'Advanced Networks & Databases' shows up in real-world ict & computer science practice: Advanced Networks & Databases extends ICT & Computer Science at Undergraduate Year 3, connecting networks & databases to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 3, ICT & Computer Science progresses through Advanced Computer Systems Fundamentals, Advanced Networks & Databases. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 3, ICT & Computer Science progresses through Advanced Computer Systems Fundamentals, Advanced Networks & Databases. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Advanced+Computer+Systems+Fundamentals+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

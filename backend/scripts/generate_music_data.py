@@ -19,6 +19,10 @@ def yt(query: str) -> str:
     return "https://www.youtube.com/results?search_query=" + quote_plus(query)
 
 
+def pinterest(query: str) -> str:
+    return "https://www.pinterest.com/search/pins/?q=" + quote_plus(query)
+
+
 def wiki(topic: str) -> str:
     return "https://en.wikipedia.org/wiki/" + quote_plus(topic).replace("+", "_")
 
@@ -124,6 +128,7 @@ def _instrument(label: str, emoji: str, beginner_topics: list[str], intermediate
             {"title": f"{label} sheet music / tabs", "url": EIGHT_NOTES},
             {"title": f"{label} overview (Wikipedia)", "url": wiki(label)},
         ],
+        "pinterest_search": pinterest(f"{label} lessons chart chords diagram"),
     }
 
 
@@ -220,13 +225,19 @@ INSTRUMENTS = {
 
 
 def build() -> dict:
+    for key, category in CATEGORIES.items():
+        category.setdefault("resources", []).append({
+            "title": f"{category['label']} — Pinterest boards",
+            "url": pinterest(f"{category['label']} music"),
+        })
+
     return {
         "title": "Music & Instruments",
         "description": (
             "A dedicated home for musical learning at every age and level: instrument lessons, music theory, "
             "singing and vocal training, rhythm and ear training, world and classical music traditions, and "
-            "modern music production — with curated links to legitimate YouTube and audio resources rather than "
-            "embedded copyrighted media."
+            "modern music production — with curated links to legitimate YouTube, Pinterest, and audio resources "
+            "rather than embedded copyrighted media."
         ),
         "categories": CATEGORIES,
         "instruments": INSTRUMENTS,

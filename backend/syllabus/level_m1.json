@@ -247,7 +247,51 @@
         "How 'AI Ethics' shows up in real-world artificial intelligence practice: Bias, fairness, transparency, and accountability in AI system design and deployment.",
         "How 'AI Safety' shows up in real-world artificial intelligence practice: Robustness, alignment, and risk management for advanced AI systems."
       ],
-      "learning_path": "At Master's Year 1, Artificial Intelligence progresses through AI Ethics, AI Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Artificial Intelligence progresses through AI Ethics, AI Safety. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=AI+Ethics+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=AI+Ethics+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=AI+Ethics+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=AI+Ethics+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=AI+Ethics+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=AI+Ethics+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=AI+Ethics+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -496,7 +540,51 @@
         "How 'Model Deployment Basics' shows up in real-world machine learning practice: Packaging a trained model behind an API and monitoring it after deployment.",
         "How 'MLOps' shows up in real-world machine learning practice: Versioning data and models, CI/CD for ML pipelines, and production monitoring."
       ],
-      "learning_path": "At Master's Year 1, Machine Learning progresses through Model Deployment Basics, MLOps. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Machine Learning progresses through Model Deployment Basics, MLOps. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Model+Deployment+Basics+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Model+Deployment+Basics+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Model+Deployment+Basics+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Model+Deployment+Basics+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Model+Deployment+Basics+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Model+Deployment+Basics+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Model+Deployment+Basics+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -746,7 +834,51 @@
         "How 'Speech & Text Interfaces' shows up in real-world natural language processing practice: Connecting speech recognition and synthesis to text-based NLP pipelines.",
         "How 'Retrieval-Augmented Generation' shows up in real-world natural language processing practice: Combining search/retrieval with generation to ground LLM answers in real documents."
       ],
-      "learning_path": "At Master's Year 1, Natural Language Processing progresses through Speech & Text Interfaces, Retrieval-Augmented Generation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Natural Language Processing progresses through Speech & Text Interfaces, Retrieval-Augmented Generation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Speech+%26+Text+Interfaces+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Speech+%26+Text+Interfaces+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -999,7 +1131,51 @@
         "How 'Applied Machine Learning for Data Science' shows up in real-world data science practice: Feature engineering and model selection in an applied data science workflow.",
         "How 'Data Engineering Fundamentals' shows up in real-world data science practice: Building pipelines that move and transform data reliably."
       ],
-      "learning_path": "At Master's Year 1, Data Science progresses through Applied Machine Learning for Data Science, Data Engineering Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Data Science progresses through Applied Machine Learning for Data Science, Data Engineering Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Applied+Machine+Learning+for+Data+Science+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Applied+Machine+Learning+for+Data+Science+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1248,7 +1424,1822 @@
         "How 'Risk Analytics' shows up in real-world business analytics practice: Quantifying and communicating business, credit, and operational risk.",
         "How 'People Analytics' shows up in real-world business analytics practice: Using data to inform hiring, retention, and workforce planning decisions."
       ],
-      "learning_path": "At Master's Year 1, Business Analytics progresses through Risk Analytics, People Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Business Analytics progresses through Risk Analytics, People Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Risk+Analytics+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Risk+Analytics+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Risk+Analytics+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Risk+Analytics+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Risk+Analytics+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Risk+Analytics+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Risk+Analytics+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-m1-book1",
+          "title": "Web Development: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=Performance+Optimization+%26+Caching",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Performance Optimization & Caching — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Performance+Optimization+%26+Caching+Web+Development+lecture",
+          "description": "Curated video search for performance optimization & caching at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: Performance Optimization & Caching",
+          "url": "https://ocw.mit.edu/search/?q=Performance+Optimization+%26+Caching",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Performance Optimization & Caching' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Making web apps load and respond fast at scale.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Making web apps load and respond fast at scale."
+        },
+        {
+          "question": "What is the focus of the 'Testing & Quality Assurance' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Unit, integration, and end-to-end testing for web applications.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Unit, integration, and end-to-end testing for web applications."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Performance Optimization & Caching.",
+            "type": "short_answer",
+            "answer": "Making web apps load and respond fast at scale."
+          },
+          {
+            "question": "Briefly explain: Testing & Quality Assurance.",
+            "type": "short_answer",
+            "answer": "Unit, integration, and end-to-end testing for web applications."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Master's Year 1 Companion",
+          "url": "https://ocw.mit.edu/search/?q=Performance+Optimization+%26+Caching",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Making web apps load and respond fast at scale.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-m1-l1",
+          "title": "Performance Optimization & Caching",
+          "unit": "Performance Optimization & Caching",
+          "level": "M1",
+          "subject": "Web Development",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of performance optimization & caching at Master's Year 1 depth.",
+            "Apply performance optimization & caching concepts to worked examples and problems.",
+            "Critically discuss how performance optimization & caching connects to real-world practice in web development."
+          ],
+          "reading_material": "Making web apps load and respond fast at scale.",
+          "key_concepts": [
+            "Performance",
+            "Optimization",
+            "Caching"
+          ],
+          "practical_activities": [
+            "Guided worked example on performance optimization & caching",
+            "Small-group discussion / problem set on performance optimization & caching"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind performance optimization & caching?",
+              "type": "short_answer",
+              "answer": "Making web apps load and respond fast at scale."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting performance optimization & caching to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Making web apps load and respond fast at scale.",
+            "tip": "Review performance optimization & caching before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes performance optimization & caching?",
+                "options": [
+                  "Making web apps load and respond fast at scale.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Making web apps load and respond fast at scale."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands performance optimization & caching",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Performance+Optimization+%26+Caching"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Performance+Optimization+%26+Caching+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "web-development-m1-l2",
+          "title": "Testing & Quality Assurance",
+          "unit": "Testing & Quality Assurance",
+          "level": "M1",
+          "subject": "Web Development",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of testing & quality assurance at Master's Year 1 depth.",
+            "Apply testing & quality assurance concepts to worked examples and problems.",
+            "Critically discuss how testing & quality assurance connects to real-world practice in web development."
+          ],
+          "reading_material": "Unit, integration, and end-to-end testing for web applications.",
+          "key_concepts": [
+            "Testing",
+            "Quality",
+            "Assurance"
+          ],
+          "practical_activities": [
+            "Guided worked example on testing & quality assurance",
+            "Small-group discussion / problem set on testing & quality assurance"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind testing & quality assurance?",
+              "type": "short_answer",
+              "answer": "Unit, integration, and end-to-end testing for web applications."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting testing & quality assurance to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Unit, integration, and end-to-end testing for web applications.",
+            "tip": "Review testing & quality assurance before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes testing & quality assurance?",
+                "options": [
+                  "Unit, integration, and end-to-end testing for web applications.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Unit, integration, and end-to-end testing for web applications."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands testing & quality assurance",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Testing+%26+Quality+Assurance"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Testing+%26+Quality+Assurance+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Performance Optimization & Caching' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'Testing & Quality Assurance' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'Performance Optimization & Caching' shows up in real-world web development practice: Making web apps load and respond fast at scale.",
+        "How 'Testing & Quality Assurance' shows up in real-world web development practice: Unit, integration, and end-to-end testing for web applications."
+      ],
+      "learning_path": "At Master's Year 1, Web Development progresses through Performance Optimization & Caching, Testing & Quality Assurance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Performance+Optimization+%26+Caching+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Performance+Optimization+%26+Caching+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-m1-book1",
+          "title": "Cybersecurity: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Digital+Forensics+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Digital Forensics Fundamentals — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Digital+Forensics+Fundamentals+Cybersecurity+lecture",
+          "description": "Curated video search for digital forensics fundamentals at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Digital Forensics Fundamentals",
+          "url": "https://www.coursera.org/search?query=Digital+Forensics+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Digital Forensics Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Preserving and analyzing digital evidence after a security incident.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Preserving and analyzing digital evidence after a security incident."
+        },
+        {
+          "question": "What is the focus of the 'Security Auditing & Vulnerability Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Finding, tracking, and remediating vulnerabilities systematically.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Finding, tracking, and remediating vulnerabilities systematically."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Digital Forensics Fundamentals.",
+            "type": "short_answer",
+            "answer": "Preserving and analyzing digital evidence after a security incident."
+          },
+          {
+            "question": "Briefly explain: Security Auditing & Vulnerability Management.",
+            "type": "short_answer",
+            "answer": "Finding, tracking, and remediating vulnerabilities systematically."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Master's Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Digital+Forensics+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Preserving and analyzing digital evidence after a security incident.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-m1-l1",
+          "title": "Digital Forensics Fundamentals",
+          "unit": "Digital Forensics Fundamentals",
+          "level": "M1",
+          "subject": "Cybersecurity",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of digital forensics fundamentals at Master's Year 1 depth.",
+            "Apply digital forensics fundamentals concepts to worked examples and problems.",
+            "Critically discuss how digital forensics fundamentals connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Preserving and analyzing digital evidence after a security incident.",
+          "key_concepts": [
+            "Digital",
+            "Forensics",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on digital forensics fundamentals",
+            "Small-group discussion / problem set on digital forensics fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind digital forensics fundamentals?",
+              "type": "short_answer",
+              "answer": "Preserving and analyzing digital evidence after a security incident."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting digital forensics fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Preserving and analyzing digital evidence after a security incident.",
+            "tip": "Review digital forensics fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes digital forensics fundamentals?",
+                "options": [
+                  "Preserving and analyzing digital evidence after a security incident.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Preserving and analyzing digital evidence after a security incident."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands digital forensics fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Digital+Forensics+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Digital+Forensics+Fundamentals+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "cybersecurity-m1-l2",
+          "title": "Security Auditing & Vulnerability Management",
+          "unit": "Security Auditing & Vulnerability Management",
+          "level": "M1",
+          "subject": "Cybersecurity",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of security auditing & vulnerability management at Master's Year 1 depth.",
+            "Apply security auditing & vulnerability management concepts to worked examples and problems.",
+            "Critically discuss how security auditing & vulnerability management connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Finding, tracking, and remediating vulnerabilities systematically.",
+          "key_concepts": [
+            "Security",
+            "Auditing",
+            "Vulnerability",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on security auditing & vulnerability management",
+            "Small-group discussion / problem set on security auditing & vulnerability management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind security auditing & vulnerability management?",
+              "type": "short_answer",
+              "answer": "Finding, tracking, and remediating vulnerabilities systematically."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting security auditing & vulnerability management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Finding, tracking, and remediating vulnerabilities systematically.",
+            "tip": "Review security auditing & vulnerability management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes security auditing & vulnerability management?",
+                "options": [
+                  "Finding, tracking, and remediating vulnerabilities systematically.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Finding, tracking, and remediating vulnerabilities systematically."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands security auditing & vulnerability management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Security+Auditing+%26+Vulnerability+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Security+Auditing+%26+Vulnerability+Management+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Digital Forensics Fundamentals' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Security Auditing & Vulnerability Management' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Digital Forensics Fundamentals' shows up in real-world cybersecurity practice: Preserving and analyzing digital evidence after a security incident.",
+        "How 'Security Auditing & Vulnerability Management' shows up in real-world cybersecurity practice: Finding, tracking, and remediating vulnerabilities systematically."
+      ],
+      "learning_path": "At Master's Year 1, Cybersecurity progresses through Digital Forensics Fundamentals, Security Auditing & Vulnerability Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Digital+Forensics+Fundamentals+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Digital+Forensics+Fundamentals+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-m1-book1",
+          "title": "Cloud Computing: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Multi-Cloud+%26+Hybrid+Cloud+Strategy",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Multi-Cloud & Hybrid Cloud Strategy — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing+lecture",
+          "description": "Curated video search for multi-cloud & hybrid cloud strategy at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Multi-Cloud & Hybrid Cloud Strategy",
+          "url": "https://www.coursera.org/search?query=Multi-Cloud+%26+Hybrid+Cloud+Strategy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Multi-Cloud & Hybrid Cloud Strategy' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Combining multiple cloud providers or on-premises and cloud infrastructure.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Combining multiple cloud providers or on-premises and cloud infrastructure."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Monitoring & Observability' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Logging, metrics, and tracing to understand system health in production.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Logging, metrics, and tracing to understand system health in production."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Multi-Cloud & Hybrid Cloud Strategy.",
+            "type": "short_answer",
+            "answer": "Combining multiple cloud providers or on-premises and cloud infrastructure."
+          },
+          {
+            "question": "Briefly explain: Cloud Monitoring & Observability.",
+            "type": "short_answer",
+            "answer": "Logging, metrics, and tracing to understand system health in production."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Master's Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Multi-Cloud+%26+Hybrid+Cloud+Strategy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Combining multiple cloud providers or on-premises and cloud infrastructure.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-m1-l1",
+          "title": "Multi-Cloud & Hybrid Cloud Strategy",
+          "unit": "Multi-Cloud & Hybrid Cloud Strategy",
+          "level": "M1",
+          "subject": "Cloud Computing",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of multi-cloud & hybrid cloud strategy at Master's Year 1 depth.",
+            "Apply multi-cloud & hybrid cloud strategy concepts to worked examples and problems.",
+            "Critically discuss how multi-cloud & hybrid cloud strategy connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Combining multiple cloud providers or on-premises and cloud infrastructure.",
+          "key_concepts": [
+            "Multi-Cloud",
+            "Hybrid",
+            "Cloud",
+            "Strategy"
+          ],
+          "practical_activities": [
+            "Guided worked example on multi-cloud & hybrid cloud strategy",
+            "Small-group discussion / problem set on multi-cloud & hybrid cloud strategy"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind multi-cloud & hybrid cloud strategy?",
+              "type": "short_answer",
+              "answer": "Combining multiple cloud providers or on-premises and cloud infrastructure."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting multi-cloud & hybrid cloud strategy to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Combining multiple cloud providers or on-premises and cloud infrastructure.",
+            "tip": "Review multi-cloud & hybrid cloud strategy before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes multi-cloud & hybrid cloud strategy?",
+                "options": [
+                  "Combining multiple cloud providers or on-premises and cloud infrastructure.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Combining multiple cloud providers or on-premises and cloud infrastructure."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands multi-cloud & hybrid cloud strategy",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Multi-Cloud+%26+Hybrid+Cloud+Strategy"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "cloud-computing-m1-l2",
+          "title": "Cloud Monitoring & Observability",
+          "unit": "Cloud Monitoring & Observability",
+          "level": "M1",
+          "subject": "Cloud Computing",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of cloud monitoring & observability at Master's Year 1 depth.",
+            "Apply cloud monitoring & observability concepts to worked examples and problems.",
+            "Critically discuss how cloud monitoring & observability connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Logging, metrics, and tracing to understand system health in production.",
+          "key_concepts": [
+            "Cloud",
+            "Monitoring",
+            "Observability"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud monitoring & observability",
+            "Small-group discussion / problem set on cloud monitoring & observability"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud monitoring & observability?",
+              "type": "short_answer",
+              "answer": "Logging, metrics, and tracing to understand system health in production."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud monitoring & observability to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Logging, metrics, and tracing to understand system health in production.",
+            "tip": "Review cloud monitoring & observability before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud monitoring & observability?",
+                "options": [
+                  "Logging, metrics, and tracing to understand system health in production.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Logging, metrics, and tracing to understand system health in production."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud monitoring & observability",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Monitoring+%26+Observability"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Monitoring+%26+Observability+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Multi-Cloud & Hybrid Cloud Strategy' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Monitoring & Observability' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Multi-Cloud & Hybrid Cloud Strategy' shows up in real-world cloud computing practice: Combining multiple cloud providers or on-premises and cloud infrastructure.",
+        "How 'Cloud Monitoring & Observability' shows up in real-world cloud computing practice: Logging, metrics, and tracing to understand system health in production."
+      ],
+      "learning_path": "At Master's Year 1, Cloud Computing progresses through Multi-Cloud & Hybrid Cloud Strategy, Cloud Monitoring & Observability. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Multi-Cloud+%26+Hybrid+Cloud+Strategy+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-m1-book1",
+          "title": "Digital Marketing: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Video+%26+Multimedia+Marketing",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Video & Multimedia Marketing — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Video+%26+Multimedia+Marketing+Digital+Marketing+lecture",
+          "description": "Curated video search for video & multimedia marketing at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Video & Multimedia Marketing",
+          "url": "https://www.coursera.org/search?query=Video+%26+Multimedia+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Video & Multimedia Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Producing and distributing video content across platforms.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Producing and distributing video content across platforms."
+        },
+        {
+          "question": "What is the focus of the 'Marketing Ethics & Data Privacy' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Responsible use of customer data and honest marketing practice.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Responsible use of customer data and honest marketing practice."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Video & Multimedia Marketing.",
+            "type": "short_answer",
+            "answer": "Producing and distributing video content across platforms."
+          },
+          {
+            "question": "Briefly explain: Marketing Ethics & Data Privacy.",
+            "type": "short_answer",
+            "answer": "Responsible use of customer data and honest marketing practice."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Master's Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Video+%26+Multimedia+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Producing and distributing video content across platforms.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-m1-l1",
+          "title": "Video & Multimedia Marketing",
+          "unit": "Video & Multimedia Marketing",
+          "level": "M1",
+          "subject": "Digital Marketing",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of video & multimedia marketing at Master's Year 1 depth.",
+            "Apply video & multimedia marketing concepts to worked examples and problems.",
+            "Critically discuss how video & multimedia marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Producing and distributing video content across platforms.",
+          "key_concepts": [
+            "Video",
+            "Multimedia",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on video & multimedia marketing",
+            "Small-group discussion / problem set on video & multimedia marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind video & multimedia marketing?",
+              "type": "short_answer",
+              "answer": "Producing and distributing video content across platforms."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting video & multimedia marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Producing and distributing video content across platforms.",
+            "tip": "Review video & multimedia marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes video & multimedia marketing?",
+                "options": [
+                  "Producing and distributing video content across platforms.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Producing and distributing video content across platforms."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands video & multimedia marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Video+%26+Multimedia+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Video+%26+Multimedia+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "digital-marketing-m1-l2",
+          "title": "Marketing Ethics & Data Privacy",
+          "unit": "Marketing Ethics & Data Privacy",
+          "level": "M1",
+          "subject": "Digital Marketing",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of marketing ethics & data privacy at Master's Year 1 depth.",
+            "Apply marketing ethics & data privacy concepts to worked examples and problems.",
+            "Critically discuss how marketing ethics & data privacy connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Responsible use of customer data and honest marketing practice.",
+          "key_concepts": [
+            "Marketing",
+            "Ethics",
+            "Data",
+            "Privacy"
+          ],
+          "practical_activities": [
+            "Guided worked example on marketing ethics & data privacy",
+            "Small-group discussion / problem set on marketing ethics & data privacy"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind marketing ethics & data privacy?",
+              "type": "short_answer",
+              "answer": "Responsible use of customer data and honest marketing practice."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting marketing ethics & data privacy to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Responsible use of customer data and honest marketing practice.",
+            "tip": "Review marketing ethics & data privacy before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes marketing ethics & data privacy?",
+                "options": [
+                  "Responsible use of customer data and honest marketing practice.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Responsible use of customer data and honest marketing practice."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands marketing ethics & data privacy",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Marketing+Ethics+%26+Data+Privacy"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Marketing+Ethics+%26+Data+Privacy+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Video & Multimedia Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Marketing Ethics & Data Privacy' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Video & Multimedia Marketing' shows up in real-world digital marketing practice: Producing and distributing video content across platforms.",
+        "How 'Marketing Ethics & Data Privacy' shows up in real-world digital marketing practice: Responsible use of customer data and honest marketing practice."
+      ],
+      "learning_path": "At Master's Year 1, Digital Marketing progresses through Video & Multimedia Marketing, Marketing Ethics & Data Privacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Video+%26+Multimedia+Marketing+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Video+%26+Multimedia+Marketing+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-m1-book1",
+          "title": "UI/UX Design: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=UX+Writing+%26+Microcopy",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "UX Writing & Microcopy — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=UX+Writing+%26+Microcopy+UI%2FUX+Design+lecture",
+          "description": "Curated video search for ux writing & microcopy at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: UX Writing & Microcopy",
+          "url": "https://www.coursera.org/search?query=UX+Writing+%26+Microcopy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'UX Writing & Microcopy' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Writing the small pieces of text that guide users through a product.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Writing the small pieces of text that guide users through a product."
+        },
+        {
+          "question": "What is the focus of the 'Design Thinking & Ideation' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Structured creative methods for generating and evaluating design solutions.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Structured creative methods for generating and evaluating design solutions."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: UX Writing & Microcopy.",
+            "type": "short_answer",
+            "answer": "Writing the small pieces of text that guide users through a product."
+          },
+          {
+            "question": "Briefly explain: Design Thinking & Ideation.",
+            "type": "short_answer",
+            "answer": "Structured creative methods for generating and evaluating design solutions."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Master's Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=UX+Writing+%26+Microcopy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Writing the small pieces of text that guide users through a product.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-m1-l1",
+          "title": "UX Writing & Microcopy",
+          "unit": "UX Writing & Microcopy",
+          "level": "M1",
+          "subject": "UI/UX Design",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of ux writing & microcopy at Master's Year 1 depth.",
+            "Apply ux writing & microcopy concepts to worked examples and problems.",
+            "Critically discuss how ux writing & microcopy connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Writing the small pieces of text that guide users through a product.",
+          "key_concepts": [
+            "Writing",
+            "Microcopy"
+          ],
+          "practical_activities": [
+            "Guided worked example on ux writing & microcopy",
+            "Small-group discussion / problem set on ux writing & microcopy"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind ux writing & microcopy?",
+              "type": "short_answer",
+              "answer": "Writing the small pieces of text that guide users through a product."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting ux writing & microcopy to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Writing the small pieces of text that guide users through a product.",
+            "tip": "Review ux writing & microcopy before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes ux writing & microcopy?",
+                "options": [
+                  "Writing the small pieces of text that guide users through a product.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Writing the small pieces of text that guide users through a product."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands ux writing & microcopy",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=UX+Writing+%26+Microcopy"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=UX+Writing+%26+Microcopy+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "ui/ux-design-m1-l2",
+          "title": "Design Thinking & Ideation",
+          "unit": "Design Thinking & Ideation",
+          "level": "M1",
+          "subject": "UI/UX Design",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of design thinking & ideation at Master's Year 1 depth.",
+            "Apply design thinking & ideation concepts to worked examples and problems.",
+            "Critically discuss how design thinking & ideation connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Structured creative methods for generating and evaluating design solutions.",
+          "key_concepts": [
+            "Design",
+            "Thinking",
+            "Ideation"
+          ],
+          "practical_activities": [
+            "Guided worked example on design thinking & ideation",
+            "Small-group discussion / problem set on design thinking & ideation"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind design thinking & ideation?",
+              "type": "short_answer",
+              "answer": "Structured creative methods for generating and evaluating design solutions."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting design thinking & ideation to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Structured creative methods for generating and evaluating design solutions.",
+            "tip": "Review design thinking & ideation before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes design thinking & ideation?",
+                "options": [
+                  "Structured creative methods for generating and evaluating design solutions.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Structured creative methods for generating and evaluating design solutions."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands design thinking & ideation",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Design+Thinking+%26+Ideation"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Design+Thinking+%26+Ideation+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'UX Writing & Microcopy' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Design Thinking & Ideation' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'UX Writing & Microcopy' shows up in real-world ui/ux design practice: Writing the small pieces of text that guide users through a product.",
+        "How 'Design Thinking & Ideation' shows up in real-world ui/ux design practice: Structured creative methods for generating and evaluating design solutions."
+      ],
+      "learning_path": "At Master's Year 1, UI/UX Design progresses through UX Writing & Microcopy, Design Thinking & Ideation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=UX+Writing+%26+Microcopy+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=UX+Writing+%26+Microcopy+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-m1-book1",
+          "title": "Project Management: Master's Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Project+Portfolio+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Project Portfolio Management — Master's Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Project+Portfolio+Management+Project+Management+lecture",
+          "description": "Curated video search for project portfolio management at Master's Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Project Portfolio Management",
+          "url": "https://www.coursera.org/search?query=Project+Portfolio+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Project Portfolio Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Prioritizing and balancing multiple projects across an organization.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Prioritizing and balancing multiple projects across an organization."
+        },
+        {
+          "question": "What is the focus of the 'Program Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Coordinating a group of related projects toward a shared strategic goal.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Coordinating a group of related projects toward a shared strategic goal."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Project Portfolio Management.",
+            "type": "short_answer",
+            "answer": "Prioritizing and balancing multiple projects across an organization."
+          },
+          {
+            "question": "Briefly explain: Program Management.",
+            "type": "short_answer",
+            "answer": "Coordinating a group of related projects toward a shared strategic goal."
+          }
+        ],
+        "passing_score": 75
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Master's Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Project+Portfolio+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Prioritizing and balancing multiple projects across an organization.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-m1-l1",
+          "title": "Project Portfolio Management",
+          "unit": "Project Portfolio Management",
+          "level": "M1",
+          "subject": "Project Management",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of project portfolio management at Master's Year 1 depth.",
+            "Apply project portfolio management concepts to worked examples and problems.",
+            "Critically discuss how project portfolio management connects to real-world practice in project management."
+          ],
+          "reading_material": "Prioritizing and balancing multiple projects across an organization.",
+          "key_concepts": [
+            "Project",
+            "Portfolio",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on project portfolio management",
+            "Small-group discussion / problem set on project portfolio management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind project portfolio management?",
+              "type": "short_answer",
+              "answer": "Prioritizing and balancing multiple projects across an organization."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting project portfolio management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Prioritizing and balancing multiple projects across an organization.",
+            "tip": "Review project portfolio management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes project portfolio management?",
+                "options": [
+                  "Prioritizing and balancing multiple projects across an organization.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Prioritizing and balancing multiple projects across an organization."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands project portfolio management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Project+Portfolio+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Project+Portfolio+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "project-management-m1-l2",
+          "title": "Program Management",
+          "unit": "Program Management",
+          "level": "M1",
+          "subject": "Project Management",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of program management at Master's Year 1 depth.",
+            "Apply program management concepts to worked examples and problems.",
+            "Critically discuss how program management connects to real-world practice in project management."
+          ],
+          "reading_material": "Coordinating a group of related projects toward a shared strategic goal.",
+          "key_concepts": [
+            "Program",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on program management",
+            "Small-group discussion / problem set on program management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind program management?",
+              "type": "short_answer",
+              "answer": "Coordinating a group of related projects toward a shared strategic goal."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting program management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Coordinating a group of related projects toward a shared strategic goal.",
+            "tip": "Review program management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes program management?",
+                "options": [
+                  "Coordinating a group of related projects toward a shared strategic goal.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Coordinating a group of related projects toward a shared strategic goal."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands program management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Program+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Program+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Project Portfolio Management' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Program Management' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a master's year 1 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Project Portfolio Management' shows up in real-world project management practice: Prioritizing and balancing multiple projects across an organization.",
+        "How 'Program Management' shows up in real-world project management practice: Coordinating a group of related projects toward a shared strategic goal."
+      ],
+      "learning_path": "At Master's Year 1, Project Management progresses through Project Portfolio Management, Program Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Project+Portfolio+Management+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Project+Portfolio+Management+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Project+Portfolio+Management+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Project+Portfolio+Management+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Project+Portfolio+Management+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Project+Portfolio+Management+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Project+Portfolio+Management+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1502,7 +3493,51 @@
         "How 'Graduate Theory: Statistics & Probability' shows up in real-world math practice: Graduate Theory: Statistics & Probability is a graduate-core module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Discrete Mathematics & Proof' shows up in real-world math practice: Graduate Theory: Discrete Mathematics & Proof extends Math at Master's Year 1, connecting discrete mathematics & proof to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Math progresses through Graduate Theory: Statistics & Probability, Graduate Theory: Discrete Mathematics & Proof. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Math progresses through Graduate Theory: Statistics & Probability, Graduate Theory: Discrete Mathematics & Proof. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Statistics+%26+Probability+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1754,7 +3789,51 @@
         "How 'Graduate Theory: Academic Writing' shows up in real-world english practice: Graduate Theory: Academic Writing is a graduate-core module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Linguistics' shows up in real-world english practice: Graduate Theory: Linguistics extends English at Master's Year 1, connecting linguistics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, English progresses through Graduate Theory: Academic Writing, Graduate Theory: Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, English progresses through Graduate Theory: Academic Writing, Graduate Theory: Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Academic+Writing+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Academic+Writing+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2007,7 +4086,51 @@
         "How 'Graduate Theory: Life Science' shows up in real-world science practice: Graduate Theory: Life Science is a graduate-core module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Physical Science' shows up in real-world science practice: Graduate Theory: Physical Science extends Science at Master's Year 1, connecting physical science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Science progresses through Graduate Theory: Life Science, Graduate Theory: Physical Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Science progresses through Graduate Theory: Life Science, Graduate Theory: Physical Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Life+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Life+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Life+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Life+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Life+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Life+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Life+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2261,7 +4384,51 @@
         "How 'Graduate Theory: Geopolitics & Globalization' shows up in real-world geography practice: Graduate Theory: Geopolitics & Globalization is a graduate-core module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Geographic Information Systems' shows up in real-world geography practice: Graduate Theory: Geographic Information Systems extends Geography at Master's Year 1, connecting geographic information systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Geography progresses through Graduate Theory: Geopolitics & Globalization, Graduate Theory: Geographic Information Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Geography progresses through Graduate Theory: Geopolitics & Globalization, Graduate Theory: Geographic Information Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Geopolitics+%26+Globalization+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2516,7 +4683,51 @@
         "How 'Graduate Theory: Modern World History' shows up in real-world world history practice: Graduate Theory: Modern World History is a graduate-core module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Historiography & Research Methods' shows up in real-world world history practice: Graduate Theory: Historiography & Research Methods extends World History at Master's Year 1, connecting historiography & research methods to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, World History progresses through Graduate Theory: Modern World History, Graduate Theory: Historiography & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, World History progresses through Graduate Theory: Modern World History, Graduate Theory: Historiography & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Modern+World+History+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Modern+World+History+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2771,7 +4982,51 @@
         "How 'Graduate Theory: Islamic Ethics & Jurisprudence' shows up in real-world islamic studies practice: Graduate Theory: Islamic Ethics & Jurisprudence is a graduate-core module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Comparative Religious Thought' shows up in real-world islamic studies practice: Graduate Theory: Comparative Religious Thought extends Islamic Studies at Master's Year 1, connecting comparative religious thought to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Islamic Studies progresses through Graduate Theory: Islamic Ethics & Jurisprudence, Graduate Theory: Comparative Religious Thought. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Islamic Studies progresses through Graduate Theory: Islamic Ethics & Jurisprudence, Graduate Theory: Comparative Religious Thought. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3025,7 +5280,51 @@
         "How 'Graduate Theory: Software Engineering Practice' shows up in real-world coding practice: Graduate Theory: Software Engineering Practice is a graduate-core module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Systems & Architecture' shows up in real-world coding practice: Graduate Theory: Systems & Architecture extends Coding at Master's Year 1, connecting systems & architecture to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Coding progresses through Graduate Theory: Software Engineering Practice, Graduate Theory: Systems & Architecture. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Coding progresses through Graduate Theory: Software Engineering Practice, Graduate Theory: Systems & Architecture. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Software+Engineering+Practice+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3279,7 +5578,51 @@
         "How 'Graduate Theory: Literary Theory & Criticism' shows up in real-world world literature practice: Graduate Theory: Literary Theory & Criticism is a graduate-core module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Comparative Literature' shows up in real-world world literature practice: Graduate Theory: Comparative Literature extends World Literature at Master's Year 1, connecting comparative literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, World Literature progresses through Graduate Theory: Literary Theory & Criticism, Graduate Theory: Comparative Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, World Literature progresses through Graduate Theory: Literary Theory & Criticism, Graduate Theory: Comparative Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Literary+Theory+%26+Criticism+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3534,7 +5877,51 @@
         "How 'Graduate Theory: Design & Visual Communication' shows up in real-world art practice: Graduate Theory: Design & Visual Communication is a graduate-core module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Contemporary & Critical Art Practice' shows up in real-world art practice: Graduate Theory: Contemporary & Critical Art Practice extends Art at Master's Year 1, connecting contemporary & critical art practice to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Art progresses through Graduate Theory: Design & Visual Communication, Graduate Theory: Contemporary & Critical Art Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Art progresses through Graduate Theory: Design & Visual Communication, Graduate Theory: Contemporary & Critical Art Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Design+%26+Visual+Communication+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3788,7 +6175,51 @@
         "How 'Graduate Theory: Performance & Ear Training' shows up in real-world music practice: Graduate Theory: Performance & Ear Training is a graduate-core module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Music Technology & Composition' shows up in real-world music practice: Graduate Theory: Music Technology & Composition extends Music at Master's Year 1, connecting music technology & composition to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Music progresses through Graduate Theory: Performance & Ear Training, Graduate Theory: Music Technology & Composition. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Music progresses through Graduate Theory: Performance & Ear Training, Graduate Theory: Music Technology & Composition. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Performance+%26+Ear+Training+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4043,7 +6474,51 @@
         "How 'Graduate Theory: Navigation & Resource Management' shows up in real-world survival skills practice: Graduate Theory: Navigation & Resource Management is a graduate-core module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Expedition & Risk Management' shows up in real-world survival skills practice: Graduate Theory: Advanced Expedition & Risk Management extends Survival Skills at Master's Year 1, connecting advanced expedition & risk management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Survival Skills progresses through Graduate Theory: Navigation & Resource Management, Graduate Theory: Advanced Expedition & Risk Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Survival Skills progresses through Graduate Theory: Navigation & Resource Management, Graduate Theory: Advanced Expedition & Risk Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4298,7 +6773,51 @@
         "How 'Graduate Theory: Nutrition & Menu Design' shows up in real-world cooking practice: Graduate Theory: Nutrition & Menu Design is a graduate-core module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Culinary Arts Management' shows up in real-world cooking practice: Graduate Theory: Culinary Arts Management extends Cooking at Master's Year 1, connecting culinary arts management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Cooking progresses through Graduate Theory: Nutrition & Menu Design, Graduate Theory: Culinary Arts Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Cooking progresses through Graduate Theory: Nutrition & Menu Design, Graduate Theory: Culinary Arts Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Nutrition+%26+Menu+Design+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4553,7 +7072,51 @@
         "How 'Graduate Theory: Advanced Reading & Writing' shows up in real-world foreign languages practice: Graduate Theory: Advanced Reading & Writing is a graduate-core module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Applied Translation & Linguistics' shows up in real-world foreign languages practice: Graduate Theory: Applied Translation & Linguistics extends Foreign Languages at Master's Year 1, connecting applied translation & linguistics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Foreign Languages progresses through Graduate Theory: Advanced Reading & Writing, Graduate Theory: Applied Translation & Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Foreign Languages progresses through Graduate Theory: Advanced Reading & Writing, Graduate Theory: Applied Translation & Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4808,7 +7371,51 @@
         "How 'Graduate Theory: Media & Information Literacy' shows up in real-world general knowledge practice: Graduate Theory: Media & Information Literacy is a graduate-core module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Interdisciplinary General Studies' shows up in real-world general knowledge practice: Graduate Theory: Interdisciplinary General Studies extends General Knowledge at Master's Year 1, connecting interdisciplinary general studies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, General Knowledge progresses through Graduate Theory: Media & Information Literacy, Graduate Theory: Interdisciplinary General Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, General Knowledge progresses through Graduate Theory: Media & Information Literacy, Graduate Theory: Interdisciplinary General Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Media+%26+Information+Literacy+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5063,7 +7670,51 @@
         "How 'Graduate Theory: Comparative Social Systems' shows up in real-world social studies practice: Graduate Theory: Comparative Social Systems is a graduate-core module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Social Research Methods' shows up in real-world social studies practice: Graduate Theory: Social Research Methods extends Social Studies at Master's Year 1, connecting social research methods to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Social Studies progresses through Graduate Theory: Comparative Social Systems, Graduate Theory: Social Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Social Studies progresses through Graduate Theory: Comparative Social Systems, Graduate Theory: Social Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Comparative+Social+Systems+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5317,7 +7968,51 @@
         "How 'Graduate Theory: Environmental Policy' shows up in real-world environmental science practice: Graduate Theory: Environmental Policy is a graduate-core module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Sustainability & Applied Environmental Management' shows up in real-world environmental science practice: Graduate Theory: Sustainability & Applied Environmental Management extends Environmental Science at Master's Year 1, connecting sustainability & applied environmental management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Environmental Science progresses through Graduate Theory: Environmental Policy, Graduate Theory: Sustainability & Applied Environmental Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Environmental Science progresses through Graduate Theory: Environmental Policy, Graduate Theory: Sustainability & Applied Environmental Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Environmental+Policy+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5571,7 +8266,51 @@
         "How 'Graduate Theory: Sports Science' shows up in real-world physical education & self-defense practice: Graduate Theory: Sports Science is a graduate-core module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Coaching & Performance Management' shows up in real-world physical education & self-defense practice: Graduate Theory: Coaching & Performance Management extends Physical Education & Self-Defense at Master's Year 1, connecting coaching & performance management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Physical Education & Self-Defense progresses through Graduate Theory: Sports Science, Graduate Theory: Coaching & Performance Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Physical Education & Self-Defense progresses through Graduate Theory: Sports Science, Graduate Theory: Coaching & Performance Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5826,7 +8565,51 @@
         "How 'Graduate Theory: Applied & Behavioural Economics' shows up in real-world economics practice: Graduate Theory: Applied & Behavioural Economics is a graduate-core module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Econometrics & Advanced Economic Theory' shows up in real-world economics practice: Graduate Theory: Econometrics & Advanced Economic Theory extends Economics at Master's Year 1, connecting econometrics & advanced economic theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Economics progresses through Graduate Theory: Applied & Behavioural Economics, Graduate Theory: Econometrics & Advanced Economic Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Economics progresses through Graduate Theory: Applied & Behavioural Economics, Graduate Theory: Econometrics & Advanced Economic Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Applied+%26+Behavioural+Economics+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6081,7 +8864,51 @@
         "How 'Graduate Theory: Investment & Portfolio Theory' shows up in real-world finance practice: Graduate Theory: Investment & Portfolio Theory is a graduate-core module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Financial Modelling & Risk' shows up in real-world finance practice: Graduate Theory: Advanced Financial Modelling & Risk extends Finance at Master's Year 1, connecting advanced financial modelling & risk to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Finance progresses through Graduate Theory: Investment & Portfolio Theory, Graduate Theory: Advanced Financial Modelling & Risk. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Finance progresses through Graduate Theory: Investment & Portfolio Theory, Graduate Theory: Advanced Financial Modelling & Risk. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Investment+%26+Portfolio+Theory+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6336,7 +9163,51 @@
         "How 'Graduate Theory: Wilderness & Remote Medicine' shows up in real-world first aid practice: Graduate Theory: Wilderness & Remote Medicine is a graduate-core module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Life Support Concepts' shows up in real-world first aid practice: Graduate Theory: Advanced Life Support Concepts extends First Aid at Master's Year 1, connecting advanced life support concepts to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, First Aid progresses through Graduate Theory: Wilderness & Remote Medicine, Graduate Theory: Advanced Life Support Concepts. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, First Aid progresses through Graduate Theory: Wilderness & Remote Medicine, Graduate Theory: Advanced Life Support Concepts. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6591,7 +9462,51 @@
         "How 'Graduate Theory: Modern & Quantum Physics' shows up in real-world physics practice: Graduate Theory: Modern & Quantum Physics is a graduate-core module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Theoretical Physics' shows up in real-world physics practice: Graduate Theory: Advanced Theoretical Physics extends Physics at Master's Year 1, connecting advanced theoretical physics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Physics progresses through Graduate Theory: Modern & Quantum Physics, Graduate Theory: Advanced Theoretical Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Physics progresses through Graduate Theory: Modern & Quantum Physics, Graduate Theory: Advanced Theoretical Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Modern+%26+Quantum+Physics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6845,7 +9760,51 @@
         "How 'Graduate Theory: Physical Chemistry' shows up in real-world chemistry practice: Graduate Theory: Physical Chemistry is a graduate-core module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced & Analytical Chemistry' shows up in real-world chemistry practice: Graduate Theory: Advanced & Analytical Chemistry extends Chemistry at Master's Year 1, connecting advanced & analytical chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Chemistry progresses through Graduate Theory: Physical Chemistry, Graduate Theory: Advanced & Analytical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Chemistry progresses through Graduate Theory: Physical Chemistry, Graduate Theory: Advanced & Analytical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Physical+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7099,7 +10058,51 @@
         "How 'Graduate Theory: Physiology & Anatomy' shows up in real-world biology practice: Graduate Theory: Physiology & Anatomy is a graduate-core module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced & Systems Biology' shows up in real-world biology practice: Graduate Theory: Advanced & Systems Biology extends Biology at Master's Year 1, connecting advanced & systems biology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Biology progresses through Graduate Theory: Physiology & Anatomy, Graduate Theory: Advanced & Systems Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Biology progresses through Graduate Theory: Physiology & Anatomy, Graduate Theory: Advanced & Systems Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Physiology+%26+Anatomy+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7353,7 +10356,51 @@
         "How 'Graduate Theory: Epistemology & Metaphysics' shows up in real-world philosophy practice: Graduate Theory: Epistemology & Metaphysics is a graduate-core module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Philosophy of Mind & Science' shows up in real-world philosophy practice: Graduate Theory: Advanced Philosophy of Mind & Science extends Philosophy at Master's Year 1, connecting advanced philosophy of mind & science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Philosophy progresses through Graduate Theory: Epistemology & Metaphysics, Graduate Theory: Advanced Philosophy of Mind & Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Philosophy progresses through Graduate Theory: Epistemology & Metaphysics, Graduate Theory: Advanced Philosophy of Mind & Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Epistemology+%26+Metaphysics+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7608,7 +10655,51 @@
         "How 'Graduate Theory: Evidence Evaluation & Research Literacy' shows up in real-world critical thinking practice: Graduate Theory: Evidence Evaluation & Research Literacy is a graduate-core module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Applied Decision Analysis' shows up in real-world critical thinking practice: Graduate Theory: Applied Decision Analysis extends Critical Thinking at Master's Year 1, connecting applied decision analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Critical Thinking progresses through Graduate Theory: Evidence Evaluation & Research Literacy, Graduate Theory: Applied Decision Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Critical Thinking progresses through Graduate Theory: Evidence Evaluation & Research Literacy, Graduate Theory: Applied Decision Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7862,7 +10953,51 @@
         "How 'Graduate Theory: Civic Participation & Public Policy' shows up in real-world civics practice: Graduate Theory: Civic Participation & Public Policy is a graduate-core module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Comparative Governance' shows up in real-world civics practice: Graduate Theory: Comparative Governance extends Civics at Master's Year 1, connecting comparative governance to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Civics progresses through Graduate Theory: Civic Participation & Public Policy, Graduate Theory: Comparative Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Civics progresses through Graduate Theory: Civic Participation & Public Policy, Graduate Theory: Comparative Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Civic+Participation+%26+Public+Policy+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8117,7 +11252,51 @@
         "How 'Graduate Theory: Health Systems & Policy' shows up in real-world health education practice: Graduate Theory: Health Systems & Policy is a graduate-core module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Health Science & Epidemiology' shows up in real-world health education practice: Graduate Theory: Advanced Health Science & Epidemiology extends Health Education at Master's Year 1, connecting advanced health science & epidemiology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Health Education progresses through Graduate Theory: Health Systems & Policy, Graduate Theory: Advanced Health Science & Epidemiology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Health Education progresses through Graduate Theory: Health Systems & Policy, Graduate Theory: Advanced Health Science & Epidemiology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Health+Systems+%26+Policy+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8371,7 +11550,51 @@
         "How 'Graduate Theory: Strategy & Entrepreneurship' shows up in real-world business studies practice: Graduate Theory: Strategy & Entrepreneurship is a graduate-core module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Corporate Strategy' shows up in real-world business studies practice: Graduate Theory: Advanced Corporate Strategy extends Business Studies at Master's Year 1, connecting advanced corporate strategy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, Business Studies progresses through Graduate Theory: Strategy & Entrepreneurship, Graduate Theory: Advanced Corporate Strategy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, Business Studies progresses through Graduate Theory: Strategy & Entrepreneurship, Graduate Theory: Advanced Corporate Strategy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8626,7 +11849,51 @@
         "How 'Graduate Theory: Global Governance & Diplomacy' shows up in real-world world politics practice: Graduate Theory: Global Governance & Diplomacy is a graduate-core module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Geopolitical Analysis' shows up in real-world world politics practice: Graduate Theory: Advanced Geopolitical Analysis extends World Politics at Master's Year 1, connecting advanced geopolitical analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, World Politics progresses through Graduate Theory: Global Governance & Diplomacy, Graduate Theory: Advanced Geopolitical Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, World Politics progresses through Graduate Theory: Global Governance & Diplomacy, Graduate Theory: Advanced Geopolitical Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8881,7 +12148,51 @@
         "How 'Graduate Theory: Computer Science Theory' shows up in real-world ict & computer science practice: Graduate Theory: Computer Science Theory is a graduate-core module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Master's Year 1.",
         "How 'Graduate Theory: Advanced Computing & Research Topics' shows up in real-world ict & computer science practice: Graduate Theory: Advanced Computing & Research Topics extends ICT & Computer Science at Master's Year 1, connecting advanced computing & research topics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Master's Year 1, ICT & Computer Science progresses through Graduate Theory: Computer Science Theory, Graduate Theory: Advanced Computing & Research Topics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Master's Year 1, ICT & Computer Science progresses through Graduate Theory: Computer Science Theory, Graduate Theory: Advanced Computing & Research Topics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Graduate+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

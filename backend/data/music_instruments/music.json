@@ -1,6 +1,6 @@
 {
   "title": "Music & Instruments",
-  "description": "A dedicated home for musical learning at every age and level: instrument lessons, music theory, singing and vocal training, rhythm and ear training, world and classical music traditions, and modern music production — with curated links to legitimate YouTube and audio resources rather than embedded copyrighted media.",
+  "description": "A dedicated home for musical learning at every age and level: instrument lessons, music theory, singing and vocal training, rhythm and ear training, world and classical music traditions, and modern music production — with curated links to legitimate YouTube, Pinterest, and audio resources rather than embedded copyrighted media.",
   "categories": {
     "music_theory": {
       "label": "Music Theory",
@@ -18,6 +18,10 @@
         {
           "title": "Music theory crash course playlists",
           "url": "https://www.youtube.com/results?search_query=music+theory+crash+course+full+playlist"
+        },
+        {
+          "title": "Music Theory — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Music+Theory+music"
         }
       ],
       "topics": [
@@ -45,6 +49,10 @@
         {
           "title": "Vocal health and care",
           "url": "https://www.youtube.com/results?search_query=vocal+health+tips+for+singers"
+        },
+        {
+          "title": "Singing & Vocal Training — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Singing+%26+Vocal+Training+music"
         }
       ],
       "topics": [
@@ -72,6 +80,10 @@
         {
           "title": "Ear training overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ear_training"
+        },
+        {
+          "title": "Rhythm & Ear Training — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Rhythm+%26+Ear+Training+music"
         }
       ],
       "topics": [
@@ -95,6 +107,10 @@
         {
           "title": "World music documentaries and performances",
           "url": "https://www.youtube.com/results?search_query=world+music+traditions+documentary"
+        },
+        {
+          "title": "World Music — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=World+Music+music"
         }
       ],
       "topics": [
@@ -122,6 +138,10 @@
         {
           "title": "Classical music masterworks playlists",
           "url": "https://www.youtube.com/results?search_query=classical+music+masterpieces+full+playlist"
+        },
+        {
+          "title": "Classical Music — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Classical+Music+music"
         }
       ],
       "topics": [
@@ -149,6 +169,10 @@
         {
           "title": "Mixing and mastering basics",
           "url": "https://www.youtube.com/results?search_query=mixing+and+mastering+basics+tutorial"
+        },
+        {
+          "title": "Modern Music Production — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Modern+Music+Production+music"
         }
       ],
       "topics": [
@@ -238,7 +262,8 @@
           "title": "Piano overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Piano"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Piano+lessons+chart+chords+diagram"
     },
     "guitar": {
       "label": "Guitar",
@@ -316,7 +341,8 @@
           "title": "Guitar overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Guitar"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Guitar+lessons+chart+chords+diagram"
     },
     "violin": {
       "label": "Violin",
@@ -394,7 +420,8 @@
           "title": "Violin overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Violin"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Violin+lessons+chart+chords+diagram"
     },
     "drums": {
       "label": "Drums",
@@ -472,7 +499,8 @@
           "title": "Drums overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Drums"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Drums+lessons+chart+chords+diagram"
     },
     "flute": {
       "label": "Flute",
@@ -550,7 +578,8 @@
           "title": "Flute overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Flute"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Flute+lessons+chart+chords+diagram"
     },
     "saxophone": {
       "label": "Saxophone",
@@ -628,7 +657,8 @@
           "title": "Saxophone overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Saxophone"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Saxophone+lessons+chart+chords+diagram"
     },
     "tabla": {
       "label": "Tabla",
@@ -706,7 +736,8 @@
           "title": "Tabla overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Tabla"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Tabla+lessons+chart+chords+diagram"
     },
     "sitar": {
       "label": "Sitar",
@@ -784,7 +815,8 @@
           "title": "Sitar overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Sitar"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Sitar+lessons+chart+chords+diagram"
     },
     "harmonium": {
       "label": "Harmonium",
@@ -862,7 +894,8 @@
           "title": "Harmonium overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Harmonium"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Harmonium+lessons+chart+chords+diagram"
     },
     "keyboard": {
       "label": "Keyboard",
@@ -940,7 +973,8 @@
           "title": "Keyboard overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Keyboard"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Keyboard+lessons+chart+chords+diagram"
     },
     "voice_singing": {
       "label": "Voice / Singing",
@@ -1018,7 +1052,8 @@
           "title": "Voice / Singing overview (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Voice_%2F_Singing"
         }
-      ]
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Voice+%2F+Singing+lessons+chart+chords+diagram"
     }
   }
 }

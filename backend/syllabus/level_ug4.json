@@ -249,7 +249,51 @@
         "How 'Generative AI' shows up in real-world artificial intelligence practice: Generative models (GANs, diffusion models, large language models) and how they create new content.",
         "How 'Natural Language & Vision for AI' shows up in real-world artificial intelligence practice: How AI systems perceive language and images as inputs to intelligent behaviour."
       ],
-      "learning_path": "At Undergraduate Year 4, Artificial Intelligence progresses through Generative AI, Natural Language & Vision for AI. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Artificial Intelligence progresses through Generative AI, Natural Language & Vision for AI. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Generative+AI+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Generative+AI+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Generative+AI+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Generative+AI+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Generative+AI+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Generative+AI+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Generative+AI+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -499,7 +543,51 @@
         "How 'Deep Learning Basics' shows up in real-world machine learning practice: Feedforward networks, activation functions, and gradient descent training.",
         "How 'Reinforcement Learning' shows up in real-world machine learning practice: Agents that learn by trial and error using rewards, Markov decision processes, and Q-learning."
       ],
-      "learning_path": "At Undergraduate Year 4, Machine Learning progresses through Deep Learning Basics, Reinforcement Learning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Machine Learning progresses through Deep Learning Basics, Reinforcement Learning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Deep+Learning+Basics+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Deep+Learning+Basics+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Deep+Learning+Basics+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Deep+Learning+Basics+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Deep+Learning+Basics+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Deep+Learning+Basics+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Deep+Learning+Basics+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -748,7 +836,51 @@
         "How 'Question Answering' shows up in real-world natural language processing practice: Extractive and generative approaches to answering questions from text.",
         "How 'Machine Translation' shows up in real-world natural language processing practice: Sequence-to-sequence and transformer-based approaches to translating between languages."
       ],
-      "learning_path": "At Undergraduate Year 4, Natural Language Processing progresses through Question Answering, Machine Translation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Natural Language Processing progresses through Question Answering, Machine Translation. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Question+Answering+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Question+Answering+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Question+Answering+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Question+Answering+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Question+Answering+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Question+Answering+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Question+Answering+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -998,7 +1130,51 @@
         "How 'Data Storytelling' shows up in real-world data science practice: Turning an analysis into a narrative and recommendation for decision-makers.",
         "How 'Data Ethics & Privacy' shows up in real-world data science practice: Responsible collection, use, and anonymization of personal data."
       ],
-      "learning_path": "At Undergraduate Year 4, Data Science progresses through Data Storytelling, Data Ethics & Privacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Data Science progresses through Data Storytelling, Data Ethics & Privacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Data+Storytelling+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Data+Storytelling+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Data+Storytelling+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Data+Storytelling+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Data+Storytelling+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Data+Storytelling+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Data+Storytelling+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1251,7 +1427,1817 @@
         "How 'Analytics Strategy & Change Management' shows up in real-world business analytics practice: Building a data-driven culture and analytics capability inside an organization.",
         "How 'Applied Machine Learning for Business' shows up in real-world business analytics practice: Using ML models responsibly to support (not replace) business judgement."
       ],
-      "learning_path": "At Undergraduate Year 4, Business Analytics progresses through Analytics Strategy & Change Management, Applied Machine Learning for Business. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Business Analytics progresses through Analytics Strategy & Change Management, Applied Machine Learning for Business. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Analytics+Strategy+%26+Change+Management+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Analytics+Strategy+%26+Change+Management+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-ug4-book1",
+          "title": "Web Development: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=Full-Stack+Project+Architecture",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Full-Stack Project Architecture — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Full-Stack+Project+Architecture+Web+Development+lecture",
+          "description": "Curated video search for full-stack project architecture at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: Full-Stack Project Architecture",
+          "url": "https://ocw.mit.edu/search/?q=Full-Stack+Project+Architecture",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Full-Stack Project Architecture' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Structuring a complete application: frontend, backend, database, and deployment.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Structuring a complete application: frontend, backend, database, and deployment."
+        },
+        {
+          "question": "What is the focus of the 'Web Security Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Common vulnerabilities (the OWASP Top 10) and how to defend against them.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Common vulnerabilities (the OWASP Top 10) and how to defend against them."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Full-Stack Project Architecture.",
+            "type": "short_answer",
+            "answer": "Structuring a complete application: frontend, backend, database, and deployment."
+          },
+          {
+            "question": "Briefly explain: Web Security Fundamentals.",
+            "type": "short_answer",
+            "answer": "Common vulnerabilities (the OWASP Top 10) and how to defend against them."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Undergraduate Year 4 Companion",
+          "url": "https://ocw.mit.edu/search/?q=Full-Stack+Project+Architecture",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Structuring a complete application: frontend, backend, database, and deployment.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-ug4-l1",
+          "title": "Full-Stack Project Architecture",
+          "unit": "Full-Stack Project Architecture",
+          "level": "UG4",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of full-stack project architecture at Undergraduate Year 4 depth.",
+            "Apply full-stack project architecture concepts to worked examples and problems.",
+            "Critically discuss how full-stack project architecture connects to real-world practice in web development."
+          ],
+          "reading_material": "Structuring a complete application: frontend, backend, database, and deployment.",
+          "key_concepts": [
+            "Full-Stack",
+            "Project",
+            "Architecture"
+          ],
+          "practical_activities": [
+            "Guided worked example on full-stack project architecture",
+            "Small-group discussion / problem set on full-stack project architecture"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind full-stack project architecture?",
+              "type": "short_answer",
+              "answer": "Structuring a complete application: frontend, backend, database, and deployment."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting full-stack project architecture to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Structuring a complete application: frontend, backend, database, and deployment.",
+            "tip": "Review full-stack project architecture before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes full-stack project architecture?",
+                "options": [
+                  "Structuring a complete application: frontend, backend, database, and deployment.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Structuring a complete application: frontend, backend, database, and deployment."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands full-stack project architecture",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Full-Stack+Project+Architecture"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Full-Stack+Project+Architecture+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "web-development-ug4-l2",
+          "title": "Web Security Fundamentals",
+          "unit": "Web Security Fundamentals",
+          "level": "UG4",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of web security fundamentals at Undergraduate Year 4 depth.",
+            "Apply web security fundamentals concepts to worked examples and problems.",
+            "Critically discuss how web security fundamentals connects to real-world practice in web development."
+          ],
+          "reading_material": "Common vulnerabilities (the OWASP Top 10) and how to defend against them.",
+          "key_concepts": [
+            "Security",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on web security fundamentals",
+            "Small-group discussion / problem set on web security fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind web security fundamentals?",
+              "type": "short_answer",
+              "answer": "Common vulnerabilities (the OWASP Top 10) and how to defend against them."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting web security fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Common vulnerabilities (the OWASP Top 10) and how to defend against them.",
+            "tip": "Review web security fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes web security fundamentals?",
+                "options": [
+                  "Common vulnerabilities (the OWASP Top 10) and how to defend against them.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Common vulnerabilities (the OWASP Top 10) and how to defend against them."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands web security fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Web+Security+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Web+Security+Fundamentals+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Full-Stack Project Architecture' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'Web Security Fundamentals' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'Full-Stack Project Architecture' shows up in real-world web development practice: Structuring a complete application: frontend, backend, database, and deployment.",
+        "How 'Web Security Fundamentals' shows up in real-world web development practice: Common vulnerabilities (the OWASP Top 10) and how to defend against them."
+      ],
+      "learning_path": "At Undergraduate Year 4, Web Development progresses through Full-Stack Project Architecture, Web Security Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Full-Stack+Project+Architecture+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Full-Stack+Project+Architecture+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Full-Stack+Project+Architecture+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Full-Stack+Project+Architecture+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Full-Stack+Project+Architecture+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Full-Stack+Project+Architecture+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Full-Stack+Project+Architecture+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-ug4-book1",
+          "title": "Cybersecurity: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Cloud+Security+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Cloud Security Fundamentals — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Cloud+Security+Fundamentals+Cybersecurity+lecture",
+          "description": "Curated video search for cloud security fundamentals at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Cloud Security Fundamentals",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Cloud Security Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Securing data and workloads in cloud environments.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Securing data and workloads in cloud environments."
+        },
+        {
+          "question": "What is the focus of the 'Governance, Risk & Compliance' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Security policy, regulatory frameworks, and organizational risk management.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Security policy, regulatory frameworks, and organizational risk management."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Cloud Security Fundamentals.",
+            "type": "short_answer",
+            "answer": "Securing data and workloads in cloud environments."
+          },
+          {
+            "question": "Briefly explain: Governance, Risk & Compliance.",
+            "type": "short_answer",
+            "answer": "Security policy, regulatory frameworks, and organizational risk management."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Undergraduate Year 4 Companion",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Securing data and workloads in cloud environments.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-ug4-l1",
+          "title": "Cloud Security Fundamentals",
+          "unit": "Cloud Security Fundamentals",
+          "level": "UG4",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of cloud security fundamentals at Undergraduate Year 4 depth.",
+            "Apply cloud security fundamentals concepts to worked examples and problems.",
+            "Critically discuss how cloud security fundamentals connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Securing data and workloads in cloud environments.",
+          "key_concepts": [
+            "Cloud",
+            "Security",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud security fundamentals",
+            "Small-group discussion / problem set on cloud security fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud security fundamentals?",
+              "type": "short_answer",
+              "answer": "Securing data and workloads in cloud environments."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud security fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Securing data and workloads in cloud environments.",
+            "tip": "Review cloud security fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud security fundamentals?",
+                "options": [
+                  "Securing data and workloads in cloud environments.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Securing data and workloads in cloud environments."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud security fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Security+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Security+Fundamentals+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "cybersecurity-ug4-l2",
+          "title": "Governance, Risk & Compliance",
+          "unit": "Governance, Risk & Compliance",
+          "level": "UG4",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of governance, risk & compliance at Undergraduate Year 4 depth.",
+            "Apply governance, risk & compliance concepts to worked examples and problems.",
+            "Critically discuss how governance, risk & compliance connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Security policy, regulatory frameworks, and organizational risk management.",
+          "key_concepts": [
+            "Governance",
+            "Risk",
+            "Compliance"
+          ],
+          "practical_activities": [
+            "Guided worked example on governance, risk & compliance",
+            "Small-group discussion / problem set on governance, risk & compliance"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind governance, risk & compliance?",
+              "type": "short_answer",
+              "answer": "Security policy, regulatory frameworks, and organizational risk management."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting governance, risk & compliance to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Security policy, regulatory frameworks, and organizational risk management.",
+            "tip": "Review governance, risk & compliance before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes governance, risk & compliance?",
+                "options": [
+                  "Security policy, regulatory frameworks, and organizational risk management.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Security policy, regulatory frameworks, and organizational risk management."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands governance, risk & compliance",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Governance%2C+Risk+%26+Compliance"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Governance%2C+Risk+%26+Compliance+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Cloud Security Fundamentals' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Governance, Risk & Compliance' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Cloud Security Fundamentals' shows up in real-world cybersecurity practice: Securing data and workloads in cloud environments.",
+        "How 'Governance, Risk & Compliance' shows up in real-world cybersecurity practice: Security policy, regulatory frameworks, and organizational risk management."
+      ],
+      "learning_path": "At Undergraduate Year 4, Cybersecurity progresses through Cloud Security Fundamentals, Governance, Risk & Compliance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Cloud+Security+Fundamentals+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Cloud+Security+Fundamentals+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-ug4-book1",
+          "title": "Cloud Computing: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Container+Orchestration",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Container Orchestration — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Container+Orchestration+Cloud+Computing+lecture",
+          "description": "Curated video search for container orchestration at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Container Orchestration",
+          "url": "https://www.coursera.org/search?query=Container+Orchestration",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Container Orchestration' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Managing many containers reliably at scale with a tool such as Kubernetes.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Managing many containers reliably at scale with a tool such as Kubernetes."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Cost Management & Optimization' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Monitoring and controlling cloud spend as usage grows.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Monitoring and controlling cloud spend as usage grows."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Container Orchestration.",
+            "type": "short_answer",
+            "answer": "Managing many containers reliably at scale with a tool such as Kubernetes."
+          },
+          {
+            "question": "Briefly explain: Cloud Cost Management & Optimization.",
+            "type": "short_answer",
+            "answer": "Monitoring and controlling cloud spend as usage grows."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Undergraduate Year 4 Companion",
+          "url": "https://www.coursera.org/search?query=Container+Orchestration",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Managing many containers reliably at scale with a tool such as Kubernetes.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-ug4-l1",
+          "title": "Container Orchestration",
+          "unit": "Container Orchestration",
+          "level": "UG4",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of container orchestration at Undergraduate Year 4 depth.",
+            "Apply container orchestration concepts to worked examples and problems.",
+            "Critically discuss how container orchestration connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Managing many containers reliably at scale with a tool such as Kubernetes.",
+          "key_concepts": [
+            "Container",
+            "Orchestration"
+          ],
+          "practical_activities": [
+            "Guided worked example on container orchestration",
+            "Small-group discussion / problem set on container orchestration"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind container orchestration?",
+              "type": "short_answer",
+              "answer": "Managing many containers reliably at scale with a tool such as Kubernetes."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting container orchestration to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Managing many containers reliably at scale with a tool such as Kubernetes.",
+            "tip": "Review container orchestration before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes container orchestration?",
+                "options": [
+                  "Managing many containers reliably at scale with a tool such as Kubernetes.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Managing many containers reliably at scale with a tool such as Kubernetes."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands container orchestration",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Container+Orchestration"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Container+Orchestration+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "cloud-computing-ug4-l2",
+          "title": "Cloud Cost Management & Optimization",
+          "unit": "Cloud Cost Management & Optimization",
+          "level": "UG4",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of cloud cost management & optimization at Undergraduate Year 4 depth.",
+            "Apply cloud cost management & optimization concepts to worked examples and problems.",
+            "Critically discuss how cloud cost management & optimization connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Monitoring and controlling cloud spend as usage grows.",
+          "key_concepts": [
+            "Cloud",
+            "Cost",
+            "Management",
+            "Optimization"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud cost management & optimization",
+            "Small-group discussion / problem set on cloud cost management & optimization"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud cost management & optimization?",
+              "type": "short_answer",
+              "answer": "Monitoring and controlling cloud spend as usage grows."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud cost management & optimization to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Monitoring and controlling cloud spend as usage grows.",
+            "tip": "Review cloud cost management & optimization before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud cost management & optimization?",
+                "options": [
+                  "Monitoring and controlling cloud spend as usage grows.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Monitoring and controlling cloud spend as usage grows."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud cost management & optimization",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Cost+Management+%26+Optimization"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Cost+Management+%26+Optimization+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Container Orchestration' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Cost Management & Optimization' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Container Orchestration' shows up in real-world cloud computing practice: Managing many containers reliably at scale with a tool such as Kubernetes.",
+        "How 'Cloud Cost Management & Optimization' shows up in real-world cloud computing practice: Monitoring and controlling cloud spend as usage grows."
+      ],
+      "learning_path": "At Undergraduate Year 4, Cloud Computing progresses through Container Orchestration, Cloud Cost Management & Optimization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Container+Orchestration+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Container+Orchestration+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Container+Orchestration+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Container+Orchestration+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Container+Orchestration+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Container+Orchestration+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Container+Orchestration+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-ug4-book1",
+          "title": "Digital Marketing: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Marketing+Automation",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Marketing Automation — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Marketing+Automation+Digital+Marketing+lecture",
+          "description": "Curated video search for marketing automation at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Marketing Automation",
+          "url": "https://www.coursera.org/search?query=Marketing+Automation",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Marketing Automation' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Using tools to trigger personalized marketing at scale.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Using tools to trigger personalized marketing at scale."
+        },
+        {
+          "question": "What is the focus of the 'E-commerce Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Marketing strategies specific to online retail and conversion funnels.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Marketing strategies specific to online retail and conversion funnels."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Marketing Automation.",
+            "type": "short_answer",
+            "answer": "Using tools to trigger personalized marketing at scale."
+          },
+          {
+            "question": "Briefly explain: E-commerce Marketing.",
+            "type": "short_answer",
+            "answer": "Marketing strategies specific to online retail and conversion funnels."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Undergraduate Year 4 Companion",
+          "url": "https://www.coursera.org/search?query=Marketing+Automation",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Using tools to trigger personalized marketing at scale.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-ug4-l1",
+          "title": "Marketing Automation",
+          "unit": "Marketing Automation",
+          "level": "UG4",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of marketing automation at Undergraduate Year 4 depth.",
+            "Apply marketing automation concepts to worked examples and problems.",
+            "Critically discuss how marketing automation connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Using tools to trigger personalized marketing at scale.",
+          "key_concepts": [
+            "Marketing",
+            "Automation"
+          ],
+          "practical_activities": [
+            "Guided worked example on marketing automation",
+            "Small-group discussion / problem set on marketing automation"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind marketing automation?",
+              "type": "short_answer",
+              "answer": "Using tools to trigger personalized marketing at scale."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting marketing automation to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Using tools to trigger personalized marketing at scale.",
+            "tip": "Review marketing automation before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes marketing automation?",
+                "options": [
+                  "Using tools to trigger personalized marketing at scale.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Using tools to trigger personalized marketing at scale."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands marketing automation",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Marketing+Automation"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Marketing+Automation+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "digital-marketing-ug4-l2",
+          "title": "E-commerce Marketing",
+          "unit": "E-commerce Marketing",
+          "level": "UG4",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of e-commerce marketing at Undergraduate Year 4 depth.",
+            "Apply e-commerce marketing concepts to worked examples and problems.",
+            "Critically discuss how e-commerce marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Marketing strategies specific to online retail and conversion funnels.",
+          "key_concepts": [
+            "E-commerce",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on e-commerce marketing",
+            "Small-group discussion / problem set on e-commerce marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind e-commerce marketing?",
+              "type": "short_answer",
+              "answer": "Marketing strategies specific to online retail and conversion funnels."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting e-commerce marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Marketing strategies specific to online retail and conversion funnels.",
+            "tip": "Review e-commerce marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes e-commerce marketing?",
+                "options": [
+                  "Marketing strategies specific to online retail and conversion funnels.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Marketing strategies specific to online retail and conversion funnels."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands e-commerce marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=E-commerce+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=E-commerce+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Marketing Automation' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'E-commerce Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Marketing Automation' shows up in real-world digital marketing practice: Using tools to trigger personalized marketing at scale.",
+        "How 'E-commerce Marketing' shows up in real-world digital marketing practice: Marketing strategies specific to online retail and conversion funnels."
+      ],
+      "learning_path": "At Undergraduate Year 4, Digital Marketing progresses through Marketing Automation, E-commerce Marketing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Marketing+Automation+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Marketing+Automation+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Marketing+Automation+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Marketing+Automation+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Marketing+Automation+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Marketing+Automation+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Marketing+Automation+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-ug4-book1",
+          "title": "UI/UX Design: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Mobile+%26+Responsive+Design",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Mobile & Responsive Design — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Mobile+%26+Responsive+Design+UI%2FUX+Design+lecture",
+          "description": "Curated video search for mobile & responsive design at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Mobile & Responsive Design",
+          "url": "https://www.coursera.org/search?query=Mobile+%26+Responsive+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Mobile & Responsive Design' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Adapting interface design across phone, tablet, and desktop.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Adapting interface design across phone, tablet, and desktop."
+        },
+        {
+          "question": "What is the focus of the 'Design Tooling Workflows' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Efficient design and handoff workflows using tools such as Figma.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Efficient design and handoff workflows using tools such as Figma."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Mobile & Responsive Design.",
+            "type": "short_answer",
+            "answer": "Adapting interface design across phone, tablet, and desktop."
+          },
+          {
+            "question": "Briefly explain: Design Tooling Workflows.",
+            "type": "short_answer",
+            "answer": "Efficient design and handoff workflows using tools such as Figma."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Undergraduate Year 4 Companion",
+          "url": "https://www.coursera.org/search?query=Mobile+%26+Responsive+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Adapting interface design across phone, tablet, and desktop.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-ug4-l1",
+          "title": "Mobile & Responsive Design",
+          "unit": "Mobile & Responsive Design",
+          "level": "UG4",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of mobile & responsive design at Undergraduate Year 4 depth.",
+            "Apply mobile & responsive design concepts to worked examples and problems.",
+            "Critically discuss how mobile & responsive design connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Adapting interface design across phone, tablet, and desktop.",
+          "key_concepts": [
+            "Mobile",
+            "Responsive",
+            "Design"
+          ],
+          "practical_activities": [
+            "Guided worked example on mobile & responsive design",
+            "Small-group discussion / problem set on mobile & responsive design"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind mobile & responsive design?",
+              "type": "short_answer",
+              "answer": "Adapting interface design across phone, tablet, and desktop."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting mobile & responsive design to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Adapting interface design across phone, tablet, and desktop.",
+            "tip": "Review mobile & responsive design before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes mobile & responsive design?",
+                "options": [
+                  "Adapting interface design across phone, tablet, and desktop.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Adapting interface design across phone, tablet, and desktop."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands mobile & responsive design",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Mobile+%26+Responsive+Design"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Mobile+%26+Responsive+Design+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "ui/ux-design-ug4-l2",
+          "title": "Design Tooling Workflows",
+          "unit": "Design Tooling Workflows",
+          "level": "UG4",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of design tooling workflows at Undergraduate Year 4 depth.",
+            "Apply design tooling workflows concepts to worked examples and problems.",
+            "Critically discuss how design tooling workflows connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Efficient design and handoff workflows using tools such as Figma.",
+          "key_concepts": [
+            "Design",
+            "Tooling",
+            "Workflows"
+          ],
+          "practical_activities": [
+            "Guided worked example on design tooling workflows",
+            "Small-group discussion / problem set on design tooling workflows"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind design tooling workflows?",
+              "type": "short_answer",
+              "answer": "Efficient design and handoff workflows using tools such as Figma."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting design tooling workflows to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Efficient design and handoff workflows using tools such as Figma.",
+            "tip": "Review design tooling workflows before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes design tooling workflows?",
+                "options": [
+                  "Efficient design and handoff workflows using tools such as Figma.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Efficient design and handoff workflows using tools such as Figma."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands design tooling workflows",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Design+Tooling+Workflows"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Design+Tooling+Workflows+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Mobile & Responsive Design' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Design Tooling Workflows' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Mobile & Responsive Design' shows up in real-world ui/ux design practice: Adapting interface design across phone, tablet, and desktop.",
+        "How 'Design Tooling Workflows' shows up in real-world ui/ux design practice: Efficient design and handoff workflows using tools such as Figma."
+      ],
+      "learning_path": "At Undergraduate Year 4, UI/UX Design progresses through Mobile & Responsive Design, Design Tooling Workflows. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Mobile+%26+Responsive+Design+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Mobile+%26+Responsive+Design+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-ug4-book1",
+          "title": "Project Management: Undergraduate Year 4 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Quality+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Quality Management — Undergraduate Year 4 overview",
+          "url": "https://www.youtube.com/results?search_query=Quality+Management+Project+Management+lecture",
+          "description": "Curated video search for quality management at Undergraduate Year 4.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Quality Management",
+          "url": "https://www.coursera.org/search?query=Quality+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Quality Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Building quality checkpoints into a project rather than inspecting for it at the end.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Building quality checkpoints into a project rather than inspecting for it at the end."
+        },
+        {
+          "question": "What is the focus of the 'Procurement & Vendor Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Managing external vendors and contracts within a project.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Managing external vendors and contracts within a project."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Quality Management.",
+            "type": "short_answer",
+            "answer": "Building quality checkpoints into a project rather than inspecting for it at the end."
+          },
+          {
+            "question": "Briefly explain: Procurement & Vendor Management.",
+            "type": "short_answer",
+            "answer": "Managing external vendors and contracts within a project."
+          }
+        ],
+        "passing_score": 72
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Undergraduate Year 4 Companion",
+          "url": "https://www.coursera.org/search?query=Quality+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Building quality checkpoints into a project rather than inspecting for it at the end.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-ug4-l1",
+          "title": "Quality Management",
+          "unit": "Quality Management",
+          "level": "UG4",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of quality management at Undergraduate Year 4 depth.",
+            "Apply quality management concepts to worked examples and problems.",
+            "Critically discuss how quality management connects to real-world practice in project management."
+          ],
+          "reading_material": "Building quality checkpoints into a project rather than inspecting for it at the end.",
+          "key_concepts": [
+            "Quality",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on quality management",
+            "Small-group discussion / problem set on quality management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind quality management?",
+              "type": "short_answer",
+              "answer": "Building quality checkpoints into a project rather than inspecting for it at the end."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting quality management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Building quality checkpoints into a project rather than inspecting for it at the end.",
+            "tip": "Review quality management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes quality management?",
+                "options": [
+                  "Building quality checkpoints into a project rather than inspecting for it at the end.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Building quality checkpoints into a project rather than inspecting for it at the end."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands quality management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Quality+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Quality+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        },
+        {
+          "id": "project-management-ug4-l2",
+          "title": "Procurement & Vendor Management",
+          "unit": "Procurement & Vendor Management",
+          "level": "UG4",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-capstone",
+          "estimated_time_minutes": 70,
+          "learning_objectives": [
+            "Explain the core ideas of procurement & vendor management at Undergraduate Year 4 depth.",
+            "Apply procurement & vendor management concepts to worked examples and problems.",
+            "Critically discuss how procurement & vendor management connects to real-world practice in project management."
+          ],
+          "reading_material": "Managing external vendors and contracts within a project.",
+          "key_concepts": [
+            "Procurement",
+            "Vendor",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on procurement & vendor management",
+            "Small-group discussion / problem set on procurement & vendor management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind procurement & vendor management?",
+              "type": "short_answer",
+              "answer": "Managing external vendors and contracts within a project."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting procurement & vendor management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Managing external vendors and contracts within a project.",
+            "tip": "Review procurement & vendor management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes procurement & vendor management?",
+                "options": [
+                  "Managing external vendors and contracts within a project.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Managing external vendors and contracts within a project."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands procurement & vendor management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 72
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Procurement+%26+Vendor+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Procurement+%26+Vendor+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 72
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Quality Management' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Procurement & Vendor Management' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a undergraduate year 4 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Quality Management' shows up in real-world project management practice: Building quality checkpoints into a project rather than inspecting for it at the end.",
+        "How 'Procurement & Vendor Management' shows up in real-world project management practice: Managing external vendors and contracts within a project."
+      ],
+      "learning_path": "At Undergraduate Year 4, Project Management progresses through Quality Management, Procurement & Vendor Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Quality+Management+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Quality+Management+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Quality+Management+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Quality+Management+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Quality+Management+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Quality+Management+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Quality+Management+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1503,7 +3489,51 @@
         "How 'Capstone Study: Calculus' shows up in real-world math practice: Capstone Study: Calculus is a capstone-level undergraduate module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Statistics & Probability' shows up in real-world math practice: Capstone Study: Statistics & Probability extends Math at Undergraduate Year 4, connecting statistics & probability to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Math progresses through Capstone Study: Calculus, Capstone Study: Statistics & Probability. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Math progresses through Capstone Study: Calculus, Capstone Study: Statistics & Probability. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Calculus+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Calculus+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Calculus+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Calculus+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Calculus+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Calculus+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Calculus+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1756,7 +3786,51 @@
         "How 'Capstone Study: Literary Analysis' shows up in real-world english practice: Capstone Study: Literary Analysis is a capstone-level undergraduate module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Academic Writing' shows up in real-world english practice: Capstone Study: Academic Writing extends English at Undergraduate Year 4, connecting academic writing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, English progresses through Capstone Study: Literary Analysis, Capstone Study: Academic Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, English progresses through Capstone Study: Literary Analysis, Capstone Study: Academic Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Literary+Analysis+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Literary+Analysis+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2010,7 +4084,51 @@
         "How 'Capstone Study: Earth & Space Science' shows up in real-world science practice: Capstone Study: Earth & Space Science is a capstone-level undergraduate module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Life Science' shows up in real-world science practice: Capstone Study: Life Science extends Science at Undergraduate Year 4, connecting life science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Science progresses through Capstone Study: Earth & Space Science, Capstone Study: Life Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Science progresses through Capstone Study: Earth & Space Science, Capstone Study: Life Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Earth+%26+Space+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Earth+%26+Space+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2263,7 +4381,51 @@
         "How 'Capstone Study: Human Geography' shows up in real-world geography practice: Capstone Study: Human Geography is a capstone-level undergraduate module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Geopolitics & Globalization' shows up in real-world geography practice: Capstone Study: Geopolitics & Globalization extends Geography at Undergraduate Year 4, connecting geopolitics & globalization to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Geography progresses through Capstone Study: Human Geography, Capstone Study: Geopolitics & Globalization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Geography progresses through Capstone Study: Human Geography, Capstone Study: Geopolitics & Globalization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Human+Geography+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Human+Geography+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2518,7 +4680,51 @@
         "How 'Capstone Study: Medieval & Early Modern History' shows up in real-world world history practice: Capstone Study: Medieval & Early Modern History is a capstone-level undergraduate module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Modern World History' shows up in real-world world history practice: Capstone Study: Modern World History extends World History at Undergraduate Year 4, connecting modern world history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, World History progresses through Capstone Study: Medieval & Early Modern History, Capstone Study: Modern World History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, World History progresses through Capstone Study: Medieval & Early Modern History, Capstone Study: Modern World History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Medieval+%26+Early+Modern+History+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2773,7 +4979,51 @@
         "How 'Capstone Study: Islamic History & Civilization' shows up in real-world islamic studies practice: Capstone Study: Islamic History & Civilization is a capstone-level undergraduate module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Islamic Ethics & Jurisprudence' shows up in real-world islamic studies practice: Capstone Study: Islamic Ethics & Jurisprudence extends Islamic Studies at Undergraduate Year 4, connecting islamic ethics & jurisprudence to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Islamic Studies progresses through Capstone Study: Islamic History & Civilization, Capstone Study: Islamic Ethics & Jurisprudence. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Islamic Studies progresses through Capstone Study: Islamic History & Civilization, Capstone Study: Islamic Ethics & Jurisprudence. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Islamic+History+%26+Civilization+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3028,7 +5278,51 @@
         "How 'Capstone Study: Data Structures & Algorithms' shows up in real-world coding practice: Capstone Study: Data Structures & Algorithms is a capstone-level undergraduate module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Software Engineering Practice' shows up in real-world coding practice: Capstone Study: Software Engineering Practice extends Coding at Undergraduate Year 4, connecting software engineering practice to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Coding progresses through Capstone Study: Data Structures & Algorithms, Capstone Study: Software Engineering Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Coding progresses through Capstone Study: Data Structures & Algorithms, Capstone Study: Software Engineering Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Data+Structures+%26+Algorithms+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3283,7 +5577,51 @@
         "How 'Capstone Study: Modern & Contemporary Literature' shows up in real-world world literature practice: Capstone Study: Modern & Contemporary Literature is a capstone-level undergraduate module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Literary Theory & Criticism' shows up in real-world world literature practice: Capstone Study: Literary Theory & Criticism extends World Literature at Undergraduate Year 4, connecting literary theory & criticism to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, World Literature progresses through Capstone Study: Modern & Contemporary Literature, Capstone Study: Literary Theory & Criticism. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, World Literature progresses through Capstone Study: Modern & Contemporary Literature, Capstone Study: Literary Theory & Criticism. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Modern+%26+Contemporary+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3536,7 +5874,51 @@
         "How 'Capstone Study: Art History' shows up in real-world art practice: Capstone Study: Art History is a capstone-level undergraduate module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Design & Visual Communication' shows up in real-world art practice: Capstone Study: Design & Visual Communication extends Art at Undergraduate Year 4, connecting design & visual communication to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Art progresses through Capstone Study: Art History, Capstone Study: Design & Visual Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Art progresses through Capstone Study: Art History, Capstone Study: Design & Visual Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Art+History+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Art+History+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Art+History+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Art+History+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Art+History+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Art+History+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Art+History+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3789,7 +6171,51 @@
         "How 'Capstone Study: Music History' shows up in real-world music practice: Capstone Study: Music History is a capstone-level undergraduate module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Performance & Ear Training' shows up in real-world music practice: Capstone Study: Performance & Ear Training extends Music at Undergraduate Year 4, connecting performance & ear training to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Music progresses through Capstone Study: Music History, Capstone Study: Performance & Ear Training. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Music progresses through Capstone Study: Music History, Capstone Study: Performance & Ear Training. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Music+History+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Music+History+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Music+History+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Music+History+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Music+History+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Music+History+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Music+History+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4044,7 +6470,51 @@
         "How 'Capstone Study: Wilderness First Response' shows up in real-world survival skills practice: Capstone Study: Wilderness First Response is a capstone-level undergraduate module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Navigation & Resource Management' shows up in real-world survival skills practice: Capstone Study: Navigation & Resource Management extends Survival Skills at Undergraduate Year 4, connecting navigation & resource management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Survival Skills progresses through Capstone Study: Wilderness First Response, Capstone Study: Navigation & Resource Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Survival Skills progresses through Capstone Study: Wilderness First Response, Capstone Study: Navigation & Resource Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Wilderness+First+Response+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4298,7 +6768,51 @@
         "How 'Capstone Study: Global Cuisines' shows up in real-world cooking practice: Capstone Study: Global Cuisines is a capstone-level undergraduate module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Nutrition & Menu Design' shows up in real-world cooking practice: Capstone Study: Nutrition & Menu Design extends Cooking at Undergraduate Year 4, connecting nutrition & menu design to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Cooking progresses through Capstone Study: Global Cuisines, Capstone Study: Nutrition & Menu Design. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Cooking progresses through Capstone Study: Global Cuisines, Capstone Study: Nutrition & Menu Design. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Global+Cuisines+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Global+Cuisines+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4553,7 +7067,51 @@
         "How 'Capstone Study: Intermediate Grammar & Conversation' shows up in real-world foreign languages practice: Capstone Study: Intermediate Grammar & Conversation is a capstone-level undergraduate module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Advanced Reading & Writing' shows up in real-world foreign languages practice: Capstone Study: Advanced Reading & Writing extends Foreign Languages at Undergraduate Year 4, connecting advanced reading & writing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Foreign Languages progresses through Capstone Study: Intermediate Grammar & Conversation, Capstone Study: Advanced Reading & Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Foreign Languages progresses through Capstone Study: Intermediate Grammar & Conversation, Capstone Study: Advanced Reading & Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Intermediate+Grammar+%26+Conversation+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4808,7 +7366,51 @@
         "How 'Capstone Study: Global Institutions & Systems' shows up in real-world general knowledge practice: Capstone Study: Global Institutions & Systems is a capstone-level undergraduate module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Media & Information Literacy' shows up in real-world general knowledge practice: Capstone Study: Media & Information Literacy extends General Knowledge at Undergraduate Year 4, connecting media & information literacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, General Knowledge progresses through Capstone Study: Global Institutions & Systems, Capstone Study: Media & Information Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, General Knowledge progresses through Capstone Study: Global Institutions & Systems, Capstone Study: Media & Information Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Global+Institutions+%26+Systems+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5062,7 +7664,51 @@
         "How 'Capstone Study: Culture & Identity' shows up in real-world social studies practice: Capstone Study: Culture & Identity is a capstone-level undergraduate module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Comparative Social Systems' shows up in real-world social studies practice: Capstone Study: Comparative Social Systems extends Social Studies at Undergraduate Year 4, connecting comparative social systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Social Studies progresses through Capstone Study: Culture & Identity, Capstone Study: Comparative Social Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Social Studies progresses through Capstone Study: Culture & Identity, Capstone Study: Comparative Social Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Culture+%26+Identity+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Culture+%26+Identity+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5315,7 +7961,51 @@
         "How 'Capstone Study: Climate Science' shows up in real-world environmental science practice: Capstone Study: Climate Science is a capstone-level undergraduate module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Environmental Policy' shows up in real-world environmental science practice: Capstone Study: Environmental Policy extends Environmental Science at Undergraduate Year 4, connecting environmental policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Environmental Science progresses through Capstone Study: Climate Science, Capstone Study: Environmental Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Environmental Science progresses through Capstone Study: Climate Science, Capstone Study: Environmental Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Climate+Science+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Climate+Science+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5569,7 +8259,51 @@
         "How 'Capstone Study: Applied Self-Defense Technique' shows up in real-world physical education & self-defense practice: Capstone Study: Applied Self-Defense Technique is a capstone-level undergraduate module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Sports Science' shows up in real-world physical education & self-defense practice: Capstone Study: Sports Science extends Physical Education & Self-Defense at Undergraduate Year 4, connecting sports science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Physical Education & Self-Defense progresses through Capstone Study: Applied Self-Defense Technique, Capstone Study: Sports Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Physical Education & Self-Defense progresses through Capstone Study: Applied Self-Defense Technique, Capstone Study: Sports Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5823,7 +8557,51 @@
         "How 'Capstone Study: Macroeconomics Fundamentals' shows up in real-world economics practice: Capstone Study: Macroeconomics Fundamentals is a capstone-level undergraduate module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Applied & Behavioural Economics' shows up in real-world economics practice: Capstone Study: Applied & Behavioural Economics extends Economics at Undergraduate Year 4, connecting applied & behavioural economics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Economics progresses through Capstone Study: Macroeconomics Fundamentals, Capstone Study: Applied & Behavioural Economics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Economics progresses through Capstone Study: Macroeconomics Fundamentals, Capstone Study: Applied & Behavioural Economics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Macroeconomics+Fundamentals+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6077,7 +8855,51 @@
         "How 'Capstone Study: Corporate Finance' shows up in real-world finance practice: Capstone Study: Corporate Finance is a capstone-level undergraduate module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Investment & Portfolio Theory' shows up in real-world finance practice: Capstone Study: Investment & Portfolio Theory extends Finance at Undergraduate Year 4, connecting investment & portfolio theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Finance progresses through Capstone Study: Corporate Finance, Capstone Study: Investment & Portfolio Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Finance progresses through Capstone Study: Corporate Finance, Capstone Study: Investment & Portfolio Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Corporate+Finance+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Corporate+Finance+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6332,7 +9154,51 @@
         "How 'Capstone Study: Emergency Response Protocols' shows up in real-world first aid practice: Capstone Study: Emergency Response Protocols is a capstone-level undergraduate module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Wilderness & Remote Medicine' shows up in real-world first aid practice: Capstone Study: Wilderness & Remote Medicine extends First Aid at Undergraduate Year 4, connecting wilderness & remote medicine to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, First Aid progresses through Capstone Study: Emergency Response Protocols, Capstone Study: Wilderness & Remote Medicine. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, First Aid progresses through Capstone Study: Emergency Response Protocols, Capstone Study: Wilderness & Remote Medicine. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Emergency+Response+Protocols+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6587,7 +9453,51 @@
         "How 'Capstone Study: Electricity, Magnetism & Waves' shows up in real-world physics practice: Capstone Study: Electricity, Magnetism & Waves is a capstone-level undergraduate module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Modern & Quantum Physics' shows up in real-world physics practice: Capstone Study: Modern & Quantum Physics extends Physics at Undergraduate Year 4, connecting modern & quantum physics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Physics progresses through Capstone Study: Electricity, Magnetism & Waves, Capstone Study: Modern & Quantum Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Physics progresses through Capstone Study: Electricity, Magnetism & Waves, Capstone Study: Modern & Quantum Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Electricity%2C+Magnetism+%26+Waves+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6840,7 +9750,51 @@
         "How 'Capstone Study: Organic Chemistry' shows up in real-world chemistry practice: Capstone Study: Organic Chemistry is a capstone-level undergraduate module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Physical Chemistry' shows up in real-world chemistry practice: Capstone Study: Physical Chemistry extends Chemistry at Undergraduate Year 4, connecting physical chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Chemistry progresses through Capstone Study: Organic Chemistry, Capstone Study: Physical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Chemistry progresses through Capstone Study: Organic Chemistry, Capstone Study: Physical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Organic+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Organic+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7093,7 +10047,51 @@
         "How 'Capstone Study: Genetics & Evolution' shows up in real-world biology practice: Capstone Study: Genetics & Evolution is a capstone-level undergraduate module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Physiology & Anatomy' shows up in real-world biology practice: Capstone Study: Physiology & Anatomy extends Biology at Undergraduate Year 4, connecting physiology & anatomy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Biology progresses through Capstone Study: Genetics & Evolution, Capstone Study: Physiology & Anatomy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Biology progresses through Capstone Study: Genetics & Evolution, Capstone Study: Physiology & Anatomy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Genetics+%26+Evolution+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Genetics+%26+Evolution+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7347,7 +10345,51 @@
         "How 'Capstone Study: Ethics & Political Philosophy' shows up in real-world philosophy practice: Capstone Study: Ethics & Political Philosophy is a capstone-level undergraduate module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Epistemology & Metaphysics' shows up in real-world philosophy practice: Capstone Study: Epistemology & Metaphysics extends Philosophy at Undergraduate Year 4, connecting epistemology & metaphysics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Philosophy progresses through Capstone Study: Ethics & Political Philosophy, Capstone Study: Epistemology & Metaphysics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Philosophy progresses through Capstone Study: Ethics & Political Philosophy, Capstone Study: Epistemology & Metaphysics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Ethics+%26+Political+Philosophy+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7602,7 +10644,51 @@
         "How 'Capstone Study: Cognitive Bias & Fallacies' shows up in real-world critical thinking practice: Capstone Study: Cognitive Bias & Fallacies is a capstone-level undergraduate module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Evidence Evaluation & Research Literacy' shows up in real-world critical thinking practice: Capstone Study: Evidence Evaluation & Research Literacy extends Critical Thinking at Undergraduate Year 4, connecting evidence evaluation & research literacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Critical Thinking progresses through Capstone Study: Cognitive Bias & Fallacies, Capstone Study: Evidence Evaluation & Research Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Critical Thinking progresses through Capstone Study: Cognitive Bias & Fallacies, Capstone Study: Evidence Evaluation & Research Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Cognitive+Bias+%26+Fallacies+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7856,7 +10942,51 @@
         "How 'Capstone Study: Rights, Law & Institutions' shows up in real-world civics practice: Capstone Study: Rights, Law & Institutions is a capstone-level undergraduate module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Civic Participation & Public Policy' shows up in real-world civics practice: Capstone Study: Civic Participation & Public Policy extends Civics at Undergraduate Year 4, connecting civic participation & public policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Civics progresses through Capstone Study: Rights, Law & Institutions, Capstone Study: Civic Participation & Public Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Civics progresses through Capstone Study: Rights, Law & Institutions, Capstone Study: Civic Participation & Public Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Rights%2C+Law+%26+Institutions+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8111,7 +11241,51 @@
         "How 'Capstone Study: Public Health Fundamentals' shows up in real-world health education practice: Capstone Study: Public Health Fundamentals is a capstone-level undergraduate module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Health Systems & Policy' shows up in real-world health education practice: Capstone Study: Health Systems & Policy extends Health Education at Undergraduate Year 4, connecting health systems & policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Health Education progresses through Capstone Study: Public Health Fundamentals, Capstone Study: Health Systems & Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Health Education progresses through Capstone Study: Public Health Fundamentals, Capstone Study: Health Systems & Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Public+Health+Fundamentals+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8365,7 +11539,51 @@
         "How 'Capstone Study: Management & Organizational Behaviour' shows up in real-world business studies practice: Capstone Study: Management & Organizational Behaviour is a capstone-level undergraduate module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Strategy & Entrepreneurship' shows up in real-world business studies practice: Capstone Study: Strategy & Entrepreneurship extends Business Studies at Undergraduate Year 4, connecting strategy & entrepreneurship to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, Business Studies progresses through Capstone Study: Management & Organizational Behaviour, Capstone Study: Strategy & Entrepreneurship. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, Business Studies progresses through Capstone Study: Management & Organizational Behaviour, Capstone Study: Strategy & Entrepreneurship. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Management+%26+Organizational+Behaviour+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8620,7 +11838,51 @@
         "How 'Capstone Study: Comparative Political Systems' shows up in real-world world politics practice: Capstone Study: Comparative Political Systems is a capstone-level undergraduate module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Global Governance & Diplomacy' shows up in real-world world politics practice: Capstone Study: Global Governance & Diplomacy extends World Politics at Undergraduate Year 4, connecting global governance & diplomacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, World Politics progresses through Capstone Study: Comparative Political Systems, Capstone Study: Global Governance & Diplomacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, World Politics progresses through Capstone Study: Comparative Political Systems, Capstone Study: Global Governance & Diplomacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Comparative+Political+Systems+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Comparative+Political+Systems+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8874,7 +12136,51 @@
         "How 'Capstone Study: Networks & Databases' shows up in real-world ict & computer science practice: Capstone Study: Networks & Databases is a capstone-level undergraduate module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 4.",
         "How 'Capstone Study: Computer Science Theory' shows up in real-world ict & computer science practice: Capstone Study: Computer Science Theory extends ICT & Computer Science at Undergraduate Year 4, connecting computer science theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 4, ICT & Computer Science progresses through Capstone Study: Networks & Databases, Capstone Study: Computer Science Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 4, ICT & Computer Science progresses through Capstone Study: Networks & Databases, Capstone Study: Computer Science Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Capstone+Study%3A+Networks+%26+Databases+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

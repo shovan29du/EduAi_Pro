@@ -100,6 +100,17 @@ function InstrumentDetail({ instrumentId, onBack }) {
           </div>
         </div>
       )}
+
+      {data.pinterest_search && (
+        <a
+          href={data.pinterest_search}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-block rounded-full border px-3 py-1 text-xs hover:bg-gray-50 dark:border-gray-600 dark:hover:bg-gray-800"
+        >
+          📌 Pinterest — {data.label} charts & diagrams
+        </a>
+      )}
     </div>
   );
 }

@@ -155,6 +155,17 @@ function MovieModal({ movie, onClose }) {
                 <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.745.076-1.047-.872-1.232-1.276-1.806-2.108-1.726 1.76-2.948 2.286-5.187 2.286-2.649 0-4.712-1.635-4.712-4.906 0-2.557 1.384-4.297 3.356-5.149 1.711-.752 4.099-.887 5.925-1.094v-.41c0-.752.058-1.638-.383-2.286-.383-.578-1.116-.817-1.762-.817-1.197 0-2.265.614-2.527 1.888-.054.285-.261.567-.547.58l-3.064-.331c-.256-.059-.543-.266-.469-.66C6.094 1.399 9.072 0 11.949 0c1.468 0 3.386.391 4.543 1.497 1.468 1.368 1.327 3.193 1.327 5.183v4.697c0 1.41.587 2.032 1.139 2.793.194.277.236.61-.01.817l-1.804 1.808z"/></svg>
                 Prime Video
               </a>
+              {movie.streaming_search && (
+                <a
+                  href={movie.streaming_search}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={movie.streaming_note}
+                  className="flex items-center gap-2 rounded-lg bg-teal-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-teal-700 transition"
+                >
+                  📺 Where to Watch
+                </a>
+              )}
               {isYouTubeSearch && (
                 <a
                   href={movie.watch_url}

@@ -250,7 +250,51 @@
         "How 'Knowledge Representation' shows up in real-world artificial intelligence practice: Representing facts and rules with logic, semantic networks, and ontologies.",
         "How 'Reasoning & Expert Systems' shows up in real-world artificial intelligence practice: Rule-based expert systems and inference engines that mimic specialist decision-making."
       ],
-      "learning_path": "At Undergraduate Year 1, Artificial Intelligence progresses through Knowledge Representation, Reasoning & Expert Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Artificial Intelligence progresses through Knowledge Representation, Reasoning & Expert Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Knowledge+Representation+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Knowledge+Representation+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Knowledge+Representation+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Knowledge+Representation+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Knowledge+Representation+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Knowledge+Representation+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Knowledge+Representation+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -498,7 +542,51 @@
         "How 'Classification' shows up in real-world machine learning practice: Logistic regression, decision trees, and k-NN for predicting categorical outcomes.",
         "How 'Supervised Learning' shows up in real-world machine learning practice: The supervised learning framework: labelled data, loss functions, and generalization."
       ],
-      "learning_path": "At Undergraduate Year 1, Machine Learning progresses through Classification, Supervised Learning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Machine Learning progresses through Classification, Supervised Learning. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Classification+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Classification+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Classification+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Classification+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Classification+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Classification+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Classification+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -747,7 +835,51 @@
         "How 'Word Embeddings' shows up in real-world natural language processing practice: Word2Vec, GloVe, and how dense vectors capture word meaning and similarity.",
         "How 'Syntax & Parsing' shows up in real-world natural language processing practice: Part-of-speech tagging and parsing sentence structure computationally."
       ],
-      "learning_path": "At Undergraduate Year 1, Natural Language Processing progresses through Word Embeddings, Syntax & Parsing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Natural Language Processing progresses through Word Embeddings, Syntax & Parsing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Word+Embeddings+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Word+Embeddings+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Word+Embeddings+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Word+Embeddings+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Word+Embeddings+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Word+Embeddings+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Word+Embeddings+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -995,7 +1127,51 @@
         "How 'Data Visualization' shows up in real-world data science practice: Designing charts and dashboards that communicate insights accurately and clearly.",
         "How 'Databases & SQL' shows up in real-world data science practice: Querying relational databases to extract and aggregate data for analysis."
       ],
-      "learning_path": "At Undergraduate Year 1, Data Science progresses through Data Visualization, Databases & SQL. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Data Science progresses through Data Visualization, Databases & SQL. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Data+Visualization+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Data+Visualization+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Data+Visualization+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Data+Visualization+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Data+Visualization+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Data+Visualization+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Data+Visualization+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1245,7 +1421,1818 @@
         "How 'Predictive Analytics' shows up in real-world business analytics practice: Forecasting demand, churn, and risk using statistical and ML models.",
         "How 'Customer & Marketing Analytics' shows up in real-world business analytics practice: Segmentation, lifetime value, and campaign analysis."
       ],
-      "learning_path": "At Undergraduate Year 1, Business Analytics progresses through Predictive Analytics, Customer & Marketing Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Business Analytics progresses through Predictive Analytics, Customer & Marketing Analytics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Predictive+Analytics+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Predictive+Analytics+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Predictive+Analytics+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Predictive+Analytics+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Predictive+Analytics+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Predictive+Analytics+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Predictive+Analytics+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-ug1-book1",
+          "title": "Web Development: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=Frontend+Frameworks",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Frontend Frameworks — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Frontend+Frameworks+Web+Development+lecture",
+          "description": "Curated video search for frontend frameworks at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: Frontend Frameworks",
+          "url": "https://ocw.mit.edu/search/?q=Frontend+Frameworks",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Frontend Frameworks' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Component-based UI development with a modern framework such as React.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Component-based UI development with a modern framework such as React."
+        },
+        {
+          "question": "What is the focus of the 'State Management in Frontend Apps' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Managing shared application data across components as an app grows.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Managing shared application data across components as an app grows."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Frontend Frameworks.",
+            "type": "short_answer",
+            "answer": "Component-based UI development with a modern framework such as React."
+          },
+          {
+            "question": "Briefly explain: State Management in Frontend Apps.",
+            "type": "short_answer",
+            "answer": "Managing shared application data across components as an app grows."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "Web Development Undergraduate Year 1 Companion",
+          "url": "https://ocw.mit.edu/search/?q=Frontend+Frameworks",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Component-based UI development with a modern framework such as React.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-ug1-l1",
+          "title": "Frontend Frameworks",
+          "unit": "Frontend Frameworks",
+          "level": "UG1",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of frontend frameworks at Undergraduate Year 1 depth.",
+            "Apply frontend frameworks concepts to worked examples and problems.",
+            "Critically discuss how frontend frameworks connects to real-world practice in web development."
+          ],
+          "reading_material": "Component-based UI development with a modern framework such as React.",
+          "key_concepts": [
+            "Frontend",
+            "Frameworks"
+          ],
+          "practical_activities": [
+            "Guided worked example on frontend frameworks",
+            "Small-group discussion / problem set on frontend frameworks"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind frontend frameworks?",
+              "type": "short_answer",
+              "answer": "Component-based UI development with a modern framework such as React."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting frontend frameworks to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Component-based UI development with a modern framework such as React.",
+            "tip": "Review frontend frameworks before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes frontend frameworks?",
+                "options": [
+                  "Component-based UI development with a modern framework such as React.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Component-based UI development with a modern framework such as React."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands frontend frameworks",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Frontend+Frameworks"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Frontend+Frameworks+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "web-development-ug1-l2",
+          "title": "State Management in Frontend Apps",
+          "unit": "State Management in Frontend Apps",
+          "level": "UG1",
+          "subject": "Web Development",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of state management in frontend apps at Undergraduate Year 1 depth.",
+            "Apply state management in frontend apps concepts to worked examples and problems.",
+            "Critically discuss how state management in frontend apps connects to real-world practice in web development."
+          ],
+          "reading_material": "Managing shared application data across components as an app grows.",
+          "key_concepts": [
+            "State",
+            "Management",
+            "Frontend",
+            "Apps"
+          ],
+          "practical_activities": [
+            "Guided worked example on state management in frontend apps",
+            "Small-group discussion / problem set on state management in frontend apps"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind state management in frontend apps?",
+              "type": "short_answer",
+              "answer": "Managing shared application data across components as an app grows."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting state management in frontend apps to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Managing shared application data across components as an app grows.",
+            "tip": "Review state management in frontend apps before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes state management in frontend apps?",
+                "options": [
+                  "Managing shared application data across components as an app grows.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Managing shared application data across components as an app grows."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands state management in frontend apps",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=State+Management+in+Frontend+Apps"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=State+Management+in+Frontend+Apps+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Frontend Frameworks' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'State Management in Frontend Apps' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'Frontend Frameworks' shows up in real-world web development practice: Component-based UI development with a modern framework such as React.",
+        "How 'State Management in Frontend Apps' shows up in real-world web development practice: Managing shared application data across components as an app grows."
+      ],
+      "learning_path": "At Undergraduate Year 1, Web Development progresses through Frontend Frameworks, State Management in Frontend Apps. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Frontend+Frameworks+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Frontend+Frameworks+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Frontend+Frameworks+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Frontend+Frameworks+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Frontend+Frameworks+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Frontend+Frameworks+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Frontend+Frameworks+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-ug1-book1",
+          "title": "Cybersecurity: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Web+Application+Security",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Web Application Security — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Web+Application+Security+Cybersecurity+lecture",
+          "description": "Curated video search for web application security at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Web Application Security",
+          "url": "https://www.coursera.org/search?query=Web+Application+Security",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Web Application Security' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Defending web applications against common vulnerabilities (OWASP Top 10).",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Defending web applications against common vulnerabilities (OWASP Top 10)."
+        },
+        {
+          "question": "What is the focus of the 'Threat Modeling & Risk Assessment' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Systematically identifying and prioritizing security risks in a system.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Systematically identifying and prioritizing security risks in a system."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Web Application Security.",
+            "type": "short_answer",
+            "answer": "Defending web applications against common vulnerabilities (OWASP Top 10)."
+          },
+          {
+            "question": "Briefly explain: Threat Modeling & Risk Assessment.",
+            "type": "short_answer",
+            "answer": "Systematically identifying and prioritizing security risks in a system."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity Undergraduate Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Web+Application+Security",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Defending web applications against common vulnerabilities (OWASP Top 10).",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-ug1-l1",
+          "title": "Web Application Security",
+          "unit": "Web Application Security",
+          "level": "UG1",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of web application security at Undergraduate Year 1 depth.",
+            "Apply web application security concepts to worked examples and problems.",
+            "Critically discuss how web application security connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Defending web applications against common vulnerabilities (OWASP Top 10).",
+          "key_concepts": [
+            "Application",
+            "Security"
+          ],
+          "practical_activities": [
+            "Guided worked example on web application security",
+            "Small-group discussion / problem set on web application security"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind web application security?",
+              "type": "short_answer",
+              "answer": "Defending web applications against common vulnerabilities (OWASP Top 10)."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting web application security to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Defending web applications against common vulnerabilities (OWASP Top 10).",
+            "tip": "Review web application security before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes web application security?",
+                "options": [
+                  "Defending web applications against common vulnerabilities (OWASP Top 10).",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Defending web applications against common vulnerabilities (OWASP Top 10)."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands web application security",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Web+Application+Security"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Web+Application+Security+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "cybersecurity-ug1-l2",
+          "title": "Threat Modeling & Risk Assessment",
+          "unit": "Threat Modeling & Risk Assessment",
+          "level": "UG1",
+          "subject": "Cybersecurity",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of threat modeling & risk assessment at Undergraduate Year 1 depth.",
+            "Apply threat modeling & risk assessment concepts to worked examples and problems.",
+            "Critically discuss how threat modeling & risk assessment connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Systematically identifying and prioritizing security risks in a system.",
+          "key_concepts": [
+            "Threat",
+            "Modeling",
+            "Risk",
+            "Assessment"
+          ],
+          "practical_activities": [
+            "Guided worked example on threat modeling & risk assessment",
+            "Small-group discussion / problem set on threat modeling & risk assessment"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind threat modeling & risk assessment?",
+              "type": "short_answer",
+              "answer": "Systematically identifying and prioritizing security risks in a system."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting threat modeling & risk assessment to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Systematically identifying and prioritizing security risks in a system.",
+            "tip": "Review threat modeling & risk assessment before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes threat modeling & risk assessment?",
+                "options": [
+                  "Systematically identifying and prioritizing security risks in a system.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Systematically identifying and prioritizing security risks in a system."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands threat modeling & risk assessment",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Threat+Modeling+%26+Risk+Assessment"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Threat+Modeling+%26+Risk+Assessment+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Web Application Security' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Threat Modeling & Risk Assessment' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Web Application Security' shows up in real-world cybersecurity practice: Defending web applications against common vulnerabilities (OWASP Top 10).",
+        "How 'Threat Modeling & Risk Assessment' shows up in real-world cybersecurity practice: Systematically identifying and prioritizing security risks in a system."
+      ],
+      "learning_path": "At Undergraduate Year 1, Cybersecurity progresses through Web Application Security, Threat Modeling & Risk Assessment. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Web+Application+Security+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Web+Application+Security+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Web+Application+Security+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Web+Application+Security+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Web+Application+Security+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Web+Application+Security+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Web+Application+Security+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-ug1-book1",
+          "title": "Cloud Computing: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Cloud+Networking+Fundamentals",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Cloud Networking Fundamentals — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Cloud+Networking+Fundamentals+Cloud+Computing+lecture",
+          "description": "Curated video search for cloud networking fundamentals at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Cloud Networking Fundamentals",
+          "url": "https://www.coursera.org/search?query=Cloud+Networking+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Cloud Networking Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Virtual networks, load balancing, and connecting cloud resources securely.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Virtual networks, load balancing, and connecting cloud resources securely."
+        },
+        {
+          "question": "What is the focus of the 'Compute Services & Auto-Scaling' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Running and automatically scaling workloads to match demand.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Running and automatically scaling workloads to match demand."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Cloud Networking Fundamentals.",
+            "type": "short_answer",
+            "answer": "Virtual networks, load balancing, and connecting cloud resources securely."
+          },
+          {
+            "question": "Briefly explain: Compute Services & Auto-Scaling.",
+            "type": "short_answer",
+            "answer": "Running and automatically scaling workloads to match demand."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing Undergraduate Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Cloud+Networking+Fundamentals",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Virtual networks, load balancing, and connecting cloud resources securely.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-ug1-l1",
+          "title": "Cloud Networking Fundamentals",
+          "unit": "Cloud Networking Fundamentals",
+          "level": "UG1",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of cloud networking fundamentals at Undergraduate Year 1 depth.",
+            "Apply cloud networking fundamentals concepts to worked examples and problems.",
+            "Critically discuss how cloud networking fundamentals connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Virtual networks, load balancing, and connecting cloud resources securely.",
+          "key_concepts": [
+            "Cloud",
+            "Networking",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud networking fundamentals",
+            "Small-group discussion / problem set on cloud networking fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud networking fundamentals?",
+              "type": "short_answer",
+              "answer": "Virtual networks, load balancing, and connecting cloud resources securely."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud networking fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Virtual networks, load balancing, and connecting cloud resources securely.",
+            "tip": "Review cloud networking fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud networking fundamentals?",
+                "options": [
+                  "Virtual networks, load balancing, and connecting cloud resources securely.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Virtual networks, load balancing, and connecting cloud resources securely."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud networking fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Networking+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Networking+Fundamentals+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "cloud-computing-ug1-l2",
+          "title": "Compute Services & Auto-Scaling",
+          "unit": "Compute Services & Auto-Scaling",
+          "level": "UG1",
+          "subject": "Cloud Computing",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of compute services & auto-scaling at Undergraduate Year 1 depth.",
+            "Apply compute services & auto-scaling concepts to worked examples and problems.",
+            "Critically discuss how compute services & auto-scaling connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Running and automatically scaling workloads to match demand.",
+          "key_concepts": [
+            "Compute",
+            "Services",
+            "Auto-Scaling"
+          ],
+          "practical_activities": [
+            "Guided worked example on compute services & auto-scaling",
+            "Small-group discussion / problem set on compute services & auto-scaling"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind compute services & auto-scaling?",
+              "type": "short_answer",
+              "answer": "Running and automatically scaling workloads to match demand."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting compute services & auto-scaling to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Running and automatically scaling workloads to match demand.",
+            "tip": "Review compute services & auto-scaling before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes compute services & auto-scaling?",
+                "options": [
+                  "Running and automatically scaling workloads to match demand.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Running and automatically scaling workloads to match demand."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands compute services & auto-scaling",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Compute+Services+%26+Auto-Scaling"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Compute+Services+%26+Auto-Scaling+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Cloud Networking Fundamentals' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Compute Services & Auto-Scaling' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Cloud Networking Fundamentals' shows up in real-world cloud computing practice: Virtual networks, load balancing, and connecting cloud resources securely.",
+        "How 'Compute Services & Auto-Scaling' shows up in real-world cloud computing practice: Running and automatically scaling workloads to match demand."
+      ],
+      "learning_path": "At Undergraduate Year 1, Cloud Computing progresses through Cloud Networking Fundamentals, Compute Services & Auto-Scaling. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Cloud+Networking+Fundamentals+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Cloud+Networking+Fundamentals+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-ug1-book1",
+          "title": "Digital Marketing: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Email+Marketing",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Email Marketing — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Email+Marketing+Digital+Marketing+lecture",
+          "description": "Curated video search for email marketing at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Email Marketing",
+          "url": "https://www.coursera.org/search?query=Email+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Email Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Building lists and campaigns that nurture leads and customers.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Building lists and campaigns that nurture leads and customers."
+        },
+        {
+          "question": "What is the focus of the 'Pay-Per-Click Advertising' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Running and optimizing paid search and display ad campaigns.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Running and optimizing paid search and display ad campaigns."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Email Marketing.",
+            "type": "short_answer",
+            "answer": "Building lists and campaigns that nurture leads and customers."
+          },
+          {
+            "question": "Briefly explain: Pay-Per-Click Advertising.",
+            "type": "short_answer",
+            "answer": "Running and optimizing paid search and display ad campaigns."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing Undergraduate Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Email+Marketing",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Building lists and campaigns that nurture leads and customers.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-ug1-l1",
+          "title": "Email Marketing",
+          "unit": "Email Marketing",
+          "level": "UG1",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of email marketing at Undergraduate Year 1 depth.",
+            "Apply email marketing concepts to worked examples and problems.",
+            "Critically discuss how email marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Building lists and campaigns that nurture leads and customers.",
+          "key_concepts": [
+            "Email",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on email marketing",
+            "Small-group discussion / problem set on email marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind email marketing?",
+              "type": "short_answer",
+              "answer": "Building lists and campaigns that nurture leads and customers."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting email marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Building lists and campaigns that nurture leads and customers.",
+            "tip": "Review email marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes email marketing?",
+                "options": [
+                  "Building lists and campaigns that nurture leads and customers.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Building lists and campaigns that nurture leads and customers."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands email marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Email+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Email+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "digital-marketing-ug1-l2",
+          "title": "Pay-Per-Click Advertising",
+          "unit": "Pay-Per-Click Advertising",
+          "level": "UG1",
+          "subject": "Digital Marketing",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of pay-per-click advertising at Undergraduate Year 1 depth.",
+            "Apply pay-per-click advertising concepts to worked examples and problems.",
+            "Critically discuss how pay-per-click advertising connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Running and optimizing paid search and display ad campaigns.",
+          "key_concepts": [
+            "Pay-Per-Click",
+            "Advertising"
+          ],
+          "practical_activities": [
+            "Guided worked example on pay-per-click advertising",
+            "Small-group discussion / problem set on pay-per-click advertising"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind pay-per-click advertising?",
+              "type": "short_answer",
+              "answer": "Running and optimizing paid search and display ad campaigns."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting pay-per-click advertising to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Running and optimizing paid search and display ad campaigns.",
+            "tip": "Review pay-per-click advertising before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes pay-per-click advertising?",
+                "options": [
+                  "Running and optimizing paid search and display ad campaigns.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Running and optimizing paid search and display ad campaigns."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands pay-per-click advertising",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Pay-Per-Click+Advertising"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Pay-Per-Click+Advertising+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Email Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Pay-Per-Click Advertising' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Email Marketing' shows up in real-world digital marketing practice: Building lists and campaigns that nurture leads and customers.",
+        "How 'Pay-Per-Click Advertising' shows up in real-world digital marketing practice: Running and optimizing paid search and display ad campaigns."
+      ],
+      "learning_path": "At Undergraduate Year 1, Digital Marketing progresses through Email Marketing, Pay-Per-Click Advertising. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Email+Marketing+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Email+Marketing+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Email+Marketing+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Email+Marketing+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Email+Marketing+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Email+Marketing+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Email+Marketing+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-ug1-book1",
+          "title": "UI/UX Design: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Visual+Design+Principles",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Visual Design Principles — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Visual+Design+Principles+UI%2FUX+Design+lecture",
+          "description": "Curated video search for visual design principles at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Visual Design Principles",
+          "url": "https://www.coursera.org/search?query=Visual+Design+Principles",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Visual Design Principles' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Layout, hierarchy, contrast, and balance in interface design.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Layout, hierarchy, contrast, and balance in interface design."
+        },
+        {
+          "question": "What is the focus of the 'Typography & Color Theory' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Choosing type and color systems that communicate and are accessible.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Choosing type and color systems that communicate and are accessible."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Visual Design Principles.",
+            "type": "short_answer",
+            "answer": "Layout, hierarchy, contrast, and balance in interface design."
+          },
+          {
+            "question": "Briefly explain: Typography & Color Theory.",
+            "type": "short_answer",
+            "answer": "Choosing type and color systems that communicate and are accessible."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design Undergraduate Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Visual+Design+Principles",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Layout, hierarchy, contrast, and balance in interface design.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-ug1-l1",
+          "title": "Visual Design Principles",
+          "unit": "Visual Design Principles",
+          "level": "UG1",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of visual design principles at Undergraduate Year 1 depth.",
+            "Apply visual design principles concepts to worked examples and problems.",
+            "Critically discuss how visual design principles connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Layout, hierarchy, contrast, and balance in interface design.",
+          "key_concepts": [
+            "Visual",
+            "Design",
+            "Principles"
+          ],
+          "practical_activities": [
+            "Guided worked example on visual design principles",
+            "Small-group discussion / problem set on visual design principles"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind visual design principles?",
+              "type": "short_answer",
+              "answer": "Layout, hierarchy, contrast, and balance in interface design."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting visual design principles to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Layout, hierarchy, contrast, and balance in interface design.",
+            "tip": "Review visual design principles before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes visual design principles?",
+                "options": [
+                  "Layout, hierarchy, contrast, and balance in interface design.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Layout, hierarchy, contrast, and balance in interface design."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands visual design principles",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Visual+Design+Principles"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Visual+Design+Principles+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "ui/ux-design-ug1-l2",
+          "title": "Typography & Color Theory",
+          "unit": "Typography & Color Theory",
+          "level": "UG1",
+          "subject": "UI/UX Design",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of typography & color theory at Undergraduate Year 1 depth.",
+            "Apply typography & color theory concepts to worked examples and problems.",
+            "Critically discuss how typography & color theory connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Choosing type and color systems that communicate and are accessible.",
+          "key_concepts": [
+            "Typography",
+            "Color",
+            "Theory"
+          ],
+          "practical_activities": [
+            "Guided worked example on typography & color theory",
+            "Small-group discussion / problem set on typography & color theory"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind typography & color theory?",
+              "type": "short_answer",
+              "answer": "Choosing type and color systems that communicate and are accessible."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting typography & color theory to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Choosing type and color systems that communicate and are accessible.",
+            "tip": "Review typography & color theory before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes typography & color theory?",
+                "options": [
+                  "Choosing type and color systems that communicate and are accessible.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Choosing type and color systems that communicate and are accessible."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands typography & color theory",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Typography+%26+Color+Theory"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Typography+%26+Color+Theory+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Visual Design Principles' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Typography & Color Theory' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Visual Design Principles' shows up in real-world ui/ux design practice: Layout, hierarchy, contrast, and balance in interface design.",
+        "How 'Typography & Color Theory' shows up in real-world ui/ux design practice: Choosing type and color systems that communicate and are accessible."
+      ],
+      "learning_path": "At Undergraduate Year 1, UI/UX Design progresses through Visual Design Principles, Typography & Color Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Visual+Design+Principles+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Visual+Design+Principles+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-ug1-book1",
+          "title": "Project Management: Undergraduate Year 1 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Cost+Estimation+%26+Budgeting",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Cost Estimation & Budgeting — Undergraduate Year 1 overview",
+          "url": "https://www.youtube.com/results?search_query=Cost+Estimation+%26+Budgeting+Project+Management+lecture",
+          "description": "Curated video search for cost estimation & budgeting at Undergraduate Year 1.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Cost Estimation & Budgeting",
+          "url": "https://www.coursera.org/search?query=Cost+Estimation+%26+Budgeting",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Cost Estimation & Budgeting' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Estimating and managing a project's budget through its life cycle.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Estimating and managing a project's budget through its life cycle."
+        },
+        {
+          "question": "What is the focus of the 'Risk Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Identifying, assessing, and planning responses to project risks.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Identifying, assessing, and planning responses to project risks."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Cost Estimation & Budgeting.",
+            "type": "short_answer",
+            "answer": "Estimating and managing a project's budget through its life cycle."
+          },
+          {
+            "question": "Briefly explain: Risk Management.",
+            "type": "short_answer",
+            "answer": "Identifying, assessing, and planning responses to project risks."
+          }
+        ],
+        "passing_score": 65
+      },
+      "textbooks": [
+        {
+          "title": "Project Management Undergraduate Year 1 Companion",
+          "url": "https://www.coursera.org/search?query=Cost+Estimation+%26+Budgeting",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Estimating and managing a project's budget through its life cycle.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-ug1-l1",
+          "title": "Cost Estimation & Budgeting",
+          "unit": "Cost Estimation & Budgeting",
+          "level": "UG1",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of cost estimation & budgeting at Undergraduate Year 1 depth.",
+            "Apply cost estimation & budgeting concepts to worked examples and problems.",
+            "Critically discuss how cost estimation & budgeting connects to real-world practice in project management."
+          ],
+          "reading_material": "Estimating and managing a project's budget through its life cycle.",
+          "key_concepts": [
+            "Cost",
+            "Estimation",
+            "Budgeting"
+          ],
+          "practical_activities": [
+            "Guided worked example on cost estimation & budgeting",
+            "Small-group discussion / problem set on cost estimation & budgeting"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cost estimation & budgeting?",
+              "type": "short_answer",
+              "answer": "Estimating and managing a project's budget through its life cycle."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cost estimation & budgeting to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Estimating and managing a project's budget through its life cycle.",
+            "tip": "Review cost estimation & budgeting before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cost estimation & budgeting?",
+                "options": [
+                  "Estimating and managing a project's budget through its life cycle.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Estimating and managing a project's budget through its life cycle."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cost estimation & budgeting",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cost+Estimation+%26+Budgeting"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cost+Estimation+%26+Budgeting+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "project-management-ug1-l2",
+          "title": "Risk Management",
+          "unit": "Risk Management",
+          "level": "UG1",
+          "subject": "Project Management",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of risk management at Undergraduate Year 1 depth.",
+            "Apply risk management concepts to worked examples and problems.",
+            "Critically discuss how risk management connects to real-world practice in project management."
+          ],
+          "reading_material": "Identifying, assessing, and planning responses to project risks.",
+          "key_concepts": [
+            "Risk",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on risk management",
+            "Small-group discussion / problem set on risk management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind risk management?",
+              "type": "short_answer",
+              "answer": "Identifying, assessing, and planning responses to project risks."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting risk management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Identifying, assessing, and planning responses to project risks.",
+            "tip": "Review risk management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes risk management?",
+                "options": [
+                  "Identifying, assessing, and planning responses to project risks.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Identifying, assessing, and planning responses to project risks."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands risk management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Risk+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Risk+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Cost Estimation & Budgeting' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Risk Management' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a undergraduate year 1 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Cost Estimation & Budgeting' shows up in real-world project management practice: Estimating and managing a project's budget through its life cycle.",
+        "How 'Risk Management' shows up in real-world project management practice: Identifying, assessing, and planning responses to project risks."
+      ],
+      "learning_path": "At Undergraduate Year 1, Project Management progresses through Cost Estimation & Budgeting, Risk Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Cost+Estimation+%26+Budgeting+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Cost+Estimation+%26+Budgeting+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1499,7 +3486,51 @@
         "How 'Core Theory: Statistics & Probability' shows up in real-world math practice: Core Theory: Statistics & Probability is a foundational undergraduate module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Discrete Mathematics & Proof' shows up in real-world math practice: Core Theory: Discrete Mathematics & Proof extends Math at Undergraduate Year 1, connecting discrete mathematics & proof to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Math progresses through Core Theory: Statistics & Probability, Core Theory: Discrete Mathematics & Proof. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Math progresses through Core Theory: Statistics & Probability, Core Theory: Discrete Mathematics & Proof. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Statistics+%26+Probability+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Statistics+%26+Probability+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1751,7 +3782,51 @@
         "How 'Core Theory: Academic Writing' shows up in real-world english practice: Core Theory: Academic Writing is a foundational undergraduate module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Linguistics' shows up in real-world english practice: Core Theory: Linguistics extends English at Undergraduate Year 1, connecting linguistics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, English progresses through Core Theory: Academic Writing, Core Theory: Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, English progresses through Core Theory: Academic Writing, Core Theory: Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Academic+Writing+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Academic+Writing+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Academic+Writing+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Academic+Writing+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Academic+Writing+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Academic+Writing+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Academic+Writing+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2004,7 +4079,51 @@
         "How 'Core Theory: Life Science' shows up in real-world science practice: Core Theory: Life Science is a foundational undergraduate module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Physical Science' shows up in real-world science practice: Core Theory: Physical Science extends Science at Undergraduate Year 1, connecting physical science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Science progresses through Core Theory: Life Science, Core Theory: Physical Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Science progresses through Core Theory: Life Science, Core Theory: Physical Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Life+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Life+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Life+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Life+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Life+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Life+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Life+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2258,7 +4377,51 @@
         "How 'Core Theory: Geopolitics & Globalization' shows up in real-world geography practice: Core Theory: Geopolitics & Globalization is a foundational undergraduate module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Geographic Information Systems' shows up in real-world geography practice: Core Theory: Geographic Information Systems extends Geography at Undergraduate Year 1, connecting geographic information systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Geography progresses through Core Theory: Geopolitics & Globalization, Core Theory: Geographic Information Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Geography progresses through Core Theory: Geopolitics & Globalization, Core Theory: Geographic Information Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Geopolitics+%26+Globalization+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Geopolitics+%26+Globalization+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2513,7 +4676,51 @@
         "How 'Core Theory: Modern World History' shows up in real-world world history practice: Core Theory: Modern World History is a foundational undergraduate module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Historiography & Research Methods' shows up in real-world world history practice: Core Theory: Historiography & Research Methods extends World History at Undergraduate Year 1, connecting historiography & research methods to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, World History progresses through Core Theory: Modern World History, Core Theory: Historiography & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, World History progresses through Core Theory: Modern World History, Core Theory: Historiography & Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Modern+World+History+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Modern+World+History+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2768,7 +4975,51 @@
         "How 'Core Theory: Islamic Ethics & Jurisprudence' shows up in real-world islamic studies practice: Core Theory: Islamic Ethics & Jurisprudence is a foundational undergraduate module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Comparative Religious Thought' shows up in real-world islamic studies practice: Core Theory: Comparative Religious Thought extends Islamic Studies at Undergraduate Year 1, connecting comparative religious thought to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Islamic Studies progresses through Core Theory: Islamic Ethics & Jurisprudence, Core Theory: Comparative Religious Thought. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Islamic Studies progresses through Core Theory: Islamic Ethics & Jurisprudence, Core Theory: Comparative Religious Thought. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3022,7 +5273,51 @@
         "How 'Core Theory: Software Engineering Practice' shows up in real-world coding practice: Core Theory: Software Engineering Practice is a foundational undergraduate module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Systems & Architecture' shows up in real-world coding practice: Core Theory: Systems & Architecture extends Coding at Undergraduate Year 1, connecting systems & architecture to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Coding progresses through Core Theory: Software Engineering Practice, Core Theory: Systems & Architecture. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Coding progresses through Core Theory: Software Engineering Practice, Core Theory: Systems & Architecture. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Software+Engineering+Practice+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Software+Engineering+Practice+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3276,7 +5571,51 @@
         "How 'Core Theory: Literary Theory & Criticism' shows up in real-world world literature practice: Core Theory: Literary Theory & Criticism is a foundational undergraduate module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Comparative Literature' shows up in real-world world literature practice: Core Theory: Comparative Literature extends World Literature at Undergraduate Year 1, connecting comparative literature to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, World Literature progresses through Core Theory: Literary Theory & Criticism, Core Theory: Comparative Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, World Literature progresses through Core Theory: Literary Theory & Criticism, Core Theory: Comparative Literature. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Literary+Theory+%26+Criticism+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3531,7 +5870,51 @@
         "How 'Core Theory: Design & Visual Communication' shows up in real-world art practice: Core Theory: Design & Visual Communication is a foundational undergraduate module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Contemporary & Critical Art Practice' shows up in real-world art practice: Core Theory: Contemporary & Critical Art Practice extends Art at Undergraduate Year 1, connecting contemporary & critical art practice to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Art progresses through Core Theory: Design & Visual Communication, Core Theory: Contemporary & Critical Art Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Art progresses through Core Theory: Design & Visual Communication, Core Theory: Contemporary & Critical Art Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Design+%26+Visual+Communication+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Design+%26+Visual+Communication+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3785,7 +6168,51 @@
         "How 'Core Theory: Performance & Ear Training' shows up in real-world music practice: Core Theory: Performance & Ear Training is a foundational undergraduate module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Music Technology & Composition' shows up in real-world music practice: Core Theory: Music Technology & Composition extends Music at Undergraduate Year 1, connecting music technology & composition to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Music progresses through Core Theory: Performance & Ear Training, Core Theory: Music Technology & Composition. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Music progresses through Core Theory: Performance & Ear Training, Core Theory: Music Technology & Composition. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Performance+%26+Ear+Training+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Performance+%26+Ear+Training+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4040,7 +6467,51 @@
         "How 'Core Theory: Navigation & Resource Management' shows up in real-world survival skills practice: Core Theory: Navigation & Resource Management is a foundational undergraduate module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Expedition & Risk Management' shows up in real-world survival skills practice: Core Theory: Advanced Expedition & Risk Management extends Survival Skills at Undergraduate Year 1, connecting advanced expedition & risk management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Survival Skills progresses through Core Theory: Navigation & Resource Management, Core Theory: Advanced Expedition & Risk Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Survival Skills progresses through Core Theory: Navigation & Resource Management, Core Theory: Advanced Expedition & Risk Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Navigation+%26+Resource+Management+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4295,7 +6766,51 @@
         "How 'Core Theory: Nutrition & Menu Design' shows up in real-world cooking practice: Core Theory: Nutrition & Menu Design is a foundational undergraduate module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Culinary Arts Management' shows up in real-world cooking practice: Core Theory: Culinary Arts Management extends Cooking at Undergraduate Year 1, connecting culinary arts management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Cooking progresses through Core Theory: Nutrition & Menu Design, Core Theory: Culinary Arts Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Cooking progresses through Core Theory: Nutrition & Menu Design, Core Theory: Culinary Arts Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Nutrition+%26+Menu+Design+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4550,7 +7065,51 @@
         "How 'Core Theory: Advanced Reading & Writing' shows up in real-world foreign languages practice: Core Theory: Advanced Reading & Writing is a foundational undergraduate module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Applied Translation & Linguistics' shows up in real-world foreign languages practice: Core Theory: Applied Translation & Linguistics extends Foreign Languages at Undergraduate Year 1, connecting applied translation & linguistics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Foreign Languages progresses through Core Theory: Advanced Reading & Writing, Core Theory: Applied Translation & Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Foreign Languages progresses through Core Theory: Advanced Reading & Writing, Core Theory: Applied Translation & Linguistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Advanced+Reading+%26+Writing+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4805,7 +7364,51 @@
         "How 'Core Theory: Media & Information Literacy' shows up in real-world general knowledge practice: Core Theory: Media & Information Literacy is a foundational undergraduate module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Interdisciplinary General Studies' shows up in real-world general knowledge practice: Core Theory: Interdisciplinary General Studies extends General Knowledge at Undergraduate Year 1, connecting interdisciplinary general studies to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, General Knowledge progresses through Core Theory: Media & Information Literacy, Core Theory: Interdisciplinary General Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, General Knowledge progresses through Core Theory: Media & Information Literacy, Core Theory: Interdisciplinary General Studies. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Media+%26+Information+Literacy+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5060,7 +7663,51 @@
         "How 'Core Theory: Comparative Social Systems' shows up in real-world social studies practice: Core Theory: Comparative Social Systems is a foundational undergraduate module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Social Research Methods' shows up in real-world social studies practice: Core Theory: Social Research Methods extends Social Studies at Undergraduate Year 1, connecting social research methods to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Social Studies progresses through Core Theory: Comparative Social Systems, Core Theory: Social Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Social Studies progresses through Core Theory: Comparative Social Systems, Core Theory: Social Research Methods. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Comparative+Social+Systems+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Comparative+Social+Systems+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5314,7 +7961,51 @@
         "How 'Core Theory: Environmental Policy' shows up in real-world environmental science practice: Core Theory: Environmental Policy is a foundational undergraduate module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Sustainability & Applied Environmental Management' shows up in real-world environmental science practice: Core Theory: Sustainability & Applied Environmental Management extends Environmental Science at Undergraduate Year 1, connecting sustainability & applied environmental management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Environmental Science progresses through Core Theory: Environmental Policy, Core Theory: Sustainability & Applied Environmental Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Environmental Science progresses through Core Theory: Environmental Policy, Core Theory: Sustainability & Applied Environmental Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Environmental+Policy+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Environmental+Policy+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5568,7 +8259,51 @@
         "How 'Core Theory: Sports Science' shows up in real-world physical education & self-defense practice: Core Theory: Sports Science is a foundational undergraduate module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Coaching & Performance Management' shows up in real-world physical education & self-defense practice: Core Theory: Coaching & Performance Management extends Physical Education & Self-Defense at Undergraduate Year 1, connecting coaching & performance management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Physical Education & Self-Defense progresses through Core Theory: Sports Science, Core Theory: Coaching & Performance Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Physical Education & Self-Defense progresses through Core Theory: Sports Science, Core Theory: Coaching & Performance Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Sports+Science+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5823,7 +8558,51 @@
         "How 'Core Theory: Applied & Behavioural Economics' shows up in real-world economics practice: Core Theory: Applied & Behavioural Economics is a foundational undergraduate module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Econometrics & Advanced Economic Theory' shows up in real-world economics practice: Core Theory: Econometrics & Advanced Economic Theory extends Economics at Undergraduate Year 1, connecting econometrics & advanced economic theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Economics progresses through Core Theory: Applied & Behavioural Economics, Core Theory: Econometrics & Advanced Economic Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Economics progresses through Core Theory: Applied & Behavioural Economics, Core Theory: Econometrics & Advanced Economic Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Applied+%26+Behavioural+Economics+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6078,7 +8857,51 @@
         "How 'Core Theory: Investment & Portfolio Theory' shows up in real-world finance practice: Core Theory: Investment & Portfolio Theory is a foundational undergraduate module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Financial Modelling & Risk' shows up in real-world finance practice: Core Theory: Advanced Financial Modelling & Risk extends Finance at Undergraduate Year 1, connecting advanced financial modelling & risk to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Finance progresses through Core Theory: Investment & Portfolio Theory, Core Theory: Advanced Financial Modelling & Risk. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Finance progresses through Core Theory: Investment & Portfolio Theory, Core Theory: Advanced Financial Modelling & Risk. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Investment+%26+Portfolio+Theory+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6333,7 +9156,51 @@
         "How 'Core Theory: Wilderness & Remote Medicine' shows up in real-world first aid practice: Core Theory: Wilderness & Remote Medicine is a foundational undergraduate module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Life Support Concepts' shows up in real-world first aid practice: Core Theory: Advanced Life Support Concepts extends First Aid at Undergraduate Year 1, connecting advanced life support concepts to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, First Aid progresses through Core Theory: Wilderness & Remote Medicine, Core Theory: Advanced Life Support Concepts. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, First Aid progresses through Core Theory: Wilderness & Remote Medicine, Core Theory: Advanced Life Support Concepts. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Wilderness+%26+Remote+Medicine+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6588,7 +9455,51 @@
         "How 'Core Theory: Modern & Quantum Physics' shows up in real-world physics practice: Core Theory: Modern & Quantum Physics is a foundational undergraduate module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Theoretical Physics' shows up in real-world physics practice: Core Theory: Advanced Theoretical Physics extends Physics at Undergraduate Year 1, connecting advanced theoretical physics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Physics progresses through Core Theory: Modern & Quantum Physics, Core Theory: Advanced Theoretical Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Physics progresses through Core Theory: Modern & Quantum Physics, Core Theory: Advanced Theoretical Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Modern+%26+Quantum+Physics+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6842,7 +9753,51 @@
         "How 'Core Theory: Physical Chemistry' shows up in real-world chemistry practice: Core Theory: Physical Chemistry is a foundational undergraduate module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced & Analytical Chemistry' shows up in real-world chemistry practice: Core Theory: Advanced & Analytical Chemistry extends Chemistry at Undergraduate Year 1, connecting advanced & analytical chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Chemistry progresses through Core Theory: Physical Chemistry, Core Theory: Advanced & Analytical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Chemistry progresses through Core Theory: Physical Chemistry, Core Theory: Advanced & Analytical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Physical+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Physical+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7096,7 +10051,51 @@
         "How 'Core Theory: Physiology & Anatomy' shows up in real-world biology practice: Core Theory: Physiology & Anatomy is a foundational undergraduate module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced & Systems Biology' shows up in real-world biology practice: Core Theory: Advanced & Systems Biology extends Biology at Undergraduate Year 1, connecting advanced & systems biology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Biology progresses through Core Theory: Physiology & Anatomy, Core Theory: Advanced & Systems Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Biology progresses through Core Theory: Physiology & Anatomy, Core Theory: Advanced & Systems Biology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Physiology+%26+Anatomy+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Physiology+%26+Anatomy+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7350,7 +10349,51 @@
         "How 'Core Theory: Epistemology & Metaphysics' shows up in real-world philosophy practice: Core Theory: Epistemology & Metaphysics is a foundational undergraduate module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Philosophy of Mind & Science' shows up in real-world philosophy practice: Core Theory: Advanced Philosophy of Mind & Science extends Philosophy at Undergraduate Year 1, connecting advanced philosophy of mind & science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Philosophy progresses through Core Theory: Epistemology & Metaphysics, Core Theory: Advanced Philosophy of Mind & Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Philosophy progresses through Core Theory: Epistemology & Metaphysics, Core Theory: Advanced Philosophy of Mind & Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Epistemology+%26+Metaphysics+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7605,7 +10648,51 @@
         "How 'Core Theory: Evidence Evaluation & Research Literacy' shows up in real-world critical thinking practice: Core Theory: Evidence Evaluation & Research Literacy is a foundational undergraduate module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Applied Decision Analysis' shows up in real-world critical thinking practice: Core Theory: Applied Decision Analysis extends Critical Thinking at Undergraduate Year 1, connecting applied decision analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Critical Thinking progresses through Core Theory: Evidence Evaluation & Research Literacy, Core Theory: Applied Decision Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Critical Thinking progresses through Core Theory: Evidence Evaluation & Research Literacy, Core Theory: Applied Decision Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Evidence+Evaluation+%26+Research+Literacy+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7859,7 +10946,51 @@
         "How 'Core Theory: Civic Participation & Public Policy' shows up in real-world civics practice: Core Theory: Civic Participation & Public Policy is a foundational undergraduate module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Comparative Governance' shows up in real-world civics practice: Core Theory: Comparative Governance extends Civics at Undergraduate Year 1, connecting comparative governance to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Civics progresses through Core Theory: Civic Participation & Public Policy, Core Theory: Comparative Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Civics progresses through Core Theory: Civic Participation & Public Policy, Core Theory: Comparative Governance. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Civic+Participation+%26+Public+Policy+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8114,7 +11245,51 @@
         "How 'Core Theory: Health Systems & Policy' shows up in real-world health education practice: Core Theory: Health Systems & Policy is a foundational undergraduate module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Health Science & Epidemiology' shows up in real-world health education practice: Core Theory: Advanced Health Science & Epidemiology extends Health Education at Undergraduate Year 1, connecting advanced health science & epidemiology to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Health Education progresses through Core Theory: Health Systems & Policy, Core Theory: Advanced Health Science & Epidemiology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Health Education progresses through Core Theory: Health Systems & Policy, Core Theory: Advanced Health Science & Epidemiology. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Health+Systems+%26+Policy+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8368,7 +11543,51 @@
         "How 'Core Theory: Strategy & Entrepreneurship' shows up in real-world business studies practice: Core Theory: Strategy & Entrepreneurship is a foundational undergraduate module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Corporate Strategy' shows up in real-world business studies practice: Core Theory: Advanced Corporate Strategy extends Business Studies at Undergraduate Year 1, connecting advanced corporate strategy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, Business Studies progresses through Core Theory: Strategy & Entrepreneurship, Core Theory: Advanced Corporate Strategy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, Business Studies progresses through Core Theory: Strategy & Entrepreneurship, Core Theory: Advanced Corporate Strategy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Strategy+%26+Entrepreneurship+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8623,7 +11842,51 @@
         "How 'Core Theory: Global Governance & Diplomacy' shows up in real-world world politics practice: Core Theory: Global Governance & Diplomacy is a foundational undergraduate module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Geopolitical Analysis' shows up in real-world world politics practice: Core Theory: Advanced Geopolitical Analysis extends World Politics at Undergraduate Year 1, connecting advanced geopolitical analysis to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, World Politics progresses through Core Theory: Global Governance & Diplomacy, Core Theory: Advanced Geopolitical Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, World Politics progresses through Core Theory: Global Governance & Diplomacy, Core Theory: Advanced Geopolitical Analysis. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Global+Governance+%26+Diplomacy+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8878,7 +12141,51 @@
         "How 'Core Theory: Computer Science Theory' shows up in real-world ict & computer science practice: Core Theory: Computer Science Theory is a foundational undergraduate module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to Undergraduate Year 1.",
         "How 'Core Theory: Advanced Computing & Research Topics' shows up in real-world ict & computer science practice: Core Theory: Advanced Computing & Research Topics extends ICT & Computer Science at Undergraduate Year 1, connecting advanced computing & research topics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At Undergraduate Year 1, ICT & Computer Science progresses through Core Theory: Computer Science Theory, Core Theory: Advanced Computing & Research Topics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At Undergraduate Year 1, ICT & Computer Science progresses through Core Theory: Computer Science Theory, Core Theory: Advanced Computing & Research Topics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Core+Theory%3A+Computer+Science+Theory+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

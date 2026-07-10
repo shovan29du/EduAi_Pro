@@ -250,7 +250,51 @@
         "How 'Search Algorithms' shows up in real-world artificial intelligence practice: Uninformed and informed search (BFS, DFS, A*) for solving problems as a search over states.",
         "How 'Adversarial Search & Games' shows up in real-world artificial intelligence practice: Minimax, alpha-beta pruning, and how AI plays games like chess and Go."
       ],
-      "learning_path": "At College Level 2, Artificial Intelligence progresses through Search Algorithms, Adversarial Search & Games. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Artificial Intelligence progresses through Search Algorithms, Adversarial Search & Games. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Search+Algorithms+Artificial+Intelligence",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Search+Algorithms+Artificial+Intelligence",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Search+Algorithms+Artificial+Intelligence",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Search+Algorithms+Artificial+Intelligence",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Search+Algorithms+Artificial+Intelligence",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Search+Algorithms+Artificial+Intelligence",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Search+Algorithms+Artificial+Intelligence+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Machine Learning": {
       "books": [
@@ -498,7 +542,51 @@
         "How 'Feature Engineering' shows up in real-world machine learning practice: Designing and selecting the input features that make learning algorithms effective.",
         "How 'Regression' shows up in real-world machine learning practice: Linear and polynomial regression for predicting continuous outcomes."
       ],
-      "learning_path": "At College Level 2, Machine Learning progresses through Feature Engineering, Regression. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Machine Learning progresses through Feature Engineering, Regression. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Feature+Engineering+Machine+Learning",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Feature+Engineering+Machine+Learning",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Feature+Engineering+Machine+Learning",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Feature+Engineering+Machine+Learning",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Feature+Engineering+Machine+Learning",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Feature+Engineering+Machine+Learning",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Feature+Engineering+Machine+Learning+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Natural Language Processing": {
       "books": [
@@ -746,7 +834,51 @@
         "How 'Tokenization' shows up in real-world natural language processing practice: Splitting text into words, subwords, and sentences as the first modelling step.",
         "How 'Language Models' shows up in real-world natural language processing practice: N-gram and neural language models that estimate the probability of word sequences."
       ],
-      "learning_path": "At College Level 2, Natural Language Processing progresses through Tokenization, Language Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Natural Language Processing progresses through Tokenization, Language Models. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Tokenization+Natural+Language+Processing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Tokenization+Natural+Language+Processing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Tokenization+Natural+Language+Processing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Tokenization+Natural+Language+Processing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Tokenization+Natural+Language+Processing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Tokenization+Natural+Language+Processing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Tokenization+Natural+Language+Processing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Data Science": {
       "books": [
@@ -997,7 +1129,51 @@
         "How 'Exploratory Data Analysis' shows up in real-world data science practice: Summary statistics and visualization to understand a dataset before modelling.",
         "How 'Statistics for Data Science' shows up in real-world data science practice: Descriptive and inferential statistics used to draw conclusions from data."
       ],
-      "learning_path": "At College Level 2, Data Science progresses through Exploratory Data Analysis, Statistics for Data Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Data Science progresses through Exploratory Data Analysis, Statistics for Data Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Exploratory+Data+Analysis+Data+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Exploratory+Data+Analysis+Data+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Exploratory+Data+Analysis+Data+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Exploratory+Data+Analysis+Data+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Exploratory+Data+Analysis+Data+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Exploratory+Data+Analysis+Data+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Exploratory+Data+Analysis+Data+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Analytics": {
       "books": [
@@ -1247,7 +1423,1814 @@
         "How 'Data-Driven Decision Making' shows up in real-world business analytics practice: Frameworks for turning analysis into concrete business recommendations.",
         "How 'Business Statistics' shows up in real-world business analytics practice: Statistical foundations for analysing sales, operations, and customer data."
       ],
-      "learning_path": "At College Level 2, Business Analytics progresses through Data-Driven Decision Making, Business Statistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Business Analytics progresses through Data-Driven Decision Making, Business Statistics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Data-Driven+Decision+Making+Business+Analytics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Data-Driven+Decision+Making+Business+Analytics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Web Development": {
+      "books": [
+        {
+          "id": "web-development-c2-book1",
+          "title": "Web Development: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://ocw.mit.edu/search/?q=Responsive+Web+Design",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Responsive Web Design — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Responsive+Web+Design+Web+Development+lecture",
+          "description": "Curated video search for responsive web design at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Web Development reference: Responsive Web Design",
+          "url": "https://ocw.mit.edu/search/?q=Responsive+Web+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Responsive Web Design' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops."
+        },
+        {
+          "question": "What is the focus of the 'DOM Manipulation & Events' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Reading and updating a page live in the browser in response to user actions.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Reading and updating a page live in the browser in response to user actions."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Responsive Web Design.",
+            "type": "short_answer",
+            "answer": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops."
+          },
+          {
+            "question": "Briefly explain: DOM Manipulation & Events.",
+            "type": "short_answer",
+            "answer": "Reading and updating a page live in the browser in response to user actions."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "Web Development College Level 2 Companion",
+          "url": "https://ocw.mit.edu/search/?q=Responsive+Web+Design",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "web-development-c2-l1",
+          "title": "Responsive Web Design",
+          "unit": "Responsive Web Design",
+          "level": "C2",
+          "subject": "Web Development",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of responsive web design at College Level 2 depth.",
+            "Apply responsive web design concepts to worked examples and problems.",
+            "Critically discuss how responsive web design connects to real-world practice in web development."
+          ],
+          "reading_material": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+          "key_concepts": [
+            "Responsive",
+            "Design"
+          ],
+          "practical_activities": [
+            "Guided worked example on responsive web design",
+            "Small-group discussion / problem set on responsive web design"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind responsive web design?",
+              "type": "short_answer",
+              "answer": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting responsive web design to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+            "tip": "Review responsive web design before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes responsive web design?",
+                "options": [
+                  "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands responsive web design",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=Responsive+Web+Design"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Responsive+Web+Design+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "web-development-c2-l2",
+          "title": "DOM Manipulation & Events",
+          "unit": "DOM Manipulation & Events",
+          "level": "C2",
+          "subject": "Web Development",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of dom manipulation & events at College Level 2 depth.",
+            "Apply dom manipulation & events concepts to worked examples and problems.",
+            "Critically discuss how dom manipulation & events connects to real-world practice in web development."
+          ],
+          "reading_material": "Reading and updating a page live in the browser in response to user actions.",
+          "key_concepts": [
+            "Manipulation",
+            "Events"
+          ],
+          "practical_activities": [
+            "Guided worked example on dom manipulation & events",
+            "Small-group discussion / problem set on dom manipulation & events"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind dom manipulation & events?",
+              "type": "short_answer",
+              "answer": "Reading and updating a page live in the browser in response to user actions."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting dom manipulation & events to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Reading and updating a page live in the browser in response to user actions.",
+            "tip": "Review dom manipulation & events before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes dom manipulation & events?",
+                "options": [
+                  "Reading and updating a page live in the browser in response to user actions.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Reading and updating a page live in the browser in response to user actions."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands dom manipulation & events",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://ocw.mit.edu/search/?q=DOM+Manipulation+%26+Events"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=DOM+Manipulation+%26+Events+Web+Development+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Responsive Web Design' to a real dataset, case, or scenario relevant to web development.",
+        "Design a mini-project applying 'DOM Manipulation & Events' to a real dataset, case, or scenario relevant to web development.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of Web Development."
+      ],
+      "real_world_examples": [
+        "How 'Responsive Web Design' shows up in real-world web development practice: Layouts (flexbox, grid, media queries) that adapt to phones, tablets, and desktops.",
+        "How 'DOM Manipulation & Events' shows up in real-world web development practice: Reading and updating a page live in the browser in response to user actions."
+      ],
+      "learning_path": "At College Level 2, Web Development progresses through Responsive Web Design, DOM Manipulation & Events. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Responsive+Web+Design+Web+Development",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Responsive+Web+Design+Web+Development",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Responsive+Web+Design+Web+Development",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Responsive+Web+Design+Web+Development",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Responsive+Web+Design+Web+Development",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Responsive+Web+Design+Web+Development",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Responsive+Web+Design+Web+Development+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cybersecurity": {
+      "books": [
+        {
+          "id": "cybersecurity-c2-book1",
+          "title": "Cybersecurity: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Operating+System+Security",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Operating System Security — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Operating+System+Security+Cybersecurity+lecture",
+          "description": "Curated video search for operating system security at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cybersecurity reference: Operating System Security",
+          "url": "https://www.coursera.org/search?query=Operating+System+Security",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Operating System Security' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Hardening, permissions, and security models in modern operating systems.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Hardening, permissions, and security models in modern operating systems."
+        },
+        {
+          "question": "What is the focus of the 'Cryptography Fundamentals' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Encryption, hashing, and digital signatures that protect data and identity.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Encryption, hashing, and digital signatures that protect data and identity."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Operating System Security.",
+            "type": "short_answer",
+            "answer": "Hardening, permissions, and security models in modern operating systems."
+          },
+          {
+            "question": "Briefly explain: Cryptography Fundamentals.",
+            "type": "short_answer",
+            "answer": "Encryption, hashing, and digital signatures that protect data and identity."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "Cybersecurity College Level 2 Companion",
+          "url": "https://www.coursera.org/search?query=Operating+System+Security",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Hardening, permissions, and security models in modern operating systems.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cybersecurity-c2-l1",
+          "title": "Operating System Security",
+          "unit": "Operating System Security",
+          "level": "C2",
+          "subject": "Cybersecurity",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of operating system security at College Level 2 depth.",
+            "Apply operating system security concepts to worked examples and problems.",
+            "Critically discuss how operating system security connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Hardening, permissions, and security models in modern operating systems.",
+          "key_concepts": [
+            "Operating",
+            "System",
+            "Security"
+          ],
+          "practical_activities": [
+            "Guided worked example on operating system security",
+            "Small-group discussion / problem set on operating system security"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind operating system security?",
+              "type": "short_answer",
+              "answer": "Hardening, permissions, and security models in modern operating systems."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting operating system security to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Hardening, permissions, and security models in modern operating systems.",
+            "tip": "Review operating system security before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes operating system security?",
+                "options": [
+                  "Hardening, permissions, and security models in modern operating systems.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Hardening, permissions, and security models in modern operating systems."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands operating system security",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Operating+System+Security"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Operating+System+Security+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "cybersecurity-c2-l2",
+          "title": "Cryptography Fundamentals",
+          "unit": "Cryptography Fundamentals",
+          "level": "C2",
+          "subject": "Cybersecurity",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of cryptography fundamentals at College Level 2 depth.",
+            "Apply cryptography fundamentals concepts to worked examples and problems.",
+            "Critically discuss how cryptography fundamentals connects to real-world practice in cybersecurity."
+          ],
+          "reading_material": "Encryption, hashing, and digital signatures that protect data and identity.",
+          "key_concepts": [
+            "Cryptography",
+            "Fundamentals"
+          ],
+          "practical_activities": [
+            "Guided worked example on cryptography fundamentals",
+            "Small-group discussion / problem set on cryptography fundamentals"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cryptography fundamentals?",
+              "type": "short_answer",
+              "answer": "Encryption, hashing, and digital signatures that protect data and identity."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cryptography fundamentals to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Encryption, hashing, and digital signatures that protect data and identity.",
+            "tip": "Review cryptography fundamentals before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cryptography fundamentals?",
+                "options": [
+                  "Encryption, hashing, and digital signatures that protect data and identity.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Encryption, hashing, and digital signatures that protect data and identity."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cryptography fundamentals",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cryptography+Fundamentals"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cryptography+Fundamentals+Cybersecurity+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Operating System Security' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Design a mini-project applying 'Cryptography Fundamentals' to a real dataset, case, or scenario relevant to cybersecurity.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of Cybersecurity."
+      ],
+      "real_world_examples": [
+        "How 'Operating System Security' shows up in real-world cybersecurity practice: Hardening, permissions, and security models in modern operating systems.",
+        "How 'Cryptography Fundamentals' shows up in real-world cybersecurity practice: Encryption, hashing, and digital signatures that protect data and identity."
+      ],
+      "learning_path": "At College Level 2, Cybersecurity progresses through Operating System Security, Cryptography Fundamentals. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Operating+System+Security+Cybersecurity",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Operating+System+Security+Cybersecurity",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Operating+System+Security+Cybersecurity",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Operating+System+Security+Cybersecurity",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Operating+System+Security+Cybersecurity",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Operating+System+Security+Cybersecurity",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Operating+System+Security+Cybersecurity+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Cloud Computing": {
+      "books": [
+        {
+          "id": "cloud-computing-c2-book1",
+          "title": "Cloud Computing: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Virtualization+%26+Containers",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Virtualization & Containers — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Virtualization+%26+Containers+Cloud+Computing+lecture",
+          "description": "Curated video search for virtualization & containers at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Cloud Computing reference: Virtualization & Containers",
+          "url": "https://www.coursera.org/search?query=Virtualization+%26+Containers",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Virtualization & Containers' module?",
+          "type": "multiple_choice",
+          "options": [
+            "How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "How virtual machines and containers (e.g. Docker) isolate and package workloads."
+        },
+        {
+          "question": "What is the focus of the 'Cloud Storage Solutions' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Object, block, and file storage trade-offs in the cloud.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Object, block, and file storage trade-offs in the cloud."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Virtualization & Containers.",
+            "type": "short_answer",
+            "answer": "How virtual machines and containers (e.g. Docker) isolate and package workloads."
+          },
+          {
+            "question": "Briefly explain: Cloud Storage Solutions.",
+            "type": "short_answer",
+            "answer": "Object, block, and file storage trade-offs in the cloud."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "Cloud Computing College Level 2 Companion",
+          "url": "https://www.coursera.org/search?query=Virtualization+%26+Containers",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "cloud-computing-c2-l1",
+          "title": "Virtualization & Containers",
+          "unit": "Virtualization & Containers",
+          "level": "C2",
+          "subject": "Cloud Computing",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of virtualization & containers at College Level 2 depth.",
+            "Apply virtualization & containers concepts to worked examples and problems.",
+            "Critically discuss how virtualization & containers connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+          "key_concepts": [
+            "Virtualization",
+            "Containers"
+          ],
+          "practical_activities": [
+            "Guided worked example on virtualization & containers",
+            "Small-group discussion / problem set on virtualization & containers"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind virtualization & containers?",
+              "type": "short_answer",
+              "answer": "How virtual machines and containers (e.g. Docker) isolate and package workloads."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting virtualization & containers to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+            "tip": "Review virtualization & containers before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes virtualization & containers?",
+                "options": [
+                  "How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "How virtual machines and containers (e.g. Docker) isolate and package workloads."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands virtualization & containers",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Virtualization+%26+Containers"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Virtualization+%26+Containers+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "cloud-computing-c2-l2",
+          "title": "Cloud Storage Solutions",
+          "unit": "Cloud Storage Solutions",
+          "level": "C2",
+          "subject": "Cloud Computing",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of cloud storage solutions at College Level 2 depth.",
+            "Apply cloud storage solutions concepts to worked examples and problems.",
+            "Critically discuss how cloud storage solutions connects to real-world practice in cloud computing."
+          ],
+          "reading_material": "Object, block, and file storage trade-offs in the cloud.",
+          "key_concepts": [
+            "Cloud",
+            "Storage",
+            "Solutions"
+          ],
+          "practical_activities": [
+            "Guided worked example on cloud storage solutions",
+            "Small-group discussion / problem set on cloud storage solutions"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind cloud storage solutions?",
+              "type": "short_answer",
+              "answer": "Object, block, and file storage trade-offs in the cloud."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting cloud storage solutions to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Object, block, and file storage trade-offs in the cloud.",
+            "tip": "Review cloud storage solutions before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes cloud storage solutions?",
+                "options": [
+                  "Object, block, and file storage trade-offs in the cloud.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Object, block, and file storage trade-offs in the cloud."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands cloud storage solutions",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Cloud+Storage+Solutions"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Cloud+Storage+Solutions+Cloud+Computing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Virtualization & Containers' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Design a mini-project applying 'Cloud Storage Solutions' to a real dataset, case, or scenario relevant to cloud computing.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of Cloud Computing."
+      ],
+      "real_world_examples": [
+        "How 'Virtualization & Containers' shows up in real-world cloud computing practice: How virtual machines and containers (e.g. Docker) isolate and package workloads.",
+        "How 'Cloud Storage Solutions' shows up in real-world cloud computing practice: Object, block, and file storage trade-offs in the cloud."
+      ],
+      "learning_path": "At College Level 2, Cloud Computing progresses through Virtualization & Containers, Cloud Storage Solutions. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Virtualization+%26+Containers+Cloud+Computing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Virtualization+%26+Containers+Cloud+Computing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Digital Marketing": {
+      "books": [
+        {
+          "id": "digital-marketing-c2-book1",
+          "title": "Digital Marketing: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Content+Marketing+Strategy",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Content Marketing Strategy — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Content+Marketing+Strategy+Digital+Marketing+lecture",
+          "description": "Curated video search for content marketing strategy at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Digital Marketing reference: Content Marketing Strategy",
+          "url": "https://www.coursera.org/search?query=Content+Marketing+Strategy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Content Marketing Strategy' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Planning and creating content that attracts and retains an audience.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Planning and creating content that attracts and retains an audience."
+        },
+        {
+          "question": "What is the focus of the 'Social Media Marketing' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Building and engaging an audience across social platforms.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Building and engaging an audience across social platforms."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Content Marketing Strategy.",
+            "type": "short_answer",
+            "answer": "Planning and creating content that attracts and retains an audience."
+          },
+          {
+            "question": "Briefly explain: Social Media Marketing.",
+            "type": "short_answer",
+            "answer": "Building and engaging an audience across social platforms."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "Digital Marketing College Level 2 Companion",
+          "url": "https://www.coursera.org/search?query=Content+Marketing+Strategy",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Planning and creating content that attracts and retains an audience.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "digital-marketing-c2-l1",
+          "title": "Content Marketing Strategy",
+          "unit": "Content Marketing Strategy",
+          "level": "C2",
+          "subject": "Digital Marketing",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of content marketing strategy at College Level 2 depth.",
+            "Apply content marketing strategy concepts to worked examples and problems.",
+            "Critically discuss how content marketing strategy connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Planning and creating content that attracts and retains an audience.",
+          "key_concepts": [
+            "Content",
+            "Marketing",
+            "Strategy"
+          ],
+          "practical_activities": [
+            "Guided worked example on content marketing strategy",
+            "Small-group discussion / problem set on content marketing strategy"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind content marketing strategy?",
+              "type": "short_answer",
+              "answer": "Planning and creating content that attracts and retains an audience."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting content marketing strategy to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Planning and creating content that attracts and retains an audience.",
+            "tip": "Review content marketing strategy before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes content marketing strategy?",
+                "options": [
+                  "Planning and creating content that attracts and retains an audience.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Planning and creating content that attracts and retains an audience."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands content marketing strategy",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Content+Marketing+Strategy"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Content+Marketing+Strategy+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "digital-marketing-c2-l2",
+          "title": "Social Media Marketing",
+          "unit": "Social Media Marketing",
+          "level": "C2",
+          "subject": "Digital Marketing",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of social media marketing at College Level 2 depth.",
+            "Apply social media marketing concepts to worked examples and problems.",
+            "Critically discuss how social media marketing connects to real-world practice in digital marketing."
+          ],
+          "reading_material": "Building and engaging an audience across social platforms.",
+          "key_concepts": [
+            "Social",
+            "Media",
+            "Marketing"
+          ],
+          "practical_activities": [
+            "Guided worked example on social media marketing",
+            "Small-group discussion / problem set on social media marketing"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind social media marketing?",
+              "type": "short_answer",
+              "answer": "Building and engaging an audience across social platforms."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting social media marketing to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Building and engaging an audience across social platforms.",
+            "tip": "Review social media marketing before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes social media marketing?",
+                "options": [
+                  "Building and engaging an audience across social platforms.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Building and engaging an audience across social platforms."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands social media marketing",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Social+Media+Marketing"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Social+Media+Marketing+Digital+Marketing+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Content Marketing Strategy' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Design a mini-project applying 'Social Media Marketing' to a real dataset, case, or scenario relevant to digital marketing.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of Digital Marketing."
+      ],
+      "real_world_examples": [
+        "How 'Content Marketing Strategy' shows up in real-world digital marketing practice: Planning and creating content that attracts and retains an audience.",
+        "How 'Social Media Marketing' shows up in real-world digital marketing practice: Building and engaging an audience across social platforms."
+      ],
+      "learning_path": "At College Level 2, Digital Marketing progresses through Content Marketing Strategy, Social Media Marketing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Content+Marketing+Strategy+Digital+Marketing",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Content+Marketing+Strategy+Digital+Marketing+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "UI/UX Design": {
+      "books": [
+        {
+          "id": "ui/ux-design-c2-book1",
+          "title": "UI/UX Design: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Information+Architecture",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Information Architecture — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Information+Architecture+UI%2FUX+Design+lecture",
+          "description": "Curated video search for information architecture at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "UI/UX Design reference: Information Architecture",
+          "url": "https://www.coursera.org/search?query=Information+Architecture",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Information Architecture' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Organizing content and navigation so users can find what they need.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Organizing content and navigation so users can find what they need."
+        },
+        {
+          "question": "What is the focus of the 'Wireframing & Prototyping' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Sketching and testing interface ideas before writing code.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Sketching and testing interface ideas before writing code."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Information Architecture.",
+            "type": "short_answer",
+            "answer": "Organizing content and navigation so users can find what they need."
+          },
+          {
+            "question": "Briefly explain: Wireframing & Prototyping.",
+            "type": "short_answer",
+            "answer": "Sketching and testing interface ideas before writing code."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "UI/UX Design College Level 2 Companion",
+          "url": "https://www.coursera.org/search?query=Information+Architecture",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Organizing content and navigation so users can find what they need.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "ui/ux-design-c2-l1",
+          "title": "Information Architecture",
+          "unit": "Information Architecture",
+          "level": "C2",
+          "subject": "UI/UX Design",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of information architecture at College Level 2 depth.",
+            "Apply information architecture concepts to worked examples and problems.",
+            "Critically discuss how information architecture connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Organizing content and navigation so users can find what they need.",
+          "key_concepts": [
+            "Information",
+            "Architecture"
+          ],
+          "practical_activities": [
+            "Guided worked example on information architecture",
+            "Small-group discussion / problem set on information architecture"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind information architecture?",
+              "type": "short_answer",
+              "answer": "Organizing content and navigation so users can find what they need."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting information architecture to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Organizing content and navigation so users can find what they need.",
+            "tip": "Review information architecture before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes information architecture?",
+                "options": [
+                  "Organizing content and navigation so users can find what they need.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Organizing content and navigation so users can find what they need."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands information architecture",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Information+Architecture"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Information+Architecture+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "ui/ux-design-c2-l2",
+          "title": "Wireframing & Prototyping",
+          "unit": "Wireframing & Prototyping",
+          "level": "C2",
+          "subject": "UI/UX Design",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of wireframing & prototyping at College Level 2 depth.",
+            "Apply wireframing & prototyping concepts to worked examples and problems.",
+            "Critically discuss how wireframing & prototyping connects to real-world practice in ui/ux design."
+          ],
+          "reading_material": "Sketching and testing interface ideas before writing code.",
+          "key_concepts": [
+            "Wireframing",
+            "Prototyping"
+          ],
+          "practical_activities": [
+            "Guided worked example on wireframing & prototyping",
+            "Small-group discussion / problem set on wireframing & prototyping"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind wireframing & prototyping?",
+              "type": "short_answer",
+              "answer": "Sketching and testing interface ideas before writing code."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting wireframing & prototyping to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Sketching and testing interface ideas before writing code.",
+            "tip": "Review wireframing & prototyping before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes wireframing & prototyping?",
+                "options": [
+                  "Sketching and testing interface ideas before writing code.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Sketching and testing interface ideas before writing code."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands wireframing & prototyping",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Wireframing+%26+Prototyping"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Wireframing+%26+Prototyping+UI%2FUX+Design+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Information Architecture' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Design a mini-project applying 'Wireframing & Prototyping' to a real dataset, case, or scenario relevant to ui/ux design.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of UI/UX Design."
+      ],
+      "real_world_examples": [
+        "How 'Information Architecture' shows up in real-world ui/ux design practice: Organizing content and navigation so users can find what they need.",
+        "How 'Wireframing & Prototyping' shows up in real-world ui/ux design practice: Sketching and testing interface ideas before writing code."
+      ],
+      "learning_path": "At College Level 2, UI/UX Design progresses through Information Architecture, Wireframing & Prototyping. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Information+Architecture+UI%2FUX+Design",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Information+Architecture+UI%2FUX+Design",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Information+Architecture+UI%2FUX+Design",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Information+Architecture+UI%2FUX+Design",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Information+Architecture+UI%2FUX+Design",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Information+Architecture+UI%2FUX+Design",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Information+Architecture+UI%2FUX+Design+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
+    },
+    "Project Management": {
+      "books": [
+        {
+          "id": "project-management-c2-book1",
+          "title": "Project Management: College Level 2 Reader",
+          "author": "Curated open resource",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.coursera.org/search?query=Scope+Management",
+          "rating": 4.5,
+          "country": "International",
+          "paid": false,
+          "safe": true,
+          "source": "Curated open-access curriculum resource"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Scope Management — College Level 2 overview",
+          "url": "https://www.youtube.com/results?search_query=Scope+Management+Project+Management+lecture",
+          "description": "Curated video search for scope management at College Level 2.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Project Management reference: Scope Management",
+          "url": "https://www.coursera.org/search?query=Scope+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the focus of the 'Scope Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Defining and controlling what is -- and isn't -- part of a project.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Defining and controlling what is -- and isn't -- part of a project."
+        },
+        {
+          "question": "What is the focus of the 'Time & Schedule Management' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Building and tracking realistic project schedules.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Building and tracking realistic project schedules."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Briefly explain: Scope Management.",
+            "type": "short_answer",
+            "answer": "Defining and controlling what is -- and isn't -- part of a project."
+          },
+          {
+            "question": "Briefly explain: Time & Schedule Management.",
+            "type": "short_answer",
+            "answer": "Building and tracking realistic project schedules."
+          }
+        ],
+        "passing_score": 62
+      },
+      "textbooks": [
+        {
+          "title": "Project Management College Level 2 Companion",
+          "url": "https://www.coursera.org/search?query=Scope+Management",
+          "source": "Curated open resource",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Defining and controlling what is -- and isn't -- part of a project.",
+          "safe": true
+        }
+      ],
+      "news_resources": [],
+      "lessons": [
+        {
+          "id": "project-management-c2-l1",
+          "title": "Scope Management",
+          "unit": "Scope Management",
+          "level": "C2",
+          "subject": "Project Management",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of scope management at College Level 2 depth.",
+            "Apply scope management concepts to worked examples and problems.",
+            "Critically discuss how scope management connects to real-world practice in project management."
+          ],
+          "reading_material": "Defining and controlling what is -- and isn't -- part of a project.",
+          "key_concepts": [
+            "Scope",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on scope management",
+            "Small-group discussion / problem set on scope management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind scope management?",
+              "type": "short_answer",
+              "answer": "Defining and controlling what is -- and isn't -- part of a project."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting scope management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Defining and controlling what is -- and isn't -- part of a project.",
+            "tip": "Review scope management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes scope management?",
+                "options": [
+                  "Defining and controlling what is -- and isn't -- part of a project.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Defining and controlling what is -- and isn't -- part of a project."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands scope management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Scope+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Scope+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "project-management-c2-l2",
+          "title": "Time & Schedule Management",
+          "unit": "Time & Schedule Management",
+          "level": "C2",
+          "subject": "Project Management",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of time & schedule management at College Level 2 depth.",
+            "Apply time & schedule management concepts to worked examples and problems.",
+            "Critically discuss how time & schedule management connects to real-world practice in project management."
+          ],
+          "reading_material": "Building and tracking realistic project schedules.",
+          "key_concepts": [
+            "Time",
+            "Schedule",
+            "Management"
+          ],
+          "practical_activities": [
+            "Guided worked example on time & schedule management",
+            "Small-group discussion / problem set on time & schedule management"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind time & schedule management?",
+              "type": "short_answer",
+              "answer": "Building and tracking realistic project schedules."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting time & schedule management to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Building and tracking realistic project schedules.",
+            "tip": "Review time & schedule management before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes time & schedule management?",
+                "options": [
+                  "Building and tracking realistic project schedules.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Building and tracking realistic project schedules."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands time & schedule management",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://www.coursera.org/search?query=Time+%26+Schedule+Management"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Time+%26+Schedule+Management+Project+Management+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        }
+      ],
+      "project_ideas": [
+        "Design a mini-project applying 'Scope Management' to a real dataset, case, or scenario relevant to project management.",
+        "Design a mini-project applying 'Time & Schedule Management' to a real dataset, case, or scenario relevant to project management.",
+        "Prepare a college level 2 presentation comparing two modules covered in this level of Project Management."
+      ],
+      "real_world_examples": [
+        "How 'Scope Management' shows up in real-world project management practice: Defining and controlling what is -- and isn't -- part of a project.",
+        "How 'Time & Schedule Management' shows up in real-world project management practice: Building and tracking realistic project schedules."
+      ],
+      "learning_path": "At College Level 2, Project Management progresses through Scope Management, Time & Schedule Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Scope+Management+Project+Management",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Scope+Management+Project+Management",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Scope+Management+Project+Management",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Scope+Management+Project+Management",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Scope+Management+Project+Management",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Scope+Management+Project+Management",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Scope+Management+Project+Management+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Math": {
       "books": [
@@ -1497,7 +3480,51 @@
         "How 'Building on Calculus' shows up in real-world math practice: Building on Calculus is an intermediate college-level module in Math, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Statistics & Probability' shows up in real-world math practice: Building on Statistics & Probability extends Math at College Level 2, connecting statistics & probability to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Math progresses through Building on Calculus, Building on Statistics & Probability. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Math progresses through Building on Calculus, Building on Statistics & Probability. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Calculus+Math",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Calculus+Math",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Calculus+Math",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Calculus+Math",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Calculus+Math",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Calculus+Math",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Calculus+Math+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -1748,7 +3775,51 @@
         "How 'Building on Literary Analysis' shows up in real-world english practice: Building on Literary Analysis is an intermediate college-level module in English, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Academic Writing' shows up in real-world english practice: Building on Academic Writing extends English at College Level 2, connecting academic writing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, English progresses through Building on Literary Analysis, Building on Academic Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, English progresses through Building on Literary Analysis, Building on Academic Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Literary+Analysis+English",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Literary+Analysis+English",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Literary+Analysis+English",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Literary+Analysis+English",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Literary+Analysis+English",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Literary+Analysis+English",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Literary+Analysis+English+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [
@@ -2000,7 +4071,51 @@
         "How 'Building on Earth & Space Science' shows up in real-world science practice: Building on Earth & Space Science is an intermediate college-level module in Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Life Science' shows up in real-world science practice: Building on Life Science extends Science at College Level 2, connecting life science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Science progresses through Building on Earth & Space Science, Building on Life Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Science progresses through Building on Earth & Space Science, Building on Life Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Earth+%26+Space+Science+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Earth+%26+Space+Science+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Earth+%26+Space+Science+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Earth+%26+Space+Science+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Earth+%26+Space+Science+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Earth+%26+Space+Science+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Earth+%26+Space+Science+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [
@@ -2251,7 +4366,51 @@
         "How 'Building on Human Geography' shows up in real-world geography practice: Building on Human Geography is an intermediate college-level module in Geography, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Geopolitics & Globalization' shows up in real-world geography practice: Building on Geopolitics & Globalization extends Geography at College Level 2, connecting geopolitics & globalization to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Geography progresses through Building on Human Geography, Building on Geopolitics & Globalization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Geography progresses through Building on Human Geography, Building on Geopolitics & Globalization. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Human+Geography+Geography",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Human+Geography+Geography",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Human+Geography+Geography",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Human+Geography+Geography",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Human+Geography+Geography",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Human+Geography+Geography",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Human+Geography+Geography+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [
@@ -2505,7 +4664,51 @@
         "How 'Building on Medieval & Early Modern History' shows up in real-world world history practice: Building on Medieval & Early Modern History is an intermediate college-level module in World History, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Modern World History' shows up in real-world world history practice: Building on Modern World History extends World History at College Level 2, connecting modern world history to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, World History progresses through Building on Medieval & Early Modern History, Building on Modern World History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, World History progresses through Building on Medieval & Early Modern History, Building on Modern World History. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Medieval+%26+Early+Modern+History+World+History",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Medieval+%26+Early+Modern+History+World+History+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [
@@ -2758,7 +4961,51 @@
         "How 'Building on Islamic History & Civilization' shows up in real-world islamic studies practice: Building on Islamic History & Civilization is an intermediate college-level module in Islamic Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Islamic Ethics & Jurisprudence' shows up in real-world islamic studies practice: Building on Islamic Ethics & Jurisprudence extends Islamic Studies at College Level 2, connecting islamic ethics & jurisprudence to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Islamic Studies progresses through Building on Islamic History & Civilization, Building on Islamic Ethics & Jurisprudence. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Islamic Studies progresses through Building on Islamic History & Civilization, Building on Islamic Ethics & Jurisprudence. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Islamic+History+%26+Civilization+Islamic+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Islamic+History+%26+Civilization+Islamic+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [
@@ -3011,7 +5258,51 @@
         "How 'Building on Data Structures & Algorithms' shows up in real-world coding practice: Building on Data Structures & Algorithms is an intermediate college-level module in Coding, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Software Engineering Practice' shows up in real-world coding practice: Building on Software Engineering Practice extends Coding at College Level 2, connecting software engineering practice to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Coding progresses through Building on Data Structures & Algorithms, Building on Software Engineering Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Coding progresses through Building on Data Structures & Algorithms, Building on Software Engineering Practice. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Data+Structures+%26+Algorithms+Coding",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Data+Structures+%26+Algorithms+Coding+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -3264,7 +5555,51 @@
         "How 'Building on Modern & Contemporary Literature' shows up in real-world world literature practice: Building on Modern & Contemporary Literature is an intermediate college-level module in World Literature, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Literary Theory & Criticism' shows up in real-world world literature practice: Building on Literary Theory & Criticism extends World Literature at College Level 2, connecting literary theory & criticism to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, World Literature progresses through Building on Modern & Contemporary Literature, Building on Literary Theory & Criticism. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, World Literature progresses through Building on Modern & Contemporary Literature, Building on Literary Theory & Criticism. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Modern+%26+Contemporary+Literature+World+Literature",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Modern+%26+Contemporary+Literature+World+Literature+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [
@@ -3515,7 +5850,51 @@
         "How 'Building on Art History' shows up in real-world art practice: Building on Art History is an intermediate college-level module in Art, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Design & Visual Communication' shows up in real-world art practice: Building on Design & Visual Communication extends Art at College Level 2, connecting design & visual communication to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Art progresses through Building on Art History, Building on Design & Visual Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Art progresses through Building on Art History, Building on Design & Visual Communication. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Art+History+Art",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Art+History+Art",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Art+History+Art",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Art+History+Art",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Art+History+Art",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Art+History+Art",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Art+History+Art+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Music": {
       "books": [
@@ -3766,7 +6145,51 @@
         "How 'Building on Music History' shows up in real-world music practice: Building on Music History is an intermediate college-level module in Music, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Performance & Ear Training' shows up in real-world music practice: Building on Performance & Ear Training extends Music at College Level 2, connecting performance & ear training to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Music progresses through Building on Music History, Building on Performance & Ear Training. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Music progresses through Building on Music History, Building on Performance & Ear Training. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Music+History+Music",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Music+History+Music",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Music+History+Music",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Music+History+Music",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Music+History+Music",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Music+History+Music",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Music+History+Music+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Survival Skills": {
       "books": [
@@ -4019,7 +6442,51 @@
         "How 'Building on Wilderness First Response' shows up in real-world survival skills practice: Building on Wilderness First Response is an intermediate college-level module in Survival Skills, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Navigation & Resource Management' shows up in real-world survival skills practice: Building on Navigation & Resource Management extends Survival Skills at College Level 2, connecting navigation & resource management to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Survival Skills progresses through Building on Wilderness First Response, Building on Navigation & Resource Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Survival Skills progresses through Building on Wilderness First Response, Building on Navigation & Resource Management. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Wilderness+First+Response+Survival+Skills",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Wilderness+First+Response+Survival+Skills+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Cooking": {
       "books": [
@@ -4271,7 +6738,51 @@
         "How 'Building on Global Cuisines' shows up in real-world cooking practice: Building on Global Cuisines is an intermediate college-level module in Cooking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Nutrition & Menu Design' shows up in real-world cooking practice: Building on Nutrition & Menu Design extends Cooking at College Level 2, connecting nutrition & menu design to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Cooking progresses through Building on Global Cuisines, Building on Nutrition & Menu Design. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Cooking progresses through Building on Global Cuisines, Building on Nutrition & Menu Design. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Global+Cuisines+Cooking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Global+Cuisines+Cooking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Global+Cuisines+Cooking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Global+Cuisines+Cooking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Global+Cuisines+Cooking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Global+Cuisines+Cooking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Global+Cuisines+Cooking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Foreign Languages": {
       "books": [
@@ -4524,7 +7035,51 @@
         "How 'Building on Intermediate Grammar & Conversation' shows up in real-world foreign languages practice: Building on Intermediate Grammar & Conversation is an intermediate college-level module in Foreign Languages, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Advanced Reading & Writing' shows up in real-world foreign languages practice: Building on Advanced Reading & Writing extends Foreign Languages at College Level 2, connecting advanced reading & writing to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Foreign Languages progresses through Building on Intermediate Grammar & Conversation, Building on Advanced Reading & Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Foreign Languages progresses through Building on Intermediate Grammar & Conversation, Building on Advanced Reading & Writing. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Intermediate+Grammar+%26+Conversation+Foreign+Languages+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "General Knowledge": {
       "books": [
@@ -4777,7 +7332,51 @@
         "How 'Building on Global Institutions & Systems' shows up in real-world general knowledge practice: Building on Global Institutions & Systems is an intermediate college-level module in General Knowledge, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Media & Information Literacy' shows up in real-world general knowledge practice: Building on Media & Information Literacy extends General Knowledge at College Level 2, connecting media & information literacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, General Knowledge progresses through Building on Global Institutions & Systems, Building on Media & Information Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, General Knowledge progresses through Building on Global Institutions & Systems, Building on Media & Information Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Global+Institutions+%26+Systems+General+Knowledge",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Global+Institutions+%26+Systems+General+Knowledge+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Social Studies": {
       "books": [
@@ -5029,7 +7628,51 @@
         "How 'Building on Culture & Identity' shows up in real-world social studies practice: Building on Culture & Identity is an intermediate college-level module in Social Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Comparative Social Systems' shows up in real-world social studies practice: Building on Comparative Social Systems extends Social Studies at College Level 2, connecting comparative social systems to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Social Studies progresses through Building on Culture & Identity, Building on Comparative Social Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Social Studies progresses through Building on Culture & Identity, Building on Comparative Social Systems. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Culture+%26+Identity+Social+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Culture+%26+Identity+Social+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Environmental Science": {
       "books": [
@@ -5280,7 +7923,51 @@
         "How 'Building on Climate Science' shows up in real-world environmental science practice: Building on Climate Science is an intermediate college-level module in Environmental Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Environmental Policy' shows up in real-world environmental science practice: Building on Environmental Policy extends Environmental Science at College Level 2, connecting environmental policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Environmental Science progresses through Building on Climate Science, Building on Environmental Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Environmental Science progresses through Building on Climate Science, Building on Environmental Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Climate+Science+Environmental+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Climate+Science+Environmental+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Climate+Science+Environmental+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Climate+Science+Environmental+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Climate+Science+Environmental+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Climate+Science+Environmental+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Climate+Science+Environmental+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physical Education & Self-Defense": {
       "books": [
@@ -5532,7 +8219,51 @@
         "How 'Building on Applied Self-Defense Technique' shows up in real-world physical education & self-defense practice: Building on Applied Self-Defense Technique is an intermediate college-level module in Physical Education & Self-Defense, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Sports Science' shows up in real-world physical education & self-defense practice: Building on Sports Science extends Physical Education & Self-Defense at College Level 2, connecting sports science to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Physical Education & Self-Defense progresses through Building on Applied Self-Defense Technique, Building on Sports Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Physical Education & Self-Defense progresses through Building on Applied Self-Defense Technique, Building on Sports Science. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Applied+Self-Defense+Technique+Physical+Education+%26+Self-Defense+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Economics": {
       "books": [
@@ -5784,7 +8515,51 @@
         "How 'Building on Macroeconomics Fundamentals' shows up in real-world economics practice: Building on Macroeconomics Fundamentals is an intermediate college-level module in Economics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Applied & Behavioural Economics' shows up in real-world economics practice: Building on Applied & Behavioural Economics extends Economics at College Level 2, connecting applied & behavioural economics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Economics progresses through Building on Macroeconomics Fundamentals, Building on Applied & Behavioural Economics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Economics progresses through Building on Macroeconomics Fundamentals, Building on Applied & Behavioural Economics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Macroeconomics+Fundamentals+Economics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Macroeconomics+Fundamentals+Economics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Finance": {
       "books": [
@@ -6036,7 +8811,51 @@
         "How 'Building on Corporate Finance' shows up in real-world finance practice: Building on Corporate Finance is an intermediate college-level module in Finance, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Investment & Portfolio Theory' shows up in real-world finance practice: Building on Investment & Portfolio Theory extends Finance at College Level 2, connecting investment & portfolio theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Finance progresses through Building on Corporate Finance, Building on Investment & Portfolio Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Finance progresses through Building on Corporate Finance, Building on Investment & Portfolio Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Corporate+Finance+Finance",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Corporate+Finance+Finance",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Corporate+Finance+Finance",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Corporate+Finance+Finance",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Corporate+Finance+Finance",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Corporate+Finance+Finance",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Corporate+Finance+Finance+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "First Aid": {
       "books": [
@@ -6289,7 +9108,51 @@
         "How 'Building on Emergency Response Protocols' shows up in real-world first aid practice: Building on Emergency Response Protocols is an intermediate college-level module in First Aid, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Wilderness & Remote Medicine' shows up in real-world first aid practice: Building on Wilderness & Remote Medicine extends First Aid at College Level 2, connecting wilderness & remote medicine to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, First Aid progresses through Building on Emergency Response Protocols, Building on Wilderness & Remote Medicine. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, First Aid progresses through Building on Emergency Response Protocols, Building on Wilderness & Remote Medicine. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Emergency+Response+Protocols+First+Aid",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Emergency+Response+Protocols+First+Aid+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Physics": {
       "books": [
@@ -6542,7 +9405,51 @@
         "How 'Building on Electricity, Magnetism & Waves' shows up in real-world physics practice: Building on Electricity, Magnetism & Waves is an intermediate college-level module in Physics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Modern & Quantum Physics' shows up in real-world physics practice: Building on Modern & Quantum Physics extends Physics at College Level 2, connecting modern & quantum physics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Physics progresses through Building on Electricity, Magnetism & Waves, Building on Modern & Quantum Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Physics progresses through Building on Electricity, Magnetism & Waves, Building on Modern & Quantum Physics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Electricity%2C+Magnetism+%26+Waves+Physics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Chemistry": {
       "books": [
@@ -6793,7 +9700,51 @@
         "How 'Building on Organic Chemistry' shows up in real-world chemistry practice: Building on Organic Chemistry is an intermediate college-level module in Chemistry, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Physical Chemistry' shows up in real-world chemistry practice: Building on Physical Chemistry extends Chemistry at College Level 2, connecting physical chemistry to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Chemistry progresses through Building on Organic Chemistry, Building on Physical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Chemistry progresses through Building on Organic Chemistry, Building on Physical Chemistry. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Organic+Chemistry+Chemistry",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Organic+Chemistry+Chemistry",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Organic+Chemistry+Chemistry",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Organic+Chemistry+Chemistry",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Organic+Chemistry+Chemistry",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Organic+Chemistry+Chemistry",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Organic+Chemistry+Chemistry+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Biology": {
       "books": [
@@ -7044,7 +9995,51 @@
         "How 'Building on Genetics & Evolution' shows up in real-world biology practice: Building on Genetics & Evolution is an intermediate college-level module in Biology, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Physiology & Anatomy' shows up in real-world biology practice: Building on Physiology & Anatomy extends Biology at College Level 2, connecting physiology & anatomy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Biology progresses through Building on Genetics & Evolution, Building on Physiology & Anatomy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Biology progresses through Building on Genetics & Evolution, Building on Physiology & Anatomy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Genetics+%26+Evolution+Biology",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Genetics+%26+Evolution+Biology+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Philosophy": {
       "books": [
@@ -7296,7 +10291,51 @@
         "How 'Building on Ethics & Political Philosophy' shows up in real-world philosophy practice: Building on Ethics & Political Philosophy is an intermediate college-level module in Philosophy, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Epistemology & Metaphysics' shows up in real-world philosophy practice: Building on Epistemology & Metaphysics extends Philosophy at College Level 2, connecting epistemology & metaphysics to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Philosophy progresses through Building on Ethics & Political Philosophy, Building on Epistemology & Metaphysics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Philosophy progresses through Building on Ethics & Political Philosophy, Building on Epistemology & Metaphysics. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Ethics+%26+Political+Philosophy+Philosophy",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Ethics+%26+Political+Philosophy+Philosophy+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Critical Thinking": {
       "books": [
@@ -7550,7 +10589,51 @@
         "How 'Building on Cognitive Bias & Fallacies' shows up in real-world critical thinking practice: Building on Cognitive Bias & Fallacies is an intermediate college-level module in Critical Thinking, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Evidence Evaluation & Research Literacy' shows up in real-world critical thinking practice: Building on Evidence Evaluation & Research Literacy extends Critical Thinking at College Level 2, connecting evidence evaluation & research literacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Critical Thinking progresses through Building on Cognitive Bias & Fallacies, Building on Evidence Evaluation & Research Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Critical Thinking progresses through Building on Cognitive Bias & Fallacies, Building on Evidence Evaluation & Research Literacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Cognitive+Bias+%26+Fallacies+Critical+Thinking+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Civics": {
       "books": [
@@ -7803,7 +10886,51 @@
         "How 'Building on Rights, Law & Institutions' shows up in real-world civics practice: Building on Rights, Law & Institutions is an intermediate college-level module in Civics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Civic Participation & Public Policy' shows up in real-world civics practice: Building on Civic Participation & Public Policy extends Civics at College Level 2, connecting civic participation & public policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Civics progresses through Building on Rights, Law & Institutions, Building on Civic Participation & Public Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Civics progresses through Building on Rights, Law & Institutions, Building on Civic Participation & Public Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Rights%2C+Law+%26+Institutions+Civics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Rights%2C+Law+%26+Institutions+Civics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Health Education": {
       "books": [
@@ -8056,7 +11183,51 @@
         "How 'Building on Public Health Fundamentals' shows up in real-world health education practice: Building on Public Health Fundamentals is an intermediate college-level module in Health Education, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Health Systems & Policy' shows up in real-world health education practice: Building on Health Systems & Policy extends Health Education at College Level 2, connecting health systems & policy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Health Education progresses through Building on Public Health Fundamentals, Building on Health Systems & Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Health Education progresses through Building on Public Health Fundamentals, Building on Health Systems & Policy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Public+Health+Fundamentals+Health+Education",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Public+Health+Fundamentals+Health+Education+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "Business Studies": {
       "books": [
@@ -8308,7 +11479,51 @@
         "How 'Building on Management & Organizational Behaviour' shows up in real-world business studies practice: Building on Management & Organizational Behaviour is an intermediate college-level module in Business Studies, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Strategy & Entrepreneurship' shows up in real-world business studies practice: Building on Strategy & Entrepreneurship extends Business Studies at College Level 2, connecting strategy & entrepreneurship to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, Business Studies progresses through Building on Management & Organizational Behaviour, Building on Strategy & Entrepreneurship. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, Business Studies progresses through Building on Management & Organizational Behaviour, Building on Strategy & Entrepreneurship. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Management+%26+Organizational+Behaviour+Business+Studies",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Management+%26+Organizational+Behaviour+Business+Studies+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "World Politics": {
       "books": [
@@ -8561,7 +11776,51 @@
         "How 'Building on Comparative Political Systems' shows up in real-world world politics practice: Building on Comparative Political Systems is an intermediate college-level module in World Politics, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Global Governance & Diplomacy' shows up in real-world world politics practice: Building on Global Governance & Diplomacy extends World Politics at College Level 2, connecting global governance & diplomacy to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, World Politics progresses through Building on Comparative Political Systems, Building on Global Governance & Diplomacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, World Politics progresses through Building on Comparative Political Systems, Building on Global Governance & Diplomacy. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Comparative+Political+Systems+World+Politics",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Comparative+Political+Systems+World+Politics+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     },
     "ICT & Computer Science": {
       "books": [
@@ -8813,7 +12072,51 @@
         "How 'Building on Networks & Databases' shows up in real-world ict & computer science practice: Building on Networks & Databases is an intermediate college-level module in ICT & Computer Science, deepening prior levels with more rigorous theory, worked examples, and assessment matched to College Level 2.",
         "How 'Building on Computer Science Theory' shows up in real-world ict & computer science practice: Building on Computer Science Theory extends ICT & Computer Science at College Level 2, connecting computer science theory to practical problems, projects, and real-world case studies."
       ],
-      "learning_path": "At College Level 2, ICT & Computer Science progresses through Building on Networks & Databases, Building on Computer Science Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level."
+      "learning_path": "At College Level 2, ICT & Computer Science progresses through Building on Networks & Databases, Building on Computer Science Theory. Learners should complete modules in order, attempt the quiz after each module, and take the level exam once all modules are complete before advancing to the next level.",
+      "external_courses": [
+        {
+          "title": "Udemy — course search",
+          "url": "https://www.udemy.com/courses/search/?q=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Udemy",
+          "safe": true
+        },
+        {
+          "title": "Coursera — course search",
+          "url": "https://www.coursera.org/search?query=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Coursera",
+          "safe": true
+        },
+        {
+          "title": "edX — course search",
+          "url": "https://www.edx.org/search?q=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "edX",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — search",
+          "url": "https://ocw.mit.edu/search/?q=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Harvard Online — free course search",
+          "url": "https://pll.harvard.edu/catalog?keywords=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Harvard Online Learning",
+          "safe": true
+        },
+        {
+          "title": "Class Central — free course search (aggregates Coursera/edX/MIT/Harvard & more)",
+          "url": "https://www.classcentral.com/search?q=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science",
+          "source": "Class Central",
+          "safe": true
+        },
+        {
+          "title": "Pinterest — study notes & visual resources",
+          "url": "https://www.pinterest.com/search/pins/?q=Building+on+Networks+%26+Databases+ICT+%26+Computer+Science+study+notes",
+          "source": "Pinterest",
+          "safe": true
+        }
+      ]
     }
   }
 }

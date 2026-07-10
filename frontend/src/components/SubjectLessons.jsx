@@ -54,6 +54,15 @@ const LESSON_GROUPS = [
     hasContent: (s, name) => name === 'Coding',
   },
   {
+    id: 'courses',
+    label: 'More Courses',
+    intro:
+      'Keep going with real courses from Udemy, Coursera, edX, MIT OpenCourseWare, Harvard Online, ' +
+      'and Class Central (which aggregates free courses from every major university), plus Pinterest ' +
+      'for visual study notes — all one click away.',
+    hasContent: (s) => s.external_courses?.length,
+  },
+  {
     id: 'practice',
     label: 'Practice',
     intro:
@@ -118,6 +127,9 @@ function LessonContent({ groupId, subject }) {
         </div>
       </>
     );
+  }
+  if (groupId === 'courses') {
+    return <LinkResourceList title="More Courses & Resources" items={subject.external_courses} />;
   }
   if (groupId === 'code') {
     return <CodeEditor defaultLanguage="python" />;
