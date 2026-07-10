@@ -299,6 +299,22 @@
       "description": "Swahili (Kiswahili) is a Bantu language and the lingua franca of East Africa, an official language of the African Union, and widely used in trade, media, and education.",
       "greeting": "Jambo / Habari?",
       "fun_fact": "Swahili has borrowed extensively from Arabic due to centuries of Indian Ocean trade, including words like 'safari' (journey) and 'chai' (tea)."
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi",
+      "native": "سنڌي",
+      "flag": "🇵🇰",
+      "family": "Indo-Aryan",
+      "speakers": "30+ million",
+      "countries": [
+        "Pakistan",
+        "India"
+      ],
+      "alphabet": "Perso-Arabic script in Pakistan (extended with extra letters for implosive sounds); Devanagari also used in India",
+      "description": "Sindhi is spoken mainly in the Sindh province of Pakistan and by Sindhi communities in India, with a literary tradition going back over a thousand years, including the mystic poetry of Shah Abdul Latif Bhittai.",
+      "greeting": "سلام (Salaam) / السلام عليڪم (Assalamu Alaikum)",
+      "fun_fact": "Sindhi's script includes extra letters not found in Arabic or Urdu, created to represent implosive consonants unique to the language."
     }
   ]
 }

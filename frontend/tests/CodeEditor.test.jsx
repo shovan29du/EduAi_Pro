@@ -33,7 +33,7 @@ describe('CodeEditor', () => {
       expect(screen.getByText('Saved!')).toBeInTheDocument();
     });
     expect(global.fetch).toHaveBeenCalledWith(
-      '/api/progress/Aliza',
+      '/api/progress/Parent',
       expect.objectContaining({ method: 'POST' })
     );
   });

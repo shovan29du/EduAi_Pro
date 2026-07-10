@@ -33,7 +33,7 @@ describe('Exam', () => {
       expect(screen.getByText(/Passed/)).toBeInTheDocument();
     });
     expect(global.fetch).toHaveBeenCalledWith(
-      '/api/progress/Aliza',
+      '/api/progress/Parent',
       expect.objectContaining({ method: 'POST' })
     );
   });

@@ -94,7 +94,7 @@ def test_assessment_age_group_not_found():
     assert resp.status_code == 404
 
 
-def test_assessment_submit_aliza():
+def test_assessment_submit_testchildone():
     payload = {
         "age_group": "7-9",
         "answers": {"0-0": 1, "0-1": 1},
@@ -102,7 +102,7 @@ def test_assessment_submit_aliza():
         "total": 5,
         "skills_demonstrated": ["subtraction", "multiplication"]
     }
-    resp = client.post("/api/assessment/Aliza/submit", json=payload)
+    resp = client.post("/api/assessment/TestChildOne/submit", json=payload)
     assert resp.status_code == 200
     body = resp.json()
     assert "score" in body
@@ -241,7 +241,7 @@ def test_ai_tutor_ask_still_works():
 
 
 def test_progress_endpoints_still_work():
-    resp = client.get("/api/progress/Aliza")
+    resp = client.get("/api/progress/TestChildOne")
     assert resp.status_code == 200
 
 

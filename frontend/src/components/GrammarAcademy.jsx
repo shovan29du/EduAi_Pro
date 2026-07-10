@@ -27,6 +27,7 @@ const LANGUAGES = [
   { code: 'bn', label: 'Bangla', flag: '🇧🇩', ttsLang: 'bn' },
   { code: 'ur', label: 'Urdu', flag: '🇵🇰', ttsLang: 'ur' },
   { code: 'sw', label: 'Swahili', flag: '🇰🇪', ttsLang: 'sw' },
+  { code: 'sd', label: 'Sindhi', flag: '🇵🇰', ttsLang: 'sd' },
 ];
 
 export default function GrammarAcademy() {

@@ -14,10 +14,9 @@ export default function ChildSelector() {
       .catch(() => {});
   }, []);
 
-  // Fallback while loading or if API is unreachable
+  // Fallback while loading or if API is unreachable. No default child profiles
+  // ship with the app -- parents add real learner profiles from the Users tab.
   const fallback = [
-    { name: 'Aliza', role: 'child' },
-    { name: 'Saifan', role: 'child' },
     { name: 'Parent', role: 'parent' },
     { name: 'Shovan', role: 'parent' },
     { name: 'Bely', role: 'parent' },

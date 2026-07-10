@@ -5,7 +5,19 @@ import ParentProgressOverview from '../src/components/ParentProgressOverview.jsx
 
 beforeEach(() => {
   global.fetch = vi.fn((url) => {
-    if (url.includes('Aliza')) {
+    if (url === '/api/users') {
+      return Promise.resolve({
+        ok: true,
+        json: () => Promise.resolve({
+          users: [
+            { name: 'Riya', role: 'child' },
+            { name: 'Zayn', role: 'child' },
+            { name: 'Parent', role: 'parent' },
+          ],
+        }),
+      });
+    }
+    if (url.includes('Riya')) {
       return Promise.resolve({
         ok: true,
         json: () => Promise.resolve({ scores: { Math: 90 }, badges: ['math-star'] }),
@@ -20,19 +32,19 @@ describe('ParentProgressOverview', () => {
     render(<ParentProgressOverview />);
 
     await waitFor(() => {
-      expect(screen.getByText('Aliza')).toBeInTheDocument();
-      expect(screen.getByText('Saifan')).toBeInTheDocument();
+      expect(screen.getByText('Riya')).toBeInTheDocument();
+      expect(screen.getByText('Zayn')).toBeInTheDocument();
     });
 
-    // Aliza is selected by default and has scores/badges.
+    // Riya is selected by default and has scores/badges.
     await waitFor(() => {
       expect(screen.getByText('Math')).toBeInTheDocument();
     });
     expect(screen.getByText('90%')).toBeInTheDocument();
     expect(screen.getByText(/math-star/)).toBeInTheDocument();
 
-    // Switching to Saifan (no scores yet) shows the empty state instead.
-    fireEvent.click(screen.getByText('Saifan'));
+    // Switching to Zayn (no scores yet) shows the empty state instead.
+    fireEvent.click(screen.getByText('Zayn'));
     await waitFor(() => {
       expect(screen.getByText(/No exam scores yet/)).toBeInTheDocument();
     });

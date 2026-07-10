@@ -6,8 +6,10 @@ from threading import Lock
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-# Static defaults (used when users.json doesn't exist yet)
-_DEFAULT_CHILDREN = ["Aliza", "Saifan"]
+# Static defaults (used when users.json doesn't exist yet).
+# No default child profiles are shipped -- parents add real learner
+# profiles from the Users tab (POST /api/users) when ready.
+_DEFAULT_CHILDREN = []
 _DEFAULT_PARENTS  = ["Parent", "Shovan", "Bely"]
 PROTECTED_PARENT  = "Parent"   # can never be deleted or renamed
 

@@ -16,9 +16,9 @@ describe('ChildSelector', () => {
       </ChildProvider>
     );
     const select = screen.getByLabelText('Select profile');
-    fireEvent.change(select, { target: { value: 'Saifan' } });
-    expect(select.value).toBe('Saifan');
-    expect(localStorage.getItem('selectedChild')).toBe('Saifan');
+    fireEvent.change(select, { target: { value: 'Shovan' } });
+    expect(select.value).toBe('Shovan');
+    expect(localStorage.getItem('selectedChild')).toBe('Shovan');
   });
 
   it('includes a Parent profile option', () => {

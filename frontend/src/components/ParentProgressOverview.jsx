@@ -1,14 +1,22 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { fetchProgress } from '../api/progress.js';
 
-const CHILDREN = ['Aliza', 'Saifan'];
 const API = '/api/parent';
 
 const TABS = ['Progress', 'Homework', 'Reading Log', 'Screen Time', 'Weekly Report'];
 
 export default function ParentProgressOverview() {
   const [activeTab, setActiveTab] = useState('Progress');
-  const [selectedChild, setSelectedChild] = useState(CHILDREN[0]);
+  const [children, setChildren] = useState([]);
+  const [selectedChild, setSelectedChild] = useState(null);
+
+  useEffect(() => {
+    fetch('/api/users').then((r) => r.json()).then((d) => {
+      const kids = (d.users || []).filter((u) => u.role === 'child').map((u) => u.name);
+      setChildren(kids);
+      setSelectedChild((prev) => prev ?? kids[0] ?? null);
+    }).catch(() => {});
+  }, []);
 
   return (
     <section aria-label="Parent Dashboard" className="space-y-4">
@@ -17,19 +25,23 @@ export default function ParentProgressOverview() {
         <p className="text-sm opacity-90">Track progress, manage homework, and monitor learning</p>
       </div>
 
-      <div className="flex gap-2">
-        {CHILDREN.map((c) => (
-          <button
-            key={c}
-            onClick={() => setSelectedChild(c)}
-            className={`rounded-full px-4 py-1 text-sm font-medium transition ${
-              selectedChild === c ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800'
-            }`}
-          >
-            {c}
-          </button>
-        ))}
-      </div>
+      {children.length === 0 ? (
+        <p className="text-gray-400 text-sm">No child profiles yet — add one in the Users tab.</p>
+      ) : (
+        <div className="flex gap-2">
+          {children.map((c) => (
+            <button
+              key={c}
+              onClick={() => setSelectedChild(c)}
+              className={`rounded-full px-4 py-1 text-sm font-medium transition ${
+                selectedChild === c ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800'
+              }`}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="flex flex-wrap gap-2 border-b pb-2 dark:border-gray-700">
         {TABS.map((t) => (

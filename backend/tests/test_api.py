@@ -22,22 +22,22 @@ def test_get_grade_not_found():
     assert resp.status_code == 404
 
 
-def test_progress_save_and_load_aliza():
+def test_progress_save_and_load_testchildone():
     update = {"scores": {"Math": 90}, "badges": ["math-star"]}
-    resp = client.post("/api/progress/Aliza", json=update)
+    resp = client.post("/api/progress/TestChildOne", json=update)
     assert resp.status_code == 200
 
-    resp = client.get("/api/progress/Aliza")
+    resp = client.get("/api/progress/TestChildOne")
     assert resp.status_code == 200
     body = resp.json()
     assert body["scores"]["Math"] == 90
     assert "math-star" in body["badges"]
 
 
-def test_progress_save_and_load_saifan():
+def test_progress_save_and_load_testchildtwo():
     update = {"scores": {"English": 75}}
-    client.post("/api/progress/Saifan", json=update)
-    resp = client.get("/api/progress/Saifan")
+    client.post("/api/progress/TestChildTwo", json=update)
+    resp = client.get("/api/progress/TestChildTwo")
     assert resp.json()["scores"]["English"] == 75
 
 
@@ -265,7 +265,7 @@ def test_search_unknown_grade_404():
 def test_profiles_includes_parent():
     resp = client.get("/api/profiles")
     assert resp.status_code == 200
-    assert resp.json() == ["Aliza", "Saifan", "Bely", "Parent", "Shovan"]
+    assert resp.json() == ["TestChildOne", "TestChildTwo", "Bely", "Parent", "Shovan"]
 
 
 def test_web_search_returns_501_when_unconfigured(monkeypatch):
@@ -339,23 +339,23 @@ def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
 
 
 def test_export_progress_csv():
-    client.post("/api/progress/Aliza", json={"scores": {"Math": 88}, "badges": ["star"]})
-    resp = client.get("/api/progress/Aliza/export", params={"format": "csv"})
+    client.post("/api/progress/TestChildOne", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "csv"})
     assert resp.status_code == 200
     assert resp.headers["content-type"].startswith("text/csv")
     assert "Math,88" in resp.text
 
 
 def test_export_progress_pdf():
-    client.post("/api/progress/Aliza", json={"scores": {"Math": 88}, "badges": ["star"]})
-    resp = client.get("/api/progress/Aliza/export", params={"format": "pdf"})
+    client.post("/api/progress/TestChildOne", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "pdf"})
     assert resp.status_code == 200
     assert resp.headers["content-type"] == "application/pdf"
     assert resp.content[:4] == b"%PDF"
 
 
 def test_export_progress_invalid_format():
-    resp = client.get("/api/progress/Aliza/export", params={"format": "xml"})
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "xml"})
     assert resp.status_code == 422
 
 
@@ -435,7 +435,7 @@ def test_export_syllabus_unknown_grade_404():
 
 def test_export_exam_result_pdf():
     payload = {
-        "child": "Aliza",
+        "child": "TestChildOne",
         "subject": "Math",
         "score": 90,
         "passed": True,
@@ -448,7 +448,7 @@ def test_export_exam_result_pdf():
 
 
 def test_export_exam_result_missing_field_422():
-    resp = client.post("/api/exam-result/export", json={"child": "Aliza"})
+    resp = client.post("/api/exam-result/export", json={"child": "TestChildOne"})
     assert resp.status_code == 422
 
 
@@ -605,13 +605,13 @@ def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch, tmp_path
 
     base = date(2024, 1, 1)
     monkeypatch.setattr(storage, "_today", lambda: base)
-    client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["learn"]}})
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["learn"]}})
 
     monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=1))
-    client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["watch"]}})
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["watch"]}})
 
     monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=2))
-    resp = client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["explore"]}})
+    resp = client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["explore"]}})
 
     data = resp.json()
     assert data["lesson_streak"] == 3
@@ -619,9 +619,9 @@ def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch, tmp_path
 
 
 def test_progress_completed_lessons_tracked_and_deduped():
-    client.post("/api/progress/Aliza", json={"completed_lessons": {"Math": ["learn"]}})
-    client.post("/api/progress/Aliza", json={"completed_lessons": {"Math": ["learn", "watch"]}})
-    resp = client.get("/api/progress/Aliza")
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"Math": ["learn"]}})
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"Math": ["learn", "watch"]}})
+    resp = client.get("/api/progress/TestChildOne")
     assert resp.json()["completed_lessons"]["Math"] == ["learn", "watch"]
 
 
@@ -777,7 +777,7 @@ def test_assessment_age_group_has_sections():
 
 
 def test_assessment_submit():
-    resp = client.post("/api/assessment/Aliza/submit", json={
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
         "age_group": "7-9",
         "answers": {"0-0": 1, "0-1": 0},
         "score": 1,
@@ -843,22 +843,22 @@ def test_parent_homework_crud(monkeypatch, tmp_path):
     from app import storage
     monkeypatch.setattr(storage, "_homework_path", lambda child: tmp_path / f"homework_{child}.json")
 
-    resp = client.post("/api/parent/homework/Aliza", json={"subject": "Math", "title": "Fractions worksheet", "due_date": "2026-08-01"})
+    resp = client.post("/api/parent/homework/TestChildOne", json={"subject": "Math", "title": "Fractions worksheet", "due_date": "2026-08-01"})
     assert resp.status_code == 200
     hw_id = resp.json()["id"]
 
-    resp = client.get("/api/parent/homework/Aliza")
+    resp = client.get("/api/parent/homework/TestChildOne")
     assert resp.status_code == 200
     assert len(resp.json()["homework"]) == 1
 
-    resp = client.patch(f"/api/parent/homework/Aliza/{hw_id}", json={"status": "done"})
+    resp = client.patch(f"/api/parent/homework/TestChildOne/{hw_id}", json={"status": "done"})
     assert resp.status_code == 200
     assert resp.json()["status"] == "done"
 
-    resp = client.delete(f"/api/parent/homework/Aliza/{hw_id}")
+    resp = client.delete(f"/api/parent/homework/TestChildOne/{hw_id}")
     assert resp.status_code == 200
 
-    resp = client.get("/api/parent/homework/Aliza")
+    resp = client.get("/api/parent/homework/TestChildOne")
     assert len(resp.json()["homework"]) == 0
 
 
@@ -871,10 +871,10 @@ def test_parent_reading_log(monkeypatch, tmp_path):
     from app import storage
     monkeypatch.setattr(storage, "_reading_log_path", lambda child: tmp_path / f"reading_log_{child}.json")
 
-    resp = client.post("/api/parent/reading-log/Aliza", json={"book": "Charlotte's Web", "author": "E.B. White", "pages": 30, "duration_mins": 45})
+    resp = client.post("/api/parent/reading-log/TestChildOne", json={"book": "Charlotte's Web", "author": "E.B. White", "pages": 30, "duration_mins": 45})
     assert resp.status_code == 200
 
-    resp = client.get("/api/parent/reading-log/Aliza")
+    resp = client.get("/api/parent/reading-log/TestChildOne")
     assert resp.status_code == 200
     data = resp.json()
     assert data["total_pages"] == 30
@@ -886,20 +886,20 @@ def test_parent_screen_time(monkeypatch, tmp_path):
     from app import storage
     monkeypatch.setattr(storage, "_screen_time_path", lambda child: tmp_path / f"screen_time_{child}.json")
 
-    resp = client.post("/api/parent/screen-time/Aliza/add", json={"minutes": 45, "date": "2026-08-01"})
+    resp = client.post("/api/parent/screen-time/TestChildOne/add", json={"minutes": 45, "date": "2026-08-01"})
     assert resp.status_code == 200
 
-    resp = client.post("/api/parent/screen-time/Aliza/add", json={"minutes": 30, "date": "2026-08-01"})
+    resp = client.post("/api/parent/screen-time/TestChildOne/add", json={"minutes": 30, "date": "2026-08-01"})
     assert resp.status_code == 200
 
-    resp = client.get("/api/parent/screen-time/Aliza")
+    resp = client.get("/api/parent/screen-time/TestChildOne")
     assert resp.status_code == 200
     data = resp.json()
     assert data["daily"].get("2026-08-01") == 75
 
 
 def test_parent_weekly_report():
-    resp = client.get("/api/parent/weekly-report/Aliza")
+    resp = client.get("/api/parent/weekly-report/TestChildOne")
     assert resp.status_code == 200
     data = resp.json()
     for field in ("child", "lesson_streak", "reading_sessions", "screen_time_minutes", "homework_pending"):
@@ -1259,17 +1259,17 @@ def test_business_studies_not_found():
 
 # ── Attendance Tracking tests ─────────────────────────────────────────────────
 def test_attendance_get_empty():
-    r = client.get("/api/parent/attendance/Aliza")
+    r = client.get("/api/parent/attendance/TestChildOne")
     assert r.status_code == 200
     data = r.json()
     assert "records" in data
 
 def test_attendance_add_and_summary():
-    client.post("/api/parent/attendance/Aliza",
+    client.post("/api/parent/attendance/TestChildOne",
         json={"date": "2025-01-15", "status": "present", "note": "On time"})
-    client.post("/api/parent/attendance/Aliza",
+    client.post("/api/parent/attendance/TestChildOne",
         json={"date": "2025-01-16", "status": "absent", "note": "Sick"})
-    r = client.get("/api/parent/attendance/Aliza/summary")
+    r = client.get("/api/parent/attendance/TestChildOne/summary")
     assert r.status_code == 200
     data = r.json()
     assert "attendance_rate" in data

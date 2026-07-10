@@ -53,6 +53,6 @@ describe('FavoriteButton / FavoritesList', () => {
     );
     fireEvent.click(screen.getByRole('button', { name: /Add Alice in Wonderland to favourites/ }));
 
-    expect(JSON.parse(localStorage.getItem('favorites_Aliza'))).toHaveLength(1);
+    expect(JSON.parse(localStorage.getItem('favorites_Parent'))).toHaveLength(1);
   });
 });

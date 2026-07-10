@@ -14,7 +14,9 @@ export function getParentProfiles() {
 }
 
 export function ChildProvider({ children }) {
-  const [child, setChild] = useState(() => localStorage.getItem('selectedChild') || 'Aliza');
+  // No child profiles ship by default (see backend/app/storage.py) -- default to the
+  // always-present Parent oversight profile until a real learner profile is added/selected.
+  const [child, setChild] = useState(() => localStorage.getItem('selectedChild') || 'Parent');
   const [isRestricted, setIsRestricted] = useState(
     () => localStorage.getItem('isRestricted') === 'true'
   );

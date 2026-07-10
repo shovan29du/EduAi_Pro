@@ -17,7 +17,7 @@ const subject = {
 beforeEach(() => {
   localStorage.clear();
   global.fetch = vi.fn((url) => {
-    if (url === '/api/progress/Aliza') {
+    if (url === '/api/progress/Parent') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve({ completed_lessons: {} }) });
     }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
@@ -41,7 +41,7 @@ describe('SubjectLessons', () => {
 
     await waitFor(() => {
       expect(global.fetch).toHaveBeenCalledWith(
-        '/api/progress/Aliza',
+        '/api/progress/Parent',
         expect.objectContaining({ method: 'POST' })
       );
     });

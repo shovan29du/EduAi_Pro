@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 
 const API = '/api';
-const CHILDREN = ['Aliza', 'Saifan'];
 
 function StatCard({ label, value, sub, color = 'blue' }) {
   const colors = {
@@ -20,13 +19,23 @@ function StatCard({ label, value, sub, color = 'blue' }) {
 }
 
 export default function WeeklyReport() {
-  const [child, setChild] = useState(CHILDREN[0]);
+  const [children, setChildren] = useState([]);
+  const [child, setChild] = useState(null);
   const [report, setReport] = useState(null);
   const [progress, setProgress] = useState(null);
   const [attendance, setAttendance] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    fetch(`${API}/users`).then(r => r.json()).then(d => {
+      const kids = (d.users || []).filter(u => u.role === 'child').map(u => u.name);
+      setChildren(kids);
+      setChild((prev) => prev ?? kids[0] ?? null);
+    }).catch(() => {});
+  }, []);
+
   const load = async () => {
+    if (!child) return;
     setLoading(true);
     const [rRes, pRes, aRes] = await Promise.all([
       fetch(`${API}/parent/weekly-report/${child}`).then(r => r.json()),
@@ -51,14 +60,18 @@ export default function WeeklyReport() {
       <p className="text-gray-500 text-sm mb-4">Summary of each child's learning activity.</p>
 
       {/* Child selector */}
-      <div className="flex gap-2 mb-5">
-        {CHILDREN.map(c => (
-          <button key={c} onClick={() => setChild(c)}
-            className={`px-4 py-1.5 rounded-full text-sm font-medium border ${child === c ? 'bg-purple-600 text-white border-purple-600' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'}`}>
-            {c}
-          </button>
-        ))}
-      </div>
+      {children.length === 0 ? (
+        <p className="text-gray-400 text-sm mb-5">No child profiles yet — add one in the Users tab.</p>
+      ) : (
+        <div className="flex gap-2 mb-5">
+          {children.map(c => (
+            <button key={c} onClick={() => setChild(c)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium border ${child === c ? 'bg-purple-600 text-white border-purple-600' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'}`}>
+              {c}
+            </button>
+          ))}
+        </div>
+      )}
 
       {loading && <p className="text-gray-400 text-center py-8">Loading…</p>}
 
