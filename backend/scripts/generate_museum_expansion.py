@@ -87,6 +87,10 @@ def build_objects(count: int) -> list[dict]:
                     "video": _youtube_search(f"{name} history documentary"),
                     "museum_channel": _youtube_search(f"{object_type} {place} museum tour"),
                 },
+                # No specific real photo exists for a generated "Place + Type" card, so this
+                # points WikiThumbnail at the country's own real Wikipedia page/photo instead
+                # of showing nothing -- an honest, real (if generic) thumbnail rather than none.
+                "wiki_title": place,
             })
     return objects
 
