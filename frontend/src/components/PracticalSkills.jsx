@@ -9,7 +9,11 @@ const COLOURS = {
   public_speaking: '#eab308', study_skills: '#14b8a6', research_skills: '#a855f7',
   time_management: '#22c55e', gardening: '#84cc16', chess: '#78716c',
   exercise_fitness: '#f43f5e', yoga_mindfulness: '#6366f1', origami: '#0ea5e9',
-  sewing_crafts: '#d97706',
+  sewing_crafts: '#d97706', self_defense_adult: '#dc2626', adult_life_skills: '#0891b2',
+  judo: '#1e3a8a', kendo: '#7c2d12', muay_thai: '#b91c1c', jiu_jitsu: '#4338ca',
+  sword_fighting: '#525252', krav_maga: '#991b1b', boxing: '#c2410c',
+  taekwondo: '#1d4ed8', kickboxing: '#ea580c', yoga: '#7c3aed',
+  stretching: '#0d9488', bodybuilding: '#b45309',
 };
 
 function ModuleView({ module: mod, colour, onBack }) {
