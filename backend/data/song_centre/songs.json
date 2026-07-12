@@ -1,7 +1,7 @@
 {
   "title": "Song Centre — World Music Collection",
   "description": "A curated, child-friendly collection of songs spanning Bengali, Hindi, Urdu/Pakistani and international music — from folk and classical to pop, rock and world music. All songs are educational, safe for ages 5+ and include learning notes.",
-  "total": 1373,
+  "total": 1374,
   "songs": [
     {
       "id": "hey_jude",
@@ -41311,6 +41311,42 @@
       ],
       "decade": "620s",
       "suitable_for_ages": "all"
+    },
+    {
+      "id": "bailando_enrique_iglesias",
+      "title": "Bailando",
+      "artist": "Enrique Iglesias feat. Descemer Bueno & Gente de Zona",
+      "album": "Sex and Love",
+      "year": 2014,
+      "genre": [
+        "latin pop",
+        "reggaeton",
+        "salsa"
+      ],
+      "origin_country": "Spain / Cuba",
+      "language": "Spanish",
+      "duration_approx": "4:03",
+      "description": "One of the most successful Latin party anthems ever released -- an infectious, salsa-and-reggaeton-fused dance track built entirely around the joy of dancing with someone you love.",
+      "educational_notes": "Spent a record 41 weeks at #1 on the Billboard Hot Latin Songs chart -- the longest run in the chart's history -- and won the Latin Grammy Award for Record of the Year in 2014.",
+      "fun_fact": "The official music video, filmed on the streets of Cadiz, Spain, became one of the most-viewed Spanish-language videos on YouTube, helping cement 'Bailando' as a defining Latin party anthem of the 2010s.",
+      "awards": [
+        "Latin Grammy Award for Record of the Year (2014)",
+        "Billboard Hot Latin Songs longest #1 run in chart history (41 weeks)"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bailando+Enrique+Iglesias+feat.+Descemer+Bueno+%26+Gente+de+Zona+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bailando+Enrique+Iglesias+song",
+        "lyrics_search": "https://www.google.com/search?q=Bailando+Enrique+Iglesias+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "reggaeton",
+        "party",
+        "dance",
+        "2010s"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "8+"
     }
   ],
   "genres": [
