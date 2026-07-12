@@ -53,6 +53,265 @@ def smarthistory(q: str) -> str:
 # CATEGORY_ASSIGNMENTS pairs each list with its museum "category" facet.
 CATEGORY_ASSIGNMENTS: list[tuple[list[tuple], str]] = []
 
+# 200 real, famous, individually-named paintings/prints/drawings not already
+# covered by the "Famous Masterpieces" gallery (generate_famous_museum_objects.py)
+# or by the most obvious blockbuster works. Organized by movement/region for
+# readability; the build step below de-duplicates by wiki_title automatically.
+MORE_PAINTINGS_BATCH2 = [
+    # --- Northern Renaissance / early Netherlandish ---
+    ("The Descent from the Cross", "The Descent from the Cross (van der Weyden)", "Rogier van der Weyden", "c. 1435-1443", "Belgium (Flanders)", "A tightly composed panel of mourners lowering Christ's body, among the most influential paintings of the Northern Renaissance."),
+    ("Portrait of a Man in a Red Turban", "Portrait of a Man in a Red Turban", "Jan van Eyck", "1433", "Belgium (Flanders)", "Likely a self-portrait, celebrated for its meticulous realism and inscribed motto."),
+    ("Madonna of Chancellor Rolin", "Madonna of Chancellor Rolin", "Jan van Eyck", "c. 1435", "Belgium (Flanders)", "A donor portrait masterpiece depicting Burgundian chancellor Nicolas Rolin kneeling before the Virgin and Child."),
+    ("The Battle of Alexander at Issus", "The Battle of Alexander at Issus", "Albrecht Altdorfer", "1529", "Germany", "A sweeping panoramic battle scene famed for depicting a vast host of tiny soldiers beneath a dramatic sky."),
+    ("Self-Portrait at Twenty-Eight", "Self-Portrait (Dürer, Munich)", "Albrecht Dürer", "1500", "Germany", "A frontal self-portrait deliberately styled to evoke images of Christ, asserting the dignity of the artist."),
+    ("Melencolia I", "Melencolia I", "Albrecht Dürer", "1514", "Germany", "An enigmatic engraving packed with symbolic objects, long debated by scholars for its meaning."),
+    ("Knight, Death and the Devil", "Knight, Death and the Devil", "Albrecht Dürer", "1513", "Germany", "One of Dürer's three 'Meisterstiche' engravings, depicting a knight riding steadfastly past death and the devil."),
+    ("The Body of the Dead Christ in the Tomb", "The Body of the Dead Christ in the Tomb", "Hans Holbein the Younger", "1521-1522", "Germany/Switzerland", "A starkly realistic depiction of Christ's corpse that famously unsettled Dostoevsky."),
+    ("Netherlandish Proverbs", "Netherlandish Proverbs", "Pieter Bruegel the Elder", "1559", "Belgium (Flanders)", "A crowded panel illustrating over 100 Dutch proverbs and idioms acted out literally."),
+    ("The Peasant Wedding", "The Peasant Wedding", "Pieter Bruegel the Elder", "c. 1567", "Belgium (Flanders)", "A lively genre scene depicting a rural wedding feast, among Bruegel's best-known works."),
+    ("Children's Games", "Children's Games (Bruegel)", "Pieter Bruegel the Elder", "1560", "Belgium (Flanders)", "A panoramic panel cataloguing over 80 children's games being played in a town square."),
+
+    # --- Italian Renaissance (deeper cuts) ---
+    ("Pallas and the Centaur", "Pallas and the Centaur", "Sandro Botticelli", "c. 1482", "Italy", "An allegorical painting of Wisdom taming brute force, likely commissioned by the Medici family."),
+    ("The Flagellation of Christ", "The Flagellation of Christ (Piero della Francesca)", "Piero della Francesca", "c. 1455-1460", "Italy", "A small but celebrated panel renowned for its mysterious subject and mathematically precise perspective."),
+    ("The Baptism of Christ", "The Baptism of Christ (Piero della Francesca)", "Piero della Francesca", "c. 1448-1450", "Italy", "A luminous early Renaissance panel prized for its clarity of light and geometric composition."),
+    ("The Resurrection", "The Resurrection (Piero della Francesca)", "Piero della Francesca", "c. 1463-1465", "Italy", "A fresco showing Christ rising triumphantly above sleeping soldiers, called by Aldous Huxley 'the greatest picture in the world'."),
+    ("Camera degli Sposi Frescoes", "Camera degli Sposi", "Andrea Mantegna", "1465-1474", "Italy", "An illusionistic frescoed chamber in the Palazzo Ducale of Mantua, famous for its painted oculus ceiling."),
+    ("Assumption of the Virgin", "Assumption of the Virgin (Titian)", "Titian", "1515-1518", "Italy", "A monumental altarpiece in the Frari church, Venice, that established Titian's reputation as the city's leading painter."),
+    ("The Tempest", "The Tempest (Giorgione)", "Giorgione", "c. 1508", "Italy", "A mysterious pastoral scene whose meaning has puzzled art historians for centuries."),
+    ("The Marriage of the Virgin", "The Marriage of the Virgin (Raphael)", "Raphael", "1504", "Italy", "An early masterwork demonstrating Raphael's mastery of perspective and harmonious composition."),
+    ("Madonna of the Meadow", "Madonna of the Meadow", "Raphael", "1506", "Italy", "A serene pyramidal composition of the Virgin, Christ Child, and infant St. John the Baptist."),
+    ("The Last Judgment", "The Last Judgment (Michelangelo)", "Michelangelo", "1536-1541", "Italy", "A vast fresco covering the Sistine Chapel altar wall, depicting Christ's second coming and the fate of souls."),
+    ("Lady with an Ermine", "Lady with an Ermine", "Leonardo da Vinci", "c. 1489-1491", "Italy", "A portrait of Cecilia Gallerani, mistress of the Duke of Milan, celebrated for its dynamic pose."),
+    ("Virgin of the Rocks", "Virgin of the Rocks", "Leonardo da Vinci", "1483-1508", "Italy", "A devotional scene set in a grotto, painted in two versions now held in the Louvre and National Gallery, London."),
+    ("Salvator Mundi", "Salvator Mundi (Leonardo)", "Leonardo da Vinci (attributed)", "c. 1500", "Italy", "A depiction of Christ as savior of the world that sold in 2017 for a record-breaking auction price."),
+    ("The Battle of San Romano", "The Battle of San Romano", "Paolo Uccello", "c. 1438-1440", "Italy", "A three-panel depiction of a Florentine battle, celebrated for its bold experiments with perspective."),
+    ("The Tribute Money", "The Tribute Money (Masaccio)", "Masaccio", "c. 1425", "Italy", "A Brancacci Chapel fresco whose naturalistic figures helped launch the early Renaissance."),
+    ("Holy Trinity", "Holy Trinity (Masaccio)", "Masaccio", "c. 1427", "Italy", "One of the first paintings to use fully consistent linear perspective, in Santa Maria Novella, Florence."),
+
+    # --- Baroque and Spanish Golden Age ---
+    ("The Conversion of Saint Paul", "The Conversion of Saint Paul (Caravaggio)", "Caravaggio", "1601", "Italy", "A dramatically foreshortened depiction of Saul's conversion, painted for the Cerasi Chapel in Rome."),
+    ("Judith Beheading Holofernes", "Judith Beheading Holofernes (Caravaggio)", "Caravaggio", "c. 1599", "Italy", "A violently realistic biblical scene rendered in Caravaggio's signature dramatic chiaroscuro."),
+    ("Supper at Emmaus", "Supper at Emmaus (Caravaggio, London)", "Caravaggio", "1601", "Italy", "Depicts the moment two disciples recognize the resurrected Christ, rendered with startling immediacy."),
+    ("Boy with a Basket of Fruit", "Boy with a Basket of Fruit", "Caravaggio", "c. 1593", "Italy", "An early Caravaggio work admired for its meticulous still-life detail and sensuous realism."),
+    ("David with the Head of Goliath", "David with the Head of Goliath (Caravaggio)", "Caravaggio", "c. 1610", "Italy", "A haunting late work in which Goliath's severed head is believed to be a self-portrait of the artist."),
+    ("The Art of Painting", "The Art of Painting", "Johannes Vermeer", "c. 1666-1668", "Netherlands", "An allegorical scene of an artist at work, considered Vermeer's most complex and personal composition."),
+    ("Woman Holding a Balance", "Woman Holding a Balance", "Johannes Vermeer", "c. 1664", "Netherlands", "A quiet domestic scene celebrated for its symbolic use of light and a scale of judgment."),
+    ("Girl with a Red Hat", "Girl with a Red Hat", "Johannes Vermeer", "c. 1665-1666", "Netherlands", "A small tronie noted for its vivid color and Vermeer's rare use of a wood panel support."),
+    ("The Lacemaker", "The Lacemaker (Vermeer)", "Johannes Vermeer", "c. 1670-1671", "Netherlands", "An intimate portrayal of intense domestic concentration, among the smallest of Vermeer's works."),
+    ("Descent from the Cross", "Descent from the Cross (Rubens)", "Peter Paul Rubens", "1612-1614", "Belgium (Flanders)", "A dynamic Baroque altarpiece for Antwerp Cathedral, prized for its diagonal composition."),
+    ("The Garden of Love", "The Garden of Love (Rubens)", "Peter Paul Rubens", "c. 1633", "Belgium (Flanders)", "A joyful late work depicting elegantly dressed couples in a garden of courtship."),
+    ("Charles I at the Hunt", "Charles I at the Hunt", "Anthony van Dyck", "c. 1635", "Belgium (Flanders)", "An informal yet majestic equestrian-style portrait of the English king, a landmark of court portraiture."),
+    ("The Laughing Cavalier", "The Laughing Cavalier", "Frans Hals", "1624", "Netherlands", "A vividly animated portrait famous for its subject's enigmatic half-smile and elaborate embroidered sleeve."),
+    ("The Cheat with the Ace of Diamonds", "The Cheat with the Ace of Diamonds", "Georges de La Tour", "c. 1636-1638", "France", "A candlelit morality scene depicting a card cheat, gambler, and courtesan conspiring together."),
+    ("Agnus Dei", "Agnus Dei (Zurbarán)", "Francisco de Zurbarán", "c. 1635-1640", "Spain", "A stark, devotional still life of a bound lamb symbolizing Christ's sacrifice."),
+    ("The Young Beggar", "The Young Beggar", "Bartolomé Esteban Murillo", "c. 1645-1650", "Spain", "A sympathetic genre portrait of a poor Seville street child, among the first of its kind."),
+    ("Et in Arcadia ego", "Et in Arcadia ego", "Nicolas Poussin", "1637-1638", "France", "Also known as 'The Arcadian Shepherds', a meditation on mortality even amid pastoral idyll."),
+    ("The Rape of the Sabine Women", "The Rape of the Sabine Women (Poussin)", "Nicolas Poussin", "1633-1634", "France", "A dynamic Baroque composition depicting the legendary abduction that founded Rome's early population."),
+    ("The Return of the Prodigal Son", "The Return of the Prodigal Son (Rembrandt)", "Rembrandt", "c. 1661-1669", "Netherlands", "One of Rembrandt's final and most moving works, depicting the biblical parable of forgiveness."),
+    ("Belshazzar's Feast", "Belshazzar's Feast (Rembrandt)", "Rembrandt", "c. 1635-1638", "Netherlands", "A dramatic depiction of the biblical king confronted by the mysterious handwriting on the wall."),
+    ("The Storm on the Sea of Galilee", "The Storm on the Sea of Galilee", "Rembrandt", "1633", "Netherlands", "Rembrandt's only seascape, stolen in the notorious 1990 Isabella Stewart Gardner Museum heist."),
+    ("The Jewish Bride", "The Jewish Bride", "Rembrandt", "c. 1665-1669", "Netherlands", "A tender double portrait admired by Van Gogh, who said he would give ten years of his life to sit before it."),
+    ("The Syndics of the Drapers' Guild", "The Syndics of the Drapers' Guild", "Rembrandt", "1662", "Netherlands", "A masterful group portrait of textile merchants, celebrated for its naturalistic composition."),
+    ("Portrait of Innocent X", "Portrait of Innocent X", "Diego Velázquez", "1650", "Spain/Italy", "A penetrating papal portrait Innocent X himself declared 'too truthful'."),
+    ("View of Toledo", "View of Toledo", "El Greco", "c. 1596-1600", "Spain", "A dramatic, storm-lit landscape considered one of the greatest depictions of a city in Western art."),
+    ("The Burial of the Count of Orgaz", "The Burial of the Count of Orgaz", "El Greco", "1586", "Spain", "A monumental altarpiece depicting a miraculous burial witnessed by saints, angels, and Toledo notables."),
+
+    # --- Rococo ---
+    ("The Progress of Love", "The Progress of Love (Fragonard)", "Jean-Honoré Fragonard", "1771-1772", "France", "A four-panel cycle of romantic courtship painted for Madame du Barry's pavilion."),
+    ("Pierrot (Gilles)", "Pierrot (Watteau)", "Jean-Antoine Watteau", "c. 1718-1719", "France", "A large, poignant portrait of a melancholy stock comedy character, likely a shop sign for a theatrical costumer."),
+    ("Diana Leaving the Bath", "Diana Leaving the Bath", "François Boucher", "1742", "France", "A refined Rococo mythological scene celebrated for its soft palette and sensuous elegance."),
+
+    # --- Neoclassicism and Romanticism ---
+    ("La Grande Odalisque", "La Grande Odalisque", "Jean-Auguste-Dominique Ingres", "1814", "France", "An elongated, idealized reclining nude that scandalized critics for its anatomical distortions."),
+    ("The Turkish Bath", "The Turkish Bath", "Jean-Auguste-Dominique Ingres", "1862", "France", "A crowded circular composition of nude bathers, painted when Ingres was in his eighties."),
+    ("The Death of Sardanapalus", "The Death of Sardanapalus", "Eugène Delacroix", "1827", "France", "A violent, opulent Romantic scene of an Assyrian king ordering the destruction of his possessions."),
+    ("Rain, Steam and Speed", "Rain, Steam and Speed", "J. M. W. Turner", "1844", "United Kingdom", "A blurred, atmospheric vision of a steam locomotive crossing the Thames, anticipating Impressionism."),
+    ("The Slave Ship", "The Slave Ship", "J. M. W. Turner", "1840", "United Kingdom", "A searing depiction of enslaved people thrown overboard, painted in swirling color to evoke moral horror."),
+    ("Snow Storm: Hannibal and His Army Crossing the Alps", "Snow Storm: Hannibal and His Army Crossing the Alps", "J. M. W. Turner", "1812", "United Kingdom", "A turbulent landscape dwarfing Hannibal's army beneath a swirling Alpine storm."),
+    ("The Sea of Ice", "The Sea of Ice", "Caspar David Friedrich", "1823-1824", "Germany", "A bleak arctic seascape of shattered ice floes, also known as 'The Wreck of Hope'."),
+    ("The Abbey in the Oakwood", "The Abbey in the Oakwood", "Caspar David Friedrich", "1809-1810", "Germany", "A somber Romantic ruin scene evoking mortality and the passage of time."),
+    ("Charles IV of Spain and His Family", "Charles IV of Spain and His Family", "Francisco Goya", "1800-1801", "Spain", "A royal group portrait notable for its unflattering candor toward the Spanish monarchy."),
+    ("The Nude Maja", "La maja desnuda", "Francisco Goya", "c. 1797-1800", "Spain", "One of the earliest Western paintings of a nude woman's pubic hair depicted without mythological pretext."),
+    ("The Clothed Maja", "La maja vestida", "Francisco Goya", "c. 1800-1807", "Spain", "A companion piece to the Nude Maja, painted with the same model in the same pose, fully dressed."),
+    ("The Charging Chasseur", "The Charging Chasseur", "Théodore Géricault", "1812", "France", "A dynamic equestrian portrait of a Napoleonic officer that launched Géricault's career."),
+
+    # --- Realism ---
+    ("The Stone Breakers", "The Stone Breakers", "Gustave Courbet", "1849", "France", "A monumental depiction of anonymous laborers that helped define the Realist movement (destroyed in WWII)."),
+    ("A Burial at Ornans", "A Burial at Ornans", "Gustave Courbet", "1849-1850", "France", "A vast, unidealized depiction of a provincial funeral that scandalized the Paris art establishment."),
+    ("The Origin of the World", "The Origin of the World", "Gustave Courbet", "1866", "France", "A frankly explicit close-up nude that remained controversial for over a century."),
+    ("The Gleaners", "The Gleaners", "Jean-François Millet", "1857", "France", "A sympathetic depiction of three peasant women gathering leftover grain after harvest."),
+    ("The Angelus", "The Angelus (Millet)", "Jean-François Millet", "1857-1859", "France", "A quiet scene of peasants pausing in prayer at dusk, later reinterpreted by Salvador Dalí."),
+    ("The Fifer", "The Fifer (Manet)", "Édouard Manet", "1866", "France", "A flatly rendered portrait of a young military musician that influenced later modernist painting."),
+    ("The Execution of Emperor Maximilian", "The Execution of Emperor Maximilian", "Édouard Manet", "1868-1869", "France", "A politically charged series depicting the execution of the French-installed emperor of Mexico."),
+
+    # --- Impressionism (deeper cuts) ---
+    ("Rouen Cathedral Series", "Rouen Cathedral (Monet series)", "Claude Monet", "1892-1894", "France", "A series of over 30 canvases capturing the same Gothic façade under changing light."),
+    ("Woman with a Parasol - Madame Monet and Her Son", "Woman with a Parasol - Madame Monet and Her Son", "Claude Monet", "1875", "France", "A breezy, sunlit portrait of Monet's wife and son, celebrated for its sense of movement."),
+    ("The Water-Lily Pond", "The Water-Lily Pond", "Claude Monet", "1899", "France", "An early painting of Monet's Japanese footbridge at Giverny, precursor to his later Water Lilies series."),
+    ("The Magpie", "The Magpie", "Claude Monet", "1868-1869", "France", "A snow-covered landscape prized for its subtle handling of shadow and light on white."),
+    ("The Umbrellas", "The Umbrellas (Renoir)", "Pierre-Auguste Renoir", "c. 1881-1886", "France", "A Parisian street scene notable for spanning Renoir's transition from soft Impressionism to a crisper style."),
+    ("Boulevard Montmartre at Night", "Boulevard Montmartre at Night", "Camille Pissarro", "1897", "France", "A rare nocturnal cityscape from Pissarro's celebrated Parisian boulevard series."),
+    ("Snow at Louveciennes", "Snow at Louveciennes", "Alfred Sisley", "1878", "France", "A tranquil winter street scene exemplifying Sisley's mastery of snow-covered light."),
+    ("The Cradle", "The Cradle (Morisot)", "Berthe Morisot", "1872", "France", "An intimate maternal scene and one of the defining works of the Impressionist movement's founding exhibition."),
+    ("The Child's Bath", "The Child's Bath", "Mary Cassatt", "1893", "United States/France", "A tender domestic scene influenced by Japanese prints, showing a mother bathing her child."),
+    ("The Boating Party", "The Boating Party (Cassatt)", "Mary Cassatt", "1893-1894", "United States/France", "An unusually bold composition depicting a sailing outing, notable for its flattened perspective."),
+
+    # --- Post-Impressionism (deeper cuts) ---
+    ("The Large Bathers", "The Large Bathers (Cézanne)", "Paul Cézanne", "1898-1905", "France", "A monumental late work of nude bathers that profoundly influenced the development of Cubism."),
+    ("The Basket of Apples", "The Basket of Apples", "Paul Cézanne", "c. 1893", "France", "A still life exploring multiple, shifting perspectives that anticipated Cubist experimentation."),
+    ("Vision of the Sermon", "Vision of the Sermon", "Paul Gauguin", "1888", "France", "A boldly flattened, non-naturalistic scene of Breton women envisioning Jacob wrestling the angel."),
+    ("Spirit of the Dead Watching", "Spirit of the Dead Watching", "Paul Gauguin", "1892", "France (painted in Tahiti)", "A Tahitian-period painting exploring local spirit beliefs, among Gauguin's most discussed works."),
+    ("Bathers at Asnières", "Bathers at Asnières", "Georges Seurat", "1884", "France", "An early large-scale work by Seurat depicting workers relaxing by the Seine, painted before his pointillist style matured."),
+    ("The Circus", "The Circus (Seurat)", "Georges Seurat", "1891", "France", "Seurat's unfinished final painting, capturing the dynamism of a circus performance in pointillist technique."),
+    ("Moulin Rouge: La Goulue", "Moulin Rouge: La Goulue", "Henri de Toulouse-Lautrec", "1891", "France", "A groundbreaking lithographic poster that helped elevate commercial printmaking to fine art."),
+    ("The Sower", "The Sower (Van Gogh)", "Vincent van Gogh", "1888", "France", "A vividly colored homage to Millet, depicting a peasant sowing seed beneath a radiant sun."),
+    ("Almond Blossoms", "Almond Blossoms", "Vincent van Gogh", "1890", "France", "A joyful painting made to celebrate the birth of van Gogh's nephew, inspired by Japanese prints."),
+    ("Van Gogh's Chair", "Van Gogh's Chair", "Vincent van Gogh", "1888", "France", "A humble still life of the artist's own chair, symbolically paired with a painting of Gauguin's chair."),
+    ("Starry Night Over the Rhône", "Starry Night Over the Rhône", "Vincent van Gogh", "1888", "France", "A nocturnal riverside scene painted in Arles, predating van Gogh's more famous asylum-period Starry Night."),
+
+    # --- Symbolism ---
+    ("The Cyclops", "The Cyclops (Redon)", "Odilon Redon", "c. 1914", "France", "A dreamlike Symbolist painting of the giant Polyphemus gazing tenderly at the sleeping nymph Galatea."),
+    ("Oedipus and the Sphinx", "Oedipus and the Sphinx (Moreau)", "Gustave Moreau", "1864", "France", "A richly detailed Symbolist reimagining of the mythical riddle confrontation."),
+    ("Isle of the Dead", "Isle of the Dead (painting)", "Arnold Böcklin", "1880-1886", "Switzerland", "A haunting, much-reproduced image of a boat approaching a mysterious funerary island."),
+    ("Madonna", "Madonna (Munch)", "Edvard Munch", "1894-1895", "Norway", "A sensuous and unsettling reinterpretation of the Madonna, blending eroticism and mortality."),
+    ("The Sick Child", "The Sick Child", "Edvard Munch", "1885-1886", "Norway", "A raw, emotionally charged painting inspired by the death of Munch's sister from tuberculosis."),
+    ("Puberty", "Puberty (painting)", "Edvard Munch", "1894-1895", "Norway", "A stark portrait of an adolescent girl confronting the anxieties of adolescence."),
+
+    # --- Expressionism ---
+    ("Street, Berlin", "Street, Berlin", "Ernst Ludwig Kirchner", "1913", "Germany", "A jagged, anxious depiction of Berlin street life and prostitution, key to German Expressionism."),
+    ("Self-Portrait as a Soldier", "Self-Portrait as a Soldier", "Ernst Ludwig Kirchner", "1915", "Germany", "A disturbing self-portrait with a severed hand, expressing Kirchner's psychological trauma from World War I."),
+    ("On White II", "On White II", "Wassily Kandinsky", "1923", "Russia/Germany", "A geometric abstraction from Kandinsky's Bauhaus period, contrasting sharp forms against a white field."),
+    ("Yellow-Red-Blue", "Yellow-Red-Blue", "Wassily Kandinsky", "1925", "Russia/Germany", "A large abstract composition balancing primary colors and geometric forms."),
+    ("Self-Portrait with Physalis", "Self-Portrait with Physalis", "Egon Schiele", "1912", "Austria", "A raw, anxious self-portrait typical of Schiele's expressive, angular figuration."),
+    ("The Embrace", "The Embrace (Schiele)", "Egon Schiele", "1917", "Austria", "A tender depiction of two entwined lovers, painted near the end of Schiele's short life."),
+    ("The Last Supper", "The Last Supper (Nolde)", "Emil Nolde", "1909", "Germany", "A boldly colored Expressionist reimagining of the biblical scene, radically different from Renaissance treatments."),
+
+    # --- Cubism ---
+    ("Violin and Candlestick", "Violin and Candlestick", "Georges Braque", "1910", "France", "An early Analytic Cubist still life fracturing form into interlocking planes."),
+    ("Houses at L'Estaque", "Houses at L'Estaque", "Georges Braque", "1908", "France", "A landscape whose blocky, geometric forms gave Cubism its name, coined by critic Louis Vauxcelles."),
+    ("Portrait of Ambroise Vollard", "Portrait of Ambroise Vollard (Picasso)", "Pablo Picasso", "1910", "Spain/France", "An Analytic Cubist portrait of the influential Parisian art dealer, fragmenting his likeness into facets."),
+    ("Three Musicians", "Three Musicians (Picasso)", "Pablo Picasso", "1921", "Spain/France", "A Synthetic Cubist composition of masked figures in flat, boldly colored shapes."),
+    ("La Vie", "La Vie (Picasso)", "Pablo Picasso", "1903", "Spain", "A somber, allegorical painting from Picasso's Blue Period exploring love, poverty, and mortality."),
+    ("Three Women", "Three Women (Léger)", "Fernand Léger", "1921-1922", "France", "A monumental Cubist-influenced painting of reclining nudes rendered in tubular, machine-like forms."),
+    ("Portrait of Pablo Picasso", "Portrait of Pablo Picasso (Gris)", "Juan Gris", "1912", "Spain/France", "A geometric Cubist tribute portrait of Picasso by his friend and fellow Spanish Cubist."),
+
+    # --- Fauvism ---
+    ("Woman with a Hat", "Woman with a Hat", "Henri Matisse", "1905", "France", "A boldly colored portrait of Matisse's wife that gave the Fauvist movement its scandalous debut."),
+    ("The Joy of Life", "The Joy of Life", "Henri Matisse", "1905-1906", "France", "A large, vividly colored pastoral scene celebrated as a landmark of early modern painting."),
+    ("Charing Cross Bridge, London", "Charing Cross Bridge, London", "André Derain", "1906", "France", "A Fauvist view of London rendered in unnaturalistic, vibrant color."),
+
+    # --- Futurism ---
+    ("Dynamism of a Dog on a Leash", "Dynamism of a Dog on a Leash", "Giacomo Balla", "1912", "Italy", "A playful Futurist study of motion, multiplying a dachshund's legs to suggest movement."),
+    ("The City Rises", "The City Rises", "Umberto Boccioni", "1910", "Italy", "A dynamic depiction of urban construction and labor, considered one of the first Futurist masterpieces."),
+
+    # --- Surrealism beyond Dalí (and deeper Dalí cuts) ---
+    ("The Temptation of St. Anthony", "The Temptation of St. Anthony (Dalí)", "Salvador Dalí", "1946", "Spain", "A hallucinatory scene of elephants on impossibly thin legs looming over a tormented saint."),
+    ("Swans Reflecting Elephants", "Swans Reflecting Elephants", "Salvador Dalí", "1937", "Spain", "A double-image Surrealist landscape in which swans' reflections transform into elephants."),
+    ("The Sacrament of the Last Supper", "The Sacrament of the Last Supper", "Salvador Dalí", "1955", "Spain", "A luminous, geometric reinterpretation of the Last Supper blending Surrealism and Catholic mysticism."),
+    ("The Empire of Light", "The Empire of Light", "René Magritte", "1953-1954", "Belgium", "A series of paintings pairing a darkened nighttime street with a bright daytime sky, defying logic."),
+    ("Golconda", "Golconda (painting)", "René Magritte", "1953", "Belgium", "A surreal scene of identical bowler-hatted men raining down over a townscape."),
+    ("The Human Condition", "The Human Condition (Magritte)", "René Magritte", "1933", "Belgium", "A painting-within-a-painting exploring the boundary between representation and reality."),
+    ("The Farm", "The Farm (Miró)", "Joan Miró", "1921-1922", "Spain", "A meticulously detailed depiction of Miró's family farm, later owned by Ernest Hemingway."),
+    ("Harlequin's Carnival", "Harlequin's Carnival", "Joan Miró", "1924-1925", "Spain", "A whimsical, biomorphic Surrealist fantasy crowded with playful abstract creatures."),
+    ("The Elephant Celebes", "The Elephant Celebes", "Max Ernst", "1921", "Germany/France", "An early Surrealist masterpiece combining a mechanical elephant-form with a headless female figure."),
+    ("Europe After the Rain II", "Europe After the Rain II", "Max Ernst", "1940-1942", "Germany/France", "A haunting decalcomania landscape evoking the devastation of World War II."),
+    ("Mama, Papa Is Wounded!", "Mama, Papa Is Wounded!", "Yves Tanguy", "1927", "France", "A biomorphic dreamscape populated by ambiguous, shadow-casting forms."),
+
+    # --- Latin American modern art ---
+    ("Dream of a Sunday Afternoon in Alameda Central Park", "Dream of a Sunday Afternoon in Alameda Central Park", "Diego Rivera", "1946-1947", "Mexico", "A vast mural gathering figures from four centuries of Mexican history in a single park scene."),
+    ("The Flower Carrier", "The Flower Carrier", "Diego Rivera", "1935", "Mexico", "A depiction of a laborer straining beneath an enormous basket of flowers, a recurring Rivera theme."),
+    ("Echo of a Scream", "Echo of a Scream", "David Alfaro Siqueiros", "1937", "Mexico", "A nightmarish anti-war image of a screaming child amid industrial wreckage."),
+    ("Epic of American Civilization", "Epic of American Civilization", "José Clemente Orozco", "1932-1934", "Mexico/United States", "A monumental mural cycle at Dartmouth College tracing the history of the Americas."),
+    ("The Jungle", "The Jungle (painting)", "Wifredo Lam", "1943", "Cuba", "A large, dense composition fusing Afro-Cuban imagery, Cubism, and Surrealism."),
+    ("Abaporu", "Abaporu", "Tarsila do Amaral", "1928", "Brazil", "A foundational painting of Brazilian modernism that inspired the Anthropophagic Manifesto."),
+    ("The Broken Column", "The Broken Column", "Frida Kahlo", "1944", "Mexico", "A searing self-portrait depicting Kahlo's chronic physical pain through a shattered classical column."),
+    ("Self-Portrait with Cropped Hair", "Self-Portrait with Cropped Hair", "Frida Kahlo", "1940", "Mexico", "A defiant self-portrait painted after Kahlo's divorce from Diego Rivera, dressed in a man's suit."),
+    ("Henry Ford Hospital", "Henry Ford Hospital (painting)", "Frida Kahlo", "1932", "Mexico", "A raw depiction of Kahlo's miscarriage, painted while she was recovering in a Detroit hospital."),
+    ("The Wounded Deer", "The Wounded Deer", "Frida Kahlo", "1946", "Mexico", "A surreal self-portrait as a wounded stag pierced by arrows, symbolizing chronic suffering."),
+
+    # --- American art ---
+    ("Parson Weems' Fable", "Parson Weems' Fable", "Grant Wood", "1939", "United States", "A satirical retelling of the legend of young George Washington and the cherry tree."),
+    ("Automat", "Automat (painting)", "Edward Hopper", "1927", "United States", "A solitary woman sits at a cafeteria table, embodying Hopper's recurring theme of urban isolation."),
+    ("Early Sunday Morning", "Early Sunday Morning (painting)", "Edward Hopper", "1930", "United States", "A quiet streetscape of empty storefronts bathed in early light, an icon of American realism."),
+    ("Black Iris", "Black Iris III", "Georgia O'Keeffe", "1926", "United States", "A dramatically enlarged, close-cropped flower painting central to O'Keeffe's modernist reputation."),
+    ("Cow's Skull: Red, White, and Blue", "Cow's Skull: Red, White, and Blue", "Georgia O'Keeffe", "1931", "United States", "A stark desert skull painting O'Keeffe intended as a wry comment on American identity."),
+    ("The Gulf Stream", "The Gulf Stream (painting)", "Winslow Homer", "1899", "United States", "A dramatic depiction of a lone sailor adrift amid sharks and a coming storm."),
+    ("Snap the Whip", "Snap the Whip", "Winslow Homer", "1872", "United States", "A nostalgic scene of rural schoolchildren playing a game, evoking post-Civil War Americana."),
+    ("Madame X", "Madame X (painting)", "John Singer Sargent", "1884", "United States/France", "A daringly elegant portrait whose scandalous reception drove Sargent to relocate to London."),
+    ("Carnation, Lily, Lily, Rose", "Carnation, Lily, Lily, Rose", "John Singer Sargent", "1885-1886", "United States/United Kingdom", "A luminous twilight scene of two girls lighting Japanese lanterns in an English garden."),
+    ("The Gross Clinic", "The Gross Clinic", "Thomas Eakins", "1875", "United States", "A stark, unflinching depiction of surgery in a teaching hospital, notable for its realism."),
+    ("The Heart of the Andes", "The Heart of the Andes", "Frederic Edwin Church", "1859", "United States", "A monumental panoramic landscape that drew massive paying crowds when first exhibited."),
+    ("Among the Sierra Nevada, California", "Among the Sierra Nevada, California", "Albert Bierstadt", "1868", "United States", "A luminous, idealized panorama celebrated for popularizing the grandeur of the American West."),
+    ("Washington Crossing the Delaware", "Washington Crossing the Delaware (painting)", "Emanuel Leutze", "1851", "United States", "An iconic, historically embellished depiction of Washington's 1776 crossing of the Delaware River."),
+    ("Nocturne in Black and Gold – The Falling Rocket", "Nocturne in Black and Gold – The Falling Rocket", "James McNeill Whistler", "1875", "United States/United Kingdom", "An abstract fireworks scene that sparked a famous libel suit after critic John Ruskin denounced it."),
+
+    # --- Abstract Expressionism, Pop, and postwar American art ---
+    ("White Center", "White Center (Yellow, Pink and Lavender on Rose)", "Mark Rothko", "1950", "United States", "A luminous color-field painting that sold in 2007 for a then-record price for a Rothko work."),
+    ("Excavation", "Excavation (De Kooning)", "Willem de Kooning", "1950", "United States", "A monumental gestural abstraction of interlocking fragmented figures and forms."),
+    ("Mountains and Sea", "Mountains and Sea", "Helen Frankenthaler", "1952", "United States", "A pioneering soak-stain painting that launched the Color Field movement."),
+    ("The Liver Is the Cock's Comb", "The Liver is the Cock's Comb", "Arshile Gorky", "1944", "United States", "A biomorphic abstraction considered a bridge between Surrealism and Abstract Expressionism."),
+    ("Eight Elvises", "Eight Elvises", "Andy Warhol", "1963", "United States", "A silkscreen repetition of Elvis Presley as a gunslinger, among the most expensive artworks ever privately sold."),
+    ("Green Coca-Cola Bottles", "Green Coca-Cola Bottles", "Andy Warhol", "1962", "United States", "A grid of repeated soda bottles exploring mass production and consumer culture."),
+    ("Look Mickey", "Look Mickey", "Roy Lichtenstein", "1961", "United States", "A comic-strip-derived painting widely regarded as Lichtenstein's breakthrough Pop Art work."),
+    ("Boy and Dog in a Johnnypump", "Boy and Dog in a Johnnypump", "Jean-Michel Basquiat", "1982", "United States", "A large Neo-Expressionist canvas exemplifying Basquiat's raw, graffiti-inflected style."),
+
+    # --- British art ---
+    ("Portrait of Omai", "Portrait of Omai", "Joshua Reynolds", "c. 1776", "United Kingdom", "A grand portrait of a Pacific Islander visitor to Britain, blending classical pose with ethnographic curiosity."),
+    ("Marriage A-la-Mode", "Marriage A-la-Mode (Hogarth)", "William Hogarth", "c. 1743", "United Kingdom", "A satirical series of six paintings chronicling the disastrous marriage of an arranged aristocratic match."),
+    ("A Rake's Progress", "A Rake's Progress", "William Hogarth", "1732-1734", "United Kingdom", "A moralizing series depicting a young heir's descent into debauchery and ruin."),
+    ("The Ancient of Days", "The Ancient of Days", "William Blake", "1794", "United Kingdom", "A visionary frontispiece depicting a divine figure measuring the universe with a compass."),
+    ("Newton", "Newton (Blake)", "William Blake", "1795-1805", "United Kingdom", "A color-printed depiction of the scientist as a heroic yet critically limited figure of pure reason."),
+    ("Beata Beatrix", "Beata Beatrix", "Dante Gabriel Rossetti", "c. 1864-1870", "United Kingdom", "A Pre-Raphaelite memorial portrait symbolizing the death of Rossetti's wife through Dante's Beatrice."),
+    ("Proserpine", "Proserpine (Rossetti)", "Dante Gabriel Rossetti", "1874", "United Kingdom", "A brooding portrait of the mythological queen of the underworld, modeled on Jane Morris."),
+    ("The Light of the World", "The Light of the World (painting)", "William Holman Hunt", "1851-1853", "United Kingdom", "A widely reproduced allegorical image of Christ knocking at an overgrown, handle-less door."),
+    ("The Golden Stairs", "The Golden Stairs", "Edward Burne-Jones", "1880", "United Kingdom", "A procession of eighteen similarly robed women descending a spiral staircase, prized for its rhythmic composition."),
+
+    # --- Belgian Expressionism and Russian-French modernism ---
+    ("Christ's Entry into Brussels in 1889", "Christ's Entry into Brussels in 1889", "James Ensor", "1888", "Belgium", "A chaotic, mask-filled carnival crowd satirizing modern society, with Christ nearly lost among the throng."),
+    ("I and the Village", "I and the Village", "Marc Chagall", "1911", "Russia/France", "A dreamlike, fragmented vision of Chagall's Belarusian village rendered in vivid, folkloric color."),
+    ("The Green Violinist", "Green Violinist", "Marc Chagall", "1923-1924", "Russia/France", "A whimsical, floating fiddler evoking Chagall's memories of Hasidic village life."),
+
+    # --- Impressionism/Realism (additional) ---
+    ("The Bellelli Family", "The Bellelli Family", "Edgar Degas", "1858-1867", "France", "An early masterwork portraying Degas's aunt's family with psychological tension beneath formal composition."),
+
+    # --- Japanese ukiyo-e beyond Hokusai's Great Wave ---
+    ("Plum Park in Kameido", "Plum Park in Kameido", "Utagawa Hiroshige", "1857", "Japan", "A striking close-up composition of a flowering plum tree, later copied in oil by Vincent van Gogh."),
+    ("Sudden Shower over Shin-Ōhashi Bridge and Atake", "Sudden Shower over Shin-Ōhashi bridge and Atake", "Utagawa Hiroshige", "1857", "Japan", "A rain-swept bridge scene from '100 Famous Views of Edo', also copied by van Gogh."),
+    ("The Fifty-three Stations of the Tōkaidō", "The Fifty-three Stations of the Tōkaidō", "Utagawa Hiroshige", "1833-1834", "Japan", "A celebrated woodblock series depicting the stations along the great road linking Edo and Kyoto."),
+    ("Three Beauties of the Present Day", "Three Beauties of the Present Day", "Kitagawa Utamaro", "c. 1793", "Japan", "A refined bust portrait of three renowned beauties of Edo, epitomizing Utamaro's portraiture style."),
+    ("Fine Wind, Clear Morning", "Fine Wind, Clear Morning", "Katsushika Hokusai", "c. 1830-1832", "Japan", "Also known as 'Red Fuji', a striking print from the Thirty-six Views of Mount Fuji series."),
+    ("Thirty-six Views of Mount Fuji", "Thirty-six Views of Mount Fuji", "Katsushika Hokusai", "1830-1832", "Japan", "The landmark woodblock print series that includes both the Great Wave and Red Fuji."),
+    ("Ōtani Oniji III", "Ōtani Oniji III", "Tōshūsai Sharaku", "1794", "Japan", "A vivid, psychologically intense kabuki actor portrait by ukiyo-e's most mysterious master."),
+
+    # --- Chinese classical painting ---
+    ("Admonitions of the Instructress to the Court Ladies", "Admonitions Scroll", "Attributed to Gu Kaizhi (early copy)", "c. 5th-8th century", "China", "One of the earliest and most celebrated surviving Chinese narrative handscroll paintings."),
+    ("Travelers among Mountains and Streams", "Travelers among Mountains and Streams", "Fan Kuan", "c. 1000", "China", "A towering monumental landscape considered one of the greatest works of Chinese painting."),
+    ("Early Spring", "Early Spring (painting)", "Guo Xi", "1072", "China", "A masterwork of Song-dynasty landscape painting celebrated for its atmospheric use of ink wash."),
+    ("Autumn Colors on the Qiao and Hua Mountains", "Autumn Colors on the Qiao and Hua Mountains", "Zhao Mengfu", "1295", "China", "A Yuan-dynasty landscape scroll blending archaic style with personal expression."),
+
+    # --- Indian miniature painting (Mughal / Rajput) ---
+    ("Padshahnama Illustrations", "Padshahnama", "Mughal court painters", "17th century", "India", "A richly illustrated chronicle of Emperor Shah Jahan's reign, among the finest Mughal manuscripts."),
+    ("Hamzanama Illustrations", "Hamzanama", "Mughal court painters (under Akbar)", "1562-1577", "India", "A vast illustrated manuscript cycle recounting the legendary adventures of Amir Hamza."),
+    ("Bani Thani", "Bani Thani", "Nihal Chand", "c. 1750", "India", "A celebrated Rajasthani miniature portrait often called 'India's Mona Lisa'."),
+    ("Jahangir Preferring a Sufi Shaikh to Kings", "Jahangir preferring a Sufi Shaikh to Kings", "Bichitr", "c. 1615-1618", "India", "An allegorical Mughal miniature depicting Emperor Jahangir favoring spiritual over worldly power."),
+    ("Akbarnama Illustrations", "Akbarnama", "Mughal court painters", "c. 1590-1595", "India", "The richly illustrated official chronicle of Emperor Akbar's reign."),
+
+    # --- African modern art ---
+    ("Tutu", "Tutu (painting)", "Ben Enwonwu", "1974", "Nigeria", "A celebrated portrait of a Yoruba princess, often called the 'African Mona Lisa'."),
+
+    # --- Aboriginal Australian art ---
+    ("Warlugulong", "Warlugulong", "Clifford Possum Tjapaltjarri", "1977", "Australia", "A major Papunya Tula dot painting depicting ancestral fire and creation stories of the Western Desert."),
+    ("Earth's Creation", "Earth's Creation", "Emily Kame Kngwarreye", "1994", "Australia", "A monumental abstract painting that set a record price for a work by an Australian female artist."),
+
+    # --- Byzantine, medieval, and early icon painting ---
+    ("Theotokos of Vladimir", "Theotokos of Vladimir", "Unknown (Byzantine icon painter)", "c. 1100", "Byzantine Empire/Russia", "One of the most venerated icons in Orthodox Christianity, believed to have miraculous powers."),
+    ("The Trinity", "Trinity (Andrei Rublev)", "Andrei Rublev", "c. 1425-1427", "Russia", "Considered the greatest achievement of Russian icon painting, depicting three angels at Abraham's table."),
+    ("Maestà", "Maestà (Duccio)", "Duccio di Buoninsegna", "1308-1311", "Italy", "A monumental altarpiece for Siena Cathedral that helped define the Sienese school of painting."),
+    ("Lamentation of Christ", "Lamentation (Giotto)", "Giotto di Bondone", "c. 1305", "Italy", "A Scrovegni Chapel fresco whose emotional realism marked a turning point toward Renaissance painting."),
+]
+CATEGORY_ASSIGNMENTS.append((MORE_PAINTINGS_BATCH2, "painting"))
+
 # Real, individually famous science / technology / transportation artifacts
 # held in real museums (Smithsonian, Science Museum London, Deutsches
 # Museum, Royal Museums Greenwich, etc.). Each wiki_title is the exact
