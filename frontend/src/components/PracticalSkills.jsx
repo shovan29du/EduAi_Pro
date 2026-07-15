@@ -13,7 +13,7 @@ const COLOURS = {
   judo: '#1e3a8a', kendo: '#7c2d12', muay_thai: '#b91c1c', jiu_jitsu: '#4338ca',
   sword_fighting: '#525252', krav_maga: '#991b1b', boxing: '#c2410c',
   taekwondo: '#1d4ed8', kickboxing: '#ea580c', yoga: '#7c3aed',
-  stretching: '#0d9488', bodybuilding: '#b45309',
+  stretching: '#0d9488', bodybuilding: '#b45309', critical_thinking: '#4f46e5',
 };
 
 function ModuleView({ module: mod, colour, onBack }) {
