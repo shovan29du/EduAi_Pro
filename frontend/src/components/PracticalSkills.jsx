@@ -82,6 +82,17 @@ function ModuleView({ module: mod, colour, onBack }) {
         </div>
       )}
 
+      {mod.lesson_text && (
+        <div className="mb-6 p-4 rounded-xl bg-white border border-gray-200">
+          <h3 className="font-semibold text-gray-700 mb-3">📖 Full Lesson</h3>
+          <div className="space-y-3">
+            {mod.lesson_text.split('\n\n').map((para, i) => (
+              <p key={i} className="text-sm text-gray-700 leading-relaxed">{para}</p>
+            ))}
+          </div>
+        </div>
+      )}
+
       {mod.links && (
         <div className="mb-5">
           <h3 className="font-semibold text-gray-700 mb-2">🔗 Resources</h3>
