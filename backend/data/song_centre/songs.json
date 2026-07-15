@@ -1,7 +1,7 @@
 {
   "title": "Song Centre — World Music Collection",
   "description": "A curated, child-friendly collection of songs spanning Bengali, Hindi, Urdu/Pakistani and international music — from folk and classical to pop, rock and world music. All songs are educational, safe for ages 5+ and include learning notes.",
-  "total": 1374,
+  "total": 1474,
   "songs": [
     {
       "id": "hey_jude",
@@ -41347,6 +41347,2982 @@
       ],
       "decade": "2010s",
       "suitable_for_ages": "8+"
+    },
+    {
+      "id": "latino_party_mi_gente",
+      "title": "Mi Gente",
+      "artist": "J Balvin & Willy William",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A global reggaeton smash built on a hypnotic hook, celebrating music that belongs to everyone.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "A remix featuring Beyoncé raised funds for hurricane relief in Puerto Rico and Mexico in 2017.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mi+Gente+J+Balvin+%26+Willy+William+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Mi+Gente+J+Balvin+%26+Willy+William",
+        "lyrics_search": "https://www.google.com/search?q=Mi+Gente+J+Balvin+%26+Willy+William+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_taki_taki",
+      "title": "Taki Taki",
+      "artist": "DJ Snake feat. Selena Gomez, Ozuna & Cardi B",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "reggaeton",
+        "EDM"
+      ],
+      "origin_country": "France/Puerto Rico/United States",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A high-energy club anthem uniting Latin and global pop superstars over a booming reggaeton beat.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of France/Puerto Rico/United States.",
+      "fun_fact": "Its music video amassed hundreds of millions of views within months of release.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Taki+Taki+DJ+Snake+feat.+Selena+Gomez%2C+Ozuna+%26+Cardi+B+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Taki+Taki+DJ+Snake+feat.+Selena+Gomez%2C+Ozuna+%26+Cardi+B",
+        "lyrics_search": "https://www.google.com/search?q=Taki+Taki+DJ+Snake+feat.+Selena+Gomez%2C+Ozuna+%26+Cardi+B+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "EDM",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_con_calma",
+      "title": "Con Calma",
+      "artist": "Daddy Yankee & Snow",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A dance-floor juggernaut that reimagines Snow's 1992 hit 'Informer' with a reggaeton pulse.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It topped charts in more than a dozen countries and dominated global Latin playlists in 2019.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Con+Calma+Daddy+Yankee+%26+Snow+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Con+Calma+Daddy+Yankee+%26+Snow",
+        "lyrics_search": "https://www.google.com/search?q=Con+Calma+Daddy+Yankee+%26+Snow+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_dura",
+      "title": "Dura",
+      "artist": "Daddy Yankee",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An old-school-flavored reggaeton banger that sparked a global dance challenge.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "The #DuraChallenge saw fans worldwide posting dance videos to the song.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dura+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Dura+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=Dura+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_rompe",
+      "title": "Rompe",
+      "artist": "Daddy Yankee",
+      "album": "",
+      "year": 2005,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A hard-hitting anthem from the Barrio Fino era that helped push reggaeton onto US charts.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It was one of the first reggaeton singles to enter the Billboard Hot 100.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Rompe+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Rompe+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=Rompe+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_lo_que_paso_paso",
+      "title": "Lo Que Pasó, Pasó",
+      "artist": "Daddy Yankee",
+      "album": "",
+      "year": 2004,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A melodic party staple from Barrio Fino, one of reggaeton's landmark albums.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Barrio Fino became one of the best-selling Latin albums of the 2000s.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Lo+Que+Pas%C3%B3%2C+Pas%C3%B3+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Lo+Que+Pas%C3%B3%2C+Pas%C3%B3+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=Lo+Que+Pas%C3%B3%2C+Pas%C3%B3+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_sigueme_y_te_sigo",
+      "title": "Sígueme y Te Sigo",
+      "artist": "Daddy Yankee",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An upbeat dance track about mutual attraction that became a wedding and party playlist fixture.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Its playful hook made it one of Daddy Yankee's most streamed mid-2010s singles.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=S%C3%ADgueme+y+Te+Sigo+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=S%C3%ADgueme+y+Te+Sigo+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=S%C3%ADgueme+y+Te+Sigo+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_limbo",
+      "title": "Limbo",
+      "artist": "Daddy Yankee",
+      "album": "",
+      "year": 2012,
+      "genre": [
+        "reggaeton",
+        "dance"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A carnival-flavored dance anthem inviting everyone to get lower on the dance floor.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It became a staple of Zumba classes and dance-fitness routines worldwide.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Limbo+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Limbo+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=Limbo+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "dance",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_pepas",
+      "title": "Pepas",
+      "artist": "Farruko",
+      "album": "",
+      "year": 2021,
+      "genre": [
+        "reggaeton",
+        "guaracha",
+        "EDM"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A festival-sized guaracha/EDM hybrid that became one of the biggest global party tracks of 2021.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It topped Billboard's Hot Latin Songs and crossed over to mainstream dance radio.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Pepas+Farruko+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Pepas+Farruko",
+        "lyrics_search": "https://www.google.com/search?q=Pepas+Farruko+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "guaracha",
+        "EDM",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_dakiti",
+      "title": "Dákiti",
+      "artist": "Bad Bunny & Jhay Cortez",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A sleek, night-drive reggaeton hit that broke global streaming records.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It was the first song to top Billboard's Global 200 and Hot Latin Songs simultaneously.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=D%C3%A1kiti+Bad+Bunny+%26+Jhay+Cortez+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=D%C3%A1kiti+Bad+Bunny+%26+Jhay+Cortez",
+        "lyrics_search": "https://www.google.com/search?q=D%C3%A1kiti+Bad+Bunny+%26+Jhay+Cortez+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_titi_me_pregunto",
+      "title": "Tití Me Preguntó",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A playful, dembow-driven hit from Un Verano Sin Ti about a nosy aunt's questions.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Un Verano Sin Ti was the most-streamed album in the world in 2022.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Tit%C3%AD+Me+Pregunt%C3%B3+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Tit%C3%AD+Me+Pregunt%C3%B3+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Tit%C3%AD+Me+Pregunt%C3%B3+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_me_porto_bonito",
+      "title": "Me Porto Bonito",
+      "artist": "Bad Bunny & Chencho Corleone",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A summer party anthem pairing Bad Bunny with Plan B's Chencho Corleone.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It spent months at the top of global streaming charts in 2022.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Me+Porto+Bonito+Bad+Bunny+%26+Chencho+Corleone+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Me+Porto+Bonito+Bad+Bunny+%26+Chencho+Corleone",
+        "lyrics_search": "https://www.google.com/search?q=Me+Porto+Bonito+Bad+Bunny+%26+Chencho+Corleone+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_yo_perreo_sola",
+      "title": "Yo Perreo Sola",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A club anthem about a woman who dances on her own terms.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "The song was widely praised for its message of respect on the dance floor.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Yo+Perreo+Sola+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Yo+Perreo+Sola+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Yo+Perreo+Sola+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_callaita",
+      "title": "Callaíta",
+      "artist": "Bad Bunny & Tainy",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A beach-party favorite with one of Tainy's most iconic productions.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It remained on global streaming charts for years after release.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Calla%C3%ADta+Bad+Bunny+%26+Tainy+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Calla%C3%ADta+Bad+Bunny+%26+Tainy",
+        "lyrics_search": "https://www.google.com/search?q=Calla%C3%ADta+Bad+Bunny+%26+Tainy+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_i_like_it",
+      "title": "I Like It",
+      "artist": "Cardi B, Bad Bunny & J Balvin",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "latin trap",
+        "hip hop"
+      ],
+      "origin_country": "United States/Puerto Rico/Colombia",
+      "language": "English/Spanish",
+      "duration_approx": "",
+      "description": "A boogaloo-sampling celebration of Latin sound that topped the Billboard Hot 100.",
+      "educational_notes": "Useful for exploring latin trap and the party-music traditions of United States/Puerto Rico/Colombia.",
+      "fun_fact": "It samples Pete Rodríguez's 1967 boogaloo classic 'I Like It Like That'.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=I+Like+It+Cardi+B%2C+Bad+Bunny+%26+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=I+Like+It+Cardi+B%2C+Bad+Bunny+%26+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=I+Like+It+Cardi+B%2C+Bad+Bunny+%26+J+Balvin+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "hip hop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_ginza",
+      "title": "Ginza",
+      "artist": "J Balvin",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A smooth reggaeton hit that helped launch the genre's global second wave.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "It set a then-record run at #1 on Billboard's Hot Latin Songs for a solo act.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ginza+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ginza+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=Ginza+J+Balvin+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_ay_vamos",
+      "title": "Ay Vamos",
+      "artist": "J Balvin",
+      "album": "",
+      "year": 2014,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A sing-along hit about a couple that fights but stays together.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "Its video won Best Urban Video at the Latin Grammys.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ay+Vamos+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ay+Vamos+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=Ay+Vamos+J+Balvin+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_ritmo_bad_boys_for_life",
+      "title": "Ritmo (Bad Boys for Life)",
+      "artist": "Black Eyed Peas & J Balvin",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "latin pop",
+        "dance"
+      ],
+      "origin_country": "United States/Colombia",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A party crossover built on Corona's 90s eurodance hit 'The Rhythm of the Night'.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of United States/Colombia.",
+      "fun_fact": "It was the lead single from the Bad Boys for Life movie soundtrack.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ritmo+%28Bad+Boys+for+Life%29+Black+Eyed+Peas+%26+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ritmo+%28Bad+Boys+for+Life%29+Black+Eyed+Peas+%26+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=Ritmo+%28Bad+Boys+for+Life%29+Black+Eyed+Peas+%26+J+Balvin+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "dance",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_loco_contigo",
+      "title": "Loco Contigo",
+      "artist": "DJ Snake & J Balvin feat. Tyga",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton",
+        "EDM"
+      ],
+      "origin_country": "France/Colombia",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A sun-soaked club track blending French EDM production with Colombian reggaeton flow.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of France/Colombia.",
+      "fun_fact": "It premiered live at Coachella before its official release.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Loco+Contigo+DJ+Snake+%26+J+Balvin+feat.+Tyga+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Loco+Contigo+DJ+Snake+%26+J+Balvin+feat.+Tyga",
+        "lyrics_search": "https://www.google.com/search?q=Loco+Contigo+DJ+Snake+%26+J+Balvin+feat.+Tyga+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "EDM",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_x",
+      "title": "X",
+      "artist": "Nicky Jam & J Balvin",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "United States/Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A minimalist dance-floor earworm that dominated 2018 party playlists.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Colombia.",
+      "fun_fact": "Its stripped-down beat was engineered to make crowds move with almost nothing but rhythm.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=X+Nicky+Jam+%26+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=X+Nicky+Jam+%26+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=X+Nicky+Jam+%26+J+Balvin+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_perdon",
+      "title": "El Perdón",
+      "artist": "Nicky Jam & Enrique Iglesias",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "United States/Spain",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A melodic plea for forgiveness that became one of the decade's biggest Latin hits.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Spain.",
+      "fun_fact": "It spent 30 weeks at #1 on Billboard's Hot Latin Songs.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Perd%C3%B3n+Nicky+Jam+%26+Enrique+Iglesias+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Perd%C3%B3n+Nicky+Jam+%26+Enrique+Iglesias",
+        "lyrics_search": "https://www.google.com/search?q=El+Perd%C3%B3n+Nicky+Jam+%26+Enrique+Iglesias+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_travesuras",
+      "title": "Travesuras",
+      "artist": "Nicky Jam",
+      "album": "",
+      "year": 2014,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The comeback single that relaunched Nicky Jam's career as a romantic-reggaeton hitmaker.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "Its success marked one of Latin music's most celebrated career comebacks.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Travesuras+Nicky+Jam+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Travesuras+Nicky+Jam",
+        "lyrics_search": "https://www.google.com/search?q=Travesuras+Nicky+Jam+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_hasta_el_amanecer",
+      "title": "Hasta el Amanecer",
+      "artist": "Nicky Jam",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A flirtatious dance hit about a chance meeting that lasts until sunrise.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "Its video gained over a billion views on YouTube.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Hasta+el+Amanecer+Nicky+Jam+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Hasta+el+Amanecer+Nicky+Jam",
+        "lyrics_search": "https://www.google.com/search?q=Hasta+el+Amanecer+Nicky+Jam+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_amante",
+      "title": "El Amante",
+      "artist": "Nicky Jam",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A romantic reggaeton anthem from the album Fénix.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "Fénix debuted at #1 on Billboard's Top Latin Albums.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Amante+Nicky+Jam+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Amante+Nicky+Jam",
+        "lyrics_search": "https://www.google.com/search?q=El+Amante+Nicky+Jam+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_tusa",
+      "title": "Tusa",
+      "artist": "Karol G & Nicki Minaj",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Colombia/United States",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A heartbreak-turned-party anthem that made 'tusa' an international word for post-breakup blues.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia/United States.",
+      "fun_fact": "It topped charts across Latin America and won Latin Grammy nominations.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Tusa+Karol+G+%26+Nicki+Minaj+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Tusa+Karol+G+%26+Nicki+Minaj",
+        "lyrics_search": "https://www.google.com/search?q=Tusa+Karol+G+%26+Nicki+Minaj+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_bichota",
+      "title": "Bichota",
+      "artist": "Karol G",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A swaggering empowerment anthem that became Karol G's signature party track.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "The term 'bichota' became a rallying cry of confidence for her fans.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bichota+Karol+G+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bichota+Karol+G",
+        "lyrics_search": "https://www.google.com/search?q=Bichota+Karol+G+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_provenza",
+      "title": "Provenza",
+      "artist": "Karol G",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A breezy, beach-ready hit named after a famous street in Medellín.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "It debuted at #1 on Billboard's Hot Latin Songs.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Provenza+Karol+G+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Provenza+Karol+G",
+        "lyrics_search": "https://www.google.com/search?q=Provenza+Karol+G+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_tqg",
+      "title": "TQG",
+      "artist": "Karol G & Shakira",
+      "album": "",
+      "year": 2023,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A powerhouse team-up of two Colombian superstars that broke streaming records.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "It debuted in the top 10 of the Billboard Hot 100 -- rare for an all-Spanish song.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=TQG+Karol+G+%26+Shakira+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=TQG+Karol+G+%26+Shakira",
+        "lyrics_search": "https://www.google.com/search?q=TQG+Karol+G+%26+Shakira+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_felices_los_4",
+      "title": "Felices los 4",
+      "artist": "Maluma",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A smooth party hit that became one of Maluma's most recognizable songs.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "A salsa remix with Marc Anthony gave the song a second life on dance floors.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Felices+los+4+Maluma+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Felices+los+4+Maluma",
+        "lyrics_search": "https://www.google.com/search?q=Felices+los+4+Maluma+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_hawai",
+      "title": "Hawái",
+      "artist": "Maluma",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A bittersweet hit about pretending to be happy after a breakup, set to an irresistible beat.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "A remix with The Weeknd brought it to English-language audiences.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Haw%C3%A1i+Maluma+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Haw%C3%A1i+Maluma",
+        "lyrics_search": "https://www.google.com/search?q=Haw%C3%A1i+Maluma+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_corazon",
+      "title": "Corazón",
+      "artist": "Maluma feat. Nego do Borel",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton",
+        "funk carioca"
+      ],
+      "origin_country": "Colombia/Brazil",
+      "language": "Spanish/Portuguese",
+      "duration_approx": "",
+      "description": "A bilingual Colombian-Brazilian party track bridging reggaeton and baile funk.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia/Brazil.",
+      "fun_fact": "Its bilingual chorus made it a hit across both Spanish- and Portuguese-speaking countries.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Coraz%C3%B3n+Maluma+feat.+Nego+do+Borel+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Coraz%C3%B3n+Maluma+feat.+Nego+do+Borel",
+        "lyrics_search": "https://www.google.com/search?q=Coraz%C3%B3n+Maluma+feat.+Nego+do+Borel+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "funk carioca",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_chantaje",
+      "title": "Chantaje",
+      "artist": "Shakira feat. Maluma",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A sultry back-and-forth duet between two generations of Colombian stardom.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Colombia.",
+      "fun_fact": "It became one of the fastest Latin videos to reach a billion views.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Chantaje+Shakira+feat.+Maluma+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Chantaje+Shakira+feat.+Maluma",
+        "lyrics_search": "https://www.google.com/search?q=Chantaje+Shakira+feat.+Maluma+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_bicicleta",
+      "title": "La Bicicleta",
+      "artist": "Carlos Vives & Shakira",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "vallenato",
+        "latin pop"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A joyous vallenato-pop celebration of Colombian coastal life.",
+      "educational_notes": "Useful for exploring vallenato and the party-music traditions of Colombia.",
+      "fun_fact": "It won Record of the Year and Song of the Year at the Latin Grammys.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Bicicleta+Carlos+Vives+%26+Shakira+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Bicicleta+Carlos+Vives+%26+Shakira",
+        "lyrics_search": "https://www.google.com/search?q=La+Bicicleta+Carlos+Vives+%26+Shakira+lyrics"
+      },
+      "tags": [
+        "vallenato",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_rakata",
+      "title": "Rakata",
+      "artist": "Wisin & Yandel",
+      "album": "",
+      "year": 2005,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An early reggaeton club classic from the genre's breakout duo.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It was among the first reggaeton hits to chart on US mainstream radio.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Rakata+Wisin+%26+Yandel+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Rakata+Wisin+%26+Yandel",
+        "lyrics_search": "https://www.google.com/search?q=Rakata+Wisin+%26+Yandel+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_follow_the_leader",
+      "title": "Follow the Leader",
+      "artist": "Wisin & Yandel feat. Jennifer Lopez",
+      "album": "",
+      "year": 2012,
+      "genre": [
+        "reggaeton",
+        "dance"
+      ],
+      "origin_country": "Puerto Rico/United States",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A stadium-sized dance collaboration between reggaeton's top duo and JLo.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico/United States.",
+      "fun_fact": "Its video was filmed amid the crowds of Acapulco.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Follow+the+Leader+Wisin+%26+Yandel+feat.+Jennifer+Lopez+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Follow+the+Leader+Wisin+%26+Yandel+feat.+Jennifer+Lopez",
+        "lyrics_search": "https://www.google.com/search?q=Follow+the+Leader+Wisin+%26+Yandel+feat.+Jennifer+Lopez+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "dance",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_taboo",
+      "title": "Taboo",
+      "artist": "Don Omar",
+      "album": "",
+      "year": 2011,
+      "genre": [
+        "reggaeton",
+        "dance"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A carnival anthem built on the melody of the lambada.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It reworks the 1989 worldwide hit 'Lambada' into a reggaeton stomper.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Taboo+Don+Omar+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Taboo+Don+Omar",
+        "lyrics_search": "https://www.google.com/search?q=Taboo+Don+Omar+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "dance",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_hasta_que_salga_el_sol",
+      "title": "Hasta Que Salga el Sol",
+      "artist": "Don Omar",
+      "album": "",
+      "year": 2012,
+      "genre": [
+        "reggaeton",
+        "dance"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A festival-ready anthem about partying until sunrise.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It became a staple of closing sets at Latin music festivals.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Hasta+Que+Salga+el+Sol+Don+Omar+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Hasta+Que+Salga+el+Sol+Don+Omar",
+        "lyrics_search": "https://www.google.com/search?q=Hasta+Que+Salga+el+Sol+Don+Omar+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "dance",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_dile",
+      "title": "Dile",
+      "artist": "Don Omar",
+      "album": "",
+      "year": 2003,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An early classic that established Don Omar as reggaeton royalty.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It appeared on The Last Don, one of reggaeton's foundational albums.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dile+Don+Omar+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Dile+Don+Omar",
+        "lyrics_search": "https://www.google.com/search?q=Dile+Don+Omar+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_baila_baila_baila",
+      "title": "Baila Baila Baila",
+      "artist": "Ozuna",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A pure dance-floor invitation from one of streaming's most-watched artists.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Ozuna was YouTube's most-viewed artist worldwide in 2018.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Baila+Baila+Baila+Ozuna+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Baila+Baila+Baila+Ozuna",
+        "lyrics_search": "https://www.google.com/search?q=Baila+Baila+Baila+Ozuna+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_te_bote_remix",
+      "title": "Te Boté (Remix)",
+      "artist": "Nio García, Casper Mágico & Bad Bunny feat. Darell, Nicky Jam & Ozuna",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "latin trap",
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A marathon posse-cut breakup anthem that ruled Latin streaming in 2018.",
+      "educational_notes": "Useful for exploring latin trap and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It spent 14 weeks atop Billboard's Hot Latin Songs.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Te+Bot%C3%A9+%28Remix%29+Nio+Garc%C3%ADa%2C+Casper+M%C3%A1gico+%26+Bad+Bunny+feat.+Darell%2C+Nicky+Jam+%26+Ozuna+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Te+Bot%C3%A9+%28Remix%29+Nio+Garc%C3%ADa%2C+Casper+M%C3%A1gico+%26+Bad+Bunny+feat.+Darell%2C+Nicky+Jam+%26+Ozuna",
+        "lyrics_search": "https://www.google.com/search?q=Te+Bot%C3%A9+%28Remix%29+Nio+Garc%C3%ADa%2C+Casper+M%C3%A1gico+%26+Bad+Bunny+feat.+Darell%2C+Nicky+Jam+%26+Ozuna+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_criminal",
+      "title": "Criminal",
+      "artist": "Natti Natasha & Ozuna",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Dominican Republic/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A dark, pulsing duet that launched Natti Natasha to stardom.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Dominican Republic/Puerto Rico.",
+      "fun_fact": "Its video reached a billion views within a year.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Criminal+Natti+Natasha+%26+Ozuna+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Criminal+Natti+Natasha+%26+Ozuna",
+        "lyrics_search": "https://www.google.com/search?q=Criminal+Natti+Natasha+%26+Ozuna+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_sin_pijama",
+      "title": "Sin Pijama",
+      "artist": "Becky G & Natti Natasha",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A playful girls-night anthem from two of Latin pop's leading women.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "It became one of the most-viewed videos by a female Latin duo.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Sin+Pijama+Becky+G+%26+Natti+Natasha+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Sin+Pijama+Becky+G+%26+Natti+Natasha",
+        "lyrics_search": "https://www.google.com/search?q=Sin+Pijama+Becky+G+%26+Natti+Natasha+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_mayores",
+      "title": "Mayores",
+      "artist": "Becky G feat. Bad Bunny",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A cheeky hit that paired Becky G's pop polish with an early Bad Bunny feature.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "It marked one of Bad Bunny's first major international appearances.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mayores+Becky+G+feat.+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Mayores+Becky+G+feat.+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Mayores+Becky+G+feat.+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_mamiii",
+      "title": "Mamiii",
+      "artist": "Becky G & Karol G",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "United States/Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A fiery kiss-off anthem uniting two of Latin pop's biggest stars.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of United States/Colombia.",
+      "fun_fact": "It debuted at #1 on Billboard's Hot Latin Songs.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mamiii+Becky+G+%26+Karol+G+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Mamiii+Becky+G+%26+Karol+G",
+        "lyrics_search": "https://www.google.com/search?q=Mamiii+Becky+G+%26+Karol+G+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_china",
+      "title": "China",
+      "artist": "Anuel AA, Daddy Yankee, Karol G, Ozuna & J Balvin",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico/Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A superstar posse cut built on the melody of Shaggy's 'It Wasn't Me'.",
+      "educational_notes": "Useful for exploring reggaeton and the party-music traditions of Puerto Rico/Colombia.",
+      "fun_fact": "It gathered five of reggaeton's biggest names on a single track.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=China+Anuel+AA%2C+Daddy+Yankee%2C+Karol+G%2C+Ozuna+%26+J+Balvin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=China+Anuel+AA%2C+Daddy+Yankee%2C+Karol+G%2C+Ozuna+%26+J+Balvin",
+        "lyrics_search": "https://www.google.com/search?q=China+Anuel+AA%2C+Daddy+Yankee%2C+Karol+G%2C+Ozuna+%26+J+Balvin+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_ella_baila_sola",
+      "title": "Ella Baila Sola",
+      "artist": "Eslabon Armado & Peso Pluma",
+      "album": "",
+      "year": 2023,
+      "genre": [
+        "corridos tumbados",
+        "regional mexican"
+      ],
+      "origin_country": "Mexico/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A romantic corrido tumbado that brought regional Mexican music to global party playlists.",
+      "educational_notes": "Useful for exploring corridos tumbados and the party-music traditions of Mexico/United States.",
+      "fun_fact": "It became the first regional Mexican song to enter the Billboard Hot 100's top 5.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ella+Baila+Sola+Eslabon+Armado+%26+Peso+Pluma+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ella+Baila+Sola+Eslabon+Armado+%26+Peso+Pluma",
+        "lyrics_search": "https://www.google.com/search?q=Ella+Baila+Sola+Eslabon+Armado+%26+Peso+Pluma+lyrics"
+      },
+      "tags": [
+        "corridos tumbados",
+        "regional mexican",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_subeme_la_radio",
+      "title": "Súbeme la Radio",
+      "artist": "Enrique Iglesias feat. Descemer Bueno, Zion & Lennox",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "latin pop",
+        "reggaeton"
+      ],
+      "origin_country": "Spain/Cuba/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An urgent turn-up-the-radio anthem for summer nights.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Spain/Cuba/Puerto Rico.",
+      "fun_fact": "It continued Enrique's record-setting run of Hot Latin Songs #1s.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=S%C3%BAbeme+la+Radio+Enrique+Iglesias+feat.+Descemer+Bueno%2C+Zion+%26+Lennox+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=S%C3%BAbeme+la+Radio+Enrique+Iglesias+feat.+Descemer+Bueno%2C+Zion+%26+Lennox",
+        "lyrics_search": "https://www.google.com/search?q=S%C3%BAbeme+la+Radio+Enrique+Iglesias+feat.+Descemer+Bueno%2C+Zion+%26+Lennox+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_duele_el_corazon",
+      "title": "Duele el Corazón",
+      "artist": "Enrique Iglesias feat. Wisin",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "latin pop",
+        "reggaeton"
+      ],
+      "origin_country": "Spain/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A dance-floor hit about loving someone against all advice.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Spain/Puerto Rico.",
+      "fun_fact": "It topped Billboard's Hot Latin Songs for multiple weeks.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Duele+el+Coraz%C3%B3n+Enrique+Iglesias+feat.+Wisin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Duele+el+Coraz%C3%B3n+Enrique+Iglesias+feat.+Wisin",
+        "lyrics_search": "https://www.google.com/search?q=Duele+el+Coraz%C3%B3n+Enrique+Iglesias+feat.+Wisin+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_bailamos",
+      "title": "Bailamos",
+      "artist": "Enrique Iglesias",
+      "album": "",
+      "year": 1999,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Spain",
+      "language": "English/Spanish",
+      "duration_approx": "",
+      "description": "The crossover smash that introduced Enrique Iglesias to English-language pop radio.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Spain.",
+      "fun_fact": "It hit #1 on the Billboard Hot 100 during 1999's 'Latin explosion'.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bailamos+Enrique+Iglesias+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bailamos+Enrique+Iglesias",
+        "lyrics_search": "https://www.google.com/search?q=Bailamos+Enrique+Iglesias+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_echame_la_culpa",
+      "title": "Échame la Culpa",
+      "artist": "Luis Fonsi & Demi Lovato",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico/United States",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "A post-Despacito party duet trading blame over an infectious beat.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Puerto Rico/United States.",
+      "fun_fact": "Its video was one of YouTube's most-viewed of 2017-2018.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=%C3%89chame+la+Culpa+Luis+Fonsi+%26+Demi+Lovato+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=%C3%89chame+la+Culpa+Luis+Fonsi+%26+Demi+Lovato",
+        "lyrics_search": "https://www.google.com/search?q=%C3%89chame+la+Culpa+Luis+Fonsi+%26+Demi+Lovato+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_suavemente",
+      "title": "Suavemente",
+      "artist": "Elvis Crespo",
+      "album": "",
+      "year": 1998,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The merengue anthem whose opening cry gets every party moving instantly.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It topped Billboard's Hot Latin Songs and remains a wedding-dance essential.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Suavemente+Elvis+Crespo+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Suavemente+Elvis+Crespo",
+        "lyrics_search": "https://www.google.com/search?q=Suavemente+Elvis+Crespo+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_pintame",
+      "title": "Píntame",
+      "artist": "Elvis Crespo",
+      "album": "",
+      "year": 1999,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A colorful follow-up hit that kept merengue on top of the charts.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It won the Latin Grammy for Best Merengue Performance.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=P%C3%ADntame+Elvis+Crespo+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=P%C3%ADntame+Elvis+Crespo",
+        "lyrics_search": "https://www.google.com/search?q=P%C3%ADntame+Elvis+Crespo+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_bilirrubina",
+      "title": "La Bilirrubina",
+      "artist": "Juan Luis Guerra y 4.40",
+      "album": "",
+      "year": 1990,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A witty merengue diagnosing love as a medical emergency.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "Its wordplay made medical jargon a permanent part of Latin party vocabulary.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Bilirrubina+Juan+Luis+Guerra+y+4.40+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Bilirrubina+Juan+Luis+Guerra+y+4.40",
+        "lyrics_search": "https://www.google.com/search?q=La+Bilirrubina+Juan+Luis+Guerra+y+4.40+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_a_pedir_su_mano",
+      "title": "A Pedir Su Mano",
+      "artist": "Juan Luis Guerra y 4.40",
+      "album": "",
+      "year": 1990,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A jubilant merengue adaptation celebrating a marriage proposal.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "It appears on Bachata Rosa, which won the Grammy for Best Tropical Latin Album.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=A+Pedir+Su+Mano+Juan+Luis+Guerra+y+4.40+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=A+Pedir+Su+Mano+Juan+Luis+Guerra+y+4.40",
+        "lyrics_search": "https://www.google.com/search?q=A+Pedir+Su+Mano+Juan+Luis+Guerra+y+4.40+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_las_avispas",
+      "title": "Las Avispas",
+      "artist": "Juan Luis Guerra y 4.40",
+      "album": "",
+      "year": 2004,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A joyful, horn-driven merengue that swept the Latin Grammys.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "It won Song of the Year honors at the 2005 Latin Grammys ceremony.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Las+Avispas+Juan+Luis+Guerra+y+4.40+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Las+Avispas+Juan+Luis+Guerra+y+4.40",
+        "lyrics_search": "https://www.google.com/search?q=Las+Avispas+Juan+Luis+Guerra+y+4.40+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_bachata_rosa",
+      "title": "Bachata Rosa",
+      "artist": "Juan Luis Guerra y 4.40",
+      "album": "",
+      "year": 1990,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The elegant title track that lifted bachata from the barrios to world stages.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of Dominican Republic.",
+      "fun_fact": "The album Bachata Rosa sold millions and legitimized bachata internationally.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bachata+Rosa+Juan+Luis+Guerra+y+4.40+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bachata+Rosa+Juan+Luis+Guerra+y+4.40",
+        "lyrics_search": "https://www.google.com/search?q=Bachata+Rosa+Juan+Luis+Guerra+y+4.40+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_quimbara",
+      "title": "Quimbara",
+      "artist": "Celia Cruz & Johnny Pacheco",
+      "album": "",
+      "year": 1974,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Cuba/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A percussive salsa workout that showcases the Queen of Salsa at full power.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Cuba/United States.",
+      "fun_fact": "It became Celia Cruz's signature opener during the Fania All-Stars era.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Quimbara+Celia+Cruz+%26+Johnny+Pacheco+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Quimbara+Celia+Cruz+%26+Johnny+Pacheco",
+        "lyrics_search": "https://www.google.com/search?q=Quimbara+Celia+Cruz+%26+Johnny+Pacheco+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_negra_tiene_tumbao",
+      "title": "La Negra Tiene Tumbao",
+      "artist": "Celia Cruz",
+      "album": "",
+      "year": 2001,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Cuba/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A late-career triumph blending salsa with hip-hop swagger.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Cuba/United States.",
+      "fun_fact": "It won the Latin Grammy for Best Salsa Album and became a defining Celia anthem.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Negra+Tiene+Tumbao+Celia+Cruz+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Negra+Tiene+Tumbao+Celia+Cruz",
+        "lyrics_search": "https://www.google.com/search?q=La+Negra+Tiene+Tumbao+Celia+Cruz+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_pedro_navaja",
+      "title": "Pedro Navaja",
+      "artist": "Rubén Blades & Willie Colón",
+      "album": "",
+      "year": 1978,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Panama/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A cinematic street-corner story-song, salsa's answer to 'Mack the Knife'.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Panama/United States.",
+      "fun_fact": "Its album Siembra was for decades the best-selling salsa record in history.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Pedro+Navaja+Rub%C3%A9n+Blades+%26+Willie+Col%C3%B3n+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Pedro+Navaja+Rub%C3%A9n+Blades+%26+Willie+Col%C3%B3n",
+        "lyrics_search": "https://www.google.com/search?q=Pedro+Navaja+Rub%C3%A9n+Blades+%26+Willie+Col%C3%B3n+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_cantante",
+      "title": "El Cantante",
+      "artist": "Héctor Lavoe",
+      "album": "",
+      "year": 1978,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A soaring anthem about the singer who carries everyone's pain -- written by Rubén Blades.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It became Héctor Lavoe's defining song and the title of his biopic.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Cantante+H%C3%A9ctor+Lavoe+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Cantante+H%C3%A9ctor+Lavoe",
+        "lyrics_search": "https://www.google.com/search?q=El+Cantante+H%C3%A9ctor+Lavoe+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_aguanile",
+      "title": "Aguanile",
+      "artist": "Héctor Lavoe & Willie Colón",
+      "album": "",
+      "year": 1972,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Puerto Rico/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A thunderous Afro-Caribbean invocation that electrifies every dance floor.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Puerto Rico/United States.",
+      "fun_fact": "Its call-and-response chorus draws on Yoruba religious tradition.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Aguanile+H%C3%A9ctor+Lavoe+%26+Willie+Col%C3%B3n+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Aguanile+H%C3%A9ctor+Lavoe+%26+Willie+Col%C3%B3n",
+        "lyrics_search": "https://www.google.com/search?q=Aguanile+H%C3%A9ctor+Lavoe+%26+Willie+Col%C3%B3n+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_gran_varon",
+      "title": "El Gran Varón",
+      "artist": "Willie Colón",
+      "album": "",
+      "year": 1989,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A landmark story-song that brought social commentary to the salsa dance floor.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "It is considered one of the most socially significant salsa recordings ever.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Gran+Var%C3%B3n+Willie+Col%C3%B3n+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Gran+Var%C3%B3n+Willie+Col%C3%B3n",
+        "lyrics_search": "https://www.google.com/search?q=El+Gran+Var%C3%B3n+Willie+Col%C3%B3n+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_lloraras",
+      "title": "Llorarás",
+      "artist": "Oscar D'León",
+      "album": "",
+      "year": 1975,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Venezuela",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "Venezuela's salsa calling card, driven by Oscar D'León's dancing bass.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Venezuela.",
+      "fun_fact": "Oscar D'León performed it while playing upright bass and dancing simultaneously.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Llorar%C3%A1s+Oscar+D%27Le%C3%B3n+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Llorar%C3%A1s+Oscar+D%27Le%C3%B3n",
+        "lyrics_search": "https://www.google.com/search?q=Llorar%C3%A1s+Oscar+D%27Le%C3%B3n+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_cali_pachanguero",
+      "title": "Cali Pachanguero",
+      "artist": "Grupo Niche",
+      "album": "",
+      "year": 1984,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The unofficial anthem of Cali, the world's self-proclaimed salsa capital.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Colombia.",
+      "fun_fact": "It closes the Feria de Cali every year with tens of thousands singing along.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Cali+Pachanguero+Grupo+Niche+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Cali+Pachanguero+Grupo+Niche",
+        "lyrics_search": "https://www.google.com/search?q=Cali+Pachanguero+Grupo+Niche+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_preso",
+      "title": "El Preso",
+      "artist": "Fruko y sus Tesos",
+      "album": "",
+      "year": 1975,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A gritty Colombian salsa classic told from a prisoner's perspective.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Colombia.",
+      "fun_fact": "It remains one of the most requested songs at Colombian celebrations.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Preso+Fruko+y+sus+Tesos+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Preso+Fruko+y+sus+Tesos",
+        "lyrics_search": "https://www.google.com/search?q=El+Preso+Fruko+y+sus+Tesos+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_rebelion",
+      "title": "La Rebelión",
+      "artist": "Joe Arroyo",
+      "album": "",
+      "year": 1986,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A defiant salsa masterpiece telling the story of an enslaved couple's resistance in colonial Cartagena.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Colombia.",
+      "fun_fact": "Its cry 'No le pegue a la negra' is among the most famous lines in salsa history.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Rebeli%C3%B3n+Joe+Arroyo+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Rebeli%C3%B3n+Joe+Arroyo",
+        "lyrics_search": "https://www.google.com/search?q=La+Rebeli%C3%B3n+Joe+Arroyo+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_valio_la_pena",
+      "title": "Valió la Pena",
+      "artist": "Marc Anthony",
+      "album": "",
+      "year": 2004,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A triumphant salsa declaration that love was worth everything.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "It won the Grammy for Best Latin Pop Album in its pop version year.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Vali%C3%B3+la+Pena+Marc+Anthony+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Vali%C3%B3+la+Pena+Marc+Anthony",
+        "lyrics_search": "https://www.google.com/search?q=Vali%C3%B3+la+Pena+Marc+Anthony+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_gozadera",
+      "title": "La Gozadera",
+      "artist": "Gente de Zona feat. Marc Anthony",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "salsa",
+        "cubaton"
+      ],
+      "origin_country": "Cuba/United States",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A pan-Latin roll call that names nearly every country in Latin America.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Cuba/United States.",
+      "fun_fact": "It became the de facto anthem of Latin American unity at parties worldwide.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Gozadera+Gente+de+Zona+feat.+Marc+Anthony+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Gozadera+Gente+de+Zona+feat.+Marc+Anthony",
+        "lyrics_search": "https://www.google.com/search?q=La+Gozadera+Gente+de+Zona+feat.+Marc+Anthony+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "cubaton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_obsesion",
+      "title": "Obsesión",
+      "artist": "Aventura",
+      "album": "",
+      "year": 2002,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The bachata megahit that took the genre from the Bronx to the world.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "It topped charts across Europe for months despite being sung in Spanish.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Obsesi%C3%B3n+Aventura+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Obsesi%C3%B3n+Aventura",
+        "lyrics_search": "https://www.google.com/search?q=Obsesi%C3%B3n+Aventura+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_ella_y_yo",
+      "title": "Ella y Yo",
+      "artist": "Aventura feat. Don Omar",
+      "album": "",
+      "year": 2005,
+      "genre": [
+        "bachata",
+        "reggaeton"
+      ],
+      "origin_country": "United States/Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A dramatic bachata-reggaeton duet of confession and betrayal.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Puerto Rico.",
+      "fun_fact": "It was one of the first major bachata-reggaeton crossover hits.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ella+y+Yo+Aventura+feat.+Don+Omar+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ella+y+Yo+Aventura+feat.+Don+Omar",
+        "lyrics_search": "https://www.google.com/search?q=Ella+y+Yo+Aventura+feat.+Don+Omar+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "reggaeton",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_propuesta_indecente",
+      "title": "Propuesta Indecente",
+      "artist": "Romeo Santos",
+      "album": "",
+      "year": 2013,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A tango-tinged bachata seduction from the King of Bachata.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "Its video surpassed a billion views, rare for bachata at the time.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Propuesta+Indecente+Romeo+Santos+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Propuesta+Indecente+Romeo+Santos",
+        "lyrics_search": "https://www.google.com/search?q=Propuesta+Indecente+Romeo+Santos+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_eres_mia",
+      "title": "Eres Mía",
+      "artist": "Romeo Santos",
+      "album": "",
+      "year": 2014,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A possessive-romantic bachata that dominated Latin radio.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "Romeo Santos sold out Yankee Stadium twice during this album's era.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Eres+M%C3%ADa+Romeo+Santos+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Eres+M%C3%ADa+Romeo+Santos",
+        "lyrics_search": "https://www.google.com/search?q=Eres+M%C3%ADa+Romeo+Santos+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_darte_un_beso",
+      "title": "Darte un Beso",
+      "artist": "Prince Royce",
+      "album": "",
+      "year": 2013,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A sweet, radio-friendly bachata about love made simple.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "It spent months atop Latin airplay charts.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Darte+un+Beso+Prince+Royce+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Darte+un+Beso+Prince+Royce",
+        "lyrics_search": "https://www.google.com/search?q=Darte+un+Beso+Prince+Royce+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_corazon_sin_cara",
+      "title": "Corazón Sin Cara",
+      "artist": "Prince Royce",
+      "album": "",
+      "year": 2010,
+      "genre": [
+        "bachata"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A feel-good bachata declaring that love has no face or size.",
+      "educational_notes": "Useful for exploring bachata and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "It helped launch the modern bachata-pop wave.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Coraz%C3%B3n+Sin+Cara+Prince+Royce+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Coraz%C3%B3n+Sin+Cara+Prince+Royce",
+        "lyrics_search": "https://www.google.com/search?q=Coraz%C3%B3n+Sin+Cara+Prince+Royce+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_venao",
+      "title": "El Venao",
+      "artist": "Los Cantantes",
+      "album": "",
+      "year": 1995,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A mischievous merengue with one of the most chanted choruses of the 90s.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "Its horn riff is instantly recognized at parties across Latin America.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Venao+Los+Cantantes+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Venao+Los+Cantantes",
+        "lyrics_search": "https://www.google.com/search?q=El+Venao+Los+Cantantes+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_tiburon",
+      "title": "El Tiburón",
+      "artist": "Proyecto Uno",
+      "album": "",
+      "year": 1995,
+      "genre": [
+        "merenhouse",
+        "merengue"
+      ],
+      "origin_country": "United States/Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A merenhouse classic fusing merengue with hip-hop and house energy.",
+      "educational_notes": "Useful for exploring merenhouse and the party-music traditions of United States/Dominican Republic.",
+      "fun_fact": "Its shark-attack shout-along chorus remains a quinceañera staple.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Tibur%C3%B3n+Proyecto+Uno+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Tibur%C3%B3n+Proyecto+Uno",
+        "lyrics_search": "https://www.google.com/search?q=El+Tibur%C3%B3n+Proyecto+Uno+lyrics"
+      },
+      "tags": [
+        "merenhouse",
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_abusadora",
+      "title": "Abusadora",
+      "artist": "Wilfrido Vargas",
+      "album": "",
+      "year": 1988,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A fiery accusation set to one of merengue's most driving beats.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "Wilfrido Vargas's orchestra defined 1980s merengue worldwide.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Abusadora+Wilfrido+Vargas+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Abusadora+Wilfrido+Vargas",
+        "lyrics_search": "https://www.google.com/search?q=Abusadora+Wilfrido+Vargas+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_el_baile_del_perrito",
+      "title": "El Baile del Perrito",
+      "artist": "Wilfrido Vargas",
+      "album": "",
+      "year": 1992,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A novelty dance craze that swept Latin America in the early 90s.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "Its accompanying dance became a party phenomenon across the continent.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=El+Baile+del+Perrito+Wilfrido+Vargas+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=El+Baile+del+Perrito+Wilfrido+Vargas",
+        "lyrics_search": "https://www.google.com/search?q=El+Baile+del+Perrito+Wilfrido+Vargas+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_juliana",
+      "title": "Juliana",
+      "artist": "Cuco Valoy",
+      "album": "",
+      "year": 1975,
+      "genre": [
+        "merengue",
+        "salsa"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A beloved classic about a man pleading with the beautiful Juliana.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "It remains a cornerstone of old-school Dominican party playlists.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Juliana+Cuco+Valoy+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Juliana+Cuco+Valoy",
+        "lyrics_search": "https://www.google.com/search?q=Juliana+Cuco+Valoy+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "salsa",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_devorame_otra_vez",
+      "title": "Devórame Otra Vez",
+      "artist": "Lalo Rodríguez",
+      "album": "",
+      "year": 1988,
+      "genre": [
+        "salsa"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The definitive hit of the salsa erótica era.",
+      "educational_notes": "Useful for exploring salsa and the party-music traditions of Puerto Rico.",
+      "fun_fact": "It topped tropical charts across the Americas in the late 1980s.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dev%C3%B3rame+Otra+Vez+Lalo+Rodr%C3%ADguez+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Dev%C3%B3rame+Otra+Vez+Lalo+Rodr%C3%ADguez",
+        "lyrics_search": "https://www.google.com/search?q=Dev%C3%B3rame+Otra+Vez+Lalo+Rodr%C3%ADguez+lyrics"
+      },
+      "tags": [
+        "salsa",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_duena_del_swing",
+      "title": "La Dueña del Swing",
+      "artist": "Los Hermanos Rosario",
+      "album": "",
+      "year": 1996,
+      "genre": [
+        "merengue"
+      ],
+      "origin_country": "Dominican Republic",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A high-voltage merengue crowning the queen of the dance floor.",
+      "educational_notes": "Useful for exploring merengue and the party-music traditions of Dominican Republic.",
+      "fun_fact": "Los Hermanos Rosario's horn section made it an enduring club anthem.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Due%C3%B1a+del+Swing+Los+Hermanos+Rosario+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Due%C3%B1a+del+Swing+Los+Hermanos+Rosario",
+        "lyrics_search": "https://www.google.com/search?q=La+Due%C3%B1a+del+Swing+Los+Hermanos+Rosario+lyrics"
+      },
+      "tags": [
+        "merengue",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_como_te_voy_a_olvidar",
+      "title": "Cómo Te Voy a Olvidar",
+      "artist": "Los Ángeles Azules",
+      "album": "",
+      "year": 1996,
+      "genre": [
+        "cumbia"
+      ],
+      "origin_country": "Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The romantic cumbia sonidera that no Mexican party ends without.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of Mexico.",
+      "fun_fact": "A 2010s symphonic re-recording introduced it to a new generation.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=C%C3%B3mo+Te+Voy+a+Olvidar+Los+%C3%81ngeles+Azules+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=C%C3%B3mo+Te+Voy+a+Olvidar+Los+%C3%81ngeles+Azules",
+        "lyrics_search": "https://www.google.com/search?q=C%C3%B3mo+Te+Voy+a+Olvidar+Los+%C3%81ngeles+Azules+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_mi_cucu",
+      "title": "Mi Cucu",
+      "artist": "La Sonora Dinamita",
+      "album": "",
+      "year": 1989,
+      "genre": [
+        "cumbia"
+      ],
+      "origin_country": "Colombia/Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A cheeky cumbia classic from the genre's most famous orchestra.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of Colombia/Mexico.",
+      "fun_fact": "La Sonora Dinamita helped export Colombian cumbia to all of Latin America.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mi+Cucu+La+Sonora+Dinamita+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Mi+Cucu+La+Sonora+Dinamita",
+        "lyrics_search": "https://www.google.com/search?q=Mi+Cucu+La+Sonora+Dinamita+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_pollera_colora",
+      "title": "La Pollera Colorá",
+      "artist": "Pedro Salcedo y su Orquesta",
+      "album": "",
+      "year": 1962,
+      "genre": [
+        "cumbia"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "Colombia's most iconic cumbia, honoring a dancer's red skirt.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of Colombia.",
+      "fun_fact": "It is considered an unofficial musical symbol of Colombia.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Pollera+Color%C3%A1+Pedro+Salcedo+y+su+Orquesta+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Pollera+Color%C3%A1+Pedro+Salcedo+y+su+Orquesta",
+        "lyrics_search": "https://www.google.com/search?q=La+Pollera+Color%C3%A1+Pedro+Salcedo+y+su+Orquesta+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "1960s",
+        "latino party"
+      ],
+      "decade": "1960s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_colegiala",
+      "title": "La Colegiala",
+      "artist": "Rodolfo Aicardi",
+      "album": "",
+      "year": 1975,
+      "genre": [
+        "cumbia"
+      ],
+      "origin_country": "Colombia",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A cumbia earworm that conquered Latin America and Europe alike.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of Colombia.",
+      "fun_fact": "A coffee commercial made it a massive hit in France decades after release.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Colegiala+Rodolfo+Aicardi+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Colegiala+Rodolfo+Aicardi",
+        "lyrics_search": "https://www.google.com/search?q=La+Colegiala+Rodolfo+Aicardi+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "1970s",
+        "latino party"
+      ],
+      "decade": "1970s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_juana_la_cubana",
+      "title": "Juana la Cubana",
+      "artist": "Fito Olivares",
+      "album": "",
+      "year": 1988,
+      "genre": [
+        "cumbia"
+      ],
+      "origin_country": "Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A saxophone-driven cumbia that lights up quinceañeras and weddings.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of Mexico.",
+      "fun_fact": "Fito Olivares's sax hooks defined Tex-Mex cumbia party music.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Juana+la+Cubana+Fito+Olivares+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Juana+la+Cubana+Fito+Olivares",
+        "lyrics_search": "https://www.google.com/search?q=Juana+la+Cubana+Fito+Olivares+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_payaso_de_rodeo",
+      "title": "Payaso de Rodeo",
+      "artist": "Caballo Dorado",
+      "album": "",
+      "year": 1998,
+      "genre": [
+        "quebradita",
+        "regional mexican"
+      ],
+      "origin_country": "Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The line-dance anthem of Mexican parties -- everyone knows the steps.",
+      "educational_notes": "Useful for exploring quebradita and the party-music traditions of Mexico.",
+      "fun_fact": "Its synchronized dance is performed at celebrations across Mexico and the US.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Payaso+de+Rodeo+Caballo+Dorado+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Payaso+de+Rodeo+Caballo+Dorado",
+        "lyrics_search": "https://www.google.com/search?q=Payaso+de+Rodeo+Caballo+Dorado+lyrics"
+      },
+      "tags": [
+        "quebradita",
+        "regional mexican",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_chona",
+      "title": "La Chona",
+      "artist": "Los Tucanes de Tijuana",
+      "album": "",
+      "year": 1995,
+      "genre": [
+        "norteño",
+        "regional mexican"
+      ],
+      "origin_country": "Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A norteño legend about a woman who never misses a dance.",
+      "educational_notes": "Useful for exploring norteño and the party-music traditions of Mexico.",
+      "fun_fact": "The #LaChonaChallenge revived it as a viral phenomenon decades later.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Chona+Los+Tucanes+de+Tijuana+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Chona+Los+Tucanes+de+Tijuana",
+        "lyrics_search": "https://www.google.com/search?q=La+Chona+Los+Tucanes+de+Tijuana+lyrics"
+      },
+      "tags": [
+        "norteño",
+        "regional mexican",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_baila_esta_cumbia",
+      "title": "Baila Esta Cumbia",
+      "artist": "Selena",
+      "album": "",
+      "year": 1990,
+      "genre": [
+        "cumbia",
+        "tejano"
+      ],
+      "origin_country": "United States/Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The Queen of Tejano's irresistible order to hit the dance floor.",
+      "educational_notes": "Useful for exploring cumbia and the party-music traditions of United States/Mexico.",
+      "fun_fact": "It became one of Selena's most enduring party songs across generations.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Baila+Esta+Cumbia+Selena+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Baila+Esta+Cumbia+Selena",
+        "lyrics_search": "https://www.google.com/search?q=Baila+Esta+Cumbia+Selena+lyrics"
+      },
+      "tags": [
+        "cumbia",
+        "tejano",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_bidi_bidi_bom_bom",
+      "title": "Bidi Bidi Bom Bom",
+      "artist": "Selena",
+      "album": "",
+      "year": 1994,
+      "genre": [
+        "tejano",
+        "cumbia"
+      ],
+      "origin_country": "United States/Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A heartbeat-mimicking hook that became Selena's most playful smash.",
+      "educational_notes": "Useful for exploring tejano and the party-music traditions of United States/Mexico.",
+      "fun_fact": "Its onomatopoeic title imitates a nervous heart in love.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bidi+Bidi+Bom+Bom+Selena+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bidi+Bidi+Bom+Bom+Selena",
+        "lyrics_search": "https://www.google.com/search?q=Bidi+Bidi+Bom+Bom+Selena+lyrics"
+      },
+      "tags": [
+        "tejano",
+        "cumbia",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_como_la_flor",
+      "title": "Como la Flor",
+      "artist": "Selena",
+      "album": "",
+      "year": 1992,
+      "genre": [
+        "tejano",
+        "cumbia"
+      ],
+      "origin_country": "United States/Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "Selena's signature sing-along, bittersweet and danceable at once.",
+      "educational_notes": "Useful for exploring tejano and the party-music traditions of United States/Mexico.",
+      "fun_fact": "Crowds still sing its chorus in unison at tributes worldwide.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Como+la+Flor+Selena+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Como+la+Flor+Selena",
+        "lyrics_search": "https://www.google.com/search?q=Como+la+Flor+Selena+lyrics"
+      },
+      "tags": [
+        "tejano",
+        "cumbia",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_amor_prohibido",
+      "title": "Amor Prohibido",
+      "artist": "Selena",
+      "album": "",
+      "year": 1994,
+      "genre": [
+        "tejano",
+        "cumbia"
+      ],
+      "origin_country": "United States/Mexico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A forbidden-love anthem inspired by Selena's own grandparents.",
+      "educational_notes": "Useful for exploring tejano and the party-music traditions of United States/Mexico.",
+      "fun_fact": "The album of the same name topped Billboard's Latin chart for months.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Amor+Prohibido+Selena+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Amor+Prohibido+Selena",
+        "lyrics_search": "https://www.google.com/search?q=Amor+Prohibido+Selena+lyrics"
+      },
+      "tags": [
+        "tejano",
+        "cumbia",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_copa_de_la_vida",
+      "title": "La Copa de la Vida",
+      "artist": "Ricky Martin",
+      "album": "",
+      "year": 1998,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish/English",
+      "duration_approx": "",
+      "description": "The 1998 World Cup anthem whose 'Go, go, go! Ale, ale, ale!' chorus circled the globe.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Its Grammy performance is credited with igniting the late-90s Latin pop explosion.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Copa+de+la+Vida+Ricky+Martin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Copa+de+la+Vida+Ricky+Martin",
+        "lyrics_search": "https://www.google.com/search?q=La+Copa+de+la+Vida+Ricky+Martin+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_maria",
+      "title": "María",
+      "artist": "Ricky Martin",
+      "album": "",
+      "year": 1995,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The 'un, dos, tres' hit that first made Ricky Martin a global name.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Its remix became one of the best-selling Latin singles of the 1990s.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mar%C3%ADa+Ricky+Martin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Mar%C3%ADa+Ricky+Martin",
+        "lyrics_search": "https://www.google.com/search?q=Mar%C3%ADa+Ricky+Martin+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_pegate",
+      "title": "Pégate",
+      "artist": "Ricky Martin",
+      "album": "",
+      "year": 2006,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A plena-infused party track celebrating Puerto Rican rhythms.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Ricky Martin performed it at global sporting events and festivals.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=P%C3%A9gate+Ricky+Martin+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=P%C3%A9gate+Ricky+Martin",
+        "lyrics_search": "https://www.google.com/search?q=P%C3%A9gate+Ricky+Martin+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_la_mordidita",
+      "title": "La Mordidita",
+      "artist": "Ricky Martin feat. Yotuel",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A percolating party single that returned Ricky Martin to dance floors.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Puerto Rico.",
+      "fun_fact": "Its video has amassed over a billion views.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Mordidita+Ricky+Martin+feat.+Yotuel+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Mordidita+Ricky+Martin+feat.+Yotuel",
+        "lyrics_search": "https://www.google.com/search?q=La+Mordidita+Ricky+Martin+feat.+Yotuel+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_asereje",
+      "title": "Aserejé",
+      "artist": "Las Ketchup",
+      "album": "",
+      "year": 2002,
+      "genre": [
+        "latin pop",
+        "dance"
+      ],
+      "origin_country": "Spain",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The novelty smash whose nonsense chorus the whole planet memorized.",
+      "educational_notes": "Useful for exploring latin pop and the party-music traditions of Spain.",
+      "fun_fact": "Its chorus is a phonetic Spanish rendering of 'Rapper's Delight'.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Aserej%C3%A9+Las+Ketchup+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Aserej%C3%A9+Las+Ketchup",
+        "lyrics_search": "https://www.google.com/search?q=Aserej%C3%A9+Las+Ketchup+lyrics"
+      },
+      "tags": [
+        "latin pop",
+        "dance",
+        "2000s",
+        "latino party"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_bamboleo",
+      "title": "Bamboléo",
+      "artist": "Gipsy Kings",
+      "album": "",
+      "year": 1987,
+      "genre": [
+        "rumba flamenca"
+      ],
+      "origin_country": "France/Spain",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A rumba flamenca firestorm that made the Gipsy Kings world stars.",
+      "educational_notes": "Useful for exploring rumba flamenca and the party-music traditions of France/Spain.",
+      "fun_fact": "Its chorus borrows from the Venezuelan folk song 'Caballo Viejo'.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bambol%C3%A9o+Gipsy+Kings+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bambol%C3%A9o+Gipsy+Kings",
+        "lyrics_search": "https://www.google.com/search?q=Bambol%C3%A9o+Gipsy+Kings+lyrics"
+      },
+      "tags": [
+        "rumba flamenca",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_djobi_djoba",
+      "title": "Djobi Djoba",
+      "artist": "Gipsy Kings",
+      "album": "",
+      "year": 1987,
+      "genre": [
+        "rumba flamenca"
+      ],
+      "origin_country": "France/Spain",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A hand-clapping rumba that fills dance floors from Madrid to Miami.",
+      "educational_notes": "Useful for exploring rumba flamenca and the party-music traditions of France/Spain.",
+      "fun_fact": "The Gipsy Kings sing in a Gitane-inflected Spanish called Gitano.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Djobi+Djoba+Gipsy+Kings+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Djobi+Djoba+Gipsy+Kings",
+        "lyrics_search": "https://www.google.com/search?q=Djobi+Djoba+Gipsy+Kings+lyrics"
+      },
+      "tags": [
+        "rumba flamenca",
+        "1980s",
+        "latino party"
+      ],
+      "decade": "1980s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "latino_party_baila_me",
+      "title": "Baila Me",
+      "artist": "Gipsy Kings",
+      "album": "",
+      "year": 1991,
+      "genre": [
+        "rumba flamenca"
+      ],
+      "origin_country": "France/Spain",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An urgent invitation to dance, flamenco-style.",
+      "educational_notes": "Useful for exploring rumba flamenca and the party-music traditions of France/Spain.",
+      "fun_fact": "It appeared on the multi-platinum album Este Mundo.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Baila+Me+Gipsy+Kings+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Baila+Me+Gipsy+Kings",
+        "lyrics_search": "https://www.google.com/search?q=Baila+Me+Gipsy+Kings+lyrics"
+      },
+      "tags": [
+        "rumba flamenca",
+        "1990s",
+        "latino party"
+      ],
+      "decade": "1990s",
+      "suitable_for_ages": "10+"
     }
   ],
   "genres": [
@@ -41373,6 +44349,7 @@
     "art pop",
     "art rock",
     "art_rock",
+    "bachata",
     "ballad",
     "ballet",
     "bangla_experimental",
@@ -41415,10 +44392,13 @@
     "classical russian",
     "comedy",
     "contemporary Christian",
+    "corridos tumbados",
     "country",
     "country pop",
     "country rap",
     "country rock",
+    "cubaton",
+    "cumbia",
     "dance",
     "dance pop",
     "dancehall",
@@ -41444,6 +44424,7 @@
     "folk rock",
     "folk_fusion",
     "funk",
+    "funk carioca",
     "funk rock",
     "garage rock",
     "ghazal",
@@ -41452,6 +44433,7 @@
     "gospel",
     "gospel rock",
     "grunge",
+    "guaracha",
     "habanera",
     "hard rock",
     "harvest",
@@ -41488,6 +44470,7 @@
     "latin",
     "latin pop",
     "latin rock",
+    "latin trap",
     "latin_pop",
     "liberation",
     "lied",
@@ -41496,6 +44479,7 @@
     "mbaqanga",
     "mediterranean",
     "merengue",
+    "merenhouse",
     "metal",
     "monsoon",
     "mourning",
@@ -41511,6 +44495,7 @@
     "neo soul",
     "neo-soul",
     "new wave",
+    "norteño",
     "northern bengal",
     "nostalgia",
     "nu-disco",
@@ -41542,6 +44527,7 @@
     "punk rock",
     "punk_rock",
     "qawwali",
+    "quebradita",
     "r&b",
     "rabindra sangeet",
     "rabindra_sangeet",
@@ -41556,6 +44542,7 @@
     "reggae_rock",
     "reggaeton",
     "regional",
+    "regional mexican",
     "revolutionary",
     "rhythm and blues",
     "river song",
@@ -41566,6 +44553,7 @@
     "rockabilly",
     "romantic",
     "roots reggae",
+    "rumba flamenca",
     "sacred",
     "salsa",
     "samba",
@@ -41594,12 +44582,14 @@
     "synth-pop",
     "tarab",
     "teen pop",
+    "tejano",
     "thrash metal",
     "traditional",
     "trap",
     "trip-hop",
     "tropical pop",
     "vaishnava",
+    "vallenato",
     "waltz",
     "women's song",
     "world",
