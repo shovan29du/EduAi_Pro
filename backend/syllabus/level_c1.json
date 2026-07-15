@@ -9215,6 +9215,50 @@
             "None of the above"
           ],
           "answer": "Foundations of Islamic History & Civilization extends Islamic Studies at College Level 1, connecting islamic history & civilization to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Introduction to Tafsir (Quranic Exegesis)' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation).",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation)."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Fatiha: The Opening' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Baqarah: Themes and Structure' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran."
+        },
+        {
+          "question": "What is the focus of the 'Surah Yusuf: Narrative and Moral Themes' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence."
         }
       ],
       "exam": {
@@ -9392,6 +9436,589 @@
             "https://en.wikipedia.org/w/index.php?search=Foundations+of+Islamic+History+%26+Civilization"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Foundations+of+Islamic+History+%26+Civilization+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l3",
+          "title": "Introduction to Tafsir (Quranic Exegesis)",
+          "unit": "Introduction to Tafsir (Quranic Exegesis)",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to tafsir (quranic exegesis) at College Level 1 depth.",
+            "Apply introduction to tafsir (quranic exegesis) concepts to worked examples and problems.",
+            "Critically discuss how introduction to tafsir (quranic exegesis) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation).",
+          "key_concepts": [
+            "Introduction",
+            "Tafsir",
+            "(Quranic",
+            "Exegesis)"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to tafsir (quranic exegesis)",
+            "Small-group discussion / problem set on introduction to tafsir (quranic exegesis)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to tafsir (quranic exegesis)?",
+              "type": "short_answer",
+              "answer": "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation)."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to tafsir (quranic exegesis) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation).",
+            "tip": "Review introduction to tafsir (quranic exegesis) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to tafsir (quranic exegesis)?",
+                "options": [
+                  "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation).",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys the major approaches to interpreting the Quran, distinguishing tafsir bi'l-ma'thur (interpretation via transmitted reports) from tafsir bi'l-ra'y (reasoned interpretation)."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to tafsir (quranic exegesis)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Introduction+to+Tafsir+%28Quranic+Exegesis%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Tafsir+%28Quranic+Exegesis%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l4",
+          "title": "Surah Al-Fatiha: The Opening",
+          "unit": "Surah Al-Fatiha: The Opening",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-fatiha: the opening at College Level 1 depth.",
+            "Apply surah al-fatiha: the opening concepts to worked examples and problems.",
+            "Critically discuss how surah al-fatiha: the opening connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication.",
+          "key_concepts": [
+            "Surah",
+            "Al-Fatiha",
+            "Opening"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-fatiha: the opening",
+            "Small-group discussion / problem set on surah al-fatiha: the opening"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-fatiha: the opening?",
+              "type": "short_answer",
+              "answer": "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-fatiha: the opening to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication.",
+            "tip": "Review surah al-fatiha: the opening before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-fatiha: the opening?",
+                "options": [
+                  "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the seven-verse opening chapter of the Quran, its central role in daily prayer, and its themes of praise, guidance, and supplication."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-fatiha: the opening",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Fatiha%3A+The+Opening"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Fatiha%3A+The+Opening+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l5",
+          "title": "Surah Al-Baqarah: Themes and Structure",
+          "unit": "Surah Al-Baqarah: Themes and Structure",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-baqarah: themes and structure at College Level 1 depth.",
+            "Apply surah al-baqarah: themes and structure concepts to worked examples and problems.",
+            "Critically discuss how surah al-baqarah: themes and structure connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran.",
+          "key_concepts": [
+            "Surah",
+            "Al-Baqarah",
+            "Themes",
+            "Structure"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-baqarah: themes and structure",
+            "Small-group discussion / problem set on surah al-baqarah: themes and structure"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-baqarah: themes and structure?",
+              "type": "short_answer",
+              "answer": "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-baqarah: themes and structure to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran.",
+            "tip": "Review surah al-baqarah: themes and structure before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-baqarah: themes and structure?",
+                "options": [
+                  "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Introduces the Quran's longest chapter, covering its major legal, narrative, and theological themes and its structural place at the start of the Quran."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-baqarah: themes and structure",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Baqarah%3A+Themes+and+Structure"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Baqarah%3A+Themes+and+Structure+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l6",
+          "title": "Surah Yusuf: Narrative and Moral Themes",
+          "unit": "Surah Yusuf: Narrative and Moral Themes",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of surah yusuf: narrative and moral themes at College Level 1 depth.",
+            "Apply surah yusuf: narrative and moral themes concepts to worked examples and problems.",
+            "Critically discuss how surah yusuf: narrative and moral themes connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence.",
+          "key_concepts": [
+            "Surah",
+            "Yusuf",
+            "Narrative",
+            "Moral",
+            "Themes"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah yusuf: narrative and moral themes",
+            "Small-group discussion / problem set on surah yusuf: narrative and moral themes"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah yusuf: narrative and moral themes?",
+              "type": "short_answer",
+              "answer": "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah yusuf: narrative and moral themes to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence.",
+            "tip": "Review surah yusuf: narrative and moral themes before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah yusuf: narrative and moral themes?",
+                "options": [
+                  "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines the account of Prophet Yusuf (Joseph) as a sustained single narrative, exploring its themes of patience, forgiveness, and divine providence."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah yusuf: narrative and moral themes",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Yusuf%3A+Narrative+and+Moral+Themes"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Yusuf%3A+Narrative+and+Moral+Themes+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l7",
+          "title": "Introduction to Hadith Sciences (Ulum al-Hadith)",
+          "unit": "Introduction to Hadith Sciences (Ulum al-Hadith)",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to hadith sciences (ulum al-hadith) at College Level 1 depth.",
+            "Apply introduction to hadith sciences (ulum al-hadith) concepts to worked examples and problems.",
+            "Critically discuss how introduction to hadith sciences (ulum al-hadith) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Introduces the discipline of hadith studies, including the components of a hadith (isnad and matn) and why authentication matters.",
+          "key_concepts": [
+            "Introduction",
+            "Hadith",
+            "Sciences",
+            "(Ulum",
+            "al-Hadith)"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to hadith sciences (ulum al-hadith)",
+            "Small-group discussion / problem set on introduction to hadith sciences (ulum al-hadith)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to hadith sciences (ulum al-hadith)?",
+              "type": "short_answer",
+              "answer": "Introduces the discipline of hadith studies, including the components of a hadith (isnad and matn) and why authentication matters."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to hadith sciences (ulum al-hadith) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Introduces the discipline of hadith studies, including the components of a hadith (isnad and matn) and why authentication matters.",
+            "tip": "Review introduction to hadith sciences (ulum al-hadith) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to hadith sciences (ulum al-hadith)?",
+                "options": [
+                  "Introduces the discipline of hadith studies, including the components of a hadith (isnad and matn) and why authentication matters.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Introduces the discipline of hadith studies, including the components of a hadith (isnad and matn) and why authentication matters."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to hadith sciences (ulum al-hadith)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Introduction+to+Hadith+Sciences+%28Ulum+al-Hadith%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Hadith+Sciences+%28Ulum+al-Hadith%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l8",
+          "title": "Sahih al-Bukhari: Compilation and Structure",
+          "unit": "Sahih al-Bukhari: Compilation and Structure",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of sahih al-bukhari: compilation and structure at College Level 1 depth.",
+            "Apply sahih al-bukhari: compilation and structure concepts to worked examples and problems.",
+            "Critically discuss how sahih al-bukhari: compilation and structure connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys the life and methodology of Imam al-Bukhari, the organization of Sahih al-Bukhari into books (kutub) and chapters (abwab), and its status as the most authenticated hadith collection.",
+          "key_concepts": [
+            "Sahih",
+            "al-Bukhari",
+            "Compilation",
+            "Structure"
+          ],
+          "practical_activities": [
+            "Guided worked example on sahih al-bukhari: compilation and structure",
+            "Small-group discussion / problem set on sahih al-bukhari: compilation and structure"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind sahih al-bukhari: compilation and structure?",
+              "type": "short_answer",
+              "answer": "Surveys the life and methodology of Imam al-Bukhari, the organization of Sahih al-Bukhari into books (kutub) and chapters (abwab), and its status as the most authenticated hadith collection."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting sahih al-bukhari: compilation and structure to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys the life and methodology of Imam al-Bukhari, the organization of Sahih al-Bukhari into books (kutub) and chapters (abwab), and its status as the most authenticated hadith collection.",
+            "tip": "Review sahih al-bukhari: compilation and structure before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes sahih al-bukhari: compilation and structure?",
+                "options": [
+                  "Surveys the life and methodology of Imam al-Bukhari, the organization of Sahih al-Bukhari into books (kutub) and chapters (abwab), and its status as the most authenticated hadith collection.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys the life and methodology of Imam al-Bukhari, the organization of Sahih al-Bukhari into books (kutub) and chapters (abwab), and its status as the most authenticated hadith collection."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands sahih al-bukhari: compilation and structure",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Sahih+al-Bukhari%3A+Compilation+and+Structure"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Sahih+al-Bukhari%3A+Compilation+and+Structure+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l9",
+          "title": "Sahih Muslim: Compilation and Structure",
+          "unit": "Sahih Muslim: Compilation and Structure",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of sahih muslim: compilation and structure at College Level 1 depth.",
+            "Apply sahih muslim: compilation and structure concepts to worked examples and problems.",
+            "Critically discuss how sahih muslim: compilation and structure connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys Imam Muslim's compilation methodology, his organization by subject matter, and how Sahih Muslim complements Sahih al-Bukhari within the six canonical hadith collections.",
+          "key_concepts": [
+            "Sahih",
+            "Muslim",
+            "Compilation",
+            "Structure"
+          ],
+          "practical_activities": [
+            "Guided worked example on sahih muslim: compilation and structure",
+            "Small-group discussion / problem set on sahih muslim: compilation and structure"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind sahih muslim: compilation and structure?",
+              "type": "short_answer",
+              "answer": "Surveys Imam Muslim's compilation methodology, his organization by subject matter, and how Sahih Muslim complements Sahih al-Bukhari within the six canonical hadith collections."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting sahih muslim: compilation and structure to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys Imam Muslim's compilation methodology, his organization by subject matter, and how Sahih Muslim complements Sahih al-Bukhari within the six canonical hadith collections.",
+            "tip": "Review sahih muslim: compilation and structure before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes sahih muslim: compilation and structure?",
+                "options": [
+                  "Surveys Imam Muslim's compilation methodology, his organization by subject matter, and how Sahih Muslim complements Sahih al-Bukhari within the six canonical hadith collections.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys Imam Muslim's compilation methodology, his organization by subject matter, and how Sahih Muslim complements Sahih al-Bukhari within the six canonical hadith collections."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands sahih muslim: compilation and structure",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Sahih+Muslim%3A+Compilation+and+Structure"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Sahih+Muslim%3A+Compilation+and+Structure+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "islamic-studies-c1-l10",
+          "title": "The Hadith of Intention",
+          "unit": "The Hadith of Intention",
+          "level": "C1",
+          "subject": "Islamic Studies",
+          "difficulty": "college-introductory",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain the core ideas of the hadith of intention at College Level 1 depth.",
+            "Apply the hadith of intention concepts to worked examples and problems.",
+            "Critically discuss how the hadith of intention connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the widely cited hadith opening Sahih al-Bukhari's collection, which teaches that the value of an action is determined by the intention behind it, and its foundational role in Islamic legal reasoning.",
+          "key_concepts": [
+            "Hadith",
+            "Intention"
+          ],
+          "practical_activities": [
+            "Guided worked example on the hadith of intention",
+            "Small-group discussion / problem set on the hadith of intention"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind the hadith of intention?",
+              "type": "short_answer",
+              "answer": "Studies the widely cited hadith opening Sahih al-Bukhari's collection, which teaches that the value of an action is determined by the intention behind it, and its foundational role in Islamic legal reasoning."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting the hadith of intention to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the widely cited hadith opening Sahih al-Bukhari's collection, which teaches that the value of an action is determined by the intention behind it, and its foundational role in Islamic legal reasoning.",
+            "tip": "Review the hadith of intention before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes the hadith of intention?",
+                "options": [
+                  "Studies the widely cited hadith opening Sahih al-Bukhari's collection, which teaches that the value of an action is determined by the intention behind it, and its foundational role in Islamic legal reasoning.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the widely cited hadith opening Sahih al-Bukhari's collection, which teaches that the value of an action is determined by the intention behind it, and its foundational role in Islamic legal reasoning."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the hadith of intention",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=The+Hadith+of+Intention"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=The+Hadith+of+Intention+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60

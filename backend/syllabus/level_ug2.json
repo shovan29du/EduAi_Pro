@@ -9222,6 +9222,50 @@
             "None of the above"
           ],
           "answer": "Applied Methods: Quranic Studies extends Islamic Studies at Undergraduate Year 2, connecting quranic studies to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Isra: The Night Journey' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions."
+        },
+        {
+          "question": "What is the focus of the 'Surah Luqman: Wisdom Literature' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran."
+        },
+        {
+          "question": "What is the focus of the 'Naskh: Abrogation in Quranic Studies' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory."
+        },
+        {
+          "question": "What is the focus of the 'Comparative Hadith Criticism: Bukhari and Muslim's Shared Narrations' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication."
         }
       ],
       "exam": {
@@ -9401,6 +9445,589 @@
             "https://en.wikipedia.org/w/index.php?search=Applied+Methods%3A+Quranic+Studies"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Applied+Methods%3A+Quranic+Studies+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l3",
+          "title": "Surah Al-Isra: The Night Journey",
+          "unit": "Surah Al-Isra: The Night Journey",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-isra: the night journey at Undergraduate Year 2 depth.",
+            "Apply surah al-isra: the night journey concepts to worked examples and problems.",
+            "Critically discuss how surah al-isra: the night journey connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions.",
+          "key_concepts": [
+            "Surah",
+            "Al-Isra",
+            "Night",
+            "Journey"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-isra: the night journey",
+            "Small-group discussion / problem set on surah al-isra: the night journey"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-isra: the night journey?",
+              "type": "short_answer",
+              "answer": "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-isra: the night journey to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions.",
+            "tip": "Review surah al-isra: the night journey before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-isra: the night journey?",
+                "options": [
+                  "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the chapter referencing the Prophet's night journey and ascension, alongside its ethical instructions."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-isra: the night journey",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Isra%3A+The+Night+Journey"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Isra%3A+The+Night+Journey+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l4",
+          "title": "Surah Luqman: Wisdom Literature",
+          "unit": "Surah Luqman: Wisdom Literature",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of surah luqman: wisdom literature at Undergraduate Year 2 depth.",
+            "Apply surah luqman: wisdom literature concepts to worked examples and problems.",
+            "Critically discuss how surah luqman: wisdom literature connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran.",
+          "key_concepts": [
+            "Surah",
+            "Luqman",
+            "Wisdom",
+            "Literature"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah luqman: wisdom literature",
+            "Small-group discussion / problem set on surah luqman: wisdom literature"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah luqman: wisdom literature?",
+              "type": "short_answer",
+              "answer": "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah luqman: wisdom literature to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran.",
+            "tip": "Review surah luqman: wisdom literature before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah luqman: wisdom literature?",
+                "options": [
+                  "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines this chapter's presentation of parental counsel as a form of wisdom literature within the Quran."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah luqman: wisdom literature",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Luqman%3A+Wisdom+Literature"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Luqman%3A+Wisdom+Literature+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l5",
+          "title": "Naskh: Abrogation in Quranic Studies",
+          "unit": "Naskh: Abrogation in Quranic Studies",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of naskh: abrogation in quranic studies at Undergraduate Year 2 depth.",
+            "Apply naskh: abrogation in quranic studies concepts to worked examples and problems.",
+            "Critically discuss how naskh: abrogation in quranic studies connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory.",
+          "key_concepts": [
+            "Naskh",
+            "Abrogation",
+            "Quranic",
+            "Studies"
+          ],
+          "practical_activities": [
+            "Guided worked example on naskh: abrogation in quranic studies",
+            "Small-group discussion / problem set on naskh: abrogation in quranic studies"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind naskh: abrogation in quranic studies?",
+              "type": "short_answer",
+              "answer": "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting naskh: abrogation in quranic studies to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory.",
+            "tip": "Review naskh: abrogation in quranic studies before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes naskh: abrogation in quranic studies?",
+                "options": [
+                  "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys the classical debate over abrogation (naskh) among verses and its role in Islamic legal theory."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands naskh: abrogation in quranic studies",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Naskh%3A+Abrogation+in+Quranic+Studies"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Naskh%3A+Abrogation+in+Quranic+Studies+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l6",
+          "title": "Comparative Hadith Criticism: Bukhari and Muslim's Shared Narrations",
+          "unit": "Comparative Hadith Criticism: Bukhari and Muslim's Shared Narrations",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of comparative hadith criticism: bukhari and muslim's shared narrations at Undergraduate Year 2 depth.",
+            "Apply comparative hadith criticism: bukhari and muslim's shared narrations concepts to worked examples and problems.",
+            "Critically discuss how comparative hadith criticism: bukhari and muslim's shared narrations connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication.",
+          "key_concepts": [
+            "Comparative",
+            "Hadith",
+            "Criticism",
+            "Bukhari",
+            "Muslim's"
+          ],
+          "practical_activities": [
+            "Guided worked example on comparative hadith criticism: bukhari and muslim's shared narrations",
+            "Small-group discussion / problem set on comparative hadith criticism: bukhari and muslim's shared narrations"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind comparative hadith criticism: bukhari and muslim's shared narrations?",
+              "type": "short_answer",
+              "answer": "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting comparative hadith criticism: bukhari and muslim's shared narrations to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication.",
+            "tip": "Review comparative hadith criticism: bukhari and muslim's shared narrations before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes comparative hadith criticism: bukhari and muslim's shared narrations?",
+                "options": [
+                  "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies hadith that appear in both Sahih al-Bukhari and Sahih Muslim (muttafaq 'alayh) and what their agreement signifies for authentication."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands comparative hadith criticism: bukhari and muslim's shared narrations",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Comparative+Hadith+Criticism%3A+Bukhari+and+Muslim%27s+Shared+Narrations"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Comparative+Hadith+Criticism%3A+Bukhari+and+Muslim%27s+Shared+Narrations+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l7",
+          "title": "Mursal and Munqati Hadith",
+          "unit": "Mursal and Munqati Hadith",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of mursal and munqati hadith at Undergraduate Year 2 depth.",
+            "Apply mursal and munqati hadith concepts to worked examples and problems.",
+            "Critically discuss how mursal and munqati hadith connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines categories of hadith with incomplete chains of transmission and how scholars treat their evidentiary weight.",
+          "key_concepts": [
+            "Mursal",
+            "Munqati",
+            "Hadith"
+          ],
+          "practical_activities": [
+            "Guided worked example on mursal and munqati hadith",
+            "Small-group discussion / problem set on mursal and munqati hadith"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind mursal and munqati hadith?",
+              "type": "short_answer",
+              "answer": "Examines categories of hadith with incomplete chains of transmission and how scholars treat their evidentiary weight."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting mursal and munqati hadith to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines categories of hadith with incomplete chains of transmission and how scholars treat their evidentiary weight.",
+            "tip": "Review mursal and munqati hadith before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes mursal and munqati hadith?",
+                "options": [
+                  "Examines categories of hadith with incomplete chains of transmission and how scholars treat their evidentiary weight.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines categories of hadith with incomplete chains of transmission and how scholars treat their evidentiary weight."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands mursal and munqati hadith",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Mursal+and+Munqati+Hadith"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Mursal+and+Munqati+Hadith+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l8",
+          "title": "The Hadith on the Five Pillars",
+          "unit": "The Hadith on the Five Pillars",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of the hadith on the five pillars at Undergraduate Year 2 depth.",
+            "Apply the hadith on the five pillars concepts to worked examples and problems.",
+            "Critically discuss how the hadith on the five pillars connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the well-known hadith outlining the five pillars of Islam as a structural summary of core practice.",
+          "key_concepts": [
+            "Hadith",
+            "Five",
+            "Pillars"
+          ],
+          "practical_activities": [
+            "Guided worked example on the hadith on the five pillars",
+            "Small-group discussion / problem set on the hadith on the five pillars"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind the hadith on the five pillars?",
+              "type": "short_answer",
+              "answer": "Studies the well-known hadith outlining the five pillars of Islam as a structural summary of core practice."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting the hadith on the five pillars to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the well-known hadith outlining the five pillars of Islam as a structural summary of core practice.",
+            "tip": "Review the hadith on the five pillars before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes the hadith on the five pillars?",
+                "options": [
+                  "Studies the well-known hadith outlining the five pillars of Islam as a structural summary of core practice.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the well-known hadith outlining the five pillars of Islam as a structural summary of core practice."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the hadith on the five pillars",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=The+Hadith+on+the+Five+Pillars"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=The+Hadith+on+the+Five+Pillars+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l9",
+          "title": "Women Narrators in Hadith Transmission",
+          "unit": "Women Narrators in Hadith Transmission",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of women narrators in hadith transmission at Undergraduate Year 2 depth.",
+            "Apply women narrators in hadith transmission concepts to worked examples and problems.",
+            "Critically discuss how women narrators in hadith transmission connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys the significant role of women, including Aisha bint Abi Bakr, in transmitting and preserving hadith.",
+          "key_concepts": [
+            "Women",
+            "Narrators",
+            "Hadith",
+            "Transmission"
+          ],
+          "practical_activities": [
+            "Guided worked example on women narrators in hadith transmission",
+            "Small-group discussion / problem set on women narrators in hadith transmission"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind women narrators in hadith transmission?",
+              "type": "short_answer",
+              "answer": "Surveys the significant role of women, including Aisha bint Abi Bakr, in transmitting and preserving hadith."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting women narrators in hadith transmission to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys the significant role of women, including Aisha bint Abi Bakr, in transmitting and preserving hadith.",
+            "tip": "Review women narrators in hadith transmission before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes women narrators in hadith transmission?",
+                "options": [
+                  "Surveys the significant role of women, including Aisha bint Abi Bakr, in transmitting and preserving hadith.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys the significant role of women, including Aisha bint Abi Bakr, in transmitting and preserving hadith."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands women narrators in hadith transmission",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Women+Narrators+in+Hadith+Transmission"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Women+Narrators+in+Hadith+Transmission+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 68
+          }
+        },
+        {
+          "id": "islamic-studies-ug2-l10",
+          "title": "Tafsir al-Tabari: A Classical Commentary",
+          "unit": "Tafsir al-Tabari: A Classical Commentary",
+          "level": "UG2",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the core ideas of tafsir al-tabari: a classical commentary at Undergraduate Year 2 depth.",
+            "Apply tafsir al-tabari: a classical commentary concepts to worked examples and problems.",
+            "Critically discuss how tafsir al-tabari: a classical commentary connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Introduces the historical-linguistic commentary tradition exemplified by al-Tabari's early and influential tafsir.",
+          "key_concepts": [
+            "Tafsir",
+            "al-Tabari",
+            "Classical",
+            "Commentary"
+          ],
+          "practical_activities": [
+            "Guided worked example on tafsir al-tabari: a classical commentary",
+            "Small-group discussion / problem set on tafsir al-tabari: a classical commentary"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind tafsir al-tabari: a classical commentary?",
+              "type": "short_answer",
+              "answer": "Introduces the historical-linguistic commentary tradition exemplified by al-Tabari's early and influential tafsir."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting tafsir al-tabari: a classical commentary to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Introduces the historical-linguistic commentary tradition exemplified by al-Tabari's early and influential tafsir.",
+            "tip": "Review tafsir al-tabari: a classical commentary before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes tafsir al-tabari: a classical commentary?",
+                "options": [
+                  "Introduces the historical-linguistic commentary tradition exemplified by al-Tabari's early and influential tafsir.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Introduces the historical-linguistic commentary tradition exemplified by al-Tabari's early and influential tafsir."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands tafsir al-tabari: a classical commentary",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 68
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Tafsir+al-Tabari%3A+A+Classical+Commentary"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Tafsir+al-Tabari%3A+A+Classical+Commentary+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 68

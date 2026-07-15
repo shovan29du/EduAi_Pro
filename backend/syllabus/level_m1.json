@@ -9238,6 +9238,50 @@
             "None of the above"
           ],
           "answer": "Graduate Theory: Comparative Religious Thought extends Islamic Studies at Master's Year 1, connecting comparative religious thought to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Research Methods in Quranic Studies' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology."
+        },
+        {
+          "question": "What is the focus of the 'Advanced Seminar: Surah Al-Baqarah's Legal Verses' module?",
+          "type": "multiple_choice",
+          "options": [
+            "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence."
+        },
+        {
+          "question": "What is the focus of the 'Advanced Seminar: Narrative Structure in Surah Yusuf' module?",
+          "type": "multiple_choice",
+          "options": [
+            "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf."
+        },
+        {
+          "question": "What is the focus of the 'Advanced Isnad-Matn Analysis' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem."
         }
       ],
       "exam": {
@@ -9418,6 +9462,593 @@
             "https://en.wikipedia.org/w/index.php?search=Graduate+Theory%3A+Comparative+Religious+Thought"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Graduate+Theory%3A+Comparative+Religious+Thought+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l3",
+          "title": "Research Methods in Quranic Studies",
+          "unit": "Research Methods in Quranic Studies",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of research methods in quranic studies at Master's Year 1 depth.",
+            "Apply research methods in quranic studies concepts to worked examples and problems.",
+            "Critically discuss how research methods in quranic studies connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology.",
+          "key_concepts": [
+            "Research",
+            "Methods",
+            "Quranic",
+            "Studies"
+          ],
+          "practical_activities": [
+            "Guided worked example on research methods in quranic studies",
+            "Small-group discussion / problem set on research methods in quranic studies"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind research methods in quranic studies?",
+              "type": "short_answer",
+              "answer": "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting research methods in quranic studies to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology.",
+            "tip": "Review research methods in quranic studies before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes research methods in quranic studies?",
+                "options": [
+                  "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Introduces graduate-level research methodology for studying the Quran, including manuscript studies, historical-critical approaches, and traditional tafsir methodology."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands research methods in quranic studies",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Research+Methods+in+Quranic+Studies"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Research+Methods+in+Quranic+Studies+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l4",
+          "title": "Advanced Seminar: Surah Al-Baqarah's Legal Verses",
+          "unit": "Advanced Seminar: Surah Al-Baqarah's Legal Verses",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of advanced seminar: surah al-baqarah's legal verses at Master's Year 1 depth.",
+            "Apply advanced seminar: surah al-baqarah's legal verses concepts to worked examples and problems.",
+            "Critically discuss how advanced seminar: surah al-baqarah's legal verses connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence.",
+          "key_concepts": [
+            "Advanced",
+            "Seminar",
+            "Surah",
+            "Al-Baqarah's",
+            "Legal"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced seminar: surah al-baqarah's legal verses",
+            "Small-group discussion / problem set on advanced seminar: surah al-baqarah's legal verses"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced seminar: surah al-baqarah's legal verses?",
+              "type": "short_answer",
+              "answer": "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced seminar: surah al-baqarah's legal verses to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence.",
+            "tip": "Review advanced seminar: surah al-baqarah's legal verses before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced seminar: surah al-baqarah's legal verses?",
+                "options": [
+                  "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "A close graduate-level reading of the legal content within Surah Al-Baqarah and its role in shaping classical Islamic jurisprudence."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced seminar: surah al-baqarah's legal verses",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Advanced+Seminar%3A+Surah+Al-Baqarah%27s+Legal+Verses"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+Seminar%3A+Surah+Al-Baqarah%27s+Legal+Verses+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l5",
+          "title": "Advanced Seminar: Narrative Structure in Surah Yusuf",
+          "unit": "Advanced Seminar: Narrative Structure in Surah Yusuf",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of advanced seminar: narrative structure in surah yusuf at Master's Year 1 depth.",
+            "Apply advanced seminar: narrative structure in surah yusuf concepts to worked examples and problems.",
+            "Critically discuss how advanced seminar: narrative structure in surah yusuf connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf.",
+          "key_concepts": [
+            "Advanced",
+            "Seminar",
+            "Narrative",
+            "Structure",
+            "Surah"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced seminar: narrative structure in surah yusuf",
+            "Small-group discussion / problem set on advanced seminar: narrative structure in surah yusuf"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced seminar: narrative structure in surah yusuf?",
+              "type": "short_answer",
+              "answer": "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced seminar: narrative structure in surah yusuf to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf.",
+            "tip": "Review advanced seminar: narrative structure in surah yusuf before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced seminar: narrative structure in surah yusuf?",
+                "options": [
+                  "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "A graduate-level literary analysis of narrative technique and characterization within Surah Yusuf."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced seminar: narrative structure in surah yusuf",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Advanced+Seminar%3A+Narrative+Structure+in+Surah+Yusuf"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+Seminar%3A+Narrative+Structure+in+Surah+Yusuf+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l6",
+          "title": "Advanced Isnad-Matn Analysis",
+          "unit": "Advanced Isnad-Matn Analysis",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of advanced isnad-matn analysis at Master's Year 1 depth.",
+            "Apply advanced isnad-matn analysis concepts to worked examples and problems.",
+            "Critically discuss how advanced isnad-matn analysis connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem.",
+          "key_concepts": [
+            "Advanced",
+            "Isnad-Matn",
+            "Analysis"
+          ],
+          "practical_activities": [
+            "Guided worked example on advanced isnad-matn analysis",
+            "Small-group discussion / problem set on advanced isnad-matn analysis"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind advanced isnad-matn analysis?",
+              "type": "short_answer",
+              "answer": "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting advanced isnad-matn analysis to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem.",
+            "tip": "Review advanced isnad-matn analysis before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes advanced isnad-matn analysis?",
+                "options": [
+                  "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Graduate-level training in evaluating both the chain of transmission (isnad) and the content (matn) of a hadith in tandem."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands advanced isnad-matn analysis",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Advanced+Isnad-Matn+Analysis"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Advanced+Isnad-Matn+Analysis+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l7",
+          "title": "Seminar: Sahih al-Bukhari's Chapter Headings (Tarajim) as Legal Reasoning",
+          "unit": "Seminar: Sahih al-Bukhari's Chapter Headings (Tarajim) as Legal Reasoning",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning at Master's Year 1 depth.",
+            "Apply seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning concepts to worked examples and problems.",
+            "Critically discuss how seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies how al-Bukhari's chapter titles themselves encode subtle legal and theological arguments, a distinctive feature of his methodology.",
+          "key_concepts": [
+            "Seminar",
+            "Sahih",
+            "al-Bukhari's",
+            "Chapter",
+            "Headings"
+          ],
+          "practical_activities": [
+            "Guided worked example on seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning",
+            "Small-group discussion / problem set on seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning?",
+              "type": "short_answer",
+              "answer": "Studies how al-Bukhari's chapter titles themselves encode subtle legal and theological arguments, a distinctive feature of his methodology."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies how al-Bukhari's chapter titles themselves encode subtle legal and theological arguments, a distinctive feature of his methodology.",
+            "tip": "Review seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning?",
+                "options": [
+                  "Studies how al-Bukhari's chapter titles themselves encode subtle legal and theological arguments, a distinctive feature of his methodology.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies how al-Bukhari's chapter titles themselves encode subtle legal and theological arguments, a distinctive feature of his methodology."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands seminar: sahih al-bukhari's chapter headings (tarajim) as legal reasoning",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Seminar%3A+Sahih+al-Bukhari%27s+Chapter+Headings+%28Tarajim%29+as+Legal+Reasoning"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Seminar%3A+Sahih+al-Bukhari%27s+Chapter+Headings+%28Tarajim%29+as+Legal+Reasoning+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l8",
+          "title": "Seminar: Sahih Muslim's Thematic Organization",
+          "unit": "Seminar: Sahih Muslim's Thematic Organization",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of seminar: sahih muslim's thematic organization at Master's Year 1 depth.",
+            "Apply seminar: sahih muslim's thematic organization concepts to worked examples and problems.",
+            "Critically discuss how seminar: sahih muslim's thematic organization connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines how Imam Muslim's subject-based arrangement differs from and complements al-Bukhari's structure.",
+          "key_concepts": [
+            "Seminar",
+            "Sahih",
+            "Muslim's",
+            "Thematic",
+            "Organization"
+          ],
+          "practical_activities": [
+            "Guided worked example on seminar: sahih muslim's thematic organization",
+            "Small-group discussion / problem set on seminar: sahih muslim's thematic organization"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind seminar: sahih muslim's thematic organization?",
+              "type": "short_answer",
+              "answer": "Examines how Imam Muslim's subject-based arrangement differs from and complements al-Bukhari's structure."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting seminar: sahih muslim's thematic organization to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines how Imam Muslim's subject-based arrangement differs from and complements al-Bukhari's structure.",
+            "tip": "Review seminar: sahih muslim's thematic organization before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes seminar: sahih muslim's thematic organization?",
+                "options": [
+                  "Examines how Imam Muslim's subject-based arrangement differs from and complements al-Bukhari's structure.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines how Imam Muslim's subject-based arrangement differs from and complements al-Bukhari's structure."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands seminar: sahih muslim's thematic organization",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Seminar%3A+Sahih+Muslim%27s+Thematic+Organization"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Seminar%3A+Sahih+Muslim%27s+Thematic+Organization+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l9",
+          "title": "Hadith and Historical-Critical Scholarship",
+          "unit": "Hadith and Historical-Critical Scholarship",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of hadith and historical-critical scholarship at Master's Year 1 depth.",
+            "Apply hadith and historical-critical scholarship concepts to worked examples and problems.",
+            "Critically discuss how hadith and historical-critical scholarship connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys how contemporary scholars, both traditional and academic, engage historical-critical questions about hadith transmission and dating.",
+          "key_concepts": [
+            "Hadith",
+            "Historical-Critical",
+            "Scholarship"
+          ],
+          "practical_activities": [
+            "Guided worked example on hadith and historical-critical scholarship",
+            "Small-group discussion / problem set on hadith and historical-critical scholarship"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind hadith and historical-critical scholarship?",
+              "type": "short_answer",
+              "answer": "Surveys how contemporary scholars, both traditional and academic, engage historical-critical questions about hadith transmission and dating."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting hadith and historical-critical scholarship to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys how contemporary scholars, both traditional and academic, engage historical-critical questions about hadith transmission and dating.",
+            "tip": "Review hadith and historical-critical scholarship before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes hadith and historical-critical scholarship?",
+                "options": [
+                  "Surveys how contemporary scholars, both traditional and academic, engage historical-critical questions about hadith transmission and dating.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys how contemporary scholars, both traditional and academic, engage historical-critical questions about hadith transmission and dating."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands hadith and historical-critical scholarship",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Hadith+and+Historical-Critical+Scholarship"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Hadith+and+Historical-Critical+Scholarship+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 75
+          }
+        },
+        {
+          "id": "islamic-studies-m1-l10",
+          "title": "Capstone Research Project: A Surah or Hadith Collection of Choice",
+          "unit": "Capstone Research Project: A Surah or Hadith Collection of Choice",
+          "level": "M1",
+          "subject": "Islamic Studies",
+          "difficulty": "graduate-core",
+          "estimated_time_minutes": 80,
+          "learning_objectives": [
+            "Explain the core ideas of capstone research project: a surah or hadith collection of choice at Master's Year 1 depth.",
+            "Apply capstone research project: a surah or hadith collection of choice concepts to worked examples and problems.",
+            "Critically discuss how capstone research project: a surah or hadith collection of choice connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Guides students through an independent graduate-level research project analyzing a chosen Surah's themes or a hadith collection's methodology.",
+          "key_concepts": [
+            "Capstone",
+            "Research",
+            "Project",
+            "Surah",
+            "Hadith"
+          ],
+          "practical_activities": [
+            "Guided worked example on capstone research project: a surah or hadith collection of choice",
+            "Small-group discussion / problem set on capstone research project: a surah or hadith collection of choice"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind capstone research project: a surah or hadith collection of choice?",
+              "type": "short_answer",
+              "answer": "Guides students through an independent graduate-level research project analyzing a chosen Surah's themes or a hadith collection's methodology."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting capstone research project: a surah or hadith collection of choice to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Guides students through an independent graduate-level research project analyzing a chosen Surah's themes or a hadith collection's methodology.",
+            "tip": "Review capstone research project: a surah or hadith collection of choice before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes capstone research project: a surah or hadith collection of choice?",
+                "options": [
+                  "Guides students through an independent graduate-level research project analyzing a chosen Surah's themes or a hadith collection's methodology.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Guides students through an independent graduate-level research project analyzing a chosen Surah's themes or a hadith collection's methodology."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands capstone research project: a surah or hadith collection of choice",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 75
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Capstone+Research+Project%3A+A+Surah+or+Hadith+Collection+of+Choice"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Capstone+Research+Project%3A+A+Surah+or+Hadith+Collection+of+Choice+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 75

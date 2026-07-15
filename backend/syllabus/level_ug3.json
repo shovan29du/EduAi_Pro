@@ -9218,6 +9218,50 @@
             "None of the above"
           ],
           "answer": "Advanced Islamic History & Civilization extends Islamic Studies at Undergraduate Year 3, connecting islamic history & civilization to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Hujurat: Social Ethics' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Mulk: Themes of Sovereignty' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation."
+        },
+        {
+          "question": "What is the focus of the 'Quranic Linguistics and Rhetorical Style (I'jaz)' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure."
+        },
+        {
+          "question": "What is the focus of the 'Hadith Fabrication and the Rise of Isnad Criticism' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship."
         }
       ],
       "exam": {
@@ -9395,6 +9439,595 @@
             "https://en.wikipedia.org/w/index.php?search=Advanced+Islamic+History+%26+Civilization"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Advanced+Islamic+History+%26+Civilization+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l3",
+          "title": "Surah Al-Hujurat: Social Ethics",
+          "unit": "Surah Al-Hujurat: Social Ethics",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-hujurat: social ethics at Undergraduate Year 3 depth.",
+            "Apply surah al-hujurat: social ethics concepts to worked examples and problems.",
+            "Critically discuss how surah al-hujurat: social ethics connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting.",
+          "key_concepts": [
+            "Surah",
+            "Al-Hujurat",
+            "Social",
+            "Ethics"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-hujurat: social ethics",
+            "Small-group discussion / problem set on surah al-hujurat: social ethics"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-hujurat: social ethics?",
+              "type": "short_answer",
+              "answer": "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-hujurat: social ethics to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting.",
+            "tip": "Review surah al-hujurat: social ethics before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-hujurat: social ethics?",
+                "options": [
+                  "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies this chapter's guidance on social conduct, including verification of information and avoiding backbiting."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-hujurat: social ethics",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Hujurat%3A+Social+Ethics"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Hujurat%3A+Social+Ethics+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l4",
+          "title": "Surah Al-Mulk: Themes of Sovereignty",
+          "unit": "Surah Al-Mulk: Themes of Sovereignty",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-mulk: themes of sovereignty at Undergraduate Year 3 depth.",
+            "Apply surah al-mulk: themes of sovereignty concepts to worked examples and problems.",
+            "Critically discuss how surah al-mulk: themes of sovereignty connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation.",
+          "key_concepts": [
+            "Surah",
+            "Al-Mulk",
+            "Themes",
+            "Sovereignty"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-mulk: themes of sovereignty",
+            "Small-group discussion / problem set on surah al-mulk: themes of sovereignty"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-mulk: themes of sovereignty?",
+              "type": "short_answer",
+              "answer": "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-mulk: themes of sovereignty to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation.",
+            "tip": "Review surah al-mulk: themes of sovereignty before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-mulk: themes of sovereignty?",
+                "options": [
+                  "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines this chapter's meditations on divine sovereignty over creation and its traditional role in nightly recitation."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-mulk: themes of sovereignty",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Mulk%3A+Themes+of+Sovereignty"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Mulk%3A+Themes+of+Sovereignty+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l5",
+          "title": "Quranic Linguistics and Rhetorical Style (I'jaz)",
+          "unit": "Quranic Linguistics and Rhetorical Style (I'jaz)",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of quranic linguistics and rhetorical style (i'jaz) at Undergraduate Year 3 depth.",
+            "Apply quranic linguistics and rhetorical style (i'jaz) concepts to worked examples and problems.",
+            "Critically discuss how quranic linguistics and rhetorical style (i'jaz) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure.",
+          "key_concepts": [
+            "Quranic",
+            "Linguistics",
+            "Rhetorical",
+            "Style",
+            "(I'jaz)"
+          ],
+          "practical_activities": [
+            "Guided worked example on quranic linguistics and rhetorical style (i'jaz)",
+            "Small-group discussion / problem set on quranic linguistics and rhetorical style (i'jaz)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind quranic linguistics and rhetorical style (i'jaz)?",
+              "type": "short_answer",
+              "answer": "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting quranic linguistics and rhetorical style (i'jaz) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure.",
+            "tip": "Review quranic linguistics and rhetorical style (i'jaz) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes quranic linguistics and rhetorical style (i'jaz)?",
+                "options": [
+                  "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys classical arguments for the Quran's inimitability based on its linguistic and rhetorical structure."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands quranic linguistics and rhetorical style (i'jaz)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Quranic+Linguistics+and+Rhetorical+Style+%28I%27jaz%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Quranic+Linguistics+and+Rhetorical+Style+%28I%27jaz%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l6",
+          "title": "Hadith Fabrication and the Rise of Isnad Criticism",
+          "unit": "Hadith Fabrication and the Rise of Isnad Criticism",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of hadith fabrication and the rise of isnad criticism at Undergraduate Year 3 depth.",
+            "Apply hadith fabrication and the rise of isnad criticism concepts to worked examples and problems.",
+            "Critically discuss how hadith fabrication and the rise of isnad criticism connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship.",
+          "key_concepts": [
+            "Hadith",
+            "Fabrication",
+            "Rise",
+            "Isnad",
+            "Criticism"
+          ],
+          "practical_activities": [
+            "Guided worked example on hadith fabrication and the rise of isnad criticism",
+            "Small-group discussion / problem set on hadith fabrication and the rise of isnad criticism"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind hadith fabrication and the rise of isnad criticism?",
+              "type": "short_answer",
+              "answer": "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting hadith fabrication and the rise of isnad criticism to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship.",
+            "tip": "Review hadith fabrication and the rise of isnad criticism before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes hadith fabrication and the rise of isnad criticism?",
+                "options": [
+                  "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the historical emergence of hadith fabrication and how it drove the development of rigorous chain-of-transmission scholarship."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands hadith fabrication and the rise of isnad criticism",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Hadith+Fabrication+and+the+Rise+of+Isnad+Criticism"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Hadith+Fabrication+and+the+Rise+of+Isnad+Criticism+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l7",
+          "title": "Al-Tirmidhi's Sunan and Hadith Grading Terminology",
+          "unit": "Al-Tirmidhi's Sunan and Hadith Grading Terminology",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of al-tirmidhi's sunan and hadith grading terminology at Undergraduate Year 3 depth.",
+            "Apply al-tirmidhi's sunan and hadith grading terminology concepts to worked examples and problems.",
+            "Critically discuss how al-tirmidhi's sunan and hadith grading terminology connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines al-Tirmidhi's distinctive practice of explicitly grading each hadith and his contributions to hadith terminology.",
+          "key_concepts": [
+            "Al-Tirmidhi's",
+            "Sunan",
+            "Hadith",
+            "Grading",
+            "Terminology"
+          ],
+          "practical_activities": [
+            "Guided worked example on al-tirmidhi's sunan and hadith grading terminology",
+            "Small-group discussion / problem set on al-tirmidhi's sunan and hadith grading terminology"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind al-tirmidhi's sunan and hadith grading terminology?",
+              "type": "short_answer",
+              "answer": "Examines al-Tirmidhi's distinctive practice of explicitly grading each hadith and his contributions to hadith terminology."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting al-tirmidhi's sunan and hadith grading terminology to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines al-Tirmidhi's distinctive practice of explicitly grading each hadith and his contributions to hadith terminology.",
+            "tip": "Review al-tirmidhi's sunan and hadith grading terminology before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes al-tirmidhi's sunan and hadith grading terminology?",
+                "options": [
+                  "Examines al-Tirmidhi's distinctive practice of explicitly grading each hadith and his contributions to hadith terminology.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines al-Tirmidhi's distinctive practice of explicitly grading each hadith and his contributions to hadith terminology."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands al-tirmidhi's sunan and hadith grading terminology",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Al-Tirmidhi%27s+Sunan+and+Hadith+Grading+Terminology"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Al-Tirmidhi%27s+Sunan+and+Hadith+Grading+Terminology+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l8",
+          "title": "The Hadith on Neighborliness and Social Responsibility",
+          "unit": "The Hadith on Neighborliness and Social Responsibility",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of the hadith on neighborliness and social responsibility at Undergraduate Year 3 depth.",
+            "Apply the hadith on neighborliness and social responsibility concepts to worked examples and problems.",
+            "Critically discuss how the hadith on neighborliness and social responsibility connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies well-known hadith addressing obligations toward neighbors as a lens on Islamic social ethics.",
+          "key_concepts": [
+            "Hadith",
+            "Neighborliness",
+            "Social",
+            "Responsibility"
+          ],
+          "practical_activities": [
+            "Guided worked example on the hadith on neighborliness and social responsibility",
+            "Small-group discussion / problem set on the hadith on neighborliness and social responsibility"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind the hadith on neighborliness and social responsibility?",
+              "type": "short_answer",
+              "answer": "Studies well-known hadith addressing obligations toward neighbors as a lens on Islamic social ethics."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting the hadith on neighborliness and social responsibility to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies well-known hadith addressing obligations toward neighbors as a lens on Islamic social ethics.",
+            "tip": "Review the hadith on neighborliness and social responsibility before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes the hadith on neighborliness and social responsibility?",
+                "options": [
+                  "Studies well-known hadith addressing obligations toward neighbors as a lens on Islamic social ethics.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies well-known hadith addressing obligations toward neighbors as a lens on Islamic social ethics."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the hadith on neighborliness and social responsibility",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=The+Hadith+on+Neighborliness+and+Social+Responsibility"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=The+Hadith+on+Neighborliness+and+Social+Responsibility+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l9",
+          "title": "Comparative Tafsir: Classical and Modern Approaches",
+          "unit": "Comparative Tafsir: Classical and Modern Approaches",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of comparative tafsir: classical and modern approaches at Undergraduate Year 3 depth.",
+            "Apply comparative tafsir: classical and modern approaches concepts to worked examples and problems.",
+            "Critically discuss how comparative tafsir: classical and modern approaches connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Compares premodern exegetical methods with modern thematic (mawdu'i) and contextual approaches to Quranic interpretation.",
+          "key_concepts": [
+            "Comparative",
+            "Tafsir",
+            "Classical",
+            "Modern",
+            "Approaches"
+          ],
+          "practical_activities": [
+            "Guided worked example on comparative tafsir: classical and modern approaches",
+            "Small-group discussion / problem set on comparative tafsir: classical and modern approaches"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind comparative tafsir: classical and modern approaches?",
+              "type": "short_answer",
+              "answer": "Compares premodern exegetical methods with modern thematic (mawdu'i) and contextual approaches to Quranic interpretation."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting comparative tafsir: classical and modern approaches to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Compares premodern exegetical methods with modern thematic (mawdu'i) and contextual approaches to Quranic interpretation.",
+            "tip": "Review comparative tafsir: classical and modern approaches before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes comparative tafsir: classical and modern approaches?",
+                "options": [
+                  "Compares premodern exegetical methods with modern thematic (mawdu'i) and contextual approaches to Quranic interpretation.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Compares premodern exegetical methods with modern thematic (mawdu'i) and contextual approaches to Quranic interpretation."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands comparative tafsir: classical and modern approaches",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Comparative+Tafsir%3A+Classical+and+Modern+Approaches"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Comparative+Tafsir%3A+Classical+and+Modern+Approaches+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "islamic-studies-ug3-l10",
+          "title": "Hadith in Islamic Legal Theory (Usul al-Fiqh)",
+          "unit": "Hadith in Islamic Legal Theory (Usul al-Fiqh)",
+          "level": "UG3",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the core ideas of hadith in islamic legal theory (usul al-fiqh) at Undergraduate Year 3 depth.",
+            "Apply hadith in islamic legal theory (usul al-fiqh) concepts to worked examples and problems.",
+            "Critically discuss how hadith in islamic legal theory (usul al-fiqh) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines how hadith function as a source of Islamic law alongside the Quran, consensus (ijma), and analogical reasoning (qiyas).",
+          "key_concepts": [
+            "Hadith",
+            "Islamic",
+            "Legal",
+            "Theory",
+            "(Usul"
+          ],
+          "practical_activities": [
+            "Guided worked example on hadith in islamic legal theory (usul al-fiqh)",
+            "Small-group discussion / problem set on hadith in islamic legal theory (usul al-fiqh)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind hadith in islamic legal theory (usul al-fiqh)?",
+              "type": "short_answer",
+              "answer": "Examines how hadith function as a source of Islamic law alongside the Quran, consensus (ijma), and analogical reasoning (qiyas)."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting hadith in islamic legal theory (usul al-fiqh) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines how hadith function as a source of Islamic law alongside the Quran, consensus (ijma), and analogical reasoning (qiyas).",
+            "tip": "Review hadith in islamic legal theory (usul al-fiqh) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes hadith in islamic legal theory (usul al-fiqh)?",
+                "options": [
+                  "Examines how hadith function as a source of Islamic law alongside the Quran, consensus (ijma), and analogical reasoning (qiyas).",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines how hadith function as a source of Islamic law alongside the Quran, consensus (ijma), and analogical reasoning (qiyas)."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands hadith in islamic legal theory (usul al-fiqh)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Hadith+in+Islamic+Legal+Theory+%28Usul+al-Fiqh%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Hadith+in+Islamic+Legal+Theory+%28Usul+al-Fiqh%29+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70

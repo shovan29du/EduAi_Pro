@@ -9215,6 +9215,50 @@
             "None of the above"
           ],
           "answer": "Building on Islamic Ethics & Jurisprudence extends Islamic Studies at College Level 2, connecting islamic ethics & jurisprudence to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Kahf: The Cave' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial."
+        },
+        {
+          "question": "What is the focus of the 'Surah Maryam: Mary in the Quran' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood."
+        },
+        {
+          "question": "What is the focus of the 'Surah Ya-Sin: Themes of Resurrection' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood."
+        },
+        {
+          "question": "What is the focus of the 'Grades of Hadith Authenticity' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade."
         }
       ],
       "exam": {
@@ -9393,6 +9437,586 @@
             "https://en.wikipedia.org/w/index.php?search=Building+on+Islamic+Ethics+%26+Jurisprudence"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Building+on+Islamic+Ethics+%26+Jurisprudence+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l3",
+          "title": "Surah Al-Kahf: The Cave",
+          "unit": "Surah Al-Kahf: The Cave",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-kahf: the cave at College Level 2 depth.",
+            "Apply surah al-kahf: the cave concepts to worked examples and problems.",
+            "Critically discuss how surah al-kahf: the cave connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial.",
+          "key_concepts": [
+            "Surah",
+            "Al-Kahf",
+            "Cave"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-kahf: the cave",
+            "Small-group discussion / problem set on surah al-kahf: the cave"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-kahf: the cave?",
+              "type": "short_answer",
+              "answer": "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-kahf: the cave to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial.",
+            "tip": "Review surah al-kahf: the cave before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-kahf: the cave?",
+                "options": [
+                  "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Explores the four narratives of this chapter -- the Companions of the Cave, the two garden owners, Musa and Khidr, and Dhul-Qarnayn -- and their shared themes of faith under trial."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-kahf: the cave",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Kahf%3A+The+Cave"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Kahf%3A+The+Cave+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l4",
+          "title": "Surah Maryam: Mary in the Quran",
+          "unit": "Surah Maryam: Mary in the Quran",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of surah maryam: mary in the quran at College Level 2 depth.",
+            "Apply surah maryam: mary in the quran concepts to worked examples and problems.",
+            "Critically discuss how surah maryam: mary in the quran connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood.",
+          "key_concepts": [
+            "Surah",
+            "Maryam",
+            "Mary",
+            "Quran"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah maryam: mary in the quran",
+            "Small-group discussion / problem set on surah maryam: mary in the quran"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah maryam: mary in the quran?",
+              "type": "short_answer",
+              "answer": "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah maryam: mary in the quran to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood.",
+            "tip": "Review surah maryam: mary in the quran before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah maryam: mary in the quran?",
+                "options": [
+                  "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the chapter narrating the account of Maryam (Mary) and the birth of Isa (Jesus), and its place within Quranic discussions of prophethood."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah maryam: mary in the quran",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Maryam%3A+Mary+in+the+Quran"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Maryam%3A+Mary+in+the+Quran+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l5",
+          "title": "Surah Ya-Sin: Themes of Resurrection",
+          "unit": "Surah Ya-Sin: Themes of Resurrection",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of surah ya-sin: themes of resurrection at College Level 2 depth.",
+            "Apply surah ya-sin: themes of resurrection concepts to worked examples and problems.",
+            "Critically discuss how surah ya-sin: themes of resurrection connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood.",
+          "key_concepts": [
+            "Surah",
+            "Ya-Sin",
+            "Themes",
+            "Resurrection"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah ya-sin: themes of resurrection",
+            "Small-group discussion / problem set on surah ya-sin: themes of resurrection"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah ya-sin: themes of resurrection?",
+              "type": "short_answer",
+              "answer": "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah ya-sin: themes of resurrection to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood.",
+            "tip": "Review surah ya-sin: themes of resurrection before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah ya-sin: themes of resurrection?",
+                "options": [
+                  "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys this widely recited chapter's arguments for the resurrection, monotheism, and prophethood."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah ya-sin: themes of resurrection",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Ya-Sin%3A+Themes+of+Resurrection"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Ya-Sin%3A+Themes+of+Resurrection+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l6",
+          "title": "Grades of Hadith Authenticity",
+          "unit": "Grades of Hadith Authenticity",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of grades of hadith authenticity at College Level 2 depth.",
+            "Apply grades of hadith authenticity concepts to worked examples and problems.",
+            "Critically discuss how grades of hadith authenticity connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade.",
+          "key_concepts": [
+            "Grades",
+            "Hadith",
+            "Authenticity"
+          ],
+          "practical_activities": [
+            "Guided worked example on grades of hadith authenticity",
+            "Small-group discussion / problem set on grades of hadith authenticity"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind grades of hadith authenticity?",
+              "type": "short_answer",
+              "answer": "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting grades of hadith authenticity to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade.",
+            "tip": "Review grades of hadith authenticity before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes grades of hadith authenticity?",
+                "options": [
+                  "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Introduces the classification system used by hadith scholars -- sahih (authentic), hasan (good), da'if (weak) -- and the criteria used to assign each grade."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands grades of hadith authenticity",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Grades+of+Hadith+Authenticity"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Grades+of+Hadith+Authenticity+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l7",
+          "title": "Isnad Criticism (Ilm al-Rijal)",
+          "unit": "Isnad Criticism (Ilm al-Rijal)",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of isnad criticism (ilm al-rijal) at College Level 2 depth.",
+            "Apply isnad criticism (ilm al-rijal) concepts to worked examples and problems.",
+            "Critically discuss how isnad criticism (ilm al-rijal) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines the biographical evaluation of hadith narrators (rijal) used to assess the reliability of a chain of transmission.",
+          "key_concepts": [
+            "Isnad",
+            "Criticism",
+            "(Ilm",
+            "al-Rijal)"
+          ],
+          "practical_activities": [
+            "Guided worked example on isnad criticism (ilm al-rijal)",
+            "Small-group discussion / problem set on isnad criticism (ilm al-rijal)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind isnad criticism (ilm al-rijal)?",
+              "type": "short_answer",
+              "answer": "Examines the biographical evaluation of hadith narrators (rijal) used to assess the reliability of a chain of transmission."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting isnad criticism (ilm al-rijal) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines the biographical evaluation of hadith narrators (rijal) used to assess the reliability of a chain of transmission.",
+            "tip": "Review isnad criticism (ilm al-rijal) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes isnad criticism (ilm al-rijal)?",
+                "options": [
+                  "Examines the biographical evaluation of hadith narrators (rijal) used to assess the reliability of a chain of transmission.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines the biographical evaluation of hadith narrators (rijal) used to assess the reliability of a chain of transmission."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands isnad criticism (ilm al-rijal)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Isnad+Criticism+%28Ilm+al-Rijal%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Isnad+Criticism+%28Ilm+al-Rijal%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l8",
+          "title": "The Six Canonical Hadith Collections (Kutub al-Sittah)",
+          "unit": "The Six Canonical Hadith Collections (Kutub al-Sittah)",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of the six canonical hadith collections (kutub al-sittah) at College Level 2 depth.",
+            "Apply the six canonical hadith collections (kutub al-sittah) concepts to worked examples and problems.",
+            "Critically discuss how the six canonical hadith collections (kutub al-sittah) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Surveys Sahih al-Bukhari, Sahih Muslim, and the four Sunan collections (Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah) and their collective role in Sunni hadith literature.",
+          "key_concepts": [
+            "Canonical",
+            "Hadith",
+            "Collections",
+            "(Kutub",
+            "al-Sittah)"
+          ],
+          "practical_activities": [
+            "Guided worked example on the six canonical hadith collections (kutub al-sittah)",
+            "Small-group discussion / problem set on the six canonical hadith collections (kutub al-sittah)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind the six canonical hadith collections (kutub al-sittah)?",
+              "type": "short_answer",
+              "answer": "Surveys Sahih al-Bukhari, Sahih Muslim, and the four Sunan collections (Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah) and their collective role in Sunni hadith literature."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting the six canonical hadith collections (kutub al-sittah) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Surveys Sahih al-Bukhari, Sahih Muslim, and the four Sunan collections (Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah) and their collective role in Sunni hadith literature.",
+            "tip": "Review the six canonical hadith collections (kutub al-sittah) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes the six canonical hadith collections (kutub al-sittah)?",
+                "options": [
+                  "Surveys Sahih al-Bukhari, Sahih Muslim, and the four Sunan collections (Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah) and their collective role in Sunni hadith literature.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Surveys Sahih al-Bukhari, Sahih Muslim, and the four Sunan collections (Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah) and their collective role in Sunni hadith literature."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the six canonical hadith collections (kutub al-sittah)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=The+Six+Canonical+Hadith+Collections+%28Kutub+al-Sittah%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=The+Six+Canonical+Hadith+Collections+%28Kutub+al-Sittah%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l9",
+          "title": "The Hadith of Gabriel",
+          "unit": "The Hadith of Gabriel",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of the hadith of gabriel at College Level 2 depth.",
+            "Apply the hadith of gabriel concepts to worked examples and problems.",
+            "Critically discuss how the hadith of gabriel connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the well-known hadith describing a dialogue that outlines the three dimensions of the religion -- islam, iman, and ihsan -- as a foundational framework in Islamic theology.",
+          "key_concepts": [
+            "Hadith",
+            "Gabriel"
+          ],
+          "practical_activities": [
+            "Guided worked example on the hadith of gabriel",
+            "Small-group discussion / problem set on the hadith of gabriel"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind the hadith of gabriel?",
+              "type": "short_answer",
+              "answer": "Studies the well-known hadith describing a dialogue that outlines the three dimensions of the religion -- islam, iman, and ihsan -- as a foundational framework in Islamic theology."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting the hadith of gabriel to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the well-known hadith describing a dialogue that outlines the three dimensions of the religion -- islam, iman, and ihsan -- as a foundational framework in Islamic theology.",
+            "tip": "Review the hadith of gabriel before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes the hadith of gabriel?",
+                "options": [
+                  "Studies the well-known hadith describing a dialogue that outlines the three dimensions of the religion -- islam, iman, and ihsan -- as a foundational framework in Islamic theology.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the well-known hadith describing a dialogue that outlines the three dimensions of the religion -- islam, iman, and ihsan -- as a foundational framework in Islamic theology."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the hadith of gabriel",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=The+Hadith+of+Gabriel"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=The+Hadith+of+Gabriel+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 62
+          }
+        },
+        {
+          "id": "islamic-studies-c2-l10",
+          "title": "Comparative Approaches to Tafsir",
+          "unit": "Comparative Approaches to Tafsir",
+          "level": "C2",
+          "subject": "Islamic Studies",
+          "difficulty": "college-intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the core ideas of comparative approaches to tafsir at College Level 2 depth.",
+            "Apply comparative approaches to tafsir concepts to worked examples and problems.",
+            "Critically discuss how comparative approaches to tafsir connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Compares classical, linguistic, legal, and thematic (mawdu'i) approaches to Quranic commentary across different scholarly traditions.",
+          "key_concepts": [
+            "Comparative",
+            "Approaches",
+            "Tafsir"
+          ],
+          "practical_activities": [
+            "Guided worked example on comparative approaches to tafsir",
+            "Small-group discussion / problem set on comparative approaches to tafsir"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind comparative approaches to tafsir?",
+              "type": "short_answer",
+              "answer": "Compares classical, linguistic, legal, and thematic (mawdu'i) approaches to Quranic commentary across different scholarly traditions."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting comparative approaches to tafsir to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Compares classical, linguistic, legal, and thematic (mawdu'i) approaches to Quranic commentary across different scholarly traditions.",
+            "tip": "Review comparative approaches to tafsir before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes comparative approaches to tafsir?",
+                "options": [
+                  "Compares classical, linguistic, legal, and thematic (mawdu'i) approaches to Quranic commentary across different scholarly traditions.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Compares classical, linguistic, legal, and thematic (mawdu'i) approaches to Quranic commentary across different scholarly traditions."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands comparative approaches to tafsir",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 62
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Comparative+Approaches+to+Tafsir"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Comparative+Approaches+to+Tafsir+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 62

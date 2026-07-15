@@ -9225,6 +9225,50 @@
             "None of the above"
           ],
           "answer": "Core Theory: Comparative Religious Thought extends Islamic Studies at Undergraduate Year 1, connecting comparative religious thought to practical problems, projects, and real-world case studies."
+        },
+        {
+          "question": "What is the focus of the 'Surah An-Nisa: Family and Social Legislation' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context."
+        },
+        {
+          "question": "What is the focus of the 'Surah Al-Ma'idah: Covenants and Law' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Examines this chapter's themes of covenant, dietary law, and interfaith relations.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Examines this chapter's themes of covenant, dietary law, and interfaith relations."
+        },
+        {
+          "question": "What is the focus of the 'Surah Ar-Rahman: Structure and Refrain' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation."
+        },
+        {
+          "question": "What is the focus of the 'Makki and Madani Surahs' module?",
+          "type": "multiple_choice",
+          "options": [
+            "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content.",
+            "Not part of this subject at this level",
+            "A topic covered only in an earlier level",
+            "None of the above"
+          ],
+          "answer": "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content."
         }
       ],
       "exam": {
@@ -9405,6 +9449,590 @@
             "https://en.wikipedia.org/w/index.php?search=Core+Theory%3A+Comparative+Religious+Thought"
           ],
           "video_reference": "https://www.youtube.com/results?search_query=Core+Theory%3A+Comparative+Religious+Thought+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l3",
+          "title": "Surah An-Nisa: Family and Social Legislation",
+          "unit": "Surah An-Nisa: Family and Social Legislation",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of surah an-nisa: family and social legislation at Undergraduate Year 1 depth.",
+            "Apply surah an-nisa: family and social legislation concepts to worked examples and problems.",
+            "Critically discuss how surah an-nisa: family and social legislation connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context.",
+          "key_concepts": [
+            "Surah",
+            "An-Nisa",
+            "Family",
+            "Social",
+            "Legislation"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah an-nisa: family and social legislation",
+            "Small-group discussion / problem set on surah an-nisa: family and social legislation"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah an-nisa: family and social legislation?",
+              "type": "short_answer",
+              "answer": "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah an-nisa: family and social legislation to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context.",
+            "tip": "Review surah an-nisa: family and social legislation before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah an-nisa: family and social legislation?",
+                "options": [
+                  "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies this chapter's extensive legal content on family relations, inheritance, and social justice within its historical context."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah an-nisa: family and social legislation",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+An-Nisa%3A+Family+and+Social+Legislation"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+An-Nisa%3A+Family+and+Social+Legislation+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l4",
+          "title": "Surah Al-Ma'idah: Covenants and Law",
+          "unit": "Surah Al-Ma'idah: Covenants and Law",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of surah al-ma'idah: covenants and law at Undergraduate Year 1 depth.",
+            "Apply surah al-ma'idah: covenants and law concepts to worked examples and problems.",
+            "Critically discuss how surah al-ma'idah: covenants and law connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines this chapter's themes of covenant, dietary law, and interfaith relations.",
+          "key_concepts": [
+            "Surah",
+            "Al-Ma'idah",
+            "Covenants"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah al-ma'idah: covenants and law",
+            "Small-group discussion / problem set on surah al-ma'idah: covenants and law"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah al-ma'idah: covenants and law?",
+              "type": "short_answer",
+              "answer": "Examines this chapter's themes of covenant, dietary law, and interfaith relations."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah al-ma'idah: covenants and law to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines this chapter's themes of covenant, dietary law, and interfaith relations.",
+            "tip": "Review surah al-ma'idah: covenants and law before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah al-ma'idah: covenants and law?",
+                "options": [
+                  "Examines this chapter's themes of covenant, dietary law, and interfaith relations.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines this chapter's themes of covenant, dietary law, and interfaith relations."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah al-ma'idah: covenants and law",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Al-Ma%27idah%3A+Covenants+and+Law"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Al-Ma%27idah%3A+Covenants+and+Law+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l5",
+          "title": "Surah Ar-Rahman: Structure and Refrain",
+          "unit": "Surah Ar-Rahman: Structure and Refrain",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of surah ar-rahman: structure and refrain at Undergraduate Year 1 depth.",
+            "Apply surah ar-rahman: structure and refrain concepts to worked examples and problems.",
+            "Critically discuss how surah ar-rahman: structure and refrain connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation.",
+          "key_concepts": [
+            "Surah",
+            "Ar-Rahman",
+            "Structure",
+            "Refrain"
+          ],
+          "practical_activities": [
+            "Guided worked example on surah ar-rahman: structure and refrain",
+            "Small-group discussion / problem set on surah ar-rahman: structure and refrain"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind surah ar-rahman: structure and refrain?",
+              "type": "short_answer",
+              "answer": "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting surah ar-rahman: structure and refrain to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation.",
+            "tip": "Review surah ar-rahman: structure and refrain before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes surah ar-rahman: structure and refrain?",
+                "options": [
+                  "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies the repeated refrain structure of this chapter and its themes of divine favor across creation."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands surah ar-rahman: structure and refrain",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Surah+Ar-Rahman%3A+Structure+and+Refrain"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Surah+Ar-Rahman%3A+Structure+and+Refrain+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l6",
+          "title": "Makki and Madani Surahs",
+          "unit": "Makki and Madani Surahs",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of makki and madani surahs at Undergraduate Year 1 depth.",
+            "Apply makki and madani surahs concepts to worked examples and problems.",
+            "Critically discuss how makki and madani surahs connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content.",
+          "key_concepts": [
+            "Makki",
+            "Madani",
+            "Surahs"
+          ],
+          "practical_activities": [
+            "Guided worked example on makki and madani surahs",
+            "Small-group discussion / problem set on makki and madani surahs"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind makki and madani surahs?",
+              "type": "short_answer",
+              "answer": "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting makki and madani surahs to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content.",
+            "tip": "Review makki and madani surahs before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes makki and madani surahs?",
+                "options": [
+                  "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Distinguishes Quranic chapters revealed before and after the migration to Medina, and how this classification shapes thematic and legal content."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands makki and madani surahs",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Makki+and+Madani+Surahs"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Makki+and+Madani+Surahs+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l7",
+          "title": "Introduction to Asbab al-Nuzul (Occasions of Revelation)",
+          "unit": "Introduction to Asbab al-Nuzul (Occasions of Revelation)",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of introduction to asbab al-nuzul (occasions of revelation) at Undergraduate Year 1 depth.",
+            "Apply introduction to asbab al-nuzul (occasions of revelation) concepts to worked examples and problems.",
+            "Critically discuss how introduction to asbab al-nuzul (occasions of revelation) connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies how knowledge of the historical circumstances surrounding a revelation informs its interpretation.",
+          "key_concepts": [
+            "Introduction",
+            "Asbab",
+            "al-Nuzul",
+            "(Occasions",
+            "Revelation)"
+          ],
+          "practical_activities": [
+            "Guided worked example on introduction to asbab al-nuzul (occasions of revelation)",
+            "Small-group discussion / problem set on introduction to asbab al-nuzul (occasions of revelation)"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind introduction to asbab al-nuzul (occasions of revelation)?",
+              "type": "short_answer",
+              "answer": "Studies how knowledge of the historical circumstances surrounding a revelation informs its interpretation."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting introduction to asbab al-nuzul (occasions of revelation) to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies how knowledge of the historical circumstances surrounding a revelation informs its interpretation.",
+            "tip": "Review introduction to asbab al-nuzul (occasions of revelation) before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes introduction to asbab al-nuzul (occasions of revelation)?",
+                "options": [
+                  "Studies how knowledge of the historical circumstances surrounding a revelation informs its interpretation.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies how knowledge of the historical circumstances surrounding a revelation informs its interpretation."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands introduction to asbab al-nuzul (occasions of revelation)",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Introduction+to+Asbab+al-Nuzul+%28Occasions+of+Revelation%29"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Introduction+to+Asbab+al-Nuzul+%28Occasions+of+Revelation%29+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l8",
+          "title": "Hadith Qudsi: Sacred Sayings",
+          "unit": "Hadith Qudsi: Sacred Sayings",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of hadith qudsi: sacred sayings at Undergraduate Year 1 depth.",
+            "Apply hadith qudsi: sacred sayings concepts to worked examples and problems.",
+            "Critically discuss how hadith qudsi: sacred sayings connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Distinguishes hadith qudsi -- sayings attributed to God but not part of the Quran's textual revelation -- from ordinary prophetic hadith.",
+          "key_concepts": [
+            "Hadith",
+            "Qudsi",
+            "Sacred",
+            "Sayings"
+          ],
+          "practical_activities": [
+            "Guided worked example on hadith qudsi: sacred sayings",
+            "Small-group discussion / problem set on hadith qudsi: sacred sayings"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind hadith qudsi: sacred sayings?",
+              "type": "short_answer",
+              "answer": "Distinguishes hadith qudsi -- sayings attributed to God but not part of the Quran's textual revelation -- from ordinary prophetic hadith."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting hadith qudsi: sacred sayings to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Distinguishes hadith qudsi -- sayings attributed to God but not part of the Quran's textual revelation -- from ordinary prophetic hadith.",
+            "tip": "Review hadith qudsi: sacred sayings before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes hadith qudsi: sacred sayings?",
+                "options": [
+                  "Distinguishes hadith qudsi -- sayings attributed to God but not part of the Quran's textual revelation -- from ordinary prophetic hadith.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Distinguishes hadith qudsi -- sayings attributed to God but not part of the Quran's textual revelation -- from ordinary prophetic hadith."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands hadith qudsi: sacred sayings",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Hadith+Qudsi%3A+Sacred+Sayings"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Hadith+Qudsi%3A+Sacred+Sayings+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l9",
+          "title": "Al-Bukhari's Criteria for Authentication",
+          "unit": "Al-Bukhari's Criteria for Authentication",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of al-bukhari's criteria for authentication at Undergraduate Year 1 depth.",
+            "Apply al-bukhari's criteria for authentication concepts to worked examples and problems.",
+            "Critically discuss how al-bukhari's criteria for authentication connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Examines the specific methodological standards Imam al-Bukhari applied when selecting hadith for inclusion in his collection.",
+          "key_concepts": [
+            "Al-Bukhari's",
+            "Criteria",
+            "Authentication"
+          ],
+          "practical_activities": [
+            "Guided worked example on al-bukhari's criteria for authentication",
+            "Small-group discussion / problem set on al-bukhari's criteria for authentication"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind al-bukhari's criteria for authentication?",
+              "type": "short_answer",
+              "answer": "Examines the specific methodological standards Imam al-Bukhari applied when selecting hadith for inclusion in his collection."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting al-bukhari's criteria for authentication to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Examines the specific methodological standards Imam al-Bukhari applied when selecting hadith for inclusion in his collection.",
+            "tip": "Review al-bukhari's criteria for authentication before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes al-bukhari's criteria for authentication?",
+                "options": [
+                  "Examines the specific methodological standards Imam al-Bukhari applied when selecting hadith for inclusion in his collection.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Examines the specific methodological standards Imam al-Bukhari applied when selecting hadith for inclusion in his collection."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands al-bukhari's criteria for authentication",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Al-Bukhari%27s+Criteria+for+Authentication"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Al-Bukhari%27s+Criteria+for+Authentication+Islamic+Studies+lecture",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 65
+          }
+        },
+        {
+          "id": "islamic-studies-ug1-l10",
+          "title": "Muslim's Introduction (Muqaddimah) to Sahih Muslim",
+          "unit": "Muslim's Introduction (Muqaddimah) to Sahih Muslim",
+          "level": "UG1",
+          "subject": "Islamic Studies",
+          "difficulty": "undergraduate-foundational",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the core ideas of muslim's introduction (muqaddimah) to sahih muslim at Undergraduate Year 1 depth.",
+            "Apply muslim's introduction (muqaddimah) to sahih muslim concepts to worked examples and problems.",
+            "Critically discuss how muslim's introduction (muqaddimah) to sahih muslim connects to real-world practice in islamic studies."
+          ],
+          "reading_material": "Studies Imam Muslim's own introductory essay on hadith methodology, considered an early landmark in the science of hadith criticism.",
+          "key_concepts": [
+            "Muslim's",
+            "Introduction",
+            "(Muqaddimah)",
+            "Sahih",
+            "Muslim"
+          ],
+          "practical_activities": [
+            "Guided worked example on muslim's introduction (muqaddimah) to sahih muslim",
+            "Small-group discussion / problem set on muslim's introduction (muqaddimah) to sahih muslim"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the central idea behind muslim's introduction (muqaddimah) to sahih muslim?",
+              "type": "short_answer",
+              "answer": "Studies Imam Muslim's own introductory essay on hadith methodology, considered an early landmark in the science of hadith criticism."
+            }
+          ],
+          "homework": {
+            "task": "Write a short summary connecting muslim's introduction (muqaddimah) to sahih muslim to one real-world example.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Studies Imam Muslim's own introductory essay on hadith methodology, considered an early landmark in the science of hadith criticism.",
+            "tip": "Review muslim's introduction (muqaddimah) to sahih muslim before moving to the next module."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes muslim's introduction (muqaddimah) to sahih muslim?",
+                "options": [
+                  "Studies Imam Muslim's own introductory essay on hadith methodology, considered an early landmark in the science of hadith criticism.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Studies Imam Muslim's own introductory essay on hadith methodology, considered an early landmark in the science of hadith criticism."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands muslim's introduction (muqaddimah) to sahih muslim",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 65
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [
+            "https://en.wikipedia.org/w/index.php?search=Muslim%27s+Introduction+%28Muqaddimah%29+to+Sahih+Muslim"
+          ],
+          "video_reference": "https://www.youtube.com/results?search_query=Muslim%27s+Introduction+%28Muqaddimah%29+to+Sahih+Muslim+Islamic+Studies+lecture",
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 65
