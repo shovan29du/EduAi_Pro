@@ -1,7 +1,7 @@
 {
   "title": "Song Centre — World Music Collection",
   "description": "A curated, child-friendly collection of songs spanning Bengali, Hindi, Urdu/Pakistani and international music — from folk and classical to pop, rock and world music. All songs are educational, safe for ages 5+ and include learning notes.",
-  "total": 1249,
+  "total": 1278,
   "songs": [
     {
       "id": "hey_jude",
@@ -37830,6 +37830,945 @@
       ],
       "decade": "2020s",
       "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_see_you_again",
+      "title": "See You Again",
+      "artist": "Wiz Khalifa feat. Charlie Puth",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "hip hop",
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A tribute track written for the Furious 7 film in memory of actor Paul Walker.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its music video was, for a time, the most-viewed video in YouTube history.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=See+You+Again+Wiz+Khalifa+feat.+Charlie+Puth+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=See+You+Again+Wiz+Khalifa+feat.+Charlie+Puth",
+        "lyrics_search": "https://www.google.com/search?q=See+You+Again+Wiz+Khalifa+feat.+Charlie+Puth+lyrics"
+      },
+      "tags": [
+        "hip hop",
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_baby_shark_dance",
+      "title": "Baby Shark Dance",
+      "artist": "Pinkfong",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "children's music",
+        "dance"
+      ],
+      "origin_country": "South Korea",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A viral children's sing-and-dance video based on a traditional campfire chant.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "In 2022 it became the first YouTube video ever to reach 10 billion views.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Baby+Shark+Dance+Pinkfong+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Baby+Shark+Dance+Pinkfong",
+        "lyrics_search": "https://www.google.com/search?q=Baby+Shark+Dance+Pinkfong+lyrics"
+      },
+      "tags": [
+        "children's music",
+        "dance",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_bad_romance",
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "album": "",
+      "year": 2009,
+      "genre": [
+        "pop",
+        "electropop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A theatrical electropop anthem about obsessive love, one of the defining pop videos of its era.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its avant-garde fashion and choreography made it one of the most influential music videos of the 2000s.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bad+Romance+Lady+Gaga+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Bad+Romance+Lady+Gaga",
+        "lyrics_search": "https://www.google.com/search?q=Bad+Romance+Lady+Gaga+lyrics"
+      },
+      "tags": [
+        "pop",
+        "electropop",
+        "2000s",
+        "1 billion+ views"
+      ],
+      "decade": "2000s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_party_rock_anthem",
+      "title": "Party Rock Anthem",
+      "artist": "LMFAO feat. Lauren Bennett & GoonRock",
+      "album": "",
+      "year": 2011,
+      "genre": [
+        "electro house",
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An electro-house party anthem that popularized the 'shuffling' dance move worldwide.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It topped charts in more than a dozen countries.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Party+Rock+Anthem+LMFAO+feat.+Lauren+Bennett+%26+GoonRock+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Party+Rock+Anthem+LMFAO+feat.+Lauren+Bennett+%26+GoonRock",
+        "lyrics_search": "https://www.google.com/search?q=Party+Rock+Anthem+LMFAO+feat.+Lauren+Bennett+%26+GoonRock+lyrics"
+      },
+      "tags": [
+        "electro house",
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_love_the_way_you_lie",
+      "title": "Love the Way You Lie",
+      "artist": "Eminem feat. Rihanna",
+      "album": "",
+      "year": 2010,
+      "genre": [
+        "hip hop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A raw, dramatic depiction of a toxic relationship, one of Eminem's most acclaimed collaborations.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It spent seven weeks at #1 on the Billboard Hot 100.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Love+the+Way+You+Lie+Eminem+feat.+Rihanna+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Love+the+Way+You+Lie+Eminem+feat.+Rihanna",
+        "lyrics_search": "https://www.google.com/search?q=Love+the+Way+You+Lie+Eminem+feat.+Rihanna+lyrics"
+      },
+      "tags": [
+        "hip hop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_girls_like_you",
+      "title": "Girls Like You",
+      "artist": "Maroon 5 feat. Cardi B",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A feel-good pop anthem with a video featuring dozens of prominent women.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "The music video cameos over 20 well-known actresses, athletes, and musicians.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Girls+Like+You+Maroon+5+feat.+Cardi+B+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Girls+Like+You+Maroon+5+feat.+Cardi+B",
+        "lyrics_search": "https://www.google.com/search?q=Girls+Like+You+Maroon+5+feat.+Cardi+B+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_photograph",
+      "title": "Photograph",
+      "artist": "Ed Sheeran",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A tender ballad about holding onto memories of a loved one.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Ed Sheeran's most streamed ballads worldwide.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Photograph+Ed+Sheeran+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Photograph+Ed+Sheeran",
+        "lyrics_search": "https://www.google.com/search?q=Photograph+Ed+Sheeran+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_dark_horse",
+      "title": "Dark Horse",
+      "artist": "Katy Perry feat. Juicy J",
+      "album": "",
+      "year": 2013,
+      "genre": [
+        "pop",
+        "trap pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An Egyptian-themed pop track blending trap beats with dramatic pop production.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It spent four weeks at #1 on the Billboard Hot 100.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dark+Horse+Katy+Perry+feat.+Juicy+J+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Dark+Horse+Katy+Perry+feat.+Juicy+J",
+        "lyrics_search": "https://www.google.com/search?q=Dark+Horse+Katy+Perry+feat.+Juicy+J+lyrics"
+      },
+      "tags": [
+        "pop",
+        "trap pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_firework",
+      "title": "Firework",
+      "artist": "Katy Perry",
+      "album": "",
+      "year": 2010,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An empowering anthem encouraging listeners to let their inner light shine.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Katy Perry's signature songs and a staple at fireworks displays and celebrations.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Firework+Katy+Perry+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Firework+Katy+Perry",
+        "lyrics_search": "https://www.google.com/search?q=Firework+Katy+Perry+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_cheap_thrills",
+      "title": "Cheap Thrills",
+      "artist": "Sia feat. Sean Paul",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "pop",
+        "dancehall"
+      ],
+      "origin_country": "Australia",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An upbeat dance-pop track about having fun without needing money.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It topped charts in numerous countries during the summer of 2016.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Cheap+Thrills+Sia+feat.+Sean+Paul+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Cheap+Thrills+Sia+feat.+Sean+Paul",
+        "lyrics_search": "https://www.google.com/search?q=Cheap+Thrills+Sia+feat.+Sean+Paul+lyrics"
+      },
+      "tags": [
+        "pop",
+        "dancehall",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_new_rules",
+      "title": "New Rules",
+      "artist": "Dua Lipa",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A breakup anthem laying out rules for resisting an ex's advances, with a widely praised choreographed video.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became Dua Lipa's first UK #1 single.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=New+Rules+Dua+Lipa+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=New+Rules+Dua+Lipa",
+        "lyrics_search": "https://www.google.com/search?q=New+Rules+Dua+Lipa+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_watch_me_whip_nae_nae",
+      "title": "Watch Me (Whip/Nae Nae)",
+      "artist": "Silento",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "hip hop",
+        "dance"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A dance-instruction song that sparked one of the biggest viral dance crazes of the mid-2010s.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its accompanying dance was recreated by celebrities, athletes, and schools worldwide.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Watch+Me+%28Whip%2FNae+Nae%29+Silento+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Watch+Me+%28Whip%2FNae+Nae%29+Silento",
+        "lyrics_search": "https://www.google.com/search?q=Watch+Me+%28Whip%2FNae+Nae%29+Silento+lyrics"
+      },
+      "tags": [
+        "hip hop",
+        "dance",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_all_about_that_bass",
+      "title": "All About That Bass",
+      "artist": "Meghan Trainor",
+      "album": "",
+      "year": 2014,
+      "genre": [
+        "pop",
+        "doo-wop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A body-positivity anthem blending retro doo-wop influences with modern pop.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It spent eight weeks at #1 on the Billboard Hot 100.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=All+About+That+Bass+Meghan+Trainor+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=All+About+That+Bass+Meghan+Trainor",
+        "lyrics_search": "https://www.google.com/search?q=All+About+That+Bass+Meghan+Trainor+lyrics"
+      },
+      "tags": [
+        "pop",
+        "doo-wop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_attention",
+      "title": "Attention",
+      "artist": "Charlie Puth",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A pop track about calling out an ex who only reappears for attention.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Charlie Puth's biggest solo hits.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Attention+Charlie+Puth+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Attention+Charlie+Puth",
+        "lyrics_search": "https://www.google.com/search?q=Attention+Charlie+Puth+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_thunder",
+      "title": "Thunder",
+      "artist": "Imagine Dragons",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "pop rock",
+        "electropop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An energetic anthem about persevering as an underdog until you find your own kind of power.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Imagine Dragons' most streamed songs worldwide.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Thunder+Imagine+Dragons+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Thunder+Imagine+Dragons",
+        "lyrics_search": "https://www.google.com/search?q=Thunder+Imagine+Dragons+lyrics"
+      },
+      "tags": [
+        "pop rock",
+        "electropop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_faded",
+      "title": "Faded",
+      "artist": "Alan Walker",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "electronic",
+        "progressive house"
+      ],
+      "origin_country": "Norway",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An atmospheric electronic track built around a haunting vocal hook.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of the most-viewed electronic dance music videos on YouTube.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Faded+Alan+Walker+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Faded+Alan+Walker",
+        "lyrics_search": "https://www.google.com/search?q=Faded+Alan+Walker+lyrics"
+      },
+      "tags": [
+        "electronic",
+        "progressive house",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_kill_this_love",
+      "title": "Kill This Love",
+      "artist": "Blackpink",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "k-pop"
+      ],
+      "origin_country": "South Korea",
+      "language": "Korean/English",
+      "duration_approx": "",
+      "description": "A high-energy K-pop anthem with a brass-driven hook and elaborate choreography.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its music video broke the record for most views in 24 hours at the time of release.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Kill+This+Love+Blackpink+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Kill+This+Love+Blackpink",
+        "lyrics_search": "https://www.google.com/search?q=Kill+This+Love+Blackpink+lyrics"
+      },
+      "tags": [
+        "k-pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_how_you_like_that",
+      "title": "How You Like That",
+      "artist": "Blackpink",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "k-pop"
+      ],
+      "origin_country": "South Korea",
+      "language": "Korean/English",
+      "duration_approx": "",
+      "description": "A hard-hitting K-pop comeback single released after a lengthy hiatus.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its video set a new YouTube 24-hour premiere view record upon release.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=How+You+Like+That+Blackpink+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=How+You+Like+That+Blackpink",
+        "lyrics_search": "https://www.google.com/search?q=How+You+Like+That+Blackpink+lyrics"
+      },
+      "tags": [
+        "k-pop",
+        "2020s",
+        "1 billion+ views"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_we_don_t_talk_anymore",
+      "title": "We Don't Talk Anymore",
+      "artist": "Charlie Puth feat. Selena Gomez",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A pop duet about the awkward silence following a breakup.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Charlie Puth's most successful singles as a solo artist.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=We+Don%27t+Talk+Anymore+Charlie+Puth+feat.+Selena+Gomez+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=We+Don%27t+Talk+Anymore+Charlie+Puth+feat.+Selena+Gomez",
+        "lyrics_search": "https://www.google.com/search?q=We+Don%27t+Talk+Anymore+Charlie+Puth+feat.+Selena+Gomez+lyrics"
+      },
+      "tags": [
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_wolves",
+      "title": "Wolves",
+      "artist": "Selena Gomez & Marshmello",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "pop",
+        "electropop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An atmospheric pop-EDM collaboration about seeking comfort and belonging.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It marked one of Selena Gomez's biggest collaborations with an electronic producer.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Wolves+Selena+Gomez+%26+Marshmello+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Wolves+Selena+Gomez+%26+Marshmello",
+        "lyrics_search": "https://www.google.com/search?q=Wolves+Selena+Gomez+%26+Marshmello+lyrics"
+      },
+      "tags": [
+        "pop",
+        "electropop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_rockabye",
+      "title": "Rockabye",
+      "artist": "Clean Bandit feat. Sean Paul & Anne-Marie",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "pop",
+        "dancehall"
+      ],
+      "origin_country": "United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A dancehall-pop song about a single mother's love for her child.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It spent multiple weeks at #1 on the UK Singles Chart.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Rockabye+Clean+Bandit+feat.+Sean+Paul+%26+Anne-Marie+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Rockabye+Clean+Bandit+feat.+Sean+Paul+%26+Anne-Marie",
+        "lyrics_search": "https://www.google.com/search?q=Rockabye+Clean+Bandit+feat.+Sean+Paul+%26+Anne-Marie+lyrics"
+      },
+      "tags": [
+        "pop",
+        "dancehall",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_symphony",
+      "title": "Symphony",
+      "artist": "Clean Bandit feat. Zara Larsson",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "pop",
+        "dance-pop"
+      ],
+      "origin_country": "United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An uplifting dance-pop track about finding harmony in a relationship.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It topped the UK Singles Chart upon release.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Symphony+Clean+Bandit+feat.+Zara+Larsson+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Symphony+Clean+Bandit+feat.+Zara+Larsson",
+        "lyrics_search": "https://www.google.com/search?q=Symphony+Clean+Bandit+feat.+Zara+Larsson+lyrics"
+      },
+      "tags": [
+        "pop",
+        "dance-pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_friends",
+      "title": "Friends",
+      "artist": "Marshmello & Anne-Marie",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "pop",
+        "electropop"
+      ],
+      "origin_country": "United States/United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A playful pop-EDM duet about staying platonic despite one-sided feelings.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its animated-style video became one of the most-viewed of 2018.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Friends+Marshmello+%26+Anne-Marie+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Friends+Marshmello+%26+Anne-Marie",
+        "lyrics_search": "https://www.google.com/search?q=Friends+Marshmello+%26+Anne-Marie+lyrics"
+      },
+      "tags": [
+        "pop",
+        "electropop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_happier",
+      "title": "Happier",
+      "artist": "Marshmello feat. Bastille",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "pop",
+        "electropop"
+      ],
+      "origin_country": "United States/United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A bittersweet dance-pop track about wanting an ex to be happier without you.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of Marshmello's most streamed collaborations.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Happier+Marshmello+feat.+Bastille+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Happier+Marshmello+feat.+Bastille",
+        "lyrics_search": "https://www.google.com/search?q=Happier+Marshmello+feat.+Bastille+lyrics"
+      },
+      "tags": [
+        "pop",
+        "electropop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_something_just_like_this",
+      "title": "Something Just Like This",
+      "artist": "The Chainsmokers & Coldplay",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "electropop",
+        "pop rock"
+      ],
+      "origin_country": "United States/United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A soaring collaboration between an EDM duo and a stadium rock band about wanting to feel extraordinary.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It became one of the best-selling singles of 2017.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Something+Just+Like+This+The+Chainsmokers+%26+Coldplay+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Something+Just+Like+This+The+Chainsmokers+%26+Coldplay",
+        "lyrics_search": "https://www.google.com/search?q=Something+Just+Like+This+The+Chainsmokers+%26+Coldplay+lyrics"
+      },
+      "tags": [
+        "electropop",
+        "pop rock",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_hymn_for_the_weekend",
+      "title": "Hymn for the Weekend",
+      "artist": "Coldplay",
+      "album": "",
+      "year": 2016,
+      "genre": [
+        "pop rock",
+        "electropop"
+      ],
+      "origin_country": "United Kingdom",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An anthemic track blending Coldplay's rock sound with electronic and Indian musical influences.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its video was filmed on location in Mumbai, India.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Hymn+for+the+Weekend+Coldplay+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Hymn+for+the+Weekend+Coldplay",
+        "lyrics_search": "https://www.google.com/search?q=Hymn+for+the+Weekend+Coldplay+lyrics"
+      },
+      "tags": [
+        "pop rock",
+        "electropop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_sugar",
+      "title": "Sugar",
+      "artist": "Maroon 5",
+      "album": "",
+      "year": 2015,
+      "genre": [
+        "pop",
+        "funk pop"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "An upbeat, funk-influenced pop song with a widely loved music video showing the band crashing real weddings.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "The video's surprise wedding-crashing concept made it one of the most shared music videos of 2015.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Sugar+Maroon+5+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Sugar+Maroon+5",
+        "lyrics_search": "https://www.google.com/search?q=Sugar+Maroon+5+lyrics"
+      },
+      "tags": [
+        "pop",
+        "funk pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_that_s_what_i_like",
+      "title": "That's What I Like",
+      "artist": "Bruno Mars",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "r&b",
+        "funk"
+      ],
+      "origin_country": "United States",
+      "language": "English",
+      "duration_approx": "",
+      "description": "A smooth R&B-funk track celebrating luxury and romance.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It won the Grammy Award for Song of the Year.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=That%27s+What+I+Like+Bruno+Mars+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=That%27s+What+I+Like+Bruno+Mars",
+        "lyrics_search": "https://www.google.com/search?q=That%27s+What+I+Like+Bruno+Mars+lyrics"
+      },
+      "tags": [
+        "r&b",
+        "funk",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "billion_view_boy_with_luv",
+      "title": "Boy With Luv",
+      "artist": "BTS feat. Halsey",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "k-pop",
+        "pop"
+      ],
+      "origin_country": "South Korea",
+      "language": "Korean/English",
+      "duration_approx": "",
+      "description": "A bright, danceable K-pop single celebrating the joy fans bring to the group.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "Its music video set a new record for the fastest K-pop video to reach 100 million views.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Boy+With+Luv+BTS+feat.+Halsey+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Boy+With+Luv+BTS+feat.+Halsey",
+        "lyrics_search": "https://www.google.com/search?q=Boy+With+Luv+BTS+feat.+Halsey+lyrics"
+      },
+      "tags": [
+        "k-pop",
+        "pop",
+        "2010s",
+        "1 billion+ views"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
     }
   ],
   "genres": [
@@ -37889,6 +38828,7 @@
     "charity",
     "children",
     "children's",
+    "children's music",
     "cinematic",
     "classic",
     "classic rock",
@@ -37908,6 +38848,7 @@
     "cumbia",
     "dance",
     "dance pop",
+    "dance-pop",
     "dancehall",
     "devotional",
     "dhamail",
@@ -37916,6 +38857,7 @@
     "disco_pop",
     "doo-wop",
     "electro cumbia",
+    "electro house",
     "electronic",
     "electropop",
     "enka",
@@ -37933,6 +38875,7 @@
     "folk_fusion",
     "funk",
     "funk carioca",
+    "funk pop",
     "funk rock",
     "garage rock",
     "ghazal",
@@ -38025,6 +38968,7 @@
     "post-punk",
     "power ballad",
     "progressive",
+    "progressive house",
     "progressive metal",
     "progressive rock",
     "protest",
@@ -38090,6 +39034,7 @@
     "thrash metal",
     "traditional",
     "trap",
+    "trap pop",
     "trip-hop",
     "tropical pop",
     "vaishnava",
