@@ -1,7 +1,7 @@
 {
   "title": "Song Centre — World Music Collection",
   "description": "A curated, child-friendly collection of songs spanning Bengali, Hindi, Urdu/Pakistani and international music — from folk and classical to pop, rock and world music. All songs are educational, safe for ages 5+ and include learning notes.",
-  "total": 1474,
+  "total": 1494,
   "songs": [
     {
       "id": "hey_jude",
@@ -44323,6 +44323,608 @@
       ],
       "decade": "1990s",
       "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_mia",
+      "title": "Mía",
+      "artist": "Bad Bunny feat. Drake",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "reggaeton",
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A landmark collaboration with Drake singing entirely in Spanish over a sleek reggaeton groove.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It debuted in the top 5 of the Billboard Hot 100, a milestone for Spanish-language music.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=M%C3%ADa+Bad+Bunny+feat.+Drake+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=M%C3%ADa+Bad+Bunny+feat.+Drake",
+        "lyrics_search": "https://www.google.com/search?q=M%C3%ADa+Bad+Bunny+feat.+Drake+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin trap",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_la_cancion",
+      "title": "La Canción",
+      "artist": "J Balvin & Bad Bunny",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A melancholy trumpet-laced highlight from the joint album Oasis about a song that brings an ex flooding back.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It won Record of the Year at the 2020 Latin Grammys.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Canci%C3%B3n+J+Balvin+%26+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Canci%C3%B3n+J+Balvin+%26+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=La+Canci%C3%B3n+J+Balvin+%26+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_vete",
+      "title": "Vete",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2019,
+      "genre": [
+        "reggaeton",
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A brisk kiss-off anthem that opened the YHLQMDLG era.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "YHLQMDLG became the highest-charting all-Spanish album on the Billboard 200 at the time.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Vete+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Vete+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Vete+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin trap",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_si_veo_a_tu_mama",
+      "title": "Si Veo a Tu Mamá",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A deceptively upbeat opener about running into an ex's mother, built on a playful melodic loop.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It opens the acclaimed album YHLQMDLG -- 'Yo Hago Lo Que Me Da La Gana'.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Si+Veo+a+Tu+Mam%C3%A1+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Si+Veo+a+Tu+Mam%C3%A1+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Si+Veo+a+Tu+Mam%C3%A1+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_la_santa",
+      "title": "La Santa",
+      "artist": "Bad Bunny & Daddy Yankee",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A generational torch-passing banger uniting reggaeton's past and present.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It pairs Bad Bunny with the genre legend who inspired him, Daddy Yankee.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Santa+Bad+Bunny+%26+Daddy+Yankee+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Santa+Bad+Bunny+%26+Daddy+Yankee",
+        "lyrics_search": "https://www.google.com/search?q=La+Santa+Bad+Bunny+%26+Daddy+Yankee+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_la_dificil",
+      "title": "La Difícil",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2020,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A club-ready track about a woman who plays hard to get.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "Its retro video pays homage to early-2000s reggaeton culture.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La+Dif%C3%ADcil+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=La+Dif%C3%ADcil+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=La+Dif%C3%ADcil+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_amorfoda",
+      "title": "Amorfoda",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "latin trap",
+        "ballad"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A raw piano heartbreak ballad that showed the emotional range behind the trap star.",
+      "educational_notes": "Useful for exploring latin trap and contemporary Puerto Rican music culture.",
+      "fun_fact": "Released on Valentine's Day 2018 as a surprise anti-valentine.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Amorfoda+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Amorfoda+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Amorfoda+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "ballad",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_estamos_bien",
+      "title": "Estamos Bien",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2018,
+      "genre": [
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "An uplifting anthem of resilience dedicated to Puerto Rico after Hurricane Maria.",
+      "educational_notes": "Useful for exploring latin trap and contemporary Puerto Rican music culture.",
+      "fun_fact": "Bad Bunny performed it on The Tonight Show in his US TV debut.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Estamos+Bien+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Estamos+Bien+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Estamos+Bien+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_soy_peor",
+      "title": "Soy Peor",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2017,
+      "genre": [
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The brooding breakout hit that defined the Latin trap sound of the late 2010s.",
+      "educational_notes": "Useful for exploring latin trap and contemporary Puerto Rican music culture.",
+      "fun_fact": "It is widely credited as the song that made Bad Bunny a star.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Soy+Peor+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Soy+Peor+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Soy+Peor+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "2010s",
+        "latino party"
+      ],
+      "decade": "2010s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_yonaguni",
+      "title": "Yonaguni",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2021,
+      "genre": [
+        "reggaeton",
+        "latin pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish/Japanese",
+      "duration_approx": "",
+      "description": "A wistful summer hit named after Japan's westernmost island, ending with a verse sung in Japanese.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It debuted at #10 on the Billboard Hot 100.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Yonaguni+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Yonaguni+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Yonaguni+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "latin pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_volvi",
+      "title": "Volví",
+      "artist": "Aventura & Bad Bunny",
+      "album": "",
+      "year": 2021,
+      "genre": [
+        "bachata",
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A blockbuster bachata-reggaeton reunion pairing Bad Bunny with the kings of bachata.",
+      "educational_notes": "Useful for exploring bachata and contemporary Puerto Rican music culture.",
+      "fun_fact": "It marked Aventura's first new music in years and topped Latin charts instantly.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Volv%C3%AD+Aventura+%26+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Volv%C3%AD+Aventura+%26+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Volv%C3%AD+Aventura+%26+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "bachata",
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_moscow_mule",
+      "title": "Moscow Mule",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "The laid-back opener of Un Verano Sin Ti, made for beach sunsets.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "Un Verano Sin Ti was Spotify's most-streamed album globally for two consecutive years.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Moscow+Mule+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Moscow+Mule+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Moscow+Mule+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_despues_de_la_playa",
+      "title": "Después de la Playa",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "mambo",
+        "merengue"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A beach-day track that erupts mid-song into a full-blown live mambo.",
+      "educational_notes": "Useful for exploring mambo and contemporary Puerto Rican music culture.",
+      "fun_fact": "Its merengue-mambo breakdown became a highlight of his stadium shows.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Despu%C3%A9s+de+la+Playa+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Despu%C3%A9s+de+la+Playa+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Despu%C3%A9s+de+la+Playa+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "mambo",
+        "merengue",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_ojitos_lindos",
+      "title": "Ojitos Lindos",
+      "artist": "Bad Bunny & Bomba Estéreo",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton",
+        "electro cumbia"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A dreamy collaboration with Colombia's Bomba Estéreo about eyes that hold a whole world.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It spent months near the top of the Billboard Global 200 without ever being a single.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ojitos+Lindos+Bad+Bunny+%26+Bomba+Est%C3%A9reo+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Ojitos+Lindos+Bad+Bunny+%26+Bomba+Est%C3%A9reo",
+        "lyrics_search": "https://www.google.com/search?q=Ojitos+Lindos+Bad+Bunny+%26+Bomba+Est%C3%A9reo+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "electro cumbia",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_neverita",
+      "title": "Neverita",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A bouncy Un Verano Sin Ti favorite about keeping love on ice.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "Its retro video was shot as a tribute to classic 90s music television.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Neverita+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Neverita+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Neverita+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_efecto",
+      "title": "Efecto",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2022,
+      "genre": [
+        "reggaeton"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A hypnotic late-night track about an intoxicating attraction.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "It became a sleeper hit from Un Verano Sin Ti, charting worldwide.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Efecto+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Efecto+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Efecto+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_where_she_goes",
+      "title": "Where She Goes",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2023,
+      "genre": [
+        "jersey club",
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A moody Jersey club experiment that pushed reggaeton's boundaries.",
+      "educational_notes": "Useful for exploring jersey club and contemporary Puerto Rican music culture.",
+      "fun_fact": "Its video features cameos from Frank Ocean, Lil Uzi Vert, and Ronaldinho.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Where+She+Goes+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Where+She+Goes+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Where+She+Goes+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "jersey club",
+        "latin trap",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_un_x100to",
+      "title": "Un x100to",
+      "artist": "Grupo Frontera & Bad Bunny",
+      "album": "",
+      "year": 2023,
+      "genre": [
+        "norteño",
+        "cumbia"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A heartbroken norteño-cumbia collaboration bridging regional Mexican music and reggaeton's biggest star.",
+      "educational_notes": "Useful for exploring norteño and contemporary Puerto Rican music culture.",
+      "fun_fact": "It debuted in the top 5 of the Billboard Hot 100, a first for a norteño group.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Un+x100to+Grupo+Frontera+%26+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Un+x100to+Grupo+Frontera+%26+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Un+x100to+Grupo+Frontera+%26+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "norteño",
+        "cumbia",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_monaco",
+      "title": "Monaco",
+      "artist": "Bad Bunny",
+      "album": "",
+      "year": 2023,
+      "genre": [
+        "latin trap"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A lavish, orchestral-sampling flex anthem from Nadie Sabe Lo Que Va a Pasar Mañana.",
+      "educational_notes": "Useful for exploring latin trap and contemporary Puerto Rican music culture.",
+      "fun_fact": "Its video features a cameo by Al Pacino.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Monaco+Bad+Bunny+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Monaco+Bad+Bunny",
+        "lyrics_search": "https://www.google.com/search?q=Monaco+Bad+Bunny+lyrics"
+      },
+      "tags": [
+        "latin trap",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
+    },
+    {
+      "id": "bad_bunny_lo_siento_bb",
+      "title": "Lo Siento BB:/",
+      "artist": "Tainy, Bad Bunny & Julieta Venegas",
+      "album": "",
+      "year": 2021,
+      "genre": [
+        "reggaeton",
+        "synth-pop"
+      ],
+      "origin_country": "Puerto Rico",
+      "language": "Spanish",
+      "duration_approx": "",
+      "description": "A moody apology anthem uniting three generations of Latin music talent.",
+      "educational_notes": "Useful for exploring reggaeton and contemporary Puerto Rican music culture.",
+      "fun_fact": "Julieta Venegas's dreamy hook made it one of 2021's most distinctive Latin hits.",
+      "awards": [],
+      "links": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Lo+Siento+BB%3A%2F+Tainy%2C+Bad+Bunny+%26+Julieta+Venegas+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Lo+Siento+BB%3A%2F+Tainy%2C+Bad+Bunny+%26+Julieta+Venegas",
+        "lyrics_search": "https://www.google.com/search?q=Lo+Siento+BB%3A%2F+Tainy%2C+Bad+Bunny+%26+Julieta+Venegas+lyrics"
+      },
+      "tags": [
+        "reggaeton",
+        "synth-pop",
+        "2020s",
+        "latino party"
+      ],
+      "decade": "2020s",
+      "suitable_for_ages": "10+"
     }
   ],
   "genres": [
@@ -44408,6 +45010,7 @@
     "disco pop",
     "disco_pop",
     "doo-wop",
+    "electro cumbia",
     "electronic",
     "electropop",
     "enka",
@@ -44462,6 +45065,7 @@
     "jari gaan",
     "jarigan",
     "jazz",
+    "jersey club",
     "joy",
     "k-pop",
     "kirtan",
@@ -44474,6 +45078,7 @@
     "latin_pop",
     "liberation",
     "lied",
+    "mambo",
     "march",
     "mariachi",
     "mbaqanga",
