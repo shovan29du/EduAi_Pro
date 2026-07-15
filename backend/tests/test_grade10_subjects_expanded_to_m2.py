@@ -33,8 +33,10 @@ def test_new_subjects_present_and_progress_through_levels(subject):
         assert lessons, f"{subject} has no lessons at {level}"
         for lesson in lessons:
             seen_titles.add(lesson["title"])
-    # Across 8 levels x 2 modules/level, expect the full 16-module ladder with no repeats.
-    assert len(seen_titles) == 16, f"{subject} should have 16 distinct modules across levels, got {len(seen_titles)}"
+    # Originally 8 levels x 2 modules/level (16 distinct titles, no repeats). Each of these
+    # subjects was later expanded with 18 more modules per level across C1-M1 (7 levels),
+    # adding 126 new distinct titles on top of the original 16 -> 142 total.
+    assert len(seen_titles) == 142, f"{subject} should have 142 distinct modules across levels, got {len(seen_titles)}"
 
 
 @pytest.mark.parametrize("subject", PROMOTED_TO_FLAGSHIP)
