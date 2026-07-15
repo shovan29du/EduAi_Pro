@@ -15803,6 +15803,350 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g2-l2",
+          "title": "Germs and How They Spread",
+          "unit": "Personal Health",
+          "grade": 2,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain what germs are",
+            "Describe how germs spread from person to person"
+          ],
+          "reading_material": "Germs are tiny living things too small to see that can make us sick. They spread through coughs, sneezes, and touching dirty surfaces, which is why washing hands and covering coughs matters.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Germs and How They Spread is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Explain what germs are; Describe how germs spread from person to person. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Germs, They, Spread. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on germs and how they spread; Reflection journal entry about germs and how they spread. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Germs and How They Spread' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Germs and How They Spread' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Germs and How They Spread matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Germs and How They Spread is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Germs and How They Spread is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Germs and How They Spread shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Germs",
+            "They",
+            "Spread"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on germs and how they spread",
+            "Reflection journal entry about germs and how they spread"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Germs and How They Spread'?",
+              "type": "short_answer",
+              "answer": "Germs are tiny living things too small to see that can make us sick."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Germs and How They Spread' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Germs are tiny living things too small to see that can make us sick.",
+            "tip": "Review 'Germs and How They Spread' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Germs and How They Spread'?",
+                "options": [
+                  "Germs are tiny living things too small to see that can make us sick.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Germs are tiny living things too small to see that can make us sick."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands germs and how they spread",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g2-l3",
+          "title": "Food Groups and My Plate",
+          "unit": "Nutrition",
+          "grade": 2,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Name the main food groups",
+            "Build a balanced meal"
+          ],
+          "reading_material": "Foods are grouped into fruits, vegetables, grains, protein, and dairy. A healthy plate has a good mix from each group, with more fruits and vegetables than anything else.\n\nBefore getting into the details, think about where Food Groups and My Plate shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Name the main food groups; Build a balanced meal. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Food, Groups, Plate. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on food groups and my plate; Reflection journal entry about food groups and my plate. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Food Groups and My Plate' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Food Groups and My Plate' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Food Groups and My Plate is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Food Groups and My Plate is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Food Groups and My Plate is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Food Groups and My Plate is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.",
+          "key_concepts": [
+            "Food",
+            "Groups",
+            "Plate"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on food groups and my plate",
+            "Reflection journal entry about food groups and my plate"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Food Groups and My Plate'?",
+              "type": "short_answer",
+              "answer": "Foods are grouped into fruits, vegetables, grains, protein, and dairy."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Food Groups and My Plate' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Foods are grouped into fruits, vegetables, grains, protein, and dairy.",
+            "tip": "Review 'Food Groups and My Plate' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Food Groups and My Plate'?",
+                "options": [
+                  "Foods are grouped into fruits, vegetables, grains, protein, and dairy.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Foods are grouped into fruits, vegetables, grains, protein, and dairy."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands food groups and my plate",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g2-l4",
+          "title": "Why We Exercise",
+          "unit": "Fitness",
+          "grade": 2,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "List benefits of physical activity",
+            "Name ways to be active"
+          ],
+          "reading_material": "Moving your body every day -- running, jumping, dancing, or playing sports -- makes your heart and muscles stronger and helps you feel happier.\n\nIt's worth pausing to ask why Why We Exercise is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Why We Exercise is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: List benefits of physical activity; Name ways to be active. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Exercise. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on why we exercise; Reflection journal entry about why we exercise. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Why We Exercise' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Why We Exercise' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Why We Exercise matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Why We Exercise is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Why We Exercise shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nTo wrap up: Why We Exercise is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.",
+          "key_concepts": [
+            "Exercise"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on why we exercise",
+            "Reflection journal entry about why we exercise"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Why We Exercise'?",
+              "type": "short_answer",
+              "answer": "Moving your body every day -- running, jumping, dancing, or playing sports -- makes your heart and muscles stronger and helps you feel happier."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Why We Exercise' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Moving your body every day -- running, jumping, dancing, or playing sports -- makes your heart and muscles stronger and helps you feel happier.",
+            "tip": "Review 'Why We Exercise' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Why We Exercise'?",
+                "options": [
+                  "Moving your body every day -- running, jumping, dancing, or playing sports -- makes your heart and muscles stronger and helps you feel happier.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Moving your body every day -- running, jumping, dancing, or playing sports -- makes your heart and muscles stronger and helps you feel happier."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands why we exercise",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g2-l5",
+          "title": "Taking Care of Your Teeth",
+          "unit": "Personal Health",
+          "grade": 2,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain the role of a dentist",
+            "Describe good dental habits"
+          ],
+          "reading_material": "Along with brushing and flossing, visiting the dentist regularly helps catch problems early and keeps your smile healthy.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Taking Care of Your Teeth is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBy the end of this lesson, you should be able to do a few specific things: Explain the role of a dentist; Describe good dental habits. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Taking, Care, Your, Teeth. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on taking care of your teeth; Reflection journal entry about taking care of your teeth. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Taking Care of Your Teeth' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Taking Care of Your Teeth' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Taking Care of Your Teeth is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Taking Care of Your Teeth is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Taking Care of Your Teeth is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Taking Care of Your Teeth shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Taking",
+            "Care",
+            "Your",
+            "Teeth"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on taking care of your teeth",
+            "Reflection journal entry about taking care of your teeth"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Taking Care of Your Teeth'?",
+              "type": "short_answer",
+              "answer": "Along with brushing and flossing, visiting the dentist regularly helps catch problems early and keeps your smile healthy."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Taking Care of Your Teeth' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Along with brushing and flossing, visiting the dentist regularly helps catch problems early and keeps your smile healthy.",
+            "tip": "Review 'Taking Care of Your Teeth' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Taking Care of Your Teeth'?",
+                "options": [
+                  "Along with brushing and flossing, visiting the dentist regularly helps catch problems early and keeps your smile healthy.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Along with brushing and flossing, visiting the dentist regularly helps catch problems early and keeps your smile healthy."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands taking care of your teeth",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g2-l6",
+          "title": "Medicine Safety Basics",
+          "unit": "Safety",
+          "grade": 2,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain why only adults should give medicine",
+            "Describe safe medicine storage"
+          ],
+          "reading_material": "Medicine can help you feel better when you're sick, but too much can be dangerous. Only a trusted adult should give you medicine, and it should always be stored out of children's reach.\n\nBefore getting into the details, think about where Medicine Safety Basics shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nHere is what success looks like for this lesson: Explain why only adults should give medicine; Describe safe medicine storage. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Medicine, Safety, Basics. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on medicine safety basics; Reflection journal entry about medicine safety basics. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Medicine Safety Basics' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Medicine Safety Basics' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Medicine Safety Basics matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Medicine Safety Basics is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Medicine Safety Basics is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Medicine Safety Basics is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Medicine",
+            "Safety",
+            "Basics"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on medicine safety basics",
+            "Reflection journal entry about medicine safety basics"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Medicine Safety Basics'?",
+              "type": "short_answer",
+              "answer": "Medicine can help you feel better when you're sick, but too much can be dangerous."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Medicine Safety Basics' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Medicine can help you feel better when you're sick, but too much can be dangerous.",
+            "tip": "Review 'Medicine Safety Basics' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Medicine Safety Basics'?",
+                "options": [
+                  "Medicine can help you feel better when you're sick, but too much can be dangerous.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Medicine can help you feel better when you're sick, but too much can be dangerous."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands medicine safety basics",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },

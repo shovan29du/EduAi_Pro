@@ -17739,6 +17739,352 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g5-l2",
+          "title": "Human Body Systems in Depth",
+          "unit": "Body Systems",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain how two body systems work together",
+            "Describe the nervous system's role"
+          ],
+          "reading_material": "Body systems work as a team: the nervous system sends signals from your brain to control muscles, while the respiratory and circulatory systems work together to deliver oxygen throughout your body.\n\nBefore getting into the details, think about where Human Body Systems in Depth shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nHere is what success looks like for this lesson: Explain how two body systems work together; Describe the nervous system's role. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Human, Body, Systems, Depth. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on human body systems in depth; Reflection journal entry about human body systems in depth. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Human Body Systems in Depth' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Human Body Systems in Depth' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Human Body Systems in Depth matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Human Body Systems in Depth is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Human Body Systems in Depth is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Human Body Systems in Depth is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Human",
+            "Body",
+            "Systems",
+            "Depth"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on human body systems in depth",
+            "Reflection journal entry about human body systems in depth"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Human Body Systems in Depth'?",
+              "type": "short_answer",
+              "answer": "Body systems work as a team: the nervous system sends signals from your brain to control muscles, while the respiratory and circulatory systems work together to deliver oxygen throughout your body."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Human Body Systems in Depth' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Body systems work as a team: the nervous system sends signals from your brain to control muscles, while the respiratory and circulatory systems work together to deliver oxygen throughout your body.",
+            "tip": "Review 'Human Body Systems in Depth' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Human Body Systems in Depth'?",
+                "options": [
+                  "Body systems work as a team: the nervous system sends signals from your brain to control muscles, while the respiratory and circulatory systems work together to deliver oxygen throughout your body.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Body systems work as a team: the nervous system sends signals from your brain to control muscles, while the respiratory and circulatory systems work together to deliver oxygen throughout your body."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands human body systems in depth",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g5-l3",
+          "title": "Building Healthy Relationships",
+          "unit": "Social Health",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Describe qualities of a healthy friendship",
+            "Identify signs of an unhealthy relationship"
+          ],
+          "reading_material": "Healthy friendships are built on respect, honesty, and kindness. Recognizing when a relationship feels unfair or unsafe is an important life skill.\n\nIt's worth pausing to ask why Building Healthy Relationships is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Building Healthy Relationships is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBy the end of this lesson, you should be able to do a few specific things: Describe qualities of a healthy friendship; Identify signs of an unhealthy relationship. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Building, Healthy, Relationships. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on building healthy relationships; Reflection journal entry about building healthy relationships. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Building Healthy Relationships' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Building Healthy Relationships' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Building Healthy Relationships is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Building Healthy Relationships is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Building Healthy Relationships shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Building",
+            "Healthy",
+            "Relationships"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on building healthy relationships",
+            "Reflection journal entry about building healthy relationships"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Building Healthy Relationships'?",
+              "type": "short_answer",
+              "answer": "Healthy friendships are built on respect, honesty, and kindness."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Building Healthy Relationships' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Healthy friendships are built on respect, honesty, and kindness.",
+            "tip": "Review 'Building Healthy Relationships' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Building Healthy Relationships'?",
+                "options": [
+                  "Healthy friendships are built on respect, honesty, and kindness.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Healthy friendships are built on respect, honesty, and kindness."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands building healthy relationships",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g5-l4",
+          "title": "Understanding Tobacco and Alcohol Risks",
+          "unit": "Substance Awareness",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain health risks of tobacco and alcohol",
+            "Describe refusal skills"
+          ],
+          "reading_material": "Tobacco and alcohol can seriously harm a developing body. Learning simple ways to say no to peer pressure helps protect your health.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Understanding Tobacco and Alcohol Risks is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Explain health risks of tobacco and alcohol; Describe refusal skills. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Understanding, Tobacco, Alcohol, Risks. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on understanding tobacco and alcohol risks; Reflection journal entry about understanding tobacco and alcohol risks. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Understanding Tobacco and Alcohol Risks' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Understanding Tobacco and Alcohol Risks' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Understanding Tobacco and Alcohol Risks matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Understanding Tobacco and Alcohol Risks is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Understanding Tobacco and Alcohol Risks is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Understanding Tobacco and Alcohol Risks shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Understanding",
+            "Tobacco",
+            "Alcohol",
+            "Risks"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on understanding tobacco and alcohol risks",
+            "Reflection journal entry about understanding tobacco and alcohol risks"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Understanding Tobacco and Alcohol Risks'?",
+              "type": "short_answer",
+              "answer": "Tobacco and alcohol can seriously harm a developing body."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Understanding Tobacco and Alcohol Risks' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Tobacco and alcohol can seriously harm a developing body.",
+            "tip": "Review 'Understanding Tobacco and Alcohol Risks' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Understanding Tobacco and Alcohol Risks'?",
+                "options": [
+                  "Tobacco and alcohol can seriously harm a developing body.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Tobacco and alcohol can seriously harm a developing body."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands understanding tobacco and alcohol risks",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g5-l5",
+          "title": "The Science of Sleep",
+          "unit": "Personal Health",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Explain what happens during sleep",
+            "Describe good sleep hygiene"
+          ],
+          "reading_material": "During sleep, your brain processes memories and your body repairs itself. Good sleep hygiene includes a consistent bedtime and limiting screens before bed.\n\nBefore getting into the details, think about where The Science of Sleep shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Explain what happens during sleep; Describe good sleep hygiene. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Science, Sleep. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on the science of sleep; Reflection journal entry about the science of sleep. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'The Science of Sleep' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'The Science of Sleep' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: The Science of Sleep is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why The Science of Sleep is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. The Science of Sleep is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. The Science of Sleep is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Science",
+            "Sleep"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on the science of sleep",
+            "Reflection journal entry about the science of sleep"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'The Science of Sleep'?",
+              "type": "short_answer",
+              "answer": "During sleep, your brain processes memories and your body repairs itself."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'The Science of Sleep' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "During sleep, your brain processes memories and your body repairs itself.",
+            "tip": "Review 'The Science of Sleep' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'The Science of Sleep'?",
+                "options": [
+                  "During sleep, your brain processes memories and your body repairs itself.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "During sleep, your brain processes memories and your body repairs itself."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the science of sleep",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g5-l6",
+          "title": "Body Image and Self-Esteem",
+          "unit": "Mental Health",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Define body image and self-esteem",
+            "Discuss healthy self-talk"
+          ],
+          "reading_material": "Body image is how you feel about your body, and self-esteem is your overall sense of self-worth. Practicing kind self-talk and focusing on what your body can do, not just how it looks, supports healthy self-esteem.\n\nIt's worth pausing to ask why Body Image and Self-Esteem is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Body Image and Self-Esteem is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: Define body image and self-esteem; Discuss healthy self-talk. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Body, Image, Self-Esteem. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on body image and self-esteem; Reflection journal entry about body image and self-esteem. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Body Image and Self-Esteem' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Body Image and Self-Esteem' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Body Image and Self-Esteem matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Body Image and Self-Esteem is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Body Image and Self-Esteem shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Body",
+            "Image",
+            "Self-Esteem"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on body image and self-esteem",
+            "Reflection journal entry about body image and self-esteem"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Body Image and Self-Esteem'?",
+              "type": "short_answer",
+              "answer": "Body image is how you feel about your body, and self-esteem is your overall sense of self-worth."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Body Image and Self-Esteem' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Body image is how you feel about your body, and self-esteem is your overall sense of self-worth.",
+            "tip": "Review 'Body Image and Self-Esteem' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Body Image and Self-Esteem'?",
+                "options": [
+                  "Body image is how you feel about your body, and self-esteem is your overall sense of self-worth.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Body image is how you feel about your body, and self-esteem is your overall sense of self-worth."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands body image and self-esteem",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },

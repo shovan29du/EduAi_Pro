@@ -16856,6 +16856,352 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g3-l2",
+          "title": "Human Body Systems Overview",
+          "unit": "Body Systems",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Name major body systems",
+            "Describe one job of each system"
+          ],
+          "reading_material": "Your body is made of systems that work together: the skeletal system holds you up, the muscular system lets you move, the digestive system breaks down food, and the circulatory system carries blood around your body.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Human Body Systems Overview is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Name major body systems; Describe one job of each system. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Human, Body, Systems, Overview. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on human body systems overview; Reflection journal entry about human body systems overview. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Human Body Systems Overview' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Human Body Systems Overview' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Human Body Systems Overview matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Human Body Systems Overview is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Human Body Systems Overview is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Human Body Systems Overview shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Human",
+            "Body",
+            "Systems",
+            "Overview"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on human body systems overview",
+            "Reflection journal entry about human body systems overview"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Human Body Systems Overview'?",
+              "type": "short_answer",
+              "answer": "Your body is made of systems that work together: the skeletal system holds you up, the muscular system lets you move, the digestive system breaks down food, and the circulatory system carries blood around your body."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Human Body Systems Overview' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Your body is made of systems that work together: the skeletal system holds you up, the muscular system lets you move, the digestive system breaks down food, and the circulatory system carries blood around your body.",
+            "tip": "Review 'Human Body Systems Overview' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Human Body Systems Overview'?",
+                "options": [
+                  "Your body is made of systems that work together: the skeletal system holds you up, the muscular system lets you move, the digestive system breaks down food, and the circulatory system carries blood around your body.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Your body is made of systems that work together: the skeletal system holds you up, the muscular system lets you move, the digestive system breaks down food, and the circulatory system carries blood around your body."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands human body systems overview",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g3-l3",
+          "title": "Reading Nutrition Labels",
+          "unit": "Nutrition",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Locate key information on a nutrition label",
+            "Compare two food labels"
+          ],
+          "reading_material": "Nutrition labels tell you what's inside packaged food -- how much sugar, fat, and vitamins it has -- so you can make informed choices about what to eat.\n\nBefore getting into the details, think about where Reading Nutrition Labels shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Locate key information on a nutrition label; Compare two food labels. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Reading, Nutrition, Labels. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on reading nutrition labels; Reflection journal entry about reading nutrition labels. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Reading Nutrition Labels' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Reading Nutrition Labels' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Reading Nutrition Labels is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Reading Nutrition Labels is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Reading Nutrition Labels is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Reading Nutrition Labels is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Reading",
+            "Nutrition",
+            "Labels"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on reading nutrition labels",
+            "Reflection journal entry about reading nutrition labels"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Reading Nutrition Labels'?",
+              "type": "short_answer",
+              "answer": "Nutrition labels tell you what's inside packaged food -- how much sugar, fat, and vitamins it has -- so you can make informed choices about what to eat."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Reading Nutrition Labels' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Nutrition labels tell you what's inside packaged food -- how much sugar, fat, and vitamins it has -- so you can make informed choices about what to eat.",
+            "tip": "Review 'Reading Nutrition Labels' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Reading Nutrition Labels'?",
+                "options": [
+                  "Nutrition labels tell you what's inside packaged food -- how much sugar, fat, and vitamins it has -- so you can make informed choices about what to eat.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Nutrition labels tell you what's inside packaged food -- how much sugar, fat, and vitamins it has -- so you can make informed choices about what to eat."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands reading nutrition labels",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g3-l4",
+          "title": "Understanding Feelings and Emotions",
+          "unit": "Mental Health",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Name common emotions",
+            "Describe healthy ways to express feelings"
+          ],
+          "reading_material": "Everyone feels happy, sad, angry, or worried sometimes. Naming your feelings and talking about them with someone you trust is a healthy way to manage them.\n\nIt's worth pausing to ask why Understanding Feelings and Emotions is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Understanding Feelings and Emotions is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: Name common emotions; Describe healthy ways to express feelings. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Understanding, Feelings, Emotions. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on understanding feelings and emotions; Reflection journal entry about understanding feelings and emotions. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Understanding Feelings and Emotions' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Understanding Feelings and Emotions' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Understanding Feelings and Emotions matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Understanding Feelings and Emotions is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Understanding Feelings and Emotions shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Understanding",
+            "Feelings",
+            "Emotions"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on understanding feelings and emotions",
+            "Reflection journal entry about understanding feelings and emotions"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Understanding Feelings and Emotions'?",
+              "type": "short_answer",
+              "answer": "Everyone feels happy, sad, angry, or worried sometimes."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Understanding Feelings and Emotions' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Everyone feels happy, sad, angry, or worried sometimes.",
+            "tip": "Review 'Understanding Feelings and Emotions' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Understanding Feelings and Emotions'?",
+                "options": [
+                  "Everyone feels happy, sad, angry, or worried sometimes.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Everyone feels happy, sad, angry, or worried sometimes."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands understanding feelings and emotions",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g3-l5",
+          "title": "Preventing Common Injuries",
+          "unit": "Safety",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "List common childhood injuries",
+            "Describe prevention strategies"
+          ],
+          "reading_material": "Simple habits like wearing seatbelts, using playground equipment properly, and not running with sharp objects help prevent many common injuries.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Preventing Common Injuries is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBy the end of this lesson, you should be able to do a few specific things: List common childhood injuries; Describe prevention strategies. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Preventing, Common, Injuries. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on preventing common injuries; Reflection journal entry about preventing common injuries. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Preventing Common Injuries' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Preventing Common Injuries' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Preventing Common Injuries is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Preventing Common Injuries is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Preventing Common Injuries is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Preventing Common Injuries shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Preventing",
+            "Common",
+            "Injuries"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on preventing common injuries",
+            "Reflection journal entry about preventing common injuries"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Preventing Common Injuries'?",
+              "type": "short_answer",
+              "answer": "Simple habits like wearing seatbelts, using playground equipment properly, and not running with sharp objects help prevent many common injuries."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Preventing Common Injuries' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Simple habits like wearing seatbelts, using playground equipment properly, and not running with sharp objects help prevent many common injuries.",
+            "tip": "Review 'Preventing Common Injuries' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Preventing Common Injuries'?",
+                "options": [
+                  "Simple habits like wearing seatbelts, using playground equipment properly, and not running with sharp objects help prevent many common injuries.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Simple habits like wearing seatbelts, using playground equipment properly, and not running with sharp objects help prevent many common injuries."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands preventing common injuries",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g3-l6",
+          "title": "Personal Hygiene Routines",
+          "unit": "Personal Health",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 25,
+          "learning_objectives": [
+            "Build a daily hygiene checklist",
+            "Explain why hygiene matters for health"
+          ],
+          "reading_material": "A daily hygiene routine -- bathing, washing hands, brushing teeth, and wearing clean clothes -- helps prevent illness and keeps you feeling good.\n\nBefore getting into the details, think about where Personal Hygiene Routines shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nHere is what success looks like for this lesson: Build a daily hygiene checklist; Explain why hygiene matters for health. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Personal, Hygiene, Routines. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on personal hygiene routines; Reflection journal entry about personal hygiene routines. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Personal Hygiene Routines' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Personal Hygiene Routines' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Personal Hygiene Routines matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Personal Hygiene Routines is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Personal Hygiene Routines is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Personal Hygiene Routines is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nTo wrap up: Personal Hygiene Routines is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.",
+          "key_concepts": [
+            "Personal",
+            "Hygiene",
+            "Routines"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on personal hygiene routines",
+            "Reflection journal entry about personal hygiene routines"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Personal Hygiene Routines'?",
+              "type": "short_answer",
+              "answer": "A daily hygiene routine -- bathing, washing hands, brushing teeth, and wearing clean clothes -- helps prevent illness and keeps you feeling good."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Personal Hygiene Routines' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "A daily hygiene routine -- bathing, washing hands, brushing teeth, and wearing clean clothes -- helps prevent illness and keeps you feeling good.",
+            "tip": "Review 'Personal Hygiene Routines' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Personal Hygiene Routines'?",
+                "options": [
+                  "A daily hygiene routine -- bathing, washing hands, brushing teeth, and wearing clean clothes -- helps prevent illness and keeps you feeling good.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "A daily hygiene routine -- bathing, washing hands, brushing teeth, and wearing clean clothes -- helps prevent illness and keeps you feeling good."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands personal hygiene routines",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },

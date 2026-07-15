@@ -29855,6 +29855,352 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g10-l2",
+          "title": "Public Health Basics",
+          "unit": "Public Health",
+          "grade": 10,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Define public health versus individual health care",
+            "Describe a real public health success story"
+          ],
+          "reading_material": "Public health focuses on protecting and improving the health of entire populations through prevention, policy, and education, distinct from treating individual patients.\n\nIt's worth pausing to ask why Public Health Basics is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Public Health Basics is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBy the end of this lesson, you should be able to do a few specific things: Define public health versus individual health care; Describe a real public health success story. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Public, Health, Basics. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on public health basics; Reflection journal entry about public health basics. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Public Health Basics' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Public Health Basics' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Public Health Basics is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Public Health Basics is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Public Health Basics shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Public",
+            "Health",
+            "Basics"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on public health basics",
+            "Reflection journal entry about public health basics"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Public Health Basics'?",
+              "type": "short_answer",
+              "answer": "Public health focuses on protecting and improving the health of entire populations through prevention, policy, and education, distinct from treating individual patients."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Public Health Basics' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Public health focuses on protecting and improving the health of entire populations through prevention, policy, and education, distinct from treating individual patients.",
+            "tip": "Review 'Public Health Basics' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Public Health Basics'?",
+                "options": [
+                  "Public health focuses on protecting and improving the health of entire populations through prevention, policy, and education, distinct from treating individual patients.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Public health focuses on protecting and improving the health of entire populations through prevention, policy, and education, distinct from treating individual patients."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands public health basics",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g10-l3",
+          "title": "Family Planning Overview",
+          "unit": "Growth & Development",
+          "grade": 10,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Describe the basic concepts of family planning",
+            "Explain the importance of informed decision-making"
+          ],
+          "reading_material": "Family planning education covers the basic biological and social concepts behind reproductive decision-making, presented factually to support informed choices later in life.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Family Planning Overview is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Describe the basic concepts of family planning; Explain the importance of informed decision-making. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Family, Planning, Overview. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on family planning overview; Reflection journal entry about family planning overview. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Family Planning Overview' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Family Planning Overview' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Family Planning Overview matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Family Planning Overview is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Family Planning Overview is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Family Planning Overview shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Family",
+            "Planning",
+            "Overview"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on family planning overview",
+            "Reflection journal entry about family planning overview"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Family Planning Overview'?",
+              "type": "short_answer",
+              "answer": "Family planning education covers the basic biological and social concepts behind reproductive decision-making, presented factually to support informed choices later in life."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Family Planning Overview' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Family planning education covers the basic biological and social concepts behind reproductive decision-making, presented factually to support informed choices later in life.",
+            "tip": "Review 'Family Planning Overview' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Family Planning Overview'?",
+                "options": [
+                  "Family planning education covers the basic biological and social concepts behind reproductive decision-making, presented factually to support informed choices later in life.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Family planning education covers the basic biological and social concepts behind reproductive decision-making, presented factually to support informed choices later in life."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands family planning overview",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g10-l4",
+          "title": "Mental Health First Aid",
+          "unit": "Mental Health",
+          "grade": 10,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Describe steps for supporting someone in a mental health crisis",
+            "List local and national mental health resources"
+          ],
+          "reading_material": "Mental health first aid teaches how to recognize warning signs in others and connect them with appropriate support and resources.\n\nBefore getting into the details, think about where Mental Health First Aid shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Describe steps for supporting someone in a mental health crisis; List local and national mental health resources. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Mental, Health, First. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on mental health first aid; Reflection journal entry about mental health first aid. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Mental Health First Aid' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Mental Health First Aid' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Mental Health First Aid is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Mental Health First Aid is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Mental Health First Aid is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Mental Health First Aid is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Mental",
+            "Health",
+            "First"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on mental health first aid",
+            "Reflection journal entry about mental health first aid"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Mental Health First Aid'?",
+              "type": "short_answer",
+              "answer": "Mental health first aid teaches how to recognize warning signs in others and connect them with appropriate support and resources."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Mental Health First Aid' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Mental health first aid teaches how to recognize warning signs in others and connect them with appropriate support and resources.",
+            "tip": "Review 'Mental Health First Aid' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Mental Health First Aid'?",
+                "options": [
+                  "Mental health first aid teaches how to recognize warning signs in others and connect them with appropriate support and resources.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Mental health first aid teaches how to recognize warning signs in others and connect them with appropriate support and resources."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands mental health first aid",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g10-l5",
+          "title": "Exploring Health Careers",
+          "unit": "Careers",
+          "grade": 10,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "List a range of careers in the health field",
+            "Research the education path for one health career"
+          ],
+          "reading_material": "The health field includes careers from nursing and medicine to public health, nutrition, and health administration, each requiring different educational paths.\n\nIt's worth pausing to ask why Exploring Health Careers is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Exploring Health Careers is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: List a range of careers in the health field; Research the education path for one health career. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Exploring, Health, Careers. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on exploring health careers; Reflection journal entry about exploring health careers. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Exploring Health Careers' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Exploring Health Careers' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Exploring Health Careers matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Exploring Health Careers is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Exploring Health Careers shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Exploring",
+            "Health",
+            "Careers"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on exploring health careers",
+            "Reflection journal entry about exploring health careers"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Exploring Health Careers'?",
+              "type": "short_answer",
+              "answer": "The health field includes careers from nursing and medicine to public health, nutrition, and health administration, each requiring different educational paths."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Exploring Health Careers' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "The health field includes careers from nursing and medicine to public health, nutrition, and health administration, each requiring different educational paths.",
+            "tip": "Review 'Exploring Health Careers' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Exploring Health Careers'?",
+                "options": [
+                  "The health field includes careers from nursing and medicine to public health, nutrition, and health administration, each requiring different educational paths.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "The health field includes careers from nursing and medicine to public health, nutrition, and health administration, each requiring different educational paths."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands exploring health careers",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g10-l6",
+          "title": "Global Health Issues Overview",
+          "unit": "Public Health",
+          "grade": 10,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Name major global health challenges",
+            "Describe an international health organization's role"
+          ],
+          "reading_material": "Global health challenges like infectious disease outbreaks, malnutrition, and access to care are addressed by international organizations working across borders.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Global Health Issues Overview is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBy the end of this lesson, you should be able to do a few specific things: Name major global health challenges; Describe an international health organization's role. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Global, Health, Issues, Overview. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on global health issues overview; Reflection journal entry about global health issues overview. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Global Health Issues Overview' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Global Health Issues Overview' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Global Health Issues Overview is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Global Health Issues Overview is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Global Health Issues Overview is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Global Health Issues Overview shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Global",
+            "Health",
+            "Issues",
+            "Overview"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on global health issues overview",
+            "Reflection journal entry about global health issues overview"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Global Health Issues Overview'?",
+              "type": "short_answer",
+              "answer": "Global health challenges like infectious disease outbreaks, malnutrition, and access to care are addressed by international organizations working across borders."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Global Health Issues Overview' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Global health challenges like infectious disease outbreaks, malnutrition, and access to care are addressed by international organizations working across borders.",
+            "tip": "Review 'Global Health Issues Overview' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Global Health Issues Overview'?",
+                "options": [
+                  "Global health challenges like infectious disease outbreaks, malnutrition, and access to care are addressed by international organizations working across borders.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Global health challenges like infectious disease outbreaks, malnutrition, and access to care are addressed by international organizations working across borders."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands global health issues overview",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },

@@ -18442,6 +18442,351 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g6-l2",
+          "title": "Adolescent Growth and Development",
+          "unit": "Growth & Development",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Describe physical and emotional changes in adolescence",
+            "Explain individual variation in development"
+          ],
+          "reading_material": "Adolescence brings rapid physical growth alongside emotional and social changes. Everyone develops at their own pace, and that variation is entirely normal.\n\nIt's worth pausing to ask why Adolescent Growth and Development is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Adolescent Growth and Development is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBy the end of this lesson, you should be able to do a few specific things: Describe physical and emotional changes in adolescence; Explain individual variation in development. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Adolescent, Growth, Development. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on adolescent growth and development; Reflection journal entry about adolescent growth and development. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Adolescent Growth and Development' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Adolescent Growth and Development' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Adolescent Growth and Development is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Adolescent Growth and Development is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Adolescent Growth and Development shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Adolescent",
+            "Growth",
+            "Development"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on adolescent growth and development",
+            "Reflection journal entry about adolescent growth and development"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Adolescent Growth and Development'?",
+              "type": "short_answer",
+              "answer": "Adolescence brings rapid physical growth alongside emotional and social changes."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Adolescent Growth and Development' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Adolescence brings rapid physical growth alongside emotional and social changes.",
+            "tip": "Review 'Adolescent Growth and Development' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Adolescent Growth and Development'?",
+                "options": [
+                  "Adolescence brings rapid physical growth alongside emotional and social changes.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Adolescence brings rapid physical growth alongside emotional and social changes."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands adolescent growth and development",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g6-l3",
+          "title": "Nutrition and Fitness Planning",
+          "unit": "Nutrition & Fitness",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Design a simple balanced weekly meal plan",
+            "Set a personal fitness goal"
+          ],
+          "reading_material": "Combining balanced nutrition with regular physical activity supports growth, energy, and long-term health. Planning meals and workouts ahead of time makes healthy choices easier.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Nutrition and Fitness Planning is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Design a simple balanced weekly meal plan; Set a personal fitness goal. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Nutrition, Fitness, Planning. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on nutrition and fitness planning; Reflection journal entry about nutrition and fitness planning. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Nutrition and Fitness Planning' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Nutrition and Fitness Planning' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Nutrition and Fitness Planning matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Nutrition and Fitness Planning is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Nutrition and Fitness Planning is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Nutrition and Fitness Planning shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Nutrition",
+            "Fitness",
+            "Planning"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on nutrition and fitness planning",
+            "Reflection journal entry about nutrition and fitness planning"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Nutrition and Fitness Planning'?",
+              "type": "short_answer",
+              "answer": "Combining balanced nutrition with regular physical activity supports growth, energy, and long-term health."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Nutrition and Fitness Planning' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Combining balanced nutrition with regular physical activity supports growth, energy, and long-term health.",
+            "tip": "Review 'Nutrition and Fitness Planning' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Nutrition and Fitness Planning'?",
+                "options": [
+                  "Combining balanced nutrition with regular physical activity supports growth, energy, and long-term health.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Combining balanced nutrition with regular physical activity supports growth, energy, and long-term health."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands nutrition and fitness planning",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g6-l4",
+          "title": "Recognizing and Managing Stress",
+          "unit": "Mental Health",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Identify personal stress triggers",
+            "Practice a stress-management technique"
+          ],
+          "reading_material": "Learning to recognize your own stress triggers -- schoolwork, social pressure, family changes -- is the first step toward managing stress effectively with techniques like deep breathing or journaling.\n\nBefore getting into the details, think about where Recognizing and Managing Stress shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Identify personal stress triggers; Practice a stress-management technique. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Recognizing, Managing, Stress. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on recognizing and managing stress; Reflection journal entry about recognizing and managing stress. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Recognizing and Managing Stress' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Recognizing and Managing Stress' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Recognizing and Managing Stress is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Recognizing and Managing Stress is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Recognizing and Managing Stress is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Recognizing and Managing Stress is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Recognizing",
+            "Managing",
+            "Stress"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on recognizing and managing stress",
+            "Reflection journal entry about recognizing and managing stress"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Recognizing and Managing Stress'?",
+              "type": "short_answer",
+              "answer": "Learning to recognize your own stress triggers -- schoolwork, social pressure, family changes -- is the first step toward managing stress effectively with techniques like deep breathing or journaling."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Recognizing and Managing Stress' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Learning to recognize your own stress triggers -- schoolwork, social pressure, family changes -- is the first step toward managing stress effectively with techniques like deep breathing or journaling.",
+            "tip": "Review 'Recognizing and Managing Stress' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Recognizing and Managing Stress'?",
+                "options": [
+                  "Learning to recognize your own stress triggers -- schoolwork, social pressure, family changes -- is the first step toward managing stress effectively with techniques like deep breathing or journaling.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Learning to recognize your own stress triggers -- schoolwork, social pressure, family changes -- is the first step toward managing stress effectively with techniques like deep breathing or journaling."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands recognizing and managing stress",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g6-l5",
+          "title": "Safety and Risk-Taking Behavior",
+          "unit": "Safety",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Distinguish healthy risk-taking from dangerous risk-taking",
+            "Describe peer pressure resistance strategies"
+          ],
+          "reading_material": "As adolescents seek more independence, understanding the difference between exciting, healthy challenges and genuinely dangerous risks is an important safety skill.\n\nIt's worth pausing to ask why Safety and Risk-Taking Behavior is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Safety and Risk-Taking Behavior is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: Distinguish healthy risk-taking from dangerous risk-taking; Describe peer pressure resistance strategies. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Safety, Risk-Taking, Behavior. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on safety and risk-taking behavior; Reflection journal entry about safety and risk-taking behavior. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Safety and Risk-Taking Behavior' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Safety and Risk-Taking Behavior' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Safety and Risk-Taking Behavior matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Safety and Risk-Taking Behavior is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Safety and Risk-Taking Behavior shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Safety",
+            "Risk-Taking",
+            "Behavior"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on safety and risk-taking behavior",
+            "Reflection journal entry about safety and risk-taking behavior"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Safety and Risk-Taking Behavior'?",
+              "type": "short_answer",
+              "answer": "As adolescents seek more independence, understanding the difference between exciting, healthy challenges and genuinely dangerous risks is an important safety skill."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Safety and Risk-Taking Behavior' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "As adolescents seek more independence, understanding the difference between exciting, healthy challenges and genuinely dangerous risks is an important safety skill.",
+            "tip": "Review 'Safety and Risk-Taking Behavior' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Safety and Risk-Taking Behavior'?",
+                "options": [
+                  "As adolescents seek more independence, understanding the difference between exciting, healthy challenges and genuinely dangerous risks is an important safety skill.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "As adolescents seek more independence, understanding the difference between exciting, healthy challenges and genuinely dangerous risks is an important safety skill."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands safety and risk-taking behavior",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g6-l6",
+          "title": "Basic First Aid and CPR Awareness",
+          "unit": "Safety",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Describe the basic steps of CPR awareness",
+            "Explain when to call emergency services"
+          ],
+          "reading_material": "Knowing the basic outline of CPR and when to call for emergency help can make a critical difference in an emergency, even before a certified course.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Basic First Aid and CPR Awareness is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBy the end of this lesson, you should be able to do a few specific things: Describe the basic steps of CPR awareness; Explain when to call emergency services. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Basic, First, Awareness. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on basic first aid and cpr awareness; Reflection journal entry about basic first aid and cpr awareness. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Basic First Aid and CPR Awareness' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Basic First Aid and CPR Awareness' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Basic First Aid and CPR Awareness is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Basic First Aid and CPR Awareness is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Basic First Aid and CPR Awareness is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Basic First Aid and CPR Awareness shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.",
+          "key_concepts": [
+            "Basic",
+            "First",
+            "Awareness"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on basic first aid and cpr awareness",
+            "Reflection journal entry about basic first aid and cpr awareness"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Basic First Aid and CPR Awareness'?",
+              "type": "short_answer",
+              "answer": "Knowing the basic outline of CPR and when to call for emergency help can make a critical difference in an emergency, even before a certified course."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Basic First Aid and CPR Awareness' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Knowing the basic outline of CPR and when to call for emergency help can make a critical difference in an emergency, even before a certified course.",
+            "tip": "Review 'Basic First Aid and CPR Awareness' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Basic First Aid and CPR Awareness'?",
+                "options": [
+                  "Knowing the basic outline of CPR and when to call for emergency help can make a critical difference in an emergency, even before a certified course.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Knowing the basic outline of CPR and when to call for emergency help can make a critical difference in an emergency, even before a certified course."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands basic first aid and cpr awareness",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },

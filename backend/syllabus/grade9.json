@@ -31814,6 +31814,351 @@
             "completion_required": true,
             "min_quiz_score": 70
           }
+        },
+        {
+          "id": "hlt-g9-l2",
+          "title": "Comprehensive Health Self-Assessment",
+          "unit": "Personal Health",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Complete a personal health self-assessment",
+            "Set personal health goals"
+          ],
+          "reading_material": "A comprehensive self-assessment across nutrition, fitness, sleep, and mental health helps identify areas for personal improvement and goal-setting.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Comprehensive Health Self-Assessment is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nHere is what success looks like for this lesson: Complete a personal health self-assessment; Set personal health goals. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Comprehensive, Health, Self-Assessment. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on comprehensive health self-assessment; Reflection journal entry about comprehensive health self-assessment. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Comprehensive Health Self-Assessment' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Comprehensive Health Self-Assessment' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Comprehensive Health Self-Assessment matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Comprehensive Health Self-Assessment is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Comprehensive Health Self-Assessment is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where Comprehensive Health Self-Assessment shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nTo wrap up: Comprehensive Health Self-Assessment is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.",
+          "key_concepts": [
+            "Comprehensive",
+            "Health",
+            "Self-Assessment"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on comprehensive health self-assessment",
+            "Reflection journal entry about comprehensive health self-assessment"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Comprehensive Health Self-Assessment'?",
+              "type": "short_answer",
+              "answer": "A comprehensive self-assessment across nutrition, fitness, sleep, and mental health helps identify areas for personal improvement and goal-setting."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Comprehensive Health Self-Assessment' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "A comprehensive self-assessment across nutrition, fitness, sleep, and mental health helps identify areas for personal improvement and goal-setting.",
+            "tip": "Review 'Comprehensive Health Self-Assessment' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Comprehensive Health Self-Assessment'?",
+                "options": [
+                  "A comprehensive self-assessment across nutrition, fitness, sleep, and mental health helps identify areas for personal improvement and goal-setting.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "A comprehensive self-assessment across nutrition, fitness, sleep, and mental health helps identify areas for personal improvement and goal-setting."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands comprehensive health self-assessment",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g9-l3",
+          "title": "Disease Prevention and Immunization",
+          "unit": "Public Health",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Explain how vaccines work",
+            "Describe the concept of herd immunity"
+          ],
+          "reading_material": "Vaccines train the immune system to recognize and fight specific diseases, and high vaccination rates in a community create herd immunity that protects vulnerable individuals.\n\nBefore getting into the details, think about where Disease Prevention and Immunization shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nBy the end of this lesson, you should be able to do a few specific things: Explain how vaccines work; Describe the concept of herd immunity. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Disease, Prevention, Immunization. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on disease prevention and immunization; Reflection journal entry about disease prevention and immunization. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'Disease Prevention and Immunization' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Disease Prevention and Immunization' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: Disease Prevention and Immunization is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why Disease Prevention and Immunization is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Disease Prevention and Immunization is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Disease Prevention and Immunization is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Disease",
+            "Prevention",
+            "Immunization"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on disease prevention and immunization",
+            "Reflection journal entry about disease prevention and immunization"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Disease Prevention and Immunization'?",
+              "type": "short_answer",
+              "answer": "Vaccines train the immune system to recognize and fight specific diseases, and high vaccination rates in a community create herd immunity that protects vulnerable individuals."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Disease Prevention and Immunization' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Vaccines train the immune system to recognize and fight specific diseases, and high vaccination rates in a community create herd immunity that protects vulnerable individuals.",
+            "tip": "Review 'Disease Prevention and Immunization' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Disease Prevention and Immunization'?",
+                "options": [
+                  "Vaccines train the immune system to recognize and fight specific diseases, and high vaccination rates in a community create herd immunity that protects vulnerable individuals.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Vaccines train the immune system to recognize and fight specific diseases, and high vaccination rates in a community create herd immunity that protects vulnerable individuals."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands disease prevention and immunization",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g9-l4",
+          "title": "Understanding Mental Health Disorders",
+          "unit": "Mental Health",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Name common mental health disorders",
+            "Describe when and how to seek help"
+          ],
+          "reading_material": "Learning about common mental health conditions like anxiety and depression, and reducing the stigma around them, encourages people to seek help when they need it.\n\nIt's worth pausing to ask why Understanding Mental Health Disorders is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Understanding Mental Health Disorders is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere is what success looks like for this lesson: Name common mental health disorders; Describe when and how to seek help. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Understanding, Mental, Health, Disorders. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on understanding mental health disorders; Reflection journal entry about understanding mental health disorders. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Understanding Mental Health Disorders' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Understanding Mental Health Disorders' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Understanding Mental Health Disorders matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Understanding Mental Health Disorders is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBefore getting into the details, think about where Understanding Mental Health Disorders shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.",
+          "key_concepts": [
+            "Understanding",
+            "Mental",
+            "Health",
+            "Disorders"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on understanding mental health disorders",
+            "Reflection journal entry about understanding mental health disorders"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Understanding Mental Health Disorders'?",
+              "type": "short_answer",
+              "answer": "Learning about common mental health conditions like anxiety and depression, and reducing the stigma around them, encourages people to seek help when they need it."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Understanding Mental Health Disorders' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Learning about common mental health conditions like anxiety and depression, and reducing the stigma around them, encourages people to seek help when they need it.",
+            "tip": "Review 'Understanding Mental Health Disorders' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Understanding Mental Health Disorders'?",
+                "options": [
+                  "Learning about common mental health conditions like anxiety and depression, and reducing the stigma around them, encourages people to seek help when they need it.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Learning about common mental health conditions like anxiety and depression, and reducing the stigma around them, encourages people to seek help when they need it."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands understanding mental health disorders",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g9-l5",
+          "title": "The Science of Addiction",
+          "unit": "Substance Awareness",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Explain how addiction affects brain chemistry",
+            "Describe factors that increase addiction risk"
+          ],
+          "reading_material": "Addiction involves changes in brain chemistry that make quitting difficult without support; understanding this helps replace judgment with informed compassion and effective prevention.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. The Science of Addiction is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nBy the end of this lesson, you should be able to do a few specific things: Explain how addiction affects brain chemistry; Describe factors that increase addiction risk. Keep these goals in mind as you read -- they're not just a checklist for the teacher, they're a way for you to test yourself afterwards and see whether the lesson has really sunk in.\n\nThe key words to know for this lesson are: Science, Addiction. New topics often come with new vocabulary, and in Health Education the vocabulary usually isn't just decoration -- each of these words points to a specific idea that you'll need again in later lessons, so it's worth being able to explain each one in your own words, not just recognise it when you see it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nA good way to practise this lesson is: Class discussion and worksheet on the science of addiction; Reflection journal entry about the science of addiction. Doing something hands-on with an idea -- rather than only reading about it -- is one of the fastest ways to make it stick, because your brain remembers things you've actually done far better than things you've only read.\n\nFor homework, Talk with a family member about what you learned in 'The Science of Addiction' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'The Science of Addiction' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nTo wrap up: The Science of Addiction is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.\n\nIt's worth pausing to ask why The Science of Addiction is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. The Science of Addiction is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nBefore getting into the details, think about where The Science of Addiction shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'",
+          "key_concepts": [
+            "Science",
+            "Addiction"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on the science of addiction",
+            "Reflection journal entry about the science of addiction"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'The Science of Addiction'?",
+              "type": "short_answer",
+              "answer": "Addiction involves changes in brain chemistry that make quitting difficult without support; understanding this helps replace judgment with informed compassion and effective prevention."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'The Science of Addiction' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Addiction involves changes in brain chemistry that make quitting difficult without support; understanding this helps replace judgment with informed compassion and effective prevention.",
+            "tip": "Review 'The Science of Addiction' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'The Science of Addiction'?",
+                "options": [
+                  "Addiction involves changes in brain chemistry that make quitting difficult without support; understanding this helps replace judgment with informed compassion and effective prevention.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Addiction involves changes in brain chemistry that make quitting difficult without support; understanding this helps replace judgment with informed compassion and effective prevention."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands the science of addiction",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
+        },
+        {
+          "id": "hlt-g9-l6",
+          "title": "Consumer Health Literacy",
+          "unit": "Health Literacy",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Evaluate health product marketing critically",
+            "Understand basic health insurance concepts"
+          ],
+          "reading_material": "Consumer health literacy includes critically evaluating health products and understanding basic concepts like health insurance and how to access reliable care.\n\nBefore getting into the details, think about where Consumer Health Literacy shows up outside of the classroom. Ideas in Health Education are rarely just for tests -- they usually connect to things you notice in everyday life, and part of getting good at Health Education is training yourself to spot those connections instead of treating school topics as separate from the rest of the world.\n\nHere is what success looks like for this lesson: Evaluate health product marketing critically; Understand basic health insurance concepts. If you can honestly say you can do all of these by the time you finish, you've learned the lesson properly, not just skimmed it.\n\nSome important terms appear in this lesson: Consumer, Health, Literacy. Try this trick: after reading through the lesson once, cover the page and see if you can explain each of these words to yourself (or better, to someone else) without peeking. If you get stuck on one, that's exactly the word to go back and reread about.\n\nA common mistake with lessons like this one is memorising a fact without understanding why it's true. Memorised facts fade quickly and don't help when a question is asked in a slightly different way. Understanding, on the other hand, sticks around and lets you handle questions you've never seen before -- so whenever you can, ask yourself 'why is that true?' rather than just 'what is the answer?'\n\nTry this to reinforce what you just learned: Class discussion and worksheet on consumer health literacy; Reflection journal entry about consumer health literacy. It only takes a few minutes, but actively doing something with the idea works much better for memory than simply rereading the lesson a second time.\n\nFor homework, Talk with a family member about what you learned in 'Consumer Health Literacy' today. This isn't just busywork -- it's a chance to use today's lesson somewhere outside the lesson itself, which is exactly how you'll know whether you really understood it or only thought you did.\n\nWhen it's time to revise this topic before a test, remember: Review 'Consumer Health Literacy' before the next health lesson. A quick way to check yourself is to try explaining the whole lesson out loud in under a minute, as if you were teaching it to a younger student -- if you can do that smoothly, you're ready.\n\nSo, in short: Consumer Health Literacy matters because it connects to bigger ideas coming later in Health Education. Don't worry if it doesn't feel completely natural on the first read -- that's normal for any new idea. Read it again, try the practice activity, and check yourself against the learning goals above; understanding usually arrives on the second or third pass, not the first.\n\nIt's worth pausing to ask why Consumer Health Literacy is part of the Health Education curriculum at all. Every topic you study at school is chosen because it either explains something about the world you can see for yourself, or because it builds a mental tool you will keep using in more advanced lessons later. Consumer Health Literacy is one of those building-block topics: once you understand it well, several things that used to feel confusing in Health Education start to make a lot more sense.\n\nHere's a simple way to think about why this lesson matters. Learning Health Education is a bit like building with blocks -- each new idea rests on the ideas that came before it. Consumer Health Literacy is one of the blocks near the bottom of this particular tower, which is exactly why it's worth taking the time to understand it properly now rather than rushing past it.\n\nOne thing that trips learners up with topics like this is going too fast: skimming the words without picturing what they actually mean. If a sentence in this lesson feels confusing, try slowing down and picturing a real example in your head, or drawing a quick sketch -- turning words into a picture is one of the best ways to catch a misunderstanding before it becomes a habit.\n\nTo wrap up: Consumer Health Literacy is one small piece of Health Education, but it's a piece worth knowing solidly, because later lessons will lean on it without stopping to re-explain it. Take your time with it now, ask questions if anything feels unclear, and come back to reread this lesson whenever a later topic reminds you of it -- that kind of revisiting is exactly how real understanding builds up over a school year.",
+          "key_concepts": [
+            "Consumer",
+            "Health",
+            "Literacy"
+          ],
+          "practical_activities": [
+            "Class discussion and worksheet on consumer health literacy",
+            "Reflection journal entry about consumer health literacy"
+          ],
+          "exercises": [
+            {
+              "q": "In your own words, what is the main idea of 'Consumer Health Literacy'?",
+              "type": "short_answer",
+              "answer": "Consumer health literacy includes critically evaluating health products and understanding basic concepts like health insurance and how to access reliable care."
+            }
+          ],
+          "homework": {
+            "task": "Talk with a family member about what you learned in 'Consumer Health Literacy' today.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Consumer health literacy includes critically evaluating health products and understanding basic concepts like health insurance and how to access reliable care.",
+            "tip": "Review 'Consumer Health Literacy' before the next health lesson."
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Which best describes 'Consumer Health Literacy'?",
+                "options": [
+                  "Consumer health literacy includes critically evaluating health products and understanding basic concepts like health insurance and how to access reliable care.",
+                  "Unrelated to this subject",
+                  "Not covered at this level",
+                  "None of the above"
+                ],
+                "answer": "Consumer health literacy includes critically evaluating health products and understanding basic concepts like health insurance and how to access reliable care."
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Understands consumer health literacy",
+              "Applies concept correctly",
+              "Connects to real-world context"
+            ],
+            "passing_score": 60
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "video_reference": "",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 60
+          }
         }
       ]
     },
