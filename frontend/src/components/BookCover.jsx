@@ -5,13 +5,45 @@ import { useState, useEffect, useRef } from 'react';
 // page session (mirrors the WikiThumbnail pattern used in VirtualMuseum.jsx).
 const coverCache = {};
 
+async function findCoverUrl(title, author) {
+  // Try Google Books first -- it has the broadest cover coverage and its
+  // public volumes.list endpoint needs no API key for basic queries.
+  try {
+    const q = author ? `intitle:${title} inauthor:${author}` : `intitle:${title}`;
+    const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(q)}&maxResults=1`);
+    if (res.ok) {
+      const data = await res.json();
+      const links = data?.items?.[0]?.volumeInfo?.imageLinks;
+      const url = links?.thumbnail || links?.smallThumbnail;
+      if (url) return url.replace(/^http:/, 'https:');
+    }
+  } catch {
+    // fall through to Open Library
+  }
+
+  // Fall back to the Open Library Search API, which returns a cover_i id
+  // when a matching edition has a real cover on file.
+  try {
+    const params = new URLSearchParams({ title, limit: '1', fields: 'cover_i' });
+    if (author) params.set('author', author);
+    const res = await fetch(`https://openlibrary.org/search.json?${params.toString()}`);
+    if (res.ok) {
+      const data = await res.json();
+      const coverId = data?.docs?.[0]?.cover_i;
+      if (coverId) return `https://covers.openlibrary.org/b/id/${coverId}-M.jpg`;
+    }
+  } catch {
+    // no cover found anywhere
+  }
+
+  return null;
+}
+
 /**
- * Renders a real book cover fetched live from the Open Library Search API
- * (https://openlibrary.org/search.json), which returns a cover_i id when a
- * matching edition has a real cover on file; that id is turned into a real
- * Open Library Covers API image URL. No cover URL or ISBN is guessed or
- * fabricated -- if Open Library has no match, a plain book-emoji
- * placeholder is shown instead.
+ * Renders a real book cover fetched live from the Google Books API, falling
+ * back to the Open Library Search API -- both real, public, no-key-required
+ * services -- rather than guessing an ISBN or direct image URL. If neither
+ * has a match, a plain book-emoji placeholder is shown instead.
  */
 export default function BookCover({ title, author, size = 'list' }) {
   const key = `${title || ''}|${author || ''}`;
@@ -26,13 +58,8 @@ export default function BookCover({ title, author, size = 'list' }) {
       return;
     }
     coverCache[key] = 'loading';
-    const params = new URLSearchParams({ title, limit: '1', fields: 'cover_i' });
-    if (author) params.set('author', author);
-    fetch(`https://openlibrary.org/search.json?${params.toString()}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d) => {
-        const coverId = d?.docs?.[0]?.cover_i;
-        const url = coverId ? `https://covers.openlibrary.org/b/id/${coverId}-M.jpg` : null;
+    findCoverUrl(title, author)
+      .then((url) => {
         coverCache[key] = url || '';
         if (mounted.current && url) setSrc(url);
       })
