@@ -25,7 +25,7 @@ beforeEach(() => {
 });
 
 describe('SubjectLessons', () => {
-  it('locks later lessons until the previous one is marked complete', async () => {
+  it('shows every lesson open from the start, with no lock on later lessons', async () => {
     render(
       <ChildProvider>
         <SubjectLessons subjectName="Math" subject={subject} />
@@ -35,9 +35,11 @@ describe('SubjectLessons', () => {
     await waitFor(() => {
       expect(screen.getByText('Lesson 1: Learn')).toBeInTheDocument();
     });
-    expect(screen.getByText(/Complete "Learn" first/)).toBeInTheDocument();
+    // All lessons are visible and unlocked immediately -- no "Complete X first" gating.
+    expect(screen.queryByText(/first to unlock/)).not.toBeInTheDocument();
+    expect(screen.getByText('Lesson 2: Watch')).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole('button', { name: 'Mark lesson complete' }));
+    fireEvent.click(screen.getAllByRole('button', { name: 'Mark lesson complete' })[0]);
 
     await waitFor(() => {
       expect(global.fetch).toHaveBeenCalledWith(
@@ -45,9 +47,7 @@ describe('SubjectLessons', () => {
         expect.objectContaining({ method: 'POST' })
       );
     });
-    await waitFor(() => {
-      expect(screen.queryByText(/Complete "Learn" first/)).not.toBeInTheDocument();
-    });
+    // Lesson 2 remains visible and was never gated behind lesson 1's completion.
     expect(screen.getByText('Lesson 2: Watch')).toBeInTheDocument();
   });
 });

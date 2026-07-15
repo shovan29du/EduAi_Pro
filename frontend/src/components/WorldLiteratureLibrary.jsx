@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import BookCover from './BookCover.jsx';
 
 const API = '/api';
 
@@ -37,7 +38,10 @@ function BookDetail({ section, bookId, onBack }) {
   return (
     <div>
       <button onClick={onBack} className="mb-4 text-sm text-emerald-600 hover:underline">← Back to books</button>
-      <h2 className="text-2xl font-bold text-gray-800 mb-1">{book.title}</h2>
+      <div className="flex gap-4 mb-1">
+        <BookCover title={book.title} author={book.author} size="hero" />
+        <h2 className="text-2xl font-bold text-gray-800">{book.title}</h2>
+      </div>
       <div className="flex flex-wrap gap-2 mb-4">
         <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">✍️ {book.author}</span>
         {book.year && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">📅 {book.year}</span>}
@@ -83,26 +87,29 @@ function BookDetail({ section, bookId, onBack }) {
 function BookCard({ book, onClick }) {
   return (
     <button onClick={onClick}
-      className="text-left rounded-xl border-2 border-emerald-200 bg-emerald-50 p-4 hover:shadow-md transition-shadow">
-      <p className="font-bold text-gray-800">{book.title}</p>
-      <p className="text-xs text-gray-500 mt-0.5">{book.author} · {book.year} · {book.origin}</p>
-      {book.reading_level && (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 mt-1 inline-block">{book.reading_level}</span>
-      )}
-      <p className="text-sm text-gray-600 mt-2 line-clamp-2">{book.summary?.slice(0, 110)}…</p>
-      {book.links && (
-        <div className="flex gap-1 mt-2 flex-wrap">
-          {book.links.read_online && (
-            <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>
-          )}
-          {book.links.video_summary && (
-            <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Video</span>
-          )}
-          {book.links.open_library && (
-            <span className="text-xs px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">🏛 Library</span>
-          )}
-        </div>
-      )}
+      className="text-left rounded-xl border-2 border-emerald-200 bg-emerald-50 p-4 hover:shadow-md transition-shadow flex gap-3">
+      <BookCover title={book.title} author={book.author} />
+      <div className="min-w-0 flex-1">
+        <p className="font-bold text-gray-800">{book.title}</p>
+        <p className="text-xs text-gray-500 mt-0.5">{book.author} · {book.year} · {book.origin}</p>
+        {book.reading_level && (
+          <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 mt-1 inline-block">{book.reading_level}</span>
+        )}
+        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{book.summary?.slice(0, 110)}…</p>
+        {book.links && (
+          <div className="flex gap-1 mt-2 flex-wrap">
+            {book.links.read_online && (
+              <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>
+            )}
+            {book.links.video_summary && (
+              <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Video</span>
+            )}
+            {book.links.open_library && (
+              <span className="text-xs px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">🏛 Library</span>
+            )}
+          </div>
+        )}
+      </div>
     </button>
   );
 }

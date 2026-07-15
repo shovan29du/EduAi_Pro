@@ -36,7 +36,6 @@ const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
 const ParentProgressOverview = lazy(() => import('./components/ParentProgressOverview.jsx'));
 const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
 const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
-const SafeMusicPlayer = lazy(() => import('./components/SafeMusicPlayer.jsx'));
 const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
 const Games = lazy(() => import('./components/Games.jsx'));
 const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
@@ -101,7 +100,6 @@ const CHILD_TABS = [
   'Study Timer',
   'Fact of the Day',
   'History of the Day',
-  'Music',
   'Music & Instruments',
   'Song Centre',
   'Sing-Along',
@@ -253,7 +251,6 @@ export default function App() {
 
           {activeTab === 'Appearance' && <AppearanceSettings />}
 
-          {activeTab === 'Music' && <SafeMusicPlayer />}
 
           {activeTab === 'Music & Instruments' && <MusicInstruments />}
 

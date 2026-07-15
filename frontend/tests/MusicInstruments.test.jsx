@@ -2,6 +2,7 @@ import React from 'react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 import MusicInstruments from '../src/components/MusicInstruments.jsx';
+import { ChildProvider } from '../src/contexts/ChildContext.jsx';
 
 const overview = {
   title: 'Music & Instruments',
@@ -34,13 +35,20 @@ beforeEach(() => {
     if (url === '/api/music-instruments/instrument/piano') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(pianoDetail) });
     }
+    if (url === '/api/safe-music') {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+    }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
 });
 
 describe('MusicInstruments', () => {
   it('shows instrument categories and lets you drill into an instrument', async () => {
-    render(<MusicInstruments />);
+    render(
+      <ChildProvider>
+        <MusicInstruments />
+      </ChildProvider>
+    );
 
     await waitFor(() => {
       expect(screen.getByText(/Music & Instruments/)).toBeInTheDocument();

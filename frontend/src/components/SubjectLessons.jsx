@@ -208,7 +208,6 @@ export default function SubjectLessons({ subjectName, subject, standard, onChang
       <ol className="space-y-4">
         {lessons.map((lesson, index) => {
           const isDone = completed.includes(lesson.id);
-          const isUnlocked = index === 0 || completed.includes(lessons[index - 1].id);
           return (
             <li key={lesson.id} className="rounded border p-3 dark:border-gray-700">
               <div className="flex items-center justify-between">
@@ -217,34 +216,25 @@ export default function SubjectLessons({ subjectName, subject, standard, onChang
                 </h3>
                 {isDone && <span className="text-sm text-green-600">Completed ✓</span>}
               </div>
-              {!isUnlocked && (
-                <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                  Complete "{lessons[index - 1].label}" first to unlock this lesson.
-                </p>
-              )}
-              {isUnlocked && (
-                <>
-                  <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{lesson.intro}</p>
-                  <div className="mt-3">
-                    <LessonContent groupId={lesson.id} subject={{ ...subject, __name: subjectName }} />
-                  </div>
-                  {!isDone && miniCheckQuestion(lesson.id, subject, index) ? (
-                    <MiniCheck
-                      question={miniCheckQuestion(lesson.id, subject, index)}
-                      onPassed={() => markComplete(lesson.id)}
-                    />
-                  ) : (
-                    !isDone && (
-                      <button
-                        type="button"
-                        onClick={() => markComplete(lesson.id)}
-                        className="mt-3 rounded border px-3 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
-                      >
-                        Mark lesson complete
-                      </button>
-                    )
-                  )}
-                </>
+              <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{lesson.intro}</p>
+              <div className="mt-3">
+                <LessonContent groupId={lesson.id} subject={{ ...subject, __name: subjectName }} />
+              </div>
+              {!isDone && miniCheckQuestion(lesson.id, subject, index) ? (
+                <MiniCheck
+                  question={miniCheckQuestion(lesson.id, subject, index)}
+                  onPassed={() => markComplete(lesson.id)}
+                />
+              ) : (
+                !isDone && (
+                  <button
+                    type="button"
+                    onClick={() => markComplete(lesson.id)}
+                    className="mt-3 rounded border px-3 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
+                  >
+                    Mark lesson complete
+                  </button>
+                )
               )}
             </li>
           );

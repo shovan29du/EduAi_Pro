@@ -107,6 +107,13 @@ function ExperimentDetail({ discipline, experimentId, colour, onBack }) {
           <p className="text-sm text-yellow-900">{exp.explanation}</p>
         </div>
 
+        {exp.video && (
+          <a href={exp.video} target="_blank" rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium bg-red-50 text-red-700 border-red-200 hover:bg-red-100 transition-colors">
+            🎬 Watch Video
+          </a>
+        )}
+
         <QuizPanel quiz={exp.quiz} />
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { SpeakButton } from '../utils/tts.jsx';
+import BookCover from './BookCover.jsx';
 
 const API = '/api';
 
@@ -38,9 +39,12 @@ function BookDetail({ category, bookId, onBack }) {
   return (
     <div>
       <button onClick={onBack} className="mb-4 text-sm text-amber-600 hover:underline">← Back</button>
-      <div className="flex items-start gap-2 mb-1">
-        <h2 className="text-2xl font-bold text-gray-800 flex-1">{book.title}</h2>
-        <SpeakButton text={`${book.title}. ${book.summary}`} lang="en" />
+      <div className="flex items-start gap-3 mb-1">
+        <BookCover title={book.title} author={book.author} size="hero" />
+        <div className="flex items-start gap-2 flex-1">
+          <h2 className="text-2xl font-bold text-gray-800 flex-1">{book.title}</h2>
+          <SpeakButton text={`${book.title}. ${book.summary}`} lang="en" />
+        </div>
       </div>
       <div className="flex flex-wrap gap-2 mb-4">
         {book.author && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">✍️ {book.author}</span>}
@@ -108,18 +112,21 @@ function CategoryView({ category, onBack }) {
         <div className="grid sm:grid-cols-2 gap-4">
           {data.books?.map(book => (
             <button key={book.id} onClick={() => setSelectedBook(book.id)}
-              className="text-left rounded-xl border-2 border-amber-200 bg-amber-50 p-4 hover:shadow-md transition-shadow">
-              <p className="font-bold text-gray-800">{book.title}</p>
-              <p className="text-xs text-gray-500 mt-0.5">{book.author} · {book.year}</p>
-              <p className="text-xs text-gray-400 mt-0.5">Ages {book.age_range}</p>
-              <p className="text-sm text-gray-600 mt-2 line-clamp-3">{book.summary?.slice(0, 120)}…</p>
-              {book.links && (
-                <div className="flex gap-1 mt-2 flex-wrap">
-                  {book.links.read_online && <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>}
-                  {book.links.video_summary && <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Video</span>}
-                  {book.links.podcast && <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🎙 Podcast</span>}
-                </div>
-              )}
+              className="text-left rounded-xl border-2 border-amber-200 bg-amber-50 p-4 hover:shadow-md transition-shadow flex gap-3">
+              <BookCover title={book.title} author={book.author} />
+              <div className="min-w-0 flex-1">
+                <p className="font-bold text-gray-800">{book.title}</p>
+                <p className="text-xs text-gray-500 mt-0.5">{book.author} · {book.year}</p>
+                <p className="text-xs text-gray-400 mt-0.5">Ages {book.age_range}</p>
+                <p className="text-sm text-gray-600 mt-2 line-clamp-3">{book.summary?.slice(0, 120)}…</p>
+                {book.links && (
+                  <div className="flex gap-1 mt-2 flex-wrap">
+                    {book.links.read_online && <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>}
+                    {book.links.video_summary && <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Video</span>}
+                    {book.links.podcast && <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🎙 Podcast</span>}
+                  </div>
+                )}
+              </div>
             </button>
           ))}
         </div>

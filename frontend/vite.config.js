@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       manifest: {
-        name: 'Global Education Platform',
-        short_name: 'Edu_Ai',
+        name: 'EduAi_Pro',
+        short_name: 'EduAi_Pro',
         start_url: '/',
         display: 'standalone',
         background_color: '#f9fafb',
