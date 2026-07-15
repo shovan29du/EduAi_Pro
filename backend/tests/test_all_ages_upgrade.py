@@ -36,7 +36,7 @@ def test_new_levels_available_and_contain_flagship_subjects(level):
 def test_new_levels_expand_existing_subjects(level):
     resp = client.get(f"/api/level/{level}")
     data = resp.json()
-    for subject in ("Economics", "Finance", "Math", "Business Studies", "Civics"):
+    for subject in ("Economics", "Finance", "Math"):
         assert subject in data["subjects"]
         assert data["subjects"][subject]["lessons"], f"{subject} should have lesson modules at {level}"
 

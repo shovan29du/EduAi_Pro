@@ -52,6 +52,6 @@ def test_python_r_javascript_use_real_official_docs():
     assert "developer.mozilla.org" in m1["JavaScript"]["books"][0]["link"]
 
 
-def test_total_subject_count_grew_to_52():
+def test_total_subject_count_after_deletions_is_47():
     data = client.get("/api/level/M2").json()
-    assert len(data["subjects"]) == 52
+    assert len(data["subjects"]) == 47

@@ -103,11 +103,11 @@ def test_world_literature_and_art_available_every_grade(standard):
 
 
 @pytest.mark.parametrize("standard", range(1, 11))
-def test_social_studies_and_environmental_science_available_every_grade(standard):
+def test_social_studies_available_every_grade(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
     subjects = resp.json()["subjects"]
-    for name in ("Social Studies", "Environmental Science"):
+    for name in ("Social Studies",):
         assert name in subjects
 
 
@@ -175,7 +175,7 @@ def test_grade8_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Foreign Languages", "Social Studies",
                  "Physical Education & Self-Defense"]:
         assert name in subjects
 
@@ -187,7 +187,7 @@ def test_grade9_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Foreign Languages", "Social Studies",
                  "Physical Education & Self-Defense"]:
         assert name in subjects
 
@@ -199,7 +199,7 @@ def test_grade10_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Foreign Languages", "Social Studies",
                  "Physical Education & Self-Defense"]:
         assert name in subjects
 
