@@ -219,12 +219,18 @@ export default function MusicInstruments() {
   const [overview, setOverview] = useState(null);
   const [selectedInstrument, setSelectedInstrument] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetch(API)
-      .then((r) => r.json())
-      .then(setOverview);
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('Could not load Music & Instruments'))))
+      .then(setOverview)
+      .catch((err) => setError(err.message));
   }, []);
+
+  if (error) {
+    return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
+  }
 
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading Music &amp; Instruments…</div>;
 

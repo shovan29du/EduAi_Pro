@@ -22,6 +22,14 @@ export function ChildProvider({ children }) {
   );
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
 
+  const [connectedPlatforms, setConnectedPlatforms] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem('connectedPlatforms')) || {};
+    } catch {
+      return {};
+    }
+  });
+
   const [appearance, setAppearance] = useState(() => {
     try {
       return (
@@ -76,6 +84,14 @@ export function ChildProvider({ children }) {
     setAppearance((prev) => ({ ...prev, ...patch }));
   }
 
+  useEffect(() => {
+    localStorage.setItem('connectedPlatforms', JSON.stringify(connectedPlatforms));
+  }, [connectedPlatforms]);
+
+  function togglePlatform(id) {
+    setConnectedPlatforms((prev) => ({ ...prev, [id]: !prev[id] }));
+  }
+
   return (
     <ChildContext.Provider
       value={{
@@ -87,6 +103,8 @@ export function ChildProvider({ children }) {
         setDarkMode,
         appearance,
         updateAppearance,
+        connectedPlatforms,
+        togglePlatform,
       }}
     >
       {children}

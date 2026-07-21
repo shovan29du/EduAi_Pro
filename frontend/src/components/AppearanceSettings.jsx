@@ -1,5 +1,6 @@
 import React from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
+import { STREAMING_PLATFORMS, LEARNING_PLATFORMS } from '../data/platforms.js';
 
 const FONT_FAMILIES = [
   { value: '', label: 'Default' },
@@ -38,6 +39,64 @@ const FONT_SIZES = [
   { value: 'x-large', label: 'Extra Large' },
   { value: 'xx-large', label: 'XX-Large' },
 ];
+
+function PlatformGroup({ title, platforms, connectedPlatforms, togglePlatform }) {
+  return (
+    <div className="mb-4">
+      <p className="mb-2 text-sm font-medium">{title}</p>
+      <div className="flex flex-col gap-2">
+        {platforms.map((p) => (
+          <div key={p.id} className="flex items-center justify-between gap-3 rounded border px-3 py-2 dark:border-gray-700">
+            <label className="flex items-center gap-2 text-sm">
+              <input
+                type="checkbox"
+                checked={!!connectedPlatforms[p.id]}
+                onChange={() => togglePlatform(p.id)}
+              />
+              <span>{p.emoji} {p.label}</span>
+            </label>
+            {connectedPlatforms[p.id] && (
+              <a
+                href={p.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-medium text-blue-600 hover:underline dark:text-blue-400"
+              >
+                Sign in on {p.label} ↗
+              </a>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function PlatformSettings() {
+  const { connectedPlatforms, togglePlatform } = useChild();
+  return (
+    <div className="mt-6 border-t pt-4 dark:border-gray-700">
+      <h3 className="mb-1 text-base font-bold">🔗 Streaming &amp; Learning Platforms</h3>
+      <p className="mb-3 text-xs text-gray-500">
+        Tell us which platforms you already have an account with. EduAi_Pro never asks for or stores
+        a password for these services — checking a box just helps us point you at the right place.
+        Every "Sign in" link opens that provider's own real site, where you log in directly with them.
+      </p>
+      <PlatformGroup
+        title="Streaming"
+        platforms={STREAMING_PLATFORMS}
+        connectedPlatforms={connectedPlatforms}
+        togglePlatform={togglePlatform}
+      />
+      <PlatformGroup
+        title="Learning"
+        platforms={LEARNING_PLATFORMS}
+        connectedPlatforms={connectedPlatforms}
+        togglePlatform={togglePlatform}
+      />
+    </div>
+  );
+}
 
 export default function AppearanceSettings() {
   const { appearance, updateAppearance } = useChild();
@@ -156,6 +215,8 @@ export default function AppearanceSettings() {
       >
         Reset to default
       </button>
+
+      <PlatformSettings />
     </section>
   );
 }
