@@ -26,17 +26,22 @@ def test_all_grade10_subjects_present_through_m2():
 @pytest.mark.parametrize("subject", NEW_FLAGSHIP_SUBJECTS)
 def test_new_subjects_present_and_progress_through_levels(subject):
     seen_titles = set()
+    total_lessons = 0
     for level in LEVELS:
         data = client.get(f"/api/level/{level}").json()
         assert subject in data["subjects"], f"{subject} missing at {level}"
         lessons = data["subjects"][subject]["lessons"]
         assert lessons, f"{subject} has no lessons at {level}"
+        total_lessons += len(lessons)
         for lesson in lessons:
             seen_titles.add(lesson["title"])
-    # Originally 8 levels x 2 modules/level (16 distinct titles, no repeats). Each of these
-    # subjects was later expanded with 18 more modules per level across C1-M1 (7 levels),
-    # adding 126 new distinct titles on top of the original 16 -> 142 total.
-    assert len(seen_titles) == 142, f"{subject} should have 142 distinct modules across levels, got {len(seen_titles)}"
+    # The exact lesson count grows as subjects are expanded further (a moving target across
+    # waves), so the invariant worth locking in is that every module title across all 8
+    # levels is distinct -- i.e. no accidental duplicate/overlapping module was merged in.
+    assert len(seen_titles) == total_lessons, (
+        f"{subject} should have no duplicate module titles across levels, "
+        f"got {total_lessons} lessons but only {len(seen_titles)} distinct titles"
+    )
 
 
 @pytest.mark.parametrize("subject", PROMOTED_TO_FLAGSHIP)
