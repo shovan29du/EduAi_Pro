@@ -1,7 +1,7 @@
 {
   "title": "Song Centre — World Music Collection",
   "description": "A curated, child-friendly collection of songs spanning Bengali, Hindi, Urdu/Pakistani and international music — from folk and classical to pop, rock and world music. All songs are educational, safe for ages 5+ and include learning notes.",
-  "total": 1278,
+  "total": 1270,
   "songs": [
     {
       "id": "hey_jude",
@@ -26273,33 +26273,37 @@
       "suitable_for_ages": "5+"
     },
     {
-      "id": "thats_what_i_like_bruno_mars",
-      "title": "Thats What I Like",
+      "id": "billion_view_that_s_what_i_like",
+      "title": "That's What I Like",
       "artist": "Bruno Mars",
       "album": "",
-      "year": 2016,
+      "year": 2017,
       "genre": [
+        "r&b",
         "funk"
       ],
-      "origin_country": "USA",
+      "origin_country": "United States",
       "language": "English",
-      "duration_approx": "3:26",
-      "description": "Funk-pop radio dominator",
-      "educational_notes": "24K Magic album",
-      "fun_fact": "Won Grammy Record of Year",
-      "awards": [],
+      "duration_approx": "",
+      "description": "A smooth R&B-funk track celebrating luxury and romance.",
+      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
+      "fun_fact": "It won the Grammy Award for Song of the Year.",
+      "awards": [
+        "1+ billion YouTube views"
+      ],
       "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Thats+What+I+Like+Bruno+Mars+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Thats+What+I+Like+Bruno+Mars",
-        "lyrics_search": "https://www.google.com/search?q=Thats+What+I+Like+Bruno+Mars+lyrics"
+        "youtube_search": "https://www.youtube.com/results?search_query=That%27s+What+I+Like+Bruno+Mars+official+music+video",
+        "wiki_search": "https://en.wikipedia.org/w/index.php?search=That%27s+What+I+Like+Bruno+Mars",
+        "lyrics_search": "https://www.google.com/search?q=That%27s+What+I+Like+Bruno+Mars+lyrics"
       },
       "tags": [
+        "r&b",
         "funk",
         "2010s",
-        "child-friendly"
+        "1 billion+ views"
       ],
       "decade": "2010s",
-      "suitable_for_ages": "5+"
+      "suitable_for_ages": "10+"
     },
     {
       "id": "circles_post_malone",
@@ -26476,35 +26480,6 @@
       "suitable_for_ages": "5+"
     },
     {
-      "id": "isnt_she_lovely_stevie_wonder",
-      "title": "Isnt She Lovely",
-      "artist": "Stevie Wonder",
-      "album": "",
-      "year": 1976,
-      "genre": [
-        "pop"
-      ],
-      "origin_country": "USA",
-      "language": "English",
-      "duration_approx": "6:34",
-      "description": "Birth of daughter Aisha",
-      "educational_notes": "Baby sounds included",
-      "fun_fact": "Personal and universal",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Isnt+She+Lovely+Stevie+Wonder+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Isnt+She+Lovely+Stevie+Wonder",
-        "lyrics_search": "https://www.google.com/search?q=Isnt+She+Lovely+Stevie+Wonder+lyrics"
-      },
-      "tags": [
-        "pop",
-        "1970s",
-        "child-friendly"
-      ],
-      "decade": "1970s",
-      "suitable_for_ages": "5+"
-    },
-    {
       "id": "tiny_dancer_elton_john",
       "title": "Tiny Dancer",
       "artist": "Elton John",
@@ -26647,35 +26622,6 @@
         "child-friendly"
       ],
       "decade": "1970s",
-      "suitable_for_ages": "5+"
-    },
-    {
-      "id": "losing_my_religion_rem",
-      "title": "Losing My Religion",
-      "artist": "REM",
-      "album": "",
-      "year": 1991,
-      "genre": [
-        "alternative"
-      ],
-      "origin_country": "USA",
-      "language": "English",
-      "duration_approx": "4:27",
-      "description": "Unrequited love mandolin-driven",
-      "educational_notes": "Not literally about religion",
-      "fun_fact": "Broke REM into mainstream",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Losing+My+Religion+REM+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Losing+My+Religion+REM",
-        "lyrics_search": "https://www.google.com/search?q=Losing+My+Religion+REM+lyrics"
-      },
-      "tags": [
-        "alternative",
-        "1990s",
-        "child-friendly"
-      ],
-      "decade": "1990s",
       "suitable_for_ages": "5+"
     },
     {
@@ -26987,34 +26933,6 @@
         "youtube_search": "https://www.youtube.com/results?search_query=%28I+Can%27t+Get+No%29+Satisfaction+The+Rolling+Stones+official",
         "wiki_search": "https://en.wikipedia.org/w/index.php?search=%28I+Can%27t+Get+No%29+Satisfaction+The+Rolling+Stones",
         "lyrics_search": "https://www.google.com/search?q=%28I+Can%27t+Get+No%29+Satisfaction+The+Rolling+Stones+lyrics"
-      },
-      "tags": [
-        "rock",
-        "1960s"
-      ],
-      "decade": "1960s",
-      "suitable_for_ages": "all"
-    },
-    {
-      "id": "paint_it_black_the_rolling_stones",
-      "title": "Paint It Black",
-      "artist": "The Rolling Stones",
-      "album": "",
-      "year": 1966,
-      "genre": [
-        "rock"
-      ],
-      "origin_country": "United Kingdom",
-      "language": "English",
-      "duration_approx": "",
-      "description": "A well-known 1960s rock song by The Rolling Stones from United Kingdom.",
-      "educational_notes": "Useful for exploring rock music history and the musical traditions of United Kingdom.",
-      "fun_fact": "Part of the 1960s rock songbook, widely referenced in music history and radio retrospectives.",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Paint+It+Black+The+Rolling+Stones+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Paint+It+Black+The+Rolling+Stones",
-        "lyrics_search": "https://www.google.com/search?q=Paint+It+Black+The+Rolling+Stones+lyrics"
       },
       "tags": [
         "rock",
@@ -28754,34 +28672,6 @@
       "suitable_for_ages": "all"
     },
     {
-      "id": "take_five_the_dave_brubeck_quartet",
-      "title": "Take Five",
-      "artist": "The Dave Brubeck Quartet",
-      "album": "",
-      "year": 1959,
-      "genre": [
-        "jazz"
-      ],
-      "origin_country": "United States",
-      "language": "Instrumental",
-      "duration_approx": "",
-      "description": "A well-known 1950s jazz song by The Dave Brubeck Quartet from United States.",
-      "educational_notes": "Useful for exploring jazz music history and the musical traditions of United States.",
-      "fun_fact": "Part of the 1950s jazz songbook, widely referenced in music history and radio retrospectives.",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Take+Five+The+Dave+Brubeck+Quartet+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Take+Five+The+Dave+Brubeck+Quartet",
-        "lyrics_search": "https://www.google.com/search?q=Take+Five+The+Dave+Brubeck+Quartet+lyrics"
-      },
-      "tags": [
-        "jazz",
-        "1950s"
-      ],
-      "decade": "1950s",
-      "suitable_for_ages": "all"
-    },
-    {
       "id": "so_what_miles_davis",
       "title": "So What",
       "artist": "Miles Davis",
@@ -29291,36 +29181,6 @@
         "1970s"
       ],
       "decade": "1970s",
-      "suitable_for_ages": "all"
-    },
-    {
-      "id": "the_click_song_qongqothwane_miriam_makeba",
-      "title": "The Click Song (Qongqothwane)",
-      "artist": "Miriam Makeba",
-      "album": "",
-      "year": 1960,
-      "genre": [
-        "traditional",
-        "afropop"
-      ],
-      "origin_country": "South Africa",
-      "language": "Xhosa",
-      "duration_approx": "",
-      "description": "A well-known 1960s traditional song by Miriam Makeba from South Africa.",
-      "educational_notes": "Useful for exploring traditional music history and the musical traditions of South Africa.",
-      "fun_fact": "Part of the 1960s traditional songbook, widely referenced in music history and radio retrospectives.",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=The+Click+Song+%28Qongqothwane%29+Miriam+Makeba+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=The+Click+Song+%28Qongqothwane%29+Miriam+Makeba",
-        "lyrics_search": "https://www.google.com/search?q=The+Click+Song+%28Qongqothwane%29+Miriam+Makeba+lyrics"
-      },
-      "tags": [
-        "traditional",
-        "afropop",
-        "1960s"
-      ],
-      "decade": "1960s",
       "suitable_for_ages": "all"
     },
     {
@@ -33634,34 +33494,6 @@
       "suitable_for_ages": "all"
     },
     {
-      "id": "born_in_the_u_s_a_bruce_springsteen",
-      "title": "Born in the U.S.A.",
-      "artist": "Bruce Springsteen",
-      "album": "",
-      "year": 1984,
-      "genre": [
-        "rock"
-      ],
-      "origin_country": "United States",
-      "language": "English",
-      "duration_approx": "",
-      "description": "A well-known 1980s rock song by Bruce Springsteen from United States.",
-      "educational_notes": "Useful for exploring rock music history and the musical traditions of United States.",
-      "fun_fact": "Part of the 1980s rock songbook, widely referenced in music history and radio retrospectives.",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Born+in+the+U.S.A.+Bruce+Springsteen+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Born+in+the+U.S.A.+Bruce+Springsteen",
-        "lyrics_search": "https://www.google.com/search?q=Born+in+the+U.S.A.+Bruce+Springsteen+lyrics"
-      },
-      "tags": [
-        "rock",
-        "1980s"
-      ],
-      "decade": "1980s",
-      "suitable_for_ages": "all"
-    },
-    {
       "id": "jack_and_diane_john_mellencamp",
       "title": "Jack and Diane",
       "artist": "John Mellencamp",
@@ -33800,34 +33632,6 @@
       "tags": [
         "synth-pop",
         "dance",
-        "1980s"
-      ],
-      "decade": "1980s",
-      "suitable_for_ages": "all"
-    },
-    {
-      "id": "don_t_you_want_me_the_human_league",
-      "title": "Don't You Want Me",
-      "artist": "The Human League",
-      "album": "",
-      "year": 1981,
-      "genre": [
-        "synth-pop"
-      ],
-      "origin_country": "United Kingdom",
-      "language": "English",
-      "duration_approx": "",
-      "description": "A well-known 1980s synth-pop song by The Human League from United Kingdom.",
-      "educational_notes": "Useful for exploring synth-pop music history and the musical traditions of United Kingdom.",
-      "fun_fact": "Part of the 1980s synth-pop songbook, widely referenced in music history and radio retrospectives.",
-      "awards": [],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=Don%27t+You+Want+Me+The+Human+League+official",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=Don%27t+You+Want+Me+The+Human+League",
-        "lyrics_search": "https://www.google.com/search?q=Don%27t+You+Want+Me+The+Human+League+lyrics"
-      },
-      "tags": [
-        "synth-pop",
         "1980s"
       ],
       "decade": "1980s",
@@ -38698,39 +38502,6 @@
       "tags": [
         "pop",
         "funk pop",
-        "2010s",
-        "1 billion+ views"
-      ],
-      "decade": "2010s",
-      "suitable_for_ages": "10+"
-    },
-    {
-      "id": "billion_view_that_s_what_i_like",
-      "title": "That's What I Like",
-      "artist": "Bruno Mars",
-      "album": "",
-      "year": 2017,
-      "genre": [
-        "r&b",
-        "funk"
-      ],
-      "origin_country": "United States",
-      "language": "English",
-      "duration_approx": "",
-      "description": "A smooth R&B-funk track celebrating luxury and romance.",
-      "educational_notes": "A widely documented example of a music video that surpassed 1 billion views on YouTube.",
-      "fun_fact": "It won the Grammy Award for Song of the Year.",
-      "awards": [
-        "1+ billion YouTube views"
-      ],
-      "links": {
-        "youtube_search": "https://www.youtube.com/results?search_query=That%27s+What+I+Like+Bruno+Mars+official+music+video",
-        "wiki_search": "https://en.wikipedia.org/w/index.php?search=That%27s+What+I+Like+Bruno+Mars",
-        "lyrics_search": "https://www.google.com/search?q=That%27s+What+I+Like+Bruno+Mars+lyrics"
-      },
-      "tags": [
-        "r&b",
-        "funk",
         "2010s",
         "1 billion+ views"
       ],

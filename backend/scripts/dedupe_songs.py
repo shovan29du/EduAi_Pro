@@ -32,8 +32,13 @@ SONGS_PATH = BASE_DIR / "data" / "song_centre" / "songs.json"
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s or "")
     s = "".join(c for c in s if not unicodedata.combining(c))
-    s = re.sub(r"\b(feat\.?|ft\.?|featuring|&|and|vs\.?)\b", " ", s.lower())
-    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+    s = s.lower().replace("'", "")
+    s = re.sub(r"\b(feat\.?|ft\.?|featuring|&|and|vs\.?|the)\b", " ", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    # Collapse runs of standalone single-letter words (e.g. "u s a" -> "usa")
+    # so period-separated abbreviations match their unpunctuated form.
+    s = re.sub(r"(?:\b[a-z0-9]\b ){2,}\b[a-z0-9]\b", lambda m: m.group(0).replace(" ", ""), s)
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def completeness_score(song: dict) -> tuple:
