@@ -33,15 +33,39 @@ function buildSandboxDoc(code) {
 
 const LANGUAGES = [
   { id: 'javascript', label: 'JavaScript', mode: 'browser' },
+  { id: 'typescript', label: 'TypeScript', mode: 'typescript' },
   { id: 'python',     label: 'Python',     mode: 'pyodide' },
+  { id: 'java',       label: 'Java',       mode: 'backend' },
+  { id: 'c',          label: 'C',          mode: 'backend' },
   { id: 'cpp',        label: 'C++',        mode: 'backend' },
+  { id: 'csharp',     label: 'C#',         mode: 'backend' },
+  { id: 'go',         label: 'Go',         mode: 'backend' },
+  { id: 'rust',       label: 'Rust',       mode: 'backend' },
+  { id: 'php',        label: 'PHP',        mode: 'backend' },
+  { id: 'ruby',       label: 'Ruby',       mode: 'backend' },
+  { id: 'perl',       label: 'Perl',       mode: 'backend' },
+  { id: 'r',          label: 'R',          mode: 'backend' },
   { id: 'fortran',    label: 'Fortran',    mode: 'backend' },
   { id: 'sql',        label: 'SQL',        mode: 'backend' },
 ];
 
 const DEFAULT_CODE = {
   javascript: '// JavaScript\nconsole.log("Hello, world!");',
+  typescript: '// TypeScript\nfunction greet(name: string): string {\n  return `Hello, ${name}!`;\n}\nconsole.log(greet("world"));',
   python:     '# Python\nprint("Hello, world!")',
+  java: `// Java (must declare "public class Main")
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello from Java!");
+    }
+}`,
+  c: `// C
+#include <stdio.h>
+
+int main() {
+    printf("Hello from C!\\n");
+    return 0;
+}`,
   cpp: `// C++
 #include <iostream>
 using namespace std;
@@ -50,6 +74,35 @@ int main() {
     cout << "Hello from C++!" << endl;
     return 0;
 }`,
+  csharp: `// C#
+using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello from C#!");
+    }
+}`,
+  go: `// Go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello from Go!")
+}`,
+  rust: `// Rust
+fn main() {
+    println!("Hello from Rust!");
+}`,
+  php: `<?php
+// PHP
+echo "Hello from PHP!\\n";`,
+  ruby: `# Ruby
+puts "Hello from Ruby!"`,
+  perl: `# Perl
+print "Hello from Perl!\\n";`,
+  r: `# R
+cat("Hello from R!\\n")`,
   fortran: `! Fortran
 program hello
   print *, "Hello from Fortran!"
@@ -60,6 +113,35 @@ INSERT INTO students VALUES (1, 'Alice', 90);
 INSERT INTO students VALUES (2, 'Bob',   85);
 SELECT name, grade FROM students WHERE grade >= 88;`,
 };
+
+const BACKEND_HINTS = {
+  java: 'Compiled with javac and run with java on the server.',
+  c: 'Compiled with gcc on the server.',
+  cpp: 'Compiled with g++ (C++17) on the server.',
+  csharp: 'Compiled with mcs and run with mono on the server.',
+  go: 'Run with "go run" on the server.',
+  rust: 'Compiled with rustc on the server.',
+  php: 'Run with the PHP CLI on the server.',
+  ruby: 'Run with the Ruby interpreter on the server.',
+  perl: 'Run with the Perl interpreter on the server.',
+  r: 'Run with Rscript on the server.',
+  fortran: 'Compiled with gfortran on the server.',
+};
+
+const TS_CDN = 'https://cdn.jsdelivr.net/npm/typescript@5.4.5/lib/typescript.js';
+
+let tsPromise = null;
+function loadTypeScriptCompiler() {
+  if (tsPromise) return tsPromise;
+  tsPromise = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = TS_CDN;
+    script.onload = () => resolve(window.ts);
+    script.onerror = () => reject(new Error('Could not load the TypeScript compiler. Check your internet connection.'));
+    document.body.appendChild(script);
+  });
+  return tsPromise;
+}
 
 export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const { child } = useChild();
@@ -88,6 +170,36 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
     window.addEventListener('message', handleMessage);
     if (iframeRef.current) {
       iframeRef.current.setAttribute('srcdoc', buildSandboxDoc(code));
+    }
+  }
+
+  async function runTypeScript() {
+    setOutput('');
+    setRunning(true);
+    try {
+      const ts = await loadTypeScriptCompiler();
+      const { outputText, diagnostics } = ts.transpileModule(code, {
+        compilerOptions: { module: ts.ModuleKind.None, target: ts.ScriptTarget.ES2020 },
+        reportDiagnostics: true,
+      });
+      if (diagnostics && diagnostics.length > 0) {
+        const messages = diagnostics.map((d) => ts.flattenDiagnosticMessageText(d.messageText, '\n'));
+        setOutput(`Type error:\n${messages.join('\n')}`);
+        setRunning(false);
+        return;
+      }
+      const handleMessage = (event) => {
+        if (event.data?.type === 'code-output') {
+          setOutput(event.data.output);
+          window.removeEventListener('message', handleMessage);
+          setRunning(false);
+        }
+      };
+      window.addEventListener('message', handleMessage);
+      if (iframeRef.current) iframeRef.current.setAttribute('srcdoc', buildSandboxDoc(outputText));
+    } catch (err) {
+      setOutput(`Error: ${err.message}`);
+      setRunning(false);
     }
   }
 
@@ -132,6 +244,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
     const mode = LANGUAGES.find(l => l.id === language)?.mode;
     if (mode === 'pyodide') runPython();
     else if (mode === 'backend') runBackend(language);
+    else if (mode === 'typescript') runTypeScript();
     else runJavaScript();
   }
 
@@ -168,15 +281,17 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
         ))}
       </div>
 
-      {/* Hint for compiled languages */}
-      {(language === 'cpp' || language === 'fortran') && (
+      {/* Hint for server-run languages */}
+      {BACKEND_HINTS[language] && (
         <p className="text-xs text-gray-500 dark:text-gray-400">
-          {language === 'cpp' ? 'Compiled with g++ (C++17) on the server.' : 'Compiled with gfortran on the server.'}
-          {' '}Output appears after compilation.
+          {BACKEND_HINTS[language]} Output appears after compilation.
         </p>
       )}
       {language === 'sql' && (
         <p className="text-xs text-gray-500 dark:text-gray-400">Runs against an in-memory SQLite database. Each Run starts fresh.</p>
+      )}
+      {language === 'typescript' && (
+        <p className="text-xs text-gray-500 dark:text-gray-400">Type-checked and transpiled to JavaScript in your browser, then run in the same sandbox as JavaScript.</p>
       )}
 
       <label className="sr-only" htmlFor="code-editor-textarea">{languageLabel} code</label>

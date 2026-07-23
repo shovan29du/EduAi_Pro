@@ -36,7 +36,7 @@ const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
 const ParentProgressOverview = lazy(() => import('./components/ParentProgressOverview.jsx'));
 const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
 const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
-const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
+const KaraokeCentre = lazy(() => import('./components/KaraokeCentre.jsx'));
 const Games = lazy(() => import('./components/Games.jsx'));
 const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
 const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
@@ -60,11 +60,9 @@ const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
 const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
 const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
 const Civics = lazy(() => import('./components/Civics.jsx'));
-const WeeklyReport = lazy(() => import('./components/WeeklyReport.jsx'));
 const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
-const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
@@ -101,8 +99,7 @@ const CHILD_TABS = [
   'Fact of the Day',
   'History of the Day',
   'Music & Instruments',
-  'Song Centre',
-  'Sing-Along',
+  'Karaoke',
   'World Cinema',
   'Games',
   'Appearance',
@@ -111,10 +108,10 @@ const CHILD_TABS = [
 // Shovan & Bely get everything: all child tabs + parent admin tabs
 const SHOVAN_BELY_TABS = [
   ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
-  'Overview', 'Attendance', 'Weekly Report', 'Curate', 'Resource Tab',
+  'Overview', 'Attendance', 'Curate', 'Resource Tab',
 ];
 
-const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
+const PARENT_TABS = ['Overview', 'Attendance', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
@@ -254,7 +251,7 @@ export default function App() {
 
           {activeTab === 'Music & Instruments' && <MusicInstruments />}
 
-          {activeTab === 'Sing-Along' && <SingAlong />}
+          {activeTab === 'Karaoke' && <KaraokeCentre />}
 
           {activeTab === 'Games' && <Games grade={grade} />}
 
@@ -262,7 +259,6 @@ export default function App() {
 
           {activeTab === 'Overview' && <ParentProgressOverview />}
           {activeTab === 'Attendance' && <AttendanceTracker />}
-          {activeTab === 'Weekly Report' && <WeeklyReport />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
 
@@ -285,7 +281,6 @@ export default function App() {
           {activeTab === 'Environment' && <EnvironmentalScience />}
           {activeTab === 'World Politics' && <WorldPolitics />}
           {activeTab === 'World Religions' && <WorldReligions />}
-          {activeTab === 'Song Centre' && <SongCentre />}
           {activeTab === 'World Cinema' && <MoviesLibrary />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}

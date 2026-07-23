@@ -138,28 +138,84 @@ function SectionView({ section, onBack }) {
   );
 }
 
+function SearchResults({ query, onOpenBook }) {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    let active = true;
+    const q = query.trim();
+    if (q.length < 2) { setData(null); return; }
+    const t = setTimeout(() => {
+      fetch(`${API}/world-literature/search?q=${encodeURIComponent(q)}`)
+        .then(r => r.json())
+        .then(d => { if (active) setData(d); });
+    }, 250);
+    return () => { active = false; clearTimeout(t); };
+  }, [query]);
+
+  if (query.trim().length < 2) return <p className="text-sm text-gray-400">Type at least 2 characters to search across every section.</p>;
+  if (!data) return <p className="text-gray-400">Searching…</p>;
+  if (data.results.length === 0) return <p className="text-sm text-gray-500">No titles matched "{query}".</p>;
+
+  return (
+    <div>
+      <p className="text-xs text-gray-500 mb-3">
+        {data.total_matches} match{data.total_matches !== 1 ? 'es' : ''} across all sections{data.total_matches > data.results.length ? ` (showing ${data.results.length})` : ''}
+      </p>
+      <div className="grid sm:grid-cols-2 gap-4">
+        {data.results.map(book => (
+          <div key={`${book.section}-${book.id}`} className="relative">
+            <span className="absolute top-2 right-2 z-10 text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-600 text-white">{book.section_label}</span>
+            <BookCard book={book} onClick={() => onOpenBook(book.section, book.id)} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function WorldLiteratureLibrary() {
   const [overview, setOverview] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
+  const [openBook, setOpenBook] = useState(null); // { section, bookId } from search results
+  const [query, setQuery] = useState('');
   useEffect(() => { fetch(`${API}/world-literature`).then(r => r.json()).then(setOverview); }, []);
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
+  if (openBook) {
+    return (
+      <div className="max-w-3xl mx-auto p-4">
+        <BookDetail section={openBook.section} bookId={openBook.bookId} onBack={() => setOpenBook(null)} />
+      </div>
+    );
+  }
   if (selectedSection) return <div className="max-w-3xl mx-auto p-4"><SectionView section={selectedSection} onBack={() => setSelectedSection(null)} /></div>;
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">📚 World Literature Library</h1>
       <p className="text-gray-500 mb-2">{overview.description}</p>
-      <p className="text-xs text-gray-400 mb-6">Includes free downloads, video summaries, and Open Library links.</p>
-      <div className="grid sm:grid-cols-2 gap-4">
-        {overview.sections.map(section => (
-          <button key={section.id} onClick={() => setSelectedSection(section)}
-            className="text-left rounded-xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-teal-50 p-5 hover:shadow-lg transition-shadow">
-            <p className="text-3xl mb-2">{section.emoji}</p>
-            <p className="font-bold text-gray-800">{section.label}</p>
-            <p className="text-xs text-gray-500 mt-1">Ages {section.age_range}</p>
-            <p className="text-xs text-emerald-600 mt-1">{section.book_count} title{section.book_count !== 1 ? 's' : ''}</p>
-          </button>
-        ))}
-      </div>
+      <p className="text-xs text-gray-400 mb-4">Includes free downloads, video summaries, and Open Library links.</p>
+      <input
+        type="search"
+        aria-label="Search all world literature"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="🔍 Search every section by title, author, or genre…"
+        className="w-full rounded-lg border px-3 py-2 mb-6 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
+      {query.trim() ? (
+        <SearchResults query={query} onOpenBook={(section, bookId) => setOpenBook({ section, bookId })} />
+      ) : (
+        <div className="grid sm:grid-cols-2 gap-4">
+          {overview.sections.map(section => (
+            <button key={section.id} onClick={() => setSelectedSection(section)}
+              className="text-left rounded-xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-teal-50 p-5 hover:shadow-lg transition-shadow">
+              <p className="text-3xl mb-2">{section.emoji}</p>
+              <p className="font-bold text-gray-800">{section.label}</p>
+              <p className="text-xs text-gray-500 mt-1">Ages {section.age_range}</p>
+              <p className="text-xs text-emerald-600 mt-1">{section.book_count} title{section.book_count !== 1 ? 's' : ''}</p>
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

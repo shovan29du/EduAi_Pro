@@ -45,6 +45,7 @@ from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
 from app import resource_tab
+from app import paintings as paintings_store
 from app import ai_tutor
 from app import content_store
 from app import levels as levels_module
@@ -623,6 +624,47 @@ def resource_tab_delete(doc_id: str):
     return {"status": "deleted"}
 
 
+class PaintingSaveRequest(BaseModel):
+    title: str = "Untitled"
+    image: str  # data URL or raw base64 PNG
+    id: str | None = None
+
+
+@app.get("/api/paintings/{child}")
+def list_paintings(child: str):
+    _require_child(child)
+    return {"paintings": paintings_store.list_paintings(child)}
+
+
+@app.post("/api/paintings/{child}")
+def save_painting(child: str, body: PaintingSaveRequest):
+    _require_child(child)
+    try:
+        record = paintings_store.save_painting(child, body.title, body.image, body.id)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return record
+
+
+@app.get("/api/paintings/{child}/{painting_id}/image")
+def get_painting_image(child: str, painting_id: str):
+    _require_child(child)
+    path = paintings_store.get_painting_path(child, painting_id)
+    if not path or not path.exists():
+        raise HTTPException(status_code=404, detail="Painting not found")
+    with open(path, "rb") as f:
+        data = f.read()
+    return StreamingResponse(BytesIO(data), media_type="image/png")
+
+
+@app.delete("/api/paintings/{child}/{painting_id}")
+def delete_painting(child: str, painting_id: str):
+    _require_child(child)
+    if not paintings_store.delete_painting(child, painting_id):
+        raise HTTPException(status_code=404, detail="Painting not found")
+    return {"status": "deleted"}
+
+
 @app.get("/api/safe-music")
 def safe_music():
     with open(SAFE_DIR / "safe_songs.json", encoding="utf-8") as f:
@@ -1036,24 +1078,50 @@ def get_assessment(age_group: str):
 def submit_assessment(child: str, body: dict):
     _require_child(child)
     age_group = body.get("age_group", "")
-    answers = body.get("answers", {})
-    score = body.get("score", 0)
-    total = body.get("total", 0)
+    answers = body.get("answers", {})  # {"{section_index}-{question_index}": chosen_option_index}
 
     path = ASSESSMENT_DIR / "assessments.json"
-    recommendations = []
-    if path.exists():
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-        skill_map = data.get("skill_recommendations", {})
-        answered_skills = body.get("skills_demonstrated", [])
-        seen = set()
-        for skill in answered_skills:
-            for subj in skill_map.get(skill, []):
-                if subj not in seen:
-                    recommendations.append(subj)
-                    seen.add(subj)
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Assessment data not found")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    group = data.get("age_groups", {}).get(age_group)
+    if not group:
+        raise HTTPException(status_code=404, detail=f"Age group '{age_group}' not found")
+    skill_map = data.get("skill_recommendations", {})
 
+    # Grade server-side from the assessment's own answer key rather than trusting
+    # a client-submitted score, so this stays correct regardless of what the
+    # frontend sends and can't be spoofed.
+    skill_correct: dict[str, int] = {}
+    skill_total: dict[str, int] = {}
+    score = 0
+    total = 0
+    for si, section in enumerate(group.get("sections", [])):
+        for qi, q in enumerate(section.get("questions", [])):
+            total += 1
+            skill = q.get("skill", "general")
+            skill_total[skill] = skill_total.get(skill, 0) + 1
+            if answers.get(f"{si}-{qi}") == q.get("answer"):
+                score += 1
+                skill_correct[skill] = skill_correct.get(skill, 0) + 1
+
+    strengths = []
+    areas_to_develop = []
+    recommendations: list[str] = []
+    seen_subjects = set()
+    for skill, s_total in skill_total.items():
+        label = skill.replace("_", " ")
+        if skill_correct.get(skill, 0) == s_total:
+            strengths.append(label)
+            for subj in skill_map.get(skill, []):
+                if subj not in seen_subjects:
+                    recommendations.append(subj)
+                    seen_subjects.add(subj)
+        else:
+            areas_to_develop.append(label)
+
+    percentage = round(score / total * 100) if total else 0
     badge = None
     if total > 0 and score / total >= 0.8:
         badge = f"assessment-{age_group}-distinction"
@@ -1063,10 +1131,12 @@ def submit_assessment(child: str, body: dict):
     return {
         "score": score,
         "total": total,
-        "percentage": round(score / total * 100) if total else 0,
+        "percentage": percentage,
         "badge": badge,
-        "recommended_subjects": recommendations[:8],
-        "message": "Well done! Keep learning and growing." if score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
+        "strengths": strengths,
+        "areas_to_develop": areas_to_develop,
+        "recommendations": recommendations[:8],
+        "message": "Well done! Keep learning and growing." if total and score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
     }
 
 
@@ -1659,6 +1729,20 @@ def world_literature_overview():
             "book_count": len(section.get("books", [])),
         })
     return {"title": data["title"], "description": data["description"], "sections": sections}
+
+@app.get("/api/world-literature/search")
+def world_literature_search(q: str = "", limit: int = 60):
+    data = _load_wlit()
+    q_lower = q.lower().strip()
+    results = []
+    if len(q_lower) >= 2:
+        for section_key, section in data["sections"].items():
+            for book in section.get("books", []):
+                haystack = f"{book.get('title', '')} {book.get('author', '')} {book.get('genre', '')}".lower()
+                if q_lower in haystack:
+                    results.append({**book, "section": section_key, "section_label": section["label"]})
+    return {"results": results[:limit], "total_matches": len(results)}
+
 
 @app.get("/api/world-literature/{section}")
 def world_literature_section(section: str):
@@ -2547,12 +2631,13 @@ def apply_link_fixes(body: LinkFixBatch):
 # ── Code execution endpoint ───────────────────────────────────────────────────
 
 class CodeRunRequest(BaseModel):
-    language: str   # "cpp", "fortran", "sql"
+    # "cpp", "fortran", "sql", "java", "c", "go", "rust", "php", "ruby", "csharp", "perl", "r"
+    language: str
     code: str
 
 _TIMEOUT = 10  # seconds
 
-def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
+def _run_subprocess(cmd: list[str], input_text: str | None = None, env: dict | None = None) -> str:
     try:
         result = subprocess.run(
             cmd,
@@ -2560,6 +2645,7 @@ def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
             capture_output=True,
             text=True,
             timeout=_TIMEOUT,
+            env=env,
         )
         out = result.stdout or ""
         err = result.stderr or ""
@@ -2627,6 +2713,75 @@ async def run_code(req: CodeRunRequest):
             if not os.path.exists(exe):
                 return {"output": f"Compile error:\n{compile_out}"}
             return {"output": _run_subprocess([exe])}
+
+        if lang == "c":
+            src = os.path.join(tmpdir, "main.c")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["gcc", "-o", exe, src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
+
+        if lang == "java":
+            # Expects the code to declare `public class Main`.
+            src = os.path.join(tmpdir, "Main.java")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["javac", src])
+            if not os.path.exists(os.path.join(tmpdir, "Main.class")):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess(["java", "-cp", tmpdir, "Main"])}
+
+        if lang == "csharp":
+            src = os.path.join(tmpdir, "main.cs")
+            exe = os.path.join(tmpdir, "main.exe")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["mcs", f"-out:{exe}", src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess(["mono", exe])}
+
+        if lang == "go":
+            src = os.path.join(tmpdir, "main.go")
+            Path(src).write_text(code)
+            # Give Go its own writable cache/home inside the tempdir so the
+            # sandboxed process doesn't depend on a shared $HOME build cache.
+            go_env = {
+                **os.environ,
+                "HOME": tmpdir,
+                "GOCACHE": os.path.join(tmpdir, "gocache"),
+                "GOPATH": os.path.join(tmpdir, "gopath"),
+            }
+            return {"output": _run_subprocess(["go", "run", src], env=go_env)}
+
+        if lang == "rust":
+            src = os.path.join(tmpdir, "main.rs")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["rustc", "-o", exe, src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
+
+        if lang == "php":
+            src = os.path.join(tmpdir, "main.php")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["php", src])}
+
+        if lang == "ruby":
+            src = os.path.join(tmpdir, "main.rb")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["ruby", src])}
+
+        if lang == "perl":
+            src = os.path.join(tmpdir, "main.pl")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["perl", src])}
+
+        if lang == "r":
+            src = os.path.join(tmpdir, "main.R")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["Rscript", src])}
 
     return {"output": f"Unsupported language: {lang}"}
 

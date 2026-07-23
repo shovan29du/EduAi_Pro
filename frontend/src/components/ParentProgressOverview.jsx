@@ -375,10 +375,15 @@ function ScreenTimeTab({ child }) {
 
 function WeeklyReportTab({ child }) {
   const [report, setReport] = useState(null);
+  const [attendance, setAttendance] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${API}/weekly-report/${child}`).then((r) => r.json()).then(setReport).catch(() => setReport(null)).finally(() => setLoading(false));
+    setLoading(true);
+    Promise.all([
+      fetch(`${API}/weekly-report/${child}`).then((r) => r.json()),
+      fetch(`${API}/attendance/${child}/summary`).then((r) => r.json()).catch(() => null),
+    ]).then(([r, a]) => { setReport(r); setAttendance(a); }).catch(() => setReport(null)).finally(() => setLoading(false));
   }, [child]);
 
   if (loading) return <p className="text-sm text-gray-500">Loading…</p>;
@@ -400,6 +405,7 @@ function WeeklyReportTab({ child }) {
         <StatCard label="⏱ Screen Time" value={`${report.screen_time_minutes} mins`} color="purple" />
         <StatCard label="✅ Homework Done" value={report.homework_done} color="green" />
         <StatCard label="⏳ Homework Pending" value={report.homework_pending} color="red" />
+        {attendance && <StatCard label="🗓 Attendance Rate" value={`${attendance.attendance_rate}%`} color="blue" />}
       </div>
 
       {Object.keys(report.scores).length > 0 && (

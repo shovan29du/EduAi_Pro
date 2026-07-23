@@ -1,4 +1,5 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
+import { fetchSingAlongSongs } from '../api/safety.js';
 
 const API = '/api';
 
@@ -49,6 +50,7 @@ function LinkButton({ href, label, icon, color }) {
     red: 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100',
     blue: 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
     gray: 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100',
+    pink: 'bg-pink-50 text-pink-700 border-pink-200 hover:bg-pink-100',
   };
   return (
     <a href={href} target="_blank" rel="noopener noreferrer"
@@ -82,6 +84,11 @@ function SongCard({ song, onClick }) {
       <div className="flex-shrink-0 text-xs text-gray-400 self-start pt-1">{song.decade}</div>
     </button>
   );
+}
+
+function karaokeSearchUrl(song) {
+  const q = encodeURIComponent(`${song.title} ${song.artist} karaoke lyrics`);
+  return `https://www.youtube.com/results?search_query=${q}`;
 }
 
 function SongDetail({ song, onBack }) {
@@ -158,13 +165,25 @@ function SongDetail({ song, onBack }) {
         </div>
       )}
 
+      {/* Karaoke helper */}
+      <div className="rounded-xl bg-pink-50 border border-pink-200 p-4 mb-4">
+        <h3 className="font-semibold text-pink-800 mb-2">🎤 Sing Along</h3>
+        <p className="text-xs text-pink-700 mb-3">
+          This is a commercially released song, so we can't reproduce its lyrics here — that's licensed
+          content. Open a karaoke or lyrics video and sing along there instead.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <LinkButton href={karaokeSearchUrl(song)} label="Karaoke video" icon="🎤" color="pink" />
+          <LinkButton href={song.links?.lyrics_search} label="Lyrics" icon="🎵" color="blue" />
+        </div>
+      </div>
+
       {/* Links */}
       <div className="border-t pt-4">
         <h3 className="text-sm font-semibold text-gray-600 mb-3">🔗 Listen & Explore</h3>
         <div className="flex flex-wrap gap-2">
           <LinkButton href={song.links?.youtube_search} label="Search on YouTube" icon="▶" color="red" />
           <LinkButton href={song.links?.wiki_search} label="Wikipedia" icon="📖" color="gray" />
-          <LinkButton href={song.links?.lyrics_search} label="Lyrics" icon="🎵" color="blue" />
         </div>
         <p className="text-xs text-gray-400 mt-2">Links open YouTube search and Google — no direct video links.</p>
       </div>
@@ -172,9 +191,138 @@ function SongDetail({ song, onBack }) {
   );
 }
 
+// ── Karaoke Classics: full in-app synced lyrics (public-domain songs only) ────
+
+function KaraokeClassics() {
+  const [songs, setSongs] = useState([]);
+  const [error, setError] = useState(null);
+  const [search, setSearch] = useState('');
+  const [selected, setSelected] = useState(0);
+  const [lineIndex, setLineIndex] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(false);
+  const [secsPerLine, setSecsPerLine] = useState(3);
+  const timerRef = useRef(null);
+
+  useEffect(() => {
+    fetchSingAlongSongs().then(setSongs).catch((err) => setError(err.message));
+  }, []);
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return songs;
+    return songs.filter((s) => s.title.toLowerCase().includes(q));
+  }, [songs, search]);
+
+  const song = filtered[selected];
+
+  useEffect(() => {
+    if (!autoPlay || !song) return;
+    timerRef.current = setInterval(() => {
+      setLineIndex((i) => (i >= song.lyrics.length - 1 ? i : i + 1));
+    }, secsPerLine * 1000);
+    return () => clearInterval(timerRef.current);
+  }, [autoPlay, secsPerLine, song]);
+
+  useEffect(() => {
+    if (lineIndex >= (song?.lyrics.length ?? 1) - 1) setAutoPlay(false);
+  }, [lineIndex, song]);
+
+  function selectSong(index) {
+    setSelected(index);
+    setLineIndex(0);
+    setAutoPlay(false);
+  }
+
+  return (
+    <section aria-label="Karaoke classics" className="space-y-3">
+      <p className="text-sm text-gray-600 dark:text-gray-400">
+        {songs.length} classic, traditional public-domain songs with full sing-along lyrics —
+        safe to display in full since they're centuries-old folk songs and nursery rhymes, not
+        copyrighted commercial recordings.
+      </p>
+      {error && <p role="alert" className="text-red-600">{error}</p>}
+      {!error && songs.length === 0 && <p className="text-gray-600 dark:text-gray-400">Loading songs…</p>}
+      {songs.length > 0 && (
+        <>
+          <input
+            type="search"
+            aria-label="Search karaoke classics"
+            value={search}
+            onChange={(e) => { setSearch(e.target.value); setSelected(0); }}
+            placeholder="🔍 Search classics…"
+            className="w-full rounded border px-3 py-2 text-sm dark:bg-gray-800 dark:text-white dark:border-gray-600"
+          />
+          <label className="flex flex-col text-sm font-medium">
+            Choose a song
+            <select
+              value={selected}
+              onChange={(e) => selectSong(Number(e.target.value))}
+              className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+            >
+              {filtered.map((s, i) => (
+                <option key={s.title} value={i}>{s.title}</option>
+              ))}
+            </select>
+          </label>
+
+          {song && (
+            <div className="space-y-2">
+              <div className="space-y-1 rounded border p-3 dark:border-gray-700">
+                {song.lyrics.map((line, i) => (
+                  <p
+                    key={i}
+                    className={
+                      i === lineIndex
+                        ? 'rounded bg-yellow-200 px-1 font-semibold dark:bg-yellow-700'
+                        : 'text-gray-700 dark:text-gray-300'
+                    }
+                  >
+                    {line}
+                  </p>
+                ))}
+              </div>
+              <div className="flex flex-wrap items-center gap-2">
+                <button type="button" onClick={() => { setAutoPlay(false); setLineIndex((i) => Math.max(0, i - 1)); }}
+                  className="rounded border px-3 py-1 text-sm">
+                  Previous line
+                </button>
+                <button type="button" onClick={() => { setAutoPlay(false); setLineIndex((i) => Math.min(song.lyrics.length - 1, i + 1)); }}
+                  className="rounded border px-3 py-1 text-sm">
+                  Next line
+                </button>
+                <button type="button" onClick={() => { if (lineIndex >= song.lyrics.length - 1) setLineIndex(0); setAutoPlay((p) => !p); }}
+                  className={`rounded border px-3 py-1 text-sm font-medium ${autoPlay ? 'bg-pink-600 text-white border-pink-600' : ''}`}>
+                  {autoPlay ? '⏸ Pause auto-scroll' : '▶ Auto-scroll'}
+                </button>
+                <label className="flex items-center gap-1 text-xs text-gray-500">
+                  Speed:
+                  <select value={secsPerLine} onChange={(e) => setSecsPerLine(Number(e.target.value))}
+                    className="rounded border px-1 py-0.5 dark:bg-gray-800 dark:text-white">
+                    <option value={1.5}>Fast</option>
+                    <option value={3}>Normal</option>
+                    <option value={5}>Slow</option>
+                  </select>
+                </label>
+              </div>
+              {song.channelUrl && (
+                <a href={song.channelUrl} target="_blank" rel="noopener noreferrer"
+                  className="block text-sm text-blue-600 hover:underline dark:text-blue-400">
+                  Play music for this song ({song.source})
+                </a>
+              )}
+            </div>
+          )}
+        </>
+      )}
+    </section>
+  );
+}
+
+// ── Full Song Catalog: Song Centre's browse/search/filter ─────────────────────
+
 const PAGE_SIZE = 20;
 
-export default function SongCentre() {
+function SongCatalog() {
   const [data, setData] = useState(null);
   const [selected, setSelected] = useState(null);
   const [search, setSearch] = useState('');
@@ -206,21 +354,15 @@ export default function SongCentre() {
 
   if (!data) return <div className="p-8 text-center text-gray-400">Loading Song Centre…</div>;
 
-  if (selected) return (
-    <div className="max-w-2xl mx-auto p-4">
-      <SongDetail song={selected} onBack={() => setSelected(null)} />
-    </div>
-  );
+  if (selected) return <SongDetail song={selected} onBack={() => setSelected(null)} />;
 
-  // Language options
   const langs = [...new Set(data.songs.map(s => s.language))].sort();
 
   return (
-    <div className="max-w-4xl mx-auto p-4">
-      {/* Header */}
+    <div>
       <div className="rounded-2xl bg-gradient-to-r from-purple-600 to-violet-700 text-white p-6 mb-6 shadow-lg">
         <div>
-          <h1 className="text-3xl font-bold mb-1">🎵 Song Centre</h1>
+          <h2 className="text-2xl font-bold mb-1">🎵 Full Song Catalog</h2>
           <p className="text-purple-200 mb-3">World music collection — all ages, all cultures</p>
           <div className="flex flex-wrap gap-4 text-sm text-purple-100">
             <span>🎶 {data.total} songs</span>
@@ -232,7 +374,6 @@ export default function SongCentre() {
         </div>
       </div>
 
-      {/* Filters */}
       <div className="bg-white rounded-xl border p-4 mb-5 space-y-3">
         <input
           type="text" placeholder="Search songs, artists or countries…"
@@ -271,7 +412,6 @@ export default function SongCentre() {
         <p className="text-xs text-gray-400">{filtered.length} songs found</p>
       </div>
 
-      {/* Quick genre chips */}
       <div className="flex flex-wrap gap-2 mb-4">
         {['rabindra_sangeet','nazrul_geeti','baul','bangla_rock','jazz','classical','reggae','soul','folk','K-pop','afrobeats'].map(g => (
           <button key={g} onClick={() => { setFilterGenre(filterGenre === g ? '' : g); resetPage(); }}
@@ -281,7 +421,6 @@ export default function SongCentre() {
         ))}
       </div>
 
-      {/* Song list */}
       <div className="space-y-2 mb-6">
         {pageSongs.length === 0 ? (
           <p className="text-center text-gray-400 py-12">No songs match your search.</p>
@@ -290,7 +429,6 @@ export default function SongCentre() {
         ))}
       </div>
 
-      {/* Pagination */}
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2 flex-wrap">
           <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1}
@@ -309,6 +447,40 @@ export default function SongCentre() {
             className="px-3 py-1.5 rounded-lg border text-sm disabled:opacity-40 hover:bg-gray-50">Next →</button>
         </div>
       )}
+    </div>
+  );
+}
+
+export default function KaraokeCentre() {
+  const [mode, setMode] = useState('classics');
+
+  return (
+    <div className="max-w-4xl mx-auto p-4">
+      <div className="mb-5">
+        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-1">🎤 Karaoke &amp; Song Centre</h1>
+        <p className="text-gray-500 dark:text-gray-400 text-sm">
+          Sing along with full lyrics, or browse and discover from the full world-music catalog.
+        </p>
+      </div>
+
+      <div role="tablist" aria-label="Karaoke sections" className="flex gap-2 mb-5 border-b dark:border-gray-700">
+        <button
+          role="tab" aria-selected={mode === 'classics'}
+          onClick={() => setMode('classics')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 -mb-px ${mode === 'classics' ? 'border-pink-600 text-pink-600' : 'border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400'}`}
+        >
+          🎤 Karaoke Classics
+        </button>
+        <button
+          role="tab" aria-selected={mode === 'catalog'}
+          onClick={() => setMode('catalog')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 -mb-px ${mode === 'catalog' ? 'border-purple-600 text-purple-600' : 'border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400'}`}
+        >
+          🎵 Full Song Catalog
+        </button>
+      </div>
+
+      {mode === 'classics' ? <KaraokeClassics /> : <SongCatalog />}
     </div>
   );
 }

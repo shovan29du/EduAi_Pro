@@ -789,6 +789,44 @@ def test_assessment_submit():
     assert "percentage" in data
 
 
+def test_assessment_submit_no_answers_does_not_500():
+    # Regression test: the real frontend only ever posts {age_group, answers} --
+    # no score/total -- so submit must grade itself server-side and must not
+    # divide by zero when the answers dict is empty.
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": {},
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["total"] > 0
+    assert data["score"] == 0
+    assert data["percentage"] == 0
+    assert "strengths" in data
+    assert "areas_to_develop" in data
+    assert "recommendations" in data
+
+
+def test_assessment_submit_grades_server_side_from_answer_key():
+    # Get the real assessment so the test grades against its actual answer key
+    # rather than guessing indices, then submit every answer correct.
+    assessment = client.get("/api/assessment/7-9").json()
+    answers = {}
+    for si, section in enumerate(assessment["sections"]):
+        for qi, q in enumerate(section["questions"]):
+            answers[f"{si}-{qi}"] = q["answer"]
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": answers,
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["score"] == data["total"]
+    assert data["percentage"] == 100
+    assert data["areas_to_develop"] == []
+    assert len(data["strengths"]) > 0
+
+
 def test_assessment_submit_unknown_child():
     resp = client.post("/api/assessment/Unknown/submit", json={"age_group": "7-9", "answers": {}})
     assert resp.status_code == 404

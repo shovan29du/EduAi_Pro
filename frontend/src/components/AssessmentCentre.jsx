@@ -112,6 +112,13 @@ export default function AssessmentCentre() {
         <div className="space-y-4">
           <div className="rounded-xl bg-orange-50 dark:bg-orange-900/20 p-4">
             <h3 className="font-bold text-lg">Your Learning Profile 🌟</h3>
+            {typeof report.score === 'number' && typeof report.total === 'number' && report.total > 0 && (
+              <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
+                Score: <span className="font-semibold">{report.score}/{report.total}</span> ({report.percentage}%)
+                {report.badge && <span className="ml-2 rounded-full bg-orange-200 px-2 py-0.5 text-xs dark:bg-orange-800">🏅 Badge earned!</span>}
+              </p>
+            )}
+            {report.message && <p className="mt-1 text-sm">{report.message}</p>}
             {report.strengths && report.strengths.length > 0 && (
               <div className="mt-3">
                 <p className="font-semibold text-green-600">Strengths:</p>
