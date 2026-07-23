@@ -30,7 +30,7 @@ SYLLABUS_DIR = BASE_DIR / "syllabus"
 
 SCHOOL_FILES = [f"grade{g}.json" for g in range(1, 11)]
 COLLEGE_FILES = ["level_c1.json", "level_c2.json", "level_ug1.json",
-                  "level_ug2.json", "level_ug3.json", "level_ug4.json", "level_m1.json"]
+                  "level_ug2.json", "level_ug3.json", "level_ug4.json", "level_m1.json", "level_m2.json"]
 
 MIN_WORDS = 700
 MAX_WORDS = 2000
