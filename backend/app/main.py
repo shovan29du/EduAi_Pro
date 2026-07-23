@@ -87,14 +87,32 @@ def _sanitize_json(obj, strict: bool = True):
     return obj
 
 
+# Grade/level syllabus files are large (tens of MB at the college/master's
+# levels after the full lesson-count expansion) and are read-heavy -- every
+# request to /api/grade/{n} or /api/level/{id} used to re-parse the whole
+# file and re-run the recursive safety sanitizer over every string in it from
+# scratch. At this data volume that's expensive enough to make a test suite
+# (or a few concurrent users) that touches these endpoints repeatedly grind
+# to a crawl. Cache the parsed+sanitized result keyed by the file's mtime, so
+# a rewrite (e.g. from /api/apply-link-fixes or a content-generation script)
+# still naturally busts the cache on next read.
+@lru_cache(maxsize=64)
+def _load_syllabus_json(path_str: str, mtime: float) -> dict:
+    with open(path_str, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@lru_cache(maxsize=128)
+def _load_sanitized_syllabus(path_str: str, mtime: float, strict: bool) -> dict:
+    return _sanitize_json(_load_syllabus_json(path_str, mtime), strict=strict)
+
+
 @app.get("/api/grade/{standard}")
 def get_grade(standard: int):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    return _sanitize_json(data)
+    return dict(_load_sanitized_syllabus(str(path), path.stat().st_mtime, True))
 
 
 @app.get("/api/progress/{child}")
@@ -280,9 +298,7 @@ def export_syllabus_custom(standard: int, payload: dict):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    data = _sanitize_json(data)
+    data = _load_sanitized_syllabus(str(path), path.stat().st_mtime, True)
 
     subjects = payload.get("subjects") or []
     resource_types = payload.get("resource_types") or []
@@ -327,10 +343,8 @@ def get_level_content(level_id: str):
     path = _level_syllabus_path(level_id)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
     strict = levels_module.is_school_level(level_id)
-    data = _sanitize_json(data, strict=strict)
+    data = dict(_load_sanitized_syllabus(str(path), path.stat().st_mtime, strict))
     data.setdefault("level", levels_module.normalize_level_id(level_id))
     data["level_info"] = levels_module.get_level(level_id)
     return data
@@ -343,8 +357,7 @@ def search_level(level_id: str, q: str):
     path = _level_syllabus_path(level_id)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
 
     query = q.strip().lower()
     if not query:
@@ -375,10 +388,8 @@ def export_level(level_id: str, format: str = "json"):
     path = _level_syllabus_path(level_id)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
     strict = levels_module.is_school_level(level_id)
-    data = _sanitize_json(data, strict=strict)
+    data = _load_sanitized_syllabus(str(path), path.stat().st_mtime, strict)
     norm = levels_module.normalize_level_id(level_id)
 
     if format == "json":
