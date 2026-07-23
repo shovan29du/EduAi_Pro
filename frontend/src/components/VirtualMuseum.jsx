@@ -17,6 +17,20 @@ function catEmoji(cat) {
   return Object.entries(CAT_EMOJI).find(([k]) => key.includes(k))?.[1] ?? CAT_EMOJI.default;
 }
 
+// Soft pastel tile backgrounds (Google Arts & Culture-style colour-block
+// placeholders for objects that don't have a photo loaded yet).
+const TILE_COLORS = [
+  'from-rose-100 to-rose-200', 'from-amber-100 to-amber-200', 'from-emerald-100 to-emerald-200',
+  'from-sky-100 to-sky-200', 'from-violet-100 to-violet-200', 'from-fuchsia-100 to-fuchsia-200',
+  'from-lime-100 to-lime-200', 'from-cyan-100 to-cyan-200', 'from-orange-100 to-orange-200',
+  'from-indigo-100 to-indigo-200',
+];
+function tileColor(key) {
+  let hash = 0;
+  for (const c of key || '') hash = (hash * 31 + c.charCodeAt(0)) >>> 0;
+  return TILE_COLORS[hash % TILE_COLORS.length];
+}
+
 // ── Lazy Wikipedia thumbnail ──────────────────────────────────────────────────
 // Fetches once per wiki_title and caches in module-level map so sibling cards share results.
 const thumbCache = {};
@@ -50,6 +64,16 @@ function WikiThumbnail({ wikiTitle, thumbnailLocal, category, size = 'list' }) {
 
   const emoji = catEmoji(category);
 
+  if (size === 'tile') {
+    return (
+      <div className={`absolute inset-0 bg-gradient-to-br ${tileColor(cacheKey || category)} flex items-center justify-center`}>
+        {src
+          ? <img src={src} alt="" className="w-full h-full object-cover" onError={() => setSrc('')} />
+          : <span className="text-5xl opacity-70">{emoji}</span>
+        }
+      </div>
+    );
+  }
   if (size === 'list') {
     return (
       <div className="w-16 h-16 flex-shrink-0 rounded-lg overflow-hidden bg-indigo-100 flex items-center justify-center">
@@ -60,12 +84,12 @@ function WikiThumbnail({ wikiTitle, thumbnailLocal, category, size = 'list' }) {
       </div>
     );
   }
-  // hero size for detail view
+  // hero size for detail view — full-bleed, Google Arts & Culture-style viewer
   return (
-    <div className="w-full h-48 sm:h-64 rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center mb-4">
+    <div className={`h-64 sm:h-96 -mx-4 sm:mx-0 sm:rounded-2xl overflow-hidden bg-gradient-to-br ${tileColor(cacheKey || category)} flex items-center justify-center mb-4`}>
       {src
         ? <img src={src} alt="" className="w-full h-full object-contain" onError={() => setSrc('')} />
-        : <span className="text-6xl">{emoji}</span>
+        : <span className="text-7xl opacity-70">{emoji}</span>
       }
     </div>
   );
@@ -239,28 +263,21 @@ function ObjectDetail({ gallery, objectId, onBack }) {
   );
 }
 
-// ── Object card in list (with lazy thumbnail) ─────────────────────────────────
-function ObjectCard({ obj, onClick }) {
+// ── Object tile — Google Arts & Culture-style photo grid card ─────────────────
+function ObjectTile({ obj, onClick }) {
   return (
     <button onClick={onClick}
-      className="text-left rounded-xl border border-indigo-200 bg-white hover:bg-indigo-50 p-3 hover:shadow-md transition-all flex gap-3 w-full">
-      {/* Thumbnail */}
-      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="list" />
-      {/* Text */}
-      <div className="flex-1 min-w-0">
-        <p className="font-bold text-gray-800 text-sm leading-tight truncate">{obj.name}</p>
+      className="group relative aspect-square rounded-xl overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all text-left">
+      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="tile" />
+      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent px-2.5 pb-2 pt-8">
+        <p className="text-white font-semibold text-xs sm:text-sm leading-tight line-clamp-2">{obj.name}</p>
         {(obj.artist || obj.architect) && (
-          <p className="text-xs text-gray-400 italic truncate">{obj.artist || obj.architect}</p>
+          <p className="text-white/75 text-[11px] mt-0.5 truncate">{obj.artist || obj.architect}</p>
         )}
-        <p className="text-xs text-gray-500 mt-0.5 truncate">{obj.origin} · {obj.year || obj.period}</p>
-        <p className="text-xs text-gray-600 mt-1 line-clamp-2">{obj.description?.slice(0, 100)}</p>
-        <div className="flex gap-1 mt-1.5 flex-wrap">
-          {obj.category && <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-100 text-indigo-700 capitalize">{obj.category}</span>}
-          {obj.links?.explanation_video && <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Explained</span>}
-          {obj.links?.smarthistory && <span className="text-xs px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-700 border border-emerald-200">📚</span>}
-          {obj.links?.wikipedia && <span className="text-xs px-1.5 py-0.5 rounded bg-gray-100 text-gray-600 border border-gray-200">ℹ</span>}
-        </div>
       </div>
+      {obj.links?.explanation_video && (
+        <span className="absolute top-2 right-2 text-[10px] px-1.5 py-0.5 rounded-full bg-red-600/90 text-white font-semibold">▶</span>
+      )}
     </button>
   );
 }
@@ -270,14 +287,16 @@ function GalleryView({ gallery, onBack }) {
   const [data, setData] = useState(null);
   const [selectedObj, setSelectedObj] = useState(null);
   const [page, setPage] = useState(0);
-  const PAGE_SIZE = 20;
+  const PAGE_SIZE = 24;
 
   useEffect(() => {
     fetch(`${API}/museum/${gallery.id}`).then(r => r.json()).then(setData);
   }, [gallery.id]);
 
   if (selectedObj) return (
-    <ObjectDetail gallery={gallery.id} objectId={selectedObj} onBack={() => setSelectedObj(null)} />
+    <div className="max-w-3xl mx-auto">
+      <ObjectDetail gallery={gallery.id} objectId={selectedObj} onBack={() => setSelectedObj(null)} />
+    </div>
   );
 
   const objects = data?.objects ?? [];
@@ -291,9 +310,9 @@ function GalleryView({ gallery, onBack }) {
       <p className="text-xs text-gray-400 mb-4">{objects.length} objects · thumbnails from Wikipedia</p>
       {!data ? <p className="text-gray-400">Loading…</p> : (
         <>
-          <div className="flex flex-col gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {visible.map(obj => (
-              <ObjectCard key={obj.id} obj={obj} onClick={() => setSelectedObj(obj.id)} />
+              <ObjectTile key={obj.id} obj={obj} onClick={() => setSelectedObj(obj.id)} />
             ))}
           </div>
           {pageCount > 1 && (
@@ -324,7 +343,9 @@ function SearchView() {
       .then(d => { setResults(d.results || []); setSearched(true); });
   };
   if (selectedObj) return (
-    <ObjectDetail gallery={selectedObj.gallery} objectId={selectedObj.id} onBack={() => setSelectedObj(null)} />
+    <div className="max-w-3xl mx-auto">
+      <ObjectDetail gallery={selectedObj.gallery} objectId={selectedObj.id} onBack={() => setSelectedObj(null)} />
+    </div>
   );
   return (
     <div>
@@ -335,20 +356,14 @@ function SearchView() {
         <button onClick={search} className="px-4 py-2 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700">Search</button>
       </div>
       {searched && results.length === 0 && <p className="text-gray-500 text-sm">No results found.</p>}
-      <div className="flex flex-col gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
         {results.map(obj => (
-          <button key={obj.id} onClick={() => setSelectedObj(obj)}
-            className="text-left rounded-xl border border-indigo-200 bg-white hover:bg-indigo-50 p-3 hover:shadow-md transition-all flex gap-3">
-            <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="list" />
-            <div className="flex-1 min-w-0">
-              <div className="flex items-baseline gap-2">
-                <p className="font-bold text-gray-800 text-sm truncate">{obj.name}</p>
-                <span className="text-xs px-1.5 py-0.5 rounded bg-indigo-200 text-indigo-700 flex-shrink-0">{obj.gallery_label}</span>
-              </div>
-              <p className="text-xs text-gray-500 mt-0.5 truncate">{obj.origin} · {obj.period}</p>
-              <p className="text-xs text-gray-600 mt-1 line-clamp-2">{obj.description?.slice(0, 100)}</p>
-            </div>
-          </button>
+          <div key={obj.id} className="relative">
+            <ObjectTile obj={obj} onClick={() => setSelectedObj(obj)} />
+            {obj.gallery_label && (
+              <span className="absolute top-2 left-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/90 text-indigo-700 font-medium">{obj.gallery_label}</span>
+            )}
+          </div>
         ))}
       </div>
     </div>
@@ -382,21 +397,21 @@ export default function VirtualMuseum() {
   );
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedGallery) return (
-    <div className="max-w-3xl mx-auto p-4">
+    <div className="max-w-5xl mx-auto p-4">
       <GalleryView gallery={selectedGallery} onBack={() => setSelectedGallery(null)} />
     </div>
   );
   return (
-    <div className="max-w-3xl mx-auto p-4">
+    <div className="max-w-5xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🏛️ Virtual Museum</h1>
       <p className="text-gray-500 mb-1">{overview.description}</p>
       <p className="text-xs text-gray-400 mb-4">
         {(overview.total_objects ?? overview.galleries?.reduce((s, g) => s + (g.object_count || 0), 0) ?? 0).toLocaleString()} objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
       </p>
-      <div className="flex gap-3 mb-6 border-b">
-        {[['galleries', 'Browse Galleries'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (
+      <div className="flex gap-2 mb-6 sticky top-0 bg-gray-50/95 backdrop-blur z-10 -mx-4 px-4 py-2 sm:mx-0 sm:px-0 sm:static sm:bg-transparent">
+        {[['galleries', '🏛 Categories'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (
           <button key={t} onClick={() => setTab(t)}
-            className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${tab === t ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700'}`}>
+            className={`px-4 py-1.5 text-sm font-medium rounded-full border transition-colors ${tab === t ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-white text-gray-600 border-gray-300 hover:border-indigo-400'}`}>
             {label}
           </button>
         ))}
@@ -404,17 +419,16 @@ export default function VirtualMuseum() {
       {tab === 'search' && <SearchView />}
       {tab === 'open-art' && <CMACollection />}
       {tab === 'galleries' && (
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {overview.galleries.map(gallery => (
             <button key={gallery.id} onClick={() => setSelectedGallery(gallery)}
-              className="text-left rounded-xl border-2 border-indigo-200 bg-gradient-to-br from-indigo-50 to-purple-50 p-5 hover:shadow-lg transition-shadow">
-              <p className="text-3xl mb-2">{gallery.emoji}</p>
-              <p className="font-bold text-gray-800">{gallery.label}</p>
-              <p className="text-xs text-indigo-600 mt-1">{gallery.object_count} object{gallery.object_count !== 1 ? 's' : ''}</p>
-              <div className="flex gap-1 mt-2 flex-wrap">
-                <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Explained</span>
-                <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🎙 Podcasts</span>
-                <span className="text-xs px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">🖼 Thumbnails</span>
+              className={`group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all bg-gradient-to-br ${tileColor(gallery.id)} text-left`}>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-6xl opacity-80 group-hover:scale-110 transition-transform">{gallery.emoji}</span>
+              </div>
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-2.5 pt-10">
+                <p className="text-white font-bold text-sm leading-tight">{gallery.label}</p>
+                <p className="text-white/80 text-xs mt-0.5">{gallery.object_count.toLocaleString()} object{gallery.object_count !== 1 ? 's' : ''}</p>
               </div>
             </button>
           ))}
