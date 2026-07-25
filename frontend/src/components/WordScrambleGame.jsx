@@ -1,17 +1,26 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { shuffle, scrambleWord } from '../utils/gameUtils.js';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-export default function WordScrambleGame({ title, blurb, words }) {
+export default function WordScrambleGame({ title, blurb, words, onComplete, stats }) {
   const [order] = useState(() => shuffle(words.map((_, i) => i)));
   const [step, setStep] = useState(0);
   const [score, setScore] = useState(0);
   const [input, setInput] = useState('');
   const [feedback, setFeedback] = useState(null);
   const [revealed, setRevealed] = useState(false);
+  const [reported, setReported] = useState(false);
 
   const finished = step >= order.length;
   const currentWord = !finished ? words[order[step]] : null;
   const scrambled = useMemo(() => (currentWord ? scrambleWord(currentWord) : ''), [currentWord]);
+
+  useEffect(() => {
+    if (!finished || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    onComplete({ score, maxScore: order.length, label: `${score}/${order.length} words` });
+  }, [finished, reported, onComplete, score, order.length]);
 
   function submit(e) {
     e.preventDefault();
@@ -35,12 +44,14 @@ export default function WordScrambleGame({ title, blurb, words }) {
     setInput('');
     setFeedback(null);
     setRevealed(false);
+    setReported(false);
   }
 
   return (
     <section aria-label={`${title} word scramble`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <GameScoreBadge stats={stats} />
 
       {!finished && currentWord && (
         <form onSubmit={submit} className="space-y-2">

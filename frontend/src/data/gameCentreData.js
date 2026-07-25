@@ -175,31 +175,52 @@ const SEQUENCE_SETS = [
 ];
 
 // ── Math Sprint: generators ────────────────────────────────────────────────
-function additionQ() {
-  const a = randInt(1, 50), b = randInt(1, 50);
+// Each generator takes an optional difficulty tier ('easy' | 'medium' | 'hard')
+// that widens the number ranges — 'medium' always matches the original,
+// pre-difficulty ranges so default behaviour is unchanged.
+const MATH_DIFFICULTY_RANGES = {
+  addition: { easy: [1, 20], medium: [1, 50], hard: [1, 200] },
+  subtraction: { easy: [5, 20], medium: [10, 60], hard: [20, 300] },
+  multiplication: { easy: [2, 6], medium: [2, 12], hard: [4, 20] },
+  division: { easy: [2, 6], medium: [2, 12], hard: [4, 20] },
+  squares: { easy: [2, 8], medium: [2, 15], hard: [2, 25] },
+};
+const MATH_DIFFICULTY_FRACTION_POOLS = {
+  easy: [4, 5],
+  medium: [4, 5, 6, 8, 10],
+  hard: [6, 8, 10, 12, 16],
+};
+
+function additionQ(difficulty = 'medium') {
+  const [lo, hi] = MATH_DIFFICULTY_RANGES.addition[difficulty] || MATH_DIFFICULTY_RANGES.addition.medium;
+  const a = randInt(lo, hi), b = randInt(lo, hi);
   const answer = a + b;
   return { question: `${a} + ${b} = ?`, answer: String(answer), options: numericOptions(answer) };
 }
-function subtractionQ() {
-  const a = randInt(10, 60), b = randInt(1, a);
+function subtractionQ(difficulty = 'medium') {
+  const [lo, hi] = MATH_DIFFICULTY_RANGES.subtraction[difficulty] || MATH_DIFFICULTY_RANGES.subtraction.medium;
+  const a = randInt(lo, hi), b = randInt(1, a);
   const answer = a - b;
   return { question: `${a} − ${b} = ?`, answer: String(answer), options: numericOptions(answer) };
 }
-function multiplicationQ() {
-  const a = randInt(2, 12), b = randInt(2, 12);
+function multiplicationQ(difficulty = 'medium') {
+  const [lo, hi] = MATH_DIFFICULTY_RANGES.multiplication[difficulty] || MATH_DIFFICULTY_RANGES.multiplication.medium;
+  const a = randInt(lo, hi), b = randInt(lo, hi);
   const answer = a * b;
   return { question: `${a} × ${b} = ?`, answer: String(answer), options: numericOptions(answer, 4, 12) };
 }
-function divisionQ() {
-  const b = randInt(2, 12), answer = randInt(2, 12);
+function divisionQ(difficulty = 'medium') {
+  const [lo, hi] = MATH_DIFFICULTY_RANGES.division[difficulty] || MATH_DIFFICULTY_RANGES.division.medium;
+  const b = randInt(lo, hi), answer = randInt(lo, hi);
   const a = b * answer;
   return { question: `${a} ÷ ${b} = ?`, answer: String(answer), options: numericOptions(answer, 4, 6) };
 }
-function mixedQ() {
-  return sample([additionQ, subtractionQ, multiplicationQ, divisionQ])();
+function mixedQ(difficulty = 'medium') {
+  return sample([additionQ, subtractionQ, multiplicationQ, divisionQ])(difficulty);
 }
-function fractionsQ() {
-  const d = sample([4, 5, 6, 8, 10]);
+function fractionsQ(difficulty = 'medium') {
+  const pool = MATH_DIFFICULTY_FRACTION_POOLS[difficulty] || MATH_DIFFICULTY_FRACTION_POOLS.medium;
+  const d = sample(pool);
   const n1 = randInt(1, d - 2);
   const n2 = randInt(1, d - 1 - n1);
   const sum = n1 + n2;
@@ -215,13 +236,14 @@ function fractionsQ() {
     options: [...options].sort(() => Math.random() - 0.5),
   };
 }
-function squaresRootsQ() {
+function squaresRootsQ(difficulty = 'medium') {
+  const [lo, hi] = MATH_DIFFICULTY_RANGES.squares[difficulty] || MATH_DIFFICULTY_RANGES.squares.medium;
   if (Math.random() < 0.5) {
-    const n = randInt(2, 15);
+    const n = randInt(lo, hi);
     const answer = n * n;
     return { question: `What is ${n}²?`, answer: String(answer), options: numericOptions(answer, 4, 15) };
   }
-  const n = randInt(2, 15);
+  const n = randInt(lo, hi);
   const answer = n;
   return { question: `What is √${n * n}?`, answer: String(answer), options: numericOptions(answer, 4, 4) };
 }
@@ -580,4 +602,24 @@ export const TOTAL_GAMES = GAMES.length;
 if (TOTAL_GAMES < 50) {
   // eslint-disable-next-line no-console
   console.warn(`Game Centre only has ${TOTAL_GAMES} games — expected at least 50.`);
+}
+
+// ── Daily Challenge ─────────────────────────────────────────────────────────
+// Deterministically picks the same game (and difficulty, for engines that
+// support one) for every player on a given calendar day — the same
+// day-indexed approach as FactOfTheDay.jsx: count whole days since a fixed
+// epoch and index into the catalog with it, so it's stable across reloads
+// and identical for every child, but rolls over automatically at midnight.
+const DAY_EPOCH = new Date(2024, 0, 1);
+export const DIFFICULTY_TIERS = ['easy', 'medium', 'hard'];
+
+export function dayIndex(date = new Date()) {
+  return Math.floor((date - DAY_EPOCH) / (1000 * 60 * 60 * 24));
+}
+
+export function dailyChallenge(date = new Date()) {
+  const idx = dayIndex(date);
+  const game = GAMES[idx % GAMES.length];
+  const difficulty = DIFFICULTY_TIERS[idx % DIFFICULTY_TIERS.length];
+  return { game, difficulty };
 }

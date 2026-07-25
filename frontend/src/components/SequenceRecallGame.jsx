@@ -1,45 +1,64 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { sample } from '../utils/gameUtils.js';
+import DifficultyPicker from './DifficultyPicker.jsx';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-const FLASH_MS = 550;
-const GAP_MS = 250;
+// Difficulty controls how long the starting sequence is and how fast tiles
+// flash — a longer opening sequence and quicker flashes make Hard tougher.
+const DIFFICULTY_CONFIG = {
+  easy: { startLength: 1, flashMs: 700, gapMs: 350 },
+  medium: { startLength: 2, flashMs: 550, gapMs: 250 },
+  hard: { startLength: 4, flashMs: 400, gapMs: 150 },
+};
 
-export default function SequenceRecallGame({ title, blurb, tiles }) {
+export default function SequenceRecallGame({ title, blurb, tiles, onComplete, stats, initialDifficulty }) {
+  const [difficulty, setDifficulty] = useState(initialDifficulty || 'medium');
   const [started, setStarted] = useState(false);
   const [sequence, setSequence] = useState([]);
   const [userIndex, setUserIndex] = useState(0);
   const [phase, setPhase] = useState('idle'); // idle | showing | input | gameover
   const [activeTile, setActiveTile] = useState(null);
   const [best, setBest] = useState(0);
+  const [reported, setReported] = useState(false);
 
-  function playSequence(seq) {
+  useEffect(() => {
+    if (phase !== 'gameover' || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    onComplete({ score: best, maxScore: null, label: `Longest pattern: ${best} (${difficulty})`, difficulty });
+  }, [phase, reported, onComplete, best, difficulty]);
+
+  function playSequence(seq, config) {
     setPhase('showing');
     setUserIndex(0);
     seq.forEach((tileId, i) => {
-      const start = i * (FLASH_MS + GAP_MS);
+      const start = i * (config.flashMs + config.gapMs);
       setTimeout(() => setActiveTile(tileId), start);
-      setTimeout(() => setActiveTile(null), start + FLASH_MS);
+      setTimeout(() => setActiveTile(null), start + config.flashMs);
     });
-    setTimeout(() => setPhase('input'), seq.length * (FLASH_MS + GAP_MS) + 150);
+    setTimeout(() => setPhase('input'), seq.length * (config.flashMs + config.gapMs) + 150);
   }
 
   function start() {
-    const first = [sample(tiles).id];
+    const config = DIFFICULTY_CONFIG[difficulty] || DIFFICULTY_CONFIG.medium;
+    const first = Array.from({ length: config.startLength }, () => sample(tiles).id);
     setSequence(first);
     setStarted(true);
     setBest(0);
-    playSequence(first);
+    setReported(false);
+    playSequence(first, config);
   }
 
   function handleTileClick(tileId) {
     if (phase !== 'input') return;
+    const config = DIFFICULTY_CONFIG[difficulty] || DIFFICULTY_CONFIG.medium;
     if (tileId === sequence[userIndex]) {
       const nextIndex = userIndex + 1;
       if (nextIndex === sequence.length) {
         setBest((b) => Math.max(b, sequence.length));
         const extended = [...sequence, sample(tiles).id];
         setSequence(extended);
-        setTimeout(() => playSequence(extended), 500);
+        setTimeout(() => playSequence(extended, config), 500);
         setPhase('showing');
       } else {
         setUserIndex(nextIndex);
@@ -58,10 +77,17 @@ export default function SequenceRecallGame({ title, blurb, tiles }) {
     setActiveTile(null);
   }
 
+  function changeDifficulty(next) {
+    setDifficulty(next);
+    restart();
+  }
+
   return (
     <section aria-label={`${title} pattern recall game`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <DifficultyPicker value={difficulty} onChange={changeDifficulty} disabled={started} />
+      <GameScoreBadge stats={stats} />
 
       {!started && (
         <button type="button" onClick={start} className="rounded border px-3 py-1 text-sm">

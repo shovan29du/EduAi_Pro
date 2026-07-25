@@ -10,6 +10,8 @@ const DRAW_TOOLS = [
   { id: 'eraser', label: 'Eraser' },
   { id: 'fill', label: 'Fill' },
   { id: 'eyedropper', label: 'Eyedropper' },
+  { id: 'text', label: 'Text' },
+  { id: 'sticker', label: 'Stickers' },
 ];
 
 const SHAPE_TOOLS = [
@@ -26,8 +28,317 @@ const PALETTE = [
   '#d63384', '#a0522d', '#795548',
 ];
 
+const STICKERS = ['🌟', '⭐', '🎈', '🌈', '🦋', '🐱', '🐶', '🌸', '❤️', '🚀', '🍎', '🎵'];
+
 const MAX_HISTORY = 30;
 const NIB_ANGLE = (40 * Math.PI) / 180; // fixed calligraphy nib angle
+
+// ── Colouring-book outline templates ────────────────────────────────────────
+// Each template draws a simple line-art shape with plain Canvas path calls
+// (no external image/SVG asset loading needed -- keeps it synchronous,
+// resolution-independent, and trivially testable). Coordinates are derived
+// from the logical (CSS-pixel) canvas size passed in, so a template scales
+// cleanly to any canvas dimensions.
+const TEMPLATES = [
+  {
+    id: 'flower',
+    label: 'Flower',
+    draw(ctx, w, h) {
+      const cx = w * 0.5;
+      const cy = h * 0.42;
+      const petalR = Math.min(w, h) * 0.14;
+      const dist = petalR * 1.1;
+      for (let i = 0; i < 6; i++) {
+        const angle = (Math.PI * 2 * i) / 6;
+        ctx.beginPath();
+        ctx.arc(cx + Math.cos(angle) * dist, cy + Math.sin(angle) * dist, petalR, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.beginPath();
+      ctx.arc(cx, cy, petalR * 0.6, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx, cy + petalR * 1.4);
+      ctx.lineTo(cx, h * 0.88);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.ellipse(cx - w * 0.09, h * 0.72, w * 0.07, h * 0.035, Math.PI / 4, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.ellipse(cx + w * 0.09, h * 0.8, w * 0.07, h * 0.035, -Math.PI / 4, 0, Math.PI * 2);
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'house',
+    label: 'House',
+    draw(ctx, w, h) {
+      const x = w * 0.2;
+      const y = h * 0.5;
+      const bw = w * 0.6;
+      const bh = h * 0.35;
+      ctx.strokeRect(x, y, bw, bh);
+      ctx.beginPath();
+      ctx.moveTo(x - w * 0.05, y);
+      ctx.lineTo(x + bw / 2, h * 0.22);
+      ctx.lineTo(x + bw + w * 0.05, y);
+      ctx.closePath();
+      ctx.stroke();
+      ctx.strokeRect(x + bw * 0.4, y + bh * 0.4, bw * 0.2, bh * 0.6);
+      ctx.strokeRect(x + bw * 0.12, y + bh * 0.2, bw * 0.18, bh * 0.3);
+      ctx.strokeRect(x + bw * 0.68, y + bh * 0.2, bw * 0.18, bh * 0.3);
+      ctx.strokeRect(x + bw * 0.72, h * 0.28, w * 0.05, h * 0.14);
+    },
+  },
+  {
+    id: 'star',
+    label: 'Star',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const cy = h / 2;
+      const outerR = Math.min(w, h) * 0.38;
+      const innerR = outerR * 0.42;
+      ctx.beginPath();
+      for (let i = 0; i < 10; i++) {
+        const r = i % 2 === 0 ? outerR : innerR;
+        const angle = (Math.PI / 5) * i - Math.PI / 2;
+        const px = cx + Math.cos(angle) * r;
+        const py = cy + Math.sin(angle) * r;
+        if (i === 0) ctx.moveTo(px, py);
+        else ctx.lineTo(px, py);
+      }
+      ctx.closePath();
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'fish',
+    label: 'Fish',
+    draw(ctx, w, h) {
+      const cx = w * 0.45;
+      const cy = h * 0.5;
+      const rx = w * 0.28;
+      const ry = h * 0.2;
+      ctx.beginPath();
+      ctx.ellipse(cx, cy, rx, ry, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx + rx * 0.85, cy);
+      ctx.lineTo(cx + rx * 1.5, cy - ry * 0.9);
+      ctx.lineTo(cx + rx * 1.5, cy + ry * 0.9);
+      ctx.closePath();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(cx - rx * 0.5, cy - ry * 0.25, Math.min(w, h) * 0.02, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx - rx * 0.1, cy + ry * 0.7);
+      ctx.quadraticCurveTo(cx, cy + ry * 1.4, cx + rx * 0.3, cy + ry * 0.8);
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'butterfly',
+    label: 'Butterfly',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const cy = h / 2;
+      [-1, 1].forEach((side) => {
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.bezierCurveTo(
+          cx + side * w * 0.35, cy - h * 0.35,
+          cx + side * w * 0.4, cy + h * 0.05,
+          cx, cy - h * 0.03
+        );
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(cx, cy - h * 0.03);
+        ctx.bezierCurveTo(
+          cx + side * w * 0.3, cy + h * 0.15,
+          cx + side * w * 0.25, cy + h * 0.35,
+          cx, cy + h * 0.1
+        );
+        ctx.stroke();
+      });
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - h * 0.22);
+      ctx.lineTo(cx, cy + h * 0.22);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - h * 0.22);
+      ctx.lineTo(cx - w * 0.05, cy - h * 0.32);
+      ctx.moveTo(cx, cy - h * 0.22);
+      ctx.lineTo(cx + w * 0.05, cy - h * 0.32);
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'cat',
+    label: 'Cat face',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const cy = h * 0.55;
+      const r = Math.min(w, h) * 0.28;
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx - r * 0.8, cy - r * 0.6);
+      ctx.lineTo(cx - r * 1.1, cy - r * 1.6);
+      ctx.lineTo(cx - r * 0.1, cy - r * 0.9);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx + r * 0.8, cy - r * 0.6);
+      ctx.lineTo(cx + r * 1.1, cy - r * 1.6);
+      ctx.lineTo(cx + r * 0.1, cy - r * 0.9);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(cx - r * 0.35, cy - r * 0.1, r * 0.1, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(cx + r * 0.35, cy - r * 0.1, r * 0.1, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx - r * 0.08, cy + r * 0.15);
+      ctx.lineTo(cx + r * 0.08, cy + r * 0.15);
+      ctx.lineTo(cx, cy + r * 0.28);
+      ctx.closePath();
+      ctx.stroke();
+      [-1, 1].forEach((side) => {
+        for (let i = -1; i <= 1; i++) {
+          ctx.beginPath();
+          ctx.moveTo(cx + side * r * 0.15, cy + r * 0.25 + i * r * 0.1);
+          ctx.lineTo(cx + side * r * 0.9, cy + r * 0.15 + i * r * 0.18);
+          ctx.stroke();
+        }
+      });
+    },
+  },
+  {
+    id: 'sun',
+    label: 'Sun',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const cy = h / 2;
+      const r = Math.min(w, h) * 0.2;
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.stroke();
+      for (let i = 0; i < 8; i++) {
+        const angle = (Math.PI * 2 * i) / 8;
+        ctx.beginPath();
+        ctx.moveTo(cx + Math.cos(angle) * r * 1.3, cy + Math.sin(angle) * r * 1.3);
+        ctx.lineTo(cx + Math.cos(angle) * r * 1.9, cy + Math.sin(angle) * r * 1.9);
+        ctx.stroke();
+      }
+    },
+  },
+  {
+    id: 'heart',
+    label: 'Heart',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const top = h * 0.32;
+      const s = Math.min(w, h) * 0.32;
+      ctx.beginPath();
+      ctx.moveTo(cx, top + s * 0.3);
+      ctx.bezierCurveTo(cx, top, cx - s, top, cx - s, top + s * 0.4);
+      ctx.bezierCurveTo(cx - s, top + s * 0.9, cx, top + s * 1.1, cx, top + s * 1.5);
+      ctx.bezierCurveTo(cx, top + s * 1.1, cx + s, top + s * 0.9, cx + s, top + s * 0.4);
+      ctx.bezierCurveTo(cx + s, top, cx, top, cx, top + s * 0.3);
+      ctx.closePath();
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'tree',
+    label: 'Tree',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      ctx.strokeRect(cx - w * 0.04, h * 0.65, w * 0.08, h * 0.25);
+      ctx.beginPath();
+      ctx.arc(cx, h * 0.4, Math.min(w, h) * 0.24, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(cx - w * 0.15, h * 0.5, Math.min(w, h) * 0.17, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(cx + w * 0.15, h * 0.5, Math.min(w, h) * 0.17, 0, Math.PI * 2);
+      ctx.stroke();
+    },
+  },
+  {
+    id: 'boat',
+    label: 'Boat',
+    draw(ctx, w, h) {
+      const cx = w / 2;
+      const waterY = h * 0.65;
+      ctx.beginPath();
+      ctx.moveTo(w * 0.2, waterY);
+      ctx.lineTo(w * 0.8, waterY);
+      ctx.lineTo(w * 0.68, h * 0.82);
+      ctx.lineTo(w * 0.32, h * 0.82);
+      ctx.closePath();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx, waterY);
+      ctx.lineTo(cx, h * 0.22);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx, h * 0.24);
+      ctx.lineTo(cx + w * 0.22, h * 0.5);
+      ctx.lineTo(cx, h * 0.5);
+      ctx.closePath();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(w * 0.1, h * 0.9);
+      ctx.quadraticCurveTo(w * 0.25, h * 0.85, w * 0.4, h * 0.9);
+      ctx.quadraticCurveTo(w * 0.55, h * 0.95, w * 0.7, h * 0.9);
+      ctx.quadraticCurveTo(w * 0.85, h * 0.85, w * 0.9, h * 0.9);
+      ctx.stroke();
+    },
+  },
+];
+
+const OUTLINE_COLOR = '#64748b';
+const OUTLINE_BOUNDARY_COLOR = 'rgba(100,116,139,0.55)';
+
+function outlineLineWidth(w, h) {
+  return Math.max(3, Math.min(w, h) * 0.014);
+}
+
+function drawTemplateOutline(ctx, template, w, h, strokeStyle, lineWidth) {
+  ctx.save();
+  ctx.strokeStyle = strokeStyle;
+  ctx.lineWidth = lineWidth;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  template.draw(ctx, w, h);
+  ctx.restore();
+}
+
+// Small preview icon for the template picker -- draws the same vector shape
+// at thumbnail scale so children can see what they're choosing.
+function TemplateThumb({ template }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    const canvas = ref.current;
+    const ctx = canvas && canvas.getContext('2d');
+    if (!ctx) return;
+    if (ctx.clearRect) ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawTemplateOutline(ctx, template, canvas.width, canvas.height, '#475569', 2);
+  }, [template]);
+  return (
+    <canvas
+      ref={ref}
+      width={64}
+      height={44}
+      aria-hidden="true"
+      className="rounded border bg-white"
+    />
+  );
+}
 
 function getPixelIndex(x, y, width) {
   return (y * width + x) * 4;
@@ -84,7 +395,9 @@ function floodFill(ctx, startX, startY, fillColor) {
 export default function ColouringCanvas() {
   const { child } = useChild();
   const containerRef = useRef(null);
-  const canvasRef = useRef(null);
+  const canvasRef = useRef(null); // the editable "drawing" layer
+  const backgroundCanvasRef = useRef(null); // bottom layer: flat colour backdrop
+  const outlineCanvasRef = useRef(null); // top layer: protected template line-art
   const baseSnapshotRef = useRef(null); // offscreen canvas: pixels before an in-progress shape/stroke
   const drawingRef = useRef(false);
   const lastPointRef = useRef(null);
@@ -93,6 +406,8 @@ export default function ColouringCanvas() {
   const sizeRef = useRef({ width: 800, height: 520 });
   const undoStackRef = useRef([]);
   const redoStackRef = useRef([]);
+  const activeTemplateIdRef = useRef(null);
+  const textCancelledRef = useRef(false);
 
   const [tool, setTool] = useState('pencil');
   const [color, setColor] = useState('#1d4ed8');
@@ -105,40 +420,85 @@ export default function ColouringCanvas() {
   const [title, setTitle] = useState('My Painting');
   const [status, setStatus] = useState('');
 
+  // Templates & layers
+  const [templatesOpen, setTemplatesOpen] = useState(false);
+  const [layersOpen, setLayersOpen] = useState(false);
+  const [activeTemplateId, setActiveTemplateId] = useState(null);
+  const [layerVisible, setLayerVisible] = useState({ background: true, drawing: true, outline: true });
+  const [layerOrder, setLayerOrder] = useState(['background', 'drawing']); // bottom -> top
+
+  // Symmetry / mirror mode
+  const [mirrorH, setMirrorH] = useState(false);
+  const [mirrorV, setMirrorV] = useState(false);
+
+  // Sticker tool
+  const [selectedSticker, setSelectedSticker] = useState(STICKERS[0]);
+
+  // Text tool
+  const [textDraft, setTextDraft] = useState(null); // { x, y } in logical canvas coords
+  const [textValue, setTextValue] = useState('');
+
   const isShapeTool = SHAPE_TOOLS.some((s) => s.id === tool);
 
-  // ── Canvas setup: size to container, scale for device pixel ratio ────────
+  useEffect(() => {
+    activeTemplateIdRef.current = activeTemplateId;
+  }, [activeTemplateId]);
+
+  // ── Canvas setup: size all three layers to container, scale for DPR ──────
   const applyCanvasSize = useCallback((logicalWidth, logicalHeight, preserveContent) => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    const bgCanvas = backgroundCanvasRef.current;
+    const outlineCanvas = outlineCanvasRef.current;
+    const container = containerRef.current;
+    if (!canvas || !bgCanvas || !outlineCanvas) return;
     const dpr = window.devicePixelRatio || 1;
 
-    let previous = null;
+    let previousDrawing = null;
     if (preserveContent && canvas.width > 0 && canvas.height > 0) {
-      previous = document.createElement('canvas');
-      previous.width = canvas.width;
-      previous.height = canvas.height;
-      previous.getContext('2d').drawImage(canvas, 0, 0);
+      previousDrawing = document.createElement('canvas');
+      previousDrawing.width = canvas.width;
+      previousDrawing.height = canvas.height;
+      previousDrawing.getContext('2d').drawImage(canvas, 0, 0);
     }
 
-    canvas.width = Math.max(1, Math.round(logicalWidth * dpr));
-    canvas.height = Math.max(1, Math.round(logicalHeight * dpr));
-    canvas.style.width = `${logicalWidth}px`;
-    canvas.style.height = `${logicalHeight}px`;
+    const pxWidth = Math.max(1, Math.round(logicalWidth * dpr));
+    const pxHeight = Math.max(1, Math.round(logicalHeight * dpr));
+
+    [canvas, bgCanvas, outlineCanvas].forEach((c) => {
+      c.width = pxWidth;
+      c.height = pxHeight;
+      c.style.width = `${logicalWidth}px`;
+      c.style.height = `${logicalHeight}px`;
+    });
+    if (container) container.style.height = `${logicalHeight}px`;
 
     dprRef.current = dpr;
     sizeRef.current = { width: logicalWidth, height: logicalHeight };
 
+    // Background layer: flat fill, always simply redrawn (no scaling artefacts).
+    const bgCtx = bgCanvas.getContext('2d');
+    bgCtx.setTransform(1, 0, 0, 1, 0, 0);
+    bgCtx.fillStyle = '#ffffff';
+    bgCtx.fillRect(0, 0, bgCanvas.width, bgCanvas.height);
+
+    // Drawing layer: transparent by default, preserve/scale prior strokes.
     const ctx = canvas.getContext('2d');
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-    if (previous) {
-      ctx.drawImage(previous, 0, 0, previous.width, previous.height, 0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    if (previousDrawing) {
+      ctx.drawImage(previousDrawing, 0, 0, previousDrawing.width, previousDrawing.height, 0, 0, canvas.width, canvas.height);
     }
-
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    // Outline layer: vector-redraw the active template at the new size (if any).
+    const outlineCtx = outlineCanvas.getContext('2d');
+    outlineCtx.setTransform(1, 0, 0, 1, 0, 0);
+    outlineCtx.clearRect(0, 0, outlineCanvas.width, outlineCanvas.height);
+    outlineCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const activeTemplate = TEMPLATES.find((t) => t.id === activeTemplateIdRef.current);
+    if (activeTemplate) {
+      drawTemplateOutline(outlineCtx, activeTemplate, logicalWidth, logicalHeight, OUTLINE_COLOR, outlineLineWidth(logicalWidth, logicalHeight));
+    }
 
     if (!baseSnapshotRef.current) baseSnapshotRef.current = document.createElement('canvas');
     baseSnapshotRef.current.width = canvas.width;
@@ -180,7 +540,7 @@ export default function ColouringCanvas() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [applyCanvasSize]);
 
-  // ── Undo / redo history (PNG snapshots so it survives resizes) ───────────
+  // ── Undo / redo history (PNG snapshots of the drawing layer only) ────────
   function pushHistory() {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -200,8 +560,7 @@ export default function ColouringCanvas() {
       const img = new Image();
       img.onload = () => {
         ctx.setTransform(1, 0, 0, 1, 0, 0);
-        ctx.fillStyle = '#ffffff';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
         ctx.setTransform(dprRef.current, 0, 0, dprRef.current, 0, 0);
         resolve();
@@ -276,8 +635,57 @@ export default function ColouringCanvas() {
     const canvas = canvasRef.current;
     ctx.save();
     ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(baseSnapshotRef.current, 0, 0);
     ctx.restore();
+  }
+
+  // ── Symmetry / mirror mode ────────────────────────────────────────────────
+  // Returns an array of point-transform functions: always includes the
+  // identity transform, plus a horizontal and/or vertical reflection (and
+  // their combination) depending on which toggles are on -- up to 4x
+  // kaleidoscope-style symmetry. Operates in logical (CSS-pixel) space, which
+  // is what every drawing primitive below already works in.
+  function getMirrorTransforms() {
+    const { width, height } = sizeRef.current;
+    let arr = [(p) => p];
+    if (mirrorH) {
+      const base = arr;
+      arr = base.concat(base.map((t) => (p) => {
+        const q = t(p);
+        return { x: width - q.x, y: q.y };
+      }));
+    }
+    if (mirrorV) {
+      const base = arr;
+      arr = base.concat(base.map((t) => (p) => {
+        const q = t(p);
+        return { x: q.x, y: height - q.y };
+      }));
+    }
+    return arr;
+  }
+
+  // Same idea, but in raw pixel space (for the Fill tool, which operates
+  // directly on ImageData rather than through the DPR-scaled ctx transform).
+  function getMirrorPixelTransforms() {
+    const canvas = canvasRef.current;
+    let arr = [(p) => p];
+    if (mirrorH) {
+      const base = arr;
+      arr = base.concat(base.map((t) => (p) => {
+        const q = t(p);
+        return { x: canvas.width - 1 - q.x, y: q.y };
+      }));
+    }
+    if (mirrorV) {
+      const base = arr;
+      arr = base.concat(base.map((t) => (p) => {
+        const q = t(p);
+        return { x: q.x, y: canvas.height - 1 - q.y };
+      }));
+    }
+    return arr;
   }
 
   // ── Freehand brush strokes ─────────────────────────────────────────────
@@ -285,10 +693,22 @@ export default function ColouringCanvas() {
     ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
     if (tool === 'eraser') {
-      ctx.strokeStyle = '#ffffff';
+      // The drawing layer is transparent, so erasing means punching a hole
+      // in it (revealing whatever layer sits underneath) rather than
+      // painting white over it.
+      ctx.save();
+      ctx.globalCompositeOperation = 'destination-out';
+      ctx.strokeStyle = 'rgba(0,0,0,1)';
       ctx.globalAlpha = 1;
       ctx.lineWidth = brushSize * 1.6;
-    } else if (tool === 'brush') {
+      ctx.beginPath();
+      ctx.moveTo(from.x, from.y);
+      ctx.lineTo(to.x, to.y);
+      ctx.stroke();
+      ctx.restore();
+      return;
+    }
+    if (tool === 'brush') {
       ctx.strokeStyle = color;
       ctx.globalAlpha = 0.92;
       ctx.lineWidth = brushSize * 2;
@@ -354,26 +774,80 @@ export default function ColouringCanvas() {
     ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
 
-    if (tool === 'line') {
-      ctx.beginPath();
-      ctx.moveTo(start.x, start.y);
-      ctx.lineTo(current.x, current.y);
-      ctx.stroke();
-    } else if (tool === 'rectangle') {
-      const x = Math.min(start.x, current.x);
-      const y = Math.min(start.y, current.y);
-      const w = Math.abs(current.x - start.x);
-      const h = Math.abs(current.y - start.y);
-      ctx.strokeRect(x, y, w, h);
-    } else if (tool === 'ellipse') {
-      const cx = (start.x + current.x) / 2;
-      const cy = (start.y + current.y) / 2;
-      const rx = Math.abs(current.x - start.x) / 2;
-      const ry = Math.abs(current.y - start.y) / 2;
-      ctx.beginPath();
-      ctx.ellipse(cx, cy, Math.max(rx, 0.01), Math.max(ry, 0.01), 0, 0, Math.PI * 2);
-      ctx.stroke();
+    getMirrorTransforms().forEach((t) => {
+      const s = t(start);
+      const c = t(current);
+      if (tool === 'line') {
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y);
+        ctx.lineTo(c.x, c.y);
+        ctx.stroke();
+      } else if (tool === 'rectangle') {
+        const x = Math.min(s.x, c.x);
+        const y = Math.min(s.y, c.y);
+        const w = Math.abs(c.x - s.x);
+        const h = Math.abs(c.y - s.y);
+        ctx.strokeRect(x, y, w, h);
+      } else if (tool === 'ellipse') {
+        const cx = (s.x + c.x) / 2;
+        const cy = (s.y + c.y) / 2;
+        const rx = Math.abs(c.x - s.x) / 2;
+        const ry = Math.abs(c.y - s.y) / 2;
+        ctx.beginPath();
+        ctx.ellipse(cx, cy, Math.max(rx, 0.01), Math.max(ry, 0.01), 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    });
+  }
+
+  // ── Text tool ──────────────────────────────────────────────────────────
+  function openTextEditorAt(pos) {
+    textCancelledRef.current = false;
+    setTextDraft({ x: pos.x, y: pos.y });
+    setTextValue('');
+  }
+
+  function cancelText() {
+    textCancelledRef.current = true;
+    setTextDraft(null);
+    setTextValue('');
+  }
+
+  function commitText() {
+    if (textCancelledRef.current) {
+      textCancelledRef.current = false;
+      return;
     }
+    const value = textValue.trim();
+    const pos = textDraft;
+    setTextDraft(null);
+    setTextValue('');
+    if (!value || !pos) return;
+    const ctx = canvasRef.current.getContext('2d');
+    const fontSize = 14 + brushSize * 3;
+    ctx.font = `bold ${fontSize}px "Comic Sans MS", "Segoe UI", sans-serif`;
+    ctx.fillStyle = color;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    getMirrorTransforms().forEach((t) => {
+      const p = t(pos);
+      ctx.fillText(value, p.x, p.y);
+    });
+    pushHistory();
+  }
+
+  // ── Sticker tool ───────────────────────────────────────────────────────
+  function placeSticker(pos) {
+    const ctx = canvasRef.current.getContext('2d');
+    const size = 18 + brushSize * 4;
+    ctx.font = `${size}px "Segoe UI Emoji", "Apple Color Emoji", sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    getMirrorTransforms().forEach((t) => {
+      const p = t(pos);
+      ctx.fillText(selectedSticker, p.x, p.y);
+    });
+    pushHistory();
   }
 
   // ── Pointer handlers ──────────────────────────────────────────────────────
@@ -385,7 +859,10 @@ export default function ColouringCanvas() {
 
     if (tool === 'fill') {
       const px = toPixelCoords(pos);
-      floodFill(ctx, px.x, px.y, hexToRgba(color));
+      getMirrorPixelTransforms().forEach((t) => {
+        const tp = t(px);
+        floodFill(ctx, tp.x, tp.y, hexToRgba(color));
+      });
       pushHistory();
       return;
     }
@@ -401,14 +878,15 @@ export default function ColouringCanvas() {
     lastPointRef.current = pos;
     snapshotBase();
 
+    const transforms = getMirrorTransforms();
     if (isShapeTool) {
       drawShapePreview(ctx, pos, pos);
     } else if (tool === 'airbrush') {
-      airbrushDab(ctx, pos);
+      transforms.forEach((t) => airbrushDab(ctx, t(pos)));
     } else if (tool === 'calligraphy') {
-      calligraphyStamp(ctx, pos);
+      transforms.forEach((t) => calligraphyStamp(ctx, t(pos)));
     } else {
-      strokeSegment(ctx, pos, pos);
+      transforms.forEach((t) => strokeSegment(ctx, t(pos), t(pos)));
     }
   }
 
@@ -423,18 +901,28 @@ export default function ColouringCanvas() {
     }
 
     const from = lastPointRef.current || pos;
+    const transforms = getMirrorTransforms();
     if (tool === 'airbrush') {
-      airbrushSegment(ctx, from, pos);
+      transforms.forEach((t) => airbrushSegment(ctx, t(from), t(pos)));
     } else if (tool === 'calligraphy') {
-      calligraphySegment(ctx, from, pos);
+      transforms.forEach((t) => calligraphySegment(ctx, t(from), t(pos)));
     } else {
-      strokeSegment(ctx, from, pos);
+      transforms.forEach((t) => strokeSegment(ctx, t(from), t(pos)));
     }
     lastPointRef.current = pos;
   }
 
   function handlePointerDownWrapped(e) {
+    if (!layerVisible.drawing) return;
     const pos = getPos(e);
+    if (tool === 'text') {
+      openTextEditorAt(pos);
+      return;
+    }
+    if (tool === 'sticker') {
+      placeSticker(pos);
+      return;
+    }
     shapeStartRef.current = pos;
     handlePointerDown(e);
   }
@@ -446,21 +934,94 @@ export default function ColouringCanvas() {
     pushHistory();
   }
 
+  // ── Templates: bake a faint copy of the outline into the drawing layer so
+  // the Fill tool has real pixel boundaries to stop at, even though the
+  // crisp visible line-art lives on its own protected overlay layer.
+  function bakeBoundaryOntoDrawing(ctx, templateOverride) {
+    const template = templateOverride !== undefined
+      ? templateOverride
+      : TEMPLATES.find((t) => t.id === activeTemplateIdRef.current);
+    if (!template) return;
+    const { width, height } = sizeRef.current;
+    drawTemplateOutline(ctx, template, width, height, OUTLINE_BOUNDARY_COLOR, outlineLineWidth(width, height) * 0.6);
+  }
+
+  function handleSelectTemplate(templateId) {
+    const template = TEMPLATES.find((t) => t.id === templateId) || null;
+    activeTemplateIdRef.current = template ? template.id : null;
+    setActiveTemplateId(template ? template.id : null);
+    setLayerVisible((v) => ({ ...v, outline: true }));
+
+    const canvas = canvasRef.current;
+    const outlineCanvas = outlineCanvasRef.current;
+    const dpr = dprRef.current;
+    const { width, height } = sizeRef.current;
+
+    const dctx = canvas.getContext('2d');
+    dctx.setTransform(1, 0, 0, 1, 0, 0);
+    dctx.clearRect(0, 0, canvas.width, canvas.height);
+    dctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    const octx = outlineCanvas.getContext('2d');
+    octx.setTransform(1, 0, 0, 1, 0, 0);
+    octx.clearRect(0, 0, outlineCanvas.width, outlineCanvas.height);
+    octx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    if (template) {
+      drawTemplateOutline(octx, template, width, height, OUTLINE_COLOR, outlineLineWidth(width, height));
+      bakeBoundaryOntoDrawing(dctx, template);
+      setTitle(`My ${template.label}`);
+    } else {
+      setTitle('My Painting');
+    }
+
+    setActivePaintingId(null);
+    pushHistory();
+    setTemplatesOpen(false);
+  }
+
+  // ── Layers panel ───────────────────────────────────────────────────────
+  function toggleLayerVisible(key) {
+    setLayerVisible((v) => ({ ...v, [key]: !v[key] }));
+  }
+
+  function moveLayer() {
+    setLayerOrder((prev) => [...prev].reverse());
+  }
+
   function handleClear() {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.setTransform(dprRef.current, 0, 0, dprRef.current, 0, 0);
+    bakeBoundaryOntoDrawing(ctx);
     pushHistory();
   }
 
-  function handleSave() {
+  // ── Compositing: flatten the visible layers (in layer order, outline
+  // always on top) into one offscreen canvas for export / saving. ─────────
+  function buildCompositeCanvas() {
     const canvas = canvasRef.current;
+    const bgCanvas = backgroundCanvasRef.current;
+    const outlineCanvas = outlineCanvasRef.current;
+    const out = document.createElement('canvas');
+    out.width = canvas.width;
+    out.height = canvas.height;
+    const ctx = out.getContext('2d');
+    layerOrder.forEach((key) => {
+      if (key === 'background' && layerVisible.background) ctx.drawImage(bgCanvas, 0, 0);
+      if (key === 'drawing' && layerVisible.drawing) ctx.drawImage(canvas, 0, 0);
+    });
+    if (activeTemplateId && layerVisible.outline) ctx.drawImage(outlineCanvas, 0, 0);
+    return out;
+  }
+
+  function handleSave() {
+    const composite = buildCompositeCanvas();
     const link = document.createElement('a');
     link.download = 'my-artwork.png';
-    link.href = canvas.toDataURL('image/png');
+    link.href = composite.toDataURL('image/png');
     link.click();
   }
 
@@ -479,13 +1040,13 @@ export default function ColouringCanvas() {
   }, [loadGallery]);
 
   async function handleSaveToGallery() {
-    const canvas = canvasRef.current;
+    const composite = buildCompositeCanvas();
     setStatus('Saving…');
     try {
       const record = await savePainting(child, {
         id: activePaintingId,
         title,
-        image: canvas.toDataURL('image/png'),
+        image: composite.toDataURL('image/png'),
       });
       setActivePaintingId(record.id);
       setStatus('Saved to My Art!');
@@ -507,10 +1068,22 @@ export default function ColouringCanvas() {
         img.src = `${paintingImageUrl(child, record.id)}?t=${Date.now()}`;
       });
       ctx.setTransform(1, 0, 0, 1, 0, 0);
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
       ctx.setTransform(dprRef.current, 0, 0, dprRef.current, 0, 0);
+      // A saved painting is a flattened composite -- drop any active
+      // template so a stale outline doesn't sit on top of it, and make
+      // sure both remaining layers are visible again.
+      activeTemplateIdRef.current = null;
+      setActiveTemplateId(null);
+      const outlineCanvas = outlineCanvasRef.current;
+      if (outlineCanvas) {
+        const octx = outlineCanvas.getContext('2d');
+        octx.setTransform(1, 0, 0, 1, 0, 0);
+        octx.clearRect(0, 0, outlineCanvas.width, outlineCanvas.height);
+        octx.setTransform(dprRef.current, 0, 0, dprRef.current, 0, 0);
+      }
+      setLayerVisible((v) => ({ ...v, background: true, drawing: true }));
       setActivePaintingId(record.id);
       setTitle(record.title);
       pushHistory();
@@ -531,24 +1104,115 @@ export default function ColouringCanvas() {
   }
 
   function handleNewPainting() {
-    setActivePaintingId(null);
-    setTitle('My Painting');
-    handleClear();
+    handleSelectTemplate(null);
   }
 
   return (
     <section aria-label="Digital painting studio" className="rounded border p-4 dark:border-gray-700">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-lg font-bold">Colouring &amp; Painting Studio</h2>
-        <button
-          type="button"
-          onClick={() => setGalleryOpen((v) => !v)}
-          aria-expanded={galleryOpen}
-          className="rounded border px-2 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
-        >
-          {galleryOpen ? 'Close My Art' : 'My Art'}
-        </button>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => setTemplatesOpen((v) => !v)}
+            aria-expanded={templatesOpen}
+            className="rounded border px-2 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
+          >
+            {templatesOpen ? 'Close Templates' : 'Templates'}
+          </button>
+          <button
+            type="button"
+            onClick={() => setLayersOpen((v) => !v)}
+            aria-expanded={layersOpen}
+            className="rounded border px-2 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
+          >
+            {layersOpen ? 'Close Layers' : 'Layers'}
+          </button>
+          <button
+            type="button"
+            onClick={() => setGalleryOpen((v) => !v)}
+            aria-expanded={galleryOpen}
+            className="rounded border px-2 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
+          >
+            {galleryOpen ? 'Close My Art' : 'My Art'}
+          </button>
+        </div>
       </div>
+
+      {templatesOpen && (
+        <div role="region" aria-label="Templates gallery" className="mb-3 rounded border p-2 dark:border-gray-700">
+          <div className="mb-2 flex items-center justify-between">
+            <span className="text-sm font-semibold">Colouring templates</span>
+            <button
+              type="button"
+              onClick={() => handleSelectTemplate(null)}
+              aria-pressed={activeTemplateId === null}
+              className="rounded border px-2 py-1 text-xs focus:outline focus:outline-2 focus:outline-blue-500"
+            >
+              Blank canvas
+            </button>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {TEMPLATES.map((tpl) => (
+              <button
+                key={tpl.id}
+                type="button"
+                onClick={() => handleSelectTemplate(tpl.id)}
+                aria-pressed={activeTemplateId === tpl.id}
+                aria-label={`Use template ${tpl.label}`}
+                className={`flex w-20 flex-col items-center gap-1 rounded border p-1 text-xs focus:outline focus:outline-2 focus:outline-blue-500 ${
+                  activeTemplateId === tpl.id ? 'ring-2 ring-blue-500' : ''
+                }`}
+              >
+                <TemplateThumb template={tpl} />
+                <span>{tpl.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {layersOpen && (
+        <div role="region" aria-label="Layers panel" className="mb-3 rounded border p-2 dark:border-gray-700">
+          <p className="mb-2 text-sm font-semibold">Layers</p>
+          <ul className="space-y-1">
+            {activeTemplateId && (
+              <li className="flex items-center justify-between gap-2 rounded border px-2 py-1 text-sm dark:border-gray-600">
+                <label className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={layerVisible.outline}
+                    onChange={() => toggleLayerVisible('outline')}
+                    aria-label="Toggle outline layer visibility"
+                  />
+                  Outline (template) — always on top
+                </label>
+              </li>
+            )}
+            {[...layerOrder].reverse().map((key, idx) => (
+              <li key={key} className="flex items-center justify-between gap-2 rounded border px-2 py-1 text-sm dark:border-gray-600">
+                <label className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={layerVisible[key]}
+                    onChange={() => toggleLayerVisible(key)}
+                    aria-label={`Toggle ${key} layer visibility`}
+                  />
+                  {key === 'background' ? 'Background' : 'Drawing'}
+                </label>
+                <button
+                  type="button"
+                  onClick={moveLayer}
+                  aria-label={`Move ${key} layer`}
+                  className="rounded border px-2 py-0.5 text-xs focus:outline focus:outline-2 focus:outline-blue-500"
+                >
+                  {idx === 0 ? '↓ Send back' : '↑ Bring forward'}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {galleryOpen && (
         <div role="region" aria-label="My Art gallery" className="mb-3 rounded border p-2 dark:border-gray-700">
@@ -614,6 +1278,25 @@ export default function ColouringCanvas() {
         </div>
       </div>
 
+      {tool === 'sticker' && (
+        <div role="group" aria-label="Sticker picker" className="mb-3 flex flex-wrap gap-1">
+          {STICKERS.map((s) => (
+            <button
+              key={s}
+              type="button"
+              aria-label={`Sticker ${s}`}
+              aria-pressed={selectedSticker === s}
+              onClick={() => setSelectedSticker(s)}
+              className={`h-8 w-8 rounded border text-lg focus:outline focus:outline-2 focus:outline-blue-500 ${
+                selectedSticker === s ? 'ring-2 ring-blue-500' : ''
+              }`}
+            >
+              {s}
+            </button>
+          ))}
+        </div>
+      )}
+
       <div className="mb-3 flex flex-wrap items-center gap-3">
         <label className="flex items-center gap-1">
           <span className="text-sm">Colour</span>
@@ -652,6 +1335,28 @@ export default function ColouringCanvas() {
             onChange={(e) => setBrushSize(Number(e.target.value))}
           />
         </label>
+
+        <div role="group" aria-label="Symmetry mode" className="flex items-center gap-2">
+          <span className="text-sm">Mirror</span>
+          <label className="flex items-center gap-1 text-sm">
+            <input
+              type="checkbox"
+              checked={mirrorH}
+              onChange={(e) => setMirrorH(e.target.checked)}
+              aria-label="Mirror horizontally"
+            />
+            ↔
+          </label>
+          <label className="flex items-center gap-1 text-sm">
+            <input
+              type="checkbox"
+              checked={mirrorV}
+              onChange={(e) => setMirrorV(e.target.checked)}
+              aria-label="Mirror vertically"
+            />
+            ↕
+          </label>
+        </div>
       </div>
 
       <div className="mb-3 flex flex-wrap items-center gap-2">
@@ -712,18 +1417,59 @@ export default function ColouringCanvas() {
         )}
       </div>
 
-      <div ref={containerRef} className="w-full">
+      <div
+        ref={containerRef}
+        className="relative w-full overflow-hidden rounded border"
+        style={{
+          backgroundImage:
+            'repeating-conic-gradient(#e5e7eb 0% 25%, #ffffff 0% 50%)',
+          backgroundSize: '16px 16px',
+        }}
+      >
+        <canvas ref={backgroundCanvasRef} aria-hidden="true" className="absolute left-0 top-0" style={{ zIndex: layerOrder.indexOf('background') + 1, display: layerVisible.background ? 'block' : 'none' }} />
         <canvas
           ref={canvasRef}
           role="img"
           aria-label="Drawing area"
-          className="touch-none rounded border bg-white"
+          className="absolute left-0 top-0 touch-none"
+          style={{ zIndex: layerOrder.indexOf('drawing') + 1, display: layerVisible.drawing ? 'block' : 'none' }}
           onPointerDown={handlePointerDownWrapped}
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
           onPointerLeave={handlePointerUp}
         />
+        <canvas
+          ref={outlineCanvasRef}
+          aria-hidden="true"
+          className="absolute left-0 top-0"
+          style={{ zIndex: 3, pointerEvents: 'none', display: activeTemplateId && layerVisible.outline ? 'block' : 'none' }}
+        />
+        {tool === 'text' && textDraft && (
+          <input
+            autoFocus
+            type="text"
+            value={textValue}
+            onChange={(e) => setTextValue(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                commitText();
+              } else if (e.key === 'Escape') {
+                e.preventDefault();
+                cancelText();
+              }
+            }}
+            onBlur={commitText}
+            aria-label="Text to add to canvas"
+            className="absolute z-20 rounded border bg-white px-1 text-sm shadow dark:bg-gray-800"
+            style={{
+              left: Number.isFinite(textDraft.x) ? textDraft.x : 0,
+              top: Number.isFinite(textDraft.y) ? Math.max(0, textDraft.y - 12) : 0,
+              minWidth: 80,
+            }}
+          />
+        )}
       </div>
     </section>
   );

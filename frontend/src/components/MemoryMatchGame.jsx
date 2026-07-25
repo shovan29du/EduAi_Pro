@@ -1,23 +1,47 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { shuffle } from '../utils/gameUtils.js';
+import DifficultyPicker from './DifficultyPicker.jsx';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-function buildCards(pairs) {
+// Difficulty controls how many of the theme's card pairs are put in play —
+// fewer pairs for Easy, the full set for Hard.
+const PAIR_COUNTS = { easy: 3, medium: 5, hard: Infinity };
+
+function buildCards(pairs, difficulty) {
+  const count = Math.min(pairs.length, PAIR_COUNTS[difficulty] ?? pairs.length);
+  const chosen = pairs.slice(0, count);
   return shuffle(
-    pairs.flatMap((pair, i) => [
+    chosen.flatMap((pair, i) => [
       { id: `${i}-a`, matchId: i, content: pair[0] },
       { id: `${i}-b`, matchId: i, content: pair[1] },
     ])
   );
 }
 
-export default function MemoryMatchGame({ title, blurb, pairs }) {
-  const [cards, setCards] = useState(() => buildCards(pairs));
+export default function MemoryMatchGame({ title, blurb, pairs, onComplete, stats, initialDifficulty }) {
+  const [difficulty, setDifficulty] = useState(initialDifficulty || 'medium');
+  const [cards, setCards] = useState(() => buildCards(pairs, initialDifficulty || 'medium'));
   const [flipped, setFlipped] = useState([]);
   const [matched, setMatched] = useState(new Set());
   const [moves, setMoves] = useState(0);
   const [busy, setBusy] = useState(false);
+  const [reported, setReported] = useState(false);
 
-  const finished = matched.size === pairs.length;
+  const pairCount = cards.length / 2;
+  const finished = pairCount > 0 && matched.size === pairCount;
+
+  useEffect(() => {
+    if (!finished || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    const efficiency = Math.max(0, Math.min(100, Math.round((pairCount / Math.max(moves, pairCount)) * 100)));
+    onComplete({
+      score: efficiency,
+      maxScore: 100,
+      label: `${moves} moves for ${pairCount} pairs (${difficulty})`,
+      difficulty,
+    });
+  }, [finished, reported, onComplete, moves, pairCount, difficulty]);
 
   function flip(card) {
     if (busy || finished) return;
@@ -42,19 +66,34 @@ export default function MemoryMatchGame({ title, blurb, pairs }) {
   }
 
   function restart() {
-    setCards(buildCards(pairs));
+    setCards(buildCards(pairs, difficulty));
     setFlipped([]);
     setMatched(new Set());
     setMoves(0);
     setBusy(false);
+    setReported(false);
   }
+
+  function changeDifficulty(next) {
+    setDifficulty(next);
+    setCards(buildCards(pairs, next));
+    setFlipped([]);
+    setMatched(new Set());
+    setMoves(0);
+    setBusy(false);
+    setReported(false);
+  }
+
+  const inProgress = moves > 0 && !finished;
 
   return (
     <section aria-label={`${title} memory match game`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <DifficultyPicker value={difficulty} onChange={changeDifficulty} disabled={inProgress} />
+      <GameScoreBadge stats={stats} />
       <p className="text-sm">
-        Pairs found: <span className="font-semibold">{matched.size}</span> / {pairs.length} · Moves:{' '}
+        Pairs found: <span className="font-semibold">{matched.size}</span> / {pairCount} · Moves:{' '}
         <span className="font-semibold">{moves}</span>
       </p>
       <div className="grid grid-cols-4 gap-2">

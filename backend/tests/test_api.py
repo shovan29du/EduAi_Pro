@@ -827,6 +827,57 @@ def test_assessment_submit_grades_server_side_from_answer_key():
     assert len(data["strengths"]) > 0
 
 
+def test_assessment_history_records_past_attempts():
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": {"0-0": 1, "0-1": 0},
+    })
+    assert resp.status_code == 200
+
+    hist = client.get("/api/assessment/TestChildOne/history")
+    assert hist.status_code == 200
+    attempts = hist.json()["attempts"]
+    assert len(attempts) >= 1
+    latest = attempts[0]
+    assert latest["age_group"] == "7-9"
+    assert "score" in latest and "total" in latest and "timestamp" in latest
+    assert "areas_to_develop" in latest and "weak_skills" in latest
+
+
+def test_assessment_retake_filters_to_weak_skills():
+    assessment = client.get("/api/assessment/7-9").json()
+    # Answer everything wrong so every skill in section 0 ends up "weak".
+    answers = {}
+    weak_skill = None
+    for si, section in enumerate(assessment["sections"]):
+        for qi, q in enumerate(section["questions"]):
+            wrong = next(i for i in range(len(q["options"])) if i != q["answer"])
+            answers[f"{si}-{qi}"] = wrong
+            if weak_skill is None:
+                weak_skill = q["skill"]
+
+    submit = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9", "answers": answers,
+    }).json()
+    assert weak_skill in submit["weak_skills"]
+
+    retake = client.get(f"/api/assessment/7-9/retake?weak_skills={weak_skill}")
+    assert retake.status_code == 200
+    data = retake.json()
+    assert data["is_retake"] is True
+    for section in data["sections"]:
+        for q in section["questions"]:
+            assert q["skill"] == weak_skill
+
+
+def test_assessment_retake_falls_back_to_full_when_no_skills_given():
+    resp = client.get("/api/assessment/7-9/retake")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["is_retake"] is False
+    assert "sections" in data
+
+
 def test_assessment_submit_unknown_child():
     resp = client.post("/api/assessment/Unknown/submit", json={"age_group": "7-9", "answers": {}})
     assert resp.status_code == 404

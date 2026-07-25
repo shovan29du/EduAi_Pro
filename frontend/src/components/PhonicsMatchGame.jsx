@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
 const ROUNDS = [
   { letter: 'A', correct: 'Apple', options: ['Apple', 'Ball', 'Cat'] },
@@ -22,14 +23,22 @@ function shuffle(array) {
   return copy;
 }
 
-export default function PhonicsMatchGame() {
+export default function PhonicsMatchGame({ onComplete, stats }) {
   const [order] = useState(() => shuffle(ROUNDS.map((_, i) => i)));
   const [step, setStep] = useState(0);
   const [score, setScore] = useState(0);
   const [feedback, setFeedback] = useState(null);
+  const [reported, setReported] = useState(false);
 
   const finished = step >= order.length;
   const round = !finished ? ROUNDS[order[step]] : null;
+
+  useEffect(() => {
+    if (!finished || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    onComplete({ score, maxScore: order.length, label: `${score}/${order.length} correct` });
+  }, [finished, reported, onComplete, score, order.length]);
 
   function choose(word) {
     if (round.correct === word) {
@@ -48,6 +57,7 @@ export default function PhonicsMatchGame() {
     setStep(0);
     setScore(0);
     setFeedback(null);
+    setReported(false);
   }
 
   return (
@@ -56,6 +66,7 @@ export default function PhonicsMatchGame() {
       <p className="text-sm text-gray-600 dark:text-gray-400">
         Pick the word that starts with the letter shown.
       </p>
+      <GameScoreBadge stats={stats} />
       {!finished && round && (
         <div className="space-y-2">
           <p className="text-sm">

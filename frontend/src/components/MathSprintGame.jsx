@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import DifficultyPicker from './DifficultyPicker.jsx';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-const ROUND_SECONDS = 30;
+// Difficulty widens the number ranges the `generate` function draws from
+// (see gameCentreData.js) and shortens/lengthens the time available.
+const ROUND_SECONDS = { easy: 40, medium: 30, hard: 20 };
 
-export default function MathSprintGame({ title, blurb, generate }) {
+export default function MathSprintGame({ title, blurb, generate, onComplete, stats, initialDifficulty }) {
+  const [difficulty, setDifficulty] = useState(initialDifficulty || 'medium');
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [score, setScore] = useState(0);
   const [total, setTotal] = useState(0);
-  const [secondsLeft, setSecondsLeft] = useState(ROUND_SECONDS);
+  const [secondsLeft, setSecondsLeft] = useState(ROUND_SECONDS[initialDifficulty || 'medium']);
   const [current, setCurrent] = useState(null);
+  const [reported, setReported] = useState(false);
 
   useEffect(() => {
     if (!started || finished) return;
@@ -20,13 +26,31 @@ export default function MathSprintGame({ title, blurb, generate }) {
     return () => clearTimeout(timer);
   }, [started, finished, secondsLeft]);
 
+  useEffect(() => {
+    if (!finished || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    onComplete({
+      score,
+      maxScore: total || null,
+      label: `${score} correct in ${ROUND_SECONDS[difficulty]}s (${difficulty})`,
+      difficulty,
+    });
+  }, [finished, reported, onComplete, score, total, difficulty]);
+
   function start() {
     setStarted(true);
     setFinished(false);
     setScore(0);
     setTotal(0);
-    setSecondsLeft(ROUND_SECONDS);
-    setCurrent(generate());
+    setSecondsLeft(ROUND_SECONDS[difficulty]);
+    setCurrent(generate(difficulty));
+    setReported(false);
+  }
+
+  function changeDifficulty(next) {
+    setDifficulty(next);
+    if (!started || finished) setSecondsLeft(ROUND_SECONDS[next]);
   }
 
   function answer(option) {
@@ -34,13 +58,15 @@ export default function MathSprintGame({ title, blurb, generate }) {
     if (String(option) === String(current.answer)) {
       setScore((s) => s + 1);
     }
-    setCurrent(generate());
+    setCurrent(generate(difficulty));
   }
 
   return (
     <section aria-label={`${title} math sprint`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <DifficultyPicker value={difficulty} onChange={changeDifficulty} disabled={started && !finished} />
+      <GameScoreBadge stats={stats} />
 
       {!started && (
         <button type="button" onClick={start} className="rounded border px-3 py-1 text-sm">

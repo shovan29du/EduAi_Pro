@@ -27,7 +27,39 @@ const pianoDetail = {
   audio_resources: [{ title: 'Piano sheet music', url: 'https://www.8notes.com/' }],
 };
 
+// jsdom has no Web Audio API — provide a minimal mock so the simulator
+// renders its playable UI (rather than the "not supported" fallback) and so
+// clicking a key can be asserted to actually invoke the synth engine.
+class MockAudioContext {
+  constructor() {
+    this.state = 'running';
+    this.currentTime = 0;
+    this.destination = {};
+  }
+  createOscillator() {
+    return {
+      type: 'sine',
+      frequency: { value: 0 },
+      connect: vi.fn().mockReturnThis(),
+      start: vi.fn(),
+      stop: vi.fn(),
+    };
+  }
+  createGain() {
+    return {
+      gain: {
+        setValueAtTime: vi.fn(),
+        exponentialRampToValueAtTime: vi.fn(),
+      },
+      connect: vi.fn().mockReturnThis(),
+    };
+  }
+  resume() {}
+  close() {}
+}
+
 beforeEach(() => {
+  window.AudioContext = MockAudioContext;
   global.fetch = vi.fn((url) => {
     if (url === '/api/music-instruments') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(overview) });
@@ -37,6 +69,9 @@ beforeEach(() => {
     }
     if (url === '/api/safe-music') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+    }
+    if (url === '/api/progress/Parent') {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ completed_lessons: {} }) });
     }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
@@ -63,5 +98,61 @@ describe('MusicInstruments', () => {
       expect(screen.getByText('Hand position')).toBeInTheDocument();
     });
     expect(screen.getByText('Practice scales daily.')).toBeInTheDocument();
+  });
+
+  it('lets you play the virtual piano with mouse and keyboard', async () => {
+    render(
+      <ChildProvider>
+        <MusicInstruments />
+      </ChildProvider>
+    );
+
+    await waitFor(() => expect(screen.getByText('Piano')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Piano'));
+
+    await waitFor(() => {
+      expect(screen.getByRole('group', { name: 'Virtual piano keyboard' })).toBeInTheDocument();
+    });
+
+    const createOscillatorSpy = vi.spyOn(MockAudioContext.prototype, 'createOscillator');
+
+    // Click a key.
+    fireEvent.mouseDown(screen.getByRole('button', { name: 'Play C4' }));
+    expect(createOscillatorSpy).toHaveBeenCalledTimes(1);
+
+    // Play a note via the mapped computer keyboard key ('a' => C4).
+    fireEvent.keyDown(window, { key: 'a' });
+    expect(createOscillatorSpy).toHaveBeenCalledTimes(2);
+  });
+
+  it('lets you mark a practice routine as done today and shows the practiced count', async () => {
+    render(
+      <ChildProvider>
+        <MusicInstruments />
+      </ChildProvider>
+    );
+
+    await waitFor(() => expect(screen.getByText('Piano')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Piano'));
+
+    await waitFor(() => {
+      expect(screen.getByText((_, el) => el?.textContent === '🔥 Practiced 0 times')).toBeInTheDocument();
+    });
+
+    const checkbox = screen.getByRole('checkbox', { name: /Mark practiced today: Practice scales daily\./ });
+    expect(checkbox).not.toBeChecked();
+
+    fireEvent.click(checkbox);
+
+    await waitFor(() => {
+      expect(global.fetch).toHaveBeenCalledWith(
+        '/api/progress/Parent',
+        expect.objectContaining({ method: 'POST' })
+      );
+    });
+    await waitFor(() => expect(checkbox).toBeChecked());
+    await waitFor(() => {
+      expect(screen.getByText((_, el) => el?.textContent === '🔥 Practiced 1 time')).toBeInTheDocument();
+    });
   });
 });

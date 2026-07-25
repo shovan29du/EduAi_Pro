@@ -1,12 +1,33 @@
 import React, { useState } from 'react';
+import { shuffle } from '../utils/gameUtils.js';
+import DifficultyPicker from './DifficultyPicker.jsx';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-export default function SudokuLiteGame({ title, blurb, size, puzzle, solution }) {
-  const [grid, setGrid] = useState(() => puzzle.map((row) => [...row]));
+// Difficulty is applied on top of the curated puzzle's own solution — it
+// re-blanks a fraction of the cells (fewer blanks for Easy, more for Hard)
+// so every puzzle gets three real difficulty tiers regardless of size.
+const BLANK_FRACTIONS = { easy: 0.3, medium: 0.45, hard: 0.6 };
+
+function buildPuzzle(solution, size, difficulty) {
+  const fraction = BLANK_FRACTIONS[difficulty] ?? BLANK_FRACTIONS.medium;
+  const blankCount = Math.round(size * size * fraction);
+  const cells = [];
+  for (let r = 0; r < size; r++) {
+    for (let c = 0; c < size; c++) cells.push([r, c]);
+  }
+  const blanks = new Set(shuffle(cells).slice(0, blankCount).map(([r, c]) => `${r}-${c}`));
+  return solution.map((row, r) => row.map((v, c) => (blanks.has(`${r}-${c}`) ? 0 : v)));
+}
+
+export default function SudokuLiteGame({ title, blurb, size, solution, onComplete, stats, initialDifficulty }) {
+  const [difficulty, setDifficulty] = useState(initialDifficulty || 'medium');
+  const [activePuzzle, setActivePuzzle] = useState(() => buildPuzzle(solution, size, initialDifficulty || 'medium'));
+  const [grid, setGrid] = useState(() => activePuzzle.map((row) => [...row]));
   const [selected, setSelected] = useState(null);
   const [message, setMessage] = useState(null);
 
   function selectCell(r, c) {
-    if (puzzle[r][c] !== 0) return;
+    if (activePuzzle[r][c] !== 0) return;
     setSelected({ r, c });
     setMessage(null);
   }
@@ -29,18 +50,41 @@ export default function SudokuLiteGame({ title, blurb, size, puzzle, solution })
     }
     const isCorrect = grid.every((row, r) => row.every((v, c) => v === solution[r][c]));
     setMessage(isCorrect ? 'Correct — solved! 🎉' : 'Not quite right — check each row, column, and box for repeats.');
+    if (onComplete) {
+      onComplete({
+        score: isCorrect ? 1 : 0,
+        maxScore: 1,
+        label: `${isCorrect ? 'Solved' : 'Attempted'} ${size}x${size} (${difficulty})`,
+        difficulty,
+      });
+    }
   }
 
   function reset() {
-    setGrid(puzzle.map((row) => [...row]));
+    setGrid(activePuzzle.map((row) => [...row]));
     setSelected(null);
     setMessage(null);
+  }
+
+  function newPuzzle(diff = difficulty) {
+    const next = buildPuzzle(solution, size, diff);
+    setActivePuzzle(next);
+    setGrid(next.map((row) => [...row]));
+    setSelected(null);
+    setMessage(null);
+  }
+
+  function changeDifficulty(next) {
+    setDifficulty(next);
+    newPuzzle(next);
   }
 
   return (
     <section aria-label={`${title} sudoku`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <DifficultyPicker value={difficulty} onChange={changeDifficulty} />
+      <GameScoreBadge stats={stats} />
 
       <div
         className="inline-grid gap-1"
@@ -50,7 +94,7 @@ export default function SudokuLiteGame({ title, blurb, size, puzzle, solution })
       >
         {grid.map((row, r) =>
           row.map((value, c) => {
-            const isFixed = puzzle[r][c] !== 0;
+            const isFixed = activePuzzle[r][c] !== 0;
             const isSelected = selected && selected.r === r && selected.c === c;
             return (
               <button
@@ -97,6 +141,9 @@ export default function SudokuLiteGame({ title, blurb, size, puzzle, solution })
         </button>
         <button type="button" onClick={reset} className="rounded border px-3 py-1 text-sm">
           Reset
+        </button>
+        <button type="button" onClick={() => newPuzzle()} className="rounded border px-3 py-1 text-sm">
+          New puzzle
         </button>
       </div>
 

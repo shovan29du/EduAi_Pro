@@ -1,13 +1,16 @@
+import hashlib
 import json
 import os
 import sqlite3 as _sqlite3
 import subprocess
 import tempfile
+import time
 from functools import lru_cache
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
@@ -1119,6 +1122,7 @@ def submit_assessment(child: str, body: dict):
 
     strengths = []
     areas_to_develop = []
+    weak_skills = []  # raw skill keys (not humanized) so a retake can filter questions by them
     recommendations: list[str] = []
     seen_subjects = set()
     for skill, s_total in skill_total.items():
@@ -1131,6 +1135,7 @@ def submit_assessment(child: str, body: dict):
                     seen_subjects.add(subj)
         else:
             areas_to_develop.append(label)
+            weak_skills.append(skill)
 
     percentage = round(score / total * 100) if total else 0
     badge = None
@@ -1138,7 +1143,19 @@ def submit_assessment(child: str, body: dict):
         badge = f"assessment-{age_group}-distinction"
         save_progress(child, {"badges": [badge]})
 
-    append_activity(child, {"type": "assessment", "age_group": age_group, "score": score, "total": total})
+    append_activity(child, {
+        "type": "assessment",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "age_group": age_group,
+        "score": score,
+        "total": total,
+        "percentage": percentage,
+        "badge": badge,
+        "strengths": strengths,
+        "areas_to_develop": areas_to_develop,
+        "weak_skills": weak_skills,
+        "recommendations": recommendations[:8],
+    })
     return {
         "score": score,
         "total": total,
@@ -1146,8 +1163,60 @@ def submit_assessment(child: str, body: dict):
         "badge": badge,
         "strengths": strengths,
         "areas_to_develop": areas_to_develop,
+        "weak_skills": weak_skills,
         "recommendations": recommendations[:8],
         "message": "Well done! Keep learning and growing." if total and score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
+    }
+
+
+@app.get("/api/assessment/{child}/history")
+def assessment_history(child: str):
+    """Every past assessment attempt for this child, newest first -- lets the
+    Assessment Centre show a learning-profile history over time instead of
+    only the most recent result."""
+    _require_child(child)
+    attempts = [a for a in get_activity_log(child) if a.get("type") == "assessment"]
+    attempts.sort(key=lambda a: a.get("timestamp", ""), reverse=True)
+    return {"attempts": attempts}
+
+
+@app.get("/api/assessment/{age_group}/retake")
+def assessment_retake(age_group: str, weak_skills: str = ""):
+    """A retake assessment covering only the given comma-separated skill keys
+    (as returned by a previous submit's `weak_skills`), so a child can focus
+    practice on what they actually got wrong last time instead of retaking
+    the whole assessment. Falls back to the full assessment if no skills (or
+    only unrecognised skills) are given."""
+    path = ASSESSMENT_DIR / "assessments.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Assessment data not found")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    group = data.get("age_groups", {}).get(age_group)
+    if not group:
+        raise HTTPException(status_code=404, detail=f"Age group '{age_group}' not found")
+
+    requested = {s.strip() for s in weak_skills.split(",") if s.strip()}
+    if not requested:
+        return {**group, "disclaimer": data.get("disclaimer", ""), "is_retake": False}
+
+    filtered_sections = []
+    for section in group.get("sections", []):
+        questions = [q for q in section.get("questions", []) if q.get("skill") in requested]
+        if questions:
+            filtered_sections.append({**section, "questions": questions})
+
+    if not filtered_sections:
+        # None of the requested skills matched this age group's questions --
+        # fall back to the full assessment rather than returning an empty one.
+        return {**group, "disclaimer": data.get("disclaimer", ""), "is_retake": False}
+
+    return {
+        **group,
+        "sections": filtered_sections,
+        "disclaimer": data.get("disclaimer", ""),
+        "is_retake": True,
+        "label": f"{group.get('label', '')} — Retake: Focus Areas",
     }
 
 
@@ -1540,6 +1609,9 @@ _MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museu
 _MUSEUM_OBJECTS_PATH = Path(__file__).parent.parent / "data" / "museum_objects.json"
 _MUSEUM_IMAGE_CACHE = Path(__file__).parent.parent / "data" / "museum_resource" / "images"
 _MUSEUM_IMAGE_CACHE.mkdir(parents=True, exist_ok=True)
+_MUSEUM_THUMB_CACHE_DIR = Path(__file__).parent.parent / "data" / "museum_thumbnail_cache"
+_MUSEUM_THUMB_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+_MUSEUM_THUMB_TTL_SECONDS = 5 * 24 * 3600  # Wikipedia thumbnails rarely change; a few days is plenty
 
 def _load_museum() -> dict:
     with open(_MUSEUM_PATH, encoding="utf-8") as f:
@@ -1581,6 +1653,70 @@ def museum_search(q: str = ""):
                 any(q_lower in s.lower() for s in obj.get("related_subjects", []))):
                 results.append({**obj, "gallery": gallery_id, "gallery_label": gallery["label"]})
     return {"results": results[:20]}
+
+
+def _museum_thumb_cache_path(wiki_title: str) -> Path:
+    # Hash the title so arbitrary query input can't escape the cache directory
+    # or collide with filesystem-unsafe characters.
+    digest = hashlib.sha1(wiki_title.encode("utf-8")).hexdigest()
+    return _MUSEUM_THUMB_CACHE_DIR / f"{digest}.json"
+
+
+@app.get("/api/museum/thumbnail")
+def museum_thumbnail(wiki_title: str = ""):
+    """Server-side cache/proxy for Wikipedia page-summary thumbnails.
+
+    Museum object thumbnails come from Wikipedia's REST summary API. Fetching
+    that live from every browser, on every view, means the same handful of
+    popular objects get re-fetched from Wikipedia over and over across
+    sessions and users. This caches the resolved thumbnail URL to a small
+    JSON record on disk (keyed by a hash of wiki_title) with a TTL, so repeat
+    requests for the same object are served locally instead of hitting
+    Wikipedia again.
+    """
+    wiki_title = (wiki_title or "").strip()
+    if not wiki_title:
+        raise HTTPException(status_code=400, detail="wiki_title is required")
+
+    cache_path = _museum_thumb_cache_path(wiki_title)
+    now = time.time()
+    cached = None
+    if cache_path.exists():
+        try:
+            cached = json.loads(cache_path.read_text(encoding="utf-8"))
+        except Exception:
+            cached = None
+        if cached and now - cached.get("fetched_at", 0) < _MUSEUM_THUMB_TTL_SECONDS:
+            return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True}
+
+    thumbnail_url = None
+    fetch_ok = False
+    encoded = quote(wiki_title.replace(" ", "_"))
+    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
+    try:
+        req = Request(url, headers={
+            "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+            "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+        })
+        with urlopen(req, timeout=5) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+        thumbnail_url = (payload.get("thumbnail") or {}).get("source") or (payload.get("originalimage") or {}).get("source")
+        fetch_ok = True
+    except Exception:
+        fetch_ok = False
+
+    if not fetch_ok and cached:
+        # Wikipedia is unreachable/rate-limited right now -- serve the stale
+        # cached value rather than nothing, and don't overwrite it.
+        return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True, "stale": True}
+
+    record = {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "fetched_at": now}
+    try:
+        cache_path.write_text(json.dumps(record), encoding="utf-8")
+    except Exception:
+        pass
+    return {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "cached": False}
+
 
 @app.get("/api/museum/{gallery}")
 def museum_gallery(gallery: str):

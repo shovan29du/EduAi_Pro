@@ -19,4 +19,5 @@ backend/data/link_audit_status.json
 backend/data/content_store.sqlite3
 backend/data/resource_tab/
 backend/data/museum_resource/images/
+backend/data/museum_thumbnail_cache/
 backend/data/paintings/

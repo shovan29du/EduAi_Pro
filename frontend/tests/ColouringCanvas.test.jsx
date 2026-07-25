@@ -8,12 +8,17 @@ function makeContext() {
   return {
     setTransform: vi.fn(),
     fillRect: vi.fn(),
+    clearRect: vi.fn(),
     strokeRect: vi.fn(),
     beginPath: vi.fn(),
+    closePath: vi.fn(),
     moveTo: vi.fn(),
     lineTo: vi.fn(),
+    bezierCurveTo: vi.fn(),
+    quadraticCurveTo: vi.fn(),
     stroke: vi.fn(),
     fill: vi.fn(),
+    fillText: vi.fn(),
     arc: vi.fn(),
     ellipse: vi.fn(),
     save: vi.fn(),
@@ -30,6 +35,10 @@ function makeContext() {
     lineCap: '',
     lineJoin: '',
     globalAlpha: 1,
+    globalCompositeOperation: 'source-over',
+    font: '',
+    textAlign: '',
+    textBaseline: '',
   };
 }
 
@@ -43,7 +52,15 @@ function renderCanvas() {
 
 beforeEach(() => {
   localStorage.clear();
-  HTMLCanvasElement.prototype.getContext = vi.fn(() => makeContext());
+  // Cache one mock context per canvas element (rather than a fresh object on
+  // every getContext() call) so tests can assert on calls made to a
+  // particular canvas -- e.g. fillText calls made while placing text/stickers
+  // onto the "Drawing area" canvas across several getContext() lookups.
+  const contexts = new WeakMap();
+  HTMLCanvasElement.prototype.getContext = vi.fn(function getContext() {
+    if (!contexts.has(this)) contexts.set(this, makeContext());
+    return contexts.get(this);
+  });
   HTMLCanvasElement.prototype.toDataURL = vi.fn(() => 'data:image/png;base64,fake');
   global.fetch = vi.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve({ paintings: [] }) }));
 });
@@ -103,5 +120,108 @@ describe('ColouringCanvas', () => {
       '/api/paintings/Parent',
       expect.objectContaining({ method: 'POST' })
     );
+  });
+
+  it('lets a child pick a colouring template, which pre-fills the title and closes the picker', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Templates' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Use template Flower' }));
+
+    // Selecting a template starts a fresh painting and closes the picker.
+    expect(screen.getByLabelText('Painting title').value).toBe('My Flower');
+    expect(screen.queryByRole('button', { name: 'Use template Flower' })).not.toBeInTheDocument();
+
+    // Reopening the picker shows the selection was remembered.
+    fireEvent.click(screen.getByRole('button', { name: 'Templates' }));
+    expect(screen.getByRole('button', { name: 'Use template Flower' })).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  it('shows a layers panel with visibility toggles for background/drawing, plus outline once a template is active', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Layers' }));
+    const bgToggle = screen.getByLabelText('Toggle background layer visibility');
+    const drawingToggle = screen.getByLabelText('Toggle drawing layer visibility');
+    expect(bgToggle.checked).toBe(true);
+    expect(drawingToggle.checked).toBe(true);
+
+    fireEvent.click(bgToggle);
+    expect(bgToggle.checked).toBe(false);
+
+    expect(screen.queryByLabelText('Toggle outline layer visibility')).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Templates' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Use template Star' }));
+
+    expect(screen.getByLabelText('Toggle outline layer visibility')).toBeInTheDocument();
+  });
+
+  it('supports reordering the background and drawing layers', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Layers' }));
+    const moveBackground = screen.getByRole('button', { name: 'Move background layer' });
+    // Initially drawing sits above background in the panel (drawing = top entry = "Send back").
+    expect(screen.getByRole('button', { name: 'Move drawing layer' })).toHaveTextContent('Send back');
+    expect(screen.getByRole('button', { name: 'Move background layer' })).toHaveTextContent('Bring forward');
+    fireEvent.click(moveBackground);
+    // After swapping, background should now be the top entry.
+    expect(screen.getByRole('button', { name: 'Move background layer' })).toHaveTextContent('Send back');
+    expect(screen.getByRole('button', { name: 'Move drawing layer' })).toHaveTextContent('Bring forward');
+  });
+
+  it('toggles horizontal and vertical mirror/symmetry mode', () => {
+    renderCanvas();
+    const mirrorH = screen.getByLabelText('Mirror horizontally');
+    const mirrorV = screen.getByLabelText('Mirror vertically');
+    expect(mirrorH.checked).toBe(false);
+    expect(mirrorV.checked).toBe(false);
+
+    fireEvent.click(mirrorH);
+    fireEvent.click(mirrorV);
+
+    expect(mirrorH.checked).toBe(true);
+    expect(mirrorV.checked).toBe(true);
+  });
+
+  it('lets a child place a text label on the canvas with the Text tool', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Text' }));
+    const canvas = screen.getByRole('img', { name: 'Drawing area' });
+    fireEvent.pointerDown(canvas, { clientX: 40, clientY: 40 });
+
+    const input = screen.getByLabelText('Text to add to canvas');
+    fireEvent.change(input, { target: { value: 'Hi' } });
+    fireEvent.keyDown(input, { key: 'Enter' });
+
+    expect(screen.queryByLabelText('Text to add to canvas')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Undo' })).not.toBeDisabled();
+  });
+
+  it('discards the text draft on Escape without adding it to the undo history', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Text' }));
+    const canvas = screen.getByRole('img', { name: 'Drawing area' });
+    fireEvent.pointerDown(canvas, { clientX: 40, clientY: 40 });
+
+    const input = screen.getByLabelText('Text to add to canvas');
+    fireEvent.change(input, { target: { value: 'Nope' } });
+    fireEvent.keyDown(input, { key: 'Escape' });
+
+    expect(screen.queryByLabelText('Text to add to canvas')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Undo' })).toBeDisabled();
+  });
+
+  it('offers an emoji sticker library and stamps the selected sticker onto the canvas', () => {
+    renderCanvas();
+    fireEvent.click(screen.getByRole('button', { name: 'Stickers' }));
+    const stickerButtons = screen.getAllByRole('button', { name: /^Sticker / });
+    expect(stickerButtons.length).toBeGreaterThanOrEqual(8);
+
+    fireEvent.click(stickerButtons[1]);
+    expect(stickerButtons[1]).toHaveAttribute('aria-pressed', 'true');
+
+    const canvas = screen.getByRole('img', { name: 'Drawing area' });
+    fireEvent.pointerDown(canvas, { clientX: 60, clientY: 60 });
+
+    expect(screen.getByRole('button', { name: 'Undo' })).not.toBeDisabled();
   });
 });

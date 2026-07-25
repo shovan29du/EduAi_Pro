@@ -1,15 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { shuffle } from '../utils/gameUtils.js';
+import GameScoreBadge from './GameScoreBadge.jsx';
 
-export default function MCRoundsGame({ title, blurb, rounds }) {
+export default function MCRoundsGame({ title, blurb, rounds, onComplete, stats }) {
   const [order, setOrder] = useState(() => shuffle(rounds.map((_, i) => i)));
   const [step, setStep] = useState(0);
   const [score, setScore] = useState(0);
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
+  const [reported, setReported] = useState(false);
 
   const finished = step >= order.length;
   const round = !finished ? rounds[order[step]] : null;
+
+  useEffect(() => {
+    if (!finished || reported) return;
+    setReported(true);
+    if (!onComplete) return;
+    onComplete({ score, maxScore: order.length, label: `${score}/${order.length} correct` });
+  }, [finished, reported, onComplete, score, order.length]);
 
   function choose(option) {
     if (answered || !round) return;
@@ -30,12 +39,14 @@ export default function MCRoundsGame({ title, blurb, rounds }) {
     setScore(0);
     setSelected(null);
     setAnswered(false);
+    setReported(false);
   }
 
   return (
     <section aria-label={`${title} puzzle`} className="space-y-3 rounded border p-4 dark:border-gray-700">
       <h3 className="font-semibold">{title}</h3>
       {blurb && <p className="text-sm text-gray-600 dark:text-gray-400">{blurb}</p>}
+      <GameScoreBadge stats={stats} />
 
       {!finished && round && (
         <div className="space-y-2">

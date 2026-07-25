@@ -1,5 +1,8 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import CMACollection from './CMACollection.jsx';
+import FavoriteButton from './FavoriteButton.jsx';
+import { useChild } from '../contexts/ChildContext.jsx';
+import { postProgress } from '../api/progress.js';
 
 const API = '/api';
 
@@ -31,6 +34,108 @@ function tileColor(key) {
   return TILE_COLORS[hash % TILE_COLORS.length];
 }
 
+// ── Museum quiz score tracking ──────────────────────────────────────────────
+// A running "N/M correct this session" score, kept in sessionStorage (per
+// child, cleared when the browser session ends) and broadcast via a custom
+// window event so the score badge and the quiz itself stay in sync without
+// prop-drilling through GalleryView/SearchView/ObjectDetail.
+const QUIZ_STATS_EVENT = 'museum-quiz-stats-changed';
+function quizStatsKey(child) {
+  return `museum_quiz_stats_${child}`;
+}
+function readQuizStats(child) {
+  try {
+    return JSON.parse(sessionStorage.getItem(quizStatsKey(child))) || { correct: 0, total: 0 };
+  } catch {
+    return { correct: 0, total: 0 };
+  }
+}
+function useMuseumQuizStats() {
+  const { child } = useChild();
+  const [stats, setStats] = useState(() => readQuizStats(child));
+  useEffect(() => {
+    setStats(readQuizStats(child));
+    const handle = () => setStats(readQuizStats(child));
+    window.addEventListener(QUIZ_STATS_EVENT, handle);
+    return () => window.removeEventListener(QUIZ_STATS_EVENT, handle);
+  }, [child]);
+  const recordAnswer = useCallback((correct) => {
+    const prev = readQuizStats(child);
+    const next = { correct: prev.correct + (correct ? 1 : 0), total: prev.total + 1 };
+    sessionStorage.setItem(quizStatsKey(child), JSON.stringify(next));
+    window.dispatchEvent(new Event(QUIZ_STATS_EVENT));
+    return next;
+  }, [child]);
+  return { stats, recordAnswer };
+}
+
+function QuizScoreBadge() {
+  const { stats } = useMuseumQuizStats();
+  if (!stats.total) return null;
+  return (
+    <span className="inline-flex items-center gap-1 text-xs font-medium px-2.5 py-1 rounded-full bg-green-100 text-green-700 border border-green-200">
+      🧠 {stats.correct}/{stats.total} correct this session
+    </span>
+  );
+}
+
+// ── Sorting ────────────────────────────────────────────────────────────────
+const SORT_OPTIONS = [
+  { id: 'default', label: 'Sort: Default' },
+  { id: 'name-asc', label: 'Name (A–Z)' },
+  { id: 'name-desc', label: 'Name (Z–A)' },
+  { id: 'year-asc', label: 'Year (Oldest first)' },
+  { id: 'year-desc', label: 'Year (Newest first)' },
+];
+
+// Best-effort numeric year from messy museum date strings like "196 BCE",
+// "c. 1503–1519", "c. 67 million years ago", or "9th–10th century CE".
+// Larger = more recent; BCE / "years ago" values come back negative.
+function parseYearValue(value) {
+  if (!value) return null;
+  const s = String(value).toLowerCase();
+  const m = s.match(/[\d,]+(\.\d+)?/);
+  if (!m) return null;
+  let num = parseFloat(m[0].replace(/,/g, ''));
+  if (Number.isNaN(num)) return null;
+  if (s.includes('billion')) num *= 1e9;
+  else if (s.includes('million')) num *= 1e6;
+  else if (s.includes('century')) num *= 100;
+  const isBCE = /\bbce\b|\bbc\b/.test(s) || s.includes('ago');
+  return isBCE ? -num : num;
+}
+
+function sortObjects(objects, sortBy) {
+  if (!sortBy || sortBy === 'default') return objects;
+  const sorted = [...objects];
+  if (sortBy === 'name-asc') sorted.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+  else if (sortBy === 'name-desc') sorted.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
+  else if (sortBy === 'year-asc' || sortBy === 'year-desc') {
+    sorted.sort((a, b) => {
+      const ay = parseYearValue(a.year || a.period);
+      const by = parseYearValue(b.year || b.period);
+      if (ay === null && by === null) return 0;
+      if (ay === null) return 1; // objects with no date sort to the end
+      if (by === null) return -1;
+      return sortBy === 'year-asc' ? ay - by : by - ay;
+    });
+  }
+  return sorted;
+}
+
+function SortControl({ value, onChange }) {
+  return (
+    <select
+      value={value}
+      onChange={e => onChange(e.target.value)}
+      aria-label="Sort objects"
+      className="border rounded-lg px-2 py-1.5 text-xs sm:text-sm text-gray-600 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-300"
+    >
+      {SORT_OPTIONS.map(opt => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
+    </select>
+  );
+}
+
 // ── Lazy Wikipedia thumbnail ──────────────────────────────────────────────────
 // Fetches once per wiki_title and caches in module-level map so sibling cards share results.
 const thumbCache = {};
@@ -49,13 +154,13 @@ function WikiThumbnail({ wikiTitle, thumbnailLocal, category, size = 'list' }) {
       return;
     }
     thumbCache[wikiTitle] = 'loading';
-    const encoded = encodeURIComponent(wikiTitle.replace(/ /g, '_'));
-    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`, {
-      headers: { 'Api-User-Agent': 'EduAI/1.0 (educational; contact@eduai.app)' },
-    })
+    // Resolved server-side (and cached to disk there) rather than hitting
+    // Wikipedia directly from the browser on every view — see
+    // GET /api/museum/thumbnail in backend/app/main.py.
+    fetch(`${API}/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
       .then(r => r.ok ? r.json() : null)
       .then(d => {
-        const url = d?.thumbnail?.source ?? d?.originalimage?.source ?? null;
+        const url = d?.thumbnail_url ?? null;
         thumbCache[wikiTitle] = url || '';
         if (mounted.current && url) setSrc(url);
       })
@@ -143,7 +248,20 @@ function ObjectLinks({ links }) {
 // ── Quick Quiz ────────────────────────────────────────────────────────────────
 function ObjectQuiz({ quiz }) {
   const [selected, setSelected] = useState(null);
+  const { child } = useChild();
+  const { recordAnswer } = useMuseumQuizStats();
   if (!quiz?.question) return null;
+
+  function handleSelect(i) {
+    if (selected !== null) return;
+    setSelected(i);
+    const next = recordAnswer(i === quiz.answer);
+    const percentage = next.total > 0 ? Math.round((next.correct / next.total) * 100) : 0;
+    // Save cumulative museum quiz performance to the child's progress record
+    // so it isn't lost between sessions (same pattern as Exam.jsx).
+    postProgress(child, { scores: { museum: percentage } }).catch(() => {});
+  }
+
   return (
     <div className="rounded-xl bg-green-50 border border-green-200 p-4 mb-4">
       <h3 className="font-semibold text-green-800 mb-3">🧠 Quick Quiz</h3>
@@ -156,7 +274,7 @@ function ObjectQuiz({ quiz }) {
           else if (i === selected) cls += 'bg-red-100 border-red-400 text-red-700';
           else cls += 'bg-gray-50 border-gray-200 text-gray-400';
           return (
-            <button key={i} className={cls} disabled={selected !== null} onClick={() => setSelected(i)}>
+            <button key={i} className={cls} disabled={selected !== null} onClick={() => handleSelect(i)}>
               {opt}
             </button>
           );
@@ -190,7 +308,15 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       {/* Hero thumbnail */}
       <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="hero" />
 
-      <h2 className="text-2xl font-bold text-gray-800 mb-1">{obj.name}</h2>
+      <div className="flex items-start justify-between gap-3">
+        <h2 className="text-2xl font-bold text-gray-800 mb-1">{obj.name}</h2>
+        <FavoriteButton resource={{
+          title: obj.name,
+          link: obj.links?.wikipedia || obj.links?.image_search || obj.links?.google_image_search || '',
+          type: 'museum',
+          category: obj.category,
+        }} />
+      </div>
       {(obj.artist || obj.architect) && (
         <p className="text-sm text-gray-500 mb-2 italic">{obj.artist || obj.architect}</p>
       )}
@@ -287,10 +413,12 @@ function GalleryView({ gallery, onBack }) {
   const [data, setData] = useState(null);
   const [selectedObj, setSelectedObj] = useState(null);
   const [page, setPage] = useState(0);
+  const [sortBy, setSortBy] = useState('default');
   const PAGE_SIZE = 24;
 
   useEffect(() => {
     fetch(`${API}/museum/${gallery.id}`).then(r => r.json()).then(setData);
+    setPage(0);
   }, [gallery.id]);
 
   if (selectedObj) return (
@@ -299,7 +427,7 @@ function GalleryView({ gallery, onBack }) {
     </div>
   );
 
-  const objects = data?.objects ?? [];
+  const objects = sortObjects(data?.objects ?? [], sortBy);
   const pageCount = Math.ceil(objects.length / PAGE_SIZE);
   const visible = objects.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
@@ -307,7 +435,13 @@ function GalleryView({ gallery, onBack }) {
     <div>
       <button onClick={onBack} className="mb-3 text-sm text-indigo-600 hover:underline">← All Galleries</button>
       <h2 className="text-2xl font-bold mb-1">{gallery.emoji} {gallery.label}</h2>
-      <p className="text-xs text-gray-400 mb-4">{objects.length} objects · thumbnails from Wikipedia</p>
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <p className="text-xs text-gray-400">{objects.length} objects · thumbnails from Wikipedia</p>
+        <div className="flex items-center gap-2">
+          <QuizScoreBadge />
+          <SortControl value={sortBy} onChange={(v) => { setSortBy(v); setPage(0); }} />
+        </div>
+      </div>
       {!data ? <p className="text-gray-400">Loading…</p> : (
         <>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -337,6 +471,7 @@ function SearchView() {
   const [results, setResults] = useState([]);
   const [searched, setSearched] = useState(false);
   const [selectedObj, setSelectedObj] = useState(null);
+  const [sortBy, setSortBy] = useState('default');
   const search = () => {
     if (q.length < 2) return;
     fetch(`${API}/museum/search?q=${encodeURIComponent(q)}`).then(r => r.json())
@@ -347,6 +482,7 @@ function SearchView() {
       <ObjectDetail gallery={selectedObj.gallery} objectId={selectedObj.id} onBack={() => setSelectedObj(null)} />
     </div>
   );
+  const sortedResults = sortObjects(results, sortBy);
   return (
     <div>
       <div className="flex gap-2 mb-4">
@@ -355,9 +491,13 @@ function SearchView() {
           className="flex-1 border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300" />
         <button onClick={search} className="px-4 py-2 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700">Search</button>
       </div>
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <QuizScoreBadge />
+        {results.length > 0 && <SortControl value={sortBy} onChange={setSortBy} />}
+      </div>
       {searched && results.length === 0 && <p className="text-gray-500 text-sm">No results found.</p>}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-        {results.map(obj => (
+        {sortedResults.map(obj => (
           <div key={obj.id} className="relative">
             <ObjectTile obj={obj} onClick={() => setSelectedObj(obj)} />
             {obj.gallery_label && (
