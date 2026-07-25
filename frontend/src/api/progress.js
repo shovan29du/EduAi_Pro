@@ -14,6 +14,14 @@ export async function postProgress(child, update) {
   return res.json();
 }
 
+export async function deleteSnippet(child, snippetId) {
+  const res = await fetch(`/api/progress/${child}/snippets/${encodeURIComponent(snippetId)}`, {
+    method: 'DELETE',
+  });
+  if (!res.ok) throw new Error(`Could not delete snippet for ${child}`);
+  return res.json();
+}
+
 export async function exportExamResult(payload) {
   const res = await fetch('/api/exam-result/export', {
     method: 'POST',

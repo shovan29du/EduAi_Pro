@@ -41,6 +41,25 @@ def test_progress_save_and_load_testchildtwo():
     assert resp.json()["scores"]["English"] == 75
 
 
+def test_progress_snippet_delete():
+    client.post("/api/progress/TestChildOne", json={"snippets": {"snippet-1": "print(1)", "snippet-2": "print(2)"}})
+    resp = client.get("/api/progress/TestChildOne")
+    assert "snippet-1" in resp.json()["snippets"]
+
+    del_resp = client.delete("/api/progress/TestChildOne/snippets/snippet-1")
+    assert del_resp.status_code == 200
+    assert "snippet-1" not in del_resp.json()["snippets"]
+    assert "snippet-2" in del_resp.json()["snippets"]
+
+    resp = client.get("/api/progress/TestChildOne")
+    assert "snippet-1" not in resp.json()["snippets"]
+
+
+def test_progress_snippet_delete_missing_id_is_a_noop():
+    resp = client.delete("/api/progress/TestChildOne/snippets/does-not-exist")
+    assert resp.status_code == 200
+
+
 def test_progress_unknown_child_rejected():
     resp = client.get("/api/progress/Unknown")
     assert resp.status_code == 404

@@ -186,6 +186,18 @@ def save_progress(child: str, update: dict) -> dict:
         return current
 
 
+def delete_snippet(child: str, snippet_id: str) -> dict:
+    """Remove one saved Code Editor snippet by id. save_progress() only ever
+    adds/updates snippets (a shallow dict.update merge), so a real delete
+    needs its own path that rewrites the progress file directly."""
+    with _lock:
+        current = get_progress(child)
+        current.setdefault("snippets", {}).pop(snippet_id, None)
+        with open(_progress_path(child), "w", encoding="utf-8") as f:
+            json.dump(current, f, indent=2)
+        return current
+
+
 def get_activity_log(child: str) -> list:
     path = _activity_path(child)
     if not path.exists():

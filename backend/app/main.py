@@ -35,6 +35,7 @@ from app.storage import (
     delete_user,
     get_progress,
     save_progress,
+    delete_snippet,
     get_activity_log,
     append_activity,
     get_homework,
@@ -130,6 +131,12 @@ def update_progress(child: str, update: dict):
     result = save_progress(child, update)
     append_activity(child, {"type": "progress_update", "data": update})
     return result
+
+
+@app.delete("/api/progress/{child}/snippets/{snippet_id}")
+def remove_progress_snippet(child: str, snippet_id: str):
+    _require_child(child)
+    return delete_snippet(child, snippet_id)
 
 
 def _progress_csv(child: str, progress: dict) -> str:
