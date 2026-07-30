@@ -74,6 +74,32 @@ function TTSToggle() {
   );
 }
 
+function CheckForUpdatesButton() {
+  const [checking, setChecking] = useState(false);
+
+  function handleClick() {
+    setChecking(true);
+    // UpdatePrompt.jsx owns the actual service-worker registration and
+    // listens for this event to trigger an immediate registration.update()
+    // check, instead of waiting for its hourly poll. If a new version is
+    // found, UpdatePrompt's own "Update now" banner appears at the bottom
+    // of the screen a moment later.
+    window.dispatchEvent(new Event('eduai-check-for-updates'));
+    setTimeout(() => setChecking(false), 3000);
+  }
+
+  return (
+    <button
+      onClick={handleClick}
+      disabled={checking}
+      title={`Current version: v${typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '?'}`}
+      className="rounded-full px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 disabled:opacity-60 dark:bg-gray-700 dark:text-gray-300"
+    >
+      {checking ? 'Checking…' : '🔄 Check for Updates'}
+    </button>
+  );
+}
+
 export default function Header() {
   const { child } = useChild();
   const isParent = isParentProfile(child);
@@ -87,6 +113,7 @@ export default function Header() {
       <div className="flex items-center gap-3">
         <TTSToggle />
         {isParent && <UpdateLinksButton />}
+        {isParent && <CheckForUpdatesButton />}
         <ChildSelector />
         <DarkModeToggle />
         <ParentalControlPanel />

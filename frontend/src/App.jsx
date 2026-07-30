@@ -20,6 +20,7 @@ class ErrorBoundary extends Component {
   }
 }
 import Header from './components/Header.jsx';
+import UpdatePrompt from './components/UpdatePrompt.jsx';
 import LevelSelector from './components/LevelSelector.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
@@ -165,6 +166,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <Header />
+      <UpdatePrompt />
       <main className="mx-auto max-w-5xl space-y-6 p-4">
         <LevelSelector level={level} onChange={setLevel} />
         <Suspense fallback={<LoadingSpinner />}>
