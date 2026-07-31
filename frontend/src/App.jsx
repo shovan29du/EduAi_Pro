@@ -67,6 +67,7 @@ const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
+const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
 
 const CHILD_TABS = [
   'Professional',
@@ -83,6 +84,7 @@ const CHILD_TABS = [
   'Practical Skills',
   'Museum',
   'World Lit',
+  'Biographies',
   'Critical Thinking',
   'Survival Skills',
   'Environment',
@@ -317,6 +319,7 @@ export default function App() {
           {activeTab === 'Practical Skills' && <PracticalSkills />}
           {activeTab === 'Museum' && <VirtualMuseum />}
 {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
+        {activeTab === 'Biographies' && <BiographyLibrary />}
           {activeTab === 'Critical Thinking' && <CriticalThinking />}
           {activeTab === 'Survival Skills' && <SurvivalSkills />}
           {activeTab === 'Environment' && <EnvironmentalScience />}

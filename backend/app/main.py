@@ -2256,6 +2256,60 @@ def world_literature_book(section: str, book_id: str):
     raise HTTPException(status_code=404, detail="Book not found")
 
 
+# ── Biography Library ──────────────────────────────────────────────────────
+_BIOGRAPHIES_PATH = Path(__file__).parent.parent / "data" / "biographies" / "biographies.json"
+
+def _load_biographies() -> dict:
+    with open(_BIOGRAPHIES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/api/biographies")
+def biographies_overview():
+    data = _load_biographies()
+    sections = []
+    for key, section in data["sections"].items():
+        sections.append({
+            "id": key,
+            "label": section["label"],
+            "emoji": section["emoji"],
+            "description": section.get("description", ""),
+            "person_count": len(section.get("people", [])),
+        })
+    total = sum(s["person_count"] for s in sections)
+    return {"title": data["title"], "description": data["description"], "sections": sections, "total_people": total}
+
+@app.get("/api/biographies/search")
+def biographies_search(q: str = "", limit: int = 60):
+    data = _load_biographies()
+    q_lower = q.lower().strip()
+    results = []
+    if len(q_lower) >= 2:
+        for section_key, section in data["sections"].items():
+            for person in section.get("people", []):
+                haystack = f"{person.get('name', '')} {person.get('field', '')} {person.get('nationality', '')}".lower()
+                if q_lower in haystack:
+                    results.append({**person, "section": section_key, "section_label": section["label"]})
+    return {"results": results[:limit], "total_matches": len(results)}
+
+
+@app.get("/api/biographies/{section}")
+def biographies_section(section: str):
+    data = _load_biographies()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    return {"id": section, **data["sections"][section]}
+
+@app.get("/api/biographies/{section}/{person_id}")
+def biographies_person(section: str, person_id: str):
+    data = _load_biographies()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    for person in data["sections"][section].get("people", []):
+        if person["id"] == person_id:
+            return person
+    raise HTTPException(status_code=404, detail="Person not found")
+
+
 # ── Critical Thinking Academy ─────────────────────────────────────────────────
 _CT_PATH = Path(__file__).parent.parent / "data" / "critical_thinking" / "critical_thinking.json"
 
