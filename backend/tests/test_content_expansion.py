@@ -5,10 +5,21 @@ from app.main import app
 client = TestClient(app)
 
 
-def test_museum_world_collections_gallery_has_1000_objects():
-    resp = client.get("/api/museum/world_collections")
-    assert resp.status_code == 200
-    assert len(resp.json()["objects"]) >= 1000
+def test_museum_world_collections_galleries_have_1000_objects():
+    # The original single "world_collections" gallery was later split into
+    # several themed wc_-prefixed galleries (world_visual_arts,
+    # world_sculpture_ritual, etc.) that together still total 1000 objects.
+    world_collection_ids = [
+        "world_visual_arts", "world_sculpture_ritual", "world_texts_maps",
+        "world_decorative_arts", "world_textiles_dress", "world_innovation",
+        "world_archaeology_design",
+    ]
+    total = 0
+    for gallery_id in world_collection_ids:
+        resp = client.get(f"/api/museum/{gallery_id}")
+        assert resp.status_code == 200
+        total += len(resp.json()["objects"])
+    assert total >= 1000
 
 
 def test_museum_total_grew_past_original():

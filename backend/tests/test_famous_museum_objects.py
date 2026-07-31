@@ -40,10 +40,14 @@ def test_museum_overview_reflects_growth():
     assert len(data["galleries"]) >= 15
 
 
-def test_world_collections_objects_now_have_wiki_title():
-    resp = client.get("/api/museum/world_collections")
+def test_world_heritage_treasures_objects_have_wiki_title():
+    # world_heritage_treasures is the real-curated-object successor to the
+    # old single "world_collections" gallery; the newer wc_-prefixed themed
+    # galleries (world_visual_arts etc.) are generic study cards without a
+    # single identifiable real-world source, so they don't carry a wiki_title.
+    resp = client.get("/api/museum/world_heritage_treasures")
     objects = resp.json()["objects"]
-    assert len(objects) == 1000
+    assert len(objects) >= 1000
     assert all(o.get("wiki_title") for o in objects)
 
 

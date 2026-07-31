@@ -281,10 +281,10 @@ def test_search_unknown_grade_404():
     assert resp.status_code == 404
 
 
-def test_profiles_includes_parent():
+def test_profiles_includes_test_children():
     resp = client.get("/api/profiles")
     assert resp.status_code == 200
-    assert resp.json() == ["TestChildOne", "TestChildTwo", "Bely", "Parent", "Shovan"]
+    assert resp.json() == ["TestChildOne", "TestChildTwo"]
 
 
 def test_web_search_returns_501_when_unconfigured(monkeypatch):
@@ -1217,27 +1217,9 @@ def test_survival_skills_not_found():
     assert client.get("/api/survival-skills/outdoor_and_navigation/fake_skill").status_code == 404
 
 
-# ── Brain Teasers tests ───────────────────────────────────────────────────────
-def test_brain_teasers_overview():
-    r = client.get("/api/brain-teasers")
-    assert r.status_code == 200
-    data = r.json()
-    assert "categories" in data
-    cat_ids = [c["id"] for c in data["categories"]]
-    assert "riddles" in cat_ids
-    assert "logic_puzzles" in cat_ids
-    assert "maths_challenges" in cat_ids
-    assert "word_games" in cat_ids
-
-def test_brain_teasers_category():
-    r = client.get("/api/brain-teasers/riddles")
-    assert r.status_code == 200
-    data = r.json()
-    assert "items" in data
-    assert len(data["items"]) >= 5
-
-def test_brain_teasers_not_found():
-    assert client.get("/api/brain-teasers/fake_cat").status_code == 404
+# Brain Teasers was dropped as part of the single-owner platform
+# repositioning (both the /api/brain-teasers endpoints and the frontend
+# tab), so its tests were removed along with it.
 
 
 # ── Environmental Science tests ───────────────────────────────────────────────
