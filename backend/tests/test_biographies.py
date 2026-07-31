@@ -23,6 +23,16 @@ def test_bengali_notable_people_has_at_least_30():
     assert len(data["people"]) >= 30
 
 
+def test_quran_prophets_religious_figures_has_at_least_40():
+    resp = client.get("/api/biographies/quran_prophets_religious_figures")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert len(data["people"]) >= 40
+    names = {p["name"] for p in data["people"]}
+    for expected in ("Ibrahim (Abraham)", "Musa (Moses)", "Isa (Jesus)", "Muhammad", "Maryam (Mary)"):
+        assert expected in names
+
+
 def test_all_biography_summaries_are_1000_to_3000_words():
     overview = client.get("/api/biographies").json()
     for section in overview["sections"]:
