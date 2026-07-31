@@ -159,7 +159,7 @@ describe('Games (Game Centre)', () => {
 
     await waitFor(() =>
       expect(global.fetch).toHaveBeenCalledWith(
-        '/api/progress/Parent',
+        '/api/progress/Shovan',
         expect.objectContaining({
           method: 'POST',
           body: expect.stringContaining('game:sudoku-4x4-easy'),

@@ -59,14 +59,14 @@ describe('CodeEditor', () => {
       expect(screen.getByText('Saved!')).toBeInTheDocument();
     });
     expect(global.fetch).toHaveBeenCalledWith(
-      '/api/progress/Parent',
+      '/api/progress/Shovan',
       expect.objectContaining({ method: 'POST' })
     );
   });
 
   it('opens the snippet browser, lists a saved snippet, and loads it back into the editor', async () => {
     global.fetch = vi.fn((url) => {
-      if (url === '/api/progress/Parent') {
+      if (url === '/api/progress/Shovan') {
         return Promise.resolve({
           ok: true,
           json: () => Promise.resolve({
@@ -97,7 +97,7 @@ describe('CodeEditor', () => {
 
   it('deletes a snippet via the DELETE endpoint', async () => {
     global.fetch = vi.fn((url, opts) => {
-      if (url === '/api/progress/Parent') {
+      if (url === '/api/progress/Shovan') {
         return Promise.resolve({
           ok: true,
           json: () => Promise.resolve({
@@ -121,7 +121,7 @@ describe('CodeEditor', () => {
 
     fireEvent.click(screen.getByRole('button', { name: /Delete snippet/i }));
     await waitFor(() => {
-      expect(global.fetch).toHaveBeenCalledWith('/api/progress/Parent/snippets/snippet-1', expect.objectContaining({ method: 'DELETE' }));
+      expect(global.fetch).toHaveBeenCalledWith('/api/progress/Shovan/snippets/snippet-1', expect.objectContaining({ method: 'DELETE' }));
     });
   });
 });

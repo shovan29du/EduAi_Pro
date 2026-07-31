@@ -21,27 +21,13 @@ describe('ChildSelector', () => {
     expect(localStorage.getItem('selectedChild')).toBe('Shovan');
   });
 
-  it('includes a Parent profile option', () => {
+  it('falls back to a single Shovan profile option when /api/users has not responded yet', () => {
     render(
       <ChildProvider>
         <ChildSelector />
       </ChildProvider>
     );
     const select = screen.getByLabelText('Select profile');
-    fireEvent.change(select, { target: { value: 'Parent' } });
-    expect(select.value).toBe('Parent');
-  });
-
-  it('includes Shovan and Bely parent profile options', () => {
-    render(
-      <ChildProvider>
-        <ChildSelector />
-      </ChildProvider>
-    );
-    const select = screen.getByLabelText('Select profile');
-    fireEvent.change(select, { target: { value: 'Shovan' } });
-    expect(select.value).toBe('Shovan');
-    fireEvent.change(select, { target: { value: 'Bely' } });
-    expect(select.value).toBe('Bely');
+    expect(select).toHaveTextContent('Shovan (Administrator)');
   });
 });

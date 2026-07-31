@@ -101,7 +101,7 @@ describe('VirtualMuseum', () => {
     fireEvent.click(favButton);
 
     await waitFor(() => {
-      const stored = JSON.parse(localStorage.getItem('favorites_Parent'));
+      const stored = JSON.parse(localStorage.getItem('favorites_Shovan'));
       expect(stored).toHaveLength(1);
       expect(stored[0].title).toBe('Ancient Amphora');
       expect(stored[0].link).toBe('https://en.wikipedia.org/wiki/Ancient_Amphora');

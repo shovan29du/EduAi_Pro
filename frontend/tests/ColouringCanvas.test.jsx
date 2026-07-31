@@ -117,7 +117,7 @@ describe('ColouringCanvas', () => {
       expect(screen.getByText('Saved to My Art!')).toBeInTheDocument();
     });
     expect(global.fetch).toHaveBeenCalledWith(
-      '/api/paintings/Parent',
+      '/api/paintings/Shovan',
       expect.objectContaining({ method: 'POST' })
     );
   });

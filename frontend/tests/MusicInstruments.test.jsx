@@ -70,7 +70,7 @@ beforeEach(() => {
     if (url === '/api/safe-music') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
     }
-    if (url === '/api/progress/Parent') {
+    if (url === '/api/progress/Shovan') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve({ completed_lessons: {} }) });
     }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
@@ -146,7 +146,7 @@ describe('MusicInstruments', () => {
 
     await waitFor(() => {
       expect(global.fetch).toHaveBeenCalledWith(
-        '/api/progress/Parent',
+        '/api/progress/Shovan',
         expect.objectContaining({ method: 'POST' })
       );
     });

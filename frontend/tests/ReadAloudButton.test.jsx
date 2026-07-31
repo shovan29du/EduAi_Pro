@@ -8,7 +8,11 @@ beforeEach(() => {
     speak: vi.fn(),
     cancel: vi.fn(),
   };
-  global.SpeechSynthesisUtterance = vi.fn().mockImplementation((text) => ({ text }));
+  // vi.fn()'s spy wrapper (tinyspy) isn't constructible in vitest 4, so
+  // `new SpeechSynthesisUtterance(text)` needs a real constructor here.
+  global.SpeechSynthesisUtterance = class SpeechSynthesisUtterance {
+    constructor(text) { this.text = text; }
+  };
 });
 
 describe('ReadAloudButton', () => {
