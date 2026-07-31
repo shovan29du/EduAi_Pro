@@ -3,8 +3,10 @@ import CMACollection from './CMACollection.jsx';
 import FavoriteButton from './FavoriteButton.jsx';
 import { useChild } from '../contexts/ChildContext.jsx';
 import { postProgress } from '../api/progress.js';
+import './VirtualMuseum.css';
 
 const API = '/api';
+export const MUSEUM_DESIGN_VERSION = 'open-museum-v1';
 
 // Category → emoji fallback for when Wikipedia thumbnail isn't available
 const CAT_EMOJI = {
@@ -220,6 +222,7 @@ function ExplanationVideoBanner({ links, name }) {
 function ObjectLinks({ links }) {
   if (!links) return null;
   const items = [
+    links.museum_object && { href: links.museum_object, label: 'Official Museum Record', color: 'bg-indigo-100 text-indigo-700 border-indigo-200' },
     links.wikipedia && { href: links.wikipedia, label: 'ℹ Wikipedia', color: 'bg-gray-100 text-gray-700 border-gray-200' },
     links.image_search && { href: links.image_search, label: '🖼 Images (Wikimedia)', color: 'bg-blue-100 text-blue-700 border-blue-200' },
     links.google_image_search && { href: links.google_image_search, label: '🔍 Images (Google)', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
@@ -296,10 +299,6 @@ function ObjectDetail({ gallery, objectId, onBack }) {
     fetch(`${API}/museum/${gallery}/${objectId}`).then(r => r.json()).then(setObj);
   }, [gallery, objectId]);
   if (!obj) return <div className="p-4 text-gray-500">Loading…</div>;
-
-  const isPaintingOrSculpture = ['painting', 'sculpture', 'architecture', 'art_culture'].some(k =>
-    (obj.category || '').toLowerCase().includes(k) || gallery.includes(k)
-  );
 
   return (
     <div>
@@ -537,21 +536,27 @@ export default function VirtualMuseum() {
   );
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedGallery) return (
-    <div className="max-w-5xl mx-auto p-4">
+    <div className="museum-shell max-w-6xl mx-auto p-4" data-museum-theme={MUSEUM_DESIGN_VERSION}>
       <GalleryView gallery={selectedGallery} onBack={() => setSelectedGallery(null)} />
     </div>
   );
   return (
-    <div className="max-w-5xl mx-auto p-4">
-      <h1 className="text-3xl font-bold text-gray-800 mb-1">🏛️ Virtual Museum</h1>
-      <p className="text-gray-500 mb-1">{overview.description}</p>
-      <p className="text-xs text-gray-400 mb-4">
-        {(overview.total_objects ?? overview.galleries?.reduce((s, g) => s + (g.object_count || 0), 0) ?? 0).toLocaleString()} objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
-      </p>
-      <div className="flex gap-2 mb-6 sticky top-0 bg-gray-50/95 backdrop-blur z-10 -mx-4 px-4 py-2 sm:mx-0 sm:px-0 sm:static sm:bg-transparent">
+    <div className="museum-shell max-w-6xl mx-auto p-4" data-museum-theme={MUSEUM_DESIGN_VERSION}>
+      <header className="museum-hero">
+        <div>
+          <p className="museum-eyebrow">EDUAI PRO · OPEN MUSEUM</p>
+          <h1>Explore art, history and human creativity</h1>
+          <p>{overview.description}</p>
+          <p className="museum-count">
+            {(overview.total_objects ?? overview.galleries?.reduce((s, g) => s + (g.object_count || 0), 0) ?? 0).toLocaleString()} objects · trusted learning links · open-access art
+          </p>
+        </div>
+        <div className="museum-hero-mark" aria-hidden="true">🏛️</div>
+      </header>
+      <div className="museum-nav flex gap-2 mb-8 sticky top-0 backdrop-blur z-10 -mx-4 px-4 py-3 sm:mx-0 sm:px-0 sm:static">
         {[['galleries', '🏛 Categories'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (
           <button key={t} onClick={() => setTab(t)}
-            className={`px-4 py-1.5 text-sm font-medium rounded-full border transition-colors ${tab === t ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-white text-gray-600 border-gray-300 hover:border-indigo-400'}`}>
+            className={`px-4 py-2 text-sm font-medium rounded-full border transition-colors ${tab === t ? 'museum-nav-active' : 'museum-nav-idle'}`}>
             {label}
           </button>
         ))}
@@ -559,10 +564,15 @@ export default function VirtualMuseum() {
       {tab === 'search' && <SearchView />}
       {tab === 'open-art' && <CMACollection />}
       {tab === 'galleries' && (
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <section aria-label="Museum collections">
+          <div className="mb-4 flex items-end justify-between gap-3">
+            <div><p className="museum-eyebrow">BROWSE THE COLLECTION</p><h2 className="museum-section-title">Stories across time and place</h2></div>
+            <span className="text-sm text-gray-500">{overview.galleries.length} collections</span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {overview.galleries.map(gallery => (
             <button key={gallery.id} onClick={() => setSelectedGallery(gallery)}
-              className={`group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all bg-gradient-to-br ${tileColor(gallery.id)} text-left`}>
+              className={`museum-collection-card group relative aspect-[4/3] overflow-hidden bg-gradient-to-br ${tileColor(gallery.id)} text-left`}>
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-6xl opacity-80 group-hover:scale-110 transition-transform">{gallery.emoji}</span>
               </div>
@@ -572,7 +582,8 @@ export default function VirtualMuseum() {
               </div>
             </button>
           ))}
-        </div>
+          </div>
+        </section>
       )}
     </div>
   );

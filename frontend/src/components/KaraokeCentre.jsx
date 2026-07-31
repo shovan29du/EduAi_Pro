@@ -107,6 +107,12 @@ function SongDetail({ song, onBack }) {
             <h2 className="text-2xl font-bold leading-tight">{song.title}</h2>
             <p className="text-purple-200 mt-1">{song.artist}</p>
             <p className="text-purple-300 text-sm mt-0.5">{song.album} · {song.year}</p>
+            {song.verified_views && (
+              <p className="text-xs text-purple-100 mt-1">
+                {song.verified_views.toLocaleString()} observed YouTube views
+                {song.chart_rank ? ` · chart #${song.chart_rank}` : ''}
+              </p>
+            )}
             <div className="flex flex-wrap gap-1.5 mt-3">
               {song.genre?.map(g => (
                 <span key={g} className="text-xs bg-white/20 text-white px-2 py-0.5 rounded-full">
@@ -182,10 +188,16 @@ function SongDetail({ song, onBack }) {
       <div className="border-t pt-4">
         <h3 className="text-sm font-semibold text-gray-600 mb-3">🔗 Listen & Explore</h3>
         <div className="flex flex-wrap gap-2">
+          <LinkButton href={song.links?.youtube_video} label="Official chart video" icon="▶" color="red" />
           <LinkButton href={song.links?.youtube_search} label="Search on YouTube" icon="▶" color="red" />
+          <LinkButton href={song.links?.chart_source} label="View-count source" icon="📊" color="purple" />
+          <LinkButton href={song.links?.spotify_search} label="Spotify" icon="🎧" color="green" />
+          <LinkButton href={song.links?.apple_music_search} label="Apple Music" icon="♫" color="pink" />
           <LinkButton href={song.links?.wiki_search} label="Wikipedia" icon="📖" color="gray" />
         </div>
-        <p className="text-xs text-gray-400 mt-2">Links open YouTube search and Google — no direct video links.</p>
+        <p className="text-xs text-gray-400 mt-2">
+          Chart counts are snapshots and continue to change. Review the source for the latest total.
+        </p>
       </div>
     </div>
   );

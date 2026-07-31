@@ -20,8 +20,6 @@ function ModuleView({ module: mod, colour, onBack }) {
   const [quizAnswers, setQuizAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const quiz = mod.quiz || [];
-  const score = submitted ? quiz.filter((q, i) => quizAnswers[i] === q.a).length : 0;
-
   return (
     <div>
       <button onClick={onBack} className="mb-3 text-sm text-blue-600 hover:underline">← Back</button>

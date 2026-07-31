@@ -9,7 +9,7 @@ function LinkBar({ links }) {
   const items = [
     links.read_online && { href: links.read_online, label: '📖 Read Free', color: 'bg-green-100 text-green-700 border-green-200' },
     links.download_epub && { href: links.download_epub, label: '⬇ Download EPUB', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
-    links.open_library && { href: links.open_library, label: '🏛 Open Library', color: 'bg-blue-100 text-blue-700 border-blue-200' },
+    links.open_library && { href: links.open_library, label: '🏛 Find / Borrow', color: 'bg-blue-100 text-blue-700 border-blue-200' },
     links.google_books_search && { href: links.google_books_search, label: '🔍 Google Books', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
     links.video_summary && { href: links.video_summary, label: '▶ Video Review', color: 'bg-red-100 text-red-700 border-red-200' },
     links.podcast && { href: links.podcast, label: '🎙 Podcast', color: 'bg-purple-100 text-purple-700 border-purple-200' },
@@ -41,7 +41,7 @@ function BookDetail({ category, bookId, onBack }) {
     <div>
       <button onClick={onBack} className="mb-4 text-sm text-amber-600 hover:underline">← Back</button>
       <div className="flex items-start gap-3 mb-1">
-        <BookCover title={book.title} author={book.author} size="hero" />
+        <BookCover title={book.title} author={book.author} coverUrl={book.cover || book.cover_url} size="hero" />
         <div className="flex items-start gap-2 flex-1">
           <h2 className="text-2xl font-bold text-gray-800 flex-1">{book.title}</h2>
           <SpeakButton text={`${book.title}. ${book.summary}`} lang="en" />
@@ -114,7 +114,7 @@ function CategoryView({ category, onBack }) {
           {data.books?.map(book => (
             <button key={book.id} onClick={() => setSelectedBook(book.id)}
               className="text-left rounded-xl border-2 border-amber-200 bg-amber-50 p-4 hover:shadow-md transition-shadow flex gap-3">
-              <BookCover title={book.title} author={book.author} />
+              <BookCover title={book.title} author={book.author} coverUrl={book.cover || book.cover_url} />
               <div className="min-w-0 flex-1">
                 <p className="font-bold text-gray-800">{book.title}</p>
                 <p className="text-xs text-gray-500 mt-0.5">{book.author} · {book.year}</p>

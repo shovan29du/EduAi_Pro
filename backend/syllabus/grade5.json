@@ -20,7 +20,7 @@
       "video_resources": [
         {
           "title": "Multiplying Fractions",
-          "url": "https://www.bbc.co.uk/bitesize/math/cc-fifth-grade-math/cc-5th-fractions-topic",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-fractions-3",
           "description": "How to multiply two fractions together, step by step.",
           "thumbnail": "",
           "type": "video",
@@ -28,7 +28,7 @@
         },
         {
           "title": "Volume of Rectangular Prisms",
-          "url": "https://www.bbc.co.uk/bitesize/math/cc-fifth-grade-math/cc-5th-volume",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/5th-volume",
           "description": "Finding the volume of 3D shapes by counting unit cubes.",
           "thumbnail": "",
           "type": "video",
@@ -47,7 +47,7 @@
       "infographics": [
         {
           "title": "Fraction Wall Poster",
-          "url": "https://www.math-salamanders.com/fraction-chart.html",
+          "url": "https://www.math-salamanders.com/comparing-fractions-worksheet.html",
           "image": "",
           "source": "Math Salamanders",
           "description": "A free printable visual chart comparing common fractions.",
@@ -2413,7 +2413,7 @@
       "video_resources": [
         {
           "title": "Figurative Language: Metaphors and Similes",
-          "url": "https://www.bbc.co.uk/bitesize/topics/zd4cwmn",
+          "url": "https://www.khanacademy.org/humanities/grammar",
           "description": "Learn to spot and use metaphors and similes in writing.",
           "thumbnail": "",
           "type": "video",
@@ -4734,7 +4734,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize Science",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
+          "url": "https://www.khanacademy.org/science",
           "description": "Videos and activities covering plants, animals, materials, and forces.",
           "thumbnail": "",
           "type": "video",
@@ -5115,7 +5115,7 @@
       "infographics": [
         {
           "title": "The Water Cycle",
-          "url": "https://spaceplace.nasa.gov/water-cycle/",
+          "url": "https://gpm.nasa.gov/education/lesson-plans/water-cycle",
           "image": "",
           "source": "NASA Space Place",
           "description": "A visual diagram of how water moves through evaporation, condensation, and precipitation.",
@@ -13943,7 +13943,7 @@
       "infographics": [
         {
           "title": "The Seven Continents",
-          "url": "https://kids.nationalgeographic.com/geography/article/continents",
+          "url": "https://education.nationalgeographic.org/resource/Continent/",
           "image": "",
           "source": "National Geographic Kids",
           "description": "A visual map of Earth's seven continents.",
@@ -16421,7 +16421,7 @@
         },
         {
           "title": "Khan Academy: World History",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/world-history",
+          "url": "https://www.khanacademy.org/humanities/world-history",
           "description": "An overview of major civilisations and events across world history.",
           "thumbnail": "",
           "type": "video",
@@ -19206,7 +19206,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize Religious Studies: Islam",
-          "url": "https://www.bbc.co.uk/bitesize/topics/zb48q6f",
+          "url": "https://quran.com/",
           "description": "An introduction to the beliefs and practices of Islam, for school-age learners.",
           "thumbnail": "",
           "type": "video",
@@ -19345,7 +19345,7 @@
       "text_resources": [
         {
           "title": "BBC Bitesize Religious Studies",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
+          "url": "https://www.open.edu/openlearn/history-the-arts/religious-studies",
           "source": "BBC Bitesize",
           "safe": true
         },
@@ -22159,7 +22159,7 @@
       "video_resources": [
         {
           "title": "Code.org Courses",
-          "url": "https://code.org/courses",
+          "url": "https://studio.code.org/catalog",
           "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
           "thumbnail": "",
           "type": "video",
@@ -22175,7 +22175,7 @@
         },
         {
           "title": "Khan Academy: Computer Programming",
-          "url": "https://www.bbc.co.uk/bitesize/computing/computer-programming",
+          "url": "https://www.khanacademy.org/computing/computer-programming",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -28126,7 +28126,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize Art and Design",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "url": "https://www.tate.org.uk/kids",
           "description": "Videos and activities on drawing, painting, and design techniques.",
           "thumbnail": "",
           "type": "video",
@@ -28134,7 +28134,7 @@
         },
         {
           "title": "Khan Academy Art History",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/art-history",
+          "url": "https://www.khanacademy.org/humanities/art-history",
           "description": "An introduction to famous artists and artworks through history.",
           "thumbnail": "",
           "type": "video",
@@ -28241,7 +28241,7 @@
       "text_resources": [
         {
           "title": "BBC Bitesize Art and Design",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "url": "https://www.tate.org.uk/kids",
           "source": "BBC Bitesize",
           "safe": true
         },
@@ -31006,7 +31006,7 @@
       "video_resources": [
         {
           "title": "Khan Academy: Music",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/music",
+          "url": "https://www.classicsforkids.com/",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -45032,7 +45032,7 @@
       "video_resources": [
         {
           "title": "Khan Academy: US Government and Civics",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/us-government-and-civics",
+          "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
           "description": "Videos on how communities, citizenship, and government work.",
           "thumbnail": "",
           "type": "video",

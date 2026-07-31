@@ -111,6 +111,8 @@ export default function CMACollection() {
     return () => clearTimeout(t);
   }, [q, typeFilter, load]);
 
+  // Query and filter changes are intentionally handled by the debounced effect above.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { load(page, q, typeFilter); }, [page, load]);
 
   const totalPages = Math.ceil(data.total / PER_PAGE);

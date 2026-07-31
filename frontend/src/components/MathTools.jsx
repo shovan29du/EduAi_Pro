@@ -260,14 +260,117 @@ function GeometryCalculator() {
 }
 
 // ── Main ───────────────────────────────────────────────────────────────────
-const TOOLS = [
+const BASE_TOOLS = [
   { id: 'calculator', label: 'Scientific Calculator', emoji: '🔢', desc: 'Full scientific calculator with trig, log, and power functions' },
   { id: 'converter', label: 'Unit Converter', emoji: '⚖️', desc: 'Convert between length, mass, temperature, area, volume, and speed' },
   { id: 'geometry', label: 'Geometry Calculator', emoji: '📐', desc: 'Area, perimeter, surface area, and volume for 8 shapes' },
 ];
 
+const UTILITY_TOOLS = [
+  ['percentage','Percentage','%','Find a percentage of a value','Percentage,Value'],
+  ['change','Percentage Change','↗','Compare old and new values','Old value,New value'],
+  ['ratio','Ratio Simplifier','∶','Reduce a two-part ratio','First value,Second value'],
+  ['fraction','Fraction Converter','½','Convert a fraction to decimal','Numerator,Denominator'],
+  ['average','Mean & Median','x̄','Summarise a number list','Numbers (comma separated)'],
+  ['deviation','Standard Deviation','σ','Measure population spread','Numbers (comma separated)'],
+  ['probability','Probability','🎲','Favourable outcomes over total','Favourable outcomes,Total outcomes'],
+  ['combinations','Combinations','nCr','Calculate combinations','n,r'],
+  ['quadratic','Quadratic Solver','x²','Solve ax² + bx + c = 0','a,b,c'],
+  ['slope','Slope','📈','Slope between two coordinates','x1,y1,x2,y2'],
+  ['prime','Prime Factors','🔍','Factor a whole number','Whole number'],
+  ['gcd','GCD & LCM','∩','Greatest divisor and least multiple','First value,Second value'],
+  ['random','Random Number','🎯','Random whole number in a range','Minimum,Maximum'],
+  ['bmi','BMI','⚕','Body mass index estimate','Weight (kg),Height (cm)'],
+  ['tip','Tip & Bill Split','🍽','Split a bill including tip','Bill,Tip %,People'],
+  ['loan','Loan Payment','🏦','Estimate monthly repayments','Principal,Annual interest %,Years'],
+  ['compound','Compound Interest','💹','Project annual growth','Starting amount,Annual interest %,Years'],
+  ['savings','Savings Goal','🐖','Monthly amount needed','Goal,Current savings,Months'],
+  ['tax','VAT / Sales Tax','🧾','Add tax to a price','Net price,Tax %'],
+  ['discount','Discount','🏷','Find sale price and saving','Original price,Discount %'],
+  ['unit-price','Unit Price','🛒','Cost per item or unit','Total price,Quantity'],
+  ['break-even','Break-even','⚖','Units needed to cover costs','Fixed costs,Price per unit,Variable cost per unit'],
+  ['date-difference','Date Difference','🗓','Days between two dates','Start date,End date'],
+  ['time','Time Duration','⏱','Minutes between two clock times','Start time (HH:MM),End time (HH:MM)'],
+  ['speed','Speed','🚗','Distance divided by time','Distance (km),Time (hours)'],
+  ['pace','Running Pace','🏃','Minutes per kilometre','Distance (km),Time (minutes)'],
+  ['fuel','Fuel Economy','⛽','Consumption and efficiency','Distance (km),Fuel used (litres)'],
+  ['storage','Data Storage','💾','Convert bytes to KB, MB and GB','Bytes'],
+  ['grade','Weighted Grade','🎓','Average scores using weights','Scores (comma separated),Weights (comma separated)'],
+  ['text','Text Statistics','📝','Words, characters and reading time','Text'],
+  ['recipe','Recipe Scaler','🥣','Scale ingredient quantities','Original quantity,Original servings,New servings'],
+  ['aspect','Aspect Ratio','🖼','Resize while keeping proportions','Original width,Original height,New width'],
+].map(([id,label,emoji,desc,fields]) => ({ id,label,emoji,desc,fields:fields.split(',') }));
+
+const TOOLS = [...BASE_TOOLS, ...UTILITY_TOOLS];
+const num = value => Number(value) || 0;
+const list = value => String(value || '').split(/[,\s;]+/).map(Number).filter(Number.isFinite);
+const rounded = value => Number.isFinite(value) ? Number(value.toFixed(4)) : 'Not defined';
+const divisor = (a,b) => b ? divisor(b,a%b) : Math.abs(a);
+const factorial = value => { let out=1; for(let i=2;i<=Math.floor(num(value));i+=1) out*=i; return out; };
+
+function calculateUtility(id, raw) {
+  const v = raw.map(num); const [a,b,c,d] = v;
+  const results = {
+    percentage:()=>({Result:rounded(a*b/100)}),
+    change:()=>({Change:`${rounded((b-a)/a*100)}%`}),
+    ratio:()=>{const g=divisor(a,b)||1;return {Ratio:`${a/g}:${b/g}`};},
+    fraction:()=>({Decimal:rounded(a/b),Percentage:`${rounded(a/b*100)}%`}),
+    probability:()=>({Probability:rounded(a/b),Percentage:`${rounded(a/b*100)}%`}),
+    combinations:()=>({Combinations:rounded(factorial(a)/(factorial(b)*factorial(a-b)))}),
+    quadratic:()=>{const q=b*b-4*a*c;return q<0?{Result:'No real roots'}:{'Root 1':rounded((-b+Math.sqrt(q))/(2*a)),'Root 2':rounded((-b-Math.sqrt(q))/(2*a))};},
+    slope:()=>({Slope:rounded((d-b)/(c-a))}),
+    prime:()=>{let x=Math.abs(Math.floor(a)),f=[];for(let p=2;p*p<=x;p+=1)while(x%p===0){f.push(p);x/=p;}if(x>1)f.push(x);return {Factors:f.join(' × ')||'None'};},
+    gcd:()=>{const g=divisor(a,b);return {GCD:g,LCM:Math.abs(a*b)/(g||1)};},
+    random:()=>({Result:Math.floor(Math.random()*(b-a+1))+a}),
+    bmi:()=>{const x=a/(b/100)**2;return {BMI:rounded(x),Range:x<18.5?'Underweight':x<25?'Healthy range':x<30?'Overweight':'High'};},
+    tip:()=>({Total:rounded(a*(1+b/100)),'Per person':rounded(a*(1+b/100)/(c||1))}),
+    loan:()=>{const r=b/1200,m=c*12,p=r?a*r*(1+r)**m/((1+r)**m-1):a/m;return {'Monthly payment':rounded(p),'Total repaid':rounded(p*m)};},
+    compound:()=>({'Future value':rounded(a*(1+b/100)**c),Interest:rounded(a*(1+b/100)**c-a)}),
+    savings:()=>({'Save each month':rounded((a-b)/c)}),
+    tax:()=>({Tax:rounded(a*b/100),Total:rounded(a*(1+b/100))}),
+    discount:()=>({Saving:rounded(a*b/100),'Sale price':rounded(a*(1-b/100))}),
+    'unit-price':()=>({'Price per unit':rounded(a/b)}),
+    'break-even':()=>({'Break-even units':Math.ceil(a/(b-c))}),
+    speed:()=>({Speed:`${rounded(a/b)} km/h`}),
+    pace:()=>{const p=b/a;return {Pace:`${Math.floor(p)}:${String(Math.round(p%1*60)).padStart(2,'0')} min/km`};},
+    fuel:()=>({Consumption:`${rounded(b/a*100)} L/100 km`,Efficiency:`${rounded(a/b)} km/L`}),
+    storage:()=>({KB:rounded(a/1024),MB:rounded(a/1024**2),GB:rounded(a/1024**3)}),
+    recipe:()=>({'New quantity':rounded(a*c/b)}),
+    aspect:()=>({'New height':rounded(c*b/a),Ratio:`${a/(divisor(a,b)||1)}:${b/(divisor(a,b)||1)}`}),
+  };
+  if (id==='average'||id==='deviation'){const x=list(raw[0]),m=x.reduce((s,k)=>s+k,0)/x.length,sorted=[...x].sort((x,y)=>x-y),mid=(sorted[Math.floor((x.length-1)/2)]+sorted[Math.ceil((x.length-1)/2)])/2;return id==='average'?{Mean:rounded(m),Median:rounded(mid)}:{'Standard deviation':rounded(Math.sqrt(x.reduce((s,k)=>s+(k-m)**2,0)/x.length))};}
+  if(id==='grade'){const s=list(raw[0]),w=list(raw[1]);return {Grade:`${rounded(s.reduce((t,k,i)=>t+k*(w[i]||0),0)/(w.reduce((x,y)=>x+y,0)||1))}%`};}
+  if(id==='text'){const words=String(raw[0]||'').trim().split(/\s+/).filter(Boolean).length;return {Words:words,Characters:String(raw[0]||'').length,'Reading time':`${Math.max(1,Math.ceil(words/200))} min`};}
+  if(id==='date-difference')return {Days:rounded(Math.abs(new Date(raw[1])-new Date(raw[0]))/86400000)};
+  if(id==='time'){const mins=x=>{const [h,m]=String(x).split(':').map(Number);return h*60+m;};let diff=mins(raw[1])-mins(raw[0]);if(diff<0)diff+=1440;return {Duration:`${Math.floor(diff/60)} h ${diff%60} min`,Minutes:diff};}
+  return (results[id]||(()=>({Result:'Enter values'})))();
+}
+
+function UtilityCalculator({ definition }) {
+  const [values,setValues]=useState([]);
+  let result={}; try{result=calculateUtility(definition.id,values);}catch{result={Result:'Enter valid values'};}
+  return <div className="rounded-xl border p-5 dark:border-gray-700">
+    <div className="grid gap-3 sm:grid-cols-2">{definition.fields.map((label,index)=><label key={label} className="text-sm">
+      <span className="mb-1 block font-medium">{label}</span>
+      {definition.id==='text'?<textarea rows="5" value={values[index]||''} onChange={e=>{const next=[...values];next[index]=e.target.value;setValues(next);}} className="w-full rounded border px-3 py-2 dark:bg-gray-900" />:
+      <input value={values[index]||''} onChange={e=>{const next=[...values];next[index]=e.target.value;setValues(next);}} className="w-full rounded border px-3 py-2 dark:bg-gray-900" />}
+    </label>)}</div>
+    <div className="mt-5 rounded-lg bg-blue-50 p-4 dark:bg-blue-950">{Object.entries(result).map(([k,value])=><p key={k} className="flex justify-between gap-3"><span>{k}</span><strong>{String(value)}</strong></p>)}</div>
+  </div>;
+}
+
 export default function MathTools() {
   const [tool, setTool] = useState(null);
+  const [query, setQuery] = useState('');
+  const utility = UTILITY_TOOLS.find(item => item.id === tool);
+  if (utility) return (
+    <div className="max-w-3xl mx-auto p-4">
+      <button onClick={() => setTool(null)} className="mb-4 text-sm text-blue-600 hover:underline">← All Tools</button>
+      <h2 className="text-2xl font-bold mb-1">{utility.emoji} {utility.label}</h2>
+      <p className="mb-4 text-sm text-gray-500">{utility.desc}</p>
+      <UtilityCalculator definition={utility} />
+    </div>
+  );
   if (tool === 'calculator') return (
     <div className="max-w-3xl mx-auto p-4">
       <button onClick={() => setTool(null)} className="mb-4 text-sm text-blue-600 hover:underline">← All Tools</button>
@@ -291,10 +394,12 @@ export default function MathTools() {
   );
   return (
     <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-3xl font-bold text-blue-700 mb-1">🧮 Math Tools</h1>
-      <p className="text-gray-500 mb-6">Interactive calculators and converters for maths and science.</p>
-      <div className="grid sm:grid-cols-3 gap-4">
-        {TOOLS.map(t => (
+      <h1 className="text-3xl font-bold text-blue-700 mb-1">🧰 Tools</h1>
+      <p className="text-gray-500 mb-4">{TOOLS.length} practical tools for maths, study, money, health, time and daily life.</p>
+      <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search tools…"
+        className="mb-6 w-full rounded-xl border px-4 py-3 dark:border-gray-600 dark:bg-gray-900" aria-label="Search tools" />
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {TOOLS.filter(t => `${t.label} ${t.desc}`.toLowerCase().includes(query.toLowerCase())).map(t => (
           <button key={t.id} onClick={() => setTool(t.id)}
             className="text-left rounded-xl border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-sky-50 p-5 hover:shadow-lg transition-shadow">
             <p className="text-4xl mb-2">{t.emoji}</p>

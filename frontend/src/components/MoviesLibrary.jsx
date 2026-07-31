@@ -37,15 +37,29 @@ function genreColour(g) {
   return GENRE_COLOURS[g] || 'bg-gray-100 text-gray-700';
 }
 
+function movieThumbnail(movie) {
+  return movie.thumbnail_url || movie.preview_image;
+}
+
 function MovieCard({ movie, onClick }) {
   return (
     <button
       onClick={() => onClick(movie)}
       className="rounded-xl border bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow text-left w-full overflow-hidden"
     >
-      <div className="bg-gradient-to-br from-indigo-500 to-purple-600 h-28 flex flex-col items-center justify-center p-2">
-        <span className="text-4xl">🎬</span>
-        <span className="text-white text-xs font-semibold mt-1">{movie.year} · {movie.country.split('/')[0].trim()}</span>
+      <div className="bg-gradient-to-br from-indigo-500 to-purple-600 h-28 flex flex-col items-center justify-center p-2 relative overflow-hidden">
+        {movieThumbnail(movie) && (
+          <img src={movieThumbnail(movie)} alt="" className="absolute inset-0 w-full h-full object-cover" />
+        )}
+        <span className={movieThumbnail(movie) ? 'hidden' : 'text-4xl'}>🎬</span>
+        <span className="relative bg-black/60 text-white text-xs font-semibold mt-auto px-2 py-0.5 rounded">
+          {movie.year} · {movie.country.split('/')[0].trim()}
+        </span>
+        {movie.all_time_list_position && (
+          <span className="absolute top-2 left-2 bg-amber-400 text-amber-950 text-xs font-bold px-2 py-0.5 rounded-full">
+            Top 200 #{movie.all_time_list_position}
+          </span>
+        )}
       </div>
       <div className="p-3">
         <p className="font-semibold text-sm line-clamp-2 dark:text-gray-100">{movie.title}</p>
@@ -105,9 +119,12 @@ function MovieModal({ movie, onClose }) {
             />
           </div>
         ) : (
-          <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl h-36 flex flex-col items-center justify-center mb-4">
-            <span className="text-6xl">🎬</span>
-            <span className="text-white font-semibold mt-1">{movie.language}</span>
+          <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl h-56 flex flex-col items-center justify-center mb-4 relative overflow-hidden">
+            {movieThumbnail(movie) && (
+              <img src={movieThumbnail(movie)} alt="" className="absolute inset-0 w-full h-full object-cover" />
+            )}
+            <span className={movieThumbnail(movie) ? 'hidden' : 'text-6xl'}>🎬</span>
+            <span className={movieThumbnail(movie) ? 'hidden' : 'text-white font-semibold mt-1'}>{movie.language}</span>
           </div>
         )}
 
@@ -200,6 +217,36 @@ function MovieModal({ movie, onClose }) {
         </div>
         {isArchive && <p className="text-xs text-green-600 dark:text-green-400 mt-1">✅ Free to watch — Internet Archive public domain</p>}
         <p className="text-xs text-gray-400 mt-1">Source: {movie.source}</p>
+        {movie.links && (
+          <div className="mt-4 border-t pt-4">
+            <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+              Film research and platform searches
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                ['bfi', 'BFI record'], ['imdb', 'IMDb'], ['tmdb', 'TMDB'],
+                ['rotten_tomatoes', 'Rotten Tomatoes'], ['letterboxd', 'Letterboxd'],
+                ['wikipedia', 'Wikipedia'], ['justwatch', 'JustWatch'],
+                ['netflix', 'Netflix'], ['prime_video', 'Prime Video'],
+                ['apple_tv', 'Apple TV'], ['youtube_movies', 'YouTube Movies'],
+                ['bfi_player', 'BFI Player'],
+              ].filter(([key]) => movie.links[key]).map(([key, label]) => (
+                <a
+                  key={key}
+                  href={movie.links[key]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg border bg-gray-50 dark:bg-gray-800 px-3 py-1.5 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100"
+                >
+                  {label} ↗
+                </a>
+              ))}
+            </div>
+            <p className="text-xs text-gray-400 mt-2">
+              Platform links are searches, not claims of current subscription availability.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -265,7 +312,7 @@ export default function MoviesLibrary() {
   return (
     <div className="space-y-4">
       <div className="rounded-xl bg-gradient-to-r from-red-600 to-purple-700 p-4 text-white">
-        <h2 className="text-xl font-bold">🎬 World Cinema for Kids</h2>
+        <h2 className="text-xl font-bold">🎬 World Cinema</h2>
         <p className="text-sm opacity-90">Children-friendly films from around the world · Public domain &amp; official sources</p>
       </div>
 

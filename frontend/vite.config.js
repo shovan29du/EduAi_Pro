@@ -53,6 +53,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': process.env.BACKEND_URL || 'http://localhost:8000',
+      '/movie-thumbnails': process.env.BACKEND_URL || 'http://localhost:8000',
     },
   },
   build: {

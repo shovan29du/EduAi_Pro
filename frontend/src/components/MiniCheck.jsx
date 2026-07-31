@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
-export default function MiniCheck({ question, onPassed }) {
+export default function MiniCheck({ question, onPassed, onAnswered }) {
   const [answer, setAnswer] = useState('');
   const [feedback, setFeedback] = useState(null);
 
   function check(value) {
     const correct = String(value).trim().toLowerCase() === String(question.answer).trim().toLowerCase();
+    onAnswered?.({ correct, answer: value, expectedAnswer: question.answer });
     if (correct) {
       setFeedback('correct');
       onPassed();

@@ -45,14 +45,14 @@ async function findCoverUrl(title, author) {
  * services -- rather than guessing an ISBN or direct image URL. If neither
  * has a match, a plain book-emoji placeholder is shown instead.
  */
-export default function BookCover({ title, author, size = 'list' }) {
+export default function BookCover({ title, author, size = 'list', coverUrl = '' }) {
   const key = `${title || ''}|${author || ''}`;
-  const [src, setSrc] = useState(coverCache[key] && coverCache[key] !== 'loading' ? coverCache[key] : null);
+  const [src, setSrc] = useState(coverUrl || (coverCache[key] && coverCache[key] !== 'loading' ? coverCache[key] : null));
   const mounted = useRef(true);
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
 
   useEffect(() => {
-    if (!title) return;
+    if (!title || coverUrl) return;
     if (coverCache[key] && coverCache[key] !== 'loading') {
       setSrc(coverCache[key] || null);
       return;
@@ -64,15 +64,32 @@ export default function BookCover({ title, author, size = 'list' }) {
         if (mounted.current && url) setSrc(url);
       })
       .catch(() => { coverCache[key] = ''; });
-  }, [key, title, author]);
+  }, [key, title, author, coverUrl]);
 
   const dims = size === 'hero' ? 'w-28 h-40' : 'w-14 h-20';
+  const palettes = [
+    ['#312e81', '#7c3aed'], ['#7f1d1d', '#e11d48'], ['#064e3b', '#0d9488'],
+    ['#78350f', '#d97706'], ['#1e3a8a', '#0284c7'], ['#4a044e', '#c026d3'],
+  ];
+  const hash = [...key].reduce((total, char) => (total * 31 + char.charCodeAt(0)) >>> 0, 0);
+  const [from, to] = palettes[hash % palettes.length];
 
   return (
     <div className={`${dims} flex-shrink-0 rounded-md overflow-hidden bg-gray-100 border border-gray-200 flex items-center justify-center`}>
       {src
-        ? <img src={src} alt="" className="w-full h-full object-cover" onError={() => setSrc(null)} />
-        : <span className={size === 'hero' ? 'text-4xl' : 'text-2xl'}>📕</span>
+        ? <img src={src} alt={`Cover of ${title}`} className="w-full h-full object-cover" onError={() => setSrc(null)} />
+        : (
+          <div
+            role="img"
+            aria-label={`Generated cover for ${title}`}
+            className="flex h-full w-full flex-col justify-between p-1.5 text-white"
+            style={{ background: `linear-gradient(145deg, ${from}, ${to})` }}
+          >
+            <span className={`${size === 'hero' ? 'text-[10px]' : 'text-[6px]'} uppercase tracking-widest opacity-75`}>EduAI Library</span>
+            <span className={`${size === 'hero' ? 'text-sm' : 'text-[8px]'} line-clamp-4 text-center font-bold leading-tight`}>{title}</span>
+            <span className={`${size === 'hero' ? 'text-[9px]' : 'text-[6px]'} line-clamp-2 text-center opacity-80`}>{author || 'Open Collection'}</span>
+          </div>
+        )
       }
     </div>
   );

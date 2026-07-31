@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const API = '/api';
 const STATUS_OPTS = [
@@ -31,13 +31,13 @@ export default function AttendanceTracker() {
     }).catch(() => {});
   }, []);
 
-  const load = () => {
+  const load = useCallback(() => {
     if (!child) return;
     fetch(`${API}/parent/attendance/${child}`).then(r => r.json()).then(d => setRecords(d.records || []));
     fetch(`${API}/parent/attendance/${child}/summary`).then(r => r.json()).then(setSummary);
-  };
+  }, [child]);
 
-  useEffect(() => { load(); }, [child]);
+  useEffect(() => { load(); }, [load]);
 
   const handleAdd = async () => {
     setSaving(true);

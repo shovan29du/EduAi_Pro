@@ -95,7 +95,7 @@ async function checkGeneral(url) {
 }
 
 async function checkUrl(rec) {
-  const { url, key } = rec;
+  const { url } = rec;
 
   // YouTube search links — structural check only (search always works)
   if (url.includes('youtube.com/results?search_query=') && url.length > 50) return { ok: true };

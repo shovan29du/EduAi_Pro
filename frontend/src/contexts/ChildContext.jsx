@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 const ChildContext = createContext(null);
 
 // Static fallback — overridden once /api/users responds
-let _parentProfiles = ['Parent', 'Shovan', 'Bely'];
+let _parentProfiles = ['Shovan'];
 
 export function isParentProfile(child) {
   return _parentProfiles.includes(child);
@@ -14,9 +14,7 @@ export function getParentProfiles() {
 }
 
 export function ChildProvider({ children }) {
-  // No child profiles ship by default (see backend/app/storage.py) -- default to the
-  // always-present Parent oversight profile until a real learner profile is added/selected.
-  const [child, setChild] = useState(() => localStorage.getItem('selectedChild') || 'Parent');
+  const [child, setChild] = useState('Shovan');
   const [isRestricted, setIsRestricted] = useState(
     () => localStorage.getItem('isRestricted') === 'true'
   );
@@ -47,6 +45,7 @@ export function ChildProvider({ children }) {
   });
 
   useEffect(() => {
+    if (child !== 'Shovan') setChild('Shovan');
     localStorage.setItem('selectedChild', child);
   }, [child]);
 

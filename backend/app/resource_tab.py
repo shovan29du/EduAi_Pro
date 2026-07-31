@@ -7,6 +7,7 @@ the existing local syllabus JSON files."""
 import json
 import re
 import uuid
+import zipfile
 from io import BytesIO
 from pathlib import Path
 
@@ -21,7 +22,10 @@ RESOURCE_TAB_DIR = BASE_DIR / "data" / "resource_tab"
 RESOURCE_TAB_DIR.mkdir(parents=True, exist_ok=True)
 INDEX_PATH = RESOURCE_TAB_DIR / "index.json"
 
-ALLOWED_EXTENSIONS = {".pdf", ".docx", ".txt"}
+ALLOWED_EXTENSIONS = {
+    ".pdf", ".docx", ".txt", ".md", ".rtf", ".html", ".htm",
+    ".epub", ".mobi", ".azw", ".azw3", ".kfx", ".fb2", ".odt",
+}
 
 _STOPWORDS = {
     "the", "a", "an", "and", "or", "but", "if", "of", "to", "in", "on", "for",
@@ -32,8 +36,13 @@ _STOPWORDS = {
 
 
 def _extract_text(filename: str, contents: bytes, ext: str) -> str:
-    if ext == ".txt":
-        return contents.decode("utf-8", errors="ignore")
+    if ext in {".txt", ".md", ".rtf", ".html", ".htm", ".fb2"}:
+        text = contents.decode("utf-8", errors="ignore")
+        if ext == ".rtf":
+            return re.sub(r"\\[a-z]+-?\d* ?|[{}]", " ", text)
+        if ext in {".html", ".htm", ".fb2"}:
+            return re.sub(r"<[^>]+>", " ", text)
+        return text
     if ext == ".pdf":
         try:
             reader = PdfReader(BytesIO(contents))
@@ -45,6 +54,17 @@ def _extract_text(filename: str, contents: bytes, ext: str) -> str:
             document = Document(BytesIO(contents))
             return "\n".join(p.text for p in document.paragraphs)
         except Exception:
+            return ""
+    if ext in {".epub", ".odt"}:
+        try:
+            pieces = []
+            with zipfile.ZipFile(BytesIO(contents)) as archive:
+                for name in archive.namelist():
+                    if name.lower().endswith((".xhtml", ".html", ".htm", "content.xml")):
+                        raw = archive.read(name).decode("utf-8", errors="ignore")
+                        pieces.append(re.sub(r"<[^>]+>", " ", raw))
+            return "\n".join(pieces)
+        except (OSError, zipfile.BadZipFile):
             return ""
     return ""
 

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
+import { fetchPersonalizedProfile, recordLearningEvidence } from '../api/personalized.js';
 
 // SM-2-lite spaced repetition: each question gets an interval (in days) that
 // grows on a correct answer and resets on a miss, with a "due" timestamp
@@ -44,49 +45,88 @@ function orderBySchedule(questions, schedule) {
   });
 }
 
-export default function PracticeQuiz({ subjectName, questions }) {
+function questionText(question) {
+  return question.question || question.q || question.prompt || 'Practice question';
+}
+
+function inferConcept(question, concepts) {
+  const explicit = question.concept || question.skill || question.topic;
+  if (explicit) return explicit;
+  const prompt = questionText(question).toLowerCase();
+  return concepts.find((concept) => prompt.includes(concept.toLowerCase())) || concepts[0] || 'General practice';
+}
+
+export default function PracticeQuiz({ subjectName, questions, levelId = '1', concepts = [] }) {
   const { child } = useChild();
   const [schedule, setSchedule] = useState(() => loadSchedule(child, subjectName));
   const [answers, setAnswers] = useState({});
   const [feedback, setFeedback] = useState({});
+  const [targetDifficulty, setTargetDifficulty] = useState(1);
+  const safeQuestions = questions || [];
 
-  if (!questions?.length) return null;
+  useEffect(() => {
+    fetchPersonalizedProfile(child, levelId, subjectName)
+      .then((profile) => setTargetDifficulty(profile.next_lesson?.difficulty || 1))
+      .catch(() => setTargetDifficulty(1));
+  }, [child, levelId, subjectName]);
 
-  const ordered = orderBySchedule(questions, schedule);
+  const ordered = useMemo(() => {
+    const scheduled = orderBySchedule(safeQuestions, schedule);
+    return scheduled.sort((a, b) => {
+      const aDifficulty = Number(a.difficulty || targetDifficulty);
+      const bDifficulty = Number(b.difficulty || targetDifficulty);
+      return Math.abs(aDifficulty - targetDifficulty) - Math.abs(bDifficulty - targetDifficulty);
+    });
+  }, [safeQuestions, schedule, targetDifficulty]);
   const now = Date.now();
+
+  if (!safeQuestions.length) return null;
 
   function checkAnswer(question, given) {
     const correct = String(given).trim().toLowerCase() === String(question.answer).trim().toLowerCase();
-    setFeedback((prev) => ({ ...prev, [question.question]: correct ? 'correct' : 'incorrect' }));
+    const prompt = questionText(question);
+    setFeedback((prev) => ({ ...prev, [prompt]: correct ? 'correct' : 'incorrect' }));
     setSchedule((prev) => {
-      const intervalIndex = nextIntervalIndex(prev[question.question], correct);
+      const intervalIndex = nextIntervalIndex(prev[prompt], correct);
       const next = {
         ...prev,
-        [question.question]: { intervalIndex, due: dueDate(intervalIndex), lastCorrect: correct },
+        [prompt]: { intervalIndex, due: dueDate(intervalIndex), lastCorrect: correct },
       };
       saveSchedule(child, subjectName, next);
       return next;
     });
+    recordLearningEvidence(child, {
+      level_id: String(levelId),
+      subject: subjectName,
+      concept: inferConcept(question, concepts),
+      correct,
+      question_id: prompt,
+      answer: String(given),
+      expected_answer: String(question.answer),
+      confidence: 1,
+    }).then((result) => setTargetDifficulty(result.difficulty)).catch(() => {});
   }
 
   return (
     <div className="space-y-3">
       <p className="text-sm text-gray-600 dark:text-gray-400">
         Questions are shown in review order: ones you missed (or haven't tried) come first, and
-        ones you've gotten right recently are spaced further apart.
+        ones you've gotten right recently are spaced further apart. Current adaptive difficulty:
+        {' '}{targetDifficulty}/5.
       </p>
       {ordered.map((q) => {
-        const record = schedule[q.question];
+        const prompt = questionText(q);
+        const record = schedule[prompt];
         const isDueReview = record && !record.lastCorrect;
         const isFutureReview = record && record.lastCorrect && record.due > now;
-        const result = feedback[q.question];
+        const result = feedback[prompt];
         return (
           <div
-            key={q.question}
+            key={prompt}
             className={`rounded border p-3 dark:border-gray-700 ${isDueReview ? 'border-orange-500' : ''}`}
           >
             <p className="font-medium">
-              Practice Question: {q.question}{' '}
+              Practice Question: {prompt}{' '}
               {isDueReview && <span className="text-orange-600">(due for review)</span>}
               {isFutureReview && <span className="text-green-600">(reviewed — spaced out)</span>}
             </p>
@@ -96,11 +136,11 @@ export default function PracticeQuiz({ subjectName, questions }) {
                   <label key={opt} className="block text-sm">
                     <input
                       type="radio"
-                      name={`practice-${q.question}`}
+                      name={`practice-${prompt}`}
                       value={opt}
-                      checked={answers[q.question] === opt}
+                      checked={answers[prompt] === opt}
                       onChange={() => {
-                        setAnswers((prev) => ({ ...prev, [q.question]: opt }));
+                        setAnswers((prev) => ({ ...prev, [prompt]: opt }));
                         checkAnswer(q, opt);
                       }}
                     />{' '}
@@ -113,13 +153,13 @@ export default function PracticeQuiz({ subjectName, questions }) {
                 className="mt-2 flex items-center gap-2"
                 onSubmit={(e) => {
                   e.preventDefault();
-                  checkAnswer(q, answers[q.question] || '');
+                  checkAnswer(q, answers[prompt] || '');
                 }}
               >
                 <input
                   type="text"
-                  value={answers[q.question] || ''}
-                  onChange={(e) => setAnswers((prev) => ({ ...prev, [q.question]: e.target.value }))}
+                  value={answers[prompt] || ''}
+                  onChange={(e) => setAnswers((prev) => ({ ...prev, [prompt]: e.target.value }))}
                   className="rounded border px-2 py-1 text-sm dark:bg-gray-800 dark:text-white"
                 />
                 <button type="submit" className="rounded border px-2 py-1 text-sm">

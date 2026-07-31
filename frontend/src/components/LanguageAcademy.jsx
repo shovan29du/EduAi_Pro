@@ -46,7 +46,9 @@ export default function LanguageAcademy() {
         setSentences(langRes.common_sentences || []);
       }
       setQuizData(quizRes.quiz || []);
-    } catch {}
+    } catch {
+      // The language panel remains usable with its current empty state if loading fails.
+    }
     setLoading(false);
   }
 

@@ -20,7 +20,7 @@
       "video_resources": [
         {
           "title": "Precalculus",
-          "url": "https://www.bbc.co.uk/bitesize/math/precalculus",
+          "url": "https://www.khanacademy.org/math/precalculus",
           "description": "Complex numbers, trigonometric functions, vectors, matrices, and conic sections.",
           "thumbnail": "",
           "type": "video",
@@ -28,7 +28,7 @@
         },
         {
           "title": "Geometry",
-          "url": "https://www.bbc.co.uk/bitesize/math/geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
           "description": "Angles, shapes, area, and the Pythagorean theorem.",
           "thumbnail": "",
           "type": "video",
@@ -47,7 +47,7 @@
       "infographics": [
         {
           "title": "Order of Operations Poster",
-          "url": "https://www.math-salamanders.com/order-of-operations-worksheets.html",
+          "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations",
           "image": "",
           "source": "Math Salamanders",
           "description": "A free visual guide to the order of operations (PEMDAS/BODMAS).",
@@ -3825,7 +3825,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize GCSE English Language and Literature",
-          "url": "https://www.bbc.co.uk/bitesize/examspecs/z8xgm34",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zr9d7ty",
           "description": "GCSE-level English language and literature study resources.",
           "thumbnail": "",
           "type": "video",
@@ -7576,7 +7576,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize GCSE Chemistry",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z33rkqt",
+          "url": "https://www.khanacademy.org/science/hs-chemistry",
           "description": "GCSE-level chemistry videos on atomic structure, bonding, and reactions.",
           "thumbnail": "",
           "type": "video",
@@ -12343,7 +12343,7 @@
         },
         {
           "title": "Khan Academy: Geography",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/geography",
+          "url": "https://education.nationalgeographic.org/",
           "description": "An introduction to physical and human geography concepts.",
           "thumbnail": "",
           "type": "video",
@@ -18806,7 +18806,7 @@
       "infographics": [
         {
           "title": "Plate Tectonics Map",
-          "url": "https://kids.nationalgeographic.com/geography/article/plate-tectonics",
+          "url": "https://education.nationalgeographic.org/resource/plate-tectonics/",
           "image": "",
           "source": "National Geographic Kids",
           "description": "A visual map of Earth's tectonic plates and how they move.",
@@ -22909,7 +22909,7 @@
         },
         {
           "title": "Khan Academy: World History",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/world-history",
+          "url": "https://www.khanacademy.org/humanities/world-history",
           "description": "An overview of major civilisations and events across world history.",
           "thumbnail": "",
           "type": "video",
@@ -22917,7 +22917,7 @@
         },
         {
           "title": "Khan Academy: World History Project (AP)",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/world-history-project-ap",
+          "url": "https://www.khanacademy.org/humanities/world-history-project-ap",
           "description": "A college-level overview of world history from 1200 CE to the present.",
           "thumbnail": "",
           "type": "video",
@@ -27449,7 +27449,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize Religious Studies: Islam",
-          "url": "https://www.bbc.co.uk/bitesize/topics/zb48q6f",
+          "url": "https://quran.com/",
           "description": "An introduction to the beliefs and practices of Islam, for school-age learners.",
           "thumbnail": "",
           "type": "video",
@@ -27652,7 +27652,7 @@
       "text_resources": [
         {
           "title": "BBC Bitesize Religious Studies",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
+          "url": "https://www.open.edu/openlearn/history-the-arts/religious-studies",
           "source": "BBC Bitesize",
           "safe": true
         },
@@ -32028,7 +32028,7 @@
       "video_resources": [
         {
           "title": "Code.org Courses",
-          "url": "https://code.org/courses",
+          "url": "https://studio.code.org/catalog",
           "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
           "thumbnail": "",
           "type": "video",
@@ -32044,7 +32044,7 @@
         },
         {
           "title": "Khan Academy: Computer Programming",
-          "url": "https://www.bbc.co.uk/bitesize/computing/computer-programming",
+          "url": "https://www.khanacademy.org/computing/computer-programming",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -41211,7 +41211,7 @@
       "video_resources": [
         {
           "title": "BBC Bitesize Art and Design",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "url": "https://www.tate.org.uk/kids",
           "description": "Videos and activities on drawing, painting, and design techniques.",
           "thumbnail": "",
           "type": "video",
@@ -41219,7 +41219,7 @@
         },
         {
           "title": "Khan Academy Art History",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/art-history",
+          "url": "https://www.khanacademy.org/humanities/art-history",
           "description": "An introduction to famous artists and artworks through history.",
           "thumbnail": "",
           "type": "video",
@@ -41414,7 +41414,7 @@
       "text_resources": [
         {
           "title": "BBC Bitesize Art and Design",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "url": "https://www.tate.org.uk/kids",
           "source": "BBC Bitesize",
           "safe": true
         },
@@ -45759,7 +45759,7 @@
       "video_resources": [
         {
           "title": "Khan Academy: Music",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/music",
+          "url": "https://www.classicsforkids.com/",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -68286,7 +68286,7 @@
       "video_resources": [
         {
           "title": "Khan Academy: US Government and Civics",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/us-government-and-civics",
+          "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
           "description": "Videos on how communities, citizenship, and government work.",
           "thumbnail": "",
           "type": "video",
@@ -68294,7 +68294,7 @@
         },
         {
           "title": "Khan Academy: AP US Government & Politics",
-          "url": "https://www.bbc.co.uk/bitesize/humanities/ap-us-government-and-politics",
+          "url": "https://www.khanacademy.org/humanities/ap-us-government-and-politics",
           "description": "A deeper look at constitutional government, institutions, and civic participation.",
           "thumbnail": "",
           "type": "video",
@@ -77163,19 +77163,19 @@
       "video_resources": [
         {
           "title": "AP Macroeconomics",
-          "url": "https://www.bbc.co.uk/bitesize/economics-finance-domain/ap-macroeconomics",
+          "url": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics",
           "source": "Khan Academy",
           "safe": true
         },
         {
           "title": "AP Microeconomics",
-          "url": "https://www.bbc.co.uk/bitesize/economics-finance-domain/ap-microeconomics",
+          "url": "https://www.khanacademy.org/economics-finance-domain/ap-microeconomics",
           "source": "Khan Academy",
           "safe": true
         },
         {
           "title": "Khan Academy: Economics & Finance",
-          "url": "https://www.bbc.co.uk/bitesize/economics-finance-domain",
+          "url": "https://www.khanacademy.org/economics-finance-domain",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -81736,13 +81736,13 @@
       "video_resources": [
         {
           "title": "Personal Finance",
-          "url": "https://www.bbc.co.uk/bitesize/college-careers-more/personal-finance",
+          "url": "https://www.khanacademy.org/college-careers-more/financial-literacy",
           "source": "Khan Academy",
           "safe": true
         },
         {
           "title": "Khan Academy: Economics & Finance",
-          "url": "https://www.bbc.co.uk/bitesize/economics-finance-domain",
+          "url": "https://www.khanacademy.org/economics-finance-domain",
           "description": "Specific course page with real instructional videos for this discipline.",
           "type": "video",
           "safe": true
@@ -90671,13 +90671,13 @@
       "video_resources": [
         {
           "title": "Physics",
-          "url": "https://www.bbc.co.uk/bitesize/science/physics",
+          "url": "https://www.khanacademy.org/science/highschool-physics",
           "source": "Khan Academy",
           "safe": true
         },
         {
           "title": "AP Physics 1",
-          "url": "https://www.bbc.co.uk/bitesize/science/ap-physics-1",
+          "url": "https://www.khanacademy.org/science/ap-college-physics-1",
           "source": "Khan Academy",
           "safe": true
         },
@@ -95185,7 +95185,7 @@
       "video_resources": [
         {
           "title": "Chemistry",
-          "url": "https://www.bbc.co.uk/bitesize/science/chemistry",
+          "url": "https://www.khanacademy.org/science/hs-chemistry",
           "source": "Khan Academy",
           "safe": true
         },
@@ -99524,7 +99524,7 @@
       "video_resources": [
         {
           "title": "Biology",
-          "url": "https://www.bbc.co.uk/bitesize/science/biology",
+          "url": "https://www.khanacademy.org/science/high-school-biology",
           "source": "Khan Academy",
           "safe": true
         },

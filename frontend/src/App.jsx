@@ -24,7 +24,7 @@ import UpdatePrompt from './components/UpdatePrompt.jsx';
 import LevelSelector from './components/LevelSelector.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
-import { fetchLevel } from './api/level.js';
+import { fetchLevel, fetchLevelOverview, fetchLevelSubject } from './api/level.js';
 
 const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
 const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
@@ -61,14 +61,15 @@ const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
 const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
 const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
 const Civics = lazy(() => import('./components/Civics.jsx'));
-const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
+const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
 
 const CHILD_TABS = [
+  'Professional',
   'Subjects',
   'Library',
   'Search',
@@ -84,11 +85,10 @@ const CHILD_TABS = [
   'World Lit',
   'Critical Thinking',
   'Survival Skills',
-  'Brain Teasers',
   'Environment',
   'World Politics',
   'World Religions',
-  'Math Tools',
+  'Tools',
   'Health',
   'Business',
   'Civics',
@@ -106,8 +106,7 @@ const CHILD_TABS = [
   'Appearance',
   'Resource Tab',
 ];
-// Shovan & Bely get everything: all child tabs + parent admin tabs
-const SHOVAN_BELY_TABS = [
+const SHOVAN_TABS = [
   ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
   'Overview', 'Attendance', 'Curate', 'Resource Tab',
 ];
@@ -117,8 +116,8 @@ const PARENT_TABS = ['Overview', 'Attendance', 'Library', 'Search', 'Curate', 'U
 export default function App() {
   const { child } = useChild();
   const isParent = isParentProfile(child);
-  const isShovanOrBely = child === 'Shovan' || child === 'Bely';
-  const tabs = isShovanOrBely ? SHOVAN_BELY_TABS : isParent ? PARENT_TABS : CHILD_TABS;
+  const isShovan = child === 'Shovan';
+  const tabs = isShovan ? SHOVAN_TABS : isParent ? PARENT_TABS : CHILD_TABS;
 
   // `level` drives the main learning flow (school Grade 1-10, College C1-C2,
   // Undergraduate UG1-UG4, or Master's M1-M2). `standard` is the legacy
@@ -128,6 +127,9 @@ export default function App() {
   const [level, setLevel] = useState('1');
   const [standard, setStandard] = useState(1);
   const [grade, setGrade] = useState(null);
+  const [fullGrade, setFullGrade] = useState(null);
+  const [subjectData, setSubjectData] = useState(null);
+  const [subjectLoading, setSubjectLoading] = useState(false);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState(tabs[0]);
@@ -137,7 +139,7 @@ export default function App() {
     if (!tabs.includes(activeTab)) {
       setActiveTab(tabs[0]);
     }
-  }, [isParent, isShovanOrBely]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [isParent, isShovan]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const asNumber = parseInt(level, 10);
@@ -149,7 +151,9 @@ export default function App() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    fetchLevel(level)
+    setFullGrade(null);
+    setSubjectData(null);
+    fetchLevelOverview(level)
       .then((data) => {
         setGrade(data);
         setActiveSubject(Object.keys(data.subjects || {})[0] || null);
@@ -163,11 +167,40 @@ export default function App() {
       });
   }, [level]);
 
+  useEffect(() => {
+    if (activeTab !== 'Subjects' || !activeSubject) return undefined;
+    let cancelled = false;
+    setSubjectLoading(true);
+    setSubjectData(null);
+    fetchLevelSubject(level, activeSubject)
+      .then((payload) => {
+        if (!cancelled) setSubjectData(payload.subject);
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err.message);
+      })
+      .finally(() => {
+        if (!cancelled) setSubjectLoading(false);
+      });
+    return () => { cancelled = true; };
+  }, [activeTab, activeSubject, level]);
+
+  useEffect(() => {
+    if (!['Library', 'Games', 'Fact of the Day'].includes(activeTab) || fullGrade) return undefined;
+    let cancelled = false;
+    fetchLevel(level).then((data) => {
+      if (!cancelled) setFullGrade(data);
+    }).catch((err) => {
+      if (!cancelled) setError(err.message);
+    });
+    return () => { cancelled = true; };
+  }, [activeTab, fullGrade, level]);
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <Header />
       <UpdatePrompt />
-      <main className="mx-auto max-w-5xl space-y-6 p-4">
+      <main className="mx-auto max-w-[1600px] space-y-6 p-4 lg:px-8">
         <LevelSelector level={level} onChange={setLevel} />
         <Suspense fallback={<LoadingSpinner />}>
           <ProgressDashboard />
@@ -220,11 +253,12 @@ export default function App() {
                   ))}
                 </div>
               </div>
-              {activeSubject && grade.subjects[activeSubject] && (
+              {subjectLoading && <LoadingSpinner />}
+              {activeSubject && subjectData && (
                 <SubjectLessons
                   key={activeSubject}
                   subjectName={activeSubject}
-                  subject={grade.subjects[activeSubject]}
+                  subject={subjectData}
                   standard={level}
                   onChangeGrade={(g) => setLevel(String(g))}
                 />
@@ -232,7 +266,11 @@ export default function App() {
             </div>
           )}
 
-          {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
+          {activeTab === 'Professional' && <ProfessionalWorkspace level={level} />}
+
+          {!loading && !error && activeTab === 'Library' && (
+            fullGrade ? <ResourceLibrary grade={fullGrade} /> : <LoadingSpinner />
+          )}
 
           {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
 
@@ -244,7 +282,9 @@ export default function App() {
 
           {activeTab === 'Study Timer' && <StudyTimer />}
 
-          {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
+          {activeTab === 'Fact of the Day' && (
+            fullGrade ? <FactOfTheDay grade={fullGrade} /> : <LoadingSpinner />
+          )}
 
           {activeTab === 'History of the Day' && <HistoryOfTheDay />}
 
@@ -255,7 +295,7 @@ export default function App() {
 
           {activeTab === 'Karaoke' && <KaraokeCentre />}
 
-          {activeTab === 'Games' && <Games grade={grade} />}
+          {activeTab === 'Games' && (fullGrade ? <Games grade={fullGrade} /> : <LoadingSpinner />)}
 
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 
@@ -279,12 +319,11 @@ export default function App() {
 {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
           {activeTab === 'Critical Thinking' && <CriticalThinking />}
           {activeTab === 'Survival Skills' && <SurvivalSkills />}
-          {activeTab === 'Brain Teasers' && <BrainTeasers />}
           {activeTab === 'Environment' && <EnvironmentalScience />}
           {activeTab === 'World Politics' && <WorldPolitics />}
           {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'World Cinema' && <MoviesLibrary />}
-          {activeTab === 'Math Tools' && <MathTools />}
+          {activeTab === 'Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}
           {activeTab === 'Civics' && <Civics />}

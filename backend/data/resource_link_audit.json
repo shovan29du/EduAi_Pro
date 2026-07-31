@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-07-26T19:28:17.936709+00:00",
+  "syllabus_files": 18,
+  "url_occurrences_checked": 110993,
+  "unique_urls_checked": 67902,
+  "unique_hosts": 84,
+  "malformed_urls": [],
+  "top_hosts": [
+    [
+      "www.youtube.com",
+      32997
+    ],
+    [
+      "en.wikipedia.org",
+      12888
+    ],
+    [
+      "www.coursera.org",
+      6692
+    ],
+    [
+      "www.pinterest.com",
+      2926
+    ],
+    [
+      "commons.wikimedia.org",
+      2510
+    ],
+    [
+      "ocw.mit.edu",
+      2296
+    ],
+    [
+      "kids.kiddle.co",
+      1444
+    ],
+    [
+      "www.investopedia.com",
+      1269
+    ],
+    [
+      "simple.wikipedia.org",
+      902
+    ],
+    [
+      "smarthistory.org",
+      636
+    ],
+    [
+      "developer.mozilla.org",
+      636
+    ],
+    [
+      "www.kaggle.com",
+      632
+    ],
+    [
+      "www.udemy.com",
+      416
+    ],
+    [
+      "pll.harvard.edu",
+      416
+    ],
+    [
+      "www.edx.org",
+      416
+    ],
+    [
+      "www.classcentral.com",
+      376
+    ],
+    [
+      "www.gutenberg.org",
+      163
+    ],
+    [
+      "www.ducksters.com",
+      65
+    ],
+    [
+      "www.khanacademy.org",
+      33
+    ],
+    [
+      "kids.britannica.com",
+      21
+    ],
+    [
+      "en.wikibooks.org",
+      21
+    ],
+    [
+      "kidshealth.org",
+      15
+    ],
+    [
+      "www.ck12.org",
+      10
+    ],
+    [
+      "kids.nationalgeographic.com",
+      9
+    ],
+    [
+      "spaceplace.nasa.gov",
+      8
+    ],
+    [
+      "www.ready.gov",
+      8
+    ],
+    [
+      "www.sciencekids.co.nz",
+      7
+    ],
+    [
+      "www.bbc.co.uk",
+      7
+    ],
+    [
+      "www.loecsen.com",
+      6
+    ],
+    [
+      "quran.com",
+      6
+    ]
+  ],
+  "live_urls_checked": 420,
+  "live_reachable": 417,
+  "live_unreachable": [],
+  "live_inconclusive": [
+    {
+      "url": "https://mocomi.com/acid-rain/",
+      "status": null,
+      "reachable": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://mocomi.com/reflection-and-refraction-of-light/",
+      "status": null,
+      "reachable": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://mocomi.com/doppler-effect/",
+      "status": null,
+      "reachable": null,
+      "error": "The read operation timed out"
+    }
+  ],
+  "movie_top_200_count": 200,
+  "movie_thumbnail_issues": []
+}

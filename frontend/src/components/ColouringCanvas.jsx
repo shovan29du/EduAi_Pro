@@ -18,6 +18,10 @@ const SHAPE_TOOLS = [
   { id: 'line', label: 'Line' },
   { id: 'rectangle', label: 'Rectangle' },
   { id: 'ellipse', label: 'Ellipse' },
+  { id: 'triangle', label: 'Triangle' },
+  { id: 'star-shape', label: 'Star' },
+  { id: 'arrow', label: 'Arrow' },
+  { id: 'heart', label: 'Heart' },
 ];
 
 const ALL_TOOLS = [...DRAW_TOOLS, ...SHAPE_TOOLS];
@@ -408,6 +412,7 @@ export default function ColouringCanvas() {
   const redoStackRef = useRef([]);
   const activeTemplateIdRef = useRef(null);
   const textCancelledRef = useRef(false);
+  const statusTimerRef = useRef(null);
 
   const [tool, setTool] = useState('pencil');
   const [color, setColor] = useState('#1d4ed8');
@@ -420,6 +425,10 @@ export default function ColouringCanvas() {
   const [title, setTitle] = useState('My Painting');
   const [status, setStatus] = useState('');
 
+  useEffect(() => () => {
+    if (statusTimerRef.current) clearTimeout(statusTimerRef.current);
+  }, []);
+
   // Templates & layers
   const [templatesOpen, setTemplatesOpen] = useState(false);
   const [layersOpen, setLayersOpen] = useState(false);
@@ -430,6 +439,7 @@ export default function ColouringCanvas() {
   // Symmetry / mirror mode
   const [mirrorH, setMirrorH] = useState(false);
   const [mirrorV, setMirrorV] = useState(false);
+  const [showGrid, setShowGrid] = useState(false);
 
   // Sticker tool
   const [selectedSticker, setSelectedSticker] = useState(STICKERS[0]);
@@ -537,7 +547,6 @@ export default function ColouringCanvas() {
       observer.disconnect();
       if (frame) cancelAnimationFrame(frame);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [applyCanvasSize]);
 
   // ── Undo / redo history (PNG snapshots of the drawing layer only) ────────
@@ -796,6 +805,29 @@ export default function ColouringCanvas() {
         ctx.beginPath();
         ctx.ellipse(cx, cy, Math.max(rx, 0.01), Math.max(ry, 0.01), 0, 0, Math.PI * 2);
         ctx.stroke();
+      } else if (tool === 'triangle') {
+        ctx.beginPath();
+        ctx.moveTo((s.x + c.x) / 2, s.y);
+        ctx.lineTo(c.x, c.y);
+        ctx.lineTo(s.x, c.y);
+        ctx.closePath();
+        ctx.stroke();
+      } else if (tool === 'star-shape') {
+        const cx=(s.x+c.x)/2, cy=(s.y+c.y)/2, outer=Math.max(2,Math.min(Math.abs(c.x-s.x),Math.abs(c.y-s.y))/2);
+        ctx.beginPath();
+        for(let i=0;i<10;i+=1){const radius=i%2===0?outer:outer*0.42;const angle=-Math.PI/2+i*Math.PI/5;const x=cx+Math.cos(angle)*radius,y=cy+Math.sin(angle)*radius;i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);}
+        ctx.closePath();
+        ctx.stroke();
+      } else if (tool === 'arrow') {
+        const angle=Math.atan2(c.y-s.y,c.x-s.x), head=Math.max(12,brushSize*3);
+        ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(c.x,c.y);
+        ctx.moveTo(c.x,c.y);ctx.lineTo(c.x-head*Math.cos(angle-Math.PI/6),c.y-head*Math.sin(angle-Math.PI/6));
+        ctx.moveTo(c.x,c.y);ctx.lineTo(c.x-head*Math.cos(angle+Math.PI/6),c.y-head*Math.sin(angle+Math.PI/6));ctx.stroke();
+      } else if (tool === 'heart') {
+        const x=Math.min(s.x,c.x),y=Math.min(s.y,c.y),w=Math.abs(c.x-s.x),h=Math.abs(c.y-s.y);
+        ctx.beginPath();ctx.moveTo(x+w/2,y+h);
+        ctx.bezierCurveTo(x-w*0.1,y+h*0.6,x,y+h*0.15,x+w/2,y+h*0.38);
+        ctx.bezierCurveTo(x+w,y+h*0.15,x+w*1.1,y+h*0.6,x+w/2,y+h);ctx.stroke();
       }
     });
   }
@@ -1054,7 +1086,11 @@ export default function ColouringCanvas() {
     } catch {
       setStatus('Could not save right now.');
     }
-    setTimeout(() => setStatus(''), 2500);
+    if (statusTimerRef.current) clearTimeout(statusTimerRef.current);
+    statusTimerRef.current = setTimeout(() => {
+      setStatus('');
+      statusTimerRef.current = null;
+    }, 2500);
   }
 
   async function handleOpenPainting(record) {
@@ -1357,6 +1393,15 @@ export default function ColouringCanvas() {
             ↕
           </label>
         </div>
+        <label className="flex items-center gap-1 text-sm">
+          <input
+            type="checkbox"
+            checked={showGrid}
+            onChange={(e) => setShowGrid(e.target.checked)}
+            aria-label="Show composition grid"
+          />
+          Composition grid
+        </label>
       </div>
 
       <div className="mb-3 flex flex-wrap items-center gap-2">
@@ -1445,6 +1490,19 @@ export default function ColouringCanvas() {
           className="absolute left-0 top-0"
           style={{ zIndex: 3, pointerEvents: 'none', display: activeTemplateId && layerVisible.outline ? 'block' : 'none' }}
         />
+        {showGrid && (
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{
+              zIndex: 4,
+              pointerEvents: 'none',
+              backgroundImage:
+                'linear-gradient(rgba(37,99,235,.22) 1px, transparent 1px), linear-gradient(90deg, rgba(37,99,235,.22) 1px, transparent 1px)',
+              backgroundSize: '40px 40px',
+            }}
+          />
+        )}
         {tool === 'text' && textDraft && (
           <input
             autoFocus

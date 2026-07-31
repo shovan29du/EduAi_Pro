@@ -600,7 +600,6 @@ export const TOTAL_GAMES = GAMES.length;
 // Sanity check: this Game Centre is built to have at least 50 distinct
 // playable games/puzzles across its engine categories.
 if (TOTAL_GAMES < 50) {
-  // eslint-disable-next-line no-console
   console.warn(`Game Centre only has ${TOTAL_GAMES} games — expected at least 50.`);
 }
 

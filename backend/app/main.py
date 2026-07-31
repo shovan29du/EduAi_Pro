@@ -5,24 +5,28 @@ import sqlite3 as _sqlite3
 import subprocess
 import tempfile
 import time
+from contextlib import asynccontextmanager
 from functools import lru_cache
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import quote, quote_plus
 from urllib.request import Request, urlopen
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pypdf import PdfReader
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from docx import Document
+from sqlalchemy import select
 
+from app.database import create_schema, session_scope
+from app.models import Resource
 from app.safety import safety_filter
 from app.storage import (
     ALLOWED_CHILDREN,
@@ -44,6 +48,8 @@ from app.storage import (
     append_reading_entry,
     get_screen_time,
     add_screen_time,
+    get_attendance as get_attendance_records,
+    save_attendance as save_attendance_records,
 )
 from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
@@ -53,14 +59,30 @@ from app import paintings as paintings_store
 from app import ai_tutor
 from app import content_store
 from app import levels as levels_module
+from app import course_catalog
+from app import local_library
+from app import ai_reliability
+from app import personalized_learning
+from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
 SAFE_DIR = BASE_DIR / "safe"
 
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    """Make a fresh local install usable before its first dashboard request."""
+    # Production deployments still use Alembic migrations. This idempotent
+    # bootstrap covers portable/local SQLite installs whose database has not
+    # yet been created.
+    create_schema()
+    yield
+
+
 app = FastAPI(
     title="Global Education Platform API",
     description="An all-ages learning platform spanning school, college, undergraduate, and master's levels.",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
@@ -69,10 +91,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(professional_router)
 
 _museum_resource_dir = Path(__file__).parent.parent / "data" / "museum_resource"
 if _museum_resource_dir.exists():
     app.mount("/museum-resource", StaticFiles(directory=str(_museum_resource_dir)), name="museum-resource")
+
+_movie_thumbnail_dir = Path(__file__).parent.parent / "data" / "movie_thumbnails"
+if _movie_thumbnail_dir.exists():
+    app.mount("/movie-thumbnails", StaticFiles(directory=str(_movie_thumbnail_dir)), name="movie-thumbnails")
 
 
 def _require_child(child: str) -> str:
@@ -116,7 +143,26 @@ def get_grade(standard: int):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    return dict(_load_sanitized_syllabus(str(path), path.stat().st_mtime, True))
+    data = json.loads(json.dumps(_load_sanitized_syllabus(str(path), path.stat().st_mtime, True)))
+    with session_scope() as session:
+        curated = list(
+            session.scalars(
+                select(Resource).where(
+                    Resource.metadata_json["runtime_curated"].as_boolean().is_(True),
+                    Resource.metadata_json["level_id"].as_string() == str(standard),
+                    Resource.deleted_at.is_(None),
+                )
+            )
+        )
+    for row in curated:
+        metadata = row.metadata_json or {}
+        subject = metadata.get("subject")
+        resource_type = metadata.get("resource_type")
+        if not subject or resource_type not in CURATE_RESOURCE_KEYS:
+            continue
+        subject_data = data.setdefault("subjects", {}).setdefault(subject, {})
+        subject_data.setdefault(resource_type, []).append(metadata.get("resource") or {"title": row.title, "url": row.url})
+    return data
 
 
 @app.get("/api/progress/{child}")
@@ -346,16 +392,203 @@ def list_levels():
     return {"levels": levels_module.all_levels()}
 
 
-@app.get("/api/level/{level_id}")
-def get_level_content(level_id: str):
+def _level_path_and_mode(level_id: str) -> tuple[Path, bool, str]:
     if not levels_module.is_valid_level(level_id):
         raise HTTPException(status_code=404, detail=f"Level '{level_id}' is not recognised")
     path = _level_syllabus_path(level_id)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
-    strict = levels_module.is_school_level(level_id)
+    return path, levels_module.is_school_level(level_id), levels_module.normalize_level_id(level_id)
+
+
+@lru_cache(maxsize=1024)
+def _load_sanitized_subject(path_str: str, mtime: float, strict: bool, subject_name: str) -> dict:
+    raw = _load_syllabus_json(path_str, mtime).get("subjects", {}).get(subject_name)
+    if raw is None:
+        raise KeyError(subject_name)
+    return _sanitize_json(raw, strict=strict)
+
+
+def _trusted_video_link(subject_name: str, lesson_title: str) -> dict:
+    academic = any(
+        token in subject_name.lower()
+        for token in ("engineering", "computer", "coding", "physics", "chemistry", "math", "data", "machine", "artificial")
+    )
+    source = "MIT OpenCourseWare" if academic else "Khan Academy"
+    query = quote_plus(f"{source} {subject_name} {lesson_title}")
+    return {
+        "title": f"{lesson_title} — trusted video lesson",
+        "url": f"https://www.youtube.com/results?search_query={query}",
+        "provider": source,
+        "description": f"Search {source}'s educational videos for this exact lesson.",
+        "safe": True,
+    }
+
+
+def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
+    """Add compact, deterministic teaching aids without inflating source JSON files."""
+    title = str(lesson.get("title") or "this topic")
+    key_concepts = [str(item) for item in lesson.get("key_concepts", [])[:4]]
+    concept = key_concepts[0] if key_concepts else title
+    lower = subject_name.lower()
+    quantitative = any(
+        token in lower
+        for token in ("math", "physics", "chemistry", "engineering", "economics", "finance", "statistics", "data", "computer")
+    )
+    if quantitative:
+        formula = lesson.get("formula") or "result = known inputs × applicable rate or relationship"
+        worked = [
+            "Identify the known quantities, units and required result.",
+            f"Select the governing relationship for {concept}: {formula}.",
+            "Substitute values, calculate carefully, then check units and scale.",
+            "Interpret the result in the original real-world context.",
+        ]
+        graph = {
+            "title": f"How the main variables in {title} relate",
+            "x_axis": "Independent variable",
+            "y_axis": "Measured outcome",
+            "points": [0, 2, 3, 5, 8, 13],
+        }
+    else:
+        formula = "Claim + relevant evidence + reasoning = defensible conclusion"
+        worked = [
+            "Define the question and important terms.",
+            "Collect one primary and one reliable secondary source.",
+            "Compare evidence, assumptions and competing interpretations.",
+            "State a qualified conclusion and identify its limitations.",
+        ]
+        graph = {
+            "title": f"Evidence strength across a {title} investigation",
+            "x_axis": "Investigation stage",
+            "y_axis": "Evidence strength",
+            "points": [1, 2, 4, 5, 7, 8],
+        }
+    return {
+        "technical_detail": lesson.get("technical_detail")
+        or f"{title} is analysed through precise definitions, assumptions, mechanisms, evidence and limitations. "
+           f"Track how {concept} changes when one condition varies while the others are controlled.",
+        "formulae": lesson.get("formulae") or [formula],
+        "worked_example": lesson.get("worked_example") or {
+            "problem": f"Apply {title} to a realistic decision with incomplete information.",
+            "steps": worked,
+            "answer": "A sound answer shows the method, checks evidence or units, and explains what the result means.",
+        },
+        "real_world_example": lesson.get("real_world_example")
+        or f"Professionals use {title} to compare alternatives, justify decisions and communicate risk in real projects.",
+        "practical_problem": lesson.get("practical_problem")
+        or f"Choose a local or workplace example of {title}; record inputs or evidence, apply the method, and defend your conclusion.",
+        "data_table": lesson.get("data_table") or {
+            "headers": ["Stage", "Input or evidence", "Method", "Check"],
+            "rows": [
+                ["1", "Baseline information", "Define and classify", "Is the source reliable?"],
+                ["2", "Observed change", "Calculate or compare", "Are units/terms consistent?"],
+                ["3", "Result", "Interpret and explain", "Does it answer the question?"],
+            ],
+        },
+        "graph": lesson.get("graph") or graph,
+        "figure": lesson.get("figure") or {
+            "caption": f"Concept map for {title}",
+            "nodes": ["Inputs", concept, "Method", "Result", "Evaluation"],
+        },
+        "video_resources": lesson.get("video_resources") or [_trusted_video_link(subject_name, title)],
+    }
+
+
+@app.get("/api/level/{level_id}/overview")
+def get_level_overview(level_id: str):
+    path, _strict, norm = _level_path_and_mode(level_id)
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
+    subjects = {}
+    for name, subject in data.get("subjects", {}).items():
+        subjects[name] = {
+            "lesson_count": len(subject.get("lessons", [])),
+            "resource_count": sum(
+                len(subject.get(key, []))
+                for key in ("books", "textbooks", "text_resources", "video_resources", "external_courses")
+            ),
+        }
+    return {
+        "level": norm,
+        "standard": data.get("standard"),
+        "level_info": levels_module.get_level(level_id),
+        "subjects": subjects,
+    }
+
+
+@app.get("/api/level/{level_id}/subjects/{subject_name}")
+def get_level_subject(level_id: str, subject_name: str):
+    path, strict, norm = _level_path_and_mode(level_id)
+    try:
+        cached = _load_sanitized_subject(str(path), path.stat().st_mtime, strict, subject_name)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=f"Subject '{subject_name}' is not available at level {norm}") from exc
+    subject = json.loads(json.dumps(cached))
+    subject["lessons"] = [
+        {**lesson, **_technical_enrichment(subject_name, lesson)}
+        for lesson in subject.get("lessons", [])
+    ]
+    subject["__name"] = subject_name
+    return {"level": norm, "subject_name": subject_name, "subject": subject}
+
+
+class LearningEvidence(BaseModel):
+    level_id: str
+    subject: str
+    concept: str
+    correct: bool
+    lesson_id: str = ""
+    question_id: str = ""
+    answer: str = ""
+    expected_answer: str = ""
+    confidence: float = 1.0
+
+
+def _adaptive_subject(level_id: str, subject_name: str) -> tuple[str, dict]:
+    path, _strict, normalized = _level_path_and_mode(level_id)
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
+    subject = data.get("subjects", {}).get(subject_name)
+    if subject is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Subject '{subject_name}' is not available at level {normalized}",
+        )
+    return normalized, subject
+
+
+@app.get("/api/personalized/{profile}/{level_id}/{subject_name}")
+def personalized_profile(profile: str, level_id: str, subject_name: str):
+    normalized, subject = _adaptive_subject(level_id, subject_name)
+    try:
+        return personalized_learning.build_profile(profile, normalized, subject_name, subject)
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.post("/api/personalized/{profile}/evidence")
+def personalized_evidence(profile: str, body: LearningEvidence):
+    _adaptive_subject(body.level_id, body.subject)
+    try:
+        return personalized_learning.record_evidence(
+            profile,
+            levels_module.normalize_level_id(body.level_id),
+            body.subject,
+            body.concept,
+            body.correct,
+            lesson_id=body.lesson_id,
+            question_id=body.question_id,
+            answer=body.answer,
+            expected_answer=body.expected_answer,
+            confidence=body.confidence,
+        )
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.get("/api/level/{level_id}")
+def get_level_content(level_id: str):
+    path, strict, normalized = _level_path_and_mode(level_id)
     data = dict(_load_sanitized_syllabus(str(path), path.stat().st_mtime, strict))
-    data.setdefault("level", levels_module.normalize_level_id(level_id))
+    data.setdefault("level", normalized)
     data["level_info"] = levels_module.get_level(level_id)
     return data
 
@@ -628,6 +861,17 @@ def resource_tab_download(doc_id: str):
         "pdf": "application/pdf",
         "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "txt": "text/plain",
+        "md": "text/markdown",
+        "rtf": "application/rtf",
+        "html": "text/html",
+        "htm": "text/html",
+        "epub": "application/epub+zip",
+        "mobi": "application/x-mobipocket-ebook",
+        "azw": "application/vnd.amazon.ebook",
+        "azw3": "application/vnd.amazon.ebook",
+        "kfx": "application/vnd.amazon.ebook",
+        "fb2": "application/x-fictionbook+xml",
+        "odt": "application/vnd.oasis.opendocument.text",
     }
     with open(path, "rb") as f:
         data = f.read()
@@ -643,6 +887,89 @@ def resource_tab_delete(doc_id: str):
     if not resource_tab.delete_document(doc_id):
         raise HTTPException(status_code=404, detail="Document not found")
     return {"status": "deleted"}
+
+
+class LocalLibraryScanRequest(BaseModel):
+    folder: str
+    analyse_books: bool = True
+    max_files: int = 2000
+
+
+@app.get("/api/course-providers")
+def course_providers(query: str = ""):
+    """Verified catalogue entry points plus subject-specific search links."""
+    return course_catalog.catalogue(query)
+
+
+@app.post("/api/local-library/scan")
+def local_library_scan(request: LocalLibraryScanRequest):
+    """Index owned local files in place; no source file is copied or uploaded."""
+    try:
+        return local_library.scan_folder(
+            request.folder,
+            analyse_books=request.analyse_books,
+            max_files=request.max_files,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except PermissionError as exc:
+        raise HTTPException(status_code=403, detail=f"Folder cannot be read: {exc}") from exc
+    except OSError as exc:
+        raise HTTPException(status_code=400, detail=f"Folder scan failed: {exc}") from exc
+
+
+@app.post("/api/local-library/select-folder")
+def local_library_select_folder():
+    """Open the operating system folder picker on a locally installed desktop."""
+    root = None
+    try:
+        import tkinter as tk
+        from tkinter import filedialog
+
+        root = tk.Tk()
+        root.withdraw()
+        root.attributes("-topmost", True)
+        root.update()
+        folder = filedialog.askdirectory(
+            parent=root,
+            title="Select a learning resources folder",
+            mustexist=True,
+        )
+        return {"folder": folder or "", "cancelled": not bool(folder)}
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="The system folder picker is unavailable; paste the folder path instead",
+        ) from exc
+    finally:
+        if root is not None:
+            try:
+                root.destroy()
+            except Exception:
+                pass
+
+
+@app.get("/api/local-library")
+def local_library_list(category: str = "", query: str = "", limit: int = 500):
+    if category and category not in local_library.CATEGORY_EXTENSIONS:
+        raise HTTPException(status_code=400, detail="Unknown local-library category")
+    return {
+        "categories": sorted(local_library.CATEGORY_EXTENSIONS),
+        "files": local_library.list_files(category=category, query=query, limit=limit),
+    }
+
+
+@app.get("/api/local-library/files/{file_id}")
+def local_library_open(file_id: str):
+    result = local_library.get_file(file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
+    record, path = result
+    return FileResponse(
+        path,
+        filename=record["filename"],
+        content_disposition_type="inline",
+    )
 
 
 class PaintingSaveRequest(BaseModel):
@@ -738,16 +1065,7 @@ class UserRename(BaseModel):
 
 @app.post("/api/users")
 def create_user(body: UserCreate):
-    name = body.name.strip()
-    if not name or not name.replace(" ", "").isalnum():
-        raise HTTPException(status_code=400, detail="Name must be non-empty and alphanumeric")
-    if body.role not in ("child", "parent"):
-        raise HTTPException(status_code=400, detail="Role must be 'child' or 'parent'")
-    try:
-        data = add_user(name, body.role)
-    except ValueError as e:
-        raise HTTPException(status_code=409, detail=str(e))
-    return {"ok": True, "users": data}
+    raise HTTPException(status_code=403, detail="EduAI_Pro is configured for the single administrator Shovan")
 
 
 @app.put("/api/users/{name}")
@@ -942,6 +1260,28 @@ def tutor_ask(body: dict):
         age_group=args["age_group"], language=args["language"], difficulty=args["difficulty"],
     )
     return {"answer": answer}
+
+
+@app.post("/api/ai-tutor/grounded")
+def tutor_grounded(body: dict):
+    question = str(body.get("question", "")).strip()[:4000]
+    user_id = str(body.get("user_id", "")).strip()
+    level = levels_module.normalize_level_id(body.get("level", "1"))
+    if not question or not user_id:
+        raise HTTPException(status_code=400, detail="question and user_id are required")
+    if not levels_module.is_valid_level(level):
+        raise HTTPException(status_code=400, detail="Unknown academic level")
+    try:
+        return ai_reliability.grounded_answer(
+            user_id=user_id,
+            question=question,
+            level_id=level,
+            subject=str(body.get("subject", "")),
+            difficulty=str(body.get("difficulty", "")),
+            mode=str(body.get("mode", "direct")),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @app.post("/api/ai-tutor/explain")
@@ -2001,31 +2341,6 @@ def survival_skill(category: str, skill_name: str):
     raise HTTPException(status_code=404, detail="Skill not found")
 
 
-# ── Brain Teasers ────────────────────────────────────────────────────────────
-_TEASERS_PATH = Path(__file__).parent.parent / "data" / "brain_teasers" / "brain_teasers.json"
-
-def _load_teasers() -> dict:
-    with open(_TEASERS_PATH, encoding="utf-8") as f:
-        return json.load(f)
-
-@app.get("/api/brain-teasers")
-def brain_teasers_overview():
-    data = _load_teasers()
-    cats = []
-    for cid, cat in data["categories"].items():
-        cats.append({"id": cid, "label": cat["label"], "emoji": cat["emoji"],
-                     "count": len(cat["items"])})
-    return {"title": data["title"], "description": data["description"], "categories": cats}
-
-@app.get("/api/brain-teasers/{category}")
-def brain_teasers_category(category: str):
-    data = _load_teasers()
-    cat = data["categories"].get(category)
-    if not cat:
-        raise HTTPException(status_code=404, detail="Category not found")
-    return cat
-
-
 # ── Environmental Science ────────────────────────────────────────────────────
 _ENV_PATH = Path(__file__).parent.parent / "data" / "environmental_science" / "environmental_science.json"
 
@@ -2133,7 +2448,8 @@ def world_religions_overview():
                           "adherents_approx": rel.get("adherents_approx", ""),
                           "founded": rel.get("founded", ""),
                           "origin": rel.get("origin", ""),
-                          "summary": rel.get("summary", "")})
+                          "summary": rel.get("summary", ""),
+                          "lesson_count": len(rel.get("lessons", []))})
     return {"title": data["title"], "description": data["description"],
             "disclaimer": data.get("disclaimer", ""), "religions": religions}
 
@@ -2220,21 +2536,11 @@ def business_lesson(module_id: str, lesson_id: str):
 
 
 # ── Attendance Tracking ───────────────────────────────────────────────────────
-_ATTENDANCE_PATH = Path(__file__).parent.parent / "data" / "attendance_{child}.json"
-
-def _att_path(child: str) -> Path:
-    return Path(__file__).parent.parent / "data" / f"attendance_{child}.json"
-
 def _load_att(child: str) -> list:
-    p = _att_path(child)
-    if not p.exists():
-        return []
-    with open(p, encoding="utf-8") as f:
-        return json.load(f)
+    return get_attendance_records(child)
 
 def _save_att(child: str, records: list):
-    with open(_att_path(child), "w", encoding="utf-8") as f:
-        json.dump(records, f, indent=2)
+    return save_attendance_records(child, records)
 
 @app.get("/api/parent/attendance/{child}")
 def get_attendance(child: str):
@@ -2320,11 +2626,19 @@ def _load_songs():
 @app.get("/api/songs")
 def songs_overview():
     data = _load_songs()
-    cards = [
-        {k: s[k] for k in ("id","title","artist","year","genre","origin_country",
-                            "language","decade","suitable_for_ages","tags","links")}
-        for s in data["songs"]
-    ]
+    cards = []
+    for song in data["songs"]:
+        card = {
+            key: song[key]
+            for key in (
+                "id", "title", "artist", "year", "genre", "origin_country",
+                "language", "decade", "suitable_for_ages", "tags", "links",
+            )
+        }
+        for optional in ("chart_rank", "verified_views", "view_count_checked_at"):
+            if optional in song:
+                card[optional] = song[optional]
+        cards.append(card)
     return {
         "title": data["title"],
         "description": data["description"],

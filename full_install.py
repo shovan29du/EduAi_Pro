@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Installs Edu_Ai's backend and frontend dependencies, and creates a desktop
+"""Installs EduAi_Pro's backend and frontend dependencies, and creates desktop
 shortcut that launches the app.
 
 Usage:
@@ -24,12 +24,13 @@ IS_WINDOWS = platform.system() == "Windows"
 IS_MAC = platform.system() == "Darwin"
 IS_LINUX = platform.system() == "Linux"
 MIN_PYTHON = (3, 9)
+MIN_NODE = (20, 19, 0)
 
 
 def check_python_version():
     if sys.version_info < MIN_PYTHON:
         print(
-            f"Edu_Ai requires Python {MIN_PYTHON[0]}.{MIN_PYTHON[1]}+ - "
+            f"EduAi_Pro requires Python {MIN_PYTHON[0]}.{MIN_PYTHON[1]}+ - "
             f"found {platform.python_version()}. Install a newer Python and re-run this script."
         )
         sys.exit(1)
@@ -38,6 +39,23 @@ def check_python_version():
 def ensure_node():
     """Installs Node.js via the OS package manager if npm isn't already on PATH."""
     if shutil.which("npm"):
+        raw_version = subprocess.check_output(
+            ["node", "--version"], text=True
+        ).strip().lstrip("v")
+        try:
+            current = tuple(int(part) for part in raw_version.split(".")[:3])
+        except ValueError:
+            current = (0, 0, 0)
+        supported = (
+            current[0] == 20 and current >= MIN_NODE
+        ) or current >= (22, 12, 0)
+        if not supported:
+            print(
+                f"EduAi_Pro requires Node.js {'.'.join(map(str, MIN_NODE))}+ "
+                f"(or Node.js 22.12+); found {raw_version}. "
+                "Upgrade Node.js from https://nodejs.org and re-run this installer."
+            )
+            sys.exit(1)
         return
     print("\n== Node.js not found - attempting to install it ==")
     if IS_MAC and shutil.which("brew"):
@@ -76,6 +94,18 @@ def install_backend():
     run([str(venv_python()), "-m", "pip", "install", "-r", str(BACKEND_DIR / "requirements.txt")])
 
 
+def prepare_database():
+    """Create/update the configured SQL database and import legacy JSON.
+
+    DATABASE_URL may point at PostgreSQL. When it is not set, EduAI_Pro uses
+    its documented local SQLite fallback so the one-file installer remains
+    useful on computers that do not have Docker or PostgreSQL installed.
+    """
+    print("\n== Preparing EduAI_Pro database ==")
+    run([str(venv_python()), "-m", "alembic", "upgrade", "head"], cwd=BACKEND_DIR)
+    run([str(venv_python()), "-m", "scripts.migrate_json_to_db"], cwd=BACKEND_DIR)
+
+
 def install_frontend():
     print("\n== Installing frontend ==")
     ensure_node()
@@ -86,20 +116,20 @@ def write_launcher() -> Path:
     """Writes a script that starts the backend and frontend dev servers and
     opens the app in a browser, returning its path."""
     if IS_WINDOWS:
-        launcher = REPO_ROOT / "start_edu_ai.bat"
+        launcher = REPO_ROOT / "start_EduAi_Pro.bat"
         py = venv_python()
         npm = shutil.which("npm") or "npm"
         launcher.write_text(
             "@echo off\r\n"
             f'cd "{BACKEND_DIR}"\r\n'
-            f'start "Edu_Ai backend" "{py}" -m uvicorn app.main:app --port 8000\r\n'
+            f'start "EduAi_Pro backend" "{py}" -m uvicorn app.main:app --port 8000\r\n'
             f'cd "{FRONTEND_DIR}"\r\n'
-            f'start "Edu_Ai frontend" "{npm}" run dev\r\n'
+            f'start "EduAi_Pro frontend" "{npm}" run dev\r\n'
             "timeout /t 3 >nul\r\n"
             "start http://localhost:5173\r\n"
         )
     else:
-        launcher = REPO_ROOT / "start_edu_ai.sh"
+        launcher = REPO_ROOT / "start_EduAi_Pro.sh"
         py = venv_python()
         open_cmd = "open" if IS_MAC else "xdg-open"
         launcher.write_text(
@@ -116,55 +146,71 @@ def write_launcher() -> Path:
 
 
 def desktop_dirs():
-    """Returns every existing Desktop directory worth placing a shortcut in
-    - the normal user Desktop, and a OneDrive-redirected Desktop, if present."""
+    """Return the normal Desktop and every configured OneDrive Desktop.
+
+    Windows always receives a normal Desktop target. A Desktop directory is
+    also created under each configured OneDrive root, ensuring the shortcut is
+    available in both locations even when Known Folder Move is enabled.
+    """
     home = Path.home()
     candidates = [home / "Desktop"]
 
-    onedrive_env = os.environ.get("OneDrive") or os.environ.get("ONEDRIVE")
-    if onedrive_env:
-        candidates.append(Path(onedrive_env) / "Desktop")
-    candidates.append(home / "OneDrive" / "Desktop")
+    onedrive_roots = []
+    for variable in ("OneDrive", "ONEDRIVE", "OneDriveConsumer", "OneDriveCommercial"):
+        value = os.environ.get(variable)
+        if value:
+            onedrive_roots.append(Path(value))
+    default_onedrive = home / "OneDrive"
+    if default_onedrive.exists():
+        onedrive_roots.append(default_onedrive)
+    candidates.extend(root / "Desktop" for root in onedrive_roots)
 
     seen, dirs = set(), []
     for d in candidates:
-        if d.exists() and d.is_dir() and d not in seen:
-            seen.add(d)
-            dirs.append(d)
+        key = str(d).casefold() if IS_WINDOWS else str(d)
+        if key in seen:
+            continue
+        try:
+            d.mkdir(parents=True, exist_ok=True)
+        except OSError as exc:
+            print(f"Could not prepare Desktop folder {d}: {exc}")
+            continue
+        seen.add(key)
+        dirs.append(d)
     return dirs
 
 
 def create_shortcut_windows(desktop_dir: Path, launcher: Path):
-    shortcut_path = desktop_dir / "Edu_Ai.lnk"
+    shortcut_path = desktop_dir / "EduAi_Pro.lnk"
     try:
-        import win32com.client  # type: ignore
-
-        shell = win32com.client.Dispatch("WScript.Shell")
-        shortcut = shell.CreateShortCut(str(shortcut_path))
-        shortcut.Targetpath = str(launcher)
-        shortcut.WorkingDirectory = str(REPO_ROOT)
-        shortcut.IconLocation = str(launcher)
-        shortcut.save()
+        ps_script = (
+            "$shell = New-Object -ComObject WScript.Shell; "
+            f"$shortcut = $shell.CreateShortcut('{str(shortcut_path).replace(chr(39), chr(39) * 2)}'); "
+            f"$shortcut.TargetPath = '{str(launcher).replace(chr(39), chr(39) * 2)}'; "
+            f"$shortcut.WorkingDirectory = '{str(REPO_ROOT).replace(chr(39), chr(39) * 2)}'; "
+            "$shortcut.Save()"
+        )
+        run(["powershell.exe", "-NoProfile", "-Command", ps_script])
         print(f"Shortcut created: {shortcut_path}")
-    except ImportError:
-        fallback = desktop_dir / "Edu_Ai.bat"
+    except (OSError, subprocess.CalledProcessError):
+        fallback = desktop_dir / "EduAi_Pro.bat"
         shutil.copy(launcher, fallback)
-        print(f"pywin32 not installed - copied a launcher to {fallback} instead of a .lnk shortcut.")
+        print(f"Could not create a .lnk shortcut; copied a launcher to {fallback}.")
 
 
 def create_shortcut_mac(desktop_dir: Path, launcher: Path):
-    shortcut_path = desktop_dir / "Edu_Ai.command"
+    shortcut_path = desktop_dir / "EduAi_Pro.command"
     shutil.copy(launcher, shortcut_path)
     shortcut_path.chmod(shortcut_path.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
     print(f"Shortcut created: {shortcut_path}")
 
 
 def create_shortcut_linux(desktop_dir: Path, launcher: Path):
-    shortcut_path = desktop_dir / "Edu_Ai.desktop"
+    shortcut_path = desktop_dir / "EduAi_Pro.desktop"
     shortcut_path.write_text(
         "[Desktop Entry]\n"
         "Type=Application\n"
-        "Name=Edu_Ai\n"
+        "Name=EduAi_Pro\n"
         f"Exec={launcher}\n"
         f"Path={REPO_ROOT}\n"
         "Terminal=true\n"
@@ -188,7 +234,7 @@ def create_shortcuts(launcher: Path):
 
 
 def launch(launcher: Path):
-    print(f"\n== Starting Edu_Ai ==\n$ {launcher}")
+    print(f"\n== Starting EduAi_Pro ==\n$ {launcher}")
     if IS_WINDOWS:
         subprocess.Popen(["cmd", "/c", "start", "", str(launcher)], cwd=REPO_ROOT)
     else:
@@ -198,10 +244,11 @@ def launch(launcher: Path):
 def main():
     check_python_version()
     install_backend()
+    prepare_database()
     install_frontend()
     launcher = write_launcher()
     create_shortcuts(launcher)
-    print("\nInstall complete. Double-click the Edu_Ai desktop shortcut, or run "
+    print("\nInstall complete. Double-click the EduAi_Pro desktop shortcut, or run "
           f"{launcher.name} directly, to start the app.")
     launch(launcher)
 

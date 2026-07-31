@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
 
-const LABEL_OVERRIDES = { Shovan: 'Shovan (Dad)', Bely: 'Bely (Mom)' };
+const LABEL_OVERRIDES = { Shovan: 'Shovan (Administrator)' };
 
 export default function ChildSelector() {
   const { child, setChild } = useChild();
@@ -14,13 +14,7 @@ export default function ChildSelector() {
       .catch(() => {});
   }, []);
 
-  // Fallback while loading or if API is unreachable. No default child profiles
-  // ship with the app -- parents add real learner profiles from the Users tab.
-  const fallback = [
-    { name: 'Parent', role: 'parent' },
-    { name: 'Shovan', role: 'parent' },
-    { name: 'Bely', role: 'parent' },
-  ];
+  const fallback = [{ name: 'Shovan', role: 'parent' }];
   const list = users ?? fallback;
 
   return (
