@@ -63,6 +63,7 @@ from app import course_catalog
 from app import local_library
 from app import ai_reliability
 from app import personalized_learning
+from app import pdf_explainer
 from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -886,6 +887,115 @@ def resource_tab_download(doc_id: str):
 def resource_tab_delete(doc_id: str):
     if not resource_tab.delete_document(doc_id):
         raise HTTPException(status_code=404, detail="Document not found")
+    return {"status": "deleted"}
+
+
+# ─── PDF Explainer ───────────────────────────────────────────────────────────
+# Upload any PDF and get an AI-simplified explanation (readable aloud via the
+# browser's built-in text-to-speech, like other content in this app), ask
+# follow-up questions grounded in the document, generate a quiz from its
+# actual content, and save personal notes against it.
+
+@app.post("/api/pdf-explainer/upload")
+async def pdf_explainer_upload(file: UploadFile = File(...), child: str = Form("")):
+    filename = file.filename or ""
+    if Path(filename).suffix.lower() != ".pdf":
+        raise HTTPException(status_code=400, detail="Only PDF files are supported")
+    if not safety_filter.is_safe(filename):
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    contents = await file.read()
+    try:
+        record = pdf_explainer.upload(filename, contents, child=child)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    if record["summary"] and not safety_filter.is_safe(record["summary"]):
+        pdf_explainer.delete_document(record["id"])
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    return record
+
+
+@app.get("/api/pdf-explainer")
+def pdf_explainer_list(child: str = ""):
+    return pdf_explainer.list_documents(child=child)
+
+
+@app.get("/api/pdf-explainer/{doc_id}")
+def pdf_explainer_get(doc_id: str):
+    record = pdf_explainer.get_document(doc_id)
+    if not record:
+        raise HTTPException(status_code=404, detail="Document not found")
+    return record
+
+
+@app.delete("/api/pdf-explainer/{doc_id}")
+def pdf_explainer_delete(doc_id: str):
+    if not pdf_explainer.delete_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    return {"status": "deleted"}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/explain")
+def pdf_explainer_explain(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    explanation = pdf_explainer.explain(
+        doc_id, level=args["level"], grade=args["grade"],
+        age_group=args["age_group"], language=args["language"], difficulty=args["difficulty"],
+    )
+    return {"explanation": explanation}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/ask")
+def pdf_explainer_ask(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+    answer = pdf_explainer.ask(doc_id, question, level=args["level"], grade=args["grade"])
+    return {"answer": answer}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/quiz")
+def pdf_explainer_quiz(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    count = min(int(body.get("count", 5)), 10)
+    questions = pdf_explainer.quiz(doc_id, count=count, level=args["level"], grade=args["grade"])
+    return {"quiz": questions}
+
+
+@app.get("/api/pdf-explainer/{doc_id}/notes")
+def pdf_explainer_list_notes(doc_id: str, child: str = ""):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    return pdf_explainer.list_notes(doc_id, child=child)
+
+
+@app.post("/api/pdf-explainer/{doc_id}/notes")
+def pdf_explainer_add_note(doc_id: str, body: dict):
+    text = str(body.get("text", "")).strip()[:5000]
+    if not text:
+        raise HTTPException(status_code=400, detail="text is required")
+    if not safety_filter.is_safe(text):
+        raise HTTPException(status_code=400, detail="Note rejected: unsafe content detected")
+    try:
+        note = pdf_explainer.add_note(doc_id, text, child=str(body.get("child", "")))
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return note
+
+
+@app.delete("/api/pdf-explainer/notes/{note_id}")
+def pdf_explainer_delete_note(note_id: str):
+    if not pdf_explainer.delete_note(note_id):
+        raise HTTPException(status_code=404, detail="Note not found")
     return {"status": "deleted"}
 
 

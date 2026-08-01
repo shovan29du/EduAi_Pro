@@ -20,6 +20,7 @@ backend/data/content_store.sqlite3
 backend/data/local_library.sqlite3
 backend/data/eduai_pro.db
 backend/data/resource_tab/
+backend/data/pdf_explainer/
 backend/data/museum_resource/images/
 backend/data/museum_thumbnail_cache/
 backend/data/paintings/

@@ -68,6 +68,7 @@ const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
 const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
+const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 
 const CHILD_TABS = [
   'Professional',
@@ -106,6 +107,7 @@ const CHILD_TABS = [
   'World Cinema',
   'Games',
   'Appearance',
+  'PDF Explainer',
   'Resource Tab',
 ];
 const SHOVAN_TABS = [
@@ -303,6 +305,8 @@ export default function App() {
 
           {activeTab === 'Overview' && <ParentProgressOverview />}
           {activeTab === 'Attendance' && <AttendanceTracker />}
+
+          {activeTab === 'PDF Explainer' && <PDFExplainer level={level} child={child} />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
 

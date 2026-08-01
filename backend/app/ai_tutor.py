@@ -198,6 +198,24 @@ def generate_flashcards(
     return cards or [{"q": topic, "a": "Ask your teacher or tutor for more information on this topic."}]
 
 
+def _parse_quiz_response(raw: str) -> list[dict]:
+    questions = []
+    blocks = re.split(r"\n(?=Q:)", raw.strip())
+    for block in blocks:
+        q_m = re.search(r"Q:\s*(.+)", block)
+        opts = re.findall(r"([A-D])\)\s*(.+)", block)
+        ans_m = re.search(r"Answer:\s*([A-D])", block)
+        exp_m = re.search(r"Explanation:\s*(.+)", block)
+        if q_m and len(opts) >= 2 and ans_m:
+            questions.append({
+                "question": q_m.group(1).strip(),
+                "options": {o[0]: o[1].strip() for o in opts},
+                "answer": ans_m.group(1).strip(),
+                "explanation": exp_m.group(1).strip() if exp_m else "",
+            })
+    return questions
+
+
 def generate_quiz(
     topic: str, grade: int = 1, subject: str = "", count: int = 5, level: str | None = None
 ) -> list[dict]:
@@ -214,21 +232,80 @@ Answer: [A/B/C/D]
 Explanation: [one sentence]
 """
     raw = _call(system, f"Topic: {topic}", max_tokens=1000, strict=strict)
-    questions = []
-    blocks = re.split(r"\n(?=Q:)", raw.strip())
-    for block in blocks:
-        q_m = re.search(r"Q:\s*(.+)", block)
-        opts = re.findall(r"([A-D])\)\s*(.+)", block)
-        ans_m = re.search(r"Answer:\s*([A-D])", block)
-        exp_m = re.search(r"Explanation:\s*(.+)", block)
-        if q_m and len(opts) >= 2 and ans_m:
-            questions.append({
-                "question": q_m.group(1).strip(),
-                "options": {o[0]: o[1].strip() for o in opts},
-                "answer": ans_m.group(1).strip(),
-                "explanation": exp_m.group(1).strip() if exp_m else "",
-            })
-    return questions
+    return _parse_quiz_response(raw)
+
+
+# ─── Document-grounded helpers (PDF Explainer) ──────────────────────────────
+# A student uploads their own document (see app/pdf_explainer.py for the
+# upload/text-extraction/storage side); these functions ground the AI tutor's
+# explanation, Q&A, and quiz generation in that document's actual text
+# instead of a free-standing topic, so answers stay tied to what the
+# document actually says.
+_DOCUMENT_EXCERPT_CHARS = 12000
+
+
+def explain_document(
+    text: str,
+    grade: int = 1,
+    subject: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject or "this document", age_group, language, difficulty)
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    user = (
+        f"A student uploaded a document. Explain its content clearly and simply for a student at "
+        f"{info['label']}, organised by section or theme where useful. If the document is long, focus on "
+        f"the most important ideas.\n\nDocument text:\n\n{excerpt}"
+    )
+    return _call(system, user, max_tokens=1200, strict=strict)
+
+
+def answer_document_question(
+    text: str,
+    question: str,
+    grade: int = 1,
+    subject: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject or "this document", age_group, language, difficulty)
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    user = (
+        f"Document text:\n\n{excerpt}\n\n"
+        f"Based only on this document, answer the student's question. If the document does not contain "
+        f"the answer, say so rather than guessing.\n\nQuestion: {question}"
+    )
+    return _call(system, user, max_tokens=500, strict=strict)
+
+
+def generate_quiz_from_text(
+    text: str, grade: int = 1, subject: str = "", count: int = 5, level: str | None = None
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    system = f"""You create multiple-choice quiz questions strictly based on the document text provided below,
+for a student at {info['label']}. Generate exactly {count} questions that test understanding of the
+document's actual content -- do not invent facts not present in the text. Format each question as:
+Q: [question]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+Answer: [A/B/C/D]
+Explanation: [one sentence]
+"""
+    raw = _call(system, f"Document text:\n\n{excerpt}", max_tokens=1200, strict=strict)
+    return _parse_quiz_response(raw)
 
 
 def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | None = None) -> str:
