@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
+import LevelSelector from './LevelSelector.jsx';
 import {
+  askCourseAssistant,
   deleteResourceTabDocument,
   listCourseProviders,
   listLocalLibrary,
@@ -25,6 +27,32 @@ export default function ResourceTab() {
   const [scanMessage, setScanMessage] = useState('');
   const [localCategory, setLocalCategory] = useState('');
   const [localQuery, setLocalQuery] = useState('');
+  const [selectedDocIds, setSelectedDocIds] = useState([]);
+  const [courseLevel, setCourseLevel] = useState('1');
+  const [courseQuestion, setCourseQuestion] = useState('');
+  const [courseAnswer, setCourseAnswer] = useState(null);
+  const [courseAsking, setCourseAsking] = useState(false);
+  const [courseError, setCourseError] = useState('');
+
+  function toggleDocSelected(id) {
+    setSelectedDocIds((prev) => (prev.includes(id) ? prev.filter((d) => d !== id) : [...prev, id]));
+  }
+
+  async function handleAskCourseAssistant(event) {
+    event.preventDefault();
+    if (!selectedDocIds.length || !courseQuestion.trim()) return;
+    setCourseAsking(true);
+    setCourseError('');
+    setCourseAnswer(null);
+    try {
+      const data = await askCourseAssistant(selectedDocIds, courseQuestion.trim(), { level: courseLevel });
+      setCourseAnswer(data);
+    } catch (err) {
+      setCourseError(err.message);
+    } finally {
+      setCourseAsking(false);
+    }
+  }
 
   function refreshDocuments() {
     setLoading(true);
@@ -126,6 +154,7 @@ export default function ResourceTab() {
     try {
       await deleteResourceTabDocument(id);
       setDocuments((items) => items.filter((item) => item.id !== id));
+      setSelectedDocIds((ids) => ids.filter((docId) => docId !== id));
     } catch (err) {
       setError(err.message);
     }
@@ -341,10 +370,18 @@ export default function ResourceTab() {
           {documents.map((doc) => (
             <li key={doc.id} className="rounded border p-3 dark:border-gray-700">
               <div className="flex items-center justify-between gap-2">
-                <a href={resourceTabDownloadUrl(doc.id)} className="font-medium text-blue-600 underline">
-                  {doc.filename}
-                </a>
-                <button type="button" onClick={() => handleDelete(doc.id)} className="rounded border px-2 py-1 text-xs">
+                <label className="flex min-w-0 items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={selectedDocIds.includes(doc.id)}
+                    onChange={() => toggleDocSelected(doc.id)}
+                    aria-label={`Include ${doc.filename} in Course Assistant`}
+                  />
+                  <a href={resourceTabDownloadUrl(doc.id)} className="truncate font-medium text-blue-600 underline">
+                    {doc.filename}
+                  </a>
+                </label>
+                <button type="button" onClick={() => handleDelete(doc.id)} className="shrink-0 rounded border px-2 py-1 text-xs">
                   Remove
                 </button>
               </div>
@@ -353,6 +390,48 @@ export default function ResourceTab() {
           ))}
         </ul>
       </div>
+
+      {documents.length > 0 && (
+        <div className="rounded-xl border p-4 dark:border-gray-700">
+          <h3 className="font-semibold">Course Assistant</h3>
+          <p className="mb-3 mt-1 text-sm text-gray-600 dark:text-gray-300">
+            Check the documents above to include as a knowledge base, then ask a question. EduBot will answer
+            using only those documents — and say so plainly if the answer isn't covered in them.
+          </p>
+          <form onSubmit={handleAskCourseAssistant} className="space-y-2">
+            <p className="text-xs text-gray-500">
+              {selectedDocIds.length === 0
+                ? 'No documents selected.'
+                : `${selectedDocIds.length} document${selectedDocIds.length === 1 ? '' : 's'} selected.`}
+            </p>
+            <div className="flex flex-col gap-2 sm:flex-row">
+              <input
+                value={courseQuestion}
+                onChange={(event) => setCourseQuestion(event.target.value)}
+                placeholder="Ask a question about the selected documents…"
+                className="min-w-0 flex-1 rounded border px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
+              />
+              <LevelSelector level={courseLevel} onChange={setCourseLevel} />
+              <button
+                type="submit"
+                disabled={courseAsking || !selectedDocIds.length || !courseQuestion.trim()}
+                className="rounded bg-blue-600 px-4 py-2 text-white disabled:opacity-50"
+              >
+                {courseAsking ? 'Thinking…' : 'Ask'}
+              </button>
+            </div>
+          </form>
+          {courseError && <p role="alert" className="mt-3 rounded bg-red-50 p-3 text-sm text-red-700">{courseError}</p>}
+          {courseAnswer && (
+            <div className="mt-3 rounded-lg border bg-white p-3 text-sm dark:border-gray-700 dark:bg-gray-900">
+              <p className="whitespace-pre-wrap">{courseAnswer.answer}</p>
+              <p className="mt-2 text-xs text-gray-500">
+                Sources: {courseAnswer.documents.join(', ')}
+              </p>
+            </div>
+          )}
+        </div>
+      )}
     </section>
   );
 }

@@ -25,6 +25,19 @@ export function resourceTabDownloadUrl(id) {
   return `/api/resource-tab/${id}/download`;
 }
 
+export async function askCourseAssistant(documentIds, question, levelArgs = {}) {
+  const res = await fetch('/api/resource-tab/course-assistant/ask', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ document_ids: documentIds, question, ...levelArgs }),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.detail || 'Could not ask the course assistant');
+  }
+  return res.json();
+}
+
 export async function listCourseProviders(query = '') {
   const res = await fetch(`/api/course-providers?query=${encodeURIComponent(query)}`);
   if (!res.ok) throw new Error('Could not load course providers');

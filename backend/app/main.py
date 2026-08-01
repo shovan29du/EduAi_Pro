@@ -893,6 +893,37 @@ def resource_tab_delete(doc_id: str):
     return {"status": "deleted"}
 
 
+# ─── Course Assistant ────────────────────────────────────────────────────────
+# Ask a question grounded strictly across several uploaded Resource Tab
+# documents at once (a course knowledge base), refusing to answer from
+# outside knowledge if the materials don't cover it.
+
+@app.post("/api/resource-tab/course-assistant/ask")
+def course_assistant_ask(body: dict):
+    document_ids = [str(d) for d in (body.get("document_ids") or [])][:10]
+    if not document_ids:
+        raise HTTPException(status_code=400, detail="document_ids is required")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+
+    documents = []
+    for doc_id in document_ids:
+        record = resource_tab.get_document(doc_id)
+        if not record:
+            raise HTTPException(status_code=404, detail=f"Document '{doc_id}' not found")
+        text = resource_tab.get_document_text(doc_id)
+        if not text or not text.strip():
+            raise HTTPException(status_code=400, detail=f"Could not read text from '{record['filename']}'")
+        documents.append({"filename": record["filename"], "text": text})
+
+    answer = ai_tutor.answer_from_course_materials(
+        question, documents, level=args["level"], grade=args["grade"],
+    )
+    return {"answer": answer, "documents": [d["filename"] for d in documents]}
+
+
 # ─── PDF Explainer ───────────────────────────────────────────────────────────
 # Upload any PDF and get an AI-simplified explanation (readable aloud via the
 # browser's built-in text-to-speech, like other content in this app), ask

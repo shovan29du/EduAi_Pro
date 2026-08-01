@@ -152,6 +152,19 @@ def get_document_path(doc_id: str) -> Path | None:
     return RESOURCE_TAB_DIR / record["stored_filename"]
 
 
+def get_document_text(doc_id: str) -> str | None:
+    """Re-extract a stored document's full text on demand (the index only
+    caches a short summary, not the full text)."""
+    record = get_document(doc_id)
+    if not record:
+        return None
+    path = RESOURCE_TAB_DIR / record["stored_filename"]
+    if not path.exists():
+        return None
+    ext = f".{record['type']}"
+    return _extract_text(record["filename"], path.read_bytes(), ext)
+
+
 def add_document(filename: str, contents: bytes) -> dict:
     ext = Path(filename).suffix.lower()
     if ext not in ALLOWED_EXTENSIONS:

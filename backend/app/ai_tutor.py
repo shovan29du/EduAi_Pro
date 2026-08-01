@@ -505,3 +505,28 @@ FEEDBACK: [two or three encouraging, specific sentences on what was right and wh
     user = f"Question: {question}\nExpected key points: {points_text}\nStudent's answer: {given_answer}"
     raw = _call(system, user, max_tokens=300, strict=strict)
     return _parse_graded_answer_response(raw)
+
+
+_COURSE_ASSISTANT_EXCERPT_CHARS_PER_DOC = 6000
+
+
+def answer_from_course_materials(
+    question: str, documents: list[dict], level: str | None = None, grade: int = 1,
+) -> str:
+    """Answer a question grounded strictly in the given course materials
+    (each a {"filename": str, "text": str} dict), refusing to use outside
+    knowledge -- mirrors a closed-book course assistant rather than a
+    general tutor."""
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a course assistant for a student at {info['label']}. You must answer the student's
+question using ONLY the course materials provided below -- do not use outside knowledge, even if you know
+the answer. If the materials do not contain the answer, say clearly that it isn't covered in the provided
+materials instead of guessing. When you do answer, mention which document(s) (by filename) the answer came
+from."""
+    materials_block = "\n\n".join(
+        f"=== {doc['filename']} ===\n{doc['text'][:_COURSE_ASSISTANT_EXCERPT_CHARS_PER_DOC]}"
+        for doc in documents
+    )
+    user = f"Course materials:\n\n{materials_block}\n\nQuestion: {question}"
+    return _call(system, user, max_tokens=600, strict=strict)
