@@ -64,6 +64,7 @@ from app import local_library
 from app import ai_reliability
 from app import personalized_learning
 from app import pdf_explainer
+from app import lesson_planner
 from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -997,6 +998,70 @@ def pdf_explainer_delete_note(note_id: str):
     if not pdf_explainer.delete_note(note_id):
         raise HTTPException(status_code=404, detail="Note not found")
     return {"status": "deleted"}
+
+
+# ─── AI Lesson & Term Planner ───────────────────────────────────────────────
+# Generate a sequential, term-length lesson plan for a subject and level,
+# automatically scheduled across weekdays, and reschedule individual lessons
+# afterwards. Used from the Professional Workspace.
+
+@app.post("/api/lesson-planner/generate")
+def lesson_planner_generate(body: dict):
+    owner_id = str(body.get("owner_id", "")).strip()
+    subject = str(body.get("subject", "")).strip()
+    term_name = str(body.get("term_name", "")).strip()
+    start_date = str(body.get("start_date", "")).strip()
+    if not owner_id or not subject or not term_name or not start_date:
+        raise HTTPException(status_code=400, detail="owner_id, subject, term_name and start_date are required")
+    if not safety_filter.is_safe(f"{subject} {term_name}"):
+        raise HTTPException(status_code=400, detail="Request rejected: unsafe content detected")
+
+    args = _tutor_level_args(body)
+    try:
+        plan = lesson_planner.generate_plan(
+            owner_id, subject, term_name, start_date,
+            lesson_count=int(body.get("lesson_count", 10)),
+            lessons_per_week=int(body.get("lessons_per_week", 3)),
+            level=args["level"], grade=args["grade"],
+            notes=safety_filter.sanitize(str(body.get("notes", "")), strict=args["strict"])[:600],
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return plan
+
+
+@app.get("/api/lesson-planner")
+def lesson_planner_list(owner_id: str = ""):
+    return lesson_planner.list_plans(owner_id=owner_id)
+
+
+@app.get("/api/lesson-planner/{plan_id}")
+def lesson_planner_get(plan_id: str):
+    plan = lesson_planner.get_plan(plan_id)
+    if not plan:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return plan
+
+
+@app.delete("/api/lesson-planner/{plan_id}")
+def lesson_planner_delete(plan_id: str):
+    if not lesson_planner.delete_plan(plan_id):
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return {"status": "deleted"}
+
+
+@app.patch("/api/lesson-planner/{plan_id}/lessons/{lesson_id}")
+def lesson_planner_reschedule(plan_id: str, lesson_id: str, body: dict):
+    new_date = str(body.get("date", "")).strip()
+    if not new_date:
+        raise HTTPException(status_code=400, detail="date is required")
+    try:
+        plan = lesson_planner.reschedule_lesson(plan_id, lesson_id, new_date)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    if not plan:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return plan
 
 
 class LocalLibraryScanRequest(BaseModel):

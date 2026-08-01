@@ -308,6 +308,44 @@ Explanation: [one sentence]
     return _parse_quiz_response(raw)
 
 
+def _parse_lesson_plan_response(raw: str) -> list[dict]:
+    lessons = []
+    blocks = re.split(r"\n(?=LESSON:)", raw.strip())
+    for block in blocks:
+        title_m = re.search(r"LESSON:\s*(.+)", block)
+        objectives_m = re.search(r"OBJECTIVES:\s*(.+)", block)
+        content_m = re.search(r"CONTENT:\s*(.+)", block, re.S)
+        if title_m:
+            objectives = [o.strip() for o in (objectives_m.group(1).split(";") if objectives_m else []) if o.strip()]
+            content = content_m.group(1).strip() if content_m else ""
+            lessons.append({
+                "title": title_m.group(1).strip(),
+                "objectives": objectives,
+                "content": content,
+            })
+    return lessons
+
+
+def generate_lesson_plan(
+    subject: str, term_name: str, lesson_count: int = 10, grade: int = 1,
+    level: str | None = None, notes: str = "",
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are an experienced curriculum planner helping a teacher plan the term "{term_name}"
+for {subject} at {info['label']}. Generate exactly {lesson_count} sequential lessons that build on each
+other logically across the term. Format each lesson exactly as:
+LESSON: [short lesson title]
+OBJECTIVES: [objective one; objective two; objective three]
+CONTENT: [a short outline of what the lesson covers, one paragraph]
+"""
+    user = f"Plan {lesson_count} lessons for {subject} ({term_name}) at {info['label']}."
+    if notes.strip():
+        user += f" Teacher notes/constraints: {notes.strip()}"
+    raw = _call(system, user, max_tokens=1800, strict=strict)
+    return _parse_lesson_plan_response(raw)
+
+
 def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | None = None) -> str:
     info = _resolve_level(level, grade)
     strict = info["category"] == levels_module.SCHOOL_CATEGORY

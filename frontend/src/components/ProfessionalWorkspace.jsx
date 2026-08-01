@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import LessonPlanner from './LessonPlanner.jsx';
 import {
   createAssessment,
   createCpd,
@@ -19,7 +20,7 @@ import {
   searchResearch,
 } from '../api/professional.js';
 
-const SECTIONS = ['Dashboard', 'Research', 'Assessments', 'Career', 'Institutions', 'Integrations'];
+const SECTIONS = ['Dashboard', 'Research', 'Lesson Planner', 'Assessments', 'Career', 'Institutions', 'Integrations'];
 
 export default function ProfessionalWorkspace({ level = '1' }) {
   const [section, setSection] = useState('Dashboard');
@@ -245,6 +246,8 @@ export default function ProfessionalWorkspace({ level = '1' }) {
               </Panel>
             </div>
           )}
+
+          {section === 'Lesson Planner' && user && <LessonPlanner ownerId={user.id} level={level} />}
 
           {section === 'Assessments' && (
             <div className="space-y-5">
