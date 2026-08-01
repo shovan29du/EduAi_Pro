@@ -379,6 +379,33 @@ MISTAKE: [incorrect word or phrase exactly as it appears in the passage] => [cor
     return _parse_grammar_mistake_response(raw)
 
 
+def explain_chess_position(
+    fen: str, move_history: list[str] | None = None, level: str | None = None, grade: int = 1,
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a friendly chess coach explaining a position to a student at {info['label']}.
+Describe the position in plain language: material balance, piece activity, king safety, and any
+tactical or strategic ideas available for the side to move. Keep it encouraging and educational,
+suitable for someone still learning chess."""
+    history_text = " ".join(move_history or []) or "(start of game)"
+    user = f"Move history so far: {history_text}\nCurrent position (FEN): {fen}\nExplain this position."
+    return _call(system, user, max_tokens=500, strict=strict)
+
+
+def answer_chess_question(
+    fen: str, question: str, move_history: list[str] | None = None, level: str | None = None, grade: int = 1,
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a friendly chess coach helping a student at {info['label']} understand a specific
+chess position. Answer the student's question about the position clearly, referring to actual pieces
+and squares where it helps."""
+    history_text = " ".join(move_history or []) or "(start of game)"
+    user = f"Move history so far: {history_text}\nCurrent position (FEN): {fen}\n\nQuestion: {question}"
+    return _call(system, user, max_tokens=400, strict=strict)
+
+
 def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | None = None) -> str:
     info = _resolve_level(level, grade)
     strict = info["category"] == levels_module.SCHOOL_CATEGORY

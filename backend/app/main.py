@@ -65,6 +65,7 @@ from app import ai_reliability
 from app import personalized_learning
 from app import pdf_explainer
 from app import lesson_planner
+from app import chess_tutor
 from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -1062,6 +1063,78 @@ def lesson_planner_reschedule(plan_id: str, lesson_id: str, body: dict):
     if not plan:
         raise HTTPException(status_code=404, detail="Plan not found")
     return plan
+
+
+# ─── Chess Tutor ─────────────────────────────────────────────────────────────
+# An interactive chess board with AI coaching, plus a PGN game review mode.
+# Stateless: the frontend holds the current FEN and move history and sends
+# them with each request.
+
+@app.post("/api/chess/new-game")
+def chess_new_game():
+    return chess_tutor.new_game()
+
+
+@app.post("/api/chess/state")
+def chess_state(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    try:
+        return chess_tutor.board_state(fen)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@app.post("/api/chess/move")
+def chess_move(body: dict):
+    fen = str(body.get("fen", ""))
+    move = str(body.get("move", ""))
+    if not fen or not move:
+        raise HTTPException(status_code=400, detail="fen and move are required")
+    try:
+        return chess_tutor.apply_move(fen, move)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@app.post("/api/chess/explain")
+def chess_explain(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    args = _tutor_level_args(body)
+    moves = [str(m) for m in (body.get("moves") or [])][:200]
+    explanation = ai_tutor.explain_chess_position(fen, move_history=moves, level=args["level"], grade=args["grade"])
+    return {"explanation": explanation}
+
+
+@app.post("/api/chess/ask")
+def chess_ask(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+    moves = [str(m) for m in (body.get("moves") or [])][:200]
+    answer = ai_tutor.answer_chess_question(
+        fen, question, move_history=moves, level=args["level"], grade=args["grade"],
+    )
+    return {"answer": answer}
+
+
+@app.post("/api/chess/review-pgn")
+def chess_review_pgn(body: dict):
+    pgn = str(body.get("pgn", ""))
+    if not pgn.strip():
+        raise HTTPException(status_code=400, detail="pgn is required")
+    try:
+        positions = chess_tutor.parse_pgn(pgn)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {"positions": positions}
 
 
 class LocalLibraryScanRequest(BaseModel):
