@@ -32,6 +32,7 @@ export const listOrganizations = () => request('/organizations');
 export const createOrganization = (body) => request('/organizations', jsonPost(body));
 export const listProfessionalCourses = () => request('/courses');
 export const getLtiConfig = () => request('/lms/lti/config');
+export const draftResume = (body) => request('/resume/draft', jsonPost(body));
 
 function jsonPost(body) {
   return {

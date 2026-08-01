@@ -6,6 +6,7 @@ import {
   createOrganization,
   createPortfolioItem,
   createResearchProject,
+  draftResume,
   ensureProfessionalUser,
   getLtiConfig,
   getProfessionalDashboard,
@@ -19,6 +20,7 @@ import {
   saveResearchNote,
   searchResearch,
 } from '../api/professional.js';
+import { downloadFile } from '../utils/download.js';
 
 const SECTIONS = ['Dashboard', 'Research', 'Lesson Planner', 'Assessments', 'Career', 'Institutions', 'Integrations'];
 
@@ -50,6 +52,68 @@ export default function ProfessionalWorkspace({ level = '1' }) {
   const [organizationKind, setOrganizationKind] = useState('university');
   const [careerTarget, setCareerTarget] = useState('');
   const [interviewPrompt, setInterviewPrompt] = useState('');
+  const [resumeName, setResumeName] = useState('');
+  const [resumeContact, setResumeContact] = useState('');
+  const [resumeJobDescription, setResumeJobDescription] = useState('');
+  const [resumeSkills, setResumeSkills] = useState('');
+  const [resumeExperience, setResumeExperience] = useState('');
+  const [resumeEducation, setResumeEducation] = useState('');
+  const [resumeDraft, setResumeDraft] = useState(null);
+  const [resumeDrafting, setResumeDrafting] = useState(false);
+  const [resumeExporting, setResumeExporting] = useState('');
+  const [resumeError, setResumeError] = useState('');
+
+  async function handleDraftResume() {
+    setResumeError('');
+    setResumeDrafting(true);
+    try {
+      const skills = resumeSkills.split(',').map((item) => item.trim()).filter(Boolean);
+      const experience = resumeExperience.split('\n').map((item) => item.trim()).filter(Boolean);
+      const draft = await draftResume({
+        name: resumeName,
+        target_role: careerTarget,
+        job_description: resumeJobDescription,
+        skills,
+        experience,
+        education: resumeEducation,
+      });
+      setResumeDraft(draft);
+    } catch (err) {
+      setResumeError(err.message);
+    } finally {
+      setResumeDrafting(false);
+    }
+  }
+
+  async function handleExportResume(format) {
+    if (!resumeDraft) return;
+    setResumeError('');
+    setResumeExporting(format);
+    try {
+      await downloadFile(
+        '/api/pro/resume/export',
+        `${resumeName || 'resume'}.${format}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: resumeName,
+            target_role: careerTarget,
+            contact: resumeContact,
+            education: resumeEducation,
+            summary: resumeDraft.summary,
+            skills: resumeDraft.skills,
+            experience: resumeDraft.experience,
+            format,
+          }),
+        }
+      );
+    } catch (err) {
+      setResumeError(err.message);
+    } finally {
+      setResumeExporting('');
+    }
+  }
   const [connections, setConnections] = useState(() => {
     try { return JSON.parse(localStorage.getItem('eduai_integrations')) || {}; }
     catch { return {}; }
@@ -350,11 +414,83 @@ export default function ProfessionalWorkspace({ level = '1' }) {
               <Panel title="Current evidence">
                 <p className="text-sm">{portfolio.length} portfolio items · {cpd.length} CPD records</p>
               </Panel>
-              <div className="grid gap-3 md:grid-cols-3">
-                <Panel title="CV & cover letter"><p className="text-sm">Convert verified portfolio outcomes into quantified achievement statements.</p></Panel>
+              <div className="grid gap-3 md:grid-cols-2">
                 <Panel title="Technical interviews"><p className="text-sm">Practise coding, data, case-study and system-design exercises.</p></Panel>
                 <Panel title="Certification map"><p className="text-sm">Connect course mastery and CPD hours to professional certification evidence.</p></Panel>
               </div>
+
+              <Panel title="Resume Builder">
+                <p className="mb-3 text-sm text-gray-500">
+                  Turn your skills and portfolio notes into a polished, job-aware resume. EduBot rewrites
+                  your raw notes into quantified achievement statements without inventing facts, and you can
+                  download the result as a PDF or Word document.
+                </p>
+                <div className="grid gap-2 md:grid-cols-2">
+                  <input value={resumeName} onChange={(e) => setResumeName(e.target.value)} placeholder="Full name" className="input w-full" />
+                  <input value={resumeContact} onChange={(e) => setResumeContact(e.target.value)} placeholder="Contact (email, phone, location)" className="input w-full" />
+                </div>
+                <textarea
+                  value={resumeJobDescription}
+                  onChange={(e) => setResumeJobDescription(e.target.value)}
+                  placeholder="Paste the target job description (optional) so the resume can be tailored to it"
+                  rows={3}
+                  className="input mt-2 w-full"
+                />
+                <textarea
+                  value={resumeSkills}
+                  onChange={(e) => setResumeSkills(e.target.value)}
+                  placeholder="Skills, comma separated"
+                  rows={2}
+                  className="input mt-2 w-full"
+                />
+                <textarea
+                  value={resumeExperience}
+                  onChange={(e) => setResumeExperience(e.target.value)}
+                  placeholder="Experience or portfolio notes, one per line"
+                  rows={4}
+                  className="input mt-2 w-full"
+                />
+                <input value={resumeEducation} onChange={(e) => setResumeEducation(e.target.value)} placeholder="Education" className="input mt-2 w-full" />
+                <button
+                  type="button"
+                  className="button mt-3"
+                  disabled={resumeDrafting || (!resumeSkills.trim() && !resumeExperience.trim())}
+                  onClick={handleDraftResume}
+                >
+                  {resumeDrafting ? 'Drafting…' : 'Draft resume'}
+                </button>
+                {resumeError && <p role="alert" className="mt-3 rounded bg-red-50 p-3 text-sm text-red-700">{resumeError}</p>}
+                {resumeDraft && (
+                  <div className="mt-4 rounded-lg border bg-white p-3 text-sm dark:border-gray-700 dark:bg-gray-900">
+                    <h5 className="font-semibold">Summary</h5>
+                    <p className="mt-1 whitespace-pre-wrap">{resumeDraft.summary}</p>
+                    {resumeDraft.skills?.length > 0 && (
+                      <>
+                        <h5 className="mt-3 font-semibold">Skills</h5>
+                        <p className="mt-1">{resumeDraft.skills.join(', ')}</p>
+                      </>
+                    )}
+                    {resumeDraft.experience?.length > 0 && (
+                      <>
+                        <h5 className="mt-3 font-semibold">Experience</h5>
+                        <ul className="mt-1 list-disc space-y-1 pl-5">
+                          {resumeDraft.experience.map((bullet, index) => (
+                            <li key={index}>{bullet}</li>
+                          ))}
+                        </ul>
+                      </>
+                    )}
+                    <div className="mt-4 flex gap-2">
+                      <button type="button" className="button" disabled={resumeExporting === 'pdf'} onClick={() => handleExportResume('pdf')}>
+                        {resumeExporting === 'pdf' ? 'Exporting…' : 'Download PDF'}
+                      </button>
+                      <button type="button" className="button" disabled={resumeExporting === 'docx'} onClick={() => handleExportResume('docx')}>
+                        {resumeExporting === 'docx' ? 'Exporting…' : 'Download Word'}
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </Panel>
             </div>
           )}
 

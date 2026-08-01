@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import textwrap
 import uuid
 import zipfile
 from datetime import datetime, timezone
@@ -13,9 +14,12 @@ from urllib.request import Request, urlopen
 
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+from docx import Document
 from sqlalchemy import func, select
 
-from app import local_library
+from app import ai_tutor, local_library
 from app.database import session_scope
 from app.models import (
     Assessment,
@@ -629,3 +633,149 @@ def lti_config():
         ],
         "status": "configuration scaffold; register platform keys before production launch",
     }
+
+
+# ─── Resume Builder ─────────────────────────────────────────────────────────
+# Turns a candidate's raw skills/portfolio notes and an optional target job
+# description into a polished, quantified resume draft, downloadable as PDF
+# or DOCX. Fills the "CV & cover letter" capability the Career Lab UI has
+# advertised without an implementation behind it.
+
+@router.post("/resume/draft")
+def draft_resume(body: dict):
+    skills = [str(s).strip() for s in (body.get("skills") or []) if str(s).strip()][:30]
+    experience = [str(s).strip() for s in (body.get("experience") or []) if str(s).strip()][:20]
+    if not skills and not experience:
+        raise HTTPException(400, "Add at least one skill or experience note before drafting a resume")
+
+    profile = {
+        "name": str(body.get("name", "")).strip(),
+        "target_role": str(body.get("target_role", "")).strip(),
+        "job_description": str(body.get("job_description", ""))[:4000],
+        "skills": skills,
+        "experience": experience,
+        "education": str(body.get("education", ""))[:1000],
+    }
+    return ai_tutor.generate_resume_content(profile)
+
+
+def _resume_wrapped_lines(text: str, width: int = 95) -> list[str]:
+    lines = []
+    for paragraph in text.splitlines() or [text]:
+        lines.extend(textwrap.wrap(paragraph, width) or [""])
+    return lines
+
+
+def _resume_pdf(name: str, target_role: str, contact: str, education: str, draft: dict) -> bytes:
+    buffer = BytesIO()
+    pdf = canvas.Canvas(buffer, pagesize=letter)
+    width, height = letter
+    y = height - 72
+
+    def new_page():
+        nonlocal y
+        pdf.showPage()
+        y = height - 72
+
+    def heading(text: str, size: int = 13):
+        nonlocal y
+        if y < 100:
+            new_page()
+        pdf.setFont("Helvetica-Bold", size)
+        pdf.drawString(72, y, text)
+        y -= 18
+
+    def body(text: str, indent: int = 72):
+        nonlocal y
+        pdf.setFont("Helvetica", 10)
+        for line in _resume_wrapped_lines(text):
+            if y < 72:
+                new_page()
+                pdf.setFont("Helvetica", 10)
+            pdf.drawString(indent, y, line)
+            y -= 14
+
+    heading(name or "Resume", size=18)
+    if target_role:
+        body(target_role)
+    if contact:
+        body(contact)
+    y -= 10
+
+    if draft.get("summary"):
+        heading("Summary")
+        body(draft["summary"])
+        y -= 8
+    if draft.get("skills"):
+        heading("Skills")
+        body(", ".join(draft["skills"]))
+        y -= 8
+    if draft.get("experience"):
+        heading("Experience")
+        for bullet in draft["experience"]:
+            body(f"- {bullet}")
+        y -= 8
+    if education:
+        heading("Education")
+        body(education)
+
+    pdf.showPage()
+    pdf.save()
+    return buffer.getvalue()
+
+
+def _resume_docx(name: str, target_role: str, contact: str, education: str, draft: dict) -> bytes:
+    doc = Document()
+    doc.add_heading(name or "Resume", level=1)
+    if target_role:
+        doc.add_paragraph(target_role)
+    if contact:
+        doc.add_paragraph(contact)
+    if draft.get("summary"):
+        doc.add_heading("Summary", level=2)
+        doc.add_paragraph(draft["summary"])
+    if draft.get("skills"):
+        doc.add_heading("Skills", level=2)
+        doc.add_paragraph(", ".join(draft["skills"]))
+    if draft.get("experience"):
+        doc.add_heading("Experience", level=2)
+        for bullet in draft["experience"]:
+            doc.add_paragraph(bullet, style="List Bullet")
+    if education:
+        doc.add_heading("Education", level=2)
+        doc.add_paragraph(education)
+    buffer = BytesIO()
+    doc.save(buffer)
+    return buffer.getvalue()
+
+
+@router.post("/resume/export")
+def export_resume(body: dict):
+    draft = {
+        "summary": str(body.get("summary", "")).strip(),
+        "skills": [str(s).strip() for s in (body.get("skills") or []) if str(s).strip()],
+        "experience": [str(s).strip() for s in (body.get("experience") or []) if str(s).strip()],
+    }
+    if not draft["summary"] and not draft["skills"] and not draft["experience"]:
+        raise HTTPException(400, "Nothing to export -- draft a resume first")
+
+    name = str(body.get("name", "")).strip()
+    target_role = str(body.get("target_role", "")).strip()
+    contact = str(body.get("contact", "")).strip()
+    education = str(body.get("education", "")).strip()
+    format_ = body.get("format", "pdf")
+
+    filename_base = re.sub(r"[^a-zA-Z0-9-]+", "-", name or "resume").strip("-").lower() or "resume"
+    if format_ == "pdf":
+        return StreamingResponse(
+            BytesIO(_resume_pdf(name, target_role, contact, education, draft)),
+            media_type="application/pdf",
+            headers={"Content-Disposition": f'attachment; filename="{filename_base}.pdf"'},
+        )
+    if format_ == "docx":
+        return StreamingResponse(
+            BytesIO(_resume_docx(name, target_role, contact, education, draft)),
+            media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            headers={"Content-Disposition": f'attachment; filename="{filename_base}.docx"'},
+        )
+    raise HTTPException(422, "format must be 'pdf' or 'docx'")

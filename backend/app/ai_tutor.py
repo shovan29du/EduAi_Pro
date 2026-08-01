@@ -530,3 +530,67 @@ from."""
     )
     user = f"Course materials:\n\n{materials_block}\n\nQuestion: {question}"
     return _call(system, user, max_tokens=600, strict=strict)
+
+
+_RESUME_FORMAT_INSTRUCTIONS = """Respond in exactly this format, with no extra commentary before or after:
+SUMMARY: [2-3 sentence professional summary tailored to the target role]
+SKILLS: [comma-separated list, reusing and lightly polishing the candidate's own skills]
+EXPERIENCE:
+- [first achievement bullet: action-led and quantified wherever the candidate's notes support it]
+- [second achievement bullet]
+(write exactly one bullet per experience/portfolio note given, in the same order, and do not omit any)"""
+
+
+def _parse_resume_content(raw: str, fallback_skills: list[str], fallback_experience: list[str]) -> dict:
+    summary_m = re.search(r"SUMMARY:\s*(.+)", raw)
+    skills_m = re.search(r"SKILLS:\s*(.+)", raw)
+    experience_m = re.search(r"EXPERIENCE:\s*(.+)", raw, re.S)
+
+    summary = summary_m.group(1).strip() if summary_m else raw.strip()[:400]
+    skills = (
+        [s.strip() for s in skills_m.group(1).split(",") if s.strip()] if skills_m else list(fallback_skills)
+    )
+    bullets = []
+    if experience_m:
+        bullets = [
+            line.strip()[1:].strip()
+            for line in experience_m.group(1).splitlines()
+            if line.strip().startswith("-")
+        ]
+    if not bullets:
+        bullets = list(fallback_experience)
+
+    return {"summary": summary, "skills": skills, "experience": bullets}
+
+
+def generate_resume_content(profile: dict) -> dict:
+    """Turn a candidate's raw notes (skills, experience/portfolio bullets, target role and
+    job description) into a polished, ATS-friendly resume draft: a professional summary,
+    a refined skills list, and quantified achievement bullets -- one per input note."""
+    name = str(profile.get("name") or "the candidate")
+    target_role = str(profile.get("target_role") or "")
+    job_description = str(profile.get("job_description") or "")
+    skills = list(profile.get("skills") or [])
+    experience = list(profile.get("experience") or [])
+    education = str(profile.get("education") or "")
+
+    system = (
+        "You are an expert professional resume writer. Rewrite the candidate's raw notes into a "
+        "polished, ATS-friendly, quantified resume draft. Never invent employers, dates, numbers, or "
+        "achievements the candidate did not mention -- only sharpen phrasing and structure.\n"
+        + _RESUME_FORMAT_INSTRUCTIONS
+    )
+    lines = [f"Candidate: {name}", f"Target role: {target_role or 'not specified'}"]
+    if job_description:
+        lines.append(f"Target job description:\n{job_description}")
+    if skills:
+        lines.append(f"Raw skills: {', '.join(skills)}")
+    if experience:
+        lines.append("Raw experience/portfolio notes (one bullet per note, same order):")
+        lines.extend(f"- {item}" for item in experience)
+    if education:
+        lines.append(f"Education: {education}")
+    user = "\n".join(lines)
+
+    raw = _call(system, user, max_tokens=800, strict=False)
+    return _parse_resume_content(raw, fallback_skills=skills, fallback_experience=experience)
