@@ -157,4 +157,64 @@ describe('CodeEditor', () => {
       expect(screen.getByLabelText('Python code').value).toBe("print('quine')");
     });
   });
+
+  it('renders a live preview iframe for HTML/CSS and updates it on Run', async () => {
+    render(
+      <ChildProvider>
+        <CodeEditor />
+      </ChildProvider>
+    );
+    fireEvent.click(screen.getByRole('radio', { name: 'HTML/CSS' }));
+    expect(screen.getByText('Press Run to see the preview…')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: '▶ Run' }));
+
+    await waitFor(() => {
+      const iframe = document.querySelector('iframe[title="HTML preview"]');
+      expect(iframe).toBeInTheDocument();
+      expect(iframe.getAttribute('srcdoc')).toContain('Hello, world!');
+    });
+  });
+
+  it('opens the CSS Art Gallery, lists pieces, and loads one as HTML/CSS into the editor', async () => {
+    global.fetch = vi.fn((url) => {
+      if (url === '/api/css-art') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            pieces: [
+              { id: 'rotating-cube', title: 'Rotating Cube', author: null },
+              { id: 'saturn', title: 'Saturn', author: null },
+            ],
+          }),
+        });
+      }
+      if (url === '/api/css-art/rotating-cube') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            id: 'rotating-cube', title: 'Rotating Cube', author: null,
+            source: '<!doctype html><html><body>cube art</body></html>',
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(
+      <ChildProvider>
+        <CodeEditor />
+      </ChildProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: /CSS Art Gallery/i }));
+    await waitFor(() => {
+      expect(screen.getByRole('button', { name: 'Rotating Cube' })).toBeInTheDocument();
+    });
+    expect(screen.getByRole('button', { name: 'Saturn' })).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Rotating Cube' }));
+    await waitFor(() => {
+      expect(screen.getByLabelText('HTML/CSS code').value).toBe('<!doctype html><html><body>cube art</body></html>');
+    });
+  });
 });

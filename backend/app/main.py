@@ -3521,6 +3521,35 @@ def get_quine(language: str):
     raise HTTPException(status_code=404, detail=f"No quine found for language '{language}'")
 
 
+CSS_ART_PATH = BASE_DIR / "data" / "css_art" / "css_art.json"
+
+
+@app.get("/api/css-art")
+def list_css_art():
+    if not CSS_ART_PATH.exists():
+        raise HTTPException(status_code=404, detail="CSS Art Gallery data not found")
+    with open(CSS_ART_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    return {
+        "title": data["title"],
+        "description": data["description"],
+        "source_project": data["source_project"],
+        "pieces": [{"id": p["id"], "title": p["title"], "author": p["author"]} for p in data["pieces"]],
+    }
+
+
+@app.get("/api/css-art/{piece_id}")
+def get_css_art(piece_id: str):
+    if not CSS_ART_PATH.exists():
+        raise HTTPException(status_code=404, detail="CSS Art Gallery data not found")
+    with open(CSS_ART_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    for piece in data["pieces"]:
+        if piece["id"] == piece_id:
+            return piece
+    raise HTTPException(status_code=404, detail=f"No CSS art piece found with id '{piece_id}'")
+
+
 @app.post("/api/run-code")
 async def run_code(req: CodeRunRequest):
     lang = req.language.lower()

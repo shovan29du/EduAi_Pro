@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
 import { EditorView } from '@codemirror/view';
 import { javascript } from '@codemirror/lang-javascript';
+import { html } from '@codemirror/lang-html';
 import { python } from '@codemirror/lang-python';
 import { cpp } from '@codemirror/lang-cpp';
 import { java } from '@codemirror/lang-java';
@@ -49,6 +50,7 @@ function buildSandboxDoc(code) {
 }
 
 const LANGUAGES = [
+  { id: 'html',       label: 'HTML/CSS',   mode: 'html' },
   { id: 'javascript', label: 'JavaScript', mode: 'browser' },
   { id: 'typescript', label: 'TypeScript', mode: 'typescript' },
   { id: 'python',     label: 'Python',     mode: 'pyodide' },
@@ -67,6 +69,19 @@ const LANGUAGES = [
 ];
 
 const DEFAULT_CODE = {
+  html: `<!doctype html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 3rem; }
+    h1 { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <p>Edit the HTML and CSS, then press Run to see the preview update.</p>
+</body>
+</html>`,
   javascript: '// JavaScript\nconsole.log("Hello, world!");',
   typescript: '// TypeScript\nfunction greet(name: string): string {\n  return `Hello, ${name}!`;\n}\nconsole.log(greet("world"));',
   python:     '# Python\nprint("Hello, world!")',
@@ -147,6 +162,7 @@ const BACKEND_HINTS = {
 
 // A one-line "why would I use this?" for a student picking a language for the first time.
 const STARTER_BLURBS = {
+  html: 'Structure (HTML) and style (CSS) — every website starts here. Edit and the preview renders instantly.',
   javascript: 'The language of the web — runs in every browser, great for interactive pages.',
   typescript: 'JavaScript with type-checking bolted on, so many mistakes get caught before you run the code.',
   python: 'Reads almost like English. A great first "real" programming language.',
@@ -165,6 +181,7 @@ const STARTER_BLURBS = {
 };
 
 const LANG_EXTENSIONS = {
+  html: () => html(),
   javascript: () => javascript({ jsx: false, typescript: false }),
   typescript: () => javascript({ jsx: false, typescript: true }),
   python: () => python(),
@@ -309,6 +326,69 @@ function QuineBrowser({ open, onLoad }) {
   );
 }
 
+// ── CSS Art Gallery ─────────────────────────────────────────────────────────
+// Real, self-contained HTML/CSS art pieces contributed to the open-source
+// CSS Art Museum project. Loading a piece fetches its full source, then
+// switches the editor to HTML/CSS mode with that source loaded.
+
+function CssArtBrowser({ open, onLoad }) {
+  const [pieces, setPieces] = useState(null);
+  const [error, setError] = useState('');
+  const [loadingId, setLoadingId] = useState(null);
+
+  useEffect(() => {
+    if (!open || pieces !== null) return;
+    fetch('/api/css-art')
+      .then((r) => { if (!r.ok) throw new Error('fetch failed'); return r.json(); })
+      .then((data) => setPieces(data.pieces || []))
+      .catch(() => setError('Could not load the CSS Art Gallery.'));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open]);
+
+  async function handlePick(id) {
+    setLoadingId(id);
+    setError('');
+    try {
+      const r = await fetch(`/api/css-art/${id}`);
+      if (!r.ok) throw new Error('fetch failed');
+      const piece = await r.json();
+      onLoad({ code: piece.source, language: 'html' });
+    } catch {
+      setError('Could not load that piece.');
+    } finally {
+      setLoadingId(null);
+    }
+  }
+
+  if (!open) return null;
+
+  return (
+    <div role="region" aria-label="CSS Art Gallery" className="rounded-lg border p-3 dark:border-gray-600 space-y-2">
+      <p className="text-xs text-gray-500 dark:text-gray-400">
+        Real HTML/CSS art contributed by developers. Load one to see it rendered live, then tweak the code.
+      </p>
+      {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+      {pieces === null && !error && <p className="text-sm text-gray-500">Loading…</p>}
+      {pieces !== null && (
+        <div className="flex flex-wrap gap-2">
+          {pieces.map((p) => (
+            <button
+              key={p.id}
+              type="button"
+              onClick={() => handlePick(p.id)}
+              disabled={loadingId === p.id}
+              className="rounded-full border px-3 py-1 text-xs font-medium hover:bg-gray-100 disabled:opacity-50 dark:border-gray-600 dark:hover:bg-gray-800"
+              title={p.author ? `by ${p.author}` : undefined}
+            >
+              {loadingId === p.id ? '…' : p.title}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const { child, darkMode } = useChild();
   const [language, setLanguage] = useState(defaultLanguage);
@@ -318,6 +398,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const [running, setRunning] = useState(false);
   const [snippetsOpen, setSnippetsOpen] = useState(false);
   const [quinesOpen, setQuinesOpen] = useState(false);
+  const [cssArtOpen, setCssArtOpen] = useState(false);
   const [runHistory, setRunHistory] = useState([]); // [{code, output, language, at}], newest first
   const [viewingHistoryIdx, setViewingHistoryIdx] = useState(null);
   const iframeRef = useRef(null);
@@ -344,6 +425,11 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
       ...prev,
     ].slice(0, MAX_RUN_HISTORY));
     setViewingHistoryIdx(null);
+  }
+
+  function runHtml() {
+    setOutput(code);
+    recordRun(code);
   }
 
   function runJavaScript() {
@@ -446,6 +532,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
     if (mode === 'pyodide') runPython();
     else if (mode === 'backend') runBackend(language);
     else if (mode === 'typescript') runTypeScript();
+    else if (mode === 'html') runHtml();
     else runJavaScript();
   }
 
@@ -474,6 +561,16 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
     setOutput('');
     setViewingHistoryIdx(null);
     setQuinesOpen(false);
+  }
+
+  function handleLoadCssArt({ code: loadedCode, language: loadedLanguage }) {
+    if (loadedLanguage && LANGUAGES.some((l) => l.id === loadedLanguage)) {
+      setLanguage(loadedLanguage);
+    }
+    setCode(loadedCode);
+    setOutput('');
+    setViewingHistoryIdx(null);
+    setCssArtOpen(false);
   }
 
   const runLabel = running
@@ -570,19 +667,47 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
         >
           {quinesOpen ? '🧬 Hide Quine Museum' : '🧬 Quine Museum'}
         </button>
+        <button
+          type="button"
+          onClick={() => setCssArtOpen((v) => !v)}
+          aria-expanded={cssArtOpen}
+          className="rounded-lg border px-4 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition focus:outline focus:outline-2 focus:outline-blue-500"
+        >
+          {cssArtOpen ? '🎨 Hide CSS Art Gallery' : '🎨 CSS Art Gallery'}
+        </button>
         {saved && <span role="status" className="text-sm text-green-600 dark:text-green-400">Saved!</span>}
       </div>
 
       <SnippetBrowser child={child} open={snippetsOpen} onLoad={handleLoadSnippet} />
       <QuineBrowser open={quinesOpen} onLoad={handleLoadQuine} />
+      <CssArtBrowser open={cssArtOpen} onLoad={handleLoadCssArt} />
 
-      <pre
-        role="region"
-        aria-label="Code output"
-        className="min-h-[3rem] whitespace-pre-wrap rounded-lg border bg-gray-900 text-green-400 p-3 text-sm font-mono dark:border-gray-700"
-      >
-        {displayedOutput || <span className="text-gray-600">Output will appear here…</span>}
-      </pre>
+      {language === 'html' ? (
+        displayedOutput ? (
+          <iframe
+            title="HTML preview"
+            srcDoc={displayedOutput}
+            sandbox="allow-scripts"
+            className="min-h-[16rem] w-full rounded-lg border bg-white dark:border-gray-700"
+          />
+        ) : (
+          <p
+            role="region"
+            aria-label="Code output"
+            className="min-h-[3rem] rounded-lg border bg-gray-900 p-3 text-sm text-gray-600 dark:border-gray-700"
+          >
+            Press Run to see the preview…
+          </p>
+        )
+      ) : (
+        <pre
+          role="region"
+          aria-label="Code output"
+          className="min-h-[3rem] whitespace-pre-wrap rounded-lg border bg-gray-900 text-green-400 p-3 text-sm font-mono dark:border-gray-700"
+        >
+          {displayedOutput || <span className="text-gray-600">Output will appear here…</span>}
+        </pre>
+      )}
 
       {runHistory.length > 0 && (
         <div role="region" aria-label="Run history" className="space-y-1">
