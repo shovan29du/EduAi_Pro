@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
+import LevelSelector from './LevelSelector.jsx';
 import { SpeakButton } from '../utils/tts.jsx';
 
 const LEVELS = [
@@ -31,6 +32,7 @@ const LANGUAGES = [
 ];
 
 export default function GrammarAcademy() {
+  const [mode, setMode] = useState('browse');
   const [langCode, setLangCode] = useState('en');
   const [overview, setOverview] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState(null);
@@ -43,6 +45,27 @@ export default function GrammarAcademy() {
   const [retryCount, setRetryCount] = useState(0);
 
   const activeLang = LANGUAGES.find(l => l.code === langCode) || LANGUAGES[0];
+
+  const modeToggle = (
+    <div className="mb-4 flex gap-2" role="group" aria-label="Grammar Academy mode">
+      <button
+        onClick={() => setMode('browse')}
+        className={`rounded-full px-3 py-1 text-sm font-medium transition ${
+          mode === 'browse' ? 'bg-blue-600 text-white' : 'border border-gray-300 dark:border-gray-600'
+        }`}
+      >
+        📚 Browse Lessons
+      </button>
+      <button
+        onClick={() => setMode('mistake-hunt')}
+        className={`rounded-full px-3 py-1 text-sm font-medium transition ${
+          mode === 'mistake-hunt' ? 'bg-blue-600 text-white' : 'border border-gray-300 dark:border-gray-600'
+        }`}
+      >
+        🕵️ Mistake Hunter
+      </button>
+    </div>
+  );
 
   useEffect(() => {
     setLoading(true);
@@ -95,6 +118,18 @@ export default function GrammarAcademy() {
     </div>
   );
 
+  if (mode === 'mistake-hunt') {
+    return (
+      <div className="space-y-4">
+        <div className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-white">
+          <h2 className="text-xl font-bold">📝 Grammar Academy</h2>
+        </div>
+        {modeToggle}
+        <MistakeHunter language={activeLang.label} />
+      </div>
+    );
+  }
+
   if (loading) return <><div className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-white mb-4"><h2 className="text-xl font-bold">📝 Grammar Academy</h2></div>{langPicker}<LoadingSpinner /></>;
 
   if (fetchError) return (
@@ -118,6 +153,7 @@ export default function GrammarAcademy() {
           <h2 className="text-xl font-bold">📝 Grammar Academy</h2>
           <p className="text-sm opacity-90">{overview?.title || `${activeLang.label} Grammar`}</p>
         </div>
+        {modeToggle}
         {langPicker}
         <p className="text-sm text-gray-600 dark:text-gray-400">{overview?.description}</p>
         <div className="grid gap-3 sm:grid-cols-2">
@@ -264,6 +300,107 @@ export default function GrammarAcademy() {
             <p className="font-semibold text-green-600">
               Score: {lesson.quiz.filter((q, i) => quizAnswers[i] === q.answer).length} / {lesson.quiz.length} ✅
             </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MistakeHunter({ language }) {
+  const [topic, setTopic] = useState('');
+  const [level, setLevel] = useState('1');
+  const [mistakeCount, setMistakeCount] = useState(8);
+  const [exercise, setExercise] = useState(null);
+  const [revealed, setRevealed] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  async function handleGenerate(event) {
+    event.preventDefault();
+    setLoading(true);
+    setError('');
+    setRevealed(false);
+    try {
+      const res = await fetch('/api/grammar/mistake-hunt', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ topic, level, language, mistake_count: Number(mistakeCount) || 8 }),
+      });
+      if (!res.ok) throw new Error('Could not generate a mistake-hunting exercise');
+      const data = await res.json();
+      if (!data.passage) throw new Error('Could not generate a mistake-hunting exercise');
+      setExercise(data);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="space-y-4">
+      <p className="text-sm text-gray-600 dark:text-gray-400">
+        Generate a short {language} passage with mistakes hidden inside it. Try to spot them yourself, then reveal
+        the answer key to check.
+      </p>
+
+      <form onSubmit={handleGenerate} className="grid gap-3 rounded-xl border p-4 dark:border-gray-700 sm:grid-cols-2">
+        <input
+          value={topic}
+          onChange={(e) => setTopic(e.target.value)}
+          placeholder="Topic, e.g. a trip to the beach (optional)"
+          className="rounded border px-2 py-1 dark:bg-gray-800 sm:col-span-2"
+        />
+        <LevelSelector level={level} onChange={setLevel} />
+        <label className="flex items-center gap-2 text-sm">
+          Number of mistakes
+          <input
+            type="number"
+            min="1"
+            max="20"
+            value={mistakeCount}
+            onChange={(e) => setMistakeCount(e.target.value)}
+            className="flex-1 rounded border px-2 py-1 dark:bg-gray-800"
+          />
+        </label>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-lg bg-blue-600 px-6 py-2 text-white font-medium hover:bg-blue-700 disabled:opacity-50 sm:col-span-2"
+        >
+          {loading ? 'Generating…' : 'Generate exercise'}
+        </button>
+      </form>
+
+      {error && <p role="alert" className="rounded bg-red-50 p-3 text-sm text-red-700">{error}</p>}
+      {loading && <LoadingSpinner />}
+
+      {exercise && (
+        <div className="rounded-xl border bg-white p-4 shadow dark:bg-gray-900">
+          <h3 className="mb-2 font-semibold">Find the {exercise.mistakes.length} mistake(s)</h3>
+          <p className="whitespace-pre-wrap text-sm">{exercise.passage}</p>
+          {!revealed ? (
+            <button
+              type="button"
+              onClick={() => setRevealed(true)}
+              className="mt-4 rounded bg-blue-600 px-4 py-2 text-sm text-white"
+            >
+              Reveal answer key
+            </button>
+          ) : (
+            <div className="mt-4 space-y-2">
+              {exercise.mistakes.map((m, i) => (
+                <div key={i} className="rounded bg-gray-50 p-3 text-sm dark:bg-gray-800">
+                  <p>
+                    <span className="text-red-600 line-through">{m.wrong}</span>
+                    {' → '}
+                    <span className="font-medium text-green-600">{m.correct}</span>
+                  </p>
+                  <p className="mt-1 text-xs text-gray-500">{m.explanation}</p>
+                </div>
+              ))}
+            </div>
           )}
         </div>
       )}

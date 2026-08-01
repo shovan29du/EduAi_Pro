@@ -346,6 +346,39 @@ CONTENT: [a short outline of what the lesson covers, one paragraph]
     return _parse_lesson_plan_response(raw)
 
 
+def _parse_grammar_mistake_response(raw: str) -> dict:
+    passage_m = re.search(r"PASSAGE:\s*(.*?)(?=\nMISTAKE:|\Z)", raw.strip(), re.S)
+    passage = passage_m.group(1).strip() if passage_m else ""
+    mistakes = []
+    for m in re.finditer(r"MISTAKE:\s*(.+?)\s*=>\s*(.+?)\s*::\s*(.+)", raw):
+        mistakes.append({
+            "wrong": m.group(1).strip(),
+            "correct": m.group(2).strip(),
+            "explanation": m.group(3).strip(),
+        })
+    return {"passage": passage, "mistakes": mistakes}
+
+
+def generate_grammar_mistake_exercise(
+    topic: str, grade: int = 1, level: str | None = None, language: str = "English", mistake_count: int = 8,
+) -> dict:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    mistake_count = max(1, min(int(mistake_count), 20))
+    system = f"""You are a {language} grammar teacher creating a "find the mistakes" exercise for a student at
+{info['label']}. Write a short, engaging passage (120-200 words) about {topic or 'an interesting everyday topic'}
+in {language}, but deliberately insert exactly {mistake_count} grammar, spelling or punctuation mistakes into it.
+The mistakes must be realistic errors a learner might make, spread throughout the passage. Format your answer
+exactly as:
+PASSAGE: [the full passage, containing the {mistake_count} mistakes]
+MISTAKE: [incorrect word or phrase exactly as it appears in the passage] => [corrected version] :: [one-sentence explanation of the rule]
+(repeat the MISTAKE line once for each mistake, in the order they appear in the passage)
+"""
+    user = f"Create a grammar mistake-hunting exercise about {topic or 'daily life'} with {mistake_count} mistakes."
+    raw = _call(system, user, max_tokens=1000, strict=strict)
+    return _parse_grammar_mistake_response(raw)
+
+
 def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | None = None) -> str:
     info = _resolve_level(level, grade)
     strict = info["category"] == levels_module.SCHOOL_CATEGORY

@@ -1791,6 +1791,18 @@ def get_grammar_level(level: str):
     return level_data
 
 
+@app.post("/api/grammar/mistake-hunt")
+def grammar_mistake_hunt(body: dict):
+    topic = safety_filter.sanitize(str(body.get("topic", "")), strict=True)[:200]
+    language = str(body.get("language") or "English")[:60]
+    args = _tutor_level_args(body)
+    mistake_count = min(int(body.get("mistake_count", 8)), 20)
+    exercise = ai_tutor.generate_grammar_mistake_exercise(
+        topic, grade=args["grade"], level=args["level"], language=language, mistake_count=mistake_count,
+    )
+    return exercise
+
+
 # ─── Countries ───────────────────────────────────────────────────────────────
 
 COUNTRIES_DIR = BASE_DIR / "data" / "countries"
