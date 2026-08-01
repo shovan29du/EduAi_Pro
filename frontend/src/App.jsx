@@ -70,6 +70,7 @@ const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorksp
 const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
 const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 const ChessTutor = lazy(() => import('./components/ChessTutor.jsx'));
+const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
 
 const CHILD_TABS = [
   'Professional',
@@ -108,6 +109,7 @@ const CHILD_TABS = [
   'World Cinema',
   'Games',
   'Chess',
+  'Study Coach',
   'Appearance',
   'PDF Explainer',
   'Resource Tab',
@@ -304,6 +306,8 @@ export default function App() {
           {activeTab === 'Games' && (fullGrade ? <Games grade={fullGrade} /> : <LoadingSpinner />)}
 
           {activeTab === 'Chess' && <ChessTutor level={level} />}
+
+          {activeTab === 'Study Coach' && <StudyCoach child={child} level={level} />}
 
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 

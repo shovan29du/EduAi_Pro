@@ -66,6 +66,7 @@ from app import personalized_learning
 from app import pdf_explainer
 from app import lesson_planner
 from app import chess_tutor
+from app import study_coach
 from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -1135,6 +1136,65 @@ def chess_review_pgn(body: dict):
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     return {"positions": positions}
+
+
+# ─── Study Coach ─────────────────────────────────────────────────────────────
+# AI-generated spaced-repetition study questions (multiple-choice and
+# open-ended), interleaved across topics, with confidence tracking and a
+# simplified SM-2 review schedule.
+
+@app.post("/api/study-coach/generate")
+def study_coach_generate(body: dict):
+    child = str(body.get("child", "")).strip()
+    topic = safety_filter.sanitize(str(body.get("topic", "")).strip(), strict=True)[:200]
+    if not child or not topic:
+        raise HTTPException(status_code=400, detail="child and topic are required")
+    args = _tutor_level_args(body)
+    mode = str(body.get("mode", "mixed"))
+    if mode not in ("mcq", "dissertative", "mixed"):
+        mode = "mixed"
+    count = min(int(body.get("count", 6)), 15)
+    subject = str(body.get("subject", ""))
+    questions = study_coach.generate_questions(
+        child, topic, subject=subject, grade=args["grade"], level=args["level"], count=count, mode=mode,
+    )
+    return {"questions": questions}
+
+
+@app.get("/api/study-coach/due")
+def study_coach_due(child: str, limit: int = 20):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    return {"questions": study_coach.list_due_questions(child, limit=min(limit, 50))}
+
+
+@app.post("/api/study-coach/{question_id}/answer")
+def study_coach_answer(question_id: str, body: dict):
+    child = str(body.get("child", "")).strip()
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    given_answer = safety_filter.sanitize(str(body.get("answer", "")), strict=True)[:2000]
+    confidence = int(body.get("confidence", 3))
+    try:
+        result = study_coach.submit_answer(child, question_id, given_answer, confidence=confidence)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return result
+
+
+@app.get("/api/study-coach/stats")
+def study_coach_stats(child: str):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    return study_coach.stats(child)
+
+
+@app.delete("/api/study-coach/topics/{topic}")
+def study_coach_delete_topic(topic: str, child: str):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    deleted = study_coach.delete_topic(child, topic)
+    return {"deleted": deleted}
 
 
 class LocalLibraryScanRequest(BaseModel):

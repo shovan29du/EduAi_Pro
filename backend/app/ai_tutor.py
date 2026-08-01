@@ -413,3 +413,95 @@ def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | No
     return _call(
         system, f"Create a {days}-day study plan for {subject} at {info['label']}.", max_tokens=600, strict=strict
     )
+
+
+def _parse_study_questions_response(raw: str) -> list[dict]:
+    questions = []
+    blocks = re.split(r"\n(?=TYPE:)", raw.strip())
+    for block in blocks:
+        type_m = re.search(r"TYPE:\s*(MCQ|OPEN)", block)
+        q_m = re.search(r"Q:\s*(.+)", block)
+        if not type_m or not q_m:
+            continue
+        qtype = type_m.group(1).strip()
+        if qtype == "MCQ":
+            opts = re.findall(r"([A-D])\)\s*(.+)", block)
+            ans_m = re.search(r"ANSWER:\s*([A-D])", block)
+            exp_m = re.search(r"EXPLANATION:\s*(.+)", block)
+            if len(opts) >= 2 and ans_m:
+                questions.append({
+                    "type": "mcq",
+                    "question": q_m.group(1).strip(),
+                    "options": {o[0]: o[1].strip() for o in opts},
+                    "answer": ans_m.group(1).strip(),
+                    "explanation": exp_m.group(1).strip() if exp_m else "",
+                })
+        else:
+            points_m = re.search(r"KEY_POINTS:\s*(.+)", block)
+            exp_m = re.search(r"EXPLANATION:\s*(.+)", block)
+            key_points = [p.strip() for p in (points_m.group(1).split(";") if points_m else []) if p.strip()]
+            questions.append({
+                "type": "open",
+                "question": q_m.group(1).strip(),
+                "key_points": key_points,
+                "explanation": exp_m.group(1).strip() if exp_m else "",
+            })
+    return questions
+
+
+def generate_study_questions(
+    topic: str, subject: str = "", grade: int = 1, level: str | None = None, count: int = 6, mode: str = "mixed",
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    mode_instruction = {
+        "mcq": "all multiple-choice",
+        "dissertative": "all open-ended short-answer",
+        "mixed": "a mix of multiple-choice and open-ended short-answer",
+    }.get(mode, "a mix of multiple-choice and open-ended short-answer")
+    system = f"""You create study questions for spaced-repetition practice, for a student at {info['label']}
+studying {subject or topic}. Generate exactly {count} questions, {mode_instruction}, testing real understanding
+(not just recall) of {topic}. Format each multiple-choice question exactly as:
+TYPE: MCQ
+Q: [question]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+ANSWER: [A/B/C/D]
+EXPLANATION: [one sentence]
+
+Format each open-ended question exactly as:
+TYPE: OPEN
+Q: [question]
+KEY_POINTS: [point one; point two; point three]
+EXPLANATION: [one-sentence model answer summary]
+"""
+    raw = _call(system, f"Topic: {topic}", max_tokens=1500, strict=strict)
+    return _parse_study_questions_response(raw)
+
+
+def _parse_graded_answer_response(raw: str) -> dict:
+    score_m = re.search(r"SCORE:\s*(\d+)", raw)
+    feedback_m = re.search(r"FEEDBACK:\s*(.+)", raw, re.S)
+    score = int(score_m.group(1)) if score_m else 0
+    score = max(0, min(score, 100))
+    feedback = feedback_m.group(1).strip() if feedback_m else raw.strip()
+    return {"score": score, "feedback": feedback}
+
+
+def grade_open_answer(
+    question: str, key_points: list[str], given_answer: str, level: str | None = None, grade: int = 1,
+) -> dict:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    points_text = "; ".join(key_points) or "(no specific key points given -- judge on general correctness)"
+    system = f"""You are grading a student's answer at {info['label']}. Be encouraging but honest.
+Compare the student's answer to the expected key points and award a score from 0 to 100 reflecting how
+completely and correctly they answered. Format your reply exactly as:
+SCORE: [0-100]
+FEEDBACK: [two or three encouraging, specific sentences on what was right and what to improve]
+"""
+    user = f"Question: {question}\nExpected key points: {points_text}\nStudent's answer: {given_answer}"
+    raw = _call(system, user, max_tokens=300, strict=strict)
+    return _parse_graded_answer_response(raw)
