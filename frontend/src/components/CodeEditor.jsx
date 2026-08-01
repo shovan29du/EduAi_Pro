@@ -264,6 +264,51 @@ function SnippetBrowser({ child, open, onLoad }) {
   );
 }
 
+// ── Quine Museum ────────────────────────────────────────────────────────────
+// A quine is a program that prints its own source code exactly. Real quines,
+// one per language, from the open-source Quine Museum project.
+
+function QuineBrowser({ open, onLoad }) {
+  const [quines, setQuines] = useState(null);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (!open || quines !== null) return;
+    fetch('/api/quines')
+      .then((r) => { if (!r.ok) throw new Error('fetch failed'); return r.json(); })
+      .then((data) => setQuines(data.quines || []))
+      .catch(() => setError('Could not load the Quine Museum.'));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open]);
+
+  if (!open) return null;
+
+  return (
+    <div role="region" aria-label="Quine Museum" className="rounded-lg border p-3 dark:border-gray-600 space-y-2">
+      <p className="text-xs text-gray-500 dark:text-gray-400">
+        A quine is a program that prints its own source code exactly. Load one, then press Run to watch it
+        reproduce itself.
+      </p>
+      {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+      {quines === null && !error && <p className="text-sm text-gray-500">Loading…</p>}
+      {quines !== null && (
+        <div className="flex flex-wrap gap-2">
+          {quines.map((q) => (
+            <button
+              key={q.language}
+              type="button"
+              onClick={() => onLoad({ code: q.source, language: q.language })}
+              className="rounded-full border px-3 py-1 text-xs font-medium hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-800"
+            >
+              {q.label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const { child, darkMode } = useChild();
   const [language, setLanguage] = useState(defaultLanguage);
@@ -272,6 +317,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const [saved, setSaved] = useState(false);
   const [running, setRunning] = useState(false);
   const [snippetsOpen, setSnippetsOpen] = useState(false);
+  const [quinesOpen, setQuinesOpen] = useState(false);
   const [runHistory, setRunHistory] = useState([]); // [{code, output, language, at}], newest first
   const [viewingHistoryIdx, setViewingHistoryIdx] = useState(null);
   const iframeRef = useRef(null);
@@ -420,6 +466,16 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
     setSnippetsOpen(false);
   }
 
+  function handleLoadQuine({ code: loadedCode, language: loadedLanguage }) {
+    if (loadedLanguage && LANGUAGES.some((l) => l.id === loadedLanguage)) {
+      setLanguage(loadedLanguage);
+    }
+    setCode(loadedCode);
+    setOutput('');
+    setViewingHistoryIdx(null);
+    setQuinesOpen(false);
+  }
+
   const runLabel = running
     ? (language === 'python' ? 'Starting Python…' : 'Running…')
     : '▶ Run';
@@ -506,10 +562,19 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
         >
           {snippetsOpen ? '📂 Hide snippets' : '📂 My Snippets'}
         </button>
+        <button
+          type="button"
+          onClick={() => setQuinesOpen((v) => !v)}
+          aria-expanded={quinesOpen}
+          className="rounded-lg border px-4 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition focus:outline focus:outline-2 focus:outline-blue-500"
+        >
+          {quinesOpen ? '🧬 Hide Quine Museum' : '🧬 Quine Museum'}
+        </button>
         {saved && <span role="status" className="text-sm text-green-600 dark:text-green-400">Saved!</span>}
       </div>
 
       <SnippetBrowser child={child} open={snippetsOpen} onLoad={handleLoadSnippet} />
+      <QuineBrowser open={quinesOpen} onLoad={handleLoadQuine} />
 
       <pre
         role="region"

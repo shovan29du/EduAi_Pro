@@ -3498,6 +3498,29 @@ def _run_subprocess(cmd: list[str], input_text: str | None = None, env: dict | N
         return f"Error: {e}"
 
 
+QUINES_PATH = BASE_DIR / "data" / "quines" / "quines.json"
+
+
+@app.get("/api/quines")
+def list_quines():
+    if not QUINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Quine Museum data not found")
+    with open(QUINES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/quines/{language}")
+def get_quine(language: str):
+    if not QUINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Quine Museum data not found")
+    with open(QUINES_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    for quine in data["quines"]:
+        if quine["language"] == language:
+            return quine
+    raise HTTPException(status_code=404, detail=f"No quine found for language '{language}'")
+
+
 @app.post("/api/run-code")
 async def run_code(req: CodeRunRequest):
     lang = req.language.lower()

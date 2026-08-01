@@ -124,4 +124,37 @@ describe('CodeEditor', () => {
       expect(global.fetch).toHaveBeenCalledWith('/api/progress/Shovan/snippets/snippet-1', expect.objectContaining({ method: 'DELETE' }));
     });
   });
+
+  it('opens the Quine Museum, lists quines, and loads one into the editor', async () => {
+    global.fetch = vi.fn((url) => {
+      if (url === '/api/quines') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            quines: [
+              { language: 'python', label: 'Python', source: 'print(\'quine\')', verified: true },
+              { language: 'ruby', label: 'Ruby', source: 'eval$s=1', verified: true },
+            ],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(
+      <ChildProvider>
+        <CodeEditor />
+      </ChildProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: /Quine Museum/i }));
+    await waitFor(() => {
+      expect(screen.getByRole('button', { name: 'Python' })).toBeInTheDocument();
+    });
+    expect(screen.getByRole('button', { name: 'Ruby' })).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Python' }));
+    await waitFor(() => {
+      expect(screen.getByLabelText('Python code').value).toBe("print('quine')");
+    });
+  });
 });
