@@ -525,17 +525,22 @@ export default function ProfessionalWorkspace({ level = '1' }) {
                   </div>
                 ))}
               </div>
-              <Panel title="Collaboration capabilities">
+              <Panel title="Institution roadmap">
+                <p className="mb-2 text-xs text-gray-500">
+                  Organisations above are fully working. These have a database and API in place but no
+                  dashboard here yet, so they aren&apos;t usable from this screen:
+                </p>
                 <div className="grid gap-2 text-sm sm:grid-cols-2">
-                  {['Instructor accounts', 'Cohorts and classrooms', 'Assignments and announcements', 'Discussion forums', 'Group projects', 'Peer review', 'Attendance analytics', 'Course authoring'].map((item) => (
-                    <div key={item} className="rounded bg-slate-50 px-3 py-2 dark:bg-gray-800">✓ {item}</div>
+                  {['Cohorts and classrooms', 'Assignments and announcements', 'Discussion forums', 'Attendance records'].map((item) => (
+                    <div key={item} className="rounded bg-amber-50 px-3 py-2 dark:bg-amber-950">🚧 {item} — backend ready, no UI yet</div>
+                  ))}
+                  {['Instructor accounts', 'Group projects', 'Peer review', 'Course authoring'].map((item) => (
+                    <div key={item} className="rounded bg-slate-50 px-3 py-2 dark:bg-gray-800">☐ {item} — not built</div>
                   ))}
                 </div>
               </Panel>
               <div className="grid gap-3 md:grid-cols-3">
-                <Panel title="Cohort health"><p className="text-2xl font-bold">{organizations.length}</p><p className="text-sm">active organisations ready for cohort assignment</p></Panel>
-                <Panel title="Delivery control"><p className="text-sm">Course authoring, deadlines, announcements, live sessions and recordings.</p></Panel>
-                <Panel title="Quality & analytics"><p className="text-sm">Attendance, engagement, mastery, completion and instructor-review dashboards.</p></Panel>
+                <Panel title="Organisations"><p className="text-2xl font-bold">{organizations.length}</p><p className="text-sm">organisations created</p></Panel>
               </div>
             </div>
           )}
@@ -562,7 +567,7 @@ export default function ProfessionalWorkspace({ level = '1' }) {
                   <Panel key={id} title={title}>
                     <p className="text-sm">{description}</p>
                     <button type="button" onClick={() => toggleConnection(id)} className={`mt-3 rounded px-3 py-1.5 text-sm font-semibold ${connections[id] ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-900 dark:bg-gray-700'}`}>
-                      {connections[id] ? 'Connected' : 'Connect'}
+                      {connections[id] ? 'Marked as planned ✓' : 'Plan this integration'}
                     </button>
                   </Panel>
                 ))}
