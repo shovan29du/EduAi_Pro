@@ -112,3 +112,90 @@ describe('ResourceTab Course Assistant', () => {
     expect(screen.getByText('No documents selected.')).toBeInTheDocument();
   });
 });
+
+describe('ResourceTab Local Library Ark AI categorisation', () => {
+  const scannedFiles = [
+    {
+      id: 'f1', filename: 'lecture_final_v2.mp4', path: '/home/me/Videos/lecture_final_v2.mp4',
+      category: 'videos', size: 1024, open_url: '/api/local-library/files/f1',
+      summary: '', matched_topics: [], ai_kind: 'Lecture recording', ai_genre: 'Biology', ai_title: 'Photosynthesis Lecture',
+    },
+    {
+      id: 'f2', filename: 'book1.txt', path: '/home/me/Books/book1.txt',
+      category: 'books', size: 2048, open_url: '/api/local-library/files/f2',
+      summary: 'A summary about photosynthesis.', matched_topics: [], ai_kind: '', ai_genre: 'Science', ai_title: '',
+    },
+  ];
+
+  function mockFetchWithScan() {
+    return vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/resource-tab' && (!options.method || options.method === 'GET')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      if (u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: [] }) });
+      }
+      if (u === '/api/local-library/scan' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            root: '/home/me/Library', indexed: 2, books_analysed: 1, ai_analysed: 2,
+            truncated_ai: false, skipped: 0, truncated: false, warnings: [], files: scannedFiles,
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+  }
+
+  beforeEach(() => {
+    global.fetch = mockFetchWithScan();
+  });
+
+  it('shows the Ark AI kind/genre badge and cleaned-up title after a scan', async () => {
+    render(<ResourceTab />);
+    await screen.findByText('No local files indexed yet.');
+
+    fireEvent.change(screen.getByLabelText('Folder to scan'), { target: { value: '/home/me/Library' } });
+    fireEvent.click(screen.getByText('Scan folder'));
+
+    expect(await screen.findByText('Photosynthesis Lecture')).toBeInTheDocument();
+    expect(screen.getByText('lecture_final_v2.mp4')).toBeInTheDocument();
+    expect(screen.getByText('✨ Lecture recording · Biology')).toBeInTheDocument();
+    expect(screen.getByText('✨ Science')).toBeInTheDocument();
+    expect(await screen.findByText(/Ark AI categorised 2 new or changed/)).toBeInTheDocument();
+  });
+
+  it('reports when Ark AI categorisation was capped for this scan', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/local-library/scan' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            root: '/home/me/Library', indexed: 5, books_analysed: 0, ai_analysed: 2,
+            truncated_ai: true, skipped: 0, truncated: false, warnings: [], files: [],
+          }),
+        });
+      }
+      if (u === '/api/resource-tab' || u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve(u === '/api/local-library?' ? { files: [] } : []) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ResourceTab />);
+    await screen.findByText('No local files indexed yet.');
+    fireEvent.change(screen.getByLabelText('Folder to scan'), { target: { value: '/home/me/Library' } });
+    fireEvent.click(screen.getByText('Scan folder'));
+
+    expect(await screen.findByText(/stopped early for this scan/)).toBeInTheDocument();
+  });
+});

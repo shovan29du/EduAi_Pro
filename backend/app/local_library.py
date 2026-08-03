@@ -23,6 +23,7 @@ from xml.etree import ElementTree
 from docx import Document
 from pypdf import PdfReader
 
+from app import ai_tutor
 from app.levels import LEVELS, syllabus_filename
 from app.summarize import summarize
 
@@ -52,6 +53,9 @@ STOPWORDS = {
 }
 
 
+_AI_COLUMNS = ("ai_kind", "ai_genre", "ai_title")
+
+
 def _connect():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
@@ -73,6 +77,10 @@ def _connect():
         )
         """
     )
+    existing_columns = {row["name"] for row in conn.execute("PRAGMA table_info(local_files)")}
+    for column in _AI_COLUMNS:
+        if column not in existing_columns:
+            conn.execute(f"ALTER TABLE local_files ADD COLUMN {column} TEXT NOT NULL DEFAULT ''")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_local_category ON local_files(category)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_local_filename ON local_files(filename)")
     return conn
@@ -232,20 +240,45 @@ def normalize_folder(folder: str) -> Path:
     return root
 
 
-def scan_folder(folder: str, analyse_books: bool = True, max_files: int = 2000) -> dict:
+AI_ANALYSABLE_CATEGORIES = {"books", "audio", "videos"}
+
+
+def _run_ai_analysis(resolved: Path, category: str, filename: str) -> dict:
+    text_excerpt = extract_text(resolved) if category == "books" else ""
+    if category == "books" and not text_excerpt.strip():
+        return {"kind": "", "genre": "", "title": "", "ai_summary": ""}
+    try:
+        return ai_tutor.analyse_local_media(filename, category, text_excerpt=text_excerpt)
+    except Exception:
+        # A single unreachable/failed AI call should not abort the whole scan.
+        return {"kind": "", "genre": "", "title": "", "ai_summary": ""}
+
+
+def scan_folder(
+    folder: str, analyse_books: bool = True, max_files: int = 2000, max_ai_calls: int = 80,
+) -> dict:
     root = normalize_folder(folder)
     max_files = max(1, min(max_files, 20_000))
+    max_ai_calls = max(0, min(max_ai_calls, 2000))
     indexed = 0
     analysed = 0
+    ai_analysed = 0
+    ai_calls_used = 0
     skipped = 0
     truncated = False
+    truncated_ai = False
     warnings: list[str] = []
     conn = _connect()
     try:
-        # A rescan is a fresh snapshot for this root. The surrounding SQLite
-        # transaction preserves the previous snapshot if an unexpected error
-        # aborts the scan.
-        conn.execute("DELETE FROM local_files WHERE root_path = ?", (str(root),))
+        # Snapshot what's already indexed for this root *before* touching
+        # anything, so unchanged files can reuse their prior analysis
+        # (including any Ark AI categorisation already paid for) instead of
+        # re-running local NLP and re-calling Ark AI on every rescan.
+        existing_rows = {
+            row["path"]: dict(row)
+            for row in conn.execute("SELECT * FROM local_files WHERE root_path = ?", (str(root),))
+        }
+        seen_paths: set[str] = set()
 
         def record_walk_error(error: OSError) -> None:
             nonlocal skipped
@@ -279,28 +312,63 @@ def scan_folder(folder: str, analyse_books: bool = True, max_files: int = 2000) 
                         continue
                     stat = resolved.stat()
                     category = _category(resolved)
-                    analysis = {"summary": "", "matched_topics": [], "extracted_chars": 0}
-                    if analyse_books and resolved.suffix.lower() in TEXT_EXTENSIONS:
-                        analysis = analyse_text(extract_text(resolved))
-                        analysed += 1
+                    seen_paths.add(str(resolved))
+
+                    prior = existing_rows.get(str(resolved))
+                    unchanged = (
+                        prior is not None
+                        and prior["size"] == stat.st_size
+                        and prior["modified"] == stat.st_mtime
+                    )
+                    if unchanged:
+                        analysis = {
+                            "summary": prior["summary"] or "",
+                            "matched_topics": json.loads(prior["matched_topics"] or "[]"),
+                            "extracted_chars": prior["extracted_chars"] or 0,
+                        }
+                        ai_result = {
+                            "kind": prior["ai_kind"] or "", "genre": prior["ai_genre"] or "",
+                            "title": prior["ai_title"] or "", "ai_summary": "",
+                        }
+                    else:
+                        analysis = {"summary": "", "matched_topics": [], "extracted_chars": 0}
+                        if analyse_books and resolved.suffix.lower() in TEXT_EXTENSIONS:
+                            analysis = analyse_text(extract_text(resolved))
+                            analysed += 1
+                        ai_result = {"kind": "", "genre": "", "title": "", "ai_summary": ""}
+                        if analyse_books and category in AI_ANALYSABLE_CATEGORIES:
+                            if ai_calls_used < max_ai_calls:
+                                ai_result = _run_ai_analysis(resolved, category, resolved.name)
+                                ai_calls_used += 1
+                                if any(ai_result.values()):
+                                    ai_analysed += 1
+                            else:
+                                truncated_ai = True
+
+                    # A book's AI summary is more useful than the local
+                    # extractive one when Ark AI produced one this run.
+                    summary = ai_result["ai_summary"] or analysis["summary"]
+
                     conn.execute(
                         """
                         INSERT INTO local_files
                             (id, path, root_path, filename, category, extension, size, modified,
-                             summary, extracted_chars, matched_topics)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                             summary, extracted_chars, matched_topics, ai_kind, ai_genre, ai_title)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                         ON CONFLICT(path) DO UPDATE SET
                             root_path=excluded.root_path, filename=excluded.filename,
                             category=excluded.category, extension=excluded.extension,
                             size=excluded.size, modified=excluded.modified,
                             summary=excluded.summary, extracted_chars=excluded.extracted_chars,
-                            matched_topics=excluded.matched_topics
+                            matched_topics=excluded.matched_topics, ai_kind=excluded.ai_kind,
+                            ai_genre=excluded.ai_genre, ai_title=excluded.ai_title
                         """,
                         (
                             _file_id(resolved), str(resolved), str(root), resolved.name, category,
                             resolved.suffix.lower(), stat.st_size, stat.st_mtime,
-                            analysis["summary"], analysis["extracted_chars"],
+                            summary, analysis["extracted_chars"],
                             json.dumps(analysis["matched_topics"], ensure_ascii=False),
+                            ai_result["kind"], ai_result["genre"], ai_result["title"],
                         ),
                     )
                     indexed += 1
@@ -310,6 +378,16 @@ def scan_folder(folder: str, analyse_books: bool = True, max_files: int = 2000) 
                         warnings.append(f"Skipped {path.name}: {exc}")
             if stop:
                 break
+
+        if not truncated:
+            # Files that were indexed before but no longer exist under this
+            # root (deleted or moved) are pruned once we're confident the
+            # walk covered the whole tree.
+            stale_paths = set(existing_rows) - seen_paths
+            if stale_paths:
+                conn.executemany(
+                    "DELETE FROM local_files WHERE path = ?", [(p,) for p in stale_paths]
+                )
         conn.commit()
     except Exception:
         conn.rollback()
@@ -320,6 +398,8 @@ def scan_folder(folder: str, analyse_books: bool = True, max_files: int = 2000) 
         "root": str(root),
         "indexed": indexed,
         "books_analysed": analysed,
+        "ai_analysed": ai_analysed,
+        "truncated_ai": truncated_ai,
         "skipped": skipped,
         "truncated": truncated,
         "warnings": warnings,

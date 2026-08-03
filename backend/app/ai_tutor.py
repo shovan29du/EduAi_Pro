@@ -681,3 +681,54 @@ def ark_ai_chat(
     user += f"User: {message}"
 
     return _call(system, user, max_tokens=600, strict=strict)
+
+
+_LOCAL_MEDIA_EXCERPT_CHARS = 3000
+
+
+def _parse_local_media_analysis(raw: str, category: str) -> dict:
+    def field(label: str) -> str:
+        m = re.search(rf"{label}:\s*(.+)", raw)
+        return m.group(1).strip() if m else ""
+
+    if category == "books":
+        return {"kind": "", "genre": field("GENRE"), "title": "", "ai_summary": field("SUMMARY")}
+    return {"kind": field("KIND"), "genre": field("GENRE"), "title": field("TITLE"), "ai_summary": ""}
+
+
+def analyse_local_media(filename: str, category: str, text_excerpt: str = "") -> dict:
+    """AI-assisted cataloguing for a file found while indexing an owned local
+    folder. For books (full text is available) this gets a real genre and
+    summary from Ark AI instead of pure keyword matching. For audio/video
+    (this app has no transcription or audio/video-understanding
+    infrastructure -- only the filename is available) Ark AI infers the
+    likely kind, subject/genre, and a cleaned-up title from the filename
+    alone, and is explicitly told not to claim to know anything the filename
+    doesn't support."""
+    if category == "books" and text_excerpt.strip():
+        system = (
+            "You are Ark AI, cataloguing a personal digital library. Given an excerpt from a book or "
+            "document, identify its likely genre or subject area in a few words, and write a 2-sentence "
+            "summary. Never invent details the excerpt doesn't support.\n"
+            "Respond in exactly this format, nothing else:\n"
+            "GENRE: [short genre/subject label]\nSUMMARY: [2-sentence summary]"
+        )
+        user = f"Filename: {filename}\n\nExcerpt:\n{text_excerpt[:_LOCAL_MEDIA_EXCERPT_CHARS]}"
+    else:
+        kind_hint = {
+            "audio": "audio file (podcast, music track, audiobook chapter, lecture recording, etc.)",
+            "videos": "video file (movie, documentary, tutorial, lecture, personal recording, etc.)",
+        }.get(category, "file")
+        system = (
+            f"You are Ark AI, cataloguing a personal digital library. You have only been given a {kind_hint}'s "
+            "filename -- you have not heard or watched its actual content, so never claim to know details the "
+            "filename doesn't support. From the filename alone, infer the most likely kind, a probable "
+            "subject/genre, and a cleaned-up readable title (strip release-group tags, underscores, track "
+            "numbers, resolution/codec noise).\n"
+            "Respond in exactly this format, nothing else:\n"
+            "KIND: [best-guess kind]\nGENRE: [best-guess subject/genre]\nTITLE: [cleaned-up title]"
+        )
+        user = f"Filename: {filename}"
+
+    raw = _call(system, user, max_tokens=150, strict=False)
+    return _parse_local_media_analysis(raw, category)

@@ -94,10 +94,11 @@ export default function ResourceTab() {
       setLocalFiles(Array.isArray(result.files) ? result.files : []);
       const details = result.indexed === 0
         ? 'Scan completed, but no supported books, videos, audio, or pictures were found.'
-        : `Indexed ${result.indexed} files in place; analysed ${result.books_analysed} owned books.`;
+        : `Indexed ${result.indexed} files in place; analysed ${result.books_analysed} owned books; Ark AI categorised ${result.ai_analysed || 0} new or changed books, audio, and video files.`;
       const skipped = result.skipped ? ` Skipped ${result.skipped} unreadable or unsupported item${result.skipped === 1 ? '' : 's'}.` : '';
       const truncated = result.truncated ? ' The file limit was reached; narrow the folder and scan again for the remaining files.' : '';
-      setScanMessage(`${details}${skipped}${truncated}`);
+      const truncatedAi = result.truncated_ai ? ' Ark AI categorisation stopped early for this scan; rescan to continue where it left off.' : '';
+      setScanMessage(`${details}${skipped}${truncated}${truncatedAi}`);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -323,13 +324,24 @@ export default function ResourceTab() {
                       rel="noopener noreferrer"
                       className="break-all font-medium text-blue-600 underline dark:text-blue-400"
                     >
-                      {file.filename}
+                      {file.ai_title || file.filename}
                     </a>
+                    {file.ai_title && <p className="break-all text-xs text-gray-400">{file.filename}</p>}
                     <p className="break-all text-xs text-gray-500">{file.path}</p>
                   </div>
-                  <span className="rounded bg-gray-100 px-2 py-1 text-xs uppercase dark:bg-gray-800">
-                    {file.category} · {formatBytes(file.size)}
-                  </span>
+                  <div className="flex flex-wrap justify-end gap-1">
+                    <span className="rounded bg-gray-100 px-2 py-1 text-xs uppercase dark:bg-gray-800">
+                      {file.category} · {formatBytes(file.size)}
+                    </span>
+                    {(file.ai_kind || file.ai_genre) && (
+                      <span
+                        className="rounded bg-emerald-100 px-2 py-1 text-xs text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200"
+                        title="Ark AI's best guess from the filename -- it hasn't seen or heard the actual content"
+                      >
+                        ✨ {[file.ai_kind, file.ai_genre].filter(Boolean).join(' · ')}
+                      </span>
+                    )}
+                  </div>
                 </div>
                 {file.summary && <p className="mt-2 line-clamp-3 text-sm">{file.summary}</p>}
                 {file.matched_topics?.length > 0 && (

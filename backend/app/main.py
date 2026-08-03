@@ -1233,6 +1233,7 @@ class LocalLibraryScanRequest(BaseModel):
     folder: str
     analyse_books: bool = True
     max_files: int = 2000
+    max_ai_calls: int = 80
 
 
 @app.get("/api/course-providers")
@@ -1249,6 +1250,7 @@ def local_library_scan(request: LocalLibraryScanRequest):
             request.folder,
             analyse_books=request.analyse_books,
             max_files=request.max_files,
+            max_ai_calls=request.max_ai_calls,
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
