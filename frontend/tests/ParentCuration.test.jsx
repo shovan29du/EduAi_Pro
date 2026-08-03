@@ -63,3 +63,60 @@ describe('ParentCuration', () => {
     );
   });
 });
+
+function selectFile() {
+  const input = document.querySelector('input[name="bookFile"]');
+  const file = new File(['some book text'], 'botany.txt', { type: 'text/plain' });
+  Object.defineProperty(input, 'files', { value: [file] });
+  fireEvent.change(input);
+}
+
+describe('ParentCuration book upload topic linking', () => {
+  it('shows which lesson topics Ark AI linked the book to', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      if (url === '/api/upload-safe-book' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            filename: 'botany.txt', status: 'accepted', type: 'txt',
+            summary: 'A short summary about photosynthesis.',
+            added_resource: { safe: true },
+            topics_linked: ['Photosynthesis'],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ParentCuration standard={11} />);
+    fireEvent.change(screen.getByPlaceholderText('e.g. World Literature'), { target: { value: 'Science' } });
+    selectFile();
+    fireEvent.click(screen.getByText('Upload & summarize'));
+
+    expect(await screen.findByText('Added to syllabus ✓')).toBeInTheDocument();
+    expect(screen.getByText(/Ark AI linked this book to 1 topic: Photosynthesis/)).toBeInTheDocument();
+  });
+
+  it('does not show topic-linking text when nothing matched', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      if (url === '/api/upload-safe-book' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            filename: 'botany.txt', status: 'accepted', type: 'txt',
+            summary: 'A short summary.', added_resource: { safe: true }, topics_linked: [],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ParentCuration standard={11} />);
+    fireEvent.change(screen.getByPlaceholderText('e.g. World Literature'), { target: { value: 'Science' } });
+    selectFile();
+    fireEvent.click(screen.getByText('Upload & summarize'));
+
+    expect(await screen.findByText('Added to syllabus ✓')).toBeInTheDocument();
+    expect(screen.queryByText(/Ark AI linked this book/)).not.toBeInTheDocument();
+  });
+});

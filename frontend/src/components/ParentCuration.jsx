@@ -149,6 +149,12 @@ export default function ParentCuration({ standard }) {
             {uploadResult.added_resource ? 'Added to syllabus ✓' : 'Summarized (not added — set a subject to add it)'}
           </p>
           <p className="mt-1 text-gray-700 dark:text-gray-300">{uploadResult.summary}</p>
+          {uploadResult.topics_linked?.length > 0 && (
+            <p className="mt-2 text-gray-700 dark:text-gray-300">
+              Ark AI linked this book to {uploadResult.topics_linked.length} topic
+              {uploadResult.topics_linked.length === 1 ? '' : 's'}: {uploadResult.topics_linked.join(', ')}
+            </p>
+          )}
         </div>
       )}
 

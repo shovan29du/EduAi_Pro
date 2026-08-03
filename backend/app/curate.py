@@ -4,6 +4,7 @@ from threading import Lock
 
 from sqlalchemy import select
 
+from app import ai_tutor
 from app.database import session_scope
 from app.levels import LEVELS
 from app.models import AuditEvent, Course, Resource
@@ -104,3 +105,50 @@ def curate_resource(standard: int, subject: str, resource_type: str, resource: d
             json.dump(data, f, indent=2)
 
     return resource
+
+
+def curate_book_topics(standard: int, subject: str, book_title: str, book_text: str) -> list[str]:
+    """After a book is added as a resource, ask Ark AI which lessons in this
+    subject's syllabus its content is relevant to, then attach the extracted
+    parts (in full or summarised form) to those lessons as book_excerpts,
+    plus a textbook_references entry linking the lesson back to the book.
+    Returns the titles of lessons that were linked; [] if the subject has no
+    lessons yet or nothing in the book matched."""
+    with _lock:
+        path = SYLLABUS_DIR / f"grade{standard}.json"
+        if not path.exists():
+            return []
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        subject_data = data.get("subjects", {}).get(subject)
+        lessons = subject_data.get("lessons") if subject_data else None
+        if not lessons:
+            return []
+
+        lesson_titles = [lesson["title"] for lesson in lessons if lesson.get("title")]
+        snippets = ai_tutor.analyse_book_for_lessons(book_title, book_text, lesson_titles)
+        if not snippets:
+            return []
+
+        lessons_by_title = {lesson["title"]: lesson for lesson in lessons if lesson.get("title")}
+        linked = []
+        for snippet in snippets:
+            lesson = lessons_by_title.get(snippet["lesson_title"])
+            if not lesson:
+                continue
+            lesson.setdefault("book_excerpts", []).append({
+                "book": book_title,
+                "kind": snippet["kind"],
+                "form": snippet["form"],
+                "content": snippet["content"],
+            })
+            lesson.setdefault("textbook_references", []).append({
+                "title": book_title,
+                "source": "Parent-uploaded book",
+            })
+            linked.append(snippet["lesson_title"])
+
+        if linked:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+        return linked

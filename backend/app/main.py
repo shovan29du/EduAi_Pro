@@ -52,7 +52,7 @@ from app.storage import (
     save_attendance as save_attendance_records,
 )
 from app.websearch import web_search, SearchNotConfigured
-from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
+from app.curate import curate_resource, curate_book_topics, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
 from app import resource_tab
 from app import ark_ai_library
@@ -828,6 +828,7 @@ async def upload_safe_book(
         except CurationError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc
         result["added_resource"] = saved
+        result["topics_linked"] = curate_book_topics(standard, subject, Path(filename).stem, full_text)
 
     return result
 

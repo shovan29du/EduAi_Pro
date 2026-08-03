@@ -732,3 +732,64 @@ def analyse_local_media(filename: str, category: str, text_excerpt: str = "") ->
 
     raw = _call(system, user, max_tokens=150, strict=False)
     return _parse_local_media_analysis(raw, category)
+
+
+_BOOK_LESSON_EXCERPT_CHARS = 6000
+_BOOK_LESSON_KINDS = {"copy", "example", "formula", "math", "code", "problem", "figure"}
+
+
+def _parse_book_lesson_snippets(raw: str, valid_titles: list[str]) -> list[dict]:
+    lookup = {t.strip().lower(): t for t in valid_titles}
+    snippets = []
+    for block in re.split(r"\n-{3,}\n", raw):
+        lesson_m = re.search(r"LESSON:\s*(.+)", block)
+        content_m = re.search(r"CONTENT:\s*(.+)", block, re.S)
+        if not (lesson_m and content_m):
+            continue
+        title = lookup.get(lesson_m.group(1).strip().lower())
+        if not title:
+            continue
+        kind_m = re.search(r"KIND:\s*(\S+)", block)
+        kind = kind_m.group(1).strip().lower() if kind_m else "copy"
+        if kind not in _BOOK_LESSON_KINDS:
+            kind = "copy"
+        form_m = re.search(r"FORM:\s*(\S+)", block)
+        form = form_m.group(1).strip().lower() if form_m else "summary"
+        if form not in ("full", "summary"):
+            form = "summary"
+        # CONTENT runs to the end of the block, so trim off any later labelled
+        # field that a model might have added after it despite the format.
+        content = re.split(r"\n(?:LESSON|KIND|FORM):", content_m.group(1))[0].strip()
+        if content:
+            snippets.append({"lesson_title": title, "kind": kind, "form": form, "content": content})
+    return snippets
+
+
+def analyse_book_for_lessons(book_title: str, book_text: str, lesson_titles: list[str]) -> list[dict]:
+    """Match an uploaded book's text to specific lessons in a subject's syllabus and
+    extract the single most useful part of the text for each genuine match -- a
+    direct quote, worked example, formula, math, code, or practice problem, or (only
+    if the text itself names or captions one) a description of a figure/chart/
+    picture. Ark AI only ever sees the extracted text of the book, never its actual
+    images, so it is told never to invent visual content the text doesn't support."""
+    if not lesson_titles or not book_text.strip():
+        return []
+    excerpt = book_text[:_BOOK_LESSON_EXCERPT_CHARS]
+    titles_block = "\n".join(f"- {t}" for t in lesson_titles)
+    system = (
+        f'You are Ark AI, helping a parent curate a personal digital library into a curriculum. You are given an '
+        f'excerpt from a book titled "{book_title}" and a list of lesson titles from one subject\'s syllabus. '
+        "Identify up to 4 lessons this excerpt is genuinely relevant to, and for each, extract the single most "
+        "useful part of the text for that lesson: a direct quote, a worked example, a formula, math, code, or a "
+        "practice problem -- or, only if the text itself names or captions one, a description of a figure, chart, "
+        "or picture. Never invent content the excerpt doesn't contain. Skip lessons with no genuine match; if none "
+        "match, respond with the single word NONE.\n"
+        "For each match, respond in exactly this block format, separated by a line of three dashes:\n"
+        "LESSON: [exact lesson title from the list]\n"
+        "KIND: [copy|example|formula|math|code|problem|figure]\n"
+        "FORM: [full if the excerpt can be used as-is, otherwise summary]\n"
+        "CONTENT: [the extracted or summarised text]"
+    )
+    user = f"Lesson titles:\n{titles_block}\n\nBook excerpt:\n{excerpt}"
+    raw = _call(system, user, max_tokens=1200, strict=False)
+    return _parse_book_lesson_snippets(raw, lesson_titles)

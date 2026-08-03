@@ -51,3 +51,35 @@ describe('SubjectLessons', () => {
     expect(screen.getByText('Lesson 2: Watch')).toBeInTheDocument();
   });
 });
+
+describe('SubjectLessons book excerpts from library', () => {
+  it("shows a book excerpt Ark AI linked to a curriculum lesson", async () => {
+    const subjectWithLessons = {
+      lessons: [
+        {
+          id: 'l1',
+          title: 'Photosynthesis',
+          unit: 'Plants',
+          book_excerpts: [
+            { book: 'Botany Basics', kind: 'example', form: 'summary', content: 'Leaves capture sunlight and convert it into energy.' },
+          ],
+        },
+      ],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Science" subject={subjectWithLessons} standard={11} />
+      </ChildProvider>
+    );
+
+    await waitFor(() => {
+      expect(screen.getByText('Lesson 1: Curriculum Lessons')).toBeInTheDocument();
+    });
+
+    expect(screen.getByText('From your library')).toBeInTheDocument();
+    expect(screen.getByText('✨ example')).toBeInTheDocument();
+    expect(screen.getByText('summarised')).toBeInTheDocument();
+    expect(screen.getByText('Leaves capture sunlight and convert it into energy.')).toBeInTheDocument();
+    expect(screen.getByText('from "Botany Basics"')).toBeInTheDocument();
+  });
+});

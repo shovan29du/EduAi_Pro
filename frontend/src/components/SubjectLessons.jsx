@@ -341,6 +341,29 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
                 </ul>
               </>
             )}
+            {selected.book_excerpts?.length > 0 && (
+              <>
+                <h5 className="mt-4 font-semibold">From your library</h5>
+                <ul className="mt-2 space-y-2">
+                  {selected.book_excerpts.map((excerpt, index) => (
+                    <li key={index} className="rounded-xl border p-4 text-sm dark:border-gray-700">
+                      <div className="mb-2 flex flex-wrap items-center gap-2">
+                        <span className="rounded bg-purple-100 px-2 py-1 text-xs font-medium capitalize text-purple-800 dark:bg-purple-950 dark:text-purple-200">
+                          ✨ {excerpt.kind}
+                        </span>
+                        {excerpt.form === 'summary' && (
+                          <span className="rounded bg-gray-100 px-2 py-1 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-300">
+                            summarised
+                          </span>
+                        )}
+                        <span className="text-xs text-gray-500">from "{excerpt.book}"</span>
+                      </div>
+                      <p className="whitespace-pre-line leading-6">{excerpt.content}</p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
             <button
               type="button"
               disabled={completed.includes(selected.id)}
