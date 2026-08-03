@@ -13,6 +13,7 @@ from pathlib import Path
 
 from sqlalchemy import select
 
+from app.curate import RESOURCE_KEYS
 from app.database import session_scope
 from app.levels import LEVELS, syllabus_filename
 from app.models import AuditEvent, Course, LearningItem, Module, Resource, User
@@ -45,7 +46,11 @@ def upsert_user(session, name: str, role: str) -> User:
 
 
 def iter_resources(subject: dict):
-    for resource_type, values in subject.items():
+    # Only the curated external-resource lists (books, videos, articles, etc.) --
+    # not "lessons" or "quiz_bank", which are curriculum content served straight
+    # from the syllabus JSON and were never meant to be duplicated as Resource rows.
+    for resource_type in RESOURCE_KEYS:
+        values = subject.get(resource_type)
         if not isinstance(values, list):
             continue
         for value in values:
@@ -56,6 +61,21 @@ def iter_resources(subject: dict):
             body = value.get("body") or value.get("description") or value.get("summary") or ""
             if title or url or body:
                 yield resource_type, str(title or url or "Untitled resource"), url, body, value
+
+
+def _load_existing_resource_keys(session) -> dict:
+    """Map course_id -> set of (title, kind, url) already imported.
+
+    Loaded once up front instead of re-querying the (ever-growing) resources
+    table with an unindexed JSON-path filter for every subject -- that
+    per-subject query was the dominant cost on a re-run against a
+    populated database.
+    """
+    existing_by_course: dict = {}
+    for item in session.scalars(select(Resource)):
+        course_id = (item.metadata_json or {}).get("course_id")
+        existing_by_course.setdefault(course_id, set()).add((item.title, item.kind, item.url))
+    return existing_by_course
 
 
 def migrate(dry_run: bool = False) -> dict:
@@ -70,9 +90,14 @@ def migrate(dry_run: bool = False) -> dict:
             imported_users[name] = upsert_user(session, name, "admin")
             stats["users"] += 1
 
+        existing_by_course = _load_existing_resource_keys(session)
+
         for level_id in LEVELS:
             path = SYLLABUS_DIR / syllabus_filename(level_id)
             data = load_json(path, {})
+            if not data:
+                continue
+            print(f"Importing {level_id}...")
             for subject_name, subject in data.get("subjects", {}).items():
                 if not isinstance(subject, dict):
                     continue
@@ -94,16 +119,12 @@ def migrate(dry_run: bool = False) -> dict:
                     session.add(module)
                     session.flush()
                     stats["courses"] += 1
-                existing = {
-                    (item.title, item.kind, item.url)
-                    for item in session.scalars(
-                        select(Resource).where(Resource.metadata_json["course_id"].as_string() == course.id)
-                    )
-                }
+                existing = existing_by_course.setdefault(course.id, set())
                 for kind, title, url, body, raw in iter_resources(subject):
                     key = (title, kind, url)
                     if key in existing:
                         continue
+                    existing.add(key)
                     session.add(
                         Resource(
                             kind=kind,
