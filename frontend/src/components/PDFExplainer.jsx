@@ -70,7 +70,7 @@ export default function PDFExplainer({ level: initialLevel = '1', child = '' }) 
       <div className="rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 p-4 text-white">
         <h2 className="text-xl font-bold">📄 PDF Explainer</h2>
         <p className="text-sm opacity-90">
-          Upload any PDF and EduBot will explain it in simple language, answer questions about it,
+          Upload any PDF and Ark AI will explain it in simple language, answer questions about it,
           quiz you on its content, and let you save notes — all read aloud if you like.
         </p>
       </div>

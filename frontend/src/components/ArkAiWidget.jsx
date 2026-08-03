@@ -3,7 +3,7 @@ import { sendArkAiMessage } from '../api/arkAi.js';
 
 export default function ArkAiWidget({ level }) {
   const [open, setOpen] = useState(false);
-  const [mode, setMode] = useState('chat');
+  const [agent, setAgent] = useState('teacher');
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
@@ -27,7 +27,7 @@ export default function ArkAiWidget({ level }) {
     setError('');
     setSending(true);
     try {
-      const data = await sendArkAiMessage(text, history, { mode, level });
+      const data = await sendArkAiMessage(text, history, { agent, level });
       setMessages((prev) => [...prev, { role: 'assistant', content: data.reply }]);
     } catch (err) {
       setError(err.message);
@@ -48,7 +48,7 @@ export default function ArkAiWidget({ level }) {
           <div className="flex items-center justify-between gap-2 bg-gradient-to-r from-indigo-600 via-violet-600 to-pink-600 px-4 py-3 text-white">
             <div>
               <p className="text-sm font-bold">✨ Ark AI</p>
-              <p className="text-[11px] opacity-90">Your assistant on every page</p>
+              <p className="text-[11px] opacity-90">Your teacher, instructor & helper — on every page</p>
             </div>
             <div className="flex items-center gap-1">
               <button
@@ -70,18 +70,19 @@ export default function ArkAiWidget({ level }) {
             </div>
           </div>
 
-          <div className="flex gap-1 border-b bg-gray-50 px-3 py-2 dark:border-gray-700 dark:bg-gray-800" role="group" aria-label="Ark AI mode">
+          <div className="flex gap-1 border-b bg-gray-50 px-3 py-2 dark:border-gray-700 dark:bg-gray-800" role="group" aria-label="Ark AI agent">
             {[
-              ['chat', '💬 Chat'],
-              ['learn', '🎓 Learn'],
+              ['teacher', '🧑‍🏫 Teacher'],
+              ['instructor', '📋 Instructor'],
+              ['helper', '🤝 Helper'],
             ].map(([value, label]) => (
               <button
                 key={value}
                 type="button"
-                onClick={() => setMode(value)}
-                aria-pressed={mode === value}
+                onClick={() => setAgent(value)}
+                aria-pressed={agent === value}
                 className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
-                  mode === value
+                  agent === value
                     ? 'bg-indigo-600 text-white'
                     : 'bg-white text-gray-600 dark:bg-gray-700 dark:text-gray-300'
                 }`}
@@ -94,7 +95,8 @@ export default function ArkAiWidget({ level }) {
           <div ref={listRef} className="flex-1 space-y-2 overflow-y-auto p-3">
             {messages.length === 0 && (
               <p className="text-sm text-gray-400">
-                Ask Ark AI anything — general chat, or switch to Learn mode for a tutoring-style explanation.
+                Ask Ark AI anything. Teacher explains and builds understanding, Instructor gives step-by-step
+                guidance, and Helper gives fast, general-purpose assistance.
               </p>
             )}
             {messages.map((m, index) => (

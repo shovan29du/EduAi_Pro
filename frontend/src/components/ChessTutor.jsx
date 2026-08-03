@@ -52,7 +52,7 @@ export default function ChessTutor({ level: initialLevel = '1' }) {
     <div className="space-y-4">
       <div className="rounded-xl bg-gradient-to-r from-slate-700 to-slate-900 p-4 text-white">
         <h2 className="text-xl font-bold">♟️ Chess Tutor</h2>
-        <p className="text-sm opacity-90">Play a game or review a finished one, with an AI coach explaining ideas along the way.</p>
+        <p className="text-sm opacity-90">Play a game or review a finished one, with Ark AI coaching you through ideas along the way.</p>
       </div>
 
       <div className="flex flex-wrap gap-2">
@@ -188,7 +188,7 @@ function CoachPanel({ fen, movesSan, level }) {
 
   return (
     <div className="space-y-3 rounded-xl border p-4 dark:border-gray-700">
-      <h3 className="font-semibold">🧑‍🏫 AI Coach</h3>
+      <h3 className="font-semibold">🧑‍🏫 Ark AI Coach</h3>
       {error && <p role="alert" className="rounded bg-red-50 p-2 text-sm text-red-700">{error}</p>}
       <button
         type="button"

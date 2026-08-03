@@ -90,7 +90,7 @@ export default function LessonPlanner({ ownerId, level: initialLevel = '1' }) {
   return (
     <div className="space-y-5">
       <div>
-        <h3 className="text-2xl font-bold">AI Lesson Planner</h3>
+        <h3 className="text-2xl font-bold">Ark AI Lesson Planner</h3>
         <p className="text-sm text-gray-500">
           Generate a sequential term plan for a subject, automatically scheduled across the week,
           then move any lesson to a different date.

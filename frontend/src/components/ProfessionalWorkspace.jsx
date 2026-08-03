@@ -421,7 +421,7 @@ export default function ProfessionalWorkspace({ level = '1' }) {
 
               <Panel title="Resume Builder">
                 <p className="mb-3 text-sm text-gray-500">
-                  Turn your skills and portfolio notes into a polished, job-aware resume. EduBot rewrites
+                  Turn your skills and portfolio notes into a polished, job-aware resume. Ark AI rewrites
                   your raw notes into quantified achievement statements without inventing facts, and you can
                   download the result as a PDF or Word document.
                 </p>

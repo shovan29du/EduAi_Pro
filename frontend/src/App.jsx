@@ -81,7 +81,7 @@ const CHILD_TABS = [
   'Library',
   'Search',
   'Favourites',
-  'AI Tutor',
+  'Ark AI Tutor',
   'Languages',
   'Grammar',
   'Vocabulary',
@@ -328,7 +328,7 @@ export default function App() {
 
           {activeTab === 'Users' && <UserManager />}
 
-          {activeTab === 'AI Tutor' && <AiTutor level={level} subjectName={activeSubject || ''} />}
+          {activeTab === 'Ark AI Tutor' && <AiTutor level={level} subjectName={activeSubject || ''} />}
 
           {activeTab === 'Languages' && <LanguageAcademy />}
 

@@ -1607,12 +1607,12 @@ def ark_ai_chat(body: dict):
     message = safety_filter.sanitize(str(body.get("message", "")), strict=args["strict"])[:2000]
     if not message:
         raise HTTPException(status_code=400, detail="message is required")
-    mode = str(body.get("mode", "chat")) if body.get("mode") in ("chat", "learn") else "chat"
+    agent = str(body.get("agent", "teacher")) if body.get("agent") in ("teacher", "instructor", "helper") else "teacher"
     history = body.get("history") or []
     if not isinstance(history, list):
         raise HTTPException(status_code=400, detail="history must be a list")
     reply = ai_tutor.ark_ai_chat(
-        message, history=history, mode=mode, level=args["level"], grade=args["grade"],
+        message, history=history, agent=agent, level=args["level"], grade=args["grade"],
     )
     return {"reply": reply}
 

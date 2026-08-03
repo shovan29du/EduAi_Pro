@@ -63,7 +63,7 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
   ];
 
   const placeholder = {
-    ask: 'Ask EduBot anything about your subject…',
+    ask: 'Ask Ark AI anything about your subject…',
     explain: 'Enter a concept to explain (e.g. photosynthesis, gradient descent, market equilibrium)…',
     flashcards: 'Enter a topic for flashcards (e.g. fractions, neural networks)…',
     quiz: 'Enter a topic for a quiz (e.g. World War II, transformers, microeconomics)…',
@@ -73,7 +73,7 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
   return (
     <div className="space-y-4">
       <div className="rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 p-4 text-white">
-        <h2 className="text-xl font-bold">🤖 EduBot — AI Tutor</h2>
+        <h2 className="text-xl font-bold">🤖 Ark AI — Tutor</h2>
         <p className="text-sm opacity-90">
           Your personal learning assistant for school, college, undergraduate, master's, and adult self-study.
         </p>
@@ -150,7 +150,7 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
           disabled={loading || !input.trim()}
           className="rounded-lg bg-purple-600 px-6 py-2 text-white font-medium hover:bg-purple-700 disabled:opacity-50"
         >
-          {loading ? 'Thinking…' : 'Ask EduBot'}
+          {loading ? 'Thinking…' : 'Ask Ark AI'}
         </button>
       </form>
 

@@ -8,24 +8,24 @@ _sf = SafetyFilter()
 
 _CATEGORY_PERSONA = {
     levels_module.SCHOOL_CATEGORY: (
-        "You are EduBot, a warm and encouraging tutor for a school student in {level_label} "
+        "You are Ark AI, a warm and encouraging tutor for a school student in {level_label} "
         "(typical ages {age_range}). Use simple, friendly language appropriate for their grade, "
         "plenty of examples and analogies, and keep them curious and motivated."
     ),
     levels_module.COLLEGE_CATEGORY: (
-        "You are EduBot, an academic tutor for a college-level student in {level_label} "
+        "You are Ark AI, an academic tutor for a college-level student in {level_label} "
         "(typical ages {age_range}), bridging school and university study. Use clear, precise "
         "language, introduce discipline-specific vocabulary, and connect ideas to real-world and "
         "exam-relevant applications."
     ),
     levels_module.UNDERGRADUATE_CATEGORY: (
-        "You are EduBot, an academic tutor for an undergraduate student in {level_label} "
+        "You are Ark AI, an academic tutor for an undergraduate student in {level_label} "
         "(typical ages {age_range}) pursuing a bachelor's degree. Use rigorous, discipline-appropriate "
         "language, cite the underlying theory, and give worked examples, derivations, or case studies "
         "as relevant to the subject."
     ),
     levels_module.MASTERS_CATEGORY: (
-        "You are EduBot, a graduate-level academic tutor for a master's student in {level_label} "
+        "You are Ark AI, a graduate-level academic tutor for a master's student in {level_label} "
         "(typical ages {age_range}). Engage at a research-adjacent level: discuss trade-offs, cite "
         "methodologies, reference current practice/literature, and encourage critical, independent "
         "analysis rather than rote answers."
@@ -130,7 +130,7 @@ def _get_client():
 def _call(system: str, user: str, max_tokens: int = 512, strict: bool = True) -> str:
     client = _get_client()
     if not client:
-        return "EduBot is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
+        return "Ark AI is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
     safe_user = _sf.sanitize(user, strict=strict)
     try:
         import anthropic
@@ -142,7 +142,7 @@ def _call(system: str, user: str, max_tokens: int = 512, strict: bool = True) ->
         )
         return _sf.sanitize(msg.content[0].text, strict=strict)
     except Exception as exc:
-        return f"EduBot is temporarily unavailable. ({type(exc).__name__})"
+        return f"Ark AI is temporarily unavailable. ({type(exc).__name__})"
 
 
 def ask(
@@ -596,16 +596,32 @@ def generate_resume_content(profile: dict) -> dict:
     return _parse_resume_content(raw, fallback_skills=skills, fallback_experience=experience)
 
 
-_ARK_AI_SYSTEM = """You are Ark AI, a general-purpose personal assistant available from every page of this
-app -- distinct from the subject-bound AI Tutor. You support two modes:
+_ARK_AI_DEFAULT_AGENT = "teacher"
 
-Chat mode: friendly, direct, general-purpose conversation, brainstorming, writing help, and everyday Q&A,
-not necessarily tied to schoolwork.
+# Three specific agent personas (not generic "modes") -- each gets its own
+# tailored system prompt, mirroring the Ark_Ai zip's Agent/Skill concept.
+_ARK_AI_AGENT_PROMPTS = {
+    "teacher": (
+        "You are Ark AI, acting as a Teacher. Build real understanding, not just a quick answer: break "
+        "ideas into digestible steps, use concrete examples and analogies suited to a learner at "
+        "{level_label}, check understanding with a short follow-up question when it helps, and encourage "
+        "curiosity. Favor depth and clarity over speed."
+    ),
+    "instructor": (
+        "You are Ark AI, acting as an Instructor. Give precise, structured, step-by-step guidance for "
+        "completing a task or following a procedure: state the end goal in one line, then numbered steps, "
+        "prerequisites, and what to check or verify along the way. Calibrate technical depth to a learner "
+        "at {level_label}. Favor actionable, ordered instructions over open-ended discussion."
+    ),
+    "helper": (
+        "You are Ark AI, acting as a Helper. Give fast, direct, practical assistance with whatever the "
+        "user needs -- everyday questions, brainstorming, writing, quick lookups, or general conversation. "
+        "Keep answers concise unless more detail is clearly wanted. Not every request needs to be treated "
+        "as a lesson."
+    ),
+}
 
-Learn mode: tutoring-oriented. Explain clearly, check understanding, and calibrate to a learner at
-{level_label} unless the user's message clearly implies a different audience.
-
-Rules:
+_ARK_AI_RULES = """Rules:
 {safety_rules}
 - Keep answers focused and under 300 words unless the user clearly wants something longer.
 - If a request needs live web search, real-time data, image generation, or code execution, say plainly
@@ -613,19 +629,24 @@ Rules:
 
 
 def ark_ai_chat(
-    message: str, history: list[dict] | None = None, mode: str = "chat",
+    message: str, history: list[dict] | None = None, agent: str = _ARK_AI_DEFAULT_AGENT,
     level: str | None = None, grade: int = 1,
 ) -> str:
-    """A general-purpose assistant available on every page (not bound to a
-    specific subject/lesson) -- inspired by the Ark_Ai multi-model chat
-    workspace, reimplemented on this app's existing Claude backend instead of
-    Ark_Ai's own multi-provider/OpenRouter routing, which this app has no
-    infrastructure for."""
+    """Ark AI: a teacher/instructor/helper assistant available on every page
+    (not bound to a specific subject/lesson) -- inspired by the Ark_Ai
+    multi-model chat workspace's Agent/Skill concept, reimplemented on this
+    app's existing Claude backend instead of Ark_Ai's own multi-provider/
+    OpenRouter routing, which this app has no infrastructure for. `agent`
+    selects a specific, distinctly-prompted persona: "teacher" (explains and
+    builds understanding), "instructor" (structured step-by-step guidance),
+    or "helper" (fast, general-purpose assistance)."""
     info = _resolve_level(level, grade)
     strict = info["category"] == levels_module.SCHOOL_CATEGORY
     safety_key = levels_module.SCHOOL_CATEGORY if strict else "adult"
-    system = _ARK_AI_SYSTEM.format(level_label=info["label"], safety_rules=_SAFETY_RULES_BY_CATEGORY[safety_key])
-    mode_note = "Mode: Learn (tutoring-oriented)." if mode == "learn" else "Mode: Chat (general-purpose)."
+    agent_key = agent if agent in _ARK_AI_AGENT_PROMPTS else _ARK_AI_DEFAULT_AGENT
+    persona = _ARK_AI_AGENT_PROMPTS[agent_key].format(level_label=info["label"])
+    rules = _ARK_AI_RULES.format(safety_rules=_SAFETY_RULES_BY_CATEGORY[safety_key])
+    system = f"{persona}\n\n{rules}"
 
     turns = []
     for turn in (history or [])[-6:]:
@@ -635,7 +656,7 @@ def ark_ai_chat(
             turns.append(f"{role}: {text}")
     transcript = "\n".join(turns)
 
-    user = f"{mode_note}\n"
+    user = ""
     if transcript:
         user += f"Conversation so far:\n{transcript}\n\n"
     user += f"User: {message}"

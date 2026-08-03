@@ -395,7 +395,7 @@ export default function ResourceTab() {
         <div className="rounded-xl border p-4 dark:border-gray-700">
           <h3 className="font-semibold">Course Assistant</h3>
           <p className="mb-3 mt-1 text-sm text-gray-600 dark:text-gray-300">
-            Check the documents above to include as a knowledge base, then ask a question. EduBot will answer
+            Check the documents above to include as a knowledge base, then ask a question. Ark AI will answer
             using only those documents — and say so plainly if the answer isn't covered in them.
           </p>
           <form onSubmit={handleAskCourseAssistant} className="space-y-2">

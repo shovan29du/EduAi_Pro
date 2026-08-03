@@ -33,7 +33,7 @@ def test_parse_resume_content_reads_structured_response():
 
 
 def test_parse_resume_content_falls_back_on_unstructured_response():
-    raw = "EduBot is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
+    raw = "Ark AI is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
     result = ai_tutor._parse_resume_content(raw, fallback_skills=["Python"], fallback_experience=["Did a thing"])
     assert result["summary"] == raw
     assert result["skills"] == ["Python"]
