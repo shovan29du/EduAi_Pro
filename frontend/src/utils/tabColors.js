@@ -31,3 +31,55 @@ export function tabColorTheme(tabName) {
   const index = hashString(tabName) % TAB_COLOR_THEMES.length;
   return TAB_COLOR_THEMES[index];
 }
+
+const TAB_ICONS = {
+  Dashboard: '📊',
+  Subjects: '🎓',
+  Library: '📖',
+  Search: '🔍',
+  Favourites: '⭐',
+  'Ark AI Tutor': '🤖',
+  Languages: '🗣️',
+  Grammar: '✍️',
+  Vocabulary: '🔤',
+  'STEM Lab': '🔬',
+  'Non-Fiction': '📰',
+  'Practical Skills': '🛠️',
+  Museum: '🏛️',
+  'World Lit': '📚',
+  Biographies: '🧑‍🎓',
+  'Critical Thinking': '🧠',
+  'Survival Skills': '🏕️',
+  Environment: '🌱',
+  'World Politics': '🗳️',
+  'World Religions': '🕊️',
+  Tools: '🧮',
+  Health: '❤️',
+  Business: '💼',
+  Civics: '⚖️',
+  Countries: '🌍',
+  Assessment: '📝',
+  Colouring: '🎨',
+  'Code Editor': '💻',
+  'Study Timer': '⏱️',
+  'Fact of the Day': '💡',
+  'History of the Day': '📜',
+  'Music & Instruments': '🎵',
+  Karaoke: '🎤',
+  'World Cinema': '🎬',
+  Games: '🎮',
+  Chess: '♟️',
+  'Study Coach': '🧭',
+  Appearance: '🖌️',
+  'Resource Tab': '🗂️',
+  Users: '👤',
+};
+
+const DEFAULT_TAB_ICON = '✨';
+
+/** Small visual identity per tab (Google Arts & Culture-style category
+ * chips); falls back to a generic sparkle for any tab not explicitly
+ * mapped so a new/renamed tab never renders blank. */
+export function tabIcon(tabName) {
+  return TAB_ICONS[tabName] || DEFAULT_TAB_ICON;
+}

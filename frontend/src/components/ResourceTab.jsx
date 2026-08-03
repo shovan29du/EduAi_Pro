@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import LevelSelector from './LevelSelector.jsx';
+import ParentCuration from './ParentCuration.jsx';
+import PDFExplainer from './PDFExplainer.jsx';
 import {
   askCourseAssistant,
   deleteResourceTabDocument,
@@ -12,7 +14,14 @@ import {
   uploadResourceTabDocument,
 } from '../api/resourceTab.js';
 
-export default function ResourceTab() {
+const SECTIONS = [
+  ['library', 'Open Libraries & Local Files'],
+  ['curator', 'Curator'],
+  ['pdf', 'PDF Explainer'],
+];
+
+export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
+  const [section, setSection] = useState('library');
   const [documents, setDocuments] = useState([]);
   const [providers, setProviders] = useState([]);
   const [localFiles, setLocalFiles] = useState([]);
@@ -172,10 +181,35 @@ export default function ResourceTab() {
       <div>
         <h2 className="text-xl font-bold">Learning Resources</h2>
         <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
-          Search course providers, index owned files without copying them, or upload a document.
+          Search course providers, index owned files without copying them, upload a document,
+          curate the syllabus, or have Ark AI explain a PDF.
         </p>
       </div>
 
+      <div role="tablist" aria-label="Resource sections" className="flex flex-wrap gap-2">
+        {SECTIONS.map(([id, label]) => (
+          <button
+            key={id}
+            type="button"
+            role="tab"
+            aria-selected={section === id}
+            onClick={() => setSection(id)}
+            className={`rounded-full border px-3 py-1 text-sm font-medium ${
+              section === id
+                ? 'border-blue-700 bg-blue-700 text-white'
+                : 'border-gray-300 dark:border-gray-600'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {section === 'curator' && <ParentCuration standard={standard} />}
+      {section === 'pdf' && <PDFExplainer level={level} child={child} />}
+
+      {section === 'library' && (
+        <>
       {error && <p role="alert" className="rounded bg-red-50 p-3 text-red-700">{error}</p>}
 
       <div className="rounded-xl border p-4 dark:border-gray-700">
@@ -443,6 +477,8 @@ export default function ResourceTab() {
             </div>
           )}
         </div>
+      )}
+        </>
       )}
     </section>
   );

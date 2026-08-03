@@ -24,7 +24,14 @@ import { downloadFile } from '../utils/download.js';
 
 const SECTIONS = ['Dashboard', 'Research', 'Lesson Planner', 'Assessments', 'Career', 'Institutions', 'Integrations'];
 
-export default function ProfessionalWorkspace({ level = '1' }) {
+const FAVOURITES = [
+  ['Study Timer', '⏱️', 'Stay focused with a timer for this study session.'],
+  ['Study Coach', '🧭', 'Get a personalised study plan and encouragement from Ark AI.'],
+  ['Fact of the Day', '💡', "Today's bite-sized fact for your current grade."],
+  ['History of the Day', '📜', 'A moment from history that happened on this date.'],
+];
+
+export default function ProfessionalWorkspace({ level = '1', onNavigate }) {
   const [section, setSection] = useState('Dashboard');
   const [user, setUser] = useState(null);
   const [dashboard, setDashboard] = useState({});
@@ -191,23 +198,23 @@ export default function ProfessionalWorkspace({ level = '1' }) {
         </p>
       </header>
 
-      <div className="grid min-h-[38rem] md:grid-cols-[13rem_1fr]">
-        <nav aria-label="Professional workspace" className="border-r bg-slate-50 p-3 dark:border-gray-700 dark:bg-gray-950">
-          {SECTIONS.map((item) => (
-            <button
-              key={item}
-              onClick={() => setSection(item)}
-              className={`mb-1 w-full rounded-lg px-3 py-2 text-left text-sm font-medium ${
-                section === item
-                  ? 'bg-indigo-600 text-white'
-                  : 'text-gray-700 hover:bg-indigo-50 dark:text-gray-200 dark:hover:bg-gray-800'
-              }`}
-            >
-              {item}
-            </button>
-          ))}
-        </nav>
+      <nav aria-label="Professional workspace" className="flex flex-wrap gap-2 border-b p-3 dark:border-gray-700">
+        {SECTIONS.map((item) => (
+          <button
+            key={item}
+            onClick={() => setSection(item)}
+            className={`rounded-full px-3 py-1.5 text-sm font-medium ${
+              section === item
+                ? 'bg-indigo-600 text-white'
+                : 'text-gray-700 hover:bg-indigo-50 dark:text-gray-200 dark:hover:bg-gray-800'
+            }`}
+          >
+            {item}
+          </button>
+        ))}
+      </nav>
 
+      <div className="min-h-[38rem]">
         <div className="p-5">
           {error && <p role="alert" className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{error}</p>}
           {busy && <p className="mb-3 text-sm text-gray-500">Updating workspace…</p>}
@@ -218,6 +225,24 @@ export default function ProfessionalWorkspace({ level = '1' }) {
                 <h3 className="text-xl font-bold">Welcome, {user?.display_name || 'learner'}</h3>
                 <p className="text-sm text-gray-500">Your learning, research and professional evidence in one place.</p>
               </div>
+              {onNavigate && (
+                <Panel title="Favourites">
+                  <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+                    {FAVOURITES.map(([tab, emoji, description]) => (
+                      <button
+                        key={tab}
+                        type="button"
+                        onClick={() => onNavigate(tab)}
+                        className="rounded-xl border p-3 text-left transition-colors hover:border-indigo-400 hover:bg-indigo-50 dark:border-gray-700 dark:hover:bg-indigo-950"
+                      >
+                        <span className="text-2xl">{emoji}</span>
+                        <p className="mt-1 text-sm font-semibold">{tab}</p>
+                        <p className="mt-0.5 text-xs text-gray-500">{description}</p>
+                      </button>
+                    ))}
+                  </div>
+                </Panel>
+              )}
               <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
                 {metricCards.map(([label, value]) => (
                   <div key={label} className="rounded-xl border p-4 dark:border-gray-700">

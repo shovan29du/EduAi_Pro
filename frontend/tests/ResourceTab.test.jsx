@@ -30,6 +30,9 @@ function mockFetch({ documents = [] } = {}) {
     if (u === '/api/local-library?') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: [] }) });
     }
+    if (u.startsWith('/api/pdf-explainer')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+    }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
 }
@@ -197,5 +200,36 @@ describe('ResourceTab Local Library Ark AI categorisation', () => {
     fireEvent.click(screen.getByText('Scan folder'));
 
     expect(await screen.findByText(/stopped early for this scan/)).toBeInTheDocument();
+  });
+});
+
+describe('ResourceTab merged Curator and PDF Explainer sections', () => {
+  it('shows the open-libraries content by default', async () => {
+    render(<ResourceTab standard={5} level="5" child="Shovan" />);
+    expect(await screen.findByText('Open libraries, multimedia and courses')).toBeInTheDocument();
+    expect(screen.queryByText('Search web')).not.toBeInTheDocument();
+  });
+
+  it('switches to the Curator section and shows its upload form', async () => {
+    render(<ResourceTab standard={5} level="5" child="Shovan" />);
+    await screen.findByText('Open libraries, multimedia and courses');
+
+    fireEvent.click(screen.getByRole('tab', { name: 'Curator' }));
+
+    expect(await screen.findByText(/Curate New Resources — Standard 5/)).toBeInTheDocument();
+    expect(screen.getByText('Upload & summarize')).toBeInTheDocument();
+    expect(screen.queryByText('Open libraries, multimedia and courses')).not.toBeInTheDocument();
+  });
+
+  it('switches to the PDF Explainer section and shows its upload control', async () => {
+    render(<ResourceTab standard={5} level="5" child="Shovan" />);
+    await screen.findByText('Open libraries, multimedia and courses');
+
+    fireEvent.click(screen.getByRole('tab', { name: 'PDF Explainer' }));
+
+    await waitFor(() => {
+      expect(screen.queryByText('Open libraries, multimedia and courses')).not.toBeInTheDocument();
+    });
+    expect(document.querySelector('input[type="file"]')).toBeInTheDocument();
   });
 });

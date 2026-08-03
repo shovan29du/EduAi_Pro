@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { BACKGROUND_IMAGE_TITLES } from '../data/backgroundImageTitles.js';
 
-const ROTATE_INTERVAL_MS = 30000;
+const ROTATE_INTERVAL_MS = 15 * 60 * 1000;
 const CONCURRENCY = 4;
 
 function shuffled(array) {

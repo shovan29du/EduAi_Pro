@@ -27,7 +27,7 @@ import AppBackground from './components/AppBackground.jsx';
 import ArkAiWidget from './components/ArkAiWidget.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
 import { fetchLevel, fetchLevelOverview, fetchLevelSubject } from './api/level.js';
-import { tabColorTheme } from './utils/tabColors.js';
+import { tabColorTheme, tabIcon } from './utils/tabColors.js';
 
 const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
 const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
@@ -35,9 +35,7 @@ const SearchBar = lazy(() => import('./components/SearchBar.jsx'));
 const ResourceLibrary = lazy(() => import('./components/ResourceLibrary.jsx'));
 const CodeEditor = lazy(() => import('./components/CodeEditor.jsx'));
 const ColouringCanvas = lazy(() => import('./components/ColouringCanvas.jsx'));
-const ParentCuration = lazy(() => import('./components/ParentCuration.jsx'));
 const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
-const ParentProgressOverview = lazy(() => import('./components/ParentProgressOverview.jsx'));
 const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
 const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
 const KaraokeCentre = lazy(() => import('./components/KaraokeCentre.jsx'));
@@ -62,7 +60,6 @@ const WorldPolitics = lazy(() => import('./components/WorldPolitics.jsx'));
 const MathTools = lazy(() => import('./components/MathTools.jsx'));
 const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
 const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
-const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
 const Civics = lazy(() => import('./components/Civics.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
@@ -71,12 +68,11 @@ const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
 const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
-const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 const ChessTutor = lazy(() => import('./components/ChessTutor.jsx'));
 const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
 
 const CHILD_TABS = [
-  'Professional',
+  'Dashboard',
   'Subjects',
   'Library',
   'Search',
@@ -114,15 +110,11 @@ const CHILD_TABS = [
   'Chess',
   'Study Coach',
   'Appearance',
-  'PDF Explainer',
   'Resource Tab',
 ];
-const SHOVAN_TABS = [
-  ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
-  'Overview', 'Attendance', 'Curate', 'Resource Tab',
-];
+const SHOVAN_TABS = CHILD_TABS;
 
-const PARENT_TABS = ['Overview', 'Attendance', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
+const PARENT_TABS = ['Library', 'Search', 'Users', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
@@ -219,7 +211,7 @@ export default function App() {
           <ProgressDashboard />
         </Suspense>
 
-        <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
+        <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2.5">
           {tabs.map((tab) => {
             const theme = tabColorTheme(tab);
             return (
@@ -228,11 +220,12 @@ export default function App() {
                 role="tab"
                 aria-selected={activeTab === tab}
                 onClick={() => setActiveTab(tab)}
-                className={`rounded-full border px-3 py-1 font-medium transition-colors focus:outline focus:outline-2 focus:outline-blue-500 ${
+                className={`flex items-center gap-1.5 rounded-2xl border px-4 py-2 font-semibold shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus:outline focus:outline-2 focus:outline-blue-500 ${
                   activeTab === tab ? theme.active : theme.inactive
                 }`}
               >
-                {tab}
+                <span aria-hidden="true">{tabIcon(tab)}</span>
+                <span>{tab}</span>
               </button>
             );
           })}
@@ -282,7 +275,7 @@ export default function App() {
             </div>
           )}
 
-          {activeTab === 'Professional' && <ProfessionalWorkspace level={level} />}
+          {activeTab === 'Dashboard' && <ProfessionalWorkspace level={level} onNavigate={setActiveTab} />}
 
           {!loading && !error && activeTab === 'Library' && (
             fullGrade ? <ResourceLibrary grade={fullGrade} /> : <LoadingSpinner />
@@ -317,14 +310,7 @@ export default function App() {
 
           {activeTab === 'Study Coach' && <StudyCoach child={child} level={level} />}
 
-          {activeTab === 'Curate' && <ParentCuration standard={standard} />}
-
-          {activeTab === 'Overview' && <ParentProgressOverview />}
-          {activeTab === 'Attendance' && <AttendanceTracker />}
-
-          {activeTab === 'PDF Explainer' && <PDFExplainer level={level} child={child} />}
-
-          {activeTab === 'Resource Tab' && <ResourceTab />}
+          {activeTab === 'Resource Tab' && <ResourceTab standard={standard} level={level} child={child} />}
 
           {activeTab === 'Users' && <UserManager />}
 

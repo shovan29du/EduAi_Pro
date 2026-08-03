@@ -82,7 +82,7 @@ export default function LanguageAcademy() {
   }
 
   const lang = selected;
-  const tabs = ['overview', 'vocabulary', 'flashcards', 'sentences', 'grammar', 'quiz', 'partner'];
+  const tabs = ['overview', 'vocabulary', 'flashcards', 'sentences', 'quiz', 'partner'];
 
   return (
     <div className="space-y-4">
@@ -138,22 +138,6 @@ export default function LanguageAcademy() {
 
       {tab === 'sentences' && (
         <SentencesView sentences={sentences} direction={lang.direction} langCode={lang.code} />
-      )}
-
-      {tab === 'grammar' && lang.grammar_basics && (
-        <div className="space-y-3">
-          {lang.grammar_basics.map((g, i) => (
-            <div key={i} className="rounded-xl border p-4">
-              <h3 className="font-semibold">{g.title}</h3>
-              <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">{g.explanation}</p>
-              {g.examples && (
-                <ul className="mt-2 space-y-1">
-                  {g.examples.map((ex, j) => <li key={j} className="text-xs text-gray-500">• {ex}</li>)}
-                </ul>
-              )}
-            </div>
-          ))}
-        </div>
       )}
 
       {tab === 'quiz' && (
