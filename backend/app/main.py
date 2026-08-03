@@ -1601,6 +1601,22 @@ def tutor_ask(body: dict):
     return {"answer": answer}
 
 
+@app.post("/api/ark-ai/chat")
+def ark_ai_chat(body: dict):
+    args = _tutor_level_args(body)
+    message = safety_filter.sanitize(str(body.get("message", "")), strict=args["strict"])[:2000]
+    if not message:
+        raise HTTPException(status_code=400, detail="message is required")
+    mode = str(body.get("mode", "chat")) if body.get("mode") in ("chat", "learn") else "chat"
+    history = body.get("history") or []
+    if not isinstance(history, list):
+        raise HTTPException(status_code=400, detail="history must be a list")
+    reply = ai_tutor.ark_ai_chat(
+        message, history=history, mode=mode, level=args["level"], grade=args["grade"],
+    )
+    return {"reply": reply}
+
+
 @app.post("/api/ai-tutor/grounded")
 def tutor_grounded(body: dict):
     question = str(body.get("question", "")).strip()[:4000]

@@ -594,3 +594,50 @@ def generate_resume_content(profile: dict) -> dict:
 
     raw = _call(system, user, max_tokens=800, strict=False)
     return _parse_resume_content(raw, fallback_skills=skills, fallback_experience=experience)
+
+
+_ARK_AI_SYSTEM = """You are Ark AI, a general-purpose personal assistant available from every page of this
+app -- distinct from the subject-bound AI Tutor. You support two modes:
+
+Chat mode: friendly, direct, general-purpose conversation, brainstorming, writing help, and everyday Q&A,
+not necessarily tied to schoolwork.
+
+Learn mode: tutoring-oriented. Explain clearly, check understanding, and calibrate to a learner at
+{level_label} unless the user's message clearly implies a different audience.
+
+Rules:
+{safety_rules}
+- Keep answers focused and under 300 words unless the user clearly wants something longer.
+- If a request needs live web search, real-time data, image generation, or code execution, say plainly
+  that Ark AI can't do that here yet, rather than pretending to."""
+
+
+def ark_ai_chat(
+    message: str, history: list[dict] | None = None, mode: str = "chat",
+    level: str | None = None, grade: int = 1,
+) -> str:
+    """A general-purpose assistant available on every page (not bound to a
+    specific subject/lesson) -- inspired by the Ark_Ai multi-model chat
+    workspace, reimplemented on this app's existing Claude backend instead of
+    Ark_Ai's own multi-provider/OpenRouter routing, which this app has no
+    infrastructure for."""
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    safety_key = levels_module.SCHOOL_CATEGORY if strict else "adult"
+    system = _ARK_AI_SYSTEM.format(level_label=info["label"], safety_rules=_SAFETY_RULES_BY_CATEGORY[safety_key])
+    mode_note = "Mode: Learn (tutoring-oriented)." if mode == "learn" else "Mode: Chat (general-purpose)."
+
+    turns = []
+    for turn in (history or [])[-6:]:
+        role = "Assistant" if turn.get("role") == "assistant" else "User"
+        text = str(turn.get("content", ""))[:800]
+        if text:
+            turns.append(f"{role}: {text}")
+    transcript = "\n".join(turns)
+
+    user = f"{mode_note}\n"
+    if transcript:
+        user += f"Conversation so far:\n{transcript}\n\n"
+    user += f"User: {message}"
+
+    return _call(system, user, max_tokens=600, strict=strict)

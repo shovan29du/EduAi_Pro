@@ -23,8 +23,11 @@ import Header from './components/Header.jsx';
 import UpdatePrompt from './components/UpdatePrompt.jsx';
 import LevelSelector from './components/LevelSelector.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
+import AppBackground from './components/AppBackground.jsx';
+import ArkAiWidget from './components/ArkAiWidget.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
 import { fetchLevel, fetchLevelOverview, fetchLevelSubject } from './api/level.js';
+import { tabColorTheme } from './utils/tabColors.js';
 
 const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
 const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
@@ -205,7 +208,9 @@ export default function App() {
   }, [activeTab, fullGrade, level]);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen">
+      <AppBackground />
+      <div className="relative z-10">
       <Header />
       <UpdatePrompt />
       <main className="mx-auto max-w-[1600px] space-y-6 p-4 lg:px-8">
@@ -215,19 +220,22 @@ export default function App() {
         </Suspense>
 
         <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
-          {tabs.map((tab) => (
-            <button
-              key={tab}
-              role="tab"
-              aria-selected={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-              className={`rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500 ${
-                activeTab === tab ? 'bg-blue-600 text-white' : ''
-              }`}
-            >
-              {tab}
-            </button>
-          ))}
+          {tabs.map((tab) => {
+            const theme = tabColorTheme(tab);
+            return (
+              <button
+                key={tab}
+                role="tab"
+                aria-selected={activeTab === tab}
+                onClick={() => setActiveTab(tab)}
+                className={`rounded-full border px-3 py-1 font-medium transition-colors focus:outline focus:outline-2 focus:outline-blue-500 ${
+                  activeTab === tab ? theme.active : theme.inactive
+                }`}
+              >
+                {tab}
+              </button>
+            );
+          })}
         </div>
 
         {loading && <LoadingSpinner />}
@@ -349,6 +357,8 @@ export default function App() {
         </Suspense>
         </ErrorBoundary>
       </main>
+      </div>
+      <ArkAiWidget level={level} />
     </div>
   );
 }
