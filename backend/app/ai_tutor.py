@@ -1,6 +1,9 @@
 import os
 import re
 
+from . import ark_ai_library
+from . import llm_providers
+from . import settings_store
 from .safety import SafetyFilter
 from . import levels as levels_module
 
@@ -117,7 +120,7 @@ Keep it motivating and achievable, calibrated to {level_label}."""
 
 
 def _get_client():
-    key = os.getenv("ANTHROPIC_API_KEY", "")
+    key = settings_store.get_anthropic_api_key() or os.getenv("ANTHROPIC_API_KEY", "")
     if not key:
         return None
     try:
@@ -127,11 +130,41 @@ def _get_client():
         return None
 
 
+def _try_preferred_model(system: str, safe_user: str, max_tokens: int) -> str | None:
+    """If the owner picked a non-Claude "preferred model" in settings and
+    saved that provider's API key, call it instead of Claude. Returns None
+    (falling through to the default Claude path below) whenever no
+    alternate model is configured, or its call fails for any reason -- so
+    Ark AI never goes fully offline just because one alternate provider is
+    down."""
+    model_id = settings_store.get_preferred_model()
+    if not model_id:
+        return None
+    model = ark_ai_library.get_model(model_id)
+    if not model:
+        return None
+    provider = ark_ai_library.PROVIDER_SLUGS.get(model["provider"])
+    if not provider or provider == "anthropic":
+        return None
+    api_key = settings_store.get_api_key(provider)
+    if not api_key:
+        return None
+    try:
+        return llm_providers.call_chat(provider, model["raw"], api_key, system, safe_user, max_tokens)
+    except llm_providers.ProviderCallError:
+        return None
+
+
 def _call(system: str, user: str, max_tokens: int = 512, strict: bool = True) -> str:
+    safe_user = _sf.sanitize(user, strict=strict)
+
+    alternate = _try_preferred_model(system, safe_user, max_tokens)
+    if alternate is not None:
+        return _sf.sanitize(alternate, strict=strict)
+
     client = _get_client()
     if not client:
         return "Ark AI is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
-    safe_user = _sf.sanitize(user, strict=strict)
     try:
         import anthropic
         msg = client.messages.create(

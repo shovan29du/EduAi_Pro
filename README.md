@@ -30,8 +30,16 @@ search-link integration shipped here.
 **AI Tutor / "Claude subscription"**: the AI Tutor already calls the Anthropic API directly (`backend/app/ai_tutor.py`),
 not a claude.ai consumer-subscription session — Claude's paid consumer subscription (claude.ai) and the metered
 Anthropic API are separate products with separate billing, and only the API has a key that a backend server can use.
-To make the AI Tutor produce real answers instead of the offline fallback message, set an `ANTHROPIC_API_KEY`
-environment variable (from https://console.anthropic.com/) before starting the backend, e.g. `ANTHROPIC_API_KEY=sk-ant-... bash start.sh`.
+To make the AI Tutor / Ark AI produce real answers instead of the offline fallback message, add an Anthropic API
+key (from https://console.anthropic.com/) via **Appearance settings → Ark AI Connection** in the app itself — it's
+saved locally to `backend/data/app_settings.json` (gitignored, never uploaded) and picked up immediately, no
+restart needed. Setting an `ANTHROPIC_API_KEY` environment variable before starting the backend still works too
+and is used as a fallback when no key has been saved in settings. Claude is always the default model; the same
+settings screen (**Other model providers**) also has a key field for every other provider Ark AI's model library
+lists — OpenAI, Google Gemini, xAI (Grok), Groq, Mistral, Together AI, Perplexity, Fireworks AI, DeepSeek, and
+OpenRouter — and a **Preferred model** dropdown that actually switches which one Ark AI calls, once that
+provider's key is saved (`backend/app/llm_providers.py`). If the chosen alternate model's API call ever fails,
+Ark AI silently falls back to Claude for that reply rather than going offline.
 
 ## Current status
 

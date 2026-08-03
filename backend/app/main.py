@@ -58,6 +58,7 @@ from app import resource_tab
 from app import ark_ai_library
 from app import paintings as paintings_store
 from app import ai_tutor
+from app import settings_store
 from app import content_store
 from app import levels as levels_module
 from app import course_catalog
@@ -1608,6 +1609,123 @@ def tutor_ask(body: dict):
 _ARK_AI_AGENTS = ("teacher", "instructor", "helper", "partner", "singing_partner")
 
 
+# ─── Ark AI / Anthropic API key settings ──────────────────────────────────────
+# Lets the app's single owner paste their own Anthropic API key from the
+# Appearance settings screen instead of having to set an OS environment
+# variable by hand. The raw key is never sent back to the frontend once saved.
+
+@app.get("/api/settings/anthropic-key")
+def get_anthropic_key_status():
+    from_settings = settings_store.get_anthropic_api_key()
+    if from_settings:
+        return {"configured": True, "source": "settings", "masked": settings_store.mask_key(from_settings)}
+    from_env = os.getenv("ANTHROPIC_API_KEY", "")
+    if from_env:
+        return {"configured": True, "source": "env", "masked": settings_store.mask_key(from_env)}
+    return {"configured": False, "source": "none", "masked": ""}
+
+
+@app.post("/api/settings/anthropic-key")
+def set_anthropic_key(body: dict):
+    api_key = str(body.get("api_key", "")).strip()
+    if not api_key:
+        raise HTTPException(status_code=400, detail="api_key is required")
+    settings_store.set_anthropic_api_key(api_key)
+    return {"configured": True, "source": "settings", "masked": settings_store.mask_key(api_key)}
+
+
+@app.delete("/api/settings/anthropic-key")
+def delete_anthropic_key():
+    settings_store.clear_anthropic_api_key()
+    return get_anthropic_key_status()
+
+
+# ─── Ark AI / all major model providers ───────────────────────────────────────
+# Generalizes the Anthropic-only settings above to every provider Ark AI's
+# model library lists (see app/llm_providers.py). Anthropic/Claude is still
+# always the default when no "preferred model" is chosen; the endpoints
+# below let the owner add keys for the rest and switch which one Ark AI
+# actually calls.
+
+_PROVIDER_LABELS = {
+    "anthropic": "Anthropic (Claude)",
+    "openai": "OpenAI",
+    "gemini": "Google Gemini",
+    "grok": "xAI (Grok)",
+    "groq": "Groq",
+    "mistral": "Mistral",
+    "together": "Together AI",
+    "perplexity": "Perplexity",
+    "fireworks": "Fireworks AI",
+    "deepseek": "DeepSeek",
+    "openrouter": "OpenRouter",
+}
+
+
+def _provider_key_status(provider: str) -> dict:
+    from_settings = settings_store.get_api_key(provider)
+    if from_settings:
+        return {
+            "provider": provider, "label": _PROVIDER_LABELS[provider],
+            "configured": True, "source": "settings", "masked": settings_store.mask_key(from_settings),
+        }
+    if provider == "anthropic":
+        from_env = os.getenv("ANTHROPIC_API_KEY", "")
+        if from_env:
+            return {
+                "provider": provider, "label": _PROVIDER_LABELS[provider],
+                "configured": True, "source": "env", "masked": settings_store.mask_key(from_env),
+            }
+    return {"provider": provider, "label": _PROVIDER_LABELS[provider], "configured": False, "source": "none", "masked": ""}
+
+
+@app.get("/api/settings/api-keys")
+def list_api_key_status():
+    return {"providers": [_provider_key_status(p) for p in settings_store.PROVIDERS]}
+
+
+@app.post("/api/settings/api-keys/{provider}")
+def set_provider_key(provider: str, body: dict):
+    if provider not in settings_store.PROVIDERS:
+        raise HTTPException(status_code=404, detail=f"Unknown provider '{provider}'")
+    api_key = str(body.get("api_key", "")).strip()
+    if not api_key:
+        raise HTTPException(status_code=400, detail="api_key is required")
+    settings_store.set_api_key(provider, api_key)
+    return _provider_key_status(provider)
+
+
+@app.delete("/api/settings/api-keys/{provider}")
+def delete_provider_key(provider: str):
+    if provider not in settings_store.PROVIDERS:
+        raise HTTPException(status_code=404, detail=f"Unknown provider '{provider}'")
+    settings_store.clear_api_key(provider)
+    return _provider_key_status(provider)
+
+
+@app.get("/api/settings/preferred-model")
+def get_preferred_model():
+    model_id = settings_store.get_preferred_model()
+    return {"model_id": model_id, "model": ark_ai_library.get_model(model_id) if model_id else None}
+
+
+@app.post("/api/settings/preferred-model")
+def set_preferred_model(body: dict):
+    model_id = str(body.get("model_id", "")).strip()
+    if not model_id:
+        settings_store.clear_preferred_model()
+        return {"model_id": "", "model": None}
+    model = ark_ai_library.get_model(model_id)
+    if not model:
+        raise HTTPException(status_code=404, detail=f"Unknown model_id '{model_id}'")
+    provider = ark_ai_library.PROVIDER_SLUGS.get(model["provider"])
+    if provider and provider != "anthropic" and not settings_store.get_api_key(provider):
+        label = _PROVIDER_LABELS.get(provider, model["provider"])
+        raise HTTPException(status_code=400, detail=f"Add an API key for {label} before selecting this model")
+    settings_store.set_preferred_model(model_id)
+    return {"model_id": model_id, "model": model}
+
+
 @app.post("/api/ark-ai/chat")
 def ark_ai_chat(body: dict):
     args = _tutor_level_args(body)
@@ -1628,9 +1746,11 @@ def ark_ai_chat(body: dict):
 # ─── Ark AI Library: prompts, models, tools ───────────────────────────────────
 # The full prompt library, model catalog, and free tools/apps/plugins
 # directory carried over from the Ark_Ai zip's own Prompts panel, model
-# picker, and connections list -- all static reference data (see
-# ark_ai_library.py's module docstring for why this app only actually calls
-# Claude despite listing every model Ark_Ai itself supports).
+# picker, and connections list. Tools/plugins stay purely informational, but
+# every model listed here is genuinely callable once its provider's API key
+# is added and it's picked as the "preferred model" (see the
+# /api/settings/api-keys and /api/settings/preferred-model endpoints below,
+# and ark_ai_library.py's module docstring).
 
 @app.get("/api/ark-ai/prompts")
 def ark_ai_prompts(q: str = "", tag: str = ""):

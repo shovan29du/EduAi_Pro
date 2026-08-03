@@ -3,15 +3,33 @@ tools/apps/plugins directory carried over from the Ark_Ai zip's own
 "Prompts" panel, model picker, and connections list. All three are static
 reference data (no external calls), extracted verbatim from that project so
 nothing here is invented. Browsing a prompt lets it be used as extra
-"context" for an Ark AI conversation; the models and tools lists are purely
-informational (this app only ever calls Claude -- see ai_tutor.py -- since
-that's the only provider it has credentials for)."""
+"context" for an Ark AI conversation. Claude is always the built-in default
+model; once the owner adds an API key for another provider in Appearance
+settings and picks one of its models as their "preferred model" (see
+settings_store.py / llm_providers.py), Ark AI actually calls that provider
+too instead of Claude."""
 
 import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ARK_AI_DATA_DIR = BASE_DIR / "data" / "ark_ai"
+
+# Maps each model's models.json "provider" display name to the internal
+# provider slug used by settings_store.PROVIDERS / llm_providers.PROVIDERS.
+PROVIDER_SLUGS = {
+    "Claude": "anthropic",
+    "Openai": "openai",
+    "Gemini": "gemini",
+    "Grok": "grok",
+    "Groq": "groq",
+    "Mistral": "mistral",
+    "Together": "together",
+    "Perplexity": "perplexity",
+    "Fireworks": "fireworks",
+    "Deepseek": "deepseek",
+    "OpenRouter (free)": "openrouter",
+}
 
 
 def _load(name: str) -> list:
@@ -51,6 +69,13 @@ def get_prompt(prompt_id: str) -> dict | None:
 
 def list_models() -> list:
     return _MODELS
+
+
+def get_model(model_id: str) -> dict | None:
+    for m in _MODELS:
+        if m["id"] == model_id:
+            return m
+    return None
 
 
 def list_tools(query: str = "", category: str = "", kind: str = "", limit: int = 100) -> list:

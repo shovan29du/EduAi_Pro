@@ -1,6 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
 import { STREAMING_PLATFORMS, LEARNING_PLATFORMS } from '../data/platforms.js';
+import {
+  getAnthropicKeyStatus, saveAnthropicKey, clearAnthropicKey,
+  listApiKeyStatus, saveProviderKey, clearProviderKey,
+  getPreferredModel, setPreferredModel,
+} from '../api/settings.js';
+import { listArkAiModels } from '../api/arkAi.js';
+
+const OTHER_PROVIDERS = [
+  { slug: 'openai', label: 'OpenAI', rawProvider: 'Openai', placeholder: 'sk-...' },
+  { slug: 'gemini', label: 'Google Gemini', rawProvider: 'Gemini', placeholder: 'AIza...' },
+  { slug: 'grok', label: 'xAI (Grok)', rawProvider: 'Grok', placeholder: 'xai-...' },
+  { slug: 'groq', label: 'Groq', rawProvider: 'Groq', placeholder: 'gsk_...' },
+  { slug: 'mistral', label: 'Mistral', rawProvider: 'Mistral', placeholder: '...' },
+  { slug: 'together', label: 'Together AI', rawProvider: 'Together', placeholder: '...' },
+  { slug: 'perplexity', label: 'Perplexity', rawProvider: 'Perplexity', placeholder: 'pplx-...' },
+  { slug: 'fireworks', label: 'Fireworks AI', rawProvider: 'Fireworks', placeholder: 'fw_...' },
+  { slug: 'deepseek', label: 'DeepSeek', rawProvider: 'Deepseek', placeholder: 'sk-...' },
+  { slug: 'openrouter', label: 'OpenRouter', rawProvider: 'OpenRouter (free)', placeholder: 'sk-or-...' },
+];
 
 const FONT_FAMILIES = [
   { value: '', label: 'Default' },
@@ -94,6 +113,283 @@ function PlatformSettings() {
         connectedPlatforms={connectedPlatforms}
         togglePlatform={togglePlatform}
       />
+    </div>
+  );
+}
+
+function ArkAiKeySettings() {
+  const [status, setStatus] = useState(null);
+  const [apiKey, setApiKey] = useState('');
+  const [error, setError] = useState(null);
+  const [saving, setSaving] = useState(false);
+
+  function loadStatus() {
+    getAnthropicKeyStatus()
+      .then(setStatus)
+      .catch(() => setStatus({ configured: false, source: 'none', masked: '' }));
+  }
+
+  useEffect(() => {
+    loadStatus();
+  }, []);
+
+  async function handleSave(e) {
+    e.preventDefault();
+    setError(null);
+    if (!apiKey.trim()) {
+      setError('Paste your Anthropic API key first.');
+      return;
+    }
+    setSaving(true);
+    try {
+      await saveAnthropicKey(apiKey.trim());
+      setApiKey('');
+      loadStatus();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleRemove() {
+    setError(null);
+    try {
+      await clearAnthropicKey();
+      loadStatus();
+    } catch (err) {
+      setError(err.message);
+    }
+  }
+
+  return (
+    <div className="mt-6 border-t pt-4 dark:border-gray-700">
+      <h3 className="mb-1 text-base font-bold">🤖 Ark AI Connection</h3>
+      <p className="mb-3 text-xs text-gray-500">
+        Ark AI needs an Anthropic API key (from{' '}
+        <a href="https://console.anthropic.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline dark:text-blue-400">
+          console.anthropic.com
+        </a>
+        ) to answer for real instead of showing the offline message. This is a separate,
+        metered API key — not your claude.ai subscription login — and it's stored only on
+        this computer, never uploaded anywhere.
+      </p>
+
+      {status?.configured ? (
+        <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+          <span className="rounded bg-green-100 px-2 py-1 text-green-800 dark:bg-green-950 dark:text-green-200">
+            ✓ Connected ({status.masked}{status.source === 'env' ? ', from environment variable' : ''})
+          </span>
+          {status.source === 'settings' && (
+            <button
+              type="button"
+              onClick={handleRemove}
+              className="rounded border px-2 py-1 text-xs focus:outline focus:outline-2 focus:outline-blue-500"
+            >
+              Remove key
+            </button>
+          )}
+        </div>
+      ) : (
+        <p className="mb-3 rounded bg-amber-50 px-2 py-1 text-sm text-amber-800 dark:bg-amber-950 dark:text-amber-200">
+          Ark AI is offline — add your API key below to turn it on.
+        </p>
+      )}
+
+      <form onSubmit={handleSave} className="flex flex-wrap items-end gap-2">
+        <label className="flex flex-1 min-w-64 flex-col text-sm font-medium">
+          {status?.configured ? 'Replace API key' : 'Anthropic API key'}
+          <input
+            type="password"
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+            placeholder="sk-ant-..."
+            autoComplete="off"
+            className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+          />
+        </label>
+        <button
+          type="submit"
+          disabled={saving}
+          className="rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500 disabled:opacity-50"
+        >
+          {saving ? 'Saving…' : 'Save key'}
+        </button>
+      </form>
+      {error && (
+        <p role="alert" className="mt-2 text-red-600">
+          {error}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function ProviderKeyRow({ provider, status, onSaved }) {
+  const [value, setValue] = useState('');
+  const [error, setError] = useState(null);
+  const [busy, setBusy] = useState(false);
+
+  async function handleSave(e) {
+    e.preventDefault();
+    setError(null);
+    if (!value.trim()) {
+      setError('Paste an API key first.');
+      return;
+    }
+    setBusy(true);
+    try {
+      await saveProviderKey(provider.slug, value.trim());
+      setValue('');
+      onSaved();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function handleRemove() {
+    setError(null);
+    try {
+      await clearProviderKey(provider.slug);
+      onSaved();
+    } catch (err) {
+      setError(err.message);
+    }
+  }
+
+  return (
+    <li className="rounded border p-2 dark:border-gray-700">
+      <form onSubmit={handleSave} className="flex flex-wrap items-end gap-2">
+        <label className="flex flex-1 min-w-48 flex-col text-sm font-medium">
+          {provider.label}
+          {status?.configured ? (
+            <span className="mt-1 rounded bg-green-100 px-2 py-1 text-xs text-green-800 dark:bg-green-950 dark:text-green-200">
+              ✓ {status.masked}
+            </span>
+          ) : (
+            <input
+              type="password"
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
+              placeholder={provider.placeholder}
+              autoComplete="off"
+              className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+            />
+          )}
+        </label>
+        {status?.configured ? (
+          <button
+            type="button"
+            onClick={handleRemove}
+            className="rounded border px-2 py-1 text-xs focus:outline focus:outline-2 focus:outline-blue-500"
+          >
+            Remove
+          </button>
+        ) : (
+          <button
+            type="submit"
+            disabled={busy}
+            className="rounded border px-2 py-1 text-xs focus:outline focus:outline-2 focus:outline-blue-500 disabled:opacity-50"
+          >
+            {busy ? 'Saving…' : 'Save'}
+          </button>
+        )}
+      </form>
+      {error && (
+        <p role="alert" className="mt-1 text-xs text-red-600">
+          {error}
+        </p>
+      )}
+    </li>
+  );
+}
+
+function OtherModelProviders() {
+  const [statuses, setStatuses] = useState({});
+  const [models, setModels] = useState([]);
+  const [preferred, setPreferred] = useState(null);
+  const [modelError, setModelError] = useState(null);
+
+  function loadStatuses() {
+    listApiKeyStatus()
+      .then((list) => {
+        const byProvider = {};
+        list.forEach((p) => {
+          byProvider[p.provider] = p;
+        });
+        setStatuses(byProvider);
+      })
+      .catch(() => {});
+  }
+
+  function loadPreferred() {
+    getPreferredModel().then(setPreferred).catch(() => {});
+  }
+
+  useEffect(() => {
+    loadStatuses();
+    loadPreferred();
+    listArkAiModels()
+      .then((data) => setModels(data.models || []))
+      .catch(() => {});
+  }, []);
+
+  const configuredRawProviders = new Set(
+    OTHER_PROVIDERS.filter((p) => statuses[p.slug]?.configured).map((p) => p.rawProvider)
+  );
+  const selectableModels = models.filter((m) => configuredRawProviders.has(m.provider));
+
+  async function handlePickModel(e) {
+    const modelId = e.target.value;
+    setModelError(null);
+    try {
+      const result = await setPreferredModel(modelId);
+      setPreferred(result);
+    } catch (err) {
+      setModelError(err.message);
+    }
+  }
+
+  return (
+    <div className="mt-6 border-t pt-4 dark:border-gray-700">
+      <h3 className="mb-1 text-base font-bold">🌐 Other model providers</h3>
+      <p className="mb-3 text-xs text-gray-500">
+        Ark AI's model library lists every major provider — add an API key for any of them
+        here to make it genuinely callable, then choose it below as Ark AI's preferred model.
+        Claude stays the default whenever no preferred model is set, or if the chosen provider
+        is temporarily unavailable.
+      </p>
+      <ul className="grid gap-2 sm:grid-cols-2">
+        {OTHER_PROVIDERS.map((provider) => (
+          <ProviderKeyRow key={provider.slug} provider={provider} status={statuses[provider.slug]} onSaved={loadStatuses} />
+        ))}
+      </ul>
+
+      <label className="mt-4 flex flex-col text-sm font-medium">
+        Preferred model
+        <select
+          value={preferred?.model_id || ''}
+          onChange={handlePickModel}
+          className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+        >
+          <option value="">Claude (default)</option>
+          {selectableModels.map((m) => (
+            <option key={m.id} value={m.id}>
+              {m.name} ({m.provider})
+            </option>
+          ))}
+        </select>
+      </label>
+      {selectableModels.length === 0 && (
+        <p className="mt-1 text-xs text-gray-500">Add a provider key above to unlock its models here.</p>
+      )}
+      {modelError && (
+        <p role="alert" className="mt-2 text-red-600">
+          {modelError}
+        </p>
+      )}
     </div>
   );
 }
@@ -216,6 +512,8 @@ export default function AppearanceSettings() {
         Reset to default
       </button>
 
+      <ArkAiKeySettings />
+      <OtherModelProviders />
       <PlatformSettings />
     </section>
   );

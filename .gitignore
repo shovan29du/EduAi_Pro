@@ -26,3 +26,4 @@ backend/data/study_coach/
 backend/data/museum_resource/images/
 backend/data/museum_thumbnail_cache/
 backend/data/paintings/
+backend/data/app_settings.json
