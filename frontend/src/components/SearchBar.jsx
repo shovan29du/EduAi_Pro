@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { searchGrade } from '../api/grade.js';
 import VoiceInputButton from './VoiceInputButton.jsx';
 import ArkAiChatPanel, { ARK_AI_AGENTS_ALL } from './ArkAiChatPanel.jsx';
+import ArkAiLibrary from './ArkAiLibrary.jsx';
 
 export default function SearchBar({ standard }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
+  const [arkAiContext, setArkAiContext] = useState('');
 
   async function handleSearch(e) {
     e.preventDefault();
@@ -74,16 +76,28 @@ export default function SearchBar({ standard }) {
         </ul>
       )}
 
-      <div className="mt-6">
-        <h3 className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">
-          Or ask Ark AI directly — the full assistant, with voice commands
-        </h3>
-        <ArkAiChatPanel
-          level={String(standard)}
-          agents={ARK_AI_AGENTS_ALL}
-          panelClassName="h-[32rem] w-full"
-          emptyHint="Ask Ark AI anything, or say it out loud with the mic button. Switch agents above to change how it helps: Teacher, Instructor, Helper, Partner, or Singing Partner."
-        />
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <div>
+          <h3 className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">
+            Or ask Ark AI directly — the full assistant, with voice commands
+          </h3>
+          {arkAiContext && (
+            <p className="mb-2 flex items-center justify-between gap-2 rounded bg-indigo-50 p-2 text-xs text-indigo-800 dark:bg-indigo-950 dark:text-indigo-200">
+              <span>A prompt from the library is set as context for this conversation.</span>
+              <button type="button" onClick={() => setArkAiContext('')} className="shrink-0 rounded border border-indigo-300 px-2 py-0.5 font-semibold">
+                Clear
+              </button>
+            </p>
+          )}
+          <ArkAiChatPanel
+            level={String(standard)}
+            agents={ARK_AI_AGENTS_ALL}
+            context={arkAiContext}
+            panelClassName="h-[32rem] w-full"
+            emptyHint="Ask Ark AI anything, or say it out loud with the mic button. Switch agents above to change how it helps: Teacher, Instructor, Helper, Partner, or Singing Partner."
+          />
+        </div>
+        <ArkAiLibrary onUsePrompt={setArkAiContext} />
       </div>
     </section>
   );

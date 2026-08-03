@@ -55,6 +55,7 @@ from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
 from app import resource_tab
+from app import ark_ai_library
 from app import paintings as paintings_store
 from app import ai_tutor
 from app import content_store
@@ -1619,6 +1620,43 @@ def ark_ai_chat(body: dict):
         message, history=history, agent=agent, level=args["level"], grade=args["grade"], context=context,
     )
     return {"reply": reply}
+
+
+# ─── Ark AI Library: prompts, models, tools ───────────────────────────────────
+# The full prompt library, model catalog, and free tools/apps/plugins
+# directory carried over from the Ark_Ai zip's own Prompts panel, model
+# picker, and connections list -- all static reference data (see
+# ark_ai_library.py's module docstring for why this app only actually calls
+# Claude despite listing every model Ark_Ai itself supports).
+
+@app.get("/api/ark-ai/prompts")
+def ark_ai_prompts(q: str = "", tag: str = ""):
+    return {
+        "prompts": ark_ai_library.list_prompts(query=q, tag=tag),
+        "tags": ark_ai_library.PROMPT_TAGS,
+    }
+
+
+@app.get("/api/ark-ai/prompts/{prompt_id}")
+def ark_ai_prompt_detail(prompt_id: str):
+    prompt = ark_ai_library.get_prompt(prompt_id)
+    if not prompt:
+        raise HTTPException(status_code=404, detail=f"Prompt '{prompt_id}' not found")
+    return prompt
+
+
+@app.get("/api/ark-ai/models")
+def ark_ai_models():
+    return {"models": ark_ai_library.list_models()}
+
+
+@app.get("/api/ark-ai/tools")
+def ark_ai_tools(q: str = "", category: str = "", kind: str = ""):
+    return {
+        "tools": ark_ai_library.list_tools(query=q, category=category, kind=kind),
+        "categories": ark_ai_library.TOOL_CATEGORIES,
+        "kinds": ark_ai_library.TOOL_KINDS,
+    }
 
 
 @app.post("/api/ai-tutor/grounded")

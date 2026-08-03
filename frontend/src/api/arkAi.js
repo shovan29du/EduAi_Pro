@@ -10,3 +10,28 @@ export async function sendArkAiMessage(message, history = [], { agent = 'teacher
   }
   return res.json();
 }
+
+export async function listArkAiPrompts(query = '', tag = '') {
+  const params = new URLSearchParams();
+  if (query) params.set('q', query);
+  if (tag) params.set('tag', tag);
+  const res = await fetch(`/api/ark-ai/prompts?${params.toString()}`);
+  if (!res.ok) throw new Error('Could not load the Ark AI prompt library');
+  return res.json();
+}
+
+export async function listArkAiModels() {
+  const res = await fetch('/api/ark-ai/models');
+  if (!res.ok) throw new Error('Could not load the Ark AI model catalog');
+  return res.json();
+}
+
+export async function listArkAiTools(query = '', category = '', kind = '') {
+  const params = new URLSearchParams();
+  if (query) params.set('q', query);
+  if (category) params.set('category', category);
+  if (kind) params.set('kind', kind);
+  const res = await fetch(`/api/ark-ai/tools?${params.toString()}`);
+  if (!res.ok) throw new Error('Could not load the Ark AI tools directory');
+  return res.json();
+}
