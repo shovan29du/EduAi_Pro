@@ -7,8 +7,9 @@ from app.main import app
 client = TestClient(app)
 
 
-def fake_chat(message, history=None, agent="teacher", level=None, grade=1):
-    return f"[{agent}] reply to: {message} (history_len={len(history or [])})"
+def fake_chat(message, history=None, agent="teacher", level=None, grade=1, context=""):
+    ctx = f" ctx={context!r}" if context else ""
+    return f"[{agent}] reply to: {message} (history_len={len(history or [])}){ctx}"
 
 
 def test_chat_requires_message():
@@ -52,6 +53,30 @@ def test_chat_falls_back_to_teacher_agent_for_unknown_agent(monkeypatch):
     resp = client.post("/api/ark-ai/chat", json={"message": "hi", "agent": "bogus"})
     assert resp.status_code == 200
     assert resp.json() == {"reply": "[teacher] reply to: hi (history_len=0)"}
+
+
+def test_chat_partner_agent_with_context(monkeypatch):
+    monkeypatch.setattr(ai_tutor, "ark_ai_chat", fake_chat)
+    resp = client.post("/api/ark-ai/chat", json={
+        "message": "Hola",
+        "agent": "partner",
+        "context": "Learner practicing Spanish.",
+    })
+    assert resp.status_code == 200
+    assert resp.json() == {"reply": "[partner] reply to: Hola (history_len=0) ctx='Learner practicing Spanish.'"}
+
+
+def test_chat_singing_partner_agent_with_context(monkeypatch):
+    monkeypatch.setattr(ai_tutor, "ark_ai_chat", fake_chat)
+    resp = client.post("/api/ark-ai/chat", json={
+        "message": "here we go!",
+        "agent": "singing_partner",
+        "context": 'Song: "Amazing Grace"',
+    })
+    assert resp.status_code == 200
+    assert resp.json() == {
+        "reply": "[singing_partner] reply to: here we go! (history_len=0) ctx='Song: \"Amazing Grace\"'"
+    }
 
 
 def test_ark_ai_chat_folds_history_into_prompt(monkeypatch):
@@ -110,3 +135,31 @@ def test_ark_ai_chat_uses_distinct_prompts_per_agent(monkeypatch):
     assert "Teacher" in teacher_system
     assert "Instructor" in instructor_system
     assert "Helper" in helper_system
+
+
+def test_ark_ai_chat_folds_context_into_system_prompt(monkeypatch):
+    captured = {}
+
+    class FakeMessage:
+        content = [type("C", (), {"text": "ok"})()]
+
+    class FakeMessages:
+        def create(self, **kwargs):
+            captured["system"] = kwargs["system"]
+            return FakeMessage()
+
+    class FakeClient:
+        messages = FakeMessages()
+
+    monkeypatch.setattr(ai_tutor, "_get_client", lambda: FakeClient())
+
+    ai_tutor.ark_ai_chat("Hola", agent="partner", context="Learner practicing Spanish.")
+    assert "Conversation Partner" in captured["system"]
+    assert "Learner practicing Spanish." in captured["system"]
+
+    ai_tutor.ark_ai_chat("hi", agent="singing_partner", context='Song: "Amazing Grace"')
+    assert "Singing Partner" in captured["system"]
+    assert 'Song: "Amazing Grace"' in captured["system"]
+
+    ai_tutor.ark_ai_chat("hi", agent="teacher")
+    assert "Context for this conversation" not in captured["system"]

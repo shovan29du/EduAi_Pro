@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { searchGrade } from '../api/grade.js';
 import VoiceInputButton from './VoiceInputButton.jsx';
+import ArkAiChatPanel, { ARK_AI_AGENTS_ALL } from './ArkAiChatPanel.jsx';
 
 export default function SearchBar({ standard }) {
   const [query, setQuery] = useState('');
@@ -72,6 +73,18 @@ export default function SearchBar({ standard }) {
           ))}
         </ul>
       )}
+
+      <div className="mt-6">
+        <h3 className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">
+          Or ask Ark AI directly — the full assistant, with voice commands
+        </h3>
+        <ArkAiChatPanel
+          level={String(standard)}
+          agents={ARK_AI_AGENTS_ALL}
+          panelClassName="h-[32rem] w-full"
+          emptyHint="Ask Ark AI anything, or say it out loud with the mic button. Switch agents above to change how it helps: Teacher, Instructor, Helper, Partner, or Singing Partner."
+        />
+      </div>
     </section>
   );
 }

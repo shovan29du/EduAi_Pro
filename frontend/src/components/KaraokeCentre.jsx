@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { fetchSingAlongSongs } from '../api/safety.js';
+import ArkAiChatPanel from './ArkAiChatPanel.jsx';
 
 const API = '/api';
 
@@ -322,6 +323,19 @@ function KaraokeClassics() {
                   Play music for this song ({song.source})
                 </a>
               )}
+              <div>
+                <h3 className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">
+                  Sing with Ark AI as your duet partner
+                </h3>
+                <ArkAiChatPanel
+                  key={song.title}
+                  agents={[['singing_partner', '🎤 Singing Partner']]}
+                  defaultAgent="singing_partner"
+                  context={`The user is singing along to "${song.title}". Cheer them on like a duet partner and share a quick fun fact about the song if relevant.`}
+                  panelClassName="h-96 w-full"
+                  emptyHint={`Say hi to your singing partner before you start "${song.title}"!`}
+                />
+              </div>
             </div>
           )}
         </>

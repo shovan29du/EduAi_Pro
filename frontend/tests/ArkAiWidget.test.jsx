@@ -37,7 +37,7 @@ describe('ArkAiWidget', () => {
 
     const call = global.fetch.mock.calls.find(([url]) => url === '/api/ark-ai/chat');
     const body = JSON.parse(call[1].body);
-    expect(body).toEqual({ message: 'Hello there', history: [], agent: 'teacher', level: '1' });
+    expect(body).toEqual({ message: 'Hello there', history: [], agent: 'teacher', level: '1', context: '' });
   });
 
   it('switches to the Instructor agent and includes prior turns as history', async () => {

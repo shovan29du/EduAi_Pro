@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
 import { speak, SpeakButton } from '../utils/tts.jsx';
+import ArkAiChatPanel from './ArkAiChatPanel.jsx';
 
 export default function LanguageAcademy() {
   const [languages, setLanguages] = useState([]);
@@ -81,7 +82,7 @@ export default function LanguageAcademy() {
   }
 
   const lang = selected;
-  const tabs = ['overview', 'vocabulary', 'flashcards', 'sentences', 'grammar', 'quiz'];
+  const tabs = ['overview', 'vocabulary', 'flashcards', 'sentences', 'grammar', 'quiz', 'partner'];
 
   return (
     <div className="space-y-4">
@@ -99,7 +100,7 @@ export default function LanguageAcademy() {
               tab === t ? 'bg-green-500 text-white' : 'bg-gray-100 dark:bg-gray-800'
             }`}
           >
-            {t === 'flashcards' ? '🃏 Flashcards' : t === 'quiz' ? '🧠 Quiz' : t}
+            {t === 'flashcards' ? '🃏 Flashcards' : t === 'quiz' ? '🧠 Quiz' : t === 'partner' ? '🗣️ Talk with Ark AI' : t}
           </button>
         ))}
       </div>
@@ -157,6 +158,22 @@ export default function LanguageAcademy() {
 
       {tab === 'quiz' && (
         <VocabQuiz questions={quizData} />
+      )}
+
+      {tab === 'partner' && (
+        <div className="space-y-2">
+          <p className="text-sm text-gray-600 dark:text-gray-300">
+            Practice speaking {lang.name} with Ark AI as your conversation partner. Use the mic button for
+            voice commands, or type. Ark AI will reply mostly in {lang.name} and gently correct mistakes.
+          </p>
+          <ArkAiChatPanel
+            agents={[['partner', `🗣️ ${lang.name} Partner`]]}
+            defaultAgent="partner"
+            context={`The learner is practicing ${lang.name} (${lang.native}). Converse with them mostly in ${lang.name}, adapting to their apparent skill level, and gently correct mistakes by offering the corrected phrase.`}
+            panelClassName="h-[32rem] w-full"
+            emptyHint={`Say hello in ${lang.name} to get started!`}
+          />
+        </div>
       )}
     </div>
   );

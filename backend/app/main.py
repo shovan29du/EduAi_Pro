@@ -1601,18 +1601,22 @@ def tutor_ask(body: dict):
     return {"answer": answer}
 
 
+_ARK_AI_AGENTS = ("teacher", "instructor", "helper", "partner", "singing_partner")
+
+
 @app.post("/api/ark-ai/chat")
 def ark_ai_chat(body: dict):
     args = _tutor_level_args(body)
     message = safety_filter.sanitize(str(body.get("message", "")), strict=args["strict"])[:2000]
     if not message:
         raise HTTPException(status_code=400, detail="message is required")
-    agent = str(body.get("agent", "teacher")) if body.get("agent") in ("teacher", "instructor", "helper") else "teacher"
+    agent = str(body.get("agent")) if body.get("agent") in _ARK_AI_AGENTS else "teacher"
     history = body.get("history") or []
     if not isinstance(history, list):
         raise HTTPException(status_code=400, detail="history must be a list")
+    context = safety_filter.sanitize(str(body.get("context", "")), strict=args["strict"])[:500]
     reply = ai_tutor.ark_ai_chat(
-        message, history=history, agent=agent, level=args["level"], grade=args["grade"],
+        message, history=history, agent=agent, level=args["level"], grade=args["grade"], context=context,
     )
     return {"reply": reply}
 

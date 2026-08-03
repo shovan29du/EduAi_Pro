@@ -598,8 +598,9 @@ def generate_resume_content(profile: dict) -> dict:
 
 _ARK_AI_DEFAULT_AGENT = "teacher"
 
-# Three specific agent personas (not generic "modes") -- each gets its own
-# tailored system prompt, mirroring the Ark_Ai zip's Agent/Skill concept.
+# Specific agent personas (not generic "modes") -- each gets its own tailored
+# system prompt, mirroring the Ark_Ai zip's Agent/Skill concept. Ark AI is one
+# assistant that changes role as needed, rather than one fixed persona.
 _ARK_AI_AGENT_PROMPTS = {
     "teacher": (
         "You are Ark AI, acting as a Teacher. Build real understanding, not just a quick answer: break "
@@ -619,6 +620,20 @@ _ARK_AI_AGENT_PROMPTS = {
         "Keep answers concise unless more detail is clearly wanted. Not every request needs to be treated "
         "as a lesson."
     ),
+    "partner": (
+        "You are Ark AI, acting as a Conversation Partner. Have a natural, back-and-forth spoken-style "
+        "conversation rather than lecturing -- ask questions, react to what the user says, and keep the "
+        "exchange flowing. If this is language-practice conversation, gently point out mistakes without "
+        "interrupting the flow, offer the corrected phrase, and keep responses short enough to feel like "
+        "real dialogue. Calibrate vocabulary and pace to a learner at {level_label}."
+    ),
+    "singing_partner": (
+        "You are Ark AI, acting as a Singing Partner during karaoke. You can't produce audio or actually "
+        "sing, so be an enthusiastic duet companion in words: cheer the user on between verses, share a "
+        "quick, genuine fun fact about the song or artist when relevant, offer a light tip (breath, pacing, "
+        "hitting a hard line) only if asked, and keep every message short and upbeat so it doesn't get in "
+        "the way of the performance. Calibrate tone to an audience at {level_label}."
+    ),
 }
 
 _ARK_AI_RULES = """Rules:
@@ -630,23 +645,27 @@ _ARK_AI_RULES = """Rules:
 
 def ark_ai_chat(
     message: str, history: list[dict] | None = None, agent: str = _ARK_AI_DEFAULT_AGENT,
-    level: str | None = None, grade: int = 1,
+    level: str | None = None, grade: int = 1, context: str = "",
 ) -> str:
-    """Ark AI: a teacher/instructor/helper assistant available on every page
-    (not bound to a specific subject/lesson) -- inspired by the Ark_Ai
-    multi-model chat workspace's Agent/Skill concept, reimplemented on this
-    app's existing Claude backend instead of Ark_Ai's own multi-provider/
-    OpenRouter routing, which this app has no infrastructure for. `agent`
-    selects a specific, distinctly-prompted persona: "teacher" (explains and
-    builds understanding), "instructor" (structured step-by-step guidance),
-    or "helper" (fast, general-purpose assistance)."""
+    """Ark AI: one assistant that changes role as needed, available on every
+    page -- inspired by the Ark_Ai multi-model chat workspace's Agent/Skill
+    concept, reimplemented on this app's existing Claude backend instead of
+    Ark_Ai's own multi-provider/OpenRouter routing, which this app has no
+    infrastructure for. `agent` selects a specific, distinctly-prompted
+    persona: "teacher" (explains and builds understanding), "instructor"
+    (structured step-by-step guidance), "helper" (fast, general-purpose
+    assistance), "partner" (a conversation partner, e.g. for language
+    practice), or "singing_partner" (an encouraging karaoke companion).
+    `context` folds in situational specifics (e.g. which language or song)
+    so the same agent adapts to where it's being used."""
     info = _resolve_level(level, grade)
     strict = info["category"] == levels_module.SCHOOL_CATEGORY
     safety_key = levels_module.SCHOOL_CATEGORY if strict else "adult"
     agent_key = agent if agent in _ARK_AI_AGENT_PROMPTS else _ARK_AI_DEFAULT_AGENT
     persona = _ARK_AI_AGENT_PROMPTS[agent_key].format(level_label=info["label"])
     rules = _ARK_AI_RULES.format(safety_rules=_SAFETY_RULES_BY_CATEGORY[safety_key])
-    system = f"{persona}\n\n{rules}"
+    context_block = f"\n\nContext for this conversation: {context.strip()}" if context.strip() else ""
+    system = f"{persona}{context_block}\n\n{rules}"
 
     turns = []
     for turn in (history or [])[-6:]:
