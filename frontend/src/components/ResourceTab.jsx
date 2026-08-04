@@ -306,7 +306,11 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
           substantial 800-1500 words for non-fiction); file it into an organized A-Z-by-author
           (or Reference/subject) folder right there in that same directory; and -- if it
           matches a book already in World Literature, the Non-Fiction Library, or a lesson's
-          book list -- replace that link with this local copy.
+          book list -- replace that link with this local copy. For a reference textbook, its
+          subject's topics are also searched across the whole syllabus (every grade and
+          college/university level), and the most relevant text, examples, formulas, math,
+          code, problems, and figures Ark AI can genuinely find get extracted and saved onto
+          the matching lessons.
         </p>
         <form onSubmit={handleFolderScan} className="mt-3 flex flex-col gap-2 sm:flex-row">
           <input
@@ -457,6 +461,20 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
                         {analysisResults[file.id].lesson_matches?.length > 0 &&
                           ` Also updated ${analysisResults[file.id].lesson_matches.length} lesson resource${analysisResults[file.id].lesson_matches.length === 1 ? '' : 's'}.`}
                       </p>
+                    )}
+                    {analysisResults[file.id]?.topic_links?.length > 0 && (
+                      <div className="mt-2 text-xs text-emerald-700 dark:text-emerald-300">
+                        <p>
+                          ✓ Linked to {analysisResults[file.id].topic_links.length} lesson
+                          {analysisResults[file.id].topic_links.length === 1 ? '' : 's'} across the syllabus --
+                          relevant text, examples, formulas, math, code, problems, and figures were extracted and saved.
+                        </p>
+                        <ul className="mt-1 list-disc space-y-0.5 pl-4">
+                          {analysisResults[file.id].topic_links.map((link, i) => (
+                            <li key={i}>Level {link.level} · {link.subject}: {link.lesson}</li>
+                          ))}
+                        </ul>
+                      </div>
                     )}
                     {analysisErrors[file.id] && (
                       <p role="alert" className="mt-2 text-xs text-red-600">{analysisErrors[file.id]}</p>

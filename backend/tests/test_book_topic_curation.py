@@ -61,7 +61,9 @@ def test_analyse_book_for_lessons_falls_back_gracefully_when_offline():
 
 @pytest.fixture
 def temp_grade_path():
-    path = SYLLABUS_DIR / "grade11.json"
+    # "11" isn't a real school grade (only 1-10 exist), so syllabus_filename
+    # resolves it to a level_11.json test-only file, never a real content file.
+    path = SYLLABUS_DIR / "level_11.json"
     yield path
     if path.exists():
         os.remove(path)
@@ -152,3 +154,50 @@ def test_upload_safe_book_links_topics_end_to_end(temp_grade_path, monkeypatch):
     assert resp.status_code == 200
     body = resp.json()
     assert body["topics_linked"] == ["Photosynthesis"]
+
+
+@pytest.fixture
+def temp_college_path():
+    path = SYLLABUS_DIR / "level_c1.json"
+    existed = path.exists()
+    original = path.read_bytes() if existed else None
+    yield path
+    if existed:
+        path.write_bytes(original)
+    elif path.exists():
+        os.remove(path)
+
+
+def test_curate_book_topics_works_for_a_non_numeric_level_code(temp_college_path, monkeypatch):
+    _seed_subject_with_lessons(temp_college_path, [
+        {"id": "cs-l1", "title": "Neural Networks"},
+    ])
+
+    def fake_analyse(book_title, book_text, lesson_titles):
+        assert lesson_titles == ["Neural Networks"]
+        return [{"lesson_title": "Neural Networks", "kind": "formula", "form": "full",
+                  "content": "y = Wx + b"}]
+
+    monkeypatch.setattr(ai_tutor, "analyse_book_for_lessons", fake_analyse)
+    linked = curate_book_topics("C1", "Science", "Deep Learning 101", "Some long book text about neural nets.")
+    assert linked == ["Neural Networks"]
+
+    with open(temp_college_path, encoding="utf-8") as f:
+        data = json.load(f)
+    lesson = data["subjects"]["Science"]["lessons"][0]
+    assert lesson["book_excerpts"] == [
+        {"book": "Deep Learning 101", "kind": "formula", "form": "full", "content": "y = Wx + b"}
+    ]
+
+
+def test_curate_book_topics_accepts_a_custom_source_label(temp_grade_path, monkeypatch):
+    _seed_subject_with_lessons(temp_grade_path, [{"id": "sci-l1", "title": "Photosynthesis"}])
+    monkeypatch.setattr(
+        ai_tutor, "analyse_book_for_lessons",
+        lambda *a, **k: [{"lesson_title": "Photosynthesis", "kind": "copy", "form": "summary", "content": "x"}],
+    )
+    curate_book_topics(11, "Science", "Botany Basics", "text", source="Scanned local library book")
+    with open(temp_grade_path, encoding="utf-8") as f:
+        data = json.load(f)
+    lesson = data["subjects"]["Science"]["lessons"][0]
+    assert lesson["textbook_references"] == [{"title": "Botany Basics", "source": "Scanned local library book"}]

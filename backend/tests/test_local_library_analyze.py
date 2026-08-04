@@ -151,11 +151,77 @@ def test_analyze_endpoint_moves_textbook_into_reference_subject_folder(tmp_folde
     body = resp.json()
     assert body["world_literature"] is None
     assert body["lesson_matches"] == []
+    # No ANTHROPIC_API_KEY in this sandbox, so the real (unmocked) Ark AI
+    # lesson-extraction call returns the offline fallback text, which can't
+    # parse into any snippets -- confirms nothing gets written unexpectedly.
+    assert body["topic_links"] == []
 
     new_path = Path(body["file"]["path"])
     assert new_path.exists()
     assert new_path.parent.name == "Mathematics"
     assert new_path.parent.parent.name == "Reference"
+
+
+def test_analyze_endpoint_links_textbook_content_to_matching_lessons(tmp_folder, monkeypatch):
+    import app.main as main_module
+
+    file_id = index_one_book(tmp_folder, filename="algebra.txt", content="Equations and variables. " * 30)
+
+    def fake_analyze(filename, text_excerpt):
+        return {"classification": "textbook", "title": "Algebra Basics", "author": "", "subject": "Mathematics", "synopsis": ""}
+    monkeypatch.setattr(ai_tutor, "analyze_book_for_library", fake_analyze)
+
+    def fake_analyse_text(text, limit=12):
+        return {
+            "summary": "", "extracted_chars": len(text),
+            "matched_topics": [
+                {"level": "5", "subject": "Math", "topic": "Equations", "score": 3.0},
+                {"level": "5", "subject": "Math", "topic": "Variables", "score": 2.5},
+                {"level": "C1", "subject": "Mathematics", "topic": "Linear Algebra", "score": 1.0},
+                {"level": "UG1", "subject": "Mathematics", "topic": "Calculus", "score": 0.5},
+            ],
+        }
+    monkeypatch.setattr(local_library, "analyse_text", fake_analyse_text)
+
+    captured_calls = []
+
+    def fake_curate_book_topics(level_id, subject, title, text, source="Parent-uploaded book"):
+        captured_calls.append((level_id, subject, source))
+        if (level_id, subject) == ("5", "Math"):
+            return ["Solving Equations"]
+        return []
+    monkeypatch.setattr(main_module, "curate_book_topics", fake_curate_book_topics)
+
+    resp = client.post(f"/api/local-library/files/{file_id}/analyze")
+    assert resp.status_code == 200
+    body = resp.json()
+
+    assert body["topic_links"] == [{"level": "5", "subject": "Math", "lesson": "Solving Equations"}]
+    # Unique (level, subject) pairs only, best-scoring first, capped at 3 groups.
+    assert captured_calls == [
+        ("5", "Math", "Scanned local library book"),
+        ("C1", "Mathematics", "Scanned local library book"),
+        ("UG1", "Mathematics", "Scanned local library book"),
+    ]
+
+
+def test_analyze_endpoint_skips_topic_linking_for_literature(tmp_folder, monkeypatch):
+    import app.main as main_module
+
+    file_id = index_one_book(tmp_folder)
+
+    def fake_analyze(filename, text_excerpt):
+        return {"classification": "literature", "title": "Alice's Adventures in Wonderland", "author": "Lewis Carroll", "subject": "", "synopsis": ""}
+    monkeypatch.setattr(ai_tutor, "analyze_book_for_library", fake_analyze)
+
+    called = []
+    monkeypatch.setattr(local_library, "analyse_text", lambda *a, **k: called.append(1))
+    monkeypatch.setattr(main_module, "curate_book_topics", lambda *a, **k: called.append(1))
+
+    resp = client.post(f"/api/local-library/files/{file_id}/analyze")
+    assert resp.status_code == 200
+    assert resp.json()["topic_links"] == []
+    assert called == []
 
 
 def test_analyze_endpoint_creates_new_world_lit_entry_when_no_match(tmp_folder, monkeypatch):

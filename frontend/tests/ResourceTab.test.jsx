@@ -300,6 +300,46 @@ describe('ResourceTab Local Library Ark AI categorisation', () => {
     expect(screen.getByText(/📗 Non-fiction · Yuval Noah Harari/)).toBeInTheDocument();
     expect(screen.queryByText(/Replaced the link for "Sapiens" in World Literature/)).not.toBeInTheDocument();
   });
+
+  it('analyzes a scanned textbook and shows which lessons its content was linked to', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/resource-tab' && (!options.method || options.method === 'GET')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      if (u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: scannedFiles }) });
+      }
+      if (u === '/api/local-library/files/f2/analyze' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            file: { ...scannedFiles[1], classification: 'textbook' },
+            analysis: { classification: 'textbook', title: 'Algebra Basics', author: '', subject: 'Mathematics', synopsis: '' },
+            world_literature: null,
+            nonfiction: null,
+            lesson_matches: [],
+            topic_links: [
+              { level: '5', subject: 'Math', lesson: 'Solving Equations' },
+              { level: 'C1', subject: 'Mathematics', lesson: 'Linear Algebra Basics' },
+            ],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ResourceTab />);
+    fireEvent.click(await screen.findByText('🔎 Analyze for library'));
+
+    expect(await screen.findByText(/Linked to 2 lessons across the syllabus/)).toBeInTheDocument();
+    expect(screen.getByText('Level 5 · Math: Solving Equations')).toBeInTheDocument();
+    expect(screen.getByText('Level C1 · Mathematics: Linear Algebra Basics')).toBeInTheDocument();
+    expect(screen.getByText(/📚 Reference textbook/)).toBeInTheDocument();
+  });
 });
 
 describe('ResourceTab merged Curator and PDF Explainer sections', () => {

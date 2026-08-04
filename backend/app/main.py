@@ -1318,6 +1318,27 @@ def local_library_open(file_id: str):
     )
 
 
+_MAX_TEXTBOOK_TOPIC_GROUPS = 3
+
+
+def _top_topic_groups(matched_topics: list, max_groups: int = _MAX_TEXTBOOK_TOPIC_GROUPS) -> list:
+    """matched_topics is already sorted by relevance score descending
+    (local_library.analyse_text); picks the best-scoring distinct
+    (level, subject) pairs, in that order, so a reference book with matches
+    spread across many subjects doesn't trigger dozens of Ark AI calls."""
+    seen = set()
+    groups = []
+    for match in matched_topics:
+        pair = (match["level"], match["subject"])
+        if pair in seen:
+            continue
+        seen.add(pair)
+        groups.append(pair)
+        if len(groups) >= max_groups:
+            break
+    return groups
+
+
 @app.post("/api/local-library/files/{file_id}/analyze")
 def local_library_analyze_file(file_id: str):
     """Opt-in deep analysis for a single scanned book: classifies it as
@@ -1327,7 +1348,11 @@ def local_library_analyze_file(file_id: str):
     Reference/subject) library folder, and -- for literature/non-fiction
     with a known author -- replaces its link everywhere it already appears
     (World Literature, the Non-Fiction Library, lesson resources) with
-    this local copy."""
+    this local copy. For a textbook, its subject's topics are searched
+    against the app's whole syllabus (every grade and college/university
+    level), and the most relevant text, examples, formulas, math, code,
+    problems, and figures Ark AI can genuinely find in it are extracted and
+    saved onto the matching lessons."""
     result = local_library.get_file(file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
@@ -1373,12 +1398,22 @@ def local_library_analyze_file(file_id: str):
             )
         lesson_matches = book_link_sync.sync_syllabus_books(title, analysis["author"], local_open_url)
 
+    topic_links: list = []
+    if analysis["classification"] == "textbook":
+        topic_analysis = local_library.analyse_text(text)
+        title = analysis["title"] or record["filename"]
+        for level_id, subject in _top_topic_groups(topic_analysis["matched_topics"]):
+            linked_titles = curate_book_topics(level_id, subject, title, text, source="Scanned local library book")
+            for lesson_title in linked_titles:
+                topic_links.append({"level": level_id, "subject": subject, "lesson": lesson_title})
+
     return {
         "file": updated,
         "analysis": analysis,
         "world_literature": world_literature,
         "nonfiction": nonfiction,
         "lesson_matches": lesson_matches,
+        "topic_links": topic_links,
     }
 
 

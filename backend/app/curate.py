@@ -6,7 +6,7 @@ from sqlalchemy import select
 
 from app import ai_tutor
 from app.database import session_scope
-from app.levels import LEVELS
+from app.levels import LEVELS, syllabus_filename
 from app.models import AuditEvent, Course, Resource
 from app.safety import safety_filter
 
@@ -107,15 +107,20 @@ def curate_resource(standard: int, subject: str, resource_type: str, resource: d
     return resource
 
 
-def curate_book_topics(standard: int, subject: str, book_title: str, book_text: str) -> list[str]:
+def curate_book_topics(
+    level_id, subject: str, book_title: str, book_text: str, source: str = "Parent-uploaded book",
+) -> list[str]:
     """After a book is added as a resource, ask Ark AI which lessons in this
     subject's syllabus its content is relevant to, then attach the extracted
     parts (in full or summarised form) to those lessons as book_excerpts,
     plus a textbook_references entry linking the lesson back to the book.
+    ``level_id`` is any level the platform understands -- a numeric school
+    grade or a college/undergraduate/master's code (see app/levels.py) -- so
+    this works the same way for a Grade 5 textbook as for a college one.
     Returns the titles of lessons that were linked; [] if the subject has no
     lessons yet or nothing in the book matched."""
     with _lock:
-        path = SYLLABUS_DIR / f"grade{standard}.json"
+        path = SYLLABUS_DIR / syllabus_filename(level_id)
         if not path.exists():
             return []
         with open(path, encoding="utf-8") as f:
@@ -144,7 +149,7 @@ def curate_book_topics(standard: int, subject: str, book_title: str, book_text: 
             })
             lesson.setdefault("textbook_references", []).append({
                 "title": book_title,
-                "source": "Parent-uploaded book",
+                "source": source,
             })
             linked.append(snippet["lesson_title"])
 
