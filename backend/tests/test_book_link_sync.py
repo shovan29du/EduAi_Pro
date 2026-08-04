@@ -52,6 +52,32 @@ def isolated_paths(monkeypatch, tmp_path):
     yield wlit_path, syllabus_dir
 
 
+@pytest.fixture
+def nonfiction_path(monkeypatch, tmp_path):
+    path = tmp_path / "nonfiction.json"
+    path.write_text(json.dumps({
+        "title": "Non-Fiction Library",
+        "description": "test",
+        "categories": {
+            "science": {
+                "label": "Science & Nature",
+                "emoji": "🔬",
+                "books": [
+                    {
+                        "id": "sapiens",
+                        "title": "Sapiens",
+                        "author": "Yuval Noah Harari",
+                        "summary": "Old summary.",
+                        "links": {"read_online": "https://openlibrary.org/works/OL1234", "wikipedia": "https://en.wikipedia.org/wiki/Sapiens"},
+                    },
+                ],
+            },
+        },
+    }))
+    monkeypatch.setattr(book_link_sync, "NONFICTION_PATH", path)
+    yield path
+
+
 def test_sync_world_literature_replaces_link_and_summary_on_match(isolated_paths):
     wlit_path, _ = isolated_paths
     result = book_link_sync.sync_world_literature(
@@ -128,3 +154,37 @@ def test_sync_syllabus_books_no_match_leaves_files_unwritten(isolated_paths):
     assert updated == []
     after = (syllabus_dir / "grade6.json").stat().st_mtime
     assert before == after
+
+
+def test_sync_nonfiction_library_replaces_link_and_summary_on_match(nonfiction_path):
+    result = book_link_sync.sync_nonfiction_library(
+        "Sapiens", "Yuval Noah Harari", "/api/local-library/files/nf1", "A" * 1200
+    )
+    assert result == {"category": "science", "book_id": "sapiens", "title": "Sapiens", "created": False}
+
+    data = json.loads(nonfiction_path.read_text())
+    book = data["categories"]["science"]["books"][0]
+    assert book["links"]["read_online"] == "/api/local-library/files/nf1"
+    assert book["links"]["local_copy"] is True
+    assert book["links"]["wikipedia"] == "https://en.wikipedia.org/wiki/Sapiens"  # untouched
+    assert book["summary"] == "A" * 1200
+
+
+def test_sync_nonfiction_library_creates_new_local_entry_when_no_match(nonfiction_path):
+    result = book_link_sync.sync_nonfiction_library(
+        "My Local Memoir", "Some Author", "/api/local-library/files/nf2", "A long synopsis."
+    )
+    assert result["created"] is True
+    assert result["category"] == "local"
+
+    data = json.loads(nonfiction_path.read_text())
+    local_books = data["categories"]["local"]["books"]
+    assert len(local_books) == 1
+    assert local_books[0]["title"] == "My Local Memoir"
+    assert local_books[0]["links"]["read_online"] == "/api/local-library/files/nf2"
+    assert local_books[0]["summary"] == "A long synopsis."
+
+
+def test_sync_nonfiction_library_does_not_match_same_title_different_author(nonfiction_path):
+    result = book_link_sync.sync_nonfiction_library("Sapiens", "Someone Else", "/api/local-library/files/nf3", "")
+    assert result["created"] is True

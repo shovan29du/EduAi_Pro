@@ -301,10 +301,12 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
           Enter a folder on the computer running EduAI_Pro. Books, video, audio and pictures
           remain there; only their paths and learning metadata are indexed. PDF, DOCX, EPUB
           and TXT books are analysed locally and matched to Level 1–M2 topics. Click
-          "🔎 Analyze for library" on any indexed book to have Ark AI classify it, write a
-          synopsis, file it into an organized A-Z-by-author (or Reference/subject) folder
-          right there in that same directory, and -- if it matches a book already in World
-          Literature or a lesson's book list -- replace that link with this local copy.
+          "🔎 Analyze for library" on any indexed book to have Ark AI classify it as literature,
+          non-fiction, or a subject textbook; write a synopsis (short for literature, a
+          substantial 800-1500 words for non-fiction); file it into an organized A-Z-by-author
+          (or Reference/subject) folder right there in that same directory; and -- if it
+          matches a book already in World Literature, the Non-Fiction Library, or a lesson's
+          book list -- replace that link with this local copy.
         </p>
         <form onSubmit={handleFolderScan} className="mt-3 flex flex-col gap-2 sm:flex-row">
           <input
@@ -418,7 +420,11 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
                     {file.classification ? (
                       <div className="flex flex-wrap items-center gap-2 text-xs">
                         <span className="rounded bg-purple-100 px-2 py-1 text-purple-800 dark:bg-purple-950 dark:text-purple-200">
-                          {file.classification === 'literature' ? '📖 Literature' : '📚 Reference textbook'}
+                          {{
+                            literature: '📖 Literature',
+                            'non-fiction': '📗 Non-fiction',
+                            textbook: '📚 Reference textbook',
+                          }[file.classification] || file.classification}
                           {file.author ? ` · ${file.author}` : ''}
                         </span>
                         <span className="text-gray-500">Filed in the organized library.</span>
@@ -433,12 +439,21 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
                         {analyzingId === file.id ? 'Analyzing…' : '🔎 Analyze for library'}
                       </button>
                     )}
-                    {file.synopsis && <p className="mt-2 text-sm italic text-gray-600 dark:text-gray-300">{file.synopsis}</p>}
+                    {file.synopsis && <p className="mt-2 line-clamp-4 text-sm italic text-gray-600 dark:text-gray-300">{file.synopsis}</p>}
                     {analysisResults[file.id]?.world_literature && (
                       <p className="mt-2 text-xs text-emerald-700 dark:text-emerald-300">
                         ✓ {analysisResults[file.id].world_literature.created
                           ? `Added "${analysisResults[file.id].world_literature.title}" to World Literature.`
                           : `Replaced the link for "${analysisResults[file.id].world_literature.title}" in World Literature with this local copy.`}
+                        {analysisResults[file.id].lesson_matches?.length > 0 &&
+                          ` Also updated ${analysisResults[file.id].lesson_matches.length} lesson resource${analysisResults[file.id].lesson_matches.length === 1 ? '' : 's'}.`}
+                      </p>
+                    )}
+                    {analysisResults[file.id]?.nonfiction && (
+                      <p className="mt-2 text-xs text-emerald-700 dark:text-emerald-300">
+                        ✓ {analysisResults[file.id].nonfiction.created
+                          ? `Added "${analysisResults[file.id].nonfiction.title}" to the Non-Fiction Library.`
+                          : `Replaced the link for "${analysisResults[file.id].nonfiction.title}" in the Non-Fiction Library with this local copy.`}
                         {analysisResults[file.id].lesson_matches?.length > 0 &&
                           ` Also updated ${analysisResults[file.id].lesson_matches.length} lesson resource${analysisResults[file.id].lesson_matches.length === 1 ? '' : 's'}.`}
                       </p>

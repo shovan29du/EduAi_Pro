@@ -265,6 +265,41 @@ describe('ResourceTab Local Library Ark AI categorisation', () => {
 
     expect(await screen.findByText('Could not extract readable text from this file')).toBeInTheDocument();
   });
+
+  it('analyzes a scanned book classified as non-fiction and syncs the Non-Fiction Library', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/resource-tab' && (!options.method || options.method === 'GET')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      if (u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: scannedFiles }) });
+      }
+      if (u === '/api/local-library/files/f2/analyze' && options.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            file: { ...scannedFiles[1], author: 'Yuval Noah Harari', classification: 'non-fiction', synopsis: 'A long 800+ word synopsis.' },
+            analysis: { classification: 'non-fiction', title: 'Sapiens', author: 'Yuval Noah Harari', subject: '', synopsis: 'A long 800+ word synopsis.' },
+            world_literature: null,
+            nonfiction: { category: 'science', book_id: 'sapiens', title: 'Sapiens', created: false },
+            lesson_matches: [],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ResourceTab />);
+    fireEvent.click(await screen.findByText('🔎 Analyze for library'));
+
+    expect(await screen.findByText(/Replaced the link for "Sapiens" in the Non-Fiction Library/)).toBeInTheDocument();
+    expect(screen.getByText(/📗 Non-fiction · Yuval Noah Harari/)).toBeInTheDocument();
+    expect(screen.queryByText(/Replaced the link for "Sapiens" in World Literature/)).not.toBeInTheDocument();
+  });
 });
 
 describe('ResourceTab merged Curator and PDF Explainer sections', () => {

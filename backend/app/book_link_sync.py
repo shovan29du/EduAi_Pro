@@ -1,11 +1,12 @@
-"""When a scanned local book is identified as literature with a known
-title and author (see the Resource Tab's "Analyze" button,
+"""When a scanned local book is identified as literature or non-fiction
+with a known title and author (see the Resource Tab's "Analyze" button,
 ai_tutor.analyze_book_for_library), any existing book entry that matches it
--- in the World Literature library, or in a subject's "books"/"textbooks"
-lesson resources across every grade/level syllabus -- has its link replaced
-with the local copy, since the local file should win once matched. If no
-World Literature entry matches, a new one is created in a catch-all "local"
-section so the book is still browsable there.
+-- in the World Literature library, the Non-Fiction Library, or in a
+subject's "books"/"textbooks" lesson resources across every grade/level
+syllabus -- has its link replaced with the local copy, since the local
+file should win once matched. If no matching entry exists in World
+Literature or the Non-Fiction Library, a new one is created in a catch-all
+"local" section/category so the book is still browsable there.
 
 Matching is by normalized title plus author last name (full names rarely
 match exactly between a personal file and curated data -- middle names,
@@ -22,6 +23,7 @@ from threading import Lock
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
 WLIT_PATH = BASE_DIR / "data" / "world_literature" / "library.json"
+NONFICTION_PATH = BASE_DIR / "data" / "nonfiction_library" / "nonfiction.json"
 
 LOCAL_SECTION_KEY = "local"
 
@@ -79,7 +81,7 @@ def sync_syllabus_books(title: str, author: str, local_open_url: str) -> list[di
     return updated
 
 
-def _wlit_book_id(title: str, author: str, existing_ids: set[str]) -> str:
+def _slug_id(title: str, author: str, existing_ids: set[str]) -> str:
     base = _normalize(f"{title}-{author}").replace(" ", "-")[:80] or "local-book"
     candidate = base
     suffix = 2
@@ -114,7 +116,7 @@ def sync_world_literature(title: str, author: str, local_open_url: str, synopsis
             {"label": "My Local Library", "emoji": "🏠", "age_range": "All ages", "books": []},
         )
         existing_ids = {b["id"] for b in local_section["books"]}
-        book_id = _wlit_book_id(title, author, existing_ids)
+        book_id = _slug_id(title, author, existing_ids)
         local_section["books"].append({
             "id": book_id,
             "title": title,
@@ -126,3 +128,41 @@ def sync_world_literature(title: str, author: str, local_open_url: str, synopsis
         })
         WLIT_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
         return {"section": LOCAL_SECTION_KEY, "book_id": book_id, "title": title, "created": True}
+
+
+def sync_nonfiction_library(title: str, author: str, local_open_url: str, synopsis: str = "") -> dict:
+    """Finds the Non-Fiction Library entry matching (title, author);
+    replaces its primary read link with the local copy and, if given, its
+    summary with the (800-1500 word) synopsis. Creates a new entry in the
+    "local" category when no existing one matches. Returns
+    {category, book_id, title, created}."""
+    with _lock:
+        data = json.loads(NONFICTION_PATH.read_text(encoding="utf-8"))
+        categories = data.setdefault("categories", {})
+
+        for category_key, category in categories.items():
+            for book in category.get("books", []):
+                if _titles_match(book.get("title", ""), title) and _authors_match(book.get("author", ""), author):
+                    links = book.setdefault("links", {})
+                    links["read_online"] = local_open_url
+                    links["local_copy"] = True
+                    if synopsis:
+                        book["summary"] = synopsis
+                    NONFICTION_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+                    return {"category": category_key, "book_id": book["id"], "title": book["title"], "created": False}
+
+        local_category = categories.setdefault(
+            LOCAL_SECTION_KEY,
+            {"label": "My Local Library", "emoji": "🏠", "books": []},
+        )
+        existing_ids = {b["id"] for b in local_category["books"]}
+        book_id = _slug_id(title, author, existing_ids)
+        local_category["books"].append({
+            "id": book_id,
+            "title": title,
+            "author": author,
+            "summary": synopsis,
+            "links": {"read_online": local_open_url, "local_copy": True},
+        })
+        NONFICTION_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        return {"category": LOCAL_SECTION_KEY, "book_id": book_id, "title": title, "created": True}

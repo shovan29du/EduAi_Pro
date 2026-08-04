@@ -1320,12 +1320,14 @@ def local_library_open(file_id: str):
 
 @app.post("/api/local-library/files/{file_id}/analyze")
 def local_library_analyze_file(file_id: str):
-    """Opt-in deep analysis for a single scanned book: classifies it,
-    extracts its title/author, writes a synopsis for literature, physically
-    files it into the organized A-Z-by-author (or Reference/subject)
-    library folder, and -- for literature with a known author -- replaces
-    its link everywhere it already appears (World Literature, lesson
-    resources) with this local copy."""
+    """Opt-in deep analysis for a single scanned book: classifies it as
+    literature, non-fiction, or a textbook, extracts its title/author,
+    writes a synopsis (short for literature, 800-1500 words for
+    non-fiction), physically files it into the organized A-Z-by-author (or
+    Reference/subject) library folder, and -- for literature/non-fiction
+    with a known author -- replaces its link everywhere it already appears
+    (World Literature, the Non-Fiction Library, lesson resources) with
+    this local copy."""
     result = local_library.get_file(file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
@@ -1342,7 +1344,7 @@ def local_library_analyze_file(file_id: str):
         raise HTTPException(status_code=422, detail="Ark AI could not confidently classify this book; try again later")
 
     root = Path(record["root_path"])
-    if analysis["classification"] == "literature":
+    if analysis["classification"] in ("literature", "non-fiction"):
         new_path = library_organizer.move_literature(root, resolved, analysis["author"])
     else:
         new_path = library_organizer.move_textbook(root, resolved, analysis["subject"])
@@ -1356,19 +1358,26 @@ def local_library_analyze_file(file_id: str):
     )
 
     world_literature = None
+    nonfiction = None
     lesson_matches: list = []
-    if analysis["classification"] == "literature" and analysis["author"]:
+    if analysis["classification"] in ("literature", "non-fiction") and analysis["author"]:
         title = analysis["title"] or record["filename"]
         local_open_url = f"/api/local-library/files/{file_id}"
-        world_literature = book_link_sync.sync_world_literature(
-            title, analysis["author"], local_open_url, analysis["synopsis"]
-        )
+        if analysis["classification"] == "literature":
+            world_literature = book_link_sync.sync_world_literature(
+                title, analysis["author"], local_open_url, analysis["synopsis"]
+            )
+        else:
+            nonfiction = book_link_sync.sync_nonfiction_library(
+                title, analysis["author"], local_open_url, analysis["synopsis"]
+            )
         lesson_matches = book_link_sync.sync_syllabus_books(title, analysis["author"], local_open_url)
 
     return {
         "file": updated,
         "analysis": analysis,
         "world_literature": world_literature,
+        "nonfiction": nonfiction,
         "lesson_matches": lesson_matches,
     }
 

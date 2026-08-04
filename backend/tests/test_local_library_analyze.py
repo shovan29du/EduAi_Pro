@@ -39,6 +39,22 @@ def isolated_state(monkeypatch, tmp_path):
     }))
     monkeypatch.setattr(book_link_sync, "WLIT_PATH", wlit_path)
 
+    nonfiction_path = tmp_path / "nonfiction.json"
+    nonfiction_path.write_text(json.dumps({
+        "title": "Non-Fiction Library", "description": "test",
+        "categories": {
+            "science": {
+                "label": "Science & Nature", "emoji": "🔬",
+                "books": [{
+                    "id": "sapiens", "title": "Sapiens", "author": "Yuval Noah Harari",
+                    "summary": "Old summary.",
+                    "links": {"read_online": "https://openlibrary.org/works/OL1234"},
+                }],
+            },
+        },
+    }))
+    monkeypatch.setattr(book_link_sync, "NONFICTION_PATH", nonfiction_path)
+
     syllabus_dir = tmp_path / "syllabus"
     syllabus_dir.mkdir()
     monkeypatch.setattr(book_link_sync, "SYLLABUS_DIR", syllabus_dir)
@@ -178,3 +194,46 @@ def test_analyze_endpoint_422_when_ai_cannot_classify(tmp_folder, monkeypatch):
     })
     resp = client.post(f"/api/local-library/files/{file_id}/analyze")
     assert resp.status_code == 422
+
+
+def test_analyze_endpoint_moves_nonfiction_into_az_author_folder_and_syncs_nonfiction_library(tmp_folder, monkeypatch):
+    file_id = index_one_book(tmp_folder, filename="sapiens.txt", content="A brief history of humankind. " * 30)
+    long_synopsis = "Word " * 900  # stand-in for an 800-1500 word synopsis
+
+    def fake_analyze(filename, text_excerpt):
+        return {
+            "classification": "non-fiction", "title": "Sapiens",
+            "author": "Yuval Noah Harari", "subject": "", "synopsis": long_synopsis,
+        }
+    monkeypatch.setattr(ai_tutor, "analyze_book_for_library", fake_analyze)
+
+    resp = client.post(f"/api/local-library/files/{file_id}/analyze")
+    assert resp.status_code == 200
+    body = resp.json()
+
+    assert body["analysis"]["classification"] == "non-fiction"
+    assert body["world_literature"] is None
+    assert body["nonfiction"] == {"category": "science", "book_id": "sapiens", "title": "Sapiens", "created": False}
+    assert body["lesson_matches"] == []
+
+    # Non-fiction files the same way as literature -- A-Z-by-author, not Reference/subject.
+    new_path = Path(body["file"]["path"])
+    assert new_path.exists()
+    assert new_path.parent.name == "Yuval Noah Harari"
+    assert new_path.parent.parent.name == "Y"
+    assert body["file"]["classification"] == "non-fiction"
+    assert body["file"]["synopsis"] == long_synopsis
+
+
+def test_analyze_endpoint_creates_new_nonfiction_entry_when_no_match(tmp_folder, monkeypatch):
+    file_id = index_one_book(tmp_folder, filename="memoir.txt", content="My life story. " * 30)
+
+    def fake_analyze(filename, text_excerpt):
+        return {"classification": "non-fiction", "title": "My Local Memoir", "author": "New Author", "subject": "", "synopsis": "A synopsis."}
+    monkeypatch.setattr(ai_tutor, "analyze_book_for_library", fake_analyze)
+
+    resp = client.post(f"/api/local-library/files/{file_id}/analyze")
+    body = resp.json()
+    assert body["nonfiction"]["created"] is True
+    assert body["nonfiction"]["category"] == "local"
+    assert body["world_literature"] is None
