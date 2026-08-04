@@ -53,7 +53,7 @@ STOPWORDS = {
 }
 
 
-_AI_COLUMNS = ("ai_kind", "ai_genre", "ai_title")
+_AI_COLUMNS = ("ai_kind", "ai_genre", "ai_title", "author", "classification", "synopsis")
 
 
 def _connect():
@@ -456,3 +456,33 @@ def get_file(file_id: str) -> tuple[dict, Path] | None:
     if root != resolved.parent and root not in resolved.parents:
         return None
     return record, resolved
+
+
+def update_after_analysis(
+    file_id: str, *, new_path: Path, author: str, classification: str, synopsis: str,
+) -> dict | None:
+    """Records the outcome of the Resource Tab's "Analyze" action: the book's
+    new on-disk location after being filed into the organized library, plus
+    what Ark AI learned about it. Returns the updated record, or None if the
+    file_id no longer exists."""
+    conn = _connect()
+    try:
+        conn.execute(
+            """
+            UPDATE local_files
+            SET path = ?, filename = ?, author = ?, classification = ?, synopsis = ?
+            WHERE id = ?
+            """,
+            (str(new_path), new_path.name, author, classification, synopsis, file_id),
+        )
+        conn.commit()
+        row = conn.execute("SELECT * FROM local_files WHERE id = ?", (file_id,)).fetchone()
+    finally:
+        conn.close()
+    if not row:
+        return None
+    return {
+        **dict(row),
+        "matched_topics": json.loads(row["matched_topics"] or "[]"),
+        "open_url": f"/api/local-library/files/{row['id']}",
+    }

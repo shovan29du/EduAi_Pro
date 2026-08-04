@@ -63,6 +63,8 @@ from app import content_store
 from app import levels as levels_module
 from app import course_catalog
 from app import local_library
+from app import library_organizer
+from app import book_link_sync
 from app import ai_reliability
 from app import personalized_learning
 from app import pdf_explainer
@@ -1314,6 +1316,61 @@ def local_library_open(file_id: str):
         filename=record["filename"],
         content_disposition_type="inline",
     )
+
+
+@app.post("/api/local-library/files/{file_id}/analyze")
+def local_library_analyze_file(file_id: str):
+    """Opt-in deep analysis for a single scanned book: classifies it,
+    extracts its title/author, writes a synopsis for literature, physically
+    files it into the organized A-Z-by-author (or Reference/subject)
+    library folder, and -- for literature with a known author -- replaces
+    its link everywhere it already appears (World Literature, lesson
+    resources) with this local copy."""
+    result = local_library.get_file(file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
+    record, resolved = result
+    if record["category"] != "books":
+        raise HTTPException(status_code=400, detail="Only books can be analyzed for the library")
+
+    text = local_library.extract_text(resolved)
+    if not text.strip():
+        raise HTTPException(status_code=422, detail="Could not extract readable text from this file")
+
+    analysis = ai_tutor.analyze_book_for_library(resolved.name, text)
+    if not analysis["classification"]:
+        raise HTTPException(status_code=422, detail="Ark AI could not confidently classify this book; try again later")
+
+    root = Path(record["root_path"])
+    if analysis["classification"] == "literature":
+        new_path = library_organizer.move_literature(root, resolved, analysis["author"])
+    else:
+        new_path = library_organizer.move_textbook(root, resolved, analysis["subject"])
+
+    updated = local_library.update_after_analysis(
+        file_id,
+        new_path=new_path,
+        author=analysis["author"],
+        classification=analysis["classification"],
+        synopsis=analysis["synopsis"],
+    )
+
+    world_literature = None
+    lesson_matches: list = []
+    if analysis["classification"] == "literature" and analysis["author"]:
+        title = analysis["title"] or record["filename"]
+        local_open_url = f"/api/local-library/files/{file_id}"
+        world_literature = book_link_sync.sync_world_literature(
+            title, analysis["author"], local_open_url, analysis["synopsis"]
+        )
+        lesson_matches = book_link_sync.sync_syllabus_books(title, analysis["author"], local_open_url)
+
+    return {
+        "file": updated,
+        "analysis": analysis,
+        "world_literature": world_literature,
+        "lesson_matches": lesson_matches,
+    }
 
 
 class PaintingSaveRequest(BaseModel):

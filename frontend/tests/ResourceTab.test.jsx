@@ -201,6 +201,70 @@ describe('ResourceTab Local Library Ark AI categorisation', () => {
 
     expect(await screen.findByText(/stopped early for this scan/)).toBeInTheDocument();
   });
+
+  it('analyzes a scanned book, replaces the World Literature link, and hides the button afterwards', async () => {
+    let analyzeCalled = false;
+    global.fetch = vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/resource-tab' && (!options.method || options.method === 'GET')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      if (u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: scannedFiles }) });
+      }
+      if (u === '/api/local-library/files/f2/analyze' && options.method === 'POST') {
+        analyzeCalled = true;
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            file: { ...scannedFiles[1], author: 'Jane Austen', classification: 'literature', synopsis: 'A short new synopsis.' },
+            analysis: { classification: 'literature', title: 'Pride and Prejudice', author: 'Jane Austen', subject: '', synopsis: 'A short new synopsis.' },
+            world_literature: { section: 'childrens_classics', book_id: 'pride', title: 'Pride and Prejudice', created: false },
+            lesson_matches: [{ file: 'grade8.json', subject: 'English', title: 'Pride and Prejudice' }],
+          }),
+        });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ResourceTab />);
+    const analyzeButton = await screen.findByText('🔎 Analyze for library');
+    fireEvent.click(analyzeButton);
+
+    expect(await screen.findByText(/Replaced the link for "Pride and Prejudice" in World Literature/)).toBeInTheDocument();
+    expect(screen.getByText(/Also updated 1 lesson resource/)).toBeInTheDocument();
+    expect(screen.getByText('A short new synopsis.')).toBeInTheDocument();
+    expect(screen.getByText(/📖 Literature · Jane Austen/)).toBeInTheDocument();
+    expect(screen.queryByText('🔎 Analyze for library')).not.toBeInTheDocument();
+    expect(analyzeCalled).toBe(true);
+  });
+
+  it('shows an error if analysis fails', async () => {
+    global.fetch = vi.fn((url, options = {}) => {
+      const u = String(url);
+      if (u === '/api/resource-tab' && (!options.method || options.method === 'GET')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve([]) });
+      }
+      if (u === '/api/course-providers?query=') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ providers: [] }) });
+      }
+      if (u === '/api/local-library?') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ files: scannedFiles }) });
+      }
+      if (u === '/api/local-library/files/f2/analyze' && options.method === 'POST') {
+        return Promise.resolve({ ok: false, status: 422, json: () => Promise.resolve({ detail: 'Could not extract readable text from this file' }) });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    render(<ResourceTab />);
+    fireEvent.click(await screen.findByText('🔎 Analyze for library'));
+
+    expect(await screen.findByText('Could not extract readable text from this file')).toBeInTheDocument();
+  });
 });
 
 describe('ResourceTab merged Curator and PDF Explainer sections', () => {

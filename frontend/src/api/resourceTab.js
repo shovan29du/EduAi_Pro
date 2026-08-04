@@ -91,3 +91,11 @@ export async function listLocalLibrary(category = '', query = '') {
   if (!res.ok) throw new Error('Could not load the local library');
   return res.json();
 }
+
+export async function analyzeLocalLibraryFile(id) {
+  const res = await fetch(`/api/local-library/files/${id}/analyze`, { method: 'POST' });
+  if (!res.ok) {
+    throw new Error(await responseError(res, 'Could not analyze this book'));
+  }
+  return res.json();
+}

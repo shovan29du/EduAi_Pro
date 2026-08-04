@@ -767,6 +767,58 @@ def analyse_local_media(filename: str, category: str, text_excerpt: str = "") ->
     return _parse_local_media_analysis(raw, category)
 
 
+_LIBRARY_ANALYSIS_EXCERPT_CHARS = 4000
+_LIBRARY_CLASSIFICATIONS = {"literature", "textbook"}
+
+
+def _parse_book_library_analysis(raw: str) -> dict:
+    def field(label: str) -> str:
+        # [ \t]* (not \s*) so a blank field doesn't swallow the next line.
+        m = re.search(rf"{label}:[ \t]*(.*)", raw)
+        return m.group(1).strip() if m else ""
+
+    classification = field("CLASSIFICATION").strip().lower()
+    if classification not in _LIBRARY_CLASSIFICATIONS:
+        classification = ""
+    author = field("AUTHOR")
+    if author.lower() in {"unknown", "n/a", ""}:
+        author = ""
+    return {
+        "classification": classification,
+        "title": field("TITLE"),
+        "author": author,
+        "subject": field("SUBJECT"),
+        "synopsis": field("SYNOPSIS"),
+    }
+
+
+def analyze_book_for_library(filename: str, text_excerpt: str) -> dict:
+    """Deeper, opt-in analysis for a single scanned book -- triggered by the
+    Resource Tab's "Analyze" button, never run automatically for every file
+    in a bulk scan. Classifies the book as literature (read for its own
+    sake) or a subject textbook, extracts its title and author, and for
+    literature writes a short synopsis. Used to file the book into the
+    organized local library and to surface/replace it in World Literature
+    and matching lesson resources."""
+    system = (
+        "You are Ark AI, cataloguing a personal digital library. Given an excerpt from a book, decide "
+        "whether it is CLASSIFICATION literature (a novel, story collection, poetry, memoir, or other "
+        "work read for its own sake) or a textbook (a subject/reference work meant for study). Identify "
+        "its TITLE and AUTHOR as printed in the text if visible, otherwise your best-supported guess from "
+        "the filename -- write exactly 'Unknown' for AUTHOR if you cannot support a real name. If it is a "
+        "textbook, name the single academic SUBJECT it best belongs to (e.g. Mathematics, Biology, "
+        "History); leave SUBJECT blank for literature. If it is literature, write a short 3-4 sentence "
+        "SYNOPSIS with no spoilers for the ending; leave SYNOPSIS blank for a textbook. Never invent "
+        "details the excerpt doesn't support.\n"
+        "Respond in exactly this format, nothing else:\n"
+        "CLASSIFICATION: [literature or textbook]\nTITLE: [title]\nAUTHOR: [author, or Unknown]\n"
+        "SUBJECT: [subject, or blank]\nSYNOPSIS: [synopsis, or blank]"
+    )
+    user = f"Filename: {filename}\n\nExcerpt:\n{text_excerpt[:_LIBRARY_ANALYSIS_EXCERPT_CHARS]}"
+    raw = _call(system, user, max_tokens=400, strict=False)
+    return _parse_book_library_analysis(raw)
+
+
 _BOOK_LESSON_EXCERPT_CHARS = 6000
 _BOOK_LESSON_KINDS = {"copy", "example", "formula", "math", "code", "problem", "figure"}
 

@@ -3,6 +3,7 @@ import LevelSelector from './LevelSelector.jsx';
 import ParentCuration from './ParentCuration.jsx';
 import PDFExplainer from './PDFExplainer.jsx';
 import {
+  analyzeLocalLibraryFile,
   askCourseAssistant,
   deleteResourceTabDocument,
   listCourseProviders,
@@ -42,6 +43,23 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
   const [courseAnswer, setCourseAnswer] = useState(null);
   const [courseAsking, setCourseAsking] = useState(false);
   const [courseError, setCourseError] = useState('');
+  const [analyzingId, setAnalyzingId] = useState('');
+  const [analysisResults, setAnalysisResults] = useState({});
+  const [analysisErrors, setAnalysisErrors] = useState({});
+
+  async function handleAnalyze(fileId) {
+    setAnalyzingId(fileId);
+    setAnalysisErrors((prev) => ({ ...prev, [fileId]: '' }));
+    try {
+      const result = await analyzeLocalLibraryFile(fileId);
+      setAnalysisResults((prev) => ({ ...prev, [fileId]: result }));
+      setLocalFiles((files) => files.map((f) => (f.id === fileId ? { ...f, ...result.file } : f)));
+    } catch (err) {
+      setAnalysisErrors((prev) => ({ ...prev, [fileId]: err.message }));
+    } finally {
+      setAnalyzingId('');
+    }
+  }
 
   function toggleDocSelected(id) {
     setSelectedDocIds((prev) => (prev.includes(id) ? prev.filter((d) => d !== id) : [...prev, id]));
@@ -282,7 +300,11 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
         <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
           Enter a folder on the computer running EduAI_Pro. Books, video, audio and pictures
           remain there; only their paths and learning metadata are indexed. PDF, DOCX, EPUB
-          and TXT books are analysed locally and matched to Level 1–M2 topics.
+          and TXT books are analysed locally and matched to Level 1–M2 topics. Click
+          "🔎 Analyze for library" on any indexed book to have Ark AI classify it, write a
+          synopsis, file it into an organized A-Z-by-author (or Reference/subject) folder
+          right there in that same directory, and -- if it matches a book already in World
+          Literature or a lesson's book list -- replace that link with this local copy.
         </p>
         <form onSubmit={handleFolderScan} className="mt-3 flex flex-col gap-2 sm:flex-row">
           <input
@@ -389,6 +411,41 @@ export default function ResourceTab({ standard = 1, level = '1', child = '' }) {
                         {match.level} · {match.subject}: {match.topic}
                       </span>
                     ))}
+                  </div>
+                )}
+                {file.category === 'books' && (
+                  <div className="mt-2 border-t pt-2 dark:border-gray-700">
+                    {file.classification ? (
+                      <div className="flex flex-wrap items-center gap-2 text-xs">
+                        <span className="rounded bg-purple-100 px-2 py-1 text-purple-800 dark:bg-purple-950 dark:text-purple-200">
+                          {file.classification === 'literature' ? '📖 Literature' : '📚 Reference textbook'}
+                          {file.author ? ` · ${file.author}` : ''}
+                        </span>
+                        <span className="text-gray-500">Filed in the organized library.</span>
+                      </div>
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={() => handleAnalyze(file.id)}
+                        disabled={analyzingId === file.id}
+                        className="rounded border border-purple-600 px-2 py-1 text-xs font-medium text-purple-700 disabled:opacity-60 dark:text-purple-300"
+                      >
+                        {analyzingId === file.id ? 'Analyzing…' : '🔎 Analyze for library'}
+                      </button>
+                    )}
+                    {file.synopsis && <p className="mt-2 text-sm italic text-gray-600 dark:text-gray-300">{file.synopsis}</p>}
+                    {analysisResults[file.id]?.world_literature && (
+                      <p className="mt-2 text-xs text-emerald-700 dark:text-emerald-300">
+                        ✓ {analysisResults[file.id].world_literature.created
+                          ? `Added "${analysisResults[file.id].world_literature.title}" to World Literature.`
+                          : `Replaced the link for "${analysisResults[file.id].world_literature.title}" in World Literature with this local copy.`}
+                        {analysisResults[file.id].lesson_matches?.length > 0 &&
+                          ` Also updated ${analysisResults[file.id].lesson_matches.length} lesson resource${analysisResults[file.id].lesson_matches.length === 1 ? '' : 's'}.`}
+                      </p>
+                    )}
+                    {analysisErrors[file.id] && (
+                      <p role="alert" className="mt-2 text-xs text-red-600">{analysisErrors[file.id]}</p>
+                    )}
                   </div>
                 )}
               </li>

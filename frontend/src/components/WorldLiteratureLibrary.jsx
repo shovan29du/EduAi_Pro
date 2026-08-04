@@ -6,7 +6,11 @@ const API = '/api';
 function LinkBar({ links }) {
   if (!links) return null;
   const items = [
-    links.read_online && { href: links.read_online, label: '📖 Read Free', color: 'bg-green-100 text-green-700 border-green-200' },
+    links.read_online && {
+      href: links.read_online,
+      label: links.local_copy ? '🏠 Read My Local Copy' : '📖 Read Free',
+      color: links.local_copy ? 'bg-purple-100 text-purple-700 border-purple-200' : 'bg-green-100 text-green-700 border-green-200',
+    },
     links.download_epub && { href: links.download_epub, label: '⬇ Download EPUB', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
     links.open_library && { href: links.open_library, label: '🏛 Find / Borrow', color: 'bg-blue-100 text-blue-700 border-blue-200' },
     links.google_books_search && { href: links.google_books_search, label: '🔍 Google Books', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
@@ -100,7 +104,11 @@ function BookCard({ book, onClick }) {
         {book.links && (
           <div className="flex gap-1 mt-2 flex-wrap">
             {book.links.read_online && (
-              <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>
+              book.links.local_copy ? (
+                <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🏠 Local Copy</span>
+              ) : (
+                <span className="text-xs px-1.5 py-0.5 rounded bg-green-100 text-green-700 border border-green-200">📖 Free</span>
+              )
             )}
             {book.links.video_summary && (
               <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Video</span>
