@@ -53,15 +53,12 @@ describe('ProfessionalWorkspace Dashboard', () => {
     expect(nav.className).not.toMatch(/border-r/);
   });
 
-  it('shows the four favourites and navigates when one is clicked', async () => {
+  it('shows the Study Coach favourite and navigates when clicked', async () => {
     const onNavigate = vi.fn();
     render(<ProfessionalWorkspace onNavigate={onNavigate} />);
     await screen.findByText('Welcome, Shovan');
 
-    expect(screen.getByText('Study Timer')).toBeInTheDocument();
     expect(screen.getByText('Study Coach')).toBeInTheDocument();
-    expect(screen.getByText('Fact of the Day')).toBeInTheDocument();
-    expect(screen.getByText('History of the Day')).toBeInTheDocument();
 
     fireEvent.click(screen.getByText('Study Coach').closest('button'));
     expect(onNavigate).toHaveBeenCalledWith('Study Coach');
@@ -70,6 +67,6 @@ describe('ProfessionalWorkspace Dashboard', () => {
   it('does not show favourites when no onNavigate handler is passed', async () => {
     render(<ProfessionalWorkspace />);
     await screen.findByText('Welcome, Shovan');
-    expect(screen.queryByText('Study Timer')).not.toBeInTheDocument();
+    expect(screen.queryByText('Study Coach')).not.toBeInTheDocument();
   });
 });

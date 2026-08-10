@@ -36,11 +36,8 @@ const ResourceLibrary = lazy(() => import('./components/ResourceLibrary.jsx'));
 const CodeEditor = lazy(() => import('./components/CodeEditor.jsx'));
 const ColouringCanvas = lazy(() => import('./components/ColouringCanvas.jsx'));
 const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
-const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
-const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
 const KaraokeCentre = lazy(() => import('./components/KaraokeCentre.jsx'));
 const Games = lazy(() => import('./components/Games.jsx'));
-const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
 const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
 const ResourceTab = lazy(() => import('./components/ResourceTab.jsx'));
 const AiTutor = lazy(() => import('./components/AiTutor.jsx'));
@@ -100,9 +97,6 @@ const CHILD_TABS = [
   'Assessment',
   'Colouring',
   'Code Editor',
-  'Study Timer',
-  'Fact of the Day',
-  'History of the Day',
   'Music & Instruments',
   'Karaoke',
   'World Cinema',
@@ -125,8 +119,8 @@ export default function App() {
   // `level` drives the main learning flow (school Grade 1-10, College C1-C2,
   // Undergraduate UG1-UG4, or Master's M1-M2). `standard` is the legacy
   // numeric-grade-only state still used by features that are school-grade
-  // specific (Search, Curate, Fact of the Day, Games) and stays in sync
-  // whenever `level` is itself a plain school grade.
+  // specific (Search, Curate, Games) and stays in sync whenever `level` is
+  // itself a plain school grade.
   const [level, setLevel] = useState('1');
   const [standard, setStandard] = useState(1);
   const [grade, setGrade] = useState(null);
@@ -189,7 +183,7 @@ export default function App() {
   }, [activeTab, activeSubject, level]);
 
   useEffect(() => {
-    if (!['Library', 'Games', 'Fact of the Day'].includes(activeTab) || fullGrade) return undefined;
+    if (!['Library', 'Games'].includes(activeTab) || fullGrade) return undefined;
     let cancelled = false;
     fetchLevel(level).then((data) => {
       if (!cancelled) setFullGrade(data);
@@ -288,14 +282,6 @@ export default function App() {
           {activeTab === 'Colouring' && <ColouringCanvas />}
 
           {activeTab === 'Code Editor' && <CodeEditor />}
-
-          {activeTab === 'Study Timer' && <StudyTimer />}
-
-          {activeTab === 'Fact of the Day' && (
-            fullGrade ? <FactOfTheDay grade={fullGrade} /> : <LoadingSpinner />
-          )}
-
-          {activeTab === 'History of the Day' && <HistoryOfTheDay />}
 
           {activeTab === 'Appearance' && <AppearanceSettings />}
 

@@ -25,10 +25,7 @@ import { downloadFile } from '../utils/download.js';
 const SECTIONS = ['Dashboard', 'Research', 'Lesson Planner', 'Assessments', 'Career', 'Institutions', 'Integrations'];
 
 const FAVOURITES = [
-  ['Study Timer', '⏱️', 'Stay focused with a timer for this study session.'],
   ['Study Coach', '🧭', 'Get a personalised study plan and encouragement from Ark AI.'],
-  ['Fact of the Day', '💡', "Today's bite-sized fact for your current grade."],
-  ['History of the Day', '📜', 'A moment from history that happened on this date.'],
 ];
 
 export default function ProfessionalWorkspace({ level = '1', onNavigate }) {
