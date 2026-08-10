@@ -51,7 +51,6 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
     else if (mode === 'explain') post('explain', { concept: input, subject });
     else if (mode === 'flashcards') post('flashcards', { topic: input, subject, count: 8 });
     else if (mode === 'quiz') post('quiz', { topic: input, subject, count: 5 });
-    else if (mode === 'study-plan') post('study-plan', { subject: input, days: 7 });
   }
 
   const MODES = [
@@ -59,7 +58,6 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
     { id: 'explain', label: '📖 Explain a Concept' },
     { id: 'flashcards', label: '🃏 Flashcards' },
     { id: 'quiz', label: '📝 Generate Quiz' },
-    { id: 'study-plan', label: '📅 Study Plan' },
   ];
 
   const placeholder = {
@@ -67,7 +65,6 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
     explain: 'Enter a concept to explain (e.g. photosynthesis, gradient descent, market equilibrium)…',
     flashcards: 'Enter a topic for flashcards (e.g. fractions, neural networks)…',
     quiz: 'Enter a topic for a quiz (e.g. World War II, transformers, microeconomics)…',
-    'study-plan': 'Enter a subject for a 7-day study plan…',
   }[mode];
 
   return (
@@ -178,10 +175,6 @@ export default function AiTutor({ level: initialLevel = '1', subjectName = '' })
 
           {mode === 'quiz' && Array.isArray(result.quiz) && (
             <MiniQuiz questions={result.quiz} />
-          )}
-
-          {mode === 'study-plan' && (
-            <div className="whitespace-pre-wrap text-sm">{result.plan}</div>
           )}
         </div>
       )}
