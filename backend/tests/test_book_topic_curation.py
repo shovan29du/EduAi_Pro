@@ -47,6 +47,28 @@ def test_parse_book_lesson_snippets_none_response_yields_nothing():
     assert ai_tutor._parse_book_lesson_snippets("NONE", ["Photosynthesis"]) == []
 
 
+def test_parse_book_lesson_snippets_recognizes_table_concept_map_and_graph_kinds():
+    raw = (
+        "LESSON: Photosynthesis\n"
+        "KIND: table\n"
+        "FORM: full\n"
+        "CONTENT: | Stage | Product |\n|---|---|\n| Light reaction | ATP, NADPH |\n"
+        "---\n"
+        "LESSON: The Water Cycle\n"
+        "KIND: concept_map\n"
+        "FORM: full\n"
+        "CONTENT: Evaporation -> Condensation -> Precipitation -> Collection\n"
+        "---\n"
+        "LESSON: Photosynthesis\n"
+        "KIND: graph\n"
+        "FORM: summary\n"
+        "CONTENT: Figure 3 plots leaf growth rate against sunlight exposure over 10 days."
+    )
+    result = ai_tutor._parse_book_lesson_snippets(raw, ["Photosynthesis", "The Water Cycle"])
+    kinds = [snippet["kind"] for snippet in result]
+    assert kinds == ["table", "concept_map", "graph"]
+
+
 def test_analyse_book_for_lessons_returns_empty_without_lessons_or_text():
     assert ai_tutor.analyse_book_for_lessons("Book", "some text", []) == []
     assert ai_tutor.analyse_book_for_lessons("Book", "", ["Photosynthesis"]) == []

@@ -829,7 +829,10 @@ def analyze_book_for_library(filename: str, text_excerpt: str) -> dict:
 
 
 _BOOK_LESSON_EXCERPT_CHARS = 6000
-_BOOK_LESSON_KINDS = {"copy", "example", "formula", "math", "code", "problem", "figure"}
+_BOOK_LESSON_KINDS = {
+    "copy", "example", "formula", "math", "code", "problem",
+    "figure", "table", "graph", "concept_map",
+}
 
 
 def _parse_book_lesson_snippets(raw: str, valid_titles: list[str]) -> list[dict]:
@@ -862,10 +865,13 @@ def _parse_book_lesson_snippets(raw: str, valid_titles: list[str]) -> list[dict]
 def analyse_book_for_lessons(book_title: str, book_text: str, lesson_titles: list[str]) -> list[dict]:
     """Match an uploaded book's text to specific lessons in a subject's syllabus and
     extract the single most useful part of the text for each genuine match -- a
-    direct quote, worked example, formula, math, code, or practice problem, or (only
-    if the text itself names or captions one) a description of a figure/chart/
-    picture. Ark AI only ever sees the extracted text of the book, never its actual
-    images, so it is told never to invent visual content the text doesn't support."""
+    direct quote, worked example, formula, math, code, or practice problem; a table
+    (as pipe-delimited rows so the frontend can render it as a real table, not a
+    paragraph); a concept map or process flow (as an arrow chain, e.g.
+    "Input -> Process -> Output", so it renders as connected nodes); or a
+    description of a graph/chart (only if the text itself names or captions one --
+    Ark AI never sees the book's actual images, so it never invents numbers or
+    visuals the text doesn't support, only describes what's captioned)."""
     if not lesson_titles or not book_text.strip():
         return []
     excerpt = book_text[:_BOOK_LESSON_EXCERPT_CHARS]
@@ -874,13 +880,22 @@ def analyse_book_for_lessons(book_title: str, book_text: str, lesson_titles: lis
         f'You are Ark AI, helping a parent curate a personal digital library into a curriculum. You are given an '
         f'excerpt from a book titled "{book_title}" and a list of lesson titles from one subject\'s syllabus. '
         "Identify up to 4 lessons this excerpt is genuinely relevant to, and for each, extract the single most "
-        "useful part of the text for that lesson: a direct quote, a worked example, a formula, math, code, or a "
-        "practice problem -- or, only if the text itself names or captions one, a description of a figure, chart, "
-        "or picture. Never invent content the excerpt doesn't contain. Skip lessons with no genuine match; if none "
-        "match, respond with the single word NONE.\n"
+        "useful part of the text for that lesson, in the kind of form that best fits what's actually there:\n"
+        "- copy/example/problem: a direct quote, worked example, or practice problem, as plain text.\n"
+        "- formula/math: the formula or math itself, on its own.\n"
+        "- code: the code itself, verbatim, with no explanation mixed in.\n"
+        "- table: only if the excerpt contains genuinely tabular data -- format CONTENT as a Markdown table "
+        "(header row, then a |---|---| separator row, then data rows, all pipe-delimited).\n"
+        "- concept_map: only if the excerpt describes a sequence, process, or set of related concepts -- format "
+        "CONTENT as those concepts in order separated by ' -> ' (e.g. \"Sunlight -> Photosynthesis -> Glucose\").\n"
+        "- graph: only if the text itself names or captions a graph/chart -- describe what it shows in prose; "
+        "never invent numbers or a visual the text doesn't support.\n"
+        "- figure: only if the text itself names or captions some other figure/picture -- describe it in prose.\n"
+        "Never invent content the excerpt doesn't contain. Skip lessons with no genuine match; if none match, "
+        "respond with the single word NONE.\n"
         "For each match, respond in exactly this block format, separated by a line of three dashes:\n"
         "LESSON: [exact lesson title from the list]\n"
-        "KIND: [copy|example|formula|math|code|problem|figure]\n"
+        "KIND: [copy|example|formula|math|code|problem|table|concept_map|graph|figure]\n"
         "FORM: [full if the excerpt can be used as-is, otherwise summary]\n"
         "CONTENT: [the extracted or summarised text]"
     )

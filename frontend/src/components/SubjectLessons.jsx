@@ -35,6 +35,99 @@ function referenceLabel(reference) {
   ].filter(Boolean).join(' — ') || 'Textbook reference';
 }
 
+// Forgiving Markdown-table parser: tolerates missing leading/trailing pipes
+// and normalizes row lengths, so a book excerpt genuinely renders as a
+// table instead of a plain paragraph of pipe characters.
+function parseMarkdownTable(content) {
+  const lines = (content || '').trim().split('\n').map((line) => line.trim()).filter(Boolean);
+  if (lines.length < 2 || !lines.every((line) => line.includes('|'))) return null;
+  const splitRow = (line) => line.replace(/^\|/, '').replace(/\|$/, '').split('|').map((cell) => cell.trim());
+  const rows = lines.map(splitRow);
+  const headers = rows[0];
+  const isSeparatorRow = (cells) => cells.every((cell) => /^:?-{1,}:?$/.test(cell));
+  const dataRows = rows.slice(1).filter((cells) => !isSeparatorRow(cells));
+  if (!headers.length || dataRows.length === 0) return null;
+  const columnCount = headers.length;
+  const normalized = dataRows.map((row) => {
+    const padded = row.slice(0, columnCount);
+    while (padded.length < columnCount) padded.push('');
+    return padded;
+  });
+  return { headers, rows: normalized };
+}
+
+// Splits a concept-map/process-flow excerpt on -> / → / => / ⇒ arrows.
+function parseArrowChain(content) {
+  const parts = (content || '').split(/\s*(?:->|→|=>|⇒)\s*/).map((part) => part.trim()).filter(Boolean);
+  return parts.length > 1 ? parts : null;
+}
+
+const BOOK_EXCERPT_KIND_LABELS = {
+  copy: 'Quote', example: 'Example', formula: 'Formula', math: 'Math', code: 'Code',
+  problem: 'Practice problem', figure: 'Figure', table: 'Table', graph: 'Graph', concept_map: 'Concept map',
+};
+
+// Renders a book excerpt according to what kind of content it actually is,
+// instead of every kind collapsing into the same plain paragraph.
+function BookExcerptContent({ kind, content }) {
+  if (kind === 'code') {
+    return (
+      <pre className="overflow-x-auto rounded-lg bg-slate-950 p-3 text-sm text-white">
+        <code>{content}</code>
+      </pre>
+    );
+  }
+  if (kind === 'formula' || kind === 'math') {
+    return <code className="block overflow-x-auto rounded-lg bg-slate-950 p-3 text-sm text-white">{content}</code>;
+  }
+  if (kind === 'table') {
+    const table = parseMarkdownTable(content);
+    if (table) {
+      return (
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr>
+                {table.headers.map((header, index) => (
+                  <th key={index} className="border bg-gray-100 p-2 text-left dark:bg-gray-800">{header}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {table.rows.map((row, rowIndex) => (
+                <tr key={rowIndex}>
+                  {row.map((cell, cellIndex) => <td key={cellIndex} className="border p-2">{cell}</td>)}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    }
+  }
+  if (kind === 'concept_map' || kind === 'graph') {
+    const chain = parseArrowChain(content);
+    if (chain) {
+      return (
+        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-dashed p-3 dark:border-gray-600">
+          {chain.map((node, index) => (
+            <React.Fragment key={index}>
+              <span className="rounded-lg bg-blue-100 px-3 py-2 font-medium text-blue-900 dark:bg-blue-900">{node}</span>
+              {index < chain.length - 1 && <span aria-hidden="true">→</span>}
+            </React.Fragment>
+          ))}
+        </div>
+      );
+    }
+    return (
+      <p className="whitespace-pre-line rounded-lg border border-dashed p-3 leading-6 dark:border-gray-600">
+        {kind === 'graph' ? '📊 ' : '🗺️ '}{content}
+      </p>
+    );
+  }
+  return <p className="whitespace-pre-line leading-6">{content}</p>;
+}
+
 function LessonGraph({ graph }) {
   const points = graph?.points || [];
   if (points.length < 2) return null;
@@ -348,8 +441,8 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
                   {selected.book_excerpts.map((excerpt, index) => (
                     <li key={index} className="rounded-xl border p-4 text-sm dark:border-gray-700">
                       <div className="mb-2 flex flex-wrap items-center gap-2">
-                        <span className="rounded bg-purple-100 px-2 py-1 text-xs font-medium capitalize text-purple-800 dark:bg-purple-950 dark:text-purple-200">
-                          ✨ {excerpt.kind}
+                        <span className="rounded bg-purple-100 px-2 py-1 text-xs font-medium text-purple-800 dark:bg-purple-950 dark:text-purple-200">
+                          ✨ {BOOK_EXCERPT_KIND_LABELS[excerpt.kind] || excerpt.kind}
                         </span>
                         {excerpt.form === 'summary' && (
                           <span className="rounded bg-gray-100 px-2 py-1 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-300">
@@ -358,7 +451,7 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
                         )}
                         <span className="text-xs text-gray-500">from "{excerpt.book}"</span>
                       </div>
-                      <p className="whitespace-pre-line leading-6">{excerpt.content}</p>
+                      <BookExcerptContent kind={excerpt.kind} content={excerpt.content} />
                     </li>
                   ))}
                 </ul>

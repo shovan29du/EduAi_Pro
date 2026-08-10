@@ -77,9 +77,96 @@ describe('SubjectLessons book excerpts from library', () => {
     });
 
     expect(screen.getByText('From your library')).toBeInTheDocument();
-    expect(screen.getByText('✨ example')).toBeInTheDocument();
+    expect(screen.getByText('✨ Example')).toBeInTheDocument();
     expect(screen.getByText('summarised')).toBeInTheDocument();
     expect(screen.getByText('Leaves capture sunlight and convert it into energy.')).toBeInTheDocument();
     expect(screen.getByText('from "Botany Basics"')).toBeInTheDocument();
+  });
+
+  it('renders a table-kind excerpt as a real table, not a paragraph', async () => {
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1', title: 'Photosynthesis', unit: 'Plants',
+        book_excerpts: [{
+          book: 'Botany Basics', kind: 'table', form: 'full',
+          content: '| Stage | Product |\n|---|---|\n| Light reaction | ATP, NADPH |\n| Calvin cycle | Glucose |',
+        }],
+      }],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Science" subject={subjectWithLessons} standard={11} />
+      </ChildProvider>
+    );
+    await waitFor(() => expect(screen.getByText('✨ Table')).toBeInTheDocument());
+
+    const table = screen.getByRole('table');
+    expect(table).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: 'Stage' })).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: 'Product' })).toBeInTheDocument();
+    expect(screen.getByRole('cell', { name: 'Light reaction' })).toBeInTheDocument();
+    expect(screen.getByRole('cell', { name: 'Glucose' })).toBeInTheDocument();
+  });
+
+  it('renders a concept_map-kind excerpt as connected nodes, not a paragraph', async () => {
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1', title: 'The Water Cycle', unit: 'Earth Science',
+        book_excerpts: [{
+          book: 'Earth Basics', kind: 'concept_map', form: 'full',
+          content: 'Evaporation -> Condensation -> Precipitation -> Collection',
+        }],
+      }],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Science" subject={subjectWithLessons} standard={11} />
+      </ChildProvider>
+    );
+    await waitFor(() => expect(screen.getByText('✨ Concept map')).toBeInTheDocument());
+
+    expect(screen.getByText('Evaporation')).toBeInTheDocument();
+    expect(screen.getByText('Condensation')).toBeInTheDocument();
+    expect(screen.getByText('Precipitation')).toBeInTheDocument();
+    expect(screen.getByText('Collection')).toBeInTheDocument();
+    expect(screen.queryByText(/Evaporation -> Condensation/)).not.toBeInTheDocument();
+  });
+
+  it('renders a graph-kind excerpt distinctly from plain prose even without parseable structure', async () => {
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1', title: 'Growth Rates', unit: 'Plants',
+        book_excerpts: [{
+          book: 'Botany Basics', kind: 'graph', form: 'summary',
+          content: 'Figure 3 plots leaf growth rate against sunlight exposure over 10 days.',
+        }],
+      }],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Science" subject={subjectWithLessons} standard={11} />
+      </ChildProvider>
+    );
+    await waitFor(() => expect(screen.getByText('✨ Graph')).toBeInTheDocument());
+    expect(screen.getByText(/📊 Figure 3 plots leaf growth rate/)).toBeInTheDocument();
+  });
+
+  it('renders code-kind excerpts in a monospace code block', async () => {
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1', title: 'Loops', unit: 'Programming',
+        book_excerpts: [{
+          book: 'Learn Python', kind: 'code', form: 'full',
+          content: 'for i in range(10):\n    print(i)',
+        }],
+      }],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="CS" subject={subjectWithLessons} standard={11} />
+      </ChildProvider>
+    );
+    await waitFor(() => expect(screen.getByText('✨ Code')).toBeInTheDocument());
+    expect(screen.getByText((_, el) => el.tagName === 'CODE' && el.textContent.includes('range(10)'))).toBeInTheDocument();
   });
 });
