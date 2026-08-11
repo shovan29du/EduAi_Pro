@@ -218,11 +218,29 @@ function ExplanationVideoBanner({ links, name }) {
   );
 }
 
+// ── Virtual tour banner (links out to the housing museum's Google Arts &
+// Culture page, which for partner museums includes 360-degree tours) ──────────
+function VirtualTourBanner({ links, museum }) {
+  if (!links?.virtual_tour) return null;
+  return (
+    <a href={links.virtual_tour} target="_blank" rel="noopener noreferrer"
+      className="flex items-center gap-3 rounded-xl bg-teal-600 text-white p-4 mb-4 hover:bg-teal-700 transition-colors">
+      <span className="text-3xl flex-shrink-0">🎥</span>
+      <div>
+        <p className="font-bold text-sm">Take a Virtual Tour{museum ? `: ${museum}` : ''}</p>
+        <p className="text-xs text-teal-200 mt-0.5">Google Arts &amp; Culture · 360° exhibits · Street View</p>
+      </div>
+      <span className="ml-auto text-teal-200 text-lg">↗</span>
+    </a>
+  );
+}
+
 // ── All links section ─────────────────────────────────────────────────────────
 function ObjectLinks({ links }) {
   if (!links) return null;
   const items = [
     links.museum_object && { href: links.museum_object, label: 'Official Museum Record', color: 'bg-indigo-100 text-indigo-700 border-indigo-200' },
+    links.virtual_tour && { href: links.virtual_tour, label: '🎥 Virtual Tour', color: 'bg-teal-100 text-teal-700 border-teal-200' },
     links.wikipedia && { href: links.wikipedia, label: 'ℹ Wikipedia', color: 'bg-gray-100 text-gray-700 border-gray-200' },
     links.image_search && { href: links.image_search, label: '🖼 Images (Wikimedia)', color: 'bg-blue-100 text-blue-700 border-blue-200' },
     links.google_image_search && { href: links.google_image_search, label: '🔍 Images (Google)', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
@@ -243,7 +261,7 @@ function ObjectLinks({ links }) {
           </a>
         ))}
       </div>
-      <p className="text-xs text-gray-400 mt-2">Links open YouTube, Wikipedia, Wikimedia Commons, Smarthistory, and BBC podcasts.</p>
+      <p className="text-xs text-gray-400 mt-2">Links open YouTube, Wikipedia, Wikimedia Commons, Google Arts &amp; Culture, Smarthistory, and BBC podcasts.</p>
     </div>
   );
 }
@@ -329,6 +347,9 @@ function ObjectDetail({ gallery, objectId, onBack }) {
 
       {/* Prominent explanation video for art/sculpture/architecture */}
       <ExplanationVideoBanner links={obj.links} name={obj.name} />
+
+      {/* Virtual tour of the housing museum, when available */}
+      <VirtualTourBanner links={obj.links} museum={obj.museum} />
 
       {/* Wikimedia image link */}
       {obj.image_hint && (
@@ -509,12 +530,45 @@ function SearchView() {
   );
 }
 
+// ── Featured Today — a different object highlighted each day, refreshed
+// automatically as the date changes (Google Arts & Culture-style homepage
+// spotlight), rather than always showing the same static entry point. ──────────
+function FeaturedToday({ onOpen }) {
+  const [featured, setFeatured] = useState(null);
+  useEffect(() => {
+    fetch(`${API}/museum/featured`).then(r => r.ok ? r.json() : null).then((d) => d?.name && setFeatured(d)).catch(() => {});
+  }, []);
+  if (!featured) return null;
+  return (
+    <button
+      onClick={() => onOpen({ gallery: featured.gallery, id: featured.id })}
+      className="museum-featured-card group relative w-full overflow-hidden rounded-2xl text-left mb-8 shadow-md hover:shadow-xl transition-shadow"
+    >
+      <div className={`relative h-56 sm:h-72 bg-gradient-to-br ${tileColor(featured.wiki_title || featured.name)}`}>
+        <WikiThumbnail wikiTitle={featured.wiki_title} thumbnailLocal={featured.thumbnail_local} category={featured.category} size="tile" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
+          <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-white bg-white/20 backdrop-blur px-2.5 py-1 rounded-full mb-2">
+            ✨ Featured Today
+          </span>
+          <h3 className="text-white text-xl sm:text-2xl font-bold leading-tight group-hover:underline">{featured.name}</h3>
+          <p className="text-white/85 text-sm mt-1">
+            {featured.artist || featured.architect ? `${featured.artist || featured.architect} · ` : ''}
+            {featured.museum}
+          </p>
+        </div>
+      </div>
+    </button>
+  );
+}
+
 // ── Root component ────────────────────────────────────────────────────────────
 export default function VirtualMuseum() {
   const [overview, setOverview] = useState(null);
   const [fetchError, setFetchError] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
   const [selectedGallery, setSelectedGallery] = useState(null);
+  const [openObject, setOpenObject] = useState(null);
   const [tab, setTab] = useState('galleries');
   useEffect(() => {
     setFetchError(false);
@@ -535,6 +589,13 @@ export default function VirtualMuseum() {
     </div>
   );
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
+  if (openObject) return (
+    <div className="museum-shell max-w-6xl mx-auto p-4" data-museum-theme={MUSEUM_DESIGN_VERSION}>
+      <div className="max-w-3xl mx-auto">
+        <ObjectDetail gallery={openObject.gallery} objectId={openObject.id} onBack={() => setOpenObject(null)} />
+      </div>
+    </div>
+  );
   if (selectedGallery) return (
     <div className="museum-shell max-w-6xl mx-auto p-4" data-museum-theme={MUSEUM_DESIGN_VERSION}>
       <GalleryView gallery={selectedGallery} onBack={() => setSelectedGallery(null)} />
@@ -565,6 +626,7 @@ export default function VirtualMuseum() {
       {tab === 'open-art' && <CMACollection />}
       {tab === 'galleries' && (
         <section aria-label="Museum collections">
+          <FeaturedToday onOpen={setOpenObject} />
           <div className="mb-4 flex items-end justify-between gap-3">
             <div><p className="museum-eyebrow">BROWSE THE COLLECTION</p><h2 className="museum-section-title">Stories across time and place</h2></div>
             <span className="text-sm text-gray-500">{overview.galleries.length} collections</span>

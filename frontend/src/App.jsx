@@ -181,7 +181,7 @@ export default function App() {
   }, [activeTab, activeSubject, level]);
 
   useEffect(() => {
-    if (!['Library', 'Games'].includes(activeTab) || fullGrade) return undefined;
+    if (!['Library', 'Games', 'Dashboard'].includes(activeTab) || fullGrade) return undefined;
     let cancelled = false;
     fetchLevel(level).then((data) => {
       if (!cancelled) setFullGrade(data);
@@ -267,7 +267,7 @@ export default function App() {
             </div>
           )}
 
-          {activeTab === 'Dashboard' && <ProfessionalWorkspace level={level} onNavigate={setActiveTab} />}
+          {activeTab === 'Dashboard' && <ProfessionalWorkspace level={level} onNavigate={setActiveTab} fullGrade={fullGrade} />}
 
           {!loading && !error && activeTab === 'Library' && (
             fullGrade ? <ResourceLibrary grade={fullGrade} /> : <LoadingSpinner />

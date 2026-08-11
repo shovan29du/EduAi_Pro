@@ -2676,6 +2676,41 @@ def sports_players_by_sport(sport_id: str):
     return sport
 
 
+# ── Art of the Day ────────────────────────────────────────────────────────────
+# Reuses the curated "Famous Painting/Photograph/Sculpture" info_cards already
+# present across the syllabus data. That pool was deliberately curated to
+# exclude nudity when it was written (see README), so no separate art dataset
+# or new fabricated content is introduced here.
+_ART_OF_THE_DAY_CACHE: list[dict] | None = None
+_ART_TITLE_PREFIXES = ("Famous Painting:", "Famous Photograph:", "Famous Sculpture:")
+
+def _load_art_of_the_day_pool() -> list[dict]:
+    global _ART_OF_THE_DAY_CACHE
+    if _ART_OF_THE_DAY_CACHE is not None:
+        return _ART_OF_THE_DAY_CACHE
+    seen: dict[str, dict] = {}
+    for path in sorted(SYLLABUS_DIR.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for subject in data.get("subjects", {}).values():
+            for card in subject.get("info_cards", []):
+                title = card.get("title", "")
+                if title.startswith(_ART_TITLE_PREFIXES) and card.get("safe", True) and title not in seen:
+                    seen[title] = {"title": title, "fact": card.get("fact", "")}
+    _ART_OF_THE_DAY_CACHE = sorted(seen.values(), key=lambda c: c["title"])
+    return _ART_OF_THE_DAY_CACHE
+
+@app.get("/api/art-of-the-day")
+def art_of_the_day():
+    pool = _load_art_of_the_day_pool()
+    if not pool:
+        raise HTTPException(status_code=404, detail="No art pieces available")
+    day_index = (datetime.now() - datetime(2024, 1, 1)).days
+    return _sanitize_json(pool[day_index % len(pool)])
+
+
 # ── Virtual Museum ────────────────────────────────────────────────────────────
 _MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museum.json"
 _MUSEUM_OBJECTS_PATH = Path(__file__).parent.parent / "data" / "museum_objects.json"
@@ -2725,6 +2760,25 @@ def museum_search(q: str = ""):
                 any(q_lower in s.lower() for s in obj.get("related_subjects", []))):
                 results.append({**obj, "gallery": gallery_id, "gallery_label": gallery["label"]})
     return {"results": results[:20]}
+
+@app.get("/api/museum/featured")
+def museum_featured():
+    """A different museum object highlighted each day, so the homepage
+    doesn't look identical on every visit (Google Arts & Culture-style
+    rotating "Today's highlight"). Deterministic per calendar day rather
+    than random, so it's stable across repeated requests on the same day."""
+    data = _load_museum()
+    all_objects = [
+        {**obj, "gallery": gallery_id, "gallery_label": gallery["label"]}
+        for gallery_id, gallery in sorted(data["galleries"].items())
+        for obj in gallery.get("objects", [])
+        if obj.get("museum") and "see wikipedia" not in obj["museum"].lower()
+    ]
+    if not all_objects:
+        raise HTTPException(status_code=404, detail="No museum objects available")
+    all_objects.sort(key=lambda o: o["id"])
+    day_index = (datetime.now() - datetime(2024, 1, 1)).days
+    return _sanitize_json(all_objects[day_index % len(all_objects)])
 
 
 def _museum_thumb_cache_path(wiki_title: str) -> Path:

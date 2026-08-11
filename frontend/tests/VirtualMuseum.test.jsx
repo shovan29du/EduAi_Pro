@@ -29,8 +29,21 @@ const objectDetail = {
   description: 'A clay vessel.',
   significance: 'Everyday life artifact.',
   wiki_title: 'Ancient Amphora',
-  links: { wikipedia: 'https://en.wikipedia.org/wiki/Ancient_Amphora' },
+  links: {
+    wikipedia: 'https://en.wikipedia.org/wiki/Ancient_Amphora',
+    virtual_tour: 'https://artsandculture.google.com/search?q=Test+Museum',
+  },
   quiz: null,
+};
+
+const featuredObject = {
+  id: 'obj_f',
+  name: 'The Featured Piece',
+  gallery: 'ancient_world',
+  museum: 'Test Museum',
+  category: 'archaeology',
+  wiki_title: 'The Featured Piece',
+  links: { virtual_tour: 'https://artsandculture.google.com/search?q=Test+Museum' },
 };
 
 function mockFetch() {
@@ -38,6 +51,9 @@ function mockFetch() {
     const u = String(url);
     if (u === '/api/museum') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(overview) });
+    }
+    if (u === '/api/museum/featured') {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve(featuredObject) });
     }
     if (u === '/api/museum/ancient_world') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(galleryObjects) });
@@ -47,6 +63,9 @@ function mockFetch() {
     }
     if (u === '/api/museum/ancient_world/obj_a') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(objectDetail) });
+    }
+    if (u === '/api/museum/ancient_world/obj_f') {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve(featuredObject) });
     }
     if (u.startsWith('/api/progress/')) {
       return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
@@ -106,5 +125,33 @@ describe('VirtualMuseum', () => {
       expect(stored[0].title).toBe('Ancient Amphora');
       expect(stored[0].link).toBe('https://en.wikipedia.org/wiki/Ancient_Amphora');
     });
+  });
+
+  it('shows a virtual tour link in the object detail view', async () => {
+    render(
+      <ChildProvider>
+        <VirtualMuseum />
+      </ChildProvider>
+    );
+
+    fireEvent.click(await screen.findByText('Ancient World'));
+    fireEvent.click(await screen.findByText('Ancient Amphora'));
+
+    const tourLinks = await screen.findAllByRole('link', { name: /Virtual Tour/ });
+    expect(tourLinks.length).toBeGreaterThan(0);
+    tourLinks.forEach((link) => {
+      expect(link).toHaveAttribute('href', 'https://artsandculture.google.com/search?q=Test+Museum');
+    });
+  });
+
+  it('shows a Featured Today card on the homepage and opens it on click', async () => {
+    render(
+      <ChildProvider>
+        <VirtualMuseum />
+      </ChildProvider>
+    );
+
+    fireEvent.click(await screen.findByText('The Featured Piece'));
+    expect(await screen.findByRole('heading', { name: 'The Featured Piece' })).toBeInTheDocument();
   });
 });

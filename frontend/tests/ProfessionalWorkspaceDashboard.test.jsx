@@ -2,6 +2,7 @@ import React from 'react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import ProfessionalWorkspace from '../src/components/ProfessionalWorkspace.jsx';
+import { ChildProvider } from '../src/contexts/ChildContext.jsx';
 
 const user = { id: 'user1', display_name: 'Shovan' };
 
@@ -38,6 +39,15 @@ function mockFetch() {
     if (u === '/api/pro/lms/lti/config') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
     }
+    if (u === '/api/art-of-the-day') {
+      return Promise.resolve({
+        ok: true,
+        json: () => Promise.resolve({ title: 'Famous Painting: Test Piece', fact: 'A test fact.' }),
+      });
+    }
+    if (u.startsWith('https://api.wikimedia.org/')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ selected: [] }) });
+    }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
 }
@@ -68,5 +78,28 @@ describe('ProfessionalWorkspace Dashboard', () => {
     render(<ProfessionalWorkspace />);
     await screen.findByText('Welcome, Shovan');
     expect(screen.queryByText('Study Coach')).not.toBeInTheDocument();
+  });
+
+  it('shows the Study Timer, History of the Day, and Art of the Day widgets', async () => {
+    render(<ProfessionalWorkspace />);
+    await screen.findByText('Welcome, Shovan');
+    expect(screen.getByLabelText('Study timer')).toBeInTheDocument();
+    expect(screen.getByLabelText('History of the day')).toBeInTheDocument();
+    expect(await screen.findByText('Test Piece')).toBeInTheDocument();
+  });
+
+  it('shows Fact of the Day once fullGrade data is available', async () => {
+    const fullGrade = {
+      subjects: {
+        Science: { info_cards: [{ title: 'Water', fact: 'Water boils at 100C.', safe: true }] },
+      },
+    };
+    render(
+      <ChildProvider>
+        <ProfessionalWorkspace fullGrade={fullGrade} />
+      </ChildProvider>
+    );
+    await screen.findByText('Welcome, Shovan');
+    expect(screen.getByLabelText('Fact of the day')).toBeInTheDocument();
   });
 });

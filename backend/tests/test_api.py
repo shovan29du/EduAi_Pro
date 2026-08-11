@@ -1116,6 +1116,20 @@ def test_practical_skills_not_found():
     assert client.get("/api/practical-skills/flying/beginner").status_code == 404
 
 
+# ── Art of the Day tests ──────────────────────────────────────────────────────
+def test_art_of_the_day_returns_a_piece():
+    r = client.get("/api/art-of-the-day")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["title"].startswith(("Famous Painting:", "Famous Photograph:", "Famous Sculpture:"))
+    assert data["fact"]
+
+def test_art_of_the_day_is_stable_within_the_same_day():
+    r1 = client.get("/api/art-of-the-day")
+    r2 = client.get("/api/art-of-the-day")
+    assert r1.json() == r2.json()
+
+
 # ── Virtual Museum tests ──────────────────────────────────────────────────────
 def test_museum_overview():
     r = client.get("/api/museum")
@@ -1146,6 +1160,24 @@ def test_museum_search():
 
 def test_museum_not_found():
     assert client.get("/api/museum/fake_gallery").status_code == 404
+
+def test_museum_object_has_virtual_tour_link():
+    r = client.get("/api/museum/ancient_world/rosetta_stone")
+    assert r.status_code == 200
+    assert r.json()["links"]["virtual_tour"].startswith("https://artsandculture.google.com/search?q=")
+
+def test_museum_featured_returns_an_object():
+    r = client.get("/api/museum/featured")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["name"]
+    assert data["gallery"]
+    assert "virtual_tour" in data["links"]
+
+def test_museum_featured_is_stable_within_the_same_day():
+    r1 = client.get("/api/museum/featured")
+    r2 = client.get("/api/museum/featured")
+    assert r1.json() == r2.json()
 
 
 # ── World Literature Library tests ────────────────────────────────────────────

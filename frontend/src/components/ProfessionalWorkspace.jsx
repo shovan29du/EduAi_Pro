@@ -4,6 +4,10 @@ import {
   getProfessionalDashboard,
   listProfessionalCourses,
 } from '../api/professional.js';
+import StudyTimer from './StudyTimer.jsx';
+import FactOfTheDay from './FactOfTheDay.jsx';
+import HistoryOfTheDay from './HistoryOfTheDay.jsx';
+import ArtOfTheDay from './ArtOfTheDay.jsx';
 
 const SECTIONS = ['Dashboard'];
 
@@ -11,7 +15,7 @@ const FAVOURITES = [
   ['Study Coach', '🧭', 'Get a personalised study plan and encouragement from Ark AI.'],
 ];
 
-export default function ProfessionalWorkspace({ level = '1', onNavigate }) {
+export default function ProfessionalWorkspace({ level = '1', onNavigate, fullGrade = null }) {
   const [section, setSection] = useState('Dashboard');
   const [user, setUser] = useState(null);
   const [dashboard, setDashboard] = useState({});
@@ -126,6 +130,12 @@ export default function ProfessionalWorkspace({ level = '1', onNavigate }) {
                     <li>Visit Study Coach for a personalised study plan.</li>
                   </ul>
                 </Panel>
+              </div>
+              <div className="grid gap-4 lg:grid-cols-2">
+                <StudyTimer />
+                {fullGrade ? <FactOfTheDay grade={fullGrade} /> : <Empty>Loading fact of the day…</Empty>}
+                <HistoryOfTheDay />
+                <ArtOfTheDay />
               </div>
             </div>
           )}
