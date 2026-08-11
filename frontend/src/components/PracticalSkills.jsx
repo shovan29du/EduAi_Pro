@@ -14,6 +14,7 @@ const COLOURS = {
   sword_fighting: '#525252', krav_maga: '#991b1b', boxing: '#c2410c',
   taekwondo: '#1d4ed8', kickboxing: '#ea580c', yoga: '#7c3aed',
   stretching: '#0d9488', bodybuilding: '#b45309', critical_thinking: '#4f46e5',
+  mobile_photography_vivo_x200_pro: '#0891b2',
 };
 
 function ModuleView({ module: mod, colour, onBack }) {

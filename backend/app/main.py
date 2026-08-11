@@ -2584,6 +2584,98 @@ def practical_skills_level(pathway: str, level: str):
     return {"pathway": pathway, "level": level, **levels[level]}
 
 
+# ── Sports Centre ─────────────────────────────────────────────────────────────
+_SPORTS_PATH = Path(__file__).parent.parent / "data" / "sports" / "sports.json"
+_FOOTBALL_WORLDCUP_PATH = Path(__file__).parent.parent / "data" / "sports" / "football_worldcup.json"
+_FOOTBALL_LEAGUES_PATH = Path(__file__).parent.parent / "data" / "sports" / "football_leagues.json"
+_CRICKET_WORLDCUP_PATH = Path(__file__).parent.parent / "data" / "sports" / "cricket_worldcup.json"
+_CRICKET_LEAGUES_PATH = Path(__file__).parent.parent / "data" / "sports" / "cricket_leagues.json"
+_TENNIS_TOURNAMENTS_PATH = Path(__file__).parent.parent / "data" / "sports" / "tennis_tournaments.json"
+_SPORTS_PLAYERS_PATH = Path(__file__).parent.parent / "data" / "sports" / "player_biographies.json"
+
+def _load_json_file(path: Path) -> dict:
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/api/sports")
+def sports_overview():
+    if not _SPORTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Sports data not found")
+    data = _load_json_file(_SPORTS_PATH)
+    return _sanitize_json({
+        "title": data.get("title"),
+        "description": data.get("description"),
+        "sports": [
+            {
+                "id": s["id"],
+                "label": s["label"],
+                "emoji": s["emoji"],
+                "colour": s["colour"],
+                "description": s["description"],
+                "olympic_event": s.get("olympic_event", False),
+                "players_per_team": s.get("players_per_team"),
+            }
+            for s in data.get("sports", [])
+        ],
+    })
+
+@app.get("/api/sports/{sport_id}")
+def sport_detail(sport_id: str):
+    if not _SPORTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Sports data not found")
+    data = _load_json_file(_SPORTS_PATH)
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(status_code=404, detail=f"Sport '{sport_id}' not found")
+    return _sanitize_json(sport)
+
+@app.get("/api/sports-detail/football-worldcup")
+def sports_football_worldcup():
+    if not _FOOTBALL_WORLDCUP_PATH.exists():
+        raise HTTPException(status_code=404, detail="Football World Cup data not found")
+    return _sanitize_json(_load_json_file(_FOOTBALL_WORLDCUP_PATH))
+
+@app.get("/api/sports-detail/football-leagues")
+def sports_football_leagues():
+    if not _FOOTBALL_LEAGUES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Football leagues data not found")
+    return _sanitize_json(_load_json_file(_FOOTBALL_LEAGUES_PATH))
+
+@app.get("/api/sports-detail/cricket-worldcup")
+def sports_cricket_worldcup():
+    if not _CRICKET_WORLDCUP_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cricket World Cup data not found")
+    return _sanitize_json(_load_json_file(_CRICKET_WORLDCUP_PATH))
+
+@app.get("/api/sports-detail/cricket-leagues")
+def sports_cricket_leagues():
+    if not _CRICKET_LEAGUES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cricket leagues data not found")
+    return _sanitize_json(_load_json_file(_CRICKET_LEAGUES_PATH))
+
+@app.get("/api/sports-detail/tennis")
+def sports_tennis_tournaments():
+    if not _TENNIS_TOURNAMENTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Tennis data not found")
+    return _sanitize_json(_load_json_file(_TENNIS_TOURNAMENTS_PATH))
+
+@app.get("/api/sports-detail/players")
+def sports_player_biographies():
+    if not _SPORTS_PLAYERS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Player biographies not found")
+    return _sanitize_json(_load_json_file(_SPORTS_PLAYERS_PATH))
+
+@app.get("/api/sports-detail/players/{sport_id}")
+def sports_players_by_sport(sport_id: str):
+    if not _SPORTS_PLAYERS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Player biographies not found")
+    data = _sanitize_json(_load_json_file(_SPORTS_PLAYERS_PATH))
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(status_code=404, detail=f"Sport '{sport_id}' not found")
+    return sport
+
+
 # ── Virtual Museum ────────────────────────────────────────────────────────────
 _MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museum.json"
 _MUSEUM_OBJECTS_PATH = Path(__file__).parent.parent / "data" / "museum_objects.json"

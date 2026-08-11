@@ -51,7 +51,6 @@ const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'
 const PracticalSkills = lazy(() => import('./components/PracticalSkills.jsx'));
 const VirtualMuseum = lazy(() => import('./components/VirtualMuseum.jsx'));
 const WorldLiteratureLibrary = lazy(() => import('./components/WorldLiteratureLibrary.jsx'));
-const CriticalThinking = lazy(() => import('./components/CriticalThinking.jsx'));
 const SurvivalSkills = lazy(() => import('./components/SurvivalSkills.jsx'));
 const WorldPolitics = lazy(() => import('./components/WorldPolitics.jsx'));
 const MathTools = lazy(() => import('./components/MathTools.jsx'));
@@ -67,6 +66,10 @@ const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorksp
 const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
 const ChessTutor = lazy(() => import('./components/ChessTutor.jsx'));
 const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
+const TabGroup = lazy(() => import('./components/TabGroup.jsx'));
+const SportsCentre = lazy(() => import('./components/SportsCentre.jsx'));
+const SportsTournaments = lazy(() => import('./components/SportsTournaments.jsx'));
+const PlayerBiographies = lazy(() => import('./components/PlayerBiographies.jsx'));
 
 const CHILD_TABS = [
   'Dashboard',
@@ -84,15 +87,10 @@ const CHILD_TABS = [
   'Museum',
   'World Lit',
   'Biographies',
-  'Critical Thinking',
   'Survival Skills',
-  'Environment',
-  'World Politics',
-  'World Religions',
+  'Other Subjects',
+  'Sports Centre',
   'Tools',
-  'Health',
-  'Business',
-  'Civics',
   'Countries',
   'Assessment',
   'Colouring',
@@ -312,16 +310,32 @@ export default function App() {
           {activeTab === 'Museum' && <VirtualMuseum />}
 {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
         {activeTab === 'Biographies' && <BiographyLibrary />}
-          {activeTab === 'Critical Thinking' && <CriticalThinking />}
           {activeTab === 'Survival Skills' && <SurvivalSkills />}
-          {activeTab === 'Environment' && <EnvironmentalScience />}
-          {activeTab === 'World Politics' && <WorldPolitics />}
-          {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'World Cinema' && <MoviesLibrary />}
           {activeTab === 'Tools' && <MathTools />}
-          {activeTab === 'Health' && <HealthEducation />}
-          {activeTab === 'Business' && <BusinessStudies />}
-          {activeTab === 'Civics' && <Civics />}
+          {activeTab === 'Other Subjects' && (
+            <TabGroup
+              ariaLabel="Other Subjects"
+              items={[
+                { id: 'Environment', label: '🌱 Environment', render: () => <EnvironmentalScience /> },
+                { id: 'World Politics', label: '🗳️ World Politics', render: () => <WorldPolitics /> },
+                { id: 'World Religions', label: '🕊️ World Religions', render: () => <WorldReligions /> },
+                { id: 'Health', label: '❤️ Health', render: () => <HealthEducation /> },
+                { id: 'Business', label: '💼 Business', render: () => <BusinessStudies /> },
+                { id: 'Civics', label: '⚖️ Civics', render: () => <Civics /> },
+              ]}
+            />
+          )}
+          {activeTab === 'Sports Centre' && (
+            <TabGroup
+              ariaLabel="Sports Centre"
+              items={[
+                { id: 'Sports', label: '🏅 Sports', render: () => <SportsCentre /> },
+                { id: 'Tournaments', label: '🏆 Tournaments', render: () => <SportsTournaments /> },
+                { id: 'Players', label: '🌟 Players', render: () => <PlayerBiographies /> },
+              ]}
+            />
+          )}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

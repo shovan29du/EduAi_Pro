@@ -20,6 +20,10 @@ REPO_ROOT = Path(__file__).resolve().parent
 BACKEND_DIR = REPO_ROOT / "backend"
 FRONTEND_DIR = REPO_ROOT / "frontend"
 VENV_DIR = BACKEND_DIR / ".venv"
+ICONS_DIR = REPO_ROOT / "assets" / "icons"
+ICON_ICO = ICONS_DIR / "EduAi_Pro.ico"
+ICON_ICNS = ICONS_DIR / "EduAi_Pro.icns"
+ICON_PNG = ICONS_DIR / "EduAi_Pro.png"
 IS_WINDOWS = platform.system() == "Windows"
 IS_MAC = platform.system() == "Darwin"
 IS_LINUX = platform.system() == "Linux"
@@ -183,11 +187,16 @@ def desktop_dirs():
 def create_shortcut_windows(desktop_dir: Path, launcher: Path):
     shortcut_path = desktop_dir / "EduAi_Pro.lnk"
     try:
+        icon_line = (
+            f"$shortcut.IconLocation = '{str(ICON_ICO).replace(chr(39), chr(39) * 2)}'; "
+            if ICON_ICO.exists() else ""
+        )
         ps_script = (
             "$shell = New-Object -ComObject WScript.Shell; "
             f"$shortcut = $shell.CreateShortcut('{str(shortcut_path).replace(chr(39), chr(39) * 2)}'); "
             f"$shortcut.TargetPath = '{str(launcher).replace(chr(39), chr(39) * 2)}'; "
             f"$shortcut.WorkingDirectory = '{str(REPO_ROOT).replace(chr(39), chr(39) * 2)}'; "
+            f"{icon_line}"
             "$shortcut.Save()"
         )
         run(["powershell.exe", "-NoProfile", "-Command", ps_script])
@@ -199,20 +208,53 @@ def create_shortcut_windows(desktop_dir: Path, launcher: Path):
 
 
 def create_shortcut_mac(desktop_dir: Path, launcher: Path):
-    shortcut_path = desktop_dir / "EduAi_Pro.command"
-    shutil.copy(launcher, shortcut_path)
-    shortcut_path.chmod(shortcut_path.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
-    print(f"Shortcut created: {shortcut_path}")
+    """Wraps the launcher in a minimal .app bundle so Finder/Dock show the
+    EduAi_Pro icon instead of a generic script icon."""
+    if not ICON_ICNS.exists():
+        shortcut_path = desktop_dir / "EduAi_Pro.command"
+        shutil.copy(launcher, shortcut_path)
+        shortcut_path.chmod(shortcut_path.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
+        print(f"Shortcut created: {shortcut_path}")
+        return
+
+    app_path = desktop_dir / "EduAi_Pro.app"
+    contents = app_path / "Contents"
+    macos_dir = contents / "MacOS"
+    resources_dir = contents / "Resources"
+    macos_dir.mkdir(parents=True, exist_ok=True)
+    resources_dir.mkdir(parents=True, exist_ok=True)
+
+    shutil.copy(ICON_ICNS, resources_dir / "EduAi_Pro.icns")
+
+    runner = macos_dir / "EduAi_Pro"
+    runner.write_text(f'#!/usr/bin/env bash\nexec "{launcher}"\n')
+    runner.chmod(runner.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
+
+    (contents / "Info.plist").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" '
+        '"http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n'
+        '<plist version="1.0"><dict>\n'
+        "  <key>CFBundleName</key><string>EduAi_Pro</string>\n"
+        "  <key>CFBundleExecutable</key><string>EduAi_Pro</string>\n"
+        "  <key>CFBundleIconFile</key><string>EduAi_Pro.icns</string>\n"
+        "  <key>CFBundleIdentifier</key><string>com.eduaipro.launcher</string>\n"
+        "  <key>CFBundlePackageType</key><string>APPL</string>\n"
+        "</dict></plist>\n"
+    )
+    print(f"Shortcut created: {app_path}")
 
 
 def create_shortcut_linux(desktop_dir: Path, launcher: Path):
     shortcut_path = desktop_dir / "EduAi_Pro.desktop"
+    icon_line = f"Icon={ICON_PNG}\n" if ICON_PNG.exists() else ""
     shortcut_path.write_text(
         "[Desktop Entry]\n"
         "Type=Application\n"
         "Name=EduAi_Pro\n"
         f"Exec={launcher}\n"
         f"Path={REPO_ROOT}\n"
+        f"{icon_line}"
         "Terminal=true\n"
     )
     shortcut_path.chmod(shortcut_path.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
