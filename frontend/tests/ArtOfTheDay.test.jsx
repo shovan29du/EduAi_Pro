@@ -3,15 +3,23 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import ArtOfTheDay from '../src/components/ArtOfTheDay.jsx';
 
-function mockFetch(response) {
-  return vi.fn(() => Promise.resolve({
-    ok: true,
-    json: () => Promise.resolve(response),
-  }));
+const piece = { title: 'Famous Painting: The Starry Night', fact: 'Painted by Vincent van Gogh in 1889.' };
+
+function mockFetch({ thumbnailUrl = '' } = {}) {
+  return vi.fn((url) => {
+    const u = String(url);
+    if (u.startsWith('/api/art-of-the-day')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve(piece) });
+    }
+    if (u.startsWith('/api/museum/thumbnail')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: thumbnailUrl }) });
+    }
+    return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+  });
 }
 
 beforeEach(() => {
-  global.fetch = mockFetch({ title: 'Famous Painting: The Starry Night', fact: 'Painted by Vincent van Gogh in 1889.' });
+  global.fetch = mockFetch();
 });
 
 describe('ArtOfTheDay', () => {
@@ -19,6 +27,20 @@ describe('ArtOfTheDay', () => {
     render(<ArtOfTheDay />);
     expect(await screen.findByText('The Starry Night')).toBeInTheDocument();
     expect(screen.getByText('Painted by Vincent van Gogh in 1889.')).toBeInTheDocument();
+  });
+
+  it('shows a fallback emoji when no Wikipedia thumbnail is found', async () => {
+    render(<ArtOfTheDay />);
+    await screen.findByText('The Starry Night');
+    expect(screen.getByText('🖼️')).toBeInTheDocument();
+    expect(screen.queryByRole('img')).not.toBeInTheDocument();
+  });
+
+  it('renders the artwork image when a Wikipedia thumbnail is found', async () => {
+    global.fetch = mockFetch({ thumbnailUrl: 'https://upload.wikimedia.org/starry-night.jpg' });
+    render(<ArtOfTheDay />);
+    const img = await screen.findByRole('img', { name: 'The Starry Night' });
+    expect(img).toHaveAttribute('src', 'https://upload.wikimedia.org/starry-night.jpg');
   });
 
   it('shows an error message when the request fails', async () => {
