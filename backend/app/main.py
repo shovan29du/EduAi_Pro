@@ -433,44 +433,160 @@ def _trusted_video_link(subject_name: str, lesson_title: str) -> dict:
     }
 
 
+
+# Subject-domain buckets used to give each lesson's generated teaching aids
+# (table, graph, concept map) vocabulary and structure appropriate to that
+# field, instead of one of two generic templates shared by every subject.
+_ENRICHMENT_DOMAINS = {
+    "math": {
+        "keywords": ("math", "statistics", "algebra", "geometry", "calculus"),
+        "formula": "result = known quantities combined by the rule for {concept}",
+        "table_headers": ["Step", "Given", "Operation", "Check"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Values given for {c}", "Identify the rule that applies", "Are units and quantities consistent?"],
+            ["2", "Substitute the values", f"Apply the rule for {t}", "Re-check each substitution"],
+            ["3", "Computed result", "Simplify to a final answer", "Does the answer make sense in scale?"],
+        ],
+        "graph_axis": ("x", "f(x)"),
+        "worked_steps": lambda c, t: [
+            f"Identify the given quantities and what {t} asks you to find.",
+            f"Choose the rule or formula that connects them for {c}.",
+            "Substitute the values and calculate step by step.",
+            "Check the result against the original question and its units.",
+        ],
+        "figure_relation": "leads to",
+    },
+    "physical_science": {
+        "keywords": ("physics", "chemistry", "engineering"),
+        "formula": "measured outcome = function of {concept} under controlled conditions",
+        "table_headers": ["Trial", "Variable changed", "Observed effect", "Conclusion"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"{c} held at a baseline value", "Establish a reference reading", "Baseline recorded"],
+            ["2", f"{c} increased or changed", f"Effect on {t} observed", "Compare to baseline"],
+            ["3", "Repeat trial", "Check the result is repeatable", "Result is/isn't consistent"],
+        ],
+        "graph_axis": ("Variable changed", "Measured effect"),
+        "worked_steps": lambda c, t: [
+            f"State the hypothesis linking {c} to the outcome of {t}.",
+            "Identify the controlled, independent, and dependent variables.",
+            "Take measurements while changing only the independent variable.",
+            "Compare the results to the hypothesis and explain any difference.",
+        ],
+        "figure_relation": "causes",
+    },
+    "life_science": {
+        "keywords": ("biology", "science", "environmental", "health", "first aid", "medicine", "anatomy"),
+        "formula": "outcome depends on {concept} interacting with its surrounding conditions",
+        "table_headers": ["Stage", "Observation", "Process involved", "Evidence"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Starting state of {c}", "Identify structures/stages involved", "What can be directly observed?"],
+            ["2", f"Change relevant to {t}", "Describe the process taking place", "What supports this explanation?"],
+            ["3", "Resulting state", "Explain the outcome", "Does it match known examples?"],
+        ],
+        "graph_axis": ("Time or stage", "Quantity observed"),
+        "worked_steps": lambda c, t: [
+            f"Describe what {c} normally looks like or does.",
+            f"Identify what changes during {t} and why.",
+            "Connect the change to the underlying biological or health process.",
+            "Explain the real-world consequence of that process.",
+        ],
+        "figure_relation": "develops into",
+    },
+    "computing": {
+        "keywords": ("coding", "computer", "programming", "python", "javascript", " r ", "data science", "machine learning",
+                     "artificial intelligence", "cybersecurity", "cloud", "web development", "ui/ux", "prompt engineering",
+                     "big data", "natural language processing", "ai tools", "ict"),
+        "formula": "output = {concept} applied to the input by the algorithm/process",
+        "table_headers": ["Step", "Input", "Operation", "Output"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Raw input relevant to {c}", "Parse / validate the input", "Cleaned input"],
+            ["2", "Cleaned input", f"Apply the {t} operation or logic", "Intermediate result"],
+            ["3", "Intermediate result", "Verify against expected behaviour", "Final output"],
+        ],
+        "graph_axis": ("Input size / step", "Time or resources used"),
+        "worked_steps": lambda c, t: [
+            f"Define the input and the expected output for {t}.",
+            f"Break {c} down into a small sequence of operations.",
+            "Trace through the operations with a concrete example input.",
+            "Compare the traced result to the expected output and fix any mismatch.",
+        ],
+        "figure_relation": "feeds into",
+    },
+    "business_economics": {
+        "keywords": ("economics", "finance", "business", "mba", "marketing", "operations management", "project management", "analytics"),
+        "formula": "value = {concept} weighed against cost, risk, and available resources",
+        "table_headers": ["Period", "Data point", "Calculation", "Interpretation"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Baseline figure for {c}", "Record the starting position", "What does this figure represent?"],
+            ["2", f"Change relevant to {t}", "Calculate the impact", "Is the change favourable?"],
+            ["3", "Net result", "Compare against the target/benchmark", "What decision does this support?"],
+        ],
+        "graph_axis": ("Quantity or period", "Price, cost, or value"),
+        "worked_steps": lambda c, t: [
+            f"Identify the decision that {t} is meant to support.",
+            f"Gather the figures needed to evaluate {c}.",
+            "Calculate the relevant totals, rates, or ratios.",
+            "Interpret the numbers and state a recommendation.",
+        ],
+        "figure_relation": "informs",
+    },
+    "humanities": {
+        "keywords": ("history", "geography", "social studies", "civics", "politics", "philosophy", "religion",
+                     "mythology", "critical thinking", "general knowledge", "english", "literature", "art", "music",
+                     "language", "islamic studies"),
+        "formula": "Claim about {concept} + relevant evidence + reasoning = defensible conclusion",
+        "table_headers": ["Claim or event", "Evidence", "Context", "Significance"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Central claim/event in {c}", "Primary source or example", "When/where it occurred"],
+            ["2", f"Related development in {t}", "Secondary source or comparison", "Who or what was affected"],
+            ["3", "Overall pattern", "Weigh the evidence together", "Why it matters today"],
+        ],
+        "graph_axis": ("Time period or stage", "Significance / impact"),
+        "worked_steps": lambda c, t: [
+            f"Define the question {t} is asking and any key terms, including {c}.",
+            "Collect one primary and one reliable secondary source.",
+            "Compare the evidence, noting assumptions and competing interpretations.",
+            "State a qualified conclusion and identify its limitations.",
+        ],
+        "figure_relation": "supports",
+    },
+}
+_DEFAULT_ENRICHMENT_DOMAIN = "humanities"
+
+
+def _enrichment_domain(subject_name: str) -> str:
+    lower = f" {subject_name.lower()} "
+    for domain, config in _ENRICHMENT_DOMAINS.items():
+        if any(keyword in lower for keyword in config["keywords"]):
+            return domain
+    return _DEFAULT_ENRICHMENT_DOMAIN
+
+
+def _graph_points_for(seed_text: str) -> list[int]:
+    """Deterministic but distinct 6-point sequence per lesson, so lessons in
+    the same subject domain don't all render an identical-looking graph."""
+    digest = hashlib.md5(seed_text.encode("utf-8")).digest()
+    points = [2 + (digest[i] % 9) for i in range(6)]
+    # Nudge toward a generally rising trend (more legible as "how X changes")
+    # while keeping the per-lesson shape distinct, rather than a flat line.
+    points.sort()
+    return points
+
+
 def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
-    """Add compact, deterministic teaching aids without inflating source JSON files."""
+    """Add compact teaching aids derived from each lesson's own title and key
+    concepts, using vocabulary and structure suited to the subject's domain,
+    instead of one of two fixed templates shared by every lesson."""
     title = str(lesson.get("title") or "this topic")
     key_concepts = [str(item) for item in lesson.get("key_concepts", [])[:4]]
     concept = key_concepts[0] if key_concepts else title
-    lower = subject_name.lower()
-    quantitative = any(
-        token in lower
-        for token in ("math", "physics", "chemistry", "engineering", "economics", "finance", "statistics", "data", "computer")
-    )
-    if quantitative:
-        formula = lesson.get("formula") or "result = known inputs × applicable rate or relationship"
-        worked = [
-            "Identify the known quantities, units and required result.",
-            f"Select the governing relationship for {concept}: {formula}.",
-            "Substitute values, calculate carefully, then check units and scale.",
-            "Interpret the result in the original real-world context.",
-        ]
-        graph = {
-            "title": f"How the main variables in {title} relate",
-            "x_axis": "Independent variable",
-            "y_axis": "Measured outcome",
-            "points": [0, 2, 3, 5, 8, 13],
-        }
-    else:
-        formula = "Claim + relevant evidence + reasoning = defensible conclusion"
-        worked = [
-            "Define the question and important terms.",
-            "Collect one primary and one reliable secondary source.",
-            "Compare evidence, assumptions and competing interpretations.",
-            "State a qualified conclusion and identify its limitations.",
-        ]
-        graph = {
-            "title": f"Evidence strength across a {title} investigation",
-            "x_axis": "Investigation stage",
-            "y_axis": "Evidence strength",
-            "points": [1, 2, 4, 5, 7, 8],
-        }
+
+    domain = _enrichment_domain(subject_name)
+    config = _ENRICHMENT_DOMAINS[domain]
+    formula = lesson.get("formula") or config["formula"].format(concept=concept)
+    x_axis, y_axis = config["graph_axis"]
+    figure_nodes = key_concepts if len(key_concepts) >= 3 else (key_concepts + [title, "Application", "Outcome"])[:5]
+
     return {
         "technical_detail": lesson.get("technical_detail")
         or f"{title} is analysed through precise definitions, assumptions, mechanisms, evidence and limitations. "
@@ -478,7 +594,7 @@ def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
         "formulae": lesson.get("formulae") or [formula],
         "worked_example": lesson.get("worked_example") or {
             "problem": f"Apply {title} to a realistic decision with incomplete information.",
-            "steps": worked,
+            "steps": config["worked_steps"](concept, title),
             "answer": "A sound answer shows the method, checks evidence or units, and explains what the result means.",
         },
         "real_world_example": lesson.get("real_world_example")
@@ -486,17 +602,19 @@ def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
         "practical_problem": lesson.get("practical_problem")
         or f"Choose a local or workplace example of {title}; record inputs or evidence, apply the method, and defend your conclusion.",
         "data_table": lesson.get("data_table") or {
-            "headers": ["Stage", "Input or evidence", "Method", "Check"],
-            "rows": [
-                ["1", "Baseline information", "Define and classify", "Is the source reliable?"],
-                ["2", "Observed change", "Calculate or compare", "Are units/terms consistent?"],
-                ["3", "Result", "Interpret and explain", "Does it answer the question?"],
-            ],
+            "headers": config["table_headers"],
+            "rows": config["table_rows"](concept, key_concepts, title),
         },
-        "graph": lesson.get("graph") or graph,
+        "graph": lesson.get("graph") or {
+            "title": f"How {concept} relates to the outcome in {title}",
+            "x_axis": x_axis,
+            "y_axis": y_axis,
+            "points": _graph_points_for(f"{subject_name}:{title}"),
+        },
         "figure": lesson.get("figure") or {
             "caption": f"Concept map for {title}",
-            "nodes": ["Inputs", concept, "Method", "Result", "Evaluation"],
+            "nodes": figure_nodes,
+            "relation": config["figure_relation"],
         },
         "video_resources": lesson.get("video_resources") or [_trusted_video_link(subject_name, title)],
     }
