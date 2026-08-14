@@ -129,14 +129,24 @@ describe('Games (Game Centre)', () => {
       return screen.getAllByLabelText(/Row \d+ column \d+/).filter((btn) => btn.disabled).length;
     }
 
-    // Medium is the default: 16 cells, 45% blanked -> 9 stay fixed.
-    expect(fixedCellCount()).toBe(9);
+    // 16 cells; mirrors SudokuLiteGame's own BLANK_FRACTIONS so this stays
+    // correct if those fractions ever change.
+    const BLANK_FRACTIONS = { easy: 0.3, medium: 0.45, hard: 0.6 };
+    const fixedCountFor = (difficulty) => 16 - Math.round(16 * BLANK_FRACTIONS[difficulty]);
+
+    // Medium is the default *unless* this exact game happens to be today's
+    // Daily Challenge (deterministically picked by calendar date), in which
+    // case its difficulty is forced to whatever the Daily Challenge rolled.
+    const sudokuGame = GAMES.find((g) => g.id === 'sudoku-4x4-easy');
+    const daily = dailyChallenge();
+    const initialDifficulty = daily.game.id === sudokuGame.id ? daily.difficulty : 'medium';
+    expect(fixedCellCount()).toBe(fixedCountFor(initialDifficulty));
 
     fireEvent.click(screen.getByRole('button', { name: 'Easy' }));
-    expect(fixedCellCount()).toBe(11);
+    expect(fixedCellCount()).toBe(fixedCountFor('easy'));
 
     fireEvent.click(screen.getByRole('button', { name: 'Hard' }));
-    expect(fixedCellCount()).toBe(6);
+    expect(fixedCellCount()).toBe(fixedCountFor('hard'));
   });
 
   it('persists a completed game score to the progress API and shows a Best badge afterwards', async () => {
