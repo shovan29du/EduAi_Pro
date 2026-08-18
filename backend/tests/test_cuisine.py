@@ -104,3 +104,32 @@ def test_cuisine_recipe_cuisine_list():
     assert r.status_code == 200
     data = r.json()
     assert len(data["cuisines"]) >= 20
+
+
+def test_cuisine_overview_covers_top_thirty_with_history():
+    r = client.get("/api/cuisine")
+    data = r.json()
+    assert len(data["cuisines"]) >= 30
+    for cuisine in data["cuisines"]:
+        detail = client.get(f"/api/cuisine/{cuisine['id']}").json()
+        assert detail.get("history"), cuisine["id"]
+
+
+CATEGORIES_TO_COVER = [
+    "soup", "appetizer", "bread", "rice", "noodle", "pasta", "soupy_noodle",
+    "curry", "vegetable", "salad", "drink", "hot_drink", "ice_cream", "dessert",
+]
+
+
+def test_cuisine_recipes_cover_requested_categories():
+    for category in CATEGORIES_TO_COVER:
+        r = client.get(f"/api/cuisine-detail/recipes?category={category}&limit=1")
+        data = r.json()
+        assert data["total"] > 0, f"no recipes found for category '{category}'"
+
+
+def test_cuisine_recipes_cover_beef_chicken_fish_seafood():
+    for protein in ["Beef", "Chicken", "Fish", "Seafood"]:
+        r = client.get(f"/api/cuisine-detail/recipes?protein={protein}&limit=1")
+        data = r.json()
+        assert data["total"] > 0, f"no recipes found for protein '{protein}'"

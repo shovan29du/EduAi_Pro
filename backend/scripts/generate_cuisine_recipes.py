@@ -1222,110 +1222,177 @@ HISTORICAL_FACTS = {
 }
 
 CATEGORY_KEYWORDS = [
-    ("soup", ["soup", "chowder", "stew", "shorba", "harira", "gumbo", "stracciatella",
+    ("ice_cream", ["ice cream", "gelato", "kulfi", "bingsu", "kakigori", "shave ice",
+                   "sorbet", "saffron ice cream"]),
+    ("hot_drink", ["coffee", "cà phê", "mate", "karkade", "masala chai",
+                   "turkish tea", "moroccan mint tea", "chamomile tea"]),
+    ("drink", ["lassi", "juice", "horchata", "agua fresca", "doogh", "ayran",
+               "thandai", "falooda", "nimbu pani", "chicha morada", "sorrel",
+               "kvass", "zobo", "sangria", "michelada", "drink"]),
+    ("soupy_noodle", ["ramen", "phở", "pho bo", "pho ga", "udon noodle soup", "laksa",
+                       "wonton noodle soup", "khao soi", "beef noodle soup",
+                       "chicken noodle soup", "bún bò huế", "jjamppong", "hủ tiếu",
+                       "shanghai beef noodle soup", "yukgaejang", "tantanmen",
+                       "tsukemen", "paitan ramen"]),
+    ("pasta", ["spaghetti", "fettuccine", "penne", "linguine", "orecchiette",
+               "gnocchi", "lasagne", "cacio e pepe", "carbonara", "amatriciana",
+               "trofie", "pasta", "puttanesca", "fusilli", "rigatoni", "farfalle",
+               "tallarín"]),
+    ("noodle", ["noodle", "chow mein", "chow fun", "lo mein", "pad thai", "pad see ew",
+                "japchae", "dan dan", "zhajiangmian", "mì quảng", "mi quảng",
+                "cao lầu", "chapchae", "pancit", "char kway teow", "mie goreng",
+                "yakisoba", "udon", "soba", "cheung fun"]),
+    ("curry", ["curry", "korma", "vindaloo", "tagine", "wat", "mole", "rendang",
+               "gulai", "kadai", "chettinad", "xacuti", "aji de gallina", "panang",
+               "massaman", "gaeng", "jungle curry", "pumpkin curry"]),
+    ("stew", ["stew", "cassoulet", "goulash", "bourguignon", "braised", "gulaschsuppe",
+              "caldereta", "mechado", "afritada", "adobo", "moqueca", "sauerbraten",
+              "bigos", "locro", "puchero", "carbonada", "zrazy", "golubtsy",
+              "kare-kare", "feijoada", "cocido", "fabada", "bulalo"]),
+    ("soup", ["soup", "chowder", "shorba", "harira", "gumbo", "stracciatella",
               "minestrone", "ribollita", "vichyssoise", "bouillon", "consommé",
-              "mulligatawny", "rasam", "sambar"]),
-    ("dessert", ["cake", "pudding", "pie", "ice cream", "cookies", "brownies",
-                 "cheesecake", "tart", "brûlée", "soufflé", "mochi", "dango",
-                 "mousse", "flan", "baklava", "kunefe", "sütlaç", "halwa", "barfi",
-                 "gulab jamun", "jalebi", "rasgulla", "rasmalai", "kheer", "payasam",
-                 "modak", "eton mess", "trifle", "profiteroles", "éclair", "macarons",
-                 "madeleines", "beignets", "churros", "cobbler", "quindim", "beijinho",
-                 "brigadeiro", "kaiserschmarrn", "stollen", "lebkuchen", "s'mores",
-                 "loukoumades", "galaktoboureko", "bougatsa", "chebakia", "sellou",
-                 "sholeh zard", "faloodeh"]),
-    ("beverage", ["tea", "coffee", "lassi", "juice", "drink", "doogh", "ayran",
-                  "horchata", "cà phê", "agua fresca", "thandai", "nimbu pani",
-                  "iced tea", "falooda"]),
+              "mulligatawny", "rasam", "sambar", "borscht", "shchi", "solyanka",
+              "zurek", "barszcz", "caldo verde", "chupe", "parihuela",
+              "pepper soup", "okroshka", "gomtang"]),
+    ("vegetable", ["bharta", "gobi", "bhindi", "saag", "palak", "baingan",
+                    "ratatouille", "caponata", "zaalouk", "collard", "eggplant",
+                    "aubergine", "mustard greens", "spinach", "green beans",
+                    "vegetable", "gado-gado", "avial", "thoran", "olan", "undhiyu",
+                    "chakalaka", "kelewele", "pinakbet", "laing", "briam", "pisto",
+                    "escalivada", "fava", "gemista", "egusi"]),
+    ("rice", ["rice", "biryani", "pulao", "fried rice", "risotto", "paella", "khao pad",
+              "nasi", "congee", "khichdi", "sushi", "chirashi", "onigiri", "kimbap",
+              "gyudon", "katsudon", "oyakodon", "don", "polo", "arroz", "jollof",
+              "jambalaya", "khichuri", "biryani", "pilaf", "tahchin"]),
     ("bread", ["naan", "roti", "paratha", "puri", "bhatura", "kulcha", "bread",
                "baguette", "brioche", "focaccia", "ciabatta", "pretzel", "simit",
                "khobz", "pide", "manakish", "bánh mì", "bagel", "croissant",
-               "pain au chocolat"]),
-    ("noodle", ["noodle", "pasta", "spaghetti", "chow mein", "chow fun", "lo mein",
-                "ramen", "udon", "soba", "pho", "phở", "mi quảng", "mì quảng",
-                "pad thai", "pad see ew", "japchae", "dan dan", "zhajiangmian",
-                "cao lầu", "hủ tiếu", "lasagne", "fettuccine", "penne", "linguine",
-                "orecchiette", "gnocchi"]),
-    ("rice", ["rice", "biryani", "pulao", "fried rice", "risotto", "paella", "khao pad",
-              "nasi", "congee", "khichdi", "sushi", "chirashi", "onigiri", "kimbap",
-              "gyudon", "katsudon", "oyakodon", "don", "polo", "arroz"]),
+               "pain au chocolat", "pão", "broa", "feteer", "baladi", "damper",
+               "lefse", "malawach", "noon barbari"]),
     ("dumpling", ["dumpling", "gyoza", "baozi", "xiaolongbao", "wonton", "momo",
-                  "manti", "mantou", "pierogi", "empanada", "kibbeh", "samosa",
-                  "spring roll", "lumpia", "chả giò", "kofta"]),
+                  "manti", "mantou", "pierogi", "pelmeni", "vareniki",
+                  "spring roll", "lumpia", "chả giò"]),
+    ("appetizer", ["hummus", "baba ganoush", "muhammara", "labneh", "shanklish",
+                   "taramasalata", "melitzanosalata", "skordalia", "bruschetta",
+                   "dolma", "warak enab", "antipasto", "tapas", "samosa", "pakora",
+                   "empanada", "causa", "papa a la huancaína", "gỏi cuốn", "kibbeh",
+                   "edamame", "dukkah", "matbucha", "bourekas", "anticuchos",
+                   "kofta"]),
     ("grill", ["kebab", "grill", "bbq", "tikka", "tandoori", "satay", "yakitori",
                "shish", "brochette", "churrasco", "picanha", "souvlaki", "gyro",
                "adana", "doner", "shawarma", "bulgogi", "galbi", "yakiniku",
-               "jerk", "asado", "carne asada"]),
-    ("salad", ["salad", "tabbouleh", "fattoush", "panzanella", "gado-gado",
-               "som tum", "larb", "ceviche", "aguachile", "salade", "insalata",
-               "gemista", "horiatiki", "cobb", "waldorf", "caesar"]),
+               "jerk", "asado", "carne asada", "suya", "choripán"]),
+    ("salad", ["salad", "tabbouleh", "fattoush", "panzanella", "som tum", "larb",
+               "ceviche", "aguachile", "salade", "insalata", "horiatiki", "cobb",
+               "waldorf", "caesar", "vinaigrette salad", "olivier salad"]),
     ("pickle", ["kimchi", "pickle", "achar", "torshi", "giardiniera", "sauerkraut"]),
     ("breakfast", ["breakfast", "omelette", "omurice", "chilaquiles",
-                   "huevos rancheros", "shakshuka", "congee", "poha", "upma",
+                   "huevos rancheros", "shakshuka", "poha", "upma",
                    "menemen", "tamagoyaki", "kedgeree", "biscuits and gravy"]),
     ("street", ["street", "chaat", "vada pav", "pav bhaji", "bhel puri", "pani puri",
                 "sev puri", "aloo tikki", "elote", "esquites", "takoyaki",
                 "okonomiyaki", "banh xeo", "bánh xèo", "taco", "burrito", "nachos"]),
     ("fried", ["fried", "tempura", "katsu", "karaage", "croquetas", "fritto",
-               "pakora", "arancini", "sesame balls", "churros"]),
-    ("stew", ["curry", "tagine", "wat", "stew", "korma", "vindaloo", "mole",
-              "cassoulet", "goulash", "bourguignon", "braised", "gulaschsuppe",
-              "caldereta", "mechado", "afritada", "adobo", "rendang", "moqueca"]),
+               "arancini", "sesame balls", "churros", "puff-puff", "picarones",
+               "akara"]),
+    ("dessert", ["cake", "pudding", "pie", "cookies", "brownies", "cheesecake",
+                 "tart", "brûlée", "soufflé", "mochi", "dango", "mousse", "flan",
+                 "baklava", "kunefe", "sütlaç", "halwa", "barfi", "gulab jamun",
+                 "jalebi", "rasgulla", "rasmalai", "kheer", "payasam", "modak",
+                 "eton mess", "trifle", "profiteroles", "éclair", "macarons",
+                 "madeleines", "beignets", "cobbler", "quindim", "beijinho",
+                 "brigadeiro", "kaiserschmarrn", "stollen", "lebkuchen", "s'mores",
+                 "loukoumades", "galaktoboureko", "bougatsa", "chebakia", "sellou",
+                 "sholeh zard", "faloodeh", "alfajores", "dulce de leche",
+                 "medovik", "pryaniki", "sernik", "makowiec", "pączki", "basbousa",
+                 "om ali", "konafa", "suspiro", "torta frita", "facturas",
+                 "pavlova", "lamington", "malva pudding", "koeksisters",
+                 "haupia", "watalappan", "turrón", "mazamorra", "dobos torte",
+                 "kürtőskalács", "somloi galuska", "rétes", "palacsinta",
+                 "rugelach", "krembo"]),
 ]
+
+
+# Keywords that are intentionally matched as a substring/suffix rather than a
+# whole word (e.g. "don" for Gyudon/Katsudon/Oyakodon rice bowls). Every other
+# keyword is matched at word boundaries so short common words like "tea" or
+# "mate" don't misfire inside unrelated words like "steak" or "Tomate".
+_SUFFIX_OK = {"don"}
+
+
+def _kw_match(keyword: str, lname: str) -> bool:
+    if keyword in _SUFFIX_OK:
+        return keyword in lname
+    return re.search(rf"\b{re.escape(keyword)}\b", lname) is not None
 
 
 def infer_protein(name: str) -> str:
     lname = name.lower()
     if name in PROTEIN_OVERRIDES:
         return PROTEIN_OVERRIDES[name]
-    if "chicken" in lname or "duck" in lname or "turkey" in lname:
+    if any(_kw_match(k, lname) for k in ["chicken", "duck", "turkey"]):
         return "chicken"
-    if "lamb" in lname:
+    if _kw_match("lamb", lname):
         return "lamb"
-    if "mutton" in lname or "goat" in lname:
+    if any(_kw_match(k, lname) for k in ["mutton", "goat"]):
         return "mutton"
-    if "beef" in lname or "steak" in lname or "brisket" in lname or "oxtail" in lname:
+    if any(_kw_match(k, lname) for k in ["beef", "steak", "brisket", "oxtail"]):
         return "beef"
-    if "kangaroo" in lname:
+    if _kw_match("kangaroo", lname):
         return "game"
-    if any(k in lname for k in ["fish", "seafood", "shrimp", "prawn", "crab", "salmon",
-                                 "tuna", "squid", "octopus", "clam", "lobster", "sardine",
-                                 "saltfish", "anchov", "lox", "calamares", "pulpo", "mariscos"]):
+    if any(_kw_match(k, lname) for k in ["fish", "salmon", "tuna", "saltfish", "sardine",
+                                          "cod", "bacalhau", "bacalao", "anchov", "lox",
+                                          "carp", "catfish", "mandarin fish", "rakfisk",
+                                          "gravlax"]):
+        return "fish"
+    if any(_kw_match(k, lname) for k in ["seafood", "shrimp", "prawn", "crab", "squid",
+                                          "octopus", "clam", "lobster", "calamares", "pulpo",
+                                          "mariscos", "camarones", "oyster", "frutti di mare",
+                                          "vatapá", "acarajé", "bobó de camarão"]):
         return "seafood"
-    if "egg" in lname:
+    if _kw_match("egg", lname):
         return "egg"
     return "mixed"
 
 
 def infer_category(name: str) -> str:
     lname = name.lower()
+    if _kw_match("iced", lname):
+        return "drink"
     for category, keywords in CATEGORY_KEYWORDS:
-        if any(k in lname for k in keywords):
+        if any(_kw_match(k, lname) for k in keywords):
             return category
     return "main"
 
 CATEGORY_INFO = {
+    "ice_cream": {"label": "Ice Cream & Frozen Treats", "emoji": "🍨", "technique": "Churning / freezing"},
+    "hot_drink": {"label": "Hot Drinks", "emoji": "☕", "technique": "Brewing"},
+    "drink": {"label": "Drinks", "emoji": "🥤", "technique": "Blending / mixing"},
+    "soupy_noodle": {"label": "Soupy Noodles", "emoji": "🍜", "technique": "Long-simmered broth"},
+    "pasta": {"label": "Pasta", "emoji": "🍝", "technique": "Boiling"},
+    "noodle": {"label": "Noodles", "emoji": "🍝", "technique": "Boiling / stir-frying"},
+    "curry": {"label": "Curry", "emoji": "🍛", "technique": "Simmering in spiced sauce"},
+    "stew": {"label": "Stew", "emoji": "🍲", "technique": "Braising / simmering"},
     "soup": {"label": "Soup", "emoji": "🥣", "technique": "Simmering"},
-    "dessert": {"label": "Dessert", "emoji": "🍰", "technique": "Baking / confectionery"},
-    "beverage": {"label": "Beverage", "emoji": "🥤", "technique": "Brewing / blending"},
-    "bread": {"label": "Bread", "emoji": "🍞", "technique": "Baking"},
-    "noodle": {"label": "Noodles & Pasta", "emoji": "🍜", "technique": "Boiling / stir-frying"},
+    "vegetable": {"label": "Vegetables", "emoji": "🥬", "technique": "Sautéing / simmering"},
     "rice": {"label": "Rice Dish", "emoji": "🍚", "technique": "Steaming / sautéing"},
+    "bread": {"label": "Bread", "emoji": "🍞", "technique": "Baking"},
     "dumpling": {"label": "Dumplings & Wraps", "emoji": "🥟", "technique": "Steaming / folding"},
+    "appetizer": {"label": "Appetisers & Starters", "emoji": "🥙", "technique": "Assembling / light cooking"},
     "grill": {"label": "Grilled / BBQ", "emoji": "🔥", "technique": "Grilling"},
     "salad": {"label": "Salad", "emoji": "🥗", "technique": "Raw preparation"},
     "pickle": {"label": "Fermented / Pickled", "emoji": "🫙", "technique": "Fermentation"},
     "breakfast": {"label": "Breakfast", "emoji": "🍳", "technique": "Pan-cooking"},
-    "street": {"label": "Street Food", "emoji": "🥙", "technique": "Street-food cookery"},
+    "street": {"label": "Street Food", "emoji": "🌮", "technique": "Street-food cookery"},
     "fried": {"label": "Fried", "emoji": "🍤", "technique": "Deep-frying"},
-    "stew": {"label": "Curry & Stew", "emoji": "🍲", "technique": "Braising / simmering"},
+    "dessert": {"label": "Dessert", "emoji": "🍰", "technique": "Baking / confectionery"},
     "main": {"label": "Main Course", "emoji": "🍽️", "technique": "Sautéing"},
 }
 
 PROTEIN_LABELS = {
     "chicken": "Chicken", "beef": "Beef", "lamb": "Lamb", "mutton": "Mutton/Goat",
-    "seafood": "Fish/Seafood", "egg": "Egg", "vegetarian": "Vegetarian", "mixed": "Mixed",
-    "game": "Game (Kangaroo)",
+    "fish": "Fish", "seafood": "Seafood", "egg": "Egg", "vegetarian": "Vegetarian",
+    "mixed": "Mixed", "game": "Game (Kangaroo)",
 }
 
 

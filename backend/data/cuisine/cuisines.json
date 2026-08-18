@@ -339,6 +339,448 @@
         { "q": "What does a tagine's distinctive cone-shaped lid do during cooking?", "options": ["Traps steam and returns moisture to the dish", "Lets excess liquid escape", "Smokes the food", "Keeps insects out"], "answer": 0 },
         { "q": "Which North African grain dish was added to UNESCO's Intangible Cultural Heritage list in 2020?", "options": ["Couscous", "Tagine", "Harira", "Pastilla"], "answer": 0 }
       ]
+    },
+    {
+      "id": "turkish",
+      "label": "Turkish Cuisine",
+      "emoji": "🥙",
+      "colour": "#c0392b",
+      "region": "Western Asia / Southeastern Europe",
+      "description": "A cuisine bridging Europe and Asia, celebrated for kebabs, meze spreads, and a rich pastry and dessert tradition shaped by centuries of Ottoman imperial cooking.",
+      "history": "Turkish cuisine synthesises Ottoman imperial court cooking, Central Asian nomadic traditions, and Mediterranean influences across an empire that once spanned three continents. Ottoman palace kitchens at Istanbul's Topkapi Palace employed hundreds of cooks whose recipes are still eaten today, and the doner kebab's vertical spit-roasting technique, first recorded in 19th-century Anatolia, later spread worldwide as shawarma and gyro.",
+      "famous_dishes": [
+        { "name": "Beef Adana Kebab", "origin": "Adana", "description": "Spicy minced-meat kebab grilled on a wide skewer, named for the southern Turkish city." },
+        { "name": "Beef Iskender Kebab", "origin": "Bursa", "description": "Sliced doner meat over pide bread with tomato sauce, melted butter, and yogurt, said to be created by a Bursa cook named Iskender in the 1860s." },
+        { "name": "Baklava", "origin": "Gaziantep", "description": "Layered phyllo pastry with chopped nuts and syrup; Gaziantep is especially famous for its pistachio version." },
+        { "name": "Turkish Delight (Lokum)", "origin": "Istanbul", "description": "Soft, gel-like confection dusted in powdered sugar, popularised across Europe in the 19th century." }
+      ],
+      "key_ingredients": ["Lamb and beef", "Bulgur wheat", "Yogurt", "Eggplant", "Tomatoes", "Red pepper flakes", "Mint", "Pistachios"],
+      "cooking_techniques": ["Vertical spit-roasting (doner)", "Charcoal grilling (kebabs)", "Phyllo lamination (baklava)", "Slow simmering (güveç stews)"],
+      "cultural_notes": "Turkish hospitality centres on meze (shared small plates) and tea, served in tulip-shaped glasses throughout the day; Turkish coffee-brewing, along with its fortune-telling tradition, was inscribed on UNESCO's Intangible Cultural Heritage list in 2013.",
+      "fun_facts": [
+        "Turkish coffee brewing was added to UNESCO's Intangible Cultural Heritage list in 2013.",
+        "Iskender Kebab is said to have been invented by a cook named Iskender Efendi in Bursa in the 1860s."
+      ],
+      "quiz": [
+        { "q": "Which Turkish dessert is a soft, gel-like confection dusted with powdered sugar?", "options": ["Turkish Delight (Lokum)", "Baklava", "Künefe", "Şekerpare"], "answer": 0 },
+        { "q": "What UNESCO-recognised Turkish tradition involves brewing coffee and reading the grounds?", "options": ["Turkish coffee culture", "Meze culture", "Tea ceremony", "Kebab grilling"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "greek",
+      "label": "Greek Cuisine",
+      "emoji": "🥗",
+      "colour": "#1976d2",
+      "region": "Southern Europe / Mediterranean",
+      "description": "One of the oldest documented cuisines in Europe, built on olive oil, fresh vegetables, seafood, and grilled meats, with roots tracing to ancient Greek and Byzantine cooking.",
+      "history": "Ancient Greek cookbooks, including fragments attributed to the 4th-century BCE writer Archestratus, are among the earliest surviving Western culinary texts. Byzantine-era cooking layered in Eastern spices and techniques, and centuries of Ottoman rule (15th-19th centuries) left a shared culinary vocabulary with Turkish and Balkan cuisines -- dishes like moussaka and dolmades have close cousins across the former Ottoman world.",
+      "famous_dishes": [
+        { "name": "Beef Moussaka", "origin": "Greece", "description": "Layered eggplant and spiced meat topped with béchamel; its modern form was popularised by chef Nikolaos Tselementes in the 1920s." },
+        { "name": "Beef Souvlaki / Gyro", "origin": "Greece", "description": "Skewered or spit-roasted meat served in pita with tomato, onion, and tzatziki." },
+        { "name": "Greek Salad (Horiatiki)", "origin": "Greece", "description": "Tomato, cucumber, green pepper, onion, olives, and feta -- traditionally made without lettuce." },
+        { "name": "Spanakopita", "origin": "Greece", "description": "Spinach and feta filling wrapped in crisp layers of phyllo pastry." }
+      ],
+      "key_ingredients": ["Olive oil", "Feta cheese", "Tomatoes", "Lemon", "Oregano", "Filo pastry", "Olives", "Yogurt"],
+      "cooking_techniques": ["Grilling (souvlaki)", "Phyllo lamination (spanakopita, baklava)", "Slow braising (stifado)", "Raw preparation (horiatiki salad)"],
+      "cultural_notes": "Greek meals are traditionally shared with mezedes (small plates), and olive oil -- Greece is one of the world's largest per-capita consumers -- is used generously across nearly every savoury dish.",
+      "fun_facts": [
+        "Greek Horiatiki salad traditionally contains no lettuce -- it's built on tomato, cucumber, green pepper, onion, olives, and feta.",
+        "Moussaka's modern layered, béchamel-topped form was popularised by chef Nikolaos Tselementes in the 1920s, influenced by French cuisine."
+      ],
+      "quiz": [
+        { "q": "What ingredient is traditionally absent from a classic Greek Horiatiki salad?", "options": ["Lettuce", "Feta cheese", "Olives", "Tomato"], "answer": 0 },
+        { "q": "Which chef popularised the modern layered, béchamel-topped moussaka in the 1920s?", "options": ["Nikolaos Tselementes", "Auguste Escoffier", "Kikunae Ikeda", "Marie-Antoine Carême"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "american",
+      "label": "American Cuisine",
+      "emoji": "🍔",
+      "colour": "#34495e",
+      "region": "North America",
+      "description": "A patchwork of regional traditions -- Southern soul food, Tex-Mex, Cajun/Creole, New England seafood, and immigrant-driven city cuisines -- unified by a culture of casual, fast, and portable eating.",
+      "history": "American cuisine formed from Indigenous foodways (corn, beans, and squash were domesticated or gathered in North America long before European contact), West African culinary traditions adapted under slavery and foundational to Southern and soul food cooking, and successive waves of European, Latin American, and Asian immigration that each left distinct regional cuisines -- from New Orleans's French-and-African Creole cooking to Tex-Mex's Mexican-Texan fusion.",
+      "famous_dishes": [
+        { "name": "Beef Cheeseburger", "origin": "United States", "description": "Ground beef patty with melted cheese in a bun, one of America's most globally recognised dishes." },
+        { "name": "BBQ Beef Brisket", "origin": "Texas", "description": "Low-and-slow smoked beef, central to Texas barbecue tradition." },
+        { "name": "Fried Chicken", "origin": "American South", "description": "Battered and fried chicken drawing on both West African deep-frying traditions and Scottish pan-frying methods." },
+        { "name": "Apple Pie", "origin": "United States (English colonial roots)", "description": "A colonial-era English dessert tradition adapted with American apples into a national symbol." }
+      ],
+      "key_ingredients": ["Corn", "Beef", "Wheat", "Potatoes", "Cheddar cheese", "Tomatoes", "Chili peppers", "Maple syrup"],
+      "cooking_techniques": ["Low-and-slow smoking (BBQ)", "Deep-frying", "Grilling", "Baking (pies and breads)"],
+      "cultural_notes": "American food culture is shaped by strong regional identity -- Texas BBQ, Louisiana Cajun/Creole, New England seafood, and Southern soul food are each distinct culinary traditions -- and by a fast-food and diner culture that spread internationally after World War II.",
+      "fun_facts": [
+        "Corn, beans, and squash -- the 'Three Sisters' -- were staple crops independently domesticated by Indigenous peoples of the Americas long before European contact.",
+        "Southern fried chicken draws on both West African deep-frying traditions, brought under slavery, and Scottish immigrants' pan-frying methods."
+      ],
+      "quiz": [
+        { "q": "What are corn, beans, and squash collectively called in Indigenous American agriculture?", "options": ["The Three Sisters", "The Founding Crops", "The Harvest Trio", "The Staple Three"], "answer": 0 },
+        { "q": "Which American BBQ style is known for low-and-slow smoked beef brisket?", "options": ["Texas", "Kansas City", "Carolina", "Memphis"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "british",
+      "label": "British Cuisine",
+      "emoji": "🍽️",
+      "colour": "#7f8c8d",
+      "region": "Western Europe",
+      "description": "A cuisine of hearty roasts, pies, and puddings shaped by centuries of trade -- Britain's colonial and trading history brought tea, curry spices, and countless ingredients woven into everyday British eating.",
+      "history": "British cuisine's identity includes dishes absorbed through empire and trade: tea, imported from China in the 17th century, became a defining national ritual, and curry, adapted by British cooks and later by South Asian immigrant chefs, produced dishes like Chicken Tikka Masala now considered British classics in their own right. Fish and chips became a working-class staple after Jewish immigrants introduced fried-fish techniques in the 17th-18th centuries.",
+      "famous_dishes": [
+        { "name": "Fish and Chips", "origin": "England", "description": "Battered fried fish with chipped potatoes, a defining British takeaway meal." },
+        { "name": "Sunday Roast", "origin": "England", "description": "Roast beef or lamb with Yorkshire pudding and gravy, a widely observed weekly family tradition." },
+        { "name": "Chicken Tikka Masala", "origin": "Britain (South Asian immigrant chefs)", "description": "Widely believed to have been invented by South Asian chefs in Britain, adapting tandoori chicken into a creamy tomato gravy." },
+        { "name": "Sticky Toffee Pudding", "origin": "England", "description": "A moist date sponge cake served with hot toffee sauce." }
+      ],
+      "key_ingredients": ["Potatoes", "Beef", "Wheat flour", "Butter", "Cheddar cheese", "Mustard", "Malt vinegar"],
+      "cooking_techniques": ["Roasting", "Deep-frying (fish and chips)", "Pie-baking", "Steaming (puddings)"],
+      "cultural_notes": "Afternoon tea, with sandwiches, scones, and clotted cream, is a distinctly British institution dating to the 19th century, and the Sunday roast remains a widely observed weekly family tradition.",
+      "fun_facts": [
+        "Chicken Tikka Masala, though not a traditional Indian dish, is often cited as one of Britain's most popular restaurant meals.",
+        "Fish and chips became widespread in Britain after Jewish immigrants introduced fried-fish techniques in the 17th-18th centuries."
+      ],
+      "quiz": [
+        { "q": "Which dish, though invented by South Asian chefs in Britain, is often called a British national favourite?", "options": ["Chicken Tikka Masala", "Butter Chicken", "Chicken Korma", "Biryani"], "answer": 0 },
+        { "q": "What British tradition, involving sandwiches and scones, dates to the 19th century?", "options": ["Afternoon Tea", "Sunday Roast", "Boxing Day Feast", "High Tea Supper"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "german",
+      "label": "German Cuisine",
+      "emoji": "🥨",
+      "colour": "#95a5a6",
+      "region": "Central Europe",
+      "description": "A cuisine of hearty, regional cooking -- sausages, potatoes, cabbage, and bread -- with strong beer-and-food pairing traditions and distinct regional identities from Bavaria to the Rhineland.",
+      "history": "German regional cuisines developed distinctly across the country's historically fragmented states and kingdoms before unification in 1871, leaving strong regional identities -- Bavarian, Swabian, Rhineland, and Saxon cooking all differ notably. Germany's beer-brewing tradition, governed since 1516 by the Reinheitsgebot purity law, developed alongside its food culture, and bread-baking is especially prized: Germany has over 3,000 registered bread varieties, recognised by UNESCO in 2014.",
+      "famous_dishes": [
+        { "name": "Beef Sauerbraten", "origin": "Rhineland", "description": "Marinated pot roast, traditionally soured over several days before slow braising." },
+        { "name": "Beef Schnitzel", "origin": "Germany", "description": "Breaded, pan-fried cutlet, traditionally veal or pork; this collection uses beef." },
+        { "name": "Pretzel (Brezel)", "origin": "Bavaria", "description": "Twisted baked bread whose distinctive shape dates to medieval monastic bakeries." },
+        { "name": "Black Forest Cake", "origin": "Schwarzwald (Black Forest)", "description": "Chocolate sponge layered with cherries and whipped cream, named after the Black Forest region." }
+      ],
+      "key_ingredients": ["Potatoes", "Cabbage", "Rye and wheat flour", "Mustard", "Caraway", "Apples"],
+      "cooking_techniques": ["Braising (sauerbraten)", "Breading and pan-frying (schnitzel)", "Baking (bread and pretzels)", "Pickling (sauerkraut)"],
+      "cultural_notes": "Germany's bread culture -- over 3,000 registered varieties -- was added to UNESCO's Intangible Cultural Heritage list in 2014, and regional beer-and-food pairing, especially in Bavaria, remains central to German dining culture.",
+      "fun_facts": [
+        "Germany's bread-baking culture, with over 3,000 registered bread varieties, was recognised by UNESCO in 2014.",
+        "Germany's 1516 Reinheitsgebot beer purity law is one of the oldest food-related regulations still referenced today."
+      ],
+      "quiz": [
+        { "q": "How many registered bread varieties does Germany's UNESCO-recognised baking tradition include (approximately)?", "options": ["Over 3,000", "About 500", "Around 100", "Over 10,000"], "answer": 0 },
+        { "q": "What is the German beer purity law from 1516 called?", "options": ["Reinheitsgebot", "Brauordnung", "Bierkultur", "Hopfengesetz"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "brazilian",
+      "label": "Brazilian Cuisine",
+      "emoji": "🍖",
+      "colour": "#2ecc71",
+      "region": "South America",
+      "description": "A vast, regionally diverse cuisine shaped by Indigenous, Portuguese colonial, and West African influences, famous for churrasco barbecue, feijoada, and tropical fruit.",
+      "history": "Brazilian food culture blends Indigenous ingredients (cassava, tropical fruits), Portuguese colonial cooking introduced from the 16th century, and West African culinary traditions brought by enslaved people, particularly strong in Bahia's distinctively spiced, palm-oil-based cuisine. Feijoada, now considered Brazil's national dish, is a bean-and-meat stew whose exact origins are debated but has been a staple for centuries, especially associated with communities who used lesser cuts of meat.",
+      "famous_dishes": [
+        { "name": "Beef Feijoada", "origin": "Brazil", "description": "Black bean and meat stew, widely considered Brazil's national dish." },
+        { "name": "Beef Churrasco", "origin": "Southern Brazil (gaucho tradition)", "description": "Brazilian barbecue cooked on open-flame skewers, rooted in the herding culture of the southern plains." },
+        { "name": "Coxinha", "origin": "São Paulo", "description": "Fried, chicken-filled dough shaped to resemble a drumstick." },
+        { "name": "Brigadeiro", "origin": "Brazil", "description": "Chocolate fudge truffle invented in the 1940s and named after a Brazilian Air Force brigadier." }
+      ],
+      "key_ingredients": ["Black beans", "Cassava (manioc)", "Rice", "Beef", "Tropical fruit (açaí, passion fruit)", "Palm oil (dendê)", "Coconut milk"],
+      "cooking_techniques": ["Slow simmering (feijoada)", "Open-flame skewer grilling (churrasco)", "Deep-frying (coxinha)", "Palm-oil frying (Bahian acarajé)"],
+      "cultural_notes": "Churrasco is both a cooking method and a social gathering, with rodízio-style restaurants serving continuously grilled meats tableside; Bahian cuisine, shaped by West African culinary traditions, is distinct enough to be considered its own regional tradition within Brazil.",
+      "fun_facts": [
+        "Brigadeiro, a chocolate fudge truffle, was invented in the 1940s and named after Brazilian Air Force brigadier Eduardo Gomes.",
+        "Bahia's cuisine, shaped by West African culinary traditions, uses dendê (palm oil) as a defining ingredient distinct from the rest of Brazil."
+      ],
+      "quiz": [
+        { "q": "What is Brazil's national dish, a black bean and meat stew?", "options": ["Feijoada", "Churrasco", "Moqueca", "Vatapá"], "answer": 0 },
+        { "q": "Brigadeiro, a popular Brazilian chocolate treat, was named after what?", "options": ["A Brazilian Air Force brigadier", "A Portuguese king", "A Brazilian city", "A coffee brand"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "indonesian_malaysian",
+      "label": "Indonesian & Malaysian Cuisine",
+      "emoji": "🍢",
+      "colour": "#e67e22",
+      "region": "Southeast Asia",
+      "description": "Neighbouring archipelago cuisines sharing satay, rendang, and rich spice-paste cooking, shaped by the historic spice trade and diverse ethnic and religious communities across thousands of islands.",
+      "history": "Indonesia and Malaysia sit at the heart of the historic spice trade -- nutmeg and cloves native to Indonesia's Maluku Islands (the original 'Spice Islands') drove centuries of European colonial competition. Both cuisines layer Indigenous, Indian, Chinese, and Arab influences from long trading histories, and Malaysia's distinct Malay, Chinese, and Indian communities each maintain strong culinary traditions that also blend into fusion 'Nyonya' (Peranakan) cooking.",
+      "famous_dishes": [
+        { "name": "Beef Rendang", "origin": "West Sumatra (Minangkabau)", "description": "Slow-cooked coconut-spice stew, traditionally beef, cooked until nearly all liquid evaporates." },
+        { "name": "Beef Satay", "origin": "Indonesia/Malaysia", "description": "Skewered grilled meat served with peanut sauce." },
+        { "name": "Nasi Goreng", "origin": "Indonesia", "description": "Indonesian fried rice, often considered a national dish." },
+        { "name": "Nasi Lemak", "origin": "Malaysia", "description": "Malaysia's national dish -- coconut rice served with sambal, anchovies, and egg." }
+      ],
+      "key_ingredients": ["Coconut milk", "Lemongrass", "Galangal", "Shrimp paste (belacan)", "Chillies", "Rice", "Palm sugar"],
+      "cooking_techniques": ["Slow-simmering in coconut milk (rendang)", "Skewer grilling (satay)", "Spice-paste pounding (sambal/bumbu)", "Wok stir-frying"],
+      "cultural_notes": "Rendang, often ranked among the world's most flavourful dishes in international polls, is traditionally cooked for special occasions and keeps for weeks due to its long, dry-braising process; Malaysia's multi-ethnic food culture makes hawker centres, serving Malay, Chinese, and Indian food side by side, a defining national institution.",
+      "fun_facts": [
+        "Indonesia's Maluku Islands, the historic 'Spice Islands,' were the original source of nutmeg and cloves and drove centuries of European colonial rivalry.",
+        "Beef rendang, cooked low and slow until nearly all liquid evaporates, was traditionally made to preserve meat for weeks without refrigeration."
+      ],
+      "quiz": [
+        { "q": "What are Indonesia's Maluku Islands historically known as, due to their nutmeg and clove production?", "options": ["The Spice Islands", "The Sunda Isles", "The Coral Islands", "The Trade Islands"], "answer": 0 },
+        { "q": "What is Malaysia's national dish, made of coconut rice with sambal and anchovies?", "options": ["Nasi Lemak", "Nasi Goreng", "Char Kway Teow", "Roti Canai"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "filipino",
+      "label": "Filipino Cuisine",
+      "emoji": "🍚",
+      "colour": "#3498db",
+      "region": "Southeast Asia",
+      "description": "A cuisine shaped by over 300 years of Spanish colonial rule layered onto Indigenous Malay and Chinese trading influences, known for balancing sour, salty, and savoury flavours.",
+      "history": "The Philippines' cuisine reflects a unique colonial history -- over three centuries of Spanish rule (1565-1898) introduced ingredients like tomatoes, garlic, and vinegar-based cooking, followed by American administration in the early 20th century. Adobo, the country's most iconic dish, uses a vinegar-and-soy marinating and braising method that predates Spanish colonisation, though its name comes from the Spanish word for marinade.",
+      "famous_dishes": [
+        { "name": "Beef Adobo", "origin": "Philippines", "description": "Vinegar-soy braised meat, widely considered the national dish." },
+        { "name": "Beef Sinigang", "origin": "Philippines", "description": "Sour tamarind-based soup with vegetables and meat." },
+        { "name": "Halo-Halo", "origin": "Philippines", "description": "Shaved ice dessert layered with mixed sweet toppings; the name means 'mix-mix' in Tagalog." },
+        { "name": "Beef Lumpia", "origin": "Philippines (Chinese-influenced)", "description": "Fried spring rolls reflecting the Philippines' Chinese trading ties." }
+      ],
+      "key_ingredients": ["Vinegar", "Soy sauce", "Garlic", "Calamansi (Philippine lime)", "Rice", "Coconut milk", "Tamarind"],
+      "cooking_techniques": ["Vinegar-and-soy braising (adobo)", "Souring with tamarind (sinigang)", "Deep-frying (lumpia)", "Grilling (inasal)"],
+      "cultural_notes": "Filipino meals are traditionally eaten with rice at nearly every meal, and Filipino hospitality emphasises generous, shared spreads, especially at the fiesta (community feast) tradition found across the islands.",
+      "fun_facts": [
+        "Adobo's vinegar-based cooking method predates Spanish colonisation, even though its name comes from the Spanish word for marinade.",
+        "Halo-halo means 'mix-mix' in Tagalog, referring to the way its many toppings are stirred together before eating."
+      ],
+      "quiz": [
+        { "q": "What does 'Halo-halo,' the name of a popular Filipino shaved-ice dessert, mean in Tagalog?", "options": ["Mix-mix", "Sweet-sweet", "Cold-cold", "Shave-shave"], "answer": 0 },
+        { "q": "Adobo's vinegar-based cooking technique predates which colonial period?", "options": ["Spanish colonisation", "American administration", "Japanese occupation", "British rule"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "persian",
+      "label": "Persian / Iranian Cuisine",
+      "emoji": "🍢",
+      "colour": "#8e44ad",
+      "region": "Western Asia",
+      "description": "An ancient cuisine centred on fragrant rice, saffron, and a distinctive sweet-and-savoury balance using fruits, nuts, and herbs alongside meat.",
+      "history": "Persian cuisine has roots stretching back over 2,500 years to the Achaemenid Empire, and its techniques and ingredients -- particularly rice cookery and the use of saffron -- spread widely along the historic Silk Road and influenced Mughal, Ottoman, and Central Asian cooking. Achieving 'tahdig,' a crisp golden rice crust at the bottom of the pot, is a hallmark of Persian rice cookery refined over centuries.",
+      "famous_dishes": [
+        { "name": "Beef Chelo Kabab", "origin": "Iran", "description": "Iran's national dish -- skewered meat served with saffron-scented steamed rice." },
+        { "name": "Chicken Fesenjan", "origin": "Iran", "description": "A rich stew of pomegranate molasses and ground walnuts." },
+        { "name": "Tahdig", "origin": "Iran", "description": "The crispy, golden rice crust formed at the bottom of the pot -- a prized delicacy." },
+        { "name": "Ghormeh Sabzi", "origin": "Iran", "description": "An herb-heavy stew with kidney beans and dried lime, often called Iran's national stew." }
+      ],
+      "key_ingredients": ["Saffron", "Rice", "Pomegranate", "Walnuts", "Dried limes", "Fresh herbs (parsley, cilantro, dill)", "Rosewater"],
+      "cooking_techniques": ["Steaming rice to form tahdig", "Slow-simmering stews (khoresh)", "Skewer grilling (kabab)", "Herb-heavy stewing"],
+      "cultural_notes": "Rice is central to Persian identity -- a proper Persian rice dish (chelo or polo) can take hours of careful steaming, and tahdig, the crisp bottom layer, is often served first to honoured guests.",
+      "fun_facts": [
+        "Persian cuisine's rice-cooking techniques, refined over centuries, spread along the Silk Road and influenced Mughal and Central Asian cooking.",
+        "Tahdig, the crispy golden rice crust prized in Persian cooking, is often the first thing served to honoured guests."
+      ],
+      "quiz": [
+        { "q": "What is the prized crispy golden rice crust in Persian cooking called?", "options": ["Tahdig", "Polo", "Chelo", "Khoresh"], "answer": 0 },
+        { "q": "Which empire is associated with the deep roots of Persian cuisine, over 2,500 years ago?", "options": ["Achaemenid Empire", "Ottoman Empire", "Mughal Empire", "Safavid Empire"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "portuguese",
+      "label": "Portuguese Cuisine",
+      "emoji": "🐟",
+      "colour": "#16a085",
+      "region": "Southern Europe / Iberian Peninsula",
+      "description": "A seafaring nation's cuisine built on salt cod, grilled fish, and the legacy of the Age of Exploration, which introduced Portuguese cooking techniques and ingredients across four continents.",
+      "history": "Portugal's 15th-16th century maritime empire made it a hub of global food exchange -- Portuguese traders introduced chilli peppers to India and Southeast Asia, and brought back ingredients that shaped domestic cuisine. Bacalhau (dried salt cod), imported since medieval trade with Nordic fishing fleets, became so central to Portuguese cooking that it's said there are over 365 documented ways to prepare it -- one for every day of the year.",
+      "famous_dishes": [
+        { "name": "Bacalhau à Brás", "origin": "Portugal", "description": "Shredded salt cod pan-fried with potato and egg." },
+        { "name": "Caldo Verde", "origin": "Minho", "description": "Kale and potato soup, one of Portugal's most iconic everyday dishes." },
+        { "name": "Pastéis de Nata", "origin": "Lisbon", "description": "Custard tart invented by monks at Lisbon's Jerónimos Monastery before the 18th century." },
+        { "name": "Beef Cozido à Portuguesa", "origin": "Portugal", "description": "A boiled meat and vegetable stew, traditionally cooked in one large pot." }
+      ],
+      "key_ingredients": ["Salt cod (bacalhau)", "Olive oil", "Potatoes", "Kale", "Piri piri chilli", "Seafood"],
+      "cooking_techniques": ["Salt-curing and drying (bacalhau)", "Grilling (sardines)", "Slow braising (cozido)", "Custard-tart baking (pastéis de nata)"],
+      "cultural_notes": "Portugal's Age of Exploration left a global culinary footprint -- piri piri chilli, now central to Portuguese and Southern African cooking, was spread by Portuguese traders from South America to Africa and Asia.",
+      "fun_facts": [
+        "Portugal is said to have over 365 documented ways to prepare bacalhau (salt cod) -- one for every day of the year.",
+        "Pastéis de Nata, Portugal's famous custard tart, was invented by monks at Lisbon's Jerónimos Monastery before the 18th century."
+      ],
+      "quiz": [
+        { "q": "Approximately how many documented ways does Portuguese cuisine have for preparing bacalhau (salt cod)?", "options": ["Over 365", "About 50", "Around 12", "Over 1,000"], "answer": 0 },
+        { "q": "Where were Pastéis de Nata, Portugal's famous custard tarts, invented?", "options": ["Jerónimos Monastery, Lisbon", "Porto Cathedral", "Sintra Palace", "Coimbra University"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "russian",
+      "label": "Russian Cuisine",
+      "emoji": "🥟",
+      "colour": "#5c6bc0",
+      "region": "Eastern Europe / Northern Asia",
+      "description": "A cuisine shaped by a vast, cold climate -- hearty soups, preserved vegetables, bread, and dairy -- with a rich tradition of communal, multi-course dining.",
+      "history": "Russian cuisine developed around ingredients suited to a harsh climate and long winters: rye bread, cabbage, root vegetables, and preserved (pickled and fermented) foods. Russian haute cuisine was reshaped in the 19th century when French culinary techniques, brought by chefs serving the imperial court, blended with traditional Russian dishes -- a fusion still visible in dishes like beef Stroganoff, developed in 19th-century St. Petersburg and named after the Stroganov family.",
+      "famous_dishes": [
+        { "name": "Beef Borscht", "origin": "Eastern Europe", "description": "Beet soup claimed as a national dish by Russia, Ukraine, and Poland alike, each with regional variations." },
+        { "name": "Beef Stroganoff", "origin": "St. Petersburg", "description": "Sautéed beef in a sour cream sauce, developed in the 19th century and named after the Stroganov family." },
+        { "name": "Beef Pelmeni", "origin": "Ural / Siberia", "description": "Meat-filled dumplings, traditionally boiled and served with sour cream." },
+        { "name": "Blini", "origin": "Russia", "description": "Thin buttermilk pancakes traditionally eaten during the Maslenitsa festival." }
+      ],
+      "key_ingredients": ["Rye flour", "Cabbage", "Beets", "Sour cream", "Dill", "Buckwheat (kasha)", "Potatoes"],
+      "cooking_techniques": ["Long-simmered soups", "Pickling and fermenting (winter preservation)", "Dumpling-folding (pelmeni)", "Pan-frying (blini)"],
+      "cultural_notes": "Russian meals traditionally begin with zakuski (small shared appetisers, similar to mezze), and bread and salt are offered as a traditional welcome gesture to guests.",
+      "fun_facts": [
+        "Beef Stroganoff was developed in 19th-century St. Petersburg and is named after the influential Stroganov family.",
+        "Borscht is claimed as a national dish by Russia, Ukraine, and Poland alike, each with regional variations."
+      ],
+      "quiz": [
+        { "q": "Beef Stroganoff is named after which 19th-century Russian family?", "options": ["Stroganov", "Romanov", "Tolstoy", "Rachmaninoff"], "answer": 0 },
+        { "q": "Which soup, made from beets, is claimed as a national dish by Russia, Ukraine, and Poland?", "options": ["Borscht", "Solyanka", "Shchi", "Okroshka"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "peruvian",
+      "label": "Peruvian Cuisine",
+      "emoji": "🍋",
+      "colour": "#f39c12",
+      "region": "South America (Andes / Pacific Coast)",
+      "description": "A cuisine ranked among the world's most awarded, blending Indigenous Andean staples -- potatoes, corn, quinoa -- with Spanish, African, Chinese, and Japanese immigrant influences.",
+      "history": "Peru is the birthplace of the potato -- Andean farmers domesticated thousands of potato varieties starting around 8,000 years ago -- along with many varieties of corn and quinoa. Spanish colonisation introduced rice, citrus, and livestock; African communities brought via the slave trade contributed techniques still present in Peru's coastal cooking; and 19th-20th century Chinese and Japanese immigration produced the distinct fusion cuisines chifa (Chinese-Peruvian) and nikkei (Japanese-Peruvian).",
+      "famous_dishes": [
+        { "name": "Ceviche", "origin": "Peru", "description": "Peru's national dish -- raw fish 'cooked' in citrus juice; Peru's Ministry of Culture named 28 June National Ceviche Day." },
+        { "name": "Beef Lomo Saltado", "origin": "Peru (chifa-influenced)", "description": "Stir-fried beef with fries and rice, blending Chinese wok technique with Peruvian ingredients." },
+        { "name": "Chicken Aji de Gallina", "origin": "Peru", "description": "Shredded chicken in a creamy, mildly spicy yellow-chilli sauce." },
+        { "name": "Causa Rellena", "origin": "Peru", "description": "A layered dish of mashed yellow potato with a savoury filling, served cold." }
+      ],
+      "key_ingredients": ["Potatoes (thousands of native varieties)", "Corn", "Aji peppers", "Quinoa", "Lime", "Cilantro"],
+      "cooking_techniques": ["Citrus 'cooking' (ceviche)", "Stir-frying (chifa-influenced lomo saltado)", "Slow earth-oven cooking (pachamanca)", "Chilli-paste blending"],
+      "cultural_notes": "Peru holds Mistura, once among the largest food festivals in Latin America, reflecting national pride in a cuisine repeatedly recognised as South America's Leading Culinary Destination at the World Travel Awards.",
+      "fun_facts": [
+        "Peru is the birthplace of the potato, with Andean farmers having domesticated thousands of distinct potato varieties over roughly 8,000 years.",
+        "Peru's Ministry of Culture officially designated 28 June as National Ceviche Day."
+      ],
+      "quiz": [
+        { "q": "Which staple crop was first domesticated by Andean farmers in Peru roughly 8,000 years ago?", "options": ["Potato", "Wheat", "Rice", "Barley"], "answer": 0 },
+        { "q": "What is the name for Peru's Chinese-influenced fusion cuisine?", "options": ["Chifa", "Nikkei", "Criollo", "Andino"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "egyptian",
+      "label": "Egyptian Cuisine",
+      "emoji": "🧆",
+      "colour": "#d35400",
+      "region": "North Africa / Middle East",
+      "description": "One of the world's oldest documented cuisines, built on legumes, bread, and Nile Valley agriculture stretching back to ancient Egyptian civilisation.",
+      "history": "Ancient Egyptian tomb paintings and hieroglyphic records, some over 4,000 years old, depict bread-making, beer-brewing, and legume cooking -- Egypt is considered one of the earliest civilisations to develop leavened bread. Modern Egyptian cuisine layers this ancient agricultural base with Ottoman, Levantine, and Mediterranean influences from centuries of trade and rule.",
+      "famous_dishes": [
+        { "name": "Koshari", "origin": "Egypt", "description": "Egypt's national dish -- a layered mix of rice, lentils, pasta, and fried onions with tomato sauce." },
+        { "name": "Ful Medames", "origin": "Egypt", "description": "Stewed fava beans, eaten since antiquity and still Egypt's most common breakfast." },
+        { "name": "Ta'ameya", "origin": "Egypt", "description": "Egyptian-style falafel made with fava beans rather than the chickpeas used in Levantine falafel." },
+        { "name": "Chicken Molokhia", "origin": "Egypt", "description": "A stew built on jute leaves, eaten since ancient times." }
+      ],
+      "key_ingredients": ["Fava beans", "Lentils", "Rice", "Bread (aish baladi)", "Garlic", "Cumin", "Molokhia (jute leaves)"],
+      "cooking_techniques": ["Long-simmered legume stewing (ful medames)", "Layering and combining (koshari)", "Deep-frying (ta'ameya)", "Leavened flatbread baking"],
+      "cultural_notes": "Ful medames, eaten since ancient times, remains Egypt's most common breakfast dish, and koshari, a relatively modern 19th-20th century creation blending Egyptian, Italian, and Indian influences, is now considered the national dish.",
+      "fun_facts": [
+        "Ancient Egyptian tomb paintings over 4,000 years old depict bread-making and beer-brewing, among the earliest such records in the world.",
+        "Ta'ameya, Egypt's version of falafel, is made from fava beans rather than the chickpeas used in Levantine falafel."
+      ],
+      "quiz": [
+        { "q": "What legume is Ta'ameya (Egyptian-style falafel) traditionally made from, unlike Levantine falafel?", "options": ["Fava beans", "Chickpeas", "Lentils", "Black beans"], "answer": 0 },
+        { "q": "What is Egypt's national dish, combining rice, lentils, pasta, and fried onions?", "options": ["Koshari", "Ful Medames", "Molokhia", "Mahshi"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "argentinian",
+      "label": "Argentinian Cuisine",
+      "emoji": "🥩",
+      "colour": "#607d8b",
+      "region": "South America",
+      "description": "A cuisine defined by world-renowned beef and the asado barbecue tradition, shaped by massive 19th-20th century Italian and Spanish immigration.",
+      "history": "Argentina's vast Pampas grasslands made it one of the world's great cattle-ranching regions from the colonial era onward, and beef became central to national identity through the gaucho (cowboy) culture of the plains. Massive Italian immigration in the late 19th and early 20th centuries -- by some estimates, more Argentines have Italian ancestry than any nationality besides Spanish -- deeply shaped Argentine cuisine, visible in the country's pasta and pizza traditions alongside its beef culture.",
+      "famous_dishes": [
+        { "name": "Beef Asado", "origin": "Argentina", "description": "Argentine barbecue, a cornerstone of national identity and social life." },
+        { "name": "Beef Empanadas", "origin": "Argentina (Spanish/Portuguese origin)", "description": "Hand pies with regionally varied fillings, tracing back to Iberian hand-pie traditions." },
+        { "name": "Beef Milanesa", "origin": "Argentina (Italian immigrant influence)", "description": "Breaded beef cutlet, reflecting Argentina's large Italian immigrant community." },
+        { "name": "Dulce de Leche", "origin": "Argentina", "description": "Caramelised milk confection used widely across Argentine desserts." }
+      ],
+      "key_ingredients": ["Beef", "Wheat flour", "Chimichurri (parsley-garlic-vinegar sauce)", "Dulce de leche", "Yerba mate"],
+      "cooking_techniques": ["Open-flame grilling (asado)", "Slow-roasting", "Breading and pan-frying (milanesa)", "Long caramelisation (dulce de leche)"],
+      "cultural_notes": "Asado is as much a social ritual as a cooking method -- extended family gatherings built around hours of slow grilling -- and yerba mate, a caffeinated herbal infusion sipped from a shared gourd through a metal straw (bombilla), is a defining daily social custom.",
+      "fun_facts": [
+        "Argentina has one of the world's highest rates of per-capita beef consumption, closely tied to its Pampas grassland cattle-ranching tradition.",
+        "Yerba mate is traditionally shared from a single gourd passed around a group, each person drinking through the same metal straw (bombilla)."
+      ],
+      "quiz": [
+        { "q": "What is the name of the traditional metal straw used to drink yerba mate?", "options": ["Bombilla", "Cuchara", "Mate straw", "Sorbete"], "answer": 0 },
+        { "q": "Which large-scale immigration in the late 19th-early 20th century deeply shaped Argentine cuisine alongside its beef culture?", "options": ["Italian immigration", "German immigration", "Irish immigration", "Portuguese immigration"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "caribbean",
+      "label": "Caribbean Cuisine",
+      "emoji": "🌶️",
+      "colour": "#f1c40f",
+      "region": "Caribbean Basin",
+      "description": "A cuisine born from the collision of Indigenous Taino, West African, European colonial, and South Asian indentured-labour traditions across the Caribbean islands, unified by bold spicing and tropical ingredients.",
+      "history": "Caribbean cuisine reflects the region's complex colonial history: Indigenous Taino and Arawak peoples contributed cassava and grilling techniques (the word 'barbecue' likely derives from the Taino 'barbacoa'), West African culinary traditions arrived through the transatlantic slave trade, and later South Asian indentured labourers brought curry spices to islands like Trinidad and Jamaica after slavery's abolition. Jerk seasoning -- a fiery allspice-and-scotch-bonnet marinade -- is documented among Jamaica's Maroon communities, descendants of escaped enslaved Africans who developed the technique partly to preserve and smoke meat in hiding.",
+      "famous_dishes": [
+        { "name": "Jerk Chicken", "origin": "Jamaica (Maroon origin)", "description": "Chicken marinated in an allspice-and-scotch-bonnet blend, smoked or grilled." },
+        { "name": "Ackee and Saltfish", "origin": "Jamaica", "description": "Jamaica's national dish, combining the ackee fruit with salted fish." },
+        { "name": "Beef Oxtail Stew", "origin": "Caribbean", "description": "Slow-braised oxtail in a rich, savoury gravy." },
+        { "name": "Jamaican Beef Patty", "origin": "Jamaica", "description": "Flaky, curry-spiced hand pie, a widely loved Caribbean street food." }
+      ],
+      "key_ingredients": ["Scotch bonnet chilli", "Allspice", "Coconut milk", "Plantain", "Callaloo greens", "Rice and peas"],
+      "cooking_techniques": ["Smoking and marinating (jerk)", "Long braising (oxtail stew)", "Deep-frying (patties, festival)", "Coconut-milk stewing"],
+      "cultural_notes": "The word 'barbecue' is widely believed to derive from the Taino word 'barbacoa,' describing a raised wooden grilling structure; jerk cooking developed among Jamaica's Maroon communities as both a flavouring and meat-preservation technique.",
+      "fun_facts": [
+        "The English word 'barbecue' likely derives from 'barbacoa,' a wooden grilling structure used by the Indigenous Taino people of the Caribbean.",
+        "Jerk seasoning was developed by Jamaica's Maroon communities, descendants of enslaved Africans who escaped and built independent settlements."
+      ],
+      "quiz": [
+        { "q": "The English word 'barbecue' is widely believed to derive from which Indigenous Caribbean word?", "options": ["Barbacoa", "Jerk", "Callaloo", "Ackee"], "answer": 0 },
+        { "q": "Which Jamaican community is credited with developing jerk seasoning?", "options": ["The Maroons", "The Taino", "Colonial planters", "Indentured labourers"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "polish",
+      "label": "Polish Cuisine",
+      "emoji": "🥟",
+      "colour": "#e53935",
+      "region": "Central / Eastern Europe",
+      "description": "A hearty cuisine built on potatoes, cabbage, and dumplings, shaped by centuries of peasant farming traditions and historically close culinary ties to its Eastern European neighbours.",
+      "history": "Polish cuisine developed as a farming tradition suited to a cold climate, relying on preservable staples: cabbage (fresh and fermented as sauerkraut), root vegetables, rye, and cured or smoked meats. Polish royal courts, especially through 16th-century queen Bona Sforza's Italian retinue, introduced vegetables and refined cooking techniques that blended with older Slavic peasant traditions, and Poland shares many dishes -- pierogi, borscht -- with its Eastern European neighbours, each claiming distinct national ownership.",
+      "famous_dishes": [
+        { "name": "Beef Pierogi", "origin": "Poland", "description": "Filled dumplings, made here with beef, though cheese and vegetable versions are equally traditional." },
+        { "name": "Beef Bigos", "origin": "Poland", "description": "Hunter's stew of cabbage, sauerkraut, and meat, often called Poland's national dish." },
+        { "name": "Barszcz", "origin": "Poland", "description": "Polish beet soup, closely related to Ukrainian and Russian borscht." },
+        { "name": "Pączki", "origin": "Poland", "description": "Deep-fried, jam-filled doughnuts, traditionally eaten on Fat Thursday before Lent." }
+      ],
+      "key_ingredients": ["Potatoes", "Cabbage", "Rye flour", "Sour cream", "Dill", "Beets"],
+      "cooking_techniques": ["Dumpling-folding (pierogi)", "Long slow-stewing (bigos, cooked over days)", "Fermenting (sauerkraut)", "Deep-frying (pączki)"],
+      "cultural_notes": "Bigos, often called Poland's national dish, is traditionally cooked, cooled, and reheated repeatedly over several days -- a process believed to deepen its flavour -- and Pączki Day (Fat Thursday) marks the last major indulgence before Lent.",
+      "fun_facts": [
+        "Bigos, Poland's hunter's stew, is traditionally cooked and reheated over several days, which is believed to improve its flavour.",
+        "Pączki, jam-filled doughnuts, are traditionally eaten on Fat Thursday, the last major indulgence before the Lenten fast."
+      ],
+      "quiz": [
+        { "q": "What is the name of Poland's national hunter's stew, traditionally reheated over several days?", "options": ["Bigos", "Barszcz", "Żurek", "Flaczki"], "answer": 0 },
+        { "q": "On what traditional day are Pączki doughnuts eaten before Lent begins?", "options": ["Fat Thursday", "Ash Wednesday", "Shrove Tuesday", "Palm Sunday"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "israeli",
+      "label": "Israeli Cuisine",
+      "emoji": "🥙",
+      "colour": "#00897b",
+      "region": "Middle East",
+      "description": "A young national cuisine woven from Jewish diaspora culinary traditions worldwide -- Middle Eastern, North African, Eastern European (Ashkenazi), and Mediterranean -- alongside long-standing Levantine dishes shared across the region.",
+      "history": "Modern Israeli cuisine reflects waves of Jewish immigration from around the world after the state's founding in 1948, blending Ashkenazi (Eastern European) dishes brought by European Jewish immigrants with Sephardic and Mizrahi (Middle Eastern and North African) Jewish culinary traditions, layered onto the long-standing Levantine food culture of the region shared with Palestinian, Lebanese, and Syrian cooking -- dishes like hummus and falafel are enjoyed across the whole region.",
+      "famous_dishes": [
+        { "name": "Falafel", "origin": "Levant", "description": "Fried chickpea patties, a claimed regional staple closely associated with Israeli street food." },
+        { "name": "Israeli Salad", "origin": "Israel", "description": "A finely diced tomato-cucumber salad eaten at nearly every meal." },
+        { "name": "Shakshuka", "origin": "North Africa (Jewish diaspora)", "description": "Eggs poached in a spiced tomato sauce, of North African Jewish origin." },
+        { "name": "Sabich", "origin": "Israel (Iraqi Jewish origin)", "description": "Fried eggplant pita sandwich, invented by Iraqi Jewish immigrants to Israel in the 1950s." }
+      ],
+      "key_ingredients": ["Chickpeas", "Tahini", "Eggplant", "Tomatoes", "Cucumbers", "Za'atar", "Olive oil"],
+      "cooking_techniques": ["Deep-frying (falafel)", "Poaching in sauce (shakshuka)", "Grinding and blending (hummus, tahini)", "Pickling"],
+      "cultural_notes": "Israeli cuisine's identity is still actively being defined, given its recent formation from many diaspora traditions layered onto shared regional Levantine dishes, and Sabich, invented by Iraqi Jewish immigrants in the 1950s, is a distinctly Israeli-Iraqi Jewish culinary contribution.",
+      "fun_facts": [
+        "Sabich, a popular Israeli street food sandwich, was invented by Iraqi Jewish immigrants to Israel in the 1950s.",
+        "Falafel and hummus are enjoyed and claimed as traditional dishes across many countries of the Levant, not exclusively any single nation."
+      ],
+      "quiz": [
+        { "q": "Sabich, a fried eggplant pita sandwich, was invented by which immigrant community in Israel?", "options": ["Iraqi Jewish immigrants", "Moroccan Jewish immigrants", "Yemenite Jewish immigrants", "Polish Jewish immigrants"], "answer": 0 },
+        { "q": "What is the name for the finely diced tomato-cucumber salad eaten at nearly every Israeli meal?", "options": ["Israeli Salad", "Fattoush", "Tabbouleh", "Horiatiki"], "answer": 0 }
+      ]
     }
   ]
 }

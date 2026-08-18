@@ -4,15 +4,17 @@ const API = '/api/cuisine-detail/recipes';
 const PAGE_SIZE = 60;
 
 const CATEGORY_OPTIONS = [
-  ['', 'All Categories'], ['main', 'Main Course'], ['stew', 'Curry & Stew'],
-  ['grill', 'Grilled / BBQ'], ['rice', 'Rice Dish'], ['noodle', 'Noodles & Pasta'],
-  ['dumpling', 'Dumplings & Wraps'], ['bread', 'Bread'], ['soup', 'Soup'],
-  ['salad', 'Salad'], ['street', 'Street Food'], ['fried', 'Fried'],
-  ['pickle', 'Fermented / Pickled'], ['breakfast', 'Breakfast'], ['dessert', 'Dessert'],
-  ['beverage', 'Beverage'],
+  ['', 'All Categories'], ['main', 'Main Course'], ['curry', 'Curry'], ['stew', 'Stew'],
+  ['soup', 'Soup'], ['soupy_noodle', 'Soupy Noodles'], ['noodle', 'Noodles'],
+  ['pasta', 'Pasta'], ['rice', 'Rice Dish'], ['bread', 'Bread'],
+  ['appetizer', 'Appetisers & Starters'], ['dumpling', 'Dumplings & Wraps'],
+  ['grill', 'Grilled / BBQ'], ['vegetable', 'Vegetables'], ['salad', 'Salad'],
+  ['street', 'Street Food'], ['fried', 'Fried'], ['pickle', 'Fermented / Pickled'],
+  ['breakfast', 'Breakfast'], ['dessert', 'Dessert'], ['ice_cream', 'Ice Cream & Frozen Treats'],
+  ['drink', 'Drinks'], ['hot_drink', 'Hot Drinks'],
 ];
 
-const PROTEIN_OPTIONS = ['', 'Chicken', 'Beef', 'Lamb', 'Mutton/Goat', 'Fish/Seafood', 'Egg', 'Vegetarian', 'Mixed'];
+const PROTEIN_OPTIONS = ['', 'Chicken', 'Beef', 'Lamb', 'Mutton/Goat', 'Fish', 'Seafood', 'Egg', 'Vegetarian', 'Mixed'];
 
 // Lazy Wikipedia thumbnail, same server-side-cached endpoint pattern as VirtualMuseum's WikiThumbnail.
 const thumbCache = {};
