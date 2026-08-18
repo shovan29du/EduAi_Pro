@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Add 2,000 missing objects from the bundled CMA open-access source list.
+"""Add missing objects from the bundled CMA open-access source list.
 
-The top 2,000 records are exhausted first. Because that range contains fewer
-than 2,000 titles absent from the existing museum, selection then continues
-in source order. The output is deterministic and idempotent.
+Selection proceeds in source order, skipping any title already present in
+another gallery, until TARGET_COUNT unique objects are collected. No safety
+or content curation is applied beyond de-duplication -- this gallery mirrors
+the open-access museum record as-is, same as any real museum collection
+browser. The output is deterministic and idempotent; re-run after raising
+TARGET_COUNT to pull in more of the source list.
 """
 
 from __future__ import annotations
@@ -18,7 +21,7 @@ SOURCE_PATH = BASE_DIR / "data" / "museum_objects.json"
 MUSEUM_PATH = BASE_DIR / "data" / "virtual_museum" / "museum.json"
 GALLERY_KEY = "top_2000_additions"
 SOURCE_LIMIT = 5_000
-TARGET_COUNT = 2_000
+TARGET_COUNT = 2_500
 
 
 def normalize(value: str | None) -> str:
@@ -147,10 +150,9 @@ def main() -> None:
         "label": "Top Collection Additions",
         "emoji": "🏛️",
         "description": (
-            "Two thousand open-access Cleveland Museum of Art objects selected in source "
-            "order after removing titles already represented in the Virtual Museum. The "
-            "top-2000 source range is exhausted first, then selection continues only as "
-            "far as needed to complete the unique collection."
+            f"{TARGET_COUNT:,} open-access Cleveland Museum of Art objects selected in "
+            "source order after removing titles already represented in the Virtual "
+            "Museum, with no additional curation applied beyond de-duplication."
         ),
         "objects": selected,
     }
