@@ -2794,6 +2794,115 @@ def sports_players_by_sport(sport_id: str):
     return sport
 
 
+# ── Cuisine & Food Resource Centre ──────────────────────────────────────────────
+_CUISINE_DIR = Path(__file__).parent.parent / "data" / "cuisine"
+_CUISINES_PATH = _CUISINE_DIR / "cuisines.json"
+_FOOD_HISTORY_PATH = _CUISINE_DIR / "food_history.json"
+_COOKING_TECHNIQUES_PATH = _CUISINE_DIR / "cooking_techniques.json"
+_RECIPES_PATH = _CUISINE_DIR / "recipes.json"
+
+@app.get("/api/cuisine")
+def cuisine_overview():
+    if not _CUISINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cuisine data not found")
+    data = _load_json_file(_CUISINES_PATH)
+    return _sanitize_json({
+        "title": data.get("title"),
+        "description": data.get("description"),
+        "cuisines": [
+            {
+                "id": c["id"],
+                "label": c["label"],
+                "emoji": c["emoji"],
+                "colour": c["colour"],
+                "region": c.get("region"),
+                "description": c.get("description"),
+            }
+            for c in data.get("cuisines", [])
+        ],
+    })
+
+@app.get("/api/cuisine/{cuisine_id}")
+def cuisine_detail(cuisine_id: str):
+    if not _CUISINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cuisine data not found")
+    data = _load_json_file(_CUISINES_PATH)
+    cuisine = next((c for c in data.get("cuisines", []) if c["id"] == cuisine_id), None)
+    if not cuisine:
+        raise HTTPException(status_code=404, detail=f"Cuisine '{cuisine_id}' not found")
+    return _sanitize_json(cuisine)
+
+@app.get("/api/cuisine-detail/food-history")
+def cuisine_food_history():
+    if not _FOOD_HISTORY_PATH.exists():
+        raise HTTPException(status_code=404, detail="Food history data not found")
+    return _sanitize_json(_load_json_file(_FOOD_HISTORY_PATH))
+
+@app.get("/api/cuisine-detail/techniques")
+def cuisine_cooking_techniques():
+    if not _COOKING_TECHNIQUES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cooking techniques data not found")
+    return _sanitize_json(_load_json_file(_COOKING_TECHNIQUES_PATH))
+
+_RECIPES_CACHE: list[dict] | None = None
+
+def _load_recipes() -> list[dict]:
+    global _RECIPES_CACHE
+    if _RECIPES_CACHE is None:
+        if not _RECIPES_PATH.exists():
+            raise HTTPException(status_code=404, detail="Recipe data not found")
+        _RECIPES_CACHE = _load_json_file(_RECIPES_PATH).get("recipes", [])
+    return _RECIPES_CACHE
+
+@app.get("/api/cuisine-detail/recipes")
+def cuisine_recipes(
+    q: str = "",
+    cuisine: str = "",
+    category: str = "",
+    protein: str = "",
+    limit: int = 60,
+    offset: int = 0,
+):
+    recipes = _load_recipes()
+    q_lower = q.lower().strip()
+    results = [
+        r for r in recipes
+        if (not q_lower or q_lower in r["name"].lower())
+        and (not cuisine or r["cuisine_id"] == cuisine)
+        and (not category or r["category_id"] == category)
+        and (not protein or r["protein"].lower() == protein.lower())
+    ]
+    total = len(results)
+    page = results[offset: offset + max(1, min(limit, 200))]
+    return _sanitize_json({"total": total, "count": len(page), "offset": offset, "recipes": page})
+
+@app.get("/api/cuisine-detail/recipe-cuisines")
+def cuisine_recipe_cuisine_list():
+    """Distinct cuisine id/label pairs actually present in the recipe
+    collection (23), which is broader than the 13 cuisines with a full
+    landing page in cuisines.json -- used to populate the Recipes search
+    filter without truncating results by page size."""
+    seen: dict[str, str] = {}
+    for r in _load_recipes():
+        seen.setdefault(r["cuisine_id"], r["cuisine"])
+    return _sanitize_json({"cuisines": sorted(({"id": k, "label": v} for k, v in seen.items()), key=lambda c: c["label"])})
+
+@app.get("/api/cuisine-detail/recipes/{recipe_id}")
+def cuisine_recipe_detail(recipe_id: str):
+    recipe = next((r for r in _load_recipes() if r["id"] == recipe_id), None)
+    if not recipe:
+        raise HTTPException(status_code=404, detail=f"Recipe '{recipe_id}' not found")
+    return _sanitize_json(recipe)
+
+@app.get("/api/cuisine/thumbnail")
+def cuisine_thumbnail(wiki_title: str = ""):
+    """Reuses the same server-side Wikipedia thumbnail cache/proxy as the
+    Virtual Museum (see museum_thumbnail above) so recipe cards can show a
+    real photo when the dish has a Wikipedia page, without hitting Wikipedia
+    directly from the browser on every view."""
+    return museum_thumbnail(wiki_title)
+
+
 # ── Art of the Day ────────────────────────────────────────────────────────────
 # Reuses the curated "Famous Painting/Photograph/Sculpture" info_cards already
 # present across the syllabus data. That pool was deliberately curated to

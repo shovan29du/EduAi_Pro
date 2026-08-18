@@ -70,6 +70,10 @@ const TabGroup = lazy(() => import('./components/TabGroup.jsx'));
 const SportsCentre = lazy(() => import('./components/SportsCentre.jsx'));
 const SportsTournaments = lazy(() => import('./components/SportsTournaments.jsx'));
 const PlayerBiographies = lazy(() => import('./components/PlayerBiographies.jsx'));
+const CuisineCentre = lazy(() => import('./components/CuisineCentre.jsx'));
+const RecipeCollection = lazy(() => import('./components/RecipeCollection.jsx'));
+const CookingTechniques = lazy(() => import('./components/CookingTechniques.jsx'));
+const FoodHistory = lazy(() => import('./components/FoodHistory.jsx'));
 
 const CHILD_TABS = [
   'Dashboard',
@@ -90,6 +94,7 @@ const CHILD_TABS = [
   'Survival Skills',
   'Other Subjects',
   'Sports Centre',
+  'Cuisine Centre',
   'Tools',
   'Countries',
   'Assessment',
@@ -333,6 +338,17 @@ export default function App() {
                 { id: 'Sports', label: '🏅 Sports', render: () => <SportsCentre /> },
                 { id: 'Tournaments', label: '🏆 Tournaments', render: () => <SportsTournaments /> },
                 { id: 'Players', label: '🌟 Players', render: () => <PlayerBiographies /> },
+              ]}
+            />
+          )}
+          {activeTab === 'Cuisine Centre' && (
+            <TabGroup
+              ariaLabel="Cuisine Centre"
+              items={[
+                { id: 'Cuisines', label: '🌍 Cuisines', render: () => <CuisineCentre /> },
+                { id: 'Recipes', label: '🍽️ Recipes', render: () => <RecipeCollection /> },
+                { id: 'Techniques', label: '🔥 Techniques', render: () => <CookingTechniques /> },
+                { id: 'Food History', label: '📜 Food History', render: () => <FoodHistory /> },
               ]}
             />
           )}

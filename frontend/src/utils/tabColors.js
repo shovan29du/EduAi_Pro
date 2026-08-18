@@ -51,6 +51,7 @@ const TAB_ICONS = {
   'Survival Skills': '🏕️',
   'Other Subjects': '🧩',
   'Sports Centre': '🏅',
+  'Cuisine Centre': '🍽️',
   Tools: '🧮',
   Countries: '🌍',
   Assessment: '📝',

@@ -1,0 +1,344 @@
+{
+  "title": "Cuisine & Food Resource Centre",
+  "description": "World cuisines, famous dishes, food history, cooking techniques, and ingredients — a reference for anyone curious about how the world eats.",
+  "cuisines": [
+    {
+      "id": "italian",
+      "label": "Italian Cuisine",
+      "emoji": "🍝",
+      "colour": "#c0392b",
+      "region": "Southern Europe",
+      "description": "One of the most widely eaten cuisines on earth, built on regional traditions that vary sharply between Italy's twenty regions — from the butter-and-rice north to the tomato-and-olive-oil south.",
+      "history": "Ancient Roman cuisine already used wheat, olive oil, wine, and garum (fermented fish sauce). Pasta's documented spread through Italy dates to the medieval period; tomatoes, a New World crop, only arrived after Columbus's voyages (1492) and were not widely eaten until the 18th century, meaning classic tomato-based dishes like modern pizza margherita and many pasta sauces are relatively recent additions to a much older culinary tradition.",
+      "famous_dishes": [
+        { "name": "Pizza Margherita", "origin": "Naples", "description": "Flatbread topped with tomato, mozzarella, and basil; popular legend credits its red-white-green colours to the Italian flag, made in 1889 for Queen Margherita of Savoy, though the tomato-mozzarella-basil combination predates that story." },
+        { "name": "Spaghetti alla Carbonara", "origin": "Rome (Lazio)", "description": "Pasta with eggs, Pecorino Romano cheese, and black pepper; the traditional Roman recipe uses guanciale (cured pork jowl) — this collection uses beef bacon instead, keeping the dish pork-free with no cream added." },
+        { "name": "Risotto alla Milanese", "origin": "Milan (Lombardy)", "description": "Creamy short-grain rice dish coloured and flavoured with saffron, reflecting northern Italy's rice-growing Po Valley and its historic spice trade." },
+        { "name": "Lasagne al Forno", "origin": "Emilia-Romagna", "description": "Layered baked pasta with ragù (meat sauce), béchamel, and Parmigiano-Reggiano; Bologna is famous for its ragù alla bolognese." }
+      ],
+      "key_ingredients": ["Olive oil", "Tomatoes", "Wheat pasta", "Parmigiano-Reggiano", "Basil", "Garlic", "Balsamic vinegar", "Arborio rice"],
+      "cooking_techniques": ["Al dente pasta boiling", "Soffritto (slow-cooked aromatic base)", "Braising (ragù)", "Wood-fired baking"],
+      "cultural_notes": "Meals are traditionally structured in courses — antipasto, primo (pasta/rice), secondo (meat/fish) with contorno (side), and dolce (dessert) — and regional identity is fiercely tied to local dishes and ingredients (Protected Designation of Origin labels like Parmigiano-Reggiano DOP protect many of them by law).",
+      "fun_facts": [
+        "Naples' Associazione Verace Pizza Napoletana sets strict rules for what can legally be called a 'true Neapolitan pizza'.",
+        "Parmigiano-Reggiano must be aged a minimum of 12 months, and often 24-36, under EU protected-origin rules."
+      ],
+      "quiz": [
+        { "q": "Which New World crop, essential to modern Italian cooking, only reached Italy after 1492?", "options": ["Tomato", "Wheat", "Olive", "Rice"], "answer": 0 },
+        { "q": "What Roman cheese is traditionally used in Carbonara?", "options": ["Pecorino Romano", "Mozzarella", "Gorgonzola", "Ricotta"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "french",
+      "label": "French Cuisine",
+      "emoji": "🥐",
+      "colour": "#2980b9",
+      "region": "Western Europe",
+      "description": "A cuisine whose codified techniques and 'mother sauces' underpin much of Western professional cooking, prized for precision, sauce-work, and pastry.",
+      "history": "French haute cuisine was formalised by chefs such as Marie-Antoine Carême in the early 19th century and later systematised by Auguste Escoffier, who organised professional kitchens into the 'brigade de cuisine' system still used worldwide today. In 2010, UNESCO added the 'gastronomic meal of the French' to its Intangible Cultural Heritage list.",
+      "famous_dishes": [
+        { "name": "Coq au Vin", "origin": "Burgundy", "description": "Chicken braised slowly in red wine with mushrooms, onions, and lardons — a classic example of French braising technique." },
+        { "name": "Bouillabaisse", "origin": "Marseille", "description": "A Provençal fish stew made with several kinds of Mediterranean fish and shellfish, saffron, and fennel, traditionally served with rouille (garlic-chilli mayonnaise) and croutons." },
+        { "name": "Croissant", "origin": "France (via Austrian kipferl)", "description": "Laminated, buttery pastry made by folding butter into dough repeatedly to create dozens of flaky layers; a staple of French breakfast." },
+        { "name": "Ratatouille", "origin": "Provence (Nice)", "description": "Stewed summer vegetables — courgette, aubergine, peppers, tomatoes, onion — seasoned with herbes de Provence." }
+      ],
+      "key_ingredients": ["Butter", "Wine", "Shallots", "Fresh herbs (thyme, tarragon)", "Cream", "Dijon mustard", "Cheese (over 1,000 named French varieties)"],
+      "cooking_techniques": ["Braising", "Sauce-making (the five 'mother sauces': béchamel, velouté, espagnole, hollandaise, tomate)", "Sautéing", "Sous-vide (a modern French-originated technique)", "Lamination (pastry)"],
+      "cultural_notes": "Meals are traditionally leisurely and course-structured; the concept of 'terroir' — the specific character a region's soil and climate give an ingredient — is central to French food identity, especially in wine and cheese.",
+      "fun_facts": [
+        "Escoffier's 1903 book 'Le Guide Culinaire' remains a foundational reference in professional Western kitchens.",
+        "France produces well over a thousand distinct named cheeses across its regions."
+      ],
+      "quiz": [
+        { "q": "Who systematised the professional kitchen 'brigade' system still used today?", "options": ["Auguste Escoffier", "Julia Child", "Paul Bocuse", "Marie-Antoine Carême"], "answer": 0 },
+        { "q": "How many classic 'mother sauces' does French cuisine define?", "options": ["Five", "Three", "Seven", "Ten"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "chinese",
+      "label": "Chinese Cuisine",
+      "emoji": "🥟",
+      "colour": "#e74c3c",
+      "region": "East Asia",
+      "description": "One of the oldest continuous culinary traditions in the world, encompassing at least eight major regional styles ('Eight Culinary Traditions') with very different flavour profiles, from Sichuan's numbing spice to Cantonese's delicate steaming.",
+      "history": "Chinese food culture stretches back thousands of years; the wok, chopsticks, stir-frying, and soy-based fermentation are all ancient Chinese contributions. The Silk Road brought new ingredients like wheat noodles westward and spices inward, and regional cuisines diverged sharply due to China's size and varied geography and climate.",
+      "famous_dishes": [
+        { "name": "Peking Duck", "origin": "Beijing", "description": "Roasted duck with crisp lacquered skin, traditionally carved tableside and served with thin pancakes, spring onion, cucumber, and hoisin sauce; documented in imperial-era Beijing cookery." },
+        { "name": "Mapo Tofu", "origin": "Sichuan", "description": "Silken tofu in a fiery sauce of fermented broad-bean paste (doubanjiang) and Sichuan peppercorn, which produces the tongue-numbing 'málà' sensation characteristic of Sichuan food." },
+        { "name": "Xiaolongbao", "origin": "Shanghai/Jiangnan region", "description": "Steamed soup dumplings holding a pocket of hot broth, made by wrapping a gelatinised aspic that melts during steaming." },
+        { "name": "Dim Sum (various)", "origin": "Guangdong (Cantonese)", "description": "A wide range of small steamed or fried dishes traditionally served with tea in Cantonese teahouses, a practice known as 'yum cha'." }
+      ],
+      "key_ingredients": ["Soy sauce", "Rice", "Wheat noodles", "Ginger", "Garlic", "Scallions", "Sichuan peppercorn", "Rice wine", "Tofu"],
+      "cooking_techniques": ["Stir-frying (in a wok over very high heat)", "Steaming", "Braising ('red-cooking', hongshao)", "Deep-frying", "Fermentation (soy sauce, doubanjiang, black vinegar)"],
+      "cultural_notes": "Meals are typically shared family-style around a round table, with dishes placed centrally rather than plated individually; balance of flavour, colour, aroma, and texture is a traditional guiding principle.",
+      "fun_facts": [
+        "China's 'Eight Culinary Traditions' (Sichuan, Cantonese, Shandong, Jiangsu, Zhejiang, Fujian, Hunan, and Anhui) are the most widely cited regional classification.",
+        "The wok's shape was designed to concentrate heat at the base while allowing fast tossing over an open flame."
+      ],
+      "quiz": [
+        { "q": "What ingredient produces the tongue-numbing 'málà' sensation in Sichuan cooking?", "options": ["Sichuan peppercorn", "Black pepper", "Ginger", "Star anise"], "answer": 0 },
+        { "q": "What is the Cantonese practice of drinking tea with small dishes called?", "options": ["Yum cha", "Hot pot", "Wok hei", "Dim sum"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "japanese",
+      "label": "Japanese Cuisine",
+      "emoji": "🍣",
+      "colour": "#8e44ad",
+      "region": "East Asia",
+      "description": "A cuisine centred on seasonality, precision, and umami-rich dashi broth, recognised by UNESCO in 2013 as 'washoku', an Intangible Cultural Heritage tradition tied to New Year celebrations and respect for nature.",
+      "history": "Rice cultivation and fish-based diets go back millennia; sushi began as 'narezushi', fermented fish preserved in rice, and evolved into the vinegared-rice 'nigiri' style associated with Edo-period (1603-1868) Tokyo street food. Buddhist influence historically limited meat-eating for centuries, shaping a strong tradition of vegetable, soy, and seafood cookery.",
+      "famous_dishes": [
+        { "name": "Sushi (Nigiri/Maki)", "origin": "Edo (Tokyo)", "description": "Vinegared rice paired with raw or cooked fish, seaweed, and vegetables; nigiri-zushi as known today developed as fast food for Edo-period workers." },
+        { "name": "Ramen", "origin": "Japan, adapted from Chinese wheat noodles", "description": "Wheat noodles in a broth (shoyu, miso, shio, or tonkotsu styles), topped with ingredients like chashu (here made with beef instead of the traditional pork), ajitama egg, and nori; regional ramen styles vary widely across Japan." },
+        { "name": "Tempura", "origin": "Nagasaki (via Portuguese traders, 16th century)", "description": "Lightly battered, deep-fried seafood and vegetables; introduced by Portuguese missionaries and adapted into a distinctly Japanese light-batter technique." },
+        { "name": "Miso Soup", "origin": "Japan", "description": "Dashi broth flavoured with fermented soybean paste (miso), typically containing tofu and wakame seaweed; a staple of the traditional Japanese breakfast." }
+      ],
+      "key_ingredients": ["Rice", "Soy sauce", "Miso", "Dashi (kombu and katsuobushi stock)", "Nori seaweed", "Wasabi", "Mirin", "Rice vinegar"],
+      "cooking_techniques": ["Sushi rice preparation (shari)", "Tempura frying", "Simmering in dashi", "Grilling (yakitori, robatayaki)", "Fermentation (miso, soy sauce, sake)"],
+      "cultural_notes": "Presentation and seasonality (shun) are central — dishes are chosen and plated to reflect the current season, and umami, identified as a distinct taste by Japanese chemist Kikunae Ikeda in 1908, is a foundational flavour concept.",
+      "fun_facts": [
+        "Umami was scientifically identified and named by Japanese researcher Kikunae Ikeda in 1908, from glutamate in kombu seaweed.",
+        "Tempura's batter technique came from 16th-century Portuguese Jesuit traders, showing Japanese cuisine's long history of adapting foreign ingredients."
+      ],
+      "quiz": [
+        { "q": "Who identified and named the taste 'umami' in 1908?", "options": ["Kikunae Ikeda", "Auguste Escoffier", "Marco Polo", "Confucius"], "answer": 0 },
+        { "q": "Tempura's frying technique was introduced to Japan by traders from which country?", "options": ["Portugal", "China", "Netherlands", "Spain"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "indian",
+      "label": "Indian Cuisine",
+      "emoji": "🍛",
+      "colour": "#e67e22",
+      "region": "South Asia",
+      "description": "An enormously diverse cuisine shaped by geography, religion, and centuries of trade — spanning wheat-based, meat-eating northern states and rice-based, often vegetarian, coconut-and-tamarind southern states.",
+      "history": "India has been central to the global spice trade for over 2,000 years — black pepper, cardamom, and cinnamon from the subcontinent drove ancient Roman and later European trade routes, and the search for a sea route to Indian spices motivated Vasco da Gama's 1498 voyage. Mughal rule (16th-19th centuries) introduced rich, dairy-based North Indian cooking (biryani, kebabs, Mughlai gravies), while chillies, now central to Indian food, are a New World crop introduced by the Portuguese in the 16th century.",
+      "famous_dishes": [
+        { "name": "Biryani", "origin": "Mughal-era North India / Hyderabad", "description": "Layered spiced rice dish with meat or vegetables, cooked using the 'dum' (sealed slow-steaming) method; Hyderabadi and Lucknowi biryani are especially renowned regional styles." },
+        { "name": "Butter Chicken (Murgh Makhani)", "origin": "Delhi", "description": "Tandoor-roasted chicken in a tomato-butter-cream gravy, invented at the Moti Mahal restaurant in Delhi in the late 1940s." },
+        { "name": "Masala Dosa", "origin": "South India (Karnataka/Tamil Nadu)", "description": "Fermented rice-and-lentil crepe filled with spiced potato, served with sambar and coconut chutney; a staple of South Indian breakfast." },
+        { "name": "Chole Bhature", "origin": "Punjab", "description": "Spiced chickpea curry served with deep-fried leavened bread, a popular North Indian street food." }
+      ],
+      "key_ingredients": ["Rice", "Wheat (for roti/naan)", "Lentils (dal)", "Ghee", "Turmeric", "Cumin", "Coriander", "Garam masala", "Chillies", "Yogurt"],
+      "cooking_techniques": ["Tempering spices in hot oil (tadka)", "Tandoor clay-oven roasting", "Slow-steaming (dum)", "Fermentation (dosa/idli batter)", "Curry-building with layered spice blooming"],
+      "cultural_notes": "India's cuisine is deeply linked to religion and region — Hindu, Jain, and Buddhist traditions influence widespread vegetarianism in many communities, while Mughlai and coastal cuisines reflect centuries of trade and migration.",
+      "fun_facts": [
+        "Butter chicken is often credited to chef Kundan Lal Gujral at Delhi's Moti Mahal restaurant, reportedly created to use up leftover tandoori chicken in a rich gravy.",
+        "India is the world's largest producer and consumer of spices, and its historic spice trade helped drive the Age of Exploration."
+      ],
+      "quiz": [
+        { "q": "The search for a sea route to India's spices motivated which 1498 voyage?", "options": ["Vasco da Gama's", "Christopher Columbus's", "Ferdinand Magellan's", "Marco Polo's"], "answer": 0 },
+        { "q": "Which cooking method is used to make biryani using a sealed, slow-steaming pot?", "options": ["Dum", "Tandoor", "Tadka", "Wok hei"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "mexican",
+      "label": "Mexican Cuisine",
+      "emoji": "🌮",
+      "colour": "#27ae60",
+      "region": "North America",
+      "description": "A cuisine rooted in ancient Mesoamerican staples — corn, beans, and chillies — recognised by UNESCO in 2010 as an Intangible Cultural Heritage tradition, particularly the traditional cuisine of Michoacán.",
+      "history": "Corn (maize) has been cultivated in Mesoamerica for roughly 9,000 years and remains the cultural and nutritional foundation of Mexican food, prepared using the ancient technique of nixtamalization (soaking corn in an alkaline lime solution) to make masa for tortillas and tamales. The Columbian Exchange after 1492 sent Mexican-origin foods — tomatoes, chillies, chocolate, vanilla, and turkey — to the rest of the world, while Spanish colonisation introduced pork, beef, dairy, wheat, and rice into Mexican cooking.",
+      "famous_dishes": [
+        { "name": "Mole Poblano", "origin": "Puebla", "description": "A complex sauce of dozens of ingredients including chillies, spices, nuts, and chocolate, served over turkey or chicken; considered one of Mexico's most elaborate and celebrated dishes." },
+        { "name": "Tacos al Pastor", "origin": "Central Mexico (adapted from Lebanese shawarma)", "description": "Marinated meat cooked on a vertical spit and shaved onto small tortillas with pineapple, onion, and coriander — a fusion dish brought by Lebanese immigrants to Mexico in the early 20th century; traditionally pork, this collection uses lamb (trompo-style lamb al pastor is also a real regional variation)." },
+        { "name": "Chiles en Nogada", "origin": "Puebla", "description": "Poblano chillies stuffed with a sweet-savoury picadillo, topped with walnut cream sauce and pomegranate seeds, showing the Mexican flag's colours; traditionally eaten around Mexican Independence Day." },
+        { "name": "Tamales", "origin": "Mesoamerica (pre-Columbian)", "description": "Masa dough filled with meat, cheese, or chillies, wrapped in corn husk or banana leaf and steamed; documented among Aztec and Maya peoples before European contact." }
+      ],
+      "key_ingredients": ["Corn (maize)", "Beans", "Chillies", "Tomatoes", "Lime", "Avocado", "Cacao", "Epazote", "Cotija cheese"],
+      "cooking_techniques": ["Nixtamalization (alkaline processing of corn)", "Charring/roasting chillies and tomatoes on a comal", "Slow braising (for mole and barbacoa)", "Steaming (tamales)"],
+      "cultural_notes": "Corn holds deep cultural and even spiritual significance tracing back to Aztec and Maya cosmology; regional cuisines vary enormously, from the Yucatán's achiote-based cochinita pibil to Oaxaca's seven varieties of mole.",
+      "fun_facts": [
+        "Corn, chillies, tomatoes, chocolate, vanilla, and turkey are all foods of Mexican/Mesoamerican origin that spread worldwide after 1492.",
+        "Tacos al pastor descend from Lebanese immigrants' shawarma spit-roasting technique, adapted with Mexican chillies and pineapple."
+      ],
+      "quiz": [
+        { "q": "What ancient technique turns corn into the masa dough used for tortillas?", "options": ["Nixtamalization", "Fermentation", "Nixtamal roasting", "Comal pressing"], "answer": 0 },
+        { "q": "Tacos al pastor were adapted from which immigrant community's shawarma spit-roasting technique?", "options": ["Lebanese", "Spanish", "Chinese", "Italian"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "thai",
+      "label": "Thai Cuisine",
+      "emoji": "🍜",
+      "colour": "#16a085",
+      "region": "Southeast Asia",
+      "description": "Famous for balancing sweet, sour, salty, bitter, and spicy in a single dish, Thai cooking blends indigenous Southeast Asian ingredients with Indian, Chinese, and Portuguese influences.",
+      "history": "Thai cuisine developed at a historic crossroads of trade — Chinese immigration brought stir-frying and noodles, Indian traders brought curry spices, and Portuguese traders introduced chillies in the 16th-17th centuries, which Thai cooks adopted so thoroughly that chilli heat is now considered a defining feature of the cuisine.",
+      "famous_dishes": [
+        { "name": "Pad Thai", "origin": "Central Thailand", "description": "Stir-fried rice noodles with egg, tofu or shrimp, bean sprouts, and tamarind sauce; promoted as a national dish under Prime Minister Plaek Phibunsongkhram in the 1930s-40s to boost rice-noodle consumption." },
+        { "name": "Tom Yum Goong", "origin": "Central Thailand", "description": "Hot and sour prawn soup flavoured with lemongrass, kaffir lime leaf, galangal, and chilli — a showcase of the classic Thai sweet-sour-salty-spicy balance." },
+        { "name": "Green Curry (Gaeng Keow Wan)", "origin": "Central Thailand", "description": "Coconut-milk curry made with green chillies, Thai basil, and curry paste pounded from fresh aromatics rather than dried spices." },
+        { "name": "Som Tum", "origin": "Northeastern Thailand (Isan)", "description": "Shredded green papaya salad pounded with chilli, lime, fish sauce, and palm sugar in a mortar and pestle; reflects Isan cuisine's strong Lao influence." }
+      ],
+      "key_ingredients": ["Fish sauce (nam pla)", "Galangal", "Lemongrass", "Kaffir lime leaf", "Thai chillies", "Coconut milk", "Palm sugar", "Tamarind"],
+      "cooking_techniques": ["Pounding curry paste with a mortar and pestle", "Stir-frying over high heat", "Balancing the four flavour pillars (sweet, sour, salty, spicy)", "Simmering coconut-milk curries"],
+      "cultural_notes": "Meals are typically shared, with several dishes placed on the table so diners can balance flavours across the whole meal rather than within a single dish; street food culture (particularly in Bangkok) is central to everyday Thai eating.",
+      "fun_facts": [
+        "Pad Thai was actively promoted as a national dish in the 1930s-40s as part of a Thai nationalist campaign.",
+        "Chillies, now essential to Thai food, only arrived in Southeast Asia after Portuguese traders introduced them from the Americas."
+      ],
+      "quiz": [
+        { "q": "Which four flavours does classic Thai cooking aim to balance in a meal?", "options": ["Sweet, sour, salty, spicy", "Sweet, bitter, umami, salty", "Sour, bitter, spicy, umami", "Salty, sweet, umami, sour"], "answer": 0 },
+        { "q": "Who is credited with promoting Pad Thai as a national dish in the 1930s-40s?", "options": ["Plaek Phibunsongkhram", "Rama V", "Bhumibol Adulyadej", "Anand Panyarachun"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lebanese",
+      "label": "Lebanese & Levantine Cuisine",
+      "emoji": "🥙",
+      "colour": "#d35400",
+      "region": "Middle East",
+      "description": "The mezze-centred cuisine of the Eastern Mediterranean coast, shared with variations across Syria, Jordan, and Palestine, built on olive oil, chickpeas, herbs, and grilled meats.",
+      "history": "Levantine food traditions stretch back to ancient Phoenician and Mediterranean trade routes, and the region's position between Europe, Africa, and Asia has layered Ottoman, Persian, and Mediterranean influences into its cooking over centuries. The mezze tradition — many small shared dishes — is documented as a centuries-old style of communal eating across the region.",
+      "famous_dishes": [
+        { "name": "Hummus", "origin": "Levant (disputed exact origin, claimed across the region)", "description": "Blended chickpeas, tahini, lemon, and garlic; one of the most internationally recognised Levantine dishes." },
+        { "name": "Tabbouleh", "origin": "Lebanon/Syria", "description": "A parsley-forward salad with bulgur wheat, tomato, mint, lemon, and olive oil — parsley, not bulgur, is the dominant ingredient by volume in the traditional recipe." },
+        { "name": "Kibbeh", "origin": "Levant", "description": "A dish of minced meat mixed with bulgur wheat and spices, either shaped and fried or served raw (kibbeh nayyeh); often considered a Lebanese national dish." },
+        { "name": "Shawarma", "origin": "Levant (developed from Ottoman döner)", "description": "Marinated meat stacked and roasted on a vertical spit, shaved and served in flatbread — a direct relative of Turkish döner kebab and Greek gyro." }
+      ],
+      "key_ingredients": ["Chickpeas", "Tahini", "Olive oil", "Bulgur wheat", "Parsley", "Sumac", "Za'atar", "Pomegranate molasses", "Pine nuts"],
+      "cooking_techniques": ["Vertical spit-roasting (shawarma)", "Grilling over charcoal", "Raw preparation (kibbeh nayyeh, tabbouleh)", "Slow braising (stews/yakhne)"],
+      "cultural_notes": "Mezze — a spread of many small dishes shared at the centre of the table — is the defining format of a Levantine meal, closely tied to hospitality customs across the region.",
+      "fun_facts": [
+        "Contrary to a common assumption, tabbouleh is primarily a parsley salad with only a small amount of bulgur, not the reverse.",
+        "Shawarma, döner kebab, and gyro are all regional variants of the same vertical spit-roasting technique that spread across the former Ottoman-influenced Mediterranean."
+      ],
+      "quiz": [
+        { "q": "What is the dominant ingredient by volume in traditional tabbouleh?", "options": ["Parsley", "Bulgur wheat", "Tomato", "Mint"], "answer": 0 },
+        { "q": "Shawarma is a regional relative of which two other spit-roasted dishes?", "options": ["Döner kebab and gyro", "Biryani and pilaf", "Tagine and couscous", "Paella and risotto"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ethiopian",
+      "label": "Ethiopian Cuisine",
+      "emoji": "🍲",
+      "colour": "#f39c12",
+      "region": "East Africa",
+      "description": "A distinctive cuisine built around injera, a spongy fermented flatbread, and richly spiced stews (wat), traditionally eaten communally without cutlery.",
+      "history": "Ethiopia is one of the few regions in the world to independently domesticate its own staple grain — teff — thousands of years ago, and its Christian Orthodox and Muslim communities both observe extensive fasting traditions that shaped a large, well-developed vegan repertoire (the 'fasting food' or 'yetsom megib' dishes) eaten during Orthodox fasting periods, which can total well over 200 days a year for observant Orthodox Christians.",
+      "famous_dishes": [
+        { "name": "Injera", "origin": "Ethiopia/Eritrea", "description": "A large, sour, spongy flatbread made from fermented teff flour, used as both plate and utensil — pieces are torn off to scoop up stews." },
+        { "name": "Doro Wat", "origin": "Ethiopia", "description": "A rich chicken stew simmered in berbere spice blend and niter kibbeh (spiced clarified butter), often considered Ethiopia's national dish, traditionally served with a hard-boiled egg." },
+        { "name": "Misir Wat", "origin": "Ethiopia", "description": "Spiced red lentil stew, a staple 'fasting food' dish eaten during Orthodox Christian fasting periods when animal products are avoided." },
+        { "name": "Kitfo", "origin": "Ethiopia (Gurage region)", "description": "Minced raw or lightly warmed beef seasoned with niter kibbeh and mitmita spice blend, similar in concept to steak tartare." }
+      ],
+      "key_ingredients": ["Teff", "Berbere spice blend", "Niter kibbeh (spiced butter)", "Lentils", "Injera", "Mitmita spice blend"],
+      "cooking_techniques": ["Fermentation (injera batter, over several days)", "Slow-simmering stews (wat)", "Spice-blending (berbere, mitmita)", "Clarifying and infusing butter (niter kibbeh)"],
+      "cultural_notes": "Meals are eaten by hand from a shared platter lined with injera, and feeding a companion a bite by hand — called 'gursha' — is a traditional gesture of respect and affection.",
+      "fun_facts": [
+        "Teff, the grain used for injera, is one of the few staple cereals domesticated in Africa rather than imported from elsewhere.",
+        "Ethiopian Orthodox Christians traditionally observe fasting on many days of the year, which historically produced a rich tradition of vegan stews and dishes."
+      ],
+      "quiz": [
+        { "q": "What grain is traditional injera flatbread made from?", "options": ["Teff", "Wheat", "Rice", "Millet"], "answer": 0 },
+        { "q": "What is the Ethiopian custom of feeding a companion by hand called?", "options": ["Gursha", "Mezze", "Wat", "Kitfo"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "korean",
+      "label": "Korean Cuisine",
+      "emoji": "🍚",
+      "colour": "#e91e63",
+      "region": "East Asia",
+      "description": "A cuisine centred on fermentation, banchan (small shared side dishes), and communal grilling, shaped by a strong seasonal preservation tradition suited to the Korean peninsula's cold winters.",
+      "history": "Kimchi-making (called 'gimjang') developed as a way to preserve vegetables through harsh winters and is documented in Korean records for well over a thousand years; UNESCO added the communal kimjang tradition to its Intangible Cultural Heritage list in 2013. Korean royal court cuisine, elaborately documented during the Joseon dynasty (1392-1897), also strongly influences formal Korean cooking today.",
+      "famous_dishes": [
+        { "name": "Kimchi", "origin": "Korea", "description": "Fermented, seasoned vegetables — most commonly napa cabbage with chilli, garlic, ginger, and fermented seafood — served at nearly every Korean meal." },
+        { "name": "Bibimbap", "origin": "Korea (associated with Jeonju)", "description": "A bowl of rice topped with seasoned vegetables, meat, a fried egg, and gochujang (fermented chilli paste), mixed together before eating." },
+        { "name": "Bulgogi", "origin": "Korea", "description": "Thin slices of marinated beef, traditionally in soy sauce, pear, garlic, and sesame oil, grilled or pan-seared." },
+        { "name": "Korean BBQ (Gogigui)", "origin": "Korea", "description": "Tabletop grilling of meat, wrapped in lettuce with garlic, ssamjang paste, and banchan side dishes — a highly social dining format." }
+      ],
+      "key_ingredients": ["Gochujang (fermented chilli paste)", "Doenjang (fermented soybean paste)", "Napa cabbage", "Sesame oil", "Garlic", "Gochugaru (chilli flakes)", "Rice"],
+      "cooking_techniques": ["Fermentation (kimchi, gochujang, doenjang)", "Tabletop grilling", "Marinating (bulgogi)", "Banchan-style small-dish preparation"],
+      "cultural_notes": "A Korean meal traditionally centres on rice and soup accompanied by several banchan side dishes shared by everyone at the table, rather than individually plated courses.",
+      "fun_facts": [
+        "The communal kimchi-making tradition, gimjang, was inscribed on UNESCO's Intangible Cultural Heritage list in 2013.",
+        "Korea has thousands of regional and seasonal kimchi variations beyond the common napa-cabbage version."
+      ],
+      "quiz": [
+        { "q": "What is the traditional communal Korean kimchi-making event called?", "options": ["Gimjang", "Banchan", "Ssamjang", "Doenjang"], "answer": 0 },
+        { "q": "What fermented paste gives bibimbap and many Korean dishes their spicy flavour?", "options": ["Gochujang", "Miso", "Doubanjiang", "Harissa"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "spanish",
+      "label": "Spanish Cuisine",
+      "emoji": "🥘",
+      "colour": "#f1c40f",
+      "region": "Southern Europe",
+      "description": "A cuisine of strong regional identities — from Basque pintxos to Andalusian gazpacho — unified by olive oil, garlic, and a deep tapas culture of small shared plates.",
+      "history": "Spain's cuisine reflects centuries of Moorish (Islamic) rule (711-1492), which introduced rice, saffron, almonds, and citrus, alongside later New World imports — tomatoes and peppers, both essential to modern Spanish cooking, only arrived after Columbus's voyages. Paella developed in the rice-growing region around Valencia, historically as a labourers' field dish.",
+      "famous_dishes": [
+        { "name": "Paella", "origin": "Valencia", "description": "Saffron-coloured rice dish cooked in a wide shallow pan; the original Valencian version uses rabbit, chicken, and green beans, though seafood paella is now internationally more famous." },
+        { "name": "Tortilla Española", "origin": "Spain", "description": "A thick potato-and-egg omelette, one of Spain's most common tapas dishes, served at room temperature." },
+        { "name": "Gazpacho", "origin": "Andalusia", "description": "A cold, blended raw tomato and vegetable soup, well suited to Andalusia's hot summers; became widely eaten only after tomatoes arrived from the Americas." },
+        { "name": "Jamón Ibérico", "origin": "Spain", "description": "Dry-cured ham from Iberian pigs, aged for months to years; considered one of Spain's most prized culinary products." }
+      ],
+      "key_ingredients": ["Olive oil", "Garlic", "Saffron", "Tomatoes", "Rice (bomba rice for paella)", "Jamón", "Sherry vinegar", "Paprika (pimentón)"],
+      "cooking_techniques": ["Paella's uncovered rice-searing method (achieving 'socarrat', the crisp bottom layer)", "Dry-curing (jamón)", "Cold blending (gazpacho)", "Frying in olive oil"],
+      "cultural_notes": "Tapas culture — small shared plates eaten socially, often while standing at a bar — is central to Spanish dining, and meal times run notably later than in most of Europe, with dinner often after 9pm.",
+      "fun_facts": [
+        "'Socarrat', the caramelised crust that forms at the bottom of a well-made paella, is considered a mark of a skilled cook, not a mistake.",
+        "Tomatoes and peppers, now central to Spanish cuisine, are New World crops that only arrived in Spain after 1492."
+      ],
+      "quiz": [
+        { "q": "What is the prized crisp, caramelised rice layer at the bottom of a well-made paella called?", "options": ["Socarrat", "Sofrito", "Bomba", "Pimentón"], "answer": 0 },
+        { "q": "Which region is paella traditionally associated with?", "options": ["Valencia", "Catalonia", "Andalusia", "Galicia"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "vietnamese",
+      "label": "Vietnamese Cuisine",
+      "emoji": "🍲",
+      "colour": "#1abc9c",
+      "region": "Southeast Asia",
+      "description": "A cuisine known for freshness, herbs, and a lighter use of oil and dairy than many neighbouring cuisines, shaped by Chinese, Khmer, and French colonial influences.",
+      "history": "A thousand years of Chinese rule shaped early Vietnamese cooking (chopsticks, stir-frying, soy sauce), while French colonial rule (19th-20th centuries) introduced baguettes, pâté, and coffee — leading to fusion dishes like bánh mì. Phở, now Vietnam's most internationally famous dish, is generally dated to the early 20th century in northern Vietnam, likely influenced by French beef-eating habits combined with Vietnamese rice-noodle and spice traditions.",
+      "famous_dishes": [
+        { "name": "Phở", "origin": "Northern Vietnam (early 20th century)", "description": "Rice-noodle soup in a beef or chicken broth simmered with star anise, cinnamon, and charred ginger, topped with fresh herbs and lime." },
+        { "name": "Bánh Mì", "origin": "Saigon (Ho Chi Minh City), 20th century", "description": "A baguette sandwich reflecting French colonial influence, filled with Vietnamese ingredients like pickled vegetables, pâté, cilantro, and chilli." },
+        { "name": "Gỏi Cuốn", "origin": "Southern Vietnam", "description": "Fresh (unfried) spring rolls of rice paper wrapped around shrimp, herbs, and rice vermicelli, served with a peanut or fish-sauce dipping sauce." },
+        { "name": "Bún Chả", "origin": "Hanoi", "description": "Grilled beef patties and slices (bún chả bò, in place of the traditional pork version) served with rice vermicelli, herbs, and a sweet-sour fish sauce dip (nước chấm)." }
+      ],
+      "key_ingredients": ["Fish sauce (nước mắm)", "Rice noodles", "Fresh herbs (mint, Thai basil, cilantro)", "Rice paper", "Star anise", "Lime", "Chilli"],
+      "cooking_techniques": ["Long-simmered broths (phở)", "Fresh (uncooked) wrapping (gỏi cuốn)", "Charcoal grilling (bún chả)", "Balancing nước chấm dipping sauce"],
+      "cultural_notes": "Vietnamese meals emphasise a balance of fresh herbs, acidity, and lighter cooking fat than many neighbouring cuisines, and eating is highly communal, with shared dipping sauces and herb plates at the table.",
+      "fun_facts": [
+        "Bánh mì's baguette shows direct French colonial influence, but its fillings are distinctly Vietnamese.",
+        "Phở likely emerged in early 20th-century Hanoi from a blend of French beef-broth cooking and Vietnamese rice-noodle traditions."
+      ],
+      "quiz": [
+        { "q": "Bánh mì's baguette bread reflects the culinary influence of which colonial power?", "options": ["France", "Britain", "Portugal", "China"], "answer": 0 },
+        { "q": "What is Vietnam's fermented condiment central to almost every savoury dish?", "options": ["Fish sauce (nước mắm)", "Soy sauce", "Oyster sauce", "Miso"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "moroccan",
+      "label": "Moroccan Cuisine",
+      "emoji": "🍢",
+      "colour": "#9b59b6",
+      "region": "North Africa",
+      "description": "A cuisine that blends Berber, Arab, Andalusian, and Mediterranean influences, known for slow-cooked tagines, couscous, and a distinctive sweet-savoury use of dried fruit and spice.",
+      "history": "Moroccan cuisine layers indigenous Amazigh (Berber) cooking with Arab spice traditions brought from the 7th century onward, and Andalusian influence from Muslims and Jews who resettled in Morocco after being expelled from Spain in 1492. Its trans-Saharan trade position gave it early access to spices like cumin, ginger, and saffron.",
+      "famous_dishes": [
+        { "name": "Tagine", "origin": "Morocco", "description": "A slow-cooked stew named after the cone-lidded clay pot it's cooked in, which traps steam and returns moisture to the dish; common versions include lamb with prunes and chicken with preserved lemon and olives." },
+        { "name": "Couscous", "origin": "North Africa (Berber origin)", "description": "Steamed semolina granules, traditionally hand-rolled and steamed multiple times over a simmering stew in a special pot called a couscoussier; UNESCO recognised North African couscous traditions as Intangible Cultural Heritage in 2020." },
+        { "name": "Pastilla (Bastilla)", "origin": "Morocco (Andalusian-influenced)", "description": "A savoury-sweet pie of thin warqa pastry filled traditionally with pigeon or chicken, almonds, and spices, dusted with sugar and cinnamon." },
+        { "name": "Harira", "origin": "Morocco", "description": "A hearty tomato-based soup with lentils, chickpeas, and meat, traditionally eaten to break the fast during Ramadan." }
+      ],
+      "key_ingredients": ["Preserved lemon", "Saffron", "Cumin", "Ras el hanout spice blend", "Couscous (semolina)", "Dried fruit (prunes, apricots)", "Argan oil"],
+      "cooking_techniques": ["Slow-cooking in a tagine's steam-trapping conical lid", "Multi-stage steaming (couscous)", "Preserving citrus (preserved lemon)", "Spice-blending (ras el hanout can include over 20 spices)"],
+      "cultural_notes": "Meals are traditionally eaten communally from a shared central dish using the right hand or bread, and mint tea, poured from height into small glasses, is a central hospitality ritual.",
+      "fun_facts": [
+        "The couscous-making and -eating traditions of Algeria, Mauritania, Morocco, and Tunisia were jointly inscribed on UNESCO's Intangible Cultural Heritage list in 2020.",
+        "Ras el hanout, meaning 'top of the shop' in Arabic, traditionally refers to a spice merchant's best blend and can contain 20 or more spices."
+      ],
+      "quiz": [
+        { "q": "What does a tagine's distinctive cone-shaped lid do during cooking?", "options": ["Traps steam and returns moisture to the dish", "Lets excess liquid escape", "Smokes the food", "Keeps insects out"], "answer": 0 },
+        { "q": "Which North African grain dish was added to UNESCO's Intangible Cultural Heritage list in 2020?", "options": ["Couscous", "Tagine", "Harira", "Pastilla"], "answer": 0 }
+      ]
+    }
+  ]
+}
