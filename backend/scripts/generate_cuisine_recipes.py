@@ -83,6 +83,8 @@ SUBSTITUTION_NOTES = {
     "Beef Bratwurst": "Traditionally a pork sausage; this collection uses beef.",
     "Beef Rouladen": "A classic German beef roll dish, naturally pork-free.",
     "Beef Schnitzel": "Traditionally veal or pork; this collection uses beef.",
+    "Beef Wiener Schnitzel": "Austria's original Wiener Schnitzel is legally required to be veal to carry that name; this collection uses beef.",
+    "Beef Andouille Jambalaya": "Andouille is traditionally a pork sausage; this collection uses a beef version.",
     "Beef Leberkäse": "Traditionally includes pork; this collection uses an all-beef version.",
     "Lamb Souvlaki": "Traditionally sometimes made with pork in Greece; this collection uses lamb.",
     "Beef Gyro": "Traditionally sometimes made with pork; this collection uses beef.",
@@ -673,9 +675,8 @@ DISHES: dict[str, list[str]] = {
         "Beef Cheeseburger", "Beef Hot Dog", "BBQ Beef Brisket", "BBQ Beef Ribs",
         "Fried Chicken", "Buffalo Wings", "Mac and Cheese", "Cornbread",
         "Beef Sausage Biscuits and Gravy", "Chicken and Waffles", "Clam Chowder",
-        "New England Lobster Roll", "Maryland Crab Cakes", "Chicken Jambalaya",
-        "Beef Jambalaya", "Chicken Gumbo", "Seafood Gumbo", "Chicken Étouffée",
-        "Beignets", "Beef Po' Boy", "Shrimp Po' Boy", "Beef Meatloaf",
+        "New England Lobster Roll", "Maryland Crab Cakes",
+        "Beef Meatloaf",
         "Beef Chili Con Carne", "Beef Sloppy Joe", "Beef Philly Cheesesteak",
         "Chicago Deep Dish Pizza", "New York Style Pizza", "Bagel with Lox",
         "Beef Pastrami Reuben Sandwich", "Cobb Salad", "Caesar Salad",
@@ -684,8 +685,8 @@ DISHES: dict[str, list[str]] = {
         "Shrimp and Grits", "Fried Green Tomatoes", "Collard Greens",
         "Cornbread Stuffing", "Roast Turkey", "Beef Pot Roast",
         "Buffalo Chicken Sandwich", "Nashville Hot Chicken", "Kansas City BBQ Beef Ribs",
-        "Texas Beef Brisket", "Carolina Pulled Beef BBQ", "Cajun Crawfish Boil",
-        "Blackened Catfish", "Cornbread Panzanella", "Tater Tots",
+        "Texas Beef Brisket", "Carolina Pulled Beef BBQ",
+        "Cornbread Panzanella", "Tater Tots",
         "Loaded Baked Potato", "Cobbler (Peach)", "Ranch Style Beans",
     ],
     "british": [
@@ -792,7 +793,6 @@ NEW_CUISINE_META = {
     "argentinian": {"label": "Argentinian", "emoji": "🥩", "colour": "#3498db"},
     "cuban": {"label": "Cuban", "emoji": "🍚", "colour": "#f1c40f"},
     "egyptian": {"label": "Egyptian", "emoji": "🧆", "colour": "#f39c12"},
-    "israeli": {"label": "Israeli", "emoji": "🥙", "colour": "#2980b9"},
     "pakistani_bangladeshi": {"label": "Pakistani & Bangladeshi", "emoji": "🍛", "colour": "#27ae60"},
     "scandinavian": {"label": "Scandinavian", "emoji": "🐟", "colour": "#2980b9"},
     "nigerian_west_african": {"label": "Nigerian & West African", "emoji": "🍲", "colour": "#e67e22"},
@@ -800,6 +800,9 @@ NEW_CUISINE_META = {
     "australian": {"label": "Australian", "emoji": "🥧", "colour": "#f1c40f"},
     "hawaiian": {"label": "Hawaiian", "emoji": "🍍", "colour": "#e91e63"},
     "sri_lankan": {"label": "Sri Lankan", "emoji": "🍛", "colour": "#f39c12"},
+    "austrian": {"label": "Austrian", "emoji": "🥨", "colour": "#c0392b"},
+    "soul_food": {"label": "Soul Food", "emoji": "🍗", "colour": "#8e44ad"},
+    "louisiana_creole": {"label": "Louisiana Creole & Cajun", "emoji": "🦐", "colour": "#2980b9"},
 }
 
 NEW_DISHES: dict[str, list[str]] = {
@@ -872,13 +875,6 @@ NEW_DISHES: dict[str, list[str]] = {
         "Roz bel Laban", "Sayadeya", "Chicken Shish Tawook Egyptian",
         "Beef Fattah", "Dukkah", "Qatayef",
     ],
-    "israeli": [
-        "Hummus Israeli", "Falafel Israeli", "Chicken Shawarma Israeli", "Sabich",
-        "Shakshuka", "Beef Kebab Israeli", "Israeli Salad", "Malawach", "Bourekas",
-        "Beef Cholent", "Beef Kubbeh Soup", "Jachnun", "Chicken Schnitzel Israeli",
-        "Halva Israeli", "Chicken Meorav Yerushalmi", "Rugelach", "Krembo",
-        "Matbucha", "Beef Grilled Kebab Israeli", "Baklava Israeli",
-    ],
     "pakistani_bangladeshi": [
         "Beef Nihari", "Chicken Karahi", "Beef Seekh Kebab Pakistani", "Beef Haleem",
         "Sindhi Biryani", "Beef Kunna", "Beef Chapli Kebab", "Chicken Tikka Pakistani",
@@ -930,6 +926,30 @@ NEW_DISHES: dict[str, list[str]] = {
         "Chicken Devilled", "Beef Curry with Roti", "Hoppers (Appa)", "Watalappan",
         "Chicken Curry Sri Lankan", "Beef Pittu", "Fish Cutlets", "Parippu",
     ],
+    "austrian": [
+        "Beef Wiener Schnitzel", "Beef Tafelspitz", "Sachertorte", "Apfelstrudel",
+        "Kaiserschmarrn Austrian", "Beef Gulasch Austrian", "Käsespätzle Austrian",
+        "Semmelknödel Austrian", "Beef Zwiebelrostbraten", "Salzburger Nockerl",
+        "Topfenknödel", "Palatschinken Austrian", "Linzer Torte",
+        "Beef Rindsuppe", "Marillenknödel", "Chicken Backhendl", "Gugelhupf",
+        "Beef Krautfleisch", "Powidltascherl", "Wiener Melange",
+    ],
+    "soul_food": [
+        "Sweet Potato Pie", "Peach Cobbler", "Buttermilk Biscuits", "Fried Catfish",
+        "Banana Pudding", "Hoppin' John", "Beef Oxtails", "Smothered Chicken",
+        "Candied Yams", "Beef Neck Bones", "Beef Liver and Onions", "Fried Okra",
+        "Cornbread Dressing", "Deviled Eggs", "Succotash", "Red Velvet Cake",
+        "Beef Short Ribs Soul Style", "Watermelon Salad", "Beef Smothered Steak",
+        "Chicken and Dumplings Soul Style",
+    ],
+    "louisiana_creole": [
+        "Chicken Jambalaya", "Beef Jambalaya", "Chicken Gumbo", "Seafood Gumbo",
+        "Chicken Étouffée", "Beignets", "Beef Po' Boy", "Shrimp Po' Boy",
+        "Cajun Crawfish Boil", "Blackened Catfish", "Red Beans and Rice",
+        "Beef Muffuletta", "Shrimp Creole", "King Cake", "Pralines",
+        "Beef Andouille Jambalaya", "Crawfish Étouffée", "Beef Dirty Rice",
+        "Maque Choux", "Beef Grillades and Grits",
+    ],
 }
 
 # name -> explicit protein override for the second-expansion dishes.
@@ -959,10 +979,7 @@ NEW_PROTEIN_OVERRIDES = {
     "Koshari": "vegetarian", "Ful Medames": "vegetarian", "Ta'ameya": "vegetarian",
     "Om Ali": "vegetarian", "Basbousa": "vegetarian", "Konafa": "vegetarian",
     "Baladi Bread": "vegetarian", "Roz bel Laban": "vegetarian", "Dukkah": "vegetarian",
-    "Qatayef": "vegetarian", "Hummus Israeli": "vegetarian", "Falafel Israeli": "vegetarian",
-    "Israeli Salad": "vegetarian", "Malawach": "vegetarian", "Bourekas": "vegetarian",
-    "Jachnun": "vegetarian", "Halva Israeli": "vegetarian", "Rugelach": "vegetarian",
-    "Krembo": "vegetarian", "Matbucha": "vegetarian", "Baklava Israeli": "vegetarian",
+    "Qatayef": "vegetarian",
     "Chana Chaat": "vegetarian", "Gol Gappay": "vegetarian", "Halwa Puri": "vegetarian",
     "Lassi Pakistani": "vegetarian", "Mishti Doi": "vegetarian",
     "Rasgulla Bengali": "vegetarian", "Panta Bhat": "vegetarian",
@@ -980,6 +997,21 @@ NEW_PROTEIN_OVERRIDES = {
     "Malasadas": "vegetarian", "Haupia": "vegetarian", "Shave Ice": "vegetarian",
     "Dhal Curry": "vegetarian", "Coconut Sambol": "vegetarian", "Hoppers (Appa)": "vegetarian",
     "Watalappan": "vegetarian", "Parippu": "vegetarian",
+    "Sachertorte": "vegetarian", "Apfelstrudel": "vegetarian",
+    "Salzburger Nockerl": "vegetarian", "Topfenknödel": "vegetarian",
+    "Linzer Torte": "vegetarian", "Marillenknödel": "vegetarian",
+    "Gugelhupf": "vegetarian", "Powidltascherl": "vegetarian",
+    "Wiener Melange": "vegetarian", "Kaiserschmarrn Austrian": "vegetarian",
+    "Käsespätzle Austrian": "vegetarian", "Semmelknödel Austrian": "vegetarian",
+    "Palatschinken Austrian": "vegetarian", "Deviled Eggs": "egg",
+    "Sweet Potato Pie": "vegetarian", "Peach Cobbler": "vegetarian",
+    "Buttermilk Biscuits": "vegetarian", "Banana Pudding": "vegetarian",
+    "Hoppin' John": "vegetarian", "Candied Yams": "vegetarian",
+    "Fried Okra": "vegetarian", "Cornbread Dressing": "vegetarian",
+    "Succotash": "vegetarian", "Red Velvet Cake": "vegetarian",
+    "Watermelon Salad": "vegetarian",
+    "Beignets": "vegetarian", "King Cake": "vegetarian", "Pralines": "vegetarian",
+    "Maque Choux": "vegetarian",
 }
 PROTEIN_OVERRIDES.update(NEW_PROTEIN_OVERRIDES)
 
@@ -1208,7 +1240,6 @@ HISTORICAL_FACTS = {
     "Beef Asado": "Central to Argentine culture, asado refers to both the beef barbecue and the entire social gathering built around slow-grilling over wood or charcoal.",
     "Beef Rogan Josh": "An aromatic curry from Kashmir with Persian-influenced roots, its name likely derived from Persian words for 'red' and 'heat/passion' referring to its colour and spice.",
     "Chicken Karahi": "Named after the wok-like karahi pan it's cooked in, this Pakistani dish is typically prepared quickly with tomatoes, ginger, and green chillies over high heat.",
-    "Falafel Israeli": "Falafel's exact origin is contested among several Middle Eastern countries; it has been a regional staple for well over a century.",
     "Beef Jollof Rice": "A West African rice dish whose 'best version' is a long-running friendly rivalry between Nigeria, Ghana, and other West African nations.",
     "Sweet and Sour Carp": "A Shandong classic showcasing one of China's 'Eight Culinary Traditions,' the northern coastal cuisine associated with Confucius's home province.",
     "Beef Lion's Head Meatballs": "A Jiangsu (Huaiyang cuisine) specialty of oversized braised meatballs, traditionally pork, named for their resemblance to a lion's head atop a 'mane' of cabbage.",
@@ -1225,7 +1256,8 @@ CATEGORY_KEYWORDS = [
     ("ice_cream", ["ice cream", "gelato", "kulfi", "bingsu", "kakigori", "shave ice",
                    "sorbet", "saffron ice cream"]),
     ("hot_drink", ["coffee", "cà phê", "mate", "karkade", "masala chai",
-                   "turkish tea", "moroccan mint tea", "chamomile tea"]),
+                   "turkish tea", "moroccan mint tea", "chamomile tea",
+                   "wiener melange"]),
     ("drink", ["lassi", "juice", "horchata", "agua fresca", "doogh", "ayran",
                "thandai", "falooda", "nimbu pani", "chicha morada", "sorrel",
                "kvass", "zobo", "sangria", "michelada", "drink"]),
@@ -1348,7 +1380,8 @@ def infer_protein(name: str) -> str:
     if any(_kw_match(k, lname) for k in ["seafood", "shrimp", "prawn", "crab", "squid",
                                           "octopus", "clam", "lobster", "calamares", "pulpo",
                                           "mariscos", "camarones", "oyster", "frutti di mare",
-                                          "vatapá", "acarajé", "bobó de camarão"]):
+                                          "vatapá", "acarajé", "bobó de camarão",
+                                          "crawfish", "crayfish"]):
         return "seafood"
     if _kw_match("egg", lname):
         return "egg"

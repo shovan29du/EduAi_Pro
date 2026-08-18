@@ -1,7 +1,7 @@
 {
   "title": "World Recipe Collection",
-  "description": "1,723 real, named dishes from 39 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
-  "total": 1723,
+  "description": "1,752 real, named dishes from 41 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
+  "total": 1752,
   "recipes": [
     {
       "id": "recipe_indian_0001",
@@ -22071,182 +22071,6 @@
     },
     {
       "id": "recipe_american_0014",
-      "name": "Chicken Jambalaya",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Rice Dish",
-      "category_id": "rice",
-      "emoji": "🍚",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Jambalaya is a rice dish from American cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Steaming / sautéing",
-      "wiki_title": "Chicken Jambalaya",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Jambalaya",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Jambalaya",
-        "video": "https://www.youtube.com/results?search_query=Chicken+Jambalaya+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+Jambalaya+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0015",
-      "name": "Beef Jambalaya",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Rice Dish",
-      "category_id": "rice",
-      "emoji": "🍚",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Jambalaya is a rice dish from American cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Steaming / sautéing",
-      "wiki_title": "Beef Jambalaya",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Jambalaya",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Jambalaya",
-        "video": "https://www.youtube.com/results?search_query=Beef+Jambalaya+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Jambalaya+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0016",
-      "name": "Chicken Gumbo",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Soup",
-      "category_id": "soup",
-      "emoji": "🥣",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Gumbo is a soup from American cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Simmering",
-      "wiki_title": "Chicken Gumbo",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Gumbo",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Gumbo",
-        "video": "https://www.youtube.com/results?search_query=Chicken+Gumbo+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+Gumbo+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0017",
-      "name": "Seafood Gumbo",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Soup",
-      "category_id": "soup",
-      "emoji": "🥣",
-      "protein": "Seafood",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Seafood Gumbo is a soup from American cuisine, built around seafood.",
-      "historical_fact": null,
-      "cooking_technique": "Simmering",
-      "wiki_title": "Seafood Gumbo",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Seafood+Gumbo",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Seafood+Gumbo",
-        "video": "https://www.youtube.com/results?search_query=Seafood+Gumbo+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Seafood+Gumbo+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0018",
-      "name": "Chicken Étouffée",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Étouffée is a main course from American cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Chicken Étouffée",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+%C3%89touff%C3%A9e",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+%C3%89touff%C3%A9e",
-        "video": "https://www.youtube.com/results?search_query=Chicken+%C3%89touff%C3%A9e+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+%C3%89touff%C3%A9e+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0019",
-      "name": "Beignets",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Dessert",
-      "category_id": "dessert",
-      "emoji": "🍰",
-      "protein": "Mixed",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beignets is a dessert from American cuisine.",
-      "historical_fact": null,
-      "cooking_technique": "Baking / confectionery",
-      "wiki_title": "Beignets",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beignets",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beignets",
-        "video": "https://www.youtube.com/results?search_query=Beignets+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beignets+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0020",
-      "name": "Beef Po' Boy",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Po' Boy is a main course from American cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Po' Boy",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Po%27+Boy",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Po%27+Boy",
-        "video": "https://www.youtube.com/results?search_query=Beef+Po%27+Boy+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Po%27+Boy+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0021",
-      "name": "Shrimp Po' Boy",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Seafood",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Shrimp Po' Boy is a main course from American cuisine, built around seafood.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Shrimp Po' Boy",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Shrimp+Po%27+Boy",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Shrimp+Po%27+Boy",
-        "video": "https://www.youtube.com/results?search_query=Shrimp+Po%27+Boy+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Shrimp+Po%27+Boy+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0022",
       "name": "Beef Meatloaf",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22268,7 +22092,7 @@
       }
     },
     {
-      "id": "recipe_american_0023",
+      "id": "recipe_american_0015",
       "name": "Beef Chili Con Carne",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22290,7 +22114,7 @@
       }
     },
     {
-      "id": "recipe_american_0024",
+      "id": "recipe_american_0016",
       "name": "Beef Sloppy Joe",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22312,7 +22136,7 @@
       }
     },
     {
-      "id": "recipe_american_0025",
+      "id": "recipe_american_0017",
       "name": "Beef Philly Cheesesteak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22334,7 +22158,7 @@
       }
     },
     {
-      "id": "recipe_american_0026",
+      "id": "recipe_american_0018",
       "name": "Chicago Deep Dish Pizza",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22356,7 +22180,7 @@
       }
     },
     {
-      "id": "recipe_american_0027",
+      "id": "recipe_american_0019",
       "name": "New York Style Pizza",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22378,7 +22202,7 @@
       }
     },
     {
-      "id": "recipe_american_0028",
+      "id": "recipe_american_0020",
       "name": "Bagel with Lox",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22400,7 +22224,7 @@
       }
     },
     {
-      "id": "recipe_american_0029",
+      "id": "recipe_american_0021",
       "name": "Beef Pastrami Reuben Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22422,7 +22246,7 @@
       }
     },
     {
-      "id": "recipe_american_0030",
+      "id": "recipe_american_0022",
       "name": "Cobb Salad",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22444,7 +22268,7 @@
       }
     },
     {
-      "id": "recipe_american_0031",
+      "id": "recipe_american_0023",
       "name": "Caesar Salad",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22466,7 +22290,7 @@
       }
     },
     {
-      "id": "recipe_american_0032",
+      "id": "recipe_american_0024",
       "name": "Waldorf Salad",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22488,7 +22312,7 @@
       }
     },
     {
-      "id": "recipe_american_0033",
+      "id": "recipe_american_0025",
       "name": "Apple Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22510,7 +22334,7 @@
       }
     },
     {
-      "id": "recipe_american_0034",
+      "id": "recipe_american_0026",
       "name": "Pumpkin Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22532,7 +22356,7 @@
       }
     },
     {
-      "id": "recipe_american_0035",
+      "id": "recipe_american_0027",
       "name": "Pecan Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22554,7 +22378,7 @@
       }
     },
     {
-      "id": "recipe_american_0036",
+      "id": "recipe_american_0028",
       "name": "Key Lime Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22576,7 +22400,7 @@
       }
     },
     {
-      "id": "recipe_american_0037",
+      "id": "recipe_american_0029",
       "name": "Chocolate Chip Cookies",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22598,7 +22422,7 @@
       }
     },
     {
-      "id": "recipe_american_0038",
+      "id": "recipe_american_0030",
       "name": "Brownies",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22620,7 +22444,7 @@
       }
     },
     {
-      "id": "recipe_american_0039",
+      "id": "recipe_american_0031",
       "name": "Cheesecake",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22642,7 +22466,7 @@
       }
     },
     {
-      "id": "recipe_american_0040",
+      "id": "recipe_american_0032",
       "name": "S'mores",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22664,7 +22488,7 @@
       }
     },
     {
-      "id": "recipe_american_0041",
+      "id": "recipe_american_0033",
       "name": "Grits",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22686,7 +22510,7 @@
       }
     },
     {
-      "id": "recipe_american_0042",
+      "id": "recipe_american_0034",
       "name": "Shrimp and Grits",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22708,7 +22532,7 @@
       }
     },
     {
-      "id": "recipe_american_0043",
+      "id": "recipe_american_0035",
       "name": "Fried Green Tomatoes",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22730,7 +22554,7 @@
       }
     },
     {
-      "id": "recipe_american_0044",
+      "id": "recipe_american_0036",
       "name": "Collard Greens",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22752,7 +22576,7 @@
       }
     },
     {
-      "id": "recipe_american_0045",
+      "id": "recipe_american_0037",
       "name": "Cornbread Stuffing",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22774,7 +22598,7 @@
       }
     },
     {
-      "id": "recipe_american_0046",
+      "id": "recipe_american_0038",
       "name": "Roast Turkey",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22796,7 +22620,7 @@
       }
     },
     {
-      "id": "recipe_american_0047",
+      "id": "recipe_american_0039",
       "name": "Beef Pot Roast",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22818,7 +22642,7 @@
       }
     },
     {
-      "id": "recipe_american_0048",
+      "id": "recipe_american_0040",
       "name": "Buffalo Chicken Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22840,7 +22664,7 @@
       }
     },
     {
-      "id": "recipe_american_0049",
+      "id": "recipe_american_0041",
       "name": "Nashville Hot Chicken",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22862,7 +22686,7 @@
       }
     },
     {
-      "id": "recipe_american_0050",
+      "id": "recipe_american_0042",
       "name": "Kansas City BBQ Beef Ribs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22884,7 +22708,7 @@
       }
     },
     {
-      "id": "recipe_american_0051",
+      "id": "recipe_american_0043",
       "name": "Texas Beef Brisket",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22906,7 +22730,7 @@
       }
     },
     {
-      "id": "recipe_american_0052",
+      "id": "recipe_american_0044",
       "name": "Carolina Pulled Beef BBQ",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22928,51 +22752,7 @@
       }
     },
     {
-      "id": "recipe_american_0053",
-      "name": "Cajun Crawfish Boil",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Mixed",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Cajun Crawfish Boil is a main course from American cuisine.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Cajun Crawfish Boil",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Cajun+Crawfish+Boil",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Cajun+Crawfish+Boil",
-        "video": "https://www.youtube.com/results?search_query=Cajun+Crawfish+Boil+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Cajun+Crawfish+Boil+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0054",
-      "name": "Blackened Catfish",
-      "cuisine": "American",
-      "cuisine_id": "american",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Fish",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Blackened Catfish is a main course from American cuisine, built around fish.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Blackened Catfish",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Blackened+Catfish",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Blackened+Catfish",
-        "video": "https://www.youtube.com/results?search_query=Blackened+Catfish+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Blackened+Catfish+American+recipe"
-      }
-    },
-    {
-      "id": "recipe_american_0055",
+      "id": "recipe_american_0045",
       "name": "Cornbread Panzanella",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22994,7 +22774,7 @@
       }
     },
     {
-      "id": "recipe_american_0056",
+      "id": "recipe_american_0046",
       "name": "Tater Tots",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23016,7 +22796,7 @@
       }
     },
     {
-      "id": "recipe_american_0057",
+      "id": "recipe_american_0047",
       "name": "Loaded Baked Potato",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23038,7 +22818,7 @@
       }
     },
     {
-      "id": "recipe_american_0058",
+      "id": "recipe_american_0048",
       "name": "Cobbler (Peach)",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23060,7 +22840,7 @@
       }
     },
     {
-      "id": "recipe_american_0059",
+      "id": "recipe_american_0049",
       "name": "Ranch Style Beans",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23082,7 +22862,7 @@
       }
     },
     {
-      "id": "recipe_american_0060",
+      "id": "recipe_american_0050",
       "name": "Beef Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23104,7 +22884,7 @@
       }
     },
     {
-      "id": "recipe_american_0061",
+      "id": "recipe_american_0051",
       "name": "Beef Chicken-Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23126,7 +22906,7 @@
       }
     },
     {
-      "id": "recipe_american_0062",
+      "id": "recipe_american_0052",
       "name": "Southern Fried Chicken",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23148,7 +22928,7 @@
       }
     },
     {
-      "id": "recipe_american_0063",
+      "id": "recipe_american_0053",
       "name": "Beef Corn Dogs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23170,7 +22950,7 @@
       }
     },
     {
-      "id": "recipe_american_0064",
+      "id": "recipe_american_0054",
       "name": "Beef Meatball Subs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23192,7 +22972,7 @@
       }
     },
     {
-      "id": "recipe_american_0065",
+      "id": "recipe_american_0055",
       "name": "Chicken Club Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23214,7 +22994,7 @@
       }
     },
     {
-      "id": "recipe_american_0066",
+      "id": "recipe_american_0056",
       "name": "Beef Bacon Lettuce Tomato Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23236,7 +23016,7 @@
       }
     },
     {
-      "id": "recipe_american_0067",
+      "id": "recipe_american_0057",
       "name": "Beef Texas Chili",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23258,7 +23038,7 @@
       }
     },
     {
-      "id": "recipe_american_0068",
+      "id": "recipe_american_0058",
       "name": "Beef Salisbury Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23280,7 +23060,7 @@
       }
     },
     {
-      "id": "recipe_american_0069",
+      "id": "recipe_american_0059",
       "name": "Chicken Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23302,7 +23082,7 @@
       }
     },
     {
-      "id": "recipe_american_0070",
+      "id": "recipe_american_0060",
       "name": "Beef Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23324,7 +23104,7 @@
       }
     },
     {
-      "id": "recipe_american_0071",
+      "id": "recipe_american_0061",
       "name": "Chicken Fried Chicken Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23346,7 +23126,7 @@
       }
     },
     {
-      "id": "recipe_american_0072",
+      "id": "recipe_american_0062",
       "name": "Chicken Gumbo Ya-Ya",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23368,7 +23148,7 @@
       }
     },
     {
-      "id": "recipe_american_0073",
+      "id": "recipe_american_0063",
       "name": "Beef Texas Toast",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23390,7 +23170,7 @@
       }
     },
     {
-      "id": "recipe_american_0074",
+      "id": "recipe_american_0064",
       "name": "Beef Sloppy Joe Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23412,7 +23192,7 @@
       }
     },
     {
-      "id": "recipe_american_0075",
+      "id": "recipe_american_0065",
       "name": "Chicken Ranch Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23434,7 +23214,7 @@
       }
     },
     {
-      "id": "recipe_american_0076",
+      "id": "recipe_american_0066",
       "name": "Beef Chili Cheese Fries",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23456,7 +23236,7 @@
       }
     },
     {
-      "id": "recipe_american_0077",
+      "id": "recipe_american_0067",
       "name": "Chicken Cobb Wrap",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23478,7 +23258,7 @@
       }
     },
     {
-      "id": "recipe_american_0078",
+      "id": "recipe_american_0068",
       "name": "New England Clam Bake",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23500,7 +23280,7 @@
       }
     },
     {
-      "id": "recipe_american_0079",
+      "id": "recipe_american_0069",
       "name": "Southern Biscuits",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23522,7 +23302,7 @@
       }
     },
     {
-      "id": "recipe_american_0080",
+      "id": "recipe_american_0070",
       "name": "Beef Country Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23544,7 +23324,7 @@
       }
     },
     {
-      "id": "recipe_american_0081",
+      "id": "recipe_american_0071",
       "name": "Beef American Chop Suey",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23566,7 +23346,7 @@
       }
     },
     {
-      "id": "recipe_american_0082",
+      "id": "recipe_american_0072",
       "name": "Chicken Noodle Soup",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -34522,424 +34302,6 @@
       }
     },
     {
-      "id": "recipe_israeli_0001",
-      "name": "Hummus Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Appetisers & Starters",
-      "category_id": "appetizer",
-      "emoji": "🥙",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Hummus Israeli is a appetisers & starters from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Assembling / light cooking",
-      "wiki_title": "Hummus Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Hummus+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Hummus+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Hummus+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Hummus+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0002",
-      "name": "Falafel Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Falafel Israeli is a main course from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": "Falafel's exact origin is contested among several Middle Eastern countries; it has been a regional staple for well over a century.",
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Falafel Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Falafel+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Falafel+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Falafel+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Falafel+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0003",
-      "name": "Chicken Shawarma Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Grilled / BBQ",
-      "category_id": "grill",
-      "emoji": "🔥",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Shawarma Israeli is a grilled / bbq from Israeli cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Grilling",
-      "wiki_title": "Chicken Shawarma Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Shawarma+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Shawarma+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Chicken+Shawarma+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+Shawarma+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0004",
-      "name": "Sabich",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Mixed",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Sabich is a main course from Israeli cuisine.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Sabich",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sabich",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sabich",
-        "video": "https://www.youtube.com/results?search_query=Sabich+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Sabich+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0005",
-      "name": "Beef Kebab Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Grilled / BBQ",
-      "category_id": "grill",
-      "emoji": "🔥",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Kebab Israeli is a grilled / bbq from Israeli cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Grilling",
-      "wiki_title": "Beef Kebab Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kebab+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kebab+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Beef+Kebab+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Kebab+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0006",
-      "name": "Israeli Salad",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Salad",
-      "category_id": "salad",
-      "emoji": "🥗",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Israeli Salad is a salad from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Raw preparation",
-      "wiki_title": "Israeli Salad",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Israeli+Salad",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Israeli+Salad",
-        "video": "https://www.youtube.com/results?search_query=Israeli+Salad+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Israeli+Salad+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0007",
-      "name": "Malawach",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Bread",
-      "category_id": "bread",
-      "emoji": "🍞",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Malawach is a bread from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Baking",
-      "wiki_title": "Malawach",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Malawach",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Malawach",
-        "video": "https://www.youtube.com/results?search_query=Malawach+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Malawach+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0008",
-      "name": "Bourekas",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Appetisers & Starters",
-      "category_id": "appetizer",
-      "emoji": "🥙",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Bourekas is a appetisers & starters from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Assembling / light cooking",
-      "wiki_title": "Bourekas",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Bourekas",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Bourekas",
-        "video": "https://www.youtube.com/results?search_query=Bourekas+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Bourekas+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0009",
-      "name": "Beef Cholent",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Cholent is a main course from Israeli cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Cholent",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Cholent",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Cholent",
-        "video": "https://www.youtube.com/results?search_query=Beef+Cholent+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Cholent+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0010",
-      "name": "Beef Kubbeh Soup",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Soup",
-      "category_id": "soup",
-      "emoji": "🥣",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Kubbeh Soup is a soup from Israeli cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Simmering",
-      "wiki_title": "Beef Kubbeh Soup",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kubbeh+Soup",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kubbeh+Soup",
-        "video": "https://www.youtube.com/results?search_query=Beef+Kubbeh+Soup+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Kubbeh+Soup+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0011",
-      "name": "Jachnun",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Jachnun is a main course from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Jachnun",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Jachnun",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Jachnun",
-        "video": "https://www.youtube.com/results?search_query=Jachnun+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Jachnun+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0012",
-      "name": "Chicken Schnitzel Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Schnitzel Israeli is a main course from Israeli cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Chicken Schnitzel Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Schnitzel+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Schnitzel+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Chicken+Schnitzel+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+Schnitzel+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0013",
-      "name": "Halva Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Halva Israeli is a main course from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Halva Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Halva+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Halva+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Halva+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Halva+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0014",
-      "name": "Chicken Meorav Yerushalmi",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Chicken",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Chicken Meorav Yerushalmi is a main course from Israeli cuisine, built around chicken.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Chicken Meorav Yerushalmi",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Meorav+Yerushalmi",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Meorav+Yerushalmi",
-        "video": "https://www.youtube.com/results?search_query=Chicken+Meorav+Yerushalmi+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Chicken+Meorav+Yerushalmi+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0015",
-      "name": "Rugelach",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Dessert",
-      "category_id": "dessert",
-      "emoji": "🍰",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Rugelach is a dessert from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Baking / confectionery",
-      "wiki_title": "Rugelach",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Rugelach",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Rugelach",
-        "video": "https://www.youtube.com/results?search_query=Rugelach+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Rugelach+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0016",
-      "name": "Krembo",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Dessert",
-      "category_id": "dessert",
-      "emoji": "🍰",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Krembo is a dessert from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Baking / confectionery",
-      "wiki_title": "Krembo",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Krembo",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Krembo",
-        "video": "https://www.youtube.com/results?search_query=Krembo+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Krembo+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0017",
-      "name": "Matbucha",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Appetisers & Starters",
-      "category_id": "appetizer",
-      "emoji": "🥙",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Matbucha is a appetisers & starters from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Assembling / light cooking",
-      "wiki_title": "Matbucha",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Matbucha",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Matbucha",
-        "video": "https://www.youtube.com/results?search_query=Matbucha+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Matbucha+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0018",
-      "name": "Beef Grilled Kebab Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Grilled / BBQ",
-      "category_id": "grill",
-      "emoji": "🔥",
-      "protein": "Beef",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Beef Grilled Kebab Israeli is a grilled / bbq from Israeli cuisine, built around beef.",
-      "historical_fact": null,
-      "cooking_technique": "Grilling",
-      "wiki_title": "Beef Grilled Kebab Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Grilled+Kebab+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Grilled+Kebab+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Beef+Grilled+Kebab+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Grilled+Kebab+Israeli+Israeli+recipe"
-      }
-    },
-    {
-      "id": "recipe_israeli_0019",
-      "name": "Baklava Israeli",
-      "cuisine": "Israeli",
-      "cuisine_id": "israeli",
-      "category": "Dessert",
-      "category_id": "dessert",
-      "emoji": "🍰",
-      "protein": "Vegetarian",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Baklava Israeli is a dessert from Israeli cuisine, a vegetarian dish.",
-      "historical_fact": null,
-      "cooking_technique": "Baking / confectionery",
-      "wiki_title": "Baklava Israeli",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Baklava+Israeli",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Baklava+Israeli",
-        "video": "https://www.youtube.com/results?search_query=Baklava+Israeli+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Baklava+Israeli+Israeli+recipe"
-      }
-    },
-    {
       "id": "recipe_pakistani_bangladeshi_0001",
       "name": "Beef Nihari",
       "cuisine": "Pakistani & Bangladeshi",
@@ -37907,6 +37269,1282 @@
         "image_search": "https://commons.wikimedia.org/w/index.php?search=Parippu",
         "video": "https://www.youtube.com/results?search_query=Parippu+recipe+how+to+make",
         "text_guide": "https://www.google.com/search?q=Parippu+Sri+Lankan+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0001",
+      "name": "Beef Wiener Schnitzel",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": "Austria's original Wiener Schnitzel is legally required to be veal to carry that name; this collection uses beef.",
+      "description": "Beef Wiener Schnitzel is a main course from Austrian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Wiener Schnitzel",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Wiener+Schnitzel",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Wiener+Schnitzel",
+        "video": "https://www.youtube.com/results?search_query=Beef+Wiener+Schnitzel+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Wiener+Schnitzel+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0002",
+      "name": "Sachertorte",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sachertorte is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Sachertorte",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sachertorte",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sachertorte",
+        "video": "https://www.youtube.com/results?search_query=Sachertorte+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sachertorte+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0003",
+      "name": "Apfelstrudel",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Apfelstrudel is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Apfelstrudel",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Apfelstrudel",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Apfelstrudel",
+        "video": "https://www.youtube.com/results?search_query=Apfelstrudel+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Apfelstrudel+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0004",
+      "name": "Kaiserschmarrn Austrian",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kaiserschmarrn Austrian is a dessert from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Kaiserschmarrn Austrian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kaiserschmarrn+Austrian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kaiserschmarrn+Austrian",
+        "video": "https://www.youtube.com/results?search_query=Kaiserschmarrn+Austrian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kaiserschmarrn+Austrian+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0005",
+      "name": "Beef Gulasch Austrian",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Gulasch Austrian is a main course from Austrian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Gulasch Austrian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Gulasch+Austrian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Gulasch+Austrian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Gulasch+Austrian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Gulasch+Austrian+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0006",
+      "name": "Käsespätzle Austrian",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Käsespätzle Austrian is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Käsespätzle Austrian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=K%C3%A4sesp%C3%A4tzle+Austrian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=K%C3%A4sesp%C3%A4tzle+Austrian",
+        "video": "https://www.youtube.com/results?search_query=K%C3%A4sesp%C3%A4tzle+Austrian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=K%C3%A4sesp%C3%A4tzle+Austrian+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0007",
+      "name": "Semmelknödel Austrian",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Semmelknödel Austrian is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Semmelknödel Austrian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Semmelkn%C3%B6del+Austrian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Semmelkn%C3%B6del+Austrian",
+        "video": "https://www.youtube.com/results?search_query=Semmelkn%C3%B6del+Austrian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Semmelkn%C3%B6del+Austrian+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0008",
+      "name": "Salzburger Nockerl",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Salzburger Nockerl is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Salzburger Nockerl",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Salzburger+Nockerl",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Salzburger+Nockerl",
+        "video": "https://www.youtube.com/results?search_query=Salzburger+Nockerl+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Salzburger+Nockerl+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0009",
+      "name": "Topfenknödel",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Topfenknödel is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Topfenknödel",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Topfenkn%C3%B6del",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Topfenkn%C3%B6del",
+        "video": "https://www.youtube.com/results?search_query=Topfenkn%C3%B6del+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Topfenkn%C3%B6del+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0010",
+      "name": "Palatschinken Austrian",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Palatschinken Austrian is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Palatschinken Austrian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Palatschinken+Austrian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Palatschinken+Austrian",
+        "video": "https://www.youtube.com/results?search_query=Palatschinken+Austrian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Palatschinken+Austrian+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0011",
+      "name": "Linzer Torte",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Linzer Torte is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Linzer Torte",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Linzer+Torte",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Linzer+Torte",
+        "video": "https://www.youtube.com/results?search_query=Linzer+Torte+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Linzer+Torte+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0012",
+      "name": "Beef Rindsuppe",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Rindsuppe is a main course from Austrian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Rindsuppe",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Rindsuppe",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Rindsuppe",
+        "video": "https://www.youtube.com/results?search_query=Beef+Rindsuppe+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Rindsuppe+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0013",
+      "name": "Marillenknödel",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Marillenknödel is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Marillenknödel",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Marillenkn%C3%B6del",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Marillenkn%C3%B6del",
+        "video": "https://www.youtube.com/results?search_query=Marillenkn%C3%B6del+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Marillenkn%C3%B6del+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0014",
+      "name": "Chicken Backhendl",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Backhendl is a main course from Austrian cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Backhendl",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Backhendl",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Backhendl",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Backhendl+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Backhendl+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0015",
+      "name": "Gugelhupf",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Gugelhupf is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Gugelhupf",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Gugelhupf",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Gugelhupf",
+        "video": "https://www.youtube.com/results?search_query=Gugelhupf+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Gugelhupf+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0016",
+      "name": "Beef Krautfleisch",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Krautfleisch is a main course from Austrian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Krautfleisch",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Krautfleisch",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Krautfleisch",
+        "video": "https://www.youtube.com/results?search_query=Beef+Krautfleisch+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Krautfleisch+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0017",
+      "name": "Powidltascherl",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Powidltascherl is a main course from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Powidltascherl",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Powidltascherl",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Powidltascherl",
+        "video": "https://www.youtube.com/results?search_query=Powidltascherl+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Powidltascherl+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_austrian_0018",
+      "name": "Wiener Melange",
+      "cuisine": "Austrian",
+      "cuisine_id": "austrian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Wiener Melange is a hot drinks from Austrian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Wiener Melange",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Wiener+Melange",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Wiener+Melange",
+        "video": "https://www.youtube.com/results?search_query=Wiener+Melange+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Wiener+Melange+Austrian+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0001",
+      "name": "Sweet Potato Pie",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sweet Potato Pie is a dessert from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Sweet Potato Pie",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sweet+Potato+Pie",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sweet+Potato+Pie",
+        "video": "https://www.youtube.com/results?search_query=Sweet+Potato+Pie+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sweet+Potato+Pie+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0002",
+      "name": "Peach Cobbler",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Peach Cobbler is a dessert from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Peach Cobbler",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Peach+Cobbler",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Peach+Cobbler",
+        "video": "https://www.youtube.com/results?search_query=Peach+Cobbler+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Peach+Cobbler+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0003",
+      "name": "Buttermilk Biscuits",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Buttermilk Biscuits is a main course from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Buttermilk Biscuits",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Buttermilk+Biscuits",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Buttermilk+Biscuits",
+        "video": "https://www.youtube.com/results?search_query=Buttermilk+Biscuits+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Buttermilk+Biscuits+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0004",
+      "name": "Fried Catfish",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Fried",
+      "category_id": "fried",
+      "emoji": "🍤",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Fried Catfish is a fried from Soul Food cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Deep-frying",
+      "wiki_title": "Fried Catfish",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Fried+Catfish",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Fried+Catfish",
+        "video": "https://www.youtube.com/results?search_query=Fried+Catfish+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Fried+Catfish+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0005",
+      "name": "Banana Pudding",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Banana Pudding is a dessert from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Banana Pudding",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Banana+Pudding",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Banana+Pudding",
+        "video": "https://www.youtube.com/results?search_query=Banana+Pudding+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Banana+Pudding+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0006",
+      "name": "Hoppin' John",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Hoppin' John is a main course from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Hoppin' John",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Hoppin%27+John",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Hoppin%27+John",
+        "video": "https://www.youtube.com/results?search_query=Hoppin%27+John+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Hoppin%27+John+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0007",
+      "name": "Beef Oxtails",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Oxtails is a main course from Soul Food cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Oxtails",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Oxtails",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Oxtails",
+        "video": "https://www.youtube.com/results?search_query=Beef+Oxtails+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Oxtails+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0008",
+      "name": "Smothered Chicken",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Smothered Chicken is a main course from Soul Food cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Smothered Chicken",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Smothered+Chicken",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Smothered+Chicken",
+        "video": "https://www.youtube.com/results?search_query=Smothered+Chicken+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Smothered+Chicken+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0009",
+      "name": "Candied Yams",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Candied Yams is a main course from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Candied Yams",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Candied+Yams",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Candied+Yams",
+        "video": "https://www.youtube.com/results?search_query=Candied+Yams+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Candied+Yams+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0010",
+      "name": "Beef Neck Bones",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Neck Bones is a main course from Soul Food cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Neck Bones",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Neck+Bones",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Neck+Bones",
+        "video": "https://www.youtube.com/results?search_query=Beef+Neck+Bones+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Neck+Bones+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0011",
+      "name": "Beef Liver and Onions",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Liver and Onions is a main course from Soul Food cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Liver and Onions",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Liver+and+Onions",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Liver+and+Onions",
+        "video": "https://www.youtube.com/results?search_query=Beef+Liver+and+Onions+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Liver+and+Onions+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0012",
+      "name": "Fried Okra",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Fried",
+      "category_id": "fried",
+      "emoji": "🍤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Fried Okra is a fried from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Deep-frying",
+      "wiki_title": "Fried Okra",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Fried+Okra",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Fried+Okra",
+        "video": "https://www.youtube.com/results?search_query=Fried+Okra+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Fried+Okra+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0013",
+      "name": "Cornbread Dressing",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Cornbread Dressing is a main course from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Cornbread Dressing",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Cornbread+Dressing",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Cornbread+Dressing",
+        "video": "https://www.youtube.com/results?search_query=Cornbread+Dressing+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Cornbread+Dressing+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0014",
+      "name": "Deviled Eggs",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Egg",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Deviled Eggs is a main course from Soul Food cuisine, built around egg.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Deviled Eggs",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Deviled+Eggs",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Deviled+Eggs",
+        "video": "https://www.youtube.com/results?search_query=Deviled+Eggs+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Deviled+Eggs+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0015",
+      "name": "Succotash",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Succotash is a main course from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Succotash",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Succotash",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Succotash",
+        "video": "https://www.youtube.com/results?search_query=Succotash+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Succotash+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0016",
+      "name": "Red Velvet Cake",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Red Velvet Cake is a dessert from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Red Velvet Cake",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Red+Velvet+Cake",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Red+Velvet+Cake",
+        "video": "https://www.youtube.com/results?search_query=Red+Velvet+Cake+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Red+Velvet+Cake+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0017",
+      "name": "Beef Short Ribs Soul Style",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Short Ribs Soul Style is a main course from Soul Food cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Short Ribs Soul Style",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Short+Ribs+Soul+Style",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Short+Ribs+Soul+Style",
+        "video": "https://www.youtube.com/results?search_query=Beef+Short+Ribs+Soul+Style+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Short+Ribs+Soul+Style+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0018",
+      "name": "Watermelon Salad",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Salad",
+      "category_id": "salad",
+      "emoji": "🥗",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Watermelon Salad is a salad from Soul Food cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Raw preparation",
+      "wiki_title": "Watermelon Salad",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Watermelon+Salad",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Watermelon+Salad",
+        "video": "https://www.youtube.com/results?search_query=Watermelon+Salad+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Watermelon+Salad+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0019",
+      "name": "Beef Smothered Steak",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Smothered Steak is a main course from Soul Food cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Smothered Steak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Smothered+Steak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Smothered+Steak",
+        "video": "https://www.youtube.com/results?search_query=Beef+Smothered+Steak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Smothered+Steak+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_soul_food_0020",
+      "name": "Chicken and Dumplings Soul Style",
+      "cuisine": "Soul Food",
+      "cuisine_id": "soul_food",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken and Dumplings Soul Style is a main course from Soul Food cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken and Dumplings Soul Style",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+and+Dumplings+Soul+Style",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+and+Dumplings+Soul+Style",
+        "video": "https://www.youtube.com/results?search_query=Chicken+and+Dumplings+Soul+Style+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+and+Dumplings+Soul+Style+Soul+Food+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0001",
+      "name": "Chicken Jambalaya",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Jambalaya is a rice dish from Louisiana Creole & Cajun cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Chicken Jambalaya",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Jambalaya",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Jambalaya",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Jambalaya+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Jambalaya+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0002",
+      "name": "Beef Jambalaya",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Jambalaya is a rice dish from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Beef Jambalaya",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Jambalaya",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Jambalaya",
+        "video": "https://www.youtube.com/results?search_query=Beef+Jambalaya+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Jambalaya+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0003",
+      "name": "Chicken Gumbo",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Soup",
+      "category_id": "soup",
+      "emoji": "🥣",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Gumbo is a soup from Louisiana Creole & Cajun cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering",
+      "wiki_title": "Chicken Gumbo",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Gumbo",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Gumbo",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Gumbo+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Gumbo+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0004",
+      "name": "Seafood Gumbo",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Soup",
+      "category_id": "soup",
+      "emoji": "🥣",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Seafood Gumbo is a soup from Louisiana Creole & Cajun cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering",
+      "wiki_title": "Seafood Gumbo",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Seafood+Gumbo",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Seafood+Gumbo",
+        "video": "https://www.youtube.com/results?search_query=Seafood+Gumbo+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Seafood+Gumbo+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0005",
+      "name": "Chicken Étouffée",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Étouffée is a main course from Louisiana Creole & Cajun cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Étouffée",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+%C3%89touff%C3%A9e",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+%C3%89touff%C3%A9e",
+        "video": "https://www.youtube.com/results?search_query=Chicken+%C3%89touff%C3%A9e+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+%C3%89touff%C3%A9e+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0006",
+      "name": "Beignets",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beignets is a dessert from Louisiana Creole & Cajun cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Beignets",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beignets",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beignets",
+        "video": "https://www.youtube.com/results?search_query=Beignets+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beignets+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0007",
+      "name": "Beef Po' Boy",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Po' Boy is a main course from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Po' Boy",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Po%27+Boy",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Po%27+Boy",
+        "video": "https://www.youtube.com/results?search_query=Beef+Po%27+Boy+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Po%27+Boy+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0008",
+      "name": "Shrimp Po' Boy",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Shrimp Po' Boy is a main course from Louisiana Creole & Cajun cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Shrimp Po' Boy",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Shrimp+Po%27+Boy",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Shrimp+Po%27+Boy",
+        "video": "https://www.youtube.com/results?search_query=Shrimp+Po%27+Boy+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Shrimp+Po%27+Boy+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0009",
+      "name": "Cajun Crawfish Boil",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Cajun Crawfish Boil is a main course from Louisiana Creole & Cajun cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Cajun Crawfish Boil",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Cajun+Crawfish+Boil",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Cajun+Crawfish+Boil",
+        "video": "https://www.youtube.com/results?search_query=Cajun+Crawfish+Boil+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Cajun+Crawfish+Boil+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0010",
+      "name": "Blackened Catfish",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Blackened Catfish is a main course from Louisiana Creole & Cajun cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Blackened Catfish",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Blackened+Catfish",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Blackened+Catfish",
+        "video": "https://www.youtube.com/results?search_query=Blackened+Catfish+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Blackened+Catfish+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0011",
+      "name": "Red Beans and Rice",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Red Beans and Rice is a rice dish from Louisiana Creole & Cajun cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Red Beans and Rice",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Red+Beans+and+Rice",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Red+Beans+and+Rice",
+        "video": "https://www.youtube.com/results?search_query=Red+Beans+and+Rice+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Red+Beans+and+Rice+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0012",
+      "name": "Beef Muffuletta",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Muffuletta is a main course from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Muffuletta",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Muffuletta",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Muffuletta",
+        "video": "https://www.youtube.com/results?search_query=Beef+Muffuletta+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Muffuletta+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0013",
+      "name": "Shrimp Creole",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Shrimp Creole is a main course from Louisiana Creole & Cajun cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Shrimp Creole",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Shrimp+Creole",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Shrimp+Creole",
+        "video": "https://www.youtube.com/results?search_query=Shrimp+Creole+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Shrimp+Creole+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0014",
+      "name": "King Cake",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "King Cake is a dessert from Louisiana Creole & Cajun cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "King Cake",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=King+Cake",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=King+Cake",
+        "video": "https://www.youtube.com/results?search_query=King+Cake+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=King+Cake+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0015",
+      "name": "Pralines",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Pralines is a main course from Louisiana Creole & Cajun cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Pralines",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Pralines",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Pralines",
+        "video": "https://www.youtube.com/results?search_query=Pralines+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Pralines+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0016",
+      "name": "Beef Andouille Jambalaya",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": "Andouille is traditionally a pork sausage; this collection uses a beef version.",
+      "description": "Beef Andouille Jambalaya is a rice dish from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Beef Andouille Jambalaya",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Andouille+Jambalaya",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Andouille+Jambalaya",
+        "video": "https://www.youtube.com/results?search_query=Beef+Andouille+Jambalaya+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Andouille+Jambalaya+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0017",
+      "name": "Crawfish Étouffée",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Crawfish Étouffée is a main course from Louisiana Creole & Cajun cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Crawfish Étouffée",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Crawfish+%C3%89touff%C3%A9e",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Crawfish+%C3%89touff%C3%A9e",
+        "video": "https://www.youtube.com/results?search_query=Crawfish+%C3%89touff%C3%A9e+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Crawfish+%C3%89touff%C3%A9e+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0018",
+      "name": "Beef Dirty Rice",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Dirty Rice is a rice dish from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Beef Dirty Rice",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Dirty+Rice",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Dirty+Rice",
+        "video": "https://www.youtube.com/results?search_query=Beef+Dirty+Rice+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Dirty+Rice+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0019",
+      "name": "Maque Choux",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Maque Choux is a main course from Louisiana Creole & Cajun cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Maque Choux",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Maque+Choux",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Maque+Choux",
+        "video": "https://www.youtube.com/results?search_query=Maque+Choux+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Maque+Choux+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_louisiana_creole_0020",
+      "name": "Beef Grillades and Grits",
+      "cuisine": "Louisiana Creole & Cajun",
+      "cuisine_id": "louisiana_creole",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Grillades and Grits is a main course from Louisiana Creole & Cajun cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Grillades and Grits",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Grillades+and+Grits",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Grillades+and+Grits",
+        "video": "https://www.youtube.com/results?search_query=Beef+Grillades+and+Grits+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Grillades+and+Grits+Louisiana+Creole+%26+Cajun+recipe"
       }
     }
   ]

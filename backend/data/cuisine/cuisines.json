@@ -757,29 +757,185 @@
       ]
     },
     {
-      "id": "israeli",
-      "label": "Israeli Cuisine",
-      "emoji": "🥙",
-      "colour": "#00897b",
-      "region": "Middle East",
-      "description": "A young national cuisine woven from Jewish diaspora culinary traditions worldwide -- Middle Eastern, North African, Eastern European (Ashkenazi), and Mediterranean -- alongside long-standing Levantine dishes shared across the region.",
-      "history": "Modern Israeli cuisine reflects waves of Jewish immigration from around the world after the state's founding in 1948, blending Ashkenazi (Eastern European) dishes brought by European Jewish immigrants with Sephardic and Mizrahi (Middle Eastern and North African) Jewish culinary traditions, layered onto the long-standing Levantine food culture of the region shared with Palestinian, Lebanese, and Syrian cooking -- dishes like hummus and falafel are enjoyed across the whole region.",
+      "id": "austrian",
+      "label": "Austrian Cuisine",
+      "emoji": "🥨",
+      "colour": "#c0392b",
+      "region": "Central Europe",
+      "description": "A cuisine of imperial Viennese coffeehouse culture, hearty mountain cooking, and pastry craftsmanship, shaped by the Habsburg Empire's reach across Central Europe.",
+      "history": "Austrian cuisine took much of its identity from the Habsburg Empire's multi-ethnic reach, absorbing Hungarian, Czech, Italian, and Balkan influences into Viennese court cooking. Vienna's coffeehouse culture, dating to the 17th century and inscribed on UNESCO's Intangible Cultural Heritage list in 2011, became a defining social institution, and Wiener Schnitzel -- named for the city but debated in origin -- remains Austria's best-known culinary export.",
       "famous_dishes": [
-        { "name": "Falafel", "origin": "Levant", "description": "Fried chickpea patties, a claimed regional staple closely associated with Israeli street food." },
-        { "name": "Israeli Salad", "origin": "Israel", "description": "A finely diced tomato-cucumber salad eaten at nearly every meal." },
-        { "name": "Shakshuka", "origin": "North Africa (Jewish diaspora)", "description": "Eggs poached in a spiced tomato sauce, of North African Jewish origin." },
-        { "name": "Sabich", "origin": "Israel (Iraqi Jewish origin)", "description": "Fried eggplant pita sandwich, invented by Iraqi Jewish immigrants to Israel in the 1950s." }
+        { "name": "Beef Wiener Schnitzel", "origin": "Vienna", "description": "A breaded, pan-fried cutlet; the original Wiener Schnitzel is legally required to be veal, though beef and chicken versions are common." },
+        { "name": "Beef Tafelspitz", "origin": "Vienna", "description": "Boiled beef served with horseradish and apple sauce, reportedly a favourite of Emperor Franz Joseph I." },
+        { "name": "Sachertorte", "origin": "Vienna", "description": "Dense chocolate cake with apricot jam, created at Vienna's Hotel Sacher in 1832." },
+        { "name": "Apfelstrudel", "origin": "Vienna", "description": "Thin-layered pastry rolled around spiced apples, a hallmark of Viennese baking." }
       ],
-      "key_ingredients": ["Chickpeas", "Tahini", "Eggplant", "Tomatoes", "Cucumbers", "Za'atar", "Olive oil"],
-      "cooking_techniques": ["Deep-frying (falafel)", "Poaching in sauce (shakshuka)", "Grinding and blending (hummus, tahini)", "Pickling"],
-      "cultural_notes": "Israeli cuisine's identity is still actively being defined, given its recent formation from many diaspora traditions layered onto shared regional Levantine dishes, and Sabich, invented by Iraqi Jewish immigrants in the 1950s, is a distinctly Israeli-Iraqi Jewish culinary contribution.",
+      "key_ingredients": ["Beef and veal", "Potatoes", "Poppy seed", "Apricots", "Curd cheese (Topfen)", "Paprika"],
+      "cooking_techniques": ["Breading and pan-frying (schnitzel)", "Slow boiling (tafelspitz)", "Pastry lamination and rolling (strudel)", "Dumpling-folding (knödel)"],
+      "cultural_notes": "Vienna's coffeehouse tradition -- where a single coffee can be nursed for hours while reading newspapers -- was inscribed on UNESCO's Intangible Cultural Heritage list in 2011, and cafés remain central to Austrian social life.",
       "fun_facts": [
-        "Sabich, a popular Israeli street food sandwich, was invented by Iraqi Jewish immigrants to Israel in the 1950s.",
-        "Falafel and hummus are enjoyed and claimed as traditional dishes across many countries of the Levant, not exclusively any single nation."
+        "Vienna's coffeehouse culture was added to UNESCO's Intangible Cultural Heritage list in 2011.",
+        "Sachertorte's exact original recipe was the subject of a real legal dispute between Vienna's Hotel Sacher and the Demel bakery over the right to call theirs the 'original'."
       ],
       "quiz": [
-        { "q": "Sabich, a fried eggplant pita sandwich, was invented by which immigrant community in Israel?", "options": ["Iraqi Jewish immigrants", "Moroccan Jewish immigrants", "Yemenite Jewish immigrants", "Polish Jewish immigrants"], "answer": 0 },
-        { "q": "What is the name for the finely diced tomato-cucumber salad eaten at nearly every Israeli meal?", "options": ["Israeli Salad", "Fattoush", "Tabbouleh", "Horiatiki"], "answer": 0 }
+        { "q": "What protein is the original Wiener Schnitzel legally required to use?", "options": ["Veal", "Beef", "Pork", "Chicken"], "answer": 0 },
+        { "q": "Vienna's coffeehouse culture was added to which UNESCO list in 2011?", "options": ["Intangible Cultural Heritage", "World Heritage Sites", "Memory of the World", "Creative Cities Network"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "soul_food",
+      "label": "Soul Food",
+      "emoji": "🍗",
+      "colour": "#8e44ad",
+      "region": "American South (African American tradition)",
+      "description": "A distinctly African American culinary tradition born in the plantation South, built on resourcefulness with humble ingredients and now celebrated as a defining pillar of American cuisine.",
+      "history": "Soul food developed among enslaved African Americans in the South, who combined West African cooking knowledge -- deep-frying, one-pot stewing, and okra-based dishes -- with whatever ingredients were available or allotted, including offcuts, greens, and cornmeal. After the Great Migration of the early-to-mid 20th century carried Southern Black families to Northern cities, the term 'soul food' itself emerged in the 1960s, tied to the era's Black cultural pride movement, giving a shared identity to dishes long cooked in Southern Black households.",
+      "famous_dishes": [
+        { "name": "Fried Chicken", "origin": "American South", "description": "Deep-fried, well-seasoned chicken, one of soul food's most iconic dishes, blending West African frying technique with Southern seasoning." },
+        { "name": "Sweet Potato Pie", "origin": "American South", "description": "A spiced custard pie, often served at holidays, distinct from pumpkin pie by its sweeter, denser filling." },
+        { "name": "Collard Greens", "origin": "American South", "description": "Slow-simmered leafy greens, traditionally cooked for hours with a smoky, savoury broth." },
+        { "name": "Hoppin' John", "origin": "American South (Lowcountry)", "description": "Black-eyed peas and rice, traditionally eaten on New Year's Day for good luck." }
+      ],
+      "key_ingredients": ["Cornmeal", "Collard greens", "Black-eyed peas", "Sweet potatoes", "Okra", "Buttermilk", "Rice"],
+      "cooking_techniques": ["Deep-frying", "Long, slow simmering (greens, beans)", "Smothering (braising in gravy)", "Baking (biscuits, cobblers)"],
+      "cultural_notes": "The term 'soul food' emerged in the 1960s alongside the Black cultural pride movement, naming and celebrating a cooking tradition that Southern Black families had carried for generations, including through the Great Migration to Northern cities.",
+      "fun_facts": [
+        "The term 'soul food' itself only became widely used in the 1960s, tied to the era's Black cultural pride movement.",
+        "Hoppin' John, black-eyed peas and rice, is traditionally eaten on New Year's Day across the American South for good luck and prosperity."
+      ],
+      "quiz": [
+        { "q": "In which decade did the term 'soul food' become widely used?", "options": ["1960s", "1920s", "1980s", "1940s"], "answer": 0 },
+        { "q": "Which dish is traditionally eaten on New Year's Day in the American South for good luck?", "options": ["Hoppin' John", "Sweet Potato Pie", "Fried Chicken", "Collard Greens"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "louisiana_creole",
+      "label": "Louisiana Creole & Cajun Cuisine",
+      "emoji": "🦐",
+      "colour": "#2980b9",
+      "region": "Southern United States (Louisiana)",
+      "description": "A distinctive fusion cuisine from South Louisiana blending French, Spanish, West African, and Indigenous influences, built on the flavour base known as the 'holy trinity' of onion, celery, and bell pepper.",
+      "history": "Louisiana's cuisine split into two related but distinct traditions: Creole cooking developed in and around New Orleans, blending French and Spanish colonial cooking with African and Caribbean influences into a more urban, tomato-forward style; Cajun cooking developed among the Acadians, French colonists expelled from Canada in the 18th century who settled in rural Louisiana bayous and built a heartier, rustic country cuisine. Both share the 'holy trinity' aromatic base, a Louisiana variation on French mirepoix.",
+      "famous_dishes": [
+        { "name": "Chicken and Sausage Gumbo", "origin": "New Orleans (Creole)", "description": "A roux-based stew with the holy trinity, okra or filé powder, and meat or seafood, considered Louisiana's signature dish." },
+        { "name": "Beef Jambalaya", "origin": "Louisiana", "description": "A one-pot rice dish descended from Spanish paella, adapted with Louisiana ingredients and technique." },
+        { "name": "Beignets", "origin": "New Orleans", "description": "Square, deep-fried, powdered-sugar-dusted pastries, a French colonial legacy and New Orleans breakfast icon." },
+        { "name": "Cajun Crawfish Boil", "origin": "Rural Louisiana (Cajun)", "description": "Crawfish boiled with corn, potatoes, and spices, traditionally poured out on newspaper-covered tables for communal eating." }
+      ],
+      "key_ingredients": ["The 'holy trinity' (onion, celery, bell pepper)", "Rice", "Crawfish and shrimp", "Filé powder (ground sassafras leaves)", "Cayenne pepper", "Roux"],
+      "cooking_techniques": ["Roux-making (the flour-and-fat base for gumbo)", "One-pot rice cookery (jambalaya)", "Deep-frying (beignets)", "Communal boiling (crawfish boils)"],
+      "cultural_notes": "Gumbo's thickener reflects Louisiana's cultural blend directly -- okra, a West African ingredient, and filé powder, adapted from Indigenous Choctaw cooking, are both traditionally used, sometimes in the same pot, and Mardi Gras season brings its own dedicated dish, the purple-green-and-gold King Cake.",
+      "fun_facts": [
+        "Gumbo can be thickened with okra (a West African ingredient) or filé powder (ground sassafras leaves, adapted from Indigenous Choctaw cooking) -- reflecting Louisiana's layered cultural history in a single dish.",
+        "Cajun cuisine descends from the Acadians, French colonists expelled from Canada in the 18th century who resettled in Louisiana's bayous."
+      ],
+      "quiz": [
+        { "q": "What is the Louisiana version of the French mirepoix, made of onion, celery, and bell pepper, called?", "options": ["The holy trinity", "The Creole base", "Mirepoix Louisiana", "The bayou blend"], "answer": 0 },
+        { "q": "Which group, expelled from Canada in the 18th century, founded Cajun cuisine in rural Louisiana?", "options": ["The Acadians", "The Creoles", "The Choctaw", "The Huguenots"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "hungarian",
+      "label": "Hungarian Cuisine",
+      "emoji": "🥘",
+      "colour": "#d35400",
+      "region": "Central Europe",
+      "description": "A cuisine defined by paprika, rich stews, and pastry, shaped by Magyar herding traditions and centuries of Habsburg and Ottoman influence.",
+      "history": "Hungarian cuisine's defining spice, paprika, arrived via Ottoman trade routes in the 16th-17th centuries and was gradually adopted from an exotic import into the cuisine's central flavouring, particularly in goulash, which began as a simple herding dish cooked by Magyar cattle drovers over open fires on the Hungarian plains long before paprika was added.",
+      "famous_dishes": [
+        { "name": "Beef Goulash", "origin": "Hungarian Plains", "description": "A paprika-spiced beef stew that began as a simple herders' dish cooked over open fires." },
+        { "name": "Chicken Paprikash", "origin": "Hungary", "description": "Chicken braised in a creamy, paprika-based sauce, typically served with dumplings." },
+        { "name": "Dobos Torte", "origin": "Budapest", "description": "A multi-layered sponge cake with chocolate buttercream, topped with a signature caramel glaze, created in the 1880s." },
+        { "name": "Beef Töltött Káposzta", "origin": "Hungary", "description": "Cabbage rolls stuffed with meat and rice, simmered in a paprika-tomato sauce." }
+      ],
+      "key_ingredients": ["Paprika", "Sour cream", "Onions", "Beef", "Cabbage", "Egg noodles (nokedli/galuska)"],
+      "cooking_techniques": ["Slow stewing (goulash, pörkölt)", "Braising in sour cream sauce (paprikash)", "Layer-cake baking (dobos torte)", "Dumpling-shaping (nokedli)"],
+      "cultural_notes": "Hungary distinguishes between goulash (gulyás, a soupier herders' stew) and pörkölt (a thicker paprika stew) -- both often confused abroad under the single word 'goulash' -- and paprika itself comes in multiple graded varieties from sweet to hot.",
+      "fun_facts": [
+        "Paprika, now central to Hungarian cuisine, only arrived via Ottoman trade routes in the 16th-17th centuries.",
+        "Dobos Torte, created in Budapest in the 1880s, was one of the first cakes designed with a hard caramel top specifically so it could survive being shipped without refrigeration."
+      ],
+      "quiz": [
+        { "q": "Which trade route brought paprika, now central to Hungarian cuisine, to the country in the 16th-17th centuries?", "options": ["Ottoman trade routes", "The Silk Road", "Portuguese trade routes", "The Hanseatic League"], "answer": 0 },
+        { "q": "What distinguishes Hungarian pörkölt from goulash (gulyás)?", "options": ["Pörkölt is a thicker stew; gulyás is soupier", "Pörkölt uses chicken; gulyás uses beef", "Pörkölt is a soup; gulyás is a cake", "There is no real difference"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "scandinavian",
+      "label": "Scandinavian Cuisine",
+      "emoji": "🐟",
+      "colour": "#2980b9",
+      "region": "Northern Europe",
+      "description": "A cuisine shaped by cold-climate preservation -- curing, smoking, pickling, and fermenting fish and dairy -- across Norway, Sweden, Denmark, and Finland.",
+      "history": "Scandinavian food traditions developed around preserving fish and dairy through long, dark winters, using techniques like salt-curing, smoking, and fermentation that predate refrigeration by centuries. The New Nordic food movement, launched with a 2004 manifesto signed by leading regional chefs, deliberately revived and modernised these traditional preservation techniques and foraged, local ingredients, reshaping Scandinavian fine dining's global reputation in the 21st century.",
+      "famous_dishes": [
+        { "name": "Gravlax", "origin": "Scandinavia", "description": "Salmon cured with salt, sugar, and dill, traditionally buried in the ground to ferment -- the word 'gravlax' literally means 'buried salmon'." },
+        { "name": "Beef Meatballs (Köttbullar)", "origin": "Sweden", "description": "Pan-fried meatballs served with cream sauce, lingonberry jam, and potatoes." },
+        { "name": "Rakfisk", "origin": "Norway", "description": "Fermented trout or char, aged for months, a strong-flavoured traditional delicacy." },
+        { "name": "Kanelbullar", "origin": "Sweden", "description": "Cinnamon buns, celebrated nationally each 4 October on Sweden's Cinnamon Bun Day." }
+      ],
+      "key_ingredients": ["Salmon and herring", "Dill", "Rye bread", "Potatoes", "Lingonberries", "Cardamom"],
+      "cooking_techniques": ["Curing (gravlax)", "Fermenting (rakfisk)", "Smoking", "Pickling (herring)"],
+      "cultural_notes": "The 2004 New Nordic manifesto, signed by chefs across the region, reshaped Scandinavian fine dining by emphasising foraged, seasonal, and traditionally preserved ingredients over imported ones, influencing global restaurant trends in the decades since.",
+      "fun_facts": [
+        "The word 'gravlax' literally means 'buried salmon,' referencing the dish's origin as fish fermented by burial in the ground.",
+        "Sweden has an official Cinnamon Bun Day (Kanelbullens Dag) celebrated every 4 October."
+      ],
+      "quiz": [
+        { "q": "What does the word 'gravlax' literally mean?", "options": ["Buried salmon", "Cured fish", "Winter salmon", "Smoked fish"], "answer": 0 },
+        { "q": "What food movement, launched with a 2004 manifesto, reshaped Scandinavian fine dining around foraged, local ingredients?", "options": ["New Nordic cuisine", "Slow Food Scandinavia", "Nordic Revival", "Foraged Table"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "south_african",
+      "label": "South African Cuisine",
+      "emoji": "🍖",
+      "colour": "#d35400",
+      "region": "Southern Africa",
+      "description": "A richly layered 'rainbow cuisine' blending Indigenous African, Dutch and British colonial, Malay, and Indian influences, famous for braai (barbecue) culture and bold spicing.",
+      "history": "South African cuisine reflects the country's complex history: Indigenous Nguni and Khoisan communities contributed maize-and-vegetable staples and grilling traditions; Dutch settlers from the 17th century brought European farming and baking; Cape Malay cooking, developed by enslaved and exiled people brought from Southeast Asia by Dutch colonists, introduced fragrant spice blends and dishes like bobotie; and Indian indentured labourers, brought to Natal in the 19th century, established a strong curry tradition still visible in Durban's famous bunny chow.",
+      "famous_dishes": [
+        { "name": "Beef Braai", "origin": "South Africa", "description": "South African barbecue, both a cooking method and a major social occasion." },
+        { "name": "Beef Bobotie", "origin": "Cape Malay", "description": "Spiced minced meat baked with an egg custard topping, South Africa's most iconic Cape Malay dish." },
+        { "name": "Chakalaka", "origin": "South Africa (townships)", "description": "A spicy vegetable relish, typically tomato and bean based, served alongside braai and pap." },
+        { "name": "Malva Pudding", "origin": "South Africa (Cape Dutch)", "description": "A sticky, apricot-jam sponge pudding served warm with custard or cream." }
+      ],
+      "key_ingredients": ["Maize (pap/mielie meal)", "Beef", "Curry spices", "Dried fruit", "Chutney", "Rooibos"],
+      "cooking_techniques": ["Open-fire grilling (braai)", "Spice-crusted baking (bobotie)", "Long stewing (potjiekos)", "Curry-building (Durban and Cape Malay traditions)"],
+      "cultural_notes": "Braai is a deeply embedded national social ritual across all South African communities, and Durban's 'bunny chow' -- a hollowed loaf of bread filled with curry -- was created by the city's Indian community and remains a distinctly South African street food.",
+      "fun_facts": [
+        "Durban's bunny chow, a hollowed bread loaf filled with curry, was created by the city's Indian community and has no rabbit in it at all.",
+        "Bobotie's fragrant spicing traces back to Cape Malay cooking, developed by people brought to South Africa from Southeast Asia under Dutch colonial rule."
+      ],
+      "quiz": [
+        { "q": "What is Durban's 'bunny chow,' a hollowed bread loaf filled with curry, named after?", "options": ["It contains no rabbit -- the name has a different origin", "A rabbit-shaped loaf", "A restaurant owner named Bunny", "An Afrikaans word for bread"], "answer": 0 },
+        { "q": "Which culinary tradition, brought by people exiled to South Africa from Southeast Asia, produced dishes like bobotie?", "options": ["Cape Malay cooking", "Zulu cooking", "Dutch Boer cooking", "Khoisan cooking"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "nigerian_west_african",
+      "label": "Nigerian & West African Cuisine",
+      "emoji": "🍲",
+      "colour": "#e67e22",
+      "region": "West Africa",
+      "description": "A cuisine of bold, slow-simmered stews and soups eaten with starchy accompaniments, shared with regional variation across Nigeria, Ghana, and their West African neighbours.",
+      "history": "West African cuisine is built on Indigenous staples -- yam, cassava, and native rice -- alongside okra, palm oil, and peppers, later joined by New World crops like maize and additional pepper varieties introduced through Atlantic trade after the 15th-16th centuries. Jollof rice, the region's most famous dish, has an ongoing, good-natured rivalry between Nigeria and Ghana over whose version is superior, a debate popular enough to be widely referred to as the 'Jollof Wars'.",
+      "famous_dishes": [
+        { "name": "Beef Jollof Rice", "origin": "West Africa", "description": "A one-pot tomato-and-pepper rice dish, the subject of a famous friendly rivalry between Nigeria and Ghana." },
+        { "name": "Egusi Soup", "origin": "Nigeria", "description": "A thick soup made from ground melon seeds, leafy greens, and meat or fish." },
+        { "name": "Beef Suya", "origin": "Northern Nigeria (Hausa)", "description": "Skewered, grilled meat coated in a spiced peanut rub, a beloved West African street food." },
+        { "name": "Beef Pepper Soup", "origin": "Nigeria", "description": "A light, intensely spiced broth, often eaten as a warming remedy as well as a meal." }
+      ],
+      "key_ingredients": ["Yam and cassava", "Palm oil", "Scotch bonnet peppers", "Rice", "Melon seeds (egusi)", "Peanuts"],
+      "cooking_techniques": ["One-pot rice stewing (jollof)", "Grinding and thickening (egusi soup)", "Skewer grilling (suya)", "Pounding starches (fufu, pounded yam)"],
+      "cultural_notes": "Meals are traditionally built around a starchy accompaniment -- pounded yam, fufu, or rice -- eaten by hand to scoop up a soup or stew, and the friendly Nigeria-Ghana 'Jollof Wars' rivalry over jollof rice has become a well-known part of West African popular culture.",
+      "fun_facts": [
+        "The rivalry between Nigeria and Ghana over whose jollof rice is better is popular enough to be widely nicknamed the 'Jollof Wars'.",
+        "Egusi soup is thickened with ground melon seeds rather than flour or okra, giving it a distinctive nutty texture."
+      ],
+      "quiz": [
+        { "q": "What is the good-natured Nigeria-Ghana rivalry over jollof rice popularly called?", "options": ["The Jollof Wars", "The Rice Rivalry", "The Pepper Debate", "The West African Cook-Off"], "answer": 0 },
+        { "q": "What ingredient thickens Nigerian egusi soup?", "options": ["Ground melon seeds", "Okra", "Cassava flour", "Peanuts"], "answer": 0 }
       ]
     }
   ]
