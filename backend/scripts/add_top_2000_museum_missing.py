@@ -21,7 +21,7 @@ SOURCE_PATH = BASE_DIR / "data" / "museum_objects.json"
 MUSEUM_PATH = BASE_DIR / "data" / "virtual_museum" / "museum.json"
 GALLERY_KEY = "top_2000_additions"
 SOURCE_LIMIT = 5_000
-TARGET_COUNT = 2_500
+TARGET_COUNT = 4_462
 
 
 def normalize(value: str | None) -> str:
