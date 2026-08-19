@@ -774,6 +774,29 @@ def test_country_not_found():
     assert resp.status_code == 404
 
 
+def test_countries_have_capital_coordinates():
+    resp = client.get("/api/countries")
+    countries = resp.json()["countries"]
+    assert len(countries) >= 100
+    for country in countries:
+        coords = country.get("coordinates")
+        assert coords is not None, country["name"]
+        assert -90 <= coords["lat"] <= 90
+        assert -180 <= coords["lng"] <= 180
+
+
+def test_countries_have_google_maps_and_earth_links():
+    resp = client.get("/api/countries/FR")
+    data = resp.json()
+    lat, lng = data["coordinates"]["lat"], data["coordinates"]["lng"]
+    assert str(lat) in data["links"]["google_maps"]
+    assert str(lng) in data["links"]["google_maps"]
+    assert data["links"]["google_maps"].startswith("https://www.google.com/maps/")
+    assert data["links"]["google_earth"].startswith("https://earth.google.com/web/")
+    assert str(lat) in data["links"]["google_earth"]
+    assert str(lng) in data["links"]["google_earth"]
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Assessment Centre
 # ──────────────────────────────────────────────────────────────────────────────

@@ -3,12 +3,34 @@ import LoadingSpinner from './LoadingSpinner.jsx';
 
 const CONTINENTS = ['All', 'Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Antarctica'];
 
+// Pin colours per continent for the World Map view.
+const CONTINENT_COLOR = {
+  Africa: '#f59e0b',
+  Asia: '#ef4444',
+  Europe: '#3b82f6',
+  'North America': '#10b981',
+  'South America': '#a855f7',
+  Oceania: '#06b6d4',
+  Antarctica: '#94a3b8',
+};
+
+// Equirectangular projection: real latitude/longitude -> SVG x/y on a 1000x500 map.
+const MAP_WIDTH = 1000;
+const MAP_HEIGHT = 500;
+function project(lat, lng) {
+  const x = ((lng + 180) / 360) * MAP_WIDTH;
+  const y = ((90 - lat) / 180) * MAP_HEIGHT;
+  return { x, y };
+}
+
 export default function CountriesExplorer() {
   const [countries, setCountries] = useState([]);
   const [selected, setSelected] = useState(null);
   const [search, setSearch] = useState('');
   const [continent, setContinent] = useState('All');
   const [loading, setLoading] = useState(true);
+  const [view, setView] = useState('map');
+  const [pinCode, setPinCode] = useState(null);
 
   useEffect(() => {
     fetch('/api/countries')
@@ -20,6 +42,7 @@ export default function CountriesExplorer() {
   async function loadCountry(code) {
     const data = await fetch(`/api/countries/${code}`).then((r) => r.json());
     setSelected(data);
+    setPinCode(null);
   }
 
   const filtered = useMemo(() => {
@@ -29,6 +52,9 @@ export default function CountriesExplorer() {
       return matchSearch && matchContinent;
     });
   }, [countries, search, continent]);
+
+  const pinned = filtered.filter((c) => c.coordinates);
+  const pinnedCountry = pinCode ? countries.find((c) => c.code === pinCode) : null;
 
   if (loading) return <LoadingSpinner />;
 
@@ -118,6 +144,8 @@ export default function CountriesExplorer() {
             <div className="border-t px-4 py-4">
               <p className="text-sm font-semibold mb-3">🔗 Explore {c.name}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <LinkCard href={c.links.google_maps} icon="🗺️" label="Open in Google Maps" color="blue" />
+                <LinkCard href={c.links.google_earth} icon="🌐" label="Open in Google Earth" color="green" />
                 <LinkCard href={c.links.tourist_attraction_video} icon="🎬" label="Tourist Attraction Video" color="red" />
                 <LinkCard href={c.links.video_overview} icon="▶" label="Country Documentary" color="red" />
                 <LinkCard href={c.links.virtual_tour_video} icon="🌐" label="Virtual Tour (4K)" color="red" />
@@ -138,10 +166,10 @@ export default function CountriesExplorer() {
     <div className="space-y-4">
       <div className="rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 p-4 text-white">
         <h2 className="text-xl font-bold">🌍 Countries Explorer</h2>
-        <p className="text-sm opacity-90">Discover all {countries.length} countries of the world</p>
+        <p className="text-sm opacity-90">Discover all {countries.length} countries of the world — take a virtual tour with Google Maps &amp; Google Earth</p>
       </div>
 
-      <div className="flex flex-col gap-2 sm:flex-row">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -155,28 +183,114 @@ export default function CountriesExplorer() {
         >
           {CONTINENTS.map((c) => <option key={c}>{c}</option>)}
         </select>
+        <div className="flex rounded-lg border overflow-hidden shrink-0">
+          <button
+            onClick={() => setView('map')}
+            className={`px-3 py-2 text-sm font-medium ${view === 'map' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800'}`}
+          >
+            🗺 Map
+          </button>
+          <button
+            onClick={() => setView('list')}
+            className={`px-3 py-2 text-sm font-medium ${view === 'list' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800'}`}
+          >
+            📋 List
+          </button>
+        </div>
       </div>
 
       <p className="text-xs text-gray-500">{filtered.length} countries</p>
 
-      <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-        {filtered.map((c) => (
-          <button
-            key={c.code}
-            onClick={() => loadCountry(c.code)}
-            className="flex items-center gap-3 rounded-xl border bg-white p-3 text-left shadow-sm hover:border-blue-400 transition dark:bg-gray-900"
-          >
-            <span className="text-2xl">{c.flag_emoji}</span>
-            <div className="min-w-0">
-              <p className="font-medium truncate">{c.name}</p>
-              <p className="text-xs text-gray-500 truncate">{c.capital}</p>
-            </div>
-          </button>
-        ))}
-      </div>
+      {view === 'map' ? (
+        <WorldMap countries={pinned} pinCode={pinCode} setPinCode={setPinCode} pinnedCountry={pinnedCountry} onOpenDetail={loadCountry} />
+      ) : (
+        <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+          {filtered.map((c) => (
+            <button
+              key={c.code}
+              onClick={() => loadCountry(c.code)}
+              className="flex items-center gap-3 rounded-xl border bg-white p-3 text-left shadow-sm hover:border-blue-400 transition dark:bg-gray-900"
+            >
+              <span className="text-2xl">{c.flag_emoji}</span>
+              <div className="min-w-0">
+                <p className="font-medium truncate">{c.name}</p>
+                <p className="text-xs text-gray-500 truncate">{c.capital}</p>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
 
       {filtered.length === 0 && (
         <p className="text-center text-gray-500 py-8">No countries found.</p>
+      )}
+    </div>
+  );
+}
+
+// A schematic, accurately-projected locator map (latitude/longitude graticule,
+// not real coastlines) — every pin sits at its country's real capital-city
+// coordinates. It's the index; the actual accurate map imagery comes from
+// clicking through to the real Google Maps / Google Earth links.
+function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail }) {
+  const meridians = [-150, -120, -90, -60, -30, 0, 30, 60, 90, 120, 150];
+  const parallels = [-60, -30, 0, 30, 60];
+
+  return (
+    <div className="space-y-2">
+      <div className="rounded-xl border overflow-hidden bg-sky-50 dark:bg-slate-900">
+        <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="w-full h-auto select-none" role="img" aria-label="World map of country capitals">
+          <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} className="fill-sky-100 dark:fill-slate-800" />
+          {meridians.map((lng) => {
+            const { x } = project(0, lng);
+            return <line key={lng} x1={x} y1={0} x2={x} y2={MAP_HEIGHT} className="stroke-sky-200 dark:stroke-slate-700" strokeWidth="1" />;
+          })}
+          {parallels.map((lat) => {
+            const { y } = project(lat, 0);
+            return <line key={lat} x1={0} y1={y} x2={MAP_WIDTH} y2={y} className={lat === 0 ? 'stroke-sky-300 dark:stroke-slate-600' : 'stroke-sky-200 dark:stroke-slate-700'} strokeWidth={lat === 0 ? 1.5 : 1} />;
+          })}
+          <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} fill="none" className="stroke-sky-300 dark:stroke-slate-600" strokeWidth="1.5" />
+          {countries.map((c) => {
+            const { x, y } = project(c.coordinates.lat, c.coordinates.lng);
+            const isActive = pinCode === c.code;
+            return (
+              <g
+                key={c.code}
+                transform={`translate(${x}, ${y})`}
+                onClick={() => setPinCode(isActive ? null : c.code)}
+                className="cursor-pointer"
+              >
+                <circle r={isActive ? 6 : 4} fill={CONTINENT_COLOR[c.continent] || '#64748b'} stroke="white" strokeWidth="1" />
+                {isActive && <circle r="10" fill="none" stroke={CONTINENT_COLOR[c.continent] || '#64748b'} strokeWidth="1.5" opacity="0.6" />}
+              </g>
+            );
+          })}
+        </svg>
+      </div>
+      <p className="text-[11px] text-gray-400 text-center">
+        A schematic locator map (latitude/longitude grid, not coastlines) — pins mark each capital's real coordinates. Tap a pin, then open it in Google Maps or Google Earth for the real view.
+      </p>
+
+      {pinnedCountry && (
+        <div className="rounded-xl border bg-white dark:bg-gray-900 p-4 flex flex-col sm:flex-row sm:items-center gap-3 shadow">
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            <span className="text-3xl">{pinnedCountry.flag_emoji}</span>
+            <div className="min-w-0">
+              <p className="font-semibold truncate">{pinnedCountry.name}</p>
+              <p className="text-xs text-gray-500 truncate">{pinnedCountry.capital} · {pinnedCountry.continent}</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <LinkCard href={pinnedCountry.links?.google_maps} icon="🗺️" label="Google Maps" color="blue" />
+            <LinkCard href={pinnedCountry.links?.google_earth} icon="🌐" label="Google Earth" color="green" />
+            <button
+              onClick={() => onOpenDetail(pinnedCountry.code)}
+              className="flex items-center gap-2 px-3 py-2 rounded-lg border text-xs font-medium bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200"
+            >
+              📖 Full Details
+            </button>
+          </div>
+        </div>
       )}
     </div>
   );

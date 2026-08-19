@@ -57,7 +57,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/afghanistan/",
         "text_britannica": "https://www.britannica.com/place/Afghanistan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/afghanistan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/afghanistan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/afghanistan/",
+        "google_maps": "https://www.google.com/maps/@34.5553,69.2075,12z",
+        "google_earth": "https://earth.google.com/web/@34.5553,69.2075,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 34.5553,
+        "lng": 69.2075
       }
     },
     {
@@ -112,7 +118,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/albania/",
         "text_britannica": "https://www.britannica.com/place/Albania",
         "resource_lonely_planet": "https://www.lonelyplanet.com/albania",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/albania/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/albania/",
+        "google_maps": "https://www.google.com/maps/@41.3275,19.8187,12z",
+        "google_earth": "https://earth.google.com/web/@41.3275,19.8187,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 41.3275,
+        "lng": 19.8187
       }
     },
     {
@@ -174,7 +186,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/algeria/",
         "text_britannica": "https://www.britannica.com/place/Algeria",
         "resource_lonely_planet": "https://www.lonelyplanet.com/algeria",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/algeria/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/algeria/",
+        "google_maps": "https://www.google.com/maps/@36.7538,3.0588,12z",
+        "google_earth": "https://earth.google.com/web/@36.7538,3.0588,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 36.7538,
+        "lng": 3.0588
       }
     },
     {
@@ -229,7 +247,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/andorra/",
         "text_britannica": "https://www.britannica.com/place/Andorra",
         "resource_lonely_planet": "https://www.lonelyplanet.com/andorra",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/andorra/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/andorra/",
+        "google_maps": "https://www.google.com/maps/@42.5063,1.5218,12z",
+        "google_earth": "https://earth.google.com/web/@42.5063,1.5218,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 42.5063,
+        "lng": 1.5218
       }
     },
     {
@@ -285,7 +309,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/angola/",
         "text_britannica": "https://www.britannica.com/place/Angola",
         "resource_lonely_planet": "https://www.lonelyplanet.com/angola",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/angola/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/angola/",
+        "google_maps": "https://www.google.com/maps/@-8.839,13.2894,12z",
+        "google_earth": "https://earth.google.com/web/@-8.839,13.2894,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -8.839,
+        "lng": 13.2894
       }
     },
     {
@@ -338,7 +368,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/antigua-and-barbuda/",
         "text_britannica": "https://www.britannica.com/place/Antigua-and-Barbuda",
         "resource_lonely_planet": "https://www.lonelyplanet.com/antigua-and-barbuda",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/antigua-and-barbuda/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/antigua-and-barbuda/",
+        "google_maps": "https://www.google.com/maps/@17.1274,-61.8468,12z",
+        "google_earth": "https://earth.google.com/web/@17.1274,-61.8468,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 17.1274,
+        "lng": -61.8468
       }
     },
     {
@@ -391,7 +427,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/argentina/",
         "text_britannica": "https://www.britannica.com/place/Argentina",
         "resource_lonely_planet": "https://www.lonelyplanet.com/argentina",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/argentina/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/argentina/",
+        "google_maps": "https://www.google.com/maps/@-34.6037,-58.3816,12z",
+        "google_earth": "https://earth.google.com/web/@-34.6037,-58.3816,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -34.6037,
+        "lng": -58.3816
       }
     },
     {
@@ -444,7 +486,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/armenia/",
         "text_britannica": "https://www.britannica.com/place/Armenia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/armenia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/armenia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/armenia/",
+        "google_maps": "https://www.google.com/maps/@40.1792,44.4991,12z",
+        "google_earth": "https://earth.google.com/web/@40.1792,44.4991,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 40.1792,
+        "lng": 44.4991
       }
     },
     {
@@ -512,7 +560,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/australia/",
         "text_britannica": "https://www.britannica.com/place/Australia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/australia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/australia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/australia/",
+        "google_maps": "https://www.google.com/maps/@-35.2809,149.13,12z",
+        "google_earth": "https://earth.google.com/web/@-35.2809,149.13,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -35.2809,
+        "lng": 149.13
       }
     },
     {
@@ -565,7 +619,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/austria/",
         "text_britannica": "https://www.britannica.com/place/Austria",
         "resource_lonely_planet": "https://www.lonelyplanet.com/austria",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/austria/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/austria/",
+        "google_maps": "https://www.google.com/maps/@48.2082,16.3738,12z",
+        "google_earth": "https://earth.google.com/web/@48.2082,16.3738,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 48.2082,
+        "lng": 16.3738
       }
     },
     {
@@ -618,7 +678,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/azerbaijan/",
         "text_britannica": "https://www.britannica.com/place/Azerbaijan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/azerbaijan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/azerbaijan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/azerbaijan/",
+        "google_maps": "https://www.google.com/maps/@40.4093,49.8671,12z",
+        "google_earth": "https://earth.google.com/web/@40.4093,49.8671,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 40.4093,
+        "lng": 49.8671
       }
     },
     {
@@ -671,7 +737,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bahamas/",
         "text_britannica": "https://www.britannica.com/place/Bahamas",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bahamas",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bahamas/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bahamas/",
+        "google_maps": "https://www.google.com/maps/@25.048,-77.3554,12z",
+        "google_earth": "https://earth.google.com/web/@25.048,-77.3554,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 25.048,
+        "lng": -77.3554
       }
     },
     {
@@ -724,7 +796,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bahrain/",
         "text_britannica": "https://www.britannica.com/place/Bahrain",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bahrain",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bahrain/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bahrain/",
+        "google_maps": "https://www.google.com/maps/@26.2285,50.586,12z",
+        "google_earth": "https://earth.google.com/web/@26.2285,50.586,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 26.2285,
+        "lng": 50.586
       }
     },
     {
@@ -777,7 +855,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bangladesh/",
         "text_britannica": "https://www.britannica.com/place/Bangladesh",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bangladesh",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bangladesh/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bangladesh/",
+        "google_maps": "https://www.google.com/maps/@23.8103,90.4125,12z",
+        "google_earth": "https://earth.google.com/web/@23.8103,90.4125,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 23.8103,
+        "lng": 90.4125
       }
     },
     {
@@ -830,7 +914,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/barbados/",
         "text_britannica": "https://www.britannica.com/place/Barbados",
         "resource_lonely_planet": "https://www.lonelyplanet.com/barbados",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/barbados/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/barbados/",
+        "google_maps": "https://www.google.com/maps/@13.1132,-59.5988,12z",
+        "google_earth": "https://earth.google.com/web/@13.1132,-59.5988,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.1132,
+        "lng": -59.5988
       }
     },
     {
@@ -883,7 +973,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/belarus/",
         "text_britannica": "https://www.britannica.com/place/Belarus",
         "resource_lonely_planet": "https://www.lonelyplanet.com/belarus",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belarus/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belarus/",
+        "google_maps": "https://www.google.com/maps/@53.9006,27.559,12z",
+        "google_earth": "https://earth.google.com/web/@53.9006,27.559,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 53.9006,
+        "lng": 27.559
       }
     },
     {
@@ -936,7 +1032,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/belgium/",
         "text_britannica": "https://www.britannica.com/place/Belgium",
         "resource_lonely_planet": "https://www.lonelyplanet.com/belgium",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belgium/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belgium/",
+        "google_maps": "https://www.google.com/maps/@50.8503,4.3517,12z",
+        "google_earth": "https://earth.google.com/web/@50.8503,4.3517,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 50.8503,
+        "lng": 4.3517
       }
     },
     {
@@ -989,7 +1091,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/belize/",
         "text_britannica": "https://www.britannica.com/place/Belize",
         "resource_lonely_planet": "https://www.lonelyplanet.com/belize",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belize/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/belize/",
+        "google_maps": "https://www.google.com/maps/@17.251,-88.759,12z",
+        "google_earth": "https://earth.google.com/web/@17.251,-88.759,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 17.251,
+        "lng": -88.759
       }
     },
     {
@@ -1042,7 +1150,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/benin/",
         "text_britannica": "https://www.britannica.com/place/Benin",
         "resource_lonely_planet": "https://www.lonelyplanet.com/benin",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/benin/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/benin/",
+        "google_maps": "https://www.google.com/maps/@6.4969,2.6289,12z",
+        "google_earth": "https://earth.google.com/web/@6.4969,2.6289,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.4969,
+        "lng": 2.6289
       }
     },
     {
@@ -1095,7 +1209,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bhutan/",
         "text_britannica": "https://www.britannica.com/place/Bhutan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bhutan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bhutan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bhutan/",
+        "google_maps": "https://www.google.com/maps/@27.4712,89.6339,12z",
+        "google_earth": "https://earth.google.com/web/@27.4712,89.6339,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 27.4712,
+        "lng": 89.6339
       }
     },
     {
@@ -1148,7 +1268,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bolivia/",
         "text_britannica": "https://www.britannica.com/place/Bolivia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bolivia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bolivia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bolivia/",
+        "google_maps": "https://www.google.com/maps/@-16.5,-68.1193,12z",
+        "google_earth": "https://earth.google.com/web/@-16.5,-68.1193,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -16.5,
+        "lng": -68.1193
       }
     },
     {
@@ -1201,7 +1327,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bosnia-and-herzegovina/",
         "text_britannica": "https://www.britannica.com/place/Bosnia-and-Herzegovina",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bosnia-and-herzegovina",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bosnia-and-herzegovina/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bosnia-and-herzegovina/",
+        "google_maps": "https://www.google.com/maps/@43.8563,18.4131,12z",
+        "google_earth": "https://earth.google.com/web/@43.8563,18.4131,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 43.8563,
+        "lng": 18.4131
       }
     },
     {
@@ -1254,7 +1386,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/botswana/",
         "text_britannica": "https://www.britannica.com/place/Botswana",
         "resource_lonely_planet": "https://www.lonelyplanet.com/botswana",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/botswana/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/botswana/",
+        "google_maps": "https://www.google.com/maps/@-24.6282,25.9231,12z",
+        "google_earth": "https://earth.google.com/web/@-24.6282,25.9231,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -24.6282,
+        "lng": 25.9231
       }
     },
     {
@@ -1314,7 +1452,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/brazil/",
         "text_britannica": "https://www.britannica.com/place/Brazil",
         "resource_lonely_planet": "https://www.lonelyplanet.com/brazil",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/brazil/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/brazil/",
+        "google_maps": "https://www.google.com/maps/@-15.7939,-47.8828,12z",
+        "google_earth": "https://earth.google.com/web/@-15.7939,-47.8828,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -15.7939,
+        "lng": -47.8828
       }
     },
     {
@@ -1367,7 +1511,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/brunei-darussalam/",
         "text_britannica": "https://www.britannica.com/place/Brunei",
         "resource_lonely_planet": "https://www.lonelyplanet.com/brunei-darussalam",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/brunei-darussalam/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/brunei-darussalam/",
+        "google_maps": "https://www.google.com/maps/@4.9031,114.9398,12z",
+        "google_earth": "https://earth.google.com/web/@4.9031,114.9398,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 4.9031,
+        "lng": 114.9398
       }
     },
     {
@@ -1420,7 +1570,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/bulgaria/",
         "text_britannica": "https://www.britannica.com/place/Bulgaria",
         "resource_lonely_planet": "https://www.lonelyplanet.com/bulgaria",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bulgaria/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/bulgaria/",
+        "google_maps": "https://www.google.com/maps/@42.6977,23.3219,12z",
+        "google_earth": "https://earth.google.com/web/@42.6977,23.3219,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 42.6977,
+        "lng": 23.3219
       }
     },
     {
@@ -1473,7 +1629,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/burkina-faso/",
         "text_britannica": "https://www.britannica.com/place/Burkina-Faso",
         "resource_lonely_planet": "https://www.lonelyplanet.com/burkina-faso",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/burkina-faso/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/burkina-faso/",
+        "google_maps": "https://www.google.com/maps/@12.3714,-1.5197,12z",
+        "google_earth": "https://earth.google.com/web/@12.3714,-1.5197,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 12.3714,
+        "lng": -1.5197
       }
     },
     {
@@ -1526,7 +1688,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/burundi/",
         "text_britannica": "https://www.britannica.com/place/Burundi",
         "resource_lonely_planet": "https://www.lonelyplanet.com/burundi",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/burundi/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/burundi/",
+        "google_maps": "https://www.google.com/maps/@-3.4264,29.9306,12z",
+        "google_earth": "https://earth.google.com/web/@-3.4264,29.9306,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -3.4264,
+        "lng": 29.9306
       }
     },
     {
@@ -1579,7 +1747,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/cape-verde/",
         "text_britannica": "https://www.britannica.com/place/Cabo-Verde",
         "resource_lonely_planet": "https://www.lonelyplanet.com/cape-verde",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cape-verde/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cape-verde/",
+        "google_maps": "https://www.google.com/maps/@14.933,-23.5133,12z",
+        "google_earth": "https://earth.google.com/web/@14.933,-23.5133,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.933,
+        "lng": -23.5133
       }
     },
     {
@@ -1632,7 +1806,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/cambodia/",
         "text_britannica": "https://www.britannica.com/place/Cambodia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/cambodia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cambodia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cambodia/",
+        "google_maps": "https://www.google.com/maps/@11.5564,104.9282,12z",
+        "google_earth": "https://earth.google.com/web/@11.5564,104.9282,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 11.5564,
+        "lng": 104.9282
       }
     },
     {
@@ -1685,7 +1865,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/cameroon/",
         "text_britannica": "https://www.britannica.com/place/Cameroon",
         "resource_lonely_planet": "https://www.lonelyplanet.com/cameroon",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cameroon/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cameroon/",
+        "google_maps": "https://www.google.com/maps/@3.848,11.5021,12z",
+        "google_earth": "https://earth.google.com/web/@3.848,11.5021,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 3.848,
+        "lng": 11.5021
       }
     },
     {
@@ -1738,7 +1924,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/canada/",
         "text_britannica": "https://www.britannica.com/place/Canada",
         "resource_lonely_planet": "https://www.lonelyplanet.com/canada",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/canada/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/canada/",
+        "google_maps": "https://www.google.com/maps/@45.4215,-75.6972,12z",
+        "google_earth": "https://earth.google.com/web/@45.4215,-75.6972,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 45.4215,
+        "lng": -75.6972
       }
     },
     {
@@ -1791,7 +1983,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/central-african-republic/",
         "text_britannica": "https://www.britannica.com/place/Central-African-Republic",
         "resource_lonely_planet": "https://www.lonelyplanet.com/central-african-republic",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/central-african-republic/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/central-african-republic/",
+        "google_maps": "https://www.google.com/maps/@4.3947,18.5582,12z",
+        "google_earth": "https://earth.google.com/web/@4.3947,18.5582,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 4.3947,
+        "lng": 18.5582
       }
     },
     {
@@ -1844,7 +2042,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/chad/",
         "text_britannica": "https://www.britannica.com/place/Chad",
         "resource_lonely_planet": "https://www.lonelyplanet.com/chad",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/chad/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/chad/",
+        "google_maps": "https://www.google.com/maps/@12.1348,15.0557,12z",
+        "google_earth": "https://earth.google.com/web/@12.1348,15.0557,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 12.1348,
+        "lng": 15.0557
       }
     },
     {
@@ -1897,7 +2101,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/chile/",
         "text_britannica": "https://www.britannica.com/place/Chile",
         "resource_lonely_planet": "https://www.lonelyplanet.com/chile",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/chile/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/chile/",
+        "google_maps": "https://www.google.com/maps/@-33.4489,-70.6693,12z",
+        "google_earth": "https://earth.google.com/web/@-33.4489,-70.6693,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -33.4489,
+        "lng": -70.6693
       }
     },
     {
@@ -1964,7 +2174,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/china/",
         "text_britannica": "https://www.britannica.com/place/China",
         "resource_lonely_planet": "https://www.lonelyplanet.com/china",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/china/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/china/",
+        "google_maps": "https://www.google.com/maps/@39.9042,116.4074,12z",
+        "google_earth": "https://earth.google.com/web/@39.9042,116.4074,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 39.9042,
+        "lng": 116.4074
       }
     },
     {
@@ -2017,7 +2233,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/colombia/",
         "text_britannica": "https://www.britannica.com/place/Colombia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/colombia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/colombia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/colombia/",
+        "google_maps": "https://www.google.com/maps/@4.711,-74.0721,12z",
+        "google_earth": "https://earth.google.com/web/@4.711,-74.0721,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 4.711,
+        "lng": -74.0721
       }
     },
     {
@@ -2070,7 +2292,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/comoros/",
         "text_britannica": "https://www.britannica.com/place/Comoros",
         "resource_lonely_planet": "https://www.lonelyplanet.com/comoros",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/comoros/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/comoros/",
+        "google_maps": "https://www.google.com/maps/@-11.7042,43.2402,12z",
+        "google_earth": "https://earth.google.com/web/@-11.7042,43.2402,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -11.7042,
+        "lng": 43.2402
       }
     },
     {
@@ -2123,7 +2351,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/republic-of-the-congo/",
         "text_britannica": "https://www.britannica.com/place/Congo-(Republic)",
         "resource_lonely_planet": "https://www.lonelyplanet.com/republic-of-the-congo",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/republic-of-the-congo/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/republic-of-the-congo/",
+        "google_maps": "https://www.google.com/maps/@-4.2634,15.2429,12z",
+        "google_earth": "https://earth.google.com/web/@-4.2634,15.2429,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -4.2634,
+        "lng": 15.2429
       }
     },
     {
@@ -2176,7 +2410,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/democratic-republic-of-the-congo/",
         "text_britannica": "https://www.britannica.com/place/Congo-(DRC)",
         "resource_lonely_planet": "https://www.lonelyplanet.com/democratic-republic-of-the-congo",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/democratic-republic-of-the-congo/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/democratic-republic-of-the-congo/",
+        "google_maps": "https://www.google.com/maps/@-4.4419,15.2663,12z",
+        "google_earth": "https://earth.google.com/web/@-4.4419,15.2663,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -4.4419,
+        "lng": 15.2663
       }
     },
     {
@@ -2229,7 +2469,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/costa-rica/",
         "text_britannica": "https://www.britannica.com/place/Costa-Rica",
         "resource_lonely_planet": "https://www.lonelyplanet.com/costa-rica",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/costa-rica/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/costa-rica/",
+        "google_maps": "https://www.google.com/maps/@9.9281,-84.0907,12z",
+        "google_earth": "https://earth.google.com/web/@9.9281,-84.0907,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 9.9281,
+        "lng": -84.0907
       }
     },
     {
@@ -2282,7 +2528,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/croatia/",
         "text_britannica": "https://www.britannica.com/place/Croatia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/croatia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/croatia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/croatia/",
+        "google_maps": "https://www.google.com/maps/@45.815,15.9819,12z",
+        "google_earth": "https://earth.google.com/web/@45.815,15.9819,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 45.815,
+        "lng": 15.9819
       }
     },
     {
@@ -2335,7 +2587,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/cuba/",
         "text_britannica": "https://www.britannica.com/place/Cuba",
         "resource_lonely_planet": "https://www.lonelyplanet.com/cuba",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cuba/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cuba/",
+        "google_maps": "https://www.google.com/maps/@23.1136,-82.3666,12z",
+        "google_earth": "https://earth.google.com/web/@23.1136,-82.3666,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 23.1136,
+        "lng": -82.3666
       }
     },
     {
@@ -2388,7 +2646,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/cyprus/",
         "text_britannica": "https://www.britannica.com/place/Cyprus",
         "resource_lonely_planet": "https://www.lonelyplanet.com/cyprus",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cyprus/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/cyprus/",
+        "google_maps": "https://www.google.com/maps/@35.1856,33.3823,12z",
+        "google_earth": "https://earth.google.com/web/@35.1856,33.3823,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 35.1856,
+        "lng": 33.3823
       }
     },
     {
@@ -2441,7 +2705,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/czech-republic/",
         "text_britannica": "https://www.britannica.com/place/Czech-Republic",
         "resource_lonely_planet": "https://www.lonelyplanet.com/czech-republic",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/czech-republic/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/czech-republic/",
+        "google_maps": "https://www.google.com/maps/@50.0755,14.4378,12z",
+        "google_earth": "https://earth.google.com/web/@50.0755,14.4378,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 50.0755,
+        "lng": 14.4378
       }
     },
     {
@@ -2494,7 +2764,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/denmark/",
         "text_britannica": "https://www.britannica.com/place/Denmark",
         "resource_lonely_planet": "https://www.lonelyplanet.com/denmark",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/denmark/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/denmark/",
+        "google_maps": "https://www.google.com/maps/@55.6761,12.5683,12z",
+        "google_earth": "https://earth.google.com/web/@55.6761,12.5683,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 55.6761,
+        "lng": 12.5683
       }
     },
     {
@@ -2547,7 +2823,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/djibouti/",
         "text_britannica": "https://www.britannica.com/place/Djibouti",
         "resource_lonely_planet": "https://www.lonelyplanet.com/djibouti",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/djibouti/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/djibouti/",
+        "google_maps": "https://www.google.com/maps/@11.5721,43.1456,12z",
+        "google_earth": "https://earth.google.com/web/@11.5721,43.1456,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 11.5721,
+        "lng": 43.1456
       }
     },
     {
@@ -2600,7 +2882,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/dominica/",
         "text_britannica": "https://www.britannica.com/place/Dominica",
         "resource_lonely_planet": "https://www.lonelyplanet.com/dominica",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/dominica/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/dominica/",
+        "google_maps": "https://www.google.com/maps/@15.3092,-61.3794,12z",
+        "google_earth": "https://earth.google.com/web/@15.3092,-61.3794,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 15.3092,
+        "lng": -61.3794
       }
     },
     {
@@ -2653,7 +2941,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/dominican-republic/",
         "text_britannica": "https://www.britannica.com/place/Dominican-Republic",
         "resource_lonely_planet": "https://www.lonelyplanet.com/dominican-republic",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/dominican-republic/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/dominican-republic/",
+        "google_maps": "https://www.google.com/maps/@18.4861,-69.9312,12z",
+        "google_earth": "https://earth.google.com/web/@18.4861,-69.9312,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 18.4861,
+        "lng": -69.9312
       }
     },
     {
@@ -2706,7 +3000,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/ecuador/",
         "text_britannica": "https://www.britannica.com/place/Ecuador",
         "resource_lonely_planet": "https://www.lonelyplanet.com/ecuador",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ecuador/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ecuador/",
+        "google_maps": "https://www.google.com/maps/@-0.1807,-78.4678,12z",
+        "google_earth": "https://earth.google.com/web/@-0.1807,-78.4678,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -0.1807,
+        "lng": -78.4678
       }
     },
     {
@@ -2759,7 +3059,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/egypt/",
         "text_britannica": "https://www.britannica.com/place/Egypt",
         "resource_lonely_planet": "https://www.lonelyplanet.com/egypt",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/egypt/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/egypt/",
+        "google_maps": "https://www.google.com/maps/@30.0444,31.2357,12z",
+        "google_earth": "https://earth.google.com/web/@30.0444,31.2357,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 30.0444,
+        "lng": 31.2357
       }
     },
     {
@@ -2812,7 +3118,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/el-salvador/",
         "text_britannica": "https://www.britannica.com/place/El-Salvador",
         "resource_lonely_planet": "https://www.lonelyplanet.com/el-salvador",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/el-salvador/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/el-salvador/",
+        "google_maps": "https://www.google.com/maps/@13.6929,-89.2182,12z",
+        "google_earth": "https://earth.google.com/web/@13.6929,-89.2182,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.6929,
+        "lng": -89.2182
       }
     },
     {
@@ -2865,7 +3177,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/",
         "text_britannica": "https://www.britannica.com/place/Equatorial-Guinea",
         "resource_lonely_planet": "https://www.lonelyplanet.com/equatorial-guinea",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/equatorial-guinea/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/equatorial-guinea/",
+        "google_maps": "https://www.google.com/maps/@3.7523,8.7742,12z",
+        "google_earth": "https://earth.google.com/web/@3.7523,8.7742,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 3.7523,
+        "lng": 8.7742
       }
     },
     {
@@ -2918,7 +3236,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/eritrea/",
         "text_britannica": "https://www.britannica.com/place/Eritrea",
         "resource_lonely_planet": "https://www.lonelyplanet.com/eritrea",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/eritrea/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/eritrea/",
+        "google_maps": "https://www.google.com/maps/@15.3229,38.9251,12z",
+        "google_earth": "https://earth.google.com/web/@15.3229,38.9251,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 15.3229,
+        "lng": 38.9251
       }
     },
     {
@@ -2971,7 +3295,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/estonia/",
         "text_britannica": "https://www.britannica.com/place/Estonia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/estonia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/estonia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/estonia/",
+        "google_maps": "https://www.google.com/maps/@59.437,24.7536,12z",
+        "google_earth": "https://earth.google.com/web/@59.437,24.7536,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 59.437,
+        "lng": 24.7536
       }
     },
     {
@@ -3024,7 +3354,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/eswatini/",
         "text_britannica": "https://www.britannica.com/place/Eswatini",
         "resource_lonely_planet": "https://www.lonelyplanet.com/eswatini",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/eswatini/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/eswatini/",
+        "google_maps": "https://www.google.com/maps/@-26.3054,31.1367,12z",
+        "google_earth": "https://earth.google.com/web/@-26.3054,31.1367,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -26.3054,
+        "lng": 31.1367
       }
     },
     {
@@ -3077,7 +3413,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/ethiopia/",
         "text_britannica": "https://www.britannica.com/place/Ethiopia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/ethiopia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ethiopia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ethiopia/",
+        "google_maps": "https://www.google.com/maps/@9.025,38.7469,12z",
+        "google_earth": "https://earth.google.com/web/@9.025,38.7469,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 9.025,
+        "lng": 38.7469
       }
     },
     {
@@ -3130,7 +3472,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/fiji/",
         "text_britannica": "https://www.britannica.com/place/Fiji",
         "resource_lonely_planet": "https://www.lonelyplanet.com/fiji",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/fiji/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/fiji/",
+        "google_maps": "https://www.google.com/maps/@-18.1416,178.4419,12z",
+        "google_earth": "https://earth.google.com/web/@-18.1416,178.4419,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -18.1416,
+        "lng": 178.4419
       }
     },
     {
@@ -3183,7 +3531,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/finland/",
         "text_britannica": "https://www.britannica.com/place/Finland",
         "resource_lonely_planet": "https://www.lonelyplanet.com/finland",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/finland/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/finland/",
+        "google_maps": "https://www.google.com/maps/@60.1699,24.9384,12z",
+        "google_earth": "https://earth.google.com/web/@60.1699,24.9384,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 60.1699,
+        "lng": 24.9384
       }
     },
     {
@@ -3245,7 +3599,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/france/",
         "text_britannica": "https://www.britannica.com/place/France",
         "resource_lonely_planet": "https://www.lonelyplanet.com/france",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/france/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/france/",
+        "google_maps": "https://www.google.com/maps/@48.8566,2.3522,12z",
+        "google_earth": "https://earth.google.com/web/@48.8566,2.3522,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 48.8566,
+        "lng": 2.3522
       }
     },
     {
@@ -3298,7 +3658,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/gabon/",
         "text_britannica": "https://www.britannica.com/place/Gabon",
         "resource_lonely_planet": "https://www.lonelyplanet.com/gabon",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/gabon/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/gabon/",
+        "google_maps": "https://www.google.com/maps/@0.4162,9.4673,12z",
+        "google_earth": "https://earth.google.com/web/@0.4162,9.4673,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 0.4162,
+        "lng": 9.4673
       }
     },
     {
@@ -3351,7 +3717,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/gambia/",
         "text_britannica": "https://www.britannica.com/place/Gambia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/gambia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/gambia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/gambia/",
+        "google_maps": "https://www.google.com/maps/@13.4549,-16.579,12z",
+        "google_earth": "https://earth.google.com/web/@13.4549,-16.579,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.4549,
+        "lng": -16.579
       }
     },
     {
@@ -3404,7 +3776,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/georgia/",
         "text_britannica": "https://www.britannica.com/place/Georgia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/georgia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/georgia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/georgia/",
+        "google_maps": "https://www.google.com/maps/@41.7151,44.8271,12z",
+        "google_earth": "https://earth.google.com/web/@41.7151,44.8271,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 41.7151,
+        "lng": 44.8271
       }
     },
     {
@@ -3467,7 +3845,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/germany/",
         "text_britannica": "https://www.britannica.com/place/Germany",
         "resource_lonely_planet": "https://www.lonelyplanet.com/germany",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/germany/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/germany/",
+        "google_maps": "https://www.google.com/maps/@52.52,13.405,12z",
+        "google_earth": "https://earth.google.com/web/@52.52,13.405,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 52.52,
+        "lng": 13.405
       }
     },
     {
@@ -3520,7 +3904,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/ghana/",
         "text_britannica": "https://www.britannica.com/place/Ghana",
         "resource_lonely_planet": "https://www.lonelyplanet.com/ghana",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ghana/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ghana/",
+        "google_maps": "https://www.google.com/maps/@5.6037,-0.187,12z",
+        "google_earth": "https://earth.google.com/web/@5.6037,-0.187,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 5.6037,
+        "lng": -0.187
       }
     },
     {
@@ -3573,7 +3963,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/greece/",
         "text_britannica": "https://www.britannica.com/place/Greece",
         "resource_lonely_planet": "https://www.lonelyplanet.com/greece",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/greece/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/greece/",
+        "google_maps": "https://www.google.com/maps/@37.9838,23.7275,12z",
+        "google_earth": "https://earth.google.com/web/@37.9838,23.7275,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 37.9838,
+        "lng": 23.7275
       }
     },
     {
@@ -3626,7 +4022,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/grenada/",
         "text_britannica": "https://www.britannica.com/place/Grenada",
         "resource_lonely_planet": "https://www.lonelyplanet.com/grenada",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/grenada/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/grenada/",
+        "google_maps": "https://www.google.com/maps/@12.0561,-61.7488,12z",
+        "google_earth": "https://earth.google.com/web/@12.0561,-61.7488,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 12.0561,
+        "lng": -61.7488
       }
     },
     {
@@ -3679,7 +4081,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/guatemala/",
         "text_britannica": "https://www.britannica.com/place/Guatemala",
         "resource_lonely_planet": "https://www.lonelyplanet.com/guatemala",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guatemala/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guatemala/",
+        "google_maps": "https://www.google.com/maps/@14.6349,-90.5069,12z",
+        "google_earth": "https://earth.google.com/web/@14.6349,-90.5069,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.6349,
+        "lng": -90.5069
       }
     },
     {
@@ -3732,7 +4140,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/guinea/",
         "text_britannica": "https://www.britannica.com/place/Guinea",
         "resource_lonely_planet": "https://www.lonelyplanet.com/guinea",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guinea/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guinea/",
+        "google_maps": "https://www.google.com/maps/@9.6412,-13.5784,12z",
+        "google_earth": "https://earth.google.com/web/@9.6412,-13.5784,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 9.6412,
+        "lng": -13.5784
       }
     },
     {
@@ -3785,7 +4199,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/guinea-bissau/",
         "text_britannica": "https://www.britannica.com/place/Guinea-Bissau",
         "resource_lonely_planet": "https://www.lonelyplanet.com/guinea-bissau",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guinea-bissau/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guinea-bissau/",
+        "google_maps": "https://www.google.com/maps/@11.8636,-15.5977,12z",
+        "google_earth": "https://earth.google.com/web/@11.8636,-15.5977,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 11.8636,
+        "lng": -15.5977
       }
     },
     {
@@ -3838,7 +4258,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/guyana/",
         "text_britannica": "https://www.britannica.com/place/Guyana",
         "resource_lonely_planet": "https://www.lonelyplanet.com/guyana",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guyana/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/guyana/",
+        "google_maps": "https://www.google.com/maps/@6.8013,-58.1551,12z",
+        "google_earth": "https://earth.google.com/web/@6.8013,-58.1551,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.8013,
+        "lng": -58.1551
       }
     },
     {
@@ -3891,7 +4317,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/haiti/",
         "text_britannica": "https://www.britannica.com/place/Haiti",
         "resource_lonely_planet": "https://www.lonelyplanet.com/haiti",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/haiti/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/haiti/",
+        "google_maps": "https://www.google.com/maps/@18.5944,-72.3074,12z",
+        "google_earth": "https://earth.google.com/web/@18.5944,-72.3074,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 18.5944,
+        "lng": -72.3074
       }
     },
     {
@@ -3944,7 +4376,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/honduras/",
         "text_britannica": "https://www.britannica.com/place/Honduras",
         "resource_lonely_planet": "https://www.lonelyplanet.com/honduras",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/honduras/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/honduras/",
+        "google_maps": "https://www.google.com/maps/@14.0723,-87.1921,12z",
+        "google_earth": "https://earth.google.com/web/@14.0723,-87.1921,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.0723,
+        "lng": -87.1921
       }
     },
     {
@@ -3997,7 +4435,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/hungary/",
         "text_britannica": "https://www.britannica.com/place/Hungary",
         "resource_lonely_planet": "https://www.lonelyplanet.com/hungary",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/hungary/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/hungary/",
+        "google_maps": "https://www.google.com/maps/@47.4979,19.0402,12z",
+        "google_earth": "https://earth.google.com/web/@47.4979,19.0402,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 47.4979,
+        "lng": 19.0402
       }
     },
     {
@@ -4050,7 +4494,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/iceland/",
         "text_britannica": "https://www.britannica.com/place/Iceland",
         "resource_lonely_planet": "https://www.lonelyplanet.com/iceland",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iceland/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iceland/",
+        "google_maps": "https://www.google.com/maps/@64.1466,-21.9426,12z",
+        "google_earth": "https://earth.google.com/web/@64.1466,-21.9426,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 64.1466,
+        "lng": -21.9426
       }
     },
     {
@@ -4120,7 +4570,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/india/",
         "text_britannica": "https://www.britannica.com/place/India",
         "resource_lonely_planet": "https://www.lonelyplanet.com/india",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/india/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/india/",
+        "google_maps": "https://www.google.com/maps/@28.6139,77.209,12z",
+        "google_earth": "https://earth.google.com/web/@28.6139,77.209,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
       }
     },
     {
@@ -4173,7 +4629,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/indonesia/",
         "text_britannica": "https://www.britannica.com/place/Indonesia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/indonesia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/indonesia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/indonesia/",
+        "google_maps": "https://www.google.com/maps/@-6.2088,106.8456,12z",
+        "google_earth": "https://earth.google.com/web/@-6.2088,106.8456,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -6.2088,
+        "lng": 106.8456
       }
     },
     {
@@ -4226,7 +4688,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/iran/",
         "text_britannica": "https://www.britannica.com/place/Iran",
         "resource_lonely_planet": "https://www.lonelyplanet.com/iran",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iran/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iran/",
+        "google_maps": "https://www.google.com/maps/@35.6892,51.389,12z",
+        "google_earth": "https://earth.google.com/web/@35.6892,51.389,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 35.6892,
+        "lng": 51.389
       }
     },
     {
@@ -4279,7 +4747,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/iraq/",
         "text_britannica": "https://www.britannica.com/place/Iraq",
         "resource_lonely_planet": "https://www.lonelyplanet.com/iraq",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iraq/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/iraq/",
+        "google_maps": "https://www.google.com/maps/@33.3152,44.3661,12z",
+        "google_earth": "https://earth.google.com/web/@33.3152,44.3661,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 33.3152,
+        "lng": 44.3661
       }
     },
     {
@@ -4332,7 +4806,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/ireland/",
         "text_britannica": "https://www.britannica.com/place/Ireland",
         "resource_lonely_planet": "https://www.lonelyplanet.com/ireland",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ireland/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ireland/",
+        "google_maps": "https://www.google.com/maps/@53.3498,-6.2603,12z",
+        "google_earth": "https://earth.google.com/web/@53.3498,-6.2603,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 53.3498,
+        "lng": -6.2603
       }
     },
     {
@@ -4385,7 +4865,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/israel/",
         "text_britannica": "https://www.britannica.com/place/Israel",
         "resource_lonely_planet": "https://www.lonelyplanet.com/israel",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/israel/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/israel/",
+        "google_maps": "https://www.google.com/maps/@31.7683,35.2137,12z",
+        "google_earth": "https://earth.google.com/web/@31.7683,35.2137,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 31.7683,
+        "lng": 35.2137
       }
     },
     {
@@ -4438,7 +4924,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/italy/",
         "text_britannica": "https://www.britannica.com/place/Italy",
         "resource_lonely_planet": "https://www.lonelyplanet.com/italy",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/italy/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/italy/",
+        "google_maps": "https://www.google.com/maps/@41.9028,12.4964,12z",
+        "google_earth": "https://earth.google.com/web/@41.9028,12.4964,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 41.9028,
+        "lng": 12.4964
       }
     },
     {
@@ -4491,7 +4983,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/jamaica/",
         "text_britannica": "https://www.britannica.com/place/Jamaica",
         "resource_lonely_planet": "https://www.lonelyplanet.com/jamaica",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/jamaica/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/jamaica/",
+        "google_maps": "https://www.google.com/maps/@17.9712,-76.7936,12z",
+        "google_earth": "https://earth.google.com/web/@17.9712,-76.7936,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 17.9712,
+        "lng": -76.7936
       }
     },
     {
@@ -4552,7 +5050,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/japan/",
         "text_britannica": "https://www.britannica.com/place/Japan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/japan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/japan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/japan/",
+        "google_maps": "https://www.google.com/maps/@35.6762,139.6503,12z",
+        "google_earth": "https://earth.google.com/web/@35.6762,139.6503,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 35.6762,
+        "lng": 139.6503
       }
     },
     {
@@ -4605,7 +5109,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/jordan/",
         "text_britannica": "https://www.britannica.com/place/Jordan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/jordan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/jordan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/jordan/",
+        "google_maps": "https://www.google.com/maps/@31.9454,35.9284,12z",
+        "google_earth": "https://earth.google.com/web/@31.9454,35.9284,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 31.9454,
+        "lng": 35.9284
       }
     },
     {
@@ -4658,7 +5168,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/kazakhstan/",
         "text_britannica": "https://www.britannica.com/place/Kazakhstan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/kazakhstan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kazakhstan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kazakhstan/",
+        "google_maps": "https://www.google.com/maps/@51.1694,71.4491,12z",
+        "google_earth": "https://earth.google.com/web/@51.1694,71.4491,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 51.1694,
+        "lng": 71.4491
       }
     },
     {
@@ -4711,7 +5227,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/kenya/",
         "text_britannica": "https://www.britannica.com/place/Kenya",
         "resource_lonely_planet": "https://www.lonelyplanet.com/kenya",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kenya/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kenya/",
+        "google_maps": "https://www.google.com/maps/@-1.2864,36.8172,12z",
+        "google_earth": "https://earth.google.com/web/@-1.2864,36.8172,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -1.2864,
+        "lng": 36.8172
       }
     },
     {
@@ -4764,7 +5286,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/kiribati/",
         "text_britannica": "https://www.britannica.com/place/Kiribati",
         "resource_lonely_planet": "https://www.lonelyplanet.com/kiribati",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kiribati/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kiribati/",
+        "google_maps": "https://www.google.com/maps/@1.3382,172.9776,12z",
+        "google_earth": "https://earth.google.com/web/@1.3382,172.9776,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 1.3382,
+        "lng": 172.9776
       }
     },
     {
@@ -4817,7 +5345,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/kuwait/",
         "text_britannica": "https://www.britannica.com/place/Kuwait",
         "resource_lonely_planet": "https://www.lonelyplanet.com/kuwait",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kuwait/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kuwait/",
+        "google_maps": "https://www.google.com/maps/@29.3759,47.9774,12z",
+        "google_earth": "https://earth.google.com/web/@29.3759,47.9774,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 29.3759,
+        "lng": 47.9774
       }
     },
     {
@@ -4870,7 +5404,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/kyrgyzstan/",
         "text_britannica": "https://www.britannica.com/place/Kyrgyzstan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/kyrgyzstan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kyrgyzstan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/kyrgyzstan/",
+        "google_maps": "https://www.google.com/maps/@42.8746,74.5698,12z",
+        "google_earth": "https://earth.google.com/web/@42.8746,74.5698,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 42.8746,
+        "lng": 74.5698
       }
     },
     {
@@ -4923,7 +5463,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/laos/",
         "text_britannica": "https://www.britannica.com/place/Laos",
         "resource_lonely_planet": "https://www.lonelyplanet.com/laos",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/laos/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/laos/",
+        "google_maps": "https://www.google.com/maps/@17.9757,102.6331,12z",
+        "google_earth": "https://earth.google.com/web/@17.9757,102.6331,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 17.9757,
+        "lng": 102.6331
       }
     },
     {
@@ -4976,7 +5522,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/latvia/",
         "text_britannica": "https://www.britannica.com/place/Latvia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/latvia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/latvia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/latvia/",
+        "google_maps": "https://www.google.com/maps/@56.9496,24.1052,12z",
+        "google_earth": "https://earth.google.com/web/@56.9496,24.1052,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 56.9496,
+        "lng": 24.1052
       }
     },
     {
@@ -5029,7 +5581,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/lebanon/",
         "text_britannica": "https://www.britannica.com/place/Lebanon",
         "resource_lonely_planet": "https://www.lonelyplanet.com/lebanon",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lebanon/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lebanon/",
+        "google_maps": "https://www.google.com/maps/@33.8938,35.5018,12z",
+        "google_earth": "https://earth.google.com/web/@33.8938,35.5018,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 33.8938,
+        "lng": 35.5018
       }
     },
     {
@@ -5082,7 +5640,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/lesotho/",
         "text_britannica": "https://www.britannica.com/place/Lesotho",
         "resource_lonely_planet": "https://www.lonelyplanet.com/lesotho",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lesotho/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lesotho/",
+        "google_maps": "https://www.google.com/maps/@-29.3151,27.4869,12z",
+        "google_earth": "https://earth.google.com/web/@-29.3151,27.4869,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -29.3151,
+        "lng": 27.4869
       }
     },
     {
@@ -5135,7 +5699,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/liberia/",
         "text_britannica": "https://www.britannica.com/place/Liberia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/liberia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/liberia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/liberia/",
+        "google_maps": "https://www.google.com/maps/@6.2907,-10.7605,12z",
+        "google_earth": "https://earth.google.com/web/@6.2907,-10.7605,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.2907,
+        "lng": -10.7605
       }
     },
     {
@@ -5188,7 +5758,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/libya/",
         "text_britannica": "https://www.britannica.com/place/Libya",
         "resource_lonely_planet": "https://www.lonelyplanet.com/libya",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/libya/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/libya/",
+        "google_maps": "https://www.google.com/maps/@32.8872,13.1913,12z",
+        "google_earth": "https://earth.google.com/web/@32.8872,13.1913,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 32.8872,
+        "lng": 13.1913
       }
     },
     {
@@ -5241,7 +5817,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/liechtenstein/",
         "text_britannica": "https://www.britannica.com/place/Liechtenstein",
         "resource_lonely_planet": "https://www.lonelyplanet.com/liechtenstein",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/liechtenstein/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/liechtenstein/",
+        "google_maps": "https://www.google.com/maps/@47.141,9.5209,12z",
+        "google_earth": "https://earth.google.com/web/@47.141,9.5209,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 47.141,
+        "lng": 9.5209
       }
     },
     {
@@ -5294,7 +5876,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/lithuania/",
         "text_britannica": "https://www.britannica.com/place/Lithuania",
         "resource_lonely_planet": "https://www.lonelyplanet.com/lithuania",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lithuania/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/lithuania/",
+        "google_maps": "https://www.google.com/maps/@54.6872,25.2797,12z",
+        "google_earth": "https://earth.google.com/web/@54.6872,25.2797,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 54.6872,
+        "lng": 25.2797
       }
     },
     {
@@ -5347,7 +5935,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/luxembourg/",
         "text_britannica": "https://www.britannica.com/place/Luxembourg",
         "resource_lonely_planet": "https://www.lonelyplanet.com/luxembourg",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/luxembourg/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/luxembourg/",
+        "google_maps": "https://www.google.com/maps/@49.6116,6.1319,12z",
+        "google_earth": "https://earth.google.com/web/@49.6116,6.1319,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 49.6116,
+        "lng": 6.1319
       }
     },
     {
@@ -5400,7 +5994,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/madagascar/",
         "text_britannica": "https://www.britannica.com/place/Madagascar",
         "resource_lonely_planet": "https://www.lonelyplanet.com/madagascar",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/madagascar/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/madagascar/",
+        "google_maps": "https://www.google.com/maps/@-18.8792,47.5079,12z",
+        "google_earth": "https://earth.google.com/web/@-18.8792,47.5079,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -18.8792,
+        "lng": 47.5079
       }
     },
     {
@@ -5453,7 +6053,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/malawi/",
         "text_britannica": "https://www.britannica.com/place/Malawi",
         "resource_lonely_planet": "https://www.lonelyplanet.com/malawi",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malawi/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malawi/",
+        "google_maps": "https://www.google.com/maps/@-13.9626,33.7741,12z",
+        "google_earth": "https://earth.google.com/web/@-13.9626,33.7741,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -13.9626,
+        "lng": 33.7741
       }
     },
     {
@@ -5506,7 +6112,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/malaysia/",
         "text_britannica": "https://www.britannica.com/place/Malaysia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/malaysia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malaysia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malaysia/",
+        "google_maps": "https://www.google.com/maps/@3.139,101.6869,12z",
+        "google_earth": "https://earth.google.com/web/@3.139,101.6869,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 3.139,
+        "lng": 101.6869
       }
     },
     {
@@ -5559,7 +6171,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/maldives/",
         "text_britannica": "https://www.britannica.com/place/Maldives",
         "resource_lonely_planet": "https://www.lonelyplanet.com/maldives",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/maldives/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/maldives/",
+        "google_maps": "https://www.google.com/maps/@4.1755,73.5093,12z",
+        "google_earth": "https://earth.google.com/web/@4.1755,73.5093,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 4.1755,
+        "lng": 73.5093
       }
     },
     {
@@ -5612,7 +6230,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mali/",
         "text_britannica": "https://www.britannica.com/place/Mali",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mali",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mali/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mali/",
+        "google_maps": "https://www.google.com/maps/@12.6392,-8.0029,12z",
+        "google_earth": "https://earth.google.com/web/@12.6392,-8.0029,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 12.6392,
+        "lng": -8.0029
       }
     },
     {
@@ -5665,7 +6289,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/malta/",
         "text_britannica": "https://www.britannica.com/place/Malta",
         "resource_lonely_planet": "https://www.lonelyplanet.com/malta",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malta/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/malta/",
+        "google_maps": "https://www.google.com/maps/@35.8989,14.5146,12z",
+        "google_earth": "https://earth.google.com/web/@35.8989,14.5146,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 35.8989,
+        "lng": 14.5146
       }
     },
     {
@@ -5718,7 +6348,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/marshall-islands/",
         "text_britannica": "https://www.britannica.com/place/Marshall-Islands",
         "resource_lonely_planet": "https://www.lonelyplanet.com/marshall-islands",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/marshall-islands/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/marshall-islands/",
+        "google_maps": "https://www.google.com/maps/@7.1164,171.1858,12z",
+        "google_earth": "https://earth.google.com/web/@7.1164,171.1858,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 7.1164,
+        "lng": 171.1858
       }
     },
     {
@@ -5771,7 +6407,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mauritania/",
         "text_britannica": "https://www.britannica.com/place/Mauritania",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mauritania",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mauritania/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mauritania/",
+        "google_maps": "https://www.google.com/maps/@18.0735,-15.9582,12z",
+        "google_earth": "https://earth.google.com/web/@18.0735,-15.9582,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 18.0735,
+        "lng": -15.9582
       }
     },
     {
@@ -5824,7 +6466,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mauritius/",
         "text_britannica": "https://www.britannica.com/place/Mauritius",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mauritius",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mauritius/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mauritius/",
+        "google_maps": "https://www.google.com/maps/@-20.1609,57.5012,12z",
+        "google_earth": "https://earth.google.com/web/@-20.1609,57.5012,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -20.1609,
+        "lng": 57.5012
       }
     },
     {
@@ -5877,7 +6525,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mexico/",
         "text_britannica": "https://www.britannica.com/place/Mexico",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mexico",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mexico/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mexico/",
+        "google_maps": "https://www.google.com/maps/@19.4326,-99.1332,12z",
+        "google_earth": "https://earth.google.com/web/@19.4326,-99.1332,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 19.4326,
+        "lng": -99.1332
       }
     },
     {
@@ -5930,7 +6584,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/micronesia/",
         "text_britannica": "https://www.britannica.com/place/Micronesia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/micronesia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/micronesia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/micronesia/",
+        "google_maps": "https://www.google.com/maps/@6.9147,158.161,12z",
+        "google_earth": "https://earth.google.com/web/@6.9147,158.161,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.9147,
+        "lng": 158.161
       }
     },
     {
@@ -5983,7 +6643,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/moldova/",
         "text_britannica": "https://www.britannica.com/place/Moldova",
         "resource_lonely_planet": "https://www.lonelyplanet.com/moldova",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/moldova/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/moldova/",
+        "google_maps": "https://www.google.com/maps/@47.0105,28.8638,12z",
+        "google_earth": "https://earth.google.com/web/@47.0105,28.8638,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 47.0105,
+        "lng": 28.8638
       }
     },
     {
@@ -6036,7 +6702,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/monaco/",
         "text_britannica": "https://www.britannica.com/place/Monaco",
         "resource_lonely_planet": "https://www.lonelyplanet.com/monaco",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/monaco/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/monaco/",
+        "google_maps": "https://www.google.com/maps/@43.7384,7.4246,12z",
+        "google_earth": "https://earth.google.com/web/@43.7384,7.4246,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 43.7384,
+        "lng": 7.4246
       }
     },
     {
@@ -6089,7 +6761,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mongolia/",
         "text_britannica": "https://www.britannica.com/place/Mongolia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mongolia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mongolia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mongolia/",
+        "google_maps": "https://www.google.com/maps/@47.8864,106.9057,12z",
+        "google_earth": "https://earth.google.com/web/@47.8864,106.9057,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 47.8864,
+        "lng": 106.9057
       }
     },
     {
@@ -6142,7 +6820,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/montenegro/",
         "text_britannica": "https://www.britannica.com/place/Montenegro",
         "resource_lonely_planet": "https://www.lonelyplanet.com/montenegro",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/montenegro/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/montenegro/",
+        "google_maps": "https://www.google.com/maps/@42.4304,19.2594,12z",
+        "google_earth": "https://earth.google.com/web/@42.4304,19.2594,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 42.4304,
+        "lng": 19.2594
       }
     },
     {
@@ -6195,7 +6879,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/morocco/",
         "text_britannica": "https://www.britannica.com/place/Morocco",
         "resource_lonely_planet": "https://www.lonelyplanet.com/morocco",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/morocco/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/morocco/",
+        "google_maps": "https://www.google.com/maps/@34.0209,-6.8416,12z",
+        "google_earth": "https://earth.google.com/web/@34.0209,-6.8416,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 34.0209,
+        "lng": -6.8416
       }
     },
     {
@@ -6248,7 +6938,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/mozambique/",
         "text_britannica": "https://www.britannica.com/place/Mozambique",
         "resource_lonely_planet": "https://www.lonelyplanet.com/mozambique",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mozambique/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/mozambique/",
+        "google_maps": "https://www.google.com/maps/@-25.9692,32.5732,12z",
+        "google_earth": "https://earth.google.com/web/@-25.9692,32.5732,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -25.9692,
+        "lng": 32.5732
       }
     },
     {
@@ -6301,7 +6997,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/myanmar/",
         "text_britannica": "https://www.britannica.com/place/Myanmar",
         "resource_lonely_planet": "https://www.lonelyplanet.com/myanmar",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/myanmar/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/myanmar/",
+        "google_maps": "https://www.google.com/maps/@19.7633,96.0785,12z",
+        "google_earth": "https://earth.google.com/web/@19.7633,96.0785,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 19.7633,
+        "lng": 96.0785
       }
     },
     {
@@ -6354,7 +7056,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/namibia/",
         "text_britannica": "https://www.britannica.com/place/Namibia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/namibia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/namibia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/namibia/",
+        "google_maps": "https://www.google.com/maps/@-22.5609,17.0658,12z",
+        "google_earth": "https://earth.google.com/web/@-22.5609,17.0658,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -22.5609,
+        "lng": 17.0658
       }
     },
     {
@@ -6407,7 +7115,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/nauru/",
         "text_britannica": "https://www.britannica.com/place/Nauru",
         "resource_lonely_planet": "https://www.lonelyplanet.com/nauru",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nauru/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nauru/",
+        "google_maps": "https://www.google.com/maps/@-0.5477,166.9209,12z",
+        "google_earth": "https://earth.google.com/web/@-0.5477,166.9209,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -0.5477,
+        "lng": 166.9209
       }
     },
     {
@@ -6460,7 +7174,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/nepal/",
         "text_britannica": "https://www.britannica.com/place/Nepal",
         "resource_lonely_planet": "https://www.lonelyplanet.com/nepal",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nepal/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nepal/",
+        "google_maps": "https://www.google.com/maps/@27.7172,85.324,12z",
+        "google_earth": "https://earth.google.com/web/@27.7172,85.324,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 27.7172,
+        "lng": 85.324
       }
     },
     {
@@ -6513,7 +7233,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/netherlands/",
         "text_britannica": "https://www.britannica.com/place/Netherlands",
         "resource_lonely_planet": "https://www.lonelyplanet.com/netherlands",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/netherlands/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/netherlands/",
+        "google_maps": "https://www.google.com/maps/@52.3676,4.9041,12z",
+        "google_earth": "https://earth.google.com/web/@52.3676,4.9041,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 52.3676,
+        "lng": 4.9041
       }
     },
     {
@@ -6566,7 +7292,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/new-zealand/",
         "text_britannica": "https://www.britannica.com/place/New-Zealand",
         "resource_lonely_planet": "https://www.lonelyplanet.com/new-zealand",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/new-zealand/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/new-zealand/",
+        "google_maps": "https://www.google.com/maps/@-41.2865,174.7762,12z",
+        "google_earth": "https://earth.google.com/web/@-41.2865,174.7762,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -41.2865,
+        "lng": 174.7762
       }
     },
     {
@@ -6619,7 +7351,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/nicaragua/",
         "text_britannica": "https://www.britannica.com/place/Nicaragua",
         "resource_lonely_planet": "https://www.lonelyplanet.com/nicaragua",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nicaragua/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nicaragua/",
+        "google_maps": "https://www.google.com/maps/@12.115,-86.2362,12z",
+        "google_earth": "https://earth.google.com/web/@12.115,-86.2362,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 12.115,
+        "lng": -86.2362
       }
     },
     {
@@ -6672,7 +7410,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/niger/",
         "text_britannica": "https://www.britannica.com/place/Niger",
         "resource_lonely_planet": "https://www.lonelyplanet.com/niger",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/niger/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/niger/",
+        "google_maps": "https://www.google.com/maps/@13.5117,2.1251,12z",
+        "google_earth": "https://earth.google.com/web/@13.5117,2.1251,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.5117,
+        "lng": 2.1251
       }
     },
     {
@@ -6725,7 +7469,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/nigeria/",
         "text_britannica": "https://www.britannica.com/place/Nigeria",
         "resource_lonely_planet": "https://www.lonelyplanet.com/nigeria",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nigeria/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/nigeria/",
+        "google_maps": "https://www.google.com/maps/@9.0765,7.3986,12z",
+        "google_earth": "https://earth.google.com/web/@9.0765,7.3986,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 9.0765,
+        "lng": 7.3986
       }
     },
     {
@@ -6778,7 +7528,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/norway/",
         "text_britannica": "https://www.britannica.com/place/Norway",
         "resource_lonely_planet": "https://www.lonelyplanet.com/norway",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/norway/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/norway/",
+        "google_maps": "https://www.google.com/maps/@59.9139,10.7522,12z",
+        "google_earth": "https://earth.google.com/web/@59.9139,10.7522,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 59.9139,
+        "lng": 10.7522
       }
     },
     {
@@ -6831,7 +7587,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/oman/",
         "text_britannica": "https://www.britannica.com/place/Oman",
         "resource_lonely_planet": "https://www.lonelyplanet.com/oman",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/oman/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/oman/",
+        "google_maps": "https://www.google.com/maps/@23.588,58.3829,12z",
+        "google_earth": "https://earth.google.com/web/@23.588,58.3829,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 23.588,
+        "lng": 58.3829
       }
     },
     {
@@ -6884,7 +7646,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/pakistan/",
         "text_britannica": "https://www.britannica.com/place/Pakistan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/pakistan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/pakistan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/pakistan/",
+        "google_maps": "https://www.google.com/maps/@33.6844,73.0479,12z",
+        "google_earth": "https://earth.google.com/web/@33.6844,73.0479,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 33.6844,
+        "lng": 73.0479
       }
     },
     {
@@ -6937,7 +7705,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/palau/",
         "text_britannica": "https://www.britannica.com/place/Palau",
         "resource_lonely_planet": "https://www.lonelyplanet.com/palau",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/palau/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/palau/",
+        "google_maps": "https://www.google.com/maps/@7.5006,134.6242,12z",
+        "google_earth": "https://earth.google.com/web/@7.5006,134.6242,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 7.5006,
+        "lng": 134.6242
       }
     },
     {
@@ -6990,7 +7764,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/panama/",
         "text_britannica": "https://www.britannica.com/place/Panama",
         "resource_lonely_planet": "https://www.lonelyplanet.com/panama",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/panama/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/panama/",
+        "google_maps": "https://www.google.com/maps/@8.9824,-79.5199,12z",
+        "google_earth": "https://earth.google.com/web/@8.9824,-79.5199,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 8.9824,
+        "lng": -79.5199
       }
     },
     {
@@ -7043,7 +7823,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/papua-new-guinea/",
         "text_britannica": "https://www.britannica.com/place/Papua-New-Guinea",
         "resource_lonely_planet": "https://www.lonelyplanet.com/papua-new-guinea",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/papua-new-guinea/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/papua-new-guinea/",
+        "google_maps": "https://www.google.com/maps/@-9.4438,147.1803,12z",
+        "google_earth": "https://earth.google.com/web/@-9.4438,147.1803,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -9.4438,
+        "lng": 147.1803
       }
     },
     {
@@ -7096,7 +7882,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/paraguay/",
         "text_britannica": "https://www.britannica.com/place/Paraguay",
         "resource_lonely_planet": "https://www.lonelyplanet.com/paraguay",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/paraguay/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/paraguay/",
+        "google_maps": "https://www.google.com/maps/@-25.2637,-57.5759,12z",
+        "google_earth": "https://earth.google.com/web/@-25.2637,-57.5759,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -25.2637,
+        "lng": -57.5759
       }
     },
     {
@@ -7149,7 +7941,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/peru/",
         "text_britannica": "https://www.britannica.com/place/Peru",
         "resource_lonely_planet": "https://www.lonelyplanet.com/peru",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/peru/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/peru/",
+        "google_maps": "https://www.google.com/maps/@-12.0464,-77.0428,12z",
+        "google_earth": "https://earth.google.com/web/@-12.0464,-77.0428,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -12.0464,
+        "lng": -77.0428
       }
     },
     {
@@ -7202,7 +8000,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/philippines/",
         "text_britannica": "https://www.britannica.com/place/Philippines",
         "resource_lonely_planet": "https://www.lonelyplanet.com/philippines",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/philippines/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/philippines/",
+        "google_maps": "https://www.google.com/maps/@14.5995,120.9842,12z",
+        "google_earth": "https://earth.google.com/web/@14.5995,120.9842,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.5995,
+        "lng": 120.9842
       }
     },
     {
@@ -7255,7 +8059,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/poland/",
         "text_britannica": "https://www.britannica.com/place/Poland",
         "resource_lonely_planet": "https://www.lonelyplanet.com/poland",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/poland/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/poland/",
+        "google_maps": "https://www.google.com/maps/@52.2297,21.0122,12z",
+        "google_earth": "https://earth.google.com/web/@52.2297,21.0122,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 52.2297,
+        "lng": 21.0122
       }
     },
     {
@@ -7308,7 +8118,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/portugal/",
         "text_britannica": "https://www.britannica.com/place/Portugal",
         "resource_lonely_planet": "https://www.lonelyplanet.com/portugal",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/portugal/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/portugal/",
+        "google_maps": "https://www.google.com/maps/@38.7223,-9.1393,12z",
+        "google_earth": "https://earth.google.com/web/@38.7223,-9.1393,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 38.7223,
+        "lng": -9.1393
       }
     },
     {
@@ -7361,7 +8177,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/qatar/",
         "text_britannica": "https://www.britannica.com/place/Qatar",
         "resource_lonely_planet": "https://www.lonelyplanet.com/qatar",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/qatar/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/qatar/",
+        "google_maps": "https://www.google.com/maps/@25.2854,51.531,12z",
+        "google_earth": "https://earth.google.com/web/@25.2854,51.531,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 25.2854,
+        "lng": 51.531
       }
     },
     {
@@ -7414,7 +8236,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/romania/",
         "text_britannica": "https://www.britannica.com/place/Romania",
         "resource_lonely_planet": "https://www.lonelyplanet.com/romania",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/romania/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/romania/",
+        "google_maps": "https://www.google.com/maps/@44.4268,26.1025,12z",
+        "google_earth": "https://earth.google.com/web/@44.4268,26.1025,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 44.4268,
+        "lng": 26.1025
       }
     },
     {
@@ -7479,7 +8307,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/russia/",
         "text_britannica": "https://www.britannica.com/place/Russia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/russia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/russia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/russia/",
+        "google_maps": "https://www.google.com/maps/@55.7558,37.6173,12z",
+        "google_earth": "https://earth.google.com/web/@55.7558,37.6173,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 55.7558,
+        "lng": 37.6173
       }
     },
     {
@@ -7532,7 +8366,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/rwanda/",
         "text_britannica": "https://www.britannica.com/place/Rwanda",
         "resource_lonely_planet": "https://www.lonelyplanet.com/rwanda",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/rwanda/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/rwanda/",
+        "google_maps": "https://www.google.com/maps/@-1.9403,30.0644,12z",
+        "google_earth": "https://earth.google.com/web/@-1.9403,30.0644,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -1.9403,
+        "lng": 30.0644
       }
     },
     {
@@ -7585,7 +8425,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/saint-kitts-and-nevis/",
         "text_britannica": "https://www.britannica.com/place/Saint-Kitts-and-Nevis",
         "resource_lonely_planet": "https://www.lonelyplanet.com/saint-kitts-and-nevis",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-kitts-and-nevis/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-kitts-and-nevis/",
+        "google_maps": "https://www.google.com/maps/@17.3026,-62.7177,12z",
+        "google_earth": "https://earth.google.com/web/@17.3026,-62.7177,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 17.3026,
+        "lng": -62.7177
       }
     },
     {
@@ -7638,7 +8484,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/saint-lucia/",
         "text_britannica": "https://www.britannica.com/place/Saint-Lucia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/saint-lucia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-lucia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-lucia/",
+        "google_maps": "https://www.google.com/maps/@14.0101,-60.9875,12z",
+        "google_earth": "https://earth.google.com/web/@14.0101,-60.9875,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.0101,
+        "lng": -60.9875
       }
     },
     {
@@ -7691,7 +8543,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/saint-vincent-and-the-grenadines/",
         "text_britannica": "https://www.britannica.com/place/Saint-Vincent-and-the-Grenadines",
         "resource_lonely_planet": "https://www.lonelyplanet.com/saint-vincent-and-the-grenadines",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-vincent-and-the-grenadines/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saint-vincent-and-the-grenadines/",
+        "google_maps": "https://www.google.com/maps/@13.16,-61.2248,12z",
+        "google_earth": "https://earth.google.com/web/@13.16,-61.2248,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.16,
+        "lng": -61.2248
       }
     },
     {
@@ -7744,7 +8602,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/samoa/",
         "text_britannica": "https://www.britannica.com/place/Samoa",
         "resource_lonely_planet": "https://www.lonelyplanet.com/samoa",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/samoa/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/samoa/",
+        "google_maps": "https://www.google.com/maps/@-13.8506,-171.7513,12z",
+        "google_earth": "https://earth.google.com/web/@-13.8506,-171.7513,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -13.8506,
+        "lng": -171.7513
       }
     },
     {
@@ -7797,7 +8661,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/san-marino/",
         "text_britannica": "https://www.britannica.com/place/San-Marino",
         "resource_lonely_planet": "https://www.lonelyplanet.com/san-marino",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/san-marino/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/san-marino/",
+        "google_maps": "https://www.google.com/maps/@43.9424,12.4578,12z",
+        "google_earth": "https://earth.google.com/web/@43.9424,12.4578,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 43.9424,
+        "lng": 12.4578
       }
     },
     {
@@ -7850,7 +8720,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/sao-tome-and-principe/",
         "text_britannica": "https://www.britannica.com/place/São-Tomé-and-Príncipe",
         "resource_lonely_planet": "https://www.lonelyplanet.com/sao-tome-and-principe",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sao-tome-and-principe/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sao-tome-and-principe/",
+        "google_maps": "https://www.google.com/maps/@0.3302,6.7333,12z",
+        "google_earth": "https://earth.google.com/web/@0.3302,6.7333,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 0.3302,
+        "lng": 6.7333
       }
     },
     {
@@ -7903,7 +8779,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/saudi-arabia/",
         "text_britannica": "https://www.britannica.com/place/Saudi-Arabia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/saudi-arabia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saudi-arabia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/saudi-arabia/",
+        "google_maps": "https://www.google.com/maps/@24.7136,46.6753,12z",
+        "google_earth": "https://earth.google.com/web/@24.7136,46.6753,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 24.7136,
+        "lng": 46.6753
       }
     },
     {
@@ -7956,7 +8838,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/senegal/",
         "text_britannica": "https://www.britannica.com/place/Senegal",
         "resource_lonely_planet": "https://www.lonelyplanet.com/senegal",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/senegal/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/senegal/",
+        "google_maps": "https://www.google.com/maps/@14.7167,-17.4677,12z",
+        "google_earth": "https://earth.google.com/web/@14.7167,-17.4677,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 14.7167,
+        "lng": -17.4677
       }
     },
     {
@@ -8009,7 +8897,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/serbia/",
         "text_britannica": "https://www.britannica.com/place/Serbia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/serbia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/serbia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/serbia/",
+        "google_maps": "https://www.google.com/maps/@44.7866,20.4489,12z",
+        "google_earth": "https://earth.google.com/web/@44.7866,20.4489,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 44.7866,
+        "lng": 20.4489
       }
     },
     {
@@ -8062,7 +8956,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/seychelles/",
         "text_britannica": "https://www.britannica.com/place/Seychelles",
         "resource_lonely_planet": "https://www.lonelyplanet.com/seychelles",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/seychelles/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/seychelles/",
+        "google_maps": "https://www.google.com/maps/@-4.6191,55.4513,12z",
+        "google_earth": "https://earth.google.com/web/@-4.6191,55.4513,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -4.6191,
+        "lng": 55.4513
       }
     },
     {
@@ -8115,7 +9015,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/sierra-leone/",
         "text_britannica": "https://www.britannica.com/place/Sierra-Leone",
         "resource_lonely_planet": "https://www.lonelyplanet.com/sierra-leone",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sierra-leone/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sierra-leone/",
+        "google_maps": "https://www.google.com/maps/@8.4657,-13.2317,12z",
+        "google_earth": "https://earth.google.com/web/@8.4657,-13.2317,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 8.4657,
+        "lng": -13.2317
       }
     },
     {
@@ -8168,7 +9074,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/singapore/",
         "text_britannica": "https://www.britannica.com/place/Singapore",
         "resource_lonely_planet": "https://www.lonelyplanet.com/singapore",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/singapore/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/singapore/",
+        "google_maps": "https://www.google.com/maps/@1.3521,103.8198,12z",
+        "google_earth": "https://earth.google.com/web/@1.3521,103.8198,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 1.3521,
+        "lng": 103.8198
       }
     },
     {
@@ -8221,7 +9133,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/slovakia/",
         "text_britannica": "https://www.britannica.com/place/Slovakia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/slovakia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/slovakia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/slovakia/",
+        "google_maps": "https://www.google.com/maps/@48.1486,17.1077,12z",
+        "google_earth": "https://earth.google.com/web/@48.1486,17.1077,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 48.1486,
+        "lng": 17.1077
       }
     },
     {
@@ -8274,7 +9192,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/slovenia/",
         "text_britannica": "https://www.britannica.com/place/Slovenia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/slovenia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/slovenia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/slovenia/",
+        "google_maps": "https://www.google.com/maps/@46.0569,14.5058,12z",
+        "google_earth": "https://earth.google.com/web/@46.0569,14.5058,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 46.0569,
+        "lng": 14.5058
       }
     },
     {
@@ -8327,7 +9251,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/solomon-islands/",
         "text_britannica": "https://www.britannica.com/place/Solomon-Islands",
         "resource_lonely_planet": "https://www.lonelyplanet.com/solomon-islands",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/solomon-islands/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/solomon-islands/",
+        "google_maps": "https://www.google.com/maps/@-9.428,159.9498,12z",
+        "google_earth": "https://earth.google.com/web/@-9.428,159.9498,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -9.428,
+        "lng": 159.9498
       }
     },
     {
@@ -8380,7 +9310,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/somalia/",
         "text_britannica": "https://www.britannica.com/place/Somalia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/somalia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/somalia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/somalia/",
+        "google_maps": "https://www.google.com/maps/@2.0469,45.3182,12z",
+        "google_earth": "https://earth.google.com/web/@2.0469,45.3182,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 2.0469,
+        "lng": 45.3182
       }
     },
     {
@@ -8433,7 +9369,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/south-africa/",
         "text_britannica": "https://www.britannica.com/place/South-Africa",
         "resource_lonely_planet": "https://www.lonelyplanet.com/south-africa",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/south-africa/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/south-africa/",
+        "google_maps": "https://www.google.com/maps/@-25.7479,28.2293,12z",
+        "google_earth": "https://earth.google.com/web/@-25.7479,28.2293,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -25.7479,
+        "lng": 28.2293
       }
     },
     {
@@ -8486,7 +9428,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/south-sudan/",
         "text_britannica": "https://www.britannica.com/place/South-Sudan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/south-sudan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/south-sudan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/south-sudan/",
+        "google_maps": "https://www.google.com/maps/@4.8594,31.5713,12z",
+        "google_earth": "https://earth.google.com/web/@4.8594,31.5713,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 4.8594,
+        "lng": 31.5713
       }
     },
     {
@@ -8539,7 +9487,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/spain/",
         "text_britannica": "https://www.britannica.com/place/Spain",
         "resource_lonely_planet": "https://www.lonelyplanet.com/spain",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/spain/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/spain/",
+        "google_maps": "https://www.google.com/maps/@40.4168,-3.7038,12z",
+        "google_earth": "https://earth.google.com/web/@40.4168,-3.7038,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 40.4168,
+        "lng": -3.7038
       }
     },
     {
@@ -8592,7 +9546,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/sri-lanka/",
         "text_britannica": "https://www.britannica.com/place/Sri-Lanka",
         "resource_lonely_planet": "https://www.lonelyplanet.com/sri-lanka",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sri-lanka/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sri-lanka/",
+        "google_maps": "https://www.google.com/maps/@6.902,79.9219,12z",
+        "google_earth": "https://earth.google.com/web/@6.902,79.9219,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.902,
+        "lng": 79.9219
       }
     },
     {
@@ -8645,7 +9605,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/sudan/",
         "text_britannica": "https://www.britannica.com/place/Sudan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/sudan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sudan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sudan/",
+        "google_maps": "https://www.google.com/maps/@15.5007,32.5599,12z",
+        "google_earth": "https://earth.google.com/web/@15.5007,32.5599,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 15.5007,
+        "lng": 32.5599
       }
     },
     {
@@ -8698,7 +9664,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/suriname/",
         "text_britannica": "https://www.britannica.com/place/Suriname",
         "resource_lonely_planet": "https://www.lonelyplanet.com/suriname",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/suriname/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/suriname/",
+        "google_maps": "https://www.google.com/maps/@5.852,-55.2038,12z",
+        "google_earth": "https://earth.google.com/web/@5.852,-55.2038,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 5.852,
+        "lng": -55.2038
       }
     },
     {
@@ -8751,7 +9723,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/sweden/",
         "text_britannica": "https://www.britannica.com/place/Sweden",
         "resource_lonely_planet": "https://www.lonelyplanet.com/sweden",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sweden/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/sweden/",
+        "google_maps": "https://www.google.com/maps/@59.3293,18.0686,12z",
+        "google_earth": "https://earth.google.com/web/@59.3293,18.0686,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 59.3293,
+        "lng": 18.0686
       }
     },
     {
@@ -8804,7 +9782,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/switzerland/",
         "text_britannica": "https://www.britannica.com/place/Switzerland",
         "resource_lonely_planet": "https://www.lonelyplanet.com/switzerland",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/switzerland/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/switzerland/",
+        "google_maps": "https://www.google.com/maps/@46.948,7.4474,12z",
+        "google_earth": "https://earth.google.com/web/@46.948,7.4474,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 46.948,
+        "lng": 7.4474
       }
     },
     {
@@ -8857,7 +9841,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/syria/",
         "text_britannica": "https://www.britannica.com/place/Syria",
         "resource_lonely_planet": "https://www.lonelyplanet.com/syria",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/syria/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/syria/",
+        "google_maps": "https://www.google.com/maps/@33.5138,36.2765,12z",
+        "google_earth": "https://earth.google.com/web/@33.5138,36.2765,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 33.5138,
+        "lng": 36.2765
       }
     },
     {
@@ -8910,7 +9900,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/taiwan/",
         "text_britannica": "https://www.britannica.com/place/Taiwan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/taiwan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/taiwan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/taiwan/",
+        "google_maps": "https://www.google.com/maps/@25.033,121.5654,12z",
+        "google_earth": "https://earth.google.com/web/@25.033,121.5654,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 25.033,
+        "lng": 121.5654
       }
     },
     {
@@ -8963,7 +9959,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/tajikistan/",
         "text_britannica": "https://www.britannica.com/place/Tajikistan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/tajikistan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tajikistan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tajikistan/",
+        "google_maps": "https://www.google.com/maps/@38.5598,68.787,12z",
+        "google_earth": "https://earth.google.com/web/@38.5598,68.787,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 38.5598,
+        "lng": 68.787
       }
     },
     {
@@ -9016,7 +10018,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/tanzania/",
         "text_britannica": "https://www.britannica.com/place/Tanzania",
         "resource_lonely_planet": "https://www.lonelyplanet.com/tanzania",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tanzania/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tanzania/",
+        "google_maps": "https://www.google.com/maps/@-6.163,35.7516,12z",
+        "google_earth": "https://earth.google.com/web/@-6.163,35.7516,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -6.163,
+        "lng": 35.7516
       }
     },
     {
@@ -9069,7 +10077,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/thailand/",
         "text_britannica": "https://www.britannica.com/place/Thailand",
         "resource_lonely_planet": "https://www.lonelyplanet.com/thailand",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/thailand/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/thailand/",
+        "google_maps": "https://www.google.com/maps/@13.7563,100.5018,12z",
+        "google_earth": "https://earth.google.com/web/@13.7563,100.5018,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 13.7563,
+        "lng": 100.5018
       }
     },
     {
@@ -9122,7 +10136,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/east-timor/",
         "text_britannica": "https://www.britannica.com/place/Timor-Leste-(East-Timor)",
         "resource_lonely_planet": "https://www.lonelyplanet.com/east-timor",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/east-timor/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/east-timor/",
+        "google_maps": "https://www.google.com/maps/@-8.5569,125.5603,12z",
+        "google_earth": "https://earth.google.com/web/@-8.5569,125.5603,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -8.5569,
+        "lng": 125.5603
       }
     },
     {
@@ -9175,7 +10195,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/togo/",
         "text_britannica": "https://www.britannica.com/place/Togo",
         "resource_lonely_planet": "https://www.lonelyplanet.com/togo",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/togo/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/togo/",
+        "google_maps": "https://www.google.com/maps/@6.1725,1.2314,12z",
+        "google_earth": "https://earth.google.com/web/@6.1725,1.2314,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 6.1725,
+        "lng": 1.2314
       }
     },
     {
@@ -9228,7 +10254,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/tonga/",
         "text_britannica": "https://www.britannica.com/place/Tonga",
         "resource_lonely_planet": "https://www.lonelyplanet.com/tonga",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tonga/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tonga/",
+        "google_maps": "https://www.google.com/maps/@-21.1394,-175.2018,12z",
+        "google_earth": "https://earth.google.com/web/@-21.1394,-175.2018,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -21.1394,
+        "lng": -175.2018
       }
     },
     {
@@ -9281,7 +10313,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/trinidad-and-tobago/",
         "text_britannica": "https://www.britannica.com/place/Trinidad-and-Tobago",
         "resource_lonely_planet": "https://www.lonelyplanet.com/trinidad-and-tobago",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/trinidad-and-tobago/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/trinidad-and-tobago/",
+        "google_maps": "https://www.google.com/maps/@10.6549,-61.5019,12z",
+        "google_earth": "https://earth.google.com/web/@10.6549,-61.5019,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 10.6549,
+        "lng": -61.5019
       }
     },
     {
@@ -9334,7 +10372,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/tunisia/",
         "text_britannica": "https://www.britannica.com/place/Tunisia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/tunisia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tunisia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tunisia/",
+        "google_maps": "https://www.google.com/maps/@36.8065,10.1815,12z",
+        "google_earth": "https://earth.google.com/web/@36.8065,10.1815,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 36.8065,
+        "lng": 10.1815
       }
     },
     {
@@ -9387,7 +10431,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/turkey/",
         "text_britannica": "https://www.britannica.com/place/Türkiye-(Turkey)",
         "resource_lonely_planet": "https://www.lonelyplanet.com/turkey",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/turkey/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/turkey/",
+        "google_maps": "https://www.google.com/maps/@39.9334,32.8597,12z",
+        "google_earth": "https://earth.google.com/web/@39.9334,32.8597,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 39.9334,
+        "lng": 32.8597
       }
     },
     {
@@ -9440,7 +10490,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/turkmenistan/",
         "text_britannica": "https://www.britannica.com/place/Turkmenistan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/turkmenistan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/turkmenistan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/turkmenistan/",
+        "google_maps": "https://www.google.com/maps/@37.9601,58.3261,12z",
+        "google_earth": "https://earth.google.com/web/@37.9601,58.3261,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 37.9601,
+        "lng": 58.3261
       }
     },
     {
@@ -9493,7 +10549,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/tuvalu/",
         "text_britannica": "https://www.britannica.com/place/Tuvalu",
         "resource_lonely_planet": "https://www.lonelyplanet.com/tuvalu",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tuvalu/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/tuvalu/",
+        "google_maps": "https://www.google.com/maps/@-8.5211,179.1983,12z",
+        "google_earth": "https://earth.google.com/web/@-8.5211,179.1983,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -8.5211,
+        "lng": 179.1983
       }
     },
     {
@@ -9546,7 +10608,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/uganda/",
         "text_britannica": "https://www.britannica.com/place/Uganda",
         "resource_lonely_planet": "https://www.lonelyplanet.com/uganda",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uganda/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uganda/",
+        "google_maps": "https://www.google.com/maps/@0.3476,32.5825,12z",
+        "google_earth": "https://earth.google.com/web/@0.3476,32.5825,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 0.3476,
+        "lng": 32.5825
       }
     },
     {
@@ -9599,7 +10667,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/ukraine/",
         "text_britannica": "https://www.britannica.com/place/Ukraine",
         "resource_lonely_planet": "https://www.lonelyplanet.com/ukraine",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ukraine/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/ukraine/",
+        "google_maps": "https://www.google.com/maps/@50.4501,30.5234,12z",
+        "google_earth": "https://earth.google.com/web/@50.4501,30.5234,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 50.4501,
+        "lng": 30.5234
       }
     },
     {
@@ -9652,7 +10726,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/united-arab-emirates/",
         "text_britannica": "https://www.britannica.com/place/United-Arab-Emirates",
         "resource_lonely_planet": "https://www.lonelyplanet.com/united-arab-emirates",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-arab-emirates/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-arab-emirates/",
+        "google_maps": "https://www.google.com/maps/@24.4539,54.3773,12z",
+        "google_earth": "https://earth.google.com/web/@24.4539,54.3773,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 24.4539,
+        "lng": 54.3773
       }
     },
     {
@@ -9717,7 +10797,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/united-kingdom/",
         "text_britannica": "https://www.britannica.com/place/United-Kingdom",
         "resource_lonely_planet": "https://www.lonelyplanet.com/united-kingdom",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-kingdom/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-kingdom/",
+        "google_maps": "https://www.google.com/maps/@51.5074,-0.1278,12z",
+        "google_earth": "https://earth.google.com/web/@51.5074,-0.1278,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
       }
     },
     {
@@ -9783,7 +10869,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/united-states/",
         "text_britannica": "https://www.britannica.com/place/United-States",
         "resource_lonely_planet": "https://www.lonelyplanet.com/united-states",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-states/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/united-states/",
+        "google_maps": "https://www.google.com/maps/@38.9072,-77.0369,12z",
+        "google_earth": "https://earth.google.com/web/@38.9072,-77.0369,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 38.9072,
+        "lng": -77.0369
       }
     },
     {
@@ -9836,7 +10928,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/uruguay/",
         "text_britannica": "https://www.britannica.com/place/Uruguay",
         "resource_lonely_planet": "https://www.lonelyplanet.com/uruguay",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uruguay/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uruguay/",
+        "google_maps": "https://www.google.com/maps/@-34.9011,-56.1645,12z",
+        "google_earth": "https://earth.google.com/web/@-34.9011,-56.1645,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -34.9011,
+        "lng": -56.1645
       }
     },
     {
@@ -9889,7 +10987,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/uzbekistan/",
         "text_britannica": "https://www.britannica.com/place/Uzbekistan",
         "resource_lonely_planet": "https://www.lonelyplanet.com/uzbekistan",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uzbekistan/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/uzbekistan/",
+        "google_maps": "https://www.google.com/maps/@41.2995,69.2401,12z",
+        "google_earth": "https://earth.google.com/web/@41.2995,69.2401,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 41.2995,
+        "lng": 69.2401
       }
     },
     {
@@ -9942,7 +11046,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/vanuatu/",
         "text_britannica": "https://www.britannica.com/place/Vanuatu",
         "resource_lonely_planet": "https://www.lonelyplanet.com/vanuatu",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/vanuatu/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/vanuatu/",
+        "google_maps": "https://www.google.com/maps/@-17.7333,168.3273,12z",
+        "google_earth": "https://earth.google.com/web/@-17.7333,168.3273,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -17.7333,
+        "lng": 168.3273
       }
     },
     {
@@ -9995,7 +11105,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/venezuela/",
         "text_britannica": "https://www.britannica.com/place/Venezuela",
         "resource_lonely_planet": "https://www.lonelyplanet.com/venezuela",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/venezuela/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/venezuela/",
+        "google_maps": "https://www.google.com/maps/@10.4806,-66.9036,12z",
+        "google_earth": "https://earth.google.com/web/@10.4806,-66.9036,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 10.4806,
+        "lng": -66.9036
       }
     },
     {
@@ -10048,7 +11164,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/vietnam/",
         "text_britannica": "https://www.britannica.com/place/Vietnam",
         "resource_lonely_planet": "https://www.lonelyplanet.com/vietnam",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/vietnam/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/vietnam/",
+        "google_maps": "https://www.google.com/maps/@21.0278,105.8342,12z",
+        "google_earth": "https://earth.google.com/web/@21.0278,105.8342,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 21.0278,
+        "lng": 105.8342
       }
     },
     {
@@ -10101,7 +11223,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/yemen/",
         "text_britannica": "https://www.britannica.com/place/Yemen",
         "resource_lonely_planet": "https://www.lonelyplanet.com/yemen",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/yemen/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/yemen/",
+        "google_maps": "https://www.google.com/maps/@15.3694,44.191,12z",
+        "google_earth": "https://earth.google.com/web/@15.3694,44.191,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": 15.3694,
+        "lng": 44.191
       }
     },
     {
@@ -10154,7 +11282,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/zambia/",
         "text_britannica": "https://www.britannica.com/place/Zambia",
         "resource_lonely_planet": "https://www.lonelyplanet.com/zambia",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/zambia/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/zambia/",
+        "google_maps": "https://www.google.com/maps/@-15.3875,28.3228,12z",
+        "google_earth": "https://earth.google.com/web/@-15.3875,28.3228,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -15.3875,
+        "lng": 28.3228
       }
     },
     {
@@ -10207,7 +11341,13 @@
         "text_cia_factbook": "https://www.cia.gov/the-world-factbook/countries/zimbabwe/",
         "text_britannica": "https://www.britannica.com/place/Zimbabwe",
         "resource_lonely_planet": "https://www.lonelyplanet.com/zimbabwe",
-        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/zimbabwe/"
+        "resource_nat_geo": "https://www.nationalgeographic.com/travel/destination/zimbabwe/",
+        "google_maps": "https://www.google.com/maps/@-17.8252,31.0335,12z",
+        "google_earth": "https://earth.google.com/web/@-17.8252,31.0335,0a,20000d,35y,0h,0t,0r"
+      },
+      "coordinates": {
+        "lat": -17.8252,
+        "lng": 31.0335
       }
     }
   ]
