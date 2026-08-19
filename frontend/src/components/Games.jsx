@@ -14,6 +14,18 @@ import SolitaireGame from './SolitaireGame.jsx';
 import WarCardGame from './WarCardGame.jsx';
 import GoFishGame from './GoFishGame.jsx';
 import ScrabbleLiteGame from './ScrabbleLiteGame.jsx';
+import CheckersGame from './CheckersGame.jsx';
+import BackgammonGame from './BackgammonGame.jsx';
+import MancalaGame from './MancalaGame.jsx';
+import SnakesAndLaddersGame from './SnakesAndLaddersGame.jsx';
+import YahtzeeGame from './YahtzeeGame.jsx';
+import BlackjackGame from './BlackjackGame.jsx';
+import RummyGame from './RummyGame.jsx';
+import UnoGame from './UnoGame.jsx';
+import TicTacToeGame from './TicTacToeGame.jsx';
+import ConnectFourGame from './ConnectFourGame.jsx';
+import ReversiGame from './ReversiGame.jsx';
+import BattleshipGame from './BattleshipGame.jsx';
 import GameScoreBadge from './GameScoreBadge.jsx';
 import GameLeaderboard from './GameLeaderboard.jsx';
 import { CATEGORIES, GAMES, gamesByCategory, TOTAL_GAMES, dailyChallenge } from '../data/gameCentreData.js';
@@ -28,6 +40,18 @@ const EXTERNAL_COMPONENTS = {
   WarCardGame,
   GoFishGame,
   ScrabbleLiteGame,
+  CheckersGame,
+  BackgammonGame,
+  MancalaGame,
+  SnakesAndLaddersGame,
+  YahtzeeGame,
+  BlackjackGame,
+  RummyGame,
+  UnoGame,
+  TicTacToeGame,
+  ConnectFourGame,
+  ReversiGame,
+  BattleshipGame,
 };
 
 // Engines that accept a difficulty tier (see each engine's own DIFFICULTY_CONFIG).

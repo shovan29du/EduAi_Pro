@@ -38,9 +38,10 @@ export const CATEGORIES = [
   { id: 'spatial', label: 'Spatial Reasoning', emoji: '📐', desc: 'Rotations, mirror images, and grid positions.' },
   { id: 'reaction', label: 'Reaction & Attention', emoji: '⚡', desc: 'Find the target as fast as you can before the clock runs out.' },
   { id: 'classic', label: 'Classic Word Games', emoji: '🎮', desc: 'The original Games tab favourites.' },
-  { id: 'boardgames', label: 'Board Games', emoji: '🎲', desc: 'Classic board games — Ludo and Dominoes against the computer.' },
-  { id: 'cardgames', label: 'Card Games', emoji: '🃏', desc: 'Classic card games — Solitaire, War, and Go Fish.' },
+  { id: 'boardgames', label: 'Board Games', emoji: '🎲', desc: 'Classic board and dice games — Ludo, Dominoes, Checkers, Backgammon, Mancala, Snakes & Ladders, and Yahtzee against the computer.' },
+  { id: 'cardgames', label: 'Card Games', emoji: '🃏', desc: 'Classic card games — Solitaire, War, Go Fish, Blackjack, Rummy, and Uno.' },
   { id: 'wordboard', label: 'Word Board Games', emoji: '🔤', desc: 'Scrabble Lite — spell real words with real Scrabble tile values.' },
+  { id: 'strategygames', label: 'Grid Strategy Games', emoji: '⭕', desc: 'Classic two-player grid games — Tic-Tac-Toe, Connect Four, Reversi, and Battleship.' },
 ];
 
 // ── Memory Match: themed concept-pair sets ─────────────────────────────────
@@ -597,6 +598,18 @@ export const GAMES = [
   { id: 'card-war', categoryId: 'cardgames', title: 'War', emoji: '🃏', blurb: 'Flip a card — highest rank wins the round. Ties go to war!', engine: 'external', data: { component: 'WarCardGame' } },
   { id: 'card-gofish', categoryId: 'cardgames', title: 'Go Fish', emoji: '🎣', blurb: 'Ask the computer for ranks and collect books of four to win.', engine: 'external', data: { component: 'GoFishGame' } },
   { id: 'word-scrabble-lite', categoryId: 'wordboard', title: 'Scrabble Lite', emoji: '🔤', blurb: 'Spell real words from your rack using real Scrabble letter values.', engine: 'external', data: { component: 'ScrabbleLiteGame' } },
+  { id: 'board-checkers', categoryId: 'boardgames', title: 'Checkers', emoji: '🔴', blurb: 'Mandatory captures, multi-jump chains, and kings — classic English draughts.', engine: 'external', data: { component: 'CheckersGame' } },
+  { id: 'board-backgammon', categoryId: 'boardgames', title: 'Backgammon', emoji: '🎯', blurb: 'Race your checkers around the board, hit blots, and bear off first.', engine: 'external', data: { component: 'BackgammonGame' } },
+  { id: 'board-mancala', categoryId: 'boardgames', title: 'Mancala', emoji: '🌰', blurb: 'Sow seeds around the board — capture and store more than the computer.', engine: 'external', data: { component: 'MancalaGame' } },
+  { id: 'board-snakes-ladders', categoryId: 'boardgames', title: 'Snakes & Ladders', emoji: '🐍', blurb: 'Race to square 100 — climb ladders, avoid the snakes.', engine: 'external', data: { component: 'SnakesAndLaddersGame' } },
+  { id: 'board-yahtzee', categoryId: 'boardgames', title: 'Yahtzee', emoji: '🎲', blurb: 'Roll and hold dice to fill all 13 scoring categories for your best total.', engine: 'external', data: { component: 'YahtzeeGame' } },
+  { id: 'card-blackjack', categoryId: 'cardgames', title: 'Blackjack', emoji: '🂡', blurb: 'Beat the dealer without going over 21. Hit, stand, and play hand after hand.', engine: 'external', data: { component: 'BlackjackGame' } },
+  { id: 'card-rummy', categoryId: 'cardgames', title: 'Rummy', emoji: '🃏', blurb: 'Meld sets and runs to cut your deadwood — knock or go Gin against the computer.', engine: 'external', data: { component: 'RummyGame' } },
+  { id: 'card-uno', categoryId: 'cardgames', title: 'Uno', emoji: '🌈', blurb: 'Match colours, numbers, and symbols — play Skip, Reverse, and Draw cards to win.', engine: 'external', data: { component: 'UnoGame' } },
+  { id: 'strategy-tictactoe', categoryId: 'strategygames', title: 'Tic-Tac-Toe', emoji: '⭕', blurb: 'Three in a row wins — the computer plays perfectly, so a draw is a good result.', engine: 'external', data: { component: 'TicTacToeGame' } },
+  { id: 'strategy-connectfour', categoryId: 'strategygames', title: 'Connect Four', emoji: '🔴', blurb: 'Drop discs to connect four in a row before the computer does.', engine: 'external', data: { component: 'ConnectFourGame' } },
+  { id: 'strategy-reversi', categoryId: 'strategygames', title: 'Reversi', emoji: '⚫', blurb: 'Trap the computer\'s discs between yours to flip them to your colour.', engine: 'external', data: { component: 'ReversiGame' } },
+  { id: 'strategy-battleship', categoryId: 'strategygames', title: 'Battleship', emoji: '🚢', blurb: 'Take turns firing at hidden grids — sink the whole enemy fleet first.', engine: 'external', data: { component: 'BattleshipGame' } },
 ];
 
 // Number of games available per category, for the picker UI.
