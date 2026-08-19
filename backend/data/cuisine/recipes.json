@@ -1,7 +1,7 @@
 {
   "title": "World Recipe Collection",
-  "description": "1,752 real, named dishes from 41 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
-  "total": 1752,
+  "description": "1,897 real, named dishes from 50 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
+  "total": 1897,
   "recipes": [
     {
       "id": "recipe_indian_0001",
@@ -3993,10 +3993,10 @@
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Chicken",
+      "protein": "Duck",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Peking Duck is a main course from Chinese cuisine, built around chicken.",
+      "description": "Peking Duck is a main course from Chinese cuisine, built around duck.",
       "historical_fact": "Documented in imperial Beijing cuisine for centuries; the duck is traditionally air-dried and roasted until the skin lacquers to a crisp, glossy finish.",
       "cooking_technique": "Sautéing",
       "wiki_title": "Peking Duck",
@@ -7661,24 +7661,24 @@
     },
     {
       "id": "recipe_italian_0041",
-      "name": "Beef Amatriciana",
+      "name": "Chicken Bacon Amatriciana",
       "cuisine": "Italian",
       "cuisine_id": "italian",
       "category": "Pasta",
       "category_id": "pasta",
       "emoji": "🍝",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Beef Amatriciana is a pasta from Italian cuisine, built around beef.",
+      "description": "Chicken Bacon Amatriciana is a pasta from Italian cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Boiling",
-      "wiki_title": "Beef Amatriciana",
+      "wiki_title": "Chicken Bacon Amatriciana",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Amatriciana",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Amatriciana",
-        "video": "https://www.youtube.com/results?search_query=Beef+Amatriciana+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Amatriciana+Italian+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Amatriciana",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Amatriciana",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Amatriciana+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Amatriciana+Italian+recipe"
       }
     },
     {
@@ -8233,28 +8233,50 @@
     },
     {
       "id": "recipe_italian_0067",
-      "name": "Beef Carbonara",
+      "name": "Chicken Bacon Carbonara",
       "cuisine": "Italian",
       "cuisine_id": "italian",
       "category": "Pasta",
       "category_id": "pasta",
       "emoji": "🍝",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
-      "substitution_note": "Traditionally made with guanciale (cured pork jowl); this collection uses beef bacon instead.",
-      "description": "Beef Carbonara is a pasta from Italian cuisine, built around beef.",
+      "substitution_note": "Traditionally made with guanciale (cured pork jowl); this collection uses chicken bacon instead.",
+      "description": "Chicken Bacon Carbonara is a pasta from Italian cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Boiling",
-      "wiki_title": "Beef Carbonara",
+      "wiki_title": "Chicken Bacon Carbonara",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Carbonara",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Carbonara",
-        "video": "https://www.youtube.com/results?search_query=Beef+Carbonara+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Carbonara+Italian+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Carbonara",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Carbonara",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Carbonara+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Carbonara+Italian+recipe"
       }
     },
     {
       "id": "recipe_italian_0068",
+      "name": "Gelato",
+      "cuisine": "Italian",
+      "cuisine_id": "italian",
+      "category": "Ice Cream & Frozen Treats",
+      "category_id": "ice_cream",
+      "emoji": "🍨",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Gelato is a ice cream & frozen treats from Italian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Churning / freezing",
+      "wiki_title": "Gelato",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Gelato",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Gelato",
+        "video": "https://www.youtube.com/results?search_query=Gelato+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Gelato+Italian+recipe"
+      }
+    },
+    {
+      "id": "recipe_italian_0069",
       "name": "Chicken Piccata",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8276,7 +8298,7 @@
       }
     },
     {
-      "id": "recipe_italian_0069",
+      "id": "recipe_italian_0070",
       "name": "Beef Marsala",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8298,7 +8320,7 @@
       }
     },
     {
-      "id": "recipe_italian_0070",
+      "id": "recipe_italian_0071",
       "name": "Spaghetti Puttanesca",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8320,7 +8342,7 @@
       }
     },
     {
-      "id": "recipe_italian_0071",
+      "id": "recipe_italian_0072",
       "name": "Fusilli al Pesto",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8342,7 +8364,7 @@
       }
     },
     {
-      "id": "recipe_italian_0072",
+      "id": "recipe_italian_0073",
       "name": "Rigatoni alla Norma",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8364,7 +8386,7 @@
       }
     },
     {
-      "id": "recipe_italian_0073",
+      "id": "recipe_italian_0074",
       "name": "Beef Bollito Misto",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8386,7 +8408,7 @@
       }
     },
     {
-      "id": "recipe_italian_0074",
+      "id": "recipe_italian_0075",
       "name": "Chicken Involtini",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8408,7 +8430,7 @@
       }
     },
     {
-      "id": "recipe_italian_0075",
+      "id": "recipe_italian_0076",
       "name": "Beef Tagliata",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8430,7 +8452,7 @@
       }
     },
     {
-      "id": "recipe_italian_0076",
+      "id": "recipe_italian_0077",
       "name": "Panzerotti",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8452,7 +8474,7 @@
       }
     },
     {
-      "id": "recipe_italian_0077",
+      "id": "recipe_italian_0078",
       "name": "Stracciatella di Bufala",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8474,7 +8496,7 @@
       }
     },
     {
-      "id": "recipe_italian_0078",
+      "id": "recipe_italian_0079",
       "name": "Burrata Caprese",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8496,7 +8518,7 @@
       }
     },
     {
-      "id": "recipe_italian_0079",
+      "id": "recipe_italian_0080",
       "name": "Beef Pizzaiola",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8518,7 +8540,7 @@
       }
     },
     {
-      "id": "recipe_italian_0080",
+      "id": "recipe_italian_0081",
       "name": "Farfalle al Salmone",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8540,7 +8562,7 @@
       }
     },
     {
-      "id": "recipe_italian_0081",
+      "id": "recipe_italian_0082",
       "name": "Torta di Riso",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8562,7 +8584,7 @@
       }
     },
     {
-      "id": "recipe_italian_0082",
+      "id": "recipe_italian_0083",
       "name": "Zabaglione",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8584,7 +8606,7 @@
       }
     },
     {
-      "id": "recipe_italian_0083",
+      "id": "recipe_italian_0084",
       "name": "Struffoli",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8606,7 +8628,7 @@
       }
     },
     {
-      "id": "recipe_italian_0084",
+      "id": "recipe_italian_0085",
       "name": "Pandoro",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8628,7 +8650,7 @@
       }
     },
     {
-      "id": "recipe_italian_0085",
+      "id": "recipe_italian_0086",
       "name": "Colomba di Pasqua",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8650,7 +8672,7 @@
       }
     },
     {
-      "id": "recipe_italian_0086",
+      "id": "recipe_italian_0087",
       "name": "Beef Spezzatino",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8672,7 +8694,7 @@
       }
     },
     {
-      "id": "recipe_italian_0087",
+      "id": "recipe_italian_0088",
       "name": "Chicken Spezzatino",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8694,7 +8716,7 @@
       }
     },
     {
-      "id": "recipe_italian_0088",
+      "id": "recipe_italian_0089",
       "name": "Beef Bresaola Salad",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -10697,24 +10719,24 @@
     },
     {
       "id": "recipe_french_0007",
-      "name": "Beef Bacon Quiche Lorraine",
+      "name": "Chicken Bacon Quiche Lorraine",
       "cuisine": "French",
       "cuisine_id": "french",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
-      "substitution_note": "Traditionally made with pork lardons; this collection uses beef bacon.",
-      "description": "Beef Bacon Quiche Lorraine is a main course from French cuisine, built around beef.",
+      "substitution_note": "Traditionally made with pork lardons; this collection uses chicken bacon.",
+      "description": "Chicken Bacon Quiche Lorraine is a main course from French cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Bacon Quiche Lorraine",
+      "wiki_title": "Chicken Bacon Quiche Lorraine",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Quiche+Lorraine",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Quiche+Lorraine",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Quiche+Lorraine+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Quiche+Lorraine+French+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Quiche+Lorraine",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Quiche+Lorraine",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Quiche+Lorraine+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Quiche+Lorraine+French+recipe"
       }
     },
     {
@@ -10747,10 +10769,10 @@
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Chicken",
+      "protein": "Duck",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Duck Confit is a main course from French cuisine, built around chicken.",
+      "description": "Duck Confit is a main course from French cuisine, built around duck.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
       "wiki_title": "Duck Confit",
@@ -10851,28 +10873,6 @@
     },
     {
       "id": "recipe_french_0014",
-      "name": "Escargot",
-      "cuisine": "French",
-      "cuisine_id": "french",
-      "category": "Main Course",
-      "category_id": "main",
-      "emoji": "🍽️",
-      "protein": "Mixed",
-      "pork_free": true,
-      "substitution_note": null,
-      "description": "Escargot is a main course from French cuisine.",
-      "historical_fact": null,
-      "cooking_technique": "Sautéing",
-      "wiki_title": "Escargot",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Escargot",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Escargot",
-        "video": "https://www.youtube.com/results?search_query=Escargot+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Escargot+French+recipe"
-      }
-    },
-    {
-      "id": "recipe_french_0015",
       "name": "Foie Gras",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -10894,7 +10894,7 @@
       }
     },
     {
-      "id": "recipe_french_0016",
+      "id": "recipe_french_0015",
       "name": "Crème Brûlée",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -10916,7 +10916,7 @@
       }
     },
     {
-      "id": "recipe_french_0017",
+      "id": "recipe_french_0016",
       "name": "Tarte Tatin",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -10938,7 +10938,7 @@
       }
     },
     {
-      "id": "recipe_french_0018",
+      "id": "recipe_french_0017",
       "name": "Crêpes Suzette",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -10960,7 +10960,7 @@
       }
     },
     {
-      "id": "recipe_french_0019",
+      "id": "recipe_french_0018",
       "name": "Madeleines",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -10982,7 +10982,7 @@
       }
     },
     {
-      "id": "recipe_french_0020",
+      "id": "recipe_french_0019",
       "name": "Éclair",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11004,7 +11004,7 @@
       }
     },
     {
-      "id": "recipe_french_0021",
+      "id": "recipe_french_0020",
       "name": "Macarons",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11026,7 +11026,7 @@
       }
     },
     {
-      "id": "recipe_french_0022",
+      "id": "recipe_french_0021",
       "name": "Profiteroles",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11048,7 +11048,7 @@
       }
     },
     {
-      "id": "recipe_french_0023",
+      "id": "recipe_french_0022",
       "name": "Cheese Soufflé",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11070,7 +11070,7 @@
       }
     },
     {
-      "id": "recipe_french_0024",
+      "id": "recipe_french_0023",
       "name": "Chocolate Soufflé",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11092,7 +11092,7 @@
       }
     },
     {
-      "id": "recipe_french_0025",
+      "id": "recipe_french_0024",
       "name": "Niçoise Salad",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11114,7 +11114,7 @@
       }
     },
     {
-      "id": "recipe_french_0026",
+      "id": "recipe_french_0025",
       "name": "Salade Lyonnaise",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11136,7 +11136,7 @@
       }
     },
     {
-      "id": "recipe_french_0027",
+      "id": "recipe_french_0026",
       "name": "Vichyssoise",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11158,7 +11158,7 @@
       }
     },
     {
-      "id": "recipe_french_0028",
+      "id": "recipe_french_0027",
       "name": "Beef Pot-au-Feu",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11180,7 +11180,7 @@
       }
     },
     {
-      "id": "recipe_french_0029",
+      "id": "recipe_french_0028",
       "name": "Beef Bourguignon Stew",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11202,29 +11202,29 @@
       }
     },
     {
-      "id": "recipe_french_0030",
-      "name": "Beef Bacon Tartiflette",
+      "id": "recipe_french_0029",
+      "name": "Chicken Bacon Tartiflette",
       "cuisine": "French",
       "cuisine_id": "french",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Beef Bacon Tartiflette is a main course from French cuisine, built around beef.",
+      "description": "Chicken Bacon Tartiflette is a main course from French cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Bacon Tartiflette",
+      "wiki_title": "Chicken Bacon Tartiflette",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Tartiflette",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Tartiflette",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Tartiflette+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Tartiflette+French+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Tartiflette",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Tartiflette",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Tartiflette+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Tartiflette+French+recipe"
       }
     },
     {
-      "id": "recipe_french_0031",
+      "id": "recipe_french_0030",
       "name": "Raclette",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11246,7 +11246,7 @@
       }
     },
     {
-      "id": "recipe_french_0032",
+      "id": "recipe_french_0031",
       "name": "Fondue Savoyarde",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11268,7 +11268,7 @@
       }
     },
     {
-      "id": "recipe_french_0033",
+      "id": "recipe_french_0032",
       "name": "Gratin Dauphinois",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11290,7 +11290,7 @@
       }
     },
     {
-      "id": "recipe_french_0034",
+      "id": "recipe_french_0033",
       "name": "Ratatouille Niçoise",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11312,7 +11312,7 @@
       }
     },
     {
-      "id": "recipe_french_0035",
+      "id": "recipe_french_0034",
       "name": "Bouillon",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11334,7 +11334,7 @@
       }
     },
     {
-      "id": "recipe_french_0036",
+      "id": "recipe_french_0035",
       "name": "Consommé",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11356,7 +11356,7 @@
       }
     },
     {
-      "id": "recipe_french_0037",
+      "id": "recipe_french_0036",
       "name": "Beef Terrine",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11378,17 +11378,17 @@
       }
     },
     {
-      "id": "recipe_french_0038",
+      "id": "recipe_french_0037",
       "name": "Duck Rillettes",
       "cuisine": "French",
       "cuisine_id": "french",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Chicken",
+      "protein": "Duck",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Duck Rillettes is a main course from French cuisine, built around chicken.",
+      "description": "Duck Rillettes is a main course from French cuisine, built around duck.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
       "wiki_title": "Duck Rillettes",
@@ -11400,7 +11400,7 @@
       }
     },
     {
-      "id": "recipe_french_0039",
+      "id": "recipe_french_0038",
       "name": "Confit de Canard",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11422,7 +11422,7 @@
       }
     },
     {
-      "id": "recipe_french_0040",
+      "id": "recipe_french_0039",
       "name": "Chicken Chasseur",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11444,7 +11444,7 @@
       }
     },
     {
-      "id": "recipe_french_0041",
+      "id": "recipe_french_0040",
       "name": "Beef Blanquette",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11466,7 +11466,7 @@
       }
     },
     {
-      "id": "recipe_french_0042",
+      "id": "recipe_french_0041",
       "name": "Moules Marinière",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11488,7 +11488,7 @@
       }
     },
     {
-      "id": "recipe_french_0043",
+      "id": "recipe_french_0042",
       "name": "Sole Meunière",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11510,7 +11510,7 @@
       }
     },
     {
-      "id": "recipe_french_0044",
+      "id": "recipe_french_0043",
       "name": "Pissaladière",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11532,29 +11532,29 @@
       }
     },
     {
-      "id": "recipe_french_0045",
-      "name": "Beef Bacon Croque Monsieur",
+      "id": "recipe_french_0044",
+      "name": "Chicken Bacon Croque Monsieur",
       "cuisine": "French",
       "cuisine_id": "french",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
-      "substitution_note": "Traditionally made with ham; this collection uses beef bacon/beef ham.",
-      "description": "Beef Bacon Croque Monsieur is a main course from French cuisine, built around beef.",
+      "substitution_note": "Traditionally made with ham; this collection uses chicken bacon/chicken ham.",
+      "description": "Chicken Bacon Croque Monsieur is a main course from French cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Bacon Croque Monsieur",
+      "wiki_title": "Chicken Bacon Croque Monsieur",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Croque+Monsieur",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Croque+Monsieur",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Croque+Monsieur+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Croque+Monsieur+French+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Croque+Monsieur",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Croque+Monsieur",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Croque+Monsieur+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Croque+Monsieur+French+recipe"
       }
     },
     {
-      "id": "recipe_french_0046",
+      "id": "recipe_french_0045",
       "name": "Croque Madame",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11576,7 +11576,7 @@
       }
     },
     {
-      "id": "recipe_french_0047",
+      "id": "recipe_french_0046",
       "name": "Baguette",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11598,7 +11598,7 @@
       }
     },
     {
-      "id": "recipe_french_0048",
+      "id": "recipe_french_0047",
       "name": "Brioche",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11620,7 +11620,7 @@
       }
     },
     {
-      "id": "recipe_french_0049",
+      "id": "recipe_french_0048",
       "name": "Financiers",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11642,7 +11642,7 @@
       }
     },
     {
-      "id": "recipe_french_0050",
+      "id": "recipe_french_0049",
       "name": "Clafoutis",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11664,7 +11664,7 @@
       }
     },
     {
-      "id": "recipe_french_0051",
+      "id": "recipe_french_0050",
       "name": "Galette des Rois",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11686,7 +11686,7 @@
       }
     },
     {
-      "id": "recipe_french_0052",
+      "id": "recipe_french_0051",
       "name": "Beef Bearnaise Steak",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11708,17 +11708,17 @@
       }
     },
     {
-      "id": "recipe_french_0053",
+      "id": "recipe_french_0052",
       "name": "Duck a l'Orange",
       "cuisine": "French",
       "cuisine_id": "french",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Chicken",
+      "protein": "Duck",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Duck a l'Orange is a main course from French cuisine, built around chicken.",
+      "description": "Duck a l'Orange is a main course from French cuisine, built around duck.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
       "wiki_title": "Duck a l'Orange",
@@ -11730,7 +11730,7 @@
       }
     },
     {
-      "id": "recipe_french_0054",
+      "id": "recipe_french_0053",
       "name": "Cherries Jubilee",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11752,7 +11752,7 @@
       }
     },
     {
-      "id": "recipe_french_0055",
+      "id": "recipe_french_0054",
       "name": "Beef Daube Provençale",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11774,7 +11774,7 @@
       }
     },
     {
-      "id": "recipe_french_0056",
+      "id": "recipe_french_0055",
       "name": "Chicken Vol-au-Vent",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11796,7 +11796,7 @@
       }
     },
     {
-      "id": "recipe_french_0057",
+      "id": "recipe_french_0056",
       "name": "Beef Pâté en Croûte",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11818,7 +11818,7 @@
       }
     },
     {
-      "id": "recipe_french_0058",
+      "id": "recipe_french_0057",
       "name": "Chicken Ballotine",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11840,7 +11840,7 @@
       }
     },
     {
-      "id": "recipe_french_0059",
+      "id": "recipe_french_0058",
       "name": "Beef Entrecôte",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11862,7 +11862,7 @@
       }
     },
     {
-      "id": "recipe_french_0060",
+      "id": "recipe_french_0059",
       "name": "Beef Chateaubriand",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11884,7 +11884,7 @@
       }
     },
     {
-      "id": "recipe_french_0061",
+      "id": "recipe_french_0060",
       "name": "Salade Composée",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11906,7 +11906,7 @@
       }
     },
     {
-      "id": "recipe_french_0062",
+      "id": "recipe_french_0061",
       "name": "Beef Tarte Flambée",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11928,7 +11928,7 @@
       }
     },
     {
-      "id": "recipe_french_0063",
+      "id": "recipe_french_0062",
       "name": "Quiche aux Champignons",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11950,7 +11950,7 @@
       }
     },
     {
-      "id": "recipe_french_0064",
+      "id": "recipe_french_0063",
       "name": "Chicken Suprême",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11972,7 +11972,7 @@
       }
     },
     {
-      "id": "recipe_french_0065",
+      "id": "recipe_french_0064",
       "name": "Beef Filet Mignon Sauce",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11994,7 +11994,7 @@
       }
     },
     {
-      "id": "recipe_french_0066",
+      "id": "recipe_french_0065",
       "name": "Beef Bordelaise",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12016,7 +12016,7 @@
       }
     },
     {
-      "id": "recipe_french_0067",
+      "id": "recipe_french_0066",
       "name": "Chicken Provençale",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12038,7 +12038,7 @@
       }
     },
     {
-      "id": "recipe_french_0068",
+      "id": "recipe_french_0067",
       "name": "Beef Crepe Grand Marnier",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12060,7 +12060,7 @@
       }
     },
     {
-      "id": "recipe_french_0069",
+      "id": "recipe_french_0068",
       "name": "Tarte aux Pommes",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12082,7 +12082,7 @@
       }
     },
     {
-      "id": "recipe_french_0070",
+      "id": "recipe_french_0069",
       "name": "Île Flottante",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12104,7 +12104,7 @@
       }
     },
     {
-      "id": "recipe_french_0071",
+      "id": "recipe_french_0070",
       "name": "Paris-Brest",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12126,7 +12126,7 @@
       }
     },
     {
-      "id": "recipe_french_0072",
+      "id": "recipe_french_0071",
       "name": "Opéra Cake",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12148,7 +12148,7 @@
       }
     },
     {
-      "id": "recipe_french_0073",
+      "id": "recipe_french_0072",
       "name": "Kouign-Amann",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -17652,15 +17652,15 @@
       "name": "Kimchi Fried Rice",
       "cuisine": "Korean",
       "cuisine_id": "korean",
-      "category": "Rice Dish",
-      "category_id": "rice",
-      "emoji": "🍚",
+      "category": "Fermented / Pickled",
+      "category_id": "pickle",
+      "emoji": "🫙",
       "protein": "Mixed",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Kimchi Fried Rice is a rice dish from Korean cuisine.",
+      "description": "Kimchi Fried Rice is a fermented / pickled from Korean cuisine.",
       "historical_fact": null,
-      "cooking_technique": "Steaming / sautéing",
+      "cooking_technique": "Fermentation",
       "wiki_title": "Kimchi Fried Rice",
       "links": {
         "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kimchi+Fried+Rice",
@@ -22863,6 +22863,160 @@
     },
     {
       "id": "recipe_american_0050",
+      "name": "Strawberry Jam",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Strawberry Jam is a dessert from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Strawberry Jam",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Strawberry+Jam",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Strawberry+Jam",
+        "video": "https://www.youtube.com/results?search_query=Strawberry+Jam+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Strawberry+Jam+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0051",
+      "name": "Grape Jelly",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Grape Jelly is a dessert from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Grape Jelly",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Grape+Jelly",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Grape+Jelly",
+        "video": "https://www.youtube.com/results?search_query=Grape+Jelly+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Grape+Jelly+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0052",
+      "name": "Dill Pickles",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Fermented / Pickled",
+      "category_id": "pickle",
+      "emoji": "🫙",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Dill Pickles is a fermented / pickled from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Fermentation",
+      "wiki_title": "Dill Pickles",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Dill+Pickles",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Dill+Pickles",
+        "video": "https://www.youtube.com/results?search_query=Dill+Pickles+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Dill+Pickles+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0053",
+      "name": "Bread and Butter Pickles",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Fermented / Pickled",
+      "category_id": "pickle",
+      "emoji": "🫙",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Bread and Butter Pickles is a fermented / pickled from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Fermentation",
+      "wiki_title": "Bread and Butter Pickles",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Bread+and+Butter+Pickles",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Bread+and+Butter+Pickles",
+        "video": "https://www.youtube.com/results?search_query=Bread+and+Butter+Pickles+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Bread+and+Butter+Pickles+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0054",
+      "name": "Homemade Yogurt",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Breakfast",
+      "category_id": "breakfast",
+      "emoji": "🍳",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Homemade Yogurt is a breakfast from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Pan-cooking",
+      "wiki_title": "Homemade Yogurt",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Homemade+Yogurt",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Homemade+Yogurt",
+        "video": "https://www.youtube.com/results?search_query=Homemade+Yogurt+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Homemade+Yogurt+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0055",
+      "name": "Sourdough Bread",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sourdough Bread is a bread from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Sourdough Bread",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sourdough+Bread",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sourdough+Bread",
+        "video": "https://www.youtube.com/results?search_query=Sourdough+Bread+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sourdough+Bread+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0056",
+      "name": "Dinner Rolls",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Dinner Rolls is a bread from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Dinner Rolls",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Dinner+Rolls",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Dinner+Rolls",
+        "video": "https://www.youtube.com/results?search_query=Dinner+Rolls+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Dinner+Rolls+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0057",
       "name": "Beef Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22884,7 +23038,7 @@
       }
     },
     {
-      "id": "recipe_american_0051",
+      "id": "recipe_american_0058",
       "name": "Beef Chicken-Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22906,7 +23060,7 @@
       }
     },
     {
-      "id": "recipe_american_0052",
+      "id": "recipe_american_0059",
       "name": "Southern Fried Chicken",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22928,7 +23082,7 @@
       }
     },
     {
-      "id": "recipe_american_0053",
+      "id": "recipe_american_0060",
       "name": "Beef Corn Dogs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22950,7 +23104,7 @@
       }
     },
     {
-      "id": "recipe_american_0054",
+      "id": "recipe_american_0061",
       "name": "Beef Meatball Subs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22972,7 +23126,7 @@
       }
     },
     {
-      "id": "recipe_american_0055",
+      "id": "recipe_american_0062",
       "name": "Chicken Club Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -22994,29 +23148,29 @@
       }
     },
     {
-      "id": "recipe_american_0056",
-      "name": "Beef Bacon Lettuce Tomato Sandwich",
+      "id": "recipe_american_0063",
+      "name": "Chicken Bacon Lettuce Tomato Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Beef Bacon Lettuce Tomato Sandwich is a main course from American cuisine, built around beef.",
+      "description": "Chicken Bacon Lettuce Tomato Sandwich is a main course from American cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Bacon Lettuce Tomato Sandwich",
+      "wiki_title": "Chicken Bacon Lettuce Tomato Sandwich",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Lettuce+Tomato+Sandwich",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Lettuce+Tomato+Sandwich",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Lettuce+Tomato+Sandwich+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Lettuce+Tomato+Sandwich+American+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Lettuce+Tomato+Sandwich",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Lettuce+Tomato+Sandwich",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Lettuce+Tomato+Sandwich+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Lettuce+Tomato+Sandwich+American+recipe"
       }
     },
     {
-      "id": "recipe_american_0057",
+      "id": "recipe_american_0064",
       "name": "Beef Texas Chili",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23038,7 +23192,7 @@
       }
     },
     {
-      "id": "recipe_american_0058",
+      "id": "recipe_american_0065",
       "name": "Beef Salisbury Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23060,7 +23214,7 @@
       }
     },
     {
-      "id": "recipe_american_0059",
+      "id": "recipe_american_0066",
       "name": "Chicken Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23082,7 +23236,7 @@
       }
     },
     {
-      "id": "recipe_american_0060",
+      "id": "recipe_american_0067",
       "name": "Beef Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23104,7 +23258,7 @@
       }
     },
     {
-      "id": "recipe_american_0061",
+      "id": "recipe_american_0068",
       "name": "Chicken Fried Chicken Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23126,7 +23280,7 @@
       }
     },
     {
-      "id": "recipe_american_0062",
+      "id": "recipe_american_0069",
       "name": "Chicken Gumbo Ya-Ya",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23148,7 +23302,7 @@
       }
     },
     {
-      "id": "recipe_american_0063",
+      "id": "recipe_american_0070",
       "name": "Beef Texas Toast",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23170,7 +23324,7 @@
       }
     },
     {
-      "id": "recipe_american_0064",
+      "id": "recipe_american_0071",
       "name": "Beef Sloppy Joe Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23192,7 +23346,7 @@
       }
     },
     {
-      "id": "recipe_american_0065",
+      "id": "recipe_american_0072",
       "name": "Chicken Ranch Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23214,7 +23368,7 @@
       }
     },
     {
-      "id": "recipe_american_0066",
+      "id": "recipe_american_0073",
       "name": "Beef Chili Cheese Fries",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23236,7 +23390,7 @@
       }
     },
     {
-      "id": "recipe_american_0067",
+      "id": "recipe_american_0074",
       "name": "Chicken Cobb Wrap",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23258,7 +23412,7 @@
       }
     },
     {
-      "id": "recipe_american_0068",
+      "id": "recipe_american_0075",
       "name": "New England Clam Bake",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23280,7 +23434,7 @@
       }
     },
     {
-      "id": "recipe_american_0069",
+      "id": "recipe_american_0076",
       "name": "Southern Biscuits",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23302,7 +23456,7 @@
       }
     },
     {
-      "id": "recipe_american_0070",
+      "id": "recipe_american_0077",
       "name": "Beef Country Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23324,7 +23478,7 @@
       }
     },
     {
-      "id": "recipe_american_0071",
+      "id": "recipe_american_0078",
       "name": "Beef American Chop Suey",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23346,7 +23500,7 @@
       }
     },
     {
-      "id": "recipe_american_0072",
+      "id": "recipe_american_0079",
       "name": "Chicken Noodle Soup",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23457,24 +23611,24 @@
     },
     {
       "id": "recipe_british_0005",
-      "name": "Beef Bacon Full English Breakfast",
+      "name": "Chicken Bacon Full English Breakfast",
       "cuisine": "British",
       "cuisine_id": "british",
       "category": "Breakfast",
       "category_id": "breakfast",
       "emoji": "🍳",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Beef Bacon Full English Breakfast is a breakfast from British cuisine, built around beef.",
+      "description": "Chicken Bacon Full English Breakfast is a breakfast from British cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Pan-cooking",
-      "wiki_title": "Beef Bacon Full English Breakfast",
+      "wiki_title": "Chicken Bacon Full English Breakfast",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Full+English+Breakfast",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Full+English+Breakfast",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Full+English+Breakfast+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Full+English+Breakfast+British+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Full+English+Breakfast",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Full+English+Breakfast",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Full+English+Breakfast+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Full+English+Breakfast+British+recipe"
       }
     },
     {
@@ -24733,24 +24887,24 @@
     },
     {
       "id": "recipe_german_0023",
-      "name": "Beef Bacon Flammkuchen",
+      "name": "Chicken Bacon Flammkuchen",
       "cuisine": "German",
       "cuisine_id": "german",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Beef",
+      "protein": "Chicken",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Beef Bacon Flammkuchen is a main course from German cuisine, built around beef.",
+      "description": "Chicken Bacon Flammkuchen is a main course from German cuisine, built around chicken.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Beef Bacon Flammkuchen",
+      "wiki_title": "Chicken Bacon Flammkuchen",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bacon+Flammkuchen",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bacon+Flammkuchen",
-        "video": "https://www.youtube.com/results?search_query=Beef+Bacon+Flammkuchen+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Beef+Bacon+Flammkuchen+German+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Bacon+Flammkuchen",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Bacon+Flammkuchen",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Bacon+Flammkuchen+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Bacon+Flammkuchen+German+recipe"
       }
     },
     {
@@ -36525,24 +36679,24 @@
     },
     {
       "id": "recipe_australian_0012",
-      "name": "Kangaroo Steak",
+      "name": "Australian Beef Steak",
       "cuisine": "Australian",
       "cuisine_id": "australian",
       "category": "Main Course",
       "category_id": "main",
       "emoji": "🍽️",
-      "protein": "Game (Kangaroo)",
+      "protein": "Beef",
       "pork_free": true,
       "substitution_note": null,
-      "description": "Kangaroo Steak is a main course from Australian cuisine, built around game (kangaroo).",
+      "description": "Australian Beef Steak is a main course from Australian cuisine, built around beef.",
       "historical_fact": null,
       "cooking_technique": "Sautéing",
-      "wiki_title": "Kangaroo Steak",
+      "wiki_title": "Australian Beef Steak",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kangaroo+Steak",
-        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kangaroo+Steak",
-        "video": "https://www.youtube.com/results?search_query=Kangaroo+Steak+recipe+how+to+make",
-        "text_guide": "https://www.google.com/search?q=Kangaroo+Steak+Australian+recipe"
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Australian+Beef+Steak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Australian+Beef+Steak",
+        "video": "https://www.youtube.com/results?search_query=Australian+Beef+Steak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Australian+Beef+Steak+Australian+recipe"
       }
     },
     {
@@ -38545,6 +38699,3042 @@
         "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Grillades+and+Grits",
         "video": "https://www.youtube.com/results?search_query=Beef+Grillades+and+Grits+recipe+how+to+make",
         "text_guide": "https://www.google.com/search?q=Beef+Grillades+and+Grits+Louisiana+Creole+%26+Cajun+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0001",
+      "name": "Beef Borscht Ukrainian",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Soup",
+      "category_id": "soup",
+      "emoji": "🥣",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Borscht Ukrainian is a soup from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering",
+      "wiki_title": "Beef Borscht Ukrainian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Borscht+Ukrainian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Borscht+Ukrainian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Borscht+Ukrainian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Borscht+Ukrainian+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0002",
+      "name": "Beef Holubtsi",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Holubtsi is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Holubtsi",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Holubtsi",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Holubtsi",
+        "video": "https://www.youtube.com/results?search_query=Beef+Holubtsi+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Holubtsi+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0003",
+      "name": "Beef Svíčková",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Svíčková is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Svíčková",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Sv%C3%AD%C4%8Dkov%C3%A1",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Sv%C3%AD%C4%8Dkov%C3%A1",
+        "video": "https://www.youtube.com/results?search_query=Beef+Sv%C3%AD%C4%8Dkov%C3%A1+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Sv%C3%AD%C4%8Dkov%C3%A1+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0004",
+      "name": "Beef Guláš Czech",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Guláš Czech is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Guláš Czech",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Gul%C3%A1%C5%A1+Czech",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Gul%C3%A1%C5%A1+Czech",
+        "video": "https://www.youtube.com/results?search_query=Beef+Gul%C3%A1%C5%A1+Czech+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Gul%C3%A1%C5%A1+Czech+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0005",
+      "name": "Beef Vareniki",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Dumplings & Wraps",
+      "category_id": "dumpling",
+      "emoji": "🥟",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Vareniki is a dumplings & wraps from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / folding",
+      "wiki_title": "Beef Vareniki",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Vareniki",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Vareniki",
+        "video": "https://www.youtube.com/results?search_query=Beef+Vareniki+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Vareniki+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0006",
+      "name": "Chicken Kyiv",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Kyiv is a main course from Eastern European cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Kyiv",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Kyiv",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Kyiv",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Kyiv+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Kyiv+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0007",
+      "name": "Beef Deruny",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Deruny is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Deruny",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Deruny",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Deruny",
+        "video": "https://www.youtube.com/results?search_query=Beef+Deruny+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Deruny+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0008",
+      "name": "Trdelník",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Trdelník is a main course from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Trdelník",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Trdeln%C3%ADk",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Trdeln%C3%ADk",
+        "video": "https://www.youtube.com/results?search_query=Trdeln%C3%ADk+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Trdeln%C3%ADk+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0009",
+      "name": "Kolache",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kolache is a main course from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kolache",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kolache",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kolache",
+        "video": "https://www.youtube.com/results?search_query=Kolache+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kolache+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0010",
+      "name": "Beef Segedínský Guláš",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Segedínský Guláš is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Segedínský Guláš",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Seged%C3%ADnsk%C3%BD+Gul%C3%A1%C5%A1",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Seged%C3%ADnsk%C3%BD+Gul%C3%A1%C5%A1",
+        "video": "https://www.youtube.com/results?search_query=Beef+Seged%C3%ADnsk%C3%BD+Gul%C3%A1%C5%A1+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Seged%C3%ADnsk%C3%BD+Gul%C3%A1%C5%A1+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0011",
+      "name": "Halušky",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Halušky is a main course from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Halušky",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Halu%C5%A1ky",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Halu%C5%A1ky",
+        "video": "https://www.youtube.com/results?search_query=Halu%C5%A1ky+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Halu%C5%A1ky+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0012",
+      "name": "Beef Kapustnica",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Kapustnica is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Kapustnica",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kapustnica",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kapustnica",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kapustnica+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kapustnica+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0013",
+      "name": "Medovik Ukrainian",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Medovik Ukrainian is a dessert from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Medovik Ukrainian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Medovik+Ukrainian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Medovik+Ukrainian",
+        "video": "https://www.youtube.com/results?search_query=Medovik+Ukrainian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Medovik+Ukrainian+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0014",
+      "name": "Beef Zrazy Ukrainian",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Stew",
+      "category_id": "stew",
+      "emoji": "🍲",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Zrazy Ukrainian is a stew from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Braising / simmering",
+      "wiki_title": "Beef Zrazy Ukrainian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Zrazy+Ukrainian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Zrazy+Ukrainian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Zrazy+Ukrainian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Zrazy+Ukrainian+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0015",
+      "name": "Syrniki Ukrainian",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Syrniki Ukrainian is a main course from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Syrniki Ukrainian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Syrniki+Ukrainian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Syrniki+Ukrainian",
+        "video": "https://www.youtube.com/results?search_query=Syrniki+Ukrainian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Syrniki+Ukrainian+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0016",
+      "name": "Beef Nalysnyky",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Nalysnyky is a main course from Eastern European cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Nalysnyky",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Nalysnyky",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Nalysnyky",
+        "video": "https://www.youtube.com/results?search_query=Beef+Nalysnyky+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Nalysnyky+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_eastern_european_0017",
+      "name": "Kutia",
+      "cuisine": "Eastern European",
+      "cuisine_id": "eastern_european",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kutia is a main course from Eastern European cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kutia",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kutia",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kutia",
+        "video": "https://www.youtube.com/results?search_query=Kutia+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kutia+Eastern+European+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0001",
+      "name": "Beef Ćevapi",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Ćevapi is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Ćevapi",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+%C4%86evapi",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+%C4%86evapi",
+        "video": "https://www.youtube.com/results?search_query=Beef+%C4%86evapi+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+%C4%86evapi+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0002",
+      "name": "Beef Sarma",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Sarma is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Sarma",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Sarma",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Sarma",
+        "video": "https://www.youtube.com/results?search_query=Beef+Sarma+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Sarma+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0003",
+      "name": "Burek",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Burek is a street food from Balkan cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Burek",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Burek",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Burek",
+        "video": "https://www.youtube.com/results?search_query=Burek+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Burek+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0004",
+      "name": "Beef Musaka Balkan",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Musaka Balkan is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Musaka Balkan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Musaka+Balkan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Musaka+Balkan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Musaka+Balkan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Musaka+Balkan+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0005",
+      "name": "Ajvar",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Ajvar is a main course from Balkan cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Ajvar",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Ajvar",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Ajvar",
+        "video": "https://www.youtube.com/results?search_query=Ajvar+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Ajvar+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0006",
+      "name": "Beef Pljeskavica",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Pljeskavica is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Pljeskavica",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Pljeskavica",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Pljeskavica",
+        "video": "https://www.youtube.com/results?search_query=Beef+Pljeskavica+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Pljeskavica+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0007",
+      "name": "Chicken Piletina na Žaru",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Piletina na Žaru is a main course from Balkan cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Piletina na Žaru",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Piletina+na+%C5%BDaru",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Piletina+na+%C5%BDaru",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Piletina+na+%C5%BDaru+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Piletina+na+%C5%BDaru+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0008",
+      "name": "Beef Karađorđeva Šnicla",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Karađorđeva Šnicla is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Karađorđeva Šnicla",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kara%C4%91or%C4%91eva+%C5%A0nicla",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kara%C4%91or%C4%91eva+%C5%A0nicla",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kara%C4%91or%C4%91eva+%C5%A0nicla+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kara%C4%91or%C4%91eva+%C5%A0nicla+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0009",
+      "name": "Beef Punjena Paprika",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Punjena Paprika is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Punjena Paprika",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Punjena+Paprika",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Punjena+Paprika",
+        "video": "https://www.youtube.com/results?search_query=Beef+Punjena+Paprika+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Punjena+Paprika+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0010",
+      "name": "Tarator",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Tarator is a main course from Balkan cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Tarator",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Tarator",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Tarator",
+        "video": "https://www.youtube.com/results?search_query=Tarator+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Tarator+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0011",
+      "name": "Banitsa",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Banitsa is a main course from Balkan cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Banitsa",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Banitsa",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Banitsa",
+        "video": "https://www.youtube.com/results?search_query=Banitsa+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Banitsa+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0012",
+      "name": "Beef Gibanica Balkan",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Gibanica Balkan is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Gibanica Balkan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Gibanica+Balkan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Gibanica+Balkan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Gibanica+Balkan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Gibanica+Balkan+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0013",
+      "name": "Beef Chorba Balkan",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Chorba Balkan is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Chorba Balkan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Chorba+Balkan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Chorba+Balkan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Chorba+Balkan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Chorba+Balkan+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0014",
+      "name": "Kajmak",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kajmak is a main course from Balkan cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kajmak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kajmak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kajmak",
+        "video": "https://www.youtube.com/results?search_query=Kajmak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kajmak+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0015",
+      "name": "Palačinke Balkan",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Palačinke Balkan is a main course from Balkan cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Palačinke Balkan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Pala%C4%8Dinke+Balkan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Pala%C4%8Dinke+Balkan",
+        "video": "https://www.youtube.com/results?search_query=Pala%C4%8Dinke+Balkan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Pala%C4%8Dinke+Balkan+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0016",
+      "name": "Beef Ražnjići",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Ražnjići is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Ražnjići",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Ra%C5%BEnji%C4%87i",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Ra%C5%BEnji%C4%87i",
+        "video": "https://www.youtube.com/results?search_query=Beef+Ra%C5%BEnji%C4%87i+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Ra%C5%BEnji%C4%87i+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0017",
+      "name": "Beef Mititei Romanian",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Mititei Romanian is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Mititei Romanian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Mititei+Romanian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Mititei+Romanian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Mititei+Romanian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Mititei+Romanian+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0018",
+      "name": "Beef Sarmale Romanian",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Sarmale Romanian is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Sarmale Romanian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Sarmale+Romanian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Sarmale+Romanian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Sarmale+Romanian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Sarmale+Romanian+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_balkan_0019",
+      "name": "Beef Ciorbă Romanian",
+      "cuisine": "Balkan",
+      "cuisine_id": "balkan",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Ciorbă Romanian is a main course from Balkan cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Ciorbă Romanian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Ciorb%C4%83+Romanian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Ciorb%C4%83+Romanian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Ciorb%C4%83+Romanian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Ciorb%C4%83+Romanian+Balkan+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0001",
+      "name": "Beef Lagman",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Lagman is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Lagman",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Lagman",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Lagman",
+        "video": "https://www.youtube.com/results?search_query=Beef+Lagman+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Lagman+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0002",
+      "name": "Beef Shashlik",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Shashlik is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Shashlik",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Shashlik",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Shashlik",
+        "video": "https://www.youtube.com/results?search_query=Beef+Shashlik+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Shashlik+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0003",
+      "name": "Beef Samsa",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Samsa is a street food from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Samsa",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Samsa",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Samsa",
+        "video": "https://www.youtube.com/results?search_query=Beef+Samsa+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Samsa+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0004",
+      "name": "Chicken Lagman",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Lagman is a main course from Central Asian cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Lagman",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Lagman",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Lagman",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Lagman+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Lagman+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0005",
+      "name": "Beef Beshbarmak",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Beshbarmak is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Beshbarmak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Beshbarmak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Beshbarmak",
+        "video": "https://www.youtube.com/results?search_query=Beef+Beshbarmak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Beshbarmak+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0006",
+      "name": "Baursak",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Baursak is a main course from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Baursak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Baursak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Baursak",
+        "video": "https://www.youtube.com/results?search_query=Baursak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Baursak+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0007",
+      "name": "Uzbek Non Bread",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Uzbek Non Bread is a bread from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Uzbek Non Bread",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Uzbek+Non+Bread",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Uzbek+Non+Bread",
+        "video": "https://www.youtube.com/results?search_query=Uzbek+Non+Bread+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Uzbek+Non+Bread+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0008",
+      "name": "Chicken Plov",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Plov is a main course from Central Asian cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Plov",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Plov",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Plov",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Plov+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Plov+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0009",
+      "name": "Beef Kazy Style",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Kazy Style is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Kazy Style",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kazy+Style",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kazy+Style",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kazy+Style+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kazy+Style+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0010",
+      "name": "Kurt",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kurt is a main course from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kurt",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kurt",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kurt",
+        "video": "https://www.youtube.com/results?search_query=Kurt+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kurt+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0011",
+      "name": "Chak-Chak",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chak-Chak is a main course from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chak-Chak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chak-Chak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chak-Chak",
+        "video": "https://www.youtube.com/results?search_query=Chak-Chak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chak-Chak+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0012",
+      "name": "Beef Norin",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Norin is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Norin",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Norin",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Norin",
+        "video": "https://www.youtube.com/results?search_query=Beef+Norin+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Norin+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0013",
+      "name": "Beef Kuurdak",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Kuurdak is a main course from Central Asian cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Kuurdak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kuurdak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kuurdak",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kuurdak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kuurdak+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0014",
+      "name": "Achichuk Salad",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Salad",
+      "category_id": "salad",
+      "emoji": "🥗",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Achichuk Salad is a salad from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Raw preparation",
+      "wiki_title": "Achichuk Salad",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Achichuk+Salad",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Achichuk+Salad",
+        "video": "https://www.youtube.com/results?search_query=Achichuk+Salad+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Achichuk+Salad+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0015",
+      "name": "Katyk",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Katyk is a main course from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Katyk",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Katyk",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Katyk",
+        "video": "https://www.youtube.com/results?search_query=Katyk+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Katyk+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_central_asian_0016",
+      "name": "Central Asian Green Tea",
+      "cuisine": "Central Asian",
+      "cuisine_id": "central_asian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Central Asian Green Tea is a hot drinks from Central Asian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Central Asian Green Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Central+Asian+Green+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Central+Asian+Green+Tea",
+        "video": "https://www.youtube.com/results?search_query=Central+Asian+Green+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Central+Asian+Green+Tea+Central+Asian+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0001",
+      "name": "Beef Kabsa Saudi",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Kabsa Saudi is a main course from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Kabsa Saudi",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kabsa+Saudi",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kabsa+Saudi",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kabsa+Saudi+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kabsa+Saudi+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0002",
+      "name": "Chicken Machboos Bahraini",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Machboos Bahraini is a main course from Gulf Arabian & Iraqi cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Machboos Bahraini",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Machboos+Bahraini",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Machboos+Bahraini",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Machboos+Bahraini+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Machboos+Bahraini+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0003",
+      "name": "Beef Harees",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Harees is a main course from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Harees",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Harees",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Harees",
+        "video": "https://www.youtube.com/results?search_query=Beef+Harees+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Harees+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0004",
+      "name": "Chicken Thareed",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Thareed is a main course from Gulf Arabian & Iraqi cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Thareed",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Thareed",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Thareed",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Thareed+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Thareed+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0005",
+      "name": "Beef Ouzi Gulf",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Ouzi Gulf is a main course from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Ouzi Gulf",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Ouzi+Gulf",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Ouzi+Gulf",
+        "video": "https://www.youtube.com/results?search_query=Beef+Ouzi+Gulf+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Ouzi+Gulf+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0006",
+      "name": "Beef Iraqi Kubba",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Iraqi Kubba is a main course from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Iraqi Kubba",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Iraqi+Kubba",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Iraqi+Kubba",
+        "video": "https://www.youtube.com/results?search_query=Beef+Iraqi+Kubba+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Iraqi+Kubba+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0007",
+      "name": "Beef Iraqi Dolma",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Appetisers & Starters",
+      "category_id": "appetizer",
+      "emoji": "🥙",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Iraqi Dolma is a appetisers & starters from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Assembling / light cooking",
+      "wiki_title": "Beef Iraqi Dolma",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Iraqi+Dolma",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Iraqi+Dolma",
+        "video": "https://www.youtube.com/results?search_query=Beef+Iraqi+Dolma+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Iraqi+Dolma+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0008",
+      "name": "Masgouf Grilled Fish",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Masgouf Grilled Fish is a main course from Gulf Arabian & Iraqi cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Masgouf Grilled Fish",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Masgouf+Grilled+Fish",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Masgouf+Grilled+Fish",
+        "video": "https://www.youtube.com/results?search_query=Masgouf+Grilled+Fish+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Masgouf+Grilled+Fish+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0009",
+      "name": "Luqaimat",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Luqaimat is a street food from Gulf Arabian & Iraqi cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Luqaimat",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Luqaimat",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Luqaimat",
+        "video": "https://www.youtube.com/results?search_query=Luqaimat+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Luqaimat+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0010",
+      "name": "Beef Iraqi Tashreeb",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Iraqi Tashreeb is a main course from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Iraqi Tashreeb",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Iraqi+Tashreeb",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Iraqi+Tashreeb",
+        "video": "https://www.youtube.com/results?search_query=Beef+Iraqi+Tashreeb+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Iraqi+Tashreeb+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0011",
+      "name": "Kleicha Date Cookies",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Dessert",
+      "category_id": "dessert",
+      "emoji": "🍰",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kleicha Date Cookies is a dessert from Gulf Arabian & Iraqi cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking / confectionery",
+      "wiki_title": "Kleicha Date Cookies",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kleicha+Date+Cookies",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kleicha+Date+Cookies",
+        "video": "https://www.youtube.com/results?search_query=Kleicha+Date+Cookies+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kleicha+Date+Cookies+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0012",
+      "name": "Gahwa Arabic Coffee",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Gahwa Arabic Coffee is a hot drinks from Gulf Arabian & Iraqi cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Gahwa Arabic Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Gahwa+Arabic+Coffee",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Gahwa+Arabic+Coffee",
+        "video": "https://www.youtube.com/results?search_query=Gahwa+Arabic+Coffee+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Gahwa+Arabic+Coffee+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0013",
+      "name": "Khubz Gulf Bread",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Khubz Gulf Bread is a bread from Gulf Arabian & Iraqi cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Khubz Gulf Bread",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Khubz+Gulf+Bread",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Khubz+Gulf+Bread",
+        "video": "https://www.youtube.com/results?search_query=Khubz+Gulf+Bread+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Khubz+Gulf+Bread+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0014",
+      "name": "Stuffed Dates",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Stuffed Dates is a main course from Gulf Arabian & Iraqi cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Stuffed Dates",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Stuffed+Dates",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Stuffed+Dates",
+        "video": "https://www.youtube.com/results?search_query=Stuffed+Dates+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Stuffed+Dates+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0015",
+      "name": "Chicken Iraqi Biryani",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Iraqi Biryani is a rice dish from Gulf Arabian & Iraqi cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Chicken Iraqi Biryani",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Iraqi+Biryani",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Iraqi+Biryani",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Iraqi+Biryani+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Iraqi+Biryani+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_gulf_arabian_0016",
+      "name": "Beef Iraqi Kebab",
+      "cuisine": "Gulf Arabian & Iraqi",
+      "cuisine_id": "gulf_arabian",
+      "category": "Grilled / BBQ",
+      "category_id": "grill",
+      "emoji": "🔥",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Iraqi Kebab is a grilled / bbq from Gulf Arabian & Iraqi cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Grilling",
+      "wiki_title": "Beef Iraqi Kebab",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Iraqi+Kebab",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Iraqi+Kebab",
+        "video": "https://www.youtube.com/results?search_query=Beef+Iraqi+Kebab+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Iraqi+Kebab+Gulf+Arabian+%26+Iraqi+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0001",
+      "name": "Beef Cepelinai",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Cepelinai is a main course from Baltic cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Cepelinai",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Cepelinai",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Cepelinai",
+        "video": "https://www.youtube.com/results?search_query=Beef+Cepelinai+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Cepelinai+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0002",
+      "name": "Baltic Rye Bread",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Baltic Rye Bread is a bread from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Baltic Rye Bread",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Baltic+Rye+Bread",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Baltic+Rye+Bread",
+        "video": "https://www.youtube.com/results?search_query=Baltic+Rye+Bread+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Baltic+Rye+Bread+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0003",
+      "name": "Beef Pelēkie Zirņi",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Pelēkie Zirņi is a main course from Baltic cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Pelēkie Zirņi",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Pel%C4%93kie+Zir%C5%86i",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Pel%C4%93kie+Zir%C5%86i",
+        "video": "https://www.youtube.com/results?search_query=Beef+Pel%C4%93kie+Zir%C5%86i+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Pel%C4%93kie+Zir%C5%86i+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0004",
+      "name": "Kama",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kama is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kama",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kama",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kama",
+        "video": "https://www.youtube.com/results?search_query=Kama+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kama+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0005",
+      "name": "Šaltibarščiai",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Šaltibarščiai is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Šaltibarščiai",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=%C5%A0altibar%C5%A1%C4%8Diai",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=%C5%A0altibar%C5%A1%C4%8Diai",
+        "video": "https://www.youtube.com/results?search_query=%C5%A0altibar%C5%A1%C4%8Diai+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=%C5%A0altibar%C5%A1%C4%8Diai+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0006",
+      "name": "Beef Koldūnai",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Koldūnai is a main course from Baltic cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Koldūnai",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Kold%C5%ABnai",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Kold%C5%ABnai",
+        "video": "https://www.youtube.com/results?search_query=Beef+Kold%C5%ABnai+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Kold%C5%ABnai+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0007",
+      "name": "Kissel Baltic",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kissel Baltic is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kissel Baltic",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Kissel+Baltic",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Kissel+Baltic",
+        "video": "https://www.youtube.com/results?search_query=Kissel+Baltic+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Kissel+Baltic+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0008",
+      "name": "Smoked Fish Baltic",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Smoked Fish Baltic is a main course from Baltic cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Smoked Fish Baltic",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Smoked+Fish+Baltic",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Smoked+Fish+Baltic",
+        "video": "https://www.youtube.com/results?search_query=Smoked+Fish+Baltic+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Smoked+Fish+Baltic+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0009",
+      "name": "Beef Šašlykas Baltic",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Šašlykas Baltic is a main course from Baltic cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Šašlykas Baltic",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+%C5%A0a%C5%A1lykas+Baltic",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+%C5%A0a%C5%A1lykas+Baltic",
+        "video": "https://www.youtube.com/results?search_query=Beef+%C5%A0a%C5%A1lykas+Baltic+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+%C5%A0a%C5%A1lykas+Baltic+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0010",
+      "name": "Sklandrausis",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sklandrausis is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Sklandrausis",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sklandrausis",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sklandrausis",
+        "video": "https://www.youtube.com/results?search_query=Sklandrausis+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sklandrausis+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0011",
+      "name": "Kūčiukai",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Kūčiukai is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Kūčiukai",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=K%C5%AB%C4%8Diukai",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=K%C5%AB%C4%8Diukai",
+        "video": "https://www.youtube.com/results?search_query=K%C5%AB%C4%8Diukai+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=K%C5%AB%C4%8Diukai+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_baltic_0012",
+      "name": "Šakotis",
+      "cuisine": "Baltic",
+      "cuisine_id": "baltic",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Šakotis is a main course from Baltic cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Šakotis",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=%C5%A0akotis",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=%C5%A0akotis",
+        "video": "https://www.youtube.com/results?search_query=%C5%A0akotis+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=%C5%A0akotis+Baltic+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0001",
+      "name": "Beef Bandeja Paisa",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Bandeja Paisa is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Bandeja Paisa",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bandeja+Paisa",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bandeja+Paisa",
+        "video": "https://www.youtube.com/results?search_query=Beef+Bandeja+Paisa+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Bandeja+Paisa+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0002",
+      "name": "Chilean Beef Empanada",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Appetisers & Starters",
+      "category_id": "appetizer",
+      "emoji": "🥙",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chilean Beef Empanada is a appetisers & starters from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Assembling / light cooking",
+      "wiki_title": "Chilean Beef Empanada",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chilean+Beef+Empanada",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chilean+Beef+Empanada",
+        "video": "https://www.youtube.com/results?search_query=Chilean+Beef+Empanada+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chilean+Beef+Empanada+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0003",
+      "name": "Beef Pabellón Criollo",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Pabellón Criollo is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Pabellón Criollo",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Pabell%C3%B3n+Criollo",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Pabell%C3%B3n+Criollo",
+        "video": "https://www.youtube.com/results?search_query=Beef+Pabell%C3%B3n+Criollo+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Pabell%C3%B3n+Criollo+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0004",
+      "name": "Beef Pupusas",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Pupusas is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Pupusas",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Pupusas",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Pupusas",
+        "video": "https://www.youtube.com/results?search_query=Beef+Pupusas+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Pupusas+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0005",
+      "name": "Beef Arepas Venezuelan",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Arepas Venezuelan is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Arepas Venezuelan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Arepas+Venezuelan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Arepas+Venezuelan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Arepas+Venezuelan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Arepas+Venezuelan+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0006",
+      "name": "Chilean Beef Cazuela",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chilean Beef Cazuela is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chilean Beef Cazuela",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chilean+Beef+Cazuela",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chilean+Beef+Cazuela",
+        "video": "https://www.youtube.com/results?search_query=Chilean+Beef+Cazuela+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chilean+Beef+Cazuela+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0007",
+      "name": "Chicken Ajiaco Colombian",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Ajiaco Colombian is a main course from Latin American cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Ajiaco Colombian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Ajiaco+Colombian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Ajiaco+Colombian",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Ajiaco+Colombian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Ajiaco+Colombian+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0008",
+      "name": "Beef Sancocho Colombian",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Sancocho Colombian is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Sancocho Colombian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Sancocho+Colombian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Sancocho+Colombian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Sancocho+Colombian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Sancocho+Colombian+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0009",
+      "name": "Chilean Beef Pastel de Choclo",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chilean Beef Pastel de Choclo is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chilean Beef Pastel de Choclo",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chilean+Beef+Pastel+de+Choclo",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chilean+Beef+Pastel+de+Choclo",
+        "video": "https://www.youtube.com/results?search_query=Chilean+Beef+Pastel+de+Choclo+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chilean+Beef+Pastel+de+Choclo+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0010",
+      "name": "Beef Hallacas Venezuelan",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Hallacas Venezuelan is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Hallacas Venezuelan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Hallacas+Venezuelan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Hallacas+Venezuelan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Hallacas+Venezuelan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Hallacas+Venezuelan+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0011",
+      "name": "Beef Pepián Guatemalan",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Pepián Guatemalan is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Pepián Guatemalan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Pepi%C3%A1n+Guatemalan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Pepi%C3%A1n+Guatemalan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Pepi%C3%A1n+Guatemalan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Pepi%C3%A1n+Guatemalan+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0012",
+      "name": "Gallo Pinto Costa Rican",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Gallo Pinto Costa Rican is a main course from Latin American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Gallo Pinto Costa Rican",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Gallo+Pinto+Costa+Rican",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Gallo+Pinto+Costa+Rican",
+        "video": "https://www.youtube.com/results?search_query=Gallo+Pinto+Costa+Rican+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Gallo+Pinto+Costa+Rican+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0013",
+      "name": "Beef Vigorón Nicaraguan",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Vigorón Nicaraguan is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Vigorón Nicaraguan",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Vigor%C3%B3n+Nicaraguan",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Vigor%C3%B3n+Nicaraguan",
+        "video": "https://www.youtube.com/results?search_query=Beef+Vigor%C3%B3n+Nicaraguan+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Vigor%C3%B3n+Nicaraguan+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0014",
+      "name": "Beef Baleada Honduran",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Baleada Honduran is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Baleada Honduran",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Baleada+Honduran",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Baleada+Honduran",
+        "video": "https://www.youtube.com/results?search_query=Beef+Baleada+Honduran+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Baleada+Honduran+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0015",
+      "name": "Mangu Dominican",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Mangu Dominican is a main course from Latin American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Mangu Dominican",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Mangu+Dominican",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Mangu+Dominican",
+        "video": "https://www.youtube.com/results?search_query=Mangu+Dominican+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Mangu+Dominican+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0016",
+      "name": "Beef Arepas de Choclo Colombian",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Arepas de Choclo Colombian is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Arepas de Choclo Colombian",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Arepas+de+Choclo+Colombian",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Arepas+de+Choclo+Colombian",
+        "video": "https://www.youtube.com/results?search_query=Beef+Arepas+de+Choclo+Colombian+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Arepas+de+Choclo+Colombian+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0017",
+      "name": "Beef Completo Chilean",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Street Food",
+      "category_id": "street",
+      "emoji": "🌮",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Completo Chilean is a street food from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Street-food cookery",
+      "wiki_title": "Beef Completo Chilean",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Completo+Chilean",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Completo+Chilean",
+        "video": "https://www.youtube.com/results?search_query=Beef+Completo+Chilean+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Completo+Chilean+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0018",
+      "name": "Chilean Beef Charquicán",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chilean Beef Charquicán is a main course from Latin American cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chilean Beef Charquicán",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chilean+Beef+Charquic%C3%A1n",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chilean+Beef+Charquic%C3%A1n",
+        "video": "https://www.youtube.com/results?search_query=Chilean+Beef+Charquic%C3%A1n+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chilean+Beef+Charquic%C3%A1n+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0001",
+      "name": "Mohinga",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Mohinga is a main course from Burmese (Myanmar) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Mohinga",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Mohinga",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Mohinga",
+        "video": "https://www.youtube.com/results?search_query=Mohinga+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Mohinga+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0002",
+      "name": "Chicken Ohn No Khao Swe",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Ohn No Khao Swe is a main course from Burmese (Myanmar) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Ohn No Khao Swe",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Ohn+No+Khao+Swe",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Ohn+No+Khao+Swe",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Ohn+No+Khao+Swe+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Ohn+No+Khao+Swe+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0003",
+      "name": "Lahpet Thoke",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Lahpet Thoke is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Lahpet Thoke",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Lahpet+Thoke",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Lahpet+Thoke",
+        "video": "https://www.youtube.com/results?search_query=Lahpet+Thoke+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Lahpet+Thoke+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0004",
+      "name": "Beef Shan Noodles",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Shan Noodles is a main course from Burmese (Myanmar) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Shan Noodles",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Shan+Noodles",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Shan+Noodles",
+        "video": "https://www.youtube.com/results?search_query=Beef+Shan+Noodles+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Shan+Noodles+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0005",
+      "name": "Chicken Nan Gyi Thoke",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Nan Gyi Thoke is a main course from Burmese (Myanmar) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Nan Gyi Thoke",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Nan+Gyi+Thoke",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Nan+Gyi+Thoke",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Nan+Gyi+Thoke+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Nan+Gyi+Thoke+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0006",
+      "name": "Chicken Danbauk",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Danbauk is a main course from Burmese (Myanmar) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Danbauk",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Danbauk",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Danbauk",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Danbauk+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Danbauk+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0007",
+      "name": "Mont Lin Ma Yar",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Mont Lin Ma Yar is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Mont Lin Ma Yar",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Mont+Lin+Ma+Yar",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Mont+Lin+Ma+Yar",
+        "video": "https://www.youtube.com/results?search_query=Mont+Lin+Ma+Yar+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Mont+Lin+Ma+Yar+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0008",
+      "name": "Samusa Thoke",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Samusa Thoke is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Samusa Thoke",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Samusa+Thoke",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Samusa+Thoke",
+        "video": "https://www.youtube.com/results?search_query=Samusa+Thoke+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Samusa+Thoke+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0009",
+      "name": "Chicken Kyethar Hin",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Kyethar Hin is a main course from Burmese (Myanmar) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Chicken Kyethar Hin",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Kyethar+Hin",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Kyethar+Hin",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Kyethar+Hin+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Kyethar+Hin+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0010",
+      "name": "Htamin Jin",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Htamin Jin is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Htamin Jin",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Htamin+Jin",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Htamin+Jin",
+        "video": "https://www.youtube.com/results?search_query=Htamin+Jin+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Htamin+Jin+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0011",
+      "name": "A-Kyaw Fritters",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "A-Kyaw Fritters is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "A-Kyaw Fritters",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=A-Kyaw+Fritters",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=A-Kyaw+Fritters",
+        "video": "https://www.youtube.com/results?search_query=A-Kyaw+Fritters+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=A-Kyaw+Fritters+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0012",
+      "name": "Beef Burmese Curry",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Curry",
+      "category_id": "curry",
+      "emoji": "🍛",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Burmese Curry is a curry from Burmese (Myanmar) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering in spiced sauce",
+      "wiki_title": "Beef Burmese Curry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Burmese+Curry",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Burmese+Curry",
+        "video": "https://www.youtube.com/results?search_query=Beef+Burmese+Curry+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Burmese+Curry+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0013",
+      "name": "Burmese Falooda",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Burmese Falooda is a drinks from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Burmese Falooda",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Burmese+Falooda",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Burmese+Falooda",
+        "video": "https://www.youtube.com/results?search_query=Burmese+Falooda+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Burmese+Falooda+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_burmese_0014",
+      "name": "Shwe Yin Aye",
+      "cuisine": "Burmese (Myanmar)",
+      "cuisine_id": "burmese",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Shwe Yin Aye is a main course from Burmese (Myanmar) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Shwe Yin Aye",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Shwe+Yin+Aye",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Shwe+Yin+Aye",
+        "video": "https://www.youtube.com/results?search_query=Shwe+Yin+Aye+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Shwe+Yin+Aye+Burmese+%28Myanmar%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0001",
+      "name": "Lao Larb",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Salad",
+      "category_id": "salad",
+      "emoji": "🥗",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Lao Larb is a salad from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Raw preparation",
+      "wiki_title": "Lao Larb",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Lao+Larb",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Lao+Larb",
+        "video": "https://www.youtube.com/results?search_query=Lao+Larb+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Lao+Larb+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0002",
+      "name": "Tam Mak Hoong",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Tam Mak Hoong is a main course from Lao (Laos) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Tam Mak Hoong",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Tam+Mak+Hoong",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Tam+Mak+Hoong",
+        "video": "https://www.youtube.com/results?search_query=Tam+Mak+Hoong+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Tam+Mak+Hoong+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0003",
+      "name": "Khao Piak Sen",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Khao Piak Sen is a main course from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Khao Piak Sen",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Khao+Piak+Sen",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Khao+Piak+Sen",
+        "video": "https://www.youtube.com/results?search_query=Khao+Piak+Sen+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Khao+Piak+Sen+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0004",
+      "name": "Lao Sticky Rice",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Rice Dish",
+      "category_id": "rice",
+      "emoji": "🍚",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Lao Sticky Rice is a rice dish from Lao (Laos) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Steaming / sautéing",
+      "wiki_title": "Lao Sticky Rice",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Lao+Sticky+Rice",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Lao+Sticky+Rice",
+        "video": "https://www.youtube.com/results?search_query=Lao+Sticky+Rice+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Lao+Sticky+Rice+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0005",
+      "name": "Mok Pa Fish",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Mok Pa Fish is a main course from Lao (Laos) cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Mok Pa Fish",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Mok+Pa+Fish",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Mok+Pa+Fish",
+        "video": "https://www.youtube.com/results?search_query=Mok+Pa+Fish+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Mok+Pa+Fish+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0006",
+      "name": "Sai Oua Lao Sausage",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sai Oua Lao Sausage is a main course from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Sai Oua Lao Sausage",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sai+Oua+Lao+Sausage",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sai+Oua+Lao+Sausage",
+        "video": "https://www.youtube.com/results?search_query=Sai+Oua+Lao+Sausage+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sai+Oua+Lao+Sausage+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0007",
+      "name": "Or Lam Stew",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Stew",
+      "category_id": "stew",
+      "emoji": "🍲",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Or Lam Stew is a stew from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Braising / simmering",
+      "wiki_title": "Or Lam Stew",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Or+Lam+Stew",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Or+Lam+Stew",
+        "video": "https://www.youtube.com/results?search_query=Or+Lam+Stew+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Or+Lam+Stew+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0008",
+      "name": "Khao Soi Lao",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Soupy Noodles",
+      "category_id": "soupy_noodle",
+      "emoji": "🍜",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Khao Soi Lao is a soupy noodles from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Long-simmered broth",
+      "wiki_title": "Khao Soi Lao",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Khao+Soi+Lao",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Khao+Soi+Lao",
+        "video": "https://www.youtube.com/results?search_query=Khao+Soi+Lao+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Khao+Soi+Lao+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0009",
+      "name": "Naem Khao",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Naem Khao is a main course from Lao (Laos) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Naem Khao",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Naem+Khao",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Naem+Khao",
+        "video": "https://www.youtube.com/results?search_query=Naem+Khao+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Naem+Khao+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0010",
+      "name": "Ping Kai Grilled Chicken",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Ping Kai Grilled Chicken is a main course from Lao (Laos) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Ping Kai Grilled Chicken",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Ping+Kai+Grilled+Chicken",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Ping+Kai+Grilled+Chicken",
+        "video": "https://www.youtube.com/results?search_query=Ping+Kai+Grilled+Chicken+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Ping+Kai+Grilled+Chicken+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0011",
+      "name": "Lao Chicken Curry",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Curry",
+      "category_id": "curry",
+      "emoji": "🍛",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Lao Chicken Curry is a curry from Lao (Laos) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering in spiced sauce",
+      "wiki_title": "Lao Chicken Curry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Lao+Chicken+Curry",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Lao+Chicken+Curry",
+        "video": "https://www.youtube.com/results?search_query=Lao+Chicken+Curry+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Lao+Chicken+Curry+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0012",
+      "name": "Khao Jee Bread",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Bread",
+      "category_id": "bread",
+      "emoji": "🍞",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Khao Jee Bread is a bread from Lao (Laos) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Baking",
+      "wiki_title": "Khao Jee Bread",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Khao+Jee+Bread",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Khao+Jee+Bread",
+        "video": "https://www.youtube.com/results?search_query=Khao+Jee+Bread+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Khao+Jee+Bread+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_lao_0013",
+      "name": "Lao Coffee",
+      "cuisine": "Lao (Laos)",
+      "cuisine_id": "lao",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Lao Coffee is a hot drinks from Lao (Laos) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Lao Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Lao+Coffee",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Lao+Coffee",
+        "video": "https://www.youtube.com/results?search_query=Lao+Coffee+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Lao+Coffee+Lao+%28Laos%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0001",
+      "name": "Fish Amok",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Fish Amok is a main course from Cambodian (Khmer) cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Fish Amok",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Fish+Amok",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Fish+Amok",
+        "video": "https://www.youtube.com/results?search_query=Fish+Amok+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Fish+Amok+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0002",
+      "name": "Beef Lok Lak",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Lok Lak is a main course from Cambodian (Khmer) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Lok Lak",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Lok+Lak",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Lok+Lak",
+        "video": "https://www.youtube.com/results?search_query=Beef+Lok+Lak+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Lok+Lak+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0003",
+      "name": "Nom Banh Chok Fish Noodles",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Nom Banh Chok Fish Noodles is a main course from Cambodian (Khmer) cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Nom Banh Chok Fish Noodles",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Nom+Banh+Chok+Fish+Noodles",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Nom+Banh+Chok+Fish+Noodles",
+        "video": "https://www.youtube.com/results?search_query=Nom+Banh+Chok+Fish+Noodles+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Nom+Banh+Chok+Fish+Noodles+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0004",
+      "name": "Chicken Khmer Curry",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Curry",
+      "category_id": "curry",
+      "emoji": "🍛",
+      "protein": "Chicken",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chicken Khmer Curry is a curry from Cambodian (Khmer) cuisine, built around chicken.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering in spiced sauce",
+      "wiki_title": "Chicken Khmer Curry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chicken+Khmer+Curry",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chicken+Khmer+Curry",
+        "video": "https://www.youtube.com/results?search_query=Chicken+Khmer+Curry+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chicken+Khmer+Curry+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0005",
+      "name": "Beef Bai Sach Chrouk",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Bai Sach Chrouk is a main course from Cambodian (Khmer) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Bai Sach Chrouk",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Bai+Sach+Chrouk",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Bai+Sach+Chrouk",
+        "video": "https://www.youtube.com/results?search_query=Beef+Bai+Sach+Chrouk+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Bai+Sach+Chrouk+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0006",
+      "name": "Beef Khmer Red Curry",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Curry",
+      "category_id": "curry",
+      "emoji": "🍛",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Khmer Red Curry is a curry from Cambodian (Khmer) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering in spiced sauce",
+      "wiki_title": "Beef Khmer Red Curry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Khmer+Red+Curry",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Khmer+Red+Curry",
+        "video": "https://www.youtube.com/results?search_query=Beef+Khmer+Red+Curry+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Khmer+Red+Curry+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0007",
+      "name": "Nom Krok",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Nom Krok is a main course from Cambodian (Khmer) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Nom Krok",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Nom+Krok",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Nom+Krok",
+        "video": "https://www.youtube.com/results?search_query=Nom+Krok+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Nom+Krok+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0008",
+      "name": "Trey Jien Fried Fish",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Fried",
+      "category_id": "fried",
+      "emoji": "🍤",
+      "protein": "Fish",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Trey Jien Fried Fish is a fried from Cambodian (Khmer) cuisine, built around fish.",
+      "historical_fact": null,
+      "cooking_technique": "Deep-frying",
+      "wiki_title": "Trey Jien Fried Fish",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Trey+Jien+Fried+Fish",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Trey+Jien+Fried+Fish",
+        "video": "https://www.youtube.com/results?search_query=Trey+Jien+Fried+Fish+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Trey+Jien+Fried+Fish+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0009",
+      "name": "Somlar Machu Sour Soup",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Soup",
+      "category_id": "soup",
+      "emoji": "🥣",
+      "protein": "Mixed",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Somlar Machu Sour Soup is a soup from Cambodian (Khmer) cuisine.",
+      "historical_fact": null,
+      "cooking_technique": "Simmering",
+      "wiki_title": "Somlar Machu Sour Soup",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Somlar+Machu+Sour+Soup",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Somlar+Machu+Sour+Soup",
+        "video": "https://www.youtube.com/results?search_query=Somlar+Machu+Sour+Soup+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Somlar+Machu+Sour+Soup+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0010",
+      "name": "Khmer Iced Coffee",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Khmer Iced Coffee is a drinks from Cambodian (Khmer) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Khmer Iced Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Khmer+Iced+Coffee",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Khmer+Iced+Coffee",
+        "video": "https://www.youtube.com/results?search_query=Khmer+Iced+Coffee+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Khmer+Iced+Coffee+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0011",
+      "name": "Beef Khmer Char Kroeung",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Beef",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Beef Khmer Char Kroeung is a main course from Cambodian (Khmer) cuisine, built around beef.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Beef Khmer Char Kroeung",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Beef+Khmer+Char+Kroeung",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Beef+Khmer+Char+Kroeung",
+        "video": "https://www.youtube.com/results?search_query=Beef+Khmer+Char+Kroeung+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Beef+Khmer+Char+Kroeung+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0012",
+      "name": "Grilled Squid Khmer",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Seafood",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Grilled Squid Khmer is a main course from Cambodian (Khmer) cuisine, built around seafood.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Grilled Squid Khmer",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Grilled+Squid+Khmer",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Grilled+Squid+Khmer",
+        "video": "https://www.youtube.com/results?search_query=Grilled+Squid+Khmer+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Grilled+Squid+Khmer+Cambodian+%28Khmer%29+recipe"
+      }
+    },
+    {
+      "id": "recipe_cambodian_0013",
+      "name": "Nom Kom",
+      "cuisine": "Cambodian (Khmer)",
+      "cuisine_id": "cambodian",
+      "category": "Main Course",
+      "category_id": "main",
+      "emoji": "🍽️",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Nom Kom is a main course from Cambodian (Khmer) cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Sautéing",
+      "wiki_title": "Nom Kom",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Nom+Kom",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Nom+Kom",
+        "video": "https://www.youtube.com/results?search_query=Nom+Kom+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Nom+Kom+Cambodian+%28Khmer%29+recipe"
       }
     }
   ]

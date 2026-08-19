@@ -106,6 +106,7 @@ function RecipeDetailModal({ recipe, onClose }) {
 
 export default function RecipeCollection() {
   const [q, setQ] = useState('');
+  const [ingredient, setIngredient] = useState('');
   const [cuisine, setCuisine] = useState('');
   const [category, setCategory] = useState('');
   const [protein, setProtein] = useState('');
@@ -126,13 +127,13 @@ export default function RecipeCollection() {
 
   useEffect(() => {
     setOffset(0);
-  }, [q, cuisine, category, protein]);
+  }, [q, ingredient, cuisine, category, protein]);
 
   useEffect(() => {
     setLoading(true);
-    const params = new URLSearchParams({ q, cuisine, category, protein, limit: String(PAGE_SIZE), offset: String(offset) });
+    const params = new URLSearchParams({ q, ingredient, cuisine, category, protein, limit: String(PAGE_SIZE), offset: String(offset) });
     fetch(`${API}?${params}`).then(r => r.json()).then(d => { setData(d); setLoading(false); }).catch(e => { setError(e.message); setLoading(false); });
-  }, [q, cuisine, category, protein, offset]);
+  }, [q, ingredient, cuisine, category, protein, offset]);
 
   const total = data?.total ?? 0;
   const recipes = data?.recipes ?? [];
@@ -146,10 +147,15 @@ export default function RecipeCollection() {
         <p className="text-white/90 text-sm mt-1">1,700+ real, named dishes across 39 world cuisines — pork-free throughout, with a picture, a video link, and a recipe guide link for each.</p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-        <div className="relative sm:col-span-2 lg:col-span-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div className="relative">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
           <input type="text" value={q} onChange={e => setQ(e.target.value)} placeholder="Search dishes..."
+            className="w-full rounded-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400 dark:text-white" />
+        </div>
+        <div className="relative">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🥕</span>
+          <input type="text" value={ingredient} onChange={e => setIngredient(e.target.value)} placeholder="Search by ingredient..."
             className="w-full rounded-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400 dark:text-white" />
         </div>
         <select value={cuisine} onChange={e => setCuisine(e.target.value)}

@@ -65,7 +65,7 @@ CUISINE_META = {
 # A short, transparent note for the best-known pork dishes now made with an
 # alternative protein, keyed by the exact dish name used in DISHES below.
 SUBSTITUTION_NOTES = {
-    "Beef Carbonara": "Traditionally made with guanciale (cured pork jowl); this collection uses beef bacon instead.",
+    "Chicken Bacon Carbonara": "Traditionally made with guanciale (cured pork jowl); this collection uses chicken bacon instead.",
     "Lamb Tacos al Pastor": "Traditionally made with pork; this collection uses lamb, a real regional trompo-style variation.",
     "Beef Char Siu": "Traditionally a pork barbecue dish; this collection uses beef.",
     "Beef Bún Chả": "Traditionally made with pork; this collection uses beef (bún chả bò is a real Vietnamese variant).",
@@ -76,8 +76,8 @@ SUBSTITUTION_NOTES = {
     "Beef Cochinita Pibil": "Traditionally a slow-roasted pork dish; this collection uses beef.",
     "Beef Carnitas": "Traditionally slow-cooked pork; this collection uses beef.",
     "Carolina Pulled Beef BBQ": "Traditionally pulled pork; this collection uses slow-smoked beef.",
-    "Beef Bacon Quiche Lorraine": "Traditionally made with pork lardons; this collection uses beef bacon.",
-    "Beef Bacon Croque Monsieur": "Traditionally made with ham; this collection uses beef bacon/beef ham.",
+    "Chicken Bacon Quiche Lorraine": "Traditionally made with pork lardons; this collection uses chicken bacon.",
+    "Chicken Bacon Croque Monsieur": "Traditionally made with ham; this collection uses chicken bacon/chicken ham.",
     "Beef Chorizo Croquetas": "Chorizo is traditionally pork; this collection uses beef chorizo.",
     "Bresaola e Rucola": "A cured-beef alternative to prosciutto (a cured pork product), made from air-dried beef.",
     "Beef Bratwurst": "Traditionally a pork sausage; this collection uses beef.",
@@ -525,14 +525,14 @@ DISHES: dict[str, list[str]] = {
         "Bistecca alla Fiorentina", "Beef Ossobuco alla Milanese", "Pesto alla Genovese",
         "Trofie al Pesto", "Orecchiette alle Cime di Rapa", "Spaghetti alle Vongole",
         "Linguine ai Frutti di Mare", "Zuppa di Pesce", "Cacio e Pepe",
-        "Beef Amatriciana", "Beef Ragù alla Napoletana", "Parmigiana di Melanzane",
+        "Chicken Bacon Amatriciana", "Beef Ragù alla Napoletana", "Parmigiana di Melanzane",
         "Caponata", "Insalata di Mare", "Fritto Misto", "Suppli", "Beef Cotoletta",
         "Bistecca alla Griglia", "Beef Involtini", "Stracciatella Soup",
         "Pasta e Fagioli", "Orecchiette con Broccoli", "Sfogliatelle", "Zeppole",
         "Torta Caprese", "Torta della Nonna", "Baccalà alla Vicentina", "Frittata",
         "Caprese Sandwich", "Bresaola e Rucola", "Antipasto Misto", "Bagna Cauda",
         "Chicken Cacciatore", "Chicken Parmigiana", "Eggplant Parmigiana",
-        "Beef Carbonara",
+        "Chicken Bacon Carbonara", "Gelato",
     ],
     "japanese": [
         "Sushi Nigiri Platter", "California Roll", "Chirashi Sushi", "Sashimi Platter",
@@ -552,17 +552,17 @@ DISHES: dict[str, list[str]] = {
     ],
     "french": [
         "Coq au Vin", "Beef Bourguignon", "Bouillabaisse", "Ratatouille", "Croissant",
-        "Pain au Chocolat", "Beef Bacon Quiche Lorraine", "Soupe à l'Oignon",
+        "Pain au Chocolat", "Chicken Bacon Quiche Lorraine", "Soupe à l'Oignon",
         "Duck Confit", "Beef Cassoulet", "Steak Frites", "Beef Tartare",
-        "Chicken Fricassée", "Escargot", "Foie Gras", "Crème Brûlée", "Tarte Tatin",
+        "Chicken Fricassée", "Foie Gras", "Crème Brûlée", "Tarte Tatin",
         "Crêpes Suzette", "Madeleines", "Éclair", "Macarons", "Profiteroles",
         "Cheese Soufflé", "Chocolate Soufflé", "Niçoise Salad", "Salade Lyonnaise",
         "Vichyssoise", "Beef Pot-au-Feu", "Beef Bourguignon Stew",
-        "Beef Bacon Tartiflette", "Raclette", "Fondue Savoyarde", "Gratin Dauphinois",
+        "Chicken Bacon Tartiflette", "Raclette", "Fondue Savoyarde", "Gratin Dauphinois",
         "Ratatouille Niçoise", "Bouillon", "Consommé", "Beef Terrine",
         "Duck Rillettes", "Confit de Canard", "Chicken Chasseur",
         "Beef Blanquette", "Moules Marinière", "Sole Meunière", "Pissaladière",
-        "Beef Bacon Croque Monsieur", "Croque Madame", "Baguette", "Brioche",
+        "Chicken Bacon Croque Monsieur", "Croque Madame", "Baguette", "Brioche",
         "Financiers", "Clafoutis", "Galette des Rois", "Beef Bearnaise Steak",
         "Duck a l'Orange", "Cherries Jubilee",
     ],
@@ -688,10 +688,12 @@ DISHES: dict[str, list[str]] = {
         "Texas Beef Brisket", "Carolina Pulled Beef BBQ",
         "Cornbread Panzanella", "Tater Tots",
         "Loaded Baked Potato", "Cobbler (Peach)", "Ranch Style Beans",
+        "Strawberry Jam", "Grape Jelly", "Dill Pickles", "Bread and Butter Pickles",
+        "Homemade Yogurt", "Sourdough Bread", "Dinner Rolls",
     ],
     "british": [
         "Fish and Chips", "Lamb Shepherd's Pie", "Beef Cottage Pie",
-        "Beef Bangers and Mash", "Beef Bacon Full English Breakfast",
+        "Beef Bangers and Mash", "Chicken Bacon Full English Breakfast",
         "Sunday Roast Beef", "Yorkshire Pudding", "Beef Wellington",
         "Beef Steak and Kidney Pie", "Chicken Tikka Masala", "Beef Cornish Pasty",
         "Beef Scotch Egg", "Ploughman's Lunch", "Beef Toad in the Hole",
@@ -708,7 +710,7 @@ DISHES: dict[str, list[str]] = {
         "Pretzel (Brezel)", "Black Forest Cake", "Apple Strudel", "Semmelknödel",
         "Kartoffelpuffer", "Beef Gulaschsuppe", "Beef Königsberger Klopse",
         "Beef Leberkäse", "Beef Döner Kebab", "Berliner (Donut)", "Stollen",
-        "Lebkuchen", "Beef Maultaschen", "Beef Bacon Flammkuchen", "Rote Grütze",
+        "Lebkuchen", "Beef Maultaschen", "Chicken Bacon Flammkuchen", "Rote Grütze",
         "Zwiebelkuchen", "Beef Labskaus", "Handkäse mit Musik", "Beef Frikadellen",
         "Beef Eintopf", "Weisswurst", "Obatzda", "Kaiserschmarrn", "Palatschinken",
     ],
@@ -803,6 +805,15 @@ NEW_CUISINE_META = {
     "austrian": {"label": "Austrian", "emoji": "🥨", "colour": "#c0392b"},
     "soul_food": {"label": "Soul Food", "emoji": "🍗", "colour": "#8e44ad"},
     "louisiana_creole": {"label": "Louisiana Creole & Cajun", "emoji": "🦐", "colour": "#2980b9"},
+    "eastern_european": {"label": "Eastern European", "emoji": "🥟", "colour": "#34495e"},
+    "balkan": {"label": "Balkan", "emoji": "🥘", "colour": "#c0392b"},
+    "central_asian": {"label": "Central Asian", "emoji": "🍢", "colour": "#16a085"},
+    "gulf_arabian": {"label": "Gulf Arabian & Iraqi", "emoji": "🍚", "colour": "#f39c12"},
+    "baltic": {"label": "Baltic", "emoji": "🐟", "colour": "#2980b9"},
+    "latin_american": {"label": "Latin American", "emoji": "🌽", "colour": "#27ae60"},
+    "burmese": {"label": "Burmese (Myanmar)", "emoji": "🍜", "colour": "#e67e22"},
+    "lao": {"label": "Lao (Laos)", "emoji": "🍚", "colour": "#16a085"},
+    "cambodian": {"label": "Cambodian (Khmer)", "emoji": "🍲", "colour": "#8e44ad"},
 }
 
 NEW_DISHES: dict[str, list[str]] = {
@@ -911,7 +922,7 @@ NEW_DISHES: dict[str, list[str]] = {
     "australian": [
         "Beef Meat Pie", "Lamington", "Pavlova", "Beef Sausage Roll",
         "Vegemite Toast", "Anzac Biscuits", "Chicken Parma", "Beef Damper Bread",
-        "Fairy Bread", "Beef Sausage Sizzle", "Tim Tam Slam", "Kangaroo Steak",
+        "Fairy Bread", "Beef Sausage Sizzle", "Tim Tam Slam", "Australian Beef Steak",
         "Chiko Roll", "Beef Rissoles", "Pumpkin Scones",
     ],
     "hawaiian": [
@@ -949,6 +960,65 @@ NEW_DISHES: dict[str, list[str]] = {
         "Beef Muffuletta", "Shrimp Creole", "King Cake", "Pralines",
         "Beef Andouille Jambalaya", "Crawfish Étouffée", "Beef Dirty Rice",
         "Maque Choux", "Beef Grillades and Grits",
+    ],
+    "eastern_european": [
+        "Beef Borscht Ukrainian", "Beef Holubtsi", "Beef Svíčková", "Beef Guláš Czech",
+        "Beef Vareniki", "Chicken Kyiv", "Beef Deruny", "Trdelník", "Kolache",
+        "Beef Segedínský Guláš", "Halušky", "Beef Kapustnica", "Medovik Ukrainian",
+        "Beef Zrazy Ukrainian", "Syrniki Ukrainian", "Beef Nalysnyky", "Kutia",
+    ],
+    "balkan": [
+        "Beef Ćevapi", "Beef Sarma", "Burek", "Beef Musaka Balkan", "Ajvar",
+        "Beef Pljeskavica", "Chicken Piletina na Žaru", "Beef Karađorđeva Šnicla",
+        "Beef Punjena Paprika", "Tarator", "Banitsa", "Beef Gibanica Balkan",
+        "Beef Chorba Balkan", "Kajmak", "Palačinke Balkan", "Beef Ražnjići",
+        "Beef Mititei Romanian", "Beef Sarmale Romanian", "Beef Ciorbă Romanian",
+    ],
+    "central_asian": [
+        "Beef Plov", "Beef Manti", "Beef Lagman", "Beef Shashlik", "Beef Samsa",
+        "Chicken Lagman", "Beef Beshbarmak", "Baursak", "Uzbek Non Bread",
+        "Chicken Plov", "Beef Kazy Style", "Kurt", "Chak-Chak", "Beef Norin",
+        "Beef Kuurdak", "Achichuk Salad", "Katyk", "Central Asian Green Tea",
+    ],
+    "gulf_arabian": [
+        "Beef Kabsa Saudi", "Chicken Machboos Bahraini", "Beef Harees",
+        "Chicken Thareed", "Beef Ouzi Gulf", "Beef Iraqi Kubba", "Beef Iraqi Dolma",
+        "Masgouf Grilled Fish", "Luqaimat", "Beef Iraqi Tashreeb",
+        "Kleicha Date Cookies", "Gahwa Arabic Coffee", "Khubz Gulf Bread",
+        "Stuffed Dates", "Chicken Iraqi Biryani", "Beef Iraqi Kebab",
+    ],
+    "baltic": [
+        "Beef Cepelinai", "Baltic Rye Bread", "Beef Pelēkie Zirņi", "Kama",
+        "Šaltibarščiai", "Beef Koldūnai", "Kissel Baltic", "Smoked Fish Baltic",
+        "Beef Šašlykas Baltic", "Sklandrausis", "Kūčiukai", "Šakotis",
+    ],
+    "latin_american": [
+        "Beef Bandeja Paisa", "Chilean Beef Empanada", "Beef Pabellón Criollo",
+        "Beef Pupusas", "Beef Arepas Venezuelan", "Chilean Beef Cazuela",
+        "Chicken Ajiaco Colombian", "Beef Sancocho Colombian",
+        "Chilean Beef Pastel de Choclo", "Beef Hallacas Venezuelan",
+        "Beef Pepián Guatemalan", "Gallo Pinto Costa Rican", "Beef Vigorón Nicaraguan",
+        "Beef Baleada Honduran", "Mangu Dominican", "Beef Arepas de Choclo Colombian",
+        "Beef Completo Chilean", "Chilean Beef Charquicán",
+    ],
+    "burmese": [
+        "Mohinga", "Chicken Ohn No Khao Swe", "Lahpet Thoke", "Beef Shan Noodles",
+        "Chicken Nan Gyi Thoke", "Chicken Danbauk", "Mont Lin Ma Yar", "Samusa Thoke",
+        "Chicken Kyethar Hin", "Htamin Jin", "A-Kyaw Fritters", "Beef Burmese Curry",
+        "Burmese Falooda", "Shwe Yin Aye",
+    ],
+    "lao": [
+        "Lao Larb", "Tam Mak Hoong", "Khao Piak Sen", "Lao Sticky Rice",
+        "Mok Pa Fish", "Sai Oua Lao Sausage", "Or Lam Stew", "Khao Soi Lao",
+        "Naem Khao", "Ping Kai Grilled Chicken", "Lao Chicken Curry",
+        "Khao Jee Bread", "Lao Coffee",
+    ],
+    "cambodian": [
+        "Fish Amok", "Beef Lok Lak", "Nom Banh Chok Fish Noodles",
+        "Chicken Khmer Curry", "Beef Bai Sach Chrouk", "Beef Khmer Red Curry",
+        "Nom Krok", "Trey Jien Fried Fish", "Somlar Machu Sour Soup",
+        "Khmer Iced Coffee", "Beef Khmer Char Kroeung", "Grilled Squid Khmer",
+        "Nom Kom",
     ],
 }
 
@@ -993,7 +1063,7 @@ NEW_PROTEIN_OVERRIDES = {
     "Vetkoek": "vegetarian", "Lamington": "vegetarian", "Pavlova": "vegetarian",
     "Vegemite Toast": "vegetarian", "Anzac Biscuits": "vegetarian",
     "Beef Damper Bread": "vegetarian", "Fairy Bread": "vegetarian",
-    "Tim Tam Slam": "vegetarian", "Kangaroo Steak": "game", "Pumpkin Scones": "vegetarian",
+    "Tim Tam Slam": "vegetarian", "Pumpkin Scones": "vegetarian",
     "Malasadas": "vegetarian", "Haupia": "vegetarian", "Shave Ice": "vegetarian",
     "Dhal Curry": "vegetarian", "Coconut Sambol": "vegetarian", "Hoppers (Appa)": "vegetarian",
     "Watalappan": "vegetarian", "Parippu": "vegetarian",
@@ -1012,6 +1082,33 @@ NEW_PROTEIN_OVERRIDES = {
     "Watermelon Salad": "vegetarian",
     "Beignets": "vegetarian", "King Cake": "vegetarian", "Pralines": "vegetarian",
     "Maque Choux": "vegetarian",
+    "Trdelník": "vegetarian", "Kolache": "vegetarian", "Halušky": "vegetarian",
+    "Medovik Ukrainian": "vegetarian", "Syrniki Ukrainian": "vegetarian",
+    "Kutia": "vegetarian",
+    "Ajvar": "vegetarian", "Tarator": "vegetarian", "Banitsa": "vegetarian",
+    "Kajmak": "vegetarian", "Palačinke Balkan": "vegetarian",
+    "Baursak": "vegetarian", "Uzbek Non Bread": "vegetarian", "Kurt": "vegetarian",
+    "Chak-Chak": "vegetarian", "Achichuk Salad": "vegetarian", "Katyk": "vegetarian",
+    "Central Asian Green Tea": "vegetarian",
+    "Kleicha Date Cookies": "vegetarian", "Gahwa Arabic Coffee": "vegetarian",
+    "Khubz Gulf Bread": "vegetarian", "Stuffed Dates": "vegetarian",
+    "Luqaimat": "vegetarian",
+    "Baltic Rye Bread": "vegetarian", "Kama": "vegetarian",
+    "Šaltibarščiai": "vegetarian", "Kissel Baltic": "vegetarian",
+    "Sklandrausis": "vegetarian", "Kūčiukai": "vegetarian", "Šakotis": "vegetarian",
+    "Gallo Pinto Costa Rican": "vegetarian", "Mangu Dominican": "vegetarian",
+    "Lahpet Thoke": "vegetarian", "Mont Lin Ma Yar": "vegetarian",
+    "Samusa Thoke": "vegetarian", "Htamin Jin": "vegetarian",
+    "A-Kyaw Fritters": "vegetarian", "Burmese Falooda": "vegetarian",
+    "Shwe Yin Aye": "vegetarian",
+    "Tam Mak Hoong": "vegetarian", "Lao Sticky Rice": "vegetarian",
+    "Khao Jee Bread": "vegetarian", "Lao Coffee": "vegetarian",
+    "Nom Krok": "vegetarian", "Khmer Iced Coffee": "vegetarian",
+    "Nom Kom": "vegetarian",
+    "Strawberry Jam": "vegetarian", "Grape Jelly": "vegetarian",
+    "Dill Pickles": "vegetarian", "Bread and Butter Pickles": "vegetarian",
+    "Homemade Yogurt": "vegetarian", "Sourdough Bread": "vegetarian",
+    "Dinner Rolls": "vegetarian", "Gelato": "vegetarian",
 }
 PROTEIN_OVERRIDES.update(NEW_PROTEIN_OVERRIDES)
 
@@ -1116,7 +1213,7 @@ EXTRA_DISHES_EXISTING_CUISINES: dict[str, list[str]] = {
     "american": [
         "Beef Sliders", "Beef Chicken-Fried Steak", "Southern Fried Chicken",
         "Beef Corn Dogs", "Beef Meatball Subs", "Chicken Club Sandwich",
-        "Beef Bacon Lettuce Tomato Sandwich", "Beef Texas Chili",
+        "Chicken Bacon Lettuce Tomato Sandwich", "Beef Texas Chili",
         "Beef Salisbury Steak", "Chicken Pot Pie", "Beef Pot Pie",
         "Chicken Fried Chicken Sandwich", "Chicken Gumbo Ya-Ya", "Beef Texas Toast",
         "Beef Sloppy Joe Sliders", "Chicken Ranch Sandwich",
@@ -1257,7 +1354,7 @@ CATEGORY_KEYWORDS = [
                    "sorbet", "saffron ice cream"]),
     ("hot_drink", ["coffee", "cà phê", "mate", "karkade", "masala chai",
                    "turkish tea", "moroccan mint tea", "chamomile tea",
-                   "wiener melange"]),
+                   "wiener melange", "green tea", "gahwa"]),
     ("drink", ["lassi", "juice", "horchata", "agua fresca", "doogh", "ayran",
                "thandai", "falooda", "nimbu pani", "chicha morada", "sorrel",
                "kvass", "zobo", "sangria", "michelada", "drink"]),
@@ -1292,6 +1389,7 @@ CATEGORY_KEYWORDS = [
                     "vegetable", "gado-gado", "avial", "thoran", "olan", "undhiyu",
                     "chakalaka", "kelewele", "pinakbet", "laing", "briam", "pisto",
                     "escalivada", "fava", "gemista", "egusi"]),
+    ("pickle", ["kimchi", "pickle", "pickles", "achar", "torshi", "giardiniera", "sauerkraut"]),
     ("rice", ["rice", "biryani", "pulao", "fried rice", "risotto", "paella", "khao pad",
               "nasi", "congee", "khichdi", "sushi", "chirashi", "onigiri", "kimbap",
               "gyudon", "katsudon", "oyakodon", "don", "polo", "arroz", "jollof",
@@ -1300,7 +1398,7 @@ CATEGORY_KEYWORDS = [
                "baguette", "brioche", "focaccia", "ciabatta", "pretzel", "simit",
                "khobz", "pide", "manakish", "bánh mì", "bagel", "croissant",
                "pain au chocolat", "pão", "broa", "feteer", "baladi", "damper",
-               "lefse", "malawach", "noon barbari"]),
+               "lefse", "malawach", "noon barbari", "dinner rolls", "khao jee"]),
     ("dumpling", ["dumpling", "gyoza", "baozi", "xiaolongbao", "wonton", "momo",
                   "manti", "mantou", "pierogi", "pelmeni", "vareniki",
                   "spring roll", "lumpia", "chả giò"]),
@@ -1317,13 +1415,14 @@ CATEGORY_KEYWORDS = [
     ("salad", ["salad", "tabbouleh", "fattoush", "panzanella", "som tum", "larb",
                "ceviche", "aguachile", "salade", "insalata", "horiatiki", "cobb",
                "waldorf", "caesar", "vinaigrette salad", "olivier salad"]),
-    ("pickle", ["kimchi", "pickle", "achar", "torshi", "giardiniera", "sauerkraut"]),
     ("breakfast", ["breakfast", "omelette", "omurice", "chilaquiles",
                    "huevos rancheros", "shakshuka", "poha", "upma",
                    "menemen", "tamagoyaki", "kedgeree", "biscuits and gravy"]),
     ("street", ["street", "chaat", "vada pav", "pav bhaji", "bhel puri", "pani puri",
                 "sev puri", "aloo tikki", "elote", "esquites", "takoyaki",
-                "okonomiyaki", "banh xeo", "bánh xèo", "taco", "burrito", "nachos"]),
+                "okonomiyaki", "banh xeo", "bánh xèo", "taco", "burrito", "nachos",
+                "pupusas", "arepas", "samsa", "luqaimat", "burek", "baleada",
+                "vigorón", "completo"]),
     ("fried", ["fried", "tempura", "katsu", "karaage", "croquetas", "fritto",
                "arancini", "sesame balls", "churros", "puff-puff", "picarones",
                "akara"]),
@@ -1341,7 +1440,7 @@ CATEGORY_KEYWORDS = [
                  "pavlova", "lamington", "malva pudding", "koeksisters",
                  "haupia", "watalappan", "turrón", "mazamorra", "dobos torte",
                  "kürtőskalács", "somloi galuska", "rétes", "palacsinta",
-                 "rugelach", "krembo"]),
+                 "jam", "jelly"]),
 ]
 
 
@@ -1362,7 +1461,9 @@ def infer_protein(name: str) -> str:
     lname = name.lower()
     if name in PROTEIN_OVERRIDES:
         return PROTEIN_OVERRIDES[name]
-    if any(_kw_match(k, lname) for k in ["chicken", "duck", "turkey"]):
+    if _kw_match("duck", lname):
+        return "duck"
+    if any(_kw_match(k, lname) for k in ["chicken", "turkey"]):
         return "chicken"
     if _kw_match("lamb", lname):
         return "lamb"
@@ -1370,8 +1471,6 @@ def infer_protein(name: str) -> str:
         return "mutton"
     if any(_kw_match(k, lname) for k in ["beef", "steak", "brisket", "oxtail"]):
         return "beef"
-    if _kw_match("kangaroo", lname):
-        return "game"
     if any(_kw_match(k, lname) for k in ["fish", "salmon", "tuna", "saltfish", "sardine",
                                           "cod", "bacalhau", "bacalao", "anchov", "lox",
                                           "carp", "catfish", "mandarin fish", "rakfisk",
@@ -1388,7 +1487,17 @@ def infer_protein(name: str) -> str:
     return "mixed"
 
 
+# Exact-name overrides for the handful of dishes the keyword classifier
+# would otherwise get wrong (e.g. "Homemade Yogurt" has no dedicated
+# category and would fall through to "Main Course").
+CATEGORY_OVERRIDES = {
+    "Homemade Yogurt": "breakfast",
+}
+
+
 def infer_category(name: str) -> str:
+    if name in CATEGORY_OVERRIDES:
+        return CATEGORY_OVERRIDES[name]
     lname = name.lower()
     if _kw_match("iced", lname):
         return "drink"
@@ -1423,9 +1532,9 @@ CATEGORY_INFO = {
 }
 
 PROTEIN_LABELS = {
-    "chicken": "Chicken", "beef": "Beef", "lamb": "Lamb", "mutton": "Mutton/Goat",
-    "fish": "Fish", "seafood": "Seafood", "egg": "Egg", "vegetarian": "Vegetarian",
-    "mixed": "Mixed", "game": "Game (Kangaroo)",
+    "chicken": "Chicken", "duck": "Duck", "beef": "Beef", "lamb": "Lamb",
+    "mutton": "Mutton/Goat", "fish": "Fish", "seafood": "Seafood", "egg": "Egg",
+    "vegetarian": "Vegetarian", "mixed": "Mixed",
 }
 
 

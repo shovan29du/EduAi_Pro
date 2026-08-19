@@ -12,7 +12,7 @@
       "history": "Ancient Roman cuisine already used wheat, olive oil, wine, and garum (fermented fish sauce). Pasta's documented spread through Italy dates to the medieval period; tomatoes, a New World crop, only arrived after Columbus's voyages (1492) and were not widely eaten until the 18th century, meaning classic tomato-based dishes like modern pizza margherita and many pasta sauces are relatively recent additions to a much older culinary tradition.",
       "famous_dishes": [
         { "name": "Pizza Margherita", "origin": "Naples", "description": "Flatbread topped with tomato, mozzarella, and basil; popular legend credits its red-white-green colours to the Italian flag, made in 1889 for Queen Margherita of Savoy, though the tomato-mozzarella-basil combination predates that story." },
-        { "name": "Spaghetti alla Carbonara", "origin": "Rome (Lazio)", "description": "Pasta with eggs, Pecorino Romano cheese, and black pepper; the traditional Roman recipe uses guanciale (cured pork jowl) — this collection uses beef bacon instead, keeping the dish pork-free with no cream added." },
+        { "name": "Spaghetti alla Carbonara", "origin": "Rome (Lazio)", "description": "Pasta with eggs, Pecorino Romano cheese, and black pepper; the traditional Roman recipe uses guanciale (cured pork jowl) — this collection uses chicken bacon instead, keeping the dish pork-free with no cream added." },
         { "name": "Risotto alla Milanese", "origin": "Milan (Lombardy)", "description": "Creamy short-grain rice dish coloured and flavoured with saffron, reflecting northern Italy's rice-growing Po Valley and its historic spice trade." },
         { "name": "Lasagne al Forno", "origin": "Emilia-Romagna", "description": "Layered baked pasta with ragù (meat sauce), béchamel, and Parmigiano-Reggiano; Bologna is famous for its ragù alla bolognese." }
       ],
@@ -936,6 +936,240 @@
       "quiz": [
         { "q": "What is the good-natured Nigeria-Ghana rivalry over jollof rice popularly called?", "options": ["The Jollof Wars", "The Rice Rivalry", "The Pepper Debate", "The West African Cook-Off"], "answer": 0 },
         { "q": "What ingredient thickens Nigerian egusi soup?", "options": ["Ground melon seeds", "Okra", "Cassava flour", "Peanuts"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "eastern_european",
+      "label": "Eastern European Cuisine",
+      "emoji": "🥟",
+      "colour": "#34495e",
+      "region": "Eastern Europe (Ukraine, Czechia, Slovakia)",
+      "description": "A cuisine of dumplings, hearty soups, and preserved vegetables shared across Ukraine, Czechia, and Slovakia, each with its own claim on dishes like borscht and goulash that cross the whole region.",
+      "history": "Eastern European cuisines developed under similar climatic and agricultural conditions -- short growing seasons, root vegetables, cabbage, and grains -- but were shaped by distinct political histories, from the Austro-Hungarian Empire's influence on Czech and Slovak cooking to Ukraine's steppe agriculture, historically called 'the breadbasket of Europe' for its exceptionally fertile black soil (chernozem). Borscht, widely associated with Ukraine, became a point of cultural pride and identity, especially since UNESCO added Ukrainian borscht cooking to its Intangible Cultural Heritage list in 2022, citing the tradition's importance to Ukrainian cultural identity.",
+      "famous_dishes": [
+        { "name": "Beef Borscht Ukrainian", "origin": "Ukraine", "description": "A beet soup widely considered Ukraine's national dish, added to UNESCO's Intangible Cultural Heritage list in 2022." },
+        { "name": "Beef Holubtsi", "origin": "Ukraine", "description": "Cabbage rolls stuffed with meat and rice, a staple of Ukrainian home cooking." },
+        { "name": "Beef Svíčková", "origin": "Czechia", "description": "Marinated beef in a creamy root-vegetable sauce, served with bread dumplings." },
+        { "name": "Chicken Kyiv", "origin": "Ukraine", "description": "A breaded chicken cutlet filled with garlic-herb butter that bursts when cut into." }
+      ],
+      "key_ingredients": ["Beets", "Cabbage", "Potatoes", "Rye flour", "Sour cream", "Dill", "Caraway"],
+      "cooking_techniques": ["Long-simmered soups (borscht)", "Dumpling-making (knedlíky, vareniki)", "Pickling and fermenting", "Slow braising"],
+      "cultural_notes": "Ukraine's black soil (chernozem), among the most fertile in the world, has made it a major grain producer for centuries, historically earning the nickname 'the breadbasket of Europe.'",
+      "fun_facts": [
+        "UNESCO added Ukrainian borscht-cooking culture to its Intangible Cultural Heritage list in 2022, citing threats to the tradition and its importance to Ukrainian identity.",
+        "Ukraine's exceptionally fertile black soil, chernozem, has made the country one of the world's largest grain exporters for centuries."
+      ],
+      "quiz": [
+        { "q": "Which cooking tradition was added to UNESCO's Intangible Cultural Heritage list in 2022, citing its importance to Ukrainian identity?", "options": ["Borscht cooking", "Dumpling-making", "Bread-baking", "Cabbage fermenting"], "answer": 0 },
+        { "q": "What is Ukraine's exceptionally fertile black soil called?", "options": ["Chernozem", "Loess", "Podzol", "Terra rossa"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "balkan",
+      "label": "Balkan Cuisine",
+      "emoji": "🥘",
+      "colour": "#c0392b",
+      "region": "Southeastern Europe (Serbia, Croatia, Bosnia, Bulgaria, Romania)",
+      "description": "A cuisine shared across the former Ottoman-influenced Balkan peninsula, blending Turkish, Central European, and Mediterranean influences into grilled meats, stuffed vegetables, and layered pastries.",
+      "history": "Balkan cuisine reflects nearly 500 years of Ottoman rule across much of the peninsula, roughly the 14th-19th centuries, which left a shared culinary vocabulary of grilled meats, filo pastry, and coffee culture across otherwise distinct Serbian, Croatian, Bosnian, Bulgarian, and Romanian national cuisines. Ćevapi, grilled minced-meat sausages found with local variations in nearly every Balkan country, exemplifies this shared Ottoman-influenced grilling tradition, while each country layers in its own Slavic, Hungarian, or Mediterranean influences.",
+      "famous_dishes": [
+        { "name": "Beef Ćevapi", "origin": "Balkans (widely shared)", "description": "Grilled minced-meat sausages, found with local variations across nearly every Balkan country." },
+        { "name": "Beef Sarma", "origin": "Balkans (widely shared)", "description": "Stuffed cabbage rolls, a winter staple across the whole region." },
+        { "name": "Burek", "origin": "Balkans (Ottoman-influenced)", "description": "Flaky filo pastry pie filled with meat, cheese, or vegetables." },
+        { "name": "Beef Mititei Romanian", "origin": "Romania", "description": "Grilled, skinless minced-meat rolls, Romania's answer to ćevapi." }
+      ],
+      "key_ingredients": ["Peppers (ajvar relish)", "Filo pastry", "Yogurt", "Beef and lamb", "Cabbage", "Paprika"],
+      "cooking_techniques": ["Charcoal grilling (ćevapi)", "Filo-pastry layering (burek)", "Stuffing and rolling (sarma)", "Slow stewing"],
+      "cultural_notes": "Ajvar, a roasted red pepper relish, is traditionally made in large batches each autumn across the Balkans, a shared preservation ritual similar to tomato-canning traditions elsewhere; coffee culture, inherited from the Ottoman period, remains central to Balkan hospitality.",
+      "fun_facts": [
+        "Ćevapi, grilled minced-meat sausages, are claimed with pride and slight variation by nearly every Balkan country as a national dish.",
+        "Ajvar, a roasted red pepper and eggplant relish, is traditionally prepared in large batches each autumn across Balkan households, a shared seasonal ritual."
+      ],
+      "quiz": [
+        { "q": "Which grilled minced-meat dish is claimed, with local variation, by nearly every Balkan country?", "options": ["Ćevapi", "Sarma", "Burek", "Musaka"], "answer": 0 },
+        { "q": "Roughly how long did Ottoman rule shape much of the Balkan peninsula's cuisine?", "options": ["Nearly 500 years", "About 50 years", "Over 1,000 years", "Around 100 years"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "central_asian",
+      "label": "Central Asian Cuisine",
+      "emoji": "🍢",
+      "colour": "#16a085",
+      "region": "Central Asia (Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan)",
+      "description": "A cuisine of the historic Silk Road crossroads, built on rice pilafs, hand-pulled noodles, and skewered meats, shaped by nomadic herding traditions and centuries of trade between China, Persia, and Europe.",
+      "history": "Central Asia's position at the heart of the Silk Road, the network of trade routes linking China to the Mediterranean from roughly the 2nd century BCE, made it a meeting point for Chinese noodle techniques, Persian rice cookery, and nomadic Turkic and Mongol herding traditions. Plov (pilaf), Uzbekistan's national dish, reflects this fusion -- a rice dish enriched with meat and carrots, cooked in a large communal pot called a kazan, with regional variations across nearly every Central Asian city.",
+      "famous_dishes": [
+        { "name": "Beef Plov", "origin": "Uzbekistan", "description": "Uzbekistan's national dish -- rice pilaf enriched with meat and carrots, cooked in a large communal kazan." },
+        { "name": "Beef Manti", "origin": "Central Asia", "description": "Steamed dumplings related to Chinese and Turkish dumpling traditions." },
+        { "name": "Beef Lagman", "origin": "Central Asia", "description": "Hand-pulled noodles in a spiced broth, showing clear Chinese noodle influence." },
+        { "name": "Beef Beshbarmak", "origin": "Kazakhstan", "description": "Boiled meat over flat noodles, whose name means 'five fingers,' traditionally eaten by hand." }
+      ],
+      "key_ingredients": ["Rice", "Carrots", "Cumin", "Hand-pulled wheat noodles", "Lamb and beef", "Dried fruit"],
+      "cooking_techniques": ["Communal-pot pilaf cooking (plov in a kazan)", "Noodle-pulling by hand (lagman)", "Skewer grilling (shashlik)", "Dumpling-steaming (manti)"],
+      "cultural_notes": "Plov is traditionally cooked in enormous quantities in a kazan (a large cauldron) for weddings and celebrations, sometimes feeding hundreds of guests from a single pot, and hospitality customs place great importance on serving tea and bread to guests first.",
+      "fun_facts": [
+        "Uzbekistan's plov is sometimes cooked in cauldrons large enough to feed hundreds of wedding guests from a single batch.",
+        "Central Asia's position on the Silk Road made it a historic meeting point between Chinese noodle-making and Persian rice cookery, both visible in dishes like lagman and plov today."
+      ],
+      "quiz": [
+        { "q": "What is the large communal pot that Uzbek plov is traditionally cooked in called?", "options": ["Kazan", "Wok", "Tagine", "Kettle"], "answer": 0 },
+        { "q": "What does 'beshbarmak,' the name of a Kazakh meat-and-noodle dish, mean?", "options": ["Five fingers", "Big pot", "Winter meal", "Traveller's food"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "gulf_arabian",
+      "label": "Gulf Arabian & Iraqi Cuisine",
+      "emoji": "🍚",
+      "colour": "#f39c12",
+      "region": "Arabian Peninsula & Iraq",
+      "description": "A cuisine of fragrant spiced rice, slow-cooked meats, and dates, shaped by the historic Indian Ocean spice trade and Bedouin desert traditions across the Arabian Peninsula and Mesopotamia.",
+      "history": "Gulf Arabian cuisine developed at the crossroads of the Indian Ocean spice trade, absorbing Indian, Persian, and East African influences through centuries of maritime trade, while Iraqi cuisine draws on Mesopotamia's status as one of the world's oldest continuously cooked culinary traditions -- some Iraqi bread and stew techniques trace back to ancient Babylonian and Sumerian recipes recorded on clay tablets over 3,700 years old, among the oldest written recipes known.",
+      "famous_dishes": [
+        { "name": "Beef Kabsa Saudi", "origin": "Saudi Arabia", "description": "Saudi Arabia's national dish -- spiced rice slow-cooked with meat." },
+        { "name": "Chicken Machboos Bahraini", "origin": "Bahrain / Gulf states", "description": "A spiced rice dish similar to biryani, a Gulf staple." },
+        { "name": "Beef Harees", "origin": "Arabian Peninsula", "description": "A porridge-like dish of slow-cooked wheat and meat, popular during Ramadan." },
+        { "name": "Masgouf Grilled Fish", "origin": "Iraq", "description": "Butterflied, open-fire grilled river fish, often called Iraq's national dish." }
+      ],
+      "key_ingredients": ["Basmati rice", "Dried lime (loomi)", "Saffron", "Dates", "Cardamom", "Baharat spice blend"],
+      "cooking_techniques": ["Spiced rice steaming (machboos, kabsa)", "Slow-roasting (whole lamb/chicken for celebrations)", "Skewer grilling", "Bread-baking (khubz, samoon)"],
+      "cultural_notes": "Dates hold deep cultural and historical significance across the Arabian Peninsula, traditionally the first food eaten to break a fast, and Iraqi cuisine's written recipe tradition, recorded on cuneiform clay tablets, is among the oldest documented cooking history in the world.",
+      "fun_facts": [
+        "Some of the oldest written recipes in human history are Babylonian cuneiform tablets from Mesopotamia (modern Iraq), dating back over 3,700 years.",
+        "Dried lime (loomi), used widely in Gulf cooking, is made by boiling limes in salt water and then sun-drying them for weeks."
+      ],
+      "quiz": [
+        { "q": "Where were some of the oldest known written recipes in human history recorded, over 3,700 years ago?", "options": ["Babylonian cuneiform tablets (Mesopotamia)", "Egyptian papyrus scrolls", "Roman wax tablets", "Chinese oracle bones"], "answer": 0 },
+        { "q": "What is dried lime, used widely in Gulf cooking, called?", "options": ["Loomi", "Baharat", "Sumac", "Zaatar"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "baltic",
+      "label": "Baltic Cuisine",
+      "emoji": "🐟",
+      "colour": "#2980b9",
+      "region": "Baltic States (Lithuania, Latvia, Estonia)",
+      "description": "A cuisine of rye bread, smoked fish, and forest-foraged ingredients shaped by the cold Baltic Sea climate and centuries of German, Russian, and Scandinavian influence.",
+      "history": "Baltic cuisine developed around short growing seasons and a cold coastal climate, relying on rye, potatoes, dairy, and preserved fish -- smoking, salting, and pickling were essential preservation techniques long before refrigeration. The region's cuisine was shaped by centuries of trade influence from the German Hanseatic League, Russia, and Scandinavia, while foraging for mushrooms and berries in the region's extensive forests remains a deeply held cultural practice across all three Baltic states.",
+      "famous_dishes": [
+        { "name": "Beef Cepelinai", "origin": "Lithuania", "description": "Potato dumplings stuffed with meat, named for their resemblance to a Zeppelin airship." },
+        { "name": "Baltic Rye Bread", "origin": "Baltic states", "description": "Dense, dark rye bread central to the region's diet for centuries." },
+        { "name": "Šaltibarščiai", "origin": "Lithuania", "description": "A vivid pink, cold beet-and-kefir soup, traditionally eaten in summer." },
+        { "name": "Smoked Fish Baltic", "origin": "Baltic states", "description": "Fish preserved by smoking, a technique essential to the region's coastal food culture." }
+      ],
+      "key_ingredients": ["Rye flour", "Potatoes", "Smoked fish", "Dill", "Sour cream", "Forest mushrooms and berries"],
+      "cooking_techniques": ["Smoking and salting fish", "Dumpling-stuffing (cepelinai)", "Rye bread fermentation and baking", "Foraged-ingredient preserving"],
+      "cultural_notes": "Foraging for wild mushrooms and berries is a deeply held seasonal tradition across Lithuania, Latvia, and Estonia, often treated as a cultural pastime as much as a food-gathering activity, and rye bread holds a near-sacred place in Baltic food identity.",
+      "fun_facts": [
+        "Lithuania's national dish, cepelinai, is named for its resemblance to a Zeppelin airship.",
+        "Foraging for wild mushrooms and berries remains a widely practiced seasonal tradition across all three Baltic states, treated as a cultural pastime as much as a food source."
+      ],
+      "quiz": [
+        { "q": "Lithuania's national dish, cepelinai, is named for its resemblance to what?", "options": ["A Zeppelin airship", "A rowing boat", "A church spire", "A pine cone"], "answer": 0 },
+        { "q": "What vivid pink, cold soup is a traditional Lithuanian summer dish?", "options": ["Šaltibarščiai", "Borscht", "Okroshka", "Solyanka"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "latin_american",
+      "label": "Latin American Cuisine",
+      "emoji": "🌽",
+      "colour": "#27ae60",
+      "region": "Central & South America (Colombia, Chile, Venezuela, Central America)",
+      "description": "A cuisine spanning Colombia, Chile, Venezuela, and Central America, united by corn, beans, and tropical produce but expressed through distinct national dishes shaped by Indigenous, Spanish, and African influences.",
+      "history": "Beyond Mexico, Peru, Brazil, and Argentina, the rest of Latin America developed equally distinct food cultures: Colombia's cuisine varies sharply by region, from Caribbean-coast seafood to Andean potato-and-corn dishes; Chile's long coastline made seafood central to its cuisine, while its Mediterranean-climate central valley later supported a major wine industry; and Central American cuisine, from Guatemala to Panama, blends Maya and Indigenous corn traditions with Spanish colonial influence, related to but distinct from Mexican cuisine to its north.",
+      "famous_dishes": [
+        { "name": "Beef Bandeja Paisa", "origin": "Colombia", "description": "Colombia's iconic mixed platter of beans, rice, and meat, from the Antioquia region." },
+        { "name": "Chilean Beef Empanada", "origin": "Chile", "description": "A baked or fried hand pie, a Chilean national snack, especially popular for Independence Day celebrations." },
+        { "name": "Beef Pabellón Criollo", "origin": "Venezuela", "description": "Venezuela's national dish -- shredded beef with rice, black beans, and fried plantain." },
+        { "name": "Beef Pupusas", "origin": "El Salvador", "description": "El Salvador's national dish -- thick, stuffed corn masa flatbreads, celebrated with a dedicated national Pupusa Day." }
+      ],
+      "key_ingredients": ["Corn (masa)", "Black beans", "Plantains", "Avocado", "Rice", "Tropical fruit"],
+      "cooking_techniques": ["Masa-making (pupusas, arepas)", "Slow braising (shredded beef dishes)", "Frying (empanadas, tostones)", "Grilling"],
+      "cultural_notes": "Corn-based masa dough, prepared using techniques tracing back to ancient Maya and Aztec nixtamalization, remains foundational across Central America and parts of Colombia and Venezuela, appearing in forms as different as Salvadoran pupusas and Venezuelan arepas.",
+      "fun_facts": [
+        "El Salvador's pupusas, thick stuffed corn flatbreads, are considered so central to national identity that El Salvador celebrates a national Pupusa Day.",
+        "Venezuela's arepas and El Salvador's pupusas both use nixtamalized corn masa, a technique tracing back thousands of years to ancient Mesoamerica."
+      ],
+      "quiz": [
+        { "q": "Which country celebrates a national holiday dedicated to its stuffed corn flatbread, the pupusa?", "options": ["El Salvador", "Colombia", "Chile", "Venezuela"], "answer": 0 },
+        { "q": "What is Venezuela's national dish, made of shredded beef, rice, beans, and plantain?", "options": ["Pabellón Criollo", "Bandeja Paisa", "Ajiaco", "Hallacas"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "burmese",
+      "label": "Burmese (Myanmar) Cuisine",
+      "emoji": "🍜",
+      "colour": "#e67e22",
+      "region": "Southeast Asia (Myanmar)",
+      "description": "A cuisine at the crossroads of Indian, Chinese, and Southeast Asian influence, built on fish-based broths, fermented tea leaves, and rice, reflecting Myanmar's position between three major culinary regions.",
+      "history": "Myanmar's cuisine reflects its geography, bordered by India, China, Thailand, and Laos, absorbing curry techniques from India, noodle and stir-frying methods from China, and tropical ingredients shared with the rest of Southeast Asia. Mohinga, widely considered Myanmar's national dish, exemplifies this blend -- a fish-based broth with rice noodles, eaten across the country for breakfast and sold widely by street vendors.",
+      "famous_dishes": [
+        { "name": "Mohinga", "origin": "Myanmar (nationwide)", "description": "A fish-based broth with rice noodles, widely considered Myanmar's national dish and a common breakfast." },
+        { "name": "Lahpet Thoke", "origin": "Myanmar", "description": "Fermented tea leaf salad mixed with fried nuts, beans, and garlic -- one of the few dishes in the world built around fermented tea." },
+        { "name": "Chicken Ohn No Khao Swe", "origin": "Myanmar", "description": "Coconut chicken noodle soup, showing clear influence from neighbouring Southeast Asian and Indian cuisines." },
+        { "name": "Chicken Danbauk", "origin": "Myanmar", "description": "Burmese-style biryani, reflecting centuries of Indian culinary influence." }
+      ],
+      "key_ingredients": ["Rice noodles", "Fermented tea leaves (lahpet)", "Fish sauce", "Turmeric", "Chickpea flour", "Coconut milk"],
+      "cooking_techniques": ["Long-simmered fish broths (mohinga)", "Tea leaf fermentation (lahpet)", "Curry-building (Indian-influenced)", "Noodle salads"],
+      "cultural_notes": "Lahpet (fermented tea leaves) holds deep cultural significance in Myanmar beyond food -- offering lahpet has traditionally been used to seal agreements and settle disputes, reflecting its symbolic role in Burmese hospitality and diplomacy.",
+      "fun_facts": [
+        "Lahpet, fermented tea leaves, has traditionally been used in Myanmar to seal agreements and settle disputes, not just as food.",
+        "Mohinga is eaten so widely across Myanmar, for breakfast and beyond, that it's often called the country's unofficial national dish."
+      ],
+      "quiz": [
+        { "q": "What is widely considered Myanmar's national dish, a fish-based rice noodle broth?", "options": ["Mohinga", "Lahpet Thoke", "Danbauk", "Nan Gyi Thoke"], "answer": 0 },
+        { "q": "Beyond food, what has fermented tea leaves (lahpet) traditionally been used for in Myanmar?", "options": ["Sealing agreements and settling disputes", "Religious offerings only", "Currency", "Medicine only"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lao",
+      "label": "Lao (Laos) Cuisine",
+      "emoji": "🍚",
+      "colour": "#16a085",
+      "region": "Southeast Asia (Laos)",
+      "description": "A cuisine built around sticky rice, fresh herbs, and bold, sour-spicy flavours, historically the origin of dishes -- like larb -- that spread to and were adapted by neighbouring Thailand.",
+      "history": "Laos's cuisine centres on sticky rice (khao niew), eaten by hand and considered so fundamental to Lao identity that Lao people have traditionally referred to themselves as 'the people who eat sticky rice.' Larb, now closely associated with Thai cuisine internationally, is widely recognised by food historians as originating in Laos, later adapted with regional variations across Thailand's Isan region, which shares close cultural and linguistic ties with Laos.",
+      "famous_dishes": [
+        { "name": "Lao Larb", "origin": "Laos", "description": "Minced meat salad with toasted rice powder, herbs, and lime, widely credited as Laos's national dish and the origin of the dish now also popular in Thailand." },
+        { "name": "Tam Mak Hoong", "origin": "Laos", "description": "Lao green papaya salad, a close relative of Thai som tum." },
+        { "name": "Khao Piak Sen", "origin": "Laos", "description": "A comforting chicken noodle soup with thick, chewy rice noodles." },
+        { "name": "Lao Sticky Rice", "origin": "Laos", "description": "Glutinous rice steamed in a bamboo basket, eaten by hand and central to Lao food identity." }
+      ],
+      "key_ingredients": ["Sticky rice", "Toasted rice powder", "Fish sauce", "Lime", "Fresh herbs (mint, cilantro)", "Chillies"],
+      "cooking_techniques": ["Steaming sticky rice in a bamboo basket", "Mincing and dressing meat salads (larb)", "Grilling (ping)", "Herb-heavy soups"],
+      "cultural_notes": "Sticky rice is so central to Lao identity that it is traditionally eaten by hand, rolled into a small ball and used to scoop other dishes, and Lao people have historically self-identified as 'the people who eat sticky rice' (khon kin khao niew).",
+      "fun_facts": [
+        "Larb, now closely associated with Thai cuisine internationally, is widely credited by food historians as originating in Laos.",
+        "Lao people have traditionally referred to themselves as 'the people who eat sticky rice,' reflecting how central the grain is to national identity."
+      ],
+      "quiz": [
+        { "q": "Which dish, now closely associated with Thai cuisine, is widely credited as originating in Laos?", "options": ["Larb", "Pad Thai", "Tom Yum", "Green Curry"], "answer": 0 },
+        { "q": "How is sticky rice traditionally eaten in Laos?", "options": ["By hand, rolled into a small ball", "With chopsticks only", "With a spoon", "Never eaten by hand"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "cambodian",
+      "label": "Cambodian (Khmer) Cuisine",
+      "emoji": "🍲",
+      "colour": "#8e44ad",
+      "region": "Southeast Asia (Cambodia)",
+      "description": "A cuisine built on fish, rice, and fermented pastes, considered by food historians to predate and influence its more internationally famous neighbours, Thai and Vietnamese cuisine.",
+      "history": "Khmer cuisine developed around the Tonlé Sap, Southeast Asia's largest freshwater lake, which has made fish -- fresh, dried, and fermented into prahok paste -- central to Cambodian cooking for centuries. Fish Amok, widely considered Cambodia's national dish, reflects this fish-centred tradition, steamed in banana leaf with a fragrant curry paste. Some food historians argue that Khmer cuisine, tied to the Khmer Empire's historical dominance of the region, influenced culinary traditions in what are now Thailand and Vietnam.",
+      "famous_dishes": [
+        { "name": "Fish Amok", "origin": "Cambodia", "description": "Cambodia's national dish -- fish steamed in banana leaf with a fragrant coconut-curry paste." },
+        { "name": "Beef Lok Lak", "origin": "Cambodia", "description": "Stir-fried marinated beef served over lettuce and tomato with a lime-pepper dipping sauce." },
+        { "name": "Nom Banh Chok Fish Noodles", "origin": "Cambodia", "description": "Rice noodles topped with a fish-based green curry gravy, often called Cambodia's 'national breakfast'." },
+        { "name": "Beef Khmer Char Kroeung", "origin": "Cambodia", "description": "Stir-fry built on kroeung, a pounded lemongrass-based aromatic paste central to Khmer cooking." }
+      ],
+      "key_ingredients": ["Freshwater fish", "Prahok (fermented fish paste)", "Lemongrass", "Kroeung paste", "Rice", "Palm sugar"],
+      "cooking_techniques": ["Steaming in banana leaf (amok)", "Pounding aromatic pastes (kroeung)", "Fermenting fish (prahok)", "Stir-frying"],
+      "cultural_notes": "Prahok, a pungent fermented fish paste, is so foundational to Khmer cooking that it's sometimes called Cambodia's 'national condiment,' used as a flavour base the way fish sauce is used elsewhere in Southeast Asia.",
+      "fun_facts": [
+        "Prahok, fermented fish paste, is sometimes called Cambodia's 'national condiment' for its foundational role in Khmer cooking.",
+        "Nom Banh Chok, rice noodles with fish-based green curry gravy, is often called Cambodia's 'national breakfast.'"
+      ],
+      "quiz": [
+        { "q": "What is Cambodia's national dish, fish steamed in banana leaf with a coconut-curry paste?", "options": ["Fish Amok", "Lok Lak", "Nom Banh Chok", "Somlar Machu"], "answer": 0 },
+        { "q": "What is the pungent fermented fish paste sometimes called Cambodia's 'national condiment'?", "options": ["Prahok", "Kroeung", "Nam Pla", "Belacan"], "answer": 0 }
       ]
     }
   ]

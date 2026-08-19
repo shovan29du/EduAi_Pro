@@ -74,6 +74,10 @@ const CuisineCentre = lazy(() => import('./components/CuisineCentre.jsx'));
 const RecipeCollection = lazy(() => import('./components/RecipeCollection.jsx'));
 const CookingTechniques = lazy(() => import('./components/CookingTechniques.jsx'));
 const FoodHistory = lazy(() => import('./components/FoodHistory.jsx'));
+const IngredientAlternatives = lazy(() => import('./components/IngredientAlternatives.jsx'));
+const HerbsSpices = lazy(() => import('./components/HerbsSpices.jsx'));
+const CookingProblems = lazy(() => import('./components/CookingProblems.jsx'));
+const MeasurementEquivalents = lazy(() => import('./components/MeasurementEquivalents.jsx'));
 
 const CHILD_TABS = [
   'Dashboard',
@@ -349,6 +353,10 @@ export default function App() {
                 { id: 'Recipes', label: '🍽️ Recipes', render: () => <RecipeCollection /> },
                 { id: 'Techniques', label: '🔥 Techniques', render: () => <CookingTechniques /> },
                 { id: 'Food History', label: '📜 Food History', render: () => <FoodHistory /> },
+                { id: 'Herbs & Spices', label: '🌿 Herbs & Spices', render: () => <HerbsSpices /> },
+                { id: 'Ingredient Swaps', label: '🔄 Ingredient Swaps', render: () => <IngredientAlternatives /> },
+                { id: 'Cooking Problems', label: '🛠️ Cooking Problems', render: () => <CookingProblems /> },
+                { id: 'Measurements', label: '📏 Measurements', render: () => <MeasurementEquivalents /> },
               ]}
             />
           )}

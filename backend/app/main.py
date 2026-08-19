@@ -1,6 +1,7 @@
 import hashlib
 import json
 import os
+import re
 import sqlite3 as _sqlite3
 import subprocess
 import tempfile
@@ -2800,6 +2801,10 @@ _CUISINES_PATH = _CUISINE_DIR / "cuisines.json"
 _FOOD_HISTORY_PATH = _CUISINE_DIR / "food_history.json"
 _COOKING_TECHNIQUES_PATH = _CUISINE_DIR / "cooking_techniques.json"
 _RECIPES_PATH = _CUISINE_DIR / "recipes.json"
+_INGREDIENT_ALTERNATIVES_PATH = _CUISINE_DIR / "ingredient_alternatives.json"
+_HERBS_SPICES_PATH = _CUISINE_DIR / "herbs_spices.json"
+_COOKING_PROBLEMS_PATH = _CUISINE_DIR / "cooking_problems.json"
+_MEASUREMENT_EQUIVALENTS_PATH = _CUISINE_DIR / "measurement_equivalents.json"
 
 @app.get("/api/cuisine")
 def cuisine_overview():
@@ -2838,11 +2843,48 @@ def cuisine_food_history():
         raise HTTPException(status_code=404, detail="Food history data not found")
     return _sanitize_json(_load_json_file(_FOOD_HISTORY_PATH))
 
+def _technique_search_url(base: str, query: str) -> str:
+    return base + quote_plus(query)
+
 @app.get("/api/cuisine-detail/techniques")
 def cuisine_cooking_techniques():
+    """Enriches the static techniques glossary with computed links (a
+    picture via the same live Wikipedia thumbnail lookup used elsewhere, a
+    YouTube search, and a text guide search) plus real recipes from the
+    collection that use each technique, matched by the technique's own
+    category_id against each recipe's cooking_technique field."""
     if not _COOKING_TECHNIQUES_PATH.exists():
         raise HTTPException(status_code=404, detail="Cooking techniques data not found")
-    return _sanitize_json(_load_json_file(_COOKING_TECHNIQUES_PATH))
+    data = _load_json_file(_COOKING_TECHNIQUES_PATH)
+    try:
+        recipes = _load_recipes()
+    except HTTPException:
+        recipes = []
+
+    for category in data.get("categories", []):
+        for technique in category.get("techniques", []):
+            name = technique["name"]
+            # Recipes carry a short auto-derived technique label (e.g.
+            # "Braising / simmering") rather than the glossary's exact
+            # technique name, so match on the technique's leading word stem
+            # instead of requiring an exact string match.
+            stem = re.split(r"[ /(]", name.lower(), 1)[0].rstrip("s")
+            matching = [
+                {"id": r["id"], "name": r["name"], "cuisine": r["cuisine"]}
+                for r in recipes
+                if stem and stem in r.get("cooking_technique", "").lower()
+            ][:6]
+            technique["links"] = {
+                "picture_wiki_title": name.split(" (")[0],
+                "video": _technique_search_url(
+                    "https://www.youtube.com/results?search_query=", f"{name} cooking technique tutorial"
+                ),
+                "text_guide": _technique_search_url(
+                    "https://www.google.com/search?q=", f"{name} cooking technique how to"
+                ),
+            }
+            technique["related_recipes"] = matching
+    return _sanitize_json(data)
 
 _RECIPES_CACHE: list[dict] | None = None
 
@@ -2854,9 +2896,29 @@ def _load_recipes() -> list[dict]:
         _RECIPES_CACHE = _load_json_file(_RECIPES_PATH).get("recipes", [])
     return _RECIPES_CACHE
 
+_CUISINE_INGREDIENTS_CACHE: dict[str, list[str]] | None = None
+
+def _load_cuisine_ingredients() -> dict[str, list[str]]:
+    """Maps cuisine_id -> lowercased key_ingredients, used to power ingredient
+    search on the recipe collection. Individual recipes don't carry their own
+    ingredient list (authoring an accurate one for 1,800+ dishes isn't
+    something that can be done without guessing), so ingredient search
+    matches against the recipe's protein plus its cuisine's real,
+    already-verified key_ingredients list -- an honest "this cuisine commonly
+    uses X" match rather than a fabricated per-dish claim."""
+    global _CUISINE_INGREDIENTS_CACHE
+    if _CUISINE_INGREDIENTS_CACHE is None:
+        data = _load_json_file(_CUISINES_PATH) if _CUISINES_PATH.exists() else {"cuisines": []}
+        _CUISINE_INGREDIENTS_CACHE = {
+            c["id"]: [i.lower() for i in c.get("key_ingredients", [])]
+            for c in data.get("cuisines", [])
+        }
+    return _CUISINE_INGREDIENTS_CACHE
+
 @app.get("/api/cuisine-detail/recipes")
 def cuisine_recipes(
     q: str = "",
+    ingredient: str = "",
     cuisine: str = "",
     category: str = "",
     protein: str = "",
@@ -2864,10 +2926,21 @@ def cuisine_recipes(
     offset: int = 0,
 ):
     recipes = _load_recipes()
+    cuisine_ingredients = _load_cuisine_ingredients()
     q_lower = q.lower().strip()
+    ingredient_lower = ingredient.lower().strip()
+
+    def matches_ingredient(recipe: dict) -> bool:
+        if not ingredient_lower:
+            return True
+        if ingredient_lower in recipe["protein"].lower():
+            return True
+        return any(ingredient_lower in ing for ing in cuisine_ingredients.get(recipe["cuisine_id"], []))
+
     results = [
         r for r in recipes
         if (not q_lower or q_lower in r["name"].lower())
+        and matches_ingredient(r)
         and (not cuisine or r["cuisine_id"] == cuisine)
         and (not category or r["category_id"] == category)
         and (not protein or r["protein"].lower() == protein.lower())
@@ -2893,6 +2966,37 @@ def cuisine_recipe_detail(recipe_id: str):
     if not recipe:
         raise HTTPException(status_code=404, detail=f"Recipe '{recipe_id}' not found")
     return _sanitize_json(recipe)
+
+@app.get("/api/cuisine-detail/ingredient-alternatives")
+def cuisine_ingredient_alternatives():
+    if not _INGREDIENT_ALTERNATIVES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Ingredient alternatives data not found")
+    return _sanitize_json(_load_json_file(_INGREDIENT_ALTERNATIVES_PATH))
+
+@app.get("/api/cuisine-detail/herbs-spices")
+def cuisine_herbs_spices():
+    """Each item gets a wiki_title (same as its name) so the frontend can
+    resolve a real photo via the shared /api/cuisine/thumbnail lookup,
+    the same live-Wikipedia-with-disk-cache approach used for recipes and
+    museum objects."""
+    if not _HERBS_SPICES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Herbs & spices data not found")
+    data = _load_json_file(_HERBS_SPICES_PATH)
+    for item in data.get("items", []):
+        item["wiki_title"] = item["name"].split(" (")[0]
+    return _sanitize_json(data)
+
+@app.get("/api/cuisine-detail/cooking-problems")
+def cuisine_cooking_problems():
+    if not _COOKING_PROBLEMS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cooking problems data not found")
+    return _sanitize_json(_load_json_file(_COOKING_PROBLEMS_PATH))
+
+@app.get("/api/cuisine-detail/measurement-equivalents")
+def cuisine_measurement_equivalents():
+    if not _MEASUREMENT_EQUIVALENTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Measurement equivalents data not found")
+    return _sanitize_json(_load_json_file(_MEASUREMENT_EQUIVALENTS_PATH))
 
 @app.get("/api/cuisine/thumbnail")
 def cuisine_thumbnail(wiki_title: str = ""):
