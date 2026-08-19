@@ -511,7 +511,7 @@ DISHES: dict[str, list[str]] = {
         "Chinese Mustard Greens Stir Fry", "Fish Fragrant Eggplant",
         "Chongqing Chicken", "Sichuan Water-Boiled Beef", "Taiwanese Beef Noodle Soup",
         "Scallion Beef", "Cantonese Wonton Noodles", "Turnip Cake", "Sesame Balls",
-        "Egg Waffle", "Pineapple Bun",
+        "Egg Waffle", "Pineapple Bun", "Chinese Bubble Tea", "Chrysanthemum Tea",
     ],
     "italian": [
         "Pizza Margherita", "Marinara Pizza", "Quattro Formaggi Pizza",
@@ -532,7 +532,7 @@ DISHES: dict[str, list[str]] = {
         "Torta Caprese", "Torta della Nonna", "Baccalà alla Vicentina", "Frittata",
         "Caprese Sandwich", "Bresaola e Rucola", "Antipasto Misto", "Bagna Cauda",
         "Chicken Cacciatore", "Chicken Parmigiana", "Eggplant Parmigiana",
-        "Chicken Bacon Carbonara", "Gelato",
+        "Chicken Bacon Carbonara", "Gelato", "Italian Espresso", "Cappuccino",
     ],
     "japanese": [
         "Sushi Nigiri Platter", "California Roll", "Chirashi Sushi", "Sashimi Platter",
@@ -564,7 +564,7 @@ DISHES: dict[str, list[str]] = {
         "Beef Blanquette", "Moules Marinière", "Sole Meunière", "Pissaladière",
         "Chicken Bacon Croque Monsieur", "Croque Madame", "Baguette", "Brioche",
         "Financiers", "Clafoutis", "Galette des Rois", "Beef Bearnaise Steak",
-        "Duck a l'Orange", "Cherries Jubilee",
+        "Duck a l'Orange", "Cherries Jubilee", "Café au Lait",
     ],
     "mexican": [
         "Mole Poblano", "Lamb Tacos al Pastor", "Beef Carne Asada Tacos",
@@ -609,7 +609,7 @@ DISHES: dict[str, list[str]] = {
         "Khao Man Gai (Chicken Rice)", "Beef Boat Noodles", "Pad Woon Sen",
         "Larb Gai", "Miang Kham", "Thai Omelette (Kai Jeow)", "Sticky Rice",
         "Pla Pao (Grilled Fish)", "Gai Yang (Grilled Chicken)", "Khanom Buang",
-        "Roti Sai Mai", "Tom Yum Talay",
+        "Roti Sai Mai", "Tom Yum Talay", "Thai Iced Coffee (Oliang)",
     ],
     "korean": [
         "Kimchi", "Bibimbap", "Beef Bulgogi", "Beef Galbi", "Japchae", "Tteokbokki",
@@ -624,6 +624,7 @@ DISHES: dict[str, list[str]] = {
         "Ojingeo Bokkeum", "Godeungeo Jorim", "Miyeokguk", "Kimbap Rolls",
         "Naengmyeon", "Yangnyeom Chicken", "Ganjang Chicken", "Tofu Kimchi",
         "Beef Galbitang", "Seolleongtang (Beef Bone Soup)",
+        "Sikhye", "Sujeonggwa",
     ],
     "spanish": [
         "Paella Valenciana", "Seafood Paella", "Chicken Paella", "Tortilla Española",
@@ -636,7 +637,7 @@ DISHES: dict[str, list[str]] = {
         "Tapas Sampler", "Flan", "Crema Catalana", "Torrijas", "Beef Rabo de Toro",
         "Zarzuela de Mariscos", "Boquerones en Vinagre", "Espetos (Grilled Sardines)",
         "Setas al Ajillo", "Ensaladilla Rusa", "Gazpachuelo", "Arroz Negro",
-        "Fideuà", "Bacalao al Pil Pil", "Manchego con Membrillo",
+        "Fideuà", "Bacalao al Pil Pil", "Manchego con Membrillo", "Café con Leche",
     ],
     "turkish": [
         "Beef Adana Kebab", "Beef Shish Kebab", "Beef Doner Kebab",
@@ -659,6 +660,7 @@ DISHES: dict[str, list[str]] = {
         "Bánh Tráng Nướng", "Hủ Tiếu", "Chicken Mì Quảng", "Bánh Da Lợn",
         "Chả Cá Lã Vọng (Turmeric Fish)", "Rau Muống Xào Tỏi",
         "Beef Thịt Kho Trứng", "Beef Lá Lốt", "Nộm", "Bánh Flan", "Sữa Chua",
+        "Vietnamese Lotus Tea",
     ],
     "greek": [
         "Beef Moussaka", "Lamb Souvlaki", "Beef Gyro", "Greek Salad (Horiatiki)",
@@ -669,7 +671,7 @@ DISHES: dict[str, list[str]] = {
         "Gemista", "Melitzanosalata", "Taramasalata", "Skordalia",
         "Chickpea Soup (Revithosoupa)", "Lamb Souvlaki Plate",
         "Grilled Octopus (Htapodi)", "Marinated Sardines", "Greek Yogurt with Honey",
-        "Beef Loukaniko Sausage", "Paximadia", "Chicken Gyro Plate",
+        "Beef Loukaniko Sausage", "Paximadia", "Chicken Gyro Plate", "Greek Frappe",
     ],
     "american": [
         "Beef Cheeseburger", "Beef Hot Dog", "BBQ Beef Brisket", "BBQ Beef Ribs",
@@ -690,6 +692,7 @@ DISHES: dict[str, list[str]] = {
         "Loaded Baked Potato", "Cobbler (Peach)", "Ranch Style Beans",
         "Strawberry Jam", "Grape Jelly", "Dill Pickles", "Bread and Butter Pickles",
         "Homemade Yogurt", "Sourdough Bread", "Dinner Rolls",
+        "Southern Sweet Tea", "American Iced Coffee",
     ],
     "british": [
         "Fish and Chips", "Lamb Shepherd's Pie", "Beef Cottage Pie",
@@ -702,7 +705,7 @@ DISHES: dict[str, list[str]] = {
         "Scones with Clotted Cream", "Welsh Rarebit", "Lamb Lancashire Hotpot",
         "Bakewell Tart", "Mince Pies", "Christmas Pudding", "Chicken Kedgeree",
         "Rarebit", "Ploughman's Cheese Board", "Beef Stew and Dumplings",
-        "Cullen Skink (Fish Soup)",
+        "Cullen Skink (Fish Soup)", "English Breakfast Tea",
     ],
     "german": [
         "Beef Bratwurst", "Beef Currywurst", "Beef Sauerbraten", "Beef Schnitzel",
@@ -743,7 +746,7 @@ DISHES: dict[str, list[str]] = {
         "Chicken Opor Ayam", "Ketoprak", "Chicken Laksa", "Nasi Lemak",
         "Char Kway Teow", "Roti Canai", "Beef Rendang Daging", "Chicken Ayam Goreng",
         "Sambal Belacan", "Tahu Goreng", "Es Cendol", "Klepon", "Chicken Martabak",
-        "Beef Martabak", "Fish Otak-Otak",
+        "Beef Martabak", "Fish Otak-Otak", "Teh Tarik",
     ],
     "filipino": [
         "Beef Adobo", "Chicken Adobo", "Beef Sinigang", "Fish Sinigang",
@@ -877,14 +880,14 @@ NEW_DISHES: dict[str, list[str]] = {
         "Beef Cuban Sandwich", "Flan Cubano", "Beef Tamal en Cazuela",
         "Chicken Croquetas Cubanas", "Beef Bistec de Palomilla", "Congrí",
         "Chicken Enchilado", "Beef Boliche", "Malanga Fritters",
-        "Chicken Fricasé de Pollo", "Beef Pan con Beef",
+        "Chicken Fricasé de Pollo", "Beef Pan con Beef", "Cuban Cafecito",
     ],
     "egyptian": [
         "Koshari", "Ful Medames", "Ta'ameya", "Beef Molokhia", "Chicken Fattah",
         "Beef Kofta Egyptian", "Mahshi", "Beef Hawawshi", "Beef Shawarma Egyptian",
         "Om Ali", "Basbousa", "Konafa", "Beef Bamia", "Baladi Bread",
         "Roz bel Laban", "Sayadeya", "Chicken Shish Tawook Egyptian",
-        "Beef Fattah", "Dukkah", "Qatayef",
+        "Beef Fattah", "Dukkah", "Qatayef", "Karkade (Hibiscus Tea)",
     ],
     "pakistani_bangladeshi": [
         "Beef Nihari", "Chicken Karahi", "Beef Seekh Kebab Pakistani", "Beef Haleem",
@@ -999,7 +1002,7 @@ NEW_DISHES: dict[str, list[str]] = {
         "Chilean Beef Pastel de Choclo", "Beef Hallacas Venezuelan",
         "Beef Pepián Guatemalan", "Gallo Pinto Costa Rican", "Beef Vigorón Nicaraguan",
         "Beef Baleada Honduran", "Mangu Dominican", "Beef Arepas de Choclo Colombian",
-        "Beef Completo Chilean", "Chilean Beef Charquicán",
+        "Beef Completo Chilean", "Chilean Beef Charquicán", "Tinto Colombian Coffee",
     ],
     "burmese": [
         "Mohinga", "Chicken Ohn No Khao Swe", "Lahpet Thoke", "Beef Shan Noodles",
@@ -1109,6 +1112,16 @@ NEW_PROTEIN_OVERRIDES = {
     "Dill Pickles": "vegetarian", "Bread and Butter Pickles": "vegetarian",
     "Homemade Yogurt": "vegetarian", "Sourdough Bread": "vegetarian",
     "Dinner Rolls": "vegetarian", "Gelato": "vegetarian",
+    "Italian Espresso": "vegetarian", "Cappuccino": "vegetarian",
+    "Café au Lait": "vegetarian", "Southern Sweet Tea": "vegetarian",
+    "American Iced Coffee": "vegetarian", "Chinese Bubble Tea": "vegetarian",
+    "Chrysanthemum Tea": "vegetarian", "Matcha Green Tea": "vegetarian",
+    "Houjicha": "vegetarian", "Sikhye": "vegetarian", "Sujeonggwa": "vegetarian",
+    "Café con Leche": "vegetarian", "English Breakfast Tea": "vegetarian",
+    "Teh Tarik": "vegetarian", "Karkade (Hibiscus Tea)": "vegetarian",
+    "Cuban Cafecito": "vegetarian", "Tinto Colombian Coffee": "vegetarian",
+    "Thai Iced Coffee (Oliang)": "vegetarian", "Vietnamese Lotus Tea": "vegetarian",
+    "Greek Frappe": "vegetarian",
 }
 PROTEIN_OVERRIDES.update(NEW_PROTEIN_OVERRIDES)
 
@@ -1172,6 +1185,7 @@ EXTRA_DISHES_EXISTING_CUISINES: dict[str, list[str]] = {
         "Salmon Sashimi", "Tuna Sashimi", "Chicken Torikatsu", "Beef Sirloin Teppanyaki",
         "Chicken Teppanyaki", "Beef Motsuyaki", "Chicken Zaru Udon", "Beef Nikuman",
         "Chicken Karaage Don", "Beef Gyukatsu Don", "Salmon Onigiri", "Ume Onigiri",
+        "Matcha Green Tea", "Houjicha",
     ],
     "french": [
         "Beef Daube Provençale", "Chicken Vol-au-Vent", "Beef Pâté en Croûte",
@@ -1354,10 +1368,14 @@ CATEGORY_KEYWORDS = [
                    "sorbet", "saffron ice cream"]),
     ("hot_drink", ["coffee", "cà phê", "mate", "karkade", "masala chai",
                    "turkish tea", "moroccan mint tea", "chamomile tea",
-                   "wiener melange", "green tea", "gahwa"]),
+                   "wiener melange", "green tea", "gahwa", "espresso",
+                   "cappuccino", "café au lait", "cafe au lait", "houjicha",
+                   "café con leche", "cafe con leche", "english breakfast tea",
+                   "teh tarik", "cafecito", "lotus tea", "chrysanthemum tea"]),
     ("drink", ["lassi", "juice", "horchata", "agua fresca", "doogh", "ayran",
                "thandai", "falooda", "nimbu pani", "chicha morada", "sorrel",
-               "kvass", "zobo", "sangria", "michelada", "drink"]),
+               "kvass", "zobo", "sangria", "michelada", "drink", "sweet tea",
+               "bubble tea", "sikhye", "sujeonggwa", "frappe"]),
     ("soupy_noodle", ["ramen", "phở", "pho bo", "pho ga", "udon noodle soup", "laksa",
                        "wonton noodle soup", "khao soi", "beef noodle soup",
                        "chicken noodle soup", "bún bò huế", "jjamppong", "hủ tiếu",

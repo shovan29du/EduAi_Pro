@@ -1,7 +1,7 @@
 {
   "title": "World Recipe Collection",
-  "description": "1,897 real, named dishes from 50 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
-  "total": 1897,
+  "description": "1,917 real, named dishes from 50 world cuisines. The entire collection is pork-free: any dish traditionally made with pork uses beef, lamb, or mutton instead, noted transparently wherever that substitution changes a well-known recipe.",
+  "total": 1917,
   "recipes": [
     {
       "id": "recipe_indian_0001",
@@ -5791,6 +5791,50 @@
     },
     {
       "id": "recipe_chinese_0083",
+      "name": "Chinese Bubble Tea",
+      "cuisine": "Chinese",
+      "cuisine_id": "chinese",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chinese Bubble Tea is a drinks from Chinese cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Chinese Bubble Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chinese+Bubble+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chinese+Bubble+Tea",
+        "video": "https://www.youtube.com/results?search_query=Chinese+Bubble+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chinese+Bubble+Tea+Chinese+recipe"
+      }
+    },
+    {
+      "id": "recipe_chinese_0084",
+      "name": "Chrysanthemum Tea",
+      "cuisine": "Chinese",
+      "cuisine_id": "chinese",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Chrysanthemum Tea is a hot drinks from Chinese cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Chrysanthemum Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Chrysanthemum+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Chrysanthemum+Tea",
+        "video": "https://www.youtube.com/results?search_query=Chrysanthemum+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Chrysanthemum+Tea+Chinese+recipe"
+      }
+    },
+    {
+      "id": "recipe_chinese_0085",
       "name": "Beef Chow Mein Cantonese",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5812,7 +5856,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0084",
+      "id": "recipe_chinese_0086",
       "name": "Chicken Lo Mein",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5834,7 +5878,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0085",
+      "id": "recipe_chinese_0087",
       "name": "Beef Cheung Fun",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5856,7 +5900,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0086",
+      "id": "recipe_chinese_0088",
       "name": "Shrimp Har Gow",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5878,7 +5922,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0087",
+      "id": "recipe_chinese_0089",
       "name": "Beef Black Pepper Beef",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5900,7 +5944,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0088",
+      "id": "recipe_chinese_0090",
       "name": "Chicken Orange Peel Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5922,7 +5966,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0089",
+      "id": "recipe_chinese_0091",
       "name": "Beef Sichuan Dry-Fried Green Beans",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5944,7 +5988,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0090",
+      "id": "recipe_chinese_0092",
       "name": "Chicken General Tso Tofu",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5966,7 +6010,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0091",
+      "id": "recipe_chinese_0093",
       "name": "Beef Hunan Beef",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -5988,7 +6032,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0092",
+      "id": "recipe_chinese_0094",
       "name": "Chicken Moo Goo Gai Pan",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6010,7 +6054,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0093",
+      "id": "recipe_chinese_0095",
       "name": "Beef Broccoli Beef",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6032,7 +6076,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0094",
+      "id": "recipe_chinese_0096",
       "name": "Shrimp Egg Foo Young",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6054,7 +6098,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0095",
+      "id": "recipe_chinese_0097",
       "name": "Chicken Egg Foo Young",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6076,7 +6120,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0096",
+      "id": "recipe_chinese_0098",
       "name": "Beef Chinese Beef Stew",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6098,7 +6142,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0097",
+      "id": "recipe_chinese_0099",
       "name": "Chicken Three Cup Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6120,7 +6164,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0098",
+      "id": "recipe_chinese_0100",
       "name": "Beef Dry Fried String Beans",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6142,7 +6186,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0099",
+      "id": "recipe_chinese_0101",
       "name": "Chicken Peking Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6164,7 +6208,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0100",
+      "id": "recipe_chinese_0102",
       "name": "Beef Chinese BBQ Beef Skewers",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6186,7 +6230,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0101",
+      "id": "recipe_chinese_0103",
       "name": "Chicken Steamed Chicken with Ginger",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6208,7 +6252,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0102",
+      "id": "recipe_chinese_0104",
       "name": "Beef Braised Beef Tendon",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6230,7 +6274,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0103",
+      "id": "recipe_chinese_0105",
       "name": "Chicken Chongqing Spicy Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6252,7 +6296,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0104",
+      "id": "recipe_chinese_0106",
       "name": "Beef Yunnan Beef Noodles",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6274,7 +6318,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0105",
+      "id": "recipe_chinese_0107",
       "name": "Chicken Hainanese Chicken Rice",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6296,7 +6340,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0106",
+      "id": "recipe_chinese_0108",
       "name": "Beef Shanghai Beef Noodle Soup",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6318,7 +6362,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0107",
+      "id": "recipe_chinese_0109",
       "name": "Chicken Drunken Chicken Shanghai Style",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6340,7 +6384,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0108",
+      "id": "recipe_chinese_0110",
       "name": "Beef Red Braised Beef",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6362,7 +6406,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0109",
+      "id": "recipe_chinese_0111",
       "name": "Chicken Salt and Pepper Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6384,7 +6428,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0110",
+      "id": "recipe_chinese_0112",
       "name": "Lamb Cumin Lamb Skewers",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6406,7 +6450,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0111",
+      "id": "recipe_chinese_0113",
       "name": "Lamb Xinjiang Pilaf",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6428,7 +6472,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0112",
+      "id": "recipe_chinese_0114",
       "name": "Beef Dongbei Beef Stew",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6450,7 +6494,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0113",
+      "id": "recipe_chinese_0115",
       "name": "Beef Sichuan Beef Noodles",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6472,7 +6516,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0114",
+      "id": "recipe_chinese_0116",
       "name": "Chicken Taiwanese Popcorn Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6494,7 +6538,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0115",
+      "id": "recipe_chinese_0117",
       "name": "Beef Three Cup Beef",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6516,7 +6560,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0116",
+      "id": "recipe_chinese_0118",
       "name": "Chicken Hakka Salt Baked Chicken",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6538,7 +6582,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0117",
+      "id": "recipe_chinese_0119",
       "name": "Beef Cantonese Beef Chow Fun",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6560,7 +6604,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0118",
+      "id": "recipe_chinese_0120",
       "name": "Chicken Chinese Fried Chicken Wings",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6582,7 +6626,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0119",
+      "id": "recipe_chinese_0121",
       "name": "Sweet and Sour Carp",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6604,7 +6648,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0120",
+      "id": "recipe_chinese_0122",
       "name": "Beef Lion's Head Meatballs",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6626,7 +6670,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0121",
+      "id": "recipe_chinese_0123",
       "name": "Squirrel-Shaped Mandarin Fish",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6648,7 +6692,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0122",
+      "id": "recipe_chinese_0124",
       "name": "Beef Dongpo Style",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6670,7 +6714,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0123",
+      "id": "recipe_chinese_0125",
       "name": "West Lake Vinegar Fish",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6692,7 +6736,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0124",
+      "id": "recipe_chinese_0126",
       "name": "Buddha Jumps Over the Wall",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6714,7 +6758,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0125",
+      "id": "recipe_chinese_0127",
       "name": "Oyster Omelette",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6736,7 +6780,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0126",
+      "id": "recipe_chinese_0128",
       "name": "Stinky Mandarin Fish",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -6758,7 +6802,7 @@
       }
     },
     {
-      "id": "recipe_chinese_0127",
+      "id": "recipe_chinese_0129",
       "name": "Beef Huangshan Stew",
       "cuisine": "Chinese",
       "cuisine_id": "chinese",
@@ -8277,6 +8321,50 @@
     },
     {
       "id": "recipe_italian_0069",
+      "name": "Italian Espresso",
+      "cuisine": "Italian",
+      "cuisine_id": "italian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Italian Espresso is a hot drinks from Italian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Italian Espresso",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Italian+Espresso",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Italian+Espresso",
+        "video": "https://www.youtube.com/results?search_query=Italian+Espresso+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Italian+Espresso+Italian+recipe"
+      }
+    },
+    {
+      "id": "recipe_italian_0070",
+      "name": "Cappuccino",
+      "cuisine": "Italian",
+      "cuisine_id": "italian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Cappuccino is a hot drinks from Italian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Cappuccino",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Cappuccino",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Cappuccino",
+        "video": "https://www.youtube.com/results?search_query=Cappuccino+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Cappuccino+Italian+recipe"
+      }
+    },
+    {
+      "id": "recipe_italian_0071",
       "name": "Chicken Piccata",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8298,7 +8386,7 @@
       }
     },
     {
-      "id": "recipe_italian_0070",
+      "id": "recipe_italian_0072",
       "name": "Beef Marsala",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8320,7 +8408,7 @@
       }
     },
     {
-      "id": "recipe_italian_0071",
+      "id": "recipe_italian_0073",
       "name": "Spaghetti Puttanesca",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8342,7 +8430,7 @@
       }
     },
     {
-      "id": "recipe_italian_0072",
+      "id": "recipe_italian_0074",
       "name": "Fusilli al Pesto",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8364,7 +8452,7 @@
       }
     },
     {
-      "id": "recipe_italian_0073",
+      "id": "recipe_italian_0075",
       "name": "Rigatoni alla Norma",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8386,7 +8474,7 @@
       }
     },
     {
-      "id": "recipe_italian_0074",
+      "id": "recipe_italian_0076",
       "name": "Beef Bollito Misto",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8408,7 +8496,7 @@
       }
     },
     {
-      "id": "recipe_italian_0075",
+      "id": "recipe_italian_0077",
       "name": "Chicken Involtini",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8430,7 +8518,7 @@
       }
     },
     {
-      "id": "recipe_italian_0076",
+      "id": "recipe_italian_0078",
       "name": "Beef Tagliata",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8452,7 +8540,7 @@
       }
     },
     {
-      "id": "recipe_italian_0077",
+      "id": "recipe_italian_0079",
       "name": "Panzerotti",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8474,7 +8562,7 @@
       }
     },
     {
-      "id": "recipe_italian_0078",
+      "id": "recipe_italian_0080",
       "name": "Stracciatella di Bufala",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8496,7 +8584,7 @@
       }
     },
     {
-      "id": "recipe_italian_0079",
+      "id": "recipe_italian_0081",
       "name": "Burrata Caprese",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8518,7 +8606,7 @@
       }
     },
     {
-      "id": "recipe_italian_0080",
+      "id": "recipe_italian_0082",
       "name": "Beef Pizzaiola",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8540,7 +8628,7 @@
       }
     },
     {
-      "id": "recipe_italian_0081",
+      "id": "recipe_italian_0083",
       "name": "Farfalle al Salmone",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8562,7 +8650,7 @@
       }
     },
     {
-      "id": "recipe_italian_0082",
+      "id": "recipe_italian_0084",
       "name": "Torta di Riso",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8584,7 +8672,7 @@
       }
     },
     {
-      "id": "recipe_italian_0083",
+      "id": "recipe_italian_0085",
       "name": "Zabaglione",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8606,7 +8694,7 @@
       }
     },
     {
-      "id": "recipe_italian_0084",
+      "id": "recipe_italian_0086",
       "name": "Struffoli",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8628,7 +8716,7 @@
       }
     },
     {
-      "id": "recipe_italian_0085",
+      "id": "recipe_italian_0087",
       "name": "Pandoro",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8650,7 +8738,7 @@
       }
     },
     {
-      "id": "recipe_italian_0086",
+      "id": "recipe_italian_0088",
       "name": "Colomba di Pasqua",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8672,7 +8760,7 @@
       }
     },
     {
-      "id": "recipe_italian_0087",
+      "id": "recipe_italian_0089",
       "name": "Beef Spezzatino",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8694,7 +8782,7 @@
       }
     },
     {
-      "id": "recipe_italian_0088",
+      "id": "recipe_italian_0090",
       "name": "Chicken Spezzatino",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -8716,7 +8804,7 @@
       }
     },
     {
-      "id": "recipe_italian_0089",
+      "id": "recipe_italian_0091",
       "name": "Beef Bresaola Salad",
       "cuisine": "Italian",
       "cuisine_id": "italian",
@@ -10586,6 +10674,50 @@
       }
     },
     {
+      "id": "recipe_japanese_0085",
+      "name": "Matcha Green Tea",
+      "cuisine": "Japanese",
+      "cuisine_id": "japanese",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Matcha Green Tea is a hot drinks from Japanese cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Matcha Green Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Matcha+Green+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Matcha+Green+Tea",
+        "video": "https://www.youtube.com/results?search_query=Matcha+Green+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Matcha+Green+Tea+Japanese+recipe"
+      }
+    },
+    {
+      "id": "recipe_japanese_0086",
+      "name": "Houjicha",
+      "cuisine": "Japanese",
+      "cuisine_id": "japanese",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Houjicha is a hot drinks from Japanese cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Houjicha",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Houjicha",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Houjicha",
+        "video": "https://www.youtube.com/results?search_query=Houjicha+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Houjicha+Japanese+recipe"
+      }
+    },
+    {
       "id": "recipe_french_0001",
       "name": "Coq au Vin",
       "cuisine": "French",
@@ -11753,6 +11885,28 @@
     },
     {
       "id": "recipe_french_0054",
+      "name": "Café au Lait",
+      "cuisine": "French",
+      "cuisine_id": "french",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Café au Lait is a hot drinks from French cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Café au Lait",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Caf%C3%A9+au+Lait",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Caf%C3%A9+au+Lait",
+        "video": "https://www.youtube.com/results?search_query=Caf%C3%A9+au+Lait+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Caf%C3%A9+au+Lait+French+recipe"
+      }
+    },
+    {
+      "id": "recipe_french_0055",
       "name": "Beef Daube Provençale",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11774,7 +11928,7 @@
       }
     },
     {
-      "id": "recipe_french_0055",
+      "id": "recipe_french_0056",
       "name": "Chicken Vol-au-Vent",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11796,7 +11950,7 @@
       }
     },
     {
-      "id": "recipe_french_0056",
+      "id": "recipe_french_0057",
       "name": "Beef Pâté en Croûte",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11818,7 +11972,7 @@
       }
     },
     {
-      "id": "recipe_french_0057",
+      "id": "recipe_french_0058",
       "name": "Chicken Ballotine",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11840,7 +11994,7 @@
       }
     },
     {
-      "id": "recipe_french_0058",
+      "id": "recipe_french_0059",
       "name": "Beef Entrecôte",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11862,7 +12016,7 @@
       }
     },
     {
-      "id": "recipe_french_0059",
+      "id": "recipe_french_0060",
       "name": "Beef Chateaubriand",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11884,7 +12038,7 @@
       }
     },
     {
-      "id": "recipe_french_0060",
+      "id": "recipe_french_0061",
       "name": "Salade Composée",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11906,7 +12060,7 @@
       }
     },
     {
-      "id": "recipe_french_0061",
+      "id": "recipe_french_0062",
       "name": "Beef Tarte Flambée",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11928,7 +12082,7 @@
       }
     },
     {
-      "id": "recipe_french_0062",
+      "id": "recipe_french_0063",
       "name": "Quiche aux Champignons",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11950,7 +12104,7 @@
       }
     },
     {
-      "id": "recipe_french_0063",
+      "id": "recipe_french_0064",
       "name": "Chicken Suprême",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11972,7 +12126,7 @@
       }
     },
     {
-      "id": "recipe_french_0064",
+      "id": "recipe_french_0065",
       "name": "Beef Filet Mignon Sauce",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -11994,7 +12148,7 @@
       }
     },
     {
-      "id": "recipe_french_0065",
+      "id": "recipe_french_0066",
       "name": "Beef Bordelaise",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12016,7 +12170,7 @@
       }
     },
     {
-      "id": "recipe_french_0066",
+      "id": "recipe_french_0067",
       "name": "Chicken Provençale",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12038,7 +12192,7 @@
       }
     },
     {
-      "id": "recipe_french_0067",
+      "id": "recipe_french_0068",
       "name": "Beef Crepe Grand Marnier",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12060,7 +12214,7 @@
       }
     },
     {
-      "id": "recipe_french_0068",
+      "id": "recipe_french_0069",
       "name": "Tarte aux Pommes",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12082,7 +12236,7 @@
       }
     },
     {
-      "id": "recipe_french_0069",
+      "id": "recipe_french_0070",
       "name": "Île Flottante",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12104,7 +12258,7 @@
       }
     },
     {
-      "id": "recipe_french_0070",
+      "id": "recipe_french_0071",
       "name": "Paris-Brest",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12126,7 +12280,7 @@
       }
     },
     {
-      "id": "recipe_french_0071",
+      "id": "recipe_french_0072",
       "name": "Opéra Cake",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -12148,7 +12302,7 @@
       }
     },
     {
-      "id": "recipe_french_0072",
+      "id": "recipe_french_0073",
       "name": "Kouign-Amann",
       "cuisine": "French",
       "cuisine_id": "french",
@@ -16285,6 +16439,28 @@
     },
     {
       "id": "recipe_thai_0047",
+      "name": "Thai Iced Coffee (Oliang)",
+      "cuisine": "Thai",
+      "cuisine_id": "thai",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Thai Iced Coffee (Oliang) is a drinks from Thai cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Thai Iced Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Thai+Iced+Coffee+%28Oliang%29",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Thai+Iced+Coffee+%28Oliang%29",
+        "video": "https://www.youtube.com/results?search_query=Thai+Iced+Coffee+%28Oliang%29+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Thai+Iced+Coffee+%28Oliang%29+Thai+recipe"
+      }
+    },
+    {
+      "id": "recipe_thai_0048",
       "name": "Chicken Jungle Curry",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16306,7 +16482,7 @@
       }
     },
     {
-      "id": "recipe_thai_0048",
+      "id": "recipe_thai_0049",
       "name": "Beef Kua Kling",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16328,7 +16504,7 @@
       }
     },
     {
-      "id": "recipe_thai_0049",
+      "id": "recipe_thai_0050",
       "name": "Chicken Lemongrass Chicken",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16350,7 +16526,7 @@
       }
     },
     {
-      "id": "recipe_thai_0050",
+      "id": "recipe_thai_0051",
       "name": "Beef Grilled Beef Salad",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16372,7 +16548,7 @@
       }
     },
     {
-      "id": "recipe_thai_0051",
+      "id": "recipe_thai_0052",
       "name": "Thai Pineapple Fried Rice",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16394,7 +16570,7 @@
       }
     },
     {
-      "id": "recipe_thai_0052",
+      "id": "recipe_thai_0053",
       "name": "Thai Mango Salad",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16416,7 +16592,7 @@
       }
     },
     {
-      "id": "recipe_thai_0053",
+      "id": "recipe_thai_0054",
       "name": "Thai Pumpkin Curry",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16438,7 +16614,7 @@
       }
     },
     {
-      "id": "recipe_thai_0054",
+      "id": "recipe_thai_0055",
       "name": "Chicken Thai Basil Fried Rice",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16460,7 +16636,7 @@
       }
     },
     {
-      "id": "recipe_thai_0055",
+      "id": "recipe_thai_0056",
       "name": "Beef Thai Omelette Rice",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -16482,7 +16658,7 @@
       }
     },
     {
-      "id": "recipe_thai_0056",
+      "id": "recipe_thai_0057",
       "name": "Chicken Thai Coconut Soup",
       "cuisine": "Thai",
       "cuisine_id": "thai",
@@ -17473,6 +17649,50 @@
     },
     {
       "id": "recipe_korean_0045",
+      "name": "Sikhye",
+      "cuisine": "Korean",
+      "cuisine_id": "korean",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sikhye is a drinks from Korean cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Sikhye",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sikhye",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sikhye",
+        "video": "https://www.youtube.com/results?search_query=Sikhye+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sikhye+Korean+recipe"
+      }
+    },
+    {
+      "id": "recipe_korean_0046",
+      "name": "Sujeonggwa",
+      "cuisine": "Korean",
+      "cuisine_id": "korean",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Sujeonggwa is a drinks from Korean cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Sujeonggwa",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Sujeonggwa",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Sujeonggwa",
+        "video": "https://www.youtube.com/results?search_query=Sujeonggwa+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Sujeonggwa+Korean+recipe"
+      }
+    },
+    {
+      "id": "recipe_korean_0047",
       "name": "Beef Kkori Gomtang",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17494,7 +17714,7 @@
       }
     },
     {
-      "id": "recipe_korean_0046",
+      "id": "recipe_korean_0048",
       "name": "Korean Fried Chicken Wings",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17516,7 +17736,7 @@
       }
     },
     {
-      "id": "recipe_korean_0047",
+      "id": "recipe_korean_0049",
       "name": "Beef Galbijjim",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17538,7 +17758,7 @@
       }
     },
     {
-      "id": "recipe_korean_0048",
+      "id": "recipe_korean_0050",
       "name": "Chicken Dakbokkeumtang",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17560,7 +17780,7 @@
       }
     },
     {
-      "id": "recipe_korean_0049",
+      "id": "recipe_korean_0051",
       "name": "Chicken Gangjeong",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17582,7 +17802,7 @@
       }
     },
     {
-      "id": "recipe_korean_0050",
+      "id": "recipe_korean_0052",
       "name": "Beef Yukgaejang",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17604,7 +17824,7 @@
       }
     },
     {
-      "id": "recipe_korean_0051",
+      "id": "recipe_korean_0053",
       "name": "Beef Yukpo",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17626,7 +17846,7 @@
       }
     },
     {
-      "id": "recipe_korean_0052",
+      "id": "recipe_korean_0054",
       "name": "Chicken Bulgogi",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -17648,7 +17868,7 @@
       }
     },
     {
-      "id": "recipe_korean_0053",
+      "id": "recipe_korean_0055",
       "name": "Kimchi Fried Rice",
       "cuisine": "Korean",
       "cuisine_id": "korean",
@@ -18507,6 +18727,28 @@
     },
     {
       "id": "recipe_spanish_0039",
+      "name": "Café con Leche",
+      "cuisine": "Spanish",
+      "cuisine_id": "spanish",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Café con Leche is a hot drinks from Spanish cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Café con Leche",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Caf%C3%A9+con+Leche",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Caf%C3%A9+con+Leche",
+        "video": "https://www.youtube.com/results?search_query=Caf%C3%A9+con+Leche+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Caf%C3%A9+con+Leche+Spanish+recipe"
+      }
+    },
+    {
+      "id": "recipe_spanish_0040",
       "name": "Beef Callos a la Madrileña",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18528,7 +18770,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0040",
+      "id": "recipe_spanish_0041",
       "name": "Chicken Pollo al Ajillo",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18550,7 +18792,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0041",
+      "id": "recipe_spanish_0042",
       "name": "Beef Solomillo al Whisky",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18572,7 +18814,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0042",
+      "id": "recipe_spanish_0043",
       "name": "Chicken Pisto con Huevo",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18594,7 +18836,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0043",
+      "id": "recipe_spanish_0044",
       "name": "Beef Chuletón",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18616,7 +18858,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0044",
+      "id": "recipe_spanish_0045",
       "name": "Beef Rabas",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18638,7 +18880,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0045",
+      "id": "recipe_spanish_0046",
       "name": "Chicken Pollo Asado Spanish",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18660,7 +18902,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0046",
+      "id": "recipe_spanish_0047",
       "name": "Beef Cocido Andaluz",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18682,7 +18924,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0047",
+      "id": "recipe_spanish_0048",
       "name": "Chicken Empanadillas",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -18704,7 +18946,7 @@
       }
     },
     {
-      "id": "recipe_spanish_0048",
+      "id": "recipe_spanish_0049",
       "name": "Chicken Arroz con Pollo Spanish",
       "cuisine": "Spanish",
       "cuisine_id": "spanish",
@@ -20619,6 +20861,28 @@
     },
     {
       "id": "recipe_vietnamese_0037",
+      "name": "Vietnamese Lotus Tea",
+      "cuisine": "Vietnamese",
+      "cuisine_id": "vietnamese",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Vietnamese Lotus Tea is a hot drinks from Vietnamese cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Vietnamese Lotus Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Vietnamese+Lotus+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Vietnamese+Lotus+Tea",
+        "video": "https://www.youtube.com/results?search_query=Vietnamese+Lotus+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Vietnamese+Lotus+Tea+Vietnamese+recipe"
+      }
+    },
+    {
+      "id": "recipe_vietnamese_0038",
       "name": "Beef Phở Xào",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20640,7 +20904,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0038",
+      "id": "recipe_vietnamese_0039",
       "name": "Chicken Gà Nướng",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20662,7 +20926,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0039",
+      "id": "recipe_vietnamese_0040",
       "name": "Beef Bún Bò Nam Bộ",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20684,7 +20948,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0040",
+      "id": "recipe_vietnamese_0041",
       "name": "Chicken Cơm Gà",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20706,7 +20970,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0041",
+      "id": "recipe_vietnamese_0042",
       "name": "Beef Bánh Hỏi",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20728,7 +20992,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0042",
+      "id": "recipe_vietnamese_0043",
       "name": "Chicken Gỏi Gà",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20750,7 +21014,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0043",
+      "id": "recipe_vietnamese_0044",
       "name": "Beef Lẩu Bò",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20772,7 +21036,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0044",
+      "id": "recipe_vietnamese_0045",
       "name": "Chicken Cháo Gà",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20794,7 +21058,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0045",
+      "id": "recipe_vietnamese_0046",
       "name": "Beef Nem Rán",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20816,7 +21080,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0046",
+      "id": "recipe_vietnamese_0047",
       "name": "Chicken Bánh Mì Gà",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20838,7 +21102,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0047",
+      "id": "recipe_vietnamese_0048",
       "name": "Beef Bò Né",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -20860,7 +21124,7 @@
       }
     },
     {
-      "id": "recipe_vietnamese_0048",
+      "id": "recipe_vietnamese_0049",
       "name": "Beef Bún Đậu",
       "cuisine": "Vietnamese",
       "cuisine_id": "vietnamese",
@@ -21631,6 +21895,28 @@
     },
     {
       "id": "recipe_greek_0035",
+      "name": "Greek Frappe",
+      "cuisine": "Greek",
+      "cuisine_id": "greek",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Greek Frappe is a drinks from Greek cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Greek Frappe",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Greek+Frappe",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Greek+Frappe",
+        "video": "https://www.youtube.com/results?search_query=Greek+Frappe+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Greek+Frappe+Greek+recipe"
+      }
+    },
+    {
+      "id": "recipe_greek_0036",
       "name": "Chicken Kotopoulo Lemonato",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21652,7 +21938,7 @@
       }
     },
     {
-      "id": "recipe_greek_0036",
+      "id": "recipe_greek_0037",
       "name": "Chicken Souvlaki Pita",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21674,7 +21960,7 @@
       }
     },
     {
-      "id": "recipe_greek_0037",
+      "id": "recipe_greek_0038",
       "name": "Beef Bifteki",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21696,7 +21982,7 @@
       }
     },
     {
-      "id": "recipe_greek_0038",
+      "id": "recipe_greek_0039",
       "name": "Chicken Gyro Wrap Plate",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21718,7 +22004,7 @@
       }
     },
     {
-      "id": "recipe_greek_0039",
+      "id": "recipe_greek_0040",
       "name": "Greek Honey Yogurt Cake",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21740,7 +22026,7 @@
       }
     },
     {
-      "id": "recipe_greek_0040",
+      "id": "recipe_greek_0041",
       "name": "Beef Giouvarlakia",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -21762,7 +22048,7 @@
       }
     },
     {
-      "id": "recipe_greek_0041",
+      "id": "recipe_greek_0042",
       "name": "Chicken Spanakorizo",
       "cuisine": "Greek",
       "cuisine_id": "greek",
@@ -23017,6 +23303,50 @@
     },
     {
       "id": "recipe_american_0057",
+      "name": "Southern Sweet Tea",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Southern Sweet Tea is a drinks from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "Southern Sweet Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Southern+Sweet+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Southern+Sweet+Tea",
+        "video": "https://www.youtube.com/results?search_query=Southern+Sweet+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Southern+Sweet+Tea+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0058",
+      "name": "American Iced Coffee",
+      "cuisine": "American",
+      "cuisine_id": "american",
+      "category": "Drinks",
+      "category_id": "drink",
+      "emoji": "🥤",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "American Iced Coffee is a drinks from American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Blending / mixing",
+      "wiki_title": "American Iced Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=American+Iced+Coffee",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=American+Iced+Coffee",
+        "video": "https://www.youtube.com/results?search_query=American+Iced+Coffee+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=American+Iced+Coffee+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_american_0059",
       "name": "Beef Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23038,7 +23368,7 @@
       }
     },
     {
-      "id": "recipe_american_0058",
+      "id": "recipe_american_0060",
       "name": "Beef Chicken-Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23060,7 +23390,7 @@
       }
     },
     {
-      "id": "recipe_american_0059",
+      "id": "recipe_american_0061",
       "name": "Southern Fried Chicken",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23082,7 +23412,7 @@
       }
     },
     {
-      "id": "recipe_american_0060",
+      "id": "recipe_american_0062",
       "name": "Beef Corn Dogs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23104,7 +23434,7 @@
       }
     },
     {
-      "id": "recipe_american_0061",
+      "id": "recipe_american_0063",
       "name": "Beef Meatball Subs",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23126,7 +23456,7 @@
       }
     },
     {
-      "id": "recipe_american_0062",
+      "id": "recipe_american_0064",
       "name": "Chicken Club Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23148,7 +23478,7 @@
       }
     },
     {
-      "id": "recipe_american_0063",
+      "id": "recipe_american_0065",
       "name": "Chicken Bacon Lettuce Tomato Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23170,7 +23500,7 @@
       }
     },
     {
-      "id": "recipe_american_0064",
+      "id": "recipe_american_0066",
       "name": "Beef Texas Chili",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23192,7 +23522,7 @@
       }
     },
     {
-      "id": "recipe_american_0065",
+      "id": "recipe_american_0067",
       "name": "Beef Salisbury Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23214,7 +23544,7 @@
       }
     },
     {
-      "id": "recipe_american_0066",
+      "id": "recipe_american_0068",
       "name": "Chicken Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23236,7 +23566,7 @@
       }
     },
     {
-      "id": "recipe_american_0067",
+      "id": "recipe_american_0069",
       "name": "Beef Pot Pie",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23258,7 +23588,7 @@
       }
     },
     {
-      "id": "recipe_american_0068",
+      "id": "recipe_american_0070",
       "name": "Chicken Fried Chicken Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23280,7 +23610,7 @@
       }
     },
     {
-      "id": "recipe_american_0069",
+      "id": "recipe_american_0071",
       "name": "Chicken Gumbo Ya-Ya",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23302,7 +23632,7 @@
       }
     },
     {
-      "id": "recipe_american_0070",
+      "id": "recipe_american_0072",
       "name": "Beef Texas Toast",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23324,7 +23654,7 @@
       }
     },
     {
-      "id": "recipe_american_0071",
+      "id": "recipe_american_0073",
       "name": "Beef Sloppy Joe Sliders",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23346,7 +23676,7 @@
       }
     },
     {
-      "id": "recipe_american_0072",
+      "id": "recipe_american_0074",
       "name": "Chicken Ranch Sandwich",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23368,7 +23698,7 @@
       }
     },
     {
-      "id": "recipe_american_0073",
+      "id": "recipe_american_0075",
       "name": "Beef Chili Cheese Fries",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23390,7 +23720,7 @@
       }
     },
     {
-      "id": "recipe_american_0074",
+      "id": "recipe_american_0076",
       "name": "Chicken Cobb Wrap",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23412,7 +23742,7 @@
       }
     },
     {
-      "id": "recipe_american_0075",
+      "id": "recipe_american_0077",
       "name": "New England Clam Bake",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23434,7 +23764,7 @@
       }
     },
     {
-      "id": "recipe_american_0076",
+      "id": "recipe_american_0078",
       "name": "Southern Biscuits",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23456,7 +23786,7 @@
       }
     },
     {
-      "id": "recipe_american_0077",
+      "id": "recipe_american_0079",
       "name": "Beef Country Fried Steak",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23478,7 +23808,7 @@
       }
     },
     {
-      "id": "recipe_american_0078",
+      "id": "recipe_american_0080",
       "name": "Beef American Chop Suey",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -23500,7 +23830,7 @@
       }
     },
     {
-      "id": "recipe_american_0079",
+      "id": "recipe_american_0081",
       "name": "Chicken Noodle Soup",
       "cuisine": "American",
       "cuisine_id": "american",
@@ -24205,6 +24535,28 @@
     },
     {
       "id": "recipe_british_0032",
+      "name": "English Breakfast Tea",
+      "cuisine": "British",
+      "cuisine_id": "british",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "English Breakfast Tea is a hot drinks from British cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "English Breakfast Tea",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=English+Breakfast+Tea",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=English+Breakfast+Tea",
+        "video": "https://www.youtube.com/results?search_query=English+Breakfast+Tea+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=English+Breakfast+Tea+British+recipe"
+      }
+    },
+    {
+      "id": "recipe_british_0033",
       "name": "Chicken Balti",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24226,7 +24578,7 @@
       }
     },
     {
-      "id": "recipe_british_0033",
+      "id": "recipe_british_0034",
       "name": "Beef Balti",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24248,7 +24600,7 @@
       }
     },
     {
-      "id": "recipe_british_0034",
+      "id": "recipe_british_0035",
       "name": "Chicken Coronation Chicken",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24270,7 +24622,7 @@
       }
     },
     {
-      "id": "recipe_british_0035",
+      "id": "recipe_british_0036",
       "name": "Beef and Ale Pie",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24292,7 +24644,7 @@
       }
     },
     {
-      "id": "recipe_british_0036",
+      "id": "recipe_british_0037",
       "name": "Chicken Tikka Sandwich",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24314,7 +24666,7 @@
       }
     },
     {
-      "id": "recipe_british_0037",
+      "id": "recipe_british_0038",
       "name": "Beef Faggots",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24336,7 +24688,7 @@
       }
     },
     {
-      "id": "recipe_british_0038",
+      "id": "recipe_british_0039",
       "name": "Treacle Tart",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24358,7 +24710,7 @@
       }
     },
     {
-      "id": "recipe_british_0039",
+      "id": "recipe_british_0040",
       "name": "Beef Cumberland Pie",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -24380,7 +24732,7 @@
       }
     },
     {
-      "id": "recipe_british_0040",
+      "id": "recipe_british_0041",
       "name": "Parkin Cake",
       "cuisine": "British",
       "cuisine_id": "british",
@@ -27483,6 +27835,28 @@
     },
     {
       "id": "recipe_indonesian_malaysian_0029",
+      "name": "Teh Tarik",
+      "cuisine": "Indonesian & Malaysian",
+      "cuisine_id": "indonesian_malaysian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Teh Tarik is a hot drinks from Indonesian & Malaysian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Teh Tarik",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Teh+Tarik",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Teh+Tarik",
+        "video": "https://www.youtube.com/results?search_query=Teh+Tarik+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Teh+Tarik+Indonesian+%26+Malaysian+recipe"
+      }
+    },
+    {
+      "id": "recipe_indonesian_malaysian_0030",
       "name": "Beef Rendang Padang",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27504,7 +27878,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0030",
+      "id": "recipe_indonesian_malaysian_0031",
       "name": "Chicken Ayam Bakar",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27526,7 +27900,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0031",
+      "id": "recipe_indonesian_malaysian_0032",
       "name": "Beef Semur",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27548,7 +27922,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0032",
+      "id": "recipe_indonesian_malaysian_0033",
       "name": "Chicken Betutu",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27570,7 +27944,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0033",
+      "id": "recipe_indonesian_malaysian_0034",
       "name": "Beef Sate Lilit",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27592,7 +27966,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0034",
+      "id": "recipe_indonesian_malaysian_0035",
       "name": "Chicken Nasi Kuning",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27614,7 +27988,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0035",
+      "id": "recipe_indonesian_malaysian_0036",
       "name": "Beef Empal",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27636,7 +28010,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0036",
+      "id": "recipe_indonesian_malaysian_0037",
       "name": "Chicken Soto Betawi",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -27658,7 +28032,7 @@
       }
     },
     {
-      "id": "recipe_indonesian_malaysian_0037",
+      "id": "recipe_indonesian_malaysian_0038",
       "name": "Kerak Telor",
       "cuisine": "Indonesian & Malaysian",
       "cuisine_id": "indonesian_malaysian",
@@ -34060,6 +34434,28 @@
       }
     },
     {
+      "id": "recipe_cuban_0021",
+      "name": "Cuban Cafecito",
+      "cuisine": "Cuban",
+      "cuisine_id": "cuban",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Cuban Cafecito is a hot drinks from Cuban cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Cuban Cafecito",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Cuban+Cafecito",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Cuban+Cafecito",
+        "video": "https://www.youtube.com/results?search_query=Cuban+Cafecito+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Cuban+Cafecito+Cuban+recipe"
+      }
+    },
+    {
       "id": "recipe_egyptian_0001",
       "name": "Ful Medames",
       "cuisine": "Egyptian",
@@ -34453,6 +34849,28 @@
         "image_search": "https://commons.wikimedia.org/w/index.php?search=Qatayef",
         "video": "https://www.youtube.com/results?search_query=Qatayef+recipe+how+to+make",
         "text_guide": "https://www.google.com/search?q=Qatayef+Egyptian+recipe"
+      }
+    },
+    {
+      "id": "recipe_egyptian_0019",
+      "name": "Karkade (Hibiscus Tea)",
+      "cuisine": "Egyptian",
+      "cuisine_id": "egyptian",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Karkade (Hibiscus Tea) is a hot drinks from Egyptian cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Karkade",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Karkade+%28Hibiscus+Tea%29",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Karkade+%28Hibiscus+Tea%29",
+        "video": "https://www.youtube.com/results?search_query=Karkade+%28Hibiscus+Tea%29+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Karkade+%28Hibiscus+Tea%29+Egyptian+recipe"
       }
     },
     {
@@ -40855,6 +41273,28 @@
         "image_search": "https://commons.wikimedia.org/w/index.php?search=Chilean+Beef+Charquic%C3%A1n",
         "video": "https://www.youtube.com/results?search_query=Chilean+Beef+Charquic%C3%A1n+recipe+how+to+make",
         "text_guide": "https://www.google.com/search?q=Chilean+Beef+Charquic%C3%A1n+Latin+American+recipe"
+      }
+    },
+    {
+      "id": "recipe_latin_american_0019",
+      "name": "Tinto Colombian Coffee",
+      "cuisine": "Latin American",
+      "cuisine_id": "latin_american",
+      "category": "Hot Drinks",
+      "category_id": "hot_drink",
+      "emoji": "☕",
+      "protein": "Vegetarian",
+      "pork_free": true,
+      "substitution_note": null,
+      "description": "Tinto Colombian Coffee is a hot drinks from Latin American cuisine, a vegetarian dish.",
+      "historical_fact": null,
+      "cooking_technique": "Brewing",
+      "wiki_title": "Tinto Colombian Coffee",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/w/index.php?search=Tinto+Colombian+Coffee",
+        "image_search": "https://commons.wikimedia.org/w/index.php?search=Tinto+Colombian+Coffee",
+        "video": "https://www.youtube.com/results?search_query=Tinto+Colombian+Coffee+recipe+how+to+make",
+        "text_guide": "https://www.google.com/search?q=Tinto+Colombian+Coffee+Latin+American+recipe"
       }
     },
     {

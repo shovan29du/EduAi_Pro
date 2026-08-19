@@ -248,3 +248,24 @@ def test_cooking_techniques_have_links_and_related_recipes():
                 grilling = t
     assert grilling is not None
     assert len(grilling["related_recipes"]) > 0
+
+
+def test_cooking_techniques_has_knife_skills_category():
+    r = client.get("/api/cuisine-detail/techniques")
+    data = r.json()
+    knife = next((c for c in data["categories"] if c["id"] == "knife-skills"), None)
+    assert knife is not None
+    names = [t["name"] for t in knife["techniques"]]
+    assert "Julienne" in names
+    assert "Brunoise" in names
+    assert len(knife["techniques"]) >= 8
+
+
+def test_recipes_have_expanded_tea_coffee_drinks():
+    hot = client.get("/api/cuisine-detail/recipes?category=hot_drink&limit=1200").json()
+    drink = client.get("/api/cuisine-detail/recipes?category=drink&limit=1200").json()
+    assert hot["total"] >= 20
+    assert drink["total"] >= 20
+    hot_names = [r["name"] for r in hot["recipes"]]
+    assert "Italian Espresso" in hot_names
+    assert "Cappuccino" in hot_names
