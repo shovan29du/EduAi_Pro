@@ -38,6 +38,9 @@ export const CATEGORIES = [
   { id: 'spatial', label: 'Spatial Reasoning', emoji: '📐', desc: 'Rotations, mirror images, and grid positions.' },
   { id: 'reaction', label: 'Reaction & Attention', emoji: '⚡', desc: 'Find the target as fast as you can before the clock runs out.' },
   { id: 'classic', label: 'Classic Word Games', emoji: '🎮', desc: 'The original Games tab favourites.' },
+  { id: 'boardgames', label: 'Board Games', emoji: '🎲', desc: 'Classic board games — Ludo and Dominoes against the computer.' },
+  { id: 'cardgames', label: 'Card Games', emoji: '🃏', desc: 'Classic card games — Solitaire, War, and Go Fish.' },
+  { id: 'wordboard', label: 'Word Board Games', emoji: '🔤', desc: 'Scrabble Lite — spell real words with real Scrabble tile values.' },
 ];
 
 // ── Memory Match: themed concept-pair sets ─────────────────────────────────
@@ -588,6 +591,12 @@ export const GAMES = [
   ...REACTION_GAMES.map((g) => ({ id: g.id, categoryId: 'reaction', title: g.title, emoji: '⚡', blurb: g.blurb, engine: 'reaction', data: g })),
   { id: 'classic-phonics', categoryId: 'classic', title: 'Phonics Match', emoji: '🔤', blurb: 'Pick the word that starts with the letter shown.', engine: 'external', data: { component: 'PhonicsMatchGame' } },
   { id: 'classic-quizsprint', categoryId: 'classic', title: 'Quiz Sprint', emoji: '⏱️', blurb: "Answer as many of this grade's practice questions as you can in 30 seconds.", engine: 'external', data: { component: 'QuizSprintGame' } },
+  { id: 'board-ludo', categoryId: 'boardgames', title: 'Ludo', emoji: '🎲', blurb: 'Roll the die, race your four tokens around the board, and get them all home first.', engine: 'external', data: { component: 'LudoGame' } },
+  { id: 'board-dominoes', categoryId: 'boardgames', title: 'Dominoes', emoji: '🁫', blurb: 'Match the pips on either end of the line against the computer.', engine: 'external', data: { component: 'DominoGame' } },
+  { id: 'card-solitaire', categoryId: 'cardgames', title: 'Solitaire', emoji: '🂡', blurb: 'Classic Klondike — build the foundations up from Ace to King by suit.', engine: 'external', data: { component: 'SolitaireGame' } },
+  { id: 'card-war', categoryId: 'cardgames', title: 'War', emoji: '🃏', blurb: 'Flip a card — highest rank wins the round. Ties go to war!', engine: 'external', data: { component: 'WarCardGame' } },
+  { id: 'card-gofish', categoryId: 'cardgames', title: 'Go Fish', emoji: '🎣', blurb: 'Ask the computer for ranks and collect books of four to win.', engine: 'external', data: { component: 'GoFishGame' } },
+  { id: 'word-scrabble-lite', categoryId: 'wordboard', title: 'Scrabble Lite', emoji: '🔤', blurb: 'Spell real words from your rack using real Scrabble letter values.', engine: 'external', data: { component: 'ScrabbleLiteGame' } },
 ];
 
 // Number of games available per category, for the picker UI.

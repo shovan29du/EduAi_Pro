@@ -8,6 +8,12 @@ import WordScrambleGame from './WordScrambleGame.jsx';
 import MCRoundsGame from './MCRoundsGame.jsx';
 import SudokuLiteGame from './SudokuLiteGame.jsx';
 import ReactionGame from './ReactionGame.jsx';
+import LudoGame from './LudoGame.jsx';
+import DominoGame from './DominoGame.jsx';
+import SolitaireGame from './SolitaireGame.jsx';
+import WarCardGame from './WarCardGame.jsx';
+import GoFishGame from './GoFishGame.jsx';
+import ScrabbleLiteGame from './ScrabbleLiteGame.jsx';
 import GameScoreBadge from './GameScoreBadge.jsx';
 import GameLeaderboard from './GameLeaderboard.jsx';
 import { CATEGORIES, GAMES, gamesByCategory, TOTAL_GAMES, dailyChallenge } from '../data/gameCentreData.js';
@@ -16,6 +22,12 @@ import { useGameCentreProgress } from '../hooks/useGameCentreProgress.js';
 const EXTERNAL_COMPONENTS = {
   PhonicsMatchGame,
   QuizSprintGame,
+  LudoGame,
+  DominoGame,
+  SolitaireGame,
+  WarCardGame,
+  GoFishGame,
+  ScrabbleLiteGame,
 };
 
 // Engines that accept a difficulty tier (see each engine's own DIFFICULTY_CONFIG).
