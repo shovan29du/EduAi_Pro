@@ -798,6 +798,37 @@ def test_countries_have_google_maps_and_earth_links():
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Historical World Map
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+def test_historical_map_periods_cover_ancient_to_present():
+    resp = client.get("/api/historical-map")
+    assert resp.status_code == 200
+    periods = resp.json()["periods"]
+    assert len(periods) >= 8
+    ids = [p["id"] for p in periods]
+    assert ids[0] == "ancient_near_east"
+    assert ids[-1] == "contemporary"
+
+
+def test_historical_map_periods_have_regions_events_and_famous_maps():
+    resp = client.get("/api/historical-map")
+    periods = resp.json()["periods"]
+    for period in periods:
+        for field in ("id", "label", "years", "emoji", "description"):
+            assert period.get(field), period
+        assert len(period["regions"]) >= 3
+        for region in period["regions"]:
+            assert -90 <= region["lat"] <= 90
+            assert -180 <= region["lng"] <= 180
+        assert len(period["events"]) >= 4
+        assert len(period["famous_maps"]) >= 1
+        for fmap in period["famous_maps"]:
+            assert fmap["link"].startswith("https://")
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Assessment Centre
 # ──────────────────────────────────────────────────────────────────────────────
 

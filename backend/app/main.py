@@ -2396,6 +2396,21 @@ def get_country(code: str):
     return country
 
 
+# ─── Historical World Map ──────────────────────────────────────────────────────
+
+HISTORICAL_MAPS_DIR = BASE_DIR / "data" / "historical_maps"
+
+
+@app.get("/api/historical-map")
+def list_historical_periods():
+    path = HISTORICAL_MAPS_DIR / "historical_maps.json"
+    if not path.exists():
+        return {"periods": []}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return {"periods": data.get("periods", [])}
+
+
 # ─── Parent Dashboard ─────────────────────────────────────────────────────────
 
 import uuid as _uuid

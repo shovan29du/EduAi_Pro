@@ -1,0 +1,360 @@
+{
+  "periods": [
+    {
+      "id": "ancient_near_east",
+      "label": "Ancient Near East & Bronze Age",
+      "years": "c. 3500–1200 BCE",
+      "emoji": "🎺",
+      "description": "The first cities, writing systems, and empires arise along the Nile, Tigris-Euphrates, and Indus rivers. The era ends with the mysterious Bronze Age Collapse, which brought down several major civilizations within a few decades.",
+      "regions": [
+        { "name": "Sumer (Uruk)", "lat": 31.3225, "lng": 45.6372, "note": "One of the world's first cities; birthplace of cuneiform writing." },
+        { "name": "Old Kingdom Egypt (Memphis)", "lat": 29.85, "lng": 31.25, "note": "Capital of Egypt during the Pyramid-building era." },
+        { "name": "Indus Valley Civilization (Mohenjo-daro)", "lat": 27.3294, "lng": 68.1358, "note": "A sophisticated Bronze Age city with advanced urban planning and drainage." },
+        { "name": "Babylonian Empire (Babylon)", "lat": 32.5355, "lng": 44.4275, "note": "Home of Hammurabi's Code, one of the earliest written legal codes." },
+        { "name": "Hittite Empire (Hattusa)", "lat": 40.0181, "lng": 34.6167, "note": "A major Anatolian power that rivalled Egypt and sacked Babylon." },
+        { "name": "Minoan Crete (Knossos)", "lat": 35.298, "lng": 25.1633, "note": "Europe's first advanced civilization, centred on the Palace of Knossos." }
+      ],
+      "events": [
+        { "year": "c. 3500 BCE", "event": "Sumerians develop cuneiform, the earliest known writing system, in Mesopotamia." },
+        { "year": "c. 2560 BCE", "event": "The Great Pyramid of Giza is built for Pharaoh Khufu." },
+        { "year": "c. 2334 BCE", "event": "Sargon of Akkad founds the Akkadian Empire, often called history's first empire." },
+        { "year": "c. 1754 BCE", "event": "Babylonian king Hammurabi issues the Code of Hammurabi." },
+        { "year": "c. 1600 BCE", "event": "The Hittite Empire rises in Anatolia and later sacks Babylon." },
+        { "year": "c. 1200 BCE", "event": "The Bronze Age Collapse brings sudden decline to civilizations across the Eastern Mediterranean." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Babylonian Map of the World (Imago Mundi)",
+          "year": "c. 700–500 BCE",
+          "description": "A clay tablet held at the British Museum — the oldest known map of the world, showing Babylon at the centre surrounded by a circular ocean.",
+          "link": "https://en.wikipedia.org/wiki/Babylonian_Map_of_the_World"
+        }
+      ]
+    },
+    {
+      "id": "classical_antiquity",
+      "label": "Classical Antiquity",
+      "years": "c. 550 BCE – 500 CE",
+      "emoji": "🏛️",
+      "description": "Persia, Greece, Rome, and the empires of India and China each reach classical heights, exchanging goods and ideas along trade routes that stretch from the Atlantic to the Pacific.",
+      "regions": [
+        { "name": "Achaemenid Persia (Persepolis)", "lat": 29.9353, "lng": 52.8916, "note": "Capital of the largest empire the world had yet seen." },
+        { "name": "Classical Greece (Athens)", "lat": 37.9838, "lng": 23.7275, "note": "Birthplace of democracy, philosophy, and Western drama." },
+        { "name": "Hellenistic Egypt (Alexandria)", "lat": 31.2001, "lng": 29.9187, "note": "Founded by Alexander the Great; home to the ancient world's greatest library." },
+        { "name": "Roman Empire (Rome)", "lat": 41.9028, "lng": 12.4964, "note": "At its height, ruled the entire Mediterranean world." },
+        { "name": "Han Dynasty China (Chang'an)", "lat": 34.3416, "lng": 108.9398, "note": "Eastern terminus of the Silk Road trade network." },
+        { "name": "Maurya & Gupta India (Pataliputra)", "lat": 25.6127, "lng": 85.1228, "note": "Capital of two of ancient India's greatest empires." }
+      ],
+      "events": [
+        { "year": "490–479 BCE", "event": "The Greco-Persian Wars, including the battles of Marathon and Thermopylae." },
+        { "year": "336–323 BCE", "event": "Alexander the Great conquers an empire stretching from Greece to India." },
+        { "year": "221 BCE", "event": "Qin Shi Huang unifies China and becomes its first emperor." },
+        { "year": "27 BCE", "event": "Augustus becomes Rome's first emperor, beginning the Roman Empire." },
+        { "year": "79 CE", "event": "Mount Vesuvius erupts, burying Pompeii and Herculaneum." },
+        { "year": "476 CE", "event": "The fall of the Western Roman Empire." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Ptolemy's Geographia",
+          "year": "c. 150 CE",
+          "description": "Claudius Ptolemy's treatise laid out a coordinate grid of latitude and longitude; its maps were reconstructed from his text during the Renaissance and shaped map-making for over a thousand years.",
+          "link": "https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+        },
+        {
+          "name": "Tabula Peutingeriana (Peutinger Table)",
+          "year": "Medieval copy of a Roman original",
+          "description": "A schematic map of the Roman road network (the cursus publicus), stretching from Britain to India on a long scroll.",
+          "link": "https://en.wikipedia.org/wiki/Tabula_Peutingeriana"
+        }
+      ]
+    },
+    {
+      "id": "early_middle_ages",
+      "label": "Early Middle Ages",
+      "years": "c. 500–1000 CE",
+      "emoji": "⚕️",
+      "description": "The Islamic Caliphates rapidly expand from Spain to Central Asia, Tang China flourishes, Charlemagne briefly reunites Western Europe, and Viking longships push European exploration into new waters.",
+      "regions": [
+        { "name": "Byzantine Empire (Constantinople)", "lat": 41.0082, "lng": 28.9784, "note": "The surviving Eastern Roman Empire, a bridge between antiquity and the medieval world." },
+        { "name": "Abbasid Caliphate (Baghdad)", "lat": 33.3152, "lng": 44.3661, "note": "Centre of the Islamic Golden Age of science, medicine, and philosophy." },
+        { "name": "Tang Dynasty China (Chang'an)", "lat": 34.3416, "lng": 108.9398, "note": "One of the largest and most cosmopolitan cities on Earth at the time." },
+        { "name": "Carolingian Empire (Aachen)", "lat": 50.7753, "lng": 6.0839, "note": "Charlemagne's capital, seat of a brief revival of imperial unity in Western Europe." },
+        { "name": "Ghana Empire (Koumbi Saleh)", "lat": 15.7667, "lng": -8.0333, "note": "A powerful West African trading empire built on gold and salt." }
+      ],
+      "events": [
+        { "year": "610 CE", "event": "Muhammad receives the first revelations, beginning Islam." },
+        { "year": "632–750 CE", "event": "Rapid Islamic conquests create the Umayyad and then Abbasid Caliphates, stretching from Spain to Central Asia." },
+        { "year": "793 CE", "event": "A Viking raid on Lindisfarne marks the traditional start of the Viking Age." },
+        { "year": "800 CE", "event": "Charlemagne is crowned Holy Roman Emperor by the Pope." },
+        { "year": "868 CE", "event": "The Diamond Sutra, the world's oldest dated printed book, is produced in Tang China." },
+        { "year": "c. 1000 CE", "event": "Leif Erikson reaches North America, centuries before Columbus." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Cotton Mappa Mundi",
+          "year": "c. 1025–1050",
+          "description": "An Anglo-Saxon world map, one of the earliest surviving European maps to show recognisable landmasses, now held by the British Library.",
+          "link": "https://en.wikipedia.org/wiki/Cotton_Mappa_Mundi"
+        }
+      ]
+    },
+    {
+      "id": "high_late_middle_ages",
+      "label": "High & Late Middle Ages",
+      "years": "c. 1000–1450",
+      "emoji": "🏰",
+      "description": "The Crusades, the rise and fall of the Mongol Empire (history's largest contiguous land empire), the flourishing of Mali and Song China, and the Black Death all reshape the medieval world.",
+      "regions": [
+        { "name": "Mongol Empire (Karakorum)", "lat": 47.1996, "lng": 102.8391, "note": "Capital of the largest contiguous land empire in history." },
+        { "name": "Song Dynasty China (Hangzhou)", "lat": 30.2741, "lng": 120.1551, "note": "One of the wealthiest and most technologically advanced cities of the medieval world." },
+        { "name": "Delhi Sultanate (Delhi)", "lat": 28.6139, "lng": 77.209, "note": "A powerful Muslim sultanate ruling much of the Indian subcontinent." },
+        { "name": "Mali Empire (Niani)", "lat": 11.3667, "lng": -8.6667, "note": "Made famous by Mansa Musa, often described as history's wealthiest individual." },
+        { "name": "Inca Empire (Cusco)", "lat": -13.5319, "lng": -71.9675, "note": "Capital of the largest empire in pre-Columbian America." },
+        { "name": "Byzantine Empire (Constantinople, declining)", "lat": 41.0082, "lng": 28.9784, "note": "Fell to the Ottomans in 1453, ending the medieval era." }
+      ],
+      "events": [
+        { "year": "1066", "event": "The Norman Conquest of England." },
+        { "year": "1096–1291", "event": "The Crusades bring repeated European military campaigns to the Holy Land." },
+        { "year": "1206", "event": "Genghis Khan unites the Mongol tribes and begins building history's largest contiguous land empire." },
+        { "year": "1275–1292", "event": "Marco Polo travels the Silk Road to the court of Kublai Khan." },
+        { "year": "1324", "event": "Mansa Musa of the Mali Empire makes his famous pilgrimage to Mecca, displaying immense wealth." },
+        { "year": "1347–1351", "event": "The Black Death kills roughly a third of Europe's population." },
+        { "year": "1453", "event": "The Ottoman Empire captures Constantinople, ending the Byzantine Empire." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Tabula Rogeriana",
+          "year": "1154",
+          "description": "Created by Arab geographer Muhammad al-Idrisi for King Roger II of Sicily — one of the most advanced world maps of the medieval period.",
+          "link": "https://en.wikipedia.org/wiki/Tabula_Rogeriana"
+        },
+        {
+          "name": "Hereford Mappa Mundi",
+          "year": "c. 1300",
+          "description": "The largest surviving medieval map, a \"T-O\" style map centred on Jerusalem, still displayed at Hereford Cathedral in England.",
+          "link": "https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi"
+        }
+      ]
+    },
+    {
+      "id": "age_of_exploration",
+      "label": "Age of Exploration",
+      "years": "c. 1450–1650",
+      "emoji": "⛵",
+      "description": "European sailors chart sea routes around Africa and across the Atlantic, connecting the Americas, Europe, Africa, and Asia for the first time — while powerful land empires flourish in Asia and the Americas fall to conquest.",
+      "regions": [
+        { "name": "Portuguese Empire (Lisbon)", "lat": 38.7223, "lng": -9.1393, "note": "Pioneered the sea route around Africa to India." },
+        { "name": "Spanish Empire (Madrid)", "lat": 40.4168, "lng": -3.7038, "note": "Funded Columbus and built a vast American empire." },
+        { "name": "Ottoman Empire (Istanbul)", "lat": 41.0082, "lng": 28.9784, "note": "Controlled trade routes between Europe and Asia." },
+        { "name": "Ming Dynasty China (Beijing)", "lat": 39.9042, "lng": 116.4074, "note": "Sent Admiral Zheng He's treasure fleets across the Indian Ocean." },
+        { "name": "Mughal Empire (Agra)", "lat": 27.1767, "lng": 78.0081, "note": "One of the wealthiest empires in the world under Akbar the Great." },
+        { "name": "Aztec Empire (Tenochtitlan, until 1521)", "lat": 19.4326, "lng": -99.1332, "note": "A magnificent lake-built city conquered by Hernán Cortés." },
+        { "name": "Inca Empire (Cusco, until 1533)", "lat": -13.5319, "lng": -71.9675, "note": "Conquered by Francisco Pizarro in 1533." }
+      ],
+      "events": [
+        { "year": "1492", "event": "Christopher Columbus reaches the Americas, opening sustained European contact with the New World." },
+        { "year": "1498", "event": "Vasco da Gama reaches India by sea around Africa." },
+        { "year": "1519–1522", "event": "Ferdinand Magellan's expedition completes the first circumnavigation of the globe." },
+        { "year": "1521", "event": "Hernán Cortés conquers the Aztec Empire." },
+        { "year": "1526", "event": "Babur founds the Mughal Empire in India." },
+        { "year": "1533", "event": "Francisco Pizarro conquers the Inca Empire." },
+        { "year": "1571", "event": "The Battle of Lepanto halts Ottoman naval expansion in the Mediterranean." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Waldseemüller Map",
+          "year": "1507",
+          "description": "The first map to use the name \"America\", created by German cartographer Martin Waldseemüller. Now held by the U.S. Library of Congress.",
+          "link": "https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map"
+        },
+        {
+          "name": "Cantino Planisphere",
+          "year": "1502",
+          "description": "An early Portuguese map smuggled to Italy, showing the results of Portuguese exploration and the line dividing the world under the Treaty of Tordesillas.",
+          "link": "https://en.wikipedia.org/wiki/Cantino_planisphere"
+        },
+        {
+          "name": "Mercator World Map",
+          "year": "1569",
+          "description": "Gerardus Mercator introduces the Mercator projection, designed to give sailors straight-line compass bearings — still the basis of most digital maps today.",
+          "link": "https://en.wikipedia.org/wiki/Mercator_1569_world_map"
+        }
+      ]
+    },
+    {
+      "id": "colonial_enlightenment",
+      "label": "Colonial & Enlightenment Era",
+      "years": "c. 1650–1800",
+      "emoji": "🏰",
+      "description": "European colonial empires expand across the globe as Enlightenment ideas about reason, liberty, and rights spread — fuelling revolutions that would soon remake the political map.",
+      "regions": [
+        { "name": "British Empire (London)", "lat": 51.5074, "lng": -0.1278, "note": "Growing into the empire \"on which the sun never set.\"" },
+        { "name": "French Colonial Empire (Paris)", "lat": 48.8566, "lng": 2.3522, "note": "Held colonies from Canada to the Caribbean to India." },
+        { "name": "Dutch Colonial Empire (Amsterdam)", "lat": 52.3676, "lng": 4.9041, "note": "Built a trading empire through the Dutch East India Company." },
+        { "name": "Qing Dynasty China (Beijing)", "lat": 39.9042, "lng": 116.4074, "note": "Ruled one of the largest and wealthiest empires on Earth." },
+        { "name": "American Colonies (Philadelphia)", "lat": 39.9526, "lng": -75.1652, "note": "Where the Declaration of Independence was signed in 1776." },
+        { "name": "Cape Colony (Cape Town)", "lat": -33.9249, "lng": 18.4241, "note": "A key waystation on the sea route between Europe and Asia." }
+      ],
+      "events": [
+        { "year": "1652", "event": "The Dutch establish a colony at the Cape of Good Hope." },
+        { "year": "1688–1689", "event": "England's Glorious Revolution establishes a constitutional monarchy." },
+        { "year": "1756–1763", "event": "The Seven Years' War, fought on multiple continents, reshapes colonial empires." },
+        { "year": "1776", "event": "The United States declares independence from Britain." },
+        { "year": "1789", "event": "The French Revolution begins, ending absolute monarchy in France." },
+        { "year": "1760s–1840s", "event": "The Industrial Revolution begins in Britain, transforming manufacturing worldwide." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Cassini Map of France",
+          "year": "Completed 1789",
+          "description": "The first map of an entire country based on precise triangulated survey, produced across four generations of the Cassini family.",
+          "link": "https://en.wikipedia.org/wiki/Cassini_map"
+        },
+        {
+          "name": "Atlas Maior",
+          "year": "1662",
+          "description": "Joan Blaeu's eleven-volume atlas — the largest and most expensive book published in the 17th century.",
+          "link": "https://en.wikipedia.org/wiki/Atlas_Maior"
+        }
+      ]
+    },
+    {
+      "id": "revolution_empire",
+      "label": "Age of Revolution & Empire",
+      "years": "c. 1800–1914",
+      "emoji": "🌐",
+      "description": "Napoleon redraws Europe, industrialization transforms economies, and European powers colonize nearly all of Africa in the \"Scramble for Africa\" — while nationalism unifies Germany and Italy and slavery is abolished across much of the world.",
+      "regions": [
+        { "name": "British Empire, at its peak (London)", "lat": 51.5074, "lng": -0.1278, "note": "The largest empire in history, covering roughly a quarter of the globe." },
+        { "name": "Napoleonic France (Paris)", "lat": 48.8566, "lng": 2.3522, "note": "Briefly dominated most of continental Europe under Napoleon." },
+        { "name": "German Empire, unified 1871 (Berlin)", "lat": 52.52, "lng": 13.405, "note": "Newly unified and rapidly industrializing." },
+        { "name": "Russian Empire (Saint Petersburg)", "lat": 59.9311, "lng": 30.3609, "note": "Spanned from Eastern Europe to the Pacific." },
+        { "name": "United States, westward expansion (Washington D.C.)", "lat": 38.9072, "lng": -77.0369, "note": "Expanded from coast to coast across the 19th century." },
+        { "name": "Ottoman Empire, in decline (Istanbul)", "lat": 41.0082, "lng": 28.9784, "note": "Known as the \"sick man of Europe\" by the century's end." }
+      ],
+      "events": [
+        { "year": "1804", "event": "Napoleon crowns himself Emperor of the French." },
+        { "year": "1804", "event": "Haiti becomes the first nation founded by a successful slave revolt." },
+        { "year": "1830s–1900s", "event": "The \"Scramble for Africa\" — European powers colonize nearly the entire African continent." },
+        { "year": "1861–1865", "event": "The American Civil War ends slavery in the United States." },
+        { "year": "1869", "event": "The Suez Canal opens, connecting the Mediterranean and Red Seas." },
+        { "year": "1871", "event": "Germany and Italy are unified as modern nation-states." },
+        { "year": "1885", "event": "The Berlin Conference formalizes the European partition of Africa." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Berlin Conference partition maps",
+          "year": "1885",
+          "description": "The widely reproduced maps showing European colonial claims across Africa, negotiated at the Berlin Conference without any African representatives present.",
+          "link": "https://en.wikipedia.org/wiki/Berlin_Conference"
+        },
+        {
+          "name": "Ordnance Survey of Great Britain",
+          "year": "Begun 1791",
+          "description": "Pioneering large-scale national mapping, originally commissioned for military purposes and now Britain's national mapping agency.",
+          "link": "https://en.wikipedia.org/wiki/Ordnance_Survey"
+        }
+      ]
+    },
+    {
+      "id": "world_wars",
+      "label": "World Wars Era",
+      "years": "1914–1945",
+      "emoji": "✈️",
+      "description": "Two global conflicts, separated by the Great Depression, kill tens of millions of people and redraw national borders across Europe, Africa, and Asia — ending with the founding of the United Nations.",
+      "regions": [
+        { "name": "German Empire / Nazi Germany (Berlin)", "lat": 52.52, "lng": 13.405, "note": "Central power in both world wars." },
+        { "name": "British Empire (London)", "lat": 51.5074, "lng": -0.1278, "note": "Led the Allied war effort in both conflicts." },
+        { "name": "France, occupied 1940–44 (Paris)", "lat": 48.8566, "lng": 2.3522, "note": "Fell to Nazi Germany in 1940; liberated in 1944." },
+        { "name": "Soviet Union (Moscow)", "lat": 55.7558, "lng": 37.6173, "note": "Suffered the highest death toll of any nation in World War II." },
+        { "name": "United States (Washington D.C.)", "lat": 38.9072, "lng": -77.0369, "note": "Entered both wars later but proved decisive to their outcomes." },
+        { "name": "Empire of Japan (Tokyo)", "lat": 35.6762, "lng": 139.6503, "note": "Expanded across East Asia and the Pacific before its 1945 defeat." }
+      ],
+      "events": [
+        { "year": "1914–1918", "event": "World War I, triggered by the assassination of Archduke Franz Ferdinand." },
+        { "year": "1917", "event": "The Russian Revolution overthrows the Tsar and brings the Bolsheviks to power." },
+        { "year": "1919", "event": "The Treaty of Versailles redraws the map of Europe and the Middle East." },
+        { "year": "1929", "event": "The Wall Street Crash triggers the Great Depression." },
+        { "year": "1939–1945", "event": "World War II, the deadliest conflict in human history." },
+        { "year": "1945", "event": "The United Nations is founded to promote international peace and cooperation." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Treaty of Versailles boundary maps",
+          "year": "1919",
+          "description": "Widely used historical maps comparing Europe before and after World War I, showing how the peace treaties redrew national borders and dismantled empires.",
+          "link": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+        },
+        {
+          "name": "Richard Edes Harrison's WWII perspective maps",
+          "year": "1941–1944",
+          "description": "Innovative \"airman's view\" maps published in Fortune magazine that reshaped how the American public visualized the global conflict.",
+          "link": "https://en.wikipedia.org/wiki/Richard_Edes_Harrison"
+        }
+      ]
+    },
+    {
+      "id": "cold_war",
+      "label": "Cold War Era",
+      "years": "1945–1991",
+      "emoji": "☮️",
+      "description": "The world divides into rival blocs led by the United States and the Soviet Union, decolonization creates dozens of new nations, and the era ends with the fall of the Berlin Wall and the Soviet collapse.",
+      "regions": [
+        { "name": "NATO / Western Bloc (Washington D.C.)", "lat": 38.9072, "lng": -77.0369, "note": "Led the Western alliance throughout the Cold War." },
+        { "name": "Warsaw Pact / Soviet Bloc (Moscow)", "lat": 55.7558, "lng": 37.6173, "note": "Led the Eastern bloc until the USSR's dissolution in 1991." },
+        { "name": "Divided Berlin", "lat": 52.52, "lng": 13.405, "note": "Physically split by the Berlin Wall from 1961 to 1989." },
+        { "name": "People's Republic of China, founded 1949 (Beijing)", "lat": 39.9042, "lng": 116.4074, "note": "Emerged as a major communist power alongside the USSR." },
+        { "name": "Non-Aligned Movement (New Delhi)", "lat": 28.6139, "lng": 77.209, "note": "India led newly independent nations choosing not to align with either bloc." },
+        { "name": "Cuba (Havana)", "lat": 23.1136, "lng": -82.3666, "note": "Site of the 1962 Cuban Missile Crisis, the Cold War's most dangerous moment." }
+      ],
+      "events": [
+        { "year": "1945–1991", "event": "The Cold War — a decades-long geopolitical standoff between the United States and the Soviet Union." },
+        { "year": "1947–1991", "event": "Decolonization sweeps Africa and Asia as dozens of new independent nations join the United Nations." },
+        { "year": "1949", "event": "NATO is founded, and the People's Republic of China is proclaimed." },
+        { "year": "1961", "event": "The Berlin Wall is built, physically dividing East and West Berlin." },
+        { "year": "1962", "event": "The Cuban Missile Crisis brings the world to the brink of nuclear war." },
+        { "year": "1969", "event": "Apollo 11 lands the first humans on the Moon." },
+        { "year": "1989–1991", "event": "The Berlin Wall falls and the Soviet Union dissolves, ending the Cold War." }
+      ],
+      "famous_maps": [
+        {
+          "name": "The \"Iron Curtain\" map",
+          "year": "Term coined 1946",
+          "description": "Winston Churchill's phrase became a defining map image of Cold War Europe, marking the divide between NATO and Warsaw Pact states.",
+          "link": "https://en.wikipedia.org/wiki/Iron_Curtain"
+        }
+      ]
+    },
+    {
+      "id": "contemporary",
+      "label": "Contemporary World",
+      "years": "1991–present",
+      "emoji": "🌍",
+      "description": "The post-Cold War world sees the rise of globalization, the internet, and satellite mapping — alongside new challenges from climate change to pandemics. Today, nearly 200 sovereign states are recognized by the United Nations.",
+      "regions": [
+        { "name": "United States (Washington D.C.)", "lat": 38.9072, "lng": -77.0369, "note": "The world's largest economy for most of this era." },
+        { "name": "China (Beijing)", "lat": 39.9042, "lng": 116.4074, "note": "Rose to become the world's second-largest economy." },
+        { "name": "European Union (Brussels)", "lat": 50.8503, "lng": 4.3517, "note": "Formed in 1993, uniting much of the continent economically and politically." },
+        { "name": "United Nations Headquarters (New York)", "lat": 40.7489, "lng": -73.968, "note": "Home to the body representing nearly every sovereign state on Earth." },
+        { "name": "India (New Delhi)", "lat": 28.6139, "lng": 77.209, "note": "Became the world's most populous country in 2023." },
+        { "name": "Russian Federation (Moscow)", "lat": 55.7558, "lng": 37.6173, "note": "Emerged from the Soviet collapse as the world's largest country by area." }
+      ],
+      "events": [
+        { "year": "1991", "event": "The Soviet Union dissolves into 15 independent states." },
+        { "year": "1993", "event": "The European Union is formally established by the Maastricht Treaty." },
+        { "year": "2001", "event": "The September 11 attacks reshape global security policy." },
+        { "year": "2008", "event": "The global financial crisis triggers a worldwide recession." },
+        { "year": "2020–2023", "event": "The COVID-19 pandemic becomes the first truly global pandemic of the internet era." },
+        { "year": "Today", "event": "Nearly 200 sovereign states are recognized by the United Nations — explore them all on the map above." }
+      ],
+      "famous_maps": [
+        {
+          "name": "Google Earth & modern satellite mapping",
+          "year": "Launched 2005",
+          "description": "For the first time, anyone with an internet connection could view detailed satellite imagery of the entire planet — the same technology this page links out to.",
+          "link": "https://en.wikipedia.org/wiki/Google_Earth"
+        }
+      ]
+    }
+  ]
+}
