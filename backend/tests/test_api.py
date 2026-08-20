@@ -1494,3 +1494,32 @@ def test_museum_has_more_objects():
     galleries = r.json()["galleries"]
     total = sum(g["object_count"] for g in galleries)
     assert total >= 35
+
+
+def test_museum_famous_historical_maps_gallery():
+    r = client.get("/api/museum")
+    galleries = {g["id"]: g for g in r.json()["galleries"]}
+    assert "famous_historical_maps" in galleries
+    assert galleries["famous_historical_maps"]["object_count"] >= 10
+
+
+def test_museum_famous_historical_maps_objects_are_real_and_complete():
+    r = client.get("/api/museum/famous_historical_maps")
+    assert r.status_code == 200
+    data = r.json()
+    objects = data["objects"]
+    names = {o["name"] for o in objects}
+    for expected in ("Babylonian Map of the World", "Hereford Mappa Mundi", "Waldseemüller Map", "Cassini Map of France"):
+        assert expected in names
+    for obj in objects:
+        assert obj["category"] == "map"
+        assert obj["museum"]
+        assert obj["wiki_title"]
+        assert obj["links"]["wikipedia"].startswith("https://en.wikipedia.org/wiki/")
+        assert obj["links"]["virtual_tour"].startswith("https://artsandculture.google.com/search?q=")
+
+
+def test_museum_historical_map_object_detail():
+    r = client.get("/api/museum/famous_historical_maps/map_001")
+    assert r.status_code == 200
+    assert r.json()["name"] == "Babylonian Map of the World"
