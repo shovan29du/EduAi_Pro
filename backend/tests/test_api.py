@@ -1500,7 +1500,7 @@ def test_museum_famous_historical_maps_gallery():
     r = client.get("/api/museum")
     galleries = {g["id"]: g for g in r.json()["galleries"]}
     assert "famous_historical_maps" in galleries
-    assert galleries["famous_historical_maps"]["object_count"] >= 10
+    assert galleries["famous_historical_maps"]["object_count"] >= 15
 
 
 def test_museum_famous_historical_maps_objects_are_real_and_complete():
@@ -1509,7 +1509,10 @@ def test_museum_famous_historical_maps_objects_are_real_and_complete():
     data = r.json()
     objects = data["objects"]
     names = {o["name"] for o in objects}
-    for expected in ("Babylonian Map of the World", "Hereford Mappa Mundi", "Waldseemüller Map", "Cassini Map of France"):
+    for expected in (
+        "Babylonian Map of the World", "Map of Nippur", "Turin Papyrus Map", "Forma Urbis Romae",
+        "Mawangdui Silk Maps", "Bedolina Map", "Hereford Mappa Mundi", "Waldseemüller Map", "Cassini Map of France",
+    ):
         assert expected in names
     for obj in objects:
         assert obj["category"] == "map"
@@ -1517,6 +1520,16 @@ def test_museum_famous_historical_maps_objects_are_real_and_complete():
         assert obj["wiki_title"]
         assert obj["links"]["wikipedia"].startswith("https://en.wikipedia.org/wiki/")
         assert obj["links"]["virtual_tour"].startswith("https://artsandculture.google.com/search?q=")
+
+
+def test_museum_ancient_city_maps_predate_world_maps():
+    # The oldest known map of a single city (Nippur, c. 1300 BCE) should be
+    # ordered before the medieval/early-modern world maps in the gallery.
+    r = client.get("/api/museum/famous_historical_maps")
+    objects = r.json()["objects"]
+    order = [o["name"] for o in objects]
+    assert order.index("Map of Nippur") < order.index("Hereford Mappa Mundi")
+    assert order.index("Forma Urbis Romae") < order.index("Mercator World Map (1569)")
 
 
 def test_museum_historical_map_object_detail():
