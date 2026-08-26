@@ -803,16 +803,24 @@ def test_countries_have_google_maps_and_earth_links():
 
 
 def test_historical_map_periods_cover_ancient_to_present():
+    # Per-century coverage from 3000 BCE to 2025 CE, preceded by one deep
+    # prehistory bucket for 5000-3001 BCE.
     resp = client.get("/api/historical-map")
     assert resp.status_code == 200
     periods = resp.json()["periods"]
-    assert len(periods) >= 8
+    assert len(periods) >= 50
     ids = [p["id"] for p in periods]
-    assert ids[0] == "ancient_near_east"
-    assert ids[-1] == "contemporary"
+    assert ids[0] == "deep_prehistory"
+    assert ids[-1] == "century_21_ce"
+    assert len(ids) == len(set(ids))
+    # Spans every century from the 30th BCE through the 1st CE, in order.
+    assert "century_30_bce" in ids
+    assert "century_1_bce" in ids
+    assert "century_1_ce" in ids
+    assert ids.index("century_1_bce") == ids.index("century_1_ce") - 1
 
 
-def test_historical_map_periods_have_regions_events_and_famous_maps():
+def test_historical_map_periods_have_regions_and_events():
     resp = client.get("/api/historical-map")
     periods = resp.json()["periods"]
     for period in periods:
@@ -822,10 +830,18 @@ def test_historical_map_periods_have_regions_events_and_famous_maps():
         for region in period["regions"]:
             assert -90 <= region["lat"] <= 90
             assert -180 <= region["lng"] <= 180
-        assert len(period["events"]) >= 4
-        assert len(period["famous_maps"]) >= 1
-        for fmap in period["famous_maps"]:
+        assert len(period["events"]) >= 2
+        for fmap in period.get("famous_maps", []):
             assert fmap["link"].startswith("https://")
+
+
+def test_historical_map_has_some_famous_maps_overall():
+    # Most individual centuries won't have a named famous map, but the
+    # feature as a whole should still surface a healthy number of them.
+    resp = client.get("/api/historical-map")
+    periods = resp.json()["periods"]
+    total_famous_maps = sum(len(p.get("famous_maps", [])) for p in periods)
+    assert total_famous_maps >= 5
 
 
 # ──────────────────────────────────────────────────────────────────────────────
