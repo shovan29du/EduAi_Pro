@@ -151,6 +151,57 @@ describe('SubjectLessons book excerpts from library', () => {
     expect(screen.getByText(/📊 Figure 3 plots leaf growth rate/)).toBeInTheDocument();
   });
 
+  it('renders a lesson-specific figure diagram, data table, graph, formulae, and photo', async () => {
+    global.fetch = vi.fn((url) => {
+      if (url === '/api/progress/Shovan') {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ completed_lessons: {} }) });
+      }
+      if (String(url).startsWith('/api/museum/thumbnail')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: 'https://example.com/photo.jpg' }) });
+      }
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+    });
+
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1',
+        title: 'Percentages',
+        unit: 'Number',
+        wiki_title: 'Percentages',
+        figure: { caption: 'Key concepts in “Percentages”', nodes: ['percent', 'per hundred', 'conversion'] },
+        data_table: { headers: ['Fraction', 'Percent'], rows: [['1/4', '25%'], ['1/2', '50%']] },
+        graph: { title: 'Example Growth', points: [2, 4, 7, 9], x_axis: 'Week', y_axis: 'Value' },
+        formulae: ['Percent = (Part ÷ Whole) × 100'],
+      }],
+    };
+    const { container } = render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Math" subject={subjectWithLessons} standard={5} />
+      </ChildProvider>
+    );
+
+    await waitFor(() => expect(screen.getByRole('heading', { name: 'Percentages' })).toBeInTheDocument());
+
+    // Concept-flow figure diagram
+    expect(screen.getByText('Key concepts in “Percentages”')).toBeInTheDocument();
+    expect(screen.getByText('percent')).toBeInTheDocument();
+    expect(screen.getByText('per hundred')).toBeInTheDocument();
+
+    // Data table
+    expect(screen.getByRole('columnheader', { name: 'Fraction' })).toBeInTheDocument();
+    expect(screen.getByRole('cell', { name: '25%' })).toBeInTheDocument();
+
+    // Graph (SVG line chart)
+    expect(screen.getByRole('img', { name: 'Example Growth' })).toBeInTheDocument();
+
+    // Formulae
+    expect(screen.getByText('Percent = (Part ÷ Whole) × 100')).toBeInTheDocument();
+
+    // Real-photo lookup via the live Wikipedia thumbnail proxy
+    await waitFor(() => expect(container.querySelector('img[src="https://example.com/photo.jpg"]')).toBeInTheDocument());
+    expect(global.fetch).toHaveBeenCalledWith('/api/museum/thumbnail?wiki_title=Percentages');
+  });
+
   it('renders code-kind excerpts in a monospace code block', async () => {
     const subjectWithLessons = {
       lessons: [{

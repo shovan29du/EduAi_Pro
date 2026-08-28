@@ -155,6 +155,45 @@ function LessonGraph({ graph }) {
   );
 }
 
+// ── Lazy Wikipedia thumbnail for a lesson's real-world topic photo ─────────
+// Same honest pattern used across the app (Virtual Museum, Cuisine Centre,
+// Herbs & Spices): a live fetch of a real Wikipedia summary thumbnail, with
+// a graceful no-image fallback rather than ever showing a fabricated photo.
+const lessonThumbCache = {};
+
+function LessonThumbnail({ wikiTitle }) {
+  const [src, setSrc] = useState(lessonThumbCache[wikiTitle] || null);
+
+  useEffect(() => {
+    if (!wikiTitle) return;
+    if (lessonThumbCache[wikiTitle] && lessonThumbCache[wikiTitle] !== 'loading') {
+      setSrc(lessonThumbCache[wikiTitle]);
+      return;
+    }
+    let cancelled = false;
+    lessonThumbCache[wikiTitle] = 'loading';
+    fetch(`/api/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const url = d?.thumbnail_url ?? null;
+        lessonThumbCache[wikiTitle] = url || '';
+        if (!cancelled && url) setSrc(url);
+      })
+      .catch(() => { lessonThumbCache[wikiTitle] = ''; });
+    return () => { cancelled = true; };
+  }, [wikiTitle]);
+
+  if (!src) return null;
+  return (
+    <img
+      src={src}
+      alt=""
+      className="mt-4 max-h-64 w-full rounded-xl object-cover"
+      onError={() => setSrc(null)}
+    />
+  );
+}
+
 const LESSON_GROUPS = [
   {
     id: 'curriculum',
@@ -324,6 +363,7 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
               {selected.unit || 'Curriculum lesson'} · {selected.estimated_time_minutes || 45} minutes
             </p>
             <h4 className="mt-1 text-xl font-bold">{selected.title}</h4>
+            {selected.wiki_title && <LessonThumbnail wikiTitle={selected.wiki_title} />}
             {selected.learning_objectives?.length > 0 && (
               <>
                 <h5 className="mt-4 font-semibold">Learning objectives</h5>

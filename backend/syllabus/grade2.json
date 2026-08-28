@@ -293,7 +293,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Place Value: Tens and Ones”",
+            "nodes": [
+              "tens",
+              "ones",
+              "place value",
+              "digit",
+              "2-digit numbers"
+            ]
+          },
+          "wiki_title": "Place Value: Tens and Ones"
         },
         {
           "id": "math-g2-l2",
@@ -389,7 +400,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Addition to 100”",
+            "nodes": [
+              "regrouping",
+              "carrying",
+              "column addition",
+              "inverse operations"
+            ]
+          },
+          "wiki_title": "Addition to 100"
         },
         {
           "id": "math-g2-l3",
@@ -484,7 +505,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Subtraction to 100”",
+            "nodes": [
+              "borrowing",
+              "regrouping in subtraction",
+              "difference",
+              "word problems"
+            ]
+          },
+          "wiki_title": "Subtraction to 100"
         },
         {
           "id": "math-g2-l4",
@@ -581,7 +612,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Multiplication”",
+            "nodes": [
+              "multiplication",
+              "groups of",
+              "times table",
+              "product",
+              "factor"
+            ]
+          },
+          "wiki_title": "Multiplication"
         },
         {
           "id": "math-g2-l5",
@@ -679,7 +721,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Fractions: Halves and Quarters”",
+            "nodes": [
+              "fraction",
+              "numerator",
+              "denominator",
+              "half",
+              "quarter",
+              "equal parts"
+            ]
+          },
+          "wiki_title": "Fractions: Halves and Quarters"
         },
         {
           "id": "math-g2-l6",
@@ -776,7 +830,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Money”",
+            "nodes": [
+              "coin",
+              "note",
+              "total",
+              "change",
+              "price"
+            ]
+          },
+          "wiki_title": "Money"
         },
         {
           "id": "math-g2-l7",
@@ -845,7 +910,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Skip Counting by 2s, 5s, and 10s"
         },
         {
           "id": "math-g2-l8",
@@ -914,7 +980,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Division"
         },
         {
           "id": "math-g2-l9",
@@ -985,7 +1052,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Telling Time to the Half Hour”",
+            "nodes": [
+              "Telling",
+              "Time",
+              "Half",
+              "Hour"
+            ]
+          },
+          "wiki_title": "Telling Time to the Half Hour"
         },
         {
           "id": "math-g2-l10",
@@ -1057,7 +1134,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Telling Time to the Nearest Five Minutes”",
+            "nodes": [
+              "Telling",
+              "Time",
+              "Nearest",
+              "Five",
+              "Minutes"
+            ]
+          },
+          "wiki_title": "Telling Time to the Nearest Five Minutes"
         },
         {
           "id": "math-g2-l11",
@@ -1128,7 +1216,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Measuring Length with Rulers”",
+            "nodes": [
+              "Measuring",
+              "Length",
+              "Rulers"
+            ]
+          },
+          "wiki_title": "Measuring Length with Rulers"
         },
         {
           "id": "math-g2-l12",
@@ -1198,7 +1295,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Comparing Weight and Mass”",
+            "nodes": [
+              "Comparing",
+              "Weight",
+              "Mass"
+            ]
+          },
+          "wiki_title": "Comparing Weight and Mass"
         },
         {
           "id": "math-g2-l13",
@@ -1268,7 +1374,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Comparing Volume and Capacity”",
+            "nodes": [
+              "Comparing",
+              "Volume",
+              "Capacity"
+            ]
+          },
+          "wiki_title": "Comparing Volume and Capacity"
         },
         {
           "id": "math-g2-l14",
@@ -1338,7 +1453,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "2D Shapes and Their Properties"
         },
         {
           "id": "math-g2-l15",
@@ -1408,7 +1524,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "3D Shapes and Their Properties"
         },
         {
           "id": "math-g2-l16",
@@ -1477,7 +1594,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Symmetry"
         },
         {
           "id": "math-g2-l17",
@@ -1547,7 +1665,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Reading and Making Bar Graphs”",
+            "nodes": [
+              "Reading",
+              "Making",
+              "Graphs"
+            ]
+          },
+          "wiki_title": "Reading and Making Bar Graphs"
         },
         {
           "id": "math-g2-l18",
@@ -1617,7 +1744,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Reading and Making Pictographs”",
+            "nodes": [
+              "Reading",
+              "Making",
+              "Pictographs"
+            ]
+          },
+          "wiki_title": "Reading and Making Pictographs"
         },
         {
           "id": "math-g2-l19",
@@ -1686,7 +1822,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Odd and Even Numbers"
         },
         {
           "id": "math-g2-l20",
@@ -1756,7 +1893,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Number Patterns and Sequences”",
+            "nodes": [
+              "Number",
+              "Patterns",
+              "Sequences"
+            ]
+          },
+          "wiki_title": "Number Patterns and Sequences"
         }
       ]
     },
@@ -2051,7 +2197,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Reading: Fiction and Non-Fiction”",
+            "nodes": [
+              "fiction",
+              "non-fiction",
+              "contents page",
+              "index",
+              "heading",
+              "fact"
+            ]
+          },
+          "wiki_title": "Reading: Fiction and Non-Fiction"
         },
         {
           "id": "eng-g2-l2",
@@ -2149,7 +2307,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Grammar: Adjectives and Adverbs”",
+            "nodes": [
+              "adjective",
+              "adverb",
+              "modify",
+              "noun phrase",
+              "'-ly' adverbs",
+              "descriptive writing"
+            ]
+          },
+          "wiki_title": "Grammar: Adjectives and Adverbs"
         },
         {
           "id": "english-g2-l3",
@@ -2220,7 +2390,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Nouns: People, Places, and Things”",
+            "nodes": [
+              "Nouns",
+              "People",
+              "Places",
+              "Things"
+            ]
+          },
+          "wiki_title": "Nouns: People, Places, and Things"
         },
         {
           "id": "english-g2-l4",
@@ -2290,7 +2470,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Verbs: Action Words”",
+            "nodes": [
+              "Verbs",
+              "Action",
+              "Words"
+            ]
+          },
+          "wiki_title": "Verbs: Action Words"
         },
         {
           "id": "english-g2-l5",
@@ -2358,7 +2547,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Pronouns"
         },
         {
           "id": "english-g2-l6",
@@ -2429,7 +2619,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sentence Types: Statements and Questions”",
+            "nodes": [
+              "Sentence",
+              "Types",
+              "Statements",
+              "Questions"
+            ]
+          },
+          "wiki_title": "Sentence Types: Statements and Questions"
         },
         {
           "id": "english-g2-l7",
@@ -2499,7 +2699,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Capital Letters and Punctuation”",
+            "nodes": [
+              "Capital",
+              "Letters",
+              "Punctuation"
+            ]
+          },
+          "wiki_title": "Capital Letters and Punctuation"
         },
         {
           "id": "english-g2-l8",
@@ -2569,7 +2778,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Reading Comprehension Strategies”",
+            "nodes": [
+              "Reading",
+              "Comprehension",
+              "Strategies"
+            ]
+          },
+          "wiki_title": "Reading Comprehension Strategies"
         },
         {
           "id": "english-g2-l9",
@@ -2641,7 +2859,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Building Vocabulary with Context Clues”",
+            "nodes": [
+              "Building",
+              "Vocabulary",
+              "Context",
+              "Clues"
+            ]
+          },
+          "wiki_title": "Building Vocabulary with Context Clues"
         },
         {
           "id": "english-g2-l10",
@@ -2710,7 +2938,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Synonyms and Antonyms"
         },
         {
           "id": "english-g2-l11",
@@ -2779,7 +3008,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Compound Words"
         },
         {
           "id": "english-g2-l12",
@@ -2847,7 +3077,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Contractions"
         },
         {
           "id": "english-g2-l13",
@@ -2917,7 +3148,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Writing a Simple Paragraph”",
+            "nodes": [
+              "Writing",
+              "Simple",
+              "Paragraph"
+            ]
+          },
+          "wiki_title": "Writing a Simple Paragraph"
         },
         {
           "id": "english-g2-l14",
@@ -2987,7 +3227,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Writing a Friendly Letter”",
+            "nodes": [
+              "Writing",
+              "Friendly",
+              "Letter"
+            ]
+          },
+          "wiki_title": "Writing a Friendly Letter"
         },
         {
           "id": "english-g2-l15",
@@ -3059,7 +3308,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Story Elements: Character, Setting, Plot”",
+            "nodes": [
+              "Story",
+              "Elements",
+              "Character",
+              "Setting",
+              "Plot"
+            ]
+          },
+          "wiki_title": "Story Elements: Character, Setting, Plot"
         },
         {
           "id": "english-g2-l16",
@@ -3129,7 +3389,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sequencing Events in a Story”",
+            "nodes": [
+              "Sequencing",
+              "Events",
+              "Story"
+            ]
+          },
+          "wiki_title": "Sequencing Events in a Story"
         },
         {
           "id": "english-g2-l17",
@@ -3200,7 +3469,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Rhyming Words and Word Families”",
+            "nodes": [
+              "Rhyming",
+              "Words",
+              "Word",
+              "Families"
+            ]
+          },
+          "wiki_title": "Rhyming Words and Word Families"
         },
         {
           "id": "english-g2-l18",
@@ -3269,7 +3548,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Prefixes and Suffixes"
         },
         {
           "id": "english-g2-l19",
@@ -3340,7 +3620,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Alphabetical Order and Dictionary Skills”",
+            "nodes": [
+              "Alphabetical",
+              "Order",
+              "Dictionary",
+              "Skills"
+            ]
+          },
+          "wiki_title": "Alphabetical Order and Dictionary Skills"
         },
         {
           "id": "english-g2-l20",
@@ -3411,7 +3701,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Public Speaking and Listening Skills”",
+            "nodes": [
+              "Public",
+              "Speaking",
+              "Listening",
+              "Skills"
+            ]
+          },
+          "wiki_title": "Public Speaking and Listening Skills"
         }
       ]
     },
@@ -4188,7 +4488,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “States of Matter”",
+            "nodes": [
+              "solid",
+              "liquid",
+              "gas",
+              "matter",
+              "state"
+            ]
+          },
+          "wiki_title": "States of Matter"
         },
         {
           "id": "sci-g2-l2",
@@ -4271,7 +4582,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Water Cycle”",
+            "nodes": [
+              "evaporation",
+              "condensation",
+              "precipitation",
+              "water cycle",
+              "vapor"
+            ]
+          },
+          "wiki_title": "The Water Cycle"
         },
         {
           "id": "science-g2-l3",
@@ -4341,7 +4663,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Living and Non-Living Things”",
+            "nodes": [
+              "Living",
+              "Non-Living",
+              "Things"
+            ]
+          },
+          "wiki_title": "Living and Non-Living Things"
         },
         {
           "id": "science-g2-l4",
@@ -4412,7 +4743,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Plant Parts and Their Functions”",
+            "nodes": [
+              "Plant",
+              "Parts",
+              "Functions"
+            ]
+          },
+          "wiki_title": "Plant Parts and Their Functions"
         },
         {
           "id": "science-g2-l5",
@@ -4482,7 +4822,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Life Cycle of a Plant”",
+            "nodes": [
+              "Life",
+              "Cycle",
+              "Plant"
+            ]
+          },
+          "wiki_title": "Life Cycle of a Plant"
         },
         {
           "id": "science-g2-l6",
@@ -4552,7 +4901,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Life Cycle of a Butterfly”",
+            "nodes": [
+              "Life",
+              "Cycle",
+              "Butterfly"
+            ]
+          },
+          "wiki_title": "Life Cycle of a Butterfly"
         },
         {
           "id": "science-g2-l7",
@@ -4621,7 +4979,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Animal Habitats"
         },
         {
           "id": "science-g2-l8",
@@ -4693,7 +5052,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Animal Groups: Mammals, Birds, Fish, Reptiles, Amphibians”",
+            "nodes": [
+              "Animal",
+              "Groups",
+              "Mammals",
+              "Birds",
+              "Fish"
+            ]
+          },
+          "wiki_title": "Animal Groups: Mammals, Birds, Fish, Reptiles, Amphibians"
         },
         {
           "id": "science-g2-l9",
@@ -4762,7 +5132,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Food Chains"
         },
         {
           "id": "science-g2-l10",
@@ -4831,7 +5202,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Five Senses"
         },
         {
           "id": "science-g2-l11",
@@ -4902,7 +5274,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Human Body: Bones and Muscles”",
+            "nodes": [
+              "Human",
+              "Body",
+              "Bones",
+              "Muscles"
+            ]
+          },
+          "wiki_title": "Human Body: Bones and Muscles"
         },
         {
           "id": "science-g2-l12",
@@ -4971,7 +5353,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Simple Machines"
         },
         {
           "id": "science-g2-l13",
@@ -5040,7 +5423,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Magnets and Magnetism"
         },
         {
           "id": "science-g2-l14",
@@ -5111,7 +5495,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Push and Pull: Forces and Motion”",
+            "nodes": [
+              "Push",
+              "Pull",
+              "Forces",
+              "Motion"
+            ]
+          },
+          "wiki_title": "Push and Pull: Forces and Motion"
         },
         {
           "id": "science-g2-l15",
@@ -5180,7 +5574,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Light and Shadows"
         },
         {
           "id": "science-g2-l16",
@@ -5249,7 +5644,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Sound and How We Hear"
         },
         {
           "id": "science-g2-l17",
@@ -5319,7 +5715,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Earth's Land, Water, and Air”",
+            "nodes": [
+              "Earth's",
+              "Land",
+              "Water"
+            ]
+          },
+          "wiki_title": "Earth's Land, Water, and Air"
         },
         {
           "id": "science-g2-l18",
@@ -5387,7 +5792,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Day and Night"
         },
         {
           "id": "science-g2-l19",
@@ -5455,7 +5861,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Seasons"
         },
         {
           "id": "science-g2-l20",
@@ -5525,7 +5932,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to the Solar System”",
+            "nodes": [
+              "Introduction",
+              "Solar",
+              "System"
+            ]
+          },
+          "wiki_title": "the Solar System"
         }
       ]
     },
@@ -12299,7 +12715,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Continents and Oceans”",
+            "nodes": [
+              "continent",
+              "ocean",
+              "landmass",
+              "Africa",
+              "Asia",
+              "Pacific"
+            ]
+          },
+          "wiki_title": "Continents and Oceans"
         },
         {
           "id": "geo-g2-l2",
@@ -12384,7 +12812,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Weather and Climate”",
+            "nodes": [
+              "weather",
+              "climate",
+              "equator",
+              "tropics",
+              "polar",
+              "temperate"
+            ]
+          },
+          "wiki_title": "Weather and Climate"
         },
         {
           "id": "geography-g2-l3",
@@ -12453,7 +12893,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Maps and Globes"
         },
         {
           "id": "geography-g2-l4",
@@ -12522,7 +12963,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Cardinal Directions"
         },
         {
           "id": "geography-g2-l5",
@@ -12593,7 +13035,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Landforms: Mountains, Valleys, and Plains”",
+            "nodes": [
+              "Landforms",
+              "Mountains",
+              "Valleys",
+              "Plains"
+            ]
+          },
+          "wiki_title": "Landforms: Mountains, Valleys, and Plains"
         },
         {
           "id": "geography-g2-l6",
@@ -12662,7 +13114,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Rivers and Lakes"
         },
         {
           "id": "geography-g2-l7",
@@ -12731,7 +13184,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Deserts of the World"
         },
         {
           "id": "geography-g2-l8",
@@ -12800,7 +13254,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Rainforests of the World"
         },
         {
           "id": "geography-g2-l9",
@@ -12869,7 +13324,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "My Country and Its Capital"
         },
         {
           "id": "geography-g2-l10",
@@ -12938,7 +13394,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Cities and Villages"
         },
         {
           "id": "geography-g2-l11",
@@ -13007,7 +13464,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Natural Resources"
         },
         {
           "id": "geography-g2-l12",
@@ -13078,7 +13536,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Types of Homes Around the World”",
+            "nodes": [
+              "Types",
+              "Homes",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Types of Homes Around the World"
         },
         {
           "id": "geography-g2-l13",
@@ -13148,7 +13616,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Transportation Around the World”",
+            "nodes": [
+              "Transportation",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Transportation Around the World"
         },
         {
           "id": "geography-g2-l14",
@@ -13219,7 +13696,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Community Helpers and Their Roles”",
+            "nodes": [
+              "Community",
+              "Helpers",
+              "Roles"
+            ]
+          },
+          "wiki_title": "Community Helpers and Their Roles"
         },
         {
           "id": "geography-g2-l15",
@@ -13288,7 +13774,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Landmarks of the World"
         },
         {
           "id": "geography-g2-l16",
@@ -13357,7 +13844,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Reading a Simple Map Key"
         },
         {
           "id": "geography-g2-l17",
@@ -13426,7 +13914,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Hot and Cold Climates"
         },
         {
           "id": "geography-g2-l18",
@@ -13495,7 +13984,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Islands and Peninsulas"
         },
         {
           "id": "geography-g2-l19",
@@ -13564,7 +14054,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Polar Regions"
         },
         {
           "id": "geography-g2-l20",
@@ -13633,7 +14124,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Grid References on a Map"
         }
       ]
     },
@@ -14304,7 +14796,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Civilisations Overview”",
+            "nodes": [
+              "civilisation",
+              "ancient",
+              "pharaoh",
+              "pyramid",
+              "empire",
+              "democracy"
+            ]
+          },
+          "wiki_title": "Ancient Civilisations Overview"
         },
         {
           "id": "hist-g2-l2",
@@ -14390,7 +14894,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Silk Road”",
+            "nodes": [
+              "Silk Road",
+              "trade route",
+              "merchant",
+              "spice",
+              "porcelain",
+              "exchange"
+            ]
+          },
+          "wiki_title": "The Silk Road"
         },
         {
           "id": "world-history-g2-l3",
@@ -14460,7 +14976,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Egypt and the Pyramids”",
+            "nodes": [
+              "Ancient",
+              "Egypt",
+              "Pyramids"
+            ]
+          },
+          "wiki_title": "Ancient Egypt and the Pyramids"
         },
         {
           "id": "world-history-g2-l4",
@@ -14529,7 +15054,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Ancient Mesopotamia"
         },
         {
           "id": "world-history-g2-l5",
@@ -14599,7 +15125,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient China and Its Inventions”",
+            "nodes": [
+              "Ancient",
+              "China",
+              "Inventions"
+            ]
+          },
+          "wiki_title": "Ancient China and Its Inventions"
         },
         {
           "id": "world-history-g2-l6",
@@ -14669,7 +15204,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Greece and the Olympics”",
+            "nodes": [
+              "Ancient",
+              "Greece",
+              "Olympics"
+            ]
+          },
+          "wiki_title": "Ancient Greece and the Olympics"
         },
         {
           "id": "world-history-g2-l7",
@@ -14739,7 +15283,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Rome and Its Empire”",
+            "nodes": [
+              "Ancient",
+              "Rome",
+              "Empire"
+            ]
+          },
+          "wiki_title": "Ancient Rome and Its Empire"
         },
         {
           "id": "world-history-g2-l8",
@@ -14809,7 +15362,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Indus Valley Civilisation”",
+            "nodes": [
+              "Indus",
+              "Valley",
+              "Civilisation"
+            ]
+          },
+          "wiki_title": "The Indus Valley Civilisation"
         },
         {
           "id": "world-history-g2-l9",
@@ -14880,7 +15442,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Early Explorers and Their Voyages”",
+            "nodes": [
+              "Early",
+              "Explorers",
+              "Voyages"
+            ]
+          },
+          "wiki_title": "Early Explorers and Their Voyages"
         },
         {
           "id": "world-history-g2-l10",
@@ -14949,7 +15520,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Life in the Stone Age"
         },
         {
           "id": "world-history-g2-l11",
@@ -15018,7 +15590,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Invention of Writing"
         },
         {
           "id": "world-history-g2-l12",
@@ -15088,7 +15661,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Trade and Marketplaces”",
+            "nodes": [
+              "Ancient",
+              "Trade",
+              "Marketplaces"
+            ]
+          },
+          "wiki_title": "Ancient Trade and Marketplaces"
         },
         {
           "id": "world-history-g2-l13",
@@ -15158,7 +15740,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Famous Leaders of the Past”",
+            "nodes": [
+              "Famous",
+              "Leaders",
+              "Past"
+            ]
+          },
+          "wiki_title": "Famous Leaders of the Past"
         },
         {
           "id": "world-history-g2-l14",
@@ -15227,7 +15818,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Castles and Knights"
         },
         {
           "id": "world-history-g2-l15",
@@ -15297,7 +15889,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Mayan Civilisation”",
+            "nodes": [
+              "Ancient",
+              "Mayan",
+              "Civilisation"
+            ]
+          },
+          "wiki_title": "Ancient Mayan Civilisation"
         },
         {
           "id": "world-history-g2-l16",
@@ -15367,7 +15968,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Inca Civilisation”",
+            "nodes": [
+              "Ancient",
+              "Inca",
+              "Civilisation"
+            ]
+          },
+          "wiki_title": "Ancient Inca Civilisation"
         },
         {
           "id": "world-history-g2-l17",
@@ -15436,7 +16046,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The History of Timekeeping"
         },
         {
           "id": "world-history-g2-l18",
@@ -15506,7 +16117,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Early Farming and Agriculture”",
+            "nodes": [
+              "Early",
+              "Farming",
+              "Agriculture"
+            ]
+          },
+          "wiki_title": "Early Farming and Agriculture"
         },
         {
           "id": "world-history-g2-l19",
@@ -15577,7 +16197,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ancient Africa: The Kingdom of Mali”",
+            "nodes": [
+              "Ancient",
+              "Africa",
+              "Kingdom",
+              "Mali"
+            ]
+          },
+          "wiki_title": "Ancient Africa: The Kingdom of Mali"
         },
         {
           "id": "world-history-g2-l20",
@@ -15649,7 +16279,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “How We Learn About the Past: Artifacts and Fossils”",
+            "nodes": [
+              "Learn",
+              "About",
+              "Past",
+              "Artifacts",
+              "Fossils"
+            ]
+          },
+          "wiki_title": "How We Learn About the Past: Artifacts and Fossils"
         }
       ]
     },
@@ -16340,7 +16981,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Five Pillars of Islam”",
+            "nodes": [
+              "Shahada",
+              "Salah",
+              "Zakat",
+              "Sawm",
+              "Hajj",
+              "prayer"
+            ]
+          },
+          "wiki_title": "The Five Pillars of Islam"
         },
         {
           "id": "islamic-studies-g2-l2",
@@ -16409,7 +17062,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Belief in One God (Tawheed)"
         },
         {
           "id": "islamic-studies-g2-l3",
@@ -16480,7 +17134,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Prophet Muhammad: A Model of Kindness”",
+            "nodes": [
+              "Prophet",
+              "Muhammad",
+              "Model",
+              "Kindness"
+            ]
+          },
+          "wiki_title": "The Prophet Muhammad: A Model of Kindness"
         },
         {
           "id": "islamic-studies-g2-l4",
@@ -16550,7 +17214,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Value of Honesty in Islam”",
+            "nodes": [
+              "Value",
+              "Honesty",
+              "Islam"
+            ]
+          },
+          "wiki_title": "The Value of Honesty in Islam"
         },
         {
           "id": "islamic-studies-g2-l5",
@@ -16622,7 +17295,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Importance of Prayer (Salah) in Daily Life”",
+            "nodes": [
+              "Importance",
+              "Prayer",
+              "(Salah)",
+              "Daily",
+              "Life"
+            ]
+          },
+          "wiki_title": "The Importance of Prayer (Salah) in Daily Life"
         },
         {
           "id": "islamic-studies-g2-l6",
@@ -16694,7 +17378,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Giving to Others: The Spirit of Charity (Zakat)”",
+            "nodes": [
+              "Giving",
+              "Others",
+              "Spirit",
+              "Charity",
+              "(Zakat)"
+            ]
+          },
+          "wiki_title": "Giving to Others: The Spirit of Charity (Zakat)"
         },
         {
           "id": "islamic-studies-g2-l7",
@@ -16764,7 +17459,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Fasting and Self-Discipline in Ramadan”",
+            "nodes": [
+              "Fasting",
+              "Self-Discipline",
+              "Ramadan"
+            ]
+          },
+          "wiki_title": "Fasting and Self-Discipline in Ramadan"
         },
         {
           "id": "islamic-studies-g2-l8",
@@ -16832,7 +17536,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Two Eid Celebrations"
         },
         {
           "id": "islamic-studies-g2-l9",
@@ -16902,7 +17607,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Respecting Parents and Elders”",
+            "nodes": [
+              "Respecting",
+              "Parents",
+              "Elders"
+            ]
+          },
+          "wiki_title": "Respecting Parents and Elders"
         },
         {
           "id": "islamic-studies-g2-l10",
@@ -16972,7 +17686,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Being Kind to Animals”",
+            "nodes": [
+              "Being",
+              "Kind",
+              "Animals"
+            ]
+          },
+          "wiki_title": "Being Kind to Animals"
         },
         {
           "id": "islamic-studies-g2-l11",
@@ -17042,7 +17765,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Value of Cleanliness in Islam”",
+            "nodes": [
+              "Value",
+              "Cleanliness",
+              "Islam"
+            ]
+          },
+          "wiki_title": "The Value of Cleanliness in Islam"
         },
         {
           "id": "islamic-studies-g2-l12",
@@ -17112,7 +17844,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Mosque as a Place of Worship”",
+            "nodes": [
+              "Mosque",
+              "Place",
+              "Worship"
+            ]
+          },
+          "wiki_title": "The Mosque as a Place of Worship"
         },
         {
           "id": "islamic-studies-g2-l13",
@@ -17182,7 +17923,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Holy Quran as a Guide”",
+            "nodes": [
+              "Holy",
+              "Quran",
+              "Guide"
+            ]
+          },
+          "wiki_title": "The Holy Quran as a Guide"
         },
         {
           "id": "islamic-studies-g2-l14",
@@ -17253,7 +18003,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Stories of the Prophets: Lessons in Patience”",
+            "nodes": [
+              "Stories",
+              "Prophets",
+              "Lessons",
+              "Patience"
+            ]
+          },
+          "wiki_title": "Stories of the Prophets: Lessons in Patience"
         },
         {
           "id": "islamic-studies-g2-l15",
@@ -17323,7 +18083,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sharing and Caring for Neighbors”",
+            "nodes": [
+              "Sharing",
+              "Caring",
+              "Neighbors"
+            ]
+          },
+          "wiki_title": "Sharing and Caring for Neighbors"
         },
         {
           "id": "islamic-studies-g2-l16",
@@ -17395,7 +18164,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Saying Thank You: Gratitude in Islam”",
+            "nodes": [
+              "Saying",
+              "Thank",
+              "You",
+              "Gratitude",
+              "Islam"
+            ]
+          },
+          "wiki_title": "Saying Thank You: Gratitude in Islam"
         },
         {
           "id": "islamic-studies-g2-l17",
@@ -17466,7 +18246,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Good Manners and Speaking Kindly”",
+            "nodes": [
+              "Good",
+              "Manners",
+              "Speaking",
+              "Kindly"
+            ]
+          },
+          "wiki_title": "Good Manners and Speaking Kindly"
         },
         {
           "id": "islamic-studies-g2-l18",
@@ -17536,7 +18326,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Helping Those in Need”",
+            "nodes": [
+              "Helping",
+              "Those",
+              "Need"
+            ]
+          },
+          "wiki_title": "Helping Those in Need"
         },
         {
           "id": "islamic-studies-g2-l19",
@@ -17605,7 +18404,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Importance of Truthfulness"
         },
         {
           "id": "islamic-studies-g2-l20",
@@ -17676,7 +18476,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Islamic Greetings and Their Meanings”",
+            "nodes": [
+              "Islamic",
+              "Greetings",
+              "Meanings"
+            ]
+          },
+          "wiki_title": "Islamic Greetings and Their Meanings"
         }
       ]
     },
@@ -18339,7 +19148,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Algorithms”",
+            "nodes": [
+              "algorithm",
+              "sequence",
+              "instruction",
+              "steps",
+              "order"
+            ]
+          },
+          "wiki_title": "Algorithms"
         },
         {
           "id": "coding-g2-l2",
@@ -18409,7 +19229,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “What is a Computer Program?”",
+            "nodes": [
+              "What",
+              "Computer",
+              "Program?"
+            ]
+          },
+          "wiki_title": "What is a Computer Program?"
         },
         {
           "id": "coding-g2-l3",
@@ -18479,7 +19308,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sequencing: Step-by-Step Instructions”",
+            "nodes": [
+              "Sequencing",
+              "Step-by-Step",
+              "Instructions"
+            ]
+          },
+          "wiki_title": "Sequencing: Step-by-Step Instructions"
         },
         {
           "id": "coding-g2-l4",
@@ -18551,7 +19389,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Following Directions: Up, Down, Left, Right”",
+            "nodes": [
+              "Following",
+              "Directions",
+              "Down",
+              "Left",
+              "Right"
+            ]
+          },
+          "wiki_title": "Following Directions: Up, Down, Left, Right"
         },
         {
           "id": "coding-g2-l5",
@@ -18621,7 +19470,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Loops: Repeating Actions”",
+            "nodes": [
+              "Loops",
+              "Repeating",
+              "Actions"
+            ]
+          },
+          "wiki_title": "Loops: Repeating Actions"
         },
         {
           "id": "coding-g2-l6",
@@ -18692,7 +19550,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Conditionals: If-Then Thinking”",
+            "nodes": [
+              "Introduction",
+              "Conditionals",
+              "If-Then",
+              "Thinking"
+            ]
+          },
+          "wiki_title": "Conditionals: If-Then Thinking"
         },
         {
           "id": "coding-g2-l7",
@@ -18763,7 +19631,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Debugging: Finding and Fixing Mistakes”",
+            "nodes": [
+              "Debugging",
+              "Finding",
+              "Fixing",
+              "Mistakes"
+            ]
+          },
+          "wiki_title": "Debugging: Finding and Fixing Mistakes"
         },
         {
           "id": "coding-g2-l8",
@@ -18833,7 +19711,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Block-Based Coding”",
+            "nodes": [
+              "Introduction",
+              "Block-Based",
+              "Coding"
+            ]
+          },
+          "wiki_title": "Block-Based Coding"
         },
         {
           "id": "coding-g2-l9",
@@ -18903,7 +19790,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Making a Sprite Move”",
+            "nodes": [
+              "Making",
+              "Sprite",
+              "Move"
+            ]
+          },
+          "wiki_title": "Making a Sprite Move"
         },
         {
           "id": "coding-g2-l10",
@@ -18973,7 +19869,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Creating Simple Animations”",
+            "nodes": [
+              "Creating",
+              "Simple",
+              "Animations"
+            ]
+          },
+          "wiki_title": "Creating Simple Animations"
         },
         {
           "id": "coding-g2-l11",
@@ -19042,7 +19947,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Patterns in Code"
         },
         {
           "id": "coding-g2-l12",
@@ -19114,7 +20020,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Decomposition: Breaking Down Problems”",
+            "nodes": [
+              "Introduction",
+              "Decomposition",
+              "Breaking",
+              "Down",
+              "Problems"
+            ]
+          },
+          "wiki_title": "Decomposition: Breaking Down Problems"
         },
         {
           "id": "coding-g2-l13",
@@ -19186,7 +20103,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Binary Basics: Computers and On-Off Signals”",
+            "nodes": [
+              "Binary",
+              "Basics",
+              "Computers",
+              "On-Off",
+              "Signals"
+            ]
+          },
+          "wiki_title": "Binary Basics: Computers and On-Off Signals"
         },
         {
           "id": "coding-g2-l14",
@@ -19255,7 +20183,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Robots"
         },
         {
           "id": "coding-g2-l15",
@@ -19325,7 +20254,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Giving Instructions to a Robot”",
+            "nodes": [
+              "Giving",
+              "Instructions",
+              "Robot"
+            ]
+          },
+          "wiki_title": "Giving Instructions to a Robot"
         },
         {
           "id": "coding-g2-l16",
@@ -19396,7 +20334,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sorting and Ordering with Code”",
+            "nodes": [
+              "Sorting",
+              "Ordering",
+              "Code"
+            ]
+          },
+          "wiki_title": "Sorting and Ordering with Code"
         },
         {
           "id": "coding-g2-l17",
@@ -19466,7 +20413,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Events in Programs”",
+            "nodes": [
+              "Introduction",
+              "Events",
+              "Programs"
+            ]
+          },
+          "wiki_title": "Events in Programs"
         },
         {
           "id": "coding-g2-l18",
@@ -19536,7 +20492,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Coding a Simple Story”",
+            "nodes": [
+              "Coding",
+              "Simple",
+              "Story"
+            ]
+          },
+          "wiki_title": "Coding a Simple Story"
         },
         {
           "id": "coding-g2-l19",
@@ -19606,7 +20571,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Variables as Boxes”",
+            "nodes": [
+              "Introduction",
+              "Variables",
+              "Boxes"
+            ]
+          },
+          "wiki_title": "Variables as Boxes"
         },
         {
           "id": "coding-g2-l20",
@@ -19677,7 +20651,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Everyday Algorithms: Making a Sandwich”",
+            "nodes": [
+              "Everyday",
+              "Algorithms",
+              "Making",
+              "Sandwich"
+            ]
+          },
+          "wiki_title": "Everyday Algorithms: Making a Sandwich"
         }
       ]
     },
@@ -20752,7 +21736,19 @@
             "completed": false,
             "score": null,
             "time_spent_minutes": 0
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Myths and Legends”",
+            "nodes": [
+              "Myth",
+              "Legend",
+              "Greek Mythology",
+              "Norse Mythology",
+              "Hero",
+              "God"
+            ]
+          },
+          "wiki_title": "Myths and Legends"
         },
         {
           "id": "world-literature-g2-l2",
@@ -20823,7 +21819,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Aesop's Fables: Lessons in Wisdom”",
+            "nodes": [
+              "Aesop's",
+              "Fables",
+              "Lessons",
+              "Wisdom"
+            ]
+          },
+          "wiki_title": "Aesop's Fables: Lessons in Wisdom"
         },
         {
           "id": "world-literature-g2-l3",
@@ -20895,7 +21901,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Tortoise and the Hare: A Story About Patience”",
+            "nodes": [
+              "Tortoise",
+              "Hare",
+              "Story",
+              "About",
+              "Patience"
+            ]
+          },
+          "wiki_title": "The Tortoise and the Hare: A Story About Patience"
         },
         {
           "id": "world-literature-g2-l4",
@@ -20967,7 +21984,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Anansi the Spider: West African Trickster Tales”",
+            "nodes": [
+              "Anansi",
+              "Spider",
+              "West",
+              "African",
+              "Trickster"
+            ]
+          },
+          "wiki_title": "Anansi the Spider: West African Trickster Tales"
         },
         {
           "id": "world-literature-g2-l5",
@@ -21039,7 +22067,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Boy Who Cried Wolf: A Story About Honesty”",
+            "nodes": [
+              "Cried",
+              "Wolf",
+              "Story",
+              "About",
+              "Honesty"
+            ]
+          },
+          "wiki_title": "The Boy Who Cried Wolf: A Story About Honesty"
         },
         {
           "id": "world-literature-g2-l6",
@@ -21109,7 +22148,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Cinderella Around the World”",
+            "nodes": [
+              "Cinderella",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Cinderella Around the World"
         },
         {
           "id": "world-literature-g2-l7",
@@ -21179,7 +22227,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Story of the Ugly Duckling”",
+            "nodes": [
+              "Story",
+              "Ugly",
+              "Duckling"
+            ]
+          },
+          "wiki_title": "The Story of the Ugly Duckling"
         },
         {
           "id": "world-literature-g2-l8",
@@ -21251,7 +22308,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Little Red Riding Hood: A Classic Fairy Tale”",
+            "nodes": [
+              "Little",
+              "Riding",
+              "Hood",
+              "Classic",
+              "Fairy"
+            ]
+          },
+          "wiki_title": "Little Red Riding Hood: A Classic Fairy Tale"
         },
         {
           "id": "world-literature-g2-l9",
@@ -21323,7 +22391,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Three Little Pigs: A Story About Hard Work”",
+            "nodes": [
+              "Three",
+              "Little",
+              "Pigs",
+              "Story",
+              "About"
+            ]
+          },
+          "wiki_title": "The Three Little Pigs: A Story About Hard Work"
         },
         {
           "id": "world-literature-g2-l10",
@@ -21393,7 +22472,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Goldilocks and the Three Bears”",
+            "nodes": [
+              "Goldilocks",
+              "Three",
+              "Bears"
+            ]
+          },
+          "wiki_title": "Goldilocks and the Three Bears"
         },
         {
           "id": "world-literature-g2-l11",
@@ -21463,7 +22551,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Tale of Peter Rabbit”",
+            "nodes": [
+              "Tale",
+              "Peter",
+              "Rabbit"
+            ]
+          },
+          "wiki_title": "The Tale of Peter Rabbit"
         },
         {
           "id": "world-literature-g2-l12",
@@ -21534,7 +22631,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Grimm's Fairy Tales: An Introduction”",
+            "nodes": [
+              "Grimm's",
+              "Fairy",
+              "Tales",
+              "Introduction"
+            ]
+          },
+          "wiki_title": "Grimm's Fairy Tales: An Introduction"
         },
         {
           "id": "world-literature-g2-l13",
@@ -21605,7 +22712,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Hans Christian Andersen's Tales”",
+            "nodes": [
+              "Hans",
+              "Christian",
+              "Andersen's",
+              "Tales"
+            ]
+          },
+          "wiki_title": "Hans Christian Andersen's Tales"
         },
         {
           "id": "world-literature-g2-l14",
@@ -21677,7 +22794,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Panchatantra: Animal Tales from India”",
+            "nodes": [
+              "Panchatantra",
+              "Animal",
+              "Tales",
+              "India"
+            ]
+          },
+          "wiki_title": "The Panchatantra: Animal Tales from India"
         },
         {
           "id": "world-literature-g2-l15",
@@ -21749,7 +22876,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Journey to the West: A Chinese Folk Tale”",
+            "nodes": [
+              "Journey",
+              "West",
+              "Chinese",
+              "Folk",
+              "Tale"
+            ]
+          },
+          "wiki_title": "Journey to the West: A Chinese Folk Tale"
         },
         {
           "id": "world-literature-g2-l16",
@@ -21821,7 +22959,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Arabian Nights: Tales from the Middle East”",
+            "nodes": [
+              "Arabian",
+              "Nights",
+              "Tales",
+              "Middle"
+            ]
+          },
+          "wiki_title": "The Arabian Nights: Tales from the Middle East"
         },
         {
           "id": "world-literature-g2-l17",
@@ -21892,7 +23040,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Native American Folk Tales”",
+            "nodes": [
+              "Native",
+              "American",
+              "Folk",
+              "Tales"
+            ]
+          },
+          "wiki_title": "Native American Folk Tales"
         },
         {
           "id": "world-literature-g2-l18",
@@ -21962,7 +23120,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Legend of the Monkey King”",
+            "nodes": [
+              "Legend",
+              "Monkey",
+              "King"
+            ]
+          },
+          "wiki_title": "The Legend of the Monkey King"
         },
         {
           "id": "world-literature-g2-l19",
@@ -22032,7 +23199,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Momotaro: The Peach Boy of Japan”",
+            "nodes": [
+              "Momotaro",
+              "Peach",
+              "Japan"
+            ]
+          },
+          "wiki_title": "Momotaro: The Peach Boy of Japan"
         },
         {
           "id": "world-literature-g2-l20",
@@ -22104,7 +23280,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “The Fox and the Grapes: A Fable About Wanting What We Can't Have”",
+            "nodes": [
+              "Grapes",
+              "Fable",
+              "About",
+              "Wanting",
+              "What"
+            ]
+          },
+          "wiki_title": "The Fox and the Grapes: A Fable About Wanting What We Can't Have"
         }
       ]
     },
@@ -22893,7 +24080,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Colour Mixing”",
+            "nodes": [
+              "primary colour",
+              "secondary colour",
+              "colour wheel",
+              "mixing",
+              "hue",
+              "shade"
+            ]
+          },
+          "wiki_title": "Colour Mixing"
         },
         {
           "id": "art-g2-l2",
@@ -22963,7 +24162,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Primary and Secondary Colours”",
+            "nodes": [
+              "Primary",
+              "Secondary",
+              "Colours"
+            ]
+          },
+          "wiki_title": "Primary and Secondary Colours"
         },
         {
           "id": "art-g2-l3",
@@ -23033,7 +24241,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Warm and Cool Colours”",
+            "nodes": [
+              "Warm",
+              "Cool",
+              "Colours"
+            ]
+          },
+          "wiki_title": "Warm and Cool Colours"
         },
         {
           "id": "art-g2-l4",
@@ -23103,7 +24320,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Drawing Lines and Shapes”",
+            "nodes": [
+              "Drawing",
+              "Lines",
+              "Shapes"
+            ]
+          },
+          "wiki_title": "Drawing Lines and Shapes"
         },
         {
           "id": "art-g2-l5",
@@ -23172,7 +24398,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Texture in Art"
         },
         {
           "id": "art-g2-l6",
@@ -23242,7 +24469,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Painting Techniques for Beginners”",
+            "nodes": [
+              "Painting",
+              "Techniques",
+              "Beginners"
+            ]
+          },
+          "wiki_title": "Painting Techniques for Beginners"
         },
         {
           "id": "art-g2-l7",
@@ -23311,7 +24547,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Collage"
         },
         {
           "id": "art-g2-l8",
@@ -23381,7 +24618,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Clay Modeling Basics”",
+            "nodes": [
+              "Clay",
+              "Modeling",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Clay Modeling Basics"
         },
         {
           "id": "art-g2-l9",
@@ -23452,7 +24698,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Printmaking with Everyday Objects”",
+            "nodes": [
+              "Printmaking",
+              "Everyday",
+              "Objects"
+            ]
+          },
+          "wiki_title": "Printmaking with Everyday Objects"
         },
         {
           "id": "art-g2-l10",
@@ -23520,7 +24775,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Self-Portraits"
         },
         {
           "id": "art-g2-l11",
@@ -23589,7 +24845,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Drawing Animals"
         },
         {
           "id": "art-g2-l12",
@@ -23659,7 +24916,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Drawing Nature and Landscapes”",
+            "nodes": [
+              "Drawing",
+              "Nature",
+              "Landscapes"
+            ]
+          },
+          "wiki_title": "Drawing Nature and Landscapes"
         },
         {
           "id": "art-g2-l13",
@@ -23729,7 +24995,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Famous Artists”",
+            "nodes": [
+              "Introduction",
+              "Famous",
+              "Artists"
+            ]
+          },
+          "wiki_title": "Famous Artists"
         },
         {
           "id": "art-g2-l14",
@@ -23798,7 +25073,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Patterns and Shapes in Art"
         },
         {
           "id": "art-g2-l15",
@@ -23869,7 +25145,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Paper Folding and Origami Basics”",
+            "nodes": [
+              "Paper",
+              "Folding",
+              "Origami",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Paper Folding and Origami Basics"
         },
         {
           "id": "art-g2-l16",
@@ -23939,7 +25225,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Perspective: Near and Far”",
+            "nodes": [
+              "Introduction",
+              "Perspective",
+              "Near"
+            ]
+          },
+          "wiki_title": "Perspective: Near and Far"
         },
         {
           "id": "art-g2-l17",
@@ -24011,7 +25306,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Using Light and Dark: Shading Basics”",
+            "nodes": [
+              "Using",
+              "Light",
+              "Dark",
+              "Shading",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Using Light and Dark: Shading Basics"
         },
         {
           "id": "art-g2-l18",
@@ -24082,7 +25388,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Creating Art with Recycled Materials”",
+            "nodes": [
+              "Creating",
+              "Recycled",
+              "Materials"
+            ]
+          },
+          "wiki_title": "Creating Art with Recycled Materials"
         },
         {
           "id": "art-g2-l19",
@@ -24151,7 +25466,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Sculpture"
         },
         {
           "id": "art-g2-l20",
@@ -24221,7 +25537,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Art from Around the World"
         }
       ]
     },
@@ -24886,7 +26203,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Rhythm and Beat”",
+            "nodes": [
+              "beat",
+              "rhythm",
+              "tempo",
+              "allegro",
+              "adagio",
+              "pulse"
+            ]
+          },
+          "wiki_title": "Rhythm and Beat"
         },
         {
           "id": "music-g2-l2",
@@ -24957,7 +26286,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “High and Low Sounds: Introduction to Pitch”",
+            "nodes": [
+              "High",
+              "Sounds",
+              "Introduction",
+              "Pitch"
+            ]
+          },
+          "wiki_title": "High and Low Sounds: Introduction to Pitch"
         },
         {
           "id": "music-g2-l3",
@@ -25028,7 +26367,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Loud and Soft: Introduction to Dynamics”",
+            "nodes": [
+              "Loud",
+              "Soft",
+              "Introduction",
+              "Dynamics"
+            ]
+          },
+          "wiki_title": "Loud and Soft: Introduction to Dynamics"
         },
         {
           "id": "music-g2-l4",
@@ -25099,7 +26448,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Fast and Slow: Introduction to Tempo”",
+            "nodes": [
+              "Fast",
+              "Slow",
+              "Introduction",
+              "Tempo"
+            ]
+          },
+          "wiki_title": "Fast and Slow: Introduction to Tempo"
         },
         {
           "id": "music-g2-l5",
@@ -25169,7 +26528,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Musical Instruments”",
+            "nodes": [
+              "Introduction",
+              "Musical",
+              "Instruments"
+            ]
+          },
+          "wiki_title": "Musical Instruments"
         },
         {
           "id": "music-g2-l6",
@@ -25238,7 +26606,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Percussion Family"
         },
         {
           "id": "music-g2-l7",
@@ -25307,7 +26676,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The String Family"
         },
         {
           "id": "music-g2-l8",
@@ -25376,7 +26746,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "The Wind Family"
         },
         {
           "id": "music-g2-l9",
@@ -25447,7 +26818,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Singing Simple Songs Together”",
+            "nodes": [
+              "Singing",
+              "Simple",
+              "Songs",
+              "Together"
+            ]
+          },
+          "wiki_title": "Singing Simple Songs Together"
         },
         {
           "id": "music-g2-l10",
@@ -25517,7 +26898,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Musical Notes”",
+            "nodes": [
+              "Introduction",
+              "Musical",
+              "Notes"
+            ]
+          },
+          "wiki_title": "Musical Notes"
         },
         {
           "id": "music-g2-l11",
@@ -25588,7 +26978,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Clapping Patterns and Rhythm Games”",
+            "nodes": [
+              "Clapping",
+              "Patterns",
+              "Rhythm",
+              "Games"
+            ]
+          },
+          "wiki_title": "Clapping Patterns and Rhythm Games"
         },
         {
           "id": "music-g2-l12",
@@ -25657,7 +27057,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Melody"
         },
         {
           "id": "music-g2-l13",
@@ -25728,7 +27129,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Music from Around the World”",
+            "nodes": [
+              "Music",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Music from Around the World"
         },
         {
           "id": "music-g2-l14",
@@ -25800,7 +27210,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Making Music with Everyday Objects”",
+            "nodes": [
+              "Making",
+              "Music",
+              "Everyday",
+              "Objects"
+            ]
+          },
+          "wiki_title": "Making Music with Everyday Objects"
         },
         {
           "id": "music-g2-l15",
@@ -25870,7 +27290,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to the Human Voice”",
+            "nodes": [
+              "Introduction",
+              "Human",
+              "Voice"
+            ]
+          },
+          "wiki_title": "the Human Voice"
         },
         {
           "id": "music-g2-l16",
@@ -25942,7 +27371,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Following a Simple Beat with Body Percussion”",
+            "nodes": [
+              "Following",
+              "Simple",
+              "Beat",
+              "Body"
+            ]
+          },
+          "wiki_title": "Following a Simple Beat with Body Percussion"
         },
         {
           "id": "music-g2-l17",
@@ -26013,7 +27452,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Musical Silence: Rests”",
+            "nodes": [
+              "Introduction",
+              "Musical",
+              "Silence",
+              "Rests"
+            ]
+          },
+          "wiki_title": "Musical Silence: Rests"
         },
         {
           "id": "music-g2-l18",
@@ -26083,7 +27532,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Call and Response Songs”",
+            "nodes": [
+              "Call",
+              "Response",
+              "Songs"
+            ]
+          },
+          "wiki_title": "Call and Response Songs"
         },
         {
           "id": "music-g2-l19",
@@ -26154,7 +27612,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Reading Simple Rhythms”",
+            "nodes": [
+              "Introduction",
+              "Reading",
+              "Simple",
+              "Rhythms"
+            ]
+          },
+          "wiki_title": "Reading Simple Rhythms"
         },
         {
           "id": "music-g2-l20",
@@ -26225,7 +27693,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Moving to Music: Introduction to Dance”",
+            "nodes": [
+              "Moving",
+              "Music",
+              "Introduction",
+              "Dance"
+            ]
+          },
+          "wiki_title": "Moving to Music: Introduction to Dance"
         }
       ]
     },
@@ -27048,7 +28526,18 @@
             "completed": false,
             "score": null,
             "time_spent_minutes": 0
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Countries and Flags”",
+            "nodes": [
+              "Country",
+              "Flag",
+              "Capital City",
+              "Continent",
+              "Symbol"
+            ]
+          },
+          "wiki_title": "Countries and Flags"
         },
         {
           "id": "general-knowledge-g2-l2",
@@ -27118,7 +28607,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Famous Landmarks of the World”",
+            "nodes": [
+              "Famous",
+              "Landmarks",
+              "World"
+            ]
+          },
+          "wiki_title": "Famous Landmarks of the World"
         },
         {
           "id": "general-knowledge-g2-l3",
@@ -27187,7 +28685,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "World Currencies"
         },
         {
           "id": "general-knowledge-g2-l4",
@@ -27256,7 +28755,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "National Symbols"
         },
         {
           "id": "general-knowledge-g2-l5",
@@ -27327,7 +28827,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Famous Inventors and Their Inventions”",
+            "nodes": [
+              "Famous",
+              "Inventors",
+              "Inventions"
+            ]
+          },
+          "wiki_title": "Famous Inventors and Their Inventions"
         },
         {
           "id": "general-knowledge-g2-l6",
@@ -27397,7 +28906,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Space Facts for Kids”",
+            "nodes": [
+              "Space",
+              "Facts",
+              "Kids"
+            ]
+          },
+          "wiki_title": "Space Facts for Kids"
         },
         {
           "id": "general-knowledge-g2-l7",
@@ -27467,7 +28985,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Ocean Animals and Facts”",
+            "nodes": [
+              "Ocean",
+              "Animals",
+              "Facts"
+            ]
+          },
+          "wiki_title": "Ocean Animals and Facts"
         },
         {
           "id": "general-knowledge-g2-l8",
@@ -27536,7 +29063,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Animals of the World"
         },
         {
           "id": "general-knowledge-g2-l9",
@@ -27605,7 +29133,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Famous Explorers"
         },
         {
           "id": "general-knowledge-g2-l10",
@@ -27675,7 +29204,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to World Languages”",
+            "nodes": [
+              "Introduction",
+              "World",
+              "Languages"
+            ]
+          },
+          "wiki_title": "World Languages"
         },
         {
           "id": "general-knowledge-g2-l11",
@@ -27746,7 +29284,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Traditional Foods Around the World”",
+            "nodes": [
+              "Traditional",
+              "Foods",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Traditional Foods Around the World"
         },
         {
           "id": "general-knowledge-g2-l12",
@@ -27818,7 +29366,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Time Zones: Day and Night Around the World”",
+            "nodes": [
+              "Time",
+              "Zones",
+              "Night",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Time Zones: Day and Night Around the World"
         },
         {
           "id": "general-knowledge-g2-l13",
@@ -27889,7 +29448,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Famous Festivals Around the World”",
+            "nodes": [
+              "Famous",
+              "Festivals",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Famous Festivals Around the World"
         },
         {
           "id": "general-knowledge-g2-l14",
@@ -27959,7 +29528,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Transportation Inventions”",
+            "nodes": [
+              "Introduction",
+              "Transportation",
+              "Inventions"
+            ]
+          },
+          "wiki_title": "Transportation Inventions"
         },
         {
           "id": "general-knowledge-g2-l15",
@@ -28029,7 +29607,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “World Sports and Games”",
+            "nodes": [
+              "World",
+              "Sports",
+              "Games"
+            ]
+          },
+          "wiki_title": "World Sports and Games"
         },
         {
           "id": "general-knowledge-g2-l16",
@@ -28099,7 +29686,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Famous Buildings and Structures”",
+            "nodes": [
+              "Famous",
+              "Buildings",
+              "Structures"
+            ]
+          },
+          "wiki_title": "Famous Buildings and Structures"
         },
         {
           "id": "general-knowledge-g2-l17",
@@ -28168,7 +29764,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Endangered Animals"
         },
         {
           "id": "general-knowledge-g2-l18",
@@ -28238,7 +29835,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Recycling and Sustainability”",
+            "nodes": [
+              "Introduction",
+              "Recycling",
+              "Sustainability"
+            ]
+          },
+          "wiki_title": "Recycling and Sustainability"
         },
         {
           "id": "general-knowledge-g2-l19",
@@ -28308,7 +29914,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Community Roles and Jobs”",
+            "nodes": [
+              "Community",
+              "Roles",
+              "Jobs"
+            ]
+          },
+          "wiki_title": "Community Roles and Jobs"
         },
         {
           "id": "general-knowledge-g2-l20",
@@ -28379,7 +29994,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Fun Facts About the Human Body”",
+            "nodes": [
+              "Facts",
+              "About",
+              "Human",
+              "Body"
+            ]
+          },
+          "wiki_title": "Fun Facts About the Human Body"
         }
       ]
     },
@@ -29032,7 +30657,18 @@
             "completed": false,
             "score": null,
             "time_spent_minutes": 0
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Hello in Arabic!”",
+            "nodes": [
+              "Greeting",
+              "Introduction",
+              "Numbers",
+              "Arabic Script",
+              "Right-to-left"
+            ]
+          },
+          "wiki_title": "Hello in Arabic!"
         },
         {
           "id": "foreign-languages-g2-l2",
@@ -29101,7 +30737,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Numbers in Spanish"
         },
         {
           "id": "foreign-languages-g2-l3",
@@ -29170,7 +30807,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Colours in French"
         },
         {
           "id": "foreign-languages-g2-l4",
@@ -29240,7 +30878,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Family Words in Bangla”",
+            "nodes": [
+              "Family",
+              "Words",
+              "Bangla"
+            ]
+          },
+          "wiki_title": "Family Words in Bangla"
         },
         {
           "id": "foreign-languages-g2-l5",
@@ -29309,7 +30956,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Numbers in Arabic"
         },
         {
           "id": "foreign-languages-g2-l6",
@@ -29379,7 +31027,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Days of the Week in Spanish”",
+            "nodes": [
+              "Days",
+              "Week",
+              "Spanish"
+            ]
+          },
+          "wiki_title": "Days of the Week in Spanish"
         },
         {
           "id": "foreign-languages-g2-l7",
@@ -29448,7 +31105,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Greetings in French"
         },
         {
           "id": "foreign-languages-g2-l8",
@@ -29517,7 +31175,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Animals in Bangla"
         },
         {
           "id": "foreign-languages-g2-l9",
@@ -29586,7 +31245,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Counting to Ten in French"
         },
         {
           "id": "foreign-languages-g2-l10",
@@ -29656,7 +31316,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Family Words in Arabic”",
+            "nodes": [
+              "Family",
+              "Words",
+              "Arabic"
+            ]
+          },
+          "wiki_title": "Family Words in Arabic"
         },
         {
           "id": "foreign-languages-g2-l11",
@@ -29726,7 +31395,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Common Phrases in Spanish”",
+            "nodes": [
+              "Common",
+              "Phrases",
+              "Spanish"
+            ]
+          },
+          "wiki_title": "Common Phrases in Spanish"
         },
         {
           "id": "foreign-languages-g2-l12",
@@ -29795,7 +31473,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Colours in Bangla"
         },
         {
           "id": "foreign-languages-g2-l13",
@@ -29865,7 +31544,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Basic Greetings in Bangla”",
+            "nodes": [
+              "Basic",
+              "Greetings",
+              "Bangla"
+            ]
+          },
+          "wiki_title": "Basic Greetings in Bangla"
         },
         {
           "id": "foreign-languages-g2-l14",
@@ -29934,7 +31622,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Numbers in French"
         },
         {
           "id": "foreign-languages-g2-l15",
@@ -30004,7 +31693,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Simple Words in Urdu”",
+            "nodes": [
+              "Simple",
+              "Words",
+              "Urdu"
+            ]
+          },
+          "wiki_title": "Simple Words in Urdu"
         },
         {
           "id": "foreign-languages-g2-l16",
@@ -30073,7 +31771,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Greetings in Turkish"
         },
         {
           "id": "foreign-languages-g2-l17",
@@ -30143,7 +31842,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Family Words in Spanish”",
+            "nodes": [
+              "Family",
+              "Words",
+              "Spanish"
+            ]
+          },
+          "wiki_title": "Family Words in Spanish"
         },
         {
           "id": "foreign-languages-g2-l18",
@@ -30213,7 +31921,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Days of the Week in Bangla”",
+            "nodes": [
+              "Days",
+              "Week",
+              "Bangla"
+            ]
+          },
+          "wiki_title": "Days of the Week in Bangla"
         },
         {
           "id": "foreign-languages-g2-l19",
@@ -30282,7 +31999,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Colours in Spanish"
         },
         {
           "id": "foreign-languages-g2-l20",
@@ -30352,7 +32070,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Common Phrases in Arabic”",
+            "nodes": [
+              "Common",
+              "Phrases",
+              "Arabic"
+            ]
+          },
+          "wiki_title": "Common Phrases in Arabic"
         }
       ]
     },
@@ -31003,7 +32730,19 @@
             "completed": false,
             "score": null,
             "time_spent_minutes": 0
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Needs and Wants”",
+            "nodes": [
+              "Needs",
+              "Wants",
+              "Choice",
+              "Scarcity",
+              "Resources",
+              "Prioritise"
+            ]
+          },
+          "wiki_title": "Needs and Wants"
         },
         {
           "id": "social-studies-g2-l2",
@@ -31073,7 +32812,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "My Family and Family Traditions"
         },
         {
           "id": "social-studies-g2-l3",
@@ -31143,7 +32883,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Rules and Why We Need Them”",
+            "nodes": [
+              "Rules",
+              "Need",
+              "Them"
+            ]
+          },
+          "wiki_title": "Rules and Why We Need Them"
         },
         {
           "id": "social-studies-g2-l4",
@@ -31213,7 +32962,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Being a Good Citizen”",
+            "nodes": [
+              "Being",
+              "Good",
+              "Citizen"
+            ]
+          },
+          "wiki_title": "Being a Good Citizen"
         },
         {
           "id": "social-studies-g2-l5",
@@ -31282,7 +33040,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "My Community and Its Helpers"
         },
         {
           "id": "social-studies-g2-l6",
@@ -31351,7 +33110,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Goods and Services"
         },
         {
           "id": "social-studies-g2-l7",
@@ -31420,7 +33180,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Producers and Consumers"
         },
         {
           "id": "social-studies-g2-l8",
@@ -31491,7 +33252,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Then and Now: How Life Has Changed”",
+            "nodes": [
+              "Then",
+              "Now",
+              "Life",
+              "Changed"
+            ]
+          },
+          "wiki_title": "Then and Now: How Life Has Changed"
         },
         {
           "id": "social-studies-g2-l9",
@@ -31562,7 +33333,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Cultural Celebrations Around the World”",
+            "nodes": [
+              "Cultural",
+              "Celebrations",
+              "Around",
+              "World"
+            ]
+          },
+          "wiki_title": "Cultural Celebrations Around the World"
         },
         {
           "id": "social-studies-g2-l10",
@@ -31633,7 +33414,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Working Together: Cooperation and Teamwork”",
+            "nodes": [
+              "Working",
+              "Together",
+              "Cooperation",
+              "Teamwork"
+            ]
+          },
+          "wiki_title": "Working Together: Cooperation and Teamwork"
         },
         {
           "id": "social-studies-g2-l11",
@@ -31703,7 +33494,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Fairness and Respect for Others”",
+            "nodes": [
+              "Fairness",
+              "Respect",
+              "Others"
+            ]
+          },
+          "wiki_title": "Fairness and Respect for Others"
         },
         {
           "id": "social-studies-g2-l12",
@@ -31774,7 +33574,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Voting and Making Group Decisions”",
+            "nodes": [
+              "Voting",
+              "Making",
+              "Group",
+              "Decisions"
+            ]
+          },
+          "wiki_title": "Voting and Making Group Decisions"
         },
         {
           "id": "social-studies-g2-l13",
@@ -31843,7 +33653,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Jobs in My Community"
         },
         {
           "id": "social-studies-g2-l14",
@@ -31912,7 +33723,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Maps of My Neighborhood"
         },
         {
           "id": "social-studies-g2-l15",
@@ -31982,7 +33794,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “National Symbols and Holidays”",
+            "nodes": [
+              "National",
+              "Symbols",
+              "Holidays"
+            ]
+          },
+          "wiki_title": "National Symbols and Holidays"
         },
         {
           "id": "social-studies-g2-l16",
@@ -32052,7 +33873,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Diversity and Respecting Differences”",
+            "nodes": [
+              "Diversity",
+              "Respecting",
+              "Differences"
+            ]
+          },
+          "wiki_title": "Diversity and Respecting Differences"
         },
         {
           "id": "social-studies-g2-l17",
@@ -32123,7 +33953,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Saving and Spending Money Wisely”",
+            "nodes": [
+              "Saving",
+              "Spending",
+              "Money",
+              "Wisely"
+            ]
+          },
+          "wiki_title": "Saving and Spending Money Wisely"
         },
         {
           "id": "social-studies-g2-l18",
@@ -32192,7 +34032,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "How Goods Get to Market"
         },
         {
           "id": "social-studies-g2-l19",
@@ -32263,7 +34104,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Being Responsible at Home and School”",
+            "nodes": [
+              "Being",
+              "Responsible",
+              "Home",
+              "School"
+            ]
+          },
+          "wiki_title": "Being Responsible at Home and School"
         },
         {
           "id": "social-studies-g2-l20",
@@ -32333,7 +34184,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Solving Problems Peacefully”",
+            "nodes": [
+              "Solving",
+              "Problems",
+              "Peacefully"
+            ]
+          },
+          "wiki_title": "Solving Problems Peacefully"
         }
       ]
     },
@@ -32980,7 +34840,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Body Awareness and Movement”",
+            "nodes": [
+              "muscle",
+              "bone",
+              "joint",
+              "exercise",
+              "heart rate",
+              "locomotor"
+            ]
+          },
+          "wiki_title": "Body Awareness and Movement"
         },
         {
           "id": "physical-education-self-defense-g2-l2",
@@ -33052,7 +34924,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Basic Locomotor Skills: Running, Jumping, Hopping”",
+            "nodes": [
+              "Basic",
+              "Locomotor",
+              "Skills",
+              "Running",
+              "Jumping"
+            ]
+          },
+          "wiki_title": "Basic Locomotor Skills: Running, Jumping, Hopping"
         },
         {
           "id": "physical-education-self-defense-g2-l3",
@@ -33122,7 +35005,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Balance and Coordination Games”",
+            "nodes": [
+              "Balance",
+              "Coordination",
+              "Games"
+            ]
+          },
+          "wiki_title": "Balance and Coordination Games"
         },
         {
           "id": "physical-education-self-defense-g2-l4",
@@ -33192,7 +35084,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Throwing and Catching Basics”",
+            "nodes": [
+              "Throwing",
+              "Catching",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Throwing and Catching Basics"
         },
         {
           "id": "physical-education-self-defense-g2-l5",
@@ -33262,7 +35163,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Kicking and Striking Skills”",
+            "nodes": [
+              "Kicking",
+              "Striking",
+              "Skills"
+            ]
+          },
+          "wiki_title": "Kicking and Striking Skills"
         },
         {
           "id": "physical-education-self-defense-g2-l6",
@@ -33332,7 +35242,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Team Games”",
+            "nodes": [
+              "Introduction",
+              "Team",
+              "Games"
+            ]
+          },
+          "wiki_title": "Team Games"
         },
         {
           "id": "physical-education-self-defense-g2-l7",
@@ -33401,7 +35320,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Stretching and Flexibility"
         },
         {
           "id": "physical-education-self-defense-g2-l8",
@@ -33471,7 +35391,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Warming Up and Cooling Down”",
+            "nodes": [
+              "Warming",
+              "Cooling",
+              "Down"
+            ]
+          },
+          "wiki_title": "Warming Up and Cooling Down"
         },
         {
           "id": "physical-education-self-defense-g2-l9",
@@ -33541,7 +35470,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Personal Space Awareness”",
+            "nodes": [
+              "Personal",
+              "Space",
+              "Awareness"
+            ]
+          },
+          "wiki_title": "Personal Space Awareness"
         },
         {
           "id": "physical-education-self-defense-g2-l10",
@@ -33612,7 +35550,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Basic Self-Defense Stances”",
+            "nodes": [
+              "Introduction",
+              "Basic",
+              "Self-Defense",
+              "Stances"
+            ]
+          },
+          "wiki_title": "Basic Self-Defense Stances"
         },
         {
           "id": "physical-education-self-defense-g2-l11",
@@ -33682,7 +35630,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Saying No and Setting Boundaries”",
+            "nodes": [
+              "Saying",
+              "Setting",
+              "Boundaries"
+            ]
+          },
+          "wiki_title": "Saying No and Setting Boundaries"
         },
         {
           "id": "physical-education-self-defense-g2-l12",
@@ -33752,7 +35709,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Stranger Safety Awareness”",
+            "nodes": [
+              "Stranger",
+              "Safety",
+              "Awareness"
+            ]
+          },
+          "wiki_title": "Stranger Safety Awareness"
         },
         {
           "id": "physical-education-self-defense-g2-l13",
@@ -33822,7 +35788,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Falling Safely”",
+            "nodes": [
+              "Introduction",
+              "Falling",
+              "Safely"
+            ]
+          },
+          "wiki_title": "Falling Safely"
         },
         {
           "id": "physical-education-self-defense-g2-l14",
@@ -33892,7 +35867,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Simple Tag and Chasing Games”",
+            "nodes": [
+              "Simple",
+              "Chasing",
+              "Games"
+            ]
+          },
+          "wiki_title": "Simple Tag and Chasing Games"
         },
         {
           "id": "physical-education-self-defense-g2-l15",
@@ -33962,7 +35946,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Jump Rope Basics”",
+            "nodes": [
+              "Jump",
+              "Rope",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Jump Rope Basics"
         },
         {
           "id": "physical-education-self-defense-g2-l16",
@@ -34032,7 +36025,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Yoga for Kids”",
+            "nodes": [
+              "Introduction",
+              "Yoga",
+              "Kids"
+            ]
+          },
+          "wiki_title": "Yoga for Kids"
         },
         {
           "id": "physical-education-self-defense-g2-l17",
@@ -34103,7 +36105,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Building Endurance Through Play”",
+            "nodes": [
+              "Building",
+              "Endurance",
+              "Through",
+              "Play"
+            ]
+          },
+          "wiki_title": "Building Endurance Through Play"
         },
         {
           "id": "physical-education-self-defense-g2-l18",
@@ -34174,7 +36186,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Following Rules in Physical Games”",
+            "nodes": [
+              "Following",
+              "Rules",
+              "Physical",
+              "Games"
+            ]
+          },
+          "wiki_title": "Following Rules in Physical Games"
         },
         {
           "id": "physical-education-self-defense-g2-l19",
@@ -34244,7 +36266,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Cooperative Games and Sportsmanship”",
+            "nodes": [
+              "Cooperative",
+              "Games",
+              "Sportsmanship"
+            ]
+          },
+          "wiki_title": "Cooperative Games and Sportsmanship"
         },
         {
           "id": "physical-education-self-defense-g2-l20",
@@ -34315,7 +36346,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Basic Blocking Movements”",
+            "nodes": [
+              "Introduction",
+              "Basic",
+              "Blocking",
+              "Movements"
+            ]
+          },
+          "wiki_title": "Basic Blocking Movements"
         }
       ]
     },
@@ -34476,7 +36517,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Healthy Habits”",
+            "nodes": [
+              "hygiene",
+              "nutrition",
+              "sleep",
+              "exercise",
+              "habit",
+              "fruit"
+            ]
+          },
+          "wiki_title": "Healthy Habits"
         },
         {
           "id": "hlt-g2-l2",
@@ -34545,7 +36598,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Germs and How They Spread”",
+            "nodes": [
+              "Germs",
+              "They",
+              "Spread"
+            ]
+          },
+          "wiki_title": "Germs and How They Spread"
         },
         {
           "id": "hlt-g2-l3",
@@ -34614,7 +36676,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Food Groups and My Plate”",
+            "nodes": [
+              "Food",
+              "Groups",
+              "Plate"
+            ]
+          },
+          "wiki_title": "Food Groups and My Plate"
         },
         {
           "id": "hlt-g2-l4",
@@ -34681,7 +36752,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Why We Exercise"
         },
         {
           "id": "hlt-g2-l5",
@@ -34751,7 +36823,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Taking Care of Your Teeth”",
+            "nodes": [
+              "Taking",
+              "Care",
+              "Teeth"
+            ]
+          },
+          "wiki_title": "Taking Care of Your Teeth"
         },
         {
           "id": "hlt-g2-l6",
@@ -34820,7 +36901,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Medicine Safety Basics”",
+            "nodes": [
+              "Medicine",
+              "Safety",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Medicine Safety Basics"
         },
         {
           "id": "health-education-g2-l7",
@@ -34889,7 +36979,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Handwashing: When and Why"
         },
         {
           "id": "health-education-g2-l8",
@@ -34959,7 +37050,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Getting Enough Sleep”",
+            "nodes": [
+              "Getting",
+              "Enough",
+              "Sleep"
+            ]
+          },
+          "wiki_title": "Getting Enough Sleep"
         },
         {
           "id": "health-education-g2-l9",
@@ -35030,7 +37130,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Staying Hydrated: Why Water Matters”",
+            "nodes": [
+              "Staying",
+              "Hydrated",
+              "Water",
+              "Matters"
+            ]
+          },
+          "wiki_title": "Staying Hydrated: Why Water Matters"
         },
         {
           "id": "health-education-g2-l10",
@@ -35100,7 +37210,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Healthy Snack Choices”",
+            "nodes": [
+              "Healthy",
+              "Snack",
+              "Choices"
+            ]
+          },
+          "wiki_title": "Healthy Snack Choices"
         },
         {
           "id": "health-education-g2-l11",
@@ -35170,7 +37289,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Recognizing and Naming Emotions”",
+            "nodes": [
+              "Recognizing",
+              "Naming",
+              "Emotions"
+            ]
+          },
+          "wiki_title": "Recognizing and Naming Emotions"
         },
         {
           "id": "health-education-g2-l12",
@@ -35240,7 +37368,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Coping with Big Feelings"
         },
         {
           "id": "health-education-g2-l13",
@@ -35310,7 +37439,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Personal Hygiene Basics”",
+            "nodes": [
+              "Personal",
+              "Hygiene",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Personal Hygiene Basics"
         },
         {
           "id": "health-education-g2-l14",
@@ -35380,7 +37518,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Sun Safety and Skin Protection”",
+            "nodes": [
+              "Safety",
+              "Skin",
+              "Protection"
+            ]
+          },
+          "wiki_title": "Sun Safety and Skin Protection"
         },
         {
           "id": "health-education-g2-l15",
@@ -35450,7 +37597,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Body Safety”",
+            "nodes": [
+              "Introduction",
+              "Body",
+              "Safety"
+            ]
+          },
+          "wiki_title": "Body Safety"
         },
         {
           "id": "health-education-g2-l16",
@@ -35519,7 +37675,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Allergies"
         },
         {
           "id": "health-education-g2-l17",
@@ -35589,7 +37746,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Visiting the Doctor and Dentist”",
+            "nodes": [
+              "Visiting",
+              "Doctor",
+              "Dentist"
+            ]
+          },
+          "wiki_title": "Visiting the Doctor and Dentist"
         },
         {
           "id": "health-education-g2-l18",
@@ -35660,7 +37826,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Staying Safe Around Strangers”",
+            "nodes": [
+              "Staying",
+              "Safe",
+              "Around",
+              "Strangers"
+            ]
+          },
+          "wiki_title": "Staying Safe Around Strangers"
         },
         {
           "id": "health-education-g2-l19",
@@ -35730,7 +37906,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to First Aid Basics”",
+            "nodes": [
+              "Introduction",
+              "First",
+              "Basics"
+            ]
+          },
+          "wiki_title": "First Aid Basics"
         },
         {
           "id": "health-education-g2-l20",
@@ -35801,7 +37986,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Screen Time and Healthy Habits”",
+            "nodes": [
+              "Screen",
+              "Time",
+              "Healthy",
+              "Habits"
+            ]
+          },
+          "wiki_title": "Screen Time and Healthy Habits"
         }
       ]
     },
@@ -35972,7 +38167,19 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 70
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to the Internet”",
+            "nodes": [
+              "internet",
+              "browser",
+              "website",
+              "URL",
+              "online",
+              "safe"
+            ]
+          },
+          "wiki_title": "the Internet"
         },
         {
           "id": "ict-computer-science-g2-l2",
@@ -36041,7 +38248,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Parts of a Computer"
         },
         {
           "id": "ict-computer-science-g2-l3",
@@ -36111,7 +38319,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Using a Mouse and Keyboard”",
+            "nodes": [
+              "Using",
+              "Mouse",
+              "Keyboard"
+            ]
+          },
+          "wiki_title": "Using a Mouse and Keyboard"
         },
         {
           "id": "ict-computer-science-g2-l4",
@@ -36180,7 +38397,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Typing"
         },
         {
           "id": "ict-computer-science-g2-l5",
@@ -36249,7 +38467,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "What is a Tablet?"
         },
         {
           "id": "ict-computer-science-g2-l6",
@@ -36321,7 +38540,18 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Staying Safe Online: Basic Rules”",
+            "nodes": [
+              "Staying",
+              "Safe",
+              "Online",
+              "Basic",
+              "Rules"
+            ]
+          },
+          "wiki_title": "Staying Safe Online: Basic Rules"
         },
         {
           "id": "ict-computer-science-g2-l7",
@@ -36390,7 +38620,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Email"
         },
         {
           "id": "ict-computer-science-g2-l8",
@@ -36460,7 +38691,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Creating a Simple Document”",
+            "nodes": [
+              "Creating",
+              "Simple",
+              "Document"
+            ]
+          },
+          "wiki_title": "Creating a Simple Document"
         },
         {
           "id": "ict-computer-science-g2-l9",
@@ -36530,7 +38770,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Drawing Programs”",
+            "nodes": [
+              "Introduction",
+              "Drawing",
+              "Programs"
+            ]
+          },
+          "wiki_title": "Drawing Programs"
         },
         {
           "id": "ict-computer-science-g2-l10",
@@ -36599,7 +38848,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "What is a Website?"
         },
         {
           "id": "ict-computer-science-g2-l11",
@@ -36669,7 +38919,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Search Engines”",
+            "nodes": [
+              "Introduction",
+              "Search",
+              "Engines"
+            ]
+          },
+          "wiki_title": "Search Engines"
         },
         {
           "id": "ict-computer-science-g2-l12",
@@ -36739,7 +38998,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Digital Citizenship Basics”",
+            "nodes": [
+              "Digital",
+              "Citizenship",
+              "Basics"
+            ]
+          },
+          "wiki_title": "Digital Citizenship Basics"
         },
         {
           "id": "ict-computer-science-g2-l13",
@@ -36808,7 +39076,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "Passwords"
         },
         {
           "id": "ict-computer-science-g2-l14",
@@ -36879,7 +39148,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to File and Folder Basics”",
+            "nodes": [
+              "Introduction",
+              "File",
+              "Folder",
+              "Basics"
+            ]
+          },
+          "wiki_title": "File and Folder Basics"
         },
         {
           "id": "ict-computer-science-g2-l15",
@@ -36948,7 +39227,8 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "wiki_title": "What is Software?"
         },
         {
           "id": "ict-computer-science-g2-l16",
@@ -37018,7 +39298,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Cloud Storage”",
+            "nodes": [
+              "Introduction",
+              "Cloud",
+              "Storage"
+            ]
+          },
+          "wiki_title": "Cloud Storage"
         },
         {
           "id": "ict-computer-science-g2-l17",
@@ -37089,7 +39378,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Recognizing Digital Devices Around Us”",
+            "nodes": [
+              "Recognizing",
+              "Digital",
+              "Devices",
+              "Around"
+            ]
+          },
+          "wiki_title": "Recognizing Digital Devices Around Us"
         },
         {
           "id": "ict-computer-science-g2-l18",
@@ -37159,7 +39458,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Video Calls”",
+            "nodes": [
+              "Introduction",
+              "Video",
+              "Calls"
+            ]
+          },
+          "wiki_title": "Video Calls"
         },
         {
           "id": "ict-computer-science-g2-l19",
@@ -37230,7 +39538,17 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Understanding Photos and Digital Images”",
+            "nodes": [
+              "Understanding",
+              "Photos",
+              "Digital",
+              "Images"
+            ]
+          },
+          "wiki_title": "Photos and Digital Images"
         },
         {
           "id": "ict-computer-science-g2-l20",
@@ -37300,7 +39618,16 @@
           "progress_tracking": {
             "completion_required": true,
             "min_quiz_score": 60
-          }
+          },
+          "figure": {
+            "caption": "Key concepts in “Introduction to Printers and Scanners”",
+            "nodes": [
+              "Introduction",
+              "Printers",
+              "Scanners"
+            ]
+          },
+          "wiki_title": "Printers and Scanners"
         }
       ]
     }
