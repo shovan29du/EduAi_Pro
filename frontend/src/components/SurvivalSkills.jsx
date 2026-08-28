@@ -3,6 +3,67 @@ import { SpeakButton } from '../utils/tts.jsx';
 
 const API = '/api';
 
+// ── Lazy Wikipedia thumbnail for a skill's real-world topic photo ──────────
+// Same honest pattern used across the app (Virtual Museum, Cuisine Centre,
+// Herbs & Spices, Subject Lessons, Practical Skills): a live fetch of a real
+// Wikipedia summary thumbnail, with a graceful no-image fallback rather than
+// ever showing a fabricated photo. Showing one per skill in a category's
+// list view doubles as a "series of pictures" gallery when browsing.
+const skillThumbCache = {};
+
+function SkillThumbnail({ wikiTitle, size = 'hero' }) {
+  const [src, setSrc] = useState(skillThumbCache[wikiTitle] || null);
+
+  useEffect(() => {
+    if (!wikiTitle) return;
+    if (skillThumbCache[wikiTitle] && skillThumbCache[wikiTitle] !== 'loading') {
+      setSrc(skillThumbCache[wikiTitle]);
+      return;
+    }
+    let cancelled = false;
+    skillThumbCache[wikiTitle] = 'loading';
+    fetch(`${API}/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const url = d?.thumbnail_url ?? null;
+        skillThumbCache[wikiTitle] = url || '';
+        if (!cancelled && url) setSrc(url);
+      })
+      .catch(() => { skillThumbCache[wikiTitle] = ''; });
+    return () => { cancelled = true; };
+  }, [wikiTitle]);
+
+  if (!src) return null;
+  if (size === 'thumb') {
+    return <img src={src} alt="" className="w-14 h-14 rounded-lg object-cover flex-shrink-0" onError={() => setSrc(null)} />;
+  }
+  return <img src={src} alt="" className="mt-3 max-h-56 w-full rounded-xl object-cover" onError={() => setSrc(null)} />;
+}
+
+// A small "Quick Facts" infographic box, built entirely from fields the
+// skill already has -- no new data needed, just a more visual summary.
+function QuickFacts({ skill }) {
+  const facts = [
+    skill.grade_range && { icon: '🎒', label: 'Grades', value: skill.grade_range },
+    skill.key_steps?.length > 0 && { icon: '📋', label: 'Steps', value: skill.key_steps.length },
+    skill.practice_activities?.length > 0 && { icon: '🎯', label: 'Activities', value: skill.practice_activities.length },
+    skill.quiz?.length > 0 && { icon: '❓', label: 'Quiz Questions', value: skill.quiz.length },
+    { icon: '👨‍👩‍👧', label: 'Supervision', value: skill.adult_supervision_required ? 'Required' : 'Not required' },
+  ].filter(Boolean);
+  if (facts.length === 0) return null;
+  return (
+    <div className="mb-5 grid grid-cols-2 sm:grid-cols-3 gap-2">
+      {facts.map((f) => (
+        <div key={f.label} className="rounded-xl border border-green-200 p-2.5 text-center">
+          <p className="text-lg">{f.icon}</p>
+          <p className="text-sm font-bold text-gray-800">{f.value}</p>
+          <p className="text-[10px] text-gray-500 uppercase tracking-wide">{f.label}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function SkillDetail({ skill, onBack }) {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -20,7 +81,35 @@ function SkillDetail({ skill, onBack }) {
         </div>
         <h2 className="text-2xl font-bold text-gray-800 flex-1">{skill.name}</h2>
         <SpeakButton text={skill.name} lang="en" />
+        {skill.wiki_title && <SkillThumbnail wikiTitle={skill.wiki_title} />}
       </div>
+
+      <QuickFacts skill={skill} />
+
+      {skill.data_table?.headers?.length > 0 && (
+        <div className="mb-5 overflow-x-auto">
+          <h3 className="font-semibold text-gray-700 mb-2">📊 Reference Table</h3>
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr>{skill.data_table.headers.map((h, i) => <th key={i} className="border bg-gray-50 p-2 text-left">{h}</th>)}</tr>
+            </thead>
+            <tbody>
+              {skill.data_table.rows.map((row, i) => (
+                <tr key={i}>{row.map((cell, j) => <td key={j} className="border p-2">{cell}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {skill.formulae?.length > 0 && (
+        <div className="mb-5 grid gap-2">
+          <h3 className="font-semibold text-gray-700 mb-1">🧮 Key Facts</h3>
+          {skill.formulae.map((f, i) => (
+            <code key={i} className="block overflow-x-auto rounded-lg bg-slate-950 p-3 text-sm text-white">{f}</code>
+          ))}
+        </div>
+      )}
 
       {skill.learning_objectives?.length > 0 && (
         <div className="mb-4">
@@ -167,6 +256,7 @@ function CategoryView({ cat, catId, onBack }) {
               className="w-full text-left rounded-xl border-2 border-green-200 bg-green-50 p-4 hover:shadow-md transition-shadow">
               <div className="flex items-start gap-3">
                 <div className="w-7 h-7 rounded-full bg-green-700 text-white text-xs flex items-center justify-center font-bold flex-shrink-0">{i + 1}</div>
+                {skill.wiki_title && <SkillThumbnail wikiTitle={skill.wiki_title} size="thumb" />}
                 <div className="flex-1">
                   <p className="font-semibold text-gray-800">{skill.name}</p>
                   <div className="flex gap-2 mt-1 flex-wrap">

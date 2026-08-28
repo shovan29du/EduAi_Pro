@@ -2,6 +2,68 @@ import { useState, useEffect } from 'react';
 
 const API = '/api';
 
+// ── Lazy Wikipedia thumbnail for a skill's real-world topic photo ──────────
+// Same honest pattern used across the app (Virtual Museum, Cuisine Centre,
+// Herbs & Spices, Subject Lessons): a live fetch of a real Wikipedia summary
+// thumbnail, with a graceful no-image fallback rather than ever showing a
+// fabricated photo. Showing one per module in a pathway's list view doubles
+// as a "series of pictures" gallery when browsing.
+const skillThumbCache = {};
+
+function SkillThumbnail({ wikiTitle, size = 'hero' }) {
+  const [src, setSrc] = useState(skillThumbCache[wikiTitle] || null);
+
+  useEffect(() => {
+    if (!wikiTitle) return;
+    if (skillThumbCache[wikiTitle] && skillThumbCache[wikiTitle] !== 'loading') {
+      setSrc(skillThumbCache[wikiTitle]);
+      return;
+    }
+    let cancelled = false;
+    skillThumbCache[wikiTitle] = 'loading';
+    fetch(`${API}/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const url = d?.thumbnail_url ?? null;
+        skillThumbCache[wikiTitle] = url || '';
+        if (!cancelled && url) setSrc(url);
+      })
+      .catch(() => { skillThumbCache[wikiTitle] = ''; });
+    return () => { cancelled = true; };
+  }, [wikiTitle]);
+
+  if (!src) return null;
+  if (size === 'thumb') {
+    return <img src={src} alt="" className="w-14 h-14 rounded-lg object-cover flex-shrink-0" onError={() => setSrc(null)} />;
+  }
+  return <img src={src} alt="" className="mt-3 max-h-56 w-full rounded-xl object-cover" onError={() => setSrc(null)} />;
+}
+
+// A small "Quick Facts" infographic box, built entirely from fields the
+// module already has -- no new data needed, just a more visual summary.
+function QuickFacts({ mod, colour }) {
+  const facts = [
+    mod.level && { icon: '📊', label: 'Level', value: mod.level },
+    mod.grade_range && { icon: '🎒', label: 'Grades', value: mod.grade_range },
+    mod.duration_minutes && { icon: '⏱', label: 'Duration', value: `${mod.duration_minutes} min` },
+    mod.steps?.length > 0 && { icon: '📋', label: 'Steps', value: mod.steps.length },
+    mod.materials_needed?.length > 0 && { icon: '🧰', label: 'Materials', value: mod.materials_needed.length },
+    mod.quiz?.length > 0 && { icon: '❓', label: 'Quiz Questions', value: mod.quiz.length },
+  ].filter(Boolean);
+  if (facts.length === 0) return null;
+  return (
+    <div className="mb-5 grid grid-cols-2 sm:grid-cols-3 gap-2">
+      {facts.map((f) => (
+        <div key={f.label} className="rounded-xl border p-2.5 text-center" style={{ borderColor: colour + '40' }}>
+          <p className="text-lg">{f.icon}</p>
+          <p className="text-sm font-bold text-gray-800">{f.value}</p>
+          <p className="text-[10px] text-gray-500 uppercase tracking-wide">{f.label}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 const COLOURS = {
   cooking: '#f59e0b', first_aid: '#ef4444', financial_literacy: '#10b981',
   coding_scratch: '#8b5cf6', coding_python: '#3b82f6', typing: '#06b6d4',
@@ -31,7 +93,35 @@ function ModuleView({ module: mod, colour, onBack }) {
         <h2 className="text-2xl font-bold text-gray-800 mt-2">{mod.title}</h2>
         <p className="text-gray-600 mt-1">{mod.description}</p>
         <p className="text-sm text-gray-500 mt-1">⏱ {mod.duration_minutes} minutes</p>
+        {mod.wiki_title && <SkillThumbnail wikiTitle={mod.wiki_title} />}
       </div>
+
+      <QuickFacts mod={mod} colour={colour} />
+
+      {mod.data_table?.headers?.length > 0 && (
+        <div className="mb-5 overflow-x-auto">
+          <h3 className="font-semibold text-gray-700 mb-2">📊 Reference Table</h3>
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr>{mod.data_table.headers.map((h, i) => <th key={i} className="border bg-gray-50 p-2 text-left">{h}</th>)}</tr>
+            </thead>
+            <tbody>
+              {mod.data_table.rows.map((row, i) => (
+                <tr key={i}>{row.map((cell, j) => <td key={j} className="border p-2">{cell}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {mod.formulae?.length > 0 && (
+        <div className="mb-5 grid gap-2">
+          <h3 className="font-semibold text-gray-700 mb-1">🧮 Key Facts</h3>
+          {mod.formulae.map((f, i) => (
+            <code key={i} className="block overflow-x-auto rounded-lg bg-slate-950 p-3 text-sm text-white">{f}</code>
+          ))}
+        </div>
+      )}
 
       {mod.learning_objectives?.length > 0 && (
         <div className="mb-5">
@@ -198,6 +288,7 @@ function PathwayView({ pathway, onBack }) {
                 style={{ borderColor: colour }}>
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm flex items-center justify-center font-bold" style={{ backgroundColor: colour }}>{i + 1}</div>
+                  {mod.wiki_title && <SkillThumbnail wikiTitle={mod.wiki_title} size="thumb" />}
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800">{mod.title}</p>
                     <p className="text-xs text-gray-500 mt-1">{mod.description}</p>
