@@ -45,6 +45,7 @@ const LanguageAcademy = lazy(() => import('./components/LanguageAcademy.jsx'));
 const AssessmentCentre = lazy(() => import('./components/AssessmentCentre.jsx'));
 const GrammarAcademy = lazy(() => import('./components/GrammarAcademy.jsx'));
 const CountriesExplorer = lazy(() => import('./components/CountriesExplorer.jsx'));
+const HistoricalWorldMap = lazy(() => import('./components/HistoricalWorldMap.jsx'));
 const VocabularyAcademy = lazy(() => import('./components/VocabularyAcademy.jsx'));
 const StemLab = lazy(() => import('./components/StemLab.jsx'));
 const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'));
@@ -101,6 +102,7 @@ const CHILD_TABS = [
   'Cuisine Centre',
   'Tools',
   'Countries',
+  'History Atlas',
   'Assessment',
   'Colouring',
   'Code Editor',
@@ -362,6 +364,8 @@ export default function App() {
           )}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
+
+          {activeTab === 'History Atlas' && <HistoricalWorldMap />}
 
           {activeTab === 'Assessment' && <AssessmentCentre />}
         </Suspense>

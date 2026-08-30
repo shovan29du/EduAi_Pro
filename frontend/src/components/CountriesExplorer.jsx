@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
-import HistoricalWorldMap from './HistoricalWorldMap.jsx';
-import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
 
 const CONTINENTS = ['All', 'Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Antarctica'];
 
@@ -15,6 +13,15 @@ const CONTINENT_COLOR = {
   Oceania: '#06b6d4',
   Antarctica: '#94a3b8',
 };
+
+// Equirectangular projection: real latitude/longitude -> SVG x/y on a 1000x500 map.
+const MAP_WIDTH = 1000;
+const MAP_HEIGHT = 500;
+function project(lat, lng) {
+  const x = ((lng + 180) / 360) * MAP_WIDTH;
+  const y = ((90 - lat) / 180) * MAP_HEIGHT;
+  return { x, y };
+}
 
 export default function CountriesExplorer() {
   const [countries, setCountries] = useState([]);
@@ -160,13 +167,6 @@ export default function CountriesExplorer() {
       <div className="rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 p-4 text-white">
         <h2 className="text-xl font-bold">🌍 Countries Explorer</h2>
         <p className="text-sm opacity-90">Discover all {countries.length} countries of the world — take a virtual tour with Google Maps &amp; Google Earth</p>
-      </div>
-
-      <HistoricalWorldMap />
-
-      <div className="rounded-xl bg-gradient-to-r from-emerald-600 to-teal-500 p-4 text-white">
-        <h2 className="text-xl font-bold">🗺 World Map — Today</h2>
-        <p className="text-sm opacity-90">The current 195-country political map, connected to Google Maps &amp; Google Earth for a real virtual tour.</p>
       </div>
 
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">

@@ -54,6 +54,7 @@ const TAB_ICONS = {
   'Cuisine Centre': '🍽️',
   Tools: '🧮',
   Countries: '🌍',
+  'History Atlas': '🕰️',
   Assessment: '📝',
   Colouring: '🎨',
   'Code Editor': '💻',

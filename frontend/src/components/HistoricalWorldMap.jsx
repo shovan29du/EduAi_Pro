@@ -1,59 +1,51 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
 
-// A second, historical locator map: the same schematic (graticule, not
-// coastlines) approach as the current-day World Map, but plotting the major
-// civilizations/empires of a chosen historical era at their real approximate
-// capital coordinates — paired with that era's key events and links to real,
-// famous historical maps.
+// A collection of historical locator maps — one per century, browsed as a
+// gallery. Each map uses the same schematic (graticule, not coastlines)
+// approach as the current-day World Map, plotting the major civilizations/
+// empires of that century at their real approximate capital coordinates —
+// paired with that century's key events and links to real, famous
+// historical maps where one genuinely exists for that era.
 
-export default function HistoricalWorldMap() {
-  const [periods, setPeriods] = useState([]);
-  const [periodId, setPeriodId] = useState(null);
-  const [loading, setLoading] = useState(true);
+function PeriodCard({ period, onOpen }) {
+  return (
+    <button
+      onClick={() => onOpen(period.id)}
+      className="text-left rounded-xl border-2 border-amber-200 dark:border-amber-800 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 p-4 hover:shadow-lg transition-shadow"
+    >
+      <p className="text-3xl mb-1">{period.emoji}</p>
+      <p className="font-bold text-gray-800 dark:text-gray-100 leading-snug">{period.label}</p>
+      <p className="text-xs text-amber-700 dark:text-amber-400 font-medium mt-0.5">{period.years}</p>
+      <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">{period.description}</p>
+      <p className="text-[11px] text-gray-400 mt-2">
+        {period.regions?.length || 0} civilizations · {period.events?.length || 0} events
+        {period.famous_maps?.length > 0 ? ` · ${period.famous_maps.length} famous map${period.famous_maps.length > 1 ? 's' : ''}` : ''}
+      </p>
+    </button>
+  );
+}
+
+function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
   const [activeRegion, setActiveRegion] = useState(null);
-
-  useEffect(() => {
-    fetch('/api/historical-map')
-      .then((r) => r.json())
-      .then((d) => {
-        const list = d.periods || [];
-        setPeriods(list);
-        if (list.length > 0) setPeriodId(list[0].id);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
-
-  const period = useMemo(() => periods.find((p) => p.id === periodId) || null, [periods, periodId]);
-
-  if (loading) {
-    return <div className="rounded-xl border p-6 text-center text-sm text-gray-400">Loading historical map…</div>;
-  }
-  if (!period) return null;
 
   return (
     <div className="space-y-3">
-      <div className="rounded-xl bg-gradient-to-r from-amber-600 to-orange-500 p-4 text-white">
-        <h2 className="text-xl font-bold">🕰️ World History Atlas</h2>
-        <p className="text-sm opacity-90">From ancient times to today — explore how the map of the world changed, era by era.</p>
+      <div className="flex items-center justify-between gap-2">
+        <button onClick={onBack} className="text-sm text-amber-700 dark:text-amber-400 hover:underline">
+          ← All Centuries
+        </button>
+        <select
+          aria-label="Jump to a different time period"
+          value={period.id}
+          onChange={(e) => { onSelectPeriod(e.target.value); setActiveRegion(null); }}
+          className="rounded-lg border px-2 py-1 text-sm dark:bg-gray-800"
+        >
+          {periods.map((p) => (
+            <option key={p.id} value={p.id}>{p.emoji} {p.label} ({p.years})</option>
+          ))}
+        </select>
       </div>
-
-      <label className="block text-sm font-medium" htmlFor="historical-period-select">
-        Choose a time period
-      </label>
-      <select
-        id="historical-period-select"
-        value={period.id}
-        onChange={(e) => { setPeriodId(e.target.value); setActiveRegion(null); }}
-        className="w-full rounded-lg border px-3 py-2 dark:bg-gray-800"
-      >
-        {periods.map((p) => (
-          <option key={p.id} value={p.id}>
-            {p.emoji} {p.label} ({p.years})
-          </option>
-        ))}
-      </select>
 
       <div className="rounded-xl border overflow-hidden">
         <div className="bg-amber-50 dark:bg-amber-950 border-b px-4 py-3">
@@ -117,27 +109,90 @@ export default function HistoricalWorldMap() {
           </ul>
         </div>
 
-        <div className="border-t px-4 py-4">
-          <p className="text-sm font-semibold mb-3">🗺️ Famous Maps of This Era</p>
-          <div className="grid gap-2 sm:grid-cols-2">
-            {period.famous_maps.map((m) => (
-              <a
-                key={m.name}
-                href={m.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border px-3 py-2 hover:bg-amber-50 dark:hover:bg-amber-950/40 transition-colors"
-              >
-                <p className="text-sm font-semibold text-amber-700 dark:text-amber-400">
-                  {m.name} <span className="ml-1 opacity-50 text-xs">↗</span>
-                </p>
-                <p className="text-xs text-gray-400">{m.year}</p>
-                <p className="text-xs text-gray-600 dark:text-gray-300 mt-1">{m.description}</p>
-              </a>
+        {period.famous_maps?.length > 0 && (
+          <div className="border-t px-4 py-4">
+            <p className="text-sm font-semibold mb-3">🗺️ Famous Maps of This Era</p>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {period.famous_maps.map((m) => (
+                <a
+                  key={m.name}
+                  href={m.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg border px-3 py-2 hover:bg-amber-50 dark:hover:bg-amber-950/40 transition-colors"
+                >
+                  <p className="text-sm font-semibold text-amber-700 dark:text-amber-400">
+                    {m.name} <span className="ml-1 opacity-50 text-xs">↗</span>
+                  </p>
+                  <p className="text-xs text-gray-400">{m.year}</p>
+                  <p className="text-xs text-gray-600 dark:text-gray-300 mt-1">{m.description}</p>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function HistoricalWorldMap() {
+  const [periods, setPeriods] = useState([]);
+  const [periodId, setPeriodId] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState('');
+
+  useEffect(() => {
+    fetch('/api/historical-map')
+      .then((r) => r.json())
+      .then((d) => {
+        setPeriods(d.periods || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  const period = useMemo(() => periods.find((p) => p.id === periodId) || null, [periods, periodId]);
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return periods;
+    return periods.filter((p) => p.label.toLowerCase().includes(q) || p.years.toLowerCase().includes(q));
+  }, [periods, search]);
+
+  if (loading) {
+    return <div className="rounded-xl border p-6 text-center text-sm text-gray-400">Loading historical maps…</div>;
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="rounded-xl bg-gradient-to-r from-amber-600 to-orange-500 p-4 text-white">
+        <h1 className="text-xl font-bold">🕰️ World History Atlas</h1>
+        <p className="text-sm opacity-90">A collection of {periods.length} world maps, one per century, from ancient times to today.</p>
+      </div>
+
+      {period ? (
+        <PeriodDetail period={period} periods={periods} onSelectPeriod={setPeriodId} onBack={() => setPeriodId(null)} />
+      ) : (
+        <>
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search by era or year, e.g. 'Rome' or '1500'…"
+            aria-label="Search historical periods"
+            className="w-full rounded-lg border px-3 py-2 dark:bg-gray-800"
+          />
+          <p className="text-xs text-gray-500">{filtered.length} time period{filtered.length !== 1 ? 's' : ''}</p>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {filtered.map((p) => (
+              <PeriodCard key={p.id} period={p} onOpen={setPeriodId} />
             ))}
           </div>
-        </div>
-      </div>
+          {filtered.length === 0 && (
+            <p className="text-center text-gray-500 py-8">No time periods match your search.</p>
+          )}
+        </>
+      )}
     </div>
   );
 }
