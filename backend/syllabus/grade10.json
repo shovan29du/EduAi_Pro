@@ -316,7 +316,36 @@
               "maximum"
             ]
           },
-          "wiki_title": "Calculus: Differentiation"
+          "wiki_title": "Calculus: Differentiation",
+          "formulae": [
+            "d/dx(xⁿ) = n·xⁿ⁻¹",
+            "d/dx(sin x) = cos x",
+            "d/dx(eˣ) = eˣ"
+          ],
+          "data_table": {
+            "headers": [
+              "f(x)",
+              "f'(x)"
+            ],
+            "rows": [
+              [
+                "x³",
+                "3x²"
+              ],
+              [
+                "x⁴",
+                "4x³"
+              ],
+              [
+                "sin x",
+                "cos x"
+              ],
+              [
+                "eˣ",
+                "eˣ"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l2",
@@ -426,7 +455,30 @@
               "Fundamental Theorem of Calculus"
             ]
           },
-          "wiki_title": "Calculus: Integration"
+          "wiki_title": "Calculus: Integration",
+          "formulae": [
+            "∫xⁿ dx = xⁿ⁺¹/(n+1) + C"
+          ],
+          "data_table": {
+            "headers": [
+              "f(x)",
+              "∫f(x)dx"
+            ],
+            "rows": [
+              [
+                "x²",
+                "x³/3 + C"
+              ],
+              [
+                "x³",
+                "x⁴/4 + C"
+              ],
+              [
+                "cos x",
+                "sin x + C"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l3",
@@ -1176,7 +1228,35 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Logarithmic Functions"
+          "wiki_title": "Logarithmic Functions",
+          "formulae": [
+            "logₐ(xy) = logₐx + logₐy",
+            "logₐ(x/y) = logₐx − logₐy"
+          ],
+          "data_table": {
+            "headers": [
+              "x",
+              "log₁₀ x",
+              "ln x"
+            ],
+            "rows": [
+              [
+                "1",
+                "0",
+                "0"
+              ],
+              [
+                "10",
+                "1",
+                "2.303"
+              ],
+              [
+                "100",
+                "2",
+                "4.605"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l12",
@@ -1625,7 +1705,41 @@
               "Circle"
             ]
           },
-          "wiki_title": "Trigonometric Ratios and the Unit Circle"
+          "wiki_title": "Trigonometric Ratios and the Unit Circle",
+          "data_table": {
+            "headers": [
+              "Angle",
+              "sin",
+              "cos",
+              "tan"
+            ],
+            "rows": [
+              [
+                "0°",
+                "0",
+                "1",
+                "0"
+              ],
+              [
+                "30°",
+                "0.5",
+                "0.866",
+                "0.577"
+              ],
+              [
+                "45°",
+                "0.707",
+                "0.707",
+                "1"
+              ],
+              [
+                "90°",
+                "1",
+                "0",
+                "undefined"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l18",
@@ -2160,7 +2274,26 @@
               "Operations"
             ]
           },
-          "wiki_title": "Matrices and Matrix Operations"
+          "wiki_title": "Matrices and Matrix Operations",
+          "formulae": [
+            "det([[a,b],[c,d]]) = ad − bc"
+          ],
+          "data_table": {
+            "headers": [
+              "Matrix",
+              "Determinant"
+            ],
+            "rows": [
+              [
+                "[[2,3],[1,4]]",
+                "5"
+              ],
+              [
+                "[[1,0],[0,1]]",
+                "1"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l25",
@@ -2458,7 +2591,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Complex Numbers"
+          "wiki_title": "Complex Numbers",
+          "data_table": {
+            "headers": [
+              "Expression",
+              "Result"
+            ],
+            "rows": [
+              [
+                "(2+3i) + (1−i)",
+                "3+2i"
+              ],
+              [
+                "(2+3i) × (1−i)",
+                "5+i"
+              ],
+              [
+                "i²",
+                "−1"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g10-l29",

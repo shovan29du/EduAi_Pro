@@ -1004,7 +1004,35 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Quadratic Formula"
+          "wiki_title": "The Quadratic Formula",
+          "formulae": [
+            "x = (−b ± √(b² − 4ac)) / 2a"
+          ],
+          "data_table": {
+            "headers": [
+              "a",
+              "b",
+              "c",
+              "Discriminant",
+              "Roots"
+            ],
+            "rows": [
+              [
+                "1",
+                "-3",
+                "2",
+                "1",
+                "1, 2"
+              ],
+              [
+                "1",
+                "2",
+                "-8",
+                "36",
+                "2, -4"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l10",
@@ -1532,7 +1560,27 @@
               "Roots"
             ]
           },
-          "wiki_title": "Radicals and Simplifying Square Roots"
+          "wiki_title": "Radicals and Simplifying Square Roots",
+          "data_table": {
+            "headers": [
+              "Radical",
+              "Simplified"
+            ],
+            "rows": [
+              [
+                "√50",
+                "5√2"
+              ],
+              [
+                "√72",
+                "6√2"
+              ],
+              [
+                "√18",
+                "3√2"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l17",
@@ -2358,7 +2406,39 @@
               "(Arithmetic)"
             ]
           },
-          "wiki_title": "Sequences and Series (Arithmetic)"
+          "wiki_title": "Sequences and Series (Arithmetic)",
+          "formulae": [
+            "aₙ = a₁ + (n − 1)d",
+            "Sₙ = n/2 × (2a₁ + (n − 1)d)"
+          ],
+          "data_table": {
+            "headers": [
+              "n",
+              "aₙ (a₁ = 3, d = 4)"
+            ],
+            "rows": [
+              [
+                "1",
+                "3"
+              ],
+              [
+                "2",
+                "7"
+              ],
+              [
+                "3",
+                "11"
+              ],
+              [
+                "4",
+                "15"
+              ],
+              [
+                "5",
+                "19"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l28",
@@ -3070,7 +3150,34 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Pythagorean Theorem"
+          "wiki_title": "The Pythagorean Theorem",
+          "formulae": [
+            "a² + b² = c²"
+          ],
+          "data_table": {
+            "headers": [
+              "a",
+              "b",
+              "c"
+            ],
+            "rows": [
+              [
+                "8",
+                "15",
+                "17"
+              ],
+              [
+                "7",
+                "24",
+                "25"
+              ],
+              [
+                "9",
+                "40",
+                "41"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l37",
@@ -3456,7 +3563,35 @@
               "Area"
             ]
           },
-          "wiki_title": "Circles: Circumference and Area"
+          "wiki_title": "Circles: Circumference and Area",
+          "formulae": [
+            "Circumference = 2πr",
+            "Area = πr²"
+          ],
+          "data_table": {
+            "headers": [
+              "Radius",
+              "Circumference",
+              "Area"
+            ],
+            "rows": [
+              [
+                "2",
+                "12.57",
+                "12.57"
+              ],
+              [
+                "4",
+                "25.13",
+                "50.27"
+              ],
+              [
+                "6",
+                "37.70",
+                "113.10"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l42",
@@ -4009,7 +4144,24 @@
               "Operations"
             ]
           },
-          "wiki_title": "Matrices: Introduction and Operations"
+          "wiki_title": "Matrices: Introduction and Operations",
+          "formulae": [
+            "(A + B)ᵢⱼ = Aᵢⱼ + Bᵢⱼ"
+          ],
+          "data_table": {
+            "headers": [
+              "Matrix A",
+              "Matrix B",
+              "A + B"
+            ],
+            "rows": [
+              [
+                "[[1,2],[3,4]]",
+                "[[5,6],[7,8]]",
+                "[[6,8],[10,12]]"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g9-l49",

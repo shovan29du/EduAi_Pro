@@ -63,3 +63,48 @@ def test_grade5_math_pilot_lessons_have_real_charts():
     # At least half of the 30-lesson pilot batch got a chart/table/formula.
     enriched = sum(1 for l in lessons.values() if l.get("data_table") or l.get("graph") or l.get("formulae"))
     assert enriched >= 15
+
+
+def test_every_math_level_from_grade1_to_masters_year2_has_real_charts():
+    """Breadth-first pass: every level from Grade 1 through Masters Year 2
+    should have at least a handful of Math lessons with a genuine
+    data_table/graph/formulae (Grade 5 is covered by the pilot test above)."""
+    levels = [
+        "grade1", "grade2", "grade3", "grade4", "grade6", "grade7", "grade8",
+        "grade9", "grade10", "level_c1", "level_c2", "level_m1", "level_m2",
+        "level_ug1", "level_ug2", "level_ug3", "level_ug4",
+    ]
+    total_enriched = 0
+    for level in levels:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        lessons = data["subjects"]["Math"]["lessons"]
+        enriched = [l for l in lessons if l.get("data_table") or l.get("graph") or l.get("formulae")]
+        assert enriched, f"{level} has no Math lessons with real chart/table/graph content"
+        for lesson in enriched:
+            if lesson.get("data_table"):
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+            if lesson.get("graph"):
+                assert lesson["graph"]["points"]
+                assert all(p >= 0 for p in lesson["graph"]["points"])
+            if lesson.get("formulae"):
+                assert all(isinstance(f, str) and f for f in lesson["formulae"])
+        total_enriched += len(enriched)
+    assert total_enriched >= 80
+
+    # Spot-check a few real, independently-verifiable facts.
+    g1 = json.loads((SYLLABUS_DIR / "grade1.json").read_text(encoding="utf-8"))
+    money = {l["id"]: l for l in g1["subjects"]["Math"]["lessons"]}["math-g1-l20"]
+    assert ["Quarter", "25 cents"] in money["data_table"]["rows"]
+
+    g8 = json.loads((SYLLABUS_DIR / "grade8.json").read_text(encoding="utf-8"))
+    pythag = {l["id"]: l for l in g8["subjects"]["Math"]["lessons"]}["math-g8-l27"]
+    assert ["13 ft", "5 ft", "12 ft"] in pythag["data_table"]["rows"]
+
+    m1 = json.loads((SYLLABUS_DIR / "level_m1.json").read_text(encoding="utf-8"))
+    zeta = {l["id"]: l for l in m1["subjects"]["Math"]["lessons"]}["math-m1-l28"]
+    assert ["2", "1.6449"] in zeta["data_table"]["rows"]
+
+    ug4 = json.loads((SYLLABUS_DIR / "level_ug4.json").read_text(encoding="utf-8"))
+    pnt = {l["id"]: l for l in ug4["subjects"]["Math"]["lessons"]}["math-ug4-l25"]
+    assert ["100", "25", "21.7"] in pnt["data_table"]["rows"]

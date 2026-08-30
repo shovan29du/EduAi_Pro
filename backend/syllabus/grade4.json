@@ -614,7 +614,31 @@
               "protractor"
             ]
           },
-          "wiki_title": "Geometry: Angles"
+          "wiki_title": "Geometry: Angles",
+          "data_table": {
+            "headers": [
+              "Angle Type",
+              "Range"
+            ],
+            "rows": [
+              [
+                "Acute",
+                "Less than 90°"
+              ],
+              [
+                "Right",
+                "Exactly 90°"
+              ],
+              [
+                "Obtuse",
+                "Between 90° and 180°"
+              ],
+              [
+                "Straight",
+                "Exactly 180°"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g4-l5",
@@ -914,7 +938,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Factors and Multiples"
+          "wiki_title": "Factors and Multiples",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Factors"
+            ],
+            "rows": [
+              [
+                "12",
+                "1, 2, 3, 4, 6, 12"
+              ],
+              [
+                "18",
+                "1, 2, 3, 6, 9, 18"
+              ],
+              [
+                "24",
+                "1, 2, 3, 4, 6, 8, 12, 24"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g4-l9",
@@ -993,7 +1037,35 @@
               "Numbers"
             ]
           },
-          "wiki_title": "Prime and Composite Numbers"
+          "wiki_title": "Prime and Composite Numbers",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Prime or Composite"
+            ],
+            "rows": [
+              [
+                "2",
+                "Prime"
+              ],
+              [
+                "7",
+                "Prime"
+              ],
+              [
+                "9",
+                "Composite"
+              ],
+              [
+                "11",
+                "Prime"
+              ],
+              [
+                "15",
+                "Composite"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g4-l10",
@@ -1063,7 +1135,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Equivalent Fractions"
+          "wiki_title": "Equivalent Fractions",
+          "data_table": {
+            "headers": [
+              "Fraction",
+              "Equivalent Fractions"
+            ],
+            "rows": [
+              [
+                "1/2",
+                "2/4, 3/6, 4/8"
+              ],
+              [
+                "1/3",
+                "2/6, 3/9, 4/12"
+              ],
+              [
+                "2/3",
+                "4/6, 6/9, 8/12"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g4-l11",
@@ -1373,7 +1465,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Perimeter and Area"
+          "wiki_title": "Perimeter and Area",
+          "data_table": {
+            "headers": [
+              "Shape",
+              "Perimeter Formula",
+              "Area Formula"
+            ],
+            "rows": [
+              [
+                "Rectangle",
+                "2(l + w)",
+                "l × w"
+              ],
+              [
+                "Square",
+                "4s",
+                "s²"
+              ],
+              [
+                "Triangle",
+                "a + b + c",
+                "½ × base × height"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g4-l15",
@@ -1764,7 +1880,18 @@
               "Plots"
             ]
           },
-          "wiki_title": "Data: Bar Graphs and Line Plots"
+          "wiki_title": "Data: Bar Graphs and Line Plots",
+          "graph": {
+            "title": "Class Pet Survey (Example Data)",
+            "points": [
+              12,
+              7,
+              4,
+              9
+            ],
+            "x_axis": "Pet: Dog, Cat, Fish, Bird",
+            "y_axis": "Number of Students"
+          }
         },
         {
           "id": "math-g4-l20",

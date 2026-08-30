@@ -533,7 +533,78 @@
               "addend"
             ]
           },
-          "wiki_title": "Addition to 10"
+          "wiki_title": "Addition to 10",
+          "data_table": {
+            "headers": [
+              "+",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "rows": [
+              [
+                "0",
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              [
+                "1",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              [
+                "2",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              [
+                "3",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              [
+                "4",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              [
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+              ]
+            ]
+          },
+          "formulae": [
+            "3 + 4 = 7",
+            "5 + 5 = 10"
+          ]
         },
         {
           "id": "math-g1-l4",
@@ -1216,7 +1287,44 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Skip Counting by 2s, 5s, and 10s"
+          "wiki_title": "Skip Counting by 2s, 5s, and 10s",
+          "graph": {
+            "title": "Skip Counting by 5s",
+            "points": [
+              5,
+              10,
+              15,
+              20,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50
+            ],
+            "x_axis": "Step number",
+            "y_axis": "Count"
+          },
+          "data_table": {
+            "headers": [
+              "Skip by",
+              "Sequence"
+            ],
+            "rows": [
+              [
+                "2s",
+                "2, 4, 6, 8, 10"
+              ],
+              [
+                "5s",
+                "5, 10, 15, 20, 25"
+              ],
+              [
+                "10s",
+                "10, 20, 30, 40, 50"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l11",
@@ -1645,7 +1753,36 @@
               "Ones"
             ]
           },
-          "wiki_title": "Place Value: Tens and Ones"
+          "wiki_title": "Place Value: Tens and Ones",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Tens",
+              "Ones"
+            ],
+            "rows": [
+              [
+                "23",
+                "2",
+                "3"
+              ],
+              [
+                "47",
+                "4",
+                "7"
+              ],
+              [
+                "58",
+                "5",
+                "8"
+              ],
+              [
+                "90",
+                "9",
+                "0"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l17",
@@ -1714,7 +1851,41 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "2D Shapes"
+          "wiki_title": "2D Shapes",
+          "data_table": {
+            "headers": [
+              "Shape",
+              "Number of Sides",
+              "Number of Corners"
+            ],
+            "rows": [
+              [
+                "Triangle",
+                "3",
+                "3"
+              ],
+              [
+                "Square",
+                "4",
+                "4"
+              ],
+              [
+                "Rectangle",
+                "4",
+                "4"
+              ],
+              [
+                "Pentagon",
+                "5",
+                "5"
+              ],
+              [
+                "Hexagon",
+                "6",
+                "6"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l18",
@@ -1932,7 +2103,36 @@
               "Coins"
             ]
           },
-          "wiki_title": "Money: Recognizing Coins"
+          "wiki_title": "Money: Recognizing Coins",
+          "data_table": {
+            "headers": [
+              "Coin",
+              "Value"
+            ],
+            "rows": [
+              [
+                "Penny",
+                "1 cent"
+              ],
+              [
+                "Nickel",
+                "5 cents"
+              ],
+              [
+                "Dime",
+                "10 cents"
+              ],
+              [
+                "Quarter",
+                "25 cents"
+              ]
+            ]
+          },
+          "formulae": [
+            "1 nickel = 5 pennies",
+            "1 dime = 2 nickels",
+            "1 quarter = 25 pennies"
+          ]
         }
       ]
     },

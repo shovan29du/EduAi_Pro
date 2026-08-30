@@ -304,7 +304,47 @@
               "times table"
             ]
           },
-          "wiki_title": "Multiplication Tables (2–10)"
+          "wiki_title": "Multiplication Tables (2–10)",
+          "data_table": {
+            "headers": [
+              "n",
+              "2×n",
+              "5×n",
+              "10×n"
+            ],
+            "rows": [
+              [
+                "1",
+                "2",
+                "5",
+                "10"
+              ],
+              [
+                "2",
+                "4",
+                "10",
+                "20"
+              ],
+              [
+                "5",
+                "10",
+                "25",
+                "50"
+              ],
+              [
+                "8",
+                "16",
+                "40",
+                "80"
+              ],
+              [
+                "10",
+                "20",
+                "50",
+                "100"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g3-l2",
@@ -629,7 +669,35 @@
               "rectangle formula"
             ]
           },
-          "wiki_title": "Perimeter and Area"
+          "wiki_title": "Perimeter and Area",
+          "data_table": {
+            "headers": [
+              "Rectangle (L × W)",
+              "Perimeter",
+              "Area"
+            ],
+            "rows": [
+              [
+                "4 × 3",
+                "14",
+                "12"
+              ],
+              [
+                "5 × 5",
+                "20",
+                "25"
+              ],
+              [
+                "6 × 2",
+                "16",
+                "12"
+              ]
+            ]
+          },
+          "formulae": [
+            "Perimeter = 2 × (length + width)",
+            "Area = length × width"
+          ]
         },
         {
           "id": "math-g3-l5",
@@ -734,7 +802,31 @@
               "place value"
             ]
           },
-          "wiki_title": "Decimals: Tenths"
+          "wiki_title": "Decimals: Tenths",
+          "data_table": {
+            "headers": [
+              "Fraction",
+              "Decimal"
+            ],
+            "rows": [
+              [
+                "1/10",
+                "0.1"
+              ],
+              [
+                "3/10",
+                "0.3"
+              ],
+              [
+                "5/10",
+                "0.5"
+              ],
+              [
+                "9/10",
+                "0.9"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g3-l6",
@@ -1571,7 +1663,20 @@
               "Data"
             ]
           },
-          "wiki_title": "Graphs and Data"
+          "wiki_title": "Graphs and Data",
+          "graph": {
+            "title": "Books Read Each Month (Example Data)",
+            "points": [
+              3,
+              5,
+              4,
+              7,
+              6,
+              8
+            ],
+            "x_axis": "Month",
+            "y_axis": "Books Read"
+          }
         },
         {
           "id": "math-g3-l17",
@@ -1851,7 +1956,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Patterns and Sequences"
+          "wiki_title": "Patterns and Sequences",
+          "data_table": {
+            "headers": [
+              "Pattern",
+              "Rule",
+              "Next 3 Terms"
+            ],
+            "rows": [
+              [
+                "2, 4, 6, 8",
+                "+2",
+                "10, 12, 14"
+              ],
+              [
+                "5, 10, 15, 20",
+                "+5",
+                "25, 30, 35"
+              ],
+              [
+                "1, 2, 4, 8",
+                "×2",
+                "16, 32, 64"
+              ]
+            ]
+          }
         }
       ]
     },

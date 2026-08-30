@@ -423,7 +423,35 @@
               "parabola"
             ]
           },
-          "wiki_title": "Quadratic Equations"
+          "wiki_title": "Quadratic Equations",
+          "formulae": [
+            "x = (−b ± √(b² − 4ac)) / 2a"
+          ],
+          "data_table": {
+            "headers": [
+              "Equation",
+              "a",
+              "b",
+              "c",
+              "Roots"
+            ],
+            "rows": [
+              [
+                "x² − 5x + 6 = 0",
+                "1",
+                "-5",
+                "6",
+                "2, 3"
+              ],
+              [
+                "x² − 3x − 4 = 0",
+                "1",
+                "-3",
+                "-4",
+                "4, -1"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g8-l3",
@@ -1428,7 +1456,31 @@
               "Roots"
             ]
           },
-          "wiki_title": "Squares and Square Roots"
+          "wiki_title": "Squares and Square Roots",
+          "data_table": {
+            "headers": [
+              "n",
+              "n²",
+              "√n"
+            ],
+            "rows": [
+              [
+                "4",
+                "16",
+                "2"
+              ],
+              [
+                "9",
+                "81",
+                "3"
+              ],
+              [
+                "10",
+                "100",
+                "3.162"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g8-l16",
@@ -1507,7 +1559,31 @@
               "Roots"
             ]
           },
-          "wiki_title": "Cubes and Cube Roots"
+          "wiki_title": "Cubes and Cube Roots",
+          "data_table": {
+            "headers": [
+              "n",
+              "n³",
+              "∛n"
+            ],
+            "rows": [
+              [
+                "2",
+                "8",
+                "1.26"
+              ],
+              [
+                "3",
+                "27",
+                "1.442"
+              ],
+              [
+                "5",
+                "125",
+                "1.71"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g8-l17",
@@ -2345,7 +2421,29 @@
               "Theorem"
             ]
           },
-          "wiki_title": "Applications of the Pythagorean Theorem"
+          "wiki_title": "Applications of the Pythagorean Theorem",
+          "data_table": {
+            "headers": [
+              "Ladder Length",
+              "Base Distance",
+              "Height Reached"
+            ],
+            "rows": [
+              [
+                "13 ft",
+                "5 ft",
+                "12 ft"
+              ],
+              [
+                "10 ft",
+                "6 ft",
+                "8 ft"
+              ]
+            ]
+          },
+          "formulae": [
+            "a² + b² = c²"
+          ]
         },
         {
           "id": "math-g8-l28",
@@ -2873,7 +2971,34 @@
               "Time"
             ]
           },
-          "wiki_title": "Speed, Distance and Time"
+          "wiki_title": "Speed, Distance and Time",
+          "formulae": [
+            "Speed = Distance ÷ Time"
+          ],
+          "data_table": {
+            "headers": [
+              "Distance (km)",
+              "Speed (km/h)",
+              "Time (h)"
+            ],
+            "rows": [
+              [
+                "120",
+                "60",
+                "2"
+              ],
+              [
+                "300",
+                "75",
+                "4"
+              ],
+              [
+                "50",
+                "25",
+                "2"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g8-l35",
@@ -3268,7 +3393,40 @@
               "Ratios"
             ]
           },
-          "wiki_title": "Trigonometric Ratios"
+          "wiki_title": "Trigonometric Ratios",
+          "formulae": [
+            "sin θ = opposite / hypotenuse",
+            "cos θ = adjacent / hypotenuse",
+            "tan θ = opposite / adjacent"
+          ],
+          "data_table": {
+            "headers": [
+              "Angle",
+              "sin",
+              "cos",
+              "tan"
+            ],
+            "rows": [
+              [
+                "30°",
+                "0.5",
+                "0.866",
+                "0.577"
+              ],
+              [
+                "45°",
+                "0.707",
+                "0.707",
+                "1"
+              ],
+              [
+                "60°",
+                "0.866",
+                "0.5",
+                "1.732"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g8-l40",

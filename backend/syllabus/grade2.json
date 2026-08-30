@@ -623,7 +623,63 @@
               "factor"
             ]
           },
-          "wiki_title": "Multiplication"
+          "wiki_title": "Multiplication",
+          "data_table": {
+            "headers": [
+              "×",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "rows": [
+              [
+                "1",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              [
+                "2",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10"
+              ],
+              [
+                "3",
+                "3",
+                "6",
+                "9",
+                "12",
+                "15"
+              ],
+              [
+                "4",
+                "4",
+                "8",
+                "12",
+                "16",
+                "20"
+              ],
+              [
+                "5",
+                "5",
+                "10",
+                "15",
+                "20",
+                "25"
+              ]
+            ]
+          },
+          "formulae": [
+            "3 × 4 = 12",
+            "5 × 5 = 25"
+          ]
         },
         {
           "id": "math-g2-l5",
@@ -733,7 +789,31 @@
               "equal parts"
             ]
           },
-          "wiki_title": "Fractions: Halves and Quarters"
+          "wiki_title": "Fractions: Halves and Quarters",
+          "data_table": {
+            "headers": [
+              "Fraction",
+              "Meaning",
+              "Decimal"
+            ],
+            "rows": [
+              [
+                "1/2",
+                "One of two equal parts",
+                "0.5"
+              ],
+              [
+                "1/4",
+                "One of four equal parts",
+                "0.25"
+              ],
+              [
+                "3/4",
+                "Three of four equal parts",
+                "0.75"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g2-l6",
@@ -841,7 +921,35 @@
               "price"
             ]
           },
-          "wiki_title": "Money"
+          "wiki_title": "Money",
+          "data_table": {
+            "headers": [
+              "Coin/Bill",
+              "Value"
+            ],
+            "rows": [
+              [
+                "Penny",
+                "$0.01"
+              ],
+              [
+                "Nickel",
+                "$0.05"
+              ],
+              [
+                "Dime",
+                "$0.10"
+              ],
+              [
+                "Quarter",
+                "$0.25"
+              ],
+              [
+                "$1 Bill",
+                "$1.00"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g2-l7",
@@ -1674,7 +1782,18 @@
               "Graphs"
             ]
           },
-          "wiki_title": "Reading and Making Bar Graphs"
+          "wiki_title": "Reading and Making Bar Graphs",
+          "graph": {
+            "title": "Favorite Fruit Survey (Example Data)",
+            "points": [
+              8,
+              5,
+              10,
+              3
+            ],
+            "x_axis": "Fruit: Apple, Banana, Grape, Orange",
+            "y_axis": "Number of Votes"
+          }
         },
         {
           "id": "math-g2-l18",
@@ -1823,7 +1942,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Odd and Even Numbers"
+          "wiki_title": "Odd and Even Numbers",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Even",
+                "2, 4, 6, 8, 10"
+              ],
+              [
+                "Odd",
+                "1, 3, 5, 7, 9"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g2-l20",

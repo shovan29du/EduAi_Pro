@@ -431,7 +431,34 @@
               "theorem"
             ]
           },
-          "wiki_title": "Pythagoras' Theorem"
+          "wiki_title": "Pythagoras' Theorem",
+          "formulae": [
+            "a² + b² = c²"
+          ],
+          "data_table": {
+            "headers": [
+              "a",
+              "b",
+              "c (hypotenuse)"
+            ],
+            "rows": [
+              [
+                "3",
+                "4",
+                "5"
+              ],
+              [
+                "6",
+                "8",
+                "10"
+              ],
+              [
+                "5",
+                "12",
+                "13"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g7-l3",
@@ -937,7 +964,39 @@
               "Interest"
             ]
           },
-          "wiki_title": "Simple and Compound Interest"
+          "wiki_title": "Simple and Compound Interest",
+          "formulae": [
+            "Simple Interest = P × r × t",
+            "Compound Interest = P(1 + r)ᵗ − P"
+          ],
+          "data_table": {
+            "headers": [
+              "Principal",
+              "Rate",
+              "Years",
+              "Simple Interest"
+            ],
+            "rows": [
+              [
+                "$1,000",
+                "5%",
+                "1",
+                "$50"
+              ],
+              [
+                "$1,000",
+                "5%",
+                "2",
+                "$100"
+              ],
+              [
+                "$1,000",
+                "5%",
+                "3",
+                "$150"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g7-l9",
@@ -1473,7 +1532,31 @@
               "Cube"
             ]
           },
-          "wiki_title": "Square Roots and Cube Roots"
+          "wiki_title": "Square Roots and Cube Roots",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Square Root",
+              "Cube Root"
+            ],
+            "rows": [
+              [
+                "8",
+                "2.83",
+                "2"
+              ],
+              [
+                "27",
+                "5.20",
+                "3"
+              ],
+              [
+                "64",
+                "8",
+                "4"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g7-l16",
@@ -1945,7 +2028,35 @@
               "Area"
             ]
           },
-          "wiki_title": "Circles: Circumference and Area"
+          "wiki_title": "Circles: Circumference and Area",
+          "formulae": [
+            "Circumference = 2πr",
+            "Area = πr²"
+          ],
+          "data_table": {
+            "headers": [
+              "Radius",
+              "Circumference",
+              "Area"
+            ],
+            "rows": [
+              [
+                "1",
+                "6.28",
+                "3.14"
+              ],
+              [
+                "5",
+                "31.4",
+                "78.5"
+              ],
+              [
+                "10",
+                "62.8",
+                "314"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g7-l22",
@@ -3265,7 +3376,34 @@
               "Time"
             ]
           },
-          "wiki_title": "Unit Rates and Speed, Distance, Time"
+          "wiki_title": "Unit Rates and Speed, Distance, Time",
+          "formulae": [
+            "Speed = Distance ÷ Time"
+          ],
+          "data_table": {
+            "headers": [
+              "Distance (km)",
+              "Time (h)",
+              "Speed (km/h)"
+            ],
+            "rows": [
+              [
+                "100",
+                "2",
+                "50"
+              ],
+              [
+                "150",
+                "3",
+                "50"
+              ],
+              [
+                "240",
+                "4",
+                "60"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g7-l39",
@@ -3427,7 +3565,31 @@
               "Diagrams"
             ]
           },
-          "wiki_title": "Set Theory and Venn Diagrams"
+          "wiki_title": "Set Theory and Venn Diagrams",
+          "data_table": {
+            "headers": [
+              "Set Operation",
+              "Symbol",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Union",
+                "A ∪ B",
+                "Elements in A or B"
+              ],
+              [
+                "Intersection",
+                "A ∩ B",
+                "Elements in both A and B"
+              ],
+              [
+                "Complement",
+                "A′",
+                "Elements not in A"
+              ]
+            ]
+          }
         }
       ]
     },
