@@ -225,3 +225,34 @@ def test_grade8_to_10_all_subjects_have_real_charts():
     g10 = json.loads((SYLLABUS_DIR / "grade10.json").read_text(encoding="utf-8"))
     dna = {l["id"]: l for l in g10["subjects"]["Biology"]["lessons"]}["biology-g10-l8"]
     assert ["Adenine (A)", "Thymine (T)"] in dna["data_table"]["rows"]
+
+
+def test_level_c1_and_c2_all_52_subjects_have_a_real_chart():
+    """College-tier levels carry ~52 subjects each (AI, Machine Learning,
+    Data Science, several programming languages, Business Studies, World
+    Religions, Mythology, etc.) -- every one should have at least one real,
+    verifiable data_table lesson."""
+    for level in ["level_c1", "level_c2"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        subjects = [s for s in data["subjects"] if s != "Math"]
+        assert len(subjects) >= 50, f"{level} unexpectedly has few subjects: {len(subjects)}"
+        missing_subjects = []
+        for subject_name in subjects:
+            lessons = data["subjects"][subject_name]["lessons"]
+            enriched = [l for l in lessons if l.get("data_table")]
+            if not enriched:
+                missing_subjects.append(subject_name)
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+        assert not missing_subjects, f"{level} subjects missing any real chart: {missing_subjects}"
+
+    c1 = json.loads((SYLLABUS_DIR / "level_c1.json").read_text(encoding="utf-8"))
+    cia = {l["id"]: l for l in c1["subjects"]["Cybersecurity"]["lessons"]}["cybersecurity-c1-l3"]
+    assert ["Confidentiality", "Preventing unauthorized access to data"] in cia["data_table"]["rows"]
+
+    c2 = json.loads((SYLLABUS_DIR / "level_c2.json").read_text(encoding="utf-8"))
+    forces = {l["id"]: l for l in c2["subjects"]["MBA"]["lessons"]}["mba-c2-l3"]
+    assert any("Threat of new entrants" in row[0] for row in forces["data_table"]["rows"])
