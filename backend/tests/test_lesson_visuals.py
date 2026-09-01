@@ -464,3 +464,29 @@ def test_grade4_has_full_depth_real_chart_coverage():
 
     mongol = {l["id"]: l for l in data["subjects"]["World History"]["lessons"]}["hist-g4-l2"]
     assert ["Founded by", "Genghis Khan"] in mongol["data_table"]["rows"]
+
+
+def test_grade5_has_full_depth_real_chart_coverage():
+    """Depth pass: every single lesson in every subject at Grade 5 should
+    have a genuine, verifiable data_table/graph/formulae. (Math was
+    already at full depth from an earlier session; the other 17 subjects
+    are completed here.)"""
+    data = json.loads((SYLLABUS_DIR / "grade5.json").read_text(encoding="utf-8"))
+    total = 0
+    covered = 0
+    for subject_name, subject in data["subjects"].items():
+        for lesson in subject["lessons"]:
+            total += 1
+            has_content = bool(lesson.get("data_table") or lesson.get("graph") or lesson.get("formulae"))
+            if has_content:
+                covered += 1
+                if lesson.get("data_table"):
+                    assert lesson["data_table"]["headers"]
+                    assert lesson["data_table"]["rows"]
+                    for row in lesson["data_table"]["rows"]:
+                        assert len(row) == len(lesson["data_table"]["headers"])
+    assert total == 540
+    assert covered == total, f"Grade 5 depth coverage incomplete: {covered}/{total}"
+
+    renaissance = {l["id"]: l for l in data["subjects"]["World History"]["lessons"]}["hist-g5-l1"]
+    assert ["Meaning", "'Rebirth' of art, science, and learning"] in renaissance["data_table"]["rows"]
