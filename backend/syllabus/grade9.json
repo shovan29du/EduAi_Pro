@@ -4632,7 +4632,27 @@
               "tragedy"
             ]
           },
-          "wiki_title": "Shakespeare: Language and Context"
+          "wiki_title": "Shakespeare: Language and Context",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Born",
+                "1564, Stratford-upon-Avon"
+              ],
+              [
+                "Died",
+                "1616"
+              ],
+              [
+                "Number of plays attributed to him",
+                "~37-39"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g9-l2",
@@ -4869,7 +4889,27 @@
               "Imagery"
             ]
           },
-          "wiki_title": "Poetic Devices and Imagery"
+          "wiki_title": "Poetic Devices and Imagery",
+          "data_table": {
+            "headers": [
+              "Poetic Device",
+              "Definition"
+            ],
+            "rows": [
+              [
+                "Alliteration",
+                "Repetition of initial consonant sounds"
+              ],
+              [
+                "Onomatopoeia",
+                "A word that imitates a sound (e.g. buzz)"
+              ],
+              [
+                "Personification",
+                "Giving human traits to non-human things"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g9-l5",
@@ -9784,7 +9824,23 @@
               "species"
             ]
           },
-          "wiki_title": "Evolution and Natural Selection"
+          "wiki_title": "Evolution and Natural Selection",
+          "data_table": {
+            "headers": [
+              "Concept",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Natural selection",
+                "Organisms better suited to their environment survive and reproduce more"
+              ],
+              [
+                "Proposed by",
+                "Charles Darwin (On the Origin of Species, 1859)"
+              ]
+            ]
+          }
         },
         {
           "id": "sci-g9-l2",
@@ -10262,7 +10318,19 @@
               "Patterns"
             ]
           },
-          "wiki_title": "Punnett Squares and Inheritance Patterns"
+          "wiki_title": "Punnett Squares and Inheritance Patterns",
+          "data_table": {
+            "headers": [
+              "Cross",
+              "Genotype Ratio (Aa x Aa)"
+            ],
+            "rows": [
+              [
+                "Offspring",
+                "1 AA : 2 Aa : 1 aa"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g9-l8",
@@ -20823,7 +20891,27 @@
               "Landforms"
             ]
           },
-          "wiki_title": "Plate Tectonics and Landforms"
+          "wiki_title": "Plate Tectonics and Landforms",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Tectonic plate",
+                "A large slab of Earth's crust that moves slowly"
+              ],
+              [
+                "Fault",
+                "A crack where plates meet and can slip"
+              ],
+              [
+                "Magnitude scale",
+                "Measures the energy/strength of an earthquake"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g9-l4",
@@ -21121,7 +21209,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Glaciation and Ice Age Landscapes"
+          "wiki_title": "Glaciation and Ice Age Landscapes",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Glacier",
+                "A large, slow-moving mass of ice"
+              ],
+              [
+                "Moraine",
+                "Debris deposited by a glacier"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g9-l8",
@@ -26379,7 +26483,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Persian Empire"
+          "wiki_title": "The Persian Empire",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Founded by",
+                "Cyrus the Great, c. 550 BCE"
+              ],
+              [
+                "Peak extent",
+                "Stretched from Egypt to the Indus Valley"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g9-l11",
@@ -26460,7 +26580,27 @@
               "Culture"
             ]
           },
-          "wiki_title": "Alexander the Great and Hellenistic Culture"
+          "wiki_title": "Alexander the Great and Hellenistic Culture",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Born",
+                "356 BCE, Pella, Macedon"
+              ],
+              [
+                "Died",
+                "323 BCE, Babylon"
+              ],
+              [
+                "Empire extent",
+                "Greece to northwestern India"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g9-l12",
@@ -30610,7 +30750,23 @@
               "(Hijrah)"
             ]
           },
-          "wiki_title": "The Migration to Madinah (Hijrah)"
+          "wiki_title": "The Migration to Madinah (Hijrah)",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Year",
+                "622 CE"
+              ],
+              [
+                "Significance",
+                "Marks the start of the Islamic calendar"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g9-l5",
@@ -31559,7 +31715,39 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Six Articles of Faith"
+          "wiki_title": "The Six Articles of Faith",
+          "data_table": {
+            "headers": [
+              "Article of Faith",
+              "Belief In"
+            ],
+            "rows": [
+              [
+                "1",
+                "Allah (God)"
+              ],
+              [
+                "2",
+                "Angels"
+              ],
+              [
+                "3",
+                "Revealed Books"
+              ],
+              [
+                "4",
+                "Prophets"
+              ],
+              [
+                "5",
+                "The Day of Judgment"
+              ],
+              [
+                "6",
+                "Divine Decree (Qadar)"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g9-l17",
@@ -36145,7 +36333,31 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Big O Notation and Efficiency"
+          "wiki_title": "Big O Notation and Efficiency",
+          "data_table": {
+            "headers": [
+              "Big O Notation",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "O(1)",
+                "Constant time"
+              ],
+              [
+                "O(n)",
+                "Linear time"
+              ],
+              [
+                "O(log n)",
+                "Logarithmic time"
+              ],
+              [
+                "O(n^2)",
+                "Quadratic time"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g9-l13",
@@ -36523,7 +36735,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Version Control with Git"
+          "wiki_title": "Version Control with Git",
+          "data_table": {
+            "headers": [
+              "Git Command",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "git commit",
+                "Save a snapshot of changes"
+              ],
+              [
+                "git push",
+                "Upload commits to a remote repository"
+              ],
+              [
+                "git pull",
+                "Download changes from a remote repository"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g9-l18",
@@ -40843,7 +41075,21 @@
               "Storytelling"
             ]
           },
-          "wiki_title": "The Epic of Gilgamesh and Ancient Storytelling"
+          "wiki_title": "The Epic of Gilgamesh and Ancient Storytelling",
+          "data_table": {
+            "headers": [
+              "Epic",
+              "Origin",
+              "Approx. Date"
+            ],
+            "rows": [
+              [
+                "Epic of Gilgamesh",
+                "Mesopotamia",
+                "c. 2100 BCE (oldest known epic)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g9-l5",
@@ -41007,7 +41253,27 @@
               "Structure"
             ]
           },
-          "wiki_title": "Dante's Divine Comedy: Allegory and Structure"
+          "wiki_title": "Dante's Divine Comedy: Allegory and Structure",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Dante Alighieri"
+              ],
+              [
+                "Written",
+                "Early 1300s"
+              ],
+              [
+                "Three parts",
+                "Inferno, Purgatorio, Paradiso"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g9-l7",
@@ -46020,7 +46286,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Color Theory Basics"
+          "wiki_title": "Color Theory Basics",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g9-l5",
@@ -46338,7 +46624,23 @@
               "One-Point"
             ]
           },
-          "wiki_title": "Perspective Drawing: One-Point"
+          "wiki_title": "Perspective Drawing: One-Point",
+          "data_table": {
+            "headers": [
+              "Perspective Type",
+              "Vanishing Points"
+            ],
+            "rows": [
+              [
+                "One-point",
+                "1"
+              ],
+              [
+                "Two-point",
+                "2"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g9-l9",
@@ -51075,7 +51377,23 @@
               "Minor"
             ]
           },
-          "wiki_title": "Scales: Major and Minor"
+          "wiki_title": "Scales: Major and Minor",
+          "data_table": {
+            "headers": [
+              "Scale",
+              "Pattern (W = whole step, H = half step)"
+            ],
+            "rows": [
+              [
+                "Major",
+                "W-W-H-W-W-W-H"
+              ],
+              [
+                "Natural Minor",
+                "W-H-W-W-H-W-W"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g9-l8",
@@ -51761,7 +52079,31 @@
               "Music"
             ]
           },
-          "wiki_title": "The Baroque Period in Music"
+          "wiki_title": "The Baroque Period in Music",
+          "data_table": {
+            "headers": [
+              "Period",
+              "Approx. Dates",
+              "Famous Composer"
+            ],
+            "rows": [
+              [
+                "Baroque",
+                "1600-1750",
+                "J.S. Bach"
+              ],
+              [
+                "Classical",
+                "1750-1820",
+                "Mozart"
+              ],
+              [
+                "Romantic",
+                "1820-1900",
+                "Beethoven (late) / Chopin"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g9-l17",
@@ -55719,7 +56061,31 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "CPR and Emergency Response"
+          "wiki_title": "CPR and Emergency Response",
+          "data_table": {
+            "headers": [
+              "CPR Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Check responsiveness and call for emergency help"
+              ],
+              [
+                "2",
+                "Give 30 chest compressions (about 2 inches deep)"
+              ],
+              [
+                "3",
+                "Give 2 rescue breaths (if trained)"
+              ],
+              [
+                "4",
+                "Repeat the 30:2 ratio until help arrives"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g9-l4",
@@ -56496,7 +56862,23 @@
               "Heatstroke"
             ]
           },
-          "wiki_title": "Hypothermia and Heatstroke"
+          "wiki_title": "Hypothermia and Heatstroke",
+          "data_table": {
+            "headers": [
+              "Condition",
+              "Warning Signs"
+            ],
+            "rows": [
+              [
+                "Hypothermia",
+                "Shivering, confusion, slurred speech"
+              ],
+              [
+                "Heatstroke",
+                "High body temperature, hot/dry skin, confusion"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g9-l14",
@@ -61017,7 +61399,27 @@
               "Accurately"
             ]
           },
-          "wiki_title": "Measuring Ingredients Accurately"
+          "wiki_title": "Measuring Ingredients Accurately",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g9-l7",
@@ -61744,7 +62146,27 @@
               "Agents"
             ]
           },
-          "wiki_title": "Leavening Agents"
+          "wiki_title": "Leavening Agents",
+          "data_table": {
+            "headers": [
+              "Leavening Agent",
+              "How It Works"
+            ],
+            "rows": [
+              [
+                "Baking soda",
+                "Reacts with acid to release carbon dioxide"
+              ],
+              [
+                "Baking powder",
+                "Contains its own acid and base; reacts with liquid and heat"
+              ],
+              [
+                "Yeast",
+                "Ferments sugars to produce carbon dioxide"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g9-l16",
@@ -65820,7 +66242,23 @@
               "Estar"
             ]
           },
-          "wiki_title": "Spanish Grammar: Ser vs Estar"
+          "wiki_title": "Spanish Grammar: Ser vs Estar",
+          "data_table": {
+            "headers": [
+              "Verb",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Ser",
+                "Permanent characteristics (e.g. Soy alto = I am tall)"
+              ],
+              [
+                "Estar",
+                "Temporary states/location (e.g. Estoy cansado = I am tired)"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g9-l4",
@@ -67199,7 +67637,27 @@
               "Hangul"
             ]
           },
-          "wiki_title": "Korean Writing System: Hangul"
+          "wiki_title": "Korean Writing System: Hangul",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Creator",
+                "King Sejong the Great"
+              ],
+              [
+                "Introduced",
+                "1443/1446"
+              ],
+              [
+                "Structure",
+                "Featural alphabet; letters grouped into syllable blocks"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g9-l21",
@@ -71110,7 +71568,31 @@
               "Rivers"
             ]
           },
-          "wiki_title": "Major World Rivers"
+          "wiki_title": "Major World Rivers",
+          "data_table": {
+            "headers": [
+              "River",
+              "Approx. Length",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Nile",
+                "~6,650 km",
+                "Africa"
+              ],
+              [
+                "Amazon",
+                "~6,400 km",
+                "South America"
+              ],
+              [
+                "Yangtze",
+                "~6,300 km",
+                "China"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g9-l5",
@@ -71961,7 +72443,39 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Nobel Prize"
+          "wiki_title": "The Nobel Prize",
+          "data_table": {
+            "headers": [
+              "Nobel Prize Category",
+              "Field"
+            ],
+            "rows": [
+              [
+                "Physics",
+                "Science"
+              ],
+              [
+                "Chemistry",
+                "Science"
+              ],
+              [
+                "Physiology or Medicine",
+                "Science"
+              ],
+              [
+                "Literature",
+                "Writing"
+              ],
+              [
+                "Peace",
+                "International peace efforts"
+              ],
+              [
+                "Economic Sciences",
+                "Added 1968, in memory of Alfred Nobel"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g9-l16",
@@ -76835,7 +77349,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Separation of Powers"
+          "wiki_title": "Separation of Powers",
+          "data_table": {
+            "headers": [
+              "Branch of Government",
+              "Main Role"
+            ],
+            "rows": [
+              [
+                "Legislative",
+                "Makes laws"
+              ],
+              [
+                "Executive",
+                "Enforces laws"
+              ],
+              [
+                "Judicial",
+                "Interprets laws"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g9-l15",
@@ -77072,7 +77606,27 @@
               "Finance"
             ]
           },
-          "wiki_title": "Taxation and Public Finance"
+          "wiki_title": "Taxation and Public Finance",
+          "data_table": {
+            "headers": [
+              "Tax Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Income tax",
+                "Tax on money earned from work"
+              ],
+              [
+                "Sales tax",
+                "Tax added to purchases"
+              ],
+              [
+                "Property tax",
+                "Tax on land/buildings owned"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g9-l18",
@@ -80937,7 +81491,35 @@
               "Basics"
             ]
           },
-          "wiki_title": "Sports Nutrition Basics"
+          "wiki_title": "Sports Nutrition Basics",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g9-l8",
@@ -81445,7 +82027,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Badminton Fundamentals"
+          "wiki_title": "Badminton Fundamentals",
+          "data_table": {
+            "headers": [
+              "Badminton Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Shuttlecock",
+                "The object hit over the net"
+              ],
+              [
+                "Rally",
+                "Continuous play until a point is scored"
+              ],
+              [
+                "Match play",
+                "Best of 3 games to 21 points"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g9-l15",
@@ -85749,7 +86351,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Law of Supply"
+          "wiki_title": "The Law of Supply",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Effect on Price"
+            ],
+            "rows": [
+              [
+                "High demand, low supply",
+                "Price tends to rise"
+              ],
+              [
+                "Low demand, high supply",
+                "Price tends to fall"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g9-l7",
@@ -86346,7 +86964,23 @@
               "(GDP)"
             ]
           },
-          "wiki_title": "Gross Domestic Product (GDP)"
+          "wiki_title": "Gross Domestic Product (GDP)",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "GDP",
+                "Total value of goods and services produced in a country in a given period"
+              ],
+              [
+                "GDP per capita",
+                "GDP divided by population"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g9-l15",
@@ -90678,7 +91312,27 @@
               "Interest"
             ]
           },
-          "wiki_title": "Simple versus Compound Interest"
+          "wiki_title": "Simple versus Compound Interest",
+          "formulae": [
+            "Simple Interest = P x r x t",
+            "Compound Interest = P(1+r)^t - P"
+          ],
+          "data_table": {
+            "headers": [
+              "Interest Type",
+              "$1000 at 5% after 3 years"
+            ],
+            "rows": [
+              [
+                "Simple",
+                "$1,150"
+              ],
+              [
+                "Compound (annual)",
+                "$1,157.63"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g9-l9",
@@ -90837,7 +91491,35 @@
               "Scores"
             ]
           },
-          "wiki_title": "Credit Scores"
+          "wiki_title": "Credit Scores",
+          "data_table": {
+            "headers": [
+              "FICO Credit Score Range",
+              "Rating"
+            ],
+            "rows": [
+              [
+                "800-850",
+                "Exceptional"
+              ],
+              [
+                "740-799",
+                "Very Good"
+              ],
+              [
+                "670-739",
+                "Good"
+              ],
+              [
+                "580-669",
+                "Fair"
+              ],
+              [
+                "300-579",
+                "Poor"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g9-l11",
@@ -95965,7 +96647,31 @@
               "Method)"
             ]
           },
-          "wiki_title": "Treating Sprains and Strains (RICE Method)"
+          "wiki_title": "Treating Sprains and Strains (RICE Method)",
+          "data_table": {
+            "headers": [
+              "RICE Letter",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "R",
+                "Rest"
+              ],
+              [
+                "I",
+                "Ice"
+              ],
+              [
+                "C",
+                "Compression"
+              ],
+              [
+                "E",
+                "Elevation"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g9-l14",
@@ -96127,7 +96833,31 @@
               "Test)"
             ]
           },
-          "wiki_title": "Recognizing Stroke (FAST Test)"
+          "wiki_title": "Recognizing Stroke (FAST Test)",
+          "data_table": {
+            "headers": [
+              "FAST Letter",
+              "Check For"
+            ],
+            "rows": [
+              [
+                "F - Face",
+                "Facial drooping"
+              ],
+              [
+                "A - Arms",
+                "Arm weakness or drift"
+              ],
+              [
+                "S - Speech",
+                "Slurred speech"
+              ],
+              [
+                "T - Time",
+                "Time to call emergency services"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g9-l16",
@@ -100667,7 +101397,30 @@
               "Motion"
             ]
           },
-          "wiki_title": "Newton's First Law of Motion"
+          "wiki_title": "Newton's First Law of Motion",
+          "data_table": {
+            "headers": [
+              "Newton's Law",
+              "Statement"
+            ],
+            "rows": [
+              [
+                "1st Law (Inertia)",
+                "An object stays at rest or in motion unless acted on by a force"
+              ],
+              [
+                "2nd Law",
+                "F = m x a (Force = mass x acceleration)"
+              ],
+              [
+                "3rd Law",
+                "For every action there is an equal and opposite reaction"
+              ]
+            ]
+          },
+          "formulae": [
+            "F = m x a"
+          ]
         },
         {
           "id": "physics-g9-l11",
@@ -101274,7 +102027,22 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Kinetic Energy"
+          "wiki_title": "Kinetic Energy",
+          "formulae": [
+            "KE = 1/2 x m x v^2"
+          ],
+          "data_table": {
+            "headers": [
+              "Energy Type",
+              "Formula"
+            ],
+            "rows": [
+              [
+                "Kinetic",
+                "1/2 x m x v^2"
+              ]
+            ]
+          }
         },
         {
           "id": "physics-g9-l19",
@@ -105127,7 +105895,36 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Periodic Table"
+          "wiki_title": "The Periodic Table",
+          "data_table": {
+            "headers": [
+              "Element",
+              "Symbol",
+              "Atomic Number"
+            ],
+            "rows": [
+              [
+                "Hydrogen",
+                "H",
+                "1"
+              ],
+              [
+                "Carbon",
+                "C",
+                "6"
+              ],
+              [
+                "Oxygen",
+                "O",
+                "8"
+              ],
+              [
+                "Iron",
+                "Fe",
+                "26"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g9-l6",
@@ -105346,7 +106143,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Ionic Bonding"
+          "wiki_title": "Ionic Bonding",
+          "data_table": {
+            "headers": [
+              "Bond Type",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Ionic",
+                "Transfer of electrons between atoms (metal + nonmetal)"
+              ],
+              [
+                "Covalent",
+                "Sharing of electrons between atoms (nonmetal + nonmetal)"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g9-l9",
@@ -110250,7 +111063,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Digestive System"
+          "wiki_title": "The Digestive System",
+          "data_table": {
+            "headers": [
+              "Organ",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Stomach",
+                "Breaks down food with acid and enzymes"
+              ],
+              [
+                "Small intestine",
+                "Absorbs nutrients"
+              ],
+              [
+                "Large intestine",
+                "Absorbs water, forms waste"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g9-l10",
@@ -111038,7 +111871,31 @@
               "Mitosis"
             ]
           },
-          "wiki_title": "Cell Division: Mitosis"
+          "wiki_title": "Cell Division: Mitosis",
+          "data_table": {
+            "headers": [
+              "Mitosis Phase",
+              "What Happens"
+            ],
+            "rows": [
+              [
+                "Prophase",
+                "Chromosomes condense and become visible"
+              ],
+              [
+                "Metaphase",
+                "Chromosomes line up at the cell's center"
+              ],
+              [
+                "Anaphase",
+                "Chromosomes are pulled to opposite ends"
+              ],
+              [
+                "Telophase",
+                "Two new nuclei form"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g9-l21",
@@ -115240,7 +116097,27 @@
               "Forms"
             ]
           },
-          "wiki_title": "Plato and the Theory of Forms"
+          "wiki_title": "Plato and the Theory of Forms",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Philosopher",
+                "Plato"
+              ],
+              [
+                "Key idea",
+                "Forms are perfect, unchanging ideas that physical objects imperfectly reflect"
+              ],
+              [
+                "Student of",
+                "Socrates"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g9-l14",
@@ -115319,7 +116196,27 @@
               "Ethics"
             ]
           },
-          "wiki_title": "Aristotle and Virtue Ethics"
+          "wiki_title": "Aristotle and Virtue Ethics",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Philosopher",
+                "Aristotle"
+              ],
+              [
+                "Key idea",
+                "Virtue lies at the 'golden mean' between two extremes"
+              ],
+              [
+                "Teacher",
+                "Plato"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g9-l15",
@@ -119782,7 +120679,27 @@
               "Fallacy"
             ]
           },
-          "wiki_title": "The False Dilemma Fallacy"
+          "wiki_title": "The False Dilemma Fallacy",
+          "data_table": {
+            "headers": [
+              "Logical Fallacy",
+              "Description"
+            ],
+            "rows": [
+              [
+                "False Dilemma",
+                "Presenting only two options when more exist"
+              ],
+              [
+                "Ad Hominem",
+                "Attacking the person instead of the argument"
+              ],
+              [
+                "Strawman",
+                "Misrepresenting an argument to attack it easily"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g9-l11",
@@ -120308,7 +121225,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Availability Heuristic"
+          "wiki_title": "The Availability Heuristic",
+          "data_table": {
+            "headers": [
+              "Cognitive Bias",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Availability heuristic",
+                "Judging likelihood by how easily examples come to mind"
+              ],
+              [
+                "Anchoring bias",
+                "Relying too heavily on the first piece of information given"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g9-l18",
@@ -123573,7 +124506,35 @@
               "Groups"
             ]
           },
-          "wiki_title": "Nutrition Basics and Food Groups"
+          "wiki_title": "Nutrition Basics and Food Groups",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g9-l9",
@@ -123873,7 +124834,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Importance of Sleep"
+          "wiki_title": "The Importance of Sleep",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g9-l13",
@@ -127001,7 +127982,27 @@
               "server"
             ]
           },
-          "wiki_title": "Web Development"
+          "wiki_title": "Web Development",
+          "data_table": {
+            "headers": [
+              "Web Technology",
+              "Role"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Structure of a webpage"
+              ],
+              [
+                "CSS",
+                "Styling of a webpage"
+              ],
+              [
+                "JavaScript",
+                "Interactivity of a webpage"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g9-l2",
@@ -127396,7 +128397,39 @@
               "System"
             ]
           },
-          "wiki_title": "The Binary Number System"
+          "wiki_title": "The Binary Number System",
+          "data_table": {
+            "headers": [
+              "Decimal",
+              "Binary"
+            ],
+            "rows": [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ],
+              [
+                "2",
+                "10"
+              ],
+              [
+                "3",
+                "11"
+              ],
+              [
+                "4",
+                "100"
+              ],
+              [
+                "5",
+                "101"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g9-l7",

@@ -4729,7 +4729,27 @@
               "Macbeth"
             ]
           },
-          "wiki_title": "Shakespearean Tragedy: Macbeth"
+          "wiki_title": "Shakespearean Tragedy: Macbeth",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "William Shakespeare"
+              ],
+              [
+                "Written",
+                "c. 1606"
+              ],
+              [
+                "Setting",
+                "Scotland"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g10-l4",
@@ -5362,7 +5382,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Sonnet Tradition"
+          "wiki_title": "The Sonnet Tradition",
+          "data_table": {
+            "headers": [
+              "Sonnet Form",
+              "Rhyme Scheme"
+            ],
+            "rows": [
+              [
+                "Shakespearean (English)",
+                "ABAB CDCD EFEF GG"
+              ],
+              [
+                "Petrarchan (Italian)",
+                "ABBAABBA CDECDE"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g10-l12",
@@ -10764,7 +10800,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Gas Laws"
+          "wiki_title": "Gas Laws",
+          "formulae": [
+            "PV = nRT (Ideal Gas Law)",
+            "Boyle's Law: P1V1 = P2V2"
+          ],
+          "data_table": {
+            "headers": [
+              "Gas Law",
+              "Relationship"
+            ],
+            "rows": [
+              [
+                "Boyle's Law",
+                "Pressure and volume are inversely related (constant temperature)"
+              ],
+              [
+                "Charles's Law",
+                "Volume and temperature are directly related (constant pressure)"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g10-l15",
@@ -10924,7 +10980,30 @@
               "Motion"
             ]
           },
-          "wiki_title": "Newton's Laws of Motion"
+          "wiki_title": "Newton's Laws of Motion",
+          "data_table": {
+            "headers": [
+              "Newton's Law",
+              "Statement"
+            ],
+            "rows": [
+              [
+                "1st Law (Inertia)",
+                "An object stays at rest or in motion unless acted on by a force"
+              ],
+              [
+                "2nd Law",
+                "F = m x a (Force = mass x acceleration)"
+              ],
+              [
+                "3rd Law",
+                "For every action there is an equal and opposite reaction"
+              ]
+            ]
+          },
+          "formulae": [
+            "F = m x a"
+          ]
         },
         {
           "id": "science-g10-l17",
@@ -20869,7 +20948,27 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Earthquakes and Volcanoes"
+          "wiki_title": "Earthquakes and Volcanoes",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Magma",
+                "Molten rock beneath Earth's surface"
+              ],
+              [
+                "Lava",
+                "Molten rock that reaches the surface"
+              ],
+              [
+                "Magnitude scale",
+                "Measures earthquake strength"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g10-l5",
@@ -21327,7 +21426,27 @@
               "Evidence"
             ]
           },
-          "wiki_title": "Climate Change: Causes and Evidence"
+          "wiki_title": "Climate Change: Causes and Evidence",
+          "data_table": {
+            "headers": [
+              "Greenhouse Gas",
+              "Main Human Source"
+            ],
+            "rows": [
+              [
+                "Carbon dioxide (CO2)",
+                "Burning fossil fuels"
+              ],
+              [
+                "Methane (CH4)",
+                "Agriculture, livestock, landfills"
+              ],
+              [
+                "Nitrous oxide (N2O)",
+                "Fertilizers, industrial processes"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g10-l11",
@@ -25599,7 +25718,23 @@
               "ideology"
             ]
           },
-          "wiki_title": "20th Century: Ideologies and Conflicts"
+          "wiki_title": "20th Century: Ideologies and Conflicts",
+          "data_table": {
+            "headers": [
+              "Conflict",
+              "Dates"
+            ],
+            "rows": [
+              [
+                "World War I",
+                "1914-1918"
+              ],
+              [
+                "World War II",
+                "1939-1945"
+              ]
+            ]
+          }
         },
         {
           "id": "hist-g10-l2",
@@ -27084,7 +27219,27 @@
               "Trade"
             ]
           },
-          "wiki_title": "The Atlantic Slave Trade"
+          "wiki_title": "The Atlantic Slave Trade",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Approximate period",
+                "16th-19th century"
+              ],
+              [
+                "Estimated number transported",
+                "~12.5 million Africans"
+              ],
+              [
+                "Abolished in the British Empire",
+                "1833 (Slavery Abolition Act)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g10-l21",
@@ -31408,7 +31563,31 @@
               "Caliphs"
             ]
           },
-          "wiki_title": "The History of the Rightly Guided Caliphs"
+          "wiki_title": "The History of the Rightly Guided Caliphs",
+          "data_table": {
+            "headers": [
+              "Rightly Guided Caliph",
+              "Order"
+            ],
+            "rows": [
+              [
+                "Abu Bakr",
+                "1st"
+              ],
+              [
+                "Umar ibn al-Khattab",
+                "2nd"
+              ],
+              [
+                "Uthman ibn Affan",
+                "3rd"
+              ],
+              [
+                "Ali ibn Abi Talib",
+                "4th"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g10-l14",
@@ -31890,7 +32069,23 @@
               "Origins"
             ]
           },
-          "wiki_title": "Sunni and Shia Traditions: Historical Origins"
+          "wiki_title": "Sunni and Shia Traditions: Historical Origins",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Split originated over",
+                "Disagreement on succession after the Prophet's death, 632 CE"
+              ],
+              [
+                "Majority tradition worldwide",
+                "Sunni (~85-90% of Muslims)"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g10-l20",
@@ -36344,7 +36539,31 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Big O Notation and Efficiency"
+          "wiki_title": "Big O Notation and Efficiency",
+          "data_table": {
+            "headers": [
+              "Big O Notation",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "O(1)",
+                "Constant time"
+              ],
+              [
+                "O(n)",
+                "Linear time"
+              ],
+              [
+                "O(log n)",
+                "Logarithmic time"
+              ],
+              [
+                "O(n^2)",
+                "Quadratic time"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g10-l16",
@@ -36414,7 +36633,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Stacks and Queues"
+          "wiki_title": "Stacks and Queues",
+          "data_table": {
+            "headers": [
+              "Structure",
+              "Order"
+            ],
+            "rows": [
+              [
+                "Stack",
+                "LIFO (Last In, First Out)"
+              ],
+              [
+                "Queue",
+                "FIFO (First In, First Out)"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g10-l17",
@@ -40575,7 +40810,27 @@
               "Oedipus"
             ]
           },
-          "wiki_title": "Greek Tragedy: Sophocles and Oedipus Rex"
+          "wiki_title": "Greek Tragedy: Sophocles and Oedipus Rex",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Playwright",
+                "Sophocles"
+              ],
+              [
+                "Written",
+                "c. 429 BCE"
+              ],
+              [
+                "Genre",
+                "Greek tragedy"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g10-l4",
@@ -41202,7 +41457,27 @@
               "Miserables"
             ]
           },
-          "wiki_title": "Victor Hugo and Les Miserables"
+          "wiki_title": "Victor Hugo and Les Miserables",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Victor Hugo"
+              ],
+              [
+                "Published",
+                "1862"
+              ],
+              [
+                "Setting",
+                "19th-century France"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g10-l12",
@@ -45674,7 +45949,27 @@
               "Theory"
             ]
           },
-          "wiki_title": "Elements of Art: Color Theory"
+          "wiki_title": "Elements of Art: Color Theory",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g10-l4",
@@ -46988,7 +47283,26 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Baroque Art"
+          "wiki_title": "Baroque Art",
+          "data_table": {
+            "headers": [
+              "Style",
+              "Approx. Period",
+              "Famous Artist"
+            ],
+            "rows": [
+              [
+                "Baroque",
+                "1600-1750",
+                "Caravaggio"
+              ],
+              [
+                "Rococo",
+                "1700-1770",
+                "Fragonard"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g10-l21",
@@ -50791,7 +51105,35 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "Intervals and Chords"
+          "wiki_title": "Intervals and Chords",
+          "data_table": {
+            "headers": [
+              "Interval",
+              "Semitones"
+            ],
+            "rows": [
+              [
+                "Minor 2nd",
+                "1"
+              ],
+              [
+                "Major 2nd",
+                "2"
+              ],
+              [
+                "Perfect 4th",
+                "5"
+              ],
+              [
+                "Perfect 5th",
+                "7"
+              ],
+              [
+                "Octave",
+                "12"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g10-l9",
@@ -51465,7 +51807,31 @@
               "Handel"
             ]
           },
-          "wiki_title": "Baroque Music: Bach and Handel"
+          "wiki_title": "Baroque Music: Bach and Handel",
+          "data_table": {
+            "headers": [
+              "Period",
+              "Approx. Dates",
+              "Famous Composer"
+            ],
+            "rows": [
+              [
+                "Baroque",
+                "1600-1750",
+                "J.S. Bach"
+              ],
+              [
+                "Classical",
+                "1750-1820",
+                "Mozart"
+              ],
+              [
+                "Romantic",
+                "1820-1900",
+                "Beethoven (late) / Chopin"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g10-l18",
@@ -55294,7 +55660,31 @@
               "Fundamentals"
             ]
           },
-          "wiki_title": "Basic First Aid: CPR Fundamentals"
+          "wiki_title": "Basic First Aid: CPR Fundamentals",
+          "data_table": {
+            "headers": [
+              "CPR Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Check responsiveness and call for emergency help"
+              ],
+              [
+                "2",
+                "Give 30 chest compressions (about 2 inches deep)"
+              ],
+              [
+                "3",
+                "Give 2 rescue breaths (if trained)"
+              ],
+              [
+                "4",
+                "Repeat the 30:2 ratio until help arrives"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g10-l4",
@@ -55855,7 +56245,27 @@
               "Methods"
             ]
           },
-          "wiki_title": "Water Purification Methods"
+          "wiki_title": "Water Purification Methods",
+          "data_table": {
+            "headers": [
+              "Method",
+              "How It Works"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "Boil for at least 1 minute (3 minutes above 2,000m) to kill pathogens"
+              ],
+              [
+                "Water filter",
+                "Physically removes bacteria and parasites"
+              ],
+              [
+                "Purification tablets",
+                "Chemically disinfect water"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g10-l11",
@@ -60387,7 +60797,27 @@
               "Recipes"
             ]
           },
-          "wiki_title": "Measuring and Following Recipes"
+          "wiki_title": "Measuring and Following Recipes",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g10-l6",
@@ -60881,7 +61311,35 @@
               "Salty"
             ]
           },
-          "wiki_title": "Balancing Flavors: Sweet, Sour, Salty, Bitter, Umami"
+          "wiki_title": "Balancing Flavors: Sweet, Sour, Salty, Bitter, Umami",
+          "data_table": {
+            "headers": [
+              "Taste",
+              "Example Food"
+            ],
+            "rows": [
+              [
+                "Sweet",
+                "Sugar, honey"
+              ],
+              [
+                "Sour",
+                "Lemon, vinegar"
+              ],
+              [
+                "Salty",
+                "Salt, soy sauce"
+              ],
+              [
+                "Bitter",
+                "Coffee, dark chocolate"
+              ],
+              [
+                "Umami",
+                "Mushrooms, parmesan, soy sauce"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g10-l12",
@@ -64992,7 +65450,23 @@
               "Tense"
             ]
           },
-          "wiki_title": "Spanish Grammar: Preterite vs Imperfect Tense"
+          "wiki_title": "Spanish Grammar: Preterite vs Imperfect Tense",
+          "data_table": {
+            "headers": [
+              "Spanish Past Tense",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Preterite",
+                "Completed actions at a specific time"
+              ],
+              [
+                "Imperfect",
+                "Ongoing or repeated past actions"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g10-l3",
@@ -66211,7 +66685,27 @@
               "Hangul"
             ]
           },
-          "wiki_title": "Korean Writing System: Hangul"
+          "wiki_title": "Korean Writing System: Hangul",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Creator",
+                "King Sejong the Great"
+              ],
+              [
+                "Introduced",
+                "1443/1446"
+              ],
+              [
+                "Structure",
+                "Featural alphabet; letters grouped into syllable blocks"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g10-l18",
@@ -70800,7 +71294,39 @@
               "Laureates"
             ]
           },
-          "wiki_title": "Nobel Prize Categories and Notable Laureates"
+          "wiki_title": "Nobel Prize Categories and Notable Laureates",
+          "data_table": {
+            "headers": [
+              "Nobel Prize Category",
+              "Field"
+            ],
+            "rows": [
+              [
+                "Physics",
+                "Science"
+              ],
+              [
+                "Chemistry",
+                "Science"
+              ],
+              [
+                "Physiology or Medicine",
+                "Science"
+              ],
+              [
+                "Literature",
+                "Writing"
+              ],
+              [
+                "Peace",
+                "International peace efforts"
+              ],
+              [
+                "Economic Sciences",
+                "Added 1968, in memory of Alfred Nobel"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g10-l11",
@@ -71608,7 +72134,31 @@
               "World"
             ]
           },
-          "wiki_title": "Major Deserts of the World"
+          "wiki_title": "Major Deserts of the World",
+          "data_table": {
+            "headers": [
+              "Desert",
+              "Location",
+              "Type"
+            ],
+            "rows": [
+              [
+                "Sahara",
+                "North Africa",
+                "Hot desert (largest hot desert)"
+              ],
+              [
+                "Gobi",
+                "Asia (Mongolia/China)",
+                "Cold desert"
+              ],
+              [
+                "Antarctic Desert",
+                "Antarctica",
+                "Coldest and largest desert overall"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g10-l21",
@@ -75775,7 +76325,27 @@
               "Outcomes"
             ]
           },
-          "wiki_title": "World War I: Causes and Outcomes"
+          "wiki_title": "World War I: Causes and Outcomes",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1914-1918"
+              ],
+              [
+                "Started after",
+                "Assassination of Archduke Franz Ferdinand, June 1914"
+              ],
+              [
+                "Ended by",
+                "Armistice of 11 November 1918"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g10-l10",
@@ -75854,7 +76424,27 @@
               "Outcomes"
             ]
           },
-          "wiki_title": "World War II: Causes and Outcomes"
+          "wiki_title": "World War II: Causes and Outcomes",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1939-1945"
+              ],
+              [
+                "Started when",
+                "Germany invaded Poland, September 1939"
+              ],
+              [
+                "Ended in Europe",
+                "V-E Day, May 8, 1945"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g10-l11",
@@ -80709,7 +81299,27 @@
               "Badminton"
             ]
           },
-          "wiki_title": "Basic Rules of Badminton"
+          "wiki_title": "Basic Rules of Badminton",
+          "data_table": {
+            "headers": [
+              "Badminton Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Shuttlecock",
+                "The object hit over the net"
+              ],
+              [
+                "Rally",
+                "Continuous play until a point is scored"
+              ],
+              [
+                "Match play",
+                "Best of 3 games to 21 points"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g10-l12",
@@ -81342,7 +81952,35 @@
               "Basics"
             ]
           },
-          "wiki_title": "Sports Nutrition Basics"
+          "wiki_title": "Sports Nutrition Basics",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g10-l20",
@@ -85962,7 +86600,31 @@
               "Monopoly"
             ]
           },
-          "wiki_title": "Market Structures: Monopoly"
+          "wiki_title": "Market Structures: Monopoly",
+          "data_table": {
+            "headers": [
+              "Market Structure",
+              "Number of Sellers"
+            ],
+            "rows": [
+              [
+                "Perfect Competition",
+                "Many"
+              ],
+              [
+                "Monopolistic Competition",
+                "Many, differentiated products"
+              ],
+              [
+                "Oligopoly",
+                "Few"
+              ],
+              [
+                "Monopoly",
+                "One"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g10-l15",
@@ -86440,7 +87102,23 @@
               "Advantage"
             ]
           },
-          "wiki_title": "International Trade: Comparative Advantage"
+          "wiki_title": "International Trade: Comparative Advantage",
+          "data_table": {
+            "headers": [
+              "Concept",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Absolute advantage",
+                "Producing more of a good with the same resources"
+              ],
+              [
+                "Comparative advantage",
+                "Producing a good at a lower opportunity cost than another"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g10-l21",
@@ -90373,7 +91051,27 @@
               "Compound"
             ]
           },
-          "wiki_title": "How Interest Works: Simple vs Compound"
+          "wiki_title": "How Interest Works: Simple vs Compound",
+          "formulae": [
+            "Simple Interest = P x r x t",
+            "Compound Interest = P(1+r)^t - P"
+          ],
+          "data_table": {
+            "headers": [
+              "Interest Type",
+              "$1000 at 5% after 3 years"
+            ],
+            "rows": [
+              [
+                "Simple",
+                "$1,150"
+              ],
+              [
+                "Compound (annual)",
+                "$1,157.63"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g10-l9",
@@ -90453,7 +91151,35 @@
               "Scores"
             ]
           },
-          "wiki_title": "Credit and Credit Scores"
+          "wiki_title": "Credit and Credit Scores",
+          "data_table": {
+            "headers": [
+              "FICO Credit Score Range",
+              "Rating"
+            ],
+            "rows": [
+              [
+                "800-850",
+                "Exceptional"
+              ],
+              [
+                "740-799",
+                "Very Good"
+              ],
+              [
+                "670-739",
+                "Good"
+              ],
+              [
+                "580-669",
+                "Fair"
+              ],
+              [
+                "300-579",
+                "Poor"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g10-l10",
@@ -94837,7 +95563,43 @@
               "Action"
             ]
           },
-          "wiki_title": "Principles of First Aid: The DRSABCD Action Plan"
+          "wiki_title": "Principles of First Aid: The DRSABCD Action Plan",
+          "data_table": {
+            "headers": [
+              "DRSABCD Letter",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "D",
+                "Danger - check for danger"
+              ],
+              [
+                "R",
+                "Response - check responsiveness"
+              ],
+              [
+                "S",
+                "Send for help"
+              ],
+              [
+                "A",
+                "Airway - open the airway"
+              ],
+              [
+                "B",
+                "Breathing - check for breathing"
+              ],
+              [
+                "C",
+                "CPR - start chest compressions"
+              ],
+              [
+                "D",
+                "Defibrillation - use an AED if available"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g10-l3",
@@ -96033,7 +96795,31 @@
               "Treatment"
             ]
           },
-          "wiki_title": "Sprains, Strains, and RICE Treatment"
+          "wiki_title": "Sprains, Strains, and RICE Treatment",
+          "data_table": {
+            "headers": [
+              "RICE Letter",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "R",
+                "Rest"
+              ],
+              [
+                "I",
+                "Ice"
+              ],
+              [
+                "C",
+                "Compression"
+              ],
+              [
+                "E",
+                "Elevation"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g10-l18",
@@ -100420,7 +101206,30 @@
               "Power"
             ]
           },
-          "wiki_title": "Work, Energy, and Power"
+          "wiki_title": "Work, Energy, and Power",
+          "formulae": [
+            "Work = Force x Distance",
+            "Power = Work / Time"
+          ],
+          "data_table": {
+            "headers": [
+              "Quantity",
+              "Formula",
+              "SI Unit"
+            ],
+            "rows": [
+              [
+                "Work",
+                "F x d",
+                "Joule (J)"
+              ],
+              [
+                "Power",
+                "W / t",
+                "Watt (W)"
+              ]
+            ]
+          }
         },
         {
           "id": "physics-g10-l10",
@@ -101018,7 +101827,23 @@
               "Buoyancy"
             ]
           },
-          "wiki_title": "Archimedes' Principle and Buoyancy"
+          "wiki_title": "Archimedes' Principle and Buoyancy",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Principle",
+                "A submerged object feels an upward force equal to the weight of fluid it displaces"
+              ],
+              [
+                "Discovered by",
+                "Archimedes of Syracuse, c. 250 BCE"
+              ]
+            ]
+          }
         },
         {
           "id": "physics-g10-l18",
@@ -105291,7 +106116,31 @@
               "Scale"
             ]
           },
-          "wiki_title": "Acids, Bases, and the pH Scale"
+          "wiki_title": "Acids, Bases, and the pH Scale",
+          "data_table": {
+            "headers": [
+              "pH Range",
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "0-6",
+                "Acidic",
+                "Lemon juice (~2)"
+              ],
+              [
+                "7",
+                "Neutral",
+                "Pure water"
+              ],
+              [
+                "8-14",
+                "Basic (alkaline)",
+                "Baking soda (~9)"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g10-l12",
@@ -105502,7 +106351,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "The Mole Concept"
+          "wiki_title": "The Mole Concept",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Avogadro's number",
+                "6.022 x 10^23 particles per mole"
+              ],
+              [
+                "1 mole of any gas at STP",
+                "Occupies 22.4 liters"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g10-l15",
@@ -109831,7 +110696,23 @@
             "completion_required": true,
             "min_quiz_score": 70
           },
-          "wiki_title": "DNA Structure and Replication"
+          "wiki_title": "DNA Structure and Replication",
+          "data_table": {
+            "headers": [
+              "DNA Base",
+              "Pairs With"
+            ],
+            "rows": [
+              [
+                "Adenine (A)",
+                "Thymine (T)"
+              ],
+              [
+                "Cytosine (C)",
+                "Guanine (G)"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g10-l9",
@@ -109991,7 +110872,19 @@
               "Squares"
             ]
           },
-          "wiki_title": "Mendelian Genetics and Punnett Squares"
+          "wiki_title": "Mendelian Genetics and Punnett Squares",
+          "data_table": {
+            "headers": [
+              "Cross",
+              "Genotype Ratio (Aa x Aa)"
+            ],
+            "rows": [
+              [
+                "Offspring",
+                "1 AA : 2 Aa : 1 aa"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g10-l11",
@@ -114778,7 +115671,23 @@
               "Good"
             ]
           },
-          "wiki_title": "Utilitarianism: The Greatest Good"
+          "wiki_title": "Utilitarianism: The Greatest Good",
+          "data_table": {
+            "headers": [
+              "Philosopher",
+              "Key Idea"
+            ],
+            "rows": [
+              [
+                "Jeremy Bentham",
+                "Founder of utilitarianism; the 'greatest happiness principle'"
+              ],
+              [
+                "John Stuart Mill",
+                "Refined utilitarianism; distinguished higher and lower pleasures"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g10-l11",
@@ -115173,7 +116082,27 @@
               "Theory"
             ]
           },
-          "wiki_title": "Social Contract Theory"
+          "wiki_title": "Social Contract Theory",
+          "data_table": {
+            "headers": [
+              "Philosopher",
+              "Key Idea"
+            ],
+            "rows": [
+              [
+                "Thomas Hobbes",
+                "People consent to government to escape a brutal 'state of nature'"
+              ],
+              [
+                "John Locke",
+                "Government exists to protect natural rights (life, liberty, property)"
+              ],
+              [
+                "Jean-Jacques Rousseau",
+                "Legitimate government reflects the 'general will' of the people"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g10-l16",
@@ -119246,7 +120175,27 @@
               "Fallacies"
             ]
           },
-          "wiki_title": "Recognizing Logical Fallacies"
+          "wiki_title": "Recognizing Logical Fallacies",
+          "data_table": {
+            "headers": [
+              "Logical Fallacy",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Ad Hominem",
+                "Attacking the person instead of the argument"
+              ],
+              [
+                "Straw Man",
+                "Misrepresenting someone's argument to attack it easily"
+              ],
+              [
+                "Slippery Slope",
+                "Claiming one step will lead to extreme consequences without evidence"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g10-l6",
@@ -119544,7 +120493,23 @@
               "Thinking"
             ]
           },
-          "wiki_title": "Bias and Its Effect on Thinking"
+          "wiki_title": "Bias and Its Effect on Thinking",
+          "data_table": {
+            "headers": [
+              "Cognitive Bias",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Availability heuristic",
+                "Judging likelihood by how easily examples come to mind"
+              ],
+              [
+                "Anchoring bias",
+                "Relying too heavily on the first piece of information given"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g10-l10",
@@ -123458,7 +124423,35 @@
               "Diets"
             ]
           },
-          "wiki_title": "Nutrition and Balanced Diets"
+          "wiki_title": "Nutrition and Balanced Diets",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g10-l8",
@@ -123767,7 +124760,27 @@
               "Importance"
             ]
           },
-          "wiki_title": "Sleep Hygiene and Its Importance"
+          "wiki_title": "Sleep Hygiene and Its Importance",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g10-l12",
@@ -127060,7 +128073,23 @@
               "Big O"
             ]
           },
-          "wiki_title": "Computer Science: Theory and Applications"
+          "wiki_title": "Computer Science: Theory and Applications",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Algorithm",
+                "A step-by-step procedure for solving a problem"
+              ],
+              [
+                "Data structure",
+                "A way of organizing data for efficient use"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g10-l2",
@@ -128441,7 +129470,27 @@
               "Data"
             ]
           },
-          "wiki_title": "SQL Basics: Querying Data"
+          "wiki_title": "SQL Basics: Querying Data",
+          "data_table": {
+            "headers": [
+              "SQL Keyword",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "SELECT",
+                "Retrieve data from a table"
+              ],
+              [
+                "WHERE",
+                "Filter rows by a condition"
+              ],
+              [
+                "INSERT",
+                "Add new data to a table"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g10-l20",

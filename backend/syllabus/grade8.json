@@ -3977,7 +3977,23 @@
               "Speech"
             ]
           },
-          "wiki_title": "Grammar: Direct and Indirect Speech"
+          "wiki_title": "Grammar: Direct and Indirect Speech",
+          "data_table": {
+            "headers": [
+              "Direct Speech",
+              "Indirect Speech"
+            ],
+            "rows": [
+              [
+                "She said, \"I am happy.\"",
+                "She said that she was happy."
+              ],
+              [
+                "He said, \"I will go.\"",
+                "He said that he would go."
+              ]
+            ]
+          }
         },
         {
           "id": "english-g8-l4",
@@ -4426,7 +4442,23 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Figures of Speech"
+          "wiki_title": "Figures of Speech",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Simile",
+                "Brave as a lion"
+              ],
+              [
+                "Metaphor",
+                "Time is money"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g8-l10",
@@ -7814,7 +7846,30 @@
               "reaction"
             ]
           },
-          "wiki_title": "Newton's Laws of Motion"
+          "wiki_title": "Newton's Laws of Motion",
+          "data_table": {
+            "headers": [
+              "Newton's Law",
+              "Statement"
+            ],
+            "rows": [
+              [
+                "1st Law (Inertia)",
+                "An object stays at rest or in motion unless acted on by a force"
+              ],
+              [
+                "2nd Law",
+                "F = m x a (Force = mass x acceleration)"
+              ],
+              [
+                "3rd Law",
+                "For every action there is an equal and opposite reaction"
+              ]
+            ]
+          },
+          "formulae": [
+            "F = m x a"
+          ]
         },
         {
           "id": "science-g8-l3",
@@ -8798,7 +8853,36 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "The Periodic Table"
+          "wiki_title": "The Periodic Table",
+          "data_table": {
+            "headers": [
+              "Element",
+              "Symbol",
+              "Atomic Number"
+            ],
+            "rows": [
+              [
+                "Hydrogen",
+                "H",
+                "1"
+              ],
+              [
+                "Carbon",
+                "C",
+                "6"
+              ],
+              [
+                "Oxygen",
+                "O",
+                "8"
+              ],
+              [
+                "Iron",
+                "Fe",
+                "26"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g8-l16",
@@ -18059,7 +18143,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Volcanoes and Earthquakes"
+          "wiki_title": "Volcanoes and Earthquakes",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Magma",
+                "Molten rock beneath Earth's surface"
+              ],
+              [
+                "Lava",
+                "Molten rock that reaches the surface"
+              ],
+              [
+                "Magnitude scale",
+                "Measures earthquake strength"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g8-l9",
@@ -18436,7 +18540,35 @@
               "Currents"
             ]
           },
-          "wiki_title": "Oceans and Ocean Currents"
+          "wiki_title": "Oceans and Ocean Currents",
+          "data_table": {
+            "headers": [
+              "Ocean",
+              "Rank by Size"
+            ],
+            "rows": [
+              [
+                "Pacific Ocean",
+                "1 (largest)"
+              ],
+              [
+                "Atlantic Ocean",
+                "2"
+              ],
+              [
+                "Indian Ocean",
+                "3"
+              ],
+              [
+                "Southern Ocean",
+                "4"
+              ],
+              [
+                "Arctic Ocean",
+                "5 (smallest)"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g8-l14",
@@ -21355,7 +21487,27 @@
               "Mandela"
             ]
           },
-          "wiki_title": "Decolonisation and Independence Movements"
+          "wiki_title": "Decolonisation and Independence Movements",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Independence Year"
+            ],
+            "rows": [
+              [
+                "India",
+                "1947"
+              ],
+              [
+                "Ghana",
+                "1957"
+              ],
+              [
+                "Nigeria",
+                "1960"
+              ]
+            ]
+          }
         },
         {
           "id": "hist-g8-l2",
@@ -22715,7 +22867,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "The Ottoman Empire"
+          "wiki_title": "The Ottoman Empire",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Founded",
+                "c. 1299 CE"
+              ],
+              [
+                "Capital (from 1453)",
+                "Constantinople (Istanbul)"
+              ],
+              [
+                "Ended",
+                "1922"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g8-l20",
@@ -25252,7 +25424,27 @@
               "Qiyas"
             ]
           },
-          "wiki_title": "Fiqh — Islamic Jurisprudence Basics"
+          "wiki_title": "Fiqh — Islamic Jurisprudence Basics",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Fiqh",
+                "Islamic jurisprudence; understanding and application of Sharia"
+              ],
+              [
+                "Halal",
+                "Permissible"
+              ],
+              [
+                "Haram",
+                "Forbidden"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g8-l2",
@@ -25730,7 +25922,31 @@
               "Caliphs"
             ]
           },
-          "wiki_title": "The Rightly Guided Caliphs"
+          "wiki_title": "The Rightly Guided Caliphs",
+          "data_table": {
+            "headers": [
+              "Rightly Guided Caliph",
+              "Order"
+            ],
+            "rows": [
+              [
+                "Abu Bakr",
+                "1st"
+              ],
+              [
+                "Umar ibn al-Khattab",
+                "2nd"
+              ],
+              [
+                "Uthman ibn Affan",
+                "3rd"
+              ],
+              [
+                "Ali ibn Abi Talib",
+                "4th"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g8-l8",
@@ -30360,7 +30576,23 @@
               "Basics"
             ]
           },
-          "wiki_title": "Inheritance and Polymorphism Basics"
+          "wiki_title": "Inheritance and Polymorphism Basics",
+          "data_table": {
+            "headers": [
+              "OOP Concept",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Inheritance",
+                "A class reuses / extends another class's behavior"
+              ],
+              [
+                "Polymorphism",
+                "Different classes respond differently to the same method call"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g8-l18",
@@ -30512,7 +30744,27 @@
               "Modules"
             ]
           },
-          "wiki_title": "Working with the Math and Random Modules"
+          "wiki_title": "Working with the Math and Random Modules",
+          "data_table": {
+            "headers": [
+              "Function",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "math.sqrt(x)",
+                "Square root of x"
+              ],
+              [
+                "math.pi",
+                "The constant pi (3.14159...)"
+              ],
+              [
+                "random.choice(list)",
+                "Pick a random item from a list"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g8-l20",
@@ -34083,7 +34335,27 @@
               "Frankenstein"
             ]
           },
-          "wiki_title": "The Gothic Tradition: Mary Shelley's Frankenstein"
+          "wiki_title": "The Gothic Tradition: Mary Shelley's Frankenstein",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Mary Shelley"
+              ],
+              [
+                "Published",
+                "1818"
+              ],
+              [
+                "Genre",
+                "Gothic science fiction"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g8-l12",
@@ -34637,7 +34909,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "The Poetry of Rumi"
+          "wiki_title": "The Poetry of Rumi",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Full name",
+                "Jalal ad-Din Muhammad Rumi"
+              ],
+              [
+                "Born",
+                "1207, Balkh (in present-day Afghanistan)"
+              ],
+              [
+                "Famous work",
+                "The Masnavi"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g8-l19",
@@ -37601,7 +37893,27 @@
               "Fundamentals"
             ]
           },
-          "wiki_title": "Color Theory Fundamentals"
+          "wiki_title": "Color Theory Fundamentals",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g8-l5",
@@ -38833,7 +39145,26 @@
               "Rococo"
             ]
           },
-          "wiki_title": "Art History: Baroque and Rococo"
+          "wiki_title": "Art History: Baroque and Rococo",
+          "data_table": {
+            "headers": [
+              "Style",
+              "Approx. Period",
+              "Famous Artist"
+            ],
+            "rows": [
+              [
+                "Baroque",
+                "1600-1750",
+                "Caravaggio"
+              ],
+              [
+                "Rococo",
+                "1700-1770",
+                "Fragonard"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g8-l21",
@@ -41118,7 +41449,23 @@
               "sharp"
             ]
           },
-          "wiki_title": "Music Theory: Scales and Keys"
+          "wiki_title": "Music Theory: Scales and Keys",
+          "data_table": {
+            "headers": [
+              "Scale",
+              "Pattern (W = whole step, H = half step)"
+            ],
+            "rows": [
+              [
+                "Major",
+                "W-W-H-W-W-W-H"
+              ],
+              [
+                "Natural Minor",
+                "W-H-W-W-H-W-W"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g8-l2",
@@ -42329,7 +42676,27 @@
               "Century"
             ]
           },
-          "wiki_title": "Music History: 20th Century"
+          "wiki_title": "Music History: 20th Century",
+          "data_table": {
+            "headers": [
+              "Genre",
+              "Approx. Origin"
+            ],
+            "rows": [
+              [
+                "Jazz",
+                "Early 1900s, USA"
+              ],
+              [
+                "Rock and Roll",
+                "1950s, USA"
+              ],
+              [
+                "Hip-Hop",
+                "1970s, USA"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g8-l17",
@@ -45224,7 +45591,27 @@
               "Purification"
             ]
           },
-          "wiki_title": "Water Sourcing and Purification"
+          "wiki_title": "Water Sourcing and Purification",
+          "data_table": {
+            "headers": [
+              "Method",
+              "How It Works"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "Boil for at least 1 minute (3 minutes above 2,000m) to kill pathogens"
+              ],
+              [
+                "Water filter",
+                "Physically removes bacteria and parasites"
+              ],
+              [
+                "Purification tablets",
+                "Chemically disinfect water"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g8-l5",
@@ -46022,7 +46409,23 @@
               "Exhaustion"
             ]
           },
-          "wiki_title": "Hypothermia and Heat Exhaustion"
+          "wiki_title": "Hypothermia and Heat Exhaustion",
+          "data_table": {
+            "headers": [
+              "Condition",
+              "Warning Signs"
+            ],
+            "rows": [
+              [
+                "Hypothermia",
+                "Shivering, confusion, slurred speech"
+              ],
+              [
+                "Heat Exhaustion",
+                "Heavy sweating, weakness, nausea"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g8-l15",
@@ -50088,7 +50491,39 @@
               "Categories"
             ]
           },
-          "wiki_title": "Nobel Prize and Its Categories"
+          "wiki_title": "Nobel Prize and Its Categories",
+          "data_table": {
+            "headers": [
+              "Nobel Prize Category",
+              "Field"
+            ],
+            "rows": [
+              [
+                "Physics",
+                "Science"
+              ],
+              [
+                "Chemistry",
+                "Science"
+              ],
+              [
+                "Physiology or Medicine",
+                "Science"
+              ],
+              [
+                "Literature",
+                "Writing"
+              ],
+              [
+                "Peace",
+                "International peace efforts"
+              ],
+              [
+                "Economic Sciences",
+                "Added 1968, in memory of Alfred Nobel"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g8-l15",
@@ -50249,7 +50684,23 @@
               "Modern"
             ]
           },
-          "wiki_title": "World Wonders: Ancient and Modern"
+          "wiki_title": "World Wonders: Ancient and Modern",
+          "data_table": {
+            "headers": [
+              "Category",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Ancient Wonder (only survivor)",
+                "Great Pyramid of Giza"
+              ],
+              [
+                "New Seven Wonder (2007 poll)",
+                "Taj Mahal, India"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g8-l17",
@@ -53485,7 +53936,23 @@
               "Simmering"
             ]
           },
-          "wiki_title": "Basic Cooking Methods: Boiling and Simmering"
+          "wiki_title": "Basic Cooking Methods: Boiling and Simmering",
+          "data_table": {
+            "headers": [
+              "Method",
+              "Temperature"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "100C / 212F"
+              ],
+              [
+                "Simmering",
+                "85-95C / 185-205F"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g8-l8",
@@ -53813,7 +54280,27 @@
               "Spices"
             ]
           },
-          "wiki_title": "Herbs and Spices"
+          "wiki_title": "Herbs and Spices",
+          "data_table": {
+            "headers": [
+              "Herb/Spice",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "Basil",
+                "Italian dishes, pesto"
+              ],
+              [
+                "Cumin",
+                "Indian and Mexican dishes"
+              ],
+              [
+                "Cinnamon",
+                "Baking, sweet dishes"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g8-l12",
@@ -57071,7 +57558,23 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Spanish Ser vs Estar"
+          "wiki_title": "Spanish Ser vs Estar",
+          "data_table": {
+            "headers": [
+              "Verb",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Ser",
+                "Permanent characteristics (e.g. Soy alto = I am tall)"
+              ],
+              [
+                "Estar",
+                "Temporary states/location (e.g. Estoy cansado = I am tired)"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g8-l4",
@@ -57561,7 +58064,55 @@
               "Time"
             ]
           },
-          "wiki_title": "French Numbers and Telling Time"
+          "wiki_title": "French Numbers and Telling Time",
+          "data_table": {
+            "headers": [
+              "Number",
+              "French"
+            ],
+            "rows": [
+              [
+                "1",
+                "un"
+              ],
+              [
+                "2",
+                "deux"
+              ],
+              [
+                "3",
+                "trois"
+              ],
+              [
+                "4",
+                "quatre"
+              ],
+              [
+                "5",
+                "cinq"
+              ],
+              [
+                "6",
+                "six"
+              ],
+              [
+                "7",
+                "sept"
+              ],
+              [
+                "8",
+                "huit"
+              ],
+              [
+                "9",
+                "neuf"
+              ],
+              [
+                "10",
+                "dix"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g8-l10",
@@ -62038,7 +62589,27 @@
               "Consequences"
             ]
           },
-          "wiki_title": "World War I: Causes and Consequences"
+          "wiki_title": "World War I: Causes and Consequences",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1914-1918"
+              ],
+              [
+                "Started after",
+                "Assassination of Archduke Franz Ferdinand, June 1914"
+              ],
+              [
+                "Ended by",
+                "Armistice of 11 November 1918"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g8-l17",
@@ -62117,7 +62688,27 @@
               "Consequences"
             ]
           },
-          "wiki_title": "World War II: Causes and Consequences"
+          "wiki_title": "World War II: Causes and Consequences",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1939-1945"
+              ],
+              [
+                "Started when",
+                "Germany invaded Poland, September 1939"
+              ],
+              [
+                "Ended in Europe",
+                "V-E Day, May 8, 1945"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g8-l18",
@@ -65266,7 +65857,27 @@
               "Rules"
             ]
           },
-          "wiki_title": "Badminton Skills and Rules"
+          "wiki_title": "Badminton Skills and Rules",
+          "data_table": {
+            "headers": [
+              "Badminton Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Shuttlecock",
+                "The object hit over the net"
+              ],
+              [
+                "Rally",
+                "Continuous play until a point is scored"
+              ],
+              [
+                "Match play",
+                "Best of 3 games to 21 points"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g8-l11",
@@ -65827,7 +66438,23 @@
               "Intensity"
             ]
           },
-          "wiki_title": "Heart Rate and Exercise Intensity"
+          "wiki_title": "Heart Rate and Exercise Intensity",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Average resting heart rate (adult)",
+                "60-100 beats per minute"
+              ],
+              [
+                "Max heart rate estimate",
+                "220 minus your age (a common formula)"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g8-l18",
@@ -68822,7 +69449,23 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Supply and Demand"
+          "wiki_title": "Supply and Demand",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Effect on Price"
+            ],
+            "rows": [
+              [
+                "High demand, low supply",
+                "Price tends to rise"
+              ],
+              [
+                "Low demand, high supply",
+                "Price tends to fall"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g8-l7",
@@ -69878,7 +70521,23 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Inflation and Deflation"
+          "wiki_title": "Inflation and Deflation",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Inflation",
+                "General rise in prices over time"
+              ],
+              [
+                "Deflation",
+                "General fall in prices over time"
+              ]
+            ]
+          }
         },
         {
           "id": "economics-g8-l21",
@@ -72169,7 +72828,27 @@
               "Savings"
             ]
           },
-          "wiki_title": "Personal Budgeting"
+          "wiki_title": "Personal Budgeting",
+          "data_table": {
+            "headers": [
+              "Category",
+              "Recommended % of Income (50/30/20 rule)"
+            ],
+            "rows": [
+              [
+                "Needs",
+                "50%"
+              ],
+              [
+                "Wants",
+                "30%"
+              ],
+              [
+                "Savings / Debt Repayment",
+                "20%"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g8-l2",
@@ -72774,7 +73453,35 @@
               "Scores"
             ]
           },
-          "wiki_title": "Credit Scores"
+          "wiki_title": "Credit Scores",
+          "data_table": {
+            "headers": [
+              "FICO Credit Score Range",
+              "Rating"
+            ],
+            "rows": [
+              [
+                "800-850",
+                "Exceptional"
+              ],
+              [
+                "740-799",
+                "Very Good"
+              ],
+              [
+                "670-739",
+                "Good"
+              ],
+              [
+                "580-669",
+                "Fair"
+              ],
+              [
+                "300-579",
+                "Poor"
+              ]
+            ]
+          }
         },
         {
           "id": "finance-g8-l10",
@@ -76439,7 +77146,31 @@
               "Basics"
             ]
           },
-          "wiki_title": "Cardiopulmonary Resuscitation (CPR) Basics"
+          "wiki_title": "Cardiopulmonary Resuscitation (CPR) Basics",
+          "data_table": {
+            "headers": [
+              "CPR Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Check responsiveness and call for emergency help"
+              ],
+              [
+                "2",
+                "Give 30 chest compressions (about 2 inches deep)"
+              ],
+              [
+                "3",
+                "Give 2 rescue breaths (if trained)"
+              ],
+              [
+                "4",
+                "Repeat the 30:2 ratio until help arrives"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g8-l8",
@@ -77389,7 +78120,23 @@
               "Exhaustion"
             ]
           },
-          "wiki_title": "Heat-Related Illness: Heat Exhaustion and Heat Stroke"
+          "wiki_title": "Heat-Related Illness: Heat Exhaustion and Heat Stroke",
+          "data_table": {
+            "headers": [
+              "Condition",
+              "Warning Signs"
+            ],
+            "rows": [
+              [
+                "Heat Exhaustion",
+                "Heavy sweating, weakness, nausea"
+              ],
+              [
+                "Heat Stroke",
+                "High body temperature, hot/dry skin, confusion (a medical emergency)"
+              ]
+            ]
+          }
         },
         {
           "id": "first-aid-g8-l20",
@@ -80092,7 +80839,29 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Motion and Speed"
+          "wiki_title": "Motion and Speed",
+          "formulae": [
+            "Speed = Distance / Time"
+          ],
+          "data_table": {
+            "headers": [
+              "Distance",
+              "Time",
+              "Speed"
+            ],
+            "rows": [
+              [
+                "100m",
+                "10s",
+                "10 m/s"
+              ],
+              [
+                "200m",
+                "20s",
+                "10 m/s"
+              ]
+            ]
+          }
         },
         {
           "id": "physics-g8-l5",
@@ -80968,7 +81737,27 @@
               "Energy"
             ]
           },
-          "wiki_title": "Potential and Kinetic Energy"
+          "wiki_title": "Potential and Kinetic Energy",
+          "formulae": [
+            "KE = 1/2 x m x v^2",
+            "PE = m x g x h"
+          ],
+          "data_table": {
+            "headers": [
+              "Energy Type",
+              "Formula"
+            ],
+            "rows": [
+              [
+                "Kinetic",
+                "1/2 x m x v^2"
+              ],
+              [
+                "Gravitational Potential",
+                "m x g x h"
+              ]
+            ]
+          }
         },
         {
           "id": "physics-g8-l17",
@@ -84319,7 +85108,31 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "The pH Scale"
+          "wiki_title": "The pH Scale",
+          "data_table": {
+            "headers": [
+              "pH Range",
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "0-6",
+                "Acidic",
+                "Lemon juice (~2)"
+              ],
+              [
+                "7",
+                "Neutral",
+                "Pure water"
+              ],
+              [
+                "8-14",
+                "Basic (alkaline)",
+                "Baking soda (~9)"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g8-l12",
@@ -84833,7 +85646,31 @@
               "Electrons"
             ]
           },
-          "wiki_title": "Atomic Structure: Protons, Neutrons, and Electrons"
+          "wiki_title": "Atomic Structure: Protons, Neutrons, and Electrons",
+          "data_table": {
+            "headers": [
+              "Particle",
+              "Charge",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Proton",
+                "Positive",
+                "Nucleus"
+              ],
+              [
+                "Neutron",
+                "Neutral",
+                "Nucleus"
+              ],
+              [
+                "Electron",
+                "Negative",
+                "Orbiting the nucleus"
+              ]
+            ]
+          }
         },
         {
           "id": "chemistry-g8-l19",
@@ -87714,7 +88551,31 @@
               "Mitosis"
             ]
           },
-          "wiki_title": "Cell Division: Mitosis"
+          "wiki_title": "Cell Division: Mitosis",
+          "data_table": {
+            "headers": [
+              "Mitosis Phase",
+              "What Happens"
+            ],
+            "rows": [
+              [
+                "Prophase",
+                "Chromosomes condense and become visible"
+              ],
+              [
+                "Metaphase",
+                "Chromosomes line up at the cell's center"
+              ],
+              [
+                "Anaphase",
+                "Chromosomes are pulled to opposite ends"
+              ],
+              [
+                "Telophase",
+                "Two new nuclei form"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g8-l7",
@@ -87783,7 +88644,22 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Photosynthesis"
+          "wiki_title": "Photosynthesis",
+          "formulae": [
+            "6CO2 + 6H2O + light energy -> C6H12O6 + 6O2"
+          ],
+          "data_table": {
+            "headers": [
+              "Input",
+              "Output"
+            ],
+            "rows": [
+              [
+                "Carbon dioxide + Water + Light",
+                "Glucose + Oxygen"
+              ]
+            ]
+          }
         },
         {
           "id": "biology-g8-l8",
@@ -91498,7 +92374,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "The Allegory of the Cave"
+          "wiki_title": "The Allegory of the Cave",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Plato"
+              ],
+              [
+                "Found in",
+                "The Republic, Book VII"
+              ],
+              [
+                "Main idea",
+                "Prisoners mistake shadows for reality until freed to see the truth"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g8-l8",
@@ -92019,7 +92915,23 @@
               "Good"
             ]
           },
-          "wiki_title": "Utilitarianism: The Greatest Good"
+          "wiki_title": "Utilitarianism: The Greatest Good",
+          "data_table": {
+            "headers": [
+              "Philosopher",
+              "Key Idea"
+            ],
+            "rows": [
+              [
+                "Jeremy Bentham",
+                "Founder of utilitarianism; the 'greatest happiness principle'"
+              ],
+              [
+                "John Stuart Mill",
+                "Refined utilitarianism; distinguished higher and lower pleasures"
+              ]
+            ]
+          }
         },
         {
           "id": "philosophy-g8-l15",
@@ -94744,7 +95656,27 @@
               "Appeal to Authority"
             ]
           },
-          "wiki_title": "Logical Fallacies"
+          "wiki_title": "Logical Fallacies",
+          "data_table": {
+            "headers": [
+              "Logical Fallacy",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Ad Hominem",
+                "Attacking the person instead of the argument"
+              ],
+              [
+                "Straw Man",
+                "Misrepresenting someone's argument to attack it easily"
+              ],
+              [
+                "Slippery Slope",
+                "Claiming one step will lead to extreme consequences without evidence"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g8-l2",
@@ -95578,7 +96510,19 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Confirmation Bias"
+          "wiki_title": "Confirmation Bias",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Confirmation bias",
+                "The tendency to favor information that confirms existing beliefs"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g8-l13",
@@ -98072,7 +99016,35 @@
               "Teens"
             ]
           },
-          "wiki_title": "Nutrition Science for Teens"
+          "wiki_title": "Nutrition Science for Teens",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g8-l4",
@@ -98933,7 +99905,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Sleep and Its Importance"
+          "wiki_title": "Sleep and Its Importance",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g8-l15",
@@ -101164,7 +102156,23 @@
               "training data"
             ]
           },
-          "wiki_title": "Artificial Intelligence and Machine Learning"
+          "wiki_title": "Artificial Intelligence and Machine Learning",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Artificial Intelligence",
+                "Machines performing tasks that normally require human intelligence"
+              ],
+              [
+                "Machine Learning",
+                "A subset of AI where systems learn patterns from data"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g8-l2",
@@ -102584,7 +103592,27 @@
               "Viruses"
             ]
           },
-          "wiki_title": "Malware and Viruses"
+          "wiki_title": "Malware and Viruses",
+          "data_table": {
+            "headers": [
+              "Malware Type",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Virus",
+                "Attaches to files and spreads when the file is run"
+              ],
+              [
+                "Worm",
+                "Spreads automatically across networks"
+              ],
+              [
+                "Trojan",
+                "Disguised as legitimate software"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g8-l21",

@@ -191,3 +191,37 @@ def test_grade6_and_7_all_subjects_have_real_charts():
     g7 = json.loads((SYLLABUS_DIR / "grade7.json").read_text(encoding="utf-8"))
     wonders = {l["id"]: l for l in g7["subjects"]["General Knowledge"]["lessons"]}["general-knowledge-g7-l4"]
     assert ["Taj Mahal", "India"] in wonders["data_table"]["rows"]
+
+
+def test_grade8_to_10_all_subjects_have_real_charts():
+    """Breadth-first pass: every subject in Grade 8 through Grade 10
+    (including the new Economics/Finance/First Aid/Physics/Chemistry/
+    Biology/Philosophy subjects introduced at Grade 8) should have a
+    handful of lessons with a genuine data_table of real, verifiable
+    facts, beyond the Math-only breadth batch."""
+    for level in ["grade8", "grade9", "grade10"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        non_math_enriched = 0
+        for subject_name, subject in data["subjects"].items():
+            if subject_name == "Math":
+                continue
+            enriched = [l for l in subject["lessons"] if l.get("data_table")]
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+            non_math_enriched += len(enriched)
+        assert non_math_enriched >= 40, f"{level} has too few non-Math lessons with real chart/table content"
+
+    g8 = json.loads((SYLLABUS_DIR / "grade8.json").read_text(encoding="utf-8"))
+    caliphs = {l["id"]: l for l in g8["subjects"]["Islamic Studies"]["lessons"]}["islamic-studies-g8-l7"]
+    assert ["Abu Bakr", "1st"] in caliphs["data_table"]["rows"]
+
+    g9 = json.loads((SYLLABUS_DIR / "grade9.json").read_text(encoding="utf-8"))
+    interest = {l["id"]: l for l in g9["subjects"]["Finance"]["lessons"]}["finance-g9-l8"]
+    assert ["Compound (annual)", "$1,157.63"] in interest["data_table"]["rows"]
+
+    g10 = json.loads((SYLLABUS_DIR / "grade10.json").read_text(encoding="utf-8"))
+    dna = {l["id"]: l for l in g10["subjects"]["Biology"]["lessons"]}["biology-g10-l8"]
+    assert ["Adenine (A)", "Thymine (T)"] in dna["data_table"]["rows"]
