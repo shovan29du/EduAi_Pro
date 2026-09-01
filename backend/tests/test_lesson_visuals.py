@@ -515,3 +515,28 @@ def test_grade6_has_full_depth_real_chart_coverage():
 
     mongol = {l["id"]: l for l in data["subjects"]["World History"]["lessons"]}["world-history-g6-l16"]
     assert ["Founded by", "Genghis Khan"] in mongol["data_table"]["rows"]
+
+
+def test_grade7_has_full_depth_real_chart_coverage():
+    """Depth pass: every single lesson in every subject at Grade 7 should
+    have a genuine, verifiable data_table/graph/formulae. Grade 7 has 40
+    lessons per subject across 19 subjects (760 total)."""
+    data = json.loads((SYLLABUS_DIR / "grade7.json").read_text(encoding="utf-8"))
+    total = 0
+    covered = 0
+    for subject_name, subject in data["subjects"].items():
+        for lesson in subject["lessons"]:
+            total += 1
+            has_content = bool(lesson.get("data_table") or lesson.get("graph") or lesson.get("formulae"))
+            if has_content:
+                covered += 1
+                if lesson.get("data_table"):
+                    assert lesson["data_table"]["headers"]
+                    assert lesson["data_table"]["rows"]
+                    for row in lesson["data_table"]["rows"]:
+                        assert len(row) == len(lesson["data_table"]["headers"])
+    assert total == 760
+    assert covered == total, f"Grade 7 depth coverage incomplete: {covered}/{total}"
+
+    islamic_golden_age = {l["id"]: l for l in data["subjects"]["World History"]["lessons"]}["world-history-g7-l8"]
+    assert ["Period", "c. 8th-14th century CE"] in islamic_golden_age["data_table"]["rows"]
