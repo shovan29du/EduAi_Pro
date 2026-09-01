@@ -256,3 +256,33 @@ def test_level_c1_and_c2_all_52_subjects_have_a_real_chart():
     c2 = json.loads((SYLLABUS_DIR / "level_c2.json").read_text(encoding="utf-8"))
     forces = {l["id"]: l for l in c2["subjects"]["MBA"]["lessons"]}["mba-c2-l3"]
     assert any("Threat of new entrants" in row[0] for row in forces["data_table"]["rows"])
+
+
+def test_level_m1_and_m2_all_subjects_have_a_real_chart():
+    """Graduate-tier levels M1 and M2 (M2 has no Mythology subject, unlike
+    the other advanced levels) should have at least one real, verifiable
+    data_table lesson per subject."""
+    for level, min_subjects in [("level_m1", 50), ("level_m2", 49)]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        subjects = [s for s in data["subjects"] if s != "Math"]
+        assert len(subjects) >= min_subjects, f"{level} unexpectedly has few subjects: {len(subjects)}"
+        missing_subjects = []
+        for subject_name in subjects:
+            lessons = data["subjects"][subject_name]["lessons"]
+            enriched = [l for l in lessons if l.get("data_table")]
+            if not enriched:
+                missing_subjects.append(subject_name)
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+        assert not missing_subjects, f"{level} subjects missing any real chart: {missing_subjects}"
+
+    m1 = json.loads((SYLLABUS_DIR / "level_m1.json").read_text(encoding="utf-8"))
+    complexity = {l["id"]: l for l in m1["subjects"]["Coding"]["lessons"]}["coding-m1-l3"]
+    assert ["NP-complete", "The hardest problems in NP"] in complexity["data_table"]["rows"]
+
+    m2 = json.loads((SYLLABUS_DIR / "level_m2.json").read_text(encoding="utf-8"))
+    mm = {l["id"]: l for l in m2["subjects"]["Finance"]["lessons"]}["finance-m2-l3"]
+    assert ["Proposed by", "Franco Modigliani and Merton Miller, 1958"] in mm["data_table"]["rows"]
