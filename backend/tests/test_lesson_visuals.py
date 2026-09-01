@@ -286,3 +286,33 @@ def test_level_m1_and_m2_all_subjects_have_a_real_chart():
     m2 = json.loads((SYLLABUS_DIR / "level_m2.json").read_text(encoding="utf-8"))
     mm = {l["id"]: l for l in m2["subjects"]["Finance"]["lessons"]}["finance-m2-l3"]
     assert ["Proposed by", "Franco Modigliani and Merton Miller, 1958"] in mm["data_table"]["rows"]
+
+
+def test_level_ug1_and_ug2_all_52_subjects_have_a_real_chart():
+    """Undergraduate-tier levels UG1 and UG2 carry ~52 subjects each --
+    every one should have at least one real, verifiable data_table
+    lesson."""
+    for level in ["level_ug1", "level_ug2"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        subjects = [s for s in data["subjects"] if s != "Math"]
+        assert len(subjects) >= 50, f"{level} unexpectedly has few subjects: {len(subjects)}"
+        missing_subjects = []
+        for subject_name in subjects:
+            lessons = data["subjects"][subject_name]["lessons"]
+            enriched = [l for l in lessons if l.get("data_table")]
+            if not enriched:
+                missing_subjects.append(subject_name)
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+        assert not missing_subjects, f"{level} subjects missing any real chart: {missing_subjects}"
+
+    ug1 = json.loads((SYLLABUS_DIR / "level_ug1.json").read_text(encoding="utf-8"))
+    descartes = {l["id"]: l for l in ug1["subjects"]["Philosophy"]["lessons"]}["philosophy-ug1-l3"]
+    assert ["Philosopher", "Rene Descartes"] in descartes["data_table"]["rows"]
+
+    ug2 = json.loads((SYLLABUS_DIR / "level_ug2.json").read_text(encoding="utf-8"))
+    hobbes = {l["id"]: l for l in ug2["subjects"]["Philosophy"]["lessons"]}["philosophy-ug2-l3"]
+    assert ["Key work", "Leviathan (1651)"] in hobbes["data_table"]["rows"]
