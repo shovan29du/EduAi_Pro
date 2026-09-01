@@ -392,3 +392,27 @@ def test_grade1_has_full_depth_real_chart_coverage():
 
     days = {l["id"]: l for l in data["subjects"]["Math"]["lessons"]}["math-g1-l1"]
     assert ["1", "One"] in days["data_table"]["rows"]
+
+
+def test_grade2_has_full_depth_real_chart_coverage():
+    """Depth pass: every single lesson in every subject at Grade 2 should
+    have a genuine, verifiable data_table/graph/formulae."""
+    data = json.loads((SYLLABUS_DIR / "grade2.json").read_text(encoding="utf-8"))
+    total = 0
+    covered = 0
+    for subject_name, subject in data["subjects"].items():
+        for lesson in subject["lessons"]:
+            total += 1
+            has_content = bool(lesson.get("data_table") or lesson.get("graph") or lesson.get("formulae"))
+            if has_content:
+                covered += 1
+                if lesson.get("data_table"):
+                    assert lesson["data_table"]["headers"]
+                    assert lesson["data_table"]["rows"]
+                    for row in lesson["data_table"]["rows"]:
+                        assert len(row) == len(lesson["data_table"]["headers"])
+    assert total == 320
+    assert covered == total, f"Grade 2 depth coverage incomplete: {covered}/{total}"
+
+    silk_road = {l["id"]: l for l in data["subjects"]["World History"]["lessons"]}["hist-g2-l2"]
+    assert ["Silk Road", "An ancient network of trade routes linking China and Europe"] in silk_road["data_table"]["rows"]
