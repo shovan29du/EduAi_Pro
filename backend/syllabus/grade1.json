@@ -322,7 +322,55 @@
               "one-to-one correspondence"
             ]
           },
-          "wiki_title": "Counting 1–10"
+          "wiki_title": "Counting 1–10",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Number Word"
+            ],
+            "rows": [
+              [
+                "1",
+                "One"
+              ],
+              [
+                "2",
+                "Two"
+              ],
+              [
+                "3",
+                "Three"
+              ],
+              [
+                "4",
+                "Four"
+              ],
+              [
+                "5",
+                "Five"
+              ],
+              [
+                "6",
+                "Six"
+              ],
+              [
+                "7",
+                "Seven"
+              ],
+              [
+                "8",
+                "Eight"
+              ],
+              [
+                "9",
+                "Nine"
+              ],
+              [
+                "10",
+                "Ten"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l2",
@@ -426,7 +474,55 @@
               "ten-frame"
             ]
           },
-          "wiki_title": "Counting 11–20"
+          "wiki_title": "Counting 11–20",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Number Word"
+            ],
+            "rows": [
+              [
+                "11",
+                "Eleven"
+              ],
+              [
+                "12",
+                "Twelve"
+              ],
+              [
+                "13",
+                "Thirteen"
+              ],
+              [
+                "14",
+                "Fourteen"
+              ],
+              [
+                "15",
+                "Fifteen"
+              ],
+              [
+                "16",
+                "Sixteen"
+              ],
+              [
+                "17",
+                "Seventeen"
+              ],
+              [
+                "18",
+                "Eighteen"
+              ],
+              [
+                "19",
+                "Nineteen"
+              ],
+              [
+                "20",
+                "Twenty"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l3",
@@ -709,7 +805,35 @@
               "take away"
             ]
           },
-          "wiki_title": "Subtraction to 10"
+          "wiki_title": "Subtraction to 10",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Answer"
+            ],
+            "rows": [
+              [
+                "10 - 1",
+                "9"
+              ],
+              [
+                "10 - 2",
+                "8"
+              ],
+              [
+                "10 - 3",
+                "7"
+              ],
+              [
+                "10 - 4",
+                "6"
+              ],
+              [
+                "10 - 5",
+                "5"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l5",
@@ -819,7 +943,23 @@
               "corners"
             ]
           },
-          "wiki_title": "Shapes and Patterns"
+          "wiki_title": "Shapes and Patterns",
+          "data_table": {
+            "headers": [
+              "Pattern Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Repeating pattern",
+                "Red, Blue, Red, Blue, Red, Blue"
+              ],
+              [
+                "Growing pattern",
+                "1 star, 2 stars, 3 stars, 4 stars"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l6",
@@ -930,7 +1070,23 @@
               "lighter"
             ]
           },
-          "wiki_title": "Measurement: Length and Weight"
+          "wiki_title": "Measurement: Length and Weight",
+          "data_table": {
+            "headers": [
+              "Measurement Type",
+              "Common Units"
+            ],
+            "rows": [
+              [
+                "Length",
+                "Centimeters (cm), Inches (in)"
+              ],
+              [
+                "Weight",
+                "Grams (g), Pounds (lb)"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l7",
@@ -1039,7 +1195,31 @@
               "night"
             ]
           },
-          "wiki_title": "Time: Days and Seasons"
+          "wiki_title": "Time: Days and Seasons",
+          "data_table": {
+            "headers": [
+              "Season",
+              "Months (Northern Hemisphere)"
+            ],
+            "rows": [
+              [
+                "Spring",
+                "March, April, May"
+              ],
+              [
+                "Summer",
+                "June, July, August"
+              ],
+              [
+                "Autumn / Fall",
+                "September, October, November"
+              ],
+              [
+                "Winter",
+                "December, January, February"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l8",
@@ -1148,7 +1328,17 @@
               "fewer than"
             ]
           },
-          "wiki_title": "Data: Sorting and Graphing"
+          "wiki_title": "Data: Sorting and Graphing",
+          "graph": {
+            "title": "Favorite Color Sorting (Example Data)",
+            "points": [
+              4,
+              3,
+              5
+            ],
+            "x_axis": "Color: Red, Blue, Green",
+            "y_axis": "Number of Children"
+          }
         },
         {
           "id": "math-g1-l9",
@@ -1217,7 +1407,19 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Counting to 100"
+          "wiki_title": "Counting to 100",
+          "data_table": {
+            "headers": [
+              "Skip Count by 10s",
+              "Sequence"
+            ],
+            "rows": [
+              [
+                "10s to 100",
+                "10, 20, 30, 40, 50, 60, 70, 80, 90, 100"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l10",
@@ -1394,7 +1596,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Comparing Numbers"
+          "wiki_title": "Comparing Numbers",
+          "data_table": {
+            "headers": [
+              "Symbol",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                ">",
+                "Greater than"
+              ],
+              [
+                "<",
+                "Less than"
+              ],
+              [
+                "=",
+                "Equal to"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l12",
@@ -1464,7 +1686,35 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Ordinal Numbers"
+          "wiki_title": "Ordinal Numbers",
+          "data_table": {
+            "headers": [
+              "Position",
+              "Ordinal Word"
+            ],
+            "rows": [
+              [
+                "1",
+                "First"
+              ],
+              [
+                "2",
+                "Second"
+              ],
+              [
+                "3",
+                "Third"
+              ],
+              [
+                "4",
+                "Fourth"
+              ],
+              [
+                "5",
+                "Fifth"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l13",
@@ -1533,7 +1783,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Addition to 20"
+          "wiki_title": "Addition to 20",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Answer"
+            ],
+            "rows": [
+              [
+                "12 + 5",
+                "17"
+              ],
+              [
+                "8 + 9",
+                "17"
+              ],
+              [
+                "15 + 4",
+                "19"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l14",
@@ -1602,7 +1872,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Subtraction to 20"
+          "wiki_title": "Subtraction to 20",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Answer"
+            ],
+            "rows": [
+              [
+                "20 - 7",
+                "13"
+              ],
+              [
+                "18 - 9",
+                "9"
+              ],
+              [
+                "16 - 8",
+                "8"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l15",
@@ -1672,7 +1962,35 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Number Bonds to 10"
+          "wiki_title": "Number Bonds to 10",
+          "data_table": {
+            "headers": [
+              "Part",
+              "Part (Together Make 10)"
+            ],
+            "rows": [
+              [
+                "1",
+                "9"
+              ],
+              [
+                "2",
+                "8"
+              ],
+              [
+                "3",
+                "7"
+              ],
+              [
+                "4",
+                "6"
+              ],
+              [
+                "5",
+                "5"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l16",
@@ -1954,7 +2272,31 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "3D Shapes"
+          "wiki_title": "3D Shapes",
+          "data_table": {
+            "headers": [
+              "3D Shape",
+              "Faces"
+            ],
+            "rows": [
+              [
+                "Cube",
+                "6"
+              ],
+              [
+                "Sphere",
+                "0 (one curved surface)"
+              ],
+              [
+                "Cylinder",
+                "2 flat + 1 curved"
+              ],
+              [
+                "Cone",
+                "1 flat + 1 curved"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l19",
@@ -2024,7 +2366,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Position Words"
+          "wiki_title": "Position Words",
+          "data_table": {
+            "headers": [
+              "Position Word",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Above",
+                "Higher than something"
+              ],
+              [
+                "Below",
+                "Lower than something"
+              ],
+              [
+                "Between",
+                "In the middle of two things"
+              ]
+            ]
+          }
         },
         {
           "id": "math-g1-l20",
@@ -2566,7 +2928,27 @@
               "reading fluency"
             ]
           },
-          "wiki_title": "Sight Words and Simple Sentences"
+          "wiki_title": "Sight Words and Simple Sentences",
+          "data_table": {
+            "headers": [
+              "Sight Word",
+              "Example Sentence"
+            ],
+            "rows": [
+              [
+                "the",
+                "The dog runs."
+              ],
+              [
+                "is",
+                "The sky is blue."
+              ],
+              [
+                "and",
+                "I like cats and dogs."
+              ]
+            ]
+          }
         },
         {
           "id": "eng-g1-l3",
@@ -2676,7 +3058,27 @@
               "prediction"
             ]
           },
-          "wiki_title": "Reading: Simple Stories"
+          "wiki_title": "Reading: Simple Stories",
+          "data_table": {
+            "headers": [
+              "Story Part",
+              "Question It Answers"
+            ],
+            "rows": [
+              [
+                "Beginning",
+                "Who and where does the story start?"
+              ],
+              [
+                "Middle",
+                "What happens?"
+              ],
+              [
+                "End",
+                "How does it finish?"
+              ]
+            ]
+          }
         },
         {
           "id": "eng-g1-l4",
@@ -2786,7 +3188,23 @@
               "handwriting"
             ]
           },
-          "wiki_title": "Writing: Simple Sentences and Descriptions"
+          "wiki_title": "Writing: Simple Sentences and Descriptions",
+          "data_table": {
+            "headers": [
+              "Sentence Part",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Naming part (who/what)",
+                "The cat"
+              ],
+              [
+                "Telling part (what happens)",
+                "sat on the mat."
+              ]
+            ]
+          }
         },
         {
           "id": "eng-g1-l5",
@@ -2897,7 +3315,23 @@
               "place"
             ]
           },
-          "wiki_title": "Grammar: Nouns and Verbs"
+          "wiki_title": "Grammar: Nouns and Verbs",
+          "data_table": {
+            "headers": [
+              "Word Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Noun (a person, place, or thing)",
+                "dog, school, ball"
+              ],
+              [
+                "Verb (an action)",
+                "run, jump, eat"
+              ]
+            ]
+          }
         },
         {
           "id": "eng-g1-l6",
@@ -3007,7 +3441,23 @@
               "pattern"
             ]
           },
-          "wiki_title": "Poetry: Rhyme and Rhythm"
+          "wiki_title": "Poetry: Rhyme and Rhythm",
+          "data_table": {
+            "headers": [
+              "Rhyming Pair",
+              "Example"
+            ],
+            "rows": [
+              [
+                "cat / hat",
+                "The cat wore a hat."
+              ],
+              [
+                "sun / fun",
+                "The sun is fun."
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l7",
@@ -3089,7 +3539,27 @@
               "Words"
             ]
           },
-          "wiki_title": "Phonics: Blending Sounds into Words"
+          "wiki_title": "Phonics: Blending Sounds into Words",
+          "data_table": {
+            "headers": [
+              "Sounds Blended",
+              "Word"
+            ],
+            "rows": [
+              [
+                "c-a-t",
+                "cat"
+              ],
+              [
+                "d-o-g",
+                "dog"
+              ],
+              [
+                "s-u-n",
+                "sun"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l8",
@@ -3170,7 +3640,31 @@
               "Sounds"
             ]
           },
-          "wiki_title": "Phonics: Beginning and Ending Sounds"
+          "wiki_title": "Phonics: Beginning and Ending Sounds",
+          "data_table": {
+            "headers": [
+              "Word",
+              "Beginning Sound",
+              "Ending Sound"
+            ],
+            "rows": [
+              [
+                "cat",
+                "/k/",
+                "/t/"
+              ],
+              [
+                "dog",
+                "/d/",
+                "/g/"
+              ],
+              [
+                "sun",
+                "/s/",
+                "/n/"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l9",
@@ -3337,7 +3831,31 @@
               "Letters"
             ]
           },
-          "wiki_title": "Upper and Lower Case Letters"
+          "wiki_title": "Upper and Lower Case Letters",
+          "data_table": {
+            "headers": [
+              "Letter",
+              "Uppercase",
+              "Lowercase"
+            ],
+            "rows": [
+              [
+                "A",
+                "A",
+                "a"
+              ],
+              [
+                "B",
+                "B",
+                "b"
+              ],
+              [
+                "C",
+                "C",
+                "c"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l11",
@@ -3418,7 +3936,27 @@
               "Vocabulary"
             ]
           },
-          "wiki_title": "Sight Words: Building Vocabulary"
+          "wiki_title": "Sight Words: Building Vocabulary",
+          "data_table": {
+            "headers": [
+              "Sight Word",
+              "Example Sentence"
+            ],
+            "rows": [
+              [
+                "can",
+                "I can run."
+              ],
+              [
+                "see",
+                "I see a bird."
+              ],
+              [
+                "like",
+                "I like apples."
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l12",
@@ -3497,7 +4035,27 @@
               "Directions"
             ]
           },
-          "wiki_title": "Listening and Following Directions"
+          "wiki_title": "Listening and Following Directions",
+          "data_table": {
+            "headers": [
+              "Direction Word",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "First",
+                "Do this step before the others"
+              ],
+              [
+                "Then",
+                "Do this step next"
+              ],
+              [
+                "Last",
+                "Do this step at the end"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l13",
@@ -3576,7 +4134,23 @@
               "Ideas"
             ]
           },
-          "wiki_title": "Speaking and Sharing Ideas"
+          "wiki_title": "Speaking and Sharing Ideas",
+          "data_table": {
+            "headers": [
+              "Speaking Skill",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Sharing an idea",
+                "'I think the story is about a lost dog.'"
+              ],
+              [
+                "Asking a question",
+                "'Why did the dog get lost?'"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l14",
@@ -3657,7 +4231,27 @@
               "Order"
             ]
           },
-          "wiki_title": "Storytelling: Retelling a Story in Order"
+          "wiki_title": "Storytelling: Retelling a Story in Order",
+          "data_table": {
+            "headers": [
+              "Retelling Word",
+              "When to Use It"
+            ],
+            "rows": [
+              [
+                "First",
+                "The very beginning of the story"
+              ],
+              [
+                "Next",
+                "What happens after that"
+              ],
+              [
+                "Finally",
+                "How the story ends"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l15",
@@ -3738,7 +4332,27 @@
               "Words"
             ]
           },
-          "wiki_title": "Grammar: Adjectives and Describing Words"
+          "wiki_title": "Grammar: Adjectives and Describing Words",
+          "data_table": {
+            "headers": [
+              "Adjective",
+              "Describes"
+            ],
+            "rows": [
+              [
+                "Big",
+                "Size"
+              ],
+              [
+                "Red",
+                "Color"
+              ],
+              [
+                "Soft",
+                "Texture"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l16",
@@ -3817,7 +4431,27 @@
               "Punctuation"
             ]
           },
-          "wiki_title": "Grammar: Simple Punctuation"
+          "wiki_title": "Grammar: Simple Punctuation",
+          "data_table": {
+            "headers": [
+              "Punctuation Mark",
+              "Use"
+            ],
+            "rows": [
+              [
+                ".",
+                "Ends a statement"
+              ],
+              [
+                "?",
+                "Ends a question"
+              ],
+              [
+                "!",
+                "Shows excitement"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l17",
@@ -3896,7 +4530,27 @@
               "Formation"
             ]
           },
-          "wiki_title": "Handwriting: Letter Formation"
+          "wiki_title": "Handwriting: Letter Formation",
+          "data_table": {
+            "headers": [
+              "Letter Stroke Type",
+              "Example Letters"
+            ],
+            "rows": [
+              [
+                "Straight lines",
+                "L, T, I"
+              ],
+              [
+                "Curves",
+                "C, O, S"
+              ],
+              [
+                "Straight lines + curves",
+                "B, D, P"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l18",
@@ -3975,7 +4629,23 @@
               "Lists"
             ]
           },
-          "wiki_title": "Writing: Labels and Lists"
+          "wiki_title": "Writing: Labels and Lists",
+          "data_table": {
+            "headers": [
+              "Writing Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Label",
+                "'Toys' on a box"
+              ],
+              [
+                "List",
+                "Milk, Eggs, Bread"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l19",
@@ -4058,7 +4728,27 @@
               "Where"
             ]
           },
-          "wiki_title": "Reading Comprehension: Who, What, Where"
+          "wiki_title": "Reading Comprehension: Who, What, Where",
+          "data_table": {
+            "headers": [
+              "Question Word",
+              "Asks About"
+            ],
+            "rows": [
+              [
+                "Who",
+                "The people or characters"
+              ],
+              [
+                "What",
+                "The event or object"
+              ],
+              [
+                "Where",
+                "The place or setting"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l20",
@@ -4943,7 +5633,23 @@
               "reproduce"
             ]
           },
-          "wiki_title": "Living and Non-Living Things"
+          "wiki_title": "Living and Non-Living Things",
+          "data_table": {
+            "headers": [
+              "Category",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Living",
+                "Plants, animals, people"
+              ],
+              [
+                "Non-living",
+                "Rocks, water, air"
+              ]
+            ]
+          }
         },
         {
           "id": "sci-g1-l2",
@@ -5154,7 +5860,31 @@
               "grassland"
             ]
           },
-          "wiki_title": "Animals and Their Habitats"
+          "wiki_title": "Animals and Their Habitats",
+          "data_table": {
+            "headers": [
+              "Habitat",
+              "Example Animal"
+            ],
+            "rows": [
+              [
+                "Ocean",
+                "Fish"
+              ],
+              [
+                "Forest",
+                "Deer"
+              ],
+              [
+                "Desert",
+                "Camel"
+              ],
+              [
+                "Arctic",
+                "Polar bear"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l4",
@@ -5224,7 +5954,35 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Five Senses"
+          "wiki_title": "The Five Senses",
+          "data_table": {
+            "headers": [
+              "Sense",
+              "Body Part"
+            ],
+            "rows": [
+              [
+                "Sight",
+                "Eyes"
+              ],
+              [
+                "Hearing",
+                "Ears"
+              ],
+              [
+                "Smell",
+                "Nose"
+              ],
+              [
+                "Taste",
+                "Tongue"
+              ],
+              [
+                "Touch",
+                "Skin"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l5",
@@ -5294,7 +6052,31 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Weather and Seasons"
+          "wiki_title": "Weather and Seasons",
+          "data_table": {
+            "headers": [
+              "Season",
+              "Months (Northern Hemisphere)"
+            ],
+            "rows": [
+              [
+                "Spring",
+                "March, April, May"
+              ],
+              [
+                "Summer",
+                "June, July, August"
+              ],
+              [
+                "Autumn / Fall",
+                "September, October, November"
+              ],
+              [
+                "Winter",
+                "December, January, February"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l6",
@@ -5363,7 +6145,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Day and Night"
+          "wiki_title": "Day and Night",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Day happens when",
+                "Your part of Earth faces the Sun"
+              ],
+              [
+                "Night happens when",
+                "Your part of Earth faces away from the Sun"
+              ],
+              [
+                "Earth rotates once every",
+                "24 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l7",
@@ -5542,7 +6344,31 @@
               "Parents"
             ]
           },
-          "wiki_title": "Animal Babies and Their Parents"
+          "wiki_title": "Animal Babies and Their Parents",
+          "data_table": {
+            "headers": [
+              "Animal",
+              "Baby Name"
+            ],
+            "rows": [
+              [
+                "Dog",
+                "Puppy"
+              ],
+              [
+                "Cat",
+                "Kitten"
+              ],
+              [
+                "Cow",
+                "Calf"
+              ],
+              [
+                "Horse",
+                "Foal"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l9",
@@ -5621,7 +6447,31 @@
               "Butterfly"
             ]
           },
-          "wiki_title": "Life Cycle of a Butterfly"
+          "wiki_title": "Life Cycle of a Butterfly",
+          "data_table": {
+            "headers": [
+              "Stage",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Egg",
+                "Laid on a leaf"
+              ],
+              [
+                "Larva (Caterpillar)",
+                "Eats and grows"
+              ],
+              [
+                "Pupa (Chrysalis)",
+                "Transforms inside a case"
+              ],
+              [
+                "Adult Butterfly",
+                "Emerges and can fly"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l10",
@@ -5700,7 +6550,31 @@
               "Plant"
             ]
           },
-          "wiki_title": "Life Cycle of a Plant"
+          "wiki_title": "Life Cycle of a Plant",
+          "data_table": {
+            "headers": [
+              "Stage",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Seed",
+                "Contains the beginning of a new plant"
+              ],
+              [
+                "Sprout",
+                "The seed begins to grow"
+              ],
+              [
+                "Seedling",
+                "A young plant"
+              ],
+              [
+                "Mature Plant",
+                "Fully grown, may flower and make seeds"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l11",
@@ -5779,7 +6653,35 @@
               "Nutrition"
             ]
           },
-          "wiki_title": "Healthy Foods and Nutrition"
+          "wiki_title": "Healthy Foods and Nutrition",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l12",
@@ -5858,7 +6760,27 @@
               "Functions"
             ]
           },
-          "wiki_title": "My Body: Parts and Functions"
+          "wiki_title": "My Body: Parts and Functions",
+          "data_table": {
+            "headers": [
+              "Body Part",
+              "Function"
+            ],
+            "rows": [
+              [
+                "Heart",
+                "Pumps blood"
+              ],
+              [
+                "Lungs",
+                "Help you breathe"
+              ],
+              [
+                "Brain",
+                "Controls your body and thoughts"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l13",
@@ -5928,7 +6850,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Water and Its Uses"
+          "wiki_title": "Water and Its Uses",
+          "data_table": {
+            "headers": [
+              "Use of Water",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Drinking",
+                "Staying hydrated"
+              ],
+              [
+                "Washing",
+                "Cleaning hands and dishes"
+              ],
+              [
+                "Growing food",
+                "Watering plants"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l14",
@@ -6118,7 +7060,23 @@
               "Forces"
             ]
           },
-          "wiki_title": "Push and Pull: Simple Forces"
+          "wiki_title": "Push and Pull: Simple Forces",
+          "data_table": {
+            "headers": [
+              "Force",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Push",
+                "Pushing a door open"
+              ],
+              [
+                "Pull",
+                "Pulling a wagon"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l16",
@@ -6199,7 +7157,31 @@
               "Attract"
             ]
           },
-          "wiki_title": "Magnets and What They Attract"
+          "wiki_title": "Magnets and What They Attract",
+          "data_table": {
+            "headers": [
+              "Material",
+              "Attracted to Magnets?"
+            ],
+            "rows": [
+              [
+                "Iron",
+                "Yes"
+              ],
+              [
+                "Steel",
+                "Yes"
+              ],
+              [
+                "Plastic",
+                "No"
+              ],
+              [
+                "Wood",
+                "No"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l17",
@@ -6269,7 +7251,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Floating and Sinking"
+          "wiki_title": "Floating and Sinking",
+          "data_table": {
+            "headers": [
+              "Object",
+              "Floats or Sinks (in water)"
+            ],
+            "rows": [
+              [
+                "Wooden block",
+                "Floats"
+              ],
+              [
+                "Rock",
+                "Sinks"
+              ],
+              [
+                "Rubber duck",
+                "Floats"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l18",
@@ -6339,7 +7341,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Caring for the Environment"
+          "wiki_title": "Caring for the Environment",
+          "data_table": {
+            "headers": [
+              "Action",
+              "How It Helps"
+            ],
+            "rows": [
+              [
+                "Recycling",
+                "Reduces waste sent to landfills"
+              ],
+              [
+                "Turning off lights",
+                "Saves energy"
+              ],
+              [
+                "Planting trees",
+                "Provides oxygen and habitats"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l19",
@@ -6409,7 +7431,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Rocks and Soil"
+          "wiki_title": "Rocks and Soil",
+          "data_table": {
+            "headers": [
+              "Rock Type",
+              "How It Forms"
+            ],
+            "rows": [
+              [
+                "Igneous",
+                "From cooled melted rock (magma/lava)"
+              ],
+              [
+                "Sedimentary",
+                "From layers of sediment pressed together"
+              ],
+              [
+                "Metamorphic",
+                "From existing rock changed by heat and pressure"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l20",
@@ -6490,7 +7532,23 @@
               "Wheels"
             ]
           },
-          "wiki_title": "Simple Machines: Ramps and Wheels"
+          "wiki_title": "Simple Machines: Ramps and Wheels",
+          "data_table": {
+            "headers": [
+              "Simple Machine",
+              "How It Helps"
+            ],
+            "rows": [
+              [
+                "Ramp (inclined plane)",
+                "Makes it easier to move objects up/down"
+              ],
+              [
+                "Wheel and axle",
+                "Reduces friction so things move more easily"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -13276,7 +14334,27 @@
               "north"
             ]
           },
-          "wiki_title": "My Local Area"
+          "wiki_title": "My Local Area",
+          "data_table": {
+            "headers": [
+              "Place",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "School",
+                "Where children learn"
+              ],
+              [
+                "Park",
+                "Where people play and relax"
+              ],
+              [
+                "Library",
+                "Where people borrow books"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l2",
@@ -13355,7 +14433,23 @@
               "Globes"
             ]
           },
-          "wiki_title": "Introducing Maps and Globes"
+          "wiki_title": "Introducing Maps and Globes",
+          "data_table": {
+            "headers": [
+              "Tool",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Map",
+                "A flat drawing showing where places are"
+              ],
+              [
+                "Globe",
+                "A round model of the Earth"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l3",
@@ -13533,7 +14627,23 @@
               "Earth"
             ]
           },
-          "wiki_title": "Land and Water on Earth"
+          "wiki_title": "Land and Water on Earth",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Earth's surface covered by water",
+                "About 71%"
+              ],
+              [
+                "Earth's surface covered by land",
+                "About 29%"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l5",
@@ -13603,7 +14713,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Mountains and Hills"
+          "wiki_title": "Mountains and Hills",
+          "data_table": {
+            "headers": [
+              "Landform",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Hill",
+                "A raised area of land, lower than a mountain"
+              ],
+              [
+                "Mountain",
+                "A very tall, steep landform"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l6",
@@ -13673,7 +14799,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Rivers and Lakes"
+          "wiki_title": "Rivers and Lakes",
+          "data_table": {
+            "headers": [
+              "Landform",
+              "Description"
+            ],
+            "rows": [
+              [
+                "River",
+                "A flowing body of water that moves to the sea"
+              ],
+              [
+                "Lake",
+                "A body of water surrounded by land"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l7",
@@ -13947,7 +15089,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Countries and Flags"
+          "wiki_title": "Countries and Flags",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Flag Colors"
+            ],
+            "rows": [
+              [
+                "USA",
+                "Red, White, Blue"
+              ],
+              [
+                "Japan",
+                "White, Red"
+              ],
+              [
+                "Brazil",
+                "Green, Yellow, Blue"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l10",
@@ -14017,7 +15179,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "My Country and Its Capital"
+          "wiki_title": "My Country and Its Capital",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Capital"
+            ],
+            "rows": [
+              [
+                "France",
+                "Paris"
+              ],
+              [
+                "Japan",
+                "Tokyo"
+              ],
+              [
+                "USA",
+                "Washington, D.C."
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l11",
@@ -14087,7 +15269,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Cities and Villages"
+          "wiki_title": "Cities and Villages",
+          "data_table": {
+            "headers": [
+              "Place Type",
+              "Feature"
+            ],
+            "rows": [
+              [
+                "City",
+                "Large population, many buildings and services"
+              ],
+              [
+                "Village",
+                "Small population, more open land"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l12",
@@ -14166,7 +15364,27 @@
               "World"
             ]
           },
-          "wiki_title": "Weather Around the World"
+          "wiki_title": "Weather Around the World",
+          "data_table": {
+            "headers": [
+              "Climate Type",
+              "Example Weather"
+            ],
+            "rows": [
+              [
+                "Tropical",
+                "Hot and rainy year-round"
+              ],
+              [
+                "Polar",
+                "Very cold year-round"
+              ],
+              [
+                "Temperate",
+                "Warm summers, cold winters"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l13",
@@ -14237,7 +15455,31 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Deserts and Their Features"
+          "wiki_title": "Deserts and Their Features",
+          "data_table": {
+            "headers": [
+              "Desert",
+              "Location",
+              "Type"
+            ],
+            "rows": [
+              [
+                "Sahara",
+                "North Africa",
+                "Hot desert (largest hot desert)"
+              ],
+              [
+                "Gobi",
+                "Asia (Mongolia/China)",
+                "Cold desert"
+              ],
+              [
+                "Antarctic Desert",
+                "Antarctica",
+                "Coldest and largest desert overall"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l14",
@@ -14308,7 +15550,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Forests and Their Features"
+          "wiki_title": "Forests and Their Features",
+          "data_table": {
+            "headers": [
+              "Forest Type",
+              "Feature"
+            ],
+            "rows": [
+              [
+                "Rainforest",
+                "Very wet, dense trees, lots of animals"
+              ],
+              [
+                "Temperate Forest",
+                "Four seasons, deciduous and evergreen trees"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l15",
@@ -14377,7 +15635,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Islands"
+          "wiki_title": "Islands",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Island",
+                "Land completely surrounded by water"
+              ],
+              [
+                "World's largest island",
+                "Greenland"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l16",
@@ -14456,7 +15730,23 @@
               "World"
             ]
           },
-          "wiki_title": "Seasons Around the World"
+          "wiki_title": "Seasons Around the World",
+          "data_table": {
+            "headers": [
+              "Hemisphere",
+              "Summer Months"
+            ],
+            "rows": [
+              [
+                "Northern",
+                "June, July, August"
+              ],
+              [
+                "Southern",
+                "December, January, February"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l17",
@@ -14537,7 +15827,31 @@
               "Place"
             ]
           },
-          "wiki_title": "Transportation: Getting from Place to Place"
+          "wiki_title": "Transportation: Getting from Place to Place",
+          "data_table": {
+            "headers": [
+              "Transport",
+              "Environment"
+            ],
+            "rows": [
+              [
+                "Car",
+                "Roads"
+              ],
+              [
+                "Boat",
+                "Water"
+              ],
+              [
+                "Airplane",
+                "Air"
+              ],
+              [
+                "Train",
+                "Railway tracks"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l18",
@@ -14616,7 +15930,27 @@
               "World"
             ]
           },
-          "wiki_title": "Homes Around the World"
+          "wiki_title": "Homes Around the World",
+          "data_table": {
+            "headers": [
+              "Home Type",
+              "Region"
+            ],
+            "rows": [
+              [
+                "Igloo",
+                "Arctic (traditional)"
+              ],
+              [
+                "Stilt house",
+                "Areas prone to flooding"
+              ],
+              [
+                "Apartment",
+                "Cities"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l19",
@@ -14695,7 +16029,23 @@
               "Life"
             ]
           },
-          "wiki_title": "Farms and Rural Life"
+          "wiki_title": "Farms and Rural Life",
+          "data_table": {
+            "headers": [
+              "Farm Product",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Crops",
+                "Wheat, corn, rice"
+              ],
+              [
+                "Livestock",
+                "Cows, chickens, sheep"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l20",
@@ -14774,7 +16124,27 @@
               "Places"
             ]
           },
-          "wiki_title": "Community Helpers and Places"
+          "wiki_title": "Community Helpers and Places",
+          "data_table": {
+            "headers": [
+              "Community Helper",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Doctor",
+                "Helps sick people get better"
+              ],
+              [
+                "Firefighter",
+                "Puts out fires and helps in emergencies"
+              ],
+              [
+                "Teacher",
+                "Helps children learn"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -15457,7 +16827,23 @@
               "memory"
             ]
           },
-          "wiki_title": "My Family History"
+          "wiki_title": "My Family History",
+          "data_table": {
+            "headers": [
+              "Family Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Ancestor",
+                "A family member who lived before you"
+              ],
+              [
+                "Generation",
+                "A group of family members around the same age (e.g. grandparents, parents, children)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l2",
@@ -15538,7 +16924,23 @@
               "Today"
             ]
           },
-          "wiki_title": "What is History? Long Ago and Today"
+          "wiki_title": "What is History? Long Ago and Today",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "History",
+                "The study of things that happened in the past"
+              ],
+              [
+                "Historian",
+                "A person who studies history"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l3",
@@ -15617,7 +17019,23 @@
               "Long"
             ]
           },
-          "wiki_title": "How People Lived Long Ago"
+          "wiki_title": "How People Lived Long Ago",
+          "data_table": {
+            "headers": [
+              "Then",
+              "Now"
+            ],
+            "rows": [
+              [
+                "Hunting and gathering food",
+                "Buying food at a store"
+              ],
+              [
+                "Walking or riding animals",
+                "Cars, buses, trains"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l4",
@@ -15698,7 +17116,23 @@
               "Communication"
             ]
           },
-          "wiki_title": "Cave Paintings and Early Communication"
+          "wiki_title": "Cave Paintings and Early Communication",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Famous cave paintings found at",
+                "Lascaux, France and Altamira, Spain"
+              ],
+              [
+                "Approximate age",
+                "Tens of thousands of years old"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l5",
@@ -15876,7 +17310,27 @@
               "Inventions"
             ]
           },
-          "wiki_title": "Ancient China and Its Inventions"
+          "wiki_title": "Ancient China and Its Inventions",
+          "data_table": {
+            "headers": [
+              "Invention",
+              "Origin"
+            ],
+            "rows": [
+              [
+                "Paper",
+                "Ancient China, c. 2nd century BCE"
+              ],
+              [
+                "Compass",
+                "Ancient China"
+              ],
+              [
+                "Silk",
+                "Ancient China"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l7",
@@ -16058,7 +17512,23 @@
               "Roads"
             ]
           },
-          "wiki_title": "Ancient Rome and Its Great Roads"
+          "wiki_title": "Ancient Rome and Its Great Roads",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Famous saying",
+                "'All roads lead to Rome'"
+              ],
+              [
+                "Purpose of Roman roads",
+                "Moving armies, trade, and messages quickly"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l9",
@@ -16128,7 +17598,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The First Farmers"
+          "wiki_title": "The First Farmers",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "The Agricultural Revolution began",
+                "About 10,000-12,000 years ago"
+              ],
+              [
+                "Effect",
+                "People settled in one place instead of moving to find food"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l10",
@@ -16208,7 +17694,23 @@
               "Journeys"
             ]
           },
-          "wiki_title": "Famous Explorers and Their Journeys"
+          "wiki_title": "Famous Explorers and Their Journeys",
+          "data_table": {
+            "headers": [
+              "Explorer",
+              "Known For"
+            ],
+            "rows": [
+              [
+                "Christopher Columbus",
+                "Voyages to the Americas, 1492"
+              ],
+              [
+                "Marco Polo",
+                "Travels along the Silk Road to China"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l11",
@@ -16278,7 +17780,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Homes of the Past"
+          "wiki_title": "Homes of the Past",
+          "data_table": {
+            "headers": [
+              "Home Type",
+              "Time Period"
+            ],
+            "rows": [
+              [
+                "Cave",
+                "Prehistoric times"
+              ],
+              [
+                "Mud brick house",
+                "Ancient civilizations (e.g. Mesopotamia)"
+              ],
+              [
+                "Modern house",
+                "Today"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l12",
@@ -16348,7 +17870,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Clothes of the Past"
+          "wiki_title": "Clothes of the Past",
+          "data_table": {
+            "headers": [
+              "Material",
+              "Used In"
+            ],
+            "rows": [
+              [
+                "Animal skins",
+                "Prehistoric times"
+              ],
+              [
+                "Wool and linen",
+                "Ancient civilizations"
+              ],
+              [
+                "Cotton and synthetic fabrics",
+                "Today"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l13",
@@ -16427,7 +17969,27 @@
               "Past"
             ]
           },
-          "wiki_title": "Toys and Games of the Past"
+          "wiki_title": "Toys and Games of the Past",
+          "data_table": {
+            "headers": [
+              "Toy",
+              "Time Period"
+            ],
+            "rows": [
+              [
+                "Hoop and stick",
+                "Ancient Egypt and Greece"
+              ],
+              [
+                "Marbles",
+                "Ancient Rome and beyond"
+              ],
+              [
+                "Video games",
+                "Modern times"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l14",
@@ -16497,7 +18059,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Transportation Then and Now"
+          "wiki_title": "Transportation Then and Now",
+          "data_table": {
+            "headers": [
+              "Then",
+              "Now"
+            ],
+            "rows": [
+              [
+                "Walking or horse",
+                "Car"
+              ],
+              [
+                "Sailing ship",
+                "Airplane"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l15",
@@ -16567,7 +18145,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Communication Then and Now"
+          "wiki_title": "Communication Then and Now",
+          "data_table": {
+            "headers": [
+              "Then",
+              "Now"
+            ],
+            "rows": [
+              [
+                "Messenger on foot/horse",
+                "Phone call"
+              ],
+              [
+                "Letters by mail",
+                "Text messages and email"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l16",
@@ -16650,7 +18244,23 @@
               "World"
             ]
           },
-          "wiki_title": "Important Inventions That Changed the World"
+          "wiki_title": "Important Inventions That Changed the World",
+          "data_table": {
+            "headers": [
+              "Invention",
+              "Impact"
+            ],
+            "rows": [
+              [
+                "The wheel",
+                "Made transportation and work easier"
+              ],
+              [
+                "The printing press",
+                "Made books widely available"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l17",
@@ -16729,7 +18339,23 @@
               "Long"
             ]
           },
-          "wiki_title": "Castles and Kings of Long Ago"
+          "wiki_title": "Castles and Kings of Long Ago",
+          "data_table": {
+            "headers": [
+              "Castle Feature",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Moat",
+                "A ditch of water for defense"
+              ],
+              [
+                "Drawbridge",
+                "A bridge that could be raised to block entry"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l18",
@@ -16810,7 +18436,23 @@
               "History"
             ]
           },
-          "wiki_title": "Famous Kind Leaders in History"
+          "wiki_title": "Famous Kind Leaders in History",
+          "data_table": {
+            "headers": [
+              "Leader",
+              "Known For"
+            ],
+            "rows": [
+              [
+                "Nelson Mandela",
+                "Promoting peace and equality in South Africa"
+              ],
+              [
+                "Mahatma Gandhi",
+                "Leading peaceful protest in India"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l19",
@@ -16891,7 +18533,23 @@
               "Time"
             ]
           },
-          "wiki_title": "Celebrations and Traditions Through Time"
+          "wiki_title": "Celebrations and Traditions Through Time",
+          "data_table": {
+            "headers": [
+              "Celebration",
+              "Tradition"
+            ],
+            "rows": [
+              [
+                "New Year",
+                "Celebrating the start of a new year"
+              ],
+              [
+                "Harvest festivals",
+                "Celebrating a successful harvest"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l20",
@@ -17799,7 +19457,27 @@
               "Others"
             ]
           },
-          "wiki_title": "Being Kind to Others"
+          "wiki_title": "Being Kind to Others",
+          "data_table": {
+            "headers": [
+              "Act of Kindness",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Sharing",
+                "Sharing your toys with a friend"
+              ],
+              [
+                "Helping",
+                "Helping someone who dropped their books"
+              ],
+              [
+                "Comforting",
+                "Comforting a friend who is sad"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l3",
@@ -17882,7 +19560,23 @@
               "Daily"
             ]
           },
-          "wiki_title": "Saying Thank You: Gratitude in Daily Life"
+          "wiki_title": "Saying Thank You: Gratitude in Daily Life",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Way to Show Gratitude"
+            ],
+            "rows": [
+              [
+                "Receiving a gift",
+                "Saying 'thank you' and smiling"
+              ],
+              [
+                "Being helped",
+                "Thanking the person who helped you"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l4",
@@ -18060,7 +19754,23 @@
               "Eating"
             ]
           },
-          "wiki_title": "Simple Dua Before and After Eating"
+          "wiki_title": "Simple Dua Before and After Eating",
+          "data_table": {
+            "headers": [
+              "Time",
+              "Purpose of the Dua"
+            ],
+            "rows": [
+              [
+                "Before eating",
+                "Thanking Allah for the food"
+              ],
+              [
+                "After eating",
+                "Expressing gratitude for being fed"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l6",
@@ -18139,7 +19849,23 @@
               "Truth"
             ]
           },
-          "wiki_title": "Honesty and Telling the Truth"
+          "wiki_title": "Honesty and Telling the Truth",
+          "data_table": {
+            "headers": [
+              "Value",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Honesty",
+                "Telling the truth even when it's hard"
+              ],
+              [
+                "Trustworthiness",
+                "Keeping a promise you made"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l7",
@@ -18219,7 +19945,23 @@
               "Friends"
             ]
           },
-          "wiki_title": "Sharing with Family and Friends"
+          "wiki_title": "Sharing with Family and Friends",
+          "data_table": {
+            "headers": [
+              "Sharing Example",
+              "Who Benefits"
+            ],
+            "rows": [
+              [
+                "Sharing food",
+                "Family and friends at the table"
+              ],
+              [
+                "Sharing toys",
+                "Playmates"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l8",
@@ -18298,7 +20040,23 @@
               "Elders"
             ]
           },
-          "wiki_title": "Respecting Parents and Elders"
+          "wiki_title": "Respecting Parents and Elders",
+          "data_table": {
+            "headers": [
+              "Way to Show Respect",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Listening",
+                "Paying attention when they speak"
+              ],
+              [
+                "Helping",
+                "Assisting with chores"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l9",
@@ -18378,7 +20136,23 @@
               "Animals"
             ]
           },
-          "wiki_title": "Being Gentle with Animals"
+          "wiki_title": "Being Gentle with Animals",
+          "data_table": {
+            "headers": [
+              "Kind Action",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Feeding",
+                "Giving a pet food and water"
+              ],
+              [
+                "Gentle handling",
+                "Petting an animal softly"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l10",
@@ -18560,7 +20334,23 @@
               "Family"
             ]
           },
-          "wiki_title": "The Story of Prophet Adam: Our First Family"
+          "wiki_title": "The Story of Prophet Adam: Our First Family",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Prophet Adam is described as",
+                "The first human being and prophet"
+              ],
+              [
+                "Lesson from his story",
+                "Family, forgiveness, and starting anew"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l12",
@@ -18643,7 +20433,23 @@
               "Trust"
             ]
           },
-          "wiki_title": "The Story of Prophet Nuh: Patience and Trust"
+          "wiki_title": "The Story of Prophet Nuh: Patience and Trust",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Prophet Nuh (Noah) is known for",
+                "Building an ark and patience over many years"
+              ],
+              [
+                "Lesson from his story",
+                "Patience and trust in God"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l13",
@@ -18726,7 +20532,23 @@
               "Faith"
             ]
           },
-          "wiki_title": "The Story of Prophet Ibrahim: Courage and Faith"
+          "wiki_title": "The Story of Prophet Ibrahim: Courage and Faith",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Prophet Ibrahim (Abraham) is known for",
+                "His strong faith and courage"
+              ],
+              [
+                "Lesson from his story",
+                "Standing firm in belief"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l14",
@@ -18807,7 +20629,23 @@
               "Forgiveness"
             ]
           },
-          "wiki_title": "The Story of Prophet Yusuf: Forgiveness"
+          "wiki_title": "The Story of Prophet Yusuf: Forgiveness",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Prophet Yusuf (Joseph) is known for",
+                "Forgiving his brothers"
+              ],
+              [
+                "Lesson from his story",
+                "Forgiveness"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l15",
@@ -18890,7 +20728,23 @@
               "What"
             ]
           },
-          "wiki_title": "The Story of Prophet Musa: Standing for What is Right"
+          "wiki_title": "The Story of Prophet Musa: Standing for What is Right",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Prophet Musa (Moses) is known for",
+                "Leading his people and standing up for justice"
+              ],
+              [
+                "Lesson from his story",
+                "Courage to stand for what is right"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l16",
@@ -18973,7 +20827,23 @@
               "Child"
             ]
           },
-          "wiki_title": "Stories of Prophet Muhammad's Kindness as a Child"
+          "wiki_title": "Stories of Prophet Muhammad's Kindness as a Child",
+          "data_table": {
+            "headers": [
+              "Value Shown",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Kindness",
+                "Caring for others even as a child"
+              ],
+              [
+                "Honesty",
+                "Known as trustworthy from a young age"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l17",
@@ -19052,7 +20922,23 @@
               "Need"
             ]
           },
-          "wiki_title": "Helping Those in Need"
+          "wiki_title": "Helping Those in Need",
+          "data_table": {
+            "headers": [
+              "Way to Help",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Charity",
+                "Giving food or money to those who need it"
+              ],
+              [
+                "Volunteering",
+                "Helping at a community event"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l18",
@@ -19133,7 +21019,23 @@
               "Others"
             ]
           },
-          "wiki_title": "Saying Sorry and Forgiving Others"
+          "wiki_title": "Saying Sorry and Forgiving Others",
+          "data_table": {
+            "headers": [
+              "Skill",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Apologizing",
+                "Saying 'I'm sorry' when you make a mistake"
+              ],
+              [
+                "Forgiving",
+                "Letting go of anger when someone apologizes"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l19",
@@ -19203,7 +21105,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Caring for Our Neighbours"
+          "wiki_title": "Caring for Our Neighbours",
+          "data_table": {
+            "headers": [
+              "Way to Care",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Checking in",
+                "Asking a neighbor how they are doing"
+              ],
+              [
+                "Helping",
+                "Assisting a neighbor with a task"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l20",
@@ -19273,7 +21191,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Being Patient"
+          "wiki_title": "Being Patient",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Patient Response"
+            ],
+            "rows": [
+              [
+                "Waiting your turn",
+                "Waiting calmly without pushing"
+              ],
+              [
+                "Facing a challenge",
+                "Trying again instead of giving up"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -20363,7 +22297,23 @@
               "Moral"
             ]
           },
-          "wiki_title": "Stories from Around the World"
+          "wiki_title": "Stories from Around the World",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Genre",
+                "Traditional stories passed down orally across many cultures"
+              ],
+              [
+                "Purpose",
+                "Teaching lessons and passing on cultural values"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l2",
@@ -20535,7 +22485,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Tortoise and the Hare"
+          "wiki_title": "The Tortoise and the Hare",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Aesop's Fables, Ancient Greece"
+              ],
+              [
+                "Moral",
+                "Slow and steady wins the race"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l4",
@@ -20605,7 +22571,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Boy Who Cried Wolf"
+          "wiki_title": "The Boy Who Cried Wolf",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Aesop's Fables, Ancient Greece"
+              ],
+              [
+                "Moral",
+                "Lying makes people stop believing you"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l5",
@@ -20688,7 +22670,23 @@
               "Trickster"
             ]
           },
-          "wiki_title": "Anansi the Spider: West African Trickster Tales"
+          "wiki_title": "Anansi the Spider: West African Trickster Tales",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "West African (Ashanti) folklore"
+              ],
+              [
+                "Character",
+                "Anansi, a clever trickster spider"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l6",
@@ -20767,7 +22765,23 @@
               "Hood"
             ]
           },
-          "wiki_title": "Little Red Riding Hood"
+          "wiki_title": "Little Red Riding Hood",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "European folktale, best known from Charles Perrault (1697) and the Brothers Grimm (1812)"
+              ],
+              [
+                "Moral",
+                "Be cautious of strangers"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l7",
@@ -20846,7 +22860,23 @@
               "Pigs"
             ]
           },
-          "wiki_title": "The Three Little Pigs"
+          "wiki_title": "The Three Little Pigs",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "English folktale"
+              ],
+              [
+                "Moral",
+                "Hard work and good planning pay off"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l8",
@@ -20925,7 +22955,23 @@
               "Bears"
             ]
           },
-          "wiki_title": "Goldilocks and the Three Bears"
+          "wiki_title": "Goldilocks and the Three Bears",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "English folktale, popularized by Robert Southey (1837)"
+              ],
+              [
+                "Moral",
+                "Respect other people's belongings"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l9",
@@ -21096,7 +23142,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Ugly Duckling"
+          "wiki_title": "The Ugly Duckling",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Hans Christian Andersen"
+              ],
+              [
+                "Published",
+                "1843"
+              ],
+              [
+                "Moral",
+                "True beauty and worth take time to be recognized"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l11",
@@ -21166,7 +23232,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Emperor's New Clothes"
+          "wiki_title": "The Emperor's New Clothes",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Hans Christian Andersen"
+              ],
+              [
+                "Published",
+                "1837"
+              ],
+              [
+                "Moral",
+                "Speaking the truth even when others don't"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l12",
@@ -21248,7 +23334,23 @@
               "India"
             ]
           },
-          "wiki_title": "Panchatantra Animal Tales from India"
+          "wiki_title": "Panchatantra Animal Tales from India",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Ancient India, compiled c. 200 BCE-300 CE"
+              ],
+              [
+                "Content",
+                "Animal fables teaching wisdom"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l13",
@@ -21327,7 +23429,23 @@
               "Japan"
             ]
           },
-          "wiki_title": "Momotaro: The Peach Boy of Japan"
+          "wiki_title": "Momotaro: The Peach Boy of Japan",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Japanese folktale"
+              ],
+              [
+                "Character",
+                "Momotaro, 'Peach Boy', born from a giant peach"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l14",
@@ -21408,7 +23526,23 @@
               "Tales"
             ]
           },
-          "wiki_title": "Br'er Rabbit Folk Tales"
+          "wiki_title": "Br'er Rabbit Folk Tales",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "African American folklore, rooted in West African trickster tales"
+              ],
+              [
+                "Character",
+                "Br'er Rabbit, a clever trickster"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l15",
@@ -21478,7 +23612,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Frog Prince"
+          "wiki_title": "The Frog Prince",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "German folktale, Brothers Grimm (1812)"
+              ],
+              [
+                "Moral",
+                "Keeping promises matters"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l16",
@@ -21662,7 +23812,23 @@
               "Tales"
             ]
           },
-          "wiki_title": "Native American Coyote Trickster Tales"
+          "wiki_title": "Native American Coyote Trickster Tales",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Various Native American traditions"
+              ],
+              [
+                "Character",
+                "Coyote, a common trickster figure"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l18",
@@ -21732,7 +23898,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Little Mermaid"
+          "wiki_title": "The Little Mermaid",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Hans Christian Andersen"
+              ],
+              [
+                "Published",
+                "1837"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l19",
@@ -21812,7 +23994,27 @@
               "China"
             ]
           },
-          "wiki_title": "The Nightingale: A Tale from China"
+          "wiki_title": "The Nightingale: A Tale from China",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Author",
+                "Hans Christian Andersen"
+              ],
+              [
+                "Published",
+                "1843"
+              ],
+              [
+                "Setting",
+                "Imperial China"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l20",
@@ -21895,7 +24097,27 @@
               "Tale"
             ]
           },
-          "wiki_title": "Journey to the West: A Chinese Adventure Tale"
+          "wiki_title": "Journey to the West: A Chinese Adventure Tale",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Chinese novel, published 16th century"
+              ],
+              [
+                "Attributed author",
+                "Wu Cheng'en"
+              ],
+              [
+                "Main character",
+                "Sun Wukong, the Monkey King"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -22669,7 +24891,27 @@
               "triangle"
             ]
           },
-          "wiki_title": "Colours and Shapes"
+          "wiki_title": "Colours and Shapes",
+          "data_table": {
+            "headers": [
+              "Shape",
+              "Number of Sides"
+            ],
+            "rows": [
+              [
+                "Circle",
+                "0"
+              ],
+              [
+                "Triangle",
+                "3"
+              ],
+              [
+                "Square",
+                "4"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l2",
@@ -22839,7 +25081,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Painting with Watercolours"
+          "wiki_title": "Painting with Watercolours",
+          "data_table": {
+            "headers": [
+              "Technique",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Wet-on-wet",
+                "Colors blend softly"
+              ],
+              [
+                "Wet-on-dry",
+                "Creates sharper edges"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l4",
@@ -22920,7 +25178,27 @@
               "Objects"
             ]
           },
-          "wiki_title": "Drawing Simple Shapes and Objects"
+          "wiki_title": "Drawing Simple Shapes and Objects",
+          "data_table": {
+            "headers": [
+              "Shape",
+              "Everyday Object"
+            ],
+            "rows": [
+              [
+                "Circle",
+                "A ball"
+              ],
+              [
+                "Square",
+                "A window"
+              ],
+              [
+                "Triangle",
+                "A slice of pizza"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l5",
@@ -22990,7 +25268,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Making Collages"
+          "wiki_title": "Making Collages",
+          "data_table": {
+            "headers": [
+              "Material",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Paper",
+                "Colored construction paper"
+              ],
+              [
+                "Fabric",
+                "Cloth scraps"
+              ],
+              [
+                "Natural items",
+                "Leaves, dried flowers"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l6",
@@ -23069,7 +25367,23 @@
               "Sculpture"
             ]
           },
-          "wiki_title": "Clay Modelling and Sculpture"
+          "wiki_title": "Clay Modelling and Sculpture",
+          "data_table": {
+            "headers": [
+              "Technique",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Pinching",
+                "Shaping clay with fingers"
+              ],
+              [
+                "Rolling",
+                "Making coils or flat sheets"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l7",
@@ -23149,7 +25463,23 @@
               "Objects"
             ]
           },
-          "wiki_title": "Printmaking with Everyday Objects"
+          "wiki_title": "Printmaking with Everyday Objects",
+          "data_table": {
+            "headers": [
+              "Object Used",
+              "Print Pattern"
+            ],
+            "rows": [
+              [
+                "Potato stamp",
+                "Simple carved shapes"
+              ],
+              [
+                "Sponge",
+                "Textured dabs"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l8",
@@ -23219,7 +25549,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Lines and Patterns in Art"
+          "wiki_title": "Lines and Patterns in Art",
+          "data_table": {
+            "headers": [
+              "Line Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Straight",
+                "A ruler's edge"
+              ],
+              [
+                "Zigzag",
+                "A lightning bolt shape"
+              ],
+              [
+                "Curved",
+                "A wave"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l9",
@@ -23298,7 +25648,23 @@
               "Smooth"
             ]
           },
-          "wiki_title": "Textures: Rough and Smooth"
+          "wiki_title": "Textures: Rough and Smooth",
+          "data_table": {
+            "headers": [
+              "Texture",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Rough",
+                "Tree bark, sandpaper"
+              ],
+              [
+                "Smooth",
+                "Glass, polished stone"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l10",
@@ -23368,7 +25734,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Drawing Self-Portraits"
+          "wiki_title": "Drawing Self-Portraits",
+          "data_table": {
+            "headers": [
+              "Face Feature",
+              "Typical Position"
+            ],
+            "rows": [
+              [
+                "Eyes",
+                "Middle of the head"
+              ],
+              [
+                "Nose",
+                "Below the eyes"
+              ],
+              [
+                "Mouth",
+                "Below the nose"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l11",
@@ -23449,7 +25835,23 @@
               "Flowers"
             ]
           },
-          "wiki_title": "Nature Art: Leaves and Flowers"
+          "wiki_title": "Nature Art: Leaves and Flowers",
+          "data_table": {
+            "headers": [
+              "Natural Material",
+              "Use in Art"
+            ],
+            "rows": [
+              [
+                "Leaves",
+                "Leaf rubbings and prints"
+              ],
+              [
+                "Flowers",
+                "Pressed flower art"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l12",
@@ -23530,7 +25932,23 @@
               "Origami"
             ]
           },
-          "wiki_title": "Paper Folding and Simple Origami"
+          "wiki_title": "Paper Folding and Simple Origami",
+          "data_table": {
+            "headers": [
+              "Origami Shape",
+              "Fold Complexity"
+            ],
+            "rows": [
+              [
+                "Paper boat",
+                "A few simple folds"
+              ],
+              [
+                "Paper crane",
+                "More folds, more advanced"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l13",
@@ -23611,7 +26029,27 @@
               "Ones"
             ]
           },
-          "wiki_title": "Mixing Colours to Make New Ones"
+          "wiki_title": "Mixing Colours to Make New Ones",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l14",
@@ -23783,7 +26221,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Art from Different Cultures"
+          "wiki_title": "Art from Different Cultures",
+          "data_table": {
+            "headers": [
+              "Art Form",
+              "Culture"
+            ],
+            "rows": [
+              [
+                "Origami",
+                "Japan"
+              ],
+              [
+                "Mandala",
+                "India"
+              ],
+              [
+                "Aboriginal dot painting",
+                "Australia"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l16",
@@ -23853,7 +26311,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Drawing Animals"
+          "wiki_title": "Drawing Animals",
+          "data_table": {
+            "headers": [
+              "Animal",
+              "Simple Shapes Used"
+            ],
+            "rows": [
+              [
+                "Cat",
+                "Circles and triangles (ears)"
+              ],
+              [
+                "Fish",
+                "Oval and triangle (tail)"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l17",
@@ -23923,7 +26397,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Chalk and Pastel Art"
+          "wiki_title": "Chalk and Pastel Art",
+          "data_table": {
+            "headers": [
+              "Material",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Chalk",
+                "Soft, dusty texture"
+              ],
+              [
+                "Pastel",
+                "Rich, blendable color"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l18",
@@ -23993,7 +26483,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Making Puppets"
+          "wiki_title": "Making Puppets",
+          "data_table": {
+            "headers": [
+              "Puppet Type",
+              "How It's Made"
+            ],
+            "rows": [
+              [
+                "Sock puppet",
+                "A sock with attached eyes"
+              ],
+              [
+                "Paper bag puppet",
+                "A folded paper bag"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l19",
@@ -24157,7 +26663,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Symmetry in Art"
+          "wiki_title": "Symmetry in Art",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Symmetry",
+                "When one half of an image mirrors the other"
+              ],
+              [
+                "Example",
+                "A butterfly's wings"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -24841,7 +27363,23 @@
               "low"
             ]
           },
-          "wiki_title": "Exploring Sound"
+          "wiki_title": "Exploring Sound",
+          "data_table": {
+            "headers": [
+              "Sound Source",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Vibrating object",
+                "A guitar string"
+              ],
+              [
+                "Moving air",
+                "Wind blowing"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l2",
@@ -24920,7 +27458,23 @@
               "Sounds"
             ]
           },
-          "wiki_title": "Loud and Soft Sounds"
+          "wiki_title": "Loud and Soft Sounds",
+          "data_table": {
+            "headers": [
+              "Dynamic Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Forte (loud)",
+                "Play strongly"
+              ],
+              [
+                "Piano (soft)",
+                "Play gently"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l3",
@@ -24990,7 +27544,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "High and Low Pitch"
+          "wiki_title": "High and Low Pitch",
+          "data_table": {
+            "headers": [
+              "Pitch",
+              "Example"
+            ],
+            "rows": [
+              [
+                "High",
+                "A bird's chirp, a flute's top notes"
+              ],
+              [
+                "Low",
+                "A drum's thump, a tuba's notes"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l4",
@@ -25069,7 +27639,23 @@
               "Rhythm"
             ]
           },
-          "wiki_title": "Fast and Slow Rhythm"
+          "wiki_title": "Fast and Slow Rhythm",
+          "data_table": {
+            "headers": [
+              "Tempo Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Allegro",
+                "Fast"
+              ],
+              [
+                "Adagio",
+                "Slow"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l5",
@@ -25148,7 +27734,23 @@
               "Beat"
             ]
           },
-          "wiki_title": "Clapping and Keeping a Beat"
+          "wiki_title": "Clapping and Keeping a Beat",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Beat",
+                "The steady pulse of music"
+              ],
+              [
+                "Rhythm",
+                "A pattern of sounds and silences"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l6",
@@ -25227,7 +27829,27 @@
               "Instruments"
             ]
           },
-          "wiki_title": "Simple Musical Instruments"
+          "wiki_title": "Simple Musical Instruments",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "How It Makes Sound"
+            ],
+            "rows": [
+              [
+                "Drum",
+                "Struck"
+              ],
+              [
+                "Guitar",
+                "Strings plucked"
+              ],
+              [
+                "Flute",
+                "Air blown across a hole"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l7",
@@ -25297,7 +27919,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Percussion Instruments"
+          "wiki_title": "Percussion Instruments",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "How Played"
+            ],
+            "rows": [
+              [
+                "Drum",
+                "Struck with hands or sticks"
+              ],
+              [
+                "Xylophone",
+                "Struck with mallets"
+              ],
+              [
+                "Tambourine",
+                "Shaken or struck"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l8",
@@ -25556,7 +28198,23 @@
               "Songs"
             ]
           },
-          "wiki_title": "Singing Simple Songs"
+          "wiki_title": "Singing Simple Songs",
+          "data_table": {
+            "headers": [
+              "Singing Skill",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Pitch matching",
+                "Singing the right note"
+              ],
+              [
+                "Breath control",
+                "Taking breaths at the right time"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l11",
@@ -25636,7 +28294,23 @@
               "Rhythms"
             ]
           },
-          "wiki_title": "Nursery Rhymes and Their Rhythms"
+          "wiki_title": "Nursery Rhymes and Their Rhythms",
+          "data_table": {
+            "headers": [
+              "Nursery Rhyme",
+              "Rhythm Feel"
+            ],
+            "rows": [
+              [
+                "Twinkle Twinkle Little Star",
+                "Steady, gentle beat"
+              ],
+              [
+                "Row Row Row Your Boat",
+                "Rocking, swaying beat"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l12",
@@ -25716,7 +28390,27 @@
               "World"
             ]
           },
-          "wiki_title": "Music from Around the World"
+          "wiki_title": "Music from Around the World",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "Region"
+            ],
+            "rows": [
+              [
+                "Djembe drum",
+                "West Africa"
+              ],
+              [
+                "Sitar",
+                "India"
+              ],
+              [
+                "Bagpipes",
+                "Scotland"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l13",
@@ -25798,7 +28492,23 @@
               "Objects"
             ]
           },
-          "wiki_title": "Making Music with Everyday Objects"
+          "wiki_title": "Making Music with Everyday Objects",
+          "data_table": {
+            "headers": [
+              "Everyday Object",
+              "Sound It Makes"
+            ],
+            "rows": [
+              [
+                "Pots and pans",
+                "Drum-like beats"
+              ],
+              [
+                "Rubber bands on a box",
+                "Twangy string sound"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l14",
@@ -25868,7 +28578,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Moving to Music"
+          "wiki_title": "Moving to Music",
+          "data_table": {
+            "headers": [
+              "Music Speed",
+              "Movement"
+            ],
+            "rows": [
+              [
+                "Fast music",
+                "Quick movements like running in place"
+              ],
+              [
+                "Slow music",
+                "Slow, gentle swaying"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l15",
@@ -25947,7 +28673,23 @@
               "Music"
             ]
           },
-          "wiki_title": "Animal Sounds in Music"
+          "wiki_title": "Animal Sounds in Music",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "Animal Sound It Can Imitate"
+            ],
+            "rows": [
+              [
+                "Violin",
+                "Bird chirping (high notes)"
+              ],
+              [
+                "Tuba",
+                "Elephant or bear (low notes)"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l16",
@@ -26120,7 +28862,23 @@
               "Singing"
             ]
           },
-          "wiki_title": "Call and Response Singing"
+          "wiki_title": "Call and Response Singing",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Call",
+                "A phrase sung by one person or group"
+              ],
+              [
+                "Response",
+                "The answering phrase sung back"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l18",
@@ -26199,7 +28957,23 @@
               "Repetition"
             ]
           },
-          "wiki_title": "Musical Patterns and Repetition"
+          "wiki_title": "Musical Patterns and Repetition",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Repetition",
+                "The same musical phrase played again"
+              ],
+              [
+                "Pattern",
+                "A repeated sequence of notes or rhythms"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l19",
@@ -26280,7 +29054,31 @@
               "Rhythms"
             ]
           },
-          "wiki_title": "Reading Simple Rhythms"
+          "wiki_title": "Reading Simple Rhythms",
+          "data_table": {
+            "headers": [
+              "Note Name",
+              "Beats (in 4/4 time)"
+            ],
+            "rows": [
+              [
+                "Whole note",
+                "4 beats"
+              ],
+              [
+                "Half note",
+                "2 beats"
+              ],
+              [
+                "Quarter note",
+                "1 beat"
+              ],
+              [
+                "Eighth note",
+                "1/2 beat"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l20",
@@ -26359,7 +29157,23 @@
               "Music"
             ]
           },
-          "wiki_title": "Quiet and Silence in Music"
+          "wiki_title": "Quiet and Silence in Music",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Rest",
+                "A symbol showing silence in music"
+              ],
+              [
+                "Pianissimo",
+                "Very, very soft"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -27193,7 +30007,23 @@
               "Moon"
             ]
           },
-          "wiki_title": "Our Amazing World"
+          "wiki_title": "Our Amazing World",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Number of continents",
+                "7"
+              ],
+              [
+                "Number of oceans",
+                "5"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l2",
@@ -27519,7 +30349,23 @@
               "Anthems"
             ]
           },
-          "wiki_title": "National Symbols: Flags and Anthems"
+          "wiki_title": "National Symbols: Flags and Anthems",
+          "data_table": {
+            "headers": [
+              "Symbol",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Flag",
+                "Represents a country's identity"
+              ],
+              [
+                "Anthem",
+                "A country's official patriotic song"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l5",
@@ -27600,7 +30446,27 @@
               "World"
             ]
           },
-          "wiki_title": "Famous Landmarks Around the World"
+          "wiki_title": "Famous Landmarks Around the World",
+          "data_table": {
+            "headers": [
+              "Landmark",
+              "Country"
+            ],
+            "rows": [
+              [
+                "Eiffel Tower",
+                "France"
+              ],
+              [
+                "Great Wall",
+                "China"
+              ],
+              [
+                "Statue of Liberty",
+                "USA"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l6",
@@ -27683,7 +30549,27 @@
               "Live"
             ]
           },
-          "wiki_title": "Wild Animals and Where They Live"
+          "wiki_title": "Wild Animals and Where They Live",
+          "data_table": {
+            "headers": [
+              "Animal",
+              "Habitat"
+            ],
+            "rows": [
+              [
+                "Lion",
+                "African savanna"
+              ],
+              [
+                "Polar Bear",
+                "Arctic"
+              ],
+              [
+                "Tiger",
+                "Asian forests"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l7",
@@ -27762,7 +30648,27 @@
               "Them"
             ]
           },
-          "wiki_title": "Pets and How to Care for Them"
+          "wiki_title": "Pets and How to Care for Them",
+          "data_table": {
+            "headers": [
+              "Pet",
+              "Basic Care"
+            ],
+            "rows": [
+              [
+                "Dog",
+                "Food, water, walks"
+              ],
+              [
+                "Fish",
+                "Clean water and food"
+              ],
+              [
+                "Cat",
+                "Food, water, litter box"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l8",
@@ -27832,7 +30738,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Fruits and Vegetables We Eat"
+          "wiki_title": "Fruits and Vegetables We Eat",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, oranges"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, potatoes"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l9",
@@ -27902,7 +30824,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Modes of Transport"
+          "wiki_title": "Modes of Transport",
+          "data_table": {
+            "headers": [
+              "Transport",
+              "Environment"
+            ],
+            "rows": [
+              [
+                "Car",
+                "Road"
+              ],
+              [
+                "Boat",
+                "Water"
+              ],
+              [
+                "Airplane",
+                "Air"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l10",
@@ -27982,7 +30924,27 @@
               "Jobs"
             ]
           },
-          "wiki_title": "Community Helpers and Their Jobs"
+          "wiki_title": "Community Helpers and Their Jobs",
+          "data_table": {
+            "headers": [
+              "Helper",
+              "Job"
+            ],
+            "rows": [
+              [
+                "Doctor",
+                "Helps sick people"
+              ],
+              [
+                "Police officer",
+                "Keeps people safe"
+              ],
+              [
+                "Teacher",
+                "Helps children learn"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l11",
@@ -28061,7 +31023,23 @@
               "Home"
             ]
           },
-          "wiki_title": "Safety Rules at Home"
+          "wiki_title": "Safety Rules at Home",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Don't touch hot stoves",
+                "Prevents burns"
+              ],
+              [
+                "Keep medicines out of reach",
+                "Prevents accidental poisoning"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l12",
@@ -28140,7 +31118,23 @@
               "Road"
             ]
           },
-          "wiki_title": "Safety Rules on the Road"
+          "wiki_title": "Safety Rules on the Road",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Look both ways before crossing",
+                "Prevents being hit by a vehicle"
+              ],
+              [
+                "Hold an adult's hand",
+                "Stays safe near traffic"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l13",
@@ -28219,7 +31213,23 @@
               "Etiquette"
             ]
           },
-          "wiki_title": "Basic Manners and Etiquette"
+          "wiki_title": "Basic Manners and Etiquette",
+          "data_table": {
+            "headers": [
+              "Manner",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Politeness",
+                "Saying 'please' and 'thank you'"
+              ],
+              [
+                "Table manners",
+                "Chewing with your mouth closed"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l14",
@@ -28298,7 +31308,27 @@
               "Earth"
             ]
           },
-          "wiki_title": "Recycling and Caring for the Earth"
+          "wiki_title": "Recycling and Caring for the Earth",
+          "data_table": {
+            "headers": [
+              "Material",
+              "Can Be Recycled Into"
+            ],
+            "rows": [
+              [
+                "Paper",
+                "New paper products"
+              ],
+              [
+                "Plastic bottles",
+                "New plastic items"
+              ],
+              [
+                "Aluminum cans",
+                "New cans"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l15",
@@ -28377,7 +31407,23 @@
               "Every"
             ]
           },
-          "wiki_title": "Simple Technology We Use Every Day"
+          "wiki_title": "Simple Technology We Use Every Day",
+          "data_table": {
+            "headers": [
+              "Technology",
+              "Everyday Use"
+            ],
+            "rows": [
+              [
+                "Telephone",
+                "Talking to people far away"
+              ],
+              [
+                "Refrigerator",
+                "Keeping food cold"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l16",
@@ -28456,7 +31502,27 @@
               "World"
             ]
           },
-          "wiki_title": "Sports Around the World"
+          "wiki_title": "Sports Around the World",
+          "data_table": {
+            "headers": [
+              "Sport",
+              "Popular In"
+            ],
+            "rows": [
+              [
+                "Soccer/Football",
+                "Worldwide, especially Europe and South America"
+              ],
+              [
+                "Cricket",
+                "India, UK, Australia"
+              ],
+              [
+                "Sumo wrestling",
+                "Japan"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l17",
@@ -28537,7 +31603,27 @@
               "World"
             ]
           },
-          "wiki_title": "Festivals and Celebrations Around the World"
+          "wiki_title": "Festivals and Celebrations Around the World",
+          "data_table": {
+            "headers": [
+              "Festival",
+              "Country/Region"
+            ],
+            "rows": [
+              [
+                "Diwali",
+                "India"
+              ],
+              [
+                "Chinese New Year",
+                "China"
+              ],
+              [
+                "Christmas",
+                "Celebrated worldwide"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l18",
@@ -28618,7 +31704,23 @@
               "Learners"
             ]
           },
-          "wiki_title": "Famous Inventors for Young Learners"
+          "wiki_title": "Famous Inventors for Young Learners",
+          "data_table": {
+            "headers": [
+              "Inventor",
+              "Invention"
+            ],
+            "rows": [
+              [
+                "Thomas Edison",
+                "Light bulb (practical version)"
+              ],
+              [
+                "Alexander Graham Bell",
+                "Telephone"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l19",
@@ -28699,7 +31801,27 @@
               "Help"
             ]
           },
-          "wiki_title": "Emergency Numbers and Getting Help"
+          "wiki_title": "Emergency Numbers and Getting Help",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Emergency Number"
+            ],
+            "rows": [
+              [
+                "USA",
+                "911"
+              ],
+              [
+                "UK",
+                "999"
+              ],
+              [
+                "EU",
+                "112"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l20",
@@ -29462,7 +32584,23 @@
               "School"
             ]
           },
-          "wiki_title": "My Family and Community"
+          "wiki_title": "My Family and Community",
+          "data_table": {
+            "headers": [
+              "Group",
+              "Example Members"
+            ],
+            "rows": [
+              [
+                "Family",
+                "Parents, siblings, grandparents"
+              ],
+              [
+                "Community",
+                "Neighbors, local shopkeepers, teachers"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l2",
@@ -29640,7 +32778,23 @@
               "Friend"
             ]
           },
-          "wiki_title": "Being a Good Friend"
+          "wiki_title": "Being a Good Friend",
+          "data_table": {
+            "headers": [
+              "Friendship Skill",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Sharing",
+                "Letting a friend use your crayons"
+              ],
+              [
+                "Listening",
+                "Paying attention when a friend talks"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l4",
@@ -29710,7 +32864,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Feelings and Emotions"
+          "wiki_title": "Feelings and Emotions",
+          "data_table": {
+            "headers": [
+              "Feeling",
+              "Example Situation"
+            ],
+            "rows": [
+              [
+                "Happy",
+                "Playing with friends"
+              ],
+              [
+                "Sad",
+                "Losing a favorite toy"
+              ],
+              [
+                "Angry",
+                "Someone breaks your toy"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l5",
@@ -29789,7 +32963,23 @@
               "Cooperation"
             ]
           },
-          "wiki_title": "Working Together and Cooperation"
+          "wiki_title": "Working Together and Cooperation",
+          "data_table": {
+            "headers": [
+              "Cooperation Example",
+              "Benefit"
+            ],
+            "rows": [
+              [
+                "Cleaning up together",
+                "Finishes faster"
+              ],
+              [
+                "Building a puzzle together",
+                "Combines everyone's ideas"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l6",
@@ -29868,7 +33058,23 @@
               "Community"
             ]
           },
-          "wiki_title": "Jobs People Do in the Community"
+          "wiki_title": "Jobs People Do in the Community",
+          "data_table": {
+            "headers": [
+              "Job",
+              "What They Do"
+            ],
+            "rows": [
+              [
+                "Baker",
+                "Bakes bread and cakes"
+              ],
+              [
+                "Mail carrier",
+                "Delivers letters and packages"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l7",
@@ -29938,7 +33144,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "My School Community"
+          "wiki_title": "My School Community",
+          "data_table": {
+            "headers": [
+              "School Role",
+              "Job"
+            ],
+            "rows": [
+              [
+                "Principal",
+                "Leads the school"
+              ],
+              [
+                "Teacher",
+                "Teaches lessons"
+              ],
+              [
+                "Janitor",
+                "Keeps the school clean"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l8",
@@ -30008,7 +33234,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Helpers in Our Neighbourhood"
+          "wiki_title": "Helpers in Our Neighbourhood",
+          "data_table": {
+            "headers": [
+              "Helper",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Police officer",
+                "Keeps the neighborhood safe"
+              ],
+              [
+                "Firefighter",
+                "Responds to fires and emergencies"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l9",
@@ -30087,7 +33329,23 @@
               "Special"
             ]
           },
-          "wiki_title": "Diversity: We Are All Different and Special"
+          "wiki_title": "Diversity: We Are All Different and Special",
+          "data_table": {
+            "headers": [
+              "Way We Differ",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Appearance",
+                "Hair color, height, skin tone"
+              ],
+              [
+                "Culture",
+                "Languages, foods, traditions"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l10",
@@ -30157,7 +33415,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Fairness and Sharing"
+          "wiki_title": "Fairness and Sharing",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Fair Response"
+            ],
+            "rows": [
+              [
+                "Splitting a snack",
+                "Give equal portions"
+              ],
+              [
+                "Taking turns",
+                "Everyone gets a turn on the swing"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l11",
@@ -30236,7 +33510,23 @@
               "Responsibility"
             ]
           },
-          "wiki_title": "Making Choices and Responsibility"
+          "wiki_title": "Making Choices and Responsibility",
+          "data_table": {
+            "headers": [
+              "Choice",
+              "Responsibility"
+            ],
+            "rows": [
+              [
+                "Choosing to play outside",
+                "Coming back in on time"
+              ],
+              [
+                "Borrowing a toy",
+                "Returning it in good condition"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l12",
@@ -30412,7 +33702,23 @@
               "Traditions"
             ]
           },
-          "wiki_title": "Celebrating Family Traditions"
+          "wiki_title": "Celebrating Family Traditions",
+          "data_table": {
+            "headers": [
+              "Tradition Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Holiday tradition",
+                "Special foods at celebrations"
+              ],
+              [
+                "Family tradition",
+                "A weekly family game night"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l14",
@@ -30576,7 +33882,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Belonging to a Community"
+          "wiki_title": "Belonging to a Community",
+          "data_table": {
+            "headers": [
+              "Community Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "School community",
+                "Classmates and teachers"
+              ],
+              [
+                "Neighborhood community",
+                "People who live near you"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l16",
@@ -30655,7 +33977,23 @@
               "Property"
             ]
           },
-          "wiki_title": "Respecting Others' Property"
+          "wiki_title": "Respecting Others' Property",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Ask before borrowing",
+                "Asking a friend before using their toy"
+              ],
+              [
+                "Return what you borrow",
+                "Giving back a borrowed book"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l17",
@@ -30734,7 +34072,27 @@
               "Peacefully"
             ]
           },
-          "wiki_title": "Solving Problems Peacefully"
+          "wiki_title": "Solving Problems Peacefully",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Stay calm"
+              ],
+              [
+                "2",
+                "Talk about the problem"
+              ],
+              [
+                "3",
+                "Find a fair solution together"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l18",
@@ -30813,7 +34171,23 @@
               "Citizen"
             ]
           },
-          "wiki_title": "Being a Good Citizen"
+          "wiki_title": "Being a Good Citizen",
+          "data_table": {
+            "headers": [
+              "Good Citizen Habit",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Following rules",
+                "Waiting your turn in line"
+              ],
+              [
+                "Helping others",
+                "Picking up litter"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l19",
@@ -30892,7 +34266,23 @@
               "Around"
             ]
           },
-          "wiki_title": "Cultures and Customs Around Me"
+          "wiki_title": "Cultures and Customs Around Me",
+          "data_table": {
+            "headers": [
+              "Custom",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Greeting",
+                "A handshake or a bow"
+              ],
+              [
+                "Food",
+                "Special dishes eaten during celebrations"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l20",
@@ -30971,7 +34361,23 @@
               "Community"
             ]
           },
-          "wiki_title": "Past and Present in My Community"
+          "wiki_title": "Past and Present in My Community",
+          "data_table": {
+            "headers": [
+              "Then",
+              "Now"
+            ],
+            "rows": [
+              [
+                "Sending letters by mail",
+                "Sending text messages"
+              ],
+              [
+                "Washing clothes by hand",
+                "Using a washing machine"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -31637,7 +35043,23 @@
               "heart rate"
             ]
           },
-          "wiki_title": "Movement and Body Awareness"
+          "wiki_title": "Movement and Body Awareness",
+          "data_table": {
+            "headers": [
+              "Body Movement",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Locomotor movement",
+                "Walking, running, jumping"
+              ],
+              [
+                "Non-locomotor movement",
+                "Bending, twisting, stretching in place"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l2",
@@ -31716,7 +35138,23 @@
               "Skills"
             ]
           },
-          "wiki_title": "Running and Jumping Skills"
+          "wiki_title": "Running and Jumping Skills",
+          "data_table": {
+            "headers": [
+              "Skill",
+              "Focus"
+            ],
+            "rows": [
+              [
+                "Running",
+                "Speed and arm movement"
+              ],
+              [
+                "Jumping",
+                "Bending knees and landing softly"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l3",
@@ -31795,7 +35233,23 @@
               "Ball"
             ]
           },
-          "wiki_title": "Throwing and Catching a Ball"
+          "wiki_title": "Throwing and Catching a Ball",
+          "data_table": {
+            "headers": [
+              "Skill",
+              "Technique"
+            ],
+            "rows": [
+              [
+                "Throwing",
+                "Step forward, aim, release"
+              ],
+              [
+                "Catching",
+                "Watch the ball, use both hands"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l4",
@@ -31865,7 +35319,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Balance and Coordination"
+          "wiki_title": "Balance and Coordination",
+          "data_table": {
+            "headers": [
+              "Activity",
+              "Skill Developed"
+            ],
+            "rows": [
+              [
+                "Standing on one foot",
+                "Balance"
+              ],
+              [
+                "Walking on a line",
+                "Coordination"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l5",
@@ -32034,7 +35504,23 @@
               "Games"
             ]
           },
-          "wiki_title": "Simple Team Games"
+          "wiki_title": "Simple Team Games",
+          "data_table": {
+            "headers": [
+              "Skill",
+              "Why It Matters"
+            ],
+            "rows": [
+              [
+                "Teamwork",
+                "Working together to win"
+              ],
+              [
+                "Communication",
+                "Telling teammates what to do"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l7",
@@ -32113,7 +35599,23 @@
               "Games"
             ]
           },
-          "wiki_title": "Following Rules in Games"
+          "wiki_title": "Following Rules in Games",
+          "data_table": {
+            "headers": [
+              "Rule Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Safety rule",
+                "No pushing"
+              ],
+              [
+                "Fairness rule",
+                "Taking turns"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l8",
@@ -32287,7 +35789,27 @@
               "Galloping"
             ]
           },
-          "wiki_title": "Hopping, Skipping, and Galloping"
+          "wiki_title": "Hopping, Skipping, and Galloping",
+          "data_table": {
+            "headers": [
+              "Movement",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Hop",
+                "Jump on one foot"
+              ],
+              [
+                "Skip",
+                "Step and hop, alternating feet"
+              ],
+              [
+                "Gallop",
+                "Slide one foot forward, then the other follows"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l10",
@@ -32368,7 +35890,23 @@
               "Movement"
             ]
           },
-          "wiki_title": "Personal Space and Safety in Movement"
+          "wiki_title": "Personal Space and Safety in Movement",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Personal space",
+                "The area around your body that you keep clear"
+              ],
+              [
+                "Safe distance",
+                "Enough room to move without bumping into others"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l11",
@@ -32449,7 +35987,23 @@
               "Awareness"
             ]
           },
-          "wiki_title": "Basic Stranger Safety Awareness"
+          "wiki_title": "Basic Stranger Safety Awareness",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Don't go anywhere with a stranger",
+                "Keeps you safe"
+              ],
+              [
+                "Tell a trusted adult if a stranger approaches",
+                "Helps adults protect you"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l12",
@@ -32530,7 +36084,27 @@
               "Adult"
             ]
           },
-          "wiki_title": "Saying No and Telling a Trusted Adult"
+          "wiki_title": "Saying No and Telling a Trusted Adult",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Say 'No' firmly"
+              ],
+              [
+                "2",
+                "Walk or run away"
+              ],
+              [
+                "3",
+                "Tell a trusted adult right away"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l13",
@@ -32613,7 +36187,23 @@
               "Safely"
             ]
           },
-          "wiki_title": "Simple Self-Defense: Getting Away Safely"
+          "wiki_title": "Simple Self-Defense: Getting Away Safely",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Safe Response"
+            ],
+            "rows": [
+              [
+                "Someone grabs your arm",
+                "Pull away and yell for help"
+              ],
+              [
+                "Feeling unsafe",
+                "Run to a trusted adult"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l14",
@@ -32692,7 +36282,23 @@
               "Safety"
             ]
           },
-          "wiki_title": "Road and Playground Safety"
+          "wiki_title": "Road and Playground Safety",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Where"
+            ],
+            "rows": [
+              [
+                "Look both ways",
+                "Road"
+              ],
+              [
+                "Use equipment properly",
+                "Playground"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l15",
@@ -32771,7 +36377,23 @@
               "Basics"
             ]
           },
-          "wiki_title": "Water Safety Basics"
+          "wiki_title": "Water Safety Basics",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Swim with a buddy",
+                "Someone can help if needed"
+              ],
+              [
+                "Only swim where a lifeguard is present",
+                "Extra safety"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l16",
@@ -32850,7 +36472,23 @@
               "Habits"
             ]
           },
-          "wiki_title": "Healthy Exercise Habits"
+          "wiki_title": "Healthy Exercise Habits",
+          "data_table": {
+            "headers": [
+              "Habit",
+              "Benefit"
+            ],
+            "rows": [
+              [
+                "Daily active play",
+                "Keeps the body strong"
+              ],
+              [
+                "Stretching before activity",
+                "Prevents injury"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l17",
@@ -32929,7 +36567,23 @@
               "Turn-Taking"
             ]
           },
-          "wiki_title": "Cooperative Play and Turn-Taking"
+          "wiki_title": "Cooperative Play and Turn-Taking",
+          "data_table": {
+            "headers": [
+              "Skill",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Turn-taking",
+                "Waiting for your turn on the slide"
+              ],
+              [
+                "Cooperation",
+                "Working together to build a fort"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l18",
@@ -33109,7 +36763,23 @@
               "Movement"
             ]
           },
-          "wiki_title": "Dance and Rhythmic Movement"
+          "wiki_title": "Dance and Rhythmic Movement",
+          "data_table": {
+            "headers": [
+              "Movement Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Rhythmic movement",
+                "Clapping and stepping to a beat"
+              ],
+              [
+                "Free dance",
+                "Moving however the music feels"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l20",
@@ -33190,7 +36860,23 @@
               "Play"
             ]
           },
-          "wiki_title": "Rules of Fair Play"
+          "wiki_title": "Rules of Fair Play",
+          "data_table": {
+            "headers": [
+              "Fair Play Value",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Honesty",
+                "Admitting when you're out in a game"
+              ],
+              [
+                "Respect",
+                "Congratulating the other team"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -33368,7 +37054,23 @@
               "exercise"
             ]
           },
-          "wiki_title": "Healthy Habits"
+          "wiki_title": "Healthy Habits",
+          "data_table": {
+            "headers": [
+              "Habit",
+              "Benefit"
+            ],
+            "rows": [
+              [
+                "Washing hands",
+                "Removes germs"
+              ],
+              [
+                "Sleeping enough",
+                "Helps your body and brain rest"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g1-l2",
@@ -33446,7 +37148,27 @@
               "Properly"
             ]
           },
-          "wiki_title": "Washing Hands Properly"
+          "wiki_title": "Washing Hands Properly",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Wet hands with water"
+              ],
+              [
+                "2",
+                "Add soap and scrub for 20 seconds"
+              ],
+              [
+                "3",
+                "Rinse and dry"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g1-l3",
@@ -33613,7 +37335,23 @@
               "Vegetables"
             ]
           },
-          "wiki_title": "Eating Fruits and Vegetables"
+          "wiki_title": "Eating Fruits and Vegetables",
+          "data_table": {
+            "headers": [
+              "Food",
+              "Nutrient Benefit"
+            ],
+            "rows": [
+              [
+                "Carrots",
+                "Vitamin A, good for eyes"
+              ],
+              [
+                "Oranges",
+                "Vitamin C, helps fight illness"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g1-l5",
@@ -33789,7 +37527,23 @@
               "Outdoors"
             ]
           },
-          "wiki_title": "Staying Safe Outdoors"
+          "wiki_title": "Staying Safe Outdoors",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Wear sunscreen",
+                "Protects skin from sunburn"
+              ],
+              [
+                "Stay with an adult",
+                "Keeps you safe"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l7",
@@ -33859,7 +37613,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "My Feelings"
+          "wiki_title": "My Feelings",
+          "data_table": {
+            "headers": [
+              "Feeling",
+              "What It Might Look Like"
+            ],
+            "rows": [
+              [
+                "Happy",
+                "Smiling, laughing"
+              ],
+              [
+                "Frustrated",
+                "Furrowed brow, clenched fists"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l8",
@@ -33929,7 +37699,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Caring for My Body"
+          "wiki_title": "Caring for My Body",
+          "data_table": {
+            "headers": [
+              "Body Care",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Hygiene",
+                "Bathing and brushing teeth"
+              ],
+              [
+                "Nutrition",
+                "Eating balanced meals"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l9",
@@ -34010,7 +37796,23 @@
               "Treats"
             ]
           },
-          "wiki_title": "Healthy Snacks vs Sugary Treats"
+          "wiki_title": "Healthy Snacks vs Sugary Treats",
+          "data_table": {
+            "headers": [
+              "Snack Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Healthy snack",
+                "Apple slices, carrots, yogurt"
+              ],
+              [
+                "Sugary treat",
+                "Candy, soda (occasional treat)"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l10",
@@ -34177,7 +37979,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Dressing for the Weather"
+          "wiki_title": "Dressing for the Weather",
+          "data_table": {
+            "headers": [
+              "Weather",
+              "What to Wear"
+            ],
+            "rows": [
+              [
+                "Cold",
+                "Coat, hat, gloves"
+              ],
+              [
+                "Hot",
+                "Light clothing, sun hat"
+              ],
+              [
+                "Rainy",
+                "Raincoat, boots"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l12",
@@ -34256,7 +38078,23 @@
               "Dentist"
             ]
           },
-          "wiki_title": "Visiting the Doctor and Dentist"
+          "wiki_title": "Visiting the Doctor and Dentist",
+          "data_table": {
+            "headers": [
+              "Visit",
+              "How Often (General Guideline)"
+            ],
+            "rows": [
+              [
+                "Doctor check-up",
+                "Once a year"
+              ],
+              [
+                "Dentist check-up",
+                "Every 6 months"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l13",
@@ -34335,7 +38173,23 @@
               "Spreads"
             ]
           },
-          "wiki_title": "Germs and How Illness Spreads"
+          "wiki_title": "Germs and How Illness Spreads",
+          "data_table": {
+            "headers": [
+              "Way Germs Spread",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Touching",
+                "Shaking hands with a sick person"
+              ],
+              [
+                "Coughing/sneezing",
+                "Droplets in the air"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l14",
@@ -34414,7 +38268,23 @@
               "Sneezes"
             ]
           },
-          "wiki_title": "Covering Coughs and Sneezes"
+          "wiki_title": "Covering Coughs and Sneezes",
+          "data_table": {
+            "headers": [
+              "Correct Way",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Cough/sneeze into your elbow",
+                "Stops germs from spreading to hands"
+              ],
+              [
+                "Wash hands after",
+                "Removes any remaining germs"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l15",
@@ -34493,7 +38363,23 @@
               "Body"
             ]
           },
-          "wiki_title": "Exercise and an Active Body"
+          "wiki_title": "Exercise and an Active Body",
+          "data_table": {
+            "headers": [
+              "Activity",
+              "Benefit"
+            ],
+            "rows": [
+              [
+                "Running",
+                "Strengthens the heart"
+              ],
+              [
+                "Stretching",
+                "Improves flexibility"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l16",
@@ -34574,7 +38460,23 @@
               "Touch"
             ]
           },
-          "wiki_title": "Recognizing Safe and Unsafe Touch"
+          "wiki_title": "Recognizing Safe and Unsafe Touch",
+          "data_table": {
+            "headers": [
+              "Touch Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Safe touch",
+                "A hug from a parent, a high-five"
+              ],
+              [
+                "Unsafe touch",
+                "Any touch that makes you feel uncomfortable or scared"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l17",
@@ -34653,7 +38555,23 @@
               "Rules"
             ]
           },
-          "wiki_title": "Road Safety Rules"
+          "wiki_title": "Road Safety Rules",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Stop, Look, Listen",
+                "Before crossing the street"
+              ],
+              [
+                "Use crosswalks",
+                "Safer place to cross"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l18",
@@ -34732,7 +38650,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Fire Safety Basics"
+          "wiki_title": "Fire Safety Basics",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Stop",
+                "Stop what you're doing"
+              ],
+              [
+                "Drop",
+                "Drop to the ground"
+              ],
+              [
+                "Roll",
+                "Roll to put out flames if clothes catch fire"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l19",
@@ -34802,7 +38740,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Managing Big Emotions"
+          "wiki_title": "Managing Big Emotions",
+          "data_table": {
+            "headers": [
+              "Strategy",
+              "How It Helps"
+            ],
+            "rows": [
+              [
+                "Deep breathing",
+                "Calms the body"
+              ],
+              [
+                "Talking to a trusted adult",
+                "Helps process feelings"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l20",
@@ -34872,7 +38826,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Rest and Relaxation"
+          "wiki_title": "Rest and Relaxation",
+          "data_table": {
+            "headers": [
+              "Activity",
+              "Benefit"
+            ],
+            "rows": [
+              [
+                "Quiet reading time",
+                "Calms the mind"
+              ],
+              [
+                "Napping",
+                "Restores energy"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -35257,7 +39227,23 @@
               "Safely"
             ]
           },
-          "wiki_title": "Turning a Computer On and Off Safely"
+          "wiki_title": "Turning a Computer On and Off Safely",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Turning on",
+                "Press the power button"
+              ],
+              [
+                "Turning off",
+                "Use the shutdown/sleep option, don't just unplug"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l4",
@@ -35336,7 +39322,23 @@
               "Keyboard"
             ]
           },
-          "wiki_title": "Using a Mouse and Keyboard"
+          "wiki_title": "Using a Mouse and Keyboard",
+          "data_table": {
+            "headers": [
+              "Device",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Mouse",
+                "Pointing and clicking"
+              ],
+              [
+                "Keyboard",
+                "Typing letters and numbers"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l5",
@@ -35406,7 +39408,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "What is the Internet?"
+          "wiki_title": "What is the Internet?",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Internet",
+                "A network connecting computers around the world"
+              ],
+              [
+                "Website",
+                "A collection of linked pages you can visit"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l6",
@@ -35489,7 +39507,23 @@
               "Rules"
             ]
           },
-          "wiki_title": "Staying Safe Online: Basic Rules"
+          "wiki_title": "Staying Safe Online: Basic Rules",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Never share personal information",
+                "Keeps you safe from strangers"
+              ],
+              [
+                "Ask an adult before clicking unknown links",
+                "Avoids unsafe content"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l7",
@@ -35568,7 +39602,23 @@
               "Apps"
             ]
           },
-          "wiki_title": "Tablets and Apps"
+          "wiki_title": "Tablets and Apps",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Tablet",
+                "A portable touchscreen computer"
+              ],
+              [
+                "App",
+                "A program you use on a tablet or phone"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l8",
@@ -35647,7 +39697,23 @@
               "Words"
             ]
           },
-          "wiki_title": "Typing Simple Words"
+          "wiki_title": "Typing Simple Words",
+          "data_table": {
+            "headers": [
+              "Keyboard Row",
+              "Example Letters"
+            ],
+            "rows": [
+              [
+                "Top row",
+                "Q W E R T Y"
+              ],
+              [
+                "Home row",
+                "A S D F"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l9",
@@ -35717,7 +39783,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Drawing on a Computer"
+          "wiki_title": "Drawing on a Computer",
+          "data_table": {
+            "headers": [
+              "Tool",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Pencil tool",
+                "Draws thin lines"
+              ],
+              [
+                "Fill tool",
+                "Colors in a shape"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l10",
@@ -35787,7 +39869,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "What is a Robot?"
+          "wiki_title": "What is a Robot?",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Robot",
+                "A machine that can be programmed to do tasks"
+              ],
+              [
+                "Sensor",
+                "A part that lets a robot detect its surroundings"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l11",
@@ -35975,7 +40073,23 @@
               "Games"
             ]
           },
-          "wiki_title": "Algorithms Through Games"
+          "wiki_title": "Algorithms Through Games",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Algorithm",
+                "A set of step-by-step instructions"
+              ],
+              [
+                "Sequence",
+                "The order steps happen in"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l13",
@@ -36054,7 +40168,23 @@
               "Around"
             ]
           },
-          "wiki_title": "Digital Devices Around Us"
+          "wiki_title": "Digital Devices Around Us",
+          "data_table": {
+            "headers": [
+              "Device",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "Smartphone",
+                "Calling, texting, apps"
+              ],
+              [
+                "Television",
+                "Watching shows and movies"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l14",
@@ -36133,7 +40263,23 @@
               "Devices"
             ]
           },
-          "wiki_title": "Taking Care of Devices"
+          "wiki_title": "Taking Care of Devices",
+          "data_table": {
+            "headers": [
+              "Care Tip",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Keep away from liquids",
+                "Prevents damage"
+              ],
+              [
+                "Handle gently",
+                "Prevents drops and cracks"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l15",
@@ -36214,7 +40360,23 @@
               "Game"
             ]
           },
-          "wiki_title": "a Simple Coding Game"
+          "wiki_title": "a Simple Coding Game",
+          "data_table": {
+            "headers": [
+              "Command",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Move forward",
+                "Character moves one step"
+              ],
+              [
+                "Turn",
+                "Character changes direction"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l16",
@@ -36297,7 +40459,23 @@
               "Communication"
             ]
           },
-          "wiki_title": "Sending a Simple Message (Digital Communication Basics)"
+          "wiki_title": "Sending a Simple Message (Digital Communication Basics)",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Message",
+                "A short piece of written communication"
+              ],
+              [
+                "Send",
+                "Delivering the message to someone else"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l17",
@@ -36376,7 +40554,27 @@
               "Work"
             ]
           },
-          "wiki_title": "Printers and How They Work"
+          "wiki_title": "Printers and How They Work",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Computer sends the document to the printer"
+              ],
+              [
+                "2",
+                "Printer puts ink or toner on paper"
+              ],
+              [
+                "3",
+                "Paper comes out printed"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l18",
@@ -36457,7 +40655,23 @@
               "Digitally"
             ]
           },
-          "wiki_title": "Cameras and Taking Pictures Digitally"
+          "wiki_title": "Cameras and Taking Pictures Digitally",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Digital camera",
+                "Captures pictures and stores them electronically"
+              ],
+              [
+                "Photo",
+                "A saved image you can view or print"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l19",
@@ -36537,7 +40751,23 @@
               "Computers"
             ]
           },
-          "wiki_title": "Sorting and Patterns with Computers"
+          "wiki_title": "Sorting and Patterns with Computers",
+          "data_table": {
+            "headers": [
+              "Concept",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Sorting",
+                "Putting numbers in order from smallest to largest"
+              ],
+              [
+                "Pattern",
+                "A repeating sequence like Red, Blue, Red, Blue"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l20",
@@ -36616,7 +40846,23 @@
               "Balance"
             ]
           },
-          "wiki_title": "Screen Time and Balance"
+          "wiki_title": "Screen Time and Balance",
+          "data_table": {
+            "headers": [
+              "Activity Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Screen time",
+                "Watching videos, playing games"
+              ],
+              [
+                "Offline time",
+                "Playing outside, reading a book"
+              ]
+            ]
+          }
         }
       ]
     }

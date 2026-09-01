@@ -366,3 +366,29 @@ def test_every_syllabus_level_has_real_content_in_every_subject():
             assert enriched, f"{level} / {subject_name} has no real chart/table/graph content"
             total_subjects_checked += 1
     assert total_subjects_checked >= 400
+
+
+def test_grade1_has_full_depth_real_chart_coverage():
+    """Depth pass: every single lesson in every subject at Grade 1 (not
+    just a breadth-first sample) should have a genuine, verifiable
+    data_table/graph/formulae. This is the first level brought to 100%
+    depth as the "start with grade 1 and go up" deepening continues."""
+    data = json.loads((SYLLABUS_DIR / "grade1.json").read_text(encoding="utf-8"))
+    total = 0
+    covered = 0
+    for subject_name, subject in data["subjects"].items():
+        for lesson in subject["lessons"]:
+            total += 1
+            has_content = bool(lesson.get("data_table") or lesson.get("graph") or lesson.get("formulae"))
+            if has_content:
+                covered += 1
+                if lesson.get("data_table"):
+                    assert lesson["data_table"]["headers"]
+                    assert lesson["data_table"]["rows"]
+                    for row in lesson["data_table"]["rows"]:
+                        assert len(row) == len(lesson["data_table"]["headers"])
+    assert total == 280
+    assert covered == total, f"Grade 1 depth coverage incomplete: {covered}/{total}"
+
+    days = {l["id"]: l for l in data["subjects"]["Math"]["lessons"]}["math-g1-l1"]
+    assert ["1", "One"] in days["data_table"]["rows"]
