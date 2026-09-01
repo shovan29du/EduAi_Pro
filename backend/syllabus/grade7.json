@@ -4460,7 +4460,31 @@
               "Words"
             ]
           },
-          "wiki_title": "Prefixes, Suffixes and Root Words"
+          "wiki_title": "Prefixes, Suffixes and Root Words",
+          "data_table": {
+            "headers": [
+              "Affix",
+              "Meaning",
+              "Example"
+            ],
+            "rows": [
+              [
+                "un-",
+                "not",
+                "unhappy"
+              ],
+              [
+                "-ful",
+                "full of",
+                "joyful"
+              ],
+              [
+                "re-",
+                "again",
+                "rewrite"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g7-l9",
@@ -4618,7 +4642,23 @@
               "Imagery"
             ]
           },
-          "wiki_title": "Figurative Language and Imagery"
+          "wiki_title": "Figurative Language and Imagery",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Simile",
+                "Brave as a lion"
+              ],
+              [
+                "Metaphor",
+                "Time is money"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g7-l11",
@@ -9117,7 +9157,36 @@
               "Table"
             ]
           },
-          "wiki_title": "the Periodic Table"
+          "wiki_title": "the Periodic Table",
+          "data_table": {
+            "headers": [
+              "Element",
+              "Symbol",
+              "Atomic Number"
+            ],
+            "rows": [
+              [
+                "Hydrogen",
+                "H",
+                "1"
+              ],
+              [
+                "Carbon",
+                "C",
+                "6"
+              ],
+              [
+                "Oxygen",
+                "O",
+                "8"
+              ],
+              [
+                "Iron",
+                "Fe",
+                "26"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g7-l17",
@@ -9268,7 +9337,31 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Acids, Bases and pH"
+          "wiki_title": "Acids, Bases and pH",
+          "data_table": {
+            "headers": [
+              "pH Range",
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "0-6",
+                "Acidic",
+                "Lemon juice (~2)"
+              ],
+              [
+                "7",
+                "Neutral",
+                "Pure water"
+              ],
+              [
+                "8-14",
+                "Basic (alkaline)",
+                "Baking soda (~9)"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g7-l19",
@@ -17794,7 +17887,23 @@
               "inequality"
             ]
           },
-          "wiki_title": "Development and HDI"
+          "wiki_title": "Development and HDI",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "HDI (Human Development Index)",
+                "Combines life expectancy, education, and income into one score"
+              ],
+              [
+                "Score range",
+                "0 (lowest) to 1 (highest)"
+              ]
+            ]
+          }
         },
         {
           "id": "geo-g7-l2",
@@ -18604,7 +18713,31 @@
               "Tundra"
             ]
           },
-          "wiki_title": "Biomes: Rainforests, Deserts and Tundra"
+          "wiki_title": "Biomes: Rainforests, Deserts and Tundra",
+          "data_table": {
+            "headers": [
+              "Biome",
+              "Average Annual Rainfall",
+              "Example Location"
+            ],
+            "rows": [
+              [
+                "Tropical Rainforest",
+                "Over 2,000mm",
+                "Amazon Basin"
+              ],
+              [
+                "Desert",
+                "Under 250mm",
+                "Sahara"
+              ],
+              [
+                "Tundra",
+                "Under 250mm (very cold)",
+                "Arctic regions"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g7-l12",
@@ -21734,7 +21867,27 @@
               "D-Day"
             ]
           },
-          "wiki_title": "World War II and the Holocaust"
+          "wiki_title": "World War II and the Holocaust",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1939-1945"
+              ],
+              [
+                "Started when",
+                "Germany invaded Poland, September 1939"
+              ],
+              [
+                "Ended in Europe",
+                "V-E Day, May 8, 1945"
+              ]
+            ]
+          }
         },
         {
           "id": "hist-g7-l2",
@@ -21832,7 +21985,27 @@
               "nuclear deterrence"
             ]
           },
-          "wiki_title": "The Cold War"
+          "wiki_title": "The Cold War",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Approximate period",
+                "1947-1991"
+              ],
+              [
+                "Main powers",
+                "United States and Soviet Union"
+              ],
+              [
+                "Ended with",
+                "Collapse of the Soviet Union, 1991"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g7-l3",
@@ -26416,7 +26589,23 @@
               "Qur'an"
             ]
           },
-          "wiki_title": "The Compilation and Preservation of the Qur'an"
+          "wiki_title": "The Compilation and Preservation of the Qur'an",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Compiled into a single text under",
+                "Caliph Abu Bakr; standardized under Caliph Uthman"
+              ],
+              [
+                "Number of chapters (Surahs)",
+                "114"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g7-l11",
@@ -27220,7 +27409,27 @@
               "(Spain)"
             ]
           },
-          "wiki_title": "Islamic Civilisation in Andalusia (Spain)"
+          "wiki_title": "Islamic Civilisation in Andalusia (Spain)",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Muslim rule in Spain (Al-Andalus)",
+                "711-1492 CE"
+              ],
+              [
+                "Notable center of learning",
+                "Cordoba"
+              ],
+              [
+                "Famous structure",
+                "The Alhambra, Granada"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g7-l21",
@@ -30811,7 +31020,26 @@
               "Search"
             ]
           },
-          "wiki_title": "Searching Algorithms: Linear and Binary Search"
+          "wiki_title": "Searching Algorithms: Linear and Binary Search",
+          "data_table": {
+            "headers": [
+              "Algorithm",
+              "Time Complexity",
+              "Requirement"
+            ],
+            "rows": [
+              [
+                "Linear Search",
+                "O(n)",
+                "None (works on unsorted data)"
+              ],
+              [
+                "Binary Search",
+                "O(log n)",
+                "Data must be sorted"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g7-l17",
@@ -31125,7 +31353,27 @@
               "Except"
             ]
           },
-          "wiki_title": "Exception Handling with Try and Except"
+          "wiki_title": "Exception Handling with Try and Except",
+          "data_table": {
+            "headers": [
+              "Keyword",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "try",
+                "Code that might raise an error"
+              ],
+              [
+                "except",
+                "Code that runs if an error occurs"
+              ],
+              [
+                "finally",
+                "Code that always runs"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g7-l21",
@@ -34318,7 +34566,26 @@
               "Homer"
             ]
           },
-          "wiki_title": "Epic Poetry: Gilgamesh and Homer"
+          "wiki_title": "Epic Poetry: Gilgamesh and Homer",
+          "data_table": {
+            "headers": [
+              "Epic",
+              "Origin",
+              "Approx. Date"
+            ],
+            "rows": [
+              [
+                "Epic of Gilgamesh",
+                "Mesopotamia",
+                "c. 2100 BCE (oldest known epic)"
+              ],
+              [
+                "The Iliad",
+                "Ancient Greece",
+                "c. 8th century BCE"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g7-l7",
@@ -34997,7 +35264,23 @@
               "Sonnet"
             ]
           },
-          "wiki_title": "Poetry Forms: Haiku and Sonnet"
+          "wiki_title": "Poetry Forms: Haiku and Sonnet",
+          "data_table": {
+            "headers": [
+              "Poetry Form",
+              "Structure"
+            ],
+            "rows": [
+              [
+                "Haiku",
+                "5-7-5 syllables, 3 lines"
+              ],
+              [
+                "Sonnet",
+                "14 lines, often iambic pentameter"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g7-l16",
@@ -38379,7 +38662,27 @@
               "Wheel"
             ]
           },
-          "wiki_title": "Colour Theory and the Colour Wheel"
+          "wiki_title": "Colour Theory and the Colour Wheel",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g7-l8",
@@ -38539,7 +38842,23 @@
               "Point"
             ]
           },
-          "wiki_title": "Perspective Drawing: One and Two Point"
+          "wiki_title": "Perspective Drawing: One and Two Point",
+          "data_table": {
+            "headers": [
+              "Perspective Type",
+              "Vanishing Points"
+            ],
+            "rows": [
+              [
+                "One-point",
+                "1"
+              ],
+              [
+                "Two-point",
+                "2"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g7-l10",
@@ -41945,7 +42264,23 @@
               "Scales"
             ]
           },
-          "wiki_title": "Major and Minor Scales"
+          "wiki_title": "Major and Minor Scales",
+          "data_table": {
+            "headers": [
+              "Scale",
+              "Pattern (W = whole step, H = half step)"
+            ],
+            "rows": [
+              [
+                "Major",
+                "W-W-H-W-W-W-H"
+              ],
+              [
+                "Natural Minor",
+                "W-H-W-W-H-W-W"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g7-l6",
@@ -42084,7 +42419,35 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Intervals in Music"
+          "wiki_title": "Intervals in Music",
+          "data_table": {
+            "headers": [
+              "Interval",
+              "Semitones"
+            ],
+            "rows": [
+              [
+                "Minor 2nd",
+                "1"
+              ],
+              [
+                "Major 2nd",
+                "2"
+              ],
+              [
+                "Perfect 4th",
+                "5"
+              ],
+              [
+                "Perfect 5th",
+                "7"
+              ],
+              [
+                "Octave",
+                "12"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g7-l8",
@@ -45560,7 +45923,31 @@
               "Navigation"
             ]
           },
-          "wiki_title": "Map Reading and Compass Navigation"
+          "wiki_title": "Map Reading and Compass Navigation",
+          "data_table": {
+            "headers": [
+              "Compass Direction",
+              "Bearing"
+            ],
+            "rows": [
+              [
+                "North",
+                "0 degrees / 360 degrees"
+              ],
+              [
+                "East",
+                "90 degrees"
+              ],
+              [
+                "South",
+                "180 degrees"
+              ],
+              [
+                "West",
+                "270 degrees"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g7-l3",
@@ -46744,7 +47131,31 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Basic CPR Awareness"
+          "wiki_title": "Basic CPR Awareness",
+          "data_table": {
+            "headers": [
+              "CPR Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Check responsiveness and call for emergency help"
+              ],
+              [
+                "2",
+                "Give 30 chest compressions (about 2 inches deep)"
+              ],
+              [
+                "3",
+                "Give 2 rescue breaths (if trained)"
+              ],
+              [
+                "4",
+                "Repeat the 30:2 ratio until help arrives"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g7-l18",
@@ -49785,7 +50196,43 @@
               "World"
             ]
           },
-          "wiki_title": "New Seven Wonders of the World"
+          "wiki_title": "New Seven Wonders of the World",
+          "data_table": {
+            "headers": [
+              "New Seven Wonder (2007 poll)",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Great Wall of China",
+                "China"
+              ],
+              [
+                "Petra",
+                "Jordan"
+              ],
+              [
+                "Christ the Redeemer",
+                "Brazil"
+              ],
+              [
+                "Machu Picchu",
+                "Peru"
+              ],
+              [
+                "Chichen Itza",
+                "Mexico"
+              ],
+              [
+                "Colosseum",
+                "Italy"
+              ],
+              [
+                "Taj Mahal",
+                "India"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g7-l5",
@@ -50421,7 +50868,27 @@
               "Nations"
             ]
           },
-          "wiki_title": "International Organisations: The United Nations"
+          "wiki_title": "International Organisations: The United Nations",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Founded",
+                "1945"
+              ],
+              [
+                "Headquarters",
+                "New York City, USA"
+              ],
+              [
+                "Number of member states",
+                "193 (as of the 2020s)"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g7-l13",
@@ -54066,7 +54533,23 @@
               "Sautéing"
             ]
           },
-          "wiki_title": "Cooking Methods: Frying and Sautéing"
+          "wiki_title": "Cooking Methods: Frying and Sautéing",
+          "data_table": {
+            "headers": [
+              "Method",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Sauteing",
+                "Cooking quickly in a small amount of fat over high heat"
+              ],
+              [
+                "Deep frying",
+                "Fully submerging food in hot oil"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g7-l10",
@@ -54375,7 +54858,27 @@
               "Cooking"
             ]
           },
-          "wiki_title": "Herbs and Spices in Cooking"
+          "wiki_title": "Herbs and Spices in Cooking",
+          "data_table": {
+            "headers": [
+              "Herb/Spice",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "Basil",
+                "Italian dishes, pesto"
+              ],
+              [
+                "Cumin",
+                "Indian and Mexican dishes"
+              ],
+              [
+                "Cinnamon",
+                "Baking, sweet dishes"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g7-l14",
@@ -57533,7 +58036,31 @@
               "Conjugation"
             ]
           },
-          "wiki_title": "Spanish Present Tense Verb Conjugation"
+          "wiki_title": "Spanish Present Tense Verb Conjugation",
+          "data_table": {
+            "headers": [
+              "Pronoun",
+              "Hablar (\"to speak\")"
+            ],
+            "rows": [
+              [
+                "yo",
+                "hablo"
+              ],
+              [
+                "tu",
+                "hablas"
+              ],
+              [
+                "el/ella",
+                "habla"
+              ],
+              [
+                "nosotros",
+                "hablamos"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g7-l5",
@@ -58653,7 +59180,35 @@
               "Syllabary"
             ]
           },
-          "wiki_title": "The Japanese Hiragana Syllabary"
+          "wiki_title": "The Japanese Hiragana Syllabary",
+          "data_table": {
+            "headers": [
+              "Hiragana",
+              "Romaji"
+            ],
+            "rows": [
+              [
+                "a",
+                "a"
+              ],
+              [
+                "i",
+                "i"
+              ],
+              [
+                "u",
+                "u"
+              ],
+              [
+                "e",
+                "e"
+              ],
+              [
+                "o",
+                "o"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g7-l19",
@@ -61288,7 +61843,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Types of Government"
+          "wiki_title": "Types of Government",
+          "data_table": {
+            "headers": [
+              "Government Type",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Democracy",
+                "Citizens elect representatives or vote directly"
+              ],
+              [
+                "Monarchy",
+                "Rule by a king or queen"
+              ],
+              [
+                "Dictatorship",
+                "Rule by one person with total power"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g7-l3",
@@ -62055,7 +62630,27 @@
               "Systems"
             ]
           },
-          "wiki_title": "Types of Economic Systems"
+          "wiki_title": "Types of Economic Systems",
+          "data_table": {
+            "headers": [
+              "Economic System",
+              "Key Feature"
+            ],
+            "rows": [
+              [
+                "Market economy",
+                "Driven by supply, demand, and private ownership"
+              ],
+              [
+                "Command economy",
+                "Government controls production and pricing"
+              ],
+              [
+                "Mixed economy",
+                "Combination of market and government control"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g7-l13",
@@ -65587,7 +66182,27 @@
               "Rules"
             ]
           },
-          "wiki_title": "Basketball Skills and Rules"
+          "wiki_title": "Basketball Skills and Rules",
+          "data_table": {
+            "headers": [
+              "Basketball Skill",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Dribbling",
+                "Bouncing the ball while moving"
+              ],
+              [
+                "Passing",
+                "Moving the ball to a teammate"
+              ],
+              [
+                "Shooting",
+                "Aiming the ball at the basket"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g7-l10",
@@ -65826,7 +66441,23 @@
               "Events"
             ]
           },
-          "wiki_title": "Athletics: Track and Field Events"
+          "wiki_title": "Athletics: Track and Field Events",
+          "data_table": {
+            "headers": [
+              "Event Type",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Track",
+                "100m sprint, 400m, 1500m, hurdles"
+              ],
+              [
+                "Field",
+                "Long jump, high jump, shot put, javelin"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g7-l13",
@@ -69032,7 +69663,27 @@
               "Fallacies"
             ]
           },
-          "wiki_title": "Recognising Logical Fallacies"
+          "wiki_title": "Recognising Logical Fallacies",
+          "data_table": {
+            "headers": [
+              "Logical Fallacy",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Ad Hominem",
+                "Attacking the person instead of the argument"
+              ],
+              [
+                "Straw Man",
+                "Misrepresenting someone's argument to attack it easily"
+              ],
+              [
+                "Slippery Slope",
+                "Claiming one step will lead to extreme consequences without evidence"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g7-l5",
@@ -69331,7 +69982,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Syllogisms"
+          "wiki_title": "Syllogisms",
+          "data_table": {
+            "headers": [
+              "Syllogism Part",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Major premise",
+                "All mammals are warm-blooded"
+              ],
+              [
+                "Minor premise",
+                "A dog is a mammal"
+              ],
+              [
+                "Conclusion",
+                "Therefore, a dog is warm-blooded"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g7-l9",
@@ -72583,7 +73254,27 @@
               "Importance"
             ]
           },
-          "wiki_title": "Sleep Hygiene and Its Importance"
+          "wiki_title": "Sleep Hygiene and Its Importance",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g7-l10",
@@ -72822,7 +73513,27 @@
               "Health"
             ]
           },
-          "wiki_title": "Dental and Oral Health"
+          "wiki_title": "Dental and Oral Health",
+          "data_table": {
+            "headers": [
+              "Guideline",
+              "Recommendation"
+            ],
+            "rows": [
+              [
+                "Brush teeth",
+                "Twice daily"
+              ],
+              [
+                "Floss",
+                "Once daily"
+              ],
+              [
+                "Dentist visit",
+                "Every 6 months"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g7-l13",
@@ -75238,7 +75949,27 @@
               "inheritance"
             ]
           },
-          "wiki_title": "Object-Oriented Programming"
+          "wiki_title": "Object-Oriented Programming",
+          "data_table": {
+            "headers": [
+              "OOP Concept",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Class",
+                "A blueprint for creating objects"
+              ],
+              [
+                "Object",
+                "An instance of a class"
+              ],
+              [
+                "Method",
+                "A function defined inside a class"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g7-l2",
@@ -76233,7 +76964,27 @@
             "completion_required": true,
             "min_quiz_score": 68
           },
-          "wiki_title": "Encryption"
+          "wiki_title": "Encryption",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Encryption",
+                "Converting data into a coded form to prevent unauthorized access"
+              ],
+              [
+                "Decryption",
+                "Converting encrypted data back to its original form"
+              ],
+              [
+                "HTTPS",
+                "The encrypted version of HTTP used for secure websites"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g7-l15",

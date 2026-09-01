@@ -3800,7 +3800,23 @@
               "Simile"
             ]
           },
-          "wiki_title": "Figurative Language: Metaphor and Simile"
+          "wiki_title": "Figurative Language: Metaphor and Simile",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Simile",
+                "Brave as a lion"
+              ],
+              [
+                "Metaphor",
+                "Time is money"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g6-l11",
@@ -4274,7 +4290,27 @@
               "Devices"
             ]
           },
-          "wiki_title": "Poetry Forms and Devices"
+          "wiki_title": "Poetry Forms and Devices",
+          "data_table": {
+            "headers": [
+              "Poetic Device",
+              "Definition"
+            ],
+            "rows": [
+              [
+                "Alliteration",
+                "Repetition of initial consonant sounds"
+              ],
+              [
+                "Onomatopoeia",
+                "A word that imitates a sound (e.g. buzz)"
+              ],
+              [
+                "Personification",
+                "Giving human traits to non-human things"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g6-l17",
@@ -6335,7 +6371,31 @@
               "neutron"
             ]
           },
-          "wiki_title": "Atoms and Elements"
+          "wiki_title": "Atoms and Elements",
+          "data_table": {
+            "headers": [
+              "Particle",
+              "Charge",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Proton",
+                "Positive",
+                "Nucleus"
+              ],
+              [
+                "Neutron",
+                "Neutral",
+                "Nucleus"
+              ],
+              [
+                "Electron",
+                "Negative",
+                "Orbiting the nucleus"
+              ]
+            ]
+          }
         },
         {
           "id": "sci-g6-l2",
@@ -7264,7 +7324,30 @@
               "Motion"
             ]
           },
-          "wiki_title": "Newton's Laws of Motion"
+          "wiki_title": "Newton's Laws of Motion",
+          "data_table": {
+            "headers": [
+              "Newton's Law",
+              "Statement"
+            ],
+            "rows": [
+              [
+                "1st Law (Inertia)",
+                "An object stays at rest or in motion unless acted on by a force"
+              ],
+              [
+                "2nd Law",
+                "F = m x a (Force = mass x acceleration)"
+              ],
+              [
+                "3rd Law",
+                "For every action there is an equal and opposite reaction"
+              ]
+            ]
+          },
+          "formulae": [
+            "F = m x a"
+          ]
         },
         {
           "id": "science-g6-l14",
@@ -15912,7 +15995,31 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Deserts of the World"
+          "wiki_title": "Deserts of the World",
+          "data_table": {
+            "headers": [
+              "Desert",
+              "Location",
+              "Type"
+            ],
+            "rows": [
+              [
+                "Sahara",
+                "North Africa",
+                "Hot desert (largest hot desert)"
+              ],
+              [
+                "Gobi",
+                "Asia (Mongolia/China)",
+                "Cold desert"
+              ],
+              [
+                "Antarctic Desert",
+                "Antarctica",
+                "Coldest and largest desert overall"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g6-l10",
@@ -16518,7 +16625,31 @@
               "Europe"
             ]
           },
-          "wiki_title": "Countries and Capitals: Europe"
+          "wiki_title": "Countries and Capitals: Europe",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Capital"
+            ],
+            "rows": [
+              [
+                "Germany",
+                "Berlin"
+              ],
+              [
+                "Italy",
+                "Rome"
+              ],
+              [
+                "Spain",
+                "Madrid"
+              ],
+              [
+                "Poland",
+                "Warsaw"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g6-l18",
@@ -18290,7 +18421,27 @@
               "capitalism"
             ]
           },
-          "wiki_title": "The Industrial Revolution"
+          "wiki_title": "The Industrial Revolution",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Began in",
+                "Britain, mid-1700s"
+              ],
+              [
+                "Key invention",
+                "The steam engine (improved by James Watt)"
+              ],
+              [
+                "Major shift",
+                "From hand production to machine manufacturing"
+              ]
+            ]
+          }
         },
         {
           "id": "hist-g6-l2",
@@ -18389,7 +18540,27 @@
               "armistice"
             ]
           },
-          "wiki_title": "World War I"
+          "wiki_title": "World War I",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Dates",
+                "1914-1918"
+              ],
+              [
+                "Started after",
+                "Assassination of Archduke Franz Ferdinand, June 1914"
+              ],
+              [
+                "Ended by",
+                "Armistice of 11 November 1918"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g6-l3",
@@ -21393,7 +21564,27 @@
               "Tajweed"
             ]
           },
-          "wiki_title": "Quran — Structure and Themes"
+          "wiki_title": "Quran — Structure and Themes",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Number of Surahs (chapters)",
+                "114"
+              ],
+              [
+                "Longest Surah",
+                "Al-Baqarah"
+              ],
+              [
+                "Shortest Surah",
+                "Al-Kawthar"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g6-l2",
@@ -22098,7 +22289,39 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "The Six Articles of Faith"
+          "wiki_title": "The Six Articles of Faith",
+          "data_table": {
+            "headers": [
+              "Article of Faith",
+              "Belief In"
+            ],
+            "rows": [
+              [
+                "1",
+                "Allah (God)"
+              ],
+              [
+                "2",
+                "Angels"
+              ],
+              [
+                "3",
+                "Revealed Books"
+              ],
+              [
+                "4",
+                "Prophets"
+              ],
+              [
+                "5",
+                "The Day of Judgment"
+              ],
+              [
+                "6",
+                "Divine Decree (Qadar)"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g6-l11",
@@ -25415,7 +25638,31 @@
               "Basics"
             ]
           },
-          "wiki_title": "Sorting Algorithms: Bubble Sort Basics"
+          "wiki_title": "Sorting Algorithms: Bubble Sort Basics",
+          "data_table": {
+            "headers": [
+              "Bubble Sort Step",
+              "Array State"
+            ],
+            "rows": [
+              [
+                "Start",
+                "[5, 3, 8, 1]"
+              ],
+              [
+                "After pass 1",
+                "[3, 5, 1, 8]"
+              ],
+              [
+                "After pass 2",
+                "[3, 1, 5, 8]"
+              ],
+              [
+                "After pass 3 (sorted)",
+                "[1, 3, 5, 8]"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g6-l15",
@@ -25808,7 +26055,31 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "HTML"
+          "wiki_title": "HTML",
+          "data_table": {
+            "headers": [
+              "HTML Tag",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "<h1>",
+                "Main heading"
+              ],
+              [
+                "<p>",
+                "Paragraph"
+              ],
+              [
+                "<a>",
+                "Link"
+              ],
+              [
+                "<img>",
+                "Image"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g6-l20",
@@ -27911,7 +28182,27 @@
               "Iliad"
             ]
           },
-          "wiki_title": "Homer's Epics: The Odyssey and The Iliad"
+          "wiki_title": "Homer's Epics: The Odyssey and The Iliad",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "The Iliad is about",
+                "The Trojan War"
+              ],
+              [
+                "The Odyssey is about",
+                "Odysseus's journey home"
+              ],
+              [
+                "Attributed author",
+                "Homer (ancient Greek poet)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g6-l3",
@@ -28966,7 +29257,23 @@
               "Mahabharata"
             ]
           },
-          "wiki_title": "Indian Epics: The Ramayana and Mahabharata"
+          "wiki_title": "Indian Epics: The Ramayana and Mahabharata",
+          "data_table": {
+            "headers": [
+              "Indian Epic",
+              "Main Character(s)"
+            ],
+            "rows": [
+              [
+                "Ramayana",
+                "Rama"
+              ],
+              [
+                "Mahabharata",
+                "The Pandavas and Kauravas"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g6-l16",
@@ -31256,7 +31563,27 @@
               "Wheel"
             ]
           },
-          "wiki_title": "Color Theory and the Color Wheel"
+          "wiki_title": "Color Theory and the Color Wheel",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g6-l5",
@@ -32456,7 +32783,27 @@
               "Patterns"
             ]
           },
-          "wiki_title": "Islamic Geometric Art and Patterns"
+          "wiki_title": "Islamic Geometric Art and Patterns",
+          "data_table": {
+            "headers": [
+              "Element",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "Geometric patterns",
+                "Mosque decoration, avoiding figurative images"
+              ],
+              [
+                "Arabesque",
+                "Flowing plant-based patterns"
+              ],
+              [
+                "Muqarnas",
+                "3D honeycomb-like architectural ornamentation"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g6-l21",
@@ -34728,7 +35075,31 @@
               "Period"
             ]
           },
-          "wiki_title": "Music History: Classical Period"
+          "wiki_title": "Music History: Classical Period",
+          "data_table": {
+            "headers": [
+              "Period",
+              "Approx. Dates",
+              "Famous Composer"
+            ],
+            "rows": [
+              [
+                "Baroque",
+                "1600-1750",
+                "J.S. Bach"
+              ],
+              [
+                "Classical",
+                "1750-1820",
+                "Mozart"
+              ],
+              [
+                "Romantic",
+                "1820-1900",
+                "Beethoven (late) / Chopin"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g6-l12",
@@ -34881,7 +35252,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Jazz and Its Origins"
+          "wiki_title": "Jazz and Its Origins",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "New Orleans, USA, late 19th / early 20th century"
+              ],
+              [
+                "Key feature",
+                "Improvisation"
+              ],
+              [
+                "Famous musician",
+                "Louis Armstrong"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g6-l14",
@@ -37201,7 +37592,27 @@
               "Methods"
             ]
           },
-          "wiki_title": "Water Purification Methods"
+          "wiki_title": "Water Purification Methods",
+          "data_table": {
+            "headers": [
+              "Method",
+              "How It Works"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "Boil for at least 1 minute (3 minutes above 2,000m) to kill pathogens"
+              ],
+              [
+                "Water filter",
+                "Physically removes bacteria and parasites"
+              ],
+              [
+                "Purification tablets",
+                "Chemically disinfect water"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g6-l5",
@@ -37740,7 +38151,23 @@
               "Heatstroke"
             ]
           },
-          "wiki_title": "Hypothermia and Heatstroke"
+          "wiki_title": "Hypothermia and Heatstroke",
+          "data_table": {
+            "headers": [
+              "Condition",
+              "Warning Signs"
+            ],
+            "rows": [
+              [
+                "Hypothermia",
+                "Shivering, confusion, slurred speech"
+              ],
+              [
+                "Heatstroke",
+                "High body temperature, hot/dry skin, confusion"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g6-l12",
@@ -41192,7 +41619,23 @@
               "Mountains"
             ]
           },
-          "wiki_title": "World's Longest Rivers and Tallest Mountains"
+          "wiki_title": "World's Longest Rivers and Tallest Mountains",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Longest river",
+                "Nile, ~6,650 km"
+              ],
+              [
+                "Tallest mountain",
+                "Mount Everest, 8,849 m"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g6-l15",
@@ -41593,7 +42036,39 @@
               "Categories"
             ]
           },
-          "wiki_title": "Nobel Prize and Its Categories"
+          "wiki_title": "Nobel Prize and Its Categories",
+          "data_table": {
+            "headers": [
+              "Nobel Prize Category",
+              "Field"
+            ],
+            "rows": [
+              [
+                "Physics",
+                "Science"
+              ],
+              [
+                "Chemistry",
+                "Science"
+              ],
+              [
+                "Physiology or Medicine",
+                "Science"
+              ],
+              [
+                "Literature",
+                "Writing"
+              ],
+              [
+                "Peace",
+                "International peace efforts"
+              ],
+              [
+                "Economic Sciences",
+                "Added 1968, in memory of Alfred Nobel"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g6-l20",
@@ -43452,7 +43927,27 @@
               "Accurately"
             ]
           },
-          "wiki_title": "Measuring Ingredients Accurately"
+          "wiki_title": "Measuring Ingredients Accurately",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g6-l5",
@@ -44303,7 +44798,35 @@
               "Meals"
             ]
           },
-          "wiki_title": "Basic Nutrition and Balanced Meals"
+          "wiki_title": "Basic Nutrition and Balanced Meals",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g6-l16",
@@ -46355,7 +46878,31 @@
               "Verbs"
             ]
           },
-          "wiki_title": "Spanish Present Tense Verbs"
+          "wiki_title": "Spanish Present Tense Verbs",
+          "data_table": {
+            "headers": [
+              "Pronoun",
+              "Hablar (\"to speak\")"
+            ],
+            "rows": [
+              [
+                "yo",
+                "hablo"
+              ],
+              [
+                "tu",
+                "hablas"
+              ],
+              [
+                "el/ella",
+                "habla"
+              ],
+              [
+                "nosotros",
+                "hablamos"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g6-l4",
@@ -47400,7 +47947,31 @@
               "Script"
             ]
           },
-          "wiki_title": "Arabic Alphabet and Script"
+          "wiki_title": "Arabic Alphabet and Script",
+          "data_table": {
+            "headers": [
+              "Arabic Letter",
+              "Name"
+            ],
+            "rows": [
+              [
+                "a",
+                "Alif"
+              ],
+              [
+                "b",
+                "Ba"
+              ],
+              [
+                "t",
+                "Ta"
+              ],
+              [
+                "th",
+                "Tha"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g6-l17",
@@ -49434,7 +50005,27 @@
               "Government"
             ]
           },
-          "wiki_title": "The Three Branches of Government"
+          "wiki_title": "The Three Branches of Government",
+          "data_table": {
+            "headers": [
+              "Branch of Government",
+              "Main Role"
+            ],
+            "rows": [
+              [
+                "Legislative",
+                "Makes laws"
+              ],
+              [
+                "Executive",
+                "Enforces laws"
+              ],
+              [
+                "Judicial",
+                "Interprets laws"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g6-l4",
@@ -49883,7 +50474,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "The Constitution and Its Purpose"
+          "wiki_title": "The Constitution and Its Purpose",
+          "data_table": {
+            "headers": [
+              "Fact (US Constitution example)",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Constitution signed",
+                "1787"
+              ],
+              [
+                "Ratified",
+                "1788"
+              ],
+              [
+                "Original amendments (Bill of Rights)",
+                "10"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g6-l10",
@@ -52552,7 +53163,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Team Sports: Basketball Basics"
+          "wiki_title": "Team Sports: Basketball Basics",
+          "data_table": {
+            "headers": [
+              "Basketball Skill",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Dribbling",
+                "Bouncing the ball while moving"
+              ],
+              [
+                "Passing",
+                "Moving the ball to a teammate"
+              ],
+              [
+                "Shooting",
+                "Aiming the ball at the basket"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g6-l7",
@@ -52955,7 +53586,27 @@
               "Events"
             ]
           },
-          "wiki_title": "Athletics: Jumping Events"
+          "wiki_title": "Athletics: Jumping Events",
+          "data_table": {
+            "headers": [
+              "Jumping Event",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Long Jump",
+                "Jumping horizontally for distance"
+              ],
+              [
+                "High Jump",
+                "Jumping vertically over a bar"
+              ],
+              [
+                "Triple Jump",
+                "Hop, step, and jump for distance"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g6-l12",
@@ -55418,7 +56069,23 @@
               "Inductive"
             ]
           },
-          "wiki_title": "Logical Reasoning: Deductive vs. Inductive"
+          "wiki_title": "Logical Reasoning: Deductive vs. Inductive",
+          "data_table": {
+            "headers": [
+              "Reasoning Type",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Deductive",
+                "General rule leads to a specific, guaranteed conclusion"
+              ],
+              [
+                "Inductive",
+                "Specific observations lead to a probable general conclusion"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g6-l5",
@@ -55497,7 +56164,27 @@
               "Fallacies"
             ]
           },
-          "wiki_title": "Common Logical Fallacies"
+          "wiki_title": "Common Logical Fallacies",
+          "data_table": {
+            "headers": [
+              "Logical Fallacy",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Ad Hominem",
+                "Attacking the person instead of the argument"
+              ],
+              [
+                "Straw Man",
+                "Misrepresenting someone's argument to attack it easily"
+              ],
+              [
+                "Slippery Slope",
+                "Claiming one step will lead to extreme consequences without evidence"
+              ]
+            ]
+          }
         },
         {
           "id": "critical-thinking-g6-l6",
@@ -57777,7 +58464,35 @@
               "Planning"
             ]
           },
-          "wiki_title": "Nutrition and Fitness Planning"
+          "wiki_title": "Nutrition and Fitness Planning",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g6-l4",
@@ -58169,7 +58884,27 @@
               "System"
             ]
           },
-          "wiki_title": "the Immune System"
+          "wiki_title": "the Immune System",
+          "data_table": {
+            "headers": [
+              "Immune System Component",
+              "Role"
+            ],
+            "rows": [
+              [
+                "White blood cells",
+                "Fight infections"
+              ],
+              [
+                "Antibodies",
+                "Recognize and neutralize pathogens"
+              ],
+              [
+                "Skin",
+                "First barrier against germs"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g6-l9",
@@ -60092,7 +60827,27 @@
               "firewall"
             ]
           },
-          "wiki_title": "Networks and Cybersecurity"
+          "wiki_title": "Networks and Cybersecurity",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Firewall",
+                "Blocks unauthorized network access"
+              ],
+              [
+                "VPN",
+                "Encrypts an internet connection for privacy"
+              ],
+              [
+                "Phishing",
+                "Fraudulent attempt to steal information via fake messages"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g6-l2",
@@ -61427,7 +62182,39 @@
               "Basics)"
             ]
           },
-          "wiki_title": "How Computers Process Information (Binary Basics)"
+          "wiki_title": "How Computers Process Information (Binary Basics)",
+          "data_table": {
+            "headers": [
+              "Decimal",
+              "Binary"
+            ],
+            "rows": [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ],
+              [
+                "2",
+                "10"
+              ],
+              [
+                "3",
+                "11"
+              ],
+              [
+                "4",
+                "100"
+              ],
+              [
+                "5",
+                "101"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g6-l19",

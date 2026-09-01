@@ -4098,7 +4098,31 @@
               "Origins"
             ]
           },
-          "wiki_title": "Root Words and Word Origins"
+          "wiki_title": "Root Words and Word Origins",
+          "data_table": {
+            "headers": [
+              "Root",
+              "Meaning",
+              "Example Word"
+            ],
+            "rows": [
+              [
+                "bio",
+                "life",
+                "biology"
+              ],
+              [
+                "photo",
+                "light",
+                "photograph"
+              ],
+              [
+                "graph",
+                "write / draw",
+                "autograph"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g5-l7",
@@ -4177,7 +4201,27 @@
               "Expressions"
             ]
           },
-          "wiki_title": "Idioms and Figurative Expressions"
+          "wiki_title": "Idioms and Figurative Expressions",
+          "data_table": {
+            "headers": [
+              "Idiom",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Break the ice",
+                "Start a conversation in an awkward situation"
+              ],
+              [
+                "Piece of cake",
+                "Something very easy"
+              ],
+              [
+                "Under the weather",
+                "Feeling sick"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g5-l8",
@@ -7379,7 +7423,27 @@
               "Earthquakes"
             ]
           },
-          "wiki_title": "Plate Tectonics and Earthquakes"
+          "wiki_title": "Plate Tectonics and Earthquakes",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Tectonic plate",
+                "A large slab of Earth's crust that moves slowly"
+              ],
+              [
+                "Fault",
+                "A crack where plates meet and can slip"
+              ],
+              [
+                "Magnitude scale",
+                "Measures the energy/strength of an earthquake"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g5-l9",
@@ -7977,7 +8041,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "The Circulatory System"
+          "wiki_title": "The Circulatory System",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Organ that pumps blood",
+                "The heart"
+              ],
+              [
+                "Average adult resting heart rate",
+                "60-100 beats per minute"
+              ],
+              [
+                "Number of heart chambers",
+                "4"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g5-l17",
@@ -16089,7 +16173,23 @@
               "Line"
             ]
           },
-          "wiki_title": "Time Zones and the International Date Line"
+          "wiki_title": "Time Zones and the International Date Line",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Number of standard time zones worldwide",
+                "24 (roughly one per 15 degrees of longitude)"
+              ],
+              [
+                "International Date Line location",
+                "Roughly the 180 degree meridian, Pacific Ocean"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g5-l5",
@@ -16247,7 +16347,27 @@
               "Distribution"
             ]
           },
-          "wiki_title": "Population Density and Distribution"
+          "wiki_title": "Population Density and Distribution",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Population density",
+                "Number of people per unit of land area (e.g. per km2)"
+              ],
+              [
+                "Sparse population",
+                "Few people per unit area (e.g. deserts, polar regions)"
+              ],
+              [
+                "Dense population",
+                "Many people per unit area (e.g. major cities)"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g5-l7",
@@ -20171,7 +20291,27 @@
               "Impact"
             ]
           },
-          "wiki_title": "The Printing Press and Its Impact"
+          "wiki_title": "The Printing Press and Its Impact",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Inventor",
+                "Johannes Gutenberg"
+              ],
+              [
+                "Approximate date",
+                "c. 1440 CE"
+              ],
+              [
+                "Famous printed work",
+                "The Gutenberg Bible, c. 1455"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g5-l19",
@@ -20240,7 +20380,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "The Reformation"
+          "wiki_title": "The Reformation",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Started by",
+                "Martin Luther"
+              ],
+              [
+                "Key event",
+                "Posting the 95 Theses, 1517"
+              ],
+              [
+                "Location",
+                "Wittenberg, Germany"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g5-l20",
@@ -22069,7 +22229,39 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "The Six Articles of Faith"
+          "wiki_title": "The Six Articles of Faith",
+          "data_table": {
+            "headers": [
+              "Article of Faith",
+              "Belief In"
+            ],
+            "rows": [
+              [
+                "1",
+                "Allah (God)"
+              ],
+              [
+                "2",
+                "Angels"
+              ],
+              [
+                "3",
+                "Revealed Books"
+              ],
+              [
+                "4",
+                "Prophets"
+              ],
+              [
+                "5",
+                "The Day of Judgment"
+              ],
+              [
+                "6",
+                "Divine Decree (Qadar)"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g5-l3",
@@ -23335,7 +23527,27 @@
               "Dates"
             ]
           },
-          "wiki_title": "Islamic Calendar and Important Dates"
+          "wiki_title": "Islamic Calendar and Important Dates",
+          "data_table": {
+            "headers": [
+              "Islamic Month",
+              "Significance"
+            ],
+            "rows": [
+              [
+                "Muharram",
+                "1st month; includes the Day of Ashura"
+              ],
+              [
+                "Ramadan",
+                "9th month; month of fasting"
+              ],
+              [
+                "Dhul Hijjah",
+                "12th month; month of Hajj"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g5-l20",
@@ -25601,7 +25813,27 @@
               "Pairs"
             ]
           },
-          "wiki_title": "Dictionaries: Key-Value Pairs"
+          "wiki_title": "Dictionaries: Key-Value Pairs",
+          "data_table": {
+            "headers": [
+              "Key",
+              "Value"
+            ],
+            "rows": [
+              [
+                "'name'",
+                "'Alice'"
+              ],
+              [
+                "'age'",
+                "10"
+              ],
+              [
+                "'grade'",
+                "5"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g5-l11",
@@ -26208,7 +26440,23 @@
               "Python"
             ]
           },
-          "wiki_title": "Random Numbers in Python"
+          "wiki_title": "Random Numbers in Python",
+          "data_table": {
+            "headers": [
+              "Function",
+              "Example Output Range"
+            ],
+            "rows": [
+              [
+                "random.randint(1, 6)",
+                "1 to 6 (like a dice roll)"
+              ],
+              [
+                "random.random()",
+                "0.0 to 1.0"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g5-l19",
@@ -29397,7 +29645,27 @@
               "Stories"
             ]
           },
-          "wiki_title": "Shakespeare's Stories"
+          "wiki_title": "Shakespeare's Stories",
+          "data_table": {
+            "headers": [
+              "Shakespeare Play",
+              "Genre"
+            ],
+            "rows": [
+              [
+                "Romeo and Juliet",
+                "Tragedy"
+              ],
+              [
+                "A Midsummer Night's Dream",
+                "Comedy"
+              ],
+              [
+                "Hamlet",
+                "Tragedy"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g5-l16",
@@ -29799,7 +30067,23 @@
               "Forms"
             ]
           },
-          "wiki_title": "Haiku and Japanese Poetry Forms"
+          "wiki_title": "Haiku and Japanese Poetry Forms",
+          "data_table": {
+            "headers": [
+              "Poetry Form",
+              "Syllable Structure"
+            ],
+            "rows": [
+              [
+                "Haiku",
+                "5-7-5 (3 lines)"
+              ],
+              [
+                "Tanka",
+                "5-7-5-7-7 (5 lines)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g5-l21",
@@ -31636,7 +31920,23 @@
               "Colors"
             ]
           },
-          "wiki_title": "Complementary and Analogous Colors"
+          "wiki_title": "Complementary and Analogous Colors",
+          "data_table": {
+            "headers": [
+              "Colour Relationship",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Complementary (opposite on the wheel)",
+                "Red & Green, Blue & Orange"
+              ],
+              [
+                "Analogous (next to each other)",
+                "Blue, Blue-Green, Green"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g5-l4",
@@ -32590,7 +32890,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Art of the Renaissance"
+          "wiki_title": "Art of the Renaissance",
+          "data_table": {
+            "headers": [
+              "Renaissance Artist",
+              "Famous Work"
+            ],
+            "rows": [
+              [
+                "Leonardo da Vinci",
+                "The Mona Lisa"
+              ],
+              [
+                "Michelangelo",
+                "The Sistine Chapel ceiling"
+              ],
+              [
+                "Raphael",
+                "The School of Athens"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g5-l17",
@@ -34593,7 +34913,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Time Signatures Basics"
+          "wiki_title": "Time Signatures Basics",
+          "data_table": {
+            "headers": [
+              "Time Signature",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "4/4",
+                "4 beats per measure, quarter note = 1 beat"
+              ],
+              [
+                "3/4",
+                "3 beats per measure (waltz time)"
+              ],
+              [
+                "6/8",
+                "6 beats per measure, eighth note = 1 beat"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g5-l5",
@@ -35490,7 +35830,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Jazz"
+          "wiki_title": "Jazz",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "New Orleans, USA, late 19th / early 20th century"
+              ],
+              [
+                "Key feature",
+                "Improvisation"
+              ],
+              [
+                "Famous musician",
+                "Louis Armstrong"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g5-l17",
@@ -37482,7 +37842,31 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Reading a Compass"
+          "wiki_title": "Reading a Compass",
+          "data_table": {
+            "headers": [
+              "Compass Direction",
+              "Bearing"
+            ],
+            "rows": [
+              [
+                "North",
+                "0 degrees / 360 degrees"
+              ],
+              [
+                "East",
+                "90 degrees"
+              ],
+              [
+                "South",
+                "180 degrees"
+              ],
+              [
+                "West",
+                "270 degrees"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g5-l4",
@@ -38194,7 +38578,27 @@
               "Outdoors"
             ]
           },
-          "wiki_title": "Finding and Purifying Water Outdoors"
+          "wiki_title": "Finding and Purifying Water Outdoors",
+          "data_table": {
+            "headers": [
+              "Method",
+              "How It Works"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "Boil for at least 1 minute (3 minutes above 2,000m) to kill pathogens"
+              ],
+              [
+                "Water filter",
+                "Physically removes bacteria and parasites"
+              ],
+              [
+                "Purification tablets",
+                "Chemically disinfect water"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g5-l13",
@@ -40779,7 +41183,31 @@
               "Rivers"
             ]
           },
-          "wiki_title": "Major World Rivers"
+          "wiki_title": "Major World Rivers",
+          "data_table": {
+            "headers": [
+              "River",
+              "Approx. Length",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Nile",
+                "~6,650 km",
+                "Africa"
+              ],
+              [
+                "Amazon",
+                "~6,400 km",
+                "South America"
+              ],
+              [
+                "Yangtze",
+                "~6,300 km",
+                "China"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g5-l5",
@@ -40860,7 +41288,31 @@
               "Peaks"
             ]
           },
-          "wiki_title": "Major World Mountain Peaks"
+          "wiki_title": "Major World Mountain Peaks",
+          "data_table": {
+            "headers": [
+              "Peak",
+              "Height",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Mount Everest",
+                "8,849 m",
+                "Nepal/China"
+              ],
+              [
+                "K2",
+                "8,611 m",
+                "Pakistan/China"
+              ],
+              [
+                "Kangchenjunga",
+                "8,586 m",
+                "Nepal/India"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g5-l6",
@@ -43808,7 +44260,27 @@
               "Accurately"
             ]
           },
-          "wiki_title": "Measuring Ingredients Accurately"
+          "wiki_title": "Measuring Ingredients Accurately",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g5-l5",
@@ -44446,7 +44918,27 @@
               "Sauteing"
             ]
           },
-          "wiki_title": "Cooking Methods: Boiling, Steaming, Sauteing"
+          "wiki_title": "Cooking Methods: Boiling, Steaming, Sauteing",
+          "data_table": {
+            "headers": [
+              "Method",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Boiling",
+                "Cooking in water at 100C (212F)"
+              ],
+              [
+                "Steaming",
+                "Cooking with hot vapor above boiling water"
+              ],
+              [
+                "Sauteing",
+                "Cooking quickly in a small amount of fat over high heat"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g5-l13",
@@ -47227,7 +47719,55 @@
               "Counting"
             ]
           },
-          "wiki_title": "Mandarin: Numbers and Counting"
+          "wiki_title": "Mandarin: Numbers and Counting",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Mandarin (Pinyin)"
+            ],
+            "rows": [
+              [
+                "1",
+                "yi"
+              ],
+              [
+                "2",
+                "er"
+              ],
+              [
+                "3",
+                "san"
+              ],
+              [
+                "4",
+                "si"
+              ],
+              [
+                "5",
+                "wu"
+              ],
+              [
+                "6",
+                "liu"
+              ],
+              [
+                "7",
+                "qi"
+              ],
+              [
+                "8",
+                "ba"
+              ],
+              [
+                "9",
+                "jiu"
+              ],
+              [
+                "10",
+                "shi"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g5-l10",
@@ -48096,7 +48636,55 @@
               "Counting"
             ]
           },
-          "wiki_title": "Hindi: Numbers and Counting"
+          "wiki_title": "Hindi: Numbers and Counting",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Hindi (transliteration)"
+            ],
+            "rows": [
+              [
+                "1",
+                "ek"
+              ],
+              [
+                "2",
+                "do"
+              ],
+              [
+                "3",
+                "teen"
+              ],
+              [
+                "4",
+                "chaar"
+              ],
+              [
+                "5",
+                "paanch"
+              ],
+              [
+                "6",
+                "chhah"
+              ],
+              [
+                "7",
+                "saat"
+              ],
+              [
+                "8",
+                "aath"
+              ],
+              [
+                "9",
+                "nau"
+              ],
+              [
+                "10",
+                "das"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g5-l21",
@@ -49705,7 +50293,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Branches of Government"
+          "wiki_title": "Branches of Government",
+          "data_table": {
+            "headers": [
+              "Branch of Government",
+              "Main Role"
+            ],
+            "rows": [
+              [
+                "Legislative",
+                "Makes laws"
+              ],
+              [
+                "Executive",
+                "Enforces laws"
+              ],
+              [
+                "Judicial",
+                "Interprets laws"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g5-l3",
@@ -50445,7 +51053,27 @@
             "completion_required": true,
             "min_quiz_score": 65
           },
-          "wiki_title": "Taxes"
+          "wiki_title": "Taxes",
+          "data_table": {
+            "headers": [
+              "Tax Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Income tax",
+                "Tax on money earned from work"
+              ],
+              [
+                "Sales tax",
+                "Tax added to purchases"
+              ],
+              [
+                "Property tax",
+                "Tax on land/buildings owned"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g5-l13",
@@ -53149,7 +53777,27 @@
               "Skills"
             ]
           },
-          "wiki_title": "Basic Volleyball Skills"
+          "wiki_title": "Basic Volleyball Skills",
+          "data_table": {
+            "headers": [
+              "Volleyball Skill",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Serve",
+                "Hitting the ball to start a rally"
+              ],
+              [
+                "Bump / Pass",
+                "Using forearms to control the ball"
+              ],
+              [
+                "Set",
+                "Using fingertips to position the ball for an attack"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g5-l10",
@@ -54015,7 +54663,23 @@
               "Exercise"
             ]
           },
-          "wiki_title": "Heart Rate and Exercise"
+          "wiki_title": "Heart Rate and Exercise",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Average resting heart rate (adult)",
+                "60-100 beats per minute"
+              ],
+              [
+                "Max heart rate estimate",
+                "220 minus your age (a common formula)"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g5-l21",
@@ -55063,7 +55727,31 @@
               "Depth"
             ]
           },
-          "wiki_title": "Human Body Systems in Depth"
+          "wiki_title": "Human Body Systems in Depth",
+          "data_table": {
+            "headers": [
+              "Body System",
+              "Main Function"
+            ],
+            "rows": [
+              [
+                "Circulatory",
+                "Pumps blood through the body"
+              ],
+              [
+                "Respiratory",
+                "Brings oxygen in, removes carbon dioxide"
+              ],
+              [
+                "Digestive",
+                "Breaks down food for energy"
+              ],
+              [
+                "Skeletal",
+                "Supports and protects the body"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g5-l3",
@@ -56464,7 +57152,27 @@
               "Habits"
             ]
           },
-          "wiki_title": "Sleep Hygiene Habits"
+          "wiki_title": "Sleep Hygiene Habits",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g5-l21",
@@ -57431,7 +58139,27 @@
               "integer"
             ]
           },
-          "wiki_title": "Python Basics"
+          "wiki_title": "Python Basics",
+          "data_table": {
+            "headers": [
+              "Python Concept",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Print statement",
+                "print('Hello, world!')"
+              ],
+              [
+                "Variable assignment",
+                "x = 5"
+              ],
+              [
+                "Comment",
+                "# this is a comment"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g5-l2",
@@ -58704,7 +59432,39 @@
               "Numbers"
             ]
           },
-          "wiki_title": "Binary Numbers"
+          "wiki_title": "Binary Numbers",
+          "data_table": {
+            "headers": [
+              "Decimal",
+              "Binary"
+            ],
+            "rows": [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ],
+              [
+                "2",
+                "10"
+              ],
+              [
+                "3",
+                "11"
+              ],
+              [
+                "4",
+                "100"
+              ],
+              [
+                "5",
+                "101"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g5-l19",

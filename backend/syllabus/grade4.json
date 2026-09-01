@@ -3812,7 +3812,26 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Synonyms and Antonyms"
+          "wiki_title": "Synonyms and Antonyms",
+          "data_table": {
+            "headers": [
+              "Word",
+              "Synonym",
+              "Antonym"
+            ],
+            "rows": [
+              [
+                "Strong",
+                "Powerful",
+                "Weak"
+              ],
+              [
+                "Bright",
+                "Shining",
+                "Dim"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g4-l9",
@@ -4675,7 +4694,23 @@
               "Metaphors"
             ]
           },
-          "wiki_title": "Figurative Language: Similes and Metaphors"
+          "wiki_title": "Figurative Language: Similes and Metaphors",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Simile",
+                "Brave as a lion"
+              ],
+              [
+                "Metaphor",
+                "Time is money"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g4-l20",
@@ -6612,7 +6647,27 @@
               "current"
             ]
           },
-          "wiki_title": "Electricity Basics"
+          "wiki_title": "Electricity Basics",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Circuit",
+                "A closed loop path for electric current"
+              ],
+              [
+                "Conductor",
+                "A material that allows electricity to flow (e.g. copper)"
+              ],
+              [
+                "Insulator",
+                "A material that blocks electricity (e.g. rubber)"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g4-l3",
@@ -7425,7 +7480,27 @@
               "Systems"
             ]
           },
-          "wiki_title": "The Human Body: Skeletal and Muscular Systems"
+          "wiki_title": "The Human Body: Skeletal and Muscular Systems",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Number of bones in the adult human body",
+                "206"
+              ],
+              [
+                "Longest bone",
+                "Femur (thigh bone)"
+              ],
+              [
+                "Smallest bone",
+                "Stapes (in the ear)"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g4-l14",
@@ -16100,7 +16175,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Latitude and Longitude Basics"
+          "wiki_title": "Latitude and Longitude Basics",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Latitude",
+                "Lines running east-west, measuring distance north/south of the Equator"
+              ],
+              [
+                "Longitude",
+                "Lines running north-south, measuring distance east/west of the Prime Meridian"
+              ],
+              [
+                "Equator",
+                "0 degrees latitude"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g4-l6",
@@ -16399,7 +16494,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Deserts of the World"
+          "wiki_title": "Deserts of the World",
+          "data_table": {
+            "headers": [
+              "Desert",
+              "Location",
+              "Type"
+            ],
+            "rows": [
+              [
+                "Sahara",
+                "North Africa",
+                "Hot desert (largest hot desert)"
+              ],
+              [
+                "Gobi",
+                "Asia (Mongolia/China)",
+                "Cold desert"
+              ],
+              [
+                "Antarctic Desert",
+                "Antarctica",
+                "Coldest and largest desert overall"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g4-l10",
@@ -18968,7 +19087,27 @@
               "Ibn Sina"
             ]
           },
-          "wiki_title": "Islamic Golden Age"
+          "wiki_title": "Islamic Golden Age",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Approximate period",
+                "8th-14th century CE"
+              ],
+              [
+                "Center of learning",
+                "House of Wisdom, Baghdad"
+              ],
+              [
+                "Notable scholars",
+                "Ibn al-Haytham (optics), Al-Khwarizmi (algebra)"
+              ]
+            ]
+          }
         },
         {
           "id": "hist-g4-l2",
@@ -19372,7 +19511,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "The Roman Empire"
+          "wiki_title": "The Roman Empire",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Roman Empire declared by",
+                "Augustus, 27 BCE"
+              ],
+              [
+                "Fall of the Western Roman Empire",
+                "476 CE"
+              ],
+              [
+                "Famous structure",
+                "The Colosseum, completed 80 CE"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g4-l7",
@@ -23240,7 +23399,27 @@
               "Months"
             ]
           },
-          "wiki_title": "Islamic Calendar and Important Months"
+          "wiki_title": "Islamic Calendar and Important Months",
+          "data_table": {
+            "headers": [
+              "Islamic Month",
+              "Significance"
+            ],
+            "rows": [
+              [
+                "Muharram",
+                "1st month; includes the Day of Ashura"
+              ],
+              [
+                "Ramadan",
+                "9th month; month of fasting"
+              ],
+              [
+                "Dhul Hijjah",
+                "12th month; month of Hajj"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g4-l15",
@@ -23710,7 +23889,27 @@
               "Contributions"
             ]
           },
-          "wiki_title": "Muslim Scholars and Their Contributions"
+          "wiki_title": "Muslim Scholars and Their Contributions",
+          "data_table": {
+            "headers": [
+              "Scholar",
+              "Contribution"
+            ],
+            "rows": [
+              [
+                "Ibn Sina (Avicenna)",
+                "The Canon of Medicine"
+              ],
+              [
+                "Al-Khwarizmi",
+                "Founder of algebra"
+              ],
+              [
+                "Ibn al-Haytham",
+                "Pioneering work in optics"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g4-l21",
@@ -25656,7 +25855,23 @@
               "Coding"
             ]
           },
-          "wiki_title": "Variables in Block-Based Coding"
+          "wiki_title": "Variables in Block-Based Coding",
+          "data_table": {
+            "headers": [
+              "Variable",
+              "Value Change"
+            ],
+            "rows": [
+              [
+                "score",
+                "0 -> 10 after +10"
+              ],
+              [
+                "health",
+                "100 -> 90 after -10"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g4-l5",
@@ -26206,7 +26421,27 @@
               "Stage"
             ]
           },
-          "wiki_title": "Using Coordinates on the Stage"
+          "wiki_title": "Using Coordinates on the Stage",
+          "data_table": {
+            "headers": [
+              "Position on Scratch Stage",
+              "Coordinate (x, y)"
+            ],
+            "rows": [
+              [
+                "Center",
+                "(0, 0)"
+              ],
+              [
+                "Right edge",
+                "(240, 0)"
+              ],
+              [
+                "Top edge",
+                "(0, 180)"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g4-l12",
@@ -30023,7 +30258,27 @@
               "Gods"
             ]
           },
-          "wiki_title": "Greek Mythology: Heroes and Gods"
+          "wiki_title": "Greek Mythology: Heroes and Gods",
+          "data_table": {
+            "headers": [
+              "Greek God/Goddess",
+              "Domain"
+            ],
+            "rows": [
+              [
+                "Zeus",
+                "King of the gods, sky and thunder"
+              ],
+              [
+                "Athena",
+                "Wisdom and strategy"
+              ],
+              [
+                "Poseidon",
+                "The sea"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g4-l14",
@@ -30104,7 +30359,27 @@
               "North"
             ]
           },
-          "wiki_title": "Norse Mythology: Legends of the North"
+          "wiki_title": "Norse Mythology: Legends of the North",
+          "data_table": {
+            "headers": [
+              "Norse God",
+              "Domain"
+            ],
+            "rows": [
+              [
+                "Odin",
+                "Wisdom and war, ruler of Asgard"
+              ],
+              [
+                "Thor",
+                "Thunder and strength"
+              ],
+              [
+                "Loki",
+                "Trickery and mischief"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g4-l15",
@@ -33291,7 +33566,27 @@
               "Post-Impressionism"
             ]
           },
-          "wiki_title": "Famous Artists: Van Gogh and Post-Impressionism"
+          "wiki_title": "Famous Artists: Van Gogh and Post-Impressionism",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Famous painting",
+                "The Starry Night (1889)"
+              ],
+              [
+                "Art movement",
+                "Post-Impressionism"
+              ],
+              [
+                "Nationality",
+                "Dutch"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g4-l13",
@@ -33372,7 +33667,27 @@
               "Cubism"
             ]
           },
-          "wiki_title": "Famous Artists: Picasso and Cubism"
+          "wiki_title": "Famous Artists: Picasso and Cubism",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Art movement co-founded",
+                "Cubism"
+              ],
+              [
+                "Famous painting",
+                "Guernica (1937)"
+              ],
+              [
+                "Nationality",
+                "Spanish"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g4-l14",
@@ -36403,7 +36718,27 @@
               "Music"
             ]
           },
-          "wiki_title": "Famous Composers: Mozart and Classical Music"
+          "wiki_title": "Famous Composers: Mozart and Classical Music",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Full name",
+                "Wolfgang Amadeus Mozart"
+              ],
+              [
+                "Born",
+                "1756, Salzburg"
+              ],
+              [
+                "Famous work",
+                "The Magic Flute"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g4-l12",
@@ -36486,7 +36821,27 @@
               "Music"
             ]
           },
-          "wiki_title": "Famous Composers: Beethoven's Life and Music"
+          "wiki_title": "Famous Composers: Beethoven's Life and Music",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Born",
+                "1770, Bonn"
+              ],
+              [
+                "Famous work",
+                "Symphony No. 9"
+              ],
+              [
+                "Notable challenge",
+                "Composed while losing his hearing"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g4-l13",
@@ -38906,7 +39261,31 @@
               "Reading"
             ]
           },
-          "wiki_title": "Basic Map and Compass Reading"
+          "wiki_title": "Basic Map and Compass Reading",
+          "data_table": {
+            "headers": [
+              "Compass Direction",
+              "Bearing"
+            ],
+            "rows": [
+              [
+                "North",
+                "0 degrees / 360 degrees"
+              ],
+              [
+                "East",
+                "90 degrees"
+              ],
+              [
+                "South",
+                "180 degrees"
+              ],
+              [
+                "West",
+                "270 degrees"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g4-l3",
@@ -39929,7 +40308,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Packing an Emergency Kit"
+          "wiki_title": "Packing an Emergency Kit",
+          "data_table": {
+            "headers": [
+              "Item",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Water",
+                "Hydration (FEMA recommends 1 gallon per person per day)"
+              ],
+              [
+                "Flashlight",
+                "Light during a power outage"
+              ],
+              [
+                "First aid kit",
+                "Treating minor injuries"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g4-l16",
@@ -42441,7 +42840,31 @@
               "World"
             ]
           },
-          "wiki_title": "Wonders of the Ancient World"
+          "wiki_title": "Wonders of the Ancient World",
+          "data_table": {
+            "headers": [
+              "Ancient Wonder",
+              "Location"
+            ],
+            "rows": [
+              [
+                "Great Pyramid of Giza",
+                "Egypt (only one still standing)"
+              ],
+              [
+                "Hanging Gardens of Babylon",
+                "Mesopotamia (modern Iraq)"
+              ],
+              [
+                "Colossus of Rhodes",
+                "Rhodes, Greece"
+              ],
+              [
+                "Lighthouse of Alexandria",
+                "Egypt"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g4-l5",
@@ -42919,7 +43342,27 @@
               "Facts"
             ]
           },
-          "wiki_title": "Olympic Games History and Facts"
+          "wiki_title": "Olympic Games History and Facts",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "First modern Olympics",
+                "1896, Athens, Greece"
+              ],
+              [
+                "First ancient Olympics",
+                "776 BCE, Olympia, Greece"
+              ],
+              [
+                "Olympic rings represent",
+                "Five inhabited continents"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g4-l11",
@@ -46414,7 +46857,27 @@
               "Units"
             ]
           },
-          "wiki_title": "Basic Measuring Tools and Units"
+          "wiki_title": "Basic Measuring Tools and Units",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g4-l14",
@@ -46977,7 +47440,35 @@
               "Meal"
             ]
           },
-          "wiki_title": "Planning a Balanced Meal"
+          "wiki_title": "Planning a Balanced Meal",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g4-l21",
@@ -48842,7 +49333,55 @@
               "French"
             ]
           },
-          "wiki_title": "Numbers 1-20 in French"
+          "wiki_title": "Numbers 1-20 in French",
+          "data_table": {
+            "headers": [
+              "Number",
+              "French"
+            ],
+            "rows": [
+              [
+                "1",
+                "un"
+              ],
+              [
+                "2",
+                "deux"
+              ],
+              [
+                "3",
+                "trois"
+              ],
+              [
+                "4",
+                "quatre"
+              ],
+              [
+                "5",
+                "cinq"
+              ],
+              [
+                "6",
+                "six"
+              ],
+              [
+                "7",
+                "sept"
+              ],
+              [
+                "8",
+                "huit"
+              ],
+              [
+                "9",
+                "neuf"
+              ],
+              [
+                "10",
+                "dix"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g4-l4",
@@ -49546,7 +50085,55 @@
               "Arabic"
             ]
           },
-          "wiki_title": "Numbers 1-20 in Arabic"
+          "wiki_title": "Numbers 1-20 in Arabic",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Arabic (transliteration)"
+            ],
+            "rows": [
+              [
+                "1",
+                "wahid"
+              ],
+              [
+                "2",
+                "ithnan"
+              ],
+              [
+                "3",
+                "thalatha"
+              ],
+              [
+                "4",
+                "arba'a"
+              ],
+              [
+                "5",
+                "khamsa"
+              ],
+              [
+                "6",
+                "sitta"
+              ],
+              [
+                "7",
+                "sab'a"
+              ],
+              [
+                "8",
+                "thamaniya"
+              ],
+              [
+                "9",
+                "tis'a"
+              ],
+              [
+                "10",
+                "'ashara"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g4-l13",
@@ -52099,7 +52686,27 @@
               "Government"
             ]
           },
-          "wiki_title": "Local, State, and National Government"
+          "wiki_title": "Local, State, and National Government",
+          "data_table": {
+            "headers": [
+              "Government Level",
+              "Example Responsibility"
+            ],
+            "rows": [
+              [
+                "Local",
+                "Schools, trash collection, parks"
+              ],
+              [
+                "State / Provincial",
+                "State highways, state parks"
+              ],
+              [
+                "National",
+                "Defense, currency, foreign policy"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g4-l5",
@@ -52399,7 +53006,23 @@
               "Kids"
             ]
           },
-          "wiki_title": "Supply and Demand for Kids"
+          "wiki_title": "Supply and Demand for Kids",
+          "data_table": {
+            "headers": [
+              "Situation",
+              "Effect on Price"
+            ],
+            "rows": [
+              [
+                "High demand, low supply",
+                "Price tends to rise"
+              ],
+              [
+                "Low demand, high supply",
+                "Price tends to fall"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g4-l9",
@@ -55431,7 +56054,27 @@
               "Skills"
             ]
           },
-          "wiki_title": "Basketball Skills"
+          "wiki_title": "Basketball Skills",
+          "data_table": {
+            "headers": [
+              "Basketball Skill",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Dribbling",
+                "Bouncing the ball while moving"
+              ],
+              [
+                "Passing",
+                "Moving the ball to a teammate"
+              ],
+              [
+                "Shooting",
+                "Aiming the ball at the basket"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g4-l7",
@@ -55510,7 +56153,27 @@
               "Skills"
             ]
           },
-          "wiki_title": "Soccer Skills"
+          "wiki_title": "Soccer Skills",
+          "data_table": {
+            "headers": [
+              "Soccer Skill",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Dribbling",
+                "Moving the ball with your feet"
+              ],
+              [
+                "Passing",
+                "Kicking the ball to a teammate"
+              ],
+              [
+                "Shooting",
+                "Kicking the ball toward the goal"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g4-l8",
@@ -57700,7 +58363,35 @@
               "balanced diet"
             ]
           },
-          "wiki_title": "Nutrition and Diet"
+          "wiki_title": "Nutrition and Diet",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g4-l2",
@@ -58311,7 +59002,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "The Importance of Sleep"
+          "wiki_title": "The Importance of Sleep",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g4-l10",
@@ -60339,7 +61050,27 @@
               "query"
             ]
           },
-          "wiki_title": "Data and Databases"
+          "wiki_title": "Data and Databases",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Database",
+                "An organized collection of data"
+              ],
+              [
+                "Row / Record",
+                "A single entry in a database"
+              ],
+              [
+                "Column / Field",
+                "A category of data (e.g. Name, Age)"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g4-l2",
@@ -61597,7 +62328,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Computer Networks Basics"
+          "wiki_title": "Computer Networks Basics",
+          "data_table": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "LAN",
+                "Local Area Network - connects devices in one building"
+              ],
+              [
+                "WAN",
+                "Wide Area Network - connects devices over a large area"
+              ],
+              [
+                "Router",
+                "Directs data between networks"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g4-l18",

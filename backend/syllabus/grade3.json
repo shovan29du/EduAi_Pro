@@ -2877,7 +2877,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Homophones"
+          "wiki_title": "Homophones",
+          "data_table": {
+            "headers": [
+              "Word",
+              "Homophone",
+              "Meaning Difference"
+            ],
+            "rows": [
+              [
+                "Their",
+                "There",
+                "Belonging to them / a place"
+              ],
+              [
+                "Two",
+                "Too",
+                "The number 2 / also"
+              ],
+              [
+                "Bare",
+                "Bear",
+                "Uncovered / the animal"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g3-l10",
@@ -3640,7 +3664,27 @@
               "Thesaurus"
             ]
           },
-          "wiki_title": "Using a Dictionary and Thesaurus"
+          "wiki_title": "Using a Dictionary and Thesaurus",
+          "data_table": {
+            "headers": [
+              "Word",
+              "Synonym (from a Thesaurus)"
+            ],
+            "rows": [
+              [
+                "Happy",
+                "Joyful"
+              ],
+              [
+                "Sad",
+                "Unhappy"
+              ],
+              [
+                "Big",
+                "Enormous"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g3-l20",
@@ -4974,7 +5018,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Animal Adaptations"
+          "wiki_title": "Animal Adaptations",
+          "data_table": {
+            "headers": [
+              "Animal",
+              "Adaptation",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Camel",
+                "Humps store fat",
+                "Survive without water for long periods"
+              ],
+              [
+                "Polar Bear",
+                "Thick fur and fat layer",
+                "Stay warm in the Arctic"
+              ],
+              [
+                "Giraffe",
+                "Long neck",
+                "Reach leaves high in trees"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g3-l8",
@@ -5674,7 +5742,47 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "The Solar System"
+          "wiki_title": "The Solar System",
+          "data_table": {
+            "headers": [
+              "Planet",
+              "Position from the Sun"
+            ],
+            "rows": [
+              [
+                "Mercury",
+                "1"
+              ],
+              [
+                "Venus",
+                "2"
+              ],
+              [
+                "Earth",
+                "3"
+              ],
+              [
+                "Mars",
+                "4"
+              ],
+              [
+                "Jupiter",
+                "5"
+              ],
+              [
+                "Saturn",
+                "6"
+              ],
+              [
+                "Uranus",
+                "7"
+              ],
+              [
+                "Neptune",
+                "8"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g3-l18",
@@ -13266,7 +13374,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Mountains and Volcanoes"
+          "wiki_title": "Mountains and Volcanoes",
+          "data_table": {
+            "headers": [
+              "Mountain",
+              "Location",
+              "Approx. Height"
+            ],
+            "rows": [
+              [
+                "Mount Everest",
+                "Nepal/China",
+                "8,849 m"
+              ],
+              [
+                "Kilimanjaro",
+                "Tanzania",
+                "5,895 m"
+              ],
+              [
+                "Denali",
+                "USA (Alaska)",
+                "6,190 m"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g3-l10",
@@ -13783,7 +13915,31 @@
               "Introduction"
             ]
           },
-          "wiki_title": "Countries and Capitals: An Introduction"
+          "wiki_title": "Countries and Capitals: An Introduction",
+          "data_table": {
+            "headers": [
+              "Country",
+              "Capital"
+            ],
+            "rows": [
+              [
+                "France",
+                "Paris"
+              ],
+              [
+                "Japan",
+                "Tokyo"
+              ],
+              [
+                "Egypt",
+                "Cairo"
+              ],
+              [
+                "Australia",
+                "Canberra"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g3-l17",
@@ -15661,7 +15817,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "The Vikings"
+          "wiki_title": "The Vikings",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Viking Age",
+                "c. 793-1066 CE"
+              ],
+              [
+                "Homeland",
+                "Scandinavia (Norway, Sweden, Denmark)"
+              ],
+              [
+                "Famous voyage",
+                "Leif Erikson reached North America c. 1000 CE"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g3-l14",
@@ -16139,7 +16315,27 @@
               "Democracy"
             ]
           },
-          "wiki_title": "Ancient Greek Democracy"
+          "wiki_title": "Ancient Greek Democracy",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Birthplace of democracy",
+                "Athens, Greece"
+              ],
+              [
+                "Approximate start",
+                "c. 508 BCE (reforms of Cleisthenes)"
+              ],
+              [
+                "Meaning of 'democracy'",
+                "Greek for 'rule by the people'"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g3-l20",
@@ -17300,7 +17496,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "The Month of Ramadan"
+          "wiki_title": "The Month of Ramadan",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Ramadan is",
+                "The 9th month of the Islamic calendar"
+              ],
+              [
+                "Main practice",
+                "Fasting from dawn to sunset"
+              ],
+              [
+                "Ends with",
+                "Eid al-Fitr"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g3-l7",
@@ -17598,7 +17814,27 @@
               "Journey"
             ]
           },
-          "wiki_title": "The Kaaba and the Hajj Journey"
+          "wiki_title": "The Kaaba and the Hajj Journey",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "The Kaaba is located in",
+                "Mecca, Saudi Arabia"
+              ],
+              [
+                "Hajj takes place during",
+                "Dhul Hijjah (the 12th Islamic month)"
+              ],
+              [
+                "Hajj is obligatory for",
+                "Muslims who are able, at least once in their lifetime"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g3-l11",
@@ -19260,7 +19496,23 @@
               "Actions"
             ]
           },
-          "wiki_title": "Loops: Repeating Actions"
+          "wiki_title": "Loops: Repeating Actions",
+          "data_table": {
+            "headers": [
+              "Loop Type",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Repeat N times",
+                "repeat 5: move forward"
+              ],
+              [
+                "Repeat until condition",
+                "repeat until at edge: move forward"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g3-l5",
@@ -19655,7 +19907,26 @@
               "Scratch"
             ]
           },
-          "wiki_title": "Using Variables in Scratch"
+          "wiki_title": "Using Variables in Scratch",
+          "data_table": {
+            "headers": [
+              "Variable",
+              "Starting Value",
+              "After +1"
+            ],
+            "rows": [
+              [
+                "score",
+                "0",
+                "1"
+              ],
+              [
+                "lives",
+                "3",
+                "4"
+              ]
+            ]
+          }
         },
         {
           "id": "coding-g3-l10",
@@ -22005,7 +22276,27 @@
               "(Norway)"
             ]
           },
-          "wiki_title": "The Three Billy Goats Gruff (Norway)"
+          "wiki_title": "The Three Billy Goats Gruff (Norway)",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Origin",
+                "Norwegian folktale"
+              ],
+              [
+                "First published",
+                "Collected by Asbjornsen and Moe, 1841-1844"
+              ],
+              [
+                "Main characters",
+                "Three goats and a troll"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g3-l7",
@@ -23129,7 +23420,27 @@
               "East)"
             ]
           },
-          "wiki_title": "One Thousand and One Nights: Aladdin (Middle East)"
+          "wiki_title": "One Thousand and One Nights: Aladdin (Middle East)",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Collection",
+                "One Thousand and One Nights"
+              ],
+              [
+                "Added to the collection by",
+                "Antoine Galland (French translator, early 1700s)"
+              ],
+              [
+                "Setting in the original text",
+                "Often depicted in China"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -24010,7 +24321,27 @@
               "Colors"
             ]
           },
-          "wiki_title": "Primary and Secondary Colors"
+          "wiki_title": "Primary and Secondary Colors",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g3-l3",
@@ -24684,7 +25015,27 @@
               "Introduction"
             ]
           },
-          "wiki_title": "Famous Artists: An Introduction"
+          "wiki_title": "Famous Artists: An Introduction",
+          "data_table": {
+            "headers": [
+              "Artist",
+              "Known For"
+            ],
+            "rows": [
+              [
+                "Claude Monet",
+                "Founder of Impressionism"
+              ],
+              [
+                "Frida Kahlo",
+                "Self-portraits"
+              ],
+              [
+                "Georgia O'Keeffe",
+                "Large-scale flower paintings"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g3-l12",
@@ -26019,7 +26370,31 @@
               "whole note"
             ]
           },
-          "wiki_title": "Musical Notation Basics"
+          "wiki_title": "Musical Notation Basics",
+          "data_table": {
+            "headers": [
+              "Note Name",
+              "Beats (in 4/4 time)"
+            ],
+            "rows": [
+              [
+                "Whole note",
+                "4 beats"
+              ],
+              [
+                "Half note",
+                "2 beats"
+              ],
+              [
+                "Quarter note",
+                "1 beat"
+              ],
+              [
+                "Eighth note",
+                "1/2 beat"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g3-l2",
@@ -27309,7 +27684,31 @@
               "Families"
             ]
           },
-          "wiki_title": "Musical Instrument Families"
+          "wiki_title": "Musical Instrument Families",
+          "data_table": {
+            "headers": [
+              "Family",
+              "Example Instruments"
+            ],
+            "rows": [
+              [
+                "Strings",
+                "Violin, Cello, Guitar"
+              ],
+              [
+                "Woodwinds",
+                "Flute, Clarinet, Oboe"
+              ],
+              [
+                "Brass",
+                "Trumpet, Trombone, Tuba"
+              ],
+              [
+                "Percussion",
+                "Drums, Xylophone, Cymbals"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g3-l19",
@@ -28349,7 +28748,31 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "What to Do in an Emergency"
+          "wiki_title": "What to Do in an Emergency",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Stay calm"
+              ],
+              [
+                "2",
+                "Call the local emergency number (e.g. 911 in the US, 999 in the UK)"
+              ],
+              [
+                "3",
+                "Give your location clearly"
+              ],
+              [
+                "4",
+                "Follow the operator's instructions"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g3-l5",
@@ -28823,7 +29246,27 @@
               "Tying"
             ]
           },
-          "wiki_title": "Basic Knot Tying"
+          "wiki_title": "Basic Knot Tying",
+          "data_table": {
+            "headers": [
+              "Knot",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "Square Knot",
+                "Joining two ropes of equal thickness"
+              ],
+              [
+                "Bowline",
+                "Creating a secure loop that doesn't slip"
+              ],
+              [
+                "Clove Hitch",
+                "Attaching a rope to a post or pole"
+              ]
+            ]
+          }
         },
         {
           "id": "survival-skills-g3-l11",
@@ -31281,7 +31724,27 @@
               "Kids"
             ]
           },
-          "wiki_title": "Famous Scientists for Kids"
+          "wiki_title": "Famous Scientists for Kids",
+          "data_table": {
+            "headers": [
+              "Scientist",
+              "Known For"
+            ],
+            "rows": [
+              [
+                "Isaac Newton",
+                "Laws of motion and gravity"
+              ],
+              [
+                "Marie Curie",
+                "Research on radioactivity"
+              ],
+              [
+                "Albert Einstein",
+                "Theory of relativity"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g3-l13",
@@ -31798,7 +32261,35 @@
               "Oceans"
             ]
           },
-          "wiki_title": "Fun Facts About Oceans"
+          "wiki_title": "Fun Facts About Oceans",
+          "data_table": {
+            "headers": [
+              "Ocean",
+              "Rank by Size"
+            ],
+            "rows": [
+              [
+                "Pacific Ocean",
+                "1 (largest)"
+              ],
+              [
+                "Atlantic Ocean",
+                "2"
+              ],
+              [
+                "Indian Ocean",
+                "3"
+              ],
+              [
+                "Southern Ocean",
+                "4"
+              ],
+              [
+                "Arctic Ocean",
+                "5 (smallest)"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g3-l20",
@@ -32721,7 +33212,35 @@
               "Groups"
             ]
           },
-          "wiki_title": "Food Groups"
+          "wiki_title": "Food Groups",
+          "data_table": {
+            "headers": [
+              "Food Group",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Fruits",
+                "Apples, bananas, berries"
+              ],
+              [
+                "Vegetables",
+                "Carrots, broccoli, spinach"
+              ],
+              [
+                "Grains",
+                "Bread, rice, pasta"
+              ],
+              [
+                "Protein",
+                "Chicken, beans, eggs"
+              ],
+              [
+                "Dairy",
+                "Milk, cheese, yogurt"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g3-l4",
@@ -32791,7 +33310,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Measuring Ingredients"
+          "wiki_title": "Measuring Ingredients",
+          "data_table": {
+            "headers": [
+              "Measurement",
+              "Equivalent"
+            ],
+            "rows": [
+              [
+                "3 teaspoons",
+                "1 tablespoon"
+              ],
+              [
+                "16 tablespoons",
+                "1 cup"
+              ],
+              [
+                "2 cups",
+                "1 pint"
+              ]
+            ]
+          }
         },
         {
           "id": "cooking-g3-l5",
@@ -34848,7 +35387,95 @@
               "French"
             ]
           },
-          "wiki_title": "Numbers 1-20 in French"
+          "wiki_title": "Numbers 1-20 in French",
+          "data_table": {
+            "headers": [
+              "Number",
+              "French"
+            ],
+            "rows": [
+              [
+                "1",
+                "un"
+              ],
+              [
+                "2",
+                "deux"
+              ],
+              [
+                "3",
+                "trois"
+              ],
+              [
+                "4",
+                "quatre"
+              ],
+              [
+                "5",
+                "cinq"
+              ],
+              [
+                "6",
+                "six"
+              ],
+              [
+                "7",
+                "sept"
+              ],
+              [
+                "8",
+                "huit"
+              ],
+              [
+                "9",
+                "neuf"
+              ],
+              [
+                "10",
+                "dix"
+              ],
+              [
+                "11",
+                "onze"
+              ],
+              [
+                "12",
+                "douze"
+              ],
+              [
+                "13",
+                "treize"
+              ],
+              [
+                "14",
+                "quatorze"
+              ],
+              [
+                "15",
+                "quinze"
+              ],
+              [
+                "16",
+                "seize"
+              ],
+              [
+                "17",
+                "dix-sept"
+              ],
+              [
+                "18",
+                "dix-huit"
+              ],
+              [
+                "19",
+                "dix-neuf"
+              ],
+              [
+                "20",
+                "vingt"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g3-l4",
@@ -35234,7 +35861,95 @@
               "Spanish"
             ]
           },
-          "wiki_title": "Numbers 1-20 in Spanish"
+          "wiki_title": "Numbers 1-20 in Spanish",
+          "data_table": {
+            "headers": [
+              "Number",
+              "Spanish"
+            ],
+            "rows": [
+              [
+                "1",
+                "uno"
+              ],
+              [
+                "2",
+                "dos"
+              ],
+              [
+                "3",
+                "tres"
+              ],
+              [
+                "4",
+                "cuatro"
+              ],
+              [
+                "5",
+                "cinco"
+              ],
+              [
+                "6",
+                "seis"
+              ],
+              [
+                "7",
+                "siete"
+              ],
+              [
+                "8",
+                "ocho"
+              ],
+              [
+                "9",
+                "nueve"
+              ],
+              [
+                "10",
+                "diez"
+              ],
+              [
+                "11",
+                "once"
+              ],
+              [
+                "12",
+                "doce"
+              ],
+              [
+                "13",
+                "trece"
+              ],
+              [
+                "14",
+                "catorce"
+              ],
+              [
+                "15",
+                "quince"
+              ],
+              [
+                "16",
+                "dieciseis"
+              ],
+              [
+                "17",
+                "diecisiete"
+              ],
+              [
+                "18",
+                "dieciocho"
+              ],
+              [
+                "19",
+                "diecinueve"
+              ],
+              [
+                "20",
+                "veinte"
+              ]
+            ]
+          }
         },
         {
           "id": "foreign-languages-g3-l9",
@@ -36977,7 +37692,26 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Rules and Laws"
+          "wiki_title": "Rules and Laws",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Example",
+              "Who Makes It"
+            ],
+            "rows": [
+              [
+                "Rule",
+                "No running in the hallway",
+                "School / classroom"
+              ],
+              [
+                "Law",
+                "Wear a seatbelt while driving",
+                "Government"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g3-l4",
@@ -37345,7 +38079,27 @@
               "Trade"
             ]
           },
-          "wiki_title": "Money and Trade"
+          "wiki_title": "Money and Trade",
+          "data_table": {
+            "headers": [
+              "Concept",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Barter",
+                "Trading goods directly without money"
+              ],
+              [
+                "Currency",
+                "Money used to buy and sell goods"
+              ],
+              [
+                "Trade",
+                "Exchanging goods and services"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g3-l9",
@@ -39453,7 +40207,27 @@
               "Yoga"
             ]
           },
-          "wiki_title": "Basic Stretch-Based Yoga"
+          "wiki_title": "Basic Stretch-Based Yoga",
+          "data_table": {
+            "headers": [
+              "Yoga Pose",
+              "Sanskrit Name"
+            ],
+            "rows": [
+              [
+                "Warrior Pose",
+                "Virabhadrasana"
+              ],
+              [
+                "Triangle Pose",
+                "Trikonasana"
+              ],
+              [
+                "Seated Forward Bend",
+                "Paschimottanasana"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g3-l9",
@@ -40170,7 +40944,27 @@
               "Movements"
             ]
           },
-          "wiki_title": "Basic Martial Arts Movements"
+          "wiki_title": "Basic Martial Arts Movements",
+          "data_table": {
+            "headers": [
+              "Movement",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Stance",
+                "Provides balance and stability"
+              ],
+              [
+                "Block",
+                "Defends against a strike"
+              ],
+              [
+                "Punch / Strike",
+                "Basic offensive technique"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g3-l18",
@@ -40653,7 +41447,31 @@
               "Overview"
             ]
           },
-          "wiki_title": "Human Body Systems Overview"
+          "wiki_title": "Human Body Systems Overview",
+          "data_table": {
+            "headers": [
+              "Body System",
+              "Main Function"
+            ],
+            "rows": [
+              [
+                "Circulatory",
+                "Pumps blood through the body"
+              ],
+              [
+                "Respiratory",
+                "Brings oxygen in, removes carbon dioxide"
+              ],
+              [
+                "Digestive",
+                "Breaks down food for energy"
+              ],
+              [
+                "Skeletal",
+                "Supports and protects the body"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g3-l3",
@@ -41342,7 +42160,27 @@
               "Basics"
             ]
           },
-          "wiki_title": "Dental Health Basics"
+          "wiki_title": "Dental Health Basics",
+          "data_table": {
+            "headers": [
+              "Guideline",
+              "Recommendation"
+            ],
+            "rows": [
+              [
+                "Brush teeth",
+                "Twice daily"
+              ],
+              [
+                "Floss",
+                "Once daily"
+              ],
+              [
+                "Dentist visit",
+                "Every 6 months"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g3-l12",
@@ -43124,7 +43962,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Passwords"
+          "wiki_title": "Passwords",
+          "data_table": {
+            "headers": [
+              "Password Tip",
+              "Why It Matters"
+            ],
+            "rows": [
+              [
+                "Use 8+ characters",
+                "Harder to guess"
+              ],
+              [
+                "Mix letters, numbers, symbols",
+                "Increases security"
+              ],
+              [
+                "Don't share passwords",
+                "Keeps your account safe"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g3-l14",
@@ -43503,7 +44361,27 @@
             "completion_required": true,
             "min_quiz_score": 62
           },
-          "wiki_title": "Spreadsheets"
+          "wiki_title": "Spreadsheets",
+          "data_table": {
+            "headers": [
+              "Spreadsheet Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Cell",
+                "A single box in a spreadsheet grid"
+              ],
+              [
+                "Row",
+                "A horizontal line of cells"
+              ],
+              [
+                "Column",
+                "A vertical line of cells"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g3-l19",

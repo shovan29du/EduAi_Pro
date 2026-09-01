@@ -2426,7 +2426,39 @@
               "CVC word"
             ]
           },
-          "wiki_title": "Phonics: Alphabet and Letter Sounds"
+          "wiki_title": "Phonics: Alphabet and Letter Sounds",
+          "data_table": {
+            "headers": [
+              "Letter",
+              "Sound (example word)"
+            ],
+            "rows": [
+              [
+                "A",
+                "/a/ as in apple"
+              ],
+              [
+                "B",
+                "/b/ as in ball"
+              ],
+              [
+                "C",
+                "/k/ as in cat"
+              ],
+              [
+                "D",
+                "/d/ as in dog"
+              ],
+              [
+                "E",
+                "/e/ as in egg"
+              ],
+              [
+                "F",
+                "/f/ as in fish"
+              ]
+            ]
+          }
         },
         {
           "id": "eng-g1-l2",
@@ -3208,7 +3240,23 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Vowels and Consonants"
+          "wiki_title": "Vowels and Consonants",
+          "data_table": {
+            "headers": [
+              "Type",
+              "Letters"
+            ],
+            "rows": [
+              [
+                "Vowels",
+                "A, E, I, O, U"
+              ],
+              [
+                "Consonants",
+                "B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z"
+              ]
+            ]
+          }
         },
         {
           "id": "english-g1-l10",
@@ -4080,7 +4128,36 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Alphabetical Order"
+          "wiki_title": "Alphabetical Order",
+          "data_table": {
+            "headers": [
+              "Word",
+              "First Letter",
+              "Alphabetical Position"
+            ],
+            "rows": [
+              [
+                "Apple",
+                "A",
+                "1"
+              ],
+              [
+                "Ball",
+                "B",
+                "2"
+              ],
+              [
+                "Cat",
+                "C",
+                "3"
+              ],
+              [
+                "Dog",
+                "D",
+                "4"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -4960,7 +5037,31 @@
               "seed"
             ]
           },
-          "wiki_title": "Parts of a Plant"
+          "wiki_title": "Parts of a Plant",
+          "data_table": {
+            "headers": [
+              "Plant Part",
+              "Function"
+            ],
+            "rows": [
+              [
+                "Roots",
+                "Absorb water and nutrients, anchor the plant"
+              ],
+              [
+                "Stem",
+                "Supports the plant, carries water and nutrients"
+              ],
+              [
+                "Leaves",
+                "Make food from sunlight (photosynthesis)"
+              ],
+              [
+                "Flower",
+                "Makes seeds for new plants"
+              ]
+            ]
+          }
         },
         {
           "id": "sci-g1-l3",
@@ -5341,7 +5442,27 @@
               "Moon"
             ]
           },
-          "wiki_title": "Our Solar System: The Sun and Moon"
+          "wiki_title": "Our Solar System: The Sun and Moon",
+          "data_table": {
+            "headers": [
+              "Object",
+              "Fact"
+            ],
+            "rows": [
+              [
+                "The Sun",
+                "A star at the center of our solar system"
+              ],
+              [
+                "The Moon",
+                "Earth's natural satellite; orbits Earth roughly every 27 days"
+              ],
+              [
+                "Earth",
+                "The third planet from the Sun"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l8",
@@ -5888,7 +6009,35 @@
               "Liquid"
             ]
           },
-          "wiki_title": "States of Matter: Solid, Liquid, Gas"
+          "wiki_title": "States of Matter: Solid, Liquid, Gas",
+          "data_table": {
+            "headers": [
+              "State",
+              "Shape",
+              "Volume",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Solid",
+                "Fixed shape",
+                "Fixed volume",
+                "Ice"
+              ],
+              [
+                "Liquid",
+                "Takes shape of container",
+                "Fixed volume",
+                "Water"
+              ],
+              [
+                "Gas",
+                "Fills its container",
+                "No fixed volume",
+                "Steam"
+              ]
+            ]
+          }
         },
         {
           "id": "science-g1-l15",
@@ -13289,7 +13438,23 @@
               "East"
             ]
           },
-          "wiki_title": "The Four Directions: North, South, East, West"
+          "wiki_title": "The Four Directions: North, South, East, West",
+          "data_table": {
+            "headers": [
+              "Direction",
+              "Opposite Direction"
+            ],
+            "rows": [
+              [
+                "North",
+                "South"
+              ],
+              [
+                "East",
+                "West"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l4",
@@ -13578,7 +13743,35 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Oceans of the World"
+          "wiki_title": "Oceans of the World",
+          "data_table": {
+            "headers": [
+              "Ocean",
+              "Rank by Size"
+            ],
+            "rows": [
+              [
+                "Pacific Ocean",
+                "1 (largest)"
+              ],
+              [
+                "Atlantic Ocean",
+                "2"
+              ],
+              [
+                "Indian Ocean",
+                "3"
+              ],
+              [
+                "Southern Ocean",
+                "4"
+              ],
+              [
+                "Arctic Ocean",
+                "5 (smallest)"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l8",
@@ -13648,7 +13841,43 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Continents of the World"
+          "wiki_title": "Continents of the World",
+          "data_table": {
+            "headers": [
+              "Continent",
+              "Rank by Area"
+            ],
+            "rows": [
+              [
+                "Asia",
+                "1 (largest)"
+              ],
+              [
+                "Africa",
+                "2"
+              ],
+              [
+                "North America",
+                "3"
+              ],
+              [
+                "South America",
+                "4"
+              ],
+              [
+                "Antarctica",
+                "5"
+              ],
+              [
+                "Europe",
+                "6"
+              ],
+              [
+                "Australia",
+                "7 (smallest)"
+              ]
+            ]
+          }
         },
         {
           "id": "geography-g1-l9",
@@ -15548,7 +15777,27 @@
               "Pyramids"
             ]
           },
-          "wiki_title": "Ancient Egypt and the Pyramids"
+          "wiki_title": "Ancient Egypt and the Pyramids",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Great Pyramid of Giza built for",
+                "Pharaoh Khufu"
+              ],
+              [
+                "Approximate build date",
+                "c. 2560 BCE"
+              ],
+              [
+                "Location",
+                "Giza, Egypt"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l6",
@@ -15708,7 +15957,27 @@
               "Olympics"
             ]
           },
-          "wiki_title": "Ancient Greece and the First Olympics"
+          "wiki_title": "Ancient Greece and the First Olympics",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "First recorded Olympic Games",
+                "776 BCE"
+              ],
+              [
+                "Location",
+                "Olympia, Greece"
+              ],
+              [
+                "Held in honor of",
+                "The god Zeus"
+              ]
+            ]
+          }
         },
         {
           "id": "world-history-g1-l8",
@@ -16701,7 +16970,27 @@
               "Events"
             ]
           },
-          "wiki_title": "Timelines: Ordering Events"
+          "wiki_title": "Timelines: Ordering Events",
+          "data_table": {
+            "headers": [
+              "Event",
+              "When"
+            ],
+            "rows": [
+              [
+                "Ancient Egypt's Old Kingdom begins",
+                "c. 3100 BCE"
+              ],
+              [
+                "Rome traditionally founded",
+                "753 BCE"
+              ],
+              [
+                "First recorded Olympic Games",
+                "776 BCE"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -17411,7 +17700,27 @@
               "Salah"
             ]
           },
-          "wiki_title": "Islamic Values"
+          "wiki_title": "Islamic Values",
+          "data_table": {
+            "headers": [
+              "Value",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Honesty (Sidq)",
+                "Telling the truth"
+              ],
+              [
+                "Kindness (Rahma)",
+                "Being gentle and caring"
+              ],
+              [
+                "Gratitude (Shukr)",
+                "Being thankful"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l2",
@@ -17654,7 +17963,23 @@
               "Evening"
             ]
           },
-          "wiki_title": "Simple Duas for Morning and Evening"
+          "wiki_title": "Simple Duas for Morning and Evening",
+          "data_table": {
+            "headers": [
+              "Time of Day",
+              "Purpose of the Dua"
+            ],
+            "rows": [
+              [
+                "Morning",
+                "Asking for a good, blessed day"
+              ],
+              [
+                "Evening",
+                "Giving thanks and asking for a peaceful night"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l5",
@@ -18132,7 +18457,27 @@
               "Clean"
             ]
           },
-          "wiki_title": "Keeping Ourselves Clean"
+          "wiki_title": "Keeping Ourselves Clean",
+          "data_table": {
+            "headers": [
+              "Practice",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Washing hands before eating",
+                "Cleanliness before meals"
+              ],
+              [
+                "Wudu (ablution)",
+                "Washing before prayer"
+              ],
+              [
+                "Bathing regularly",
+                "Personal hygiene"
+              ]
+            ]
+          }
         },
         {
           "id": "islamic-studies-g1-l11",
@@ -20100,7 +20445,27 @@
               "Ancient"
             ]
           },
-          "wiki_title": "Aesop's Fables: Lessons from Ancient Greece"
+          "wiki_title": "Aesop's Fables: Lessons from Ancient Greece",
+          "data_table": {
+            "headers": [
+              "Fable",
+              "Moral Lesson"
+            ],
+            "rows": [
+              [
+                "The Tortoise and the Hare",
+                "Slow and steady wins the race"
+              ],
+              [
+                "The Boy Who Cried Wolf",
+                "Lying makes people stop believing you"
+              ],
+              [
+                "The Ant and the Grasshopper",
+                "Prepare for the future"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l3",
@@ -20641,7 +21006,27 @@
               "World"
             ]
           },
-          "wiki_title": "Cinderella Tales Around the World"
+          "wiki_title": "Cinderella Tales Around the World",
+          "data_table": {
+            "headers": [
+              "Version",
+              "Origin"
+            ],
+            "rows": [
+              [
+                "Rhodopis",
+                "Ancient Egypt/Greece (oldest known recorded version)"
+              ],
+              [
+                "Ye Xian",
+                "China (Tang dynasty, 9th century)"
+              ],
+              [
+                "Cendrillon",
+                "France (Charles Perrault, 1697)"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l10",
@@ -21174,7 +21559,27 @@
               "Adventure"
             ]
           },
-          "wiki_title": "Arabian Nights: Tales of Adventure"
+          "wiki_title": "Arabian Nights: Tales of Adventure",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Also known as",
+                "One Thousand and One Nights"
+              ],
+              [
+                "Frame narrator",
+                "Scheherazade"
+              ],
+              [
+                "Famous tales included",
+                "Aladdin, Ali Baba, Sinbad the Sailor"
+              ]
+            ]
+          }
         },
         {
           "id": "world-literature-g1-l17",
@@ -22343,7 +22748,27 @@
               "Colours"
             ]
           },
-          "wiki_title": "Primary and Secondary Colours"
+          "wiki_title": "Primary and Secondary Colours",
+          "data_table": {
+            "headers": [
+              "Primary Colours Mixed",
+              "Secondary Colour Made"
+            ],
+            "rows": [
+              [
+                "Red + Yellow",
+                "Orange"
+              ],
+              [
+                "Yellow + Blue",
+                "Green"
+              ],
+              [
+                "Blue + Red",
+                "Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l3",
@@ -23267,7 +23692,27 @@
               "Learners"
             ]
           },
-          "wiki_title": "Famous Artists for Young Learners"
+          "wiki_title": "Famous Artists for Young Learners",
+          "data_table": {
+            "headers": [
+              "Artist",
+              "Known For"
+            ],
+            "rows": [
+              [
+                "Vincent van Gogh",
+                "The Starry Night"
+              ],
+              [
+                "Pablo Picasso",
+                "Co-founding Cubism"
+              ],
+              [
+                "Leonardo da Vinci",
+                "The Mona Lisa"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l15",
@@ -23627,7 +24072,23 @@
               "Colours"
             ]
           },
-          "wiki_title": "Warm and Cool Colours"
+          "wiki_title": "Warm and Cool Colours",
+          "data_table": {
+            "headers": [
+              "Colour Type",
+              "Colours"
+            ],
+            "rows": [
+              [
+                "Warm",
+                "Red, Orange, Yellow"
+              ],
+              [
+                "Cool",
+                "Blue, Green, Purple"
+              ]
+            ]
+          }
         },
         {
           "id": "art-g1-l20",
@@ -24906,7 +25367,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "String Instruments"
+          "wiki_title": "String Instruments",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "How Sound is Made"
+            ],
+            "rows": [
+              [
+                "Violin",
+                "Bowing or plucking strings"
+              ],
+              [
+                "Guitar",
+                "Plucking or strumming strings"
+              ],
+              [
+                "Harp",
+                "Plucking strings"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l9",
@@ -24976,7 +25457,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Wind Instruments"
+          "wiki_title": "Wind Instruments",
+          "data_table": {
+            "headers": [
+              "Instrument",
+              "How Sound is Made"
+            ],
+            "rows": [
+              [
+                "Flute",
+                "Blowing across an opening"
+              ],
+              [
+                "Trumpet",
+                "Buzzing the lips into a mouthpiece"
+              ],
+              [
+                "Clarinet",
+                "Blowing through a reed"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l10",
@@ -25516,7 +26017,31 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "The Orchestra: An Introduction"
+          "wiki_title": "The Orchestra: An Introduction",
+          "data_table": {
+            "headers": [
+              "Orchestra Family",
+              "Example Instruments"
+            ],
+            "rows": [
+              [
+                "Strings",
+                "Violin, Cello, Double Bass"
+              ],
+              [
+                "Woodwinds",
+                "Flute, Clarinet, Oboe"
+              ],
+              [
+                "Brass",
+                "Trumpet, Trombone, Tuba"
+              ],
+              [
+                "Percussion",
+                "Drums, Xylophone, Cymbals"
+              ]
+            ]
+          }
         },
         {
           "id": "music-g1-l17",
@@ -26738,7 +27263,43 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Days of the Week"
+          "wiki_title": "Days of the Week",
+          "data_table": {
+            "headers": [
+              "#",
+              "Day"
+            ],
+            "rows": [
+              [
+                "1",
+                "Monday"
+              ],
+              [
+                "2",
+                "Tuesday"
+              ],
+              [
+                "3",
+                "Wednesday"
+              ],
+              [
+                "4",
+                "Thursday"
+              ],
+              [
+                "5",
+                "Friday"
+              ],
+              [
+                "6",
+                "Saturday"
+              ],
+              [
+                "7",
+                "Sunday"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l3",
@@ -26808,7 +27369,76 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Months of the Year"
+          "wiki_title": "Months of the Year",
+          "data_table": {
+            "headers": [
+              "#",
+              "Month",
+              "Days"
+            ],
+            "rows": [
+              [
+                "1",
+                "January",
+                "31"
+              ],
+              [
+                "2",
+                "February",
+                "28 (29 in a leap year)"
+              ],
+              [
+                "3",
+                "March",
+                "31"
+              ],
+              [
+                "4",
+                "April",
+                "30"
+              ],
+              [
+                "5",
+                "May",
+                "31"
+              ],
+              [
+                "6",
+                "June",
+                "30"
+              ],
+              [
+                "7",
+                "July",
+                "31"
+              ],
+              [
+                "8",
+                "August",
+                "31"
+              ],
+              [
+                "9",
+                "September",
+                "30"
+              ],
+              [
+                "10",
+                "October",
+                "31"
+              ],
+              [
+                "11",
+                "November",
+                "30"
+              ],
+              [
+                "12",
+                "December",
+                "31"
+              ]
+            ]
+          }
         },
         {
           "id": "general-knowledge-g1-l4",
@@ -28150,7 +28780,27 @@
               "Stars"
             ]
           },
-          "wiki_title": "Space: Sun, Moon and Stars"
+          "wiki_title": "Space: Sun, Moon and Stars",
+          "data_table": {
+            "headers": [
+              "Object",
+              "Fact"
+            ],
+            "rows": [
+              [
+                "Sun",
+                "A star; the center of our solar system"
+              ],
+              [
+                "Moon",
+                "Orbits Earth; reflects sunlight rather than making its own light"
+              ],
+              [
+                "Stars",
+                "Distant suns that produce their own light"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -28891,7 +29541,27 @@
               "Them"
             ]
           },
-          "wiki_title": "Rules and Why We Follow Them"
+          "wiki_title": "Rules and Why We Follow Them",
+          "data_table": {
+            "headers": [
+              "Rule",
+              "Why It Matters"
+            ],
+            "rows": [
+              [
+                "Raise your hand before speaking",
+                "Keeps the classroom orderly"
+              ],
+              [
+                "Wait your turn in line",
+                "Fair to everyone"
+              ],
+              [
+                "Wash hands before eating",
+                "Prevents spreading germs"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l3",
@@ -29647,7 +30317,23 @@
               "Wants"
             ]
           },
-          "wiki_title": "Money and Simple Needs vs Wants"
+          "wiki_title": "Money and Simple Needs vs Wants",
+          "data_table": {
+            "headers": [
+              "Category",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Needs",
+                "Food, water, shelter, clothing"
+              ],
+              [
+                "Wants",
+                "Toys, video games, candy"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l13",
@@ -29796,7 +30482,31 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Maps of My Neighbourhood"
+          "wiki_title": "Maps of My Neighbourhood",
+          "data_table": {
+            "headers": [
+              "Common Map Symbol",
+              "Typical Meaning"
+            ],
+            "rows": [
+              [
+                "Blue line",
+                "River or stream"
+              ],
+              [
+                "Green area",
+                "Park or forest"
+              ],
+              [
+                "Red square",
+                "School or important building"
+              ],
+              [
+                "Black line",
+                "Road"
+              ]
+            ]
+          }
         },
         {
           "id": "social-studies-g1-l15",
@@ -31225,7 +31935,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Stretching and Flexibility"
+          "wiki_title": "Stretching and Flexibility",
+          "data_table": {
+            "headers": [
+              "Stretch",
+              "Body Part Targeted"
+            ],
+            "rows": [
+              [
+                "Toe touch",
+                "Hamstrings, lower back"
+              ],
+              [
+                "Arm circles",
+                "Shoulders"
+              ],
+              [
+                "Butterfly stretch",
+                "Hips, inner thighs"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l6",
@@ -31462,7 +32192,23 @@
               "Exercises"
             ]
           },
-          "wiki_title": "Warm-Up and Cool-Down Exercises"
+          "wiki_title": "Warm-Up and Cool-Down Exercises",
+          "data_table": {
+            "headers": [
+              "Phase",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Warm-up",
+                "Raises heart rate and prepares muscles"
+              ],
+              [
+                "Cool-down",
+                "Lowers heart rate gradually and helps prevent injury"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l9",
@@ -32264,7 +33010,27 @@
               "Kids"
             ]
           },
-          "wiki_title": "Basic Yoga Poses for Kids"
+          "wiki_title": "Basic Yoga Poses for Kids",
+          "data_table": {
+            "headers": [
+              "Yoga Pose",
+              "Sanskrit Name"
+            ],
+            "rows": [
+              [
+                "Tree Pose",
+                "Vrksasana"
+              ],
+              [
+                "Downward Dog",
+                "Adho Mukha Svanasana"
+              ],
+              [
+                "Cat Pose",
+                "Marjaryasana"
+              ]
+            ]
+          }
         },
         {
           "id": "physical-education-self-defense-g1-l19",
@@ -32749,7 +33515,27 @@
             "completion_required": true,
             "min_quiz_score": 60
           },
-          "wiki_title": "Brushing Teeth"
+          "wiki_title": "Brushing Teeth",
+          "data_table": {
+            "headers": [
+              "Guideline",
+              "Recommendation"
+            ],
+            "rows": [
+              [
+                "Brush teeth",
+                "Twice a day (morning and night)"
+              ],
+              [
+                "Brushing time",
+                "About 2 minutes"
+              ],
+              [
+                "Replace toothbrush",
+                "Every 3 months"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g1-l4",
@@ -32905,7 +33691,27 @@
               "Sleep"
             ]
           },
-          "wiki_title": "Getting Enough Sleep"
+          "wiki_title": "Getting Enough Sleep",
+          "data_table": {
+            "headers": [
+              "Age Group",
+              "CDC-Recommended Sleep"
+            ],
+            "rows": [
+              [
+                "Preschool (3-5 years)",
+                "10-13 hours"
+              ],
+              [
+                "School age (6-12 years)",
+                "9-12 hours"
+              ],
+              [
+                "Teens (13-18 years)",
+                "8-10 hours"
+              ]
+            ]
+          }
         },
         {
           "id": "hlt-g1-l6",
@@ -33285,7 +34091,23 @@
               "Water"
             ]
           },
-          "wiki_title": "Staying Hydrated: Drinking Water"
+          "wiki_title": "Staying Hydrated: Drinking Water",
+          "data_table": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Human body water content",
+                "About 60% water (average adult)"
+              ],
+              [
+                "General guidance",
+                "Drink water throughout the day, more when active"
+              ]
+            ]
+          }
         },
         {
           "id": "health-education-g1-l11",
@@ -34233,7 +35055,27 @@
               "click"
             ]
           },
-          "wiki_title": "Computers"
+          "wiki_title": "Computers",
+          "data_table": {
+            "headers": [
+              "Device Type",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Desktop computer",
+                "Used at a desk, has a separate monitor"
+              ],
+              [
+                "Laptop",
+                "Portable, all-in-one design"
+              ],
+              [
+                "Tablet",
+                "Touchscreen, very portable"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l2",
@@ -34316,7 +35158,27 @@
               "Screen"
             ]
           },
-          "wiki_title": "Parts of a Computer: Keyboard, Mouse, Screen"
+          "wiki_title": "Parts of a Computer: Keyboard, Mouse, Screen",
+          "data_table": {
+            "headers": [
+              "Computer Part",
+              "Function"
+            ],
+            "rows": [
+              [
+                "Keyboard",
+                "Used for typing text and commands"
+              ],
+              [
+                "Mouse",
+                "Used for pointing and clicking"
+              ],
+              [
+                "Screen (Monitor)",
+                "Displays what the computer is doing"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l3",
@@ -35008,7 +35870,31 @@
               "(Sequencing)"
             ]
           },
-          "wiki_title": "Following Simple Step-by-Step Instructions (Sequencing)"
+          "wiki_title": "Following Simple Step-by-Step Instructions (Sequencing)",
+          "data_table": {
+            "headers": [
+              "Step",
+              "Action"
+            ],
+            "rows": [
+              [
+                "1",
+                "Turn on the computer"
+              ],
+              [
+                "2",
+                "Open the program"
+              ],
+              [
+                "3",
+                "Complete the task"
+              ],
+              [
+                "4",
+                "Save the work"
+              ]
+            ]
+          }
         },
         {
           "id": "ict-computer-science-g1-l12",

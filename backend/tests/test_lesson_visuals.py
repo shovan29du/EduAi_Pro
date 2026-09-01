@@ -108,3 +108,86 @@ def test_every_math_level_from_grade1_to_masters_year2_has_real_charts():
     ug4 = json.loads((SYLLABUS_DIR / "level_ug4.json").read_text(encoding="utf-8"))
     pnt = {l["id"]: l for l in ug4["subjects"]["Math"]["lessons"]}["math-ug4-l25"]
     assert ["100", "25", "21.7"] in pnt["data_table"]["rows"]
+
+
+def test_grade1_to_4_all_subjects_have_real_charts():
+    """Breadth-first pass extending beyond Math: every subject (not just
+    Math) in Grade 1 through Grade 4 should have a handful of lessons with
+    a genuine data_table of real, verifiable facts."""
+    for level in ["grade1", "grade2", "grade3", "grade4"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        non_math_enriched = 0
+        for subject_name, subject in data["subjects"].items():
+            if subject_name == "Math":
+                continue
+            enriched = [l for l in subject["lessons"] if l.get("data_table")]
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+            non_math_enriched += len(enriched)
+        assert non_math_enriched >= 25, f"{level} has too few non-Math lessons with real chart/table content"
+
+    # Spot-check a few real, independently-verifiable facts.
+    g1 = json.loads((SYLLABUS_DIR / "grade1.json").read_text(encoding="utf-8"))
+    continents = {l["id"]: l for l in g1["subjects"]["Geography"]["lessons"]}["geography-g1-l8"]
+    assert ["Asia", "1 (largest)"] in continents["data_table"]["rows"]
+
+    g2 = json.loads((SYLLABUS_DIR / "grade2.json").read_text(encoding="utf-8"))
+    pillars = {l["id"]: l for l in g2["subjects"]["Islamic Studies"]["lessons"]}["is-g2-l1"]
+    assert ["Hajj", "Pilgrimage to Mecca"] in pillars["data_table"]["rows"]
+
+    g4 = json.loads((SYLLABUS_DIR / "grade4.json").read_text(encoding="utf-8"))
+    bones = {l["id"]: l for l in g4["subjects"]["Science"]["lessons"]}["science-g4-l13"]
+    assert ["Number of bones in the adult human body", "206"] in bones["data_table"]["rows"]
+
+
+def test_grade5_non_math_subjects_have_real_charts():
+    """Grade 5 Math already has full pilot coverage; this checks every
+    OTHER subject at Grade 5 also has a batch of real chart/table content."""
+    data = json.loads((SYLLABUS_DIR / "grade5.json").read_text(encoding="utf-8"))
+    non_math_enriched = 0
+    for subject_name, subject in data["subjects"].items():
+        if subject_name == "Math":
+            continue
+        enriched = [l for l in subject["lessons"] if l.get("data_table")]
+        for lesson in enriched:
+            assert lesson["data_table"]["headers"]
+            assert lesson["data_table"]["rows"]
+        non_math_enriched += len(enriched)
+    assert non_math_enriched >= 25
+
+    articles = {l["id"]: l for l in data["subjects"]["Islamic Studies"]["lessons"]}["islamic-studies-g5-l2"]
+    assert ["1", "Allah (God)"] in articles["data_table"]["rows"]
+
+    rivers = {l["id"]: l for l in data["subjects"]["General Knowledge"]["lessons"]}["general-knowledge-g5-l4"]
+    assert ["Nile", "~6,650 km", "Africa"] in rivers["data_table"]["rows"]
+
+
+def test_grade6_and_7_all_subjects_have_real_charts():
+    """Breadth-first pass: every subject in Grade 6 and Grade 7 should have
+    a handful of lessons with a genuine data_table of real, verifiable
+    facts, beyond the Math-only breadth batch."""
+    for level in ["grade6", "grade7"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        non_math_enriched = 0
+        for subject_name, subject in data["subjects"].items():
+            if subject_name == "Math":
+                continue
+            enriched = [l for l in subject["lessons"] if l.get("data_table")]
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+            non_math_enriched += len(enriched)
+        assert non_math_enriched >= 25, f"{level} has too few non-Math lessons with real chart/table content"
+
+    g6 = json.loads((SYLLABUS_DIR / "grade6.json").read_text(encoding="utf-8"))
+    newton = {l["id"]: l for l in g6["subjects"]["Science"]["lessons"]}["science-g6-l13"]
+    assert "F = m x a" in newton["formulae"][0]
+
+    g7 = json.loads((SYLLABUS_DIR / "grade7.json").read_text(encoding="utf-8"))
+    wonders = {l["id"]: l for l in g7["subjects"]["General Knowledge"]["lessons"]}["general-knowledge-g7-l4"]
+    assert ["Taj Mahal", "India"] in wonders["data_table"]["rows"]
