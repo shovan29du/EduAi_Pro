@@ -316,3 +316,53 @@ def test_level_ug1_and_ug2_all_52_subjects_have_a_real_chart():
     ug2 = json.loads((SYLLABUS_DIR / "level_ug2.json").read_text(encoding="utf-8"))
     hobbes = {l["id"]: l for l in ug2["subjects"]["Philosophy"]["lessons"]}["philosophy-ug2-l3"]
     assert ["Key work", "Leviathan (1651)"] in hobbes["data_table"]["rows"]
+
+
+def test_level_ug3_and_ug4_all_52_subjects_have_a_real_chart():
+    """Undergraduate-tier levels UG3 and UG4 (the last of the 18 syllabus
+    levels) carry ~52 subjects each -- every one should have at least one
+    real, verifiable data_table lesson."""
+    for level in ["level_ug3", "level_ug4"]:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        subjects = [s for s in data["subjects"] if s != "Math"]
+        assert len(subjects) >= 50, f"{level} unexpectedly has few subjects: {len(subjects)}"
+        missing_subjects = []
+        for subject_name in subjects:
+            lessons = data["subjects"][subject_name]["lessons"]
+            enriched = [l for l in lessons if l.get("data_table")]
+            if not enriched:
+                missing_subjects.append(subject_name)
+            for lesson in enriched:
+                assert lesson["data_table"]["headers"]
+                assert lesson["data_table"]["rows"]
+                for row in lesson["data_table"]["rows"]:
+                    assert len(row) == len(lesson["data_table"]["headers"])
+        assert not missing_subjects, f"{level} subjects missing any real chart: {missing_subjects}"
+
+    ug3 = json.loads((SYLLABUS_DIR / "level_ug3.json").read_text(encoding="utf-8"))
+    bert = {l["id"]: l for l in ug3["subjects"]["Natural Language Processing"]["lessons"]}["natural-language-processing-ug3-l3"]
+    assert ["Released by", "Google, 2018"] in bert["data_table"]["rows"]
+
+    ug4 = json.loads((SYLLABUS_DIR / "level_ug4.json").read_text(encoding="utf-8"))
+    kant = {l["id"]: l for l in ug4["subjects"]["Philosophy"]["lessons"]}["philosophy-ug4-l3"]
+    assert ["Philosopher", "Immanuel Kant"] in kant["data_table"]["rows"]
+
+
+def test_every_syllabus_level_has_real_content_in_every_subject():
+    """The final state: all 18 syllabus levels (Grade 1 through Masters
+    Year 2) should have real chart/table content in every single subject,
+    not just Math -- completing the "grade 1 to masters year 2" breadth-
+    first pass."""
+    levels = [
+        "grade1", "grade2", "grade3", "grade4", "grade5", "grade6", "grade7", "grade8",
+        "grade9", "grade10", "level_c1", "level_c2", "level_m1", "level_m2",
+        "level_ug1", "level_ug2", "level_ug3", "level_ug4",
+    ]
+    total_subjects_checked = 0
+    for level in levels:
+        data = json.loads((SYLLABUS_DIR / f"{level}.json").read_text(encoding="utf-8"))
+        for subject_name, subject in data["subjects"].items():
+            enriched = [l for l in subject["lessons"] if l.get("data_table") or l.get("graph") or l.get("formulae")]
+            assert enriched, f"{level} / {subject_name} has no real chart/table/graph content"
+            total_subjects_checked += 1
+    assert total_subjects_checked >= 400
