@@ -4863,6 +4863,26 @@
             ]
           }
         }
+      ],
+      "external_courses": [
+        {
+          "title": "Singapore MOE — Mathematics Syllabuses",
+          "url": "https://www.moe.gov.sg/education-in-sg/syllabuses",
+          "source": "Singapore MOE",
+          "safe": true
+        },
+        {
+          "title": "MIT OpenCourseWare — Mathematics",
+          "url": "https://ocw.mit.edu/search/?q=mathematics",
+          "source": "MIT OpenCourseWare",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy — Math",
+          "url": "https://www.khanacademy.org/math",
+          "source": "Khan Academy",
+          "safe": true
+        }
       ]
     },
     "English": {
@@ -15603,6 +15623,26 @@
               ]
             ]
           }
+        }
+      ],
+      "external_courses": [
+        {
+          "title": "IB Diploma Programme — Sciences Curriculum",
+          "url": "https://www.ibo.org/programmes/diploma-programme/curriculum/",
+          "source": "IB",
+          "safe": true
+        },
+        {
+          "title": "AP Science — College Board",
+          "url": "https://apstudents.collegeboard.org/courses",
+          "source": "AP",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy — Science",
+          "url": "https://www.khanacademy.org/science",
+          "source": "Khan Academy",
+          "safe": true
         }
       ]
     },
@@ -117416,6 +117456,26 @@
             ]
           }
         }
+      ],
+      "external_courses": [
+        {
+          "title": "IB Diploma Programme — Sciences Curriculum",
+          "url": "https://www.ibo.org/programmes/diploma-programme/curriculum/",
+          "source": "IB",
+          "safe": true
+        },
+        {
+          "title": "AP Physics — College Board",
+          "url": "https://apstudents.collegeboard.org/courses",
+          "source": "AP",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy — Physics",
+          "url": "https://www.khanacademy.org/physics",
+          "source": "Khan Academy",
+          "safe": true
+        }
       ]
     },
     "Chemistry": {
@@ -122827,6 +122887,26 @@
               ]
             ]
           }
+        }
+      ],
+      "external_courses": [
+        {
+          "title": "IB Diploma Programme — Sciences Curriculum",
+          "url": "https://www.ibo.org/programmes/diploma-programme/curriculum/",
+          "source": "IB",
+          "safe": true
+        },
+        {
+          "title": "AP Chemistry — College Board",
+          "url": "https://apstudents.collegeboard.org/courses",
+          "source": "AP",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy — Chemistry",
+          "url": "https://www.khanacademy.org/chemistry",
+          "source": "Khan Academy",
+          "safe": true
         }
       ]
     },
@@ -128321,6 +128401,26 @@
               ]
             ]
           }
+        }
+      ],
+      "external_courses": [
+        {
+          "title": "IB Diploma Programme — Sciences Curriculum",
+          "url": "https://www.ibo.org/programmes/diploma-programme/curriculum/",
+          "source": "IB",
+          "safe": true
+        },
+        {
+          "title": "AP Biology — College Board",
+          "url": "https://apstudents.collegeboard.org/courses",
+          "source": "AP",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy — Biology",
+          "url": "https://www.khanacademy.org/biology",
+          "source": "Khan Academy",
+          "safe": true
         }
       ]
     },
