@@ -238,7 +238,7 @@ function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail 
 
   return (
     <div className="space-y-2">
-      <div className="rounded-xl border overflow-hidden bg-sky-50 dark:bg-slate-900">
+      <div className="rounded-xl border-2 border-sky-300 dark:border-slate-600 overflow-hidden bg-sky-50 dark:bg-slate-900">
         <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="w-full h-auto select-none" role="img" aria-label="World map of country capitals">
           <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} className="fill-sky-100 dark:fill-slate-800" />
           {meridians.map((lng) => {

@@ -47,7 +47,7 @@ function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
         </select>
       </div>
 
-      <div className="rounded-xl border overflow-hidden">
+      <div className="rounded-xl border-2 border-amber-300 dark:border-slate-600 overflow-hidden">
         <div className="bg-amber-50 dark:bg-amber-950 border-b px-4 py-3">
           <p className="font-bold">{period.emoji} {period.label} <span className="font-normal text-sm text-gray-500">— {period.years}</span></p>
           <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{period.description}</p>
