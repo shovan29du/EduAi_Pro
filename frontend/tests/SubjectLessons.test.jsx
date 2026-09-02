@@ -202,6 +202,31 @@ describe('SubjectLessons book excerpts from library', () => {
     expect(global.fetch).toHaveBeenCalledWith('/api/museum/thumbnail?wiki_title=Percentages');
   });
 
+  it('renders a Singapore Math approach section with method, explanation, and example table', async () => {
+    const subjectWithLessons = {
+      lessons: [{
+        id: 'l1',
+        title: 'Adding Two-Digit Numbers',
+        unit: 'Number',
+        singapore_math: {
+          method: 'Number Bonds',
+          explanation: 'Break 47 into 40 and 7, then add each part to 26 separately before combining.',
+          example: { headers: ['Step', 'Result'], rows: [['40 + 26', '66'], ['66 + 7', '73']] },
+        },
+      }],
+    };
+    render(
+      <ChildProvider>
+        <SubjectLessons subjectName="Math" subject={subjectWithLessons} standard={2} />
+      </ChildProvider>
+    );
+
+    await waitFor(() => expect(screen.getByText(/Singapore Math approach: Number Bonds/)).toBeInTheDocument());
+    expect(screen.getByText(/Break 47 into 40 and 7/)).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: 'Step' })).toBeInTheDocument();
+    expect(screen.getByRole('cell', { name: '66' })).toBeInTheDocument();
+  });
+
   it('renders code-kind excerpts in a monospace code block', async () => {
     const subjectWithLessons = {
       lessons: [{

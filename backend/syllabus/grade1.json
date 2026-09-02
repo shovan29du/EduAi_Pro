@@ -700,7 +700,27 @@
           "formulae": [
             "3 + 4 = 7",
             "5 + 5 = 10"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Number Bonds",
+            "explanation": "Singapore's Primary Math syllabus teaches addition through number bonds: splitting a number into two parts that combine to make a whole. To add 4 + 3, first see that 3 splits into 1 and 2, so 4 + 1 makes 5 (a friendly 'ten frame' anchor), then 5 + 2 = 7.",
+            "example": {
+              "headers": [
+                "Bond",
+                "Sum"
+              ],
+              "rows": [
+                [
+                  "4 and 3 make",
+                  "7"
+                ],
+                [
+                  "Split 3 into 1 + 2",
+                  "4 + 1 = 5, then 5 + 2 = 7"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g1-l4",
@@ -833,6 +853,24 @@
                 "5"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds",
+            "explanation": "Subtraction is taught as 'the missing part' of a number bond. If 9 is the whole and 4 is one part, the number bond shows the other part must be 5, so 9 - 4 = 5.",
+            "example": {
+              "headers": [
+                "Whole",
+                "Known Part",
+                "Missing Part"
+              ],
+              "rows": [
+                [
+                  "9",
+                  "4",
+                  "5"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1803,6 +1841,26 @@
                 "19"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds — Making Ten",
+            "explanation": "For addition beyond 10, Singapore Math uses the 'make a ten' strategy: 8 + 5 becomes 8 + 2 (to make 10) + 3 remaining, giving 10 + 3 = 13.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "8 + 2 (make ten)",
+                  "10"
+                ],
+                [
+                  "10 + 3 (remaining)",
+                  "13"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1892,6 +1950,26 @@
                 "8"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds — Subtracting from Ten",
+            "explanation": "For subtraction across 10, break the larger number into 10 and the rest: 14 - 6 becomes 10 - 6 = 4, then 4 + 4 (the leftover from 14) = 8.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "14 = 10 + 4",
+                  "split the whole"
+                ],
+                [
+                  "10 - 6 = 4, then 4 + 4",
+                  "8"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1990,6 +2068,34 @@
                 "5"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds to 10",
+            "explanation": "Number bonds to 10 are the foundation of Singapore's mental math: every pair of numbers that sums to 10 (0+10, 1+9, 2+8, 3+7, 4+6, 5+5) is memorized as a single visual bond so later addition and subtraction become instant recall rather than counting.",
+            "example": {
+              "headers": [
+                "Part",
+                "Part",
+                "Whole"
+              ],
+              "rows": [
+                [
+                  "3",
+                  "7",
+                  "10"
+                ],
+                [
+                  "4",
+                  "6",
+                  "10"
+                ],
+                [
+                  "5",
+                  "5",
+                  "10"
+                ]
+              ]
+            }
           }
         },
         {
@@ -2100,6 +2206,30 @@
                 "0"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Concrete-Pictorial-Abstract (CPA)",
+            "explanation": "Place value is introduced with the CPA approach: first with physical base-ten blocks (concrete), then a drawing of tens-sticks and ones-dots (pictorial), and finally the digits themselves (abstract) -- e.g. 23 is shown as 2 ten-rods and 3 unit-cubes before it is written as '23'.",
+            "example": {
+              "headers": [
+                "Stage",
+                "Representation of 23"
+              ],
+              "rows": [
+                [
+                  "Concrete",
+                  "2 ten-rods + 3 unit-cubes"
+                ],
+                [
+                  "Pictorial",
+                  "2 long bars + 3 dots"
+                ],
+                [
+                  "Abstract",
+                  "23"
+                ]
+              ]
+            }
           }
         },
         {

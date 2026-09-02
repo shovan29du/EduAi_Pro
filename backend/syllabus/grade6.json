@@ -691,6 +691,26 @@
                 "2 3/4"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Mixed Numbers)",
+            "explanation": "Working with mixed numbers like 3 2/5 continues the bar model from earlier grades: whole bars plus a partially shaded bar, making it easy to convert to the improper fraction 17/5 or back again.",
+            "example": {
+              "headers": [
+                "Representation",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "3 full bars + 2/5 of a bar",
+                  "3 2/5"
+                ],
+                [
+                  "17 fifths total",
+                  "17/5"
+                ]
+              ]
+            }
           }
         },
         {
@@ -786,6 +806,30 @@
                 "1/2"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Adding and Subtracting Fractions)",
+            "explanation": "Adding fractions with different denominators is modeled by redrawing both bars split into the same number of equal parts (the common denominator), so the parts can be counted and combined directly.",
+            "example": {
+              "headers": [
+                "Fraction",
+                "Common Denominator Parts"
+              ],
+              "rows": [
+                [
+                  "2/3",
+                  "8/12"
+                ],
+                [
+                  "1/4",
+                  "3/12"
+                ],
+                [
+                  "Sum",
+                  "11/12"
+                ]
+              ]
+            }
           }
         },
         {
@@ -881,6 +925,26 @@
                 "3/2"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Fraction of a Fraction)",
+            "explanation": "Multiplying fractions is modeled by shading one fraction of a bar, then taking a further fraction of that shaded region, so the final overlap shows the product visually before simplifying.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "Shade 3/4 of the bar",
+                  "3/4"
+                ],
+                [
+                  "Take 2/3 of the shaded part",
+                  "1/2"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1166,6 +1230,29 @@
                 "2:3"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Ratio)",
+            "explanation": "Ratio bars remain central at this level: a ratio of 5:3 is drawn as two bars split into 5 and 3 equal units of the same size, so proportional word problems (e.g. sharing a total in a given ratio) can be solved by finding the value of one unit first.",
+            "example": {
+              "headers": [
+                "Quantity",
+                "Ratio Units",
+                "If Total is 40 (8 units)"
+              ],
+              "rows": [
+                [
+                  "First quantity",
+                  "5 units",
+                  "25"
+                ],
+                [
+                  "Second quantity",
+                  "3 units",
+                  "15"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1249,6 +1336,24 @@
                 "60 miles per hour"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Rate)",
+            "explanation": "A unit rate like 'km per hour' is modeled as a single bar representing one unit of the base quantity (1 hour) matched to its rate value, so scaling up to more hours means repeating that same bar length.",
+            "example": {
+              "headers": [
+                "Base Unit",
+                "Rate",
+                "Scaled (x4)"
+              ],
+              "rows": [
+                [
+                  "1 hour",
+                  "60 km",
+                  "240 km"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1357,6 +1462,24 @@
                 "20%"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Percentage)",
+            "explanation": "Percent problems such as 'find 15% of 200' are modeled as a bar of 200 split into 20 equal parts (each 5%), so 3 parts (15%) is read off directly as 30.",
+            "example": {
+              "headers": [
+                "Whole",
+                "Split Into",
+                "3 Parts (15%)"
+              ],
+              "rows": [
+                [
+                  "200",
+                  "20 equal parts (5% each)",
+                  "30"
+                ]
+              ]
+            }
           }
         },
         {

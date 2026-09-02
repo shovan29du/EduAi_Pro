@@ -328,6 +328,26 @@
                 "0"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Concrete-Pictorial-Abstract (CPA)",
+            "explanation": "Place value continues with base-ten blocks: 47 is shown as 4 ten-rods and 7 unit-cubes (concrete), then drawn as 4 bars and 7 dots (pictorial), before being read as the digits '4' tens and '7' ones (abstract).",
+            "example": {
+              "headers": [
+                "Stage",
+                "Representation of 47"
+              ],
+              "rows": [
+                [
+                  "Concrete",
+                  "4 ten-rods + 7 unit-cubes"
+                ],
+                [
+                  "Abstract",
+                  "4 tens + 7 ones = 47"
+                ]
+              ]
+            }
           }
         },
         {
@@ -454,6 +474,26 @@
                 "64"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds — Making Ten",
+            "explanation": "Adding within 100 still uses the 'make a ten' bond: 38 + 15 becomes 38 + 2 (to make 40) + 13 remaining, giving 40 + 13 = 53.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "38 + 2 (make 40)",
+                  "40"
+                ],
+                [
+                  "40 + 13 (remaining)",
+                  "53"
+                ]
+              ]
+            }
           }
         },
         {
@@ -579,6 +619,26 @@
                 "55"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds",
+            "explanation": "Subtracting within 100 uses number bonds to break the number apart: 72 - 25 becomes 72 - 20 - 5 = 52 - 5 = 47, splitting the subtrahend into a tens part and a ones part.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "72 - 20",
+                  "52"
+                ],
+                [
+                  "52 - 5",
+                  "47"
+                ]
+              ]
+            }
           }
         },
         {
@@ -743,7 +803,25 @@
           "formulae": [
             "3 × 4 = 12",
             "5 × 5 = 25"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Equal Groups)",
+            "explanation": "Multiplication is introduced as equal groups drawn as bars of the same length: 3 groups of 4 are shown as three equal bars, each divided into 4 units, so 3 x 4 = 12.",
+            "example": {
+              "headers": [
+                "Groups",
+                "Size Each",
+                "Total"
+              ],
+              "rows": [
+                [
+                  "3 bars",
+                  "4 units",
+                  "12"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g2-l5",
@@ -877,6 +955,26 @@
                 "0.75"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Partitioning a Whole)",
+            "explanation": "Fractions are introduced by drawing one bar representing the whole and dividing it into equal parts: for halves, the bar splits into 2 equal parts, and 1 shaded part is 1/2.",
+            "example": {
+              "headers": [
+                "Whole Bar Divided Into",
+                "Fraction of 1 Part"
+              ],
+              "rows": [
+                [
+                  "2 equal parts",
+                  "1/2"
+                ],
+                [
+                  "4 equal parts",
+                  "1/4"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1193,6 +1291,24 @@
                 "9"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Sharing Equally)",
+            "explanation": "Division is shown as one bar split into equal groups: sharing 12 into 3 equal groups is drawn as a bar of 12 units divided into 3 equal sections, each of 4, so 12 / 3 = 4.",
+            "example": {
+              "headers": [
+                "Total",
+                "Groups",
+                "Each Group"
+              ],
+              "rows": [
+                [
+                  "12",
+                  "3",
+                  "4"
+                ]
+              ]
+            }
           }
         },
         {

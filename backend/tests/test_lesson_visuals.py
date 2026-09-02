@@ -7,6 +7,8 @@ content.
 import glob
 import json
 
+import pytest
+
 from app.main import SYLLABUS_DIR
 
 STOPWORDS = {"with", "and", "the", "of", "for", "a", "an", "in", "on", "to", "at", "or", "but", "is", "as"}
@@ -623,3 +625,39 @@ def test_grade10_has_full_depth_real_chart_coverage():
 
     ohms_law = {l["id"]: l for l in data["subjects"]["Physics"]["lessons"]}["physics-g10-l27"]
     assert "V = IR" in ohms_law["formulae"]
+
+
+@pytest.mark.parametrize("grade,lesson_id,expected_method", [
+    (1, "math-g1-l15", "Number Bonds to 10"),
+    (2, "math-g2-l4", "Bar Model (Equal Groups)"),
+    (3, "math-g3-l3", "Bar Model (Fraction Comparison)"),
+    (4, "math-g4-l20", "Bar Model (Multi-Step Word Problems)"),
+    (5, "math-g5-l2", "Bar Model (Ratio)"),
+    (6, "math-g6-l9", "Bar Model (Ratio)"),
+])
+def test_singapore_math_method_present_and_well_formed(grade, lesson_id, expected_method):
+    """Singapore Math integration: Grades 1-6 Math lessons carry a genuine,
+    well-structured `singapore_math` field (method, explanation, worked
+    example table) alongside the existing curriculum -- not replacing it."""
+    data = json.loads((SYLLABUS_DIR / f"grade{grade}.json").read_text(encoding="utf-8"))
+    lesson = {l["id"]: l for l in data["subjects"]["Math"]["lessons"]}[lesson_id]
+    sg = lesson["singapore_math"]
+    assert sg["method"] == expected_method
+    assert len(sg["explanation"]) > 40
+    assert sg["example"]["headers"]
+    assert sg["example"]["rows"]
+    for row in sg["example"]["rows"]:
+        assert len(row) == len(sg["example"]["headers"])
+    # Supplements the curriculum -- doesn't replace the existing data_table.
+    assert lesson.get("data_table") or lesson.get("formulae")
+
+
+def test_singapore_math_lesson_count_per_grade():
+    """Each of Grades 1-6 gets real Singapore Math coverage on a meaningful
+    subset of Math lessons (number bonds and the bar/model method), not
+    just a token single entry."""
+    expected_min = {1: 5, 2: 5, 3: 4, 4: 3, 5: 5, 6: 5}
+    for grade, minimum in expected_min.items():
+        data = json.loads((SYLLABUS_DIR / f"grade{grade}.json").read_text(encoding="utf-8"))
+        count = sum(1 for l in data["subjects"]["Math"]["lessons"] if l.get("singapore_math"))
+        assert count >= minimum, f"Grade {grade} has only {count} Singapore Math lessons, expected >= {minimum}"

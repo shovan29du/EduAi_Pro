@@ -348,7 +348,25 @@
           "formulae": [
             "Percent = (Part ÷ Whole) × 100",
             "Amount = Percent × Whole ÷ 100"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Percentage)",
+            "explanation": "A percentage problem like 'find 25% of 80' is drawn as a bar of 80 split into 4 equal parts (since 25% is 1/4), so one part -- 20 -- is visibly the answer.",
+            "example": {
+              "headers": [
+                "Whole",
+                "Split Into",
+                "One Part (25%)"
+              ],
+              "rows": [
+                [
+                  "80",
+                  "4 equal parts",
+                  "20"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l2",
@@ -487,7 +505,30 @@
           },
           "formulae": [
             "If a:b = c:d, then a × d = b × c (cross-multiplication)"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Ratio)",
+            "explanation": "Singapore's hallmark 'ratio bars' represent a ratio like 3:2 as two bars of different lengths, each divided into equal units of the same size -- 3 units for one quantity and 2 units for the other -- so proportional relationships are seen directly.",
+            "example": {
+              "headers": [
+                "Quantity",
+                "Ratio Units",
+                "If 1 Unit = 10"
+              ],
+              "rows": [
+                [
+                  "First quantity",
+                  "3 units",
+                  "30"
+                ],
+                [
+                  "Second quantity",
+                  "2 units",
+                  "20"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l3",
@@ -1039,7 +1080,31 @@
           },
           "formulae": [
             "1/3 + 1/4 = 4/12 + 3/12 = 7/12"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Unlike Denominators)",
+            "explanation": "Adding 1/3 + 1/4 is modeled by drawing two bars of the same total length, one split into 3 parts and one into 4, then redrawing both split into 12 equal parts (the common denominator) so 4/12 + 3/12 = 7/12 is visible.",
+            "example": {
+              "headers": [
+                "Fraction",
+                "Common Denominator Parts"
+              ],
+              "rows": [
+                [
+                  "1/3",
+                  "4/12"
+                ],
+                [
+                  "1/4",
+                  "3/12"
+                ],
+                [
+                  "Sum",
+                  "7/12"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l8",
@@ -1112,7 +1177,27 @@
           "wiki_title": "Multiplying Fractions",
           "formulae": [
             "2/3 × 3/5 = (2 × 3)/(3 × 5) = 6/15 = 2/5 (simplified)"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Fraction of a Fraction)",
+            "explanation": "Multiplying 1/2 x 2/3 is modeled by shading 2/3 of a bar, then taking half of that shaded region, showing the overlap directly gives 2/6, which simplifies to 1/3.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "Shade 2/3 of the bar",
+                  "2/3"
+                ],
+                [
+                  "Take half of the shaded part",
+                  "1/3"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l9",
@@ -1185,7 +1270,25 @@
           "wiki_title": "Dividing Fractions",
           "formulae": [
             "1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2 (keep, change, flip)"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Dividing by a Fraction)",
+            "explanation": "Dividing 3 by 1/2 asks 'how many halves fit into 3 whole bars?' -- drawing 3 bars each split into 2 halves shows there are 6 halves in total, so 3 / (1/2) = 6.",
+            "example": {
+              "headers": [
+                "Whole Bars",
+                "Halves per Bar",
+                "Total Halves"
+              ],
+              "rows": [
+                [
+                  "3",
+                  "2",
+                  "6"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l10",
@@ -2971,7 +3074,31 @@
           "formulae": [
             "Total cost = (Price per item × Quantity) + Delivery fee",
             "Example: 4 books at $6 each plus $5 shipping = (4 × 6) + 5 = $29"
-          ]
+          ],
+          "singapore_math": {
+            "method": "Bar Model (Word Problems)",
+            "explanation": "Multi-operation word problems are solved by drawing a bar for each quantity described, aligning them to show comparisons or combined totals, and reading the answer from the resulting diagram before writing the number sentence.",
+            "example": {
+              "headers": [
+                "Step",
+                "Bar Model Action"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Draw a bar for each named quantity"
+                ],
+                [
+                  "2",
+                  "Mark 'more than' or 'less than' as extra or missing segments"
+                ],
+                [
+                  "3",
+                  "Use the diagram to write the correct operations"
+                ]
+              ]
+            }
+          }
         },
         {
           "id": "math-g5-l27",

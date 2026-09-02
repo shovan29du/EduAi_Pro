@@ -344,6 +344,24 @@
                 "100"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Repeated Groups)",
+            "explanation": "Multiplication tables are reinforced with equal-length bars: 6 x 7 is drawn as 6 bars of 7 units each (or 7 bars of 6 units), so students see the table fact as a picture, not just a memorized number.",
+            "example": {
+              "headers": [
+                "Bars",
+                "Units Each",
+                "Total"
+              ],
+              "rows": [
+                [
+                  "6",
+                  "7",
+                  "42"
+                ]
+              ]
+            }
           }
         },
         {
@@ -475,6 +493,24 @@
                 "5"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Sharing Equally)",
+            "explanation": "Long division builds on the sharing-bar model from Grade 2: dividing 84 by 4 is shown as one long bar of 84 split into 4 equal sections, each worked out to be 21.",
+            "example": {
+              "headers": [
+                "Total",
+                "Groups",
+                "Each Group"
+              ],
+              "rows": [
+                [
+                  "84",
+                  "4",
+                  "21"
+                ]
+              ]
+            }
           }
         },
         {
@@ -607,6 +643,29 @@
                 "6/8"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Bar Model (Fraction Comparison)",
+            "explanation": "To compare 2/3 and 3/4, Singapore Math draws two equal-length bars, one split into 3 parts (shading 2) and one split into 4 parts (shading 3), so the relative sizes are visible before any cross-multiplication.",
+            "example": {
+              "headers": [
+                "Fraction",
+                "Bar Divided Into",
+                "Parts Shaded"
+              ],
+              "rows": [
+                [
+                  "2/3",
+                  "3",
+                  "2"
+                ],
+                [
+                  "3/4",
+                  "4",
+                  "3"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1162,6 +1221,29 @@
                 "44"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds — Regrouping",
+            "explanation": "Addition with regrouping uses number bonds to show carrying: adding 47 + 38, the ones (7+8=15) bond into 1 ten and 5 ones, so the extra ten is regrouped into the tens column.",
+            "example": {
+              "headers": [
+                "Column",
+                "Sum",
+                "Regroup"
+              ],
+              "rows": [
+                [
+                  "Ones: 7 + 8",
+                  "15",
+                  "carry 1 ten, keep 5"
+                ],
+                [
+                  "Tens: 4 + 3 + 1",
+                  "8",
+                  "no further carry"
+                ]
+              ]
+            }
           }
         },
         {
@@ -1253,6 +1335,26 @@
                 "32"
               ]
             ]
+          },
+          "singapore_math": {
+            "method": "Number Bonds — Regrouping",
+            "explanation": "Subtraction with regrouping uses a number bond to 'borrow': for 52 - 27, the tens digit lends a ten to the ones column, turning 52 into 4 tens and 12 ones so 12 - 7 = 5 becomes possible.",
+            "example": {
+              "headers": [
+                "Step",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "Regroup 52 as",
+                  "4 tens + 12 ones"
+                ],
+                [
+                  "12 - 7, then 4 - 2",
+                  "5 and 2, giving 25"
+                ]
+              ]
+            }
           }
         },
         {

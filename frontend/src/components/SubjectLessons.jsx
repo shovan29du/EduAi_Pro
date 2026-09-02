@@ -415,6 +415,20 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
                 </table>
               </section>
             )}
+            {selected.singapore_math && (
+              <section className="mt-5 rounded-xl border border-red-200 bg-red-50 p-5 dark:border-red-800 dark:bg-red-950">
+                <h5 className="font-semibold">🇸🇬 Singapore Math approach: {selected.singapore_math.method}</h5>
+                <p className="mt-2 leading-7">{displayText(selected.singapore_math.explanation)}</p>
+                {selected.singapore_math.example?.headers?.length > 0 && (
+                  <div className="mt-3 overflow-x-auto">
+                    <table className="w-full border-collapse text-sm">
+                      <thead><tr>{selected.singapore_math.example.headers.map((header, index) => <th key={index} className="border bg-white p-2 text-left dark:bg-gray-800">{displayText(header)}</th>)}</tr></thead>
+                      <tbody>{(selected.singapore_math.example.rows || []).map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex} className="border p-2">{displayText(cell)}</td>)}</tr>)}</tbody>
+                    </table>
+                  </div>
+                )}
+              </section>
+            )}
             <div className="mt-5 grid gap-4 lg:grid-cols-2">
               {selected.graph && <LessonGraph graph={selected.graph} />}
               {selected.figure?.nodes?.length > 0 && (
