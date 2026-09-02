@@ -595,3 +595,31 @@ def test_grade9_has_full_depth_real_chart_coverage():
 
     photosynthesis = {l["id"]: l for l in data["subjects"]["Biology"]["lessons"]}["biology-g9-l24"]
     assert "6CO2 + 6H2O + light -> C6H12O6 + 6O2" in photosynthesis["formulae"]
+
+
+def test_grade10_has_full_depth_real_chart_coverage():
+    """Depth pass: every single lesson in every subject at Grade 10 should
+    have a genuine, verifiable data_table/graph/formulae. Grade 10 has 50
+    lessons per subject across 26 subjects (1300 total)."""
+    data = json.loads((SYLLABUS_DIR / "grade10.json").read_text(encoding="utf-8"))
+    total = 0
+    covered = 0
+    for subject_name, subject in data["subjects"].items():
+        for lesson in subject["lessons"]:
+            total += 1
+            has_content = bool(lesson.get("data_table") or lesson.get("graph") or lesson.get("formulae"))
+            if has_content:
+                covered += 1
+                if lesson.get("data_table"):
+                    assert lesson["data_table"]["headers"]
+                    assert lesson["data_table"]["rows"]
+                    for row in lesson["data_table"]["rows"]:
+                        assert len(row) == len(lesson["data_table"]["headers"])
+    assert total == 1300
+    assert covered == total, f"Grade 10 depth coverage incomplete: {covered}/{total}"
+
+    quadratic_formula = {l["id"]: l for l in data["subjects"]["Math"]["lessons"]}["math-g10-l6"]
+    assert "x = (-b +/- sqrt(b^2 - 4ac)) / 2a" in quadratic_formula["formulae"]
+
+    ohms_law = {l["id"]: l for l in data["subjects"]["Physics"]["lessons"]}["physics-g10-l27"]
+    assert "V = IR" in ohms_law["formulae"]
