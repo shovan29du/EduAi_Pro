@@ -1,0 +1,2371 @@
+{
+  "periods": [
+    {
+      "id": "deep_prehistory",
+      "label": "Deep Prehistory: Rise of the First Cities",
+      "years": "c. 5000–3001 BCE",
+      "emoji": "🏺",
+      "description": "Farming villages grow into the world's first true cities and complex societies along the Nile, Tigris-Euphrates, and Yellow River, while megalithic monument-builders are active in Atlantic Europe. Writing does not yet exist for most of this span -- the record comes from archaeology, not documents.",
+      "regions": [
+        {
+          "name": "Ubaid & Uruk period Mesopotamia (Uruk)",
+          "lat": 31.3225,
+          "lng": 45.6372,
+          "note": "Grew from a village into the world's first true city, with monumental temples by 3500 BCE."
+        },
+        {
+          "name": "Naqada culture Egypt (Naqada)",
+          "lat": 26.0725,
+          "lng": 32.7222,
+          "note": "Predynastic Upper Egyptian culture that laid the groundwork for the unification of Egypt."
+        },
+        {
+          "name": "Yangshao culture China (Banpo)",
+          "lat": 34.2667,
+          "lng": 108.9333,
+          "note": "Neolithic farming culture along the Yellow River, known for its distinctive painted pottery."
+        },
+        {
+          "name": "Vinca culture Europe (Vinca, near Belgrade)",
+          "lat": 44.7583,
+          "lng": 20.6142,
+          "note": "Advanced Copper Age culture in the Balkans with early proto-writing-like symbols on pottery."
+        },
+        {
+          "name": "Megalithic Atlantic Europe (Newgrange, Ireland)",
+          "lat": 53.6947,
+          "lng": -6.4753,
+          "note": "Passage tomb aligned to the winter solstice sunrise, older than Stonehenge or the Pyramids."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 4500 BCE",
+          "event": "The Vinca culture in the Balkans develops symbol systems on pottery, among the earliest proto-writing-like marks in Europe."
+        },
+        {
+          "year": "c. 3500 BCE",
+          "event": "Sumerians in Uruk develop the first true writing system, proto-cuneiform, initially for accounting."
+        },
+        {
+          "year": "c. 3400 BCE",
+          "event": "Construction begins at Newgrange in Ireland, a passage tomb older than Stonehenge or the Great Pyramid."
+        },
+        {
+          "year": "c. 3200 BCE",
+          "event": "The Egyptian hieroglyphic writing system emerges alongside Sumerian cuneiform, one of the world's first two independent scripts."
+        },
+        {
+          "year": "c. 3100 BCE",
+          "event": "Egypt is unified under King Narmer, traditionally marking the start of Ancient Egyptian civilization."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Babylonian Map of the World",
+          "year": "c. 700–500 BCE (depicting older Mesopotamian cosmology)",
+          "description": "Though the surviving clay tablet is later, it encodes a much older Mesopotamian world-view rooted in this era's first cities.",
+          "link": "https://en.wikipedia.org/wiki/Babylonian_Map_of_the_World"
+        }
+      ]
+    },
+    {
+      "id": "century_30_bce",
+      "label": "30th century BCE",
+      "years": "3000–2901 BCE",
+      "emoji": "🏛️",
+      "description": "Sumer's Early Dynastic city-states compete for dominance in Mesopotamia as Egypt's newly unified kingdom builds its first capital.",
+      "regions": [
+        {
+          "name": "Early Dynastic Sumer (Ur)",
+          "lat": 30.9625,
+          "lng": 46.1039,
+          "note": "One of the leading rival city-states of early Sumer, later famous for its royal tombs."
+        },
+        {
+          "name": "Early Dynastic Egypt (Memphis)",
+          "lat": 29.85,
+          "lng": 31.25,
+          "note": "Founded around this time as the capital of the newly unified kingdom of Egypt."
+        },
+        {
+          "name": "Early Harappan Indus Valley (Harappa)",
+          "lat": 30.6301,
+          "lng": 72.865,
+          "note": "Village settlements along the Indus begin growing into the towns that would become the Indus Valley Civilization."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2900 BCE",
+          "event": "The Early Dynastic Period begins in Sumer, with city-states such as Ur, Uruk, Kish, and Lagash competing for dominance."
+        },
+        {
+          "year": "c. 3000 BCE",
+          "event": "Memphis is founded as the capital of newly unified Egypt."
+        },
+        {
+          "year": "c. 2900 BCE",
+          "event": "Early Harappan culture begins developing across the Indus Valley."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_29_bce",
+      "label": "29th century BCE",
+      "years": "2900–2801 BCE",
+      "emoji": "🗿",
+      "description": "Sumerian city-states continue their rivalry while, far to the northwest, Neolithic Britain begins one of prehistory's most famous monuments.",
+      "regions": [
+        {
+          "name": "Early Dynastic Sumer (Uruk)",
+          "lat": 31.3225,
+          "lng": 45.6372,
+          "note": "Still among the largest and most influential cities in the world."
+        },
+        {
+          "name": "Neolithic Britain (Stonehenge)",
+          "lat": 51.1789,
+          "lng": -1.8262,
+          "note": "The first phase -- a circular ditch and bank -- is built around this century."
+        },
+        {
+          "name": "Old Kingdom Egypt (Memphis)",
+          "lat": 29.85,
+          "lng": 31.25,
+          "note": "Egypt's Early Dynastic kings consolidate control of the Nile Valley."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2900 BCE",
+          "event": "The first phase of Stonehenge -- a circular ditch and bank earthwork -- is constructed in southern England."
+        },
+        {
+          "year": "c. 2890 BCE",
+          "event": "Egypt's Second Dynasty rules from Memphis, continuing to consolidate the unified kingdom."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_28_bce",
+      "label": "28th century BCE",
+      "years": "2800–2701 BCE",
+      "emoji": "🧱",
+      "description": "Sumer's city-states build some of the world's first monumental temple towers (ziggurats), while Egypt approaches the age of pyramid-building.",
+      "regions": [
+        {
+          "name": "Early Dynastic Sumer (Kish)",
+          "lat": 32.5442,
+          "lng": 44.6475,
+          "note": "A powerful early city-state whose kings claimed a special legitimacy after the mythical Great Flood."
+        },
+        {
+          "name": "Old Kingdom Egypt (Memphis)",
+          "lat": 29.85,
+          "lng": 31.25,
+          "note": "Egypt's Second Dynasty gives way to the Third, setting the stage for the pyramid age."
+        },
+        {
+          "name": "Indus Valley (Mohenjo-daro, early phase)",
+          "lat": 27.3294,
+          "lng": 68.1358,
+          "note": "Early settlement precedes the city's later, famously planned urban layout."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2700 BCE",
+          "event": "Sumerian cities begin building the first ziggurats, stepped temple towers dedicated to their gods."
+        },
+        {
+          "year": "c. 2686 BCE",
+          "event": "Egypt's Third Dynasty begins, ushering in the Old Kingdom and the age of pyramid-building."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_27_bce",
+      "label": "27th century BCE",
+      "years": "2700–2601 BCE",
+      "emoji": "🐫",
+      "description": "Egypt builds the world's first great stone monument at Saqqara, while a king later remembered as Gilgamesh is traditionally dated to Sumerian Uruk.",
+      "regions": [
+        {
+          "name": "Old Kingdom Egypt (Saqqara)",
+          "lat": 29.8714,
+          "lng": 31.2164,
+          "note": "Site of the Step Pyramid of Djoser, the world's oldest large-scale cut-stone building."
+        },
+        {
+          "name": "Early Dynastic Sumer (Uruk)",
+          "lat": 31.3225,
+          "lng": 45.6372,
+          "note": "Traditional home of the legendary king Gilgamesh."
+        },
+        {
+          "name": "Early Dynastic Sumer (Lagash)",
+          "lat": 31.1833,
+          "lng": 46.3167,
+          "note": "A powerful city-state that would soon clash with its neighbour Umma."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2670 BCE",
+          "event": "Egypt's Step Pyramid of Djoser is built at Saqqara, designed by the official Imhotep -- the world's oldest large-scale cut-stone building."
+        },
+        {
+          "year": "c. 2700 BCE",
+          "event": "Gilgamesh, later hero of the Epic of Gilgamesh, is traditionally dated as a historical king of Uruk around this era."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_26_bce",
+      "label": "26th century BCE",
+      "years": "2600–2501 BCE",
+      "emoji": "🐫",
+      "description": "Egypt builds the Great Pyramid of Giza, its most famous monument, while the Indus Valley Civilization enters its mature urban phase.",
+      "regions": [
+        {
+          "name": "Old Kingdom Egypt (Giza)",
+          "lat": 29.9792,
+          "lng": 31.1342,
+          "note": "Site of the Great Pyramid, built for Pharaoh Khufu -- the last of the Seven Wonders of the Ancient World still standing."
+        },
+        {
+          "name": "Mature Harappan Indus Valley (Mohenjo-daro)",
+          "lat": 27.3294,
+          "lng": 68.1358,
+          "note": "Enters its famous mature phase, with grid-planned streets and advanced drainage systems."
+        },
+        {
+          "name": "Early Dynastic Sumer (Ur)",
+          "lat": 30.9625,
+          "lng": 46.1039,
+          "note": "Continues to flourish as one of Sumer's leading cities."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2560 BCE",
+          "event": "The Great Pyramid of Giza is completed for Pharaoh Khufu."
+        },
+        {
+          "year": "c. 2600 BCE",
+          "event": "The Indus Valley Civilization enters its mature urban phase at Mohenjo-daro and Harappa, with grid-planned streets and advanced drainage."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_25_bce",
+      "label": "25th century BCE",
+      "years": "2500–2401 BCE",
+      "emoji": "⚔️",
+      "description": "Egypt's Old Kingdom continues building pyramids while Sumer's city-states fight one of history's earliest recorded wars.",
+      "regions": [
+        {
+          "name": "Old Kingdom Egypt (Abusir)",
+          "lat": 29.8944,
+          "lng": 31.2119,
+          "note": "Site of Fifth Dynasty sun temples and pyramids."
+        },
+        {
+          "name": "Early Dynastic Sumer (Lagash)",
+          "lat": 31.1833,
+          "lng": 46.3167,
+          "note": "Erects the Stele of the Vultures to commemorate victory over neighbouring Umma."
+        },
+        {
+          "name": "Early Dynastic Sumer (Umma)",
+          "lat": 31.6167,
+          "lng": 45.8667,
+          "note": "Lagash's rival in one of history's earliest recorded border wars."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2450 BCE",
+          "event": "The Stele of the Vultures commemorates a border war between the Sumerian city-states of Lagash and Umma -- the earliest known depiction of organized warfare in a historical narrative."
+        },
+        {
+          "year": "c. 2400 BCE",
+          "event": "Egypt's Fifth Dynasty pharaohs build sun temples at Abusir, reflecting the growing importance of the sun god Ra."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_24_bce",
+      "label": "24th century BCE",
+      "years": "2400–2301 BCE",
+      "emoji": "👑",
+      "description": "Sargon of Akkad conquers Sumer's city-states and founds the world's first empire, unifying Mesopotamia under a single ruler for the first time.",
+      "regions": [
+        {
+          "name": "Akkadian Empire (Akkad, exact site unknown)",
+          "lat": 32.6,
+          "lng": 44.4,
+          "note": "Capital of the world's first empire, founded by Sargon -- its exact location has never been rediscovered."
+        },
+        {
+          "name": "Sumer (Uruk, now under Akkadian rule)",
+          "lat": 31.3225,
+          "lng": 45.6372,
+          "note": "Absorbed into the new Akkadian Empire along with the other Sumerian city-states."
+        },
+        {
+          "name": "Old Kingdom Egypt (Memphis)",
+          "lat": 29.85,
+          "lng": 31.25,
+          "note": "Egypt's Sixth Dynasty rules a still-stable Old Kingdom."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2334 BCE",
+          "event": "Sargon of Akkad conquers the Sumerian city-states and founds the Akkadian Empire, often called history's first empire."
+        },
+        {
+          "year": "c. 2300 BCE",
+          "event": "Sargon's empire stretches from the Persian Gulf to the Mediterranean, the largest political unit yet seen."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_23_bce",
+      "label": "23rd century BCE",
+      "years": "2300–2201 BCE",
+      "emoji": "📉",
+      "description": "The Akkadian Empire reaches its peak under Naram-Sin, while Egypt's Old Kingdom begins to weaken.",
+      "regions": [
+        {
+          "name": "Akkadian Empire (Nineveh)",
+          "lat": 36.3612,
+          "lng": 43.15,
+          "note": "An important northern city absorbed into the growing Akkadian Empire."
+        },
+        {
+          "name": "Old Kingdom Egypt (Memphis)",
+          "lat": 29.85,
+          "lng": 31.25,
+          "note": "The Old Kingdom's central authority begins to weaken toward the century's end."
+        },
+        {
+          "name": "Elam (Susa)",
+          "lat": 32.1889,
+          "lng": 48.2517,
+          "note": "A rival power in what is now south-western Iran, in on-and-off conflict with Akkad."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2250 BCE",
+          "event": "Naram-Sin expands the Akkadian Empire to its greatest extent and is the first Mesopotamian king to claim divine status."
+        },
+        {
+          "year": "c. 2181 BCE",
+          "event": "Egypt's Old Kingdom collapses at the end of the Sixth Dynasty, beginning the First Intermediate Period."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_22_bce",
+      "label": "22nd century BCE",
+      "years": "2200–2101 BCE",
+      "emoji": "🌾",
+      "description": "The Akkadian Empire collapses amid invasion and a severe, well-documented drought, while Egypt fragments into rival regional powers.",
+      "regions": [
+        {
+          "name": "Former Akkadian Empire (Akkad region)",
+          "lat": 32.6,
+          "lng": 44.4,
+          "note": "Falls to invasions by the Gutians and a severe, archaeologically documented drought."
+        },
+        {
+          "name": "First Intermediate Period Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Rises as a rival power centre as central authority in Memphis weakens."
+        },
+        {
+          "name": "Gutian-controlled Mesopotamia (Nippur)",
+          "lat": 32.1181,
+          "lng": 45.2394,
+          "note": "A major religious centre that endures through the turmoil of the era."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2154 BCE",
+          "event": "The Akkadian Empire collapses amid Gutian invasions and a severe, archaeologically documented regional drought."
+        },
+        {
+          "year": "c. 2160 BCE",
+          "event": "Egypt fragments into competing regional power centres during the First Intermediate Period."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_21_bce",
+      "label": "21st century BCE",
+      "years": "2100–2001 BCE",
+      "emoji": "⚖️",
+      "description": "Ur-Nammu founds the Third Dynasty of Ur and issues history's oldest surviving law code, while Egypt is reunified under the Middle Kingdom.",
+      "regions": [
+        {
+          "name": "Third Dynasty of Ur (Ur)",
+          "lat": 30.9625,
+          "lng": 46.1039,
+          "note": "Capital of a new Sumerian empire and issuer of the oldest surviving written law code."
+        },
+        {
+          "name": "Middle Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Base of Mentuhotep II, who reunifies Egypt and founds the Middle Kingdom."
+        },
+        {
+          "name": "Elam (Susa)",
+          "lat": 32.1889,
+          "lng": 48.2517,
+          "note": "Remains a significant regional power neighbouring Ur's new empire."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2112 BCE",
+          "event": "Ur-Nammu founds the Third Dynasty of Ur and issues the Code of Ur-Nammu, the oldest surviving written law code -- predating Hammurabi's by roughly three centuries."
+        },
+        {
+          "year": "c. 2055 BCE",
+          "event": "Mentuhotep II reunifies Egypt after the First Intermediate Period, founding the Middle Kingdom."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_20_bce",
+      "label": "20th century BCE",
+      "years": "2000–1901 BCE",
+      "emoji": "🏺",
+      "description": "The Third Dynasty of Ur falls to Elamite invaders while Egypt's Middle Kingdom flourishes under a new dynasty and Assyrian merchants pioneer long-distance trade.",
+      "regions": [
+        {
+          "name": "Ur (falls c. 2004 BCE)",
+          "lat": 30.9625,
+          "lng": 46.1039,
+          "note": "Sacked by Elamite invaders, ending the Third Dynasty of Ur."
+        },
+        {
+          "name": "Middle Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Base of the newly founded Twelfth Dynasty."
+        },
+        {
+          "name": "Assyrian trade colony (Kanesh, Anatolia)",
+          "lat": 38.8,
+          "lng": 35.75,
+          "note": "One of the earliest known long-distance trading colonies, run by Assyrian merchants."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 2004 BCE",
+          "event": "Elamite invaders sack Ur, ending the Third Dynasty of Ur."
+        },
+        {
+          "year": "c. 1991 BCE",
+          "event": "Amenemhat I founds Egypt's Twelfth Dynasty, a high point of Middle Kingdom culture."
+        },
+        {
+          "year": "c. 1950 BCE",
+          "event": "Assyrian merchants establish long-distance trading colonies in Anatolia, such as Kanesh."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_19_bce",
+      "label": "19th century BCE",
+      "years": "1900–1801 BCE",
+      "emoji": "🏰",
+      "description": "Babylon rises as an independent city-state under an Amorite dynasty, while Minoan Crete builds its first great palaces.",
+      "regions": [
+        {
+          "name": "Babylon (newly independent)",
+          "lat": 32.5355,
+          "lng": 44.4275,
+          "note": "Founded as an independent Amorite-ruled city-state, beginning its rise to prominence."
+        },
+        {
+          "name": "Minoan Crete (Knossos)",
+          "lat": 35.298,
+          "lng": 25.1633,
+          "note": "Builds its first great palace, launching the flourishing of Minoan civilization."
+        },
+        {
+          "name": "Middle Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Continues to prosper under the Twelfth Dynasty."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1894 BCE",
+          "event": "Babylon is founded as an independent city-state under an Amorite dynasty."
+        },
+        {
+          "year": "c. 1900 BCE",
+          "event": "Minoan Crete's first palaces are built at Knossos and Phaistos, launching its Bronze Age civilization."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_18_bce",
+      "label": "18th century BCE",
+      "years": "1800–1701 BCE",
+      "emoji": "📜",
+      "description": "Hammurabi unites Mesopotamia under Babylon and issues one of history's most famous law codes.",
+      "regions": [
+        {
+          "name": "Babylon (under Hammurabi)",
+          "lat": 32.5355,
+          "lng": 44.4275,
+          "note": "Becomes the dominant power in Mesopotamia under King Hammurabi."
+        },
+        {
+          "name": "Middle Kingdom Egypt, declining (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "The Middle Kingdom weakens as the Thirteenth Dynasty struggles to hold power."
+        },
+        {
+          "name": "Nile Delta (early Hyksos settlement)",
+          "lat": 30.8,
+          "lng": 31.2,
+          "note": "Semitic-speaking settlers from the Levant begin establishing themselves, foreshadowing Hyksos rule."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1792 BCE",
+          "event": "Hammurabi becomes king of Babylon."
+        },
+        {
+          "year": "c. 1754 BCE",
+          "event": "Hammurabi issues his famous law code, one of the earliest and most complete legal codes to survive."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_17_bce",
+      "label": "17th century BCE",
+      "years": "1700–1601 BCE",
+      "emoji": "🌋",
+      "description": "The Hyksos come to rule northern Egypt as the Hittite kingdom forms in Anatolia, while a massive volcanic eruption devastates the Minoan world.",
+      "regions": [
+        {
+          "name": "Hyksos Egypt (Avaris)",
+          "lat": 30.7833,
+          "lng": 31.8167,
+          "note": "Capital of the Hyksos Fifteenth Dynasty, which ruled northern Egypt during the Second Intermediate Period."
+        },
+        {
+          "name": "Hittite Old Kingdom (Hattusa)",
+          "lat": 40.0181,
+          "lng": 34.6167,
+          "note": "Newly founded capital of the rising Hittite kingdom in Anatolia."
+        },
+        {
+          "name": "Minoan Crete (Thera/Santorini)",
+          "lat": 36.3932,
+          "lng": 25.4615,
+          "note": "A catastrophic volcanic eruption devastates this Minoan outpost and weakens Crete's civilization."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1650 BCE",
+          "event": "The Hyksos establish the Fifteenth Dynasty, ruling northern Egypt during the Second Intermediate Period."
+        },
+        {
+          "year": "c. 1650 BCE",
+          "event": "Hattusili I founds the Hittite Old Kingdom in Anatolia."
+        },
+        {
+          "year": "c. 1600 BCE",
+          "event": "A massive volcanic eruption at Thera (Santorini) devastates the Minoan world (exact date debated among scholars)."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_16_bce",
+      "label": "16th century BCE",
+      "years": "1600–1501 BCE",
+      "emoji": "🐉",
+      "description": "Egypt's New Kingdom begins after expelling the Hyksos, while China's Shang Dynasty -- the first with contemporary written records -- rises along the Yellow River.",
+      "regions": [
+        {
+          "name": "New Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Ahmose I expels the Hyksos and founds Egypt's New Kingdom here."
+        },
+        {
+          "name": "Shang Dynasty China (Anyang)",
+          "lat": 36.0997,
+          "lng": 114.3931,
+          "note": "Traditional heartland of China's first dynasty with contemporary written records (oracle bones)."
+        },
+        {
+          "name": "Babylon (falls to the Hittites)",
+          "lat": 32.5355,
+          "lng": 44.4275,
+          "note": "Sacked by a Hittite raid around 1595 BCE, ending the Old Babylonian dynasty."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1600 BCE",
+          "event": "Traditional founding date of China's Shang Dynasty, the first Chinese dynasty documented by contemporary written records."
+        },
+        {
+          "year": "c. 1595 BCE",
+          "event": "A Hittite raid sacks Babylon, ending the Old Babylonian dynasty founded by Hammurabi."
+        },
+        {
+          "year": "c. 1550 BCE",
+          "event": "Ahmose I expels the Hyksos from Egypt and founds the New Kingdom."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_15_bce",
+      "label": "15th century BCE",
+      "years": "1500–1401 BCE",
+      "emoji": "👸",
+      "description": "Egypt's New Kingdom empire reaches new heights under a powerful female pharaoh, while Mycenaean Greeks take control of Minoan Crete.",
+      "regions": [
+        {
+          "name": "New Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Hatshepsut, one of history's few female pharaohs, rules a prosperous and expansive Egypt."
+        },
+        {
+          "name": "Mycenaean Greece (Mycenae)",
+          "lat": 37.7307,
+          "lng": 22.7563,
+          "note": "Rises to dominance on the Greek mainland, building fortified palace-citadels."
+        },
+        {
+          "name": "Minoan Crete (Knossos, taken over)",
+          "lat": 35.298,
+          "lng": 25.1633,
+          "note": "Comes under Mycenaean Greek control, absorbing Minoan civilization."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1479 BCE",
+          "event": "Hatshepsut becomes one of ancient Egypt's few female pharaohs, ruling a prosperous era of trade and monument-building."
+        },
+        {
+          "year": "c. 1450 BCE",
+          "event": "Mycenaean Greeks take control of Knossos, absorbing Minoan Crete into their sphere."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_14_bce",
+      "label": "14th century BCE",
+      "years": "1400–1301 BCE",
+      "emoji": "☀️",
+      "description": "Pharaoh Akhenaten launches a radical religious revolution in Egypt, briefly replacing its many gods with worship of a single sun disc, before his famous successor restores tradition.",
+      "regions": [
+        {
+          "name": "Amarna Period Egypt (Akhetaten)",
+          "lat": 27.6453,
+          "lng": 30.902,
+          "note": "New capital built by Akhenaten for the worship of the sun-disc god Aten."
+        },
+        {
+          "name": "New Kingdom Egypt (Thebes, restored)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Traditional religion and the old capital are restored under Tutankhamun."
+        },
+        {
+          "name": "Hittite Empire (Hattusa)",
+          "lat": 40.0181,
+          "lng": 34.6167,
+          "note": "Becomes a major rival power to Egypt in the Near East."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1353 BCE",
+          "event": "Pharaoh Akhenaten institutes worship of a single god, the sun disc Aten, and builds a new capital at Akhetaten."
+        },
+        {
+          "year": "c. 1332 BCE",
+          "event": "Tutankhamun becomes pharaoh and restores Egypt's traditional religion after Akhenaten's death."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_13_bce",
+      "label": "13th century BCE",
+      "years": "1300–1201 BCE",
+      "emoji": "🕊️",
+      "description": "Egypt and the Hittite Empire fight one of the ancient world's best-documented battles, then sign history's oldest surviving peace treaty.",
+      "regions": [
+        {
+          "name": "Battle of Kadesh site",
+          "lat": 34.5833,
+          "lng": 36.5,
+          "note": "Site of a massive chariot battle between Egypt and the Hittite Empire."
+        },
+        {
+          "name": "New Kingdom Egypt (Thebes)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Ramesses II rules during Egypt's last great imperial peak."
+        },
+        {
+          "name": "Hittite Empire (Hattusa)",
+          "lat": 40.0181,
+          "lng": 34.6167,
+          "note": "Signs a landmark peace treaty with Egypt after decades of rivalry."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1274 BCE",
+          "event": "The Battle of Kadesh is fought between Egypt and the Hittite Empire, one of the best-documented battles of the ancient world."
+        },
+        {
+          "year": "c. 1259 BCE",
+          "event": "Egypt and the Hittites sign the Treaty of Kadesh, the oldest known peace treaty to survive in full."
+        },
+        {
+          "year": "c. 1200 BCE",
+          "event": "The traditional (legendary) date for the Trojan War described in Homer's later epic poem the Iliad."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_12_bce",
+      "label": "12th century BCE",
+      "years": "1200–1101 BCE",
+      "emoji": "💥",
+      "description": "The Bronze Age Collapse: within a few decades, the Hittite Empire falls, Mycenaean palaces are destroyed, and the eastern Mediterranean's international trade network disintegrates.",
+      "regions": [
+        {
+          "name": "Hittite Empire (Hattusa, destroyed)",
+          "lat": 40.0181,
+          "lng": 34.6167,
+          "note": "The Hittite capital is destroyed and the empire collapses entirely."
+        },
+        {
+          "name": "Mycenaean Greece (Mycenae, destroyed)",
+          "lat": 37.7307,
+          "lng": 22.7563,
+          "note": "Mycenaean palace centres across Greece are destroyed within a few decades."
+        },
+        {
+          "name": "Ugarit (destroyed)",
+          "lat": 35.6019,
+          "lng": 35.7797,
+          "note": "A major Syrian trading city, abandoned after destruction and never resettled."
+        },
+        {
+          "name": "New Kingdom Egypt (weakened)",
+          "lat": 25.6872,
+          "lng": 32.6396,
+          "note": "Repels an invasion of the mysterious \"Sea Peoples\" but is permanently weakened."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1200–1150 BCE",
+          "event": "The Bronze Age Collapse: the Hittite Empire falls, Mycenaean palace centres are destroyed, and Ugarit is abandoned, all within a few decades."
+        },
+        {
+          "year": "c. 1177 BCE",
+          "event": "Egypt repels an invasion by the mysterious \"Sea Peoples\" under Ramesses III, though the empire is permanently weakened."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_11_bce",
+      "label": "11th century BCE",
+      "years": "1100–1001 BCE",
+      "emoji": "🏹",
+      "description": "China's Zhou Dynasty overthrows the Shang to begin the longest-reigning dynasty in Chinese history, while Assyria rebuilds its power in the wake of the Bronze Age Collapse.",
+      "regions": [
+        {
+          "name": "Zhou Dynasty China (Fenghao, near modern Xi'an)",
+          "lat": 34.3416,
+          "lng": 108.9398,
+          "note": "New capital of the Zhou Dynasty after overthrowing the Shang."
+        },
+        {
+          "name": "Middle Assyrian Empire (Assur)",
+          "lat": 35.4553,
+          "lng": 43.2601,
+          "note": "Expands its territory and influence under Tiglath-Pileser I."
+        },
+        {
+          "name": "Levant (Israelite kingdoms, traditional)",
+          "lat": 31.7683,
+          "lng": 35.2137,
+          "note": "According to biblical tradition, a united Israelite kingdom emerges around this era -- a period much debated among historians and archaeologists."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1100 BCE",
+          "event": "Assyrian king Tiglath-Pileser I expands the Middle Assyrian Empire's territory and influence."
+        },
+        {
+          "year": "c. 1046 BCE",
+          "event": "China's Zhou Dynasty overthrows the Shang at the Battle of Muye, beginning the longest-reigning dynasty in Chinese history."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_10_bce",
+      "label": "10th century BCE",
+      "years": "1000–901 BCE",
+      "emoji": "⛵",
+      "description": "Phoenician city-states spread trade colonies and their alphabet across the Mediterranean, the ancestor of the Greek and Latin alphabets.",
+      "regions": [
+        {
+          "name": "Phoenicia (Tyre)",
+          "lat": 33.2704,
+          "lng": 35.2038,
+          "note": "Leading Phoenician city-state, spreading trade colonies and the alphabet across the Mediterranean."
+        },
+        {
+          "name": "Kingdom of Israel and Judah (Jerusalem)",
+          "lat": 31.7683,
+          "lng": 35.2137,
+          "note": "According to biblical tradition, King Solomon builds the First Temple here."
+        },
+        {
+          "name": "Neo-Assyrian Empire (Assur)",
+          "lat": 35.4553,
+          "lng": 43.2601,
+          "note": "A relatively quiet century for Assyria before its coming imperial expansion."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1000–900 BCE",
+          "event": "Phoenician city-states such as Tyre, Sidon, and Byblos spread trade colonies and their alphabet across the Mediterranean -- the ancestor of the Greek and Latin alphabets."
+        },
+        {
+          "year": "c. 957 BCE",
+          "event": "According to biblical tradition, King Solomon builds the First Temple in Jerusalem."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_9_bce",
+      "label": "9th century BCE",
+      "years": "900–801 BCE",
+      "emoji": "🐘",
+      "description": "The Neo-Assyrian Empire begins its rapid expansion, Phoenicians found Carthage in North Africa, and the independent Kingdom of Kush rises in Nubia.",
+      "regions": [
+        {
+          "name": "Neo-Assyrian Empire (Nimrud)",
+          "lat": 36.0975,
+          "lng": 43.325,
+          "note": "New capital as Ashurnasirpal II begins the Neo-Assyrian Empire's rapid expansion."
+        },
+        {
+          "name": "Carthage (newly founded)",
+          "lat": 36.8065,
+          "lng": 10.323,
+          "note": "Founded by Phoenician colonists from Tyre; would grow into a great Mediterranean power."
+        },
+        {
+          "name": "Kingdom of Kush (Napata)",
+          "lat": 18.5364,
+          "lng": 31.8228,
+          "note": "Rises as an independent Nubian kingdom south of Egypt."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 883 BCE",
+          "event": "Ashurnasirpal II begins the Neo-Assyrian Empire's rapid expansion, moving the capital to Nimrud."
+        },
+        {
+          "year": "c. 814 BCE",
+          "event": "Phoenician colonists from Tyre found Carthage in North Africa."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_8_bce",
+      "label": "8th century BCE",
+      "years": "800–701 BCE",
+      "emoji": "🏛️",
+      "description": "Rome and the Olympic Games are traditionally founded, Greek city-states begin colonizing the Mediterranean, and a Nubian dynasty conquers and rules Egypt.",
+      "regions": [
+        {
+          "name": "Rome (traditional founding)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Traditionally founded in 753 BCE, beginning what would become Rome's long history."
+        },
+        {
+          "name": "Olympia, Greece",
+          "lat": 37.6381,
+          "lng": 21.6306,
+          "note": "Site of the first Olympic Games, traditionally dated to 776 BCE."
+        },
+        {
+          "name": "Kushite Egypt (Napata)",
+          "lat": 18.5364,
+          "lng": 31.8228,
+          "note": "King Piye conquers Egypt, founding its Twenty-fifth (\"Nubian\") Dynasty."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 776 BCE",
+          "event": "Traditional date of the first Olympic Games in Greece."
+        },
+        {
+          "year": "c. 753 BCE",
+          "event": "Traditional founding date of Rome."
+        },
+        {
+          "year": "c. 730s BCE",
+          "event": "Kushite king Piye conquers Egypt, founding Egypt's Twenty-fifth (\"Nubian\") Dynasty."
+        },
+        {
+          "year": "722 BCE",
+          "event": "The Neo-Assyrian Empire conquers the Kingdom of Israel."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_7_bce",
+      "label": "7th century BCE",
+      "years": "700–601 BCE",
+      "emoji": "📚",
+      "description": "The Neo-Assyrian Empire reaches its height, building the ancient world's largest library, before collapsing with startling speed at the century's end.",
+      "regions": [
+        {
+          "name": "Neo-Assyrian Empire (Nineveh)",
+          "lat": 36.3612,
+          "lng": 43.15,
+          "note": "Ashurbanipal builds a great library here, the largest in the ancient Near East, before the empire's sudden collapse."
+        },
+        {
+          "name": "Neo-Babylonian Mesopotamia (Babylon)",
+          "lat": 32.5355,
+          "lng": 44.4275,
+          "note": "Rises as Assyria's power fades, soon to become the region's dominant power."
+        },
+        {
+          "name": "Kingdom of Media (Ecbatana)",
+          "lat": 34.7983,
+          "lng": 48.5148,
+          "note": "Allies with Babylon to help bring down the Assyrian Empire."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 668 BCE",
+          "event": "Ashurbanipal becomes king of Assyria and builds a great library at Nineveh, the largest in the ancient Near East."
+        },
+        {
+          "year": "612 BCE",
+          "event": "Nineveh falls to a coalition of Babylonians and Medes, effectively ending the Assyrian Empire."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_6_bce",
+      "label": "6th century BCE",
+      "years": "600–501 BCE",
+      "emoji": "👑",
+      "description": "Babylon reaches a final peak under Nebuchadnezzar II before Cyrus the Great conquers it and founds the vast Achaemenid Persian Empire; Rome overthrows its monarchy and Confucius is born in China.",
+      "regions": [
+        {
+          "name": "Neo-Babylonian Empire (Babylon)",
+          "lat": 32.5355,
+          "lng": 44.4275,
+          "note": "Reaches a final peak under Nebuchadnezzar II before falling to Cyrus the Great."
+        },
+        {
+          "name": "Achaemenid Persian Empire (Pasargadae)",
+          "lat": 30.1928,
+          "lng": 53.1746,
+          "note": "Capital built by Cyrus the Great, founder of the vast Achaemenid Persian Empire."
+        },
+        {
+          "name": "Roman Republic (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Overthrows its monarchy and founds the Roman Republic."
+        }
+      ],
+      "events": [
+        {
+          "year": "586 BCE",
+          "event": "Nebuchadnezzar II destroys Jerusalem and the First Temple, beginning the Babylonian exile."
+        },
+        {
+          "year": "c. 551 BCE",
+          "event": "Confucius is born in China; his teachings would shape Chinese thought for millennia."
+        },
+        {
+          "year": "c. 550 BCE",
+          "event": "Cyrus the Great founds the Achaemenid Persian Empire."
+        },
+        {
+          "year": "539 BCE",
+          "event": "Cyrus the Great conquers Babylon."
+        },
+        {
+          "year": "509 BCE",
+          "event": "Rome overthrows its monarchy and founds the Roman Republic."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_5_bce",
+      "label": "5th century BCE",
+      "years": "500–401 BCE",
+      "emoji": "⚔️",
+      "description": "Greek city-states repel the Persian Empire, Athens enters its golden age under Pericles, and Athens and Sparta then exhaust each other in a long, ruinous war.",
+      "regions": [
+        {
+          "name": "Achaemenid Persia (Persepolis)",
+          "lat": 29.9353,
+          "lng": 52.8916,
+          "note": "Ceremonial capital of the Persian Empire during its wars with Greece."
+        },
+        {
+          "name": "Classical Athens",
+          "lat": 37.9838,
+          "lng": 23.7275,
+          "note": "Reaches its golden age under Pericles, building the Parthenon."
+        },
+        {
+          "name": "Sparta",
+          "lat": 37.0739,
+          "lng": 22.4304,
+          "note": "Athens's great rival in the long, devastating Peloponnesian War."
+        }
+      ],
+      "events": [
+        {
+          "year": "490–479 BCE",
+          "event": "The Greco-Persian Wars, including the battles of Marathon, Thermopylae, and Salamis."
+        },
+        {
+          "year": "c. 447 BCE",
+          "event": "Construction begins on the Parthenon in Athens."
+        },
+        {
+          "year": "431–404 BCE",
+          "event": "The Peloponnesian War between Athens and Sparta ends in Spartan victory but leaves both exhausted."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_4_bce",
+      "label": "4th century BCE",
+      "years": "400–301 BCE",
+      "emoji": "🐎",
+      "description": "Alexander the Great conquers the Persian Empire and builds one of history's largest empires, while the Maurya Empire rises in India.",
+      "regions": [
+        {
+          "name": "Macedon (Pella)",
+          "lat": 40.7623,
+          "lng": 22.525,
+          "note": "Capital of Macedon, homeland of Alexander the Great."
+        },
+        {
+          "name": "Alexander's Empire (Persepolis, conquered)",
+          "lat": 29.9353,
+          "lng": 52.8916,
+          "note": "Falls to Alexander the Great, symbolizing the end of the Achaemenid Persian Empire."
+        },
+        {
+          "name": "Maurya Empire (Pataliputra)",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "note": "Capital of the newly founded Maurya Empire under Chandragupta Maurya."
+        }
+      ],
+      "events": [
+        {
+          "year": "336–323 BCE",
+          "event": "Alexander the Great conquers the Persian Empire, creating one of history's largest empires before his early death."
+        },
+        {
+          "year": "c. 322 BCE",
+          "event": "Chandragupta Maurya founds the Maurya Empire in India."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_3_bce",
+      "label": "3rd century BCE",
+      "years": "300–201 BCE",
+      "emoji": "🏯",
+      "description": "Alexander's empire splits into rival Hellenistic kingdoms, Ashoka spreads Buddhism across India, Qin Shi Huang unifies China as its first emperor, and Rome and Carthage fight for control of the western Mediterranean.",
+      "regions": [
+        {
+          "name": "Ptolemaic Egypt (Alexandria)",
+          "lat": 31.2001,
+          "lng": 29.9187,
+          "note": "One of the great Hellenistic kingdoms formed after Alexander's empire split among his generals."
+        },
+        {
+          "name": "Maurya Empire under Ashoka (Pataliputra)",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "note": "Ashoka converts to Buddhism and spreads it across India after a bloody conquest."
+        },
+        {
+          "name": "Qin Dynasty China (Xianyang)",
+          "lat": 34.3297,
+          "lng": 108.7092,
+          "note": "Capital of Qin Shi Huang, who unifies China and becomes its first emperor."
+        },
+        {
+          "name": "Carthage",
+          "lat": 36.8065,
+          "lng": 10.323,
+          "note": "Rome's great rival in the Punic Wars for control of the western Mediterranean."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 268 BCE",
+          "event": "Ashoka becomes emperor of the Maurya Empire and later converts to Buddhism, spreading it across India."
+        },
+        {
+          "year": "264–241 BCE",
+          "event": "Rome and Carthage fight the First Punic War."
+        },
+        {
+          "year": "221 BCE",
+          "event": "Qin Shi Huang unifies China and becomes its first emperor, standardizing writing, currency, and measurements."
+        },
+        {
+          "year": "218–201 BCE",
+          "event": "Hannibal leads Carthage in the Second Punic War against Rome, famously crossing the Alps with war elephants."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_2_bce",
+      "label": "2nd century BCE",
+      "years": "200–101 BCE",
+      "emoji": "🐫",
+      "description": "Rome destroys Carthage and conquers Greece in the same year, while Han Dynasty China opens contact with Central Asia, laying the groundwork for the Silk Road.",
+      "regions": [
+        {
+          "name": "Roman Republic (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Destroys Carthage and conquers Greece, becoming the dominant Mediterranean power."
+        },
+        {
+          "name": "Han Dynasty China (Chang'an)",
+          "lat": 34.3416,
+          "lng": 108.9398,
+          "note": "Emperor Wu of Han sends envoy Zhang Qian west, opening contact with Central Asia."
+        },
+        {
+          "name": "Seleucid Judea (Jerusalem)",
+          "lat": 31.7683,
+          "lng": 35.2137,
+          "note": "Site of the Maccabean Revolt against Seleucid rule."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 167 BCE",
+          "event": "The Maccabean Revolt begins in Judea against Seleucid rule."
+        },
+        {
+          "year": "c. 138 BCE",
+          "event": "Han Dynasty envoy Zhang Qian opens contact with Central Asia, laying the groundwork for the Silk Road."
+        },
+        {
+          "year": "146 BCE",
+          "event": "Rome destroys Carthage in the Third Punic War and conquers Greece in the same year."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_1_bce",
+      "label": "1st century BCE",
+      "years": "100–1 BCE",
+      "emoji": "👑",
+      "description": "Julius Caesar conquers Gaul and is assassinated, Cleopatra's Egypt falls to Rome, and Augustus becomes Rome's first emperor, ending the Republic and beginning the Roman Empire.",
+      "regions": [
+        {
+          "name": "Roman Republic, then Empire (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Julius Caesar's rise and assassination give way to Augustus becoming Rome's first emperor."
+        },
+        {
+          "name": "Ptolemaic Egypt (Alexandria, falls to Rome)",
+          "lat": 31.2001,
+          "lng": 29.9187,
+          "note": "Cleopatra VII's Egypt, the last major Hellenistic kingdom, becomes a Roman province."
+        },
+        {
+          "name": "Gaul (conquered by Rome)",
+          "lat": 46.2276,
+          "lng": 2.2137,
+          "note": "Conquered by Julius Caesar in a campaign that made his political career."
+        }
+      ],
+      "events": [
+        {
+          "year": "58–50 BCE",
+          "event": "Julius Caesar conquers Gaul."
+        },
+        {
+          "year": "44 BCE",
+          "event": "Julius Caesar is assassinated in the Roman Senate."
+        },
+        {
+          "year": "31 BCE",
+          "event": "Octavian defeats Mark Antony and Cleopatra at the Battle of Actium."
+        },
+        {
+          "year": "27 BCE",
+          "event": "Octavian becomes Augustus, Rome's first emperor, beginning the Roman Empire."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_1_ce",
+      "label": "1st century CE",
+      "years": "1–100 CE",
+      "emoji": "✝️",
+      "description": "Jesus of Nazareth's ministry begins the spread of Christianity, Rome burns and rebuilds under Nero, and Roman forces destroy the Second Temple in Jerusalem.",
+      "regions": [
+        {
+          "name": "Roman Judea (Jerusalem)",
+          "lat": 31.7683,
+          "lng": 35.2137,
+          "note": "Jesus of Nazareth is crucified here around 30 CE; the Second Temple is destroyed by Roman forces in 70 CE."
+        },
+        {
+          "name": "Roman Empire (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Rules under the Julio-Claudian and Flavian emperors, including the Great Fire of 64 CE."
+        },
+        {
+          "name": "Roman Italy (Pompeii)",
+          "lat": 40.7509,
+          "lng": 14.4849,
+          "note": "Buried by the eruption of Mount Vesuvius in 79 CE, preserving a snapshot of Roman daily life."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 30 CE",
+          "event": "Jesus of Nazareth is crucified in Roman Judea, and Christianity begins to spread."
+        },
+        {
+          "year": "64 CE",
+          "event": "The Great Fire of Rome devastates the city during Nero's reign."
+        },
+        {
+          "year": "70 CE",
+          "event": "Roman forces destroy the Second Temple in Jerusalem."
+        },
+        {
+          "year": "79 CE",
+          "event": "Mount Vesuvius erupts, burying Pompeii and Herculaneum."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_2_ce",
+      "label": "2nd century CE",
+      "years": "101–200 CE",
+      "emoji": "🗺️",
+      "description": "The Roman Empire reaches its greatest territorial extent, Ptolemy writes the most influential geography text of antiquity, and Han China begins to decline.",
+      "regions": [
+        {
+          "name": "Roman Empire, greatest extent (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Reaches its largest territorial size under Emperor Trajan in 117 CE."
+        },
+        {
+          "name": "Roman Britain (Hadrian's Wall)",
+          "lat": 55.0,
+          "lng": -2.3,
+          "note": "Marks the northern frontier of Roman Britain, built starting around 122 CE."
+        },
+        {
+          "name": "Han Dynasty China (Luoyang)",
+          "lat": 34.6197,
+          "lng": 112.454,
+          "note": "Eastern Han capital, weakened by the Yellow Turban Rebellion late in the century."
+        }
+      ],
+      "events": [
+        {
+          "year": "117 CE",
+          "event": "The Roman Empire reaches its greatest territorial extent under Emperor Trajan."
+        },
+        {
+          "year": "c. 122 CE",
+          "event": "Construction begins on Hadrian's Wall in Britain."
+        },
+        {
+          "year": "c. 150 CE",
+          "event": "Claudius Ptolemy writes his Geographia, the most influential geography text of antiquity."
+        },
+        {
+          "year": "184 CE",
+          "event": "The Yellow Turban Rebellion breaks out in Han China, hastening the dynasty's decline."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Ptolemy's Geographia",
+          "year": "c. 150 CE",
+          "description": "Ptolemy's coordinate-grid treatise on world geography, the most influential of the ancient world.",
+          "link": "https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+        }
+      ]
+    },
+    {
+      "id": "century_3_ce",
+      "label": "3rd century CE",
+      "years": "201–300 CE",
+      "emoji": "💥",
+      "description": "Han China collapses into the Three Kingdoms, a new Persian empire rises, and Rome nearly falls apart in decades of civil war before Diocletian stabilizes it.",
+      "regions": [
+        {
+          "name": "Three Kingdoms China (Luoyang)",
+          "lat": 34.6197,
+          "lng": 112.454,
+          "note": "Former Han capital, now contested amid China's division into three rival kingdoms."
+        },
+        {
+          "name": "Sassanid Persian Empire (Ctesiphon)",
+          "lat": 33.0959,
+          "lng": 44.5804,
+          "note": "Capital of the newly founded Sassanid Empire, which replaces the Parthians."
+        },
+        {
+          "name": "Roman Empire in crisis (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Nearly collapses under constant civil war and invasion during the Crisis of the Third Century."
+        }
+      ],
+      "events": [
+        {
+          "year": "220 CE",
+          "event": "The Han Dynasty falls, and China enters the Three Kingdoms period."
+        },
+        {
+          "year": "224 CE",
+          "event": "Ardashir I founds the Sassanid Persian Empire."
+        },
+        {
+          "year": "235–284 CE",
+          "event": "The Crisis of the Third Century: Rome nearly collapses under constant civil war and invasion."
+        },
+        {
+          "year": "284 CE",
+          "event": "Diocletian becomes emperor, stabilizes the Roman Empire, and later divides it into a Tetrarchy."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_4_ce",
+      "label": "4th century CE",
+      "years": "301–400 CE",
+      "emoji": "⛪",
+      "description": "Constantine legalizes Christianity and founds Constantinople, the Roman Empire formally splits in two, and the Gupta Empire ushers in a golden age in India.",
+      "regions": [
+        {
+          "name": "Roman/Byzantine Empire (Constantinople)",
+          "lat": 41.0082,
+          "lng": 28.9784,
+          "note": "Founded by Constantine as the new imperial capital in 330 CE."
+        },
+        {
+          "name": "Gupta Empire (Pataliputra)",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "note": "Capital of the Gupta Empire, beginning a golden age of Indian science, mathematics, and culture."
+        },
+        {
+          "name": "Western Roman Empire (Rome)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Weakens under mounting pressure from Goths and other peoples pushed west by the Huns."
+        }
+      ],
+      "events": [
+        {
+          "year": "313 CE",
+          "event": "Constantine legalizes Christianity with the Edict of Milan."
+        },
+        {
+          "year": "325 CE",
+          "event": "The Council of Nicaea establishes core Christian doctrine."
+        },
+        {
+          "year": "330 CE",
+          "event": "Constantine founds Constantinople as the new imperial capital."
+        },
+        {
+          "year": "c. 320 CE",
+          "event": "The Gupta Empire is founded in India, beginning a golden age of science and culture."
+        },
+        {
+          "year": "378 CE",
+          "event": "The Goths defeat Rome at the Battle of Adrianople, a major blow to imperial power."
+        },
+        {
+          "year": "395 CE",
+          "event": "The Roman Empire formally splits into Eastern and Western halves."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_5_ce",
+      "label": "5th century CE",
+      "years": "401–500 CE",
+      "emoji": "🛡️",
+      "description": "The Western Roman Empire falls after being sacked twice and invaded by Attila the Hun, while Anglo-Saxon peoples begin settling Britain.",
+      "regions": [
+        {
+          "name": "Western Roman Empire (Rome, sacked)",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "note": "Sacked by the Visigoths in 410 CE, then falls entirely in 476 CE."
+        },
+        {
+          "name": "Hunnic Empire (territory of Attila)",
+          "lat": 47.4979,
+          "lng": 19.0402,
+          "note": "Attila the Hun leads devastating invasions across Europe from a base near the Danube."
+        },
+        {
+          "name": "Sub-Roman Britain",
+          "lat": 51.5074,
+          "lng": -0.1278,
+          "note": "Anglo-Saxon peoples begin settling Britain as Roman authority collapses."
+        }
+      ],
+      "events": [
+        {
+          "year": "410 CE",
+          "event": "Visigoths under Alaric sack Rome."
+        },
+        {
+          "year": "c. 434–453 CE",
+          "event": "Attila the Hun leads devastating invasions across Europe."
+        },
+        {
+          "year": "476 CE",
+          "event": "The last Western Roman Emperor is deposed, traditionally marking the fall of the Western Roman Empire."
+        },
+        {
+          "year": "c. 450s CE",
+          "event": "Anglo-Saxon peoples begin settling Britain."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_6_ce",
+      "label": "6th century CE",
+      "years": "501–600 CE",
+      "emoji": "🦠",
+      "description": "Byzantine Emperor Justinian reconquers former Roman territory and codifies Roman law, but a devastating pandemic strikes his empire as Sui China reunifies after centuries of division.",
+      "regions": [
+        {
+          "name": "Byzantine Empire (Constantinople)",
+          "lat": 41.0082,
+          "lng": 28.9784,
+          "note": "Justinian I reconquers former Western Roman territory and builds the Hagia Sophia."
+        },
+        {
+          "name": "Sui Dynasty China (Chang'an)",
+          "lat": 34.3416,
+          "lng": 108.9398,
+          "note": "Reunifies China after nearly four centuries of division."
+        },
+        {
+          "name": "Byzantine Italy (Ravenna)",
+          "lat": 44.4184,
+          "lng": 12.2035,
+          "note": "Byzantine capital in Italy, site of famous mosaics from Justinian's reign."
+        }
+      ],
+      "events": [
+        {
+          "year": "527 CE",
+          "event": "Justinian I becomes Byzantine Emperor and begins reconquering former Roman territories."
+        },
+        {
+          "year": "529–534 CE",
+          "event": "Justinian's Code, a landmark compilation of Roman law, is issued."
+        },
+        {
+          "year": "537 CE",
+          "event": "The Hagia Sophia is completed in Constantinople."
+        },
+        {
+          "year": "541–542 CE",
+          "event": "The Plague of Justinian, one of history's first recorded pandemics, devastates the Byzantine world."
+        },
+        {
+          "year": "581 CE",
+          "event": "The Sui Dynasty reunifies China after centuries of division."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_7_ce",
+      "label": "7th century CE",
+      "years": "601–700 CE",
+      "emoji": "☪️",
+      "description": "Muhammad's revelations found Islam, which spreads with startling speed across the Middle East and North Africa within decades, while the Tang Dynasty begins one of China's greatest eras.",
+      "regions": [
+        {
+          "name": "Islamic conquests (Mecca and Medina)",
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "note": "Birthplace of Islam under Muhammad, whose migration to Medina in 622 CE begins the Islamic calendar."
+        },
+        {
+          "name": "Rashidun and Umayyad Caliphates (Damascus)",
+          "lat": 33.5138,
+          "lng": 36.2765,
+          "note": "New capital of the Umayyad Caliphate after the rapid Islamic conquests."
+        },
+        {
+          "name": "Tang Dynasty China (Chang'an)",
+          "lat": 34.3416,
+          "lng": 108.9398,
+          "note": "Capital of the newly founded Tang Dynasty, soon to become one of the largest cities in the world."
+        }
+      ],
+      "events": [
+        {
+          "year": "610 CE",
+          "event": "Muhammad receives his first revelations, beginning Islam."
+        },
+        {
+          "year": "618 CE",
+          "event": "The Tang Dynasty is founded in China."
+        },
+        {
+          "year": "622 CE",
+          "event": "The Hijra: Muhammad migrates from Mecca to Medina, marking year 1 of the Islamic calendar."
+        },
+        {
+          "year": "632–661 CE",
+          "event": "The Rashidun Caliphate rapidly conquers Persia, the Levant, and Egypt after Muhammad's death."
+        },
+        {
+          "year": "661 CE",
+          "event": "The Umayyad Caliphate is founded, moving the Islamic capital to Damascus."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_8_ce",
+      "label": "8th century CE",
+      "years": "701–800 CE",
+      "emoji": "🕌",
+      "description": "The Umayyad Caliphate reaches its greatest extent before an Abbasid revolution moves the Islamic capital to newly founded Baghdad, launching a golden age of science, while Charlemagne is crowned emperor in the west.",
+      "regions": [
+        {
+          "name": "Umayyad al-Andalus (Córdoba)",
+          "lat": 37.8882,
+          "lng": -4.7794,
+          "note": "Capital of Umayyad Iberia after the conquest of most of the peninsula in 711 CE."
+        },
+        {
+          "name": "Abbasid Caliphate (Baghdad, founded 762 CE)",
+          "lat": 33.3152,
+          "lng": 44.3661,
+          "note": "New capital founded by the Abbasids, becoming a centre of the Islamic Golden Age."
+        },
+        {
+          "name": "Carolingian Empire (Aachen)",
+          "lat": 50.7753,
+          "lng": 6.0839,
+          "note": "Charlemagne's capital, crowned Holy Roman Emperor by the Pope in 800 CE."
+        }
+      ],
+      "events": [
+        {
+          "year": "711 CE",
+          "event": "Umayyad forces conquer most of the Iberian Peninsula."
+        },
+        {
+          "year": "732 CE",
+          "event": "The Franks halt Umayyad expansion into Western Europe at the Battle of Tours."
+        },
+        {
+          "year": "750 CE",
+          "event": "The Abbasid Revolution overthrows the Umayyad Caliphate."
+        },
+        {
+          "year": "762 CE",
+          "event": "The Abbasids found Baghdad as their new capital, launching the Islamic Golden Age."
+        },
+        {
+          "year": "793 CE",
+          "event": "A Viking raid on Lindisfarne marks the traditional start of the Viking Age."
+        },
+        {
+          "year": "800 CE",
+          "event": "Charlemagne is crowned Holy Roman Emperor by the Pope."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_9_ce",
+      "label": "9th century CE",
+      "years": "801–900 CE",
+      "emoji": "⚔️",
+      "description": "Charlemagne's empire fragments into what would roughly become France and Germany, Vikings raid and settle across Europe, and Baghdad's House of Wisdom drives the Islamic Golden Age.",
+      "regions": [
+        {
+          "name": "Fragmented Carolingian Empire (Verdun)",
+          "lat": 49.1593,
+          "lng": 5.3814,
+          "note": "Site of the 843 CE treaty splitting Charlemagne's empire into three kingdoms."
+        },
+        {
+          "name": "Abbasid Caliphate (Baghdad)",
+          "lat": 33.3152,
+          "lng": 44.3661,
+          "note": "Home to the House of Wisdom, a major centre of translation and scholarship."
+        },
+        {
+          "name": "Rus' lands (Novgorod)",
+          "lat": 58.5215,
+          "lng": 31.2755,
+          "note": "Site of Rurik's founding of Rus' rule, a traditional starting point for the Russian state."
+        }
+      ],
+      "events": [
+        {
+          "year": "843 CE",
+          "event": "The Treaty of Verdun splits the Carolingian Empire into three kingdoms, roughly foreshadowing modern France, Germany, and the lands between."
+        },
+        {
+          "year": "c. 830 CE",
+          "event": "The House of Wisdom is founded in Baghdad, a major centre of translation and scholarship during the Islamic Golden Age."
+        },
+        {
+          "year": "c. 862 CE",
+          "event": "Rurik establishes Rus' rule at Novgorod, a traditional starting point for the Russian state."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_10_ce",
+      "label": "10th century CE",
+      "years": "901–1000 CE",
+      "emoji": "🛶",
+      "description": "The Song Dynasty ushers in a golden age of Chinese technology and trade, the Holy Roman Empire is founded in Europe, and Vikings reach North America centuries before Columbus.",
+      "regions": [
+        {
+          "name": "Fatimid Caliphate (Cairo, founded 969 CE)",
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "note": "Founded by the Fatimids as their new capital after conquering Egypt."
+        },
+        {
+          "name": "Song Dynasty China (Kaifeng)",
+          "lat": 34.7986,
+          "lng": 114.3416,
+          "note": "Capital of the newly founded Song Dynasty, ushering in an era of economic and technological flourishing."
+        },
+        {
+          "name": "Holy Roman Empire (Aachen)",
+          "lat": 50.7753,
+          "lng": 6.0839,
+          "note": "Otto I is crowned Holy Roman Emperor in 962 CE."
+        },
+        {
+          "name": "Norse Vinland (L'Anse aux Meadows)",
+          "lat": 51.5988,
+          "lng": -55.5305,
+          "note": "Leif Erikson reaches North America around 1000 CE, centuries before Columbus."
+        }
+      ],
+      "events": [
+        {
+          "year": "909 CE",
+          "event": "The Fatimid Caliphate is founded in North Africa."
+        },
+        {
+          "year": "960 CE",
+          "event": "The Song Dynasty is founded in China, ushering in an era of economic and technological flourishing."
+        },
+        {
+          "year": "962 CE",
+          "event": "Otto I is crowned Holy Roman Emperor."
+        },
+        {
+          "year": "969 CE",
+          "event": "The Fatimids conquer Egypt and found Cairo as their new capital."
+        },
+        {
+          "year": "c. 1000 CE",
+          "event": "Leif Erikson reaches North America, centuries before Columbus."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_11_ce",
+      "label": "11th century CE",
+      "years": "1001–1100 CE",
+      "emoji": "⛪",
+      "description": "Christianity formally splits into Catholic and Orthodox branches, the Normans conquer England, Seljuk Turks open Anatolia to Turkic settlement, and the First Crusade sets out for the Holy Land.",
+      "regions": [
+        {
+          "name": "Byzantine Empire (Manzikert, battle site)",
+          "lat": 39.1434,
+          "lng": 42.5372,
+          "note": "Seljuk Turks defeat the Byzantines here in 1071, opening Anatolia to Turkic settlement."
+        },
+        {
+          "name": "Norman England (Hastings, battle site)",
+          "lat": 50.8552,
+          "lng": 0.5729,
+          "note": "William the Conqueror defeats King Harold here in 1066, beginning Norman rule of England."
+        },
+        {
+          "name": "Song Dynasty China (Kaifeng)",
+          "lat": 34.7986,
+          "lng": 114.3416,
+          "note": "Bi Sheng invents movable-type printing here around the 1040s."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1040s CE",
+          "event": "Bi Sheng invents movable-type printing in Song China."
+        },
+        {
+          "year": "1054 CE",
+          "event": "The Great Schism splits Christianity into Catholic and Orthodox branches."
+        },
+        {
+          "year": "1066 CE",
+          "event": "The Norman Conquest of England: William the Conqueror defeats King Harold at Hastings."
+        },
+        {
+          "year": "1071 CE",
+          "event": "Seljuk Turks defeat the Byzantines at the Battle of Manzikert, opening Anatolia to Turkic settlement."
+        },
+        {
+          "year": "1096 CE",
+          "event": "The First Crusade is launched to reclaim the Holy Land."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_12_ce",
+      "label": "12th century CE",
+      "years": "1101–1200 CE",
+      "emoji": "🛕",
+      "description": "The Khmer Empire builds the largest religious monument in the world at Angkor Wat, a Sicilian court produces one of the great works of medieval Islamic cartography, and Saladin recaptures Jerusalem from the Crusaders.",
+      "regions": [
+        {
+          "name": "Khmer Empire (Angkor)",
+          "lat": 13.4125,
+          "lng": 103.867,
+          "note": "Home to Angkor Wat, built under Suryavarman II as the largest religious monument in the world."
+        },
+        {
+          "name": "Norman Sicily (Palermo)",
+          "lat": 38.1157,
+          "lng": 13.3615,
+          "note": "Cosmopolitan court of King Roger II, where al-Idrisi completes the Tabula Rogeriana."
+        },
+        {
+          "name": "Ayyubid-ruled Jerusalem",
+          "lat": 31.7683,
+          "lng": 35.2137,
+          "note": "Recaptured from the Crusaders by Saladin in 1187."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1113–1150 CE",
+          "event": "Angkor Wat is built by the Khmer Empire, the largest religious monument in the world."
+        },
+        {
+          "year": "1127 CE",
+          "event": "The Jin dynasty conquers northern China, forcing the Song court south into the Southern Song period."
+        },
+        {
+          "year": "1154 CE",
+          "event": "Muhammad al-Idrisi completes the Tabula Rogeriana for King Roger II of Sicily."
+        },
+        {
+          "year": "1187 CE",
+          "event": "Saladin recaptures Jerusalem from the Crusaders."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Tabula Rogeriana",
+          "year": "1154 CE",
+          "description": "Al-Idrisi's landmark medieval world map, compiled for King Roger II of Sicily.",
+          "link": "https://en.wikipedia.org/wiki/Tabula_Rogeriana"
+        }
+      ]
+    },
+    {
+      "id": "century_13_ce",
+      "label": "13th century CE",
+      "years": "1201–1300 CE",
+      "emoji": "🐎",
+      "description": "Genghis Khan unites the Mongol tribes and builds history's largest contiguous land empire, England's king is forced to accept the Magna Carta, and the Mongols complete their conquest of China.",
+      "regions": [
+        {
+          "name": "Mongol Empire (Karakorum)",
+          "lat": 47.1996,
+          "lng": 102.8391,
+          "note": "Capital of the largest contiguous land empire in history, founded after Genghis Khan united the Mongol tribes."
+        },
+        {
+          "name": "England (Runnymede)",
+          "lat": 51.4419,
+          "lng": -0.5606,
+          "note": "Site where King John is forced to sign the Magna Carta in 1215, limiting royal power."
+        },
+        {
+          "name": "Yuan Dynasty China (Khanbaliq, modern Beijing)",
+          "lat": 39.9042,
+          "lng": 116.4074,
+          "note": "New capital founded by Kublai Khan after completing the Mongol conquest of Song China."
+        }
+      ],
+      "events": [
+        {
+          "year": "1206 CE",
+          "event": "Genghis Khan unites the Mongol tribes and begins building history's largest contiguous land empire."
+        },
+        {
+          "year": "1215 CE",
+          "event": "King John of England signs the Magna Carta, limiting royal power."
+        },
+        {
+          "year": "1271–1295 CE",
+          "event": "Marco Polo travels the Silk Road to the court of Kublai Khan."
+        },
+        {
+          "year": "1279 CE",
+          "event": "The Mongols complete their conquest of Song China, founding the Yuan Dynasty."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_14_ce",
+      "label": "14th century CE",
+      "years": "1301–1400 CE",
+      "emoji": "☠️",
+      "description": "The Black Death kills roughly a third of Europe's population, the Hundred Years' War begins between England and France, Mansa Musa's legendary pilgrimage announces the wealth of the Mali Empire, and the Ming Dynasty replaces Mongol rule in China.",
+      "regions": [
+        {
+          "name": "Mali Empire (Niani)",
+          "lat": 11.3667,
+          "lng": -8.6667,
+          "note": "Capital of the Mali Empire under Mansa Musa, whose 1324 pilgrimage to Mecca became legendary for its wealth."
+        },
+        {
+          "name": "Plague-stricken Europe (Florence)",
+          "lat": 43.7696,
+          "lng": 11.2558,
+          "note": "One of many European cities devastated by the Black Death, later immortalized in Boccaccio's Decameron."
+        },
+        {
+          "name": "Ming Dynasty China (Nanjing)",
+          "lat": 32.0603,
+          "lng": 118.7969,
+          "note": "First capital of the Ming Dynasty, founded after overthrowing Mongol Yuan rule."
+        }
+      ],
+      "events": [
+        {
+          "year": "1324 CE",
+          "event": "Mansa Musa of the Mali Empire makes his famous pilgrimage to Mecca, displaying immense wealth."
+        },
+        {
+          "year": "1337 CE",
+          "event": "The Hundred Years' War begins between England and France."
+        },
+        {
+          "year": "1347–1351 CE",
+          "event": "The Black Death kills roughly a third of Europe's population."
+        },
+        {
+          "year": "1368 CE",
+          "event": "The Ming Dynasty is founded in China after overthrowing the Mongol Yuan Dynasty."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_15_ce",
+      "label": "15th century CE",
+      "years": "1401–1500 CE",
+      "emoji": "🖨️",
+      "description": "Gutenberg's printing press transforms the spread of knowledge in Europe, the Ottomans capture Constantinople ending the Byzantine Empire, and European sailors reach the Americas and India by sea for the first time.",
+      "regions": [
+        {
+          "name": "Holy Roman Empire (Mainz)",
+          "lat": 49.9929,
+          "lng": 8.2473,
+          "note": "Johannes Gutenberg develops the movable-type printing press here around 1440."
+        },
+        {
+          "name": "Ottoman Empire (Constantinople, conquered 1453)",
+          "lat": 41.0082,
+          "lng": 28.9784,
+          "note": "Falls to the Ottomans, ending the Byzantine Empire after over a thousand years."
+        },
+        {
+          "name": "Spanish Empire (Granada, conquered 1492)",
+          "lat": 37.1773,
+          "lng": -3.5986,
+          "note": "Last Muslim stronghold in Iberia, falls the same year Columbus sails for the Americas."
+        }
+      ],
+      "events": [
+        {
+          "year": "c. 1440 CE",
+          "event": "Johannes Gutenberg develops the movable-type printing press in Europe."
+        },
+        {
+          "year": "1453 CE",
+          "event": "The Ottoman Empire captures Constantinople, ending the Byzantine Empire."
+        },
+        {
+          "year": "1492 CE",
+          "event": "Christopher Columbus reaches the Americas; the same year, Spain's Reconquista concludes with the fall of Granada."
+        },
+        {
+          "year": "1498 CE",
+          "event": "Vasco da Gama reaches India by sea around Africa."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Waldseemüller Map",
+          "year": "1507 CE",
+          "description": "The first map to use the name \"America\", made just a few years after Columbus's voyages entered European awareness.",
+          "link": "https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map"
+        }
+      ]
+    },
+    {
+      "id": "century_16_ce",
+      "label": "16th century CE",
+      "years": "1501–1600 CE",
+      "emoji": "⛪",
+      "description": "Martin Luther's protest splits Western Christianity, Spanish conquistadors topple the Aztec and Inca empires, Magellan's crew completes the first circumnavigation of the globe, and the Mughal Empire is founded in India.",
+      "regions": [
+        {
+          "name": "Aztec Empire (Tenochtitlan, conquered 1521)",
+          "lat": 19.4326,
+          "lng": -99.1332,
+          "note": "Falls to Hernán Cortés and his allies in 1521."
+        },
+        {
+          "name": "Inca Empire (Cusco, conquered 1533)",
+          "lat": -13.5319,
+          "lng": -71.9675,
+          "note": "Falls to Francisco Pizarro in 1533."
+        },
+        {
+          "name": "Mughal Empire (Agra)",
+          "lat": 27.1767,
+          "lng": 78.0081,
+          "note": "Founded by Babur in 1526, beginning one of history's wealthiest empires."
+        },
+        {
+          "name": "Holy Roman Empire (Wittenberg)",
+          "lat": 51.8666,
+          "lng": 12.6489,
+          "note": "Martin Luther's 1517 protest here sparks the Protestant Reformation."
+        }
+      ],
+      "events": [
+        {
+          "year": "1517 CE",
+          "event": "Martin Luther's Ninety-Five Theses spark the Protestant Reformation."
+        },
+        {
+          "year": "1519–1522 CE",
+          "event": "Ferdinand Magellan's expedition completes the first circumnavigation of the globe."
+        },
+        {
+          "year": "1521 CE",
+          "event": "Hernán Cortés conquers the Aztec Empire."
+        },
+        {
+          "year": "1526 CE",
+          "event": "Babur founds the Mughal Empire in India."
+        },
+        {
+          "year": "1533 CE",
+          "event": "Francisco Pizarro conquers the Inca Empire."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Mercator World Map (1569)",
+          "year": "1569 CE",
+          "description": "Gerardus Mercator's projection, designed for sailors, still underlies most digital maps today.",
+          "link": "https://en.wikipedia.org/wiki/Mercator_1569_world_map"
+        }
+      ]
+    },
+    {
+      "id": "century_17_ce",
+      "label": "17th century CE",
+      "years": "1601–1700 CE",
+      "emoji": "🔭",
+      "description": "The Thirty Years' War devastates Central Europe, the Qing Dynasty replaces Ming rule in China after a Manchu conquest, and Isaac Newton's Principia lays the foundations of modern physics.",
+      "regions": [
+        {
+          "name": "Holy Roman Empire, war-torn (Münster)",
+          "lat": 51.9607,
+          "lng": 7.6261,
+          "note": "Site of the 1648 peace treaties ending the devastating Thirty Years' War."
+        },
+        {
+          "name": "Qing Dynasty China (Beijing)",
+          "lat": 39.9042,
+          "lng": 116.4074,
+          "note": "New Manchu-ruled capital after the conquest of Ming China in 1644."
+        },
+        {
+          "name": "Kingdom of England (Cambridge)",
+          "lat": 52.2043,
+          "lng": 0.1218,
+          "note": "Isaac Newton develops the ideas behind his 1687 Principia Mathematica."
+        }
+      ],
+      "events": [
+        {
+          "year": "1618–1648 CE",
+          "event": "The Thirty Years' War devastates Central Europe."
+        },
+        {
+          "year": "1644 CE",
+          "event": "The Qing Dynasty is founded after Manchu forces conquer Ming China."
+        },
+        {
+          "year": "1687 CE",
+          "event": "Isaac Newton publishes the Principia Mathematica, a cornerstone of the Scientific Revolution."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_18_ce",
+      "label": "18th century CE",
+      "years": "1701–1800 CE",
+      "emoji": "🗽",
+      "description": "Britain's Industrial Revolution begins transforming the world economy, the Seven Years' War is fought across multiple continents, the United States declares independence, and the French Revolution ends absolute monarchy in France.",
+      "regions": [
+        {
+          "name": "Kingdom of Great Britain (birthplace of the Industrial Revolution)",
+          "lat": 53.4808,
+          "lng": -2.2426,
+          "note": "Manchester and the surrounding region become the crucible of the Industrial Revolution from the 1760s."
+        },
+        {
+          "name": "United States (Philadelphia)",
+          "lat": 39.9526,
+          "lng": -75.1652,
+          "note": "The Declaration of Independence is signed here in 1776."
+        },
+        {
+          "name": "Kingdom of France (Paris)",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "note": "The French Revolution begins here in 1789, ending absolute monarchy."
+        }
+      ],
+      "events": [
+        {
+          "year": "1756–1763 CE",
+          "event": "The Seven Years' War is fought across multiple continents."
+        },
+        {
+          "year": "1776 CE",
+          "event": "The United States declares independence from Britain."
+        },
+        {
+          "year": "1789 CE",
+          "event": "The French Revolution begins, ending absolute monarchy in France."
+        },
+        {
+          "year": "c. 1760s CE",
+          "event": "The Industrial Revolution begins in Britain."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Cassini Map of France",
+          "year": "Completed 1789 CE",
+          "description": "The first map of an entire country based on precise triangulated survey.",
+          "link": "https://en.wikipedia.org/wiki/Cassini_map"
+        }
+      ]
+    },
+    {
+      "id": "century_19_ce",
+      "label": "19th century CE",
+      "years": "1801–1900 CE",
+      "emoji": "🏭",
+      "description": "Napoleon's conquests reshape Europe, industrialization accelerates, the United States abolishes slavery after a civil war, Japan rapidly modernizes, and European powers partition nearly the entire African continent.",
+      "regions": [
+        {
+          "name": "Napoleonic France (Paris)",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "note": "Napoleon crowns himself Emperor in 1804, briefly dominating continental Europe."
+        },
+        {
+          "name": "United States (Washington D.C.)",
+          "lat": 38.9072,
+          "lng": -77.0369,
+          "note": "The Union prevails in the 1861-1865 Civil War, ending slavery."
+        },
+        {
+          "name": "Empire of Japan (Tokyo)",
+          "lat": 35.6762,
+          "lng": 139.6503,
+          "note": "The 1868 Meiji Restoration begins Japan's rapid modernization."
+        },
+        {
+          "name": "Partitioned Africa (Berlin, conference site)",
+          "lat": 52.52,
+          "lng": 13.405,
+          "note": "European powers formalize their colonial claims across Africa at the 1884-85 Berlin Conference."
+        }
+      ],
+      "events": [
+        {
+          "year": "1804 CE",
+          "event": "Napoleon crowns himself Emperor of the French."
+        },
+        {
+          "year": "1861–1865 CE",
+          "event": "The American Civil War ends slavery in the United States."
+        },
+        {
+          "year": "1868 CE",
+          "event": "Japan's Meiji Restoration begins rapid modernization."
+        },
+        {
+          "year": "1871 CE",
+          "event": "Germany and Italy are unified as modern nation-states."
+        },
+        {
+          "year": "1884–1885 CE",
+          "event": "The Berlin Conference formalizes the European colonial partition of Africa."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_20_ce",
+      "label": "20th century CE",
+      "years": "1901–2000 CE",
+      "emoji": "🌐",
+      "description": "Two world wars, a global pandemic, and a decades-long Cold War reshape the planet, decolonization creates dozens of new nations, humans land on the Moon, and the century ends with the Soviet Union's collapse and the birth of the World Wide Web.",
+      "regions": [
+        {
+          "name": "World War I & II Europe (Sarajevo)",
+          "lat": 43.8563,
+          "lng": 18.4131,
+          "note": "The 1914 assassination here triggers World War I; the continent is engulfed again in World War II from 1939."
+        },
+        {
+          "name": "Russian Revolution (Petrograd/Saint Petersburg)",
+          "lat": 59.9311,
+          "lng": 30.3609,
+          "note": "The 1917 Russian Revolution overthrows the Tsar, bringing the Bolsheviks to power."
+        },
+        {
+          "name": "United Nations founding (San Francisco)",
+          "lat": 37.7749,
+          "lng": -122.4194,
+          "note": "Delegates draft the UN Charter here in 1945, founding the United Nations."
+        },
+        {
+          "name": "Cold War's end (Berlin)",
+          "lat": 52.52,
+          "lng": 13.405,
+          "note": "The Berlin Wall falls in 1989, foreshadowing the Soviet Union's 1991 collapse."
+        }
+      ],
+      "events": [
+        {
+          "year": "1914–1918 CE",
+          "event": "World War I, triggered by the assassination of Archduke Franz Ferdinand in Sarajevo."
+        },
+        {
+          "year": "1917 CE",
+          "event": "The Russian Revolution overthrows the Tsar and brings the Bolsheviks to power."
+        },
+        {
+          "year": "1939–1945 CE",
+          "event": "World War II, the deadliest conflict in human history."
+        },
+        {
+          "year": "1945 CE",
+          "event": "The United Nations is founded to promote international peace and cooperation."
+        },
+        {
+          "year": "1969 CE",
+          "event": "Apollo 11 lands the first humans on the Moon."
+        },
+        {
+          "year": "1989–1991 CE",
+          "event": "The Berlin Wall falls and the Soviet Union dissolves, ending the Cold War."
+        }
+      ],
+      "famous_maps": []
+    },
+    {
+      "id": "century_21_ce",
+      "label": "21st century CE (so far)",
+      "years": "2001–2025 CE",
+      "emoji": "🌍",
+      "description": "The century opens with a new era of global security concerns, a financial crisis, and a smartphone-and-social-media revolution, then a once-in-a-century pandemic -- and closes (so far) with the rapid rise of generative artificial intelligence.",
+      "regions": [
+        {
+          "name": "United States (New York, September 11 attacks)",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "note": "The September 11, 2001 attacks reshape global security policy for decades."
+        },
+        {
+          "name": "Global financial system (New York, Wall Street)",
+          "lat": 40.7069,
+          "lng": -74.0113,
+          "note": "Epicentre of the 2008 financial crisis, which triggered a worldwide recession."
+        },
+        {
+          "name": "COVID-19 origin (Wuhan)",
+          "lat": 30.5928,
+          "lng": 114.3055,
+          "note": "Where the COVID-19 pandemic was first identified in late 2019, before spreading worldwide in 2020."
+        },
+        {
+          "name": "Generative AI boom (San Francisco)",
+          "lat": 37.7749,
+          "lng": -122.4194,
+          "note": "Hub of the generative AI boom that accelerated rapidly after ChatGPT's 2022 launch."
+        }
+      ],
+      "events": [
+        {
+          "year": "2001 CE",
+          "event": "The September 11 attacks reshape global security policy."
+        },
+        {
+          "year": "2008 CE",
+          "event": "The global financial crisis triggers a worldwide recession."
+        },
+        {
+          "year": "2020–2023 CE",
+          "event": "The COVID-19 pandemic becomes the first truly global pandemic of the internet era."
+        },
+        {
+          "year": "2022 CE",
+          "event": "The launch of ChatGPT popularizes generative AI, beginning a rapid new wave of artificial intelligence technology."
+        },
+        {
+          "year": "Today",
+          "event": "Nearly 200 sovereign states are recognized by the United Nations -- explore them all on the World Map above."
+        }
+      ],
+      "famous_maps": [
+        {
+          "name": "Google Earth & modern satellite mapping",
+          "year": "Launched 2005",
+          "description": "For the first time, anyone with an internet connection could view detailed satellite imagery of the entire planet.",
+          "link": "https://en.wikipedia.org/wiki/Google_Earth"
+        }
+      ]
+    }
+  ]
+}

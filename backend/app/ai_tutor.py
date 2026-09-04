@@ -1,0 +1,904 @@
+import os
+import re
+
+from . import ark_ai_library
+from . import llm_providers
+from . import settings_store
+from .safety import SafetyFilter
+from . import levels as levels_module
+
+_sf = SafetyFilter()
+
+_CATEGORY_PERSONA = {
+    levels_module.SCHOOL_CATEGORY: (
+        "You are Ark AI, a warm and encouraging tutor for a school student in {level_label} "
+        "(typical ages {age_range}). Use simple, friendly language appropriate for their grade, "
+        "plenty of examples and analogies, and keep them curious and motivated."
+    ),
+    levels_module.COLLEGE_CATEGORY: (
+        "You are Ark AI, an academic tutor for a college-level student in {level_label} "
+        "(typical ages {age_range}), bridging school and university study. Use clear, precise "
+        "language, introduce discipline-specific vocabulary, and connect ideas to real-world and "
+        "exam-relevant applications."
+    ),
+    levels_module.UNDERGRADUATE_CATEGORY: (
+        "You are Ark AI, an academic tutor for an undergraduate student in {level_label} "
+        "(typical ages {age_range}) pursuing a bachelor's degree. Use rigorous, discipline-appropriate "
+        "language, cite the underlying theory, and give worked examples, derivations, or case studies "
+        "as relevant to the subject."
+    ),
+    levels_module.MASTERS_CATEGORY: (
+        "You are Ark AI, a graduate-level academic tutor for a master's student in {level_label} "
+        "(typical ages {age_range}). Engage at a research-adjacent level: discuss trade-offs, cite "
+        "methodologies, reference current practice/literature, and encourage critical, independent "
+        "analysis rather than rote answers."
+    ),
+}
+
+_SAFETY_RULES_BY_CATEGORY = {
+    levels_module.SCHOOL_CATEGORY: (
+        "- Keep all answers age-appropriate, positive, and educational.\n"
+        "- Never discuss graphic violence, sexual content, illegal activity instructions, or anything "
+        "inappropriate for a school-age learner.\n"
+        "- Use simple language for lower grades; more precise language for higher grades."
+    ),
+    "adult": (
+        "- This learner is a college/university-level or adult learner: mature academic topics "
+        "(history of violence and war, politics, human biology and health, economics of alcohol/drugs, "
+        "literature with mature themes, philosophy of controversial ideas, etc.) are allowed and expected "
+        "when relevant to the subject and level.\n"
+        "- Always refuse to give: instructions for making weapons/explosives/dangerous drugs, sexual "
+        "content, hate speech, self-harm instructions, or any other genuinely harmful or illegal content.\n"
+        "- Treat the learner as a capable adult: be direct, rigorous, and avoid unnecessary hedging or "
+        "over-cautious refusals of ordinary academic material."
+    ),
+}
+
+_COMMON_RULES = (
+    "- Encourage curiosity. Use examples, analogies, and real-world connections appropriate to the level.\n"
+    "- Keep responses under 250 words unless a detailed explanation is genuinely needed.\n"
+    "- Format with bullet points or numbered steps when listing things.\n"
+    "- Always end with one encouraging sentence."
+)
+
+_LANGUAGE_RULE = "- Respond in {language}, unless the student writes in a different language."
+_DIFFICULTY_RULE = "- Calibrate difficulty as '{difficulty}' relative to the normal expectation for this level."
+
+
+def _resolve_level(level: str | None, grade: int | None) -> dict:
+    """Resolve a level id (new levels or legacy numeric grade) to level metadata."""
+    candidate = level if level not in (None, "") else grade
+    info = levels_module.get_level(candidate) if candidate is not None else None
+    if info:
+        return info
+    # Fall back to a plain school grade for full backward compatibility.
+    fallback_grade = grade if grade else 1
+    info = levels_module.get_level(fallback_grade)
+    return info or levels_module.get_level(1)
+
+
+def _build_system_prompt(
+    level: str | None,
+    grade: int | None,
+    subject: str,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    persona = _CATEGORY_PERSONA[info["category"]].format(
+        level_label=info["label"], age_range=age_group or info["age_range"]
+    )
+    safety_key = levels_module.SCHOOL_CATEGORY if info["category"] == levels_module.SCHOOL_CATEGORY else "adult"
+    rules = [_SAFETY_RULES_BY_CATEGORY[safety_key], _COMMON_RULES]
+    if language:
+        rules.append(_LANGUAGE_RULE.format(language=language))
+    if difficulty:
+        rules.append(_DIFFICULTY_RULE.format(difficulty=difficulty))
+
+    return (
+        f"{persona}\n"
+        f"The student is studying: {subject or 'general topics'}.\n"
+        "Rules:\n" + "\n".join(rules)
+    )
+
+
+_FLASHCARD_TEMPLATE = """You are creating educational flashcards for a student at {level_label} studying {subject}.
+Generate exactly {count} flashcard pairs as a numbered list.
+Format each pair as:
+Q: [question]
+A: [answer]
+Keep questions concise and answers to 1-2 sentences. Calibrate difficulty to {level_label}."""
+
+_STUDY_PLAN_TEMPLATE = """You are a study planner helping a student at {level_label} prepare for {subject}.
+They have {days} days to study.
+Create a day-by-day study schedule with:
+- Daily focus topic
+- Estimated time (minutes)
+- One key activity
+Keep it motivating and achievable, calibrated to {level_label}."""
+
+
+def _get_client():
+    key = settings_store.get_anthropic_api_key() or os.getenv("ANTHROPIC_API_KEY", "")
+    if not key:
+        return None
+    try:
+        import anthropic
+        return anthropic.Anthropic(api_key=key)
+    except Exception:
+        return None
+
+
+def _try_preferred_model(system: str, safe_user: str, max_tokens: int) -> str | None:
+    """If the owner picked a non-Claude "preferred model" in settings and
+    saved that provider's API key, call it instead of Claude. Returns None
+    (falling through to the default Claude path below) whenever no
+    alternate model is configured, or its call fails for any reason -- so
+    Ark AI never goes fully offline just because one alternate provider is
+    down."""
+    model_id = settings_store.get_preferred_model()
+    if not model_id:
+        return None
+    model = ark_ai_library.get_model(model_id)
+    if not model:
+        return None
+    provider = ark_ai_library.PROVIDER_SLUGS.get(model["provider"])
+    if not provider or provider == "anthropic":
+        return None
+    api_key = settings_store.get_api_key(provider)
+    if not api_key:
+        return None
+    try:
+        return llm_providers.call_chat(provider, model["raw"], api_key, system, safe_user, max_tokens)
+    except llm_providers.ProviderCallError:
+        return None
+
+
+def _call(system: str, user: str, max_tokens: int = 512, strict: bool = True) -> str:
+    safe_user = _sf.sanitize(user, strict=strict)
+
+    alternate = _try_preferred_model(system, safe_user, max_tokens)
+    if alternate is not None:
+        return _sf.sanitize(alternate, strict=strict)
+
+    client = _get_client()
+    if not client:
+        return "Ark AI is offline. Please ask your teacher, tutor, or a trusted adult for help with this question."
+    try:
+        import anthropic
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=max_tokens,
+            system=system,
+            messages=[{"role": "user", "content": safe_user}],
+        )
+        return _sf.sanitize(msg.content[0].text, strict=strict)
+    except Exception as exc:
+        return f"Ark AI is temporarily unavailable. ({type(exc).__name__})"
+
+
+def ask(
+    question: str,
+    grade: int = 1,
+    subject: str = "",
+    context: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject, age_group, language, difficulty)
+    user = question if not context else f"Lesson context:\n{context[:600]}\n\nStudent question:\n{question}"
+    return _call(system, user, max_tokens=512, strict=strict)
+
+
+def explain_concept(
+    concept: str,
+    grade: int = 1,
+    subject: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject, age_group, language, difficulty)
+    return _call(
+        system,
+        f"Please explain this concept clearly for a student at {info['label']}: {concept}",
+        max_tokens=600,
+        strict=strict,
+    )
+
+
+def generate_flashcards(
+    topic: str, grade: int = 1, subject: str = "", count: int = 8, level: str | None = None
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _FLASHCARD_TEMPLATE.format(level_label=info["label"], subject=subject or topic, count=count)
+    raw = _call(system, f"Topic: {topic}", max_tokens=800, strict=strict)
+    cards = []
+    for block in re.split(r"\n(?=\d+\.)", raw.strip()):
+        q_match = re.search(r"Q:\s*(.+)", block)
+        a_match = re.search(r"A:\s*(.+)", block)
+        if q_match and a_match:
+            cards.append({"q": q_match.group(1).strip(), "a": a_match.group(1).strip()})
+    return cards or [{"q": topic, "a": "Ask your teacher or tutor for more information on this topic."}]
+
+
+def _parse_quiz_response(raw: str) -> list[dict]:
+    questions = []
+    blocks = re.split(r"\n(?=Q:)", raw.strip())
+    for block in blocks:
+        q_m = re.search(r"Q:\s*(.+)", block)
+        opts = re.findall(r"([A-D])\)\s*(.+)", block)
+        ans_m = re.search(r"Answer:\s*([A-D])", block)
+        exp_m = re.search(r"Explanation:\s*(.+)", block)
+        if q_m and len(opts) >= 2 and ans_m:
+            questions.append({
+                "question": q_m.group(1).strip(),
+                "options": {o[0]: o[1].strip() for o in opts},
+                "answer": ans_m.group(1).strip(),
+                "explanation": exp_m.group(1).strip() if exp_m else "",
+            })
+    return questions
+
+
+def generate_quiz(
+    topic: str, grade: int = 1, subject: str = "", count: int = 5, level: str | None = None
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You create multiple-choice quiz questions for a student at {info['label']} studying {subject or topic}.
+Generate exactly {count} questions. Format each as:
+Q: [question]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+Answer: [A/B/C/D]
+Explanation: [one sentence]
+"""
+    raw = _call(system, f"Topic: {topic}", max_tokens=1000, strict=strict)
+    return _parse_quiz_response(raw)
+
+
+# ─── Document-grounded helpers (PDF Explainer) ──────────────────────────────
+# A student uploads their own document (see app/pdf_explainer.py for the
+# upload/text-extraction/storage side); these functions ground the AI tutor's
+# explanation, Q&A, and quiz generation in that document's actual text
+# instead of a free-standing topic, so answers stay tied to what the
+# document actually says.
+_DOCUMENT_EXCERPT_CHARS = 12000
+
+
+def explain_document(
+    text: str,
+    grade: int = 1,
+    subject: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject or "this document", age_group, language, difficulty)
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    user = (
+        f"A student uploaded a document. Explain its content clearly and simply for a student at "
+        f"{info['label']}, organised by section or theme where useful. If the document is long, focus on "
+        f"the most important ideas.\n\nDocument text:\n\n{excerpt}"
+    )
+    return _call(system, user, max_tokens=1200, strict=strict)
+
+
+def answer_document_question(
+    text: str,
+    question: str,
+    grade: int = 1,
+    subject: str = "",
+    level: str | None = None,
+    age_group: str = "",
+    language: str = "",
+    difficulty: str = "",
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject or "this document", age_group, language, difficulty)
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    user = (
+        f"Document text:\n\n{excerpt}\n\n"
+        f"Based only on this document, answer the student's question. If the document does not contain "
+        f"the answer, say so rather than guessing.\n\nQuestion: {question}"
+    )
+    return _call(system, user, max_tokens=500, strict=strict)
+
+
+def generate_quiz_from_text(
+    text: str, grade: int = 1, subject: str = "", count: int = 5, level: str | None = None
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    excerpt = text[:_DOCUMENT_EXCERPT_CHARS]
+    system = f"""You create multiple-choice quiz questions strictly based on the document text provided below,
+for a student at {info['label']}. Generate exactly {count} questions that test understanding of the
+document's actual content -- do not invent facts not present in the text. Format each question as:
+Q: [question]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+Answer: [A/B/C/D]
+Explanation: [one sentence]
+"""
+    raw = _call(system, f"Document text:\n\n{excerpt}", max_tokens=1200, strict=strict)
+    return _parse_quiz_response(raw)
+
+
+def _parse_lesson_plan_response(raw: str) -> list[dict]:
+    lessons = []
+    blocks = re.split(r"\n(?=LESSON:)", raw.strip())
+    for block in blocks:
+        title_m = re.search(r"LESSON:\s*(.+)", block)
+        objectives_m = re.search(r"OBJECTIVES:\s*(.+)", block)
+        content_m = re.search(r"CONTENT:\s*(.+)", block, re.S)
+        if title_m:
+            objectives = [o.strip() for o in (objectives_m.group(1).split(";") if objectives_m else []) if o.strip()]
+            content = content_m.group(1).strip() if content_m else ""
+            lessons.append({
+                "title": title_m.group(1).strip(),
+                "objectives": objectives,
+                "content": content,
+            })
+    return lessons
+
+
+def generate_lesson_plan(
+    subject: str, term_name: str, lesson_count: int = 10, grade: int = 1,
+    level: str | None = None, notes: str = "",
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are an experienced curriculum planner helping a teacher plan the term "{term_name}"
+for {subject} at {info['label']}. Generate exactly {lesson_count} sequential lessons that build on each
+other logically across the term. Format each lesson exactly as:
+LESSON: [short lesson title]
+OBJECTIVES: [objective one; objective two; objective three]
+CONTENT: [a short outline of what the lesson covers, one paragraph]
+"""
+    user = f"Plan {lesson_count} lessons for {subject} ({term_name}) at {info['label']}."
+    if notes.strip():
+        user += f" Teacher notes/constraints: {notes.strip()}"
+    raw = _call(system, user, max_tokens=1800, strict=strict)
+    return _parse_lesson_plan_response(raw)
+
+
+def _parse_grammar_mistake_response(raw: str) -> dict:
+    passage_m = re.search(r"PASSAGE:\s*(.*?)(?=\nMISTAKE:|\Z)", raw.strip(), re.S)
+    passage = passage_m.group(1).strip() if passage_m else ""
+    mistakes = []
+    for m in re.finditer(r"MISTAKE:\s*(.+?)\s*=>\s*(.+?)\s*::\s*(.+)", raw):
+        mistakes.append({
+            "wrong": m.group(1).strip(),
+            "correct": m.group(2).strip(),
+            "explanation": m.group(3).strip(),
+        })
+    return {"passage": passage, "mistakes": mistakes}
+
+
+def generate_grammar_mistake_exercise(
+    topic: str, grade: int = 1, level: str | None = None, language: str = "English", mistake_count: int = 8,
+) -> dict:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    mistake_count = max(1, min(int(mistake_count), 20))
+    system = f"""You are a {language} grammar teacher creating a "find the mistakes" exercise for a student at
+{info['label']}. Write a short, engaging passage (120-200 words) about {topic or 'an interesting everyday topic'}
+in {language}, but deliberately insert exactly {mistake_count} grammar, spelling or punctuation mistakes into it.
+The mistakes must be realistic errors a learner might make, spread throughout the passage. Format your answer
+exactly as:
+PASSAGE: [the full passage, containing the {mistake_count} mistakes]
+MISTAKE: [incorrect word or phrase exactly as it appears in the passage] => [corrected version] :: [one-sentence explanation of the rule]
+(repeat the MISTAKE line once for each mistake, in the order they appear in the passage)
+"""
+    user = f"Create a grammar mistake-hunting exercise about {topic or 'daily life'} with {mistake_count} mistakes."
+    raw = _call(system, user, max_tokens=1000, strict=strict)
+    return _parse_grammar_mistake_response(raw)
+
+
+def explain_chess_position(
+    fen: str, move_history: list[str] | None = None, level: str | None = None, grade: int = 1,
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a friendly chess coach explaining a position to a student at {info['label']}.
+Describe the position in plain language: material balance, piece activity, king safety, and any
+tactical or strategic ideas available for the side to move. Keep it encouraging and educational,
+suitable for someone still learning chess."""
+    history_text = " ".join(move_history or []) or "(start of game)"
+    user = f"Move history so far: {history_text}\nCurrent position (FEN): {fen}\nExplain this position."
+    return _call(system, user, max_tokens=500, strict=strict)
+
+
+def answer_chess_question(
+    fen: str, question: str, move_history: list[str] | None = None, level: str | None = None, grade: int = 1,
+) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a friendly chess coach helping a student at {info['label']} understand a specific
+chess position. Answer the student's question about the position clearly, referring to actual pieces
+and squares where it helps."""
+    history_text = " ".join(move_history or []) or "(start of game)"
+    user = f"Move history so far: {history_text}\nCurrent position (FEN): {fen}\n\nQuestion: {question}"
+    return _call(system, user, max_tokens=400, strict=strict)
+
+
+def make_study_plan(subject: str, grade: int = 1, days: int = 7, level: str | None = None) -> str:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _STUDY_PLAN_TEMPLATE.format(level_label=info["label"], subject=subject, days=days)
+    return _call(
+        system, f"Create a {days}-day study plan for {subject} at {info['label']}.", max_tokens=600, strict=strict
+    )
+
+
+def _parse_study_questions_response(raw: str) -> list[dict]:
+    questions = []
+    blocks = re.split(r"\n(?=TYPE:)", raw.strip())
+    for block in blocks:
+        type_m = re.search(r"TYPE:\s*(MCQ|OPEN)", block)
+        q_m = re.search(r"Q:\s*(.+)", block)
+        if not type_m or not q_m:
+            continue
+        qtype = type_m.group(1).strip()
+        if qtype == "MCQ":
+            opts = re.findall(r"([A-D])\)\s*(.+)", block)
+            ans_m = re.search(r"ANSWER:\s*([A-D])", block)
+            exp_m = re.search(r"EXPLANATION:\s*(.+)", block)
+            if len(opts) >= 2 and ans_m:
+                questions.append({
+                    "type": "mcq",
+                    "question": q_m.group(1).strip(),
+                    "options": {o[0]: o[1].strip() for o in opts},
+                    "answer": ans_m.group(1).strip(),
+                    "explanation": exp_m.group(1).strip() if exp_m else "",
+                })
+        else:
+            points_m = re.search(r"KEY_POINTS:\s*(.+)", block)
+            exp_m = re.search(r"EXPLANATION:\s*(.+)", block)
+            key_points = [p.strip() for p in (points_m.group(1).split(";") if points_m else []) if p.strip()]
+            questions.append({
+                "type": "open",
+                "question": q_m.group(1).strip(),
+                "key_points": key_points,
+                "explanation": exp_m.group(1).strip() if exp_m else "",
+            })
+    return questions
+
+
+def generate_study_questions(
+    topic: str, subject: str = "", grade: int = 1, level: str | None = None, count: int = 6, mode: str = "mixed",
+) -> list[dict]:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    mode_instruction = {
+        "mcq": "all multiple-choice",
+        "dissertative": "all open-ended short-answer",
+        "mixed": "a mix of multiple-choice and open-ended short-answer",
+    }.get(mode, "a mix of multiple-choice and open-ended short-answer")
+    system = f"""You create study questions for spaced-repetition practice, for a student at {info['label']}
+studying {subject or topic}. Generate exactly {count} questions, {mode_instruction}, testing real understanding
+(not just recall) of {topic}. Format each multiple-choice question exactly as:
+TYPE: MCQ
+Q: [question]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+ANSWER: [A/B/C/D]
+EXPLANATION: [one sentence]
+
+Format each open-ended question exactly as:
+TYPE: OPEN
+Q: [question]
+KEY_POINTS: [point one; point two; point three]
+EXPLANATION: [one-sentence model answer summary]
+"""
+    raw = _call(system, f"Topic: {topic}", max_tokens=1500, strict=strict)
+    return _parse_study_questions_response(raw)
+
+
+def _parse_graded_answer_response(raw: str) -> dict:
+    score_m = re.search(r"SCORE:\s*(\d+)", raw)
+    feedback_m = re.search(r"FEEDBACK:\s*(.+)", raw, re.S)
+    score = int(score_m.group(1)) if score_m else 0
+    score = max(0, min(score, 100))
+    feedback = feedback_m.group(1).strip() if feedback_m else raw.strip()
+    return {"score": score, "feedback": feedback}
+
+
+def grade_open_answer(
+    question: str, key_points: list[str], given_answer: str, level: str | None = None, grade: int = 1,
+) -> dict:
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    points_text = "; ".join(key_points) or "(no specific key points given -- judge on general correctness)"
+    system = f"""You are grading a student's answer at {info['label']}. Be encouraging but honest.
+Compare the student's answer to the expected key points and award a score from 0 to 100 reflecting how
+completely and correctly they answered. Format your reply exactly as:
+SCORE: [0-100]
+FEEDBACK: [two or three encouraging, specific sentences on what was right and what to improve]
+"""
+    user = f"Question: {question}\nExpected key points: {points_text}\nStudent's answer: {given_answer}"
+    raw = _call(system, user, max_tokens=300, strict=strict)
+    return _parse_graded_answer_response(raw)
+
+
+_COURSE_ASSISTANT_EXCERPT_CHARS_PER_DOC = 6000
+
+
+def answer_from_course_materials(
+    question: str, documents: list[dict], level: str | None = None, grade: int = 1,
+) -> str:
+    """Answer a question grounded strictly in the given course materials
+    (each a {"filename": str, "text": str} dict), refusing to use outside
+    knowledge -- mirrors a closed-book course assistant rather than a
+    general tutor."""
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = f"""You are a course assistant for a student at {info['label']}. You must answer the student's
+question using ONLY the course materials provided below -- do not use outside knowledge, even if you know
+the answer. If the materials do not contain the answer, say clearly that it isn't covered in the provided
+materials instead of guessing. When you do answer, mention which document(s) (by filename) the answer came
+from."""
+    materials_block = "\n\n".join(
+        f"=== {doc['filename']} ===\n{doc['text'][:_COURSE_ASSISTANT_EXCERPT_CHARS_PER_DOC]}"
+        for doc in documents
+    )
+    user = f"Course materials:\n\n{materials_block}\n\nQuestion: {question}"
+    return _call(system, user, max_tokens=600, strict=strict)
+
+
+_RESUME_FORMAT_INSTRUCTIONS = """Respond in exactly this format, with no extra commentary before or after:
+SUMMARY: [2-3 sentence professional summary tailored to the target role]
+SKILLS: [comma-separated list, reusing and lightly polishing the candidate's own skills]
+EXPERIENCE:
+- [first achievement bullet: action-led and quantified wherever the candidate's notes support it]
+- [second achievement bullet]
+(write exactly one bullet per experience/portfolio note given, in the same order, and do not omit any)"""
+
+
+def _parse_resume_content(raw: str, fallback_skills: list[str], fallback_experience: list[str]) -> dict:
+    summary_m = re.search(r"SUMMARY:\s*(.+)", raw)
+    skills_m = re.search(r"SKILLS:\s*(.+)", raw)
+    experience_m = re.search(r"EXPERIENCE:\s*(.+)", raw, re.S)
+
+    summary = summary_m.group(1).strip() if summary_m else raw.strip()[:400]
+    skills = (
+        [s.strip() for s in skills_m.group(1).split(",") if s.strip()] if skills_m else list(fallback_skills)
+    )
+    bullets = []
+    if experience_m:
+        bullets = [
+            line.strip()[1:].strip()
+            for line in experience_m.group(1).splitlines()
+            if line.strip().startswith("-")
+        ]
+    if not bullets:
+        bullets = list(fallback_experience)
+
+    return {"summary": summary, "skills": skills, "experience": bullets}
+
+
+def generate_resume_content(profile: dict) -> dict:
+    """Turn a candidate's raw notes (skills, experience/portfolio bullets, target role and
+    job description) into a polished, ATS-friendly resume draft: a professional summary,
+    a refined skills list, and quantified achievement bullets -- one per input note."""
+    name = str(profile.get("name") or "the candidate")
+    target_role = str(profile.get("target_role") or "")
+    job_description = str(profile.get("job_description") or "")
+    skills = list(profile.get("skills") or [])
+    experience = list(profile.get("experience") or [])
+    education = str(profile.get("education") or "")
+
+    system = (
+        "You are an expert professional resume writer. Rewrite the candidate's raw notes into a "
+        "polished, ATS-friendly, quantified resume draft. Never invent employers, dates, numbers, or "
+        "achievements the candidate did not mention -- only sharpen phrasing and structure.\n"
+        + _RESUME_FORMAT_INSTRUCTIONS
+    )
+    lines = [f"Candidate: {name}", f"Target role: {target_role or 'not specified'}"]
+    if job_description:
+        lines.append(f"Target job description:\n{job_description}")
+    if skills:
+        lines.append(f"Raw skills: {', '.join(skills)}")
+    if experience:
+        lines.append("Raw experience/portfolio notes (one bullet per note, same order):")
+        lines.extend(f"- {item}" for item in experience)
+    if education:
+        lines.append(f"Education: {education}")
+    user = "\n".join(lines)
+
+    raw = _call(system, user, max_tokens=800, strict=False)
+    return _parse_resume_content(raw, fallback_skills=skills, fallback_experience=experience)
+
+
+_ARK_AI_DEFAULT_AGENT = "teacher"
+
+# Specific agent personas (not generic "modes") -- each gets its own tailored
+# system prompt, mirroring the Ark_Ai zip's Agent/Skill concept. Ark AI is one
+# assistant that changes role as needed, rather than one fixed persona.
+_ARK_AI_AGENT_PROMPTS = {
+    "teacher": (
+        "You are Ark AI, acting as a Teacher. Build real understanding, not just a quick answer: break "
+        "ideas into digestible steps, use concrete examples and analogies suited to a learner at "
+        "{level_label}, check understanding with a short follow-up question when it helps, and encourage "
+        "curiosity. Favor depth and clarity over speed."
+    ),
+    "instructor": (
+        "You are Ark AI, acting as an Instructor. Give precise, structured, step-by-step guidance for "
+        "completing a task or following a procedure: state the end goal in one line, then numbered steps, "
+        "prerequisites, and what to check or verify along the way. Calibrate technical depth to a learner "
+        "at {level_label}. Favor actionable, ordered instructions over open-ended discussion."
+    ),
+    "helper": (
+        "You are Ark AI, acting as a Helper. Give fast, direct, practical assistance with whatever the "
+        "user needs -- everyday questions, brainstorming, writing, quick lookups, or general conversation. "
+        "Keep answers concise unless more detail is clearly wanted. Not every request needs to be treated "
+        "as a lesson."
+    ),
+    "partner": (
+        "You are Ark AI, acting as a Conversation Partner. Have a natural, back-and-forth spoken-style "
+        "conversation rather than lecturing -- ask questions, react to what the user says, and keep the "
+        "exchange flowing. If this is language-practice conversation, gently point out mistakes without "
+        "interrupting the flow, offer the corrected phrase, and keep responses short enough to feel like "
+        "real dialogue. Calibrate vocabulary and pace to a learner at {level_label}."
+    ),
+    "singing_partner": (
+        "You are Ark AI, acting as a Singing Partner during karaoke. You can't produce audio or actually "
+        "sing, so be an enthusiastic duet companion in words: cheer the user on between verses, share a "
+        "quick, genuine fun fact about the song or artist when relevant, offer a light tip (breath, pacing, "
+        "hitting a hard line) only if asked, and keep every message short and upbeat so it doesn't get in "
+        "the way of the performance. Calibrate tone to an audience at {level_label}."
+    ),
+}
+
+_ARK_AI_RULES = """Rules:
+{safety_rules}
+- Keep answers focused and under 300 words unless the user clearly wants something longer.
+- If a request needs live web search, real-time data, image generation, or code execution, say plainly
+  that Ark AI can't do that here yet, rather than pretending to."""
+
+
+def ark_ai_chat(
+    message: str, history: list[dict] | None = None, agent: str = _ARK_AI_DEFAULT_AGENT,
+    level: str | None = None, grade: int = 1, context: str = "",
+) -> str:
+    """Ark AI: one assistant that changes role as needed, available on every
+    page -- inspired by the Ark_Ai multi-model chat workspace's Agent/Skill
+    concept, reimplemented on this app's existing Claude backend instead of
+    Ark_Ai's own multi-provider/OpenRouter routing, which this app has no
+    infrastructure for. `agent` selects a specific, distinctly-prompted
+    persona: "teacher" (explains and builds understanding), "instructor"
+    (structured step-by-step guidance), "helper" (fast, general-purpose
+    assistance), "partner" (a conversation partner, e.g. for language
+    practice), or "singing_partner" (an encouraging karaoke companion).
+    `context` folds in situational specifics (e.g. which language or song)
+    so the same agent adapts to where it's being used."""
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    safety_key = levels_module.SCHOOL_CATEGORY if strict else "adult"
+    agent_key = agent if agent in _ARK_AI_AGENT_PROMPTS else _ARK_AI_DEFAULT_AGENT
+    persona = _ARK_AI_AGENT_PROMPTS[agent_key].format(level_label=info["label"])
+    rules = _ARK_AI_RULES.format(safety_rules=_SAFETY_RULES_BY_CATEGORY[safety_key])
+    context_block = f"\n\nContext for this conversation: {context.strip()}" if context.strip() else ""
+    system = f"{persona}{context_block}\n\n{rules}"
+
+    turns = []
+    for turn in (history or [])[-6:]:
+        role = "Assistant" if turn.get("role") == "assistant" else "User"
+        text = str(turn.get("content", ""))[:800]
+        if text:
+            turns.append(f"{role}: {text}")
+    transcript = "\n".join(turns)
+
+    user = ""
+    if transcript:
+        user += f"Conversation so far:\n{transcript}\n\n"
+    user += f"User: {message}"
+
+    return _call(system, user, max_tokens=600, strict=strict)
+
+
+_LOCAL_MEDIA_EXCERPT_CHARS = 3000
+
+
+def _parse_local_media_analysis(raw: str, category: str) -> dict:
+    def field(label: str) -> str:
+        m = re.search(rf"{label}:\s*(.+)", raw)
+        return m.group(1).strip() if m else ""
+
+    if category == "books":
+        return {"kind": "", "genre": field("GENRE"), "title": "", "ai_summary": field("SUMMARY")}
+    return {"kind": field("KIND"), "genre": field("GENRE"), "title": field("TITLE"), "ai_summary": ""}
+
+
+def analyse_local_media(filename: str, category: str, text_excerpt: str = "") -> dict:
+    """AI-assisted cataloguing for a file found while indexing an owned local
+    folder. For books (full text is available) this gets a real genre and
+    summary from Ark AI instead of pure keyword matching. For audio/video
+    (this app has no transcription or audio/video-understanding
+    infrastructure -- only the filename is available) Ark AI infers the
+    likely kind, subject/genre, and a cleaned-up title from the filename
+    alone, and is explicitly told not to claim to know anything the filename
+    doesn't support."""
+    if category == "books" and text_excerpt.strip():
+        system = (
+            "You are Ark AI, cataloguing a personal digital library. Given an excerpt from a book or "
+            "document, identify its likely genre or subject area in a few words, and write a 2-sentence "
+            "summary. Never invent details the excerpt doesn't support.\n"
+            "Respond in exactly this format, nothing else:\n"
+            "GENRE: [short genre/subject label]\nSUMMARY: [2-sentence summary]"
+        )
+        user = f"Filename: {filename}\n\nExcerpt:\n{text_excerpt[:_LOCAL_MEDIA_EXCERPT_CHARS]}"
+    else:
+        kind_hint = {
+            "audio": "audio file (podcast, music track, audiobook chapter, lecture recording, etc.)",
+            "videos": "video file (movie, documentary, tutorial, lecture, personal recording, etc.)",
+        }.get(category, "file")
+        system = (
+            f"You are Ark AI, cataloguing a personal digital library. You have only been given a {kind_hint}'s "
+            "filename -- you have not heard or watched its actual content, so never claim to know details the "
+            "filename doesn't support. From the filename alone, infer the most likely kind, a probable "
+            "subject/genre, and a cleaned-up readable title (strip release-group tags, underscores, track "
+            "numbers, resolution/codec noise).\n"
+            "Respond in exactly this format, nothing else:\n"
+            "KIND: [best-guess kind]\nGENRE: [best-guess subject/genre]\nTITLE: [cleaned-up title]"
+        )
+        user = f"Filename: {filename}"
+
+    raw = _call(system, user, max_tokens=150, strict=False)
+    return _parse_local_media_analysis(raw, category)
+
+
+_LIBRARY_ANALYSIS_EXCERPT_CHARS = 24000
+_LIBRARY_CLASSIFICATIONS = {"literature", "non-fiction", "textbook"}
+
+
+def _parse_book_library_analysis(raw: str) -> dict:
+    def field(label: str) -> str:
+        # [ \t]* (not \s*) so a blank field doesn't swallow the next line.
+        m = re.search(rf"{label}:[ \t]*(.*)", raw)
+        return m.group(1).strip() if m else ""
+
+    classification = field("CLASSIFICATION").strip().lower()
+    if classification not in _LIBRARY_CLASSIFICATIONS:
+        classification = ""
+    author = field("AUTHOR")
+    if author.lower() in {"unknown", "n/a", ""}:
+        author = ""
+    return {
+        "classification": classification,
+        "title": field("TITLE"),
+        "author": author,
+        "subject": field("SUBJECT"),
+        "synopsis": field("SYNOPSIS"),
+    }
+
+
+def analyze_book_for_library(filename: str, text_excerpt: str) -> dict:
+    """Deeper, opt-in analysis for a single scanned book -- triggered by the
+    Resource Tab's "Analyze" button, never run automatically for every file
+    in a bulk scan. Classifies the book as literature (read for its own
+    sake), non-fiction (a factual work for general readers), or a subject
+    textbook, and extracts its title and author. Literature gets a short
+    synopsis; non-fiction gets a substantial 800-1500 word synopsis (hence
+    the much larger excerpt sent below -- there must be more real material
+    than the synopsis itself, so Ark AI is summarizing, not padding).
+    Used to file the book into the organized local library and to
+    surface/replace it in World Literature, the Non-Fiction Library, and
+    matching lesson resources."""
+    system = (
+        "You are Ark AI, cataloguing a personal digital library. Given an excerpt from a book, decide "
+        "whether it is CLASSIFICATION literature (a novel, story collection, poetry, memoir, or other "
+        "work read for its own sake), non-fiction (a factual work written for general readers -- "
+        "history, biography, science communication, self-help, current affairs, etc.), or a textbook "
+        "(a subject/reference work meant for structured study). Identify its TITLE and AUTHOR as printed "
+        "in the text if visible, otherwise your best-supported guess from the filename -- write exactly "
+        "'Unknown' for AUTHOR if you cannot support a real name. If it is a textbook, name the single "
+        "academic SUBJECT it best belongs to (e.g. Mathematics, Biology, History); leave SUBJECT blank "
+        "otherwise. Write a SYNOPSIS: for literature, a short 3-4 sentence synopsis with no spoilers for "
+        "the ending; for non-fiction, a substantial 800-1500 word synopsis covering its central argument, "
+        "key ideas, and structure, based only on what this excerpt actually shows -- if the excerpt runs "
+        "out before you'd naturally cover the whole book, synopsize what's demonstrably present rather "
+        "than speculating about the rest; for a textbook, leave SYNOPSIS blank. Never invent details the "
+        "excerpt doesn't support.\n"
+        "Respond in exactly this format, nothing else:\n"
+        "CLASSIFICATION: [literature, non-fiction, or textbook]\nTITLE: [title]\nAUTHOR: [author, or Unknown]\n"
+        "SUBJECT: [subject, or blank]\nSYNOPSIS: [synopsis, or blank]"
+    )
+    user = f"Filename: {filename}\n\nExcerpt:\n{text_excerpt[:_LIBRARY_ANALYSIS_EXCERPT_CHARS]}"
+    raw = _call(system, user, max_tokens=2200, strict=False)
+    return _parse_book_library_analysis(raw)
+
+
+_BOOK_LESSON_EXCERPT_CHARS = 6000
+_BOOK_LESSON_KINDS = {
+    "copy", "example", "formula", "math", "code", "problem",
+    "figure", "table", "graph", "concept_map",
+}
+
+
+def _parse_book_lesson_snippets(raw: str, valid_titles: list[str]) -> list[dict]:
+    lookup = {t.strip().lower(): t for t in valid_titles}
+    snippets = []
+    for block in re.split(r"\n-{3,}\n", raw):
+        lesson_m = re.search(r"LESSON:\s*(.+)", block)
+        content_m = re.search(r"CONTENT:\s*(.+)", block, re.S)
+        if not (lesson_m and content_m):
+            continue
+        title = lookup.get(lesson_m.group(1).strip().lower())
+        if not title:
+            continue
+        kind_m = re.search(r"KIND:\s*(\S+)", block)
+        kind = kind_m.group(1).strip().lower() if kind_m else "copy"
+        if kind not in _BOOK_LESSON_KINDS:
+            kind = "copy"
+        form_m = re.search(r"FORM:\s*(\S+)", block)
+        form = form_m.group(1).strip().lower() if form_m else "summary"
+        if form not in ("full", "summary"):
+            form = "summary"
+        # CONTENT runs to the end of the block, so trim off any later labelled
+        # field that a model might have added after it despite the format.
+        content = re.split(r"\n(?:LESSON|KIND|FORM):", content_m.group(1))[0].strip()
+        if content:
+            snippets.append({"lesson_title": title, "kind": kind, "form": form, "content": content})
+    return snippets
+
+
+def analyse_book_for_lessons(book_title: str, book_text: str, lesson_titles: list[str]) -> list[dict]:
+    """Match an uploaded book's text to specific lessons in a subject's syllabus and
+    extract the single most useful part of the text for each genuine match -- a
+    direct quote, worked example, formula, math, code, or practice problem; a table
+    (as pipe-delimited rows so the frontend can render it as a real table, not a
+    paragraph); a concept map or process flow (as an arrow chain, e.g.
+    "Input -> Process -> Output", so it renders as connected nodes); or a
+    description of a graph/chart (only if the text itself names or captions one --
+    Ark AI never sees the book's actual images, so it never invents numbers or
+    visuals the text doesn't support, only describes what's captioned)."""
+    if not lesson_titles or not book_text.strip():
+        return []
+    excerpt = book_text[:_BOOK_LESSON_EXCERPT_CHARS]
+    titles_block = "\n".join(f"- {t}" for t in lesson_titles)
+    system = (
+        f'You are Ark AI, helping a parent curate a personal digital library into a curriculum. You are given an '
+        f'excerpt from a book titled "{book_title}" and a list of lesson titles from one subject\'s syllabus. '
+        "Identify up to 4 lessons this excerpt is genuinely relevant to, and for each, extract the single most "
+        "useful part of the text for that lesson, in the kind of form that best fits what's actually there:\n"
+        "- copy/example/problem: a direct quote, worked example, or practice problem, as plain text.\n"
+        "- formula/math: the formula or math itself, on its own.\n"
+        "- code: the code itself, verbatim, with no explanation mixed in.\n"
+        "- table: only if the excerpt contains genuinely tabular data -- format CONTENT as a Markdown table "
+        "(header row, then a |---|---| separator row, then data rows, all pipe-delimited).\n"
+        "- concept_map: only if the excerpt describes a sequence, process, or set of related concepts -- format "
+        "CONTENT as those concepts in order separated by ' -> ' (e.g. \"Sunlight -> Photosynthesis -> Glucose\").\n"
+        "- graph: only if the text itself names or captions a graph/chart -- describe what it shows in prose; "
+        "never invent numbers or a visual the text doesn't support.\n"
+        "- figure: only if the text itself names or captions some other figure/picture -- describe it in prose.\n"
+        "Never invent content the excerpt doesn't contain. Skip lessons with no genuine match; if none match, "
+        "respond with the single word NONE.\n"
+        "For each match, respond in exactly this block format, separated by a line of three dashes:\n"
+        "LESSON: [exact lesson title from the list]\n"
+        "KIND: [copy|example|formula|math|code|problem|table|concept_map|graph|figure]\n"
+        "FORM: [full if the excerpt can be used as-is, otherwise summary]\n"
+        "CONTENT: [the extracted or summarised text]"
+    )
+    user = f"Lesson titles:\n{titles_block}\n\nBook excerpt:\n{excerpt}"
+    raw = _call(system, user, max_tokens=1200, strict=False)
+    return _parse_book_lesson_snippets(raw, lesson_titles)

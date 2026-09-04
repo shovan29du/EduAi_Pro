@@ -1,0 +1,57 @@
+{
+  "_comment": "Universal safety blocklist applied at every academic level, from Grade 1 through Master's. These categories cover genuinely harmful, illegal, hateful, sexual, or dangerous content and are never relaxed for adult/college-level academic access. Ordinary academic discussion of history, medicine, law, politics, or social issues is NOT blocked by this list -- only explicit instructions/content in these categories are.",
+  "categories": {
+    "violent_harm_instructions": [
+      "how to make a bomb",
+      "how to build a bomb",
+      "how to build an explosive device",
+      "how to make a pipe bomb",
+      "instructions to build a weapon to kill",
+      "how to make sarin gas",
+      "how to synthesize nerve agent",
+      "how to make a biological weapon",
+      "how to build an untraceable firearm",
+      "how to make napalm at home"
+    ],
+    "drug_synthesis_instructions": [
+      "how to synthesize methamphetamine",
+      "how to make meth at home",
+      "how to synthesize fentanyl",
+      "how to cook crack cocaine",
+      "step by step meth recipe"
+    ],
+    "self_harm_instructions": [
+      "how to commit suicide",
+      "best way to kill yourself",
+      "suicide method that works",
+      "how to cut yourself to die",
+      "painless way to end my life"
+    ],
+    "csam": [
+      "child sexual abuse material",
+      "sexual content involving a minor",
+      "child pornography",
+      "nude images of a child"
+    ],
+    "extremism_and_terrorism": [
+      "join a terrorist organization",
+      "how to become a terrorist",
+      "recruit for a terrorist cell",
+      "how to plan a mass shooting"
+    ],
+    "hate_slurs": [
+      "nigger",
+      "chink",
+      "spic",
+      "kike",
+      "gook",
+      "raghead",
+      "towelhead",
+      "faggot",
+      "tranny",
+      "retard",
+      "beaner",
+      "wetback"
+    ]
+  }
+}
