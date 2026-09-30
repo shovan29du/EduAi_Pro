@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
+import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
+import { WORLD_LAND_PATH } from '../utils/worldLandPath.js';
 
 const CONTINENTS = ['All', 'Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Antarctica'];
 
@@ -13,15 +15,6 @@ const CONTINENT_COLOR = {
   Oceania: '#06b6d4',
   Antarctica: '#94a3b8',
 };
-
-// Equirectangular projection: real latitude/longitude -> SVG x/y on a 1000x500 map.
-const MAP_WIDTH = 1000;
-const MAP_HEIGHT = 500;
-function project(lat, lng) {
-  const x = ((lng + 180) / 360) * MAP_WIDTH;
-  const y = ((90 - lat) / 180) * MAP_HEIGHT;
-  return { x, y };
-}
 
 export default function CountriesExplorer() {
   const [countries, setCountries] = useState([]);
@@ -241,6 +234,7 @@ function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail 
       <div className="rounded-xl border-2 border-sky-300 dark:border-slate-600 overflow-hidden bg-sky-50 dark:bg-slate-900">
         <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="w-full h-auto select-none" role="img" aria-label="World map of country capitals">
           <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} className="fill-sky-100 dark:fill-slate-800" />
+          <path d={WORLD_LAND_PATH} className="fill-emerald-200/80 dark:fill-slate-700 stroke-emerald-500/70 dark:stroke-slate-500" strokeWidth="0.75" />
           {meridians.map((lng) => {
             const { x } = project(0, lng);
             return <line key={lng} x1={x} y1={0} x2={x} y2={MAP_HEIGHT} className="stroke-sky-200 dark:stroke-slate-700" strokeWidth="1" />;
@@ -268,7 +262,7 @@ function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail 
         </svg>
       </div>
       <p className="text-[11px] text-gray-400 text-center">
-        A schematic locator map (latitude/longitude grid, not coastlines) — pins mark each capital's real coordinates. Tap a pin, then open it in Google Maps or Google Earth for the real view.
+        A schematic locator map (simplified coastlines, not political borders) — pins mark each capital's real coordinates. Tap a pin, then open it in Google Maps or Google Earth for the real view.
       </p>
 
       {pinnedCountry && (

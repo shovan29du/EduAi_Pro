@@ -1,12 +1,14 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
+import { WORLD_LAND_PATH } from '../utils/worldLandPath.js';
 
 // A collection of historical locator maps — one per century, browsed as a
-// gallery. Each map uses the same schematic (graticule, not coastlines)
-// approach as the current-day World Map, plotting the major civilizations/
-// empires of that century at their real approximate capital coordinates —
-// paired with that century's key events and links to real, famous
-// historical maps where one genuinely exists for that era.
+// gallery. Each map uses the same schematic (real continent outlines plus a
+// lat/long graticule, not political borders) approach as the current-day
+// World Map, plotting the major civilizations/empires of that century at
+// their real approximate capital coordinates — paired with that century's
+// key events and links to real, famous historical maps where one genuinely
+// exists for that era.
 
 function PeriodCard({ period, onOpen }) {
   return (
@@ -56,6 +58,7 @@ function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
         <div className="bg-amber-50/60 dark:bg-slate-900">
           <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="w-full h-auto select-none" role="img" aria-label={`Map of major civilizations during: ${period.label}`}>
             <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} className="fill-amber-50 dark:fill-slate-800" />
+            <path d={WORLD_LAND_PATH} className="fill-amber-200/80 dark:fill-slate-700 stroke-amber-400 dark:stroke-slate-500" strokeWidth="0.75" />
             {[-150, -120, -90, -60, -30, 0, 30, 60, 90, 120, 150].map((lng) => {
               const { x } = project(0, lng);
               return <line key={lng} x1={x} y1={0} x2={x} y2={MAP_HEIGHT} className="stroke-amber-200 dark:stroke-slate-700" strokeWidth="1" />;
@@ -80,7 +83,7 @@ function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
           </svg>
         </div>
         <p className="text-[11px] text-gray-400 text-center py-1">
-          A schematic locator map (latitude/longitude grid, not political borders) — tap a marker for details.
+          A schematic locator map (today's coastlines, not this era's political borders) — tap a marker for details.
         </p>
 
         {activeRegion && (
