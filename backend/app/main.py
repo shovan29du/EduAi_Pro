@@ -448,7 +448,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", "Substitute the values", f"Apply the rule for {t}", "Re-check each substitution"],
             ["3", "Computed result", "Simplify to a final answer", "Does the answer make sense in scale?"],
         ],
-        "graph_axis": ("x", "f(x)"),
         "worked_steps": lambda c, t: [
             f"Identify the given quantities and what {t} asks you to find.",
             f"Choose the rule or formula that connects them for {c}.",
@@ -466,7 +465,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", f"{c} increased or changed", f"Effect on {t} observed", "Compare to baseline"],
             ["3", "Repeat trial", "Check the result is repeatable", "Result is/isn't consistent"],
         ],
-        "graph_axis": ("Variable changed", "Measured effect"),
         "worked_steps": lambda c, t: [
             f"State the hypothesis linking {c} to the outcome of {t}.",
             "Identify the controlled, independent, and dependent variables.",
@@ -484,7 +482,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", f"Change relevant to {t}", "Describe the process taking place", "What supports this explanation?"],
             ["3", "Resulting state", "Explain the outcome", "Does it match known examples?"],
         ],
-        "graph_axis": ("Time or stage", "Quantity observed"),
         "worked_steps": lambda c, t: [
             f"Describe what {c} normally looks like or does.",
             f"Identify what changes during {t} and why.",
@@ -504,7 +501,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", "Cleaned input", f"Apply the {t} operation or logic", "Intermediate result"],
             ["3", "Intermediate result", "Verify against expected behaviour", "Final output"],
         ],
-        "graph_axis": ("Input size / step", "Time or resources used"),
         "worked_steps": lambda c, t: [
             f"Define the input and the expected output for {t}.",
             f"Break {c} down into a small sequence of operations.",
@@ -522,7 +518,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", f"Change relevant to {t}", "Calculate the impact", "Is the change favourable?"],
             ["3", "Net result", "Compare against the target/benchmark", "What decision does this support?"],
         ],
-        "graph_axis": ("Quantity or period", "Price, cost, or value"),
         "worked_steps": lambda c, t: [
             f"Identify the decision that {t} is meant to support.",
             f"Gather the figures needed to evaluate {c}.",
@@ -542,7 +537,6 @@ _ENRICHMENT_DOMAINS = {
             ["2", f"Related development in {t}", "Secondary source or comparison", "Who or what was affected"],
             ["3", "Overall pattern", "Weigh the evidence together", "Why it matters today"],
         ],
-        "graph_axis": ("Time period or stage", "Significance / impact"),
         "worked_steps": lambda c, t: [
             f"Define the question {t} is asking and any key terms, including {c}.",
             "Collect one primary and one reliable secondary source.",
@@ -563,17 +557,6 @@ def _enrichment_domain(subject_name: str) -> str:
     return _DEFAULT_ENRICHMENT_DOMAIN
 
 
-def _graph_points_for(seed_text: str) -> list[int]:
-    """Deterministic but distinct 6-point sequence per lesson, so lessons in
-    the same subject domain don't all render an identical-looking graph."""
-    digest = hashlib.md5(seed_text.encode("utf-8")).digest()
-    points = [2 + (digest[i] % 9) for i in range(6)]
-    # Nudge toward a generally rising trend (more legible as "how X changes")
-    # while keeping the per-lesson shape distinct, rather than a flat line.
-    points.sort()
-    return points
-
-
 def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
     """Add compact teaching aids derived from each lesson's own title and key
     concepts, using vocabulary and structure suited to the subject's domain,
@@ -585,7 +568,6 @@ def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
     domain = _enrichment_domain(subject_name)
     config = _ENRICHMENT_DOMAINS[domain]
     formula = lesson.get("formula") or config["formula"].format(concept=concept)
-    x_axis, y_axis = config["graph_axis"]
     figure_nodes = key_concepts if len(key_concepts) >= 3 else (key_concepts + [title, "Application", "Outcome"])[:5]
 
     return {
@@ -605,12 +587,6 @@ def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
         "data_table": lesson.get("data_table") or {
             "headers": config["table_headers"],
             "rows": config["table_rows"](concept, key_concepts, title),
-        },
-        "graph": lesson.get("graph") or {
-            "title": f"How {concept} relates to the outcome in {title}",
-            "x_axis": x_axis,
-            "y_axis": y_axis,
-            "points": _graph_points_for(f"{subject_name}:{title}"),
         },
         "figure": lesson.get("figure") or {
             "caption": f"Concept map for {title}",
@@ -650,10 +626,13 @@ def get_level_subject(level_id: str, subject_name: str):
     except KeyError as exc:
         raise HTTPException(status_code=404, detail=f"Subject '{subject_name}' is not available at level {norm}") from exc
     subject = json.loads(json.dumps(cached))
-    subject["lessons"] = [
+    merged_lessons = [
         {**lesson, **_technical_enrichment(subject_name, lesson)}
         for lesson in subject.get("lessons", [])
     ]
+    for lesson in merged_lessons:
+        lesson.pop("graph", None)
+    subject["lessons"] = merged_lessons
     subject["__name"] = subject_name
     return {"level": norm, "subject_name": subject_name, "subject": subject}
 

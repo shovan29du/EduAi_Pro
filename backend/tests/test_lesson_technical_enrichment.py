@@ -11,11 +11,11 @@ def _lessons(level: str, subject: str):
     return resp.json()["subject"]["lessons"]
 
 
-def test_different_lessons_in_the_same_subject_get_different_graphs():
-    lessons = _lessons("5", "Science")
-    assert len(lessons) >= 2
-    points_seen = {tuple(l["graph"]["points"]) for l in lessons[:5]}
-    assert len(points_seen) > 1, "every lesson's graph has identical points"
+def test_lessons_never_include_a_graph_field():
+    for level, subject in (("1", "Math"), ("5", "Science"), ("M2", "Philosophy")):
+        lessons = _lessons(level, subject)
+        assert lessons, f"no lessons returned for {level}/{subject}"
+        assert all("graph" not in l for l in lessons), f"graph field leaked into {level}/{subject}"
 
 
 def test_different_lessons_get_different_table_rows():
@@ -39,7 +39,3 @@ def test_subject_domains_get_distinct_table_headers():
     assert math_headers != history_headers
 
 
-def test_graph_axis_labels_are_domain_appropriate():
-    math_graph = _lessons("5", "Math")[0]["graph"]
-    history_graph = _lessons("5", "World History")[0]["graph"]
-    assert math_graph["x_axis"] != history_graph["x_axis"]
