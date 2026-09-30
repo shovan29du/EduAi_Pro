@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 dark:border-gray-600 dark:bg-gray-950 dark:text-gray-100 dark:focus:ring-indigo-900;
+  }
+
+  .button {
+    @apply rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+}
+
+html {
+  background-color: var(--app-bg-color, inherit);
+  color: var(--app-font-color, inherit);
+  font-family: var(--app-font-family, inherit);
+  font-size: var(--app-font-size, 16px);
+}
+
+body,
+#root {
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+html[data-theme='sunshine'] {
+  --app-bg-color: #fff8e1;
+  --app-font-color: #4e342e;
+}
+
+html[data-theme='ocean'] {
+  --app-bg-color: #e3f2fd;
+  --app-font-color: #0d47a1;
+}
+
+html[data-theme='forest'] {
+  --app-bg-color: #e8f5e9;
+  --app-font-color: #1b5e20;
+}
+
+html[data-theme='bubblegum'] {
+  --app-bg-color: #fce4ec;
+  --app-font-color: #880e4f;
+}
+
+html[data-theme='dark'] {
+  --app-bg-color: #1a1a2e;
+  --app-font-color: #ffffff;
+}
+
+/* Dark mode is deliberately high-legibility: selected, unselected, muted,
+   disabled and placeholder text all remain white. */
+html.dark body,
+html.dark #root,
+html.dark #root * {
+  color: #ffffff !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #ffffff !important;
+  opacity: 0.72;
+}
+
+html[data-theme='high-contrast'] {
+  --app-bg-color: #000000;
+  --app-font-color: #ffff00;
+}
+
+html[data-theme='sepia'] {
+  --app-bg-color: #f4ecd8;
+  --app-font-color: #5c3d1e;
+}

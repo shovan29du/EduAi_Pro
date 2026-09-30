@@ -1,0 +1,1554 @@
+import os
+
+import pytest
+from fastapi.testclient import TestClient
+
+from app.main import app, SYLLABUS_DIR
+from app.safety import safety_filter
+
+client = TestClient(app)
+
+
+def test_get_grade_returns_subjects():
+    resp = client.get("/api/grade/1")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert "subjects" in body
+    assert "Math" in body["subjects"]
+
+
+def test_get_grade_not_found():
+    resp = client.get("/api/grade/99")
+    assert resp.status_code == 404
+
+
+def test_progress_save_and_load_testchildone():
+    update = {"scores": {"Math": 90}, "badges": ["math-star"]}
+    resp = client.post("/api/progress/TestChildOne", json=update)
+    assert resp.status_code == 200
+
+    resp = client.get("/api/progress/TestChildOne")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["scores"]["Math"] == 90
+    assert "math-star" in body["badges"]
+
+
+def test_progress_save_and_load_testchildtwo():
+    update = {"scores": {"English": 75}}
+    client.post("/api/progress/TestChildTwo", json=update)
+    resp = client.get("/api/progress/TestChildTwo")
+    assert resp.json()["scores"]["English"] == 75
+
+
+def test_progress_snippet_delete():
+    client.post("/api/progress/TestChildOne", json={"snippets": {"snippet-1": "print(1)", "snippet-2": "print(2)"}})
+    resp = client.get("/api/progress/TestChildOne")
+    assert "snippet-1" in resp.json()["snippets"]
+
+    del_resp = client.delete("/api/progress/TestChildOne/snippets/snippet-1")
+    assert del_resp.status_code == 200
+    assert "snippet-1" not in del_resp.json()["snippets"]
+    assert "snippet-2" in del_resp.json()["snippets"]
+
+    resp = client.get("/api/progress/TestChildOne")
+    assert "snippet-1" not in resp.json()["snippets"]
+
+
+def test_progress_snippet_delete_missing_id_is_a_noop():
+    resp = client.delete("/api/progress/TestChildOne/snippets/does-not-exist")
+    assert resp.status_code == 200
+
+
+def test_progress_unknown_child_rejected():
+    resp = client.get("/api/progress/Unknown")
+    assert resp.status_code == 404
+
+
+def test_safety_filter_blocks_bad_word():
+    assert safety_filter.is_safe("This is a kind story") is True
+    assert safety_filter.is_safe("This story has hate in it") is False
+    sanitized = safety_filter.sanitize("I hate this")
+    assert "hate" not in sanitized.lower()
+
+
+def test_safe_music_only_returns_safe_songs():
+    resp = client.get("/api/safe-music")
+    assert resp.status_code == 200
+    songs = resp.json()
+    assert len(songs) > 0
+    assert all(s.get("safe") for s in songs) if isinstance(songs[0], dict) else True
+
+
+def test_sing_along_songs_returns_lyrics():
+    resp = client.get("/api/sing-along-songs")
+    assert resp.status_code == 200
+    songs = resp.json()
+    assert len(songs) > 0
+    assert all(s.get("safe") for s in songs)
+    assert all(s.get("lyrics") for s in songs)
+
+
+def test_grade2_available():
+    resp = client.get("/api/grade/2")
+    assert resp.status_code == 200
+    assert "Math" in resp.json()["subjects"]
+
+
+@pytest.mark.parametrize("standard", [3, 4, 5, 6, 7])
+def test_grade3_and_grade4_available(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    assert "Math" in resp.json()["subjects"]
+    assert "English" in resp.json()["subjects"]
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_additional_subjects_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Science", "Geography", "World History", "Islamic Studies"):
+        assert name in subjects
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_world_literature_and_art_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("World Literature", "Art"):
+        assert name in subjects
+
+
+@pytest.mark.parametrize("standard", range(1, 11))
+def test_social_studies_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Social Studies",):
+        assert name in subjects
+
+
+@pytest.mark.parametrize("standard", range(1, 11))
+def test_physical_education_self_defense_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    assert "Physical Education & Self-Defense" in subjects
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_new_resource_type_keys_present_on_every_subject(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for subject in subjects.values():
+        for key in ("textbooks", "audio_resources", "comics", "drawing_activities", "info_cards"):
+            assert key in subject
+
+
+def test_coding_starts_at_grade2():
+    resp = client.get("/api/grade/1")
+    assert "Coding" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Coding" in resp.json()["subjects"]
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_music_and_general_knowledge_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Music", "General Knowledge"):
+        assert name in subjects
+
+
+def test_survival_skills_starts_at_grade3():
+    resp = client.get("/api/grade/1")
+    assert "Survival Skills" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Survival Skills" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/3")
+    assert "Survival Skills" in resp.json()["subjects"]
+
+
+def test_cooking_starts_at_grade3():
+    resp = client.get("/api/grade/1")
+    assert "Cooking" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Cooking" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/3")
+    assert "Cooking" in resp.json()["subjects"]
+
+
+def test_grade8_available_with_core_subjects():
+    resp = client.get("/api/grade/8")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ["Math", "English", "Science", "Geography", "World History",
+                 "Islamic Studies", "Coding", "World Literature", "Art",
+                 "Music", "Survival Skills", "General Knowledge", "Cooking",
+                 "Foreign Languages", "Social Studies",
+                 "Physical Education & Self-Defense"]:
+        assert name in subjects
+
+
+def test_grade9_available_with_core_subjects():
+    resp = client.get("/api/grade/9")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ["Math", "English", "Science", "Geography", "World History",
+                 "Islamic Studies", "Coding", "World Literature", "Art",
+                 "Music", "Survival Skills", "General Knowledge", "Cooking",
+                 "Foreign Languages", "Social Studies",
+                 "Physical Education & Self-Defense"]:
+        assert name in subjects
+
+
+def test_grade10_available_with_core_subjects():
+    resp = client.get("/api/grade/10")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ["Math", "English", "Science", "Geography", "World History",
+                 "Islamic Studies", "Coding", "World Literature", "Art",
+                 "Music", "Survival Skills", "General Knowledge", "Cooking",
+                 "Foreign Languages", "Social Studies",
+                 "Physical Education & Self-Defense"]:
+        assert name in subjects
+
+
+def test_foreign_languages_starts_at_grade2():
+    resp = client.get("/api/grade/1")
+    assert "Foreign Languages" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Foreign Languages" in resp.json()["subjects"]
+    audio = resp.json()["subjects"]["Foreign Languages"]["audio_resources"]
+    assert len(audio) == 6
+    assert all(a["safe"] for a in audio)
+
+
+def test_general_knowledge_has_quotes_and_summaries_every_grade():
+    for standard in range(1, 11):
+        resp = client.get(f"/api/grade/{standard}")
+        cards = resp.json()["subjects"]["General Knowledge"]["info_cards"]
+        titles = [c["title"] for c in cards]
+        assert "Philosophical Quote" in titles
+        assert "Famous Quote" in titles
+        assert any(t.startswith("Famous Person:") for t in titles)
+        assert any(t.startswith("Book Summary:") for t in titles)
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_art_history_present_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    art = resp.json()["subjects"]["Art"]
+    assert any("Art History" in (v.get("title") or "") for v in art["video_resources"])
+
+
+def test_grade7_available():
+    resp = client.get("/api/grade/7")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    assert "Math" in subjects
+    assert "Coding" in subjects
+
+
+def test_search_returns_matching_safe_resources():
+    resp = client.get("/api/search/1", params={"q": "phonics"})
+    assert resp.status_code == 200
+    results = resp.json()
+    assert len(results) >= 1
+    assert all(r["safe"] for r in results)
+    assert results[0]["subject"] == "English"
+
+
+def test_search_empty_query_returns_empty_list():
+    resp = client.get("/api/search/1", params={"q": ""})
+    assert resp.status_code == 200
+    assert resp.json() == []
+
+
+def test_search_unknown_grade_404():
+    resp = client.get("/api/search/99", params={"q": "math"})
+    assert resp.status_code == 404
+
+
+def test_profiles_includes_test_children():
+    resp = client.get("/api/profiles")
+    assert resp.status_code == 200
+    assert resp.json() == ["TestChildOne", "TestChildTwo"]
+
+
+def test_web_search_returns_501_when_unconfigured(monkeypatch):
+    monkeypatch.delenv("BRAVE_SEARCH_API_KEY", raising=False)
+    resp = client.get("/api/web-search", params={"q": "math games"})
+    assert resp.status_code == 501
+    assert "BRAVE_SEARCH_API_KEY" in resp.json()["detail"]
+
+
+def test_web_search_empty_query_returns_empty_list():
+    resp = client.get("/api/web-search", params={"q": ""})
+    assert resp.status_code == 200
+    assert resp.json() == []
+
+
+@pytest.fixture
+def temp_grade_path():
+    path = SYLLABUS_DIR / "grade11.json"
+    yield path
+    if path.exists():
+        os.remove(path)
+
+
+def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
+    payload = {
+        "standard": 11,
+        "subject": "Science",
+        "resource_type": "video_resources",
+        "resource": {
+            "title": "Intro to the Solar System",
+            "url": "https://example.com/solar-system",
+            "description": "A kid-friendly tour of the planets.",
+        },
+    }
+    resp = client.post("/api/curate-resource", json=payload)
+    assert resp.status_code == 200
+    assert resp.json()["safe"] is True
+    assert temp_grade_path.exists()
+
+    resp = client.get("/api/grade/11")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert "Intro to the Solar System" in [
+        v["title"] for v in body["subjects"]["Science"]["video_resources"]
+    ]
+
+
+def test_curate_resource_rejects_unsafe_content(temp_grade_path):
+    payload = {
+        "standard": 11,
+        "subject": "Science",
+        "resource_type": "video_resources",
+        "resource": {
+            "title": "A story full of hate",
+            "url": "https://example.com/bad",
+        },
+    }
+    resp = client.post("/api/curate-resource", json=payload)
+    assert resp.status_code == 400
+
+
+def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
+    payload = {
+        "standard": 11,
+        "subject": "Science",
+        "resource_type": "not_a_real_type",
+        "resource": {"title": "Whatever"},
+    }
+    resp = client.post("/api/curate-resource", json=payload)
+    assert resp.status_code == 422
+
+
+def test_export_progress_csv():
+    client.post("/api/progress/TestChildOne", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "csv"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/csv")
+    assert "Math,88" in resp.text
+
+
+def test_export_progress_pdf():
+    client.post("/api/progress/TestChildOne", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "pdf"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_progress_invalid_format():
+    resp = client.get("/api/progress/TestChildOne/export", params={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_progress_unknown_child_404():
+    resp = client.get("/api/progress/Unknown/export")
+    assert resp.status_code == 404
+
+
+def test_download_resource_txt():
+    resp = client.post(
+        "/api/resource/download",
+        json={
+            "title": "Plants for kids",
+            "body": "Plants need sunlight, water, and soil to grow.",
+            "url": "https://www.dogonews.com/",
+            "source": "DOGOnews",
+        },
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/plain")
+    assert "Plants need sunlight" in resp.text
+    assert "DOGOnews" in resp.text
+
+
+def test_download_resource_docx():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "News article", "body": "Some real saved text.", "format": "docx"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == (
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+    assert resp.content[:2] == b"PK"
+
+
+def test_download_resource_without_body_still_works():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "Source link only", "url": "https://www.timeforkids.com/"},
+    )
+    assert resp.status_code == 200
+    assert "No saved article text" in resp.text
+
+
+def test_download_resource_rejects_unsafe_text():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "kill everyone", "body": "fine"},
+    )
+    assert resp.status_code == 400
+
+
+def test_export_syllabus_json():
+    resp = client.get("/api/grade/1/export", params={"format": "json"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("application/json")
+    assert "Math" in resp.json()["subjects"]
+
+
+def test_export_syllabus_csv():
+    resp = client.get("/api/grade/1/export", params={"format": "csv"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/csv")
+    assert resp.text.startswith("subject,resource_type,title,url")
+
+
+def test_export_syllabus_invalid_format():
+    resp = client.get("/api/grade/1/export", params={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_syllabus_unknown_grade_404():
+    resp = client.get("/api/grade/99/export")
+    assert resp.status_code == 404
+
+
+def test_export_exam_result_pdf():
+    payload = {
+        "child": "TestChildOne",
+        "subject": "Math",
+        "score": 90,
+        "passed": True,
+        "answers": [{"question": "2+2?", "given": "4"}],
+    }
+    resp = client.post("/api/exam-result/export", json=payload)
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_exam_result_missing_field_422():
+    resp = client.post("/api/exam-result/export", json={"child": "TestChildOne"})
+    assert resp.status_code == 422
+
+
+def test_upload_rejects_unsupported_extension():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("malware.exe", b"binary", "application/octet-stream")},
+    )
+    assert resp.status_code == 400
+
+
+def test_upload_accepts_image_file():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("photo.png", b"\x89PNG\r\n\x1a\n", "image/png")},
+    )
+    assert resp.status_code == 200
+    assert resp.json()["type"] == "png"
+
+
+def test_upload_accepts_audio_file():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("song.mp3", b"ID3", "audio/mpeg")},
+    )
+    assert resp.status_code == 200
+    assert resp.json()["type"] == "mp3"
+
+
+def test_upload_rejects_unsafe_text_content():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("story.txt", b"This story has hate in it", "text/plain")},
+    )
+    assert resp.status_code == 400
+
+
+def test_upload_summarizes_text_file():
+    long_text = " ".join(
+        f"Sentence number {i} talks about whales and the ocean and migration patterns."
+        for i in range(20)
+    )
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("whales.txt", long_text.encode(), "text/plain")},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["summary"]
+    assert len(body["summary"]) < len(long_text)
+
+
+def test_upload_and_add_to_syllabus(temp_grade_path):
+    long_text = " ".join(
+        f"Sentence number {i} talks about whales and the ocean and migration patterns."
+        for i in range(20)
+    )
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("whales.txt", long_text.encode(), "text/plain")},
+        data={"standard": "11", "subject": "Science"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["added_resource"]["safe"] is True
+    assert temp_grade_path.exists()
+
+
+def test_resource_tab_rejects_unsupported_extension():
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("malware.exe", b"binary", "application/octet-stream")},
+    )
+    assert resp.status_code == 400
+
+
+def test_resource_tab_rejects_unsafe_text_content():
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("story.txt", b"This story has hate in it", "text/plain")},
+    )
+    assert resp.status_code == 400
+
+
+def test_resource_tab_upload_matches_topics_and_lists():
+    text = "This document is all about Volcanoes and Plate tectonics and how the Earth's crust moves."
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("earth.txt", text.encode(), "text/plain")},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["filename"] == "earth.txt"
+    assert body["type"] == "txt"
+    topics = {m["topic"] for m in body["matched_topics"]}
+    assert "Volcanoes" in topics or "Plate tectonics" in topics
+
+    listed = client.get("/api/resource-tab")
+    assert listed.status_code == 200
+    assert any(d["id"] == body["id"] for d in listed.json())
+
+    download = client.get(f"/api/resource-tab/{body['id']}/download")
+    assert download.status_code == 200
+    assert download.content == text.encode()
+
+    deleted = client.delete(f"/api/resource-tab/{body['id']}")
+    assert deleted.status_code == 200
+
+    missing = client.get(f"/api/resource-tab/{body['id']}/download")
+    assert missing.status_code == 404
+
+
+def test_export_syllabus_custom_pdf():
+    resp = client.post(
+        "/api/grade/1/export/custom",
+        json={"subjects": ["Math"], "resource_types": ["books"], "format": "pdf"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_syllabus_custom_docx():
+    resp = client.post(
+        "/api/grade/1/export/custom",
+        json={"subjects": ["Math"], "resource_types": ["books"], "format": "docx"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == (
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+
+
+def test_export_syllabus_custom_defaults_to_all_subjects():
+    resp = client.post("/api/grade/1/export/custom", json={"format": "pdf"})
+    assert resp.status_code == 200
+
+
+def test_export_syllabus_custom_invalid_format():
+    resp = client.post("/api/grade/1/export/custom", json={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_syllabus_custom_unknown_grade_404():
+    resp = client.post("/api/grade/99/export/custom", json={"format": "pdf"})
+    assert resp.status_code == 404
+
+
+def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch, tmp_path):
+    from app import storage
+    from datetime import date, timedelta
+
+    monkeypatch.setattr(storage, "_progress_path", lambda child: tmp_path / f"progress_{child}.json")
+
+    base = date(2024, 1, 1)
+    monkeypatch.setattr(storage, "_today", lambda: base)
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["learn"]}})
+
+    monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=1))
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["watch"]}})
+
+    monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=2))
+    resp = client.post("/api/progress/TestChildOne", json={"completed_lessons": {"StreakTestSubject": ["explore"]}})
+
+    data = resp.json()
+    assert data["lesson_streak"] == 3
+    assert "lesson-streak-3" in data["badges"]
+
+
+def test_progress_completed_lessons_tracked_and_deduped():
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"Math": ["learn"]}})
+    client.post("/api/progress/TestChildOne", json={"completed_lessons": {"Math": ["learn", "watch"]}})
+    resp = client.get("/api/progress/TestChildOne")
+    assert resp.json()["completed_lessons"]["Math"] == ["learn", "watch"]
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Language Academy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_languages_list():
+    resp = client.get("/api/languages")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "languages" in data
+    assert len(data["languages"]) >= 10
+
+
+def test_languages_list_has_required_fields():
+    resp = client.get("/api/languages")
+    lang = resp.json()["languages"][0]
+    for field in ("code", "name", "flag", "greeting"):
+        assert field in lang, f"Missing field: {field}"
+
+
+def test_language_detail_french():
+    resp = client.get("/api/languages/fr")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["code"] == "fr"
+    assert "vocabulary" in data
+
+
+def test_language_detail_arabic():
+    resp = client.get("/api/languages/ar")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["code"] == "ar"
+    assert data.get("direction") == "rtl"
+
+
+def test_language_detail_not_found():
+    resp = client.get("/api/languages/xx")
+    assert resp.status_code == 404
+
+
+def test_language_quiz():
+    resp = client.get("/api/languages/fr/quiz")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "quiz" in data
+    assert len(data["quiz"]) > 0
+
+
+@pytest.mark.parametrize("code", ["fr", "es", "ar", "de", "it", "ru", "zh", "ja", "ko"])
+def test_all_language_vocab_files_loadable(code):
+    resp = client.get(f"/api/languages/{code}")
+    assert resp.status_code == 200
+    assert resp.json()["code"] == code
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Grammar Academy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_grammar_curriculum_overview():
+    resp = client.get("/api/grammar")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "levels" in data
+    assert "title" in data
+
+
+def test_grammar_levels_all_present():
+    resp = client.get("/api/grammar")
+    levels = resp.json()["levels"]
+    for level in ("beginner", "elementary", "intermediate", "advanced"):
+        assert level in levels
+
+
+def test_grammar_level_detail():
+    resp = client.get("/api/grammar/beginner")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) > 0
+
+
+def test_grammar_level_lesson_has_quiz():
+    resp = client.get("/api/grammar/beginner")
+    lessons = resp.json()["lessons"]
+    lesson_with_quiz = next((l for l in lessons if l.get("quiz")), None)
+    assert lesson_with_quiz is not None
+
+
+def test_grammar_level_not_found():
+    resp = client.get("/api/grammar/nonexistent")
+    assert resp.status_code == 404
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Countries Explorer
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_countries_list():
+    resp = client.get("/api/countries")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "countries" in data
+    assert data["total"] >= 100
+
+
+def test_countries_list_has_required_fields():
+    resp = client.get("/api/countries")
+    country = resp.json()["countries"][0]
+    for field in ("code", "name", "capital", "continent"):
+        assert field in country
+
+
+def test_country_detail_gb():
+    resp = client.get("/api/countries/GB")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["name"] == "United Kingdom"
+
+
+def test_country_detail_case_insensitive():
+    resp = client.get("/api/countries/gb")
+    assert resp.status_code == 200
+
+
+def test_country_not_found():
+    resp = client.get("/api/countries/ZZZ")
+    assert resp.status_code == 404
+
+
+def test_countries_have_capital_coordinates():
+    resp = client.get("/api/countries")
+    countries = resp.json()["countries"]
+    assert len(countries) >= 100
+    for country in countries:
+        coords = country.get("coordinates")
+        assert coords is not None, country["name"]
+        assert -90 <= coords["lat"] <= 90
+        assert -180 <= coords["lng"] <= 180
+
+
+def test_countries_have_google_maps_and_earth_links():
+    resp = client.get("/api/countries/FR")
+    data = resp.json()
+    lat, lng = data["coordinates"]["lat"], data["coordinates"]["lng"]
+    assert str(lat) in data["links"]["google_maps"]
+    assert str(lng) in data["links"]["google_maps"]
+    assert data["links"]["google_maps"].startswith("https://www.google.com/maps/")
+    assert data["links"]["google_earth"].startswith("https://earth.google.com/web/")
+    assert str(lat) in data["links"]["google_earth"]
+    assert str(lng) in data["links"]["google_earth"]
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Historical World Map
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+def test_historical_map_periods_cover_ancient_to_present():
+    # Per-century coverage from 3000 BCE to 2025 CE, preceded by one deep
+    # prehistory bucket for 5000-3001 BCE.
+    resp = client.get("/api/historical-map")
+    assert resp.status_code == 200
+    periods = resp.json()["periods"]
+    assert len(periods) >= 50
+    ids = [p["id"] for p in periods]
+    assert ids[0] == "deep_prehistory"
+    assert ids[-1] == "century_21_ce"
+    assert len(ids) == len(set(ids))
+    # Spans every century from the 30th BCE through the 1st CE, in order.
+    assert "century_30_bce" in ids
+    assert "century_1_bce" in ids
+    assert "century_1_ce" in ids
+    assert ids.index("century_1_bce") == ids.index("century_1_ce") - 1
+
+
+def test_historical_map_periods_have_regions_and_events():
+    resp = client.get("/api/historical-map")
+    periods = resp.json()["periods"]
+    for period in periods:
+        for field in ("id", "label", "years", "emoji", "description"):
+            assert period.get(field), period
+        assert len(period["regions"]) >= 3
+        for region in period["regions"]:
+            assert -90 <= region["lat"] <= 90
+            assert -180 <= region["lng"] <= 180
+        assert len(period["events"]) >= 2
+        for fmap in period.get("famous_maps", []):
+            assert fmap["link"].startswith("https://")
+
+
+def test_historical_map_has_some_famous_maps_overall():
+    # Most individual centuries won't have a named famous map, but the
+    # feature as a whole should still surface a healthy number of them.
+    resp = client.get("/api/historical-map")
+    periods = resp.json()["periods"]
+    total_famous_maps = sum(len(p.get("famous_maps", [])) for p in periods)
+    assert total_famous_maps >= 5
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Assessment Centre
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_assessment_age_groups():
+    resp = client.get("/api/assessment/age-groups")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "age_groups" in data
+    assert len(data["age_groups"]) >= 4
+
+
+def test_assessment_age_group_has_sections():
+    resp = client.get("/api/assessment/age-groups")
+    group_id = resp.json()["age_groups"][0]["id"]
+    resp2 = client.get(f"/api/assessment/{group_id}")
+    assert resp2.status_code == 200
+    data = resp2.json()
+    assert "sections" in data
+
+
+def test_assessment_submit():
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": {"0-0": 1, "0-1": 0},
+        "score": 1,
+        "total": 2,
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "score" in data
+    assert "percentage" in data
+
+
+def test_assessment_submit_no_answers_does_not_500():
+    # Regression test: the real frontend only ever posts {age_group, answers} --
+    # no score/total -- so submit must grade itself server-side and must not
+    # divide by zero when the answers dict is empty.
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": {},
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["total"] > 0
+    assert data["score"] == 0
+    assert data["percentage"] == 0
+    assert "strengths" in data
+    assert "areas_to_develop" in data
+    assert "recommendations" in data
+
+
+def test_assessment_submit_grades_server_side_from_answer_key():
+    # Get the real assessment so the test grades against its actual answer key
+    # rather than guessing indices, then submit every answer correct.
+    assessment = client.get("/api/assessment/7-9").json()
+    answers = {}
+    for si, section in enumerate(assessment["sections"]):
+        for qi, q in enumerate(section["questions"]):
+            answers[f"{si}-{qi}"] = q["answer"]
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": answers,
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["score"] == data["total"]
+    assert data["percentage"] == 100
+    assert data["areas_to_develop"] == []
+    assert len(data["strengths"]) > 0
+
+
+def test_assessment_history_records_past_attempts():
+    resp = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9",
+        "answers": {"0-0": 1, "0-1": 0},
+    })
+    assert resp.status_code == 200
+
+    hist = client.get("/api/assessment/TestChildOne/history")
+    assert hist.status_code == 200
+    attempts = hist.json()["attempts"]
+    assert len(attempts) >= 1
+    latest = attempts[0]
+    assert latest["age_group"] == "7-9"
+    assert "score" in latest and "total" in latest and "timestamp" in latest
+    assert "areas_to_develop" in latest and "weak_skills" in latest
+
+
+def test_assessment_retake_filters_to_weak_skills():
+    assessment = client.get("/api/assessment/7-9").json()
+    # Answer everything wrong so every skill in section 0 ends up "weak".
+    answers = {}
+    weak_skill = None
+    for si, section in enumerate(assessment["sections"]):
+        for qi, q in enumerate(section["questions"]):
+            wrong = next(i for i in range(len(q["options"])) if i != q["answer"])
+            answers[f"{si}-{qi}"] = wrong
+            if weak_skill is None:
+                weak_skill = q["skill"]
+
+    submit = client.post("/api/assessment/TestChildOne/submit", json={
+        "age_group": "7-9", "answers": answers,
+    }).json()
+    assert weak_skill in submit["weak_skills"]
+
+    retake = client.get(f"/api/assessment/7-9/retake?weak_skills={weak_skill}")
+    assert retake.status_code == 200
+    data = retake.json()
+    assert data["is_retake"] is True
+    for section in data["sections"]:
+        for q in section["questions"]:
+            assert q["skill"] == weak_skill
+
+
+def test_assessment_retake_falls_back_to_full_when_no_skills_given():
+    resp = client.get("/api/assessment/7-9/retake")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["is_retake"] is False
+    assert "sections" in data
+
+
+def test_assessment_submit_unknown_child():
+    resp = client.post("/api/assessment/Unknown/submit", json={"age_group": "7-9", "answers": {}})
+    assert resp.status_code == 404
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# AI Tutor (offline — no API key)
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_ai_tutor_ask_returns_response():
+    resp = client.post("/api/ai-tutor/ask", json={"question": "What is gravity?", "grade": 5, "subject": "Science"})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "answer" in data
+    assert isinstance(data["answer"], str)
+    assert len(data["answer"]) > 0
+
+
+def test_ai_tutor_explain_returns_response():
+    resp = client.post("/api/ai-tutor/explain", json={"concept": "photosynthesis", "grade": 4, "subject": "Biology"})
+    assert resp.status_code == 200
+    assert "explanation" in resp.json()
+
+
+def test_ai_tutor_flashcards_returns_list():
+    resp = client.post("/api/ai-tutor/flashcards", json={"topic": "fractions", "grade": 5, "subject": "Math", "count": 4})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "flashcards" in data
+    assert isinstance(data["flashcards"], list)
+
+
+def test_ai_tutor_quiz_returns_list():
+    resp = client.post("/api/ai-tutor/quiz", json={"topic": "World War II", "grade": 8, "subject": "History", "count": 3})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "quiz" in data
+    assert isinstance(data["quiz"], list)
+
+
+def test_ai_tutor_study_plan_returns_string():
+    resp = client.post("/api/ai-tutor/study-plan", json={"subject": "Science", "grade": 6, "days": 5})
+    assert resp.status_code == 200
+    assert "plan" in resp.json()
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Parent Dashboard
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_parent_homework_crud(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_homework_path", lambda child: tmp_path / f"homework_{child}.json")
+
+    resp = client.post("/api/parent/homework/TestChildOne", json={"subject": "Math", "title": "Fractions worksheet", "due_date": "2026-08-01"})
+    assert resp.status_code == 200
+    hw_id = resp.json()["id"]
+
+    resp = client.get("/api/parent/homework/TestChildOne")
+    assert resp.status_code == 200
+    assert len(resp.json()["homework"]) == 1
+
+    resp = client.patch(f"/api/parent/homework/TestChildOne/{hw_id}", json={"status": "done"})
+    assert resp.status_code == 200
+    assert resp.json()["status"] == "done"
+
+    resp = client.delete(f"/api/parent/homework/TestChildOne/{hw_id}")
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/homework/TestChildOne")
+    assert len(resp.json()["homework"]) == 0
+
+
+def test_parent_homework_unknown_child():
+    resp = client.get("/api/parent/homework/Unknown")
+    assert resp.status_code == 404
+
+
+def test_parent_reading_log(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_reading_log_path", lambda child: tmp_path / f"reading_log_{child}.json")
+
+    resp = client.post("/api/parent/reading-log/TestChildOne", json={"book": "Charlotte's Web", "author": "E.B. White", "pages": 30, "duration_mins": 45})
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/reading-log/TestChildOne")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["total_pages"] == 30
+    assert data["total_minutes"] == 45
+    assert len(data["log"]) == 1
+
+
+def test_parent_screen_time(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_screen_time_path", lambda child: tmp_path / f"screen_time_{child}.json")
+
+    resp = client.post("/api/parent/screen-time/TestChildOne/add", json={"minutes": 45, "date": "2026-08-01"})
+    assert resp.status_code == 200
+
+    resp = client.post("/api/parent/screen-time/TestChildOne/add", json={"minutes": 30, "date": "2026-08-01"})
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/screen-time/TestChildOne")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["daily"].get("2026-08-01") == 75
+
+
+def test_parent_weekly_report():
+    resp = client.get("/api/parent/weekly-report/TestChildOne")
+    assert resp.status_code == 200
+    data = resp.json()
+    for field in ("child", "lesson_streak", "reading_sessions", "screen_time_minutes", "homework_pending"):
+        assert field in data
+
+
+def test_parent_weekly_report_unknown_child():
+    resp = client.get("/api/parent/weekly-report/Unknown")
+    assert resp.status_code == 404
+
+
+# ── English Vocabulary Academy tests ────────────────────────────────────────
+def test_vocabulary_overview():
+    r = client.get("/api/vocabulary")
+    assert r.status_code == 200
+    data = r.json()
+    assert "levels" in data
+    assert len(data["levels"]) == 4
+
+def test_vocabulary_level_beginner():
+    r = client.get("/api/vocabulary/beginner")
+    assert r.status_code == 200
+    assert "categories" in r.json()
+
+def test_vocabulary_level_quiz():
+    r = client.get("/api/vocabulary/advanced/quiz")
+    assert r.status_code == 200
+    assert "quiz" in r.json()
+
+def test_vocabulary_search():
+    r = client.get("/api/vocabulary/search?q=red")
+    assert r.status_code == 200
+    results = r.json()["results"]
+    assert any("red" in res["word"].lower() or "red" in res["meaning"].lower() for res in results)
+
+def test_vocabulary_level_not_found():
+    assert client.get("/api/vocabulary/nonexistent").status_code == 404
+
+
+# ── STEM Laboratory tests ─────────────────────────────────────────────────────
+def test_stem_overview():
+    r = client.get("/api/stem-lab")
+    assert r.status_code == 200
+    disciplines = r.json()["disciplines"]
+    ids = [d["id"] for d in disciplines]
+    assert "physics" in ids
+    assert "chemistry" in ids
+    assert "biology" in ids
+
+def test_stem_discipline_detail():
+    r = client.get("/api/stem-lab/physics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "experiments" in data
+    assert len(data["experiments"]) > 0
+
+def test_stem_experiment_detail():
+    r = client.get("/api/stem-lab/physics/gravity_drop")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["title"] == "Gravity & Free Fall"
+    assert "steps" in data
+    assert "quiz" in data
+
+def test_stem_discipline_not_found():
+    assert client.get("/api/stem-lab/unicorn").status_code == 404
+
+
+# ── Non-Fiction Library tests ─────────────────────────────────────────────────
+def test_nonfiction_overview():
+    r = client.get("/api/nonfiction")
+    assert r.status_code == 200
+    cats = r.json()["categories"]
+    ids = [c["id"] for c in cats]
+    assert "science" in ids
+    assert "history" in ids
+
+def test_nonfiction_book_detail():
+    r = client.get("/api/nonfiction/science/how_body_works")
+    assert r.status_code == 200
+    data = r.json()
+    assert "summary" in data
+    assert "key_facts" in data
+
+def test_nonfiction_not_found():
+    assert client.get("/api/nonfiction/fake_cat").status_code == 404
+
+
+# ── Practical Skills tests ────────────────────────────────────────────────────
+def test_practical_skills_overview():
+    r = client.get("/api/practical-skills")
+    assert r.status_code == 200
+    pathways = [p["id"] for p in r.json()["pathways"]]
+    assert "cooking" in pathways
+    assert "first_aid" in pathways
+
+def test_practical_skills_level():
+    r = client.get("/api/practical-skills/cooking/beginner")
+    assert r.status_code == 200
+    data = r.json()
+    assert "skills" in data
+    assert "quiz" in data
+    assert data["certificate"] == "Junior Chef"
+
+def test_practical_skills_not_found():
+    assert client.get("/api/practical-skills/flying/beginner").status_code == 404
+
+
+# ── Art of the Day tests ──────────────────────────────────────────────────────
+def test_art_of_the_day_returns_a_piece():
+    r = client.get("/api/art-of-the-day")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["title"].startswith(("Famous Painting:", "Famous Photograph:", "Famous Sculpture:"))
+    assert data["fact"]
+
+def test_art_of_the_day_is_stable_within_the_same_day():
+    r1 = client.get("/api/art-of-the-day")
+    r2 = client.get("/api/art-of-the-day")
+    assert r1.json() == r2.json()
+
+
+# ── Virtual Museum tests ──────────────────────────────────────────────────────
+def test_museum_overview():
+    r = client.get("/api/museum")
+    assert r.status_code == 200
+    gallery_ids = [g["id"] for g in r.json()["galleries"]]
+    assert "ancient_world" in gallery_ids
+    assert "islamic_heritage" in gallery_ids
+
+def test_museum_gallery_detail():
+    r = client.get("/api/museum/ancient_world")
+    assert r.status_code == 200
+    data = r.json()
+    assert "objects" in data
+    assert len(data["objects"]) > 0
+
+def test_museum_object_detail():
+    r = client.get("/api/museum/ancient_world/rosetta_stone")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["name"] == "Rosetta Stone"
+    assert "significance" in data
+    assert "fun_fact" in data
+
+def test_museum_search():
+    r = client.get("/api/museum/search?q=egypt")
+    assert r.status_code == 200
+    assert len(r.json()["results"]) > 0
+
+def test_museum_not_found():
+    assert client.get("/api/museum/fake_gallery").status_code == 404
+
+def test_museum_object_has_virtual_tour_link():
+    r = client.get("/api/museum/ancient_world/rosetta_stone")
+    assert r.status_code == 200
+    assert r.json()["links"]["virtual_tour"].startswith("https://artsandculture.google.com/search?q=")
+
+def test_museum_featured_returns_an_object():
+    r = client.get("/api/museum/featured")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["name"]
+    assert data["gallery"]
+    assert "virtual_tour" in data["links"]
+
+def test_museum_featured_is_stable_within_the_same_day():
+    r1 = client.get("/api/museum/featured")
+    r2 = client.get("/api/museum/featured")
+    assert r1.json() == r2.json()
+
+
+# ── World Literature Library tests ────────────────────────────────────────────
+def test_world_literature_overview():
+    r = client.get("/api/world-literature")
+    assert r.status_code == 200
+    sections = [s["id"] for s in r.json()["sections"]]
+    assert "childrens_classics" in sections
+    assert "young_adult" in sections
+
+def test_world_literature_book():
+    r = client.get("/api/world-literature/childrens_classics/alice_wonderland")
+    assert r.status_code == 200
+    data = r.json()
+    assert "summary" in data
+    assert "themes" in data
+    assert "discussion" in data
+
+def test_world_literature_not_found():
+    assert client.get("/api/world-literature/fake/book").status_code == 404
+
+
+# ── Critical Thinking Academy tests ──────────────────────────────────────────
+def test_critical_thinking_overview():
+    r = client.get("/api/critical-thinking")
+    assert r.status_code == 200
+    modules = [m["id"] for m in r.json()["modules"]]
+    assert "logic_basics" in modules
+    assert "logical_fallacies" in modules
+    assert "media_literacy" in modules
+
+def test_critical_thinking_lesson():
+    r = client.get("/api/critical-thinking/logical_fallacies/ad_hominem")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_critical_thinking_not_found():
+    assert client.get("/api/critical-thinking/fake_module").status_code == 404
+
+
+# ── Survival Skills tests ─────────────────────────────────────────────────────
+def test_survival_skills_overview():
+    r = client.get("/api/survival-skills")
+    assert r.status_code == 200
+    data = r.json()
+    assert "categories" in data
+    cat_ids = [c["id"] for c in data["categories"]]
+    assert "outdoor_and_navigation" in cat_ids
+    assert "emergency_preparedness" in cat_ids
+
+def test_survival_skills_category():
+    r = client.get("/api/survival-skills/outdoor_and_navigation")
+    assert r.status_code == 200
+    data = r.json()
+    assert "skills" in data
+    assert len(data["skills"]) > 0
+
+def test_survival_skills_skill():
+    r = client.get("/api/survival-skills/personal_safety/stranger_awareness")
+    assert r.status_code == 200
+    data = r.json()
+    assert "quiz" in data
+
+def test_survival_skills_not_found():
+    assert client.get("/api/survival-skills/fake_cat").status_code == 404
+    assert client.get("/api/survival-skills/outdoor_and_navigation/fake_skill").status_code == 404
+
+
+# Brain Teasers was dropped as part of the single-owner platform
+# repositioning (both the /api/brain-teasers endpoints and the frontend
+# tab), so its tests were removed along with it.
+
+
+# ── Environmental Science tests ───────────────────────────────────────────────
+def test_environmental_science_overview():
+    r = client.get("/api/environmental-science")
+    assert r.status_code == 200
+    data = r.json()
+    assert "units" in data
+    unit_ids = [u["id"] for u in data["units"]]
+    assert "ecosystems" in unit_ids
+    assert "climate_systems" in unit_ids
+    assert "sustainability" in unit_ids
+
+def test_environmental_science_unit():
+    r = client.get("/api/environmental-science/ecosystems")
+    assert r.status_code == 200
+    data = r.json()
+    assert "topics" in data
+    assert len(data["topics"]) >= 2
+
+def test_environmental_science_topic():
+    r = client.get("/api/environmental-science/climate_systems/greenhouse_effect")
+    assert r.status_code == 200
+    data = r.json()
+    assert "content" in data
+    assert "key_facts" in data
+    assert "quiz" in data
+
+def test_environmental_science_not_found():
+    assert client.get("/api/environmental-science/fake_unit").status_code == 404
+    assert client.get("/api/environmental-science/ecosystems/fake_topic").status_code == 404
+
+
+# ── World Politics tests ──────────────────────────────────────────────────────
+def test_world_politics_overview():
+    r = client.get("/api/world-politics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "how_governments_work" in mod_ids
+    assert "international_organisations" in mod_ids
+    assert "global_issues" in mod_ids
+    assert "geopolitics" in mod_ids
+
+def test_world_politics_module():
+    r = client.get("/api/world-politics/international_organisations")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_world_politics_lesson():
+    r = client.get("/api/world-politics/international_organisations/united_nations")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_world_politics_not_found():
+    assert client.get("/api/world-politics/fake_module").status_code == 404
+    assert client.get("/api/world-politics/geopolitics/fake_lesson").status_code == 404
+
+
+# ── Health Education tests ────────────────────────────────────────────────────
+def test_health_education_overview():
+    r = client.get("/api/health-education")
+    assert r.status_code == 200
+    data = r.json()
+    assert "units" in data
+    unit_ids = [u["id"] for u in data["units"]]
+    assert "human_body" in unit_ids
+    assert "nutrition" in unit_ids
+    assert "mental_health" in unit_ids
+    assert "first_aid" in unit_ids
+
+def test_health_education_unit():
+    r = client.get("/api/health-education/nutrition")
+    assert r.status_code == 200
+    data = r.json()
+    assert "topics" in data
+    assert len(data["topics"]) >= 1
+
+def test_health_education_topic():
+    r = client.get("/api/health-education/first_aid/cpr_basics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "content" in data
+    assert "quiz" in data
+
+def test_health_education_not_found():
+    assert client.get("/api/health-education/fake_unit").status_code == 404
+    assert client.get("/api/health-education/nutrition/fake_topic").status_code == 404
+
+
+# ── Business Studies tests ────────────────────────────────────────────────────
+def test_business_studies_overview():
+    r = client.get("/api/business-studies")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "enterprise" in mod_ids
+    assert "marketing" in mod_ids
+    assert "finance" in mod_ids
+
+def test_business_studies_module():
+    r = client.get("/api/business-studies/enterprise")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_business_studies_lesson():
+    r = client.get("/api/business-studies/finance/revenue_costs_profit")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_business_studies_not_found():
+    assert client.get("/api/business-studies/fake_module").status_code == 404
+    assert client.get("/api/business-studies/marketing/fake_lesson").status_code == 404
+
+
+# ── Attendance Tracking tests ─────────────────────────────────────────────────
+def test_attendance_get_empty():
+    r = client.get("/api/parent/attendance/TestChildOne")
+    assert r.status_code == 200
+    data = r.json()
+    assert "records" in data
+
+def test_attendance_add_and_summary():
+    client.post("/api/parent/attendance/TestChildOne",
+        json={"date": "2025-01-15", "status": "present", "note": "On time"})
+    client.post("/api/parent/attendance/TestChildOne",
+        json={"date": "2025-01-16", "status": "absent", "note": "Sick"})
+    r = client.get("/api/parent/attendance/TestChildOne/summary")
+    assert r.status_code == 200
+    data = r.json()
+    assert "attendance_rate" in data
+    assert "counts" in data
+    assert data["counts"]["present"] >= 1
+
+def test_attendance_invalid_child():
+    assert client.get("/api/parent/attendance/Unknown").status_code == 404
+
+
+# ── Civics tests ──────────────────────────────────────────────────────────────
+def test_civics_overview():
+    r = client.get("/api/civics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "rights_responsibilities" in mod_ids
+    assert "democratic_systems" in mod_ids
+    assert "rule_of_law" in mod_ids
+    assert "community_action" in mod_ids
+
+def test_civics_module():
+    r = client.get("/api/civics/democratic_systems")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_civics_lesson():
+    r = client.get("/api/civics/rights_responsibilities/human_rights_basics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "quiz" in data
+
+def test_civics_not_found():
+    assert client.get("/api/civics/fake_module").status_code == 404
+    assert client.get("/api/civics/rule_of_law/fake_lesson").status_code == 404
+
+
+# ── Museum expansion test ─────────────────────────────────────────────────────
+def test_museum_has_more_objects():
+    r = client.get("/api/museum")
+    assert r.status_code == 200
+    galleries = r.json()["galleries"]
+    total = sum(g["object_count"] for g in galleries)
+    assert total >= 35
+
+
+def test_museum_famous_historical_maps_gallery():
+    r = client.get("/api/museum")
+    galleries = {g["id"]: g for g in r.json()["galleries"]}
+    assert "famous_historical_maps" in galleries
+    assert galleries["famous_historical_maps"]["object_count"] >= 15
+
+
+def test_museum_famous_historical_maps_objects_are_real_and_complete():
+    r = client.get("/api/museum/famous_historical_maps")
+    assert r.status_code == 200
+    data = r.json()
+    objects = data["objects"]
+    names = {o["name"] for o in objects}
+    for expected in (
+        "Babylonian Map of the World", "Map of Nippur", "Turin Papyrus Map", "Forma Urbis Romae",
+        "Mawangdui Silk Maps", "Bedolina Map", "Hereford Mappa Mundi", "Waldseemüller Map", "Cassini Map of France",
+    ):
+        assert expected in names
+    for obj in objects:
+        assert obj["category"] == "map"
+        assert obj["museum"]
+        assert obj["wiki_title"]
+        assert obj["links"]["wikipedia"].startswith("https://en.wikipedia.org/wiki/")
+        assert obj["links"]["virtual_tour"].startswith("https://artsandculture.google.com/search?q=")
+
+
+def test_museum_ancient_city_maps_predate_world_maps():
+    # The oldest known map of a single city (Nippur, c. 1300 BCE) should be
+    # ordered before the medieval/early-modern world maps in the gallery.
+    r = client.get("/api/museum/famous_historical_maps")
+    objects = r.json()["objects"]
+    order = [o["name"] for o in objects]
+    assert order.index("Map of Nippur") < order.index("Hereford Mappa Mundi")
+    assert order.index("Forma Urbis Romae") < order.index("Mercator World Map (1569)")
+
+
+def test_museum_historical_map_object_detail():
+    r = client.get("/api/museum/famous_historical_maps/map_001")
+    assert r.status_code == 200
+    assert r.json()["name"] == "Babylonian Map of the World"

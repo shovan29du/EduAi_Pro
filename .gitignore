@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.DS_Store
+
+# backend/data/ mixes static curriculum content (movies.json, museum_objects.json,
+# music_instruments/, per-subject folders, etc. -- all committed) with per-user
+# runtime state that the app regenerates on demand -- only the latter is ignored.
+backend/data/activity_*.json
+backend/data/attendance_*.json
+backend/data/progress_*.json
+backend/data/homework_*.json
+backend/data/reading_log_*.json
+backend/data/screen_time_*.json
+backend/data/users.json
+backend/data/link_audit_status.json
+backend/data/content_store.sqlite3
+backend/data/local_library.sqlite3
+backend/data/eduai_pro.db
+backend/data/resource_tab/
+backend/data/pdf_explainer/
+backend/data/lesson_planner/
+backend/data/study_coach/
+backend/data/museum_resource/images/
+backend/data/museum_thumbnail_cache/
+backend/data/paintings/
+backend/data/app_settings.json

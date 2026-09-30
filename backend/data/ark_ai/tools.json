@@ -1,0 +1,490 @@
+[
+ {
+  "id": "libreoffice",
+  "name": "LibreOffice",
+  "category": "Office",
+  "kind": "software",
+  "note": "Free office suite for documents, spreadsheets, and presentations.",
+  "url": "https://www.libreoffice.org/download/download-libreoffice/"
+ },
+ {
+  "id": "vscode",
+  "name": "Visual Studio Code",
+  "category": "Coding",
+  "kind": "software",
+  "note": "Free code editor with extensions and terminal support.",
+  "url": "https://code.visualstudio.com/"
+ },
+ {
+  "id": "gimp",
+  "name": "GIMP",
+  "category": "Design",
+  "kind": "software",
+  "note": "Free image editor for photo and graphic work.",
+  "url": "https://www.gimp.org/downloads/"
+ },
+ {
+  "id": "blender",
+  "name": "Blender",
+  "category": "3D",
+  "kind": "software",
+  "note": "Free 3D creation suite for modeling, animation, and rendering.",
+  "url": "https://www.blender.org/download/"
+ },
+ {
+  "id": "audacity",
+  "name": "Audacity",
+  "category": "Audio",
+  "kind": "software",
+  "note": "Free audio recording and editing software.",
+  "url": "https://www.audacityteam.org/download/"
+ },
+ {
+  "id": "obs",
+  "name": "OBS Studio",
+  "category": "Video",
+  "kind": "software",
+  "note": "Free screen recording and streaming software.",
+  "url": "https://obsproject.com/download"
+ },
+ {
+  "id": "ollama",
+  "name": "Ollama",
+  "category": "AI",
+  "kind": "software",
+  "note": "Free local AI model runner for supported computers.",
+  "url": "https://ollama.com/download"
+ },
+ {
+  "id": "inkscape",
+  "name": "Inkscape",
+  "category": "Design",
+  "kind": "software",
+  "note": "Free vector design software for logos, icons, and diagrams.",
+  "url": "https://inkscape.org/release/"
+ },
+ {
+  "id": "krita",
+  "name": "Krita",
+  "category": "Design",
+  "kind": "software",
+  "note": "Free painting and illustration software.",
+  "url": "https://krita.org/en/download/"
+ },
+ {
+  "id": "photopea",
+  "name": "Photopea",
+  "category": "Design",
+  "kind": "software",
+  "note": "Free browser-based image editor for PSD and graphics work.",
+  "url": "https://www.photopea.com/"
+ },
+ {
+  "id": "github",
+  "name": "GitHub",
+  "category": "Coding",
+  "kind": "software",
+  "note": "Code hosting, issues, pull requests, and project collaboration.",
+  "url": "https://github.com/"
+ },
+ {
+  "id": "replit",
+  "name": "Replit",
+  "category": "Coding",
+  "kind": "software",
+  "note": "Browser coding workspace for quick app experiments.",
+  "url": "https://replit.com/"
+ },
+ {
+  "id": "figma",
+  "name": "Figma",
+  "category": "Design",
+  "kind": "software",
+  "note": "Collaborative interface design and prototyping tool.",
+  "url": "https://www.figma.com/"
+ },
+ {
+  "id": "canva",
+  "name": "Canva",
+  "category": "Design",
+  "kind": "software",
+  "note": "Free design tool for social graphics, documents, and presentations.",
+  "url": "https://www.canva.com/"
+ },
+ {
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "category": "AI",
+  "kind": "app",
+  "note": "Create or manage a free OpenRouter API key for web models.",
+  "url": "https://openrouter.ai/keys"
+ },
+ {
+  "id": "vscode",
+  "name": "Visual Studio Code",
+  "category": "Coding",
+  "kind": "app",
+  "note": "Edit code, open projects, and use terminal-based development workflows.",
+  "url": "https://code.visualstudio.com/"
+ },
+ {
+  "id": "github",
+  "name": "GitHub",
+  "category": "Coding",
+  "kind": "app",
+  "note": "Plan issues, review code, draft pull requests, and manage repositories.",
+  "url": "https://github.com/"
+ },
+ {
+  "id": "replit",
+  "name": "Replit",
+  "category": "Coding",
+  "kind": "app",
+  "note": "Prototype small apps in a browser coding workspace.",
+  "url": "https://replit.com/"
+ },
+ {
+  "id": "libreoffice",
+  "name": "LibreOffice",
+  "category": "Office",
+  "kind": "app",
+  "note": "Work on local documents, spreadsheets, and presentations.",
+  "url": "https://www.libreoffice.org/download/download-libreoffice/"
+ },
+ {
+  "id": "googledrive",
+  "name": "Google Drive",
+  "category": "Workspace",
+  "kind": "app",
+  "note": "Store, organize, and open cloud files for Docs, Sheets, and Slides.",
+  "url": "https://drive.google.com/"
+ },
+ {
+  "id": "docs",
+  "name": "Google Docs",
+  "category": "Workspace",
+  "kind": "app",
+  "note": "Draft, review, and rewrite documents with the selected agent.",
+  "url": "https://docs.new"
+ },
+ {
+  "id": "sheets",
+  "name": "Google Sheets",
+  "category": "Workspace",
+  "kind": "app",
+  "note": "Plan tables, formulas, budgets, and lightweight data analysis.",
+  "url": "https://sheets.new"
+ },
+ {
+  "id": "slides",
+  "name": "Google Slides",
+  "category": "Workspace",
+  "kind": "app",
+  "note": "Outline presentations and turn notes into slide-by-slide structure.",
+  "url": "https://slides.new"
+ },
+ {
+  "id": "gmail",
+  "name": "Gmail",
+  "category": "Workspace",
+  "kind": "app",
+  "note": "Draft email replies, outreach, and follow-up messages.",
+  "url": "https://mail.google.com/"
+ },
+ {
+  "id": "calendar",
+  "name": "Google Calendar",
+  "category": "Planning",
+  "kind": "app",
+  "note": "Plan schedules, meeting agendas, and time blocks.",
+  "url": "https://calendar.google.com/"
+ },
+ {
+  "id": "gimp",
+  "name": "GIMP",
+  "category": "Design",
+  "kind": "app",
+  "note": "Edit images, graphics, and visual assets.",
+  "url": "https://www.gimp.org/downloads/"
+ },
+ {
+  "id": "photopea",
+  "name": "Photopea",
+  "category": "Design",
+  "kind": "app",
+  "note": "Edit PSD files and graphics in the browser.",
+  "url": "https://www.photopea.com/"
+ },
+ {
+  "id": "inkscape",
+  "name": "Inkscape",
+  "category": "Design",
+  "kind": "app",
+  "note": "Create vector icons, logos, and diagrams.",
+  "url": "https://inkscape.org/release/"
+ },
+ {
+  "id": "krita",
+  "name": "Krita",
+  "category": "Design",
+  "kind": "app",
+  "note": "Create illustrations, concept art, and painted assets.",
+  "url": "https://krita.org/en/download/"
+ },
+ {
+  "id": "figma",
+  "name": "Figma",
+  "category": "Design",
+  "kind": "app",
+  "note": "Plan UI screens, components, and prototypes.",
+  "url": "https://www.figma.com/"
+ },
+ {
+  "id": "canva",
+  "name": "Canva",
+  "category": "Design",
+  "kind": "app",
+  "note": "Create social posts, presentations, flyers, and simple brand assets.",
+  "url": "https://www.canva.com/"
+ },
+ {
+  "id": "blender",
+  "name": "Blender",
+  "category": "Creative",
+  "kind": "app",
+  "note": "Plan 3D scenes, animation shots, and render ideas.",
+  "url": "https://www.blender.org/download/"
+ },
+ {
+  "id": "obs",
+  "name": "OBS Studio",
+  "category": "Video",
+  "kind": "app",
+  "note": "Plan screen recordings, streams, tutorials, and video workflows.",
+  "url": "https://obsproject.com/download"
+ },
+ {
+  "id": "audacity",
+  "name": "Audacity",
+  "category": "Audio",
+  "kind": "app",
+  "note": "Plan recording, cleanup, podcasts, voiceovers, and audio edits.",
+  "url": "https://www.audacityteam.org/download/"
+ },
+ {
+  "id": "ollama",
+  "name": "Ollama",
+  "category": "AI",
+  "kind": "app",
+  "note": "Open the free local AI model runner download page.",
+  "url": "https://ollama.com/download"
+ },
+ {
+  "id": "research",
+  "name": "Google Search",
+  "category": "Research",
+  "kind": "app",
+  "note": "Use research mode to gather, compare, and summarize sources.",
+  "url": "https://www.google.com/"
+ },
+ {
+  "id": "trip",
+  "name": "Google Travel",
+  "category": "Planning",
+  "kind": "app",
+  "note": "Use trip mode to plan routes, itineraries, budgets, and packing.",
+  "url": "https://www.google.com/travel/"
+ },
+ {
+  "id": "maps",
+  "name": "Google Maps",
+  "category": "Planning",
+  "kind": "app",
+  "note": "Plan routes, stops, neighborhoods, and travel timing.",
+  "url": "https://www.google.com/maps"
+ },
+ {
+  "id": "notion",
+  "name": "Notion",
+  "category": "Planning",
+  "kind": "app",
+  "note": "Draft project notes, plans, knowledge bases, and task pages.",
+  "url": "https://www.notion.so/"
+ },
+ {
+  "id": "trello",
+  "name": "Trello",
+  "category": "Planning",
+  "kind": "app",
+  "note": "Break work into boards, cards, checklists, and priorities.",
+  "url": "https://trello.com/"
+ },
+ {
+  "id": "drawio",
+  "name": "diagrams.net",
+  "category": "Diagram",
+  "kind": "app",
+  "note": "Create flowcharts, architecture diagrams, and process maps.",
+  "url": "https://app.diagrams.net/"
+ },
+ {
+  "id": "mermaid",
+  "name": "Mermaid Chart",
+  "category": "Diagram",
+  "kind": "app",
+  "note": "Turn chat plans into Mermaid flowcharts, timelines, and diagrams.",
+  "url": "https://www.mermaidchart.com/"
+ },
+ {
+  "id": "huggingface",
+  "name": "Hugging Face",
+  "category": "AI",
+  "kind": "app",
+  "note": "Find open models, datasets, demos, and AI spaces.",
+  "url": "https://huggingface.co/"
+ },
+ {
+  "id": "web-research",
+  "name": "Web research",
+  "category": "Research",
+  "kind": "plugin",
+  "note": "Search, compare sources, and build cited summaries.",
+  "url": "https://www.google.com/"
+ },
+ {
+  "id": "file-reader",
+  "name": "File reader",
+  "category": "Documents",
+  "kind": "plugin",
+  "note": "Use uploaded PDF, DOCX, and text files as chat context.",
+  "url": "local:upload"
+ },
+ {
+  "id": "memory",
+  "name": "Memory",
+  "category": "Personal",
+  "kind": "plugin",
+  "note": "Recall saved facts and project preferences across conversations.",
+  "url": "local:memory"
+ },
+ {
+  "id": "code-sandbox",
+  "name": "Code sandbox",
+  "category": "Developer",
+  "kind": "plugin",
+  "note": "Use Code mode with a configured provider key for sandboxed file work.",
+  "url": "https://code.visualstudio.com/"
+ },
+ {
+  "id": "local-ai",
+  "name": "Local AI",
+  "category": "AI",
+  "kind": "plugin",
+  "note": "Use Ollama for local models when installed on this computer.",
+  "url": "https://ollama.com/download"
+ },
+ {
+  "id": "citation-helper",
+  "name": "Citation helper",
+  "category": "Research",
+  "kind": "plugin",
+  "note": "Format source lists and highlight where claims need citations.",
+  "url": "https://www.zotero.org/download/"
+ },
+ {
+  "id": "maps-planner",
+  "name": "Maps planner",
+  "category": "Travel",
+  "kind": "plugin",
+  "note": "Structure route, transit, distance, and neighborhood planning prompts.",
+  "url": "https://www.google.com/maps"
+ },
+ {
+  "id": "budget-planner",
+  "name": "Budget planner",
+  "category": "Planning",
+  "kind": "plugin",
+  "note": "Turn plans into rough cost ranges, tables, and tradeoffs.",
+  "url": "https://sheets.new"
+ },
+ {
+  "id": "calculator",
+  "name": "Calculator",
+  "category": "Analysis",
+  "kind": "plugin",
+  "note": "Ask the assistant to show calculations, formulas, and assumptions clearly.",
+  "url": "https://sheets.new"
+ },
+ {
+  "id": "prompt-builder",
+  "name": "Prompt builder",
+  "category": "Creative",
+  "kind": "plugin",
+  "note": "Improve image, video, design, and content-generation prompts.",
+  "url": "https://www.gimp.org/downloads/"
+ },
+ {
+  "id": "translator",
+  "name": "Translator",
+  "category": "Writing",
+  "kind": "plugin",
+  "note": "Translate text and preserve tone, intent, and formatting notes.",
+  "url": "https://docs.new"
+ },
+ {
+  "id": "summarizer",
+  "name": "Summarizer",
+  "category": "Writing",
+  "kind": "plugin",
+  "note": "Condense long notes, files, or research into concise summaries.",
+  "url": "local:upload"
+ },
+ {
+  "id": "meeting-notes",
+  "name": "Meeting notes",
+  "category": "Productivity",
+  "kind": "plugin",
+  "note": "Turn messy notes into decisions, actions, owners, and follow-ups.",
+  "url": "https://docs.new"
+ },
+ {
+  "id": "task-planner",
+  "name": "Task planner",
+  "category": "Productivity",
+  "kind": "plugin",
+  "note": "Break goals into milestones, tasks, priorities, and timelines.",
+  "url": "https://docs.new"
+ },
+ {
+  "id": "email-writer",
+  "name": "Email writer",
+  "category": "Writing",
+  "kind": "plugin",
+  "note": "Draft clear emails, replies, proposals, and follow-ups.",
+  "url": "https://docs.new"
+ },
+ {
+  "id": "seo-helper",
+  "name": "SEO helper",
+  "category": "Marketing",
+  "kind": "plugin",
+  "note": "Suggest page titles, outlines, keywords, and content improvements.",
+  "url": "https://www.google.com/search?q=google+search+console"
+ },
+ {
+  "id": "accessibility-checker",
+  "name": "Accessibility checker",
+  "category": "Design",
+  "kind": "plugin",
+  "note": "Review content and UI for accessibility risks and clearer alternatives.",
+  "url": "https://www.w3.org/WAI/test-evaluate/"
+ },
+ {
+  "id": "diagram-helper",
+  "name": "Diagram helper",
+  "category": "Planning",
+  "kind": "plugin",
+  "note": "Create flowcharts, architecture maps, and process diagrams in text.",
+  "url": "https://www.mermaidchart.com/"
+ }
+]

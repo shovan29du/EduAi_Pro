@@ -1,0 +1,21 @@
+EduAI_Pro installation
+========================
+
+1. Extract the entire ZIP file.
+2. Open a terminal in the extracted EduAi_Pro folder.
+3. Run:
+
+   Windows:
+   python full_install.py
+
+   macOS or Linux:
+   python3 full_install.py
+
+The installer creates the Python environment, installs backend and frontend
+dependencies, applies database migrations, imports the existing curriculum,
+creates a launcher/desktop shortcut, and starts EduAI_Pro.
+The shortcut is named EduAi_Pro, uses the EduAi_Pro app icon (assets/icons/),
+and is placed on both the normal Desktop and each configured OneDrive Desktop.
+
+For production PostgreSQL, set DATABASE_URL before running the installer.
+Without DATABASE_URL, the installer uses the local SQLite development fallback.

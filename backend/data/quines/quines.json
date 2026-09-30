@@ -1,0 +1,85 @@
+{
+  "title": "Quine Museum",
+  "description": "A quine is a program that, when run, prints its own source code exactly. These real quines come from the open-source Quine Museum project (github.com/makenowjust/quine), one per language. Load one into the Code Editor and press Run to watch it reproduce itself.",
+  "source_project": "https://github.com/makenowjust/quine",
+  "quines": [
+    {
+      "language": "javascript",
+      "label": "JavaScript",
+      "source": "_=$=>console.log('_='+_+';_``');_``",
+      "verified": true
+    },
+    {
+      "language": "typescript",
+      "label": "TypeScript",
+      "source": "var s=\";console.log('var s='+JSON.stringify(s)+s);\";console.log('var s='+JSON.stringify(s)+s);",
+      "verified": true
+    },
+    {
+      "language": "python",
+      "label": "Python",
+      "source": "print('print({0!r}.format({0!r}))'.format('print({0!r}.format({0!r}))'))",
+      "verified": true
+    },
+    {
+      "language": "java",
+      "label": "Java",
+      "source": "public class Main {\n  public static void main(String[] args) {\n    String s = \"public class Main {\\n  public static void main(String[] args) {\\n    String s = \\\"%s\\\";\\n    System.out.printf(s, s.replaceAll(\\\"\\\\\\\\\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\").replaceAll(\\\"\\\\n\\\", \\\"\\\\\\\\\\\\\\\\n\\\").replaceAll(\\\"\\\\\\\"\\\", \\\"\\\\\\\\\\\\\\\\\\\\\\\"\\\"));\\n  }\\n}\\n\";\n    System.out.printf(s, s.replaceAll(\"\\\\\\\\\", \"\\\\\\\\\\\\\\\\\").replaceAll(\"\\n\", \"\\\\\\\\n\").replaceAll(\"\\\"\", \"\\\\\\\\\\\"\"));\n  }\n}",
+      "verified": true
+    },
+    {
+      "language": "c",
+      "label": "C",
+      "source": "#include<stdio.h>\nint main(void){char*s=\"#include<stdio.h>%cint main(void){char*s=%c%s%2$c;printf(s,10,34,s);return 0;}%1$c\";printf(s,10,34,s);return 0;}",
+      "verified": true
+    },
+    {
+      "language": "cpp",
+      "label": "C++",
+      "source": "#include<iostream>\n#include<string>\nauto main(void)->int{using namespace std;[](string s1,string s2,string s3,string s4){cout<<s1<<endl<<s2<<endl<<s3<<(char)34<<s1<<(char)34<<(char)44<<(char)34<<s2<<(char)34<<(char)44<<(char)34<<s3<<(char)34<<(char)44<<(char)34<<s4<<(char)34<<s4<<endl;}(\"#include<iostream>\",\"#include<string>\",\"auto main(void)->int{using namespace std;[](string s1,string s2,string s3,string s4){cout<<s1<<endl<<s2<<endl<<s3<<(char)34<<s1<<(char)34<<(char)44<<(char)34<<s2<<(char)34<<(char)44<<(char)34<<s3<<(char)34<<(char)44<<(char)34<<s4<<(char)34<<s4<<endl;}(\",\");}\");}",
+      "verified": true
+    },
+    {
+      "language": "csharp",
+      "label": "C#",
+      "source": "using System;\npublic class Quine\n{\n  public static void Main()\n  {\n    string s = \"using System;{0}public class Quine{0}{1}{0}{2}public static void Main(){0}{2}{1}{0}{2}{2}string s = {3}{4}{3};{0}{2}{2}Console.WriteLine(String.Format(s,(char)10,(char)123,{3}  {3},(char)34,s,(char)125));{0}{2}{5}{0}{5}\";\n    Console.WriteLine(String.Format(s,(char)10,(char)123,\"  \",(char)34,s,(char)125));\n  }\n}",
+      "verified": false
+    },
+    {
+      "language": "go",
+      "label": "Go",
+      "source": "package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n\ts := `package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n\ts := %s\n\tfmt.Printf(s, \"%c\"+s+\"%c\",\n\t\t96, 96)\n}\n`\n\tfmt.Printf(s, \"`\"+s+\"`\",\n\t\t96, 96)\n}",
+      "verified": true
+    },
+    {
+      "language": "php",
+      "label": "PHP",
+      "source": "<?php\n$s = '$s';\n$s = \"<?php\\n$s = '$s';\\n$s = %s;\\nprintf($s, json_encode($s));\\n\";\nprintf($s, json_encode($s));",
+      "verified": true
+    },
+    {
+      "language": "ruby",
+      "label": "Ruby",
+      "source": "eval$s=%q($><<\"eval$s=%q(#$s)\\n\")",
+      "verified": true
+    },
+    {
+      "language": "perl",
+      "label": "Perl",
+      "source": "$_=q[print\"\\$_=q[$_];eval\\n\"];eval",
+      "verified": true
+    },
+    {
+      "language": "r",
+      "label": "R",
+      "source": "s <- c(\"s <- \", \"cat(s[1])\\ndput(s)\\ncat(s[2])\\n\")\ncat(s[1])\ndput(s)\ncat(s[2])",
+      "verified": false
+    },
+    {
+      "language": "fortran",
+      "label": "Fortran",
+      "source": "program quine\ncharacter(60)::s1='(\"program quine\",/,\"character(60)::s1=\",a,a,a,/,\"character(6'\ncharacter(60)::s2='0)::s2=\",a,a,a,/,\"character(60)::s3=\",a,a,a,/,\"character(60)'\ncharacter(60)::s3='::s4=\",a,a,a,/,\"character::c=achar(39)\",/,\"print s1//s2//s3/'\ncharacter(60)::s4='/s4,c,s1,c,c,s2,c,c,s3,c,c,s4,c\",/,\"end program quine\")     '\ncharacter::c=achar(39)\nprint s1//s2//s3//s4,c,s1,c,c,s2,c,c,s3,c,c,s4,c\nend program quine",
+      "verified": false
+    }
+  ]
+}

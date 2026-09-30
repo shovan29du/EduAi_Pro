@@ -1,0 +1,54 @@
+{
+  "title": "Common Cooking Problems & Fixes",
+  "description": "Practical fixes for the most common things that go wrong in the kitchen, grouped by category.",
+  "categories": [
+    {
+      "id": "sauces",
+      "label": "Sauces & Gravies",
+      "emoji": "🥣",
+      "problems": [
+        { "problem": "Sauce is too salty", "fixes": ["Add an acid like lemon juice or vinegar to balance it", "Stir in a peeled, raw potato and simmer a few minutes, then remove it -- it absorbs some salt", "Dilute with unsalted stock, water, or cream, then adjust other seasoning"] },
+        { "problem": "Sauce is too thin", "fixes": ["Simmer uncovered to reduce and concentrate it", "Whisk in a cornstarch slurry (1 tbsp cornstarch + 1 tbsp cold water) a little at a time", "Whisk in a small knob of beurre manié (equal parts softened butter and flour)"] },
+        { "problem": "Cream or egg-based sauce curdled or broke", "fixes": ["Remove from heat immediately and whisk in a splash of cold cream or milk", "Blend with an immersion blender to re-emulsify", "For next time: temper eggs by whisking in a little hot liquid before adding them back to the pot"] },
+        { "problem": "Gravy is lumpy", "fixes": ["Whisk vigorously and continuously while adding the thickener", "Strain the finished gravy through a fine sieve", "Use a blender or immersion blender to smooth it out"] },
+        { "problem": "Sauce is too bland", "fixes": ["Add salt gradually and taste as you go", "Add acid (lemon, vinegar) to brighten the flavour", "Add more aromatics (garlic, herbs) or a splash of fish sauce/soy sauce for savoury depth"] }
+      ]
+    },
+    {
+      "id": "baking",
+      "label": "Baking",
+      "emoji": "🍰",
+      "problems": [
+        { "problem": "Cake sank in the middle", "fixes": ["Check your oven temperature with a separate thermometer -- ovens often run cool", "Avoid opening the oven door during the first two-thirds of baking", "Don't overmix the batter or use too much leavening, both trap excess air that later collapses"] },
+        { "problem": "Cake is dry", "fixes": ["Reduce baking time slightly and check doneness a few minutes early next time", "Measure flour by spooning it into the cup and levelling it, not scooping directly, which packs in too much", "Add a simple syrup brush or extra fat next time to compensate"] },
+        { "problem": "Cookies spread too much and went flat", "fixes": ["Chill the dough for at least 30 minutes before baking", "Make sure butter isn't too warm or melted when creaming with sugar", "Add a little more flour if the dough seems too soft"] },
+        { "problem": "Bread didn't rise", "fixes": ["Check that your yeast is still active -- proof it in warm water with a pinch of sugar; it should foam within 10 minutes", "Make sure the liquid wasn't hot enough to kill the yeast (aim for lukewarm, about 105-110°F/40-43°C)", "Give it more time in a warm, draft-free spot"] },
+        { "problem": "Bread came out dense", "fixes": ["Knead longer to develop more gluten structure", "Allow a full first and second rise rather than rushing", "Don't add too much flour -- sticky dough is normal for many bread recipes"] },
+        { "problem": "Pastry or pie crust came out tough", "fixes": ["Handle the dough as little as possible to avoid overworking the gluten", "Keep the butter cold throughout -- chill the dough again if it warms up", "Use ice water, added a little at a time"] },
+        { "problem": "Whipped cream won't whip", "fixes": ["Chill the bowl, beaters, and cream in the freezer for 10-15 minutes first", "Make sure the cream has enough fat content (heavy/whipping cream, not light cream)", "Don't overwhip past soft-to-firm peaks or it will turn grainy and then to butter"] }
+      ]
+    },
+    {
+      "id": "meat_protein",
+      "label": "Meat & Protein",
+      "emoji": "🍗",
+      "problems": [
+        { "problem": "Meat came out tough", "fixes": ["Match the cooking method to the cut -- tougher cuts need low, slow, moist cooking (braising), not quick high heat", "Slice against the grain when serving", "Let it rest 5-10 minutes after cooking so juices redistribute"] },
+        { "problem": "Meat came out dry", "fixes": ["Use a meat thermometer and pull it a few degrees before your target temperature -- it keeps cooking while resting", "Avoid pressing down on meat while it cooks, which squeezes out juices", "Brine or marinate beforehand for cuts prone to drying out, like chicken breast"] },
+        { "problem": "Fried food came out soggy, not crispy", "fixes": ["Make sure the oil is hot enough before adding food (test with a small piece first)", "Don't overcrowd the pan -- fry in batches so the oil temperature doesn't drop", "Drain on a wire rack, not paper towels, so steam escapes instead of softening the crust"] },
+        { "problem": "Fish is sticking to the pan", "fixes": ["Make sure the pan and oil are properly preheated before adding the fish", "Pat the fish completely dry first", "Don't move it too early -- it releases naturally once a crust forms"] }
+      ]
+    },
+    {
+      "id": "grains_vegetables",
+      "label": "Grains & Vegetables",
+      "emoji": "🍚",
+      "problems": [
+        { "problem": "Rice came out mushy", "fixes": ["Use less water next time, or rinse the rice first to remove excess surface starch", "Don't stir rice while it cooks -- it releases starch and makes it gummy", "Let it rest, covered and off heat, for 10 minutes after cooking to finish steaming evenly"] },
+        { "problem": "Rice came out undercooked or crunchy", "fixes": ["Add a little more water and continue cooking, covered, on low heat", "Make sure the pot had a tight-fitting lid to trap steam", "Give it the full recommended cooking time before checking"] },
+        { "problem": "Vegetables came out mushy", "fixes": ["Don't overcook -- test frequently towards the end", "Blanch briefly, then shock in ice water to stop the cooking and lock in colour and texture", "Cut pieces more evenly so they cook at the same rate"] },
+        { "problem": "Pickles came out soft instead of crisp", "fixes": ["Use a properly balanced salt-to-vinegar brine ratio", "Start with the freshest possible produce -- older vegetables have less natural crispness to retain", "Keep the brine cold and avoid over-processing if canning"] }
+      ]
+    }
+  ]
+}
