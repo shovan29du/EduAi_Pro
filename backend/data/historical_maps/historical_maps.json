@@ -11,31 +11,36 @@
           "name": "Ubaid & Uruk period Mesopotamia (Uruk)",
           "lat": 31.3225,
           "lng": 45.6372,
-          "note": "Grew from a village into the world's first true city, with monumental temples by 3500 BCE."
+          "note": "Grew from a village into the world's first true city, with monumental temples by 3500 BCE.",
+          "description": "Uruk grew from a scatter of villages into the first settlement most archaeologists call a true city, eventually housing tens of thousands of people behind a wall later legend credited to the hero-king Gilgamesh. Its temple precincts organized farming surpluses, labor, and trade on a scale no earlier society had managed, and by around 3400 BCE its accountants were pressing the first proto-cuneiform marks into clay to track it all."
         },
         {
           "name": "Naqada culture Egypt (Naqada)",
           "lat": 26.0725,
           "lng": 32.7222,
-          "note": "Predynastic Upper Egyptian culture that laid the groundwork for the unification of Egypt."
+          "note": "Predynastic Upper Egyptian culture that laid the groundwork for the unification of Egypt.",
+          "description": "Centered on the Upper Egyptian town that gives it its name, the Naqada culture spanned roughly 4000 to 3000 BCE and left behind elaborately painted pottery, early hieroglyph-like symbols, and increasingly rich elite graves. Its gradual consolidation of smaller chiefdoms along the Nile set the political and religious template that Egypt's first pharaohs would inherit when they unified the kingdom shortly after this period."
         },
         {
           "name": "Yangshao culture China (Banpo)",
           "lat": 34.2667,
           "lng": 108.9333,
-          "note": "Neolithic farming culture along the Yellow River, known for its distinctive painted pottery."
+          "note": "Neolithic farming culture along the Yellow River, known for its distinctive painted pottery.",
+          "description": "The Banpo village site near modern Xi'an preserves one of the best-studied Yangshao settlements: round semi-subterranean houses arranged around a central plaza, millet farming, and painted red pottery decorated with fish and human-face motifs. Yangshao communities like this one represent one of the earliest Neolithic farming traditions along the Yellow River, centuries before China's first dynasties."
         },
         {
           "name": "Vinca culture Europe (Vinca, near Belgrade)",
           "lat": 44.7583,
           "lng": 20.6142,
-          "note": "Advanced Copper Age culture in the Balkans with early proto-writing-like symbols on pottery."
+          "note": "Advanced Copper Age culture in the Balkans with early proto-writing-like symbols on pottery.",
+          "description": "Excavated on the banks of the Danube near Belgrade, the Vinca culture built some of prehistoric Europe's largest settlements and left behind thousands of small clay and stone objects marked with repeated symbols -- the so-called Vinca signs, among the oldest systematic marking systems in Europe, though scholars still debate whether they amount to true writing. The culture also pioneered early copper smelting, among the earliest metalworking anywhere."
         },
         {
           "name": "Megalithic Atlantic Europe (Newgrange, Ireland)",
           "lat": 53.6947,
           "lng": -6.4753,
-          "note": "Passage tomb aligned to the winter solstice sunrise, older than Stonehenge or the Pyramids."
+          "note": "Passage tomb aligned to the winter solstice sunrise, older than Stonehenge or the Pyramids.",
+          "description": "Newgrange is a vast passage tomb in Ireland's Boyne Valley, built around 3200 BCE from an estimated 200,000 tonnes of material -- centuries before the Great Pyramid or Stonehenge's famous stone circle. Its inner chamber is engineered so that sunlight floods the passage only at dawn on the winter solstice, a precise astronomical alignment that still works perfectly over 5,000 years later."
         }
       ],
       "events": [
@@ -80,19 +85,22 @@
           "name": "Early Dynastic Sumer (Ur)",
           "lat": 30.9625,
           "lng": 46.1039,
-          "note": "One of the leading rival city-states of early Sumer, later famous for its royal tombs."
+          "note": "One of the leading rival city-states of early Sumer, later famous for its royal tombs.",
+          "description": "Ur was one of several rival Sumerian city-states jockeying for influence in this era, long before its later fame for the spectacular royal tombs of the Early Dynastic III period. Like its neighbors, it was ruled by a king who claimed divine backing, organized irrigation along the Euphrates, and fought periodic wars over land and water rights with cities like Uruk and Lagash."
         },
         {
           "name": "Early Dynastic Egypt (Memphis)",
           "lat": 29.85,
           "lng": 31.25,
-          "note": "Founded around this time as the capital of the newly unified kingdom of Egypt."
+          "note": "Founded around this time as the capital of the newly unified kingdom of Egypt.",
+          "description": "Founded around the start of Egypt's First Dynasty as the new capital of the just-unified kingdom, Memphis sat strategically at the boundary between Upper and Lower Egypt, symbolizing the joining of the two lands. Tradition credits its founding to Menes (likely the same ruler as Narmer), and the city would remain one of Egypt's most important centers for the next three thousand years."
         },
         {
           "name": "Early Harappan Indus Valley (Harappa)",
           "lat": 30.6301,
           "lng": 72.865,
-          "note": "Village settlements along the Indus begin growing into the towns that would become the Indus Valley Civilization."
+          "note": "Village settlements along the Indus begin growing into the towns that would become the Indus Valley Civilization.",
+          "description": "At this stage Harappa was still a cluster of growing village settlements along the Indus and its tributaries, not yet the planned city it would become. Farmers here were already cultivating wheat and barley and keeping domesticated cattle, laying the economic groundwork for the dense urban centers that would define the mature Indus Valley Civilization a few centuries later."
         }
       ],
       "events": [
@@ -122,19 +130,22 @@
           "name": "Early Dynastic Sumer (Uruk)",
           "lat": 31.3225,
           "lng": 45.6372,
-          "note": "Still among the largest and most influential cities in the world."
+          "note": "Still among the largest and most influential cities in the world.",
+          "description": "Uruk remained one of the largest and most politically influential cities in Sumer during this century, its massive temple complexes at the heart of a landscape of rival city-states. Its scribal traditions, descended from the proto-writing developed there centuries earlier, were spreading to other Sumerian cities as the standard way to record transactions, offerings, and royal deeds."
         },
         {
           "name": "Neolithic Britain (Stonehenge)",
           "lat": 51.1789,
           "lng": -1.8262,
-          "note": "The first phase -- a circular ditch and bank -- is built around this century."
+          "note": "The first phase -- a circular ditch and bank -- is built around this century.",
+          "description": "The earliest phase of Stonehenge -- a circular ditch and bank enclosure with a ring of pits known as the Aubrey Holes -- was built around this century, long before the massive sarsen stones familiar today were raised. Even in this first form, the site's alignment with the solstices suggests its builders were already tracking the sun's yearly cycle with real precision."
         },
         {
           "name": "Old Kingdom Egypt (Memphis)",
           "lat": 29.85,
           "lng": 31.25,
-          "note": "Egypt's Early Dynastic kings consolidate control of the Nile Valley."
+          "note": "Egypt's Early Dynastic kings consolidate control of the Nile Valley.",
+          "description": "Egypt's Early Dynastic kings, ruling from Memphis, were steadily consolidating control over the full length of the Nile Valley, standardizing administration and religious practice across a kingdom that had only recently been two separate lands. Royal tombs of this era, built at Abydos and Saqqara, show increasingly elaborate funerary architecture that would eventually give rise to the pyramids."
         }
       ],
       "events": [
@@ -160,19 +171,22 @@
           "name": "Early Dynastic Sumer (Kish)",
           "lat": 32.5442,
           "lng": 44.6475,
-          "note": "A powerful early city-state whose kings claimed a special legitimacy after the mythical Great Flood."
+          "note": "A powerful early city-state whose kings claimed a special legitimacy after the mythical Great Flood.",
+          "description": "Kish held a special prestige among Sumerian cities: tradition held that kingship itself had descended from heaven to Kish after a mythical great flood, and for centuries afterward the title 'King of Kish' carried symbolic authority over Sumer even for rulers based elsewhere. Its real political power rose and fell with its rivalries against Uruk, Ur, and Lagash."
         },
         {
           "name": "Old Kingdom Egypt (Memphis)",
           "lat": 29.85,
           "lng": 31.25,
-          "note": "Egypt's Second Dynasty gives way to the Third, setting the stage for the pyramid age."
+          "note": "Egypt's Second Dynasty gives way to the Third, setting the stage for the pyramid age.",
+          "description": "As Egypt's Second Dynasty gave way to the Third around this time, Memphis-based kings were setting the stage for a dramatic architectural leap: within a generation or two, the step pyramid of Djoser at nearby Saqqara would transform royal tomb-building from mudbrick mastabas into the world's first large-scale cut-stone monument."
         },
         {
           "name": "Indus Valley (Mohenjo-daro, early phase)",
           "lat": 27.3294,
           "lng": 68.1358,
-          "note": "Early settlement precedes the city's later, famously planned urban layout."
+          "note": "Early settlement precedes the city's later, famously planned urban layout.",
+          "description": "Long before its famous grid-planned streets and covered drains, Mohenjo-daro began as a smaller settlement on the Indus floodplain. Archaeologists have found earlier occupation layers beneath the mature city, showing a gradual build-up of population and craft specialization -- pottery, bead-making, metalworking -- that preceded the dramatic urban planning the site is best known for."
         }
       ],
       "events": [
@@ -198,19 +212,22 @@
           "name": "Old Kingdom Egypt (Saqqara)",
           "lat": 29.8714,
           "lng": 31.2164,
-          "note": "Site of the Step Pyramid of Djoser, the world's oldest large-scale cut-stone building."
+          "note": "Site of the Step Pyramid of Djoser, the world's oldest large-scale cut-stone building.",
+          "description": "At Saqqara, the architect Imhotep designed the Step Pyramid for King Djoser by stacking six mastaba-like tiers atop one another -- the world's oldest known large-scale building made entirely of cut stone. It marked a decisive break from earlier mudbrick royal tombs and set Egypt on the path toward the true pyramids of the next century."
         },
         {
           "name": "Early Dynastic Sumer (Uruk)",
           "lat": 31.3225,
           "lng": 45.6372,
-          "note": "Traditional home of the legendary king Gilgamesh."
+          "note": "Traditional home of the legendary king Gilgamesh.",
+          "description": "Uruk's legendary status only grew in this era as the traditional home of Gilgamesh, a historical king of the city later transformed into the hero of Mesopotamia's great epic poem. Archaeology confirms Uruk's real political importance in this period even as its mythic reputation was already taking shape in oral tradition."
         },
         {
           "name": "Early Dynastic Sumer (Lagash)",
           "lat": 31.1833,
           "lng": 46.3167,
-          "note": "A powerful city-state that would soon clash with its neighbour Umma."
+          "note": "A powerful city-state that would soon clash with its neighbour Umma.",
+          "description": "Lagash was emerging as one of Sumer's most powerful city-states, its territory bordering its smaller neighbor Umma along a stretch of disputed farmland. The two cities' quarrel over this border -- fought with both armies and, later, inscribed treaties -- would become one of the earliest territorial conflicts preserved in written record."
         }
       ],
       "events": [
@@ -236,19 +253,22 @@
           "name": "Old Kingdom Egypt (Giza)",
           "lat": 29.9792,
           "lng": 31.1342,
-          "note": "Site of the Great Pyramid, built for Pharaoh Khufu -- the last of the Seven Wonders of the Ancient World still standing."
+          "note": "Site of the Great Pyramid, built for Pharaoh Khufu -- the last of the Seven Wonders of the Ancient World still standing.",
+          "description": "The Great Pyramid, built at Giza for Pharaoh Khufu around 2560 BCE, required an estimated 2.3 million limestone blocks and remained the tallest human-made structure on Earth for nearly 3,800 years. It is the only one of the ancient world's Seven Wonders still largely intact, a testament to the organizational power of Egypt's Old Kingdom state."
         },
         {
           "name": "Mature Harappan Indus Valley (Mohenjo-daro)",
           "lat": 27.3294,
           "lng": 68.1358,
-          "note": "Enters its famous mature phase, with grid-planned streets and advanced drainage systems."
+          "note": "Enters its famous mature phase, with grid-planned streets and advanced drainage systems.",
+          "description": "By this century Mohenjo-daro had blossomed into its famous mature phase: a meticulously grid-planned city with standardized baked-brick construction, a sophisticated covered drainage system, and a large public bathing structure whose exact purpose is still debated. Its uniformity of weights, seals, and city layout across the wider Indus Valley civilization suggests an unusually standardized society for its time."
         },
         {
           "name": "Early Dynastic Sumer (Ur)",
           "lat": 30.9625,
           "lng": 46.1039,
-          "note": "Continues to flourish as one of Sumer's leading cities."
+          "note": "Continues to flourish as one of Sumer's leading cities.",
+          "description": "Ur continued to flourish as one of Sumer's leading cities in this period, its merchants trading as far as the Persian Gulf and beyond. The spectacular royal tombs that would make Ur famous to modern archaeologists -- filled with gold, lapis lazuli, and the remains of royal attendants -- belong to roughly this era."
         }
       ],
       "events": [
@@ -274,19 +294,22 @@
           "name": "Old Kingdom Egypt (Abusir)",
           "lat": 29.8944,
           "lng": 31.2119,
-          "note": "Site of Fifth Dynasty sun temples and pyramids."
+          "note": "Site of Fifth Dynasty sun temples and pyramids.",
+          "description": "Fifth Dynasty pharaohs built a cluster of pyramids and distinctive sun temples at Abusir, reflecting the growing prominence of the sun god Ra in Egyptian royal religion during this period. The site's temple reliefs and administrative papyri -- among the oldest papyrus archives to survive -- offer an unusually detailed window into how the Old Kingdom state actually functioned."
         },
         {
           "name": "Early Dynastic Sumer (Lagash)",
           "lat": 31.1833,
           "lng": 46.3167,
-          "note": "Erects the Stele of the Vultures to commemorate victory over neighbouring Umma."
+          "note": "Erects the Stele of the Vultures to commemorate victory over neighbouring Umma.",
+          "description": "After a hard-fought victory over neighboring Umma, Lagash's ruler Eannatum commissioned the Stele of the Vultures, a carved limestone monument celebrating the triumph -- one of the earliest known artworks to commemorate a specific historical battle and an early milestone in the use of art as political propaganda."
         },
         {
           "name": "Early Dynastic Sumer (Umma)",
           "lat": 31.6167,
           "lng": 45.8667,
-          "note": "Lagash's rival in one of history's earliest recorded border wars."
+          "note": "Lagash's rival in one of history's earliest recorded border wars.",
+          "description": "Umma's long rivalry with Lagash over fertile border farmland produced some of the earliest surviving written treaties and boundary inscriptions in human history. The conflict simmered on and off for generations, with each city's scribes carefully recording their own version of events on clay."
         }
       ],
       "events": [
@@ -312,19 +335,22 @@
           "name": "Akkadian Empire (Akkad, exact site unknown)",
           "lat": 32.6,
           "lng": 44.4,
-          "note": "Capital of the world's first empire, founded by Sargon -- its exact location has never been rediscovered."
+          "note": "Capital of the world's first empire, founded by Sargon -- its exact location has never been rediscovered.",
+          "description": "Sargon of Akkad built what historians generally consider the world's first true empire, uniting the independent Sumerian city-states under one ruler and extending Akkadian control from the Persian Gulf toward the Mediterranean. Remarkably, despite centuries of searching, archaeologists have never definitively located the ruins of Akkad itself -- it remains one of history's great lost capitals."
         },
         {
           "name": "Sumer (Uruk, now under Akkadian rule)",
           "lat": 31.3225,
           "lng": 45.6372,
-          "note": "Absorbed into the new Akkadian Empire along with the other Sumerian city-states."
+          "note": "Absorbed into the new Akkadian Empire along with the other Sumerian city-states.",
+          "description": "Along with the other great Sumerian cities, Uruk lost its political independence to Sargon's new empire, though its temples, scribal schools, and cultural prestige continued largely undisturbed. Akkadian rulers generally preferred to absorb and govern existing Sumerian institutions rather than destroy them."
         },
         {
           "name": "Old Kingdom Egypt (Memphis)",
           "lat": 29.85,
           "lng": 31.25,
-          "note": "Egypt's Sixth Dynasty rules a still-stable Old Kingdom."
+          "note": "Egypt's Sixth Dynasty rules a still-stable Old Kingdom.",
+          "description": "Egypt's Sixth Dynasty, ruling from Memphis, still presided over a comparatively stable Old Kingdom during this century, even as the increasing power of regional governors (nomarchs) was quietly setting up the political fragmentation that would follow within a few generations."
         }
       ],
       "events": [
@@ -350,19 +376,22 @@
           "name": "Akkadian Empire (Nineveh)",
           "lat": 36.3612,
           "lng": 43.15,
-          "note": "An important northern city absorbed into the growing Akkadian Empire."
+          "note": "An important northern city absorbed into the growing Akkadian Empire.",
+          "description": "Nineveh, later famous as the capital of the Neo-Assyrian Empire over a thousand years afterward, was already an important northern city absorbed into Sargon's Akkadian state in this era. Its temple to the goddess Ishtar made it a significant religious center even under Akkadian rule."
         },
         {
           "name": "Old Kingdom Egypt (Memphis)",
           "lat": 29.85,
           "lng": 31.25,
-          "note": "The Old Kingdom's central authority begins to weaken toward the century's end."
+          "note": "The Old Kingdom's central authority begins to weaken toward the century's end.",
+          "description": "Toward the end of this century, the long, stable reign of Pepi II -- traditionally said to have lasted over 90 years -- gave way to a weakening of central authority from Memphis, as regional governors grew increasingly independent and royal resources for monumental building declined."
         },
         {
           "name": "Elam (Susa)",
           "lat": 32.1889,
           "lng": 48.2517,
-          "note": "A rival power in what is now south-western Iran, in on-and-off conflict with Akkad."
+          "note": "A rival power in what is now south-western Iran, in on-and-off conflict with Akkad.",
+          "description": "Centered on the city of Susa in what is now south-western Iran, the Elamite civilization was a persistent rival power to Mesopotamia, alternating between conflict and trade with Akkad throughout this period. Elam's distinct language and culture would endure for close to two thousand more years."
         }
       ],
       "events": [
@@ -388,19 +417,22 @@
           "name": "Former Akkadian Empire (Akkad region)",
           "lat": 32.6,
           "lng": 44.4,
-          "note": "Falls to invasions by the Gutians and a severe, archaeologically documented drought."
+          "note": "Falls to invasions by the Gutians and a severe, archaeologically documented drought.",
+          "description": "The Akkadian Empire collapsed in this century under a combination of invasions by the Gutians, a people from the Zagros Mountains, and a severe, multi-decade drought that shows up clearly in sediment and pollen records -- making it one of the earliest collapses in history with real archaeological climate evidence behind it."
         },
         {
           "name": "First Intermediate Period Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Rises as a rival power centre as central authority in Memphis weakens."
+          "note": "Rises as a rival power centre as central authority in Memphis weakens.",
+          "description": "As royal authority centered on Memphis weakened, the southern city of Thebes rose as a rival power base, eventually producing the Theban dynasty that would reunify Egypt and launch the Middle Kingdom. This fractured era is known to Egyptologists as the First Intermediate Period."
         },
         {
           "name": "Gutian-controlled Mesopotamia (Nippur)",
           "lat": 32.1181,
           "lng": 45.2394,
-          "note": "A major religious centre that endures through the turmoil of the era."
+          "note": "A major religious centre that endures through the turmoil of the era.",
+          "description": "Nippur, Mesopotamia's great religious capital and home to the temple of the chief god Enlil, continued to function as a center of worship and scribal learning even as Gutian rulers controlled much of the surrounding political landscape -- a reminder that religious institutions often outlasted the dynasties that patronized them."
         }
       ],
       "events": [
@@ -426,19 +458,22 @@
           "name": "Third Dynasty of Ur (Ur)",
           "lat": 30.9625,
           "lng": 46.1039,
-          "note": "Capital of a new Sumerian empire and issuer of the oldest surviving written law code."
+          "note": "Capital of a new Sumerian empire and issuer of the oldest surviving written law code.",
+          "description": "Under Ur-Nammu and his successors, Ur became capital of a new, highly centralized Sumerian empire often called the Ur III period. Ur-Nammu's law code, inscribed on clay tablets, predates Hammurabi's far more famous Babylonian code by roughly three centuries and is the oldest substantially preserved legal code known."
         },
         {
           "name": "Middle Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Base of Mentuhotep II, who reunifies Egypt and founds the Middle Kingdom."
+          "note": "Base of Mentuhotep II, who reunifies Egypt and founds the Middle Kingdom.",
+          "description": "From his base at Thebes, Mentuhotep II waged a decades-long campaign to reunify Egypt after the fragmentation of the First Intermediate Period, eventually succeeding and founding what Egyptologists call the Middle Kingdom -- generally remembered as a golden age of literature, art, and relative stability."
         },
         {
           "name": "Elam (Susa)",
           "lat": 32.1889,
           "lng": 48.2517,
-          "note": "Remains a significant regional power neighbouring Ur's new empire."
+          "note": "Remains a significant regional power neighbouring Ur's new empire.",
+          "description": "Elam remained a formidable power on Mesopotamia's eastern frontier throughout the Ur III period, and it was ultimately Elamite forces that would deliver the fatal blow to Ur's empire within the next generation, sacking the city and carrying off its last king into captivity."
         }
       ],
       "events": [
@@ -464,19 +499,22 @@
           "name": "Ur (falls c. 2004 BCE)",
           "lat": 30.9625,
           "lng": 46.1039,
-          "note": "Sacked by Elamite invaders, ending the Third Dynasty of Ur."
+          "note": "Sacked by Elamite invaders, ending the Third Dynasty of Ur.",
+          "description": "Invading Elamite armies sacked Ur around 2004 BCE, capturing its last king, Ibbi-Sin, and ending the Third Dynasty of Ur. A Sumerian poem known as the Lament for Ur, written soon after, mourns the city's destruction in vivid, sorrowful verse -- one of the oldest surviving pieces of literature to grieve the fall of a civilization."
         },
         {
           "name": "Middle Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Base of the newly founded Twelfth Dynasty."
+          "note": "Base of the newly founded Twelfth Dynasty.",
+          "description": "Thebes served as the power base for Egypt's newly founded Twelfth Dynasty, widely regarded by Egyptologists as the high point of the Middle Kingdom, marked by major irrigation projects in the Faiyum region and an unusually rich body of surviving literature."
         },
         {
           "name": "Assyrian trade colony (Kanesh, Anatolia)",
           "lat": 38.8,
           "lng": 35.75,
-          "note": "One of the earliest known long-distance trading colonies, run by Assyrian merchants."
+          "note": "One of the earliest known long-distance trading colonies, run by Assyrian merchants.",
+          "description": "At Kanesh in central Anatolia, Assyrian merchants ran one of the earliest well-documented long-distance trading networks, exchanging Mesopotamian textiles and tin for Anatolian silver and gold. Thousands of their business letters and contracts, written on clay tablets, survive -- giving historians an unusually detailed picture of Bronze Age commerce."
         }
       ],
       "events": [
@@ -506,19 +544,22 @@
           "name": "Babylon (newly independent)",
           "lat": 32.5355,
           "lng": 44.4275,
-          "note": "Founded as an independent Amorite-ruled city-state, beginning its rise to prominence."
+          "note": "Founded as an independent Amorite-ruled city-state, beginning its rise to prominence.",
+          "description": "Babylon emerged as an independent city-state under an Amorite dynasty during this century, still a relatively minor power compared to older centers like Ur or Isin. Nothing yet suggested it would soon become one of the most famous cities in the ancient world."
         },
         {
           "name": "Minoan Crete (Knossos)",
           "lat": 35.298,
           "lng": 25.1633,
-          "note": "Builds its first great palace, launching the flourishing of Minoan civilization."
+          "note": "Builds its first great palace, launching the flourishing of Minoan civilization.",
+          "description": "Knossos saw the construction of its first great palace complex around this time, marking the emergence of the sophisticated Bronze Age society modern scholars call Minoan civilization, after the legendary King Minos. Elaborate frescoes, advanced plumbing, and extensive trade networks across the Aegean all developed around this palace-centered society."
         },
         {
           "name": "Middle Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Continues to prosper under the Twelfth Dynasty."
+          "note": "Continues to prosper under the Twelfth Dynasty.",
+          "description": "Egypt continued to prosper under the Twelfth Dynasty, with Theban-based pharaohs overseeing extensive building projects, renewed trade with Nubia and the Levant, and a flourishing of the literary works -- including the Story of Sinuhe -- that would become classics of the Egyptian language for over a thousand years."
         }
       ],
       "events": [
@@ -544,19 +585,22 @@
           "name": "Babylon (under Hammurabi)",
           "lat": 32.5355,
           "lng": 44.4275,
-          "note": "Becomes the dominant power in Mesopotamia under King Hammurabi."
+          "note": "Becomes the dominant power in Mesopotamia under King Hammurabi.",
+          "description": "King Hammurabi transformed Babylon from a modest city-state into the dominant power in Mesopotamia, conquering rivals including Larsa, Mari, and Eshnunna. He is best remembered today for his law code, inscribed on a tall stone stele and organized around the principle of proportional justice -- 'an eye for an eye' being its most famous surviving clause."
         },
         {
           "name": "Middle Kingdom Egypt, declining (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "The Middle Kingdom weakens as the Thirteenth Dynasty struggles to hold power."
+          "note": "The Middle Kingdom weakens as the Thirteenth Dynasty struggles to hold power.",
+          "description": "The Middle Kingdom's stability eroded during this century as the Thirteenth Dynasty struggled with a rapid turnover of short-reigned kings and weakening central control, setting the stage for the political fragmentation of the Second Intermediate Period that followed."
         },
         {
           "name": "Nile Delta (early Hyksos settlement)",
           "lat": 30.8,
           "lng": 31.2,
-          "note": "Semitic-speaking settlers from the Levant begin establishing themselves, foreshadowing Hyksos rule."
+          "note": "Semitic-speaking settlers from the Levant begin establishing themselves, foreshadowing Hyksos rule.",
+          "description": "Semitic-speaking migrants and traders from the Levant began settling in growing numbers in Egypt's eastern Nile Delta during this period, drawn by trade opportunities. Within a few generations their descendants, known to history as the Hyksos, would take political control of Lower Egypt entirely."
         }
       ],
       "events": [
@@ -582,19 +626,22 @@
           "name": "Hyksos Egypt (Avaris)",
           "lat": 30.7833,
           "lng": 31.8167,
-          "note": "Capital of the Hyksos Fifteenth Dynasty, which ruled northern Egypt during the Second Intermediate Period."
+          "note": "Capital of the Hyksos Fifteenth Dynasty, which ruled northern Egypt during the Second Intermediate Period.",
+          "description": "Avaris became the capital of Egypt's Fifteenth Dynasty, ruled by the Hyksos -- a dynasty of Levantine origin who controlled Lower Egypt during the Second Intermediate Period. Long cast as foreign invaders in later Egyptian propaganda, the Hyksos are now understood by most historians to have risen gradually from the earlier immigrant communities already settled in the Delta."
         },
         {
           "name": "Hittite Old Kingdom (Hattusa)",
           "lat": 40.0181,
           "lng": 34.6167,
-          "note": "Newly founded capital of the rising Hittite kingdom in Anatolia."
+          "note": "Newly founded capital of the rising Hittite kingdom in Anatolia.",
+          "description": "Hattusa was founded as the capital of the emerging Hittite kingdom in central Anatolia, a state that would grow over the following centuries into one of the Near East's great empires, eventually rivaling Egypt itself for control of the Levant."
         },
         {
           "name": "Minoan Crete (Thera/Santorini)",
           "lat": 36.3932,
           "lng": 25.4615,
-          "note": "A catastrophic volcanic eruption devastates this Minoan outpost and weakens Crete's civilization."
+          "note": "A catastrophic volcanic eruption devastates this Minoan outpost and weakens Crete's civilization.",
+          "description": "The volcanic island of Thera, a Minoan outpost known today as Santorini, was devastated by one of the largest volcanic eruptions in recorded history around this era. The eruption buried the town of Akrotiri in ash -- preserving it remarkably well -- while also likely weakening Minoan civilization across the wider Aegean."
         }
       ],
       "events": [
@@ -624,19 +671,22 @@
           "name": "New Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Ahmose I expels the Hyksos and founds Egypt's New Kingdom here."
+          "note": "Ahmose I expels the Hyksos and founds Egypt's New Kingdom here.",
+          "description": "Pharaoh Ahmose I finally drove out the Hyksos rulers of Lower Egypt and reunified the country from his base at Thebes, founding the Eighteenth Dynasty and launching what Egyptologists call the New Kingdom -- the era of Egypt's greatest territorial power and wealth."
         },
         {
           "name": "Shang Dynasty China (Anyang)",
           "lat": 36.0997,
           "lng": 114.3931,
-          "note": "Traditional heartland of China's first dynasty with contemporary written records (oracle bones)."
+          "note": "Traditional heartland of China's first dynasty with contemporary written records (oracle bones).",
+          "description": "Anyang was the heartland of the Shang Dynasty, China's earliest dynasty confirmed by contemporary written records. Its royal diviners inscribed questions and answers on ox bones and turtle shells -- the oracle bones -- which preserve the oldest known form of Chinese writing."
         },
         {
           "name": "Babylon (falls to the Hittites)",
           "lat": 32.5355,
           "lng": 44.4275,
-          "note": "Sacked by a Hittite raid around 1595 BCE, ending the Old Babylonian dynasty."
+          "note": "Sacked by a Hittite raid around 1595 BCE, ending the Old Babylonian dynasty.",
+          "description": "A surprise raid by the Hittite king Mursili I sacked Babylon around 1595 BCE, abruptly ending the Old Babylonian dynasty founded by Hammurabi roughly two centuries earlier. The Hittites did not stay to govern the city, and Babylon soon passed instead to the incoming Kassite dynasty."
         }
       ],
       "events": [
@@ -666,19 +716,22 @@
           "name": "New Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Hatshepsut, one of history's few female pharaohs, rules a prosperous and expansive Egypt."
+          "note": "Hatshepsut, one of history's few female pharaohs, rules a prosperous and expansive Egypt.",
+          "description": "Hatshepsut, one of the small number of women to rule Egypt as pharaoh in her own right, presided over a prosperous and largely peaceful reign, commissioning an ambitious mortuary temple at Deir el-Bahari and sponsoring a famous trading expedition to the land of Punt."
         },
         {
           "name": "Mycenaean Greece (Mycenae)",
           "lat": 37.7307,
           "lng": 22.7563,
-          "note": "Rises to dominance on the Greek mainland, building fortified palace-citadels."
+          "note": "Rises to dominance on the Greek mainland, building fortified palace-citadels.",
+          "description": "Mycenae rose to dominance on the Greek mainland in this era, its rulers building massive fortified palace-citadels with walls so thick that later Greeks believed only mythical Cyclopes could have built them. Mycenaean civilization would give its name to this entire phase of Bronze Age Greek history."
         },
         {
           "name": "Minoan Crete (Knossos, taken over)",
           "lat": 35.298,
           "lng": 25.1633,
-          "note": "Comes under Mycenaean Greek control, absorbing Minoan civilization."
+          "note": "Comes under Mycenaean Greek control, absorbing Minoan civilization.",
+          "description": "Mycenaean Greeks took control of Knossos around this period, adapting Minoan administrative practices -- including a new script, Linear B, used to write an early form of Greek -- while Minoan civilization itself gradually faded as an independent power."
         }
       ],
       "events": [
@@ -704,19 +757,22 @@
           "name": "Amarna Period Egypt (Akhetaten)",
           "lat": 27.6453,
           "lng": 30.902,
-          "note": "New capital built by Akhenaten for the worship of the sun-disc god Aten."
+          "note": "New capital built by Akhenaten for the worship of the sun-disc god Aten.",
+          "description": "Pharaoh Akhenaten abandoned Egypt's traditional pantheon and capital to found Akhetaten, a new city built from scratch to honor the sun-disc god Aten as Egypt's sole deity. The experiment proved deeply unpopular and was abandoned within a generation of Akhenaten's death."
         },
         {
           "name": "New Kingdom Egypt (Thebes, restored)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Traditional religion and the old capital are restored under Tutankhamun."
+          "note": "Traditional religion and the old capital are restored under Tutankhamun.",
+          "description": "Under the young pharaoh Tutankhamun, Egypt's traditional religion and the old capital of Thebes were restored after the upheaval of the Amarna Period. Tutankhamun's own short reign would be largely forgotten by history until his nearly intact tomb was discovered in 1922."
         },
         {
           "name": "Hittite Empire (Hattusa)",
           "lat": 40.0181,
           "lng": 34.6167,
-          "note": "Becomes a major rival power to Egypt in the Near East."
+          "note": "Becomes a major rival power to Egypt in the Near East.",
+          "description": "The Hittite Empire grew into Egypt's chief rival for control of the Levant during this century, its armies and diplomats contesting Syria's rich cities and trade routes in a rivalry that would culminate in one of the ancient world's largest chariot battles the following century."
         }
       ],
       "events": [
@@ -742,19 +798,22 @@
           "name": "Battle of Kadesh site",
           "lat": 34.5833,
           "lng": 36.5,
-          "note": "Site of a massive chariot battle between Egypt and the Hittite Empire."
+          "note": "Site of a massive chariot battle between Egypt and the Hittite Empire.",
+          "description": "Fought around 1274 BCE between Pharaoh Ramesses II and Hittite king Muwatalli II, the Battle of Kadesh was one of the largest chariot battles in history, involving thousands of chariots on each side. Both empires claimed victory, but the inconclusive result eventually pushed them toward diplomacy instead."
         },
         {
           "name": "New Kingdom Egypt (Thebes)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Ramesses II rules during Egypt's last great imperial peak."
+          "note": "Ramesses II rules during Egypt's last great imperial peak.",
+          "description": "Ramesses II ruled for an extraordinary 66 years, presiding over Egypt's last great burst of imperial power and leaving behind more monuments -- including the temples at Abu Simbel -- than almost any other pharaoh in Egyptian history."
         },
         {
           "name": "Hittite Empire (Hattusa)",
           "lat": 40.0181,
           "lng": 34.6167,
-          "note": "Signs a landmark peace treaty with Egypt after decades of rivalry."
+          "note": "Signs a landmark peace treaty with Egypt after decades of rivalry.",
+          "description": "After decades of costly rivalry, the Hittites and Egypt signed a formal peace treaty around 1259 BCE -- one of the oldest surviving international peace treaties, with copies preserved in both Egyptian hieroglyphs and Hittite cuneiform, including a provision for the mutual return of refugees."
         }
       ],
       "events": [
@@ -784,25 +843,29 @@
           "name": "Hittite Empire (Hattusa, destroyed)",
           "lat": 40.0181,
           "lng": 34.6167,
-          "note": "The Hittite capital is destroyed and the empire collapses entirely."
+          "note": "The Hittite capital is destroyed and the empire collapses entirely.",
+          "description": "The Hittite capital was destroyed and the empire collapsed entirely during this century, part of a wider, still-debated wave of societal breakdown across the eastern Mediterranean sometimes called the Bronze Age Collapse. Surviving Hittite successor states (the so-called Neo-Hittite kingdoms) persisted in smaller form in northern Syria."
         },
         {
           "name": "Mycenaean Greece (Mycenae, destroyed)",
           "lat": 37.7307,
           "lng": 22.7563,
-          "note": "Mycenaean palace centres across Greece are destroyed within a few decades."
+          "note": "Mycenaean palace centres across Greece are destroyed within a few decades.",
+          "description": "Mycenaean palace centers across the Greek mainland -- including Mycenae, Pylos, and Tiryns -- were destroyed within a few decades of each other, plunging Greece into a centuries-long Dark Age during which writing itself was lost until the Greek alphabet emerged centuries later."
         },
         {
           "name": "Ugarit (destroyed)",
           "lat": 35.6019,
           "lng": 35.7797,
-          "note": "A major Syrian trading city, abandoned after destruction and never resettled."
+          "note": "A major Syrian trading city, abandoned after destruction and never resettled.",
+          "description": "Ugarit, a wealthy Syrian port city and a major hub of Bronze Age Mediterranean trade, was destroyed and never resettled during this wave of collapse. Letters found in its ruins, written as the city fell, describe desperate pleas for help against seaborne raiders that never arrived in time."
         },
         {
           "name": "New Kingdom Egypt (weakened)",
           "lat": 25.6872,
           "lng": 32.6396,
-          "note": "Repels an invasion of the mysterious \"Sea Peoples\" but is permanently weakened."
+          "note": "Repels an invasion of the mysterious \"Sea Peoples\" but is permanently weakened.",
+          "description": "Egypt successfully repelled a major invasion by a loose coalition of seafaring raiders known as the Sea Peoples under Ramesses III, but the effort permanently drained Egypt's resources and marked the beginning of the New Kingdom's long decline."
         }
       ],
       "events": [
@@ -828,19 +891,22 @@
           "name": "Zhou Dynasty China (Fenghao, near modern Xi'an)",
           "lat": 34.3416,
           "lng": 108.9398,
-          "note": "New capital of the Zhou Dynasty after overthrowing the Shang."
+          "note": "New capital of the Zhou Dynasty after overthrowing the Shang.",
+          "description": "After overthrowing the Shang Dynasty, the new Zhou rulers established their capital at Fenghao, near modern Xi'an, and introduced the political theory of the Mandate of Heaven -- the idea that a ruler's legitimacy depended on just governance, and could be withdrawn if a dynasty grew corrupt. This idea would shape Chinese political thought for the next three thousand years."
         },
         {
           "name": "Middle Assyrian Empire (Assur)",
           "lat": 35.4553,
           "lng": 43.2601,
-          "note": "Expands its territory and influence under Tiglath-Pileser I."
+          "note": "Expands its territory and influence under Tiglath-Pileser I.",
+          "description": "Under King Tiglath-Pileser I, the Middle Assyrian state expanded its territory and military reach significantly from its capital at Assur, foreshadowing the far larger Neo-Assyrian Empire that would dominate the Near East several centuries later."
         },
         {
           "name": "Levant (Israelite kingdoms, traditional)",
           "lat": 31.7683,
           "lng": 35.2137,
-          "note": "According to biblical tradition, a united Israelite kingdom emerges around this era -- a period much debated among historians and archaeologists."
+          "note": "According to biblical tradition, a united Israelite kingdom emerges around this era -- a period much debated among historians and archaeologists.",
+          "description": "Biblical tradition places the emergence of a united Israelite kingdom under Saul and later David around this era, though the archaeological evidence for its scale and unity is genuinely debated among historians -- a reminder that written religious tradition and the archaeological record don't always align neatly for this period."
         }
       ],
       "events": [
@@ -866,19 +932,22 @@
           "name": "Phoenicia (Tyre)",
           "lat": 33.2704,
           "lng": 35.2038,
-          "note": "Leading Phoenician city-state, spreading trade colonies and the alphabet across the Mediterranean."
+          "note": "Leading Phoenician city-state, spreading trade colonies and the alphabet across the Mediterranean.",
+          "description": "Tyre was the leading city of Phoenicia, a loose network of city-states whose sailors and merchants spread trading colonies across the Mediterranean -- eventually founding Carthage -- and whose simplified consonantal alphabet would become the direct ancestor of the Greek, Latin, and Hebrew alphabets still used today."
         },
         {
           "name": "Kingdom of Israel and Judah (Jerusalem)",
           "lat": 31.7683,
           "lng": 35.2137,
-          "note": "According to biblical tradition, King Solomon builds the First Temple here."
+          "note": "According to biblical tradition, King Solomon builds the First Temple here.",
+          "description": "Biblical tradition credits King Solomon with building the First Temple in Jerusalem during this century, cementing the city's religious significance. As with earlier claims about a united Israelite kingdom, the exact historical scale of Solomon's realm remains a subject of ongoing scholarly debate."
         },
         {
           "name": "Neo-Assyrian Empire (Assur)",
           "lat": 35.4553,
           "lng": 43.2601,
-          "note": "A relatively quiet century for Assyria before its coming imperial expansion."
+          "note": "A relatively quiet century for Assyria before its coming imperial expansion.",
+          "description": "This was a relatively quiet century for Assyria, based at its ancient capital Assur, before the dramatic military expansion of the following century would transform it into the dominant power of the ancient Near East."
         }
       ],
       "events": [
@@ -904,19 +973,22 @@
           "name": "Neo-Assyrian Empire (Nimrud)",
           "lat": 36.0975,
           "lng": 43.325,
-          "note": "New capital as Ashurnasirpal II begins the Neo-Assyrian Empire's rapid expansion."
+          "note": "New capital as Ashurnasirpal II begins the Neo-Assyrian Empire's rapid expansion.",
+          "description": "King Ashurnasirpal II moved the Assyrian capital to Nimrud and began the rapid military expansion that launched the Neo-Assyrian Empire, known for both its administrative sophistication and its deliberately terrifying propaganda of conquest, recorded in detailed palace reliefs."
         },
         {
           "name": "Carthage (newly founded)",
           "lat": 36.8065,
           "lng": 10.323,
-          "note": "Founded by Phoenician colonists from Tyre; would grow into a great Mediterranean power."
+          "note": "Founded by Phoenician colonists from Tyre; would grow into a great Mediterranean power.",
+          "description": "According to tradition, Phoenician colonists from Tyre founded Carthage on the North African coast around 814 BCE, led by the legendary queen Dido. The new colony would grow over the following centuries into the dominant power of the western Mediterranean, eventually rivaling Rome itself."
         },
         {
           "name": "Kingdom of Kush (Napata)",
           "lat": 18.5364,
           "lng": 31.8228,
-          "note": "Rises as an independent Nubian kingdom south of Egypt."
+          "note": "Rises as an independent Nubian kingdom south of Egypt.",
+          "description": "South of Egypt in Nubia, the kingdom of Kush rose as an independent power centered on Napata, having absorbed centuries of Egyptian cultural and religious influence even as it asserted its own political independence from its northern neighbor."
         }
       ],
       "events": [
@@ -942,19 +1014,22 @@
           "name": "Rome (traditional founding)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Traditionally founded in 753 BCE, beginning what would become Rome's long history."
+          "note": "Traditionally founded in 753 BCE, beginning what would become Rome's long history.",
+          "description": "Roman tradition dates the city's founding to 753 BCE, crediting the legendary twins Romulus and Remus, raised by a she-wolf, with establishing a small settlement on the Palatine Hill. Archaeology confirms genuine settlement on Rome's hills around this era, though the city that would one day rule an empire was still just one of many small Latin villages."
         },
         {
           "name": "Olympia, Greece",
           "lat": 37.6381,
           "lng": 21.6306,
-          "note": "Site of the first Olympic Games, traditionally dated to 776 BCE."
+          "note": "Site of the first Olympic Games, traditionally dated to 776 BCE.",
+          "description": "The first Olympic Games, traditionally dated to 776 BCE, were held at the sanctuary of Olympia in honor of Zeus. The games became a unifying event across the otherwise fiercely independent Greek city-states, with wars even paused under a sacred truce so athletes and spectators could travel safely."
         },
         {
           "name": "Kushite Egypt (Napata)",
           "lat": 18.5364,
           "lng": 31.8228,
-          "note": "King Piye conquers Egypt, founding its Twenty-fifth (\"Nubian\") Dynasty."
+          "note": "King Piye conquers Egypt, founding its Twenty-fifth (\"Nubian\") Dynasty.",
+          "description": "King Piye of Kush marched north and conquered Egypt, founding the Twenty-fifth Dynasty -- often called the 'Nubian' or 'Kushite' Dynasty -- and ruling a unified kingdom stretching from the heart of Nubia to the Mediterranean coast."
         }
       ],
       "events": [
@@ -988,19 +1063,22 @@
           "name": "Neo-Assyrian Empire (Nineveh)",
           "lat": 36.3612,
           "lng": 43.15,
-          "note": "Ashurbanipal builds a great library here, the largest in the ancient Near East, before the empire's sudden collapse."
+          "note": "Ashurbanipal builds a great library here, the largest in the ancient Near East, before the empire's sudden collapse.",
+          "description": "King Ashurbanipal assembled a vast library at Nineveh containing tens of thousands of cuneiform tablets -- including the most complete surviving version of the Epic of Gilgamesh -- making it the largest library of the ancient Near East. Within decades of his death, however, the empire collapsed with startling speed under combined Median and Babylonian attack."
         },
         {
           "name": "Neo-Babylonian Mesopotamia (Babylon)",
           "lat": 32.5355,
           "lng": 44.4275,
-          "note": "Rises as Assyria's power fades, soon to become the region's dominant power."
+          "note": "Rises as Assyria's power fades, soon to become the region's dominant power.",
+          "description": "As Assyrian power crumbled, Babylon rose rapidly to fill the vacuum, soon becoming the dominant force in Mesopotamia under the Neo-Babylonian dynasty -- setting the stage for the city's later splendor under Nebuchadnezzar II."
         },
         {
           "name": "Kingdom of Media (Ecbatana)",
           "lat": 34.7983,
           "lng": 48.5148,
-          "note": "Allies with Babylon to help bring down the Assyrian Empire."
+          "note": "Allies with Babylon to help bring down the Assyrian Empire.",
+          "description": "The Median kingdom, based at Ecbatana in what is now western Iran, allied with Babylon to help topple the Assyrian Empire, sacking Nineveh in 612 BCE. Media would itself be absorbed within the following century by its former ally Persia under Cyrus the Great."
         }
       ],
       "events": [
@@ -1026,19 +1104,22 @@
           "name": "Neo-Babylonian Empire (Babylon)",
           "lat": 32.5355,
           "lng": 44.4275,
-          "note": "Reaches a final peak under Nebuchadnezzar II before falling to Cyrus the Great."
+          "note": "Reaches a final peak under Nebuchadnezzar II before falling to Cyrus the Great.",
+          "description": "Babylon reached a spectacular final peak under Nebuchadnezzar II, who rebuilt the city with its famous Ishtar Gate and (according to later tradition) its Hanging Gardens. The empire fell abruptly to Cyrus the Great of Persia in 539 BCE, reportedly without a fight after Cyrus diverted the Euphrates to enter the city."
         },
         {
           "name": "Achaemenid Persian Empire (Pasargadae)",
           "lat": 30.1928,
           "lng": 53.1746,
-          "note": "Capital built by Cyrus the Great, founder of the vast Achaemenid Persian Empire."
+          "note": "Capital built by Cyrus the Great, founder of the vast Achaemenid Persian Empire.",
+          "description": "Cyrus the Great built Pasargadae as the capital of his new Achaemenid Persian Empire, which at its height would stretch from the Aegean Sea to the Indus Valley -- the largest empire the world had yet seen. His tomb still stands at the site today."
         },
         {
           "name": "Roman Republic (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Overthrows its monarchy and founds the Roman Republic."
+          "note": "Overthrows its monarchy and founds the Roman Republic.",
+          "description": "Roman tradition holds that in 509 BCE the last Roman king, Tarquin the Proud, was overthrown and the monarchy replaced with a republic governed by annually elected magistrates and the Senate -- a system of government that would endure, with major adaptations, for roughly 500 years."
         }
       ],
       "events": [
@@ -1076,19 +1157,22 @@
           "name": "Achaemenid Persia (Persepolis)",
           "lat": 29.9353,
           "lng": 52.8916,
-          "note": "Ceremonial capital of the Persian Empire during its wars with Greece."
+          "note": "Ceremonial capital of the Persian Empire during its wars with Greece.",
+          "description": "Persepolis served as the ceremonial capital of the Achaemenid Persian Empire during its long and costly wars with the Greek city-states, its grand audience halls designed to receive tribute-bearing delegations from across the vast empire."
         },
         {
           "name": "Classical Athens",
           "lat": 37.9838,
           "lng": 23.7275,
-          "note": "Reaches its golden age under Pericles, building the Parthenon."
+          "note": "Reaches its golden age under Pericles, building the Parthenon.",
+          "description": "Under the statesman Pericles, Athens reached its political and cultural golden age, funding the construction of the Parthenon atop the Acropolis and nurturing the playwrights, philosophers, and historians whose work still shapes Western thought -- all while governing itself through one of history's earliest experiments in direct democracy."
         },
         {
           "name": "Sparta",
           "lat": 37.0739,
           "lng": 22.4304,
-          "note": "Athens's great rival in the long, devastating Peloponnesian War."
+          "note": "Athens's great rival in the long, devastating Peloponnesian War.",
+          "description": "Athens's great rival Sparta built its society almost entirely around military training and discipline, with citizen boys taken from their families at age seven for a harsh communal upbringing. The two cities' rivalry erupted into the decades-long Peloponnesian War, which ultimately exhausted both and reshaped the balance of power across Greece."
         }
       ],
       "events": [
@@ -1118,19 +1202,22 @@
           "name": "Macedon (Pella)",
           "lat": 40.7623,
           "lng": 22.525,
-          "note": "Capital of Macedon, homeland of Alexander the Great."
+          "note": "Capital of Macedon, homeland of Alexander the Great.",
+          "description": "Pella was the capital of the kingdom of Macedon, a once-peripheral Greek-speaking state that King Philip II transformed into a dominant military power -- and the birthplace and childhood home of his son, Alexander the Great."
         },
         {
           "name": "Alexander's Empire (Persepolis, conquered)",
           "lat": 29.9353,
           "lng": 52.8916,
-          "note": "Falls to Alexander the Great, symbolizing the end of the Achaemenid Persian Empire."
+          "note": "Falls to Alexander the Great, symbolizing the end of the Achaemenid Persian Empire.",
+          "description": "Alexander the Great's conquest of Persepolis in 330 BCE, including the ceremonial burning of its palace complex, symbolically marked the end of the two-century-old Achaemenid Persian Empire and the beginning of Alexander's own brief but vast empire stretching to India."
         },
         {
           "name": "Maurya Empire (Pataliputra)",
           "lat": 25.6127,
           "lng": 85.1228,
-          "note": "Capital of the newly founded Maurya Empire under Chandragupta Maurya."
+          "note": "Capital of the newly founded Maurya Empire under Chandragupta Maurya.",
+          "description": "Chandragupta Maurya founded the Maurya Empire from his capital at Pataliputra, uniting most of the Indian subcontinent under a single government for the first time and establishing a sophisticated bureaucratic and espionage system described in detail in the contemporary treatise known as the Arthashastra."
         }
       ],
       "events": [
@@ -1156,25 +1243,29 @@
           "name": "Ptolemaic Egypt (Alexandria)",
           "lat": 31.2001,
           "lng": 29.9187,
-          "note": "One of the great Hellenistic kingdoms formed after Alexander's empire split among his generals."
+          "note": "One of the great Hellenistic kingdoms formed after Alexander's empire split among his generals.",
+          "description": "Alexandria became the capital of Ptolemaic Egypt, one of several Hellenistic kingdoms carved from Alexander the Great's empire after his death. Its famous Library and Lighthouse made it a leading center of Greek learning and science for centuries, blending Greek and Egyptian culture under a Macedonian ruling dynasty."
         },
         {
           "name": "Maurya Empire under Ashoka (Pataliputra)",
           "lat": 25.6127,
           "lng": 85.1228,
-          "note": "Ashoka converts to Buddhism and spreads it across India after a bloody conquest."
+          "note": "Ashoka converts to Buddhism and spreads it across India after a bloody conquest.",
+          "description": "After a brutally violent conquest of the Kalinga region, Emperor Ashoka converted to Buddhism and renounced further military expansion, instead spreading Buddhist teachings across India through edicts carved on pillars and rocks -- among the earliest surviving monumental inscriptions in Indian history."
         },
         {
           "name": "Qin Dynasty China (Xianyang)",
           "lat": 34.3297,
           "lng": 108.7092,
-          "note": "Capital of Qin Shi Huang, who unifies China and becomes its first emperor."
+          "note": "Capital of Qin Shi Huang, who unifies China and becomes its first emperor.",
+          "description": "Qin Shi Huang unified China's warring states for the first time under one centralized empire, ruling from his capital Xianyang. He standardized weights, currency, and writing across his realm, began work linking regional walls into what would become the Great Wall, and was buried with the now-famous Terracotta Army."
         },
         {
           "name": "Carthage",
           "lat": 36.8065,
           "lng": 10.323,
-          "note": "Rome's great rival in the Punic Wars for control of the western Mediterranean."
+          "note": "Rome's great rival in the Punic Wars for control of the western Mediterranean.",
+          "description": "Carthage fought Rome in the First Punic War over control of Sicily and the western Mediterranean during this century, the opening round of a rivalry that would eventually determine which power controlled the entire Mediterranean world."
         }
       ],
       "events": [
@@ -1208,19 +1299,22 @@
           "name": "Roman Republic (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Destroys Carthage and conquers Greece, becoming the dominant Mediterranean power."
+          "note": "Destroys Carthage and conquers Greece, becoming the dominant Mediterranean power.",
+          "description": "Rome destroyed Carthage utterly at the end of the Third Punic War in 146 BCE -- the same year it also sacked Corinth and effectively absorbed Greece -- emerging as the unchallenged dominant power of the Mediterranean world."
         },
         {
           "name": "Han Dynasty China (Chang'an)",
           "lat": 34.3416,
           "lng": 108.9398,
-          "note": "Emperor Wu of Han sends envoy Zhang Qian west, opening contact with Central Asia."
+          "note": "Emperor Wu of Han sends envoy Zhang Qian west, opening contact with Central Asia.",
+          "description": "Emperor Wu of Han dispatched the envoy Zhang Qian on a diplomatic mission westward into Central Asia; though his original mission largely failed, Zhang Qian's travels opened contact and trade routes that would later develop into the Silk Road."
         },
         {
           "name": "Seleucid Judea (Jerusalem)",
           "lat": 31.7683,
           "lng": 35.2137,
-          "note": "Site of the Maccabean Revolt against Seleucid rule."
+          "note": "Site of the Maccabean Revolt against Seleucid rule.",
+          "description": "Jewish resistance to Seleucid rule and the forced imposition of Greek religious practices erupted into the Maccabean Revolt, ultimately winning Judea a period of independence and giving rise to the festival of Hanukkah, which commemorates the rededication of the Temple in Jerusalem."
         }
       ],
       "events": [
@@ -1250,19 +1344,22 @@
           "name": "Roman Republic, then Empire (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Julius Caesar's rise and assassination give way to Augustus becoming Rome's first emperor."
+          "note": "Julius Caesar's rise and assassination give way to Augustus becoming Rome's first emperor.",
+          "description": "Julius Caesar's rise to power, crossing of the Rubicon, and subsequent assassination in 44 BCE plunged Rome into civil war; his adopted heir Octavian ultimately prevailed and, as Augustus, became Rome's first emperor, formally ending five centuries of republican government."
         },
         {
           "name": "Ptolemaic Egypt (Alexandria, falls to Rome)",
           "lat": 31.2001,
           "lng": 29.9187,
-          "note": "Cleopatra VII's Egypt, the last major Hellenistic kingdom, becomes a Roman province."
+          "note": "Cleopatra VII's Egypt, the last major Hellenistic kingdom, becomes a Roman province.",
+          "description": "Cleopatra VII, the last Ptolemaic ruler of Egypt and a formidable political strategist in her own right, allied first with Julius Caesar and then with Mark Antony against Rome, but her defeat at the Battle of Actium in 31 BCE brought over three centuries of Ptolemaic rule to an end and made Egypt a Roman province."
         },
         {
           "name": "Gaul (conquered by Rome)",
           "lat": 46.2276,
           "lng": 2.2137,
-          "note": "Conquered by Julius Caesar in a campaign that made his political career."
+          "note": "Conquered by Julius Caesar in a campaign that made his political career.",
+          "description": "Julius Caesar's multi-year campaign to conquer Gaul, documented in his own propagandistic Commentaries, brought vast new territory, wealth, and personal prestige to Caesar -- resources that would prove decisive in his subsequent bid for supreme power in Rome."
         }
       ],
       "events": [
@@ -1296,19 +1393,22 @@
           "name": "Roman Judea (Jerusalem)",
           "lat": 31.7683,
           "lng": 35.2137,
-          "note": "Jesus of Nazareth is crucified here around 30 CE; the Second Temple is destroyed by Roman forces in 70 CE."
+          "note": "Jesus of Nazareth is crucified here around 30 CE; the Second Temple is destroyed by Roman forces in 70 CE.",
+          "description": "Roman-controlled Judea was the setting for the ministry and crucifixion of Jesus of Nazareth around 30 CE, events central to the founding of Christianity. Jewish rebellion against Roman rule later in the century led to the destruction of the Second Temple in 70 CE, a catastrophic event that reshaped Jewish religious and communal life for the next two millennia."
         },
         {
           "name": "Roman Empire (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Rules under the Julio-Claudian and Flavian emperors, including the Great Fire of 64 CE."
+          "note": "Rules under the Julio-Claudian and Flavian emperors, including the Great Fire of 64 CE.",
+          "description": "Rome was ruled through this century first by the Julio-Claudian dynasty descended from Augustus, and then the Flavians, weathering the chaotic Year of the Four Emperors and the Great Fire of 64 CE, which Emperor Nero was controversially blamed for in later tradition."
         },
         {
           "name": "Roman Italy (Pompeii)",
           "lat": 40.7509,
           "lng": 14.4849,
-          "note": "Buried by the eruption of Mount Vesuvius in 79 CE, preserving a snapshot of Roman daily life."
+          "note": "Buried by the eruption of Mount Vesuvius in 79 CE, preserving a snapshot of Roman daily life.",
+          "description": "The eruption of Mount Vesuvius in 79 CE buried the prosperous Roman town of Pompeii -- along with neighboring Herculaneum -- under volcanic ash and pumice, tragically killing many residents but also preserving an extraordinarily vivid snapshot of everyday Roman life that archaeologists are still studying today."
         }
       ],
       "events": [
@@ -1342,19 +1442,22 @@
           "name": "Roman Empire, greatest extent (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Reaches its largest territorial size under Emperor Trajan in 117 CE."
+          "note": "Reaches its largest territorial size under Emperor Trajan in 117 CE.",
+          "description": "Under Emperor Trajan, the Roman Empire reached its largest territorial extent in 117 CE, stretching from Britain to Mesopotamia. His successor Hadrian would instead focus on consolidating and defending these vast borders rather than expanding them further."
         },
         {
           "name": "Roman Britain (Hadrian's Wall)",
           "lat": 55.0,
           "lng": -2.3,
-          "note": "Marks the northern frontier of Roman Britain, built starting around 122 CE."
+          "note": "Marks the northern frontier of Roman Britain, built starting around 122 CE.",
+          "description": "Begun around 122 CE on the orders of Emperor Hadrian, this fortified wall marked the northernmost frontier of Roman Britain, stretching roughly 73 miles coast to coast and manned by a chain of forts and milecastles to control movement and trade across the border."
         },
         {
           "name": "Han Dynasty China (Luoyang)",
           "lat": 34.6197,
           "lng": 112.454,
-          "note": "Eastern Han capital, weakened by the Yellow Turban Rebellion late in the century."
+          "note": "Eastern Han capital, weakened by the Yellow Turban Rebellion late in the century.",
+          "description": "Luoyang served as the capital of the Eastern Han Dynasty, but by the century's end the dynasty was severely weakened by the Yellow Turban Rebellion, a massive peasant uprising fueled by famine, official corruption, and a new millenarian religious movement -- a crisis from which Han authority never fully recovered."
         }
       ],
       "events": [
@@ -1395,19 +1498,22 @@
           "name": "Three Kingdoms China (Luoyang)",
           "lat": 34.6197,
           "lng": 112.454,
-          "note": "Former Han capital, now contested amid China's division into three rival kingdoms."
+          "note": "Former Han capital, now contested amid China's division into three rival kingdoms.",
+          "description": "Following the Han Dynasty's collapse, China fractured into the rival states of Wei, Shu, and Wu -- the Three Kingdoms period, later immortalized in the classic historical novel Romance of the Three Kingdoms. Luoyang, the former Han capital, became the seat of the Wei state amid this division."
         },
         {
           "name": "Sassanid Persian Empire (Ctesiphon)",
           "lat": 33.0959,
           "lng": 44.5804,
-          "note": "Capital of the newly founded Sassanid Empire, which replaces the Parthians."
+          "note": "Capital of the newly founded Sassanid Empire, which replaces the Parthians.",
+          "description": "The Sassanid dynasty overthrew the Parthians and founded a new Persian empire centered on Ctesiphon, reviving Zoroastrianism as a state religion and establishing a rival power to Rome that would persist for over four centuries, until the Islamic conquests of the 7th century."
         },
         {
           "name": "Roman Empire in crisis (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Nearly collapses under constant civil war and invasion during the Crisis of the Third Century."
+          "note": "Nearly collapses under constant civil war and invasion during the Crisis of the Third Century.",
+          "description": "The Roman Empire nearly collapsed during the Crisis of the Third Century, cycling through dozens of short-lived emperors amid near-constant civil war, economic collapse, and invasions along almost every frontier -- a crisis the empire would only partially resolve through major administrative reforms late in the century."
         }
       ],
       "events": [
@@ -1441,19 +1547,22 @@
           "name": "Roman/Byzantine Empire (Constantinople)",
           "lat": 41.0082,
           "lng": 28.9784,
-          "note": "Founded by Constantine as the new imperial capital in 330 CE."
+          "note": "Founded by Constantine as the new imperial capital in 330 CE.",
+          "description": "Emperor Constantine founded a new imperial capital on the site of the old Greek city of Byzantium in 330 CE, naming it Constantinople. The city would remain the seat of the eastern, Greek-speaking half of the Roman Empire -- later known as the Byzantine Empire -- for over a thousand years after Rome itself fell."
         },
         {
           "name": "Gupta Empire (Pataliputra)",
           "lat": 25.6127,
           "lng": 85.1228,
-          "note": "Capital of the Gupta Empire, beginning a golden age of Indian science, mathematics, and culture."
+          "note": "Capital of the Gupta Empire, beginning a golden age of Indian science, mathematics, and culture.",
+          "description": "Ruling from Pataliputra, the Gupta Empire presided over what many historians call India's classical golden age, marked by major advances in mathematics (including the concept of zero), astronomy, and Sanskrit literature and drama."
         },
         {
           "name": "Western Roman Empire (Rome)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Weakens under mounting pressure from Goths and other peoples pushed west by the Huns."
+          "note": "Weakens under mounting pressure from Goths and other peoples pushed west by the Huns.",
+          "description": "The Western Roman Empire faced mounting pressure from Gothic peoples who were themselves being displaced westward by the arrival of the Huns from Central Asia, setting in motion the chain of migrations and invasions that would ultimately bring down Roman rule in the west within the following century."
         }
       ],
       "events": [
@@ -1495,19 +1604,22 @@
           "name": "Western Roman Empire (Rome, sacked)",
           "lat": 41.9028,
           "lng": 12.4964,
-          "note": "Sacked by the Visigoths in 410 CE, then falls entirely in 476 CE."
+          "note": "Sacked by the Visigoths in 410 CE, then falls entirely in 476 CE.",
+          "description": "The Visigoths under Alaric sacked Rome in 410 CE -- the first time the city had fallen to a foreign enemy in roughly 800 years, a psychological shock across the ancient world -- and the Western Roman Empire itself formally ended in 476 CE when the Germanic general Odoacer deposed its last emperor."
         },
         {
           "name": "Hunnic Empire (territory of Attila)",
           "lat": 47.4979,
           "lng": 19.0402,
-          "note": "Attila the Hun leads devastating invasions across Europe from a base near the Danube."
+          "note": "Attila the Hun leads devastating invasions across Europe from a base near the Danube.",
+          "description": "Attila the Hun led devastating campaigns across Europe from a power base near the Danube, extracting tribute from the Eastern Roman Empire and invading Gaul and Italy before his sudden death in 453 CE caused his short-lived empire to fragment almost immediately."
         },
         {
           "name": "Sub-Roman Britain",
           "lat": 51.5074,
           "lng": -0.1278,
-          "note": "Anglo-Saxon peoples begin settling Britain as Roman authority collapses."
+          "note": "Anglo-Saxon peoples begin settling Britain as Roman authority collapses.",
+          "description": "As Roman military and administrative authority withdrew from Britain, Anglo-Saxon peoples from northern Europe began settling the island in growing numbers, gradually displacing or absorbing the existing Romano-British population and laying the linguistic and cultural foundations of later England."
         }
       ],
       "events": [
@@ -1541,19 +1653,22 @@
           "name": "Byzantine Empire (Constantinople)",
           "lat": 41.0082,
           "lng": 28.9784,
-          "note": "Justinian I reconquers former Western Roman territory and builds the Hagia Sophia."
+          "note": "Justinian I reconquers former Western Roman territory and builds the Hagia Sophia.",
+          "description": "Emperor Justinian I launched ambitious military campaigns to reconquer former Western Roman territory in Italy and North Africa, while also commissioning the Hagia Sophia -- an architectural masterpiece whose massive dome remained the largest in the world for nearly a thousand years -- and codifying Roman law into the Corpus Juris Civilis."
         },
         {
           "name": "Sui Dynasty China (Chang'an)",
           "lat": 34.3416,
           "lng": 108.9398,
-          "note": "Reunifies China after nearly four centuries of division."
+          "note": "Reunifies China after nearly four centuries of division.",
+          "description": "The Sui Dynasty reunified China under one government after nearly four centuries of division following the Han collapse, undertaking massive infrastructure projects including the early Grand Canal, though the dynasty's harsh labor demands would lead to its own rapid collapse within a few decades."
         },
         {
           "name": "Byzantine Italy (Ravenna)",
           "lat": 44.4184,
           "lng": 12.2035,
-          "note": "Byzantine capital in Italy, site of famous mosaics from Justinian's reign."
+          "note": "Byzantine capital in Italy, site of famous mosaics from Justinian's reign.",
+          "description": "Ravenna served as the Byzantine Empire's capital in Italy during Justinian's reconquest, and its churches from this era -- especially the Basilica of San Vitale -- preserve some of the finest surviving Byzantine mosaics, including famous portraits of Justinian and his wife Theodora."
         }
       ],
       "events": [
@@ -1591,19 +1706,22 @@
           "name": "Islamic conquests (Mecca and Medina)",
           "lat": 21.4225,
           "lng": 39.8262,
-          "note": "Birthplace of Islam under Muhammad, whose migration to Medina in 622 CE begins the Islamic calendar."
+          "note": "Birthplace of Islam under Muhammad, whose migration to Medina in 622 CE begins the Islamic calendar.",
+          "description": "The Prophet Muhammad received what Muslims believe were divine revelations in Mecca beginning around 610 CE, and his migration (the Hijra) to Medina in 622 CE marks the start of the Islamic calendar. Within a century of his death, Islamic armies would conquer territory stretching from Spain to the borders of India."
         },
         {
           "name": "Rashidun and Umayyad Caliphates (Damascus)",
           "lat": 33.5138,
           "lng": 36.2765,
-          "note": "New capital of the Umayyad Caliphate after the rapid Islamic conquests."
+          "note": "New capital of the Umayyad Caliphate after the rapid Islamic conquests.",
+          "description": "Damascus became the new capital of the Umayyad Caliphate following the rapid wave of early Islamic conquests, administering an empire that by the century's end stretched from North Africa through the Middle East and into Central Asia."
         },
         {
           "name": "Tang Dynasty China (Chang'an)",
           "lat": 34.3416,
           "lng": 108.9398,
-          "note": "Capital of the newly founded Tang Dynasty, soon to become one of the largest cities in the world."
+          "note": "Capital of the newly founded Tang Dynasty, soon to become one of the largest cities in the world.",
+          "description": "The newly founded Tang Dynasty made Chang'an its capital, and the city would grow into one of the largest and most cosmopolitan in the world during this era, drawing merchants, monks, and diplomats along the Silk Road from as far away as Persia and the Byzantine Empire."
         }
       ],
       "events": [
@@ -1641,19 +1759,22 @@
           "name": "Umayyad al-Andalus (Córdoba)",
           "lat": 37.8882,
           "lng": -4.7794,
-          "note": "Capital of Umayyad Iberia after the conquest of most of the peninsula in 711 CE."
+          "note": "Capital of Umayyad Iberia after the conquest of most of the peninsula in 711 CE.",
+          "description": "Following the Islamic conquest of most of the Iberian Peninsula in 711 CE, Córdoba became the capital of Umayyad al-Andalus, developing over the following centuries into one of the largest, wealthiest, and most learned cities in Europe."
         },
         {
           "name": "Abbasid Caliphate (Baghdad, founded 762 CE)",
           "lat": 33.3152,
           "lng": 44.3661,
-          "note": "New capital founded by the Abbasids, becoming a centre of the Islamic Golden Age."
+          "note": "New capital founded by the Abbasids, becoming a centre of the Islamic Golden Age.",
+          "description": "The Abbasid dynasty overthrew the Umayyads and founded an entirely new capital at Baghdad, strategically positioned on the Tigris. The city rapidly became a thriving center of trade, science, and scholarship, launching what is often called the Islamic Golden Age."
         },
         {
           "name": "Carolingian Empire (Aachen)",
           "lat": 50.7753,
           "lng": 6.0839,
-          "note": "Charlemagne's capital, crowned Holy Roman Emperor by the Pope in 800 CE."
+          "note": "Charlemagne's capital, crowned Holy Roman Emperor by the Pope in 800 CE.",
+          "description": "Charlemagne made Aachen his favored residence and administrative center, and on Christmas Day in 800 CE was crowned Holy Roman Emperor by Pope Leo III -- a symbolic revival of the Western Roman imperial title more than three centuries after its fall."
         }
       ],
       "events": [
@@ -1695,19 +1816,22 @@
           "name": "Fragmented Carolingian Empire (Verdun)",
           "lat": 49.1593,
           "lng": 5.3814,
-          "note": "Site of the 843 CE treaty splitting Charlemagne's empire into three kingdoms."
+          "note": "Site of the 843 CE treaty splitting Charlemagne's empire into three kingdoms.",
+          "description": "The 843 CE Treaty of Verdun divided Charlemagne's empire among his three grandsons into West Francia, Middle Francia, and East Francia -- a split whose rough outlines would echo, centuries later, in the eventual borders of France and Germany."
         },
         {
           "name": "Abbasid Caliphate (Baghdad)",
           "lat": 33.3152,
           "lng": 44.3661,
-          "note": "Home to the House of Wisdom, a major centre of translation and scholarship."
+          "note": "Home to the House of Wisdom, a major centre of translation and scholarship.",
+          "description": "Baghdad's House of Wisdom became a major center for translating Greek, Persian, and Indian scientific and philosophical texts into Arabic, preserving and building on classical knowledge during a period when much of that learning was less actively studied in Western Europe."
         },
         {
           "name": "Rus' lands (Novgorod)",
           "lat": 58.5215,
           "lng": 31.2755,
-          "note": "Site of Rurik's founding of Rus' rule, a traditional starting point for the Russian state."
+          "note": "Site of Rurik's founding of Rus' rule, a traditional starting point for the Russian state.",
+          "description": "According to the Primary Chronicle, the Varangian (Norse) chieftain Rurik established his rule at Novgorod in 862 CE, traditionally regarded as the founding moment of the Rus' state from which Russia, Ukraine, and Belarus all later trace their origins."
         }
       ],
       "events": [
@@ -1737,25 +1861,29 @@
           "name": "Fatimid Caliphate (Cairo, founded 969 CE)",
           "lat": 30.0444,
           "lng": 31.2357,
-          "note": "Founded by the Fatimids as their new capital after conquering Egypt."
+          "note": "Founded by the Fatimids as their new capital after conquering Egypt.",
+          "description": "The Shia Fatimid dynasty conquered Egypt and founded Cairo as their new capital in 969 CE, establishing a rival caliphate to the Sunni Abbasids in Baghdad and founding Al-Azhar, which would become one of the Islamic world's most important centers of learning."
         },
         {
           "name": "Song Dynasty China (Kaifeng)",
           "lat": 34.7986,
           "lng": 114.3416,
-          "note": "Capital of the newly founded Song Dynasty, ushering in an era of economic and technological flourishing."
+          "note": "Capital of the newly founded Song Dynasty, ushering in an era of economic and technological flourishing.",
+          "description": "The newly founded Song Dynasty made Kaifeng its capital, presiding over an era of remarkable economic growth, urbanization, and technological innovation -- including early gunpowder weapons, paper money, and advances in printing that would later spread influence far beyond China's borders."
         },
         {
           "name": "Holy Roman Empire (Aachen)",
           "lat": 50.7753,
           "lng": 6.0839,
-          "note": "Otto I is crowned Holy Roman Emperor in 962 CE."
+          "note": "Otto I is crowned Holy Roman Emperor in 962 CE.",
+          "description": "Otto I was crowned Holy Roman Emperor in 962 CE, reviving the imperial title in Germany and establishing a political structure -- loosely uniting German and Italian territories under an elected emperor -- that would persist, in changing form, for over 800 years."
         },
         {
           "name": "Norse Vinland (L'Anse aux Meadows)",
           "lat": 51.5988,
           "lng": -55.5305,
-          "note": "Leif Erikson reaches North America around 1000 CE, centuries before Columbus."
+          "note": "Leif Erikson reaches North America around 1000 CE, centuries before Columbus.",
+          "description": "Norse explorer Leif Erikson reached the coast of North America around 1000 CE, establishing a short-lived settlement at what is now L'Anse aux Meadows in Newfoundland -- nearly 500 years before Columbus's voyages, though the Norse settlement did not endure."
         }
       ],
       "events": [
@@ -1793,19 +1921,22 @@
           "name": "Byzantine Empire (Manzikert, battle site)",
           "lat": 39.1434,
           "lng": 42.5372,
-          "note": "Seljuk Turks defeat the Byzantines here in 1071, opening Anatolia to Turkic settlement."
+          "note": "Seljuk Turks defeat the Byzantines here in 1071, opening Anatolia to Turkic settlement.",
+          "description": "The Byzantine army's catastrophic defeat by Seljuk Turks at the Battle of Manzikert in 1071 opened Anatolia to large-scale Turkic settlement, permanently weakening Byzantine control of the region and setting in motion a demographic and political shift that would eventually produce the later Ottoman heartland."
         },
         {
           "name": "Norman England (Hastings, battle site)",
           "lat": 50.8552,
           "lng": 0.5729,
-          "note": "William the Conqueror defeats King Harold here in 1066, beginning Norman rule of England."
+          "note": "William the Conqueror defeats King Harold here in 1066, beginning Norman rule of England.",
+          "description": "William, Duke of Normandy, defeated King Harold II of England at the Battle of Hastings in 1066, beginning Norman rule of England and profoundly reshaping English language, law, and aristocracy with a lasting infusion of Norman French influence."
         },
         {
           "name": "Song Dynasty China (Kaifeng)",
           "lat": 34.7986,
           "lng": 114.3416,
-          "note": "Bi Sheng invents movable-type printing here around the 1040s."
+          "note": "Bi Sheng invents movable-type printing here around the 1040s.",
+          "description": "The artisan Bi Sheng developed movable-type printing using fired clay characters around the 1040s, centuries before Johannes Gutenberg's independent invention of movable type in Europe, reflecting the Song Dynasty's broader era of technological innovation."
         }
       ],
       "events": [
@@ -1843,19 +1974,22 @@
           "name": "Khmer Empire (Angkor)",
           "lat": 13.4125,
           "lng": 103.867,
-          "note": "Home to Angkor Wat, built under Suryavarman II as the largest religious monument in the world."
+          "note": "Home to Angkor Wat, built under Suryavarman II as the largest religious monument in the world.",
+          "description": "King Suryavarman II commissioned Angkor Wat as a monumental temple dedicated originally to the Hindu god Vishnu, making it the largest religious monument in the world and the architectural centerpiece of the Khmer Empire's capital at Angkor."
         },
         {
           "name": "Norman Sicily (Palermo)",
           "lat": 38.1157,
           "lng": 13.3615,
-          "note": "Cosmopolitan court of King Roger II, where al-Idrisi completes the Tabula Rogeriana."
+          "note": "Cosmopolitan court of King Roger II, where al-Idrisi completes the Tabula Rogeriana.",
+          "description": "Under King Roger II, the Norman court at Palermo became a remarkably cosmopolitan center blending Norman, Byzantine, and Islamic influences; the Arab geographer al-Idrisi completed his Tabula Rogeriana there, one of the most advanced and accurate world maps of the medieval period."
         },
         {
           "name": "Ayyubid-ruled Jerusalem",
           "lat": 31.7683,
           "lng": 35.2137,
-          "note": "Recaptured from the Crusaders by Saladin in 1187."
+          "note": "Recaptured from the Crusaders by Saladin in 1187.",
+          "description": "Salah ad-Din (Saladin) recaptured Jerusalem from the Crusader states in 1187, ending nearly 90 years of Crusader control and triggering the Third Crusade in response, though Saladin's famously lenient treatment of the city's Christian population contrasted sharply with the massacre that had accompanied its capture by the First Crusade in 1099."
         }
       ],
       "events": [
@@ -1896,19 +2030,22 @@
           "name": "Mongol Empire (Karakorum)",
           "lat": 47.1996,
           "lng": 102.8391,
-          "note": "Capital of the largest contiguous land empire in history, founded after Genghis Khan united the Mongol tribes."
+          "note": "Capital of the largest contiguous land empire in history, founded after Genghis Khan united the Mongol tribes.",
+          "description": "Genghis Khan united the Mongol tribes and founded an empire that his successors expanded from Korakorum into the largest contiguous land empire in world history, stretching from Korea to Eastern Europe and briefly connecting trade and communication across almost the entire Eurasian continent."
         },
         {
           "name": "England (Runnymede)",
           "lat": 51.4419,
           "lng": -0.5606,
-          "note": "Site where King John is forced to sign the Magna Carta in 1215, limiting royal power."
+          "note": "Site where King John is forced to sign the Magna Carta in 1215, limiting royal power.",
+          "description": "At Runnymede in 1215, rebellious barons forced King John to seal Magna Carta, a document establishing that even the king was subject to the law -- a principle with limited immediate effect but enormous long-term influence on constitutional government in England and beyond."
         },
         {
           "name": "Yuan Dynasty China (Khanbaliq, modern Beijing)",
           "lat": 39.9042,
           "lng": 116.4074,
-          "note": "New capital founded by Kublai Khan after completing the Mongol conquest of Song China."
+          "note": "New capital founded by Kublai Khan after completing the Mongol conquest of Song China.",
+          "description": "Kublai Khan completed the Mongol conquest of Song China and founded the Yuan Dynasty, establishing his capital at Khanbaliq -- the city that would grow into modern Beijing -- and becoming the first foreign dynasty to rule the whole of China."
         }
       ],
       "events": [
@@ -1942,19 +2079,22 @@
           "name": "Mali Empire (Niani)",
           "lat": 11.3667,
           "lng": -8.6667,
-          "note": "Capital of the Mali Empire under Mansa Musa, whose 1324 pilgrimage to Mecca became legendary for its wealth."
+          "note": "Capital of the Mali Empire under Mansa Musa, whose 1324 pilgrimage to Mecca became legendary for its wealth.",
+          "description": "Ruling from his capital at Niani, Mansa Musa led the Mali Empire to the height of its wealth and influence; his lavish 1324 pilgrimage to Mecca, during which he reportedly distributed so much gold that it temporarily disrupted regional currency values, made his empire's riches legendary across the medieval world."
         },
         {
           "name": "Plague-stricken Europe (Florence)",
           "lat": 43.7696,
           "lng": 11.2558,
-          "note": "One of many European cities devastated by the Black Death, later immortalized in Boccaccio's Decameron."
+          "note": "One of many European cities devastated by the Black Death, later immortalized in Boccaccio's Decameron.",
+          "description": "The Black Death swept through Florence and across Europe in the mid-14th century, killing an estimated one-third to one-half of the continent's population. The Florentine writer Giovanni Boccaccio set his Decameron against the backdrop of the plague, as characters flee the dying city to tell stories in the countryside."
         },
         {
           "name": "Ming Dynasty China (Nanjing)",
           "lat": 32.0603,
           "lng": 118.7969,
-          "note": "First capital of the Ming Dynasty, founded after overthrowing Mongol Yuan rule."
+          "note": "First capital of the Ming Dynasty, founded after overthrowing Mongol Yuan rule.",
+          "description": "Zhu Yuanzhang, a former peasant and Buddhist monk, led the rebellion that overthrew Mongol Yuan rule and founded the Ming Dynasty, establishing his first capital at Nanjing before his successors later moved the seat of government north to Beijing."
         }
       ],
       "events": [
@@ -1988,19 +2128,22 @@
           "name": "Holy Roman Empire (Mainz)",
           "lat": 49.9929,
           "lng": 8.2473,
-          "note": "Johannes Gutenberg develops the movable-type printing press here around 1440."
+          "note": "Johannes Gutenberg develops the movable-type printing press here around 1440.",
+          "description": "Johannes Gutenberg developed a practical movable-type printing press in Mainz around 1440, dramatically lowering the cost of producing books and setting the stage for an explosion in literacy, the spread of ideas, and eventually the Protestant Reformation itself."
         },
         {
           "name": "Ottoman Empire (Constantinople, conquered 1453)",
           "lat": 41.0082,
           "lng": 28.9784,
-          "note": "Falls to the Ottomans, ending the Byzantine Empire after over a thousand years."
+          "note": "Falls to the Ottomans, ending the Byzantine Empire after over a thousand years.",
+          "description": "Sultan Mehmed II's forces breached Constantinople's legendary walls in 1453 using massive siege cannons, ending the Byzantine Empire after more than a thousand years and establishing the city (soon renamed Istanbul) as the new capital of the rapidly expanding Ottoman Empire."
         },
         {
           "name": "Spanish Empire (Granada, conquered 1492)",
           "lat": 37.1773,
           "lng": -3.5986,
-          "note": "Last Muslim stronghold in Iberia, falls the same year Columbus sails for the Americas."
+          "note": "Last Muslim stronghold in Iberia, falls the same year Columbus sails for the Americas.",
+          "description": "The fall of Granada, the last Muslim-ruled emirate in Iberia, to the combined forces of Ferdinand and Isabella in January 1492 completed the centuries-long Reconquista -- in the very same year that the same monarchs funded Columbus's first voyage across the Atlantic."
         }
       ],
       "events": [
@@ -2041,25 +2184,29 @@
           "name": "Aztec Empire (Tenochtitlan, conquered 1521)",
           "lat": 19.4326,
           "lng": -99.1332,
-          "note": "Falls to Hernán Cortés and his allies in 1521."
+          "note": "Falls to Hernán Cortés and his allies in 1521.",
+          "description": "Hernán Cortés, aided by thousands of indigenous allies hostile to Aztec rule and by the devastating impact of introduced diseases like smallpox, conquered the Aztec capital Tenochtitlan in 1521, ending the Aztec Empire and beginning Spanish colonial rule over central Mexico."
         },
         {
           "name": "Inca Empire (Cusco, conquered 1533)",
           "lat": -13.5319,
           "lng": -71.9675,
-          "note": "Falls to Francisco Pizarro in 1533."
+          "note": "Falls to Francisco Pizarro in 1533.",
+          "description": "Francisco Pizarro captured the Inca emperor Atahualpa and, after collecting an enormous ransom in gold and silver, had him executed anyway; Spanish forces went on to take the Inca capital Cusco in 1533, bringing down the largest empire in the pre-Columbian Americas."
         },
         {
           "name": "Mughal Empire (Agra)",
           "lat": 27.1767,
           "lng": 78.0081,
-          "note": "Founded by Babur in 1526, beginning one of history's wealthiest empires."
+          "note": "Founded by Babur in 1526, beginning one of history's wealthiest empires.",
+          "description": "Babur, a descendant of both Genghis Khan and Timur, founded the Mughal Empire in 1526 after defeating the Sultan of Delhi, establishing a dynasty from his base near Agra that would go on to rule much of the Indian subcontinent and amass extraordinary wealth over the following two centuries."
         },
         {
           "name": "Holy Roman Empire (Wittenberg)",
           "lat": 51.8666,
           "lng": 12.6489,
-          "note": "Martin Luther's 1517 protest here sparks the Protestant Reformation."
+          "note": "Martin Luther's 1517 protest here sparks the Protestant Reformation.",
+          "description": "In 1517, the monk Martin Luther published his Ninety-Five Theses criticizing Catholic Church practices, reportedly nailing them to the door of the Wittenberg church -- an act that ignited the Protestant Reformation and permanently fractured Western Christianity."
         }
       ],
       "events": [
@@ -2104,19 +2251,22 @@
           "name": "Holy Roman Empire, war-torn (Münster)",
           "lat": 51.9607,
           "lng": 7.6261,
-          "note": "Site of the 1648 peace treaties ending the devastating Thirty Years' War."
+          "note": "Site of the 1648 peace treaties ending the devastating Thirty Years' War.",
+          "description": "The Peace of Westphalia, negotiated in Münster and Osnabrück and signed in 1648, ended the devastatingly destructive Thirty Years' War, which had killed an estimated one-third of the population in parts of German-speaking Europe, and established principles of state sovereignty still influential in international relations today."
         },
         {
           "name": "Qing Dynasty China (Beijing)",
           "lat": 39.9042,
           "lng": 116.4074,
-          "note": "New Manchu-ruled capital after the conquest of Ming China in 1644."
+          "note": "New Manchu-ruled capital after the conquest of Ming China in 1644.",
+          "description": "Manchu forces conquered Ming China and established the Qing Dynasty, making Beijing their capital in 1644. The Qing would go on to rule China for over 260 years, eventually presiding over one of the largest empires in Chinese history."
         },
         {
           "name": "Kingdom of England (Cambridge)",
           "lat": 52.2043,
           "lng": 0.1218,
-          "note": "Isaac Newton develops the ideas behind his 1687 Principia Mathematica."
+          "note": "Isaac Newton develops the ideas behind his 1687 Principia Mathematica.",
+          "description": "Working largely in isolation at Cambridge during a period when the university was closed due to plague, Isaac Newton developed the core ideas of calculus, optics, and universal gravitation that he would later publish in his 1687 masterwork, the Principia Mathematica."
         }
       ],
       "events": [
@@ -2146,19 +2296,22 @@
           "name": "Kingdom of Great Britain (birthplace of the Industrial Revolution)",
           "lat": 53.4808,
           "lng": -2.2426,
-          "note": "Manchester and the surrounding region become the crucible of the Industrial Revolution from the 1760s."
+          "note": "Manchester and the surrounding region become the crucible of the Industrial Revolution from the 1760s.",
+          "description": "Beginning in the 1760s, Manchester and the surrounding region became the crucible of the Industrial Revolution, as new textile machinery, steam power, and factory organization transformed Britain from a largely agrarian society into the world's first industrial economy."
         },
         {
           "name": "United States (Philadelphia)",
           "lat": 39.9526,
           "lng": -75.1652,
-          "note": "The Declaration of Independence is signed here in 1776."
+          "note": "The Declaration of Independence is signed here in 1776.",
+          "description": "Delegates from the thirteen American colonies gathered in Philadelphia and adopted the Declaration of Independence on July 4, 1776, formally announcing their break from British rule and articulating principles of natural rights and self-government that would influence revolutionary movements worldwide."
         },
         {
           "name": "Kingdom of France (Paris)",
           "lat": 48.8566,
           "lng": 2.3522,
-          "note": "The French Revolution begins here in 1789, ending absolute monarchy."
+          "note": "The French Revolution begins here in 1789, ending absolute monarchy.",
+          "description": "The storming of the Bastille in Paris in July 1789 marked the dramatic start of the French Revolution, which would abolish the monarchy, execute King Louis XVI, and unleash a period of radical political upheaval that reshaped France and sent shockwaves across Europe."
         }
       ],
       "events": [
@@ -2199,25 +2352,29 @@
           "name": "Napoleonic France (Paris)",
           "lat": 48.8566,
           "lng": 2.3522,
-          "note": "Napoleon crowns himself Emperor in 1804, briefly dominating continental Europe."
+          "note": "Napoleon crowns himself Emperor in 1804, briefly dominating continental Europe.",
+          "description": "Napoleon Bonaparte crowned himself Emperor of the French in 1804, going on to dominate continental Europe militarily for over a decade through the Napoleonic Wars before his final defeat at Waterloo in 1815 and exile to the remote island of Saint Helena."
         },
         {
           "name": "United States (Washington D.C.)",
           "lat": 38.9072,
           "lng": -77.0369,
-          "note": "The Union prevails in the 1861-1865 Civil War, ending slavery."
+          "note": "The Union prevails in the 1861-1865 Civil War, ending slavery.",
+          "description": "The American Civil War (1861-1865) pitted the Union against the secessionist Confederacy over slavery and states' rights; the Union's victory preserved the United States as one nation and led to the constitutional abolition of slavery, though the war's deep social and political fractures would echo for generations afterward."
         },
         {
           "name": "Empire of Japan (Tokyo)",
           "lat": 35.6762,
           "lng": 139.6503,
-          "note": "The 1868 Meiji Restoration begins Japan's rapid modernization."
+          "note": "The 1868 Meiji Restoration begins Japan's rapid modernization.",
+          "description": "The Meiji Restoration of 1868 ended over two centuries of Tokugawa shogunate rule and began a rapid, deliberate program of modernization and industrialization, transforming Japan within a few decades from a largely isolated feudal society into a major industrial and military power."
         },
         {
           "name": "Partitioned Africa (Berlin, conference site)",
           "lat": 52.52,
           "lng": 13.405,
-          "note": "European powers formalize their colonial claims across Africa at the 1884-85 Berlin Conference."
+          "note": "European powers formalize their colonial claims across Africa at the 1884-85 Berlin Conference.",
+          "description": "At the 1884-85 Berlin Conference, European powers formally negotiated and carved up claims to African territory among themselves, with African societies and leaders almost entirely excluded from the negotiations that would determine their continent's colonial borders for the following century."
         }
       ],
       "events": [
@@ -2255,25 +2412,29 @@
           "name": "World War I & II Europe (Sarajevo)",
           "lat": 43.8563,
           "lng": 18.4131,
-          "note": "The 1914 assassination here triggers World War I; the continent is engulfed again in World War II from 1939."
+          "note": "The 1914 assassination here triggers World War I; the continent is engulfed again in World War II from 1939.",
+          "description": "The 1914 assassination of Archduke Franz Ferdinand in Sarajevo triggered a cascade of alliance obligations that plunged Europe into the First World War; a generation later the continent was engulfed again in the even more devastating Second World War, beginning in 1939."
         },
         {
           "name": "Russian Revolution (Petrograd/Saint Petersburg)",
           "lat": 59.9311,
           "lng": 30.3609,
-          "note": "The 1917 Russian Revolution overthrows the Tsar, bringing the Bolsheviks to power."
+          "note": "The 1917 Russian Revolution overthrows the Tsar, bringing the Bolsheviks to power.",
+          "description": "The 1917 Russian Revolution, beginning in Petrograd, first toppled the centuries-old Tsarist monarchy and then, in a second revolution later that year, brought Vladimir Lenin's Bolsheviks to power -- establishing the world's first communist state and reshaping twentieth-century global politics."
         },
         {
           "name": "United Nations founding (San Francisco)",
           "lat": 37.7749,
           "lng": -122.4194,
-          "note": "Delegates draft the UN Charter here in 1945, founding the United Nations."
+          "note": "Delegates draft the UN Charter here in 1945, founding the United Nations.",
+          "description": "Delegates from fifty nations met in San Francisco in 1945, in the closing months of World War II, to draft and sign the United Nations Charter, establishing an international organization intended to prevent future global conflicts through diplomacy and collective security."
         },
         {
           "name": "Cold War's end (Berlin)",
           "lat": 52.52,
           "lng": 13.405,
-          "note": "The Berlin Wall falls in 1989, foreshadowing the Soviet Union's 1991 collapse."
+          "note": "The Berlin Wall falls in 1989, foreshadowing the Soviet Union's 1991 collapse.",
+          "description": "The fall of the Berlin Wall in November 1989, as East German crowds poured through newly opened checkpoints, became the defining image of the Cold War's end, foreshadowing German reunification the following year and the Soviet Union's own collapse in 1991."
         }
       ],
       "events": [
@@ -2315,25 +2476,29 @@
           "name": "United States (New York, September 11 attacks)",
           "lat": 40.7128,
           "lng": -74.006,
-          "note": "The September 11, 2001 attacks reshape global security policy for decades."
+          "note": "The September 11, 2001 attacks reshape global security policy for decades.",
+          "description": "The September 11, 2001 terrorist attacks on the World Trade Center and Pentagon killed nearly 3,000 people and fundamentally reshaped global security policy, leading to long wars in Afghanistan and Iraq and sweeping changes to surveillance, airport security, and international counterterrorism cooperation."
         },
         {
           "name": "Global financial system (New York, Wall Street)",
           "lat": 40.7069,
           "lng": -74.0113,
-          "note": "Epicentre of the 2008 financial crisis, which triggered a worldwide recession."
+          "note": "Epicentre of the 2008 financial crisis, which triggered a worldwide recession.",
+          "description": "The 2008 financial crisis, centered on the collapse of major Wall Street institutions and the U.S. housing market, triggered the worst global economic downturn since the Great Depression, leading to massive government bailouts and lasting changes to international banking regulation."
         },
         {
           "name": "COVID-19 origin (Wuhan)",
           "lat": 30.5928,
           "lng": 114.3055,
-          "note": "Where the COVID-19 pandemic was first identified in late 2019, before spreading worldwide in 2020."
+          "note": "Where the COVID-19 pandemic was first identified in late 2019, before spreading worldwide in 2020.",
+          "description": "A novel coronavirus was first identified in Wuhan, China in late 2019, and by early 2020 had spread into a global pandemic that killed millions of people worldwide, disrupted economies and education on an unprecedented scale, and accelerated the development of mRNA vaccine technology."
         },
         {
           "name": "Generative AI boom (San Francisco)",
           "lat": 37.7749,
           "lng": -122.4194,
-          "note": "Hub of the generative AI boom that accelerated rapidly after ChatGPT's 2022 launch."
+          "note": "Hub of the generative AI boom that accelerated rapidly after ChatGPT's 2022 launch.",
+          "description": "San Francisco and the surrounding Bay Area became the epicenter of a rapid boom in generative artificial intelligence following the public launch of ChatGPT in late 2022, drawing enormous investment and sparking intense global debate over AI's economic, educational, and societal impact."
         }
       ],
       "events": [

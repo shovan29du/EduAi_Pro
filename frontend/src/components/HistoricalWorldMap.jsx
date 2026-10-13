@@ -1,14 +1,37 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
 import { WORLD_LAND_PATH } from '../utils/worldLandPath.js';
+import { HISTORICAL_BORDERS } from '../utils/historicalBorders.js';
 
 // A collection of historical locator maps — one per century, browsed as a
-// gallery. Each map uses the same schematic (real continent outlines plus a
-// lat/long graticule, not political borders) approach as the current-day
-// World Map, plotting the major civilizations/empires of that century at
-// their real approximate capital coordinates — paired with that century's
-// key events and links to real, famous historical maps where one genuinely
-// exists for that era.
+// gallery. Each map uses real (modern) continent outlines plus a lat/long
+// graticule as its base, the same approach as the current-day World Map,
+// plotting the major civilizations/empires of that century at their real
+// approximate capital coordinates — paired with that century's key events
+// and links to real, famous historical maps where one genuinely exists for
+// that era.
+//
+// Where available, each marker is also overlaid with the real historical
+// political border and era-appropriate name of the polity that actually
+// held that territory at the time, sourced from the open
+// aourednik/historical-basemaps dataset (GPL-3.0) -- see the attribution
+// footer. Not every marker has a matching border: some regions in this
+// era genuinely weren't organized into a bordered polity (e.g. mobile or
+// stateless societies), and a few are gaps in that source dataset; in both
+// cases we show no border rather than inventing one.
+
+// Deterministic color per polity name, so the same polity always reads as
+// the same color across the few periods it might reappear in, and
+// different polities shown together are visually distinguishable.
+const BORDER_COLORS = [
+  '#b45309', '#15803d', '#1d4ed8', '#7e22ce', '#be123c',
+  '#0f766e', '#a16207', '#4338ca', '#c2410c', '#0369a1',
+];
+function borderColor(name) {
+  let hash = 0;
+  for (const c of name) hash = (hash * 31 + c.charCodeAt(0)) >>> 0;
+  return BORDER_COLORS[hash % BORDER_COLORS.length];
+}
 
 function PeriodCard({ period, onOpen }) {
   return (
@@ -30,6 +53,7 @@ function PeriodCard({ period, onOpen }) {
 
 function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
   const [activeRegion, setActiveRegion] = useState(null);
+  const borders = HISTORICAL_BORDERS[period.id] || [];
 
   return (
     <div className="space-y-3">
@@ -68,6 +92,27 @@ function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
               return <line key={lat} x1={0} y1={y} x2={MAP_WIDTH} y2={y} className={lat === 0 ? 'stroke-amber-300 dark:stroke-slate-600' : 'stroke-amber-200 dark:stroke-slate-700'} strokeWidth={lat === 0 ? 1.5 : 1} />;
             })}
             <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} fill="none" className="stroke-amber-300 dark:stroke-slate-600" strokeWidth="1.5" />
+            {borders.map((b) => {
+              const color = borderColor(b.polity_name);
+              return (
+                <g key={b.polity_name}>
+                  <path d={b.path} fill={color} fillOpacity={0.14} stroke={color} strokeWidth="1.5" strokeDasharray="3 2" />
+                  {b.label_x != null && (
+                    <text
+                      x={b.label_x}
+                      y={b.label_y}
+                      fontSize="9"
+                      fontWeight="600"
+                      textAnchor="middle"
+                      fill={color}
+                      style={{ paintOrder: 'stroke', stroke: 'white', strokeWidth: 2.5 }}
+                    >
+                      {b.polity_name}
+                    </text>
+                  )}
+                </g>
+              );
+            })}
             {period.regions.map((r) => {
               const { x, y } = project(r.lat, r.lng);
               const isActive = activeRegion === r.name;
@@ -82,18 +127,31 @@ function PeriodDetail({ period, periods, onSelectPeriod, onBack }) {
             })}
           </svg>
         </div>
-        <p className="text-[11px] text-gray-400 text-center py-1">
-          A schematic locator map (today's coastlines, not this era's political borders) — tap a marker for details.
+        <p className="text-[11px] text-gray-400 text-center py-1 px-2">
+          Today's coastlines, with real historical political borders where available (dashed, from{' '}
+          <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer" className="underline">
+            historical-basemaps
+          </a>
+          , GPL-3.0) — tap a marker for details.
         </p>
 
         {activeRegion && (
           <div className="border-t px-4 py-3 bg-amber-50 dark:bg-amber-950/40">
             {(() => {
               const r = period.regions.find((x) => x.name === activeRegion);
+              const border = borders.find((b) => b.region_names.includes(r.name));
               return (
                 <>
                   <p className="font-semibold text-sm">{r.name}</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">{r.note}</p>
+                  {border && (
+                    <p className="text-xs text-amber-700 dark:text-amber-400 mt-0.5">
+                      Known in this era as: <span className="font-semibold">{border.polity_name}</span>
+                    </p>
+                  )}
+                  <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{r.note}</p>
+                  {r.description && (
+                    <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">{r.description}</p>
+                  )}
                 </>
               );
             })()}
