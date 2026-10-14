@@ -43151,7 +43151,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0201.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Georg_Waldm%C3%BCller_-_Nieder%C3%B6sterreichische_Bauernhochzeit_-_1122_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ferdinand_Georg_Waldm%C3%BCller_-_Nieder%C3%B6sterreichische_Bauernhochzeit_-_1122_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+          "image_found_via_query": "Austria Biedermeier painting Waldmüller"
         },
         {
           "id": "wc_0207",
@@ -44099,7 +44102,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0376.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Barbara_of_Nicodemia_-_Jan_van_Eyck_-_1437.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint_Barbara_of_Nicodemia_-_Jan_van_Eyck_-_1437.jpg",
+          "image_found_via_query": "Jan van Eyck Saint Barbara painting Belgium"
         },
         {
           "id": "wc_0382",
@@ -45096,7 +45102,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0557.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro_II_of_Brazil_in_imperial_uniform_1865.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Pedro_II_of_Brazil_in_imperial_uniform_1865.jpg",
+          "image_found_via_query": "Brazil historic photograph Pedro II 19th century"
         },
         {
           "id": "wc_0571",
@@ -46704,7 +46713,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0857.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Amoy%2C_China%3B_a_husband_and_wife_by_John_Thomson%2C_1870-1871._Wellcome_L0056177.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Amoy%2C_China%3B_a_husband_and_wife_by_John_Thomson%2C_1870-1871._Wellcome_L0056177.jpg",
+          "image_found_via_query": "John Thomson China photograph 1870s"
         },
         {
           "id": "wc_0871",

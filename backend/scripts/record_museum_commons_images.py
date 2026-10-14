@@ -105,6 +105,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0976", "Victor_Patricio_-_Corte_de_Cana,_1874.jpg", "Cuba traditional painting"),
     ("world_visual_arts", "wc_0982", "Havana_Harbor,_Cuba_-_1898.jpg", "Cuba historic photograph Havana"),
     ("world_visual_arts", "wc_0996", "1899-Cuba-1-Centavo-Stamp.jpg", "Cuba postage stamp art"),
+    ("world_visual_arts", "wc_0201", "Ferdinand_Georg_Waldmüller_-_Niederösterreichische_Bauernhochzeit_-_1122_-_Österreichische_Galerie_Belvedere.jpg", "Austria Biedermeier painting Waldmüller"),
+    ("world_visual_arts", "wc_0376", "Saint_Barbara_of_Nicodemia_-_Jan_van_Eyck_-_1437.jpg", "Jan van Eyck Saint Barbara painting Belgium"),
+    ("world_visual_arts", "wc_0557", "Pedro_II_of_Brazil_in_imperial_uniform_1865.jpg", "Brazil historic photograph Pedro II 19th century"),
+    ("world_visual_arts", "wc_0857", "Amoy,_China;_a_husband_and_wife_by_John_Thomson,_1870-1871._Wellcome_L0056177.jpg", "John Thomson China photograph 1870s"),
 ]
 
 
