@@ -47478,7 +47478,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0002.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan%2C_Gandhara%2C_Hadda%2C_late_Kushan_Period_-_Seated_Buddha_-_1967.39_-_Cleveland_Museum_of_Art.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Afghanistan%2C_Gandhara%2C_Hadda%2C_late_Kushan_Period_-_Seated_Buddha_-_1967.39_-_Cleveland_Museum_of_Art.jpg",
+          "image_found_via_query": "Afghanistan sculpture Gandhara Buddhist"
         },
         {
           "id": "wc_0013",
@@ -47564,7 +47567,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0017.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan%2C_Standing_Buddha%2C_Ghorband_Valley%2C_Fondukistan_Monastery%2C_7th_century.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Afghanistan%2C_Standing_Buddha%2C_Ghorband_Valley%2C_Fondukistan_Monastery%2C_7th_century.jpg",
+          "image_found_via_query": "Afghanistan religious object Buddhist Islamic"
         },
         {
           "id": "wc_0027",
@@ -47607,7 +47613,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0027.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Metal_statue_from_Albanian_tourism_expo_%22Exhibit_of_Illyrian_Kings%22_depicting_Glaucias.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Metal_statue_from_Albanian_tourism_expo_%22Exhibit_of_Illyrian_Kings%22_depicting_Glaucias.jpg",
+          "image_found_via_query": "Albania sculpture statue"
         },
         {
           "id": "wc_0038",

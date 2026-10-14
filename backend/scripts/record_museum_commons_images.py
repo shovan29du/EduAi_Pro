@@ -109,6 +109,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0376", "Saint_Barbara_of_Nicodemia_-_Jan_van_Eyck_-_1437.jpg", "Jan van Eyck Saint Barbara painting Belgium"),
     ("world_visual_arts", "wc_0557", "Pedro_II_of_Brazil_in_imperial_uniform_1865.jpg", "Brazil historic photograph Pedro II 19th century"),
     ("world_visual_arts", "wc_0857", "Amoy,_China;_a_husband_and_wife_by_John_Thomson,_1870-1871._Wellcome_L0056177.jpg", "John Thomson China photograph 1870s"),
+    ("world_sculpture_ritual", "wc_0002", "Afghanistan,_Gandhara,_Hadda,_late_Kushan_Period_-_Seated_Buddha_-_1967.39_-_Cleveland_Museum_of_Art.jpg", "Afghanistan sculpture Gandhara Buddhist"),
+    ("world_sculpture_ritual", "wc_0017", "Afghanistan,_Standing_Buddha,_Ghorband_Valley,_Fondukistan_Monastery,_7th_century.jpg", "Afghanistan religious object Buddhist Islamic"),
+    ("world_sculpture_ritual", "wc_0027", "Metal_statue_from_Albanian_tourism_expo_\"Exhibit_of_Illyrian_Kings\"_depicting_Glaucias.jpg", "Albania sculpture statue"),
 ]
 
 
