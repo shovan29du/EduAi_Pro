@@ -102,6 +102,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0882", "Bogotazo.jpg", "Colombia historic photograph Bogota"),
     ("world_visual_arts", "wc_0932", "Museo_Nacional_de_Costa_Rica,_San_Jose_2008.jpg", "Costa Rica historic photograph San Jose"),
     ("world_visual_arts", "wc_0946", "First_postal_stamp_CR_4_Reales_1863.jpg", "Costa Rica postage stamp"),
+    ("world_visual_arts", "wc_0976", "Victor_Patricio_-_Corte_de_Cana,_1874.jpg", "Cuba traditional painting"),
+    ("world_visual_arts", "wc_0982", "Havana_Harbor,_Cuba_-_1898.jpg", "Cuba historic photograph Havana"),
+    ("world_visual_arts", "wc_0996", "1899-Cuba-1-Centavo-Stamp.jpg", "Cuba postage stamp art"),
 ]
 
 
