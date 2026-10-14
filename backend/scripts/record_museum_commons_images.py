@@ -112,6 +112,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0002", "Afghanistan,_Gandhara,_Hadda,_late_Kushan_Period_-_Seated_Buddha_-_1967.39_-_Cleveland_Museum_of_Art.jpg", "Afghanistan sculpture Gandhara Buddhist"),
     ("world_sculpture_ritual", "wc_0017", "Afghanistan,_Standing_Buddha,_Ghorband_Valley,_Fondukistan_Monastery,_7th_century.jpg", "Afghanistan religious object Buddhist Islamic"),
     ("world_sculpture_ritual", "wc_0027", "Metal_statue_from_Albanian_tourism_expo_\"Exhibit_of_Illyrian_Kings\"_depicting_Glaucias.jpg", "Albania sculpture statue"),
+    ("world_sculpture_ritual", "wc_0102", "Chibinda_Ilunga_figure,_Angola,_Chokwe,_19th_century_AD,_wood,_hair,_plant_materials,_glass_beads_-_Ethnological_Museum,_Berlin_-_DSC02219.JPG", "Angola sculpture figure museum"),
+    ("world_sculpture_ritual", "wc_0113", "Pwo_mask,_Angola,_Chokwe_people,_view_1,_mid_20th_century,_wood,_raffia,_twine_-_Chazen_Museum_of_Art_-_DSC01739.JPG", "Angola Chokwe mask ritual"),
+    ("world_sculpture_ritual", "wc_0127", "Museo_de_Arte_Decorativo_Esculturas_del_Jardin.jpg", "Argentina sculpture statue museum"),
+    ("world_sculpture_ritual", "wc_0152", "Armenian_Khatchkar.jpg", "Armenia khachkar cross stone sculpture"),
 ]
 
 

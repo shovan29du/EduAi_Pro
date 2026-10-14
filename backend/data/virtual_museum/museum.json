@@ -48003,7 +48003,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0102.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chibinda_Ilunga_figure%2C_Angola%2C_Chokwe%2C_19th_century_AD%2C_wood%2C_hair%2C_plant_materials%2C_glass_beads_-_Ethnological_Museum%2C_Berlin_-_DSC02219.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chibinda_Ilunga_figure%2C_Angola%2C_Chokwe%2C_19th_century_AD%2C_wood%2C_hair%2C_plant_materials%2C_glass_beads_-_Ethnological_Museum%2C_Berlin_-_DSC02219.JPG",
+          "image_found_via_query": "Angola sculpture figure museum"
         },
         {
           "id": "wc_0113",
@@ -48046,7 +48049,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0113.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Pwo_mask%2C_Angola%2C_Chokwe_people%2C_view_1%2C_mid_20th_century%2C_wood%2C_raffia%2C_twine_-_Chazen_Museum_of_Art_-_DSC01739.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Pwo_mask%2C_Angola%2C_Chokwe_people%2C_view_1%2C_mid_20th_century%2C_wood%2C_raffia%2C_twine_-_Chazen_Museum_of_Art_-_DSC01739.JPG",
+          "image_found_via_query": "Angola Chokwe mask ritual"
         },
         {
           "id": "wc_0117",
@@ -48132,7 +48138,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0127.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo_de_Arte_Decorativo_Esculturas_del_Jardin.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Decorativo_Esculturas_del_Jardin.jpg",
+          "image_found_via_query": "Argentina sculpture statue museum"
         },
         {
           "id": "wc_0138",
@@ -48261,7 +48270,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0152.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_Khatchkar.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armenian_Khatchkar.jpg",
+          "image_found_via_query": "Armenia khachkar cross stone sculpture"
         },
         {
           "id": "wc_0163",
