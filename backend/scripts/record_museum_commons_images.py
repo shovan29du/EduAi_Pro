@@ -93,6 +93,13 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0746", "3_pence_beaver_stamp.jpg", "Canada postage stamp art"),
     ("world_visual_arts", "wc_0782", "Central_African_Republic_-_Boy_in_Birao.jpg", "Central African Republic historic photograph"),
     ("world_visual_arts", "wc_0801", "Prehistoric_Rock_Paintings_at_Manda_Guéli_Cave_in_the_Ennedi_Mountains_-_northeastern_Chad_2015.jpg", "Chad traditional art historic photograph"),
+    ("world_visual_arts", "wc_0826", "Alejandro_Ciccarelli_-_Vista_de_Santiago_desde_Peñalolén.jpg", "Chile traditional painting"),
+    ("world_visual_arts", "wc_0832", "Tribunales_de_Santiago_de_Chile-1900.jpg", "Chile historic photograph Santiago"),
+    ("world_visual_arts", "wc_0846", "Chile_Airmail_stamp_50p_1935_issue.jpg", "Chile postage stamp art"),
+    ("world_visual_arts", "wc_0851", "Along_the_River_During_the_Qingming_Festival_(Qing_Court_Version).jpg", "China traditional painting Ming Qing dynasty"),
+    ("world_visual_arts", "wc_0871", "Li_Shizhen_Stamp_of_China.JPG", "China postage stamp art painting"),
+    ("world_visual_arts", "wc_0876", "Serrania_de_la_Lindosa_rock_paintings_-_giant_ground_sloth_-_Iriarte_et_al_2022.jpg", "Colombia traditional painting"),
+    ("world_visual_arts", "wc_0882", "Bogotazo.jpg", "Colombia historic photograph Bogota"),
 ]
 
 

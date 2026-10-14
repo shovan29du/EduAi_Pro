@@ -46520,7 +46520,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0826.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Alejandro_Ciccarelli_-_Vista_de_Santiago_desde_Pe%C3%B1alol%C3%A9n.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Alejandro_Ciccarelli_-_Vista_de_Santiago_desde_Pe%C3%B1alol%C3%A9n.jpg",
+          "image_found_via_query": "Chile traditional painting"
         },
         {
           "id": "wc_0832",
@@ -46563,7 +46566,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0832.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribunales_de_Santiago_de_Chile-1900.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tribunales_de_Santiago_de_Chile-1900.jpg",
+          "image_found_via_query": "Chile historic photograph Santiago"
         },
         {
           "id": "wc_0846",
@@ -46606,7 +46612,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0846.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chile_Airmail_stamp_50p_1935_issue.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chile_Airmail_stamp_50p_1935_issue.jpg",
+          "image_found_via_query": "Chile postage stamp art"
         },
         {
           "id": "wc_0851",
@@ -46649,7 +46658,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0851.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg",
+          "image_found_via_query": "China traditional painting Ming Qing dynasty"
         },
         {
           "id": "wc_0857",
@@ -46735,7 +46747,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0871.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Li_Shizhen_Stamp_of_China.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Li_Shizhen_Stamp_of_China.JPG",
+          "image_found_via_query": "China postage stamp art painting"
         },
         {
           "id": "wc_0876",
@@ -46778,7 +46793,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0876.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Serrania_de_la_Lindosa_rock_paintings_-_giant_ground_sloth_-_Iriarte_et_al_2022.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Serrania_de_la_Lindosa_rock_paintings_-_giant_ground_sloth_-_Iriarte_et_al_2022.jpg",
+          "image_found_via_query": "Colombia traditional painting"
         },
         {
           "id": "wc_0882",
@@ -46821,7 +46839,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0882.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bogotazo.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bogotazo.jpg",
+          "image_found_via_query": "Colombia historic photograph Bogota"
         },
         {
           "id": "wc_0896",
