@@ -50376,7 +50376,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0552.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleijadinho_-_A_%C3%BAltima_ceia_-_Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aleijadinho_-_A_%C3%BAltima_ceia_-_Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg",
+          "image_found_via_query": "Brazil sculpture statue Aleijadinho baroque"
         },
         {
           "id": "wc_0563",
@@ -50505,7 +50508,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0577.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Billionth_Barrel_Monument_-_Brunei.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Billionth_Barrel_Monument_-_Brunei.jpg",
+          "image_found_via_query": "Brunei sculpture monument"
         },
         {
           "id": "wc_0588",
@@ -50634,7 +50640,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0602.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Archaeological_Museum_Sofia_-_Bronze_Head_from_the_Golyama_Kosmatka_Tumulus_near_Shipka.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:National_Archaeological_Museum_Sofia_-_Bronze_Head_from_the_Golyama_Kosmatka_Tumulus_near_Shipka.jpg",
+          "image_found_via_query": "Bulgaria sculpture Thracian treasure ritual"
         },
         {
           "id": "wc_0613",
@@ -50806,7 +50815,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0638.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mask_%28Nyanga%29_Bobo_Burkina_Faso_early_19th_century.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mask_%28Nyanga%29_Bobo_Burkina_Faso_early_19th_century.jpg",
+          "image_found_via_query": "Burkina Faso mask museum Bwa Mossi"
         },
         {
           "id": "wc_0642",

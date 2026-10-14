@@ -129,6 +129,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0452", "Buddha_Dordenma_Statue_and_around_–_Thimphu_during_LGFC_-_Bhutan_2019_(81).jpg", "Bhutan sculpture statue Buddha"),
     ("world_sculpture_ritual", "wc_0477", "Bolivia_-_Gate_of_the_Sun_detail_-_Tiwanaku_or_Tiahuanaco_04.jpg", "Bolivia Tiwanaku sculpture statue"),
     ("world_sculpture_ritual", "wc_0502", "Bosniangraves_bosniska_gravar_februari_2007_stecak_stecci5.jpg", "Bosnia Herzegovina stecci medieval tombstone sculpture"),
+    ("world_sculpture_ritual", "wc_0552", "Aleijadinho_-_A_última_ceia_-_Santuário_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg", "Brazil sculpture statue Aleijadinho baroque"),
+    ("world_sculpture_ritual", "wc_0577", "Billionth_Barrel_Monument_-_Brunei.jpg", "Brunei sculpture monument"),
+    ("world_sculpture_ritual", "wc_0602", "National_Archaeological_Museum_Sofia_-_Bronze_Head_from_the_Golyama_Kosmatka_Tumulus_near_Shipka.jpg", "Bulgaria sculpture Thracian treasure ritual"),
+    ("world_sculpture_ritual", "wc_0638", "Mask_(Nyanga)_Bobo_Burkina_Faso_early_19th_century.jpg", "Burkina Faso mask museum Bwa Mossi"),
 ]
 
 
