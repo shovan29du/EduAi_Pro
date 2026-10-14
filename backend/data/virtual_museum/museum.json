@@ -52350,7 +52350,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0927.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Diquis_Stone_Spheres_in_situ_Finca_6_CR_12_2020.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Diquis_Stone_Spheres_in_situ_Finca_6_CR_12_2020.jpg",
+          "image_found_via_query": "Costa Rica stone sphere sculpture jade"
         },
         {
           "id": "wc_0938",
@@ -52479,7 +52482,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0952.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Me%C5%A1trovi%C4%87_Gallery%2C_Split_-_Persephone_01.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Me%C5%A1trovi%C4%87_Gallery%2C_Split_-_Persephone_01.jpg",
+          "image_found_via_query": "Croatia sculpture Mestrovic statue"
         },
         {
           "id": "wc_0963",
@@ -52608,7 +52614,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0977.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Habana_-_Estatua_de_Fernando_VII.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Habana_-_Estatua_de_Fernando_VII.jpg",
+          "image_found_via_query": "Cuba sculpture statue museum"
         },
         {
           "id": "wc_0988",
@@ -52694,7 +52703,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0992.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/SB090_Santer%C3%ADa_altar.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:SB090_Santer%C3%ADa_altar.JPG",
+          "image_found_via_query": "Cuba Santeria religious object altar"
         }
       ]
     },
