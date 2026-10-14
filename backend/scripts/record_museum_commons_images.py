@@ -146,6 +146,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0952", "Meštrović_Gallery,_Split_-_Persephone_01.jpg", "Croatia sculpture Mestrovic statue"),
     ("world_sculpture_ritual", "wc_0977", "Habana_-_Estatua_de_Fernando_VII.jpg", "Cuba sculpture statue museum"),
     ("world_sculpture_ritual", "wc_0992", "SB090_Santería_altar.JPG", "Cuba Santeria religious object altar"),
+    ("world_sculpture_ritual", "wc_0263", "Junkanoo_festival_cutout,_Nassau,_Bahamas_(March_14,_2024).jpg", "Junkanoo mask Bahamas festival"),
+    ("world_sculpture_ritual", "wc_0388", "Binche_-_Les_Gilles.jpg", "Belgium carnival mask Binche"),
+    ("world_sculpture_ritual", "wc_0438", "Benin-_Egungun_masquerade.jpg", "Benin Dahomey mask Egungun Fon"),
+    ("world_sculpture_ritual", "wc_0488", "Máscara_de_la_diablada_del_carnaval_de_oruro.jpg", "Bolivia Diablada mask Oruro"),
+    ("world_sculpture_ritual", "wc_0563", "Mascarado_das_Cavalhadas_de_Pirenópolis.jpg", "Brazil mask indigenous carnival"),
 ]
 
 
