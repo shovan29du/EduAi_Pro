@@ -48402,7 +48402,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0177.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aboriginal_hollow_log_tombs02.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aboriginal_hollow_log_tombs02.jpg",
+          "image_found_via_query": "Australia Aboriginal sculpture carving"
         },
         {
           "id": "wc_0188",
@@ -48531,7 +48534,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0202.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Winged_Nike_bronze_statue_near_Kunsthistorisches_Museum_%28Museum_of_Art_History%29_Vienna._Austria%2C_Western_Europe.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Winged_Nike_bronze_statue_near_Kunsthistorisches_Museum_%28Museum_of_Art_History%29_Vienna._Austria%2C_Western_Europe.jpg",
+          "image_found_via_query": "Austria sculpture statue museum Vienna"
         },
         {
           "id": "wc_0213",
@@ -48789,7 +48795,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0252.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/WoodesRogersStatueNassau.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:WoodesRogersStatueNassau.jpg",
+          "image_found_via_query": "Bahamas sculpture statue"
         },
         {
           "id": "wc_0263",
@@ -49004,7 +49013,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0292.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbar_temple%2C_Dilmun_culture%2C_ca._3000-2000_BCE%3B_Bahrain_%2811%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Barbar_temple%2C_Dilmun_culture%2C_ca._3000-2000_BCE%3B_Bahrain_%2811%29.jpg",
+          "image_found_via_query": "Bahrain archaeology artifact ancient Dilmun"
         },
         {
           "id": "wc_0302",
