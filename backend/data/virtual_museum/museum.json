@@ -48359,7 +48359,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0167.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Etchmiadzin_Cathedral_cross_relief_with_Greek_inscriptions.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Etchmiadzin_Cathedral_cross_relief_with_Greek_inscriptions.png",
+          "image_found_via_query": "Armenia religious object Etchmiadzin cross"
         },
         {
           "id": "wc_0177",
@@ -48491,7 +48494,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0192.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aboriginal_Religious_Art_%286854184762%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aboriginal_Religious_Art_%286854184762%29.jpg",
+          "image_found_via_query": "Australia Aboriginal religious object sacred churinga"
         },
         {
           "id": "wc_0202",
@@ -48580,7 +48586,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0213.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Krampus_masks_of_Austria%2C_European_Union_09.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Krampus_masks_of_Austria%2C_European_Union_09.jpg",
+          "image_found_via_query": "Austria Perchten mask Krampus"
         },
         {
           "id": "wc_0217",
