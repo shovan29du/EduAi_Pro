@@ -161,6 +161,8 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0442", "The_Dankoli_Vodoun_temple_at_Savalou_in_Bénin_03.jpg", "Benin Vodun fetish religious object Ouidah"),
     ("world_sculpture_ritual", "wc_0463", "Dance_of_the_Lord_of_Death_(Paro,_Bhutan).jpg", "Bhutan mask Tsechu festival dance"),
     ("world_sculpture_ritual", "wc_0492", "Arte_Cusquenha_-_Virgem_de_Copacabana-1.jpg", "Bolivia religious object Virgin Copacabana"),
+    ("world_sculpture_ritual", "wc_0627", "Beeld,_Lobi,_Burkina_Faso,_Afrika_Museum,_Berg_en_Dal,_Nr._606-12.JPG", "Burkina Faso Lobi sculpture statue figure"),
+    ("world_sculpture_ritual", "wc_0702", "Königsthron_Bamum_EthnM_IIIC33341.jpg", "Cameroon Bamum sculpture throne statue"),
 ]
 
 

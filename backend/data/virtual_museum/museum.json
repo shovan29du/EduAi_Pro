@@ -50817,7 +50817,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0627.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Beeld%2C_Lobi%2C_Burkina_Faso%2C_Afrika_Museum%2C_Berg_en_Dal%2C_Nr._606-12.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Beeld%2C_Lobi%2C_Burkina_Faso%2C_Afrika_Museum%2C_Berg_en_Dal%2C_Nr._606-12.JPG",
+          "image_found_via_query": "Burkina Faso Lobi sculpture statue figure"
         },
         {
           "id": "wc_0638",
@@ -51213,7 +51216,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0702.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6nigsthron_Bamum_EthnM_IIIC33341.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsthron_Bamum_EthnM_IIIC33341.jpg",
+          "image_found_via_query": "Cameroon Bamum sculpture throne statue"
         },
         {
           "id": "wc_0713",
