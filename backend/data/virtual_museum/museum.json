@@ -49719,7 +49719,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0427.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_statues_of_Abomey_in_Quai_Branly_museum_May_2021.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Royal_statues_of_Abomey_in_Quai_Branly_museum_May_2021.jpg",
+          "image_found_via_query": "Benin Dahomey royal palace Abomey sculpture"
         },
         {
           "id": "wc_0438",
@@ -49848,7 +49851,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0452.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_Dordenma_Statue_and_around_%E2%80%93_Thimphu_during_LGFC_-_Bhutan_2019_%2881%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Buddha_Dordenma_Statue_and_around_%E2%80%93_Thimphu_during_LGFC_-_Bhutan_2019_%2881%29.jpg",
+          "image_found_via_query": "Bhutan sculpture statue Buddha"
         },
         {
           "id": "wc_0463",
@@ -49977,7 +49983,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0477.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bolivia_-_Gate_of_the_Sun_detail_-_Tiwanaku_or_Tiahuanaco_04.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bolivia_-_Gate_of_the_Sun_detail_-_Tiwanaku_or_Tiahuanaco_04.jpg",
+          "image_found_via_query": "Bolivia Tiwanaku sculpture statue"
         },
         {
           "id": "wc_0488",
@@ -50106,7 +50115,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0502.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bosniangraves_bosniska_gravar_februari_2007_stecak_stecci5.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bosniangraves_bosniska_gravar_februari_2007_stecak_stecci5.jpg",
+          "image_found_via_query": "Bosnia Herzegovina stecci medieval tombstone sculpture"
         },
         {
           "id": "wc_0513",
