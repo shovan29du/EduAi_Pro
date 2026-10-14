@@ -48675,7 +48675,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0227.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Petroglyph_of_a_aurochs_%28a_large_ox%29_from_that_era_%2837074580146%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Petroglyph_of_a_aurochs_%28a_large_ox%29_from_that_era_%2837074580146%29.jpg",
+          "image_found_via_query": "Azerbaijan ancient petroglyph Gobustan sculpture"
         },
         {
           "id": "wc_0238",
@@ -49424,7 +49427,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0367.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cross_of_Saint_Euphrosyne_transp.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cross_of_Saint_Euphrosyne_transp.png",
+          "image_found_via_query": "Belarus religious icon Cross of Saint Euphrosyne"
         },
         {
           "id": "wc_0377",

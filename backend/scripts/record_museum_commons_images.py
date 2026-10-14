@@ -154,6 +154,8 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0167", "Etchmiadzin_Cathedral_cross_relief_with_Greek_inscriptions.png", "Armenia religious object Etchmiadzin cross"),
     ("world_sculpture_ritual", "wc_0192", "Aboriginal_Religious_Art_(6854184762).jpg", "Australia Aboriginal religious object sacred churinga"),
     ("world_sculpture_ritual", "wc_0213", "Krampus_masks_of_Austria,_European_Union_09.jpg", "Austria Perchten mask Krampus"),
+    ("world_sculpture_ritual", "wc_0227", "Petroglyph_of_a_aurochs_(a_large_ox)_from_that_era_(37074580146).jpg", "Azerbaijan ancient petroglyph Gobustan sculpture"),
+    ("world_sculpture_ritual", "wc_0367", "Cross_of_Saint_Euphrosyne_transp.png", "Belarus religious icon Cross of Saint Euphrosyne"),
 ]
 
 
