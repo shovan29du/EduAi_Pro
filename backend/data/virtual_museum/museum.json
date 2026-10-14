@@ -45139,7 +45139,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0571.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Rodrigues_de_Carvalho_1967_Brazil_stamp.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Rodrigues_de_Carvalho_1967_Brazil_stamp.jpg",
+          "image_found_via_query": "Brazil postage stamp art"
         },
         {
           "id": "wc_0576",
@@ -45225,7 +45228,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0582.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Brunei_Town_in_1950.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Brunei_Town_in_1950.jpg",
+          "image_found_via_query": "Brunei historic photograph"
         },
         {
           "id": "wc_0596",
@@ -45311,7 +45317,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0601.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Orthodox_Bulgarian_icon_of_St._George_fighting_the_dragon.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Orthodox_Bulgarian_icon_of_St._George_fighting_the_dragon.jpg",
+          "image_found_via_query": "Bulgaria traditional painting icon"
         },
         {
           "id": "wc_0607",
@@ -45354,7 +45363,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0607.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sofia%2C_Bulgaria%2C_c_1881.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Photograph_of_Sofia%2C_Bulgaria%2C_c_1881.jpg",
+          "image_found_via_query": "Bulgaria historic photograph Sofia"
         },
         {
           "id": "wc_0621",
@@ -45397,7 +45409,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0621.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/The_First_Bulgarian_Stamps_May_1%2C_1879.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:The_First_Bulgarian_Stamps_May_1%2C_1879.JPG",
+          "image_found_via_query": "Bulgaria postage stamp art"
         },
         {
           "id": "wc_0626",

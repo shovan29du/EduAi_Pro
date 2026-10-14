@@ -77,6 +77,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0532", "Royal_Visit_to_Lobatse,_Bechuanaland,_now_Botswana_(1947).jpg", "Botswana historic photograph"),
     ("world_visual_arts", "wc_0546", "Botswana_stamp_type_A11aa.jpg", "Botswana postage stamp"),
     ("world_visual_arts", "wc_0551", "A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg", "Brazil traditional painting"),
+    ("world_visual_arts", "wc_0571", "José_Rodrigues_de_Carvalho_1967_Brazil_stamp.jpg", "Brazil postage stamp art"),
+    ("world_visual_arts", "wc_0582", "Brunei_Town_in_1950.jpg", "Brunei historic photograph"),
+    ("world_visual_arts", "wc_0601", "Orthodox_Bulgarian_icon_of_St._George_fighting_the_dragon.jpg", "Bulgaria traditional painting icon"),
+    ("world_visual_arts", "wc_0607", "Photograph_of_Sofia,_Bulgaria,_c_1881.jpg", "Bulgaria historic photograph Sofia"),
+    ("world_visual_arts", "wc_0621", "The_First_Bulgarian_Stamps_May_1,_1879.JPG", "Bulgaria postage stamp art"),
 ]
 
 
