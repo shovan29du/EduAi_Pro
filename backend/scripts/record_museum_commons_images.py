@@ -45,6 +45,19 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0171", "Martiros_Saryan_painting_2005_Armenian_stamp.jpg", "Armenia postage stamp art"),
     ("world_visual_arts", "wc_0176", "Australie_Aborigene_ancetre_totemique_kangourou.jpg", "Australia Aboriginal painting"),
     ("world_visual_arts", "wc_0196", "Australia_1974_4_Dollar_Stamp_Shearing_the_Rams,_by_Tom_Roberts_AU_566b.jpg", "Australia postage stamp art"),
+    ("world_visual_arts", "wc_0207", "1906-History-Austria-Classic-Hotel-Wien-Vienna.jpg", "Austria historic photograph Vienna"),
+    ("world_visual_arts", "wc_0221", "Austria_specimen_telegraph_stamps.JPG", "Austria postage stamp art painting"),
+    ("world_visual_arts", "wc_0232", "Members_of_the_Parliament_of_the_Azerbaijan_Democratic_Republic_(1920).jpg", "Azerbaijan historic photograph"),
+    ("world_visual_arts", "wc_0246", "The_Soviet_Union_1990_CPA_6249_stamp_(Azerbaijani_balaban,_nagara,_tar,_saz_and_zurna)_small_resolution.jpg", "Azerbaijan postage stamp art"),
+    ("world_visual_arts", "wc_0251", "Winslow_Homer_-_After_the_Hurricane,_Bahamas.jpg", "Bahamas painting"),
+    ("world_visual_arts", "wc_0257", "Grand_bahama.jpg", "Bahamas historic photograph"),
+    ("world_visual_arts", "wc_0282", "Manama_(40513813472).jpg", "Bahrain historic photograph Manama"),
+    ("world_visual_arts", "wc_0301", "Woman_painting_traditional_Bengali_art_,_Patachitra.jpg", "Bangladesh traditional painting"),
+    ("world_visual_arts", "wc_0307", "Archeological_picture_of_Ahsan_Manzil,_Dhaka,_Bangladesh.jpg", "Bangladesh historic photograph"),
+    ("world_visual_arts", "wc_0321", "Bangladesh_stamp_type_BB6.jpg", "Bangladesh postage stamp art"),
+    ("world_visual_arts", "wc_0326", "Isaac_Sailmaker_-_The_Island_of_Barbados_-_Google_Art_Project.jpg", "Barbados painting"),
+    ("world_visual_arts", "wc_0332", "Holetown_Monument_plaque,_Saint_James,_Barbados-1.jpg", "Barbados historic photograph"),
+    ("world_visual_arts", "wc_0346", "Barbados_Postcard.JPG", "Barbados postage stamp"),
 ]
 
 
