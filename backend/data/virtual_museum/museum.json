@@ -49059,7 +49059,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0302.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Kantajew_Temple-Terracotta.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Kantajew_Temple-Terracotta.jpg",
+          "image_found_via_query": "Bangladesh terracotta sculpture temple"
         },
         {
           "id": "wc_0313",
@@ -49145,7 +49148,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0317.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_Dhatu_Jadi_-_Bandarban_Golden_Temple.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Buddha_Dhatu_Jadi_-_Bandarban_Golden_Temple.jpg",
+          "image_found_via_query": "Bangladesh religious object Buddhist Hindu"
         },
         {
           "id": "wc_0327",
@@ -49188,7 +49194,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0327.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bussa_statue.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bussa_statue.png",
+          "image_found_via_query": "Barbados sculpture statue Emancipation"
         },
         {
           "id": "wc_0338",
@@ -49446,7 +49455,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0377.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruxelles_Manneken_Pis_cropped.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bruxelles_Manneken_Pis_cropped.jpg",
+          "image_found_via_query": "Belgium sculpture Manneken Pis Rodin"
         },
         {
           "id": "wc_0388",
@@ -49575,7 +49587,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0402.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Stone_Stela%2C_Caana%2C_Caracol%2C_Belize.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Stone_Stela%2C_Caana%2C_Caracol%2C_Belize.jpg",
+          "image_found_via_query": "Belize Maya sculpture stela"
         },
         {
           "id": "wc_0413",

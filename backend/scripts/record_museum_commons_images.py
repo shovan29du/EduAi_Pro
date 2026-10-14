@@ -120,6 +120,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0202", "Winged_Nike_bronze_statue_near_Kunsthistorisches_Museum_(Museum_of_Art_History)_Vienna._Austria,_Western_Europe.jpg", "Austria sculpture statue museum Vienna"),
     ("world_sculpture_ritual", "wc_0252", "WoodesRogersStatueNassau.jpg", "Bahamas sculpture statue"),
     ("world_sculpture_ritual", "wc_0292", "Barbar_temple,_Dilmun_culture,_ca._3000-2000_BCE;_Bahrain_(11).jpg", "Bahrain archaeology artifact ancient Dilmun"),
+    ("world_sculpture_ritual", "wc_0302", "Kantajew_Temple-Terracotta.jpg", "Bangladesh terracotta sculpture temple"),
+    ("world_sculpture_ritual", "wc_0317", "Buddha_Dhatu_Jadi_-_Bandarban_Golden_Temple.jpg", "Bangladesh religious object Buddhist Hindu"),
+    ("world_sculpture_ritual", "wc_0327", "Bussa_statue.png", "Barbados sculpture statue Emancipation"),
+    ("world_sculpture_ritual", "wc_0377", "Bruxelles_Manneken_Pis_cropped.jpg", "Belgium sculpture Manneken Pis Rodin"),
+    ("world_sculpture_ritual", "wc_0402", "Stone_Stela,_Caana,_Caracol,_Belize.jpg", "Belize Maya sculpture stela"),
 ]
 
 
