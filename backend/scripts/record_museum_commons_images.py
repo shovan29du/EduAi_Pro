@@ -69,6 +69,14 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0471", "Stamp_1968_Bhutan_mt_B002a.jpg", "Bhutan postage stamp"),
     ("world_visual_arts", "wc_0476", "The_House_at_Nazareth,_Late_18th_century._Artist_unknown,_Bolivian.jpg", "Bolivia traditional painting"),
     ("world_visual_arts", "wc_0482", "Church_in_Historic_Center_-_Sucre_-_Bolivia.jpg", "Bolivia historic photograph"),
+    ("world_visual_arts", "wc_0496", "Stamp_of_Bolivia_-_1925_-_Colnect_226997_-_National_flower_kantuta.jpeg", "Bolivia postage stamp art"),
+    ("world_visual_arts", "wc_0501", "Bosnia_&_Herzegovina_Pavilion_by_Alphonse_Mucha,_1900.jpg", "Bosnia and Herzegovina traditional painting"),
+    ("world_visual_arts", "wc_0507", "Sarajevo_krajem_XIX_vijeka.jpg", "Bosnia Herzegovina historic photograph Sarajevo"),
+    ("world_visual_arts", "wc_0521", "1903_Bosnie_35h_Telsic.jpg", "Bosnia Herzegovina postage stamp art"),
+    ("world_visual_arts", "wc_0526", "Giraffe_Rock_Art_Painting_Tsodilo.jpg", "Botswana painting"),
+    ("world_visual_arts", "wc_0532", "Royal_Visit_to_Lobatse,_Bechuanaland,_now_Botswana_(1947).jpg", "Botswana historic photograph"),
+    ("world_visual_arts", "wc_0546", "Botswana_stamp_type_A11aa.jpg", "Botswana postage stamp"),
+    ("world_visual_arts", "wc_0551", "A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg", "Brazil traditional painting"),
 ]
 
 
