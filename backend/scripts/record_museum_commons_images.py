@@ -138,6 +138,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0713", "Bamileke_Elephant_Mask.jpg", "Cameroon Bamileke mask sculpture"),
     ("world_sculpture_ritual", "wc_0727", "The_Spirit_of_Haida_Gwaii_(8347697539).jpg", "Canada Inuit sculpture carving Haida totem"),
     ("world_sculpture_ritual", "wc_0738", "Edenshaw's_Raven_Transformation_Mask.jpg", "Canada mask Haida Northwest Coast"),
+    ("world_sculpture_ritual", "wc_0827", "A_moai_lying_on_the_ground,_face_upwards;_on_the_moai_statue_road(?),_with_a_White_man_wearing_a_hat_and_a_moustache,_sitting_in_front_of_it,_for_scale;_Oc,G.T.1762,_Mana_Expedition_to_Easter_Island,_British_Museum.jpg", "Chile sculpture Moai Easter Island"),
+    ("world_sculpture_ritual", "wc_0852", "Xi'an_Terracotta_Army_coloured_statuettes.jpg", "China sculpture Terracotta Army Buddha"),
+    ("world_sculpture_ritual", "wc_0863", "Beijing_opera_mask.jpg", "China mask Nuo opera Beijing opera"),
+    ("world_sculpture_ritual", "wc_0877", "Statue_of_a_frog_in_Parque_Arqueológico_de_San_Agustín_03.jpg", "Colombia San Agustin sculpture statue"),
 ]
 
 

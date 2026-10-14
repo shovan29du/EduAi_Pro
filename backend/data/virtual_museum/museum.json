@@ -51822,7 +51822,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0827.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/A_moai_lying_on_the_ground%2C_face_upwards%3B_on_the_moai_statue_road%28%3F%29%2C_with_a_White_man_wearing_a_hat_and_a_moustache%2C_sitting_in_front_of_it%2C_for_scale%3B_Oc%2CG.T.1762%2C_Mana_Expedition_to_Easter_Island%2C_British_Museum.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:A_moai_lying_on_the_ground%2C_face_upwards%3B_on_the_moai_statue_road%28%3F%29%2C_with_a_White_man_wearing_a_hat_and_a_moustache%2C_sitting_in_front_of_it%2C_for_scale%3B_Oc%2CG.T.1762%2C_Mana_Expedition_to_Easter_Island%2C_British_Museum.jpg",
+          "image_found_via_query": "Chile sculpture Moai Easter Island"
         },
         {
           "id": "wc_0838",
@@ -51951,7 +51954,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0852.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi%27an_Terracotta_Army_coloured_statuettes.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Xi%27an_Terracotta_Army_coloured_statuettes.jpg",
+          "image_found_via_query": "China sculpture Terracotta Army Buddha"
         },
         {
           "id": "wc_0863",
@@ -51994,7 +52000,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0863.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing_opera_mask.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Beijing_opera_mask.jpg",
+          "image_found_via_query": "China mask Nuo opera Beijing opera"
         },
         {
           "id": "wc_0867",
@@ -52080,7 +52089,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0877.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_a_frog_in_Parque_Arqueol%C3%B3gico_de_San_Agust%C3%ADn_03.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_a_frog_in_Parque_Arqueol%C3%B3gico_de_San_Agust%C3%ADn_03.jpg",
+          "image_found_via_query": "Colombia San Agustin sculpture statue"
         },
         {
           "id": "wc_0888",
