@@ -47100,7 +47100,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0932.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo_Nacional_de_Costa_Rica%2C_San_Jose_2008.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Costa_Rica%2C_San_Jose_2008.jpg",
+          "image_found_via_query": "Costa Rica historic photograph San Jose"
         },
         {
           "id": "wc_0946",
@@ -47143,7 +47146,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0946.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/First_postal_stamp_CR_4_Reales_1863.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:First_postal_stamp_CR_4_Reales_1863.jpg",
+          "image_found_via_query": "Costa Rica postage stamp"
         },
         {
           "id": "wc_0951",
