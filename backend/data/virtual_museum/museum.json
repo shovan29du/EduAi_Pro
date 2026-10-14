@@ -45498,7 +45498,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0632.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/BF-Ouaga-Entr%C3%A9e_du_Palais_du_Mogho_Naaba_%28Roi%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:BF-Ouaga-Entr%C3%A9e_du_Palais_du_Mogho_Naaba_%28Roi%29.jpg",
+          "image_found_via_query": "Burkina Faso historic photograph"
         },
         {
           "id": "wc_0646",
@@ -45627,7 +45630,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0657.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_bujumbura.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:View_of_bujumbura.JPG",
+          "image_found_via_query": "Burundi historic photograph"
         },
         {
           "id": "wc_0671",
@@ -45670,7 +45676,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0671.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp_1968_BDI_Airmail_MiNr0442A_pm_B002.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Stamp_1968_BDI_Airmail_MiNr0442A_pm_B002.jpg",
+          "image_found_via_query": "Burundi postage stamp"
         },
         {
           "id": "wc_0676",
@@ -45756,7 +45765,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0682.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Nakhon_Thom%2C_Cambodia._Photograph_by_John_Thomson%2C_1866._Wellcome_L0056121.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Nakhon_Thom%2C_Cambodia._Photograph_by_John_Thomson%2C_1866._Wellcome_L0056121.jpg",
+          "image_found_via_query": "Cambodia historic photograph"
         },
         {
           "id": "wc_0696",

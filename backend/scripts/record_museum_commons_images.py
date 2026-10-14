@@ -82,6 +82,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0601", "Orthodox_Bulgarian_icon_of_St._George_fighting_the_dragon.jpg", "Bulgaria traditional painting icon"),
     ("world_visual_arts", "wc_0607", "Photograph_of_Sofia,_Bulgaria,_c_1881.jpg", "Bulgaria historic photograph Sofia"),
     ("world_visual_arts", "wc_0621", "The_First_Bulgarian_Stamps_May_1,_1879.JPG", "Bulgaria postage stamp art"),
+    ("world_visual_arts", "wc_0632", "BF-Ouaga-Entrée_du_Palais_du_Mogho_Naaba_(Roi).jpg", "Burkina Faso historic photograph"),
+    ("world_visual_arts", "wc_0657", "View_of_bujumbura.JPG", "Burundi historic photograph"),
+    ("world_visual_arts", "wc_0671", "Stamp_1968_BDI_Airmail_MiNr0442A_pm_B002.jpg", "Burundi postage stamp"),
+    ("world_visual_arts", "wc_0682", "Nakhon_Thom,_Cambodia._Photograph_by_John_Thomson,_1866._Wellcome_L0056121.jpg", "Cambodia historic photograph"),
 ]
 
 
