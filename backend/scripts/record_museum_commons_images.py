@@ -58,6 +58,17 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0326", "Isaac_Sailmaker_-_The_Island_of_Barbados_-_Google_Art_Project.jpg", "Barbados painting"),
     ("world_visual_arts", "wc_0332", "Holetown_Monument_plaque,_Saint_James,_Barbados-1.jpg", "Barbados historic photograph"),
     ("world_visual_arts", "wc_0346", "Barbados_Postcard.JPG", "Barbados postage stamp"),
+    ("world_visual_arts", "wc_0357", "Belarus-Hrodna-New_and_Old_Castles-1.jpg", "Belarus historic photograph"),
+    ("world_visual_arts", "wc_0371", "1998._Stamp_of_Belarus_0296.jpg", "Belarus postage stamp art"),
+    ("world_visual_arts", "wc_0382", "Belgische_Monarchen.jpg", "Belgium historic photograph"),
+    ("world_visual_arts", "wc_0396", "Timbre_Belgique_Leopold2_1905.jpg", "Belgium postage stamp art"),
+    ("world_visual_arts", "wc_0407", "BelmopanParliament75.jpg", "Belize historic photograph"),
+    ("world_visual_arts", "wc_0432", "Entrée_de_la_Grande_Mosquée_de_Porto-Novo_au_Bénin.jpg", "Cotonou Porto-Novo Benin historic photograph"),
+    ("world_visual_arts", "wc_0451", "Bhutanese_painted_thanka_of_the_Jataka_Tales,_18th-19th_Century,_Phajoding_Gonpa,_Thimphu,_Bhutan.jpg", "Bhutan thangka painting"),
+    ("world_visual_arts", "wc_0457", "Punakha_Dzong,_1637-38,_Bhutan_(3)_(29317483137).jpg", "Bhutan historic photograph"),
+    ("world_visual_arts", "wc_0471", "Stamp_1968_Bhutan_mt_B002a.jpg", "Bhutan postage stamp"),
+    ("world_visual_arts", "wc_0476", "The_House_at_Nazareth,_Late_18th_century._Artist_unknown,_Bolivian.jpg", "Bolivia traditional painting"),
+    ("world_visual_arts", "wc_0482", "Church_in_Historic_Center_-_Sucre_-_Bolivia.jpg", "Bolivia historic photograph"),
 ]
 
 
