@@ -13,9 +13,14 @@ def test_famous_masterpieces_gallery_exists():
 
 
 def test_famous_objects_include_well_known_real_works():
+    # Mona Lisa, David, and Rosetta Stone also exist in their specific
+    # category galleries (paintings, sculptures, ancient_world) and were
+    # deliberately de-duplicated out of this curated gallery, keeping a
+    # single canonical copy in the category gallery instead -- so this
+    # checks well-known works that are unique to famous_masterpieces.
     resp = client.get("/api/museum/famous_masterpieces")
     names = {o["name"] for o in resp.json()["objects"]}
-    for expected in ("Mona Lisa", "The Starry Night", "David", "Rosetta Stone", "The Great Pyramid of Giza"):
+    for expected in ("The Starry Night", "The Persistence of Memory", "American Gothic", "The Great Pyramid of Giza"):
         assert expected in names
 
 
@@ -52,6 +57,6 @@ def test_world_heritage_treasures_objects_have_wiki_title():
 
 
 def test_famous_object_detail_lookup():
-    resp = client.get("/api/museum/famous_masterpieces/fm_0001")
+    resp = client.get("/api/museum/famous_masterpieces/fm_0002")
     assert resp.status_code == 200
-    assert resp.json()["name"] == "Mona Lisa"
+    assert resp.json()["name"] == "The Starry Night"

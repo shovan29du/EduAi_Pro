@@ -601,28 +601,6 @@
           "thumbnail_local": "/museum-resource/thumbnails/roman_colosseum.svg"
         },
         {
-          "id": "dead_sea_scrolls",
-          "name": "Dead Sea Scrolls Fragment",
-          "year": "c. 150 BCE–70 CE",
-          "origin": "Qumran, Judean Desert",
-          "description": "Fragmentary parchment containing the oldest surviving manuscript of the Hebrew Bible, preserved in desert caves for 2,000 years.",
-          "material": "Parchment, papyrus",
-          "significance": "Revolutionised understanding of the Hebrew Bible and Second Temple Judaism.",
-          "gallery": "ancient_world",
-          "image_hint": "ancient parchment with Hebrew script",
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Dead+Sea+Scrolls+Fragment&ns6=1",
-            "video": "https://www.youtube.com/results?search_query=Dead+Sea+Scrolls+Fragment+museum+documentary",
-            "podcast": "https://www.youtube.com/results?search_query=Dead+Sea+Scrolls+Fragment+documentary+history+podcast",
-            "museum_channel": "https://www.youtube.com/@britishmuseum",
-            "explanation_video": "https://www.youtube.com/results?search_query=Dead+Sea+Scrolls+Fragment+museum+object+history+explained+documentary",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Dead+Sea+Scrolls+Fragment"
-          },
-          "wiki_title": "Dead Sea Scrolls",
-          "thumbnail_local": "/museum-resource/thumbnails/dead_sea_scrolls.svg"
-        },
-        {
           "id": "terracotta_army",
           "name": "Terracotta Warrior",
           "year": "c. 210 BCE",
@@ -1563,33 +1541,6 @@
           "thumbnail_local": "/museum-resource/thumbnails/antikythera.svg"
         },
         {
-          "id": "galileo_telescope",
-          "name": "Galileo's Telescopes",
-          "origin": "Italy",
-          "period": "1609–1610",
-          "museum": "Museo Galileo, Florence",
-          "category": "optics",
-          "description": "Two surviving telescopes used by Galileo Galilei to make his groundbreaking astronomical observations. With these instruments he discovered the four largest moons of Jupiter (now called Galilean moons), observed the phases of Venus, and observed sunspots.",
-          "significance": "Provided observational proof for the heliocentric model of the solar system, challenging Church doctrine and transforming science forever.",
-          "fun_fact": "Galileo's best telescope magnified 30×. Modern smartphones can be used to replicate his observations of Jupiter's moons.",
-          "related_subjects": [
-            "Science",
-            "World History"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Galileo%27s_Telescopes",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Galileo%27s+Telescopes&ns6=1",
-            "video": "https://www.youtube.com/results?search_query=Galileo%27s+Telescopes+museum+documentary",
-            "podcast": "https://www.youtube.com/results?search_query=Galileo%27s+Telescopes+documentary+history+podcast",
-            "museum_channel": "https://www.youtube.com/@smithsonian",
-            "explanation_video": "https://www.youtube.com/results?search_query=Galileo%27s+Telescopes+museum+object+history+explained+documentary",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Galileo%27s+Telescopes+Museo+Galileo%2C+Florence",
-            "virtual_tour": "https://artsandculture.google.com/search?q=Museo+Galileo%2C+Florence"
-          },
-          "wiki_title": "Galileo's Telescopes",
-          "thumbnail_local": "/museum-resource/thumbnails/galileo_telescope.svg"
-        },
-        {
           "id": "penicillin_flask",
           "name": "Fleming's Penicillin Flask",
           "origin": "United Kingdom",
@@ -1970,28 +1921,6 @@
           "thumbnail_local": "/museum-resource/thumbnails/babbage_difference_engine.svg"
         },
         {
-          "id": "crick_watson_dna",
-          "name": "Crick & Watson's DNA Model",
-          "year": "1953",
-          "origin": "Cambridge, UK",
-          "description": "Reconstruction of the tin and wire double-helix model James Watson and Francis Crick built to demonstrate DNA's structure, using X-ray data from Rosalind Franklin.",
-          "material": "Tin, wire",
-          "significance": "One of the greatest scientific discoveries; revolutionised biology, medicine, and forensics.",
-          "gallery": "science_technology",
-          "image_hint": "spiral wire double helix molecular model",
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Molecular_models_of_DNA",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Crick+%26+Watson%27s+DNA+Model&ns6=1",
-            "video": "https://www.youtube.com/results?search_query=Crick+%26+Watson%27s+DNA+Model+museum+documentary",
-            "podcast": "https://www.bbc.co.uk/programmes/b00773g1",
-            "museum_channel": "https://www.youtube.com/@smithsonian",
-            "explanation_video": "https://www.youtube.com/results?search_query=Crick+%26+Watson%27s+DNA+Model+museum+object+history+explained+documentary",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Crick+%26+Watson%27s+DNA+Model"
-          },
-          "wiki_title": "Molecular models of DNA",
-          "thumbnail_local": "/museum-resource/thumbnails/crick_watson_dna.svg"
-        },
-        {
           "id": "edison_phonograph",
           "name": "Edison's Phonograph",
           "year": "1877",
@@ -2210,28 +2139,6 @@
           },
           "wiki_title": "Compass",
           "thumbnail_local": "/museum-resource/thumbnails/compass_chinese.svg"
-        },
-        {
-          "id": "printing_press",
-          "name": "Gutenberg's Printing Press",
-          "year": "c. 1440",
-          "origin": "Mainz, Germany",
-          "description": "Reconstruction of Johannes Gutenberg's moveable type printing press — using oil-based ink on paper to mass-produce the 42-line Bible.",
-          "material": "Wood, metal type",
-          "significance": "Democratised knowledge; enabled the Reformation, Scientific Revolution, and rise of literacy.",
-          "gallery": "science_technology",
-          "image_hint": "wooden press with metal type and handle",
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Printing_press",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Gutenberg%27s+Printing+Press&ns6=1",
-            "video": "https://www.youtube.com/results?search_query=Gutenberg%27s+Printing+Press+museum+documentary",
-            "podcast": "https://www.youtube.com/results?search_query=Gutenberg%27s+Printing+Press+documentary+history+podcast",
-            "museum_channel": "https://www.youtube.com/@smithsonian",
-            "explanation_video": "https://www.youtube.com/results?search_query=Gutenberg%27s+Printing+Press+museum+object+history+explained+documentary",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Gutenberg%27s+Printing+Press"
-          },
-          "wiki_title": "Printing press",
-          "thumbnail_local": "/museum-resource/thumbnails/printing_press.svg"
         },
         {
           "id": "first_computer_chip",
@@ -85161,46 +85068,6 @@
       "description": "501 genuinely famous, individually named real artworks and artifacts -- paintings, sculpture, ancient artifacts, manuscripts, crown jewels, historic photographs, and monuments -- each linked to its real Wikipedia page so the museum can show an actual live photo of the work.",
       "objects": [
         {
-          "id": "fm_0001",
-          "name": "Mona Lisa",
-          "artist": "Leonardo da Vinci",
-          "year": "c. 1503-1519",
-          "origin": "Italy",
-          "material": "painting",
-          "category": "painting",
-          "description": "The world's most famous portrait, housed in the Louvre, celebrated for its enigmatic expression and sfumato technique.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "Mona Lisa is frequently featured in art history and world history curricula as a landmark example of painting from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Mona Lisa further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Mona Lisa' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Mona_Lisa",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Mona+Lisa",
-            "video": "https://www.youtube.com/results?search_query=Mona+Lisa+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Mona+Lisa",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Mona+Lisa+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Mona Lisa"
-        },
-        {
           "id": "fm_0002",
           "name": "The Starry Night",
           "artist": "Vincent van Gogh",
@@ -85239,86 +85106,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "The Starry Night"
-        },
-        {
-          "id": "fm_0003",
-          "name": "The Last Supper",
-          "artist": "Leonardo da Vinci",
-          "year": "1495-1498",
-          "origin": "Italy",
-          "material": "painting",
-          "category": "painting",
-          "description": "A mural depicting Jesus's final meal with his apostles, painted on a refectory wall in Milan.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "The Last Supper is frequently featured in art history and world history curricula as a landmark example of painting from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Last Supper further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Last Supper' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Supper_%28Leonardo%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Last+Supper",
-            "video": "https://www.youtube.com/results?search_query=The+Last+Supper+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Last+Supper",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Last+Supper+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Last Supper (Leonardo)"
-        },
-        {
-          "id": "fm_0004",
-          "name": "Girl with a Pearl Earring",
-          "artist": "Johannes Vermeer",
-          "year": "c. 1665",
-          "origin": "Netherlands",
-          "material": "painting",
-          "category": "painting",
-          "description": "Sometimes called the 'Mona Lisa of the North', a luminous tronie of a girl in a turban.",
-          "significance": "Widely recognized as one of the famous works representing Netherlands in world art and cultural history.",
-          "fun_fact": "Girl with a Pearl Earring is frequently featured in art history and world history curricula as a landmark example of painting from Netherlands.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Girl with a Pearl Earring further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Girl with a Pearl Earring' come from?",
-            "options": [
-              "Netherlands",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Girl+with+a+Pearl+Earring",
-            "video": "https://www.youtube.com/results?search_query=Girl+with+a+Pearl+Earring+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Girl+with+a+Pearl+Earring",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Girl+with+a+Pearl+Earring+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Girl with a Pearl Earring"
         },
         {
           "id": "fm_0005",
@@ -85361,126 +85148,6 @@
           "wiki_title": "The Night Watch"
         },
         {
-          "id": "fm_0006",
-          "name": "Las Meninas",
-          "artist": "Diego Velázquez",
-          "year": "1656",
-          "origin": "Spain",
-          "material": "painting",
-          "category": "painting",
-          "description": "A complex composition depicting the Spanish royal court, including a self-portrait of the artist.",
-          "significance": "Widely recognized as one of the famous works representing Spain in world art and cultural history.",
-          "fun_fact": "Las Meninas is frequently featured in art history and world history curricula as a landmark example of painting from Spain.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Las Meninas further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Las Meninas' come from?",
-            "options": [
-              "Spain",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Las_Meninas",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Las+Meninas",
-            "video": "https://www.youtube.com/results?search_query=Las+Meninas+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Las+Meninas",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Las+Meninas+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Las Meninas"
-        },
-        {
-          "id": "fm_0007",
-          "name": "The Birth of Venus",
-          "artist": "Sandro Botticelli",
-          "year": "c. 1485",
-          "origin": "Italy",
-          "material": "painting",
-          "category": "painting",
-          "description": "Venus emerging from the sea on a shell, one of the defining images of the Italian Renaissance.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "The Birth of Venus is frequently featured in art history and world history curricula as a landmark example of painting from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Birth of Venus further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Birth of Venus' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Birth+of+Venus",
-            "video": "https://www.youtube.com/results?search_query=The+Birth+of+Venus+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Birth+of+Venus",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Birth+of+Venus+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Birth of Venus"
-        },
-        {
-          "id": "fm_0008",
-          "name": "The School of Athens",
-          "artist": "Raphael",
-          "year": "1509-1511",
-          "origin": "Italy",
-          "material": "painting",
-          "category": "painting",
-          "description": "A fresco gathering the great philosophers of antiquity in one idealized architectural space.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "The School of Athens is frequently featured in art history and world history curricula as a landmark example of painting from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The School of Athens further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The School of Athens' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_School_of_Athens",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+School+of+Athens",
-            "video": "https://www.youtube.com/results?search_query=The+School+of+Athens+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+School+of+Athens",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+School+of+Athens+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The School of Athens"
-        },
-        {
           "id": "fm_0009",
           "name": "The Creation of Adam",
           "artist": "Michelangelo",
@@ -85519,46 +85186,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "The Creation of Adam"
-        },
-        {
-          "id": "fm_0010",
-          "name": "Guernica",
-          "artist": "Pablo Picasso",
-          "year": "1937",
-          "origin": "Spain",
-          "material": "painting",
-          "category": "painting",
-          "description": "A monumental anti-war painting responding to the bombing of the Basque town of Guernica.",
-          "significance": "Widely recognized as one of the famous works representing Spain in world art and cultural history.",
-          "fun_fact": "Guernica is frequently featured in art history and world history curricula as a landmark example of painting from Spain.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Guernica further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Guernica' come from?",
-            "options": [
-              "Spain",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Guernica_%28Picasso%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Guernica",
-            "video": "https://www.youtube.com/results?search_query=Guernica+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Guernica",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Guernica+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Guernica (Picasso)"
         },
         {
           "id": "fm_0011",
@@ -85601,46 +85228,6 @@
           "wiki_title": "The Persistence of Memory"
         },
         {
-          "id": "fm_0012",
-          "name": "The Scream",
-          "artist": "Edvard Munch",
-          "year": "1893",
-          "origin": "Norway",
-          "material": "painting",
-          "category": "painting",
-          "description": "An expressionist depiction of anxiety, one of the most recognizable images in art.",
-          "significance": "Widely recognized as one of the famous works representing Norway in world art and cultural history.",
-          "fun_fact": "The Scream is frequently featured in art history and world history curricula as a landmark example of painting from Norway.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Scream further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Scream' come from?",
-            "options": [
-              "Norway",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Scream",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Scream",
-            "video": "https://www.youtube.com/results?search_query=The+Scream+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Scream",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Scream+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Scream"
-        },
-        {
           "id": "fm_0013",
           "name": "American Gothic",
           "artist": "Grant Wood",
@@ -85681,86 +85268,6 @@
           "wiki_title": "American Gothic"
         },
         {
-          "id": "fm_0014",
-          "name": "Water Lilies",
-          "artist": "Claude Monet",
-          "year": "1897-1926",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "A series of roughly 250 paintings of Monet's flower garden at Giverny.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "Water Lilies is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Water Lilies further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Water Lilies' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Water_Lilies_%28Monet_series%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Water+Lilies",
-            "video": "https://www.youtube.com/results?search_query=Water+Lilies+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Water+Lilies",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Water+Lilies+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Water Lilies (Monet series)"
-        },
-        {
-          "id": "fm_0015",
-          "name": "Impression, Sunrise",
-          "artist": "Claude Monet",
-          "year": "1872",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "The painting that gave Impressionism its name, depicting the port of Le Havre at dawn.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "Impression, Sunrise is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Impression, Sunrise further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Impression, Sunrise' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Impression%2C_Sunrise",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Impression%2C+Sunrise",
-            "video": "https://www.youtube.com/results?search_query=Impression%2C+Sunrise+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Impression%2C+Sunrise",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Impression%2C+Sunrise+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Impression, Sunrise"
-        },
-        {
           "id": "fm_0016",
           "name": "A Sunday Afternoon on the Island of La Grande Jatte",
           "artist": "Georges Seurat",
@@ -85799,126 +85306,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "A Sunday Afternoon on the Island of La Grande Jatte"
-        },
-        {
-          "id": "fm_0017",
-          "name": "The Kiss",
-          "artist": "Gustav Klimt",
-          "year": "1907-1908",
-          "origin": "Austria",
-          "material": "painting",
-          "category": "painting",
-          "description": "A gold-leaf masterpiece of two embracing figures, an icon of Art Nouveau.",
-          "significance": "Widely recognized as one of the famous works representing Austria in world art and cultural history.",
-          "fun_fact": "The Kiss is frequently featured in art history and world history curricula as a landmark example of painting from Austria.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Kiss further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Kiss' come from?",
-            "options": [
-              "Austria",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Kiss_%28Klimt%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Kiss",
-            "video": "https://www.youtube.com/results?search_query=The+Kiss+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Kiss",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Kiss+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Kiss (Klimt)"
-        },
-        {
-          "id": "fm_0018",
-          "name": "Liberty Leading the People",
-          "artist": "Eugène Delacroix",
-          "year": "1830",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "A Romantic allegory of the July Revolution, with Liberty personified carrying the French flag.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "Liberty Leading the People is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Liberty Leading the People further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Liberty Leading the People' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Liberty+Leading+the+People",
-            "video": "https://www.youtube.com/results?search_query=Liberty+Leading+the+People+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Liberty+Leading+the+People",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Liberty+Leading+the+People+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Liberty Leading the People"
-        },
-        {
-          "id": "fm_0019",
-          "name": "The Great Wave off Kanagawa",
-          "artist": "Hokusai",
-          "year": "c. 1831",
-          "origin": "Japan",
-          "material": "painting",
-          "category": "painting",
-          "description": "The most famous work of Japanese ukiyo-e woodblock printing, part of Hokusai's '36 Views of Mount Fuji'.",
-          "significance": "Widely recognized as one of the famous works representing Japan in world art and cultural history.",
-          "fun_fact": "The Great Wave off Kanagawa is frequently featured in art history and world history curricula as a landmark example of painting from Japan.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Great Wave off Kanagawa further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Great Wave off Kanagawa' come from?",
-            "options": [
-              "Japan",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Great+Wave+off+Kanagawa",
-            "video": "https://www.youtube.com/results?search_query=The+Great+Wave+off+Kanagawa+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Great+Wave+off+Kanagawa",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Great+Wave+off+Kanagawa+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Great Wave off Kanagawa"
         },
         {
           "id": "fm_0020",
@@ -86161,46 +85548,6 @@
           "wiki_title": "Wanderer above the Sea of Fog"
         },
         {
-          "id": "fm_0026",
-          "name": "The Fighting Temeraire",
-          "artist": "J. M. W. Turner",
-          "year": "1839",
-          "origin": "United Kingdom",
-          "material": "painting",
-          "category": "painting",
-          "description": "A warship being towed to be scrapped, voted Britain's favourite painting in a 2005 poll.",
-          "significance": "Widely recognized as one of the famous works representing United Kingdom in world art and cultural history.",
-          "fun_fact": "The Fighting Temeraire is frequently featured in art history and world history curricula as a landmark example of painting from United Kingdom.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Fighting Temeraire further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Fighting Temeraire' come from?",
-            "options": [
-              "United Kingdom",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Fighting_Temeraire",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Fighting+Temeraire",
-            "video": "https://www.youtube.com/results?search_query=The+Fighting+Temeraire+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Fighting+Temeraire",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Fighting+Temeraire+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Fighting Temeraire"
-        },
-        {
           "id": "fm_0027",
           "name": "Ophelia",
           "artist": "John Everett Millais",
@@ -86239,46 +85586,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Ophelia (painting)"
-        },
-        {
-          "id": "fm_0028",
-          "name": "The Hay Wain",
-          "artist": "John Constable",
-          "year": "1821",
-          "origin": "United Kingdom",
-          "material": "painting",
-          "category": "painting",
-          "description": "An idyllic English rural landscape, among the most reproduced British paintings.",
-          "significance": "Widely recognized as one of the famous works representing United Kingdom in world art and cultural history.",
-          "fun_fact": "The Hay Wain is frequently featured in art history and world history curricula as a landmark example of painting from United Kingdom.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Hay Wain further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Hay Wain' come from?",
-            "options": [
-              "United Kingdom",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Hay_Wain",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Hay+Wain",
-            "video": "https://www.youtube.com/results?search_query=The+Hay+Wain+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Hay+Wain",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Hay+Wain+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Hay Wain"
         },
         {
           "id": "fm_0029",
@@ -86521,46 +85828,6 @@
           "wiki_title": "Sistine Madonna"
         },
         {
-          "id": "fm_0035",
-          "name": "Venus of Urbino",
-          "artist": "Titian",
-          "year": "1538",
-          "origin": "Italy",
-          "material": "painting",
-          "category": "painting",
-          "description": "A reclining nude that became a touchstone for later Western depictions of the female form.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "Venus of Urbino is frequently featured in art history and world history curricula as a landmark example of painting from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Venus of Urbino further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Venus of Urbino' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Venus_of_Urbino",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Venus+of+Urbino",
-            "video": "https://www.youtube.com/results?search_query=Venus+of+Urbino+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Venus+of+Urbino",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Venus+of+Urbino+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Venus of Urbino"
-        },
-        {
           "id": "fm_0036",
           "name": "Bacchus and Ariadne",
           "artist": "Titian",
@@ -86719,46 +85986,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Bacchus (Caravaggio)"
-        },
-        {
-          "id": "fm_0040",
-          "name": "The Ambassadors",
-          "artist": "Hans Holbein the Younger",
-          "year": "1533",
-          "origin": "Germany",
-          "material": "painting",
-          "category": "painting",
-          "description": "Famous for its anamorphic skull hidden in the foreground.",
-          "significance": "Widely recognized as one of the famous works representing Germany in world art and cultural history.",
-          "fun_fact": "The Ambassadors is frequently featured in art history and world history curricula as a landmark example of painting from Germany.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Ambassadors further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Ambassadors' come from?",
-            "options": [
-              "Germany",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Ambassadors_%28Holbein%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Ambassadors",
-            "video": "https://www.youtube.com/results?search_query=The+Ambassadors+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Ambassadors",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Ambassadors+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Ambassadors (Holbein)"
         },
         {
           "id": "fm_0041",
@@ -86959,86 +86186,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Le Déjeuner sur l'herbe"
-        },
-        {
-          "id": "fm_0046",
-          "name": "Olympia",
-          "artist": "Édouard Manet",
-          "year": "1863",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "A confrontational reclining nude that scandalized the Paris Salon.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "Olympia is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Olympia further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Olympia' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Olympia_%28Manet%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Olympia",
-            "video": "https://www.youtube.com/results?search_query=Olympia+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Olympia",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Olympia+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Olympia (Manet)"
-        },
-        {
-          "id": "fm_0047",
-          "name": "The Card Players",
-          "artist": "Paul Cézanne",
-          "year": "1890-1895",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "A series of paintings of Provençal peasants playing cards, foundational to Cubism's development.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "The Card Players is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Card Players further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Card Players' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Card_Players",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Card+Players",
-            "video": "https://www.youtube.com/results?search_query=The+Card+Players+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Card+Players",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Card+Players+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Card Players"
         },
         {
           "id": "fm_0048",
@@ -88079,86 +87226,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Man at the Crossroads"
-        },
-        {
-          "id": "fm_0074",
-          "name": "The Luncheon of the Boating Party",
-          "artist": "Pierre-Auguste Renoir",
-          "year": "1880-1881",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "A joyful Impressionist gathering of friends on a terrace overlooking the Seine.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "The Luncheon of the Boating Party is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Luncheon of the Boating Party further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Luncheon of the Boating Party' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Luncheon_of_the_Boating_Party",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Luncheon+of+the+Boating+Party",
-            "video": "https://www.youtube.com/results?search_query=The+Luncheon+of+the+Boating+Party+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Luncheon+of+the+Boating+Party",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Luncheon+of+the+Boating+Party+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Luncheon of the Boating Party"
-        },
-        {
-          "id": "fm_0075",
-          "name": "A Bar at the Folies-Bergère",
-          "artist": "Édouard Manet",
-          "year": "1882",
-          "origin": "France",
-          "material": "painting",
-          "category": "painting",
-          "description": "Manet's final major work, celebrated for its ambiguous mirror reflection.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "A Bar at the Folies-Bergère is frequently featured in art history and world history curricula as a landmark example of painting from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research A Bar at the Folies-Bergère further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'A Bar at the Folies-Bergère' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/A_Bar_at_the_Folies-Berg%C3%A8re",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=A+Bar+at+the+Folies-Berg%C3%A8re",
-            "video": "https://www.youtube.com/results?search_query=A+Bar+at+the+Folies-Berg%C3%A8re+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=A+Bar+at+the+Folies-Berg%C3%A8re",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=A+Bar+at+the+Folies-Berg%C3%A8re+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "A Bar at the Folies-Bergère"
         },
         {
           "id": "fm_0076",
@@ -89441,126 +88508,6 @@
           "wiki_title": "Wheat Field with Cypresses"
         },
         {
-          "id": "fm_0108",
-          "name": "David",
-          "artist": "Michelangelo",
-          "year": "1501-1504",
-          "origin": "Italy",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "A 17-foot marble masterpiece depicting the biblical hero, an icon of Renaissance sculpture.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "David is frequently featured in art history and world history curricula as a landmark example of sculpture from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research David further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'David' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/David_%28Michelangelo%29",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=David",
-            "video": "https://www.youtube.com/results?search_query=David+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=David",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=David+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "David (Michelangelo)"
-        },
-        {
-          "id": "fm_0109",
-          "name": "Venus de Milo",
-          "artist": "Alexandros of Antioch (attributed)",
-          "year": "c. 150-125 BCE",
-          "origin": "Greece",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "An armless marble Aphrodite discovered on the island of Milos, now in the Louvre.",
-          "significance": "Widely recognized as one of the famous works representing Greece in world art and cultural history.",
-          "fun_fact": "Venus de Milo is frequently featured in art history and world history curricula as a landmark example of sculpture from Greece.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Venus de Milo further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Venus de Milo' come from?",
-            "options": [
-              "Greece",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Venus_de_Milo",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Venus+de+Milo",
-            "video": "https://www.youtube.com/results?search_query=Venus+de+Milo+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Venus+de+Milo",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Venus+de+Milo+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Venus de Milo"
-        },
-        {
-          "id": "fm_0110",
-          "name": "The Thinker",
-          "artist": "Auguste Rodin",
-          "year": "1880-1904",
-          "origin": "France",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "A contemplative bronze figure, one of the most recognizable sculptures in the world.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "The Thinker is frequently featured in art history and world history curricula as a landmark example of sculpture from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research The Thinker further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'The Thinker' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/The_Thinker",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=The+Thinker",
-            "video": "https://www.youtube.com/results?search_query=The+Thinker+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=The+Thinker",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=The+Thinker+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "The Thinker"
-        },
-        {
           "id": "fm_0111",
           "name": "The Kiss (Rodin)",
           "artist": "Auguste Rodin",
@@ -89679,46 +88626,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Discobolus"
-        },
-        {
-          "id": "fm_0114",
-          "name": "Winged Victory of Samothrace",
-          "artist": "Unknown",
-          "year": "c. 200-190 BCE",
-          "origin": "Greece",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "A dramatic Hellenistic sculpture of the goddess Nike, displayed atop the Louvre's grand staircase.",
-          "significance": "Widely recognized as one of the famous works representing Greece in world art and cultural history.",
-          "fun_fact": "Winged Victory of Samothrace is frequently featured in art history and world history curricula as a landmark example of sculpture from Greece.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Winged Victory of Samothrace further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Winged Victory of Samothrace' come from?",
-            "options": [
-              "Greece",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Winged+Victory+of+Samothrace",
-            "video": "https://www.youtube.com/results?search_query=Winged+Victory+of+Samothrace+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Winged+Victory+of+Samothrace",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Winged+Victory+of+Samothrace+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Winged Victory of Samothrace"
         },
         {
           "id": "fm_0115",
@@ -89959,46 +88866,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Terracotta Army"
-        },
-        {
-          "id": "fm_0121",
-          "name": "Bust of Nefertiti",
-          "artist": "Thutmose (sculptor)",
-          "year": "c. 1345 BCE",
-          "origin": "Egypt",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "One of the most famous surviving portraits of the ancient world, depicting the Egyptian queen.",
-          "significance": "Widely recognized as one of the famous works representing Egypt in world art and cultural history.",
-          "fun_fact": "Bust of Nefertiti is frequently featured in art history and world history curricula as a landmark example of sculpture from Egypt.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Bust of Nefertiti further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Bust of Nefertiti' come from?",
-            "options": [
-              "Egypt",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Nefertiti_Bust",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Bust+of+Nefertiti",
-            "video": "https://www.youtube.com/results?search_query=Bust+of+Nefertiti+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Bust+of+Nefertiti",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Bust+of+Nefertiti+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Nefertiti Bust"
         },
         {
           "id": "fm_0122",
@@ -90319,46 +89186,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Apollo and Daphne"
-        },
-        {
-          "id": "fm_0130",
-          "name": "Ecstasy of Saint Teresa",
-          "artist": "Gian Lorenzo Bernini",
-          "year": "1647-1652",
-          "origin": "Italy",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "A dramatic Baroque sculpture depicting a mystical vision described by Saint Teresa of Ávila.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art and cultural history.",
-          "fun_fact": "Ecstasy of Saint Teresa is frequently featured in art history and world history curricula as a landmark example of sculpture from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Ecstasy of Saint Teresa further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Ecstasy of Saint Teresa' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Ecstasy_of_Saint_Teresa",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Ecstasy+of+Saint+Teresa",
-            "video": "https://www.youtube.com/results?search_query=Ecstasy+of+Saint+Teresa+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Ecstasy+of+Saint+Teresa",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Ecstasy+of+Saint+Teresa+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Ecstasy of Saint Teresa"
         },
         {
           "id": "fm_0131",
@@ -91841,46 +90668,6 @@
           "wiki_title": "The Slaves (Michelangelo)"
         },
         {
-          "id": "fm_0168",
-          "name": "Rosetta Stone",
-          "artist": "Ancient Egyptians",
-          "year": "196 BCE",
-          "origin": "Egypt",
-          "material": "archaeology",
-          "category": "archaeology",
-          "description": "A granodiorite stele whose trilingual inscription unlocked the decipherment of Egyptian hieroglyphs.",
-          "significance": "Widely recognized as one of the famous works representing Egypt in world art and cultural history.",
-          "fun_fact": "Rosetta Stone is frequently featured in art history and world history curricula as a landmark example of archaeology from Egypt.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Rosetta Stone further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Rosetta Stone' come from?",
-            "options": [
-              "Egypt",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Rosetta_Stone",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Rosetta+Stone",
-            "video": "https://www.youtube.com/results?search_query=Rosetta+Stone+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Rosetta+Stone",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Rosetta+Stone+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Rosetta Stone"
-        },
-        {
           "id": "fm_0169",
           "name": "Tutankhamun's Death Mask",
           "artist": "Ancient Egyptians",
@@ -92439,46 +91226,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Elgin Marbles"
-        },
-        {
-          "id": "fm_0183",
-          "name": "Antikythera Mechanism",
-          "artist": "Ancient Greeks",
-          "year": "c. 150-100 BCE",
-          "origin": "Greece",
-          "material": "archaeology",
-          "category": "archaeology",
-          "description": "An astonishingly advanced ancient analog computer used to predict astronomical positions.",
-          "significance": "Widely recognized as one of the famous works representing Greece in world art and cultural history.",
-          "fun_fact": "Antikythera Mechanism is frequently featured in art history and world history curricula as a landmark example of archaeology from Greece.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Antikythera Mechanism further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Antikythera Mechanism' come from?",
-            "options": [
-              "Greece",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Antikythera+Mechanism",
-            "video": "https://www.youtube.com/results?search_query=Antikythera+Mechanism+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Antikythera+Mechanism",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Antikythera+Mechanism+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Antikythera mechanism"
         },
         {
           "id": "fm_0184",
@@ -94441,46 +93188,6 @@
           "wiki_title": "Sanchi Stupa"
         },
         {
-          "id": "fm_0233",
-          "name": "Ajanta Cave Paintings",
-          "artist": "Buddhist monks and artisans",
-          "year": "2nd century BCE-6th century CE",
-          "origin": "India",
-          "material": "archaeology",
-          "category": "archaeology",
-          "description": "Rock-cut Buddhist cave temples famous for their vivid murals.",
-          "significance": "Widely recognized as one of the famous works representing India in world art and cultural history.",
-          "fun_fact": "Ajanta Cave Paintings is frequently featured in art history and world history curricula as a landmark example of archaeology from India.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Ajanta Cave Paintings further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Ajanta Cave Paintings' come from?",
-            "options": [
-              "India",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Ajanta_Caves",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Ajanta+Cave+Paintings",
-            "video": "https://www.youtube.com/results?search_query=Ajanta+Cave+Paintings+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Ajanta+Cave+Paintings",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Ajanta+Cave+Paintings+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Ajanta Caves"
-        },
-        {
           "id": "fm_0234",
           "name": "Ellora Kailasa Temple",
           "artist": "Rashtrakuta dynasty craftsmen",
@@ -94599,46 +93306,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Nataraja"
-        },
-        {
-          "id": "fm_0237",
-          "name": "Taj Mahal",
-          "artist": "Ustad Ahmad Lahauri (chief architect)",
-          "year": "1632-1653",
-          "origin": "India",
-          "material": "archaeology",
-          "category": "archaeology",
-          "description": "An ivory-white marble mausoleum, one of the most celebrated buildings in the world.",
-          "significance": "Widely recognized as one of the famous works representing India in world art and cultural history.",
-          "fun_fact": "Taj Mahal is frequently featured in art history and world history curricula as a landmark example of archaeology from India.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Taj Mahal further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Taj Mahal' come from?",
-            "options": [
-              "India",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Taj_Mahal",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Taj+Mahal",
-            "video": "https://www.youtube.com/results?search_query=Taj+Mahal+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Taj+Mahal",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Taj+Mahal+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Taj Mahal"
         },
         {
           "id": "fm_0238",
@@ -95761,46 +94428,6 @@
           "wiki_title": "Nkisi"
         },
         {
-          "id": "fm_0266",
-          "name": "Aztec Sun Stone",
-          "artist": "Aztec (Mexica) craftsmen",
-          "year": "c. 1502-1521",
-          "origin": "Mexico",
-          "material": "archaeology",
-          "category": "archaeology",
-          "description": "A massive basalt disc long thought to be a calendar, now understood as a ceremonial monument.",
-          "significance": "Widely recognized as one of the famous works representing Mexico in world art and cultural history.",
-          "fun_fact": "Aztec Sun Stone is frequently featured in art history and world history curricula as a landmark example of archaeology from Mexico.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Aztec Sun Stone further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Aztec Sun Stone' come from?",
-            "options": [
-              "Mexico",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Aztec_sun_stone",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Aztec+Sun+Stone",
-            "video": "https://www.youtube.com/results?search_query=Aztec+Sun+Stone+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Aztec+Sun+Stone",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Aztec+Sun+Stone+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Aztec sun stone"
-        },
-        {
           "id": "fm_0267",
           "name": "Machu Picchu",
           "artist": "Inca Empire builders",
@@ -96439,126 +95066,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Gutenberg Bible"
-        },
-        {
-          "id": "fm_0283",
-          "name": "Book of Kells",
-          "artist": "Celtic monks",
-          "year": "c. 800 CE",
-          "origin": "Ireland/Scotland",
-          "material": "manuscript",
-          "category": "manuscript",
-          "description": "An illuminated manuscript of the four Gospels, celebrated for its intricate decoration.",
-          "significance": "Widely recognized as one of the famous works representing Ireland/Scotland in world art and cultural history.",
-          "fun_fact": "Book of Kells is frequently featured in art history and world history curricula as a landmark example of manuscript from Ireland/Scotland.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Book of Kells further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Book of Kells' come from?",
-            "options": [
-              "Ireland/Scotland",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Book_of_Kells",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Book+of+Kells",
-            "video": "https://www.youtube.com/results?search_query=Book+of+Kells+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Book+of+Kells",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Book+of+Kells+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Book of Kells"
-        },
-        {
-          "id": "fm_0284",
-          "name": "Magna Carta",
-          "artist": "King John and English barons",
-          "year": "1215",
-          "origin": "England",
-          "material": "manuscript",
-          "category": "manuscript",
-          "description": "A foundational charter limiting royal power, influential on constitutional law worldwide.",
-          "significance": "Widely recognized as one of the famous works representing England in world art and cultural history.",
-          "fun_fact": "Magna Carta is frequently featured in art history and world history curricula as a landmark example of manuscript from England.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Magna Carta further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Magna Carta' come from?",
-            "options": [
-              "England",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Magna_Carta",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Magna+Carta",
-            "video": "https://www.youtube.com/results?search_query=Magna+Carta+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Magna+Carta",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Magna+Carta+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Magna Carta"
-        },
-        {
-          "id": "fm_0285",
-          "name": "Domesday Book",
-          "artist": "Commissioned by William the Conqueror",
-          "year": "1086",
-          "origin": "England",
-          "material": "manuscript",
-          "category": "manuscript",
-          "description": "A comprehensive survey of land and property in Norman England.",
-          "significance": "Widely recognized as one of the famous works representing England in world art and cultural history.",
-          "fun_fact": "Domesday Book is frequently featured in art history and world history curricula as a landmark example of manuscript from England.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Domesday Book further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Domesday Book' come from?",
-            "options": [
-              "England",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Domesday_Book",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Domesday+Book",
-            "video": "https://www.youtube.com/results?search_query=Domesday+Book+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Domesday+Book",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Domesday+Book+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Domesday Book"
         },
         {
           "id": "fm_0286",
@@ -97961,86 +96468,6 @@
           "wiki_title": "Buzz Aldrin"
         },
         {
-          "id": "fm_0321",
-          "name": "Eiffel Tower",
-          "artist": "Gustave Eiffel",
-          "year": "1889",
-          "origin": "France",
-          "material": "architecture",
-          "category": "architecture",
-          "description": "An iron lattice tower built for the 1889 World's Fair, now the symbol of Paris.",
-          "significance": "Widely recognized as one of the famous works representing France in world art and cultural history.",
-          "fun_fact": "Eiffel Tower is frequently featured in art history and world history curricula as a landmark example of architecture from France.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Eiffel Tower further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Eiffel Tower' come from?",
-            "options": [
-              "France",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Eiffel_Tower",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Eiffel+Tower",
-            "video": "https://www.youtube.com/results?search_query=Eiffel+Tower+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Eiffel+Tower",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Eiffel+Tower+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Eiffel Tower"
-        },
-        {
-          "id": "fm_0322",
-          "name": "Stonehenge",
-          "artist": "Neolithic Britons",
-          "year": "c. 3000-2000 BCE",
-          "origin": "United Kingdom",
-          "material": "architecture",
-          "category": "architecture",
-          "description": "A prehistoric stone circle monument whose exact purpose remains debated.",
-          "significance": "Widely recognized as one of the famous works representing United Kingdom in world art and cultural history.",
-          "fun_fact": "Stonehenge is frequently featured in art history and world history curricula as a landmark example of architecture from United Kingdom.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Stonehenge further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Stonehenge' come from?",
-            "options": [
-              "United Kingdom",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Stonehenge",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Stonehenge",
-            "video": "https://www.youtube.com/results?search_query=Stonehenge+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Stonehenge",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Stonehenge+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Stonehenge"
-        },
-        {
           "id": "fm_0323",
           "name": "Colosseum",
           "artist": "Ancient Romans (Vespasian/Titus)",
@@ -98279,46 +96706,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Al-Khazneh"
-        },
-        {
-          "id": "fm_0329",
-          "name": "Hagia Sophia",
-          "artist": "Isidore of Miletus and Anthemius of Tralles",
-          "year": "537 CE",
-          "origin": "Turkey",
-          "material": "architecture",
-          "category": "architecture",
-          "description": "A former cathedral and mosque, an architectural marvel that has influenced building for 1,500 years.",
-          "significance": "Widely recognized as one of the famous works representing Turkey in world art and cultural history.",
-          "fun_fact": "Hagia Sophia is frequently featured in art history and world history curricula as a landmark example of architecture from Turkey.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Hagia Sophia further: who made it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Hagia Sophia' come from?",
-            "options": [
-              "Turkey",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Hagia_Sophia",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Hagia+Sophia",
-            "video": "https://www.youtube.com/results?search_query=Hagia+Sophia+art+history+explained",
-            "smarthistory": "https://smarthistory.org/?s=Hagia+Sophia",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Hagia+Sophia+See+Wikipedia+for+current+location",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Hagia Sophia"
         },
         {
           "id": "fm_0330",
@@ -117848,46 +116235,6 @@
           "wiki_title": "Foucault pendulum"
         },
         {
-          "id": "wht_0317",
-          "name": "Galileo's telescope",
-          "artist": "Galileo Galilei",
-          "year": "1609",
-          "origin": "Italy",
-          "material": "science_technology",
-          "category": "science_technology",
-          "description": "An early refracting telescope built and used by Galileo Galilei to make groundbreaking astronomical observations.",
-          "significance": "Widely recognized as one of the famous works representing Italy in world art, science, or cultural history.",
-          "fun_fact": "Galileo's telescope is frequently featured in museum collections and history curricula as a landmark example from Italy.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, natural history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Galileo's telescope further: who made or discovered it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Galileo's telescope' come from?",
-            "options": [
-              "Italy",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Galileo%27s_telescope",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Galileo%27s+telescope",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Galileo%27s+telescope+Italy",
-            "video": "https://www.youtube.com/results?search_query=Galileo%27s+telescope+explained+documentary",
-            "smarthistory": "https://smarthistory.org/?s=Galileo%27s+telescope",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Galileo's telescope"
-        },
-        {
           "id": "wht_0318",
           "name": "Leviathan of Parsonstown",
           "artist": "William Parsons, 3rd Earl of Rosse",
@@ -121926,46 +120273,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "Monte Albán"
-        },
-        {
-          "id": "wht_0419",
-          "name": "Moche Portrait Vessels",
-          "artist": "Moche civilization",
-          "year": "c. 100-700 CE",
-          "origin": "Peru",
-          "material": "sculpture",
-          "category": "sculpture",
-          "description": "Strikingly individualized ceramic portrait vessels depicting real Moche individuals.",
-          "significance": "Widely recognized as one of the famous works representing Peru in world art, science, or cultural history.",
-          "fun_fact": "Moche Portrait Vessels is frequently featured in museum collections and history curricula as a landmark example from Peru.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, natural history, and cultural studies at every level.",
-          "related_lesson": "Art History",
-          "activity": "Research Moche Portrait Vessels further: who made or discovered it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Moche Portrait Vessels' come from?",
-            "options": [
-              "Peru",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Moche_portraiture",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Moche+Portrait+Vessels",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Moche+Portrait+Vessels+Peru",
-            "video": "https://www.youtube.com/results?search_query=Moche+Portrait+Vessels+explained+documentary",
-            "smarthistory": "https://smarthistory.org/?s=Moche+Portrait+Vessels",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Moche portraiture"
         },
         {
           "id": "wht_0420",
@@ -138528,46 +136835,6 @@
           "wiki_title": "Marimba"
         },
         {
-          "id": "wht_0834",
-          "name": "Napalm Girl",
-          "artist": "Nick Ut",
-          "year": "1972",
-          "origin": "Vietnam",
-          "material": "photograph",
-          "category": "photograph",
-          "description": "Depicts children fleeing a napalm attack during the Vietnam War and became one of the defining images of the conflict.",
-          "significance": "Widely recognized as one of the famous works representing Vietnam in world art, science, or cultural history.",
-          "fun_fact": "Napalm Girl is frequently featured in museum collections and history curricula as a landmark example from Vietnam.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, natural history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Napalm Girl further: who made or discovered it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Napalm Girl' come from?",
-            "options": [
-              "Vietnam",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Napalm_Girl",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Napalm+Girl",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Napalm+Girl+Vietnam",
-            "video": "https://www.youtube.com/results?search_query=Napalm+Girl+explained+documentary",
-            "smarthistory": "https://smarthistory.org/?s=Napalm+Girl",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Napalm Girl"
-        },
-        {
           "id": "wht_0835",
           "name": "The Falling Man",
           "artist": "Richard Drew",
@@ -141408,46 +139675,6 @@
           "wiki_title": "Lydian Lion"
         },
         {
-          "id": "wht_0906",
-          "name": "Athenian Owl Tetradrachm",
-          "artist": "Unknown (Athens mint)",
-          "year": "c. 5th century BCE",
-          "origin": "Greece",
-          "material": "coin",
-          "category": "coin",
-          "description": "A silver coin bearing the owl of Athena that became the dominant trade currency of the ancient Mediterranean.",
-          "significance": "Widely recognized as one of the famous works representing Greece in world art, science, or cultural history.",
-          "fun_fact": "Athenian Owl Tetradrachm is frequently featured in museum collections and history curricula as a landmark example from Greece.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, natural history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research Athenian Owl Tetradrachm further: who made or discovered it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does 'Athenian Owl Tetradrachm' come from?",
-            "options": [
-              "Greece",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/Athenian_tetradrachm",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=Athenian+Owl+Tetradrachm",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=Athenian+Owl+Tetradrachm+Greece",
-            "video": "https://www.youtube.com/results?search_query=Athenian+Owl+Tetradrachm+explained+documentary",
-            "smarthistory": "https://smarthistory.org/?s=Athenian+Owl+Tetradrachm",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "Athenian tetradrachm"
-        },
-        {
           "id": "wht_0907",
           "name": "Aureus of Julius Caesar",
           "artist": "Roman mint",
@@ -141646,46 +139873,6 @@
             "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
           },
           "wiki_title": "1804 dollar"
-        },
-        {
-          "id": "wht_0912",
-          "name": "1933 Double Eagle",
-          "artist": "United States Mint",
-          "year": "1933",
-          "origin": "United States",
-          "material": "coin",
-          "category": "coin",
-          "description": "A gold coin never officially released for circulation that became the most valuable coin ever sold at auction.",
-          "significance": "Widely recognized as one of the famous works representing United States in world art, science, or cultural history.",
-          "fun_fact": "1933 Double Eagle is frequently featured in museum collections and history curricula as a landmark example from United States.",
-          "museum": "See Wikipedia for current location",
-          "educational_importance": "A genuinely famous, real work -- useful for art history, world history, natural history, and cultural studies at every level.",
-          "related_lesson": "World History",
-          "activity": "Research 1933 Double Eagle further: who made or discovered it, where it is today, and why it became famous.",
-          "quiz": {
-            "question": "Which culture or region does '1933 Double Eagle' come from?",
-            "options": [
-              "United States",
-              "Antarctica",
-              "International Waters",
-              "Unknown"
-            ],
-            "answer": 0
-          },
-          "related_subjects": [
-            "Art History",
-            "World History",
-            "Geography"
-          ],
-          "links": {
-            "wikipedia": "https://en.wikipedia.org/wiki/1933_Double_Eagle",
-            "image_search": "https://commons.wikimedia.org/w/index.php?search=1933+Double+Eagle",
-            "google_image_search": "https://www.google.com/search?tbm=isch&q=1933+Double+Eagle+United+States",
-            "video": "https://www.youtube.com/results?search_query=1933+Double+Eagle+explained+documentary",
-            "smarthistory": "https://smarthistory.org/?s=1933+Double+Eagle",
-            "virtual_tour": "https://artsandculture.google.com/search?q=See+Wikipedia+for+current+location"
-          },
-          "wiki_title": "1933 Double Eagle"
         },
         {
           "id": "wht_0913",
