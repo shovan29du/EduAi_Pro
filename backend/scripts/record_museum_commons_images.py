@@ -156,6 +156,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0213", "Krampus_masks_of_Austria,_European_Union_09.jpg", "Austria Perchten mask Krampus"),
     ("world_sculpture_ritual", "wc_0227", "Petroglyph_of_a_aurochs_(a_large_ox)_from_that_era_(37074580146).jpg", "Azerbaijan ancient petroglyph Gobustan sculpture"),
     ("world_sculpture_ritual", "wc_0367", "Cross_of_Saint_Euphrosyne_transp.png", "Belarus religious icon Cross of Saint Euphrosyne"),
+    ("world_sculpture_ritual", "wc_0392", "Side_Altar_with_Relic_-_Basilica_Holy_Blood_-_Bruges.jpg", "Belgium relic reliquary Holy Blood Bruges"),
+    ("world_sculpture_ritual", "wc_0417", "Altun_Ha_Belize.jpg", "Belize religious object Maya temple"),
+    ("world_sculpture_ritual", "wc_0442", "The_Dankoli_Vodoun_temple_at_Savalou_in_Bénin_03.jpg", "Benin Vodun fetish religious object Ouidah"),
+    ("world_sculpture_ritual", "wc_0463", "Dance_of_the_Lord_of_Death_(Paro,_Bhutan).jpg", "Bhutan mask Tsechu festival dance"),
+    ("world_sculpture_ritual", "wc_0492", "Arte_Cusquenha_-_Virgem_de_Copacabana-1.jpg", "Bolivia religious object Virgin Copacabana"),
 ]
 
 

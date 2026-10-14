@@ -49565,7 +49565,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0392.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Side_Altar_with_Relic_-_Basilica_Holy_Blood_-_Bruges.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Side_Altar_with_Relic_-_Basilica_Holy_Blood_-_Bruges.jpg",
+          "image_found_via_query": "Belgium relic reliquary Holy Blood Bruges"
         },
         {
           "id": "wc_0402",
@@ -49697,7 +49700,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0417.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Altun_Ha_Belize.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Altun_Ha_Belize.jpg",
+          "image_found_via_query": "Belize religious object Maya temple"
         },
         {
           "id": "wc_0427",
@@ -49832,7 +49838,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0442.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Dankoli_Vodoun_temple_at_Savalou_in_B%C3%A9nin_03.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Dankoli_Vodoun_temple_at_Savalou_in_B%C3%A9nin_03.jpg",
+          "image_found_via_query": "Benin Vodun fetish religious object Ouidah"
         },
         {
           "id": "wc_0452",
@@ -49921,7 +49930,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0463.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Dance_of_the_Lord_of_Death_%28Paro%2C_Bhutan%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Dance_of_the_Lord_of_Death_%28Paro%2C_Bhutan%29.jpg",
+          "image_found_via_query": "Bhutan mask Tsechu festival dance"
         },
         {
           "id": "wc_0467",
@@ -50099,7 +50111,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0492.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Arte_Cusquenha_-_Virgem_de_Copacabana-1.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Arte_Cusquenha_-_Virgem_de_Copacabana-1.jpg",
+          "image_found_via_query": "Bolivia religious object Virgin Copacabana"
         },
         {
           "id": "wc_0502",
