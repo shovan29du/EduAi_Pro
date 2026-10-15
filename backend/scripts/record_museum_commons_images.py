@@ -269,6 +269,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0479", "Bed965fdf8aa813b97735ea21a0e3cfc(1).jpg", "Bolivia ceramic pottery traditional Tiwanaku Fuente Magna"),
     ("world_decorative_arts", "wc_0715", "2057_0829g_Top_Ceremonial_palm_wine_pot,_Bamileke,_Cameroon_Grasslands_(6740290881).jpg", "Cameroon vessel pottery traditional palm wine pot"),
     ("world_decorative_arts", "wc_0740", "Birchbark_box_with_porcupine_quillwork,_Canada,_19th_century,_at_the_National_Museum_of_Scotland.JPG", "Canada vessel birch bark basket traditional"),
+    ("world_textiles_dress", "wc_0003", "Traditional_Afghan_Embroidery_Style.jpg", "Afghanistan textile embroidery traditional"),
+    ("world_textiles_dress", "wc_0020", "Afghan_couple_wearing_traditional_clothes_(cropped).jpg", "Afghanistan traditional clothing costume"),
+    ("world_textiles_dress", "wc_0028", "Detail_of_Traditional_Embroidered_Garment_-_Museum_in_Gjirokastra_Castle_-_Gjirokastra_-_Albania_(28515166108).jpg", "Albania textile embroidery traditional"),
+    ("world_textiles_dress", "wc_0045", "Man_and_woman_of_the_northern_Albanian_highlands_in_typical_folk_costume_(Carleton_Coon,_1929).jpg", "Albania traditional clothing costume"),
+    ("world_textiles_dress", "wc_0053", "Algerian_Jebel_Amour_rug,_19th_century_or_earlier_(detail).png", "Algeria textile weaving carpet traditional"),
+    ("world_textiles_dress", "wc_0070", "لباس_تقليدي_شاوي_،_clouths_traditional_algerien_chaoui.jpg", "Algeria traditional clothing costume Chaoui"),
 ]
 
 

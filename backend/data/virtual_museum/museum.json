@@ -63459,7 +63459,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0003.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Afghan_Embroidery_Style.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Afghan_Embroidery_Style.jpg",
+          "image_found_via_query": "Afghanistan textile embroidery traditional"
         },
         {
           "id": "wc_0020",
@@ -63502,7 +63505,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0020.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghan_couple_wearing_traditional_clothes_%28cropped%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Afghan_couple_wearing_traditional_clothes_%28cropped%29.jpg",
+          "image_found_via_query": "Afghanistan traditional clothing costume"
         },
         {
           "id": "wc_0028",
@@ -63545,7 +63551,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0028.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Traditional_Embroidered_Garment_-_Museum_in_Gjirokastra_Castle_-_Gjirokastra_-_Albania_%2828515166108%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Detail_of_Traditional_Embroidered_Garment_-_Museum_in_Gjirokastra_Castle_-_Gjirokastra_-_Albania_%2828515166108%29.jpg",
+          "image_found_via_query": "Albania textile embroidery traditional"
         },
         {
           "id": "wc_0045",
@@ -63588,7 +63597,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0045.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Man_and_woman_of_the_northern_Albanian_highlands_in_typical_folk_costume_%28Carleton_Coon%2C_1929%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Man_and_woman_of_the_northern_Albanian_highlands_in_typical_folk_costume_%28Carleton_Coon%2C_1929%29.jpg",
+          "image_found_via_query": "Albania traditional clothing costume"
         },
         {
           "id": "wc_0053",
@@ -63631,7 +63643,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0053.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Algerian_Jebel_Amour_rug%2C_19th_century_or_earlier_%28detail%29.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Algerian_Jebel_Amour_rug%2C_19th_century_or_earlier_%28detail%29.png",
+          "image_found_via_query": "Algeria textile weaving carpet traditional"
         },
         {
           "id": "wc_0070",
@@ -63674,7 +63689,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0070.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%84%D8%A8%D8%A7%D8%B3_%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A_%D8%B4%D8%A7%D9%88%D9%8A_%D8%8C_clouths_traditional_algerien_chaoui.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:%D9%84%D8%A8%D8%A7%D8%B3_%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A_%D8%B4%D8%A7%D9%88%D9%8A_%D8%8C_clouths_traditional_algerien_chaoui.jpg",
+          "image_found_via_query": "Algeria traditional clothing costume Chaoui"
         },
         {
           "id": "wc_0078",
