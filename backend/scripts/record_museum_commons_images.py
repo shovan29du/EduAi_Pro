@@ -385,6 +385,15 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0966", "Diocletian's_Palace_(original_appearance).jpg", "Croatia architecture model Diocletian palace traditional historical"),
     ("world_archaeology_design", "wc_0973", "Licitarska_srca_Medvednica_Samobor_EMZ_300109.jpg", "Croatia folk art traditional Licitar"),
     ("world_archaeology_design", "wc_0941", "Museo_de_Arte_Costarricense.jpg", "Costa Rica architecture model colonial traditional historical"),
+    ("world_archaeology_design", "wc_0174", "Ceramic_boot-shaped_vessel_from_Urartu_(ancient_Armenia)_800-600_BCE_(44451273505).jpg", "Armenia archaeological artifact Urartu traditional historical"),
+    ("world_archaeology_design", "wc_0524", "Okoliste._Neolithic_settlement_5200_BC._Bosnia_and_Herzegovina_(cropped).jpg", "Bosnia and Herzegovina archaeological artifact Butmir traditional historical"),
+    ("world_archaeology_design", "wc_0574", "Cultura_Marajoara_-_Urna_funerária_MN_03.jpg", "Brazil archaeological artifact Marajoara traditional historical"),
+    ("world_archaeology_design", "wc_0449", "Benin,_regno_del_dahomey,_fon,_figura_umana,_1900-50_ca.jpg", "Benin archaeological artifact Dahomey traditional historical"),
+    ("world_archaeology_design", "wc_0424", "Belize_mayan_ruins.jpg", "Belize archaeological artifact Maya traditional historical"),
+    ("world_archaeology_design", "wc_0549", "Kgotla_(Mochudi,_Botswana_1700_CE).png", "Botswana archaeological artifact traditional historical"),
+    ("world_archaeology_design", "wc_0541", "Traditional_House_at_the_national_museum_Botswana_2.jpg", "Botswana architecture model traditional historical"),
+    ("world_innovation", "wc_0684", "Cambodia_royal_sword.jpg", "Cambodia weapon Khmer traditional historical"),
+    ("world_textiles_dress", "wc_0428", "Femmes_du_Bénin_en_tenue_traditionnelle_du_sud_Benin_06.jpg", "Benin textile traditional"),
 ]
 
 
