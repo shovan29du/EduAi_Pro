@@ -54286,7 +54286,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0406.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/British_Honduras_Map_1909.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:British_Honduras_Map_1909.jpg",
+          "image_found_via_query": "Belize old map historical British Honduras"
         },
         {
           "id": "wc_0430",
@@ -54372,7 +54375,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0431.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom_of_Dahomy-1793.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Dahomy-1793.jpg",
+          "image_found_via_query": "Benin old map historical Dahomey"
         },
         {
           "id": "wc_0455",
@@ -54458,7 +54464,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0456.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Bhutan_detail%2C_from-_1903_Routes_between_Tibet_and_India_by_O%27Connor_%28cropped%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_of_Bhutan_detail%2C_from-_1903_Routes_between_Tibet_and_India_by_O%27Connor_%28cropped%29.jpg",
+          "image_found_via_query": "Bhutan old map historical"
         },
         {
           "id": "wc_0480",
@@ -54544,7 +54553,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0481.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_de_la_Rep%C3%BAblica_de_Bolivia%2C_1859.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mapa_de_la_Rep%C3%BAblica_de_Bolivia%2C_1859.jpg",
+          "image_found_via_query": "Bolivia old map historical"
         },
         {
           "id": "wc_0505",
