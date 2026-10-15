@@ -235,6 +235,7 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0562", "5-centavos-2019-A.png", "Brazil coin numismatic historical"),
     ("world_decorative_arts", "wc_0687", "Cambodian_Coins_100_riel_obverse.jpg", "Cambodia coin numismatic historical"),
     ("world_decorative_arts", "wc_0712", "Coins_from_Cameroon_1970-1972.jpg", "Cameroon coin numismatic historical"),
+    ("world_decorative_arts", "wc_0737", "Monnaie_-_Canada,_George_V,_1_cent,_1932_-_btv1b113375306_(1_of_2).jpg", "Canada coin numismatic historical"),
 ]
 
 

@@ -61544,7 +61544,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0737.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Monnaie_-_Canada%2C_George_V%2C_1_cent%2C_1932_-_btv1b113375306_%281_of_2%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Canada%2C_George_V%2C_1_cent%2C_1932_-_btv1b113375306_%281_of_2%29.jpg",
+          "image_found_via_query": "Canada coin numismatic historical"
         },
         {
           "id": "wc_0740",
