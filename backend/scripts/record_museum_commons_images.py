@@ -247,6 +247,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0854", "Ming_Dynasty_porcelain_vase,_Chenghua_Reign_Period.JPG", "China ceramic porcelain Ming traditional"),
     ("world_decorative_arts", "wc_0861", "Chinese_Family_Heirloom_Jade_Pendant_with_Leaf_and_Grape_Design.jpg", "China jewelry jade traditional"),
     ("world_decorative_arts", "wc_0865", "Western_Zhou_Gui_Vessel.jpg", "China bronze vessel ancient ritual"),
+    ("world_decorative_arts", "wc_0140", "Mate_gourd_(calabash)_and_bombilla_held_against_a_European_Holly_(Ilex_aquifolium)_bush.jpg", "Argentina vessel mate gourd traditional"),
+    ("world_decorative_arts", "wc_0211", "Austrian_Imperial_Crown_Jewels.jpg", "Austria jewelry traditional historical crown jewels"),
+    ("world_decorative_arts", "wc_0315", "The_traditional_pottery_of_Bangladesh_704.jpg", "Bangladesh vessel pottery traditional"),
+    ("world_decorative_arts", "wc_0565", "Cultura_Marajoara_-_Vaso_Globular_MN_01.jpg", "Brazil vessel ceramic indigenous Marajoara traditional"),
 ]
 
 
