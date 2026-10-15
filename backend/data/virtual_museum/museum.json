@@ -53537,7 +53537,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0205.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristotle%2C_Vienna%2C_Cod._Phil._gr._64.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aristotle%2C_Vienna%2C_Cod._Phil._gr._64.jpg",
+          "image_found_via_query": "Austria manuscript illuminated medieval Vienna"
         },
         {
           "id": "wc_0206",
@@ -53669,7 +53672,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0231.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_Azerbaijan_Democratic_Republic.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_of_the_Azerbaijan_Democratic_Republic.png",
+          "image_found_via_query": "Azerbaijan old map historical"
         },
         {
           "id": "wc_0255",
@@ -54114,7 +54120,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0356.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/BNR_%28Ruthienie_Blanche%29_Map_1918.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:BNR_%28Ruthienie_Blanche%29_Map_1918.jpg",
+          "image_found_via_query": "Belarus old map historical"
         },
         {
           "id": "wc_0380",
@@ -54200,7 +54209,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0381.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Brussel_1649_Blaeu_zw.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Brussel_1649_Blaeu_zw.jpg",
+          "image_found_via_query": "Belgium old map historical"
         },
         {
           "id": "wc_0405",
@@ -54510,7 +54522,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0480.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Acta_de_independencia_de_la_Rep%C3%BAblica_de_Bolivia.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Acta_de_independencia_de_la_Rep%C3%BAblica_de_Bolivia.png",
+          "image_found_via_query": "Bolivia manuscript colonial document"
         },
         {
           "id": "wc_0481",
