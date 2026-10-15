@@ -267,6 +267,8 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0279", "Bahrain_Pottery_Creator.jpg", "Bahrain ceramic pottery traditional"),
     ("world_decorative_arts", "wc_0404", "Colha,_zona_maya_(belize),_vaso_cefaloforo,_periodo_preclassico_recente,_250_ac.-250_dc_ca.jpg", "Belize ceramic pottery Maya traditional"),
     ("world_decorative_arts", "wc_0479", "Bed965fdf8aa813b97735ea21a0e3cfc(1).jpg", "Bolivia ceramic pottery traditional Tiwanaku Fuente Magna"),
+    ("world_decorative_arts", "wc_0715", "2057_0829g_Top_Ceremonial_palm_wine_pot,_Bamileke,_Cameroon_Grasslands_(6740290881).jpg", "Cameroon vessel pottery traditional palm wine pot"),
+    ("world_decorative_arts", "wc_0740", "Birchbark_box_with_porcupine_quillwork,_Canada,_19th_century,_at_the_National_Museum_of_Scotland.JPG", "Canada vessel birch bark basket traditional"),
 ]
 
 
