@@ -67226,7 +67226,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0010.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghan_royal_soldiers_of_the_Durrani_Empire.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Afghan_royal_soldiers_of_the_Durrani_Empire.jpg",
+          "image_found_via_query": "Afghanistan armor traditional historical Durrani"
         },
         {
           "id": "wc_0014",
@@ -68979,7 +68982,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0210.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armor_for_tilt_and_field_of_Count_Franz_von_Teuffenbach%2C_by_Stefan_Rormoser%2C_Innsbruck_Austria%2C_1554_-_Higgins_Armory_Museum_-_DSC05678.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armor_for_tilt_and_field_of_Count_Franz_von_Teuffenbach%2C_by_Stefan_Rormoser%2C_Innsbruck_Austria%2C_1554_-_Higgins_Armory_Museum_-_DSC05678.JPG",
+          "image_found_via_query": "Austria armor traditional historical Innsbruck"
         },
         {
           "id": "wc_0214",
@@ -69194,7 +69200,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0235.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Medieval_azerbaijani_helmet.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Medieval_azerbaijani_helmet.JPG",
+          "image_found_via_query": "Azerbaijan armor traditional historical medieval helmet"
         },
         {
           "id": "wc_0239",
@@ -72446,7 +72455,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0610.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Second_Bulgarian_empire_Medieval_female_costume_and_warrior_armor.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Second_Bulgarian_empire_Medieval_female_costume_and_warrior_armor.jpg",
+          "image_found_via_query": "Bulgaria armor traditional historical medieval"
         },
         {
           "id": "wc_0614",
