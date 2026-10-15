@@ -67044,7 +67044,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0008.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubab.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Rubab.jpg",
+          "image_found_via_query": "Afghanistan musical instrument rubab traditional"
         },
         {
           "id": "wc_0009",
@@ -67087,7 +67090,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0009.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan_pulwar_sword.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Afghanistan_pulwar_sword.jpg",
+          "image_found_via_query": "Afghanistan weapon sword traditional historical"
         },
         {
           "id": "wc_0010",
@@ -67259,7 +67265,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0033.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Albanian_drummer.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Albanian_drummer.jpg",
+          "image_found_via_query": "Albania musical instrument traditional"
         },
         {
           "id": "wc_0034",
@@ -67474,7 +67483,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0058.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Gawaq_%28Transverse_Whistle_Flute%29_Biskra_Algeria.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Gawaq_%28Transverse_Whistle_Flute%29_Biskra_Algeria.jpg",
+          "image_found_via_query": "Algeria musical instrument traditional"
         },
         {
           "id": "wc_0059",
@@ -67517,7 +67529,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0059.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Handle_of_the_Flissa_in_Metal_6.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Handle_of_the_Flissa_in_Metal_6.jpg",
+          "image_found_via_query": "Algeria weapon sword flissa historical"
         },
         {
           "id": "wc_0060",
@@ -68119,7 +68134,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0133.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg",
+          "image_found_via_query": "Argentina musical instrument bandoneon traditional"
         },
         {
           "id": "wc_0134",
@@ -68334,7 +68352,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0158.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_duduk_vamelo_areg.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armenian_duduk_vamelo_areg.jpg",
+          "image_found_via_query": "Armenia musical instrument duduk traditional"
         },
         {
           "id": "wc_0159",
@@ -68764,7 +68785,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0208.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Alpenl%C3%A4ndische_Zither.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Alpenl%C3%A4ndische_Zither.jpg",
+          "image_found_via_query": "Austria musical instrument zither traditional"
         },
         {
           "id": "wc_0209",

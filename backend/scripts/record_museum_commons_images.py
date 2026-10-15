@@ -315,6 +315,14 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0995", "Bata_Cubana_Antigua_(31101454456).jpg", "Cuba traditional clothing costume"),
     ("world_textiles_dress", "wc_0920", "Homme_portant_le_kofia_comorien.jpg", "Comoros traditional clothing costume kofia"),
     ("world_textiles_dress", "wc_0953", "Paška_čipka_-_uzorak_u_okviru.JPG", "Croatia textile lace embroidery traditional Pag"),
+    ("world_innovation", "wc_0008", "Rubab.jpg", "Afghanistan musical instrument rubab traditional"),
+    ("world_innovation", "wc_0009", "Afghanistan_pulwar_sword.jpg", "Afghanistan weapon sword traditional historical"),
+    ("world_innovation", "wc_0033", "Albanian_drummer.jpg", "Albania musical instrument traditional"),
+    ("world_innovation", "wc_0058", "Gawaq_(Transverse_Whistle_Flute)_Biskra_Algeria.jpg", "Algeria musical instrument traditional"),
+    ("world_innovation", "wc_0059", "Handle_of_the_Flissa_in_Metal_6.jpg", "Algeria weapon sword flissa historical"),
+    ("world_innovation", "wc_0133", "Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg", "Argentina musical instrument bandoneon traditional"),
+    ("world_innovation", "wc_0158", "Armenian_duduk_vamelo_areg.jpg", "Armenia musical instrument duduk traditional"),
+    ("world_innovation", "wc_0208", "Alpenländische_Zither.jpg", "Austria musical instrument zither traditional"),
 ]
 
 
