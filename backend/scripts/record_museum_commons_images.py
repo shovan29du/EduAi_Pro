@@ -437,6 +437,8 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_innovation", "wc_0210", "Armor_for_tilt_and_field_of_Count_Franz_von_Teuffenbach,_by_Stefan_Rormoser,_Innsbruck_Austria,_1554_-_Higgins_Armory_Museum_-_DSC05678.JPG", "Austria armor traditional historical Innsbruck"),
     ("world_innovation", "wc_0235", "Medieval_azerbaijani_helmet.JPG", "Azerbaijan armor traditional historical medieval helmet"),
     ("world_innovation", "wc_0610", "Second_Bulgarian_empire_Medieval_female_costume_and_warrior_armor.jpg", "Bulgaria armor traditional historical medieval"),
+    ("world_archaeology_design", "wc_0444", "Fon_stool-Benin_(National_Maritime_Museum).jpg", "Benin furniture traditional historical stool"),
+    ("world_archaeology_design", "wc_0719", "Königsthron_Bamum_EthnM_IIIC33341.jpg", "Cameroon furniture traditional historical throne"),
 ]
 
 

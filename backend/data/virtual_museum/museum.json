@@ -80359,7 +80359,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0444.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Fon_stool-Benin_%28National_Maritime_Museum%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Fon_stool-Benin_%28National_Maritime_Museum%29.jpg",
+          "image_found_via_query": "Benin furniture traditional historical stool"
         },
         {
           "id": "wc_0447",
@@ -83236,7 +83239,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0719.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6nigsthron_Bamum_EthnM_IIIC33341.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsthron_Bamum_EthnM_IIIC33341.jpg",
+          "image_found_via_query": "Cameroon furniture traditional historical throne"
         },
         {
           "id": "wc_0722",
