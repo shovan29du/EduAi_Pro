@@ -60245,7 +60245,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0554.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cultura_Marajoara_-_Cer%C3%A2mica_MN_05.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cultura_Marajoara_-_Cer%C3%A2mica_MN_05.jpg",
+          "image_found_via_query": "Brazil ceramic pottery indigenous Marajoara traditional"
         },
         {
           "id": "wc_0561",
@@ -60592,7 +60595,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0604.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/BASA-2072K-1-352-11-Pottery_in_Bulgaria.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:BASA-2072K-1-352-11-Pottery_in_Bulgaria.JPG",
+          "image_found_via_query": "Bulgaria ceramic pottery traditional"
         },
         {
           "id": "wc_0611",
@@ -60635,7 +60641,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0611.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Sofia_-_Panagyurishte_Thracian_Gold_Treasure.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Sofia_-_Panagyurishte_Thracian_Gold_Treasure.jpg",
+          "image_found_via_query": "Bulgaria jewelry traditional Thracian gold"
         },
         {
           "id": "wc_0612",
@@ -62192,7 +62201,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0836.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mujer_Mapuche.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mujer_Mapuche.jpg",
+          "image_found_via_query": "Chile jewelry Mapuche traditional silver"
         },
         {
           "id": "wc_0837",
@@ -62321,7 +62333,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0854.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Dynasty_porcelain_vase%2C_Chenghua_Reign_Period.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ming_Dynasty_porcelain_vase%2C_Chenghua_Reign_Period.JPG",
+          "image_found_via_query": "China ceramic porcelain Ming traditional"
         },
         {
           "id": "wc_0861",
@@ -62364,7 +62379,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0861.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_Family_Heirloom_Jade_Pendant_with_Leaf_and_Grape_Design.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Family_Heirloom_Jade_Pendant_with_Leaf_and_Grape_Design.jpg",
+          "image_found_via_query": "China jewelry jade traditional"
         },
         {
           "id": "wc_0862",
@@ -62453,7 +62471,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0865.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_Zhou_Gui_Vessel.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Western_Zhou_Gui_Vessel.jpg",
+          "image_found_via_query": "China bronze vessel ancient ritual"
         },
         {
           "id": "wc_0879",
