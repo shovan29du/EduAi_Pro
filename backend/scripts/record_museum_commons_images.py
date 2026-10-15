@@ -167,6 +167,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0617", "Saint_John_of_Rila_(Ivan_Rilski).jpg", "Bulgaria religious object icon monastery Rila"),
     ("world_sculpture_ritual", "wc_0867", "Ding_cauldron_of_Duke_Mao.jpg", "China religious object bronze ritual vessel ding"),
     ("world_sculpture_ritual", "wc_0892", "Muisca_raft_Legend_of_El_Dorado_Offerings_of_gold.jpg", "Colombia religious object gold Muisca offering"),
+    ("world_texts_maps", "wc_0006", "1850_Mitchell_Map_of_Arabia,_Persia,_Afghanistan_-_Geographicus_-_Arabia-mitchell-1850.jpg", "Afghanistan old map 19th century"),
+    ("world_texts_maps", "wc_0030", "Elbasan_Gospel_Manuscript.jpg", "Albania manuscript Gospel Berat"),
+    ("world_texts_maps", "wc_0056", "1852_Levasseur_Map_of_Algeria_-_Geographicus_-_Algeria-levasseur-1852.jpg", "Algeria old map historical 19th century"),
 ]
 
 

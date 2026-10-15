@@ -52862,7 +52862,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0006.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/1850_Mitchell_Map_of_Arabia%2C_Persia%2C_Afghanistan_-_Geographicus_-_Arabia-mitchell-1850.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:1850_Mitchell_Map_of_Arabia%2C_Persia%2C_Afghanistan_-_Geographicus_-_Arabia-mitchell-1850.jpg",
+          "image_found_via_query": "Afghanistan old map 19th century"
         },
         {
           "id": "wc_0030",
@@ -52905,7 +52908,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0030.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbasan_Gospel_Manuscript.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Elbasan_Gospel_Manuscript.jpg",
+          "image_found_via_query": "Albania manuscript Gospel Berat"
         },
         {
           "id": "wc_0031",
@@ -53034,7 +53040,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0056.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/1852_Levasseur_Map_of_Algeria_-_Geographicus_-_Algeria-levasseur-1852.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:1852_Levasseur_Map_of_Algeria_-_Geographicus_-_Algeria-levasseur-1852.jpg",
+          "image_found_via_query": "Algeria old map historical 19th century"
         },
         {
           "id": "wc_0080",
