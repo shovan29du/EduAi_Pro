@@ -66497,7 +66497,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0853.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_silk%2C_4th_Century_BC.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chinese_silk%2C_4th_Century_BC.JPG",
+          "image_found_via_query": "China textile silk traditional"
         },
         {
           "id": "wc_0870",
@@ -66586,7 +66589,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0878.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mochilas_wayuu.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mochilas_wayuu.png",
+          "image_found_via_query": "Colombia textile mochila weaving Wayuu traditional"
         },
         {
           "id": "wc_0895",
@@ -66801,7 +66807,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0945.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa_Rican_Women_in_Traditional_Dress.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Costa_Rican_Women_in_Traditional_Dress.jpg",
+          "image_found_via_query": "Costa Rica traditional clothing costume"
         },
         {
           "id": "wc_0953",
@@ -66887,7 +66896,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0970.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Nosnje_Hrvatsko_zagorje_EMZ_300109.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Nosnje_Hrvatsko_zagorje_EMZ_300109.jpg",
+          "image_found_via_query": "Croatia traditional clothing costume nošnja"
         },
         {
           "id": "wc_0978",
@@ -66973,7 +66985,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0995.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bata_Cubana_Antigua_%2831101454456%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bata_Cubana_Antigua_%2831101454456%29.jpg",
+          "image_found_via_query": "Cuba traditional clothing costume"
         }
       ]
     },
