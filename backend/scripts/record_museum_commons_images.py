@@ -255,6 +255,7 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0165", "Ceramic_boot-shaped_vessel_from_Urartu_(ancient_Armenia)_800-600_BCE_(44451273505).jpg", "Armenia vessel traditional pottery Urartu"),
     ("world_decorative_arts", "wc_0612", "Ivan-shishman-coin-cng.jpg", "Bulgaria coin numismatic historical medieval"),
     ("world_decorative_arts", "wc_0615", "Neolithic_vessel_(front_view),_National_Archaeological_Museum,_Bulgaria.jpg", "Bulgaria vessel pottery traditional"),
+    ("world_decorative_arts", "wc_0679", "Traditional_Khmer_offering_box.JPG", "Cambodia ceramic Khmer pottery traditional"),
 ]
 
 

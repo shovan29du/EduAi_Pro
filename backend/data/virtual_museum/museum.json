@@ -61141,7 +61141,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0679.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Khmer_offering_box.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Khmer_offering_box.JPG",
+          "image_found_via_query": "Cambodia ceramic Khmer pottery traditional"
         },
         {
           "id": "wc_0686",
