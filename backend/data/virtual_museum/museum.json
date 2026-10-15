@@ -43062,7 +43062,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0182.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aboriginal_man_with_painted_shield%2C_boomerangs_and_dead_snake%2C_New_South_Wales%2C_Australia._ca._1905.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aboriginal_man_with_painted_shield%2C_boomerangs_and_dead_snake%2C_New_South_Wales%2C_Australia._ca._1905.jpg",
+          "image_found_via_query": "Australia photograph historical"
         },
         {
           "id": "wc_0196",
@@ -46443,7 +46446,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0807.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chad_2017_Faya_Largeau_Docteur_traditionelle_DSC0199.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chad_2017_Faya_Largeau_Docteur_traditionelle_DSC0199.jpg",
+          "image_found_via_query": "Chad photograph traditional healer"
         },
         {
           "id": "wc_0821",
@@ -47247,7 +47253,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0957.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Croatia-Slavonia_ethnography_1910.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Croatia-Slavonia_ethnography_1910.jpg",
+          "image_found_via_query": "Croatia photograph historical ethnography"
         },
         {
           "id": "wc_0971",
@@ -47745,7 +47754,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0052.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/La_statue_de_l%27emir_abdelkader%2C_Alger.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:La_statue_de_l%27emir_abdelkader%2C_Alger.jpg",
+          "image_found_via_query": "Algeria sculpture traditional historical"
         },
         {
           "id": "wc_0063",
@@ -48942,7 +48954,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0277.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahrain_Manama_Fish_Sculpture.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bahrain_Manama_Fish_Sculpture.jpg",
+          "image_found_via_query": "Bahrain sculpture"
         },
         {
           "id": "wc_0288",
@@ -50967,7 +50982,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0652.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Burundi_-_monument_to_heros_of_independence.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Burundi_-_monument_to_heros_of_independence.jpg",
+          "image_found_via_query": "Burundi sculpture traditional historical monument"
         },
         {
           "id": "wc_0663",
@@ -56855,7 +56873,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0062.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Boudjou_alg%C3%A9rien.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Boudjou_alg%C3%A9rien.jpg",
+          "image_found_via_query": "Algeria coin traditional historical"
         },
         {
           "id": "wc_0065",
@@ -57205,7 +57226,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0112.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Regna_Congo_et_Angola._R_2%3D_22._Pi%C3%A8ce_20.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Regna_Congo_et_Angola._R_2%3D_22._Pi%C3%A8ce_20.jpg",
+          "image_found_via_query": "Angola coin traditional historical"
         },
         {
           "id": "wc_0115",

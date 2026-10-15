@@ -406,6 +406,14 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0490", "Tiahuanaco-huari_(bolivia),_vaso_khero,_400_dc_ca.jpg", "Bolivia vessel traditional historical Tiwanaku"),
     ("world_decorative_arts", "wc_0215", "Zille_traditional_Austrian_river_boat.jpg", "Austria vessel traditional historical river boat"),
     ("world_decorative_arts", "wc_0415", "Colha,_zona_maya_(belize),_vaso_cefaloforo,_periodo_preclassico_recente,_250_ac.-250_dc_ca.jpg", "Belize vessel Maya traditional historical"),
+    ("world_decorative_arts", "wc_0062", "Boudjou_algérien.jpg", "Algeria coin traditional historical"),
+    ("world_decorative_arts", "wc_0112", "Regna_Congo_et_Angola._R_2=_22._Pièce_20.jpg", "Angola coin traditional historical"),
+    ("world_sculpture_ritual", "wc_0052", "La_statue_de_l'emir_abdelkader,_Alger.jpg", "Algeria sculpture traditional historical"),
+    ("world_sculpture_ritual", "wc_0652", "Burundi_-_monument_to_heros_of_independence.jpg", "Burundi sculpture traditional historical monument"),
+    ("world_sculpture_ritual", "wc_0277", "Bahrain_Manama_Fish_Sculpture.jpg", "Bahrain sculpture"),
+    ("world_visual_arts", "wc_0182", "Aboriginal_man_with_painted_shield,_boomerangs_and_dead_snake,_New_South_Wales,_Australia._ca._1905.jpg", "Australia photograph historical"),
+    ("world_visual_arts", "wc_0957", "Croatia-Slavonia_ethnography_1910.jpg", "Croatia photograph historical ethnography"),
+    ("world_visual_arts", "wc_0807", "Chad_2017_Faya_Largeau_Docteur_traditionelle_DSC0199.jpg", "Chad photograph traditional healer"),
 ]
 
 
