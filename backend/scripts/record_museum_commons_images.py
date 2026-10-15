@@ -430,6 +430,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0049", "Tombstone_with_an_Illyrian_name._Apollonia,_Albania.jpg", "Albania archaeological artifact ancient Illyrian"),
     ("world_sculpture_ritual", "wc_0242", "Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg", "Azerbaijan religious object ancient Caucasian Albania Mingachevir"),
     ("world_sculpture_ritual", "wc_0667", "Tambours_du_Burundi,_instruments_à_percussion_traditionnels.jpg", "Burundi religious object traditional royal drums"),
+    ("world_innovation", "wc_0209", "Landeszeughaus-Graz_(Tudoi61)_11.jpg", "Austria weapon traditional historical armoury"),
+    ("world_innovation", "wc_0784", "MAAP_couteau_de_jet_centrafricain.jpg", "Central African Republic weapon traditional throwing knife"),
+    ("world_innovation", "wc_0984", "Machete_Campos_Hermanos_Modelo_N°22_Cuño.jpg", "Cuba weapon traditional machete"),
 ]
 
 
