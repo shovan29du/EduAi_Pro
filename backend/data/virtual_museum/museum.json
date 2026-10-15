@@ -52954,7 +52954,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0031.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Proposed_borders_for_Albania.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Proposed_borders_for_Albania.png",
+          "image_found_via_query": "Albania old map historical 1913"
         },
         {
           "id": "wc_0055",
@@ -54660,7 +54663,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0506.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bosnia-Herzegovina_and_Sanjak_of_Novibazar.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bosnia-Herzegovina_and_Sanjak_of_Novibazar.JPG",
+          "image_found_via_query": "Bosnia and Herzegovina old map historical 1904"
         },
         {
           "id": "wc_0530",
@@ -54792,7 +54798,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0555.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Inscricoes-Manuscrito-512.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Inscricoes-Manuscrito-512.png",
+          "image_found_via_query": "Brazil manuscript colonial document Manuscrito 512"
         },
         {
           "id": "wc_0556",
@@ -55372,7 +55381,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0706.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cameroon_Map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cameroon_Map.jpg",
+          "image_found_via_query": "Cameroon old map historical"
         },
         {
           "id": "wc_0730",
