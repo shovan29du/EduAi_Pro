@@ -286,6 +286,14 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0303", "Weaving_jamdani_at_BSCIC_Jamdani_palli,_Narayanganj_75.jpg", "Bangladesh textile jamdani weaving traditional"),
     ("world_textiles_dress", "wc_0320", "Bangladeshi_girls_wearing_traditional_sari_with_flower_crown_at_Pohela_Boishakh_celebration_2016_(01).jpg", "Bangladesh traditional clothing costume sari"),
     ("world_textiles_dress", "wc_0420", "Garifuna_dancers_in_Dangriga,_Belize.jpg", "Belize traditional clothing costume Garifuna"),
+    ("world_textiles_dress", "wc_0445", "Benin_traditional_attire.jpg", "Benin traditional attire costume"),
+    ("world_textiles_dress", "wc_0453", "Hand_woven_Bhutanese_fabrics,_Bumthang.jpg", "Bhutan textile weaving traditional"),
+    ("world_textiles_dress", "wc_0470", "Bhutanese_women_at_festival_wearing_Kira_and_Tego.jpg", "Bhutan traditional clothing gho kira costume"),
+    ("world_textiles_dress", "wc_0478", "Aguayo_Boliviano_3.jpg", "Bolivia textile weaving aguayo traditional"),
+    ("world_textiles_dress", "wc_0495", "Vestimenta_de_la_Chola_Boliviana.jpg", "Bolivia traditional clothing costume"),
+    ("world_textiles_dress", "wc_0520", "Traditional_Bosnian_clothing.jpg", "Bosnia and Herzegovina traditional clothing costume"),
+    ("world_textiles_dress", "wc_0545", "Botswana's_traditional_attire.jpg", "Botswana traditional clothing costume"),
+    ("world_textiles_dress", "wc_0570", "Baiana_do_acaraje.jpg", "Brazil traditional clothing costume baiana"),
 ]
 
 

@@ -65015,7 +65015,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0445.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Benin_traditional_attire.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Benin_traditional_attire.jpg",
+          "image_found_via_query": "Benin traditional attire costume"
         },
         {
           "id": "wc_0453",
@@ -65058,7 +65061,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0453.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Hand_woven_Bhutanese_fabrics%2C_Bumthang.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Hand_woven_Bhutanese_fabrics%2C_Bumthang.jpg",
+          "image_found_via_query": "Bhutan textile weaving traditional"
         },
         {
           "id": "wc_0470",
@@ -65101,7 +65107,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0470.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhutanese_women_at_festival_wearing_Kira_and_Tego.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bhutanese_women_at_festival_wearing_Kira_and_Tego.jpg",
+          "image_found_via_query": "Bhutan traditional clothing gho kira costume"
         },
         {
           "id": "wc_0478",
@@ -65144,7 +65153,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0478.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aguayo_Boliviano_3.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aguayo_Boliviano_3.jpg",
+          "image_found_via_query": "Bolivia textile weaving aguayo traditional"
         },
         {
           "id": "wc_0495",
@@ -65187,7 +65199,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0495.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Vestimenta_de_la_Chola_Boliviana.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Vestimenta_de_la_Chola_Boliviana.jpg",
+          "image_found_via_query": "Bolivia traditional clothing costume"
         },
         {
           "id": "wc_0503",
@@ -65273,7 +65288,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0520.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Bosnian_clothing.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Bosnian_clothing.jpg",
+          "image_found_via_query": "Bosnia and Herzegovina traditional clothing costume"
         },
         {
           "id": "wc_0528",
@@ -65359,7 +65377,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0545.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana%27s_traditional_attire.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Botswana%27s_traditional_attire.jpg",
+          "image_found_via_query": "Botswana traditional clothing costume"
         },
         {
           "id": "wc_0553",
@@ -65445,7 +65466,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0570.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Baiana_do_acaraje.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Baiana_do_acaraje.jpg",
+          "image_found_via_query": "Brazil traditional clothing costume baiana"
         },
         {
           "id": "wc_0578",
