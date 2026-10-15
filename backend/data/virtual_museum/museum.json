@@ -73394,7 +73394,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0734.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomahawk_pipe_and_compass_owned_by_Tecumseh%2C_Shawnee_Chief_%2827874967397%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tomahawk_pipe_and_compass_owned_by_Tecumseh%2C_Shawnee_Chief_%2827874967397%29.jpg",
+          "image_found_via_query": "Canada weapon tomahawk historical"
         },
         {
           "id": "wc_0735",
@@ -74699,7 +74702,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0884.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Espada_y_ba%C3%BAl_de_Sim%C3%B3n_Bol%C3%ADvar_en_la_Quinta_de_Bol%C3%ADvar._Bogot%C3%A1._Colombia.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Espada_y_ba%C3%BAl_de_Sim%C3%B3n_Bol%C3%ADvar_en_la_Quinta_de_Bol%C3%ADvar._Bogot%C3%A1._Colombia.jpg",
+          "image_found_via_query": "Colombia weapon sword independence historical"
         },
         {
           "id": "wc_0885",
@@ -75347,7 +75353,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0959.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Srbosjek_%28knife%29_used_in_Croatia_-_1941%E2%80%931945.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Srbosjek_%28knife%29_used_in_Croatia_-_1941%E2%80%931945.jpg",
+          "image_found_via_query": "Croatia weapon knife historical"
         },
         {
           "id": "wc_0960",
