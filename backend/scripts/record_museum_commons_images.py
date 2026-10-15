@@ -418,6 +418,13 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0278", "Traditional_Wedding_Dress_of_Bahrain.jpg", "Bahrain textile traditional dress"),
     ("world_textiles_dress", "wc_0503", "Traditional_Bosnian_clothing.jpg", "Bosnia and Herzegovina textile traditional"),
     ("world_innovation", "wc_0309", "Swords_of_the_Bengal_Sultanate.webp", "Bangladesh weapon traditional historical sword"),
+    ("world_texts_maps", "wc_0831", "1818_Pinkerton_Map_of_Chile_-_Geographicus_-_Chili-pinkerton-1818.jpg", "Chile old map historical antique"),
+    ("world_texts_maps", "wc_0856", "China_old_map.jpg", "China old map historical antique"),
+    ("world_texts_maps", "wc_0881", "Gran_Colombia_map.jpg", "Colombia old map historical antique"),
+    ("world_texts_maps", "wc_0956", "Map_of_the_Kingdom_of_Croatia_(1868).png", "Croatia old map historical antique"),
+    ("world_texts_maps", "wc_0981", "(1898)_MAP_OF_CUBA.jpg", "Cuba old map historical antique"),
+    ("world_texts_maps", "wc_0931", "Mapa_de_Costa_Rica_(1850).jpg", "Costa Rica old map historical antique"),
+    ("world_texts_maps", "wc_0906", "Comoros_country_map_1976,_CIA.jpg", "Comoros map historical"),
 ]
 
 

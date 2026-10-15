@@ -55862,7 +55862,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0831.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/1818_Pinkerton_Map_of_Chile_-_Geographicus_-_Chili-pinkerton-1818.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:1818_Pinkerton_Map_of_Chile_-_Geographicus_-_Chili-pinkerton-1818.jpg",
+          "image_found_via_query": "Chile old map historical antique"
         },
         {
           "id": "wc_0855",
@@ -55948,7 +55951,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0856.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/China_old_map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:China_old_map.jpg",
+          "image_found_via_query": "China old map historical antique"
         },
         {
           "id": "wc_0880",
@@ -56034,7 +56040,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0881.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Gran_Colombia_map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Gran_Colombia_map.jpg",
+          "image_found_via_query": "Colombia old map historical antique"
         },
         {
           "id": "wc_0905",
@@ -56120,7 +56129,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0906.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Comoros_country_map_1976%2C_CIA.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Comoros_country_map_1976%2C_CIA.jpg",
+          "image_found_via_query": "Comoros map historical"
         },
         {
           "id": "wc_0930",
@@ -56206,7 +56218,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0931.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_de_Costa_Rica_%281850%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mapa_de_Costa_Rica_%281850%29.jpg",
+          "image_found_via_query": "Costa Rica old map historical antique"
         },
         {
           "id": "wc_0955",
@@ -56292,7 +56307,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0956.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_Kingdom_of_Croatia_%281868%29.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_of_the_Kingdom_of_Croatia_%281868%29.png",
+          "image_found_via_query": "Croatia old map historical antique"
         },
         {
           "id": "wc_0980",
@@ -56378,7 +56396,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0981.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/%281898%29_MAP_OF_CUBA.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:%281898%29_MAP_OF_CUBA.jpg",
+          "image_found_via_query": "Cuba old map historical antique"
         }
       ]
     },
