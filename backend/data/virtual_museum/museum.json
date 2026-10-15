@@ -54955,7 +54955,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0605.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tetraevangelia_of_Ivan_Alexander_02.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tetraevangelia_of_Ivan_Alexander_02.png",
+          "image_found_via_query": "Bulgaria manuscript Gospel medieval Tetraevangelia"
         },
         {
           "id": "wc_0606",
@@ -54998,7 +55001,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0606.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgaria-%28893-927%29-TsarSimeon-byTodorBozhinov.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bulgaria-%28893-927%29-TsarSimeon-byTodorBozhinov.png",
+          "image_found_via_query": "Bulgaria old map historical"
         },
         {
           "id": "wc_0630",
@@ -55084,7 +55090,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0631.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Burkina_Faso_kaart.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Burkina_Faso_kaart.png",
+          "image_found_via_query": "Burkina Faso old map historical Upper Volta"
         },
         {
           "id": "wc_0655",
@@ -55170,7 +55179,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0656.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruanda_Urundi.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ruanda_Urundi.jpg",
+          "image_found_via_query": "Burundi old map historical Ruanda-Urundi"
         },
         {
           "id": "wc_0680",
@@ -55256,7 +55268,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0681.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Angkor_Map.jpg",
+          "image_found_via_query": "Cambodia old map historical Angkor"
         },
         {
           "id": "wc_0705",
