@@ -68570,7 +68570,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0183.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Didgeridoo.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Didgeridoo.jpg",
+          "image_found_via_query": "Australia Aboriginal musical instrument didgeridoo traditional"
         },
         {
           "id": "wc_0184",
@@ -68613,7 +68616,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0184.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Aboriginal_man_carrying_a_shield%2C_waddy_and_boomerang%2C_South_Australia%2C_ca._1875.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Aboriginal_man_carrying_a_shield%2C_waddy_and_boomerang%2C_South_Australia%2C_ca._1875.jpg",
+          "image_found_via_query": "Australia Aboriginal weapon boomerang traditional"
         },
         {
           "id": "wc_0185",
@@ -69648,7 +69654,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0308.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ektara.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ektara.JPG",
+          "image_found_via_query": "Bangladesh musical instrument ektara traditional"
         },
         {
           "id": "wc_0309",
@@ -70293,7 +70302,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0383.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Carillon_Belfort_Gent.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Carillon_Belfort_Gent.JPG",
+          "image_found_via_query": "Belgium musical instrument carillon traditional"
         },
         {
           "id": "wc_0384",
@@ -71153,7 +71165,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0483.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Charango_boliviano.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Charango_boliviano.JPG",
+          "image_found_via_query": "Bolivia musical instrument charango traditional"
         },
         {
           "id": "wc_0484",
@@ -71798,7 +71813,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0558.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Berimbau_Sao_Bento_Grande.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Berimbau_Sao_Bento_Grande.JPG",
+          "image_found_via_query": "Brazil musical instrument berimbau traditional"
         },
         {
           "id": "wc_0559",
@@ -72228,7 +72246,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0608.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/BASA-2072K-1-361-19-Gaida%2C_Bulgaria.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:BASA-2072K-1-361-19-Gaida%2C_Bulgaria.JPG",
+          "image_found_via_query": "Bulgaria musical instrument gaida traditional"
         },
         {
           "id": "wc_0609",
@@ -72873,7 +72894,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0683.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tro_Khmer_Musical_instruments_1877.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tro_Khmer_Musical_instruments_1877.jpg",
+          "image_found_via_query": "Cambodia musical instrument traditional"
         },
         {
           "id": "wc_0684",
