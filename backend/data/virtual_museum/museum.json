@@ -49976,7 +49976,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0467.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Memorial_Chorten_Bhutan.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Memorial_Chorten_Bhutan.jpg",
+          "image_found_via_query": "Bhutan religious object traditional Buddhist"
         },
         {
           "id": "wc_0477",
@@ -53905,7 +53908,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0305.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Manuscript_of_the_Maharashtra_Purana.pdf",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Manuscript_of_the_Maharashtra_Purana.pdf",
+          "image_found_via_query": "Bangladesh manuscript traditional historical"
         },
         {
           "id": "wc_0306",
@@ -57957,7 +57963,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0215.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Zille_traditional_Austrian_river_boat.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Zille_traditional_Austrian_river_boat.jpg",
+          "image_found_via_query": "Austria vessel traditional historical river boat"
         },
         {
           "id": "wc_0229",
@@ -59369,7 +59378,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0415.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Colha%2C_zona_maya_%28belize%29%2C_vaso_cefaloforo%2C_periodo_preclassico_recente%2C_250_ac.-250_dc_ca.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Colha%2C_zona_maya_%28belize%29%2C_vaso_cefaloforo%2C_periodo_preclassico_recente%2C_250_ac.-250_dc_ca.jpg",
+          "image_found_via_query": "Belize vessel Maya traditional historical"
         },
         {
           "id": "wc_0429",
@@ -59894,7 +59906,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0490.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiahuanaco-huari_%28bolivia%29%2C_vaso_khero%2C_400_dc_ca.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tiahuanaco-huari_%28bolivia%29%2C_vaso_khero%2C_400_dc_ca.jpg",
+          "image_found_via_query": "Bolivia vessel traditional historical Tiwanaku"
         },
         {
           "id": "wc_0504",
