@@ -275,6 +275,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0045", "Man_and_woman_of_the_northern_Albanian_highlands_in_typical_folk_costume_(Carleton_Coon,_1929).jpg", "Albania traditional clothing costume"),
     ("world_textiles_dress", "wc_0053", "Algerian_Jebel_Amour_rug,_19th_century_or_earlier_(detail).png", "Algeria textile weaving carpet traditional"),
     ("world_textiles_dress", "wc_0070", "لباس_تقليدي_شاوي_،_clouths_traditional_algerien_chaoui.jpg", "Algeria traditional clothing costume Chaoui"),
+    ("world_textiles_dress", "wc_0145", "The_Gaucho.png", "Argentina gaucho traditional clothing costume"),
+    ("world_textiles_dress", "wc_0153", "Armenian_carpet_by_ArtsakhCarpet.jpg", "Armenia textile carpet weaving traditional"),
+    ("world_textiles_dress", "wc_0170", "Armenian_woman_in_national_costume_(crop).jpg", "Armenia traditional clothing costume"),
+    ("world_textiles_dress", "wc_0220", "Gruppe_von_Damen_in_der_Wörthersee_Tracht,_der_Herr_im_Kärntner_Anzug,_Österreich.jpg", "Austria traditional clothing Tracht costume"),
+    ("world_textiles_dress", "wc_0228", "Pileless_Dragon_carpet_from_Azerbaijan,_19th_century,_wool,_cotton,_red_warp,_249_x_100_cm,_T138-1959.jpg", "Azerbaijan textile carpet weaving traditional"),
+    ("world_textiles_dress", "wc_0245", "Azerbaijan_national_costume_from_Karabakh_in_Heydar_Aliyev_Center.jpg", "Azerbaijan traditional clothing costume"),
 ]
 
 

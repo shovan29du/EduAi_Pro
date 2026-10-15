@@ -63950,7 +63950,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0145.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Gaucho.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Gaucho.png",
+          "image_found_via_query": "Argentina gaucho traditional clothing costume"
         },
         {
           "id": "wc_0153",
@@ -63993,7 +63996,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0153.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_carpet_by_ArtsakhCarpet.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armenian_carpet_by_ArtsakhCarpet.jpg",
+          "image_found_via_query": "Armenia textile carpet weaving traditional"
         },
         {
           "id": "wc_0170",
@@ -64036,7 +64042,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0170.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_woman_in_national_costume_%28crop%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armenian_woman_in_national_costume_%28crop%29.jpg",
+          "image_found_via_query": "Armenia traditional clothing costume"
         },
         {
           "id": "wc_0178",
@@ -64208,7 +64217,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0220.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Gruppe_von_Damen_in_der_W%C3%B6rthersee_Tracht%2C_der_Herr_im_K%C3%A4rntner_Anzug%2C_%C3%96sterreich.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Gruppe_von_Damen_in_der_W%C3%B6rthersee_Tracht%2C_der_Herr_im_K%C3%A4rntner_Anzug%2C_%C3%96sterreich.jpg",
+          "image_found_via_query": "Austria traditional clothing Tracht costume"
         },
         {
           "id": "wc_0228",
@@ -64251,7 +64263,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0228.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileless_Dragon_carpet_from_Azerbaijan%2C_19th_century%2C_wool%2C_cotton%2C_red_warp%2C_249_x_100_cm%2C_T138-1959.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Pileless_Dragon_carpet_from_Azerbaijan%2C_19th_century%2C_wool%2C_cotton%2C_red_warp%2C_249_x_100_cm%2C_T138-1959.jpg",
+          "image_found_via_query": "Azerbaijan textile carpet weaving traditional"
         },
         {
           "id": "wc_0245",
@@ -64294,7 +64309,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0245.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Azerbaijan_national_costume_from_Karabakh_in_Heydar_Aliyev_Center.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Azerbaijan_national_costume_from_Karabakh_in_Heydar_Aliyev_Center.jpg",
+          "image_found_via_query": "Azerbaijan traditional clothing costume"
         },
         {
           "id": "wc_0253",
