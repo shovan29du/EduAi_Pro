@@ -414,6 +414,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_visual_arts", "wc_0182", "Aboriginal_man_with_painted_shield,_boomerangs_and_dead_snake,_New_South_Wales,_Australia._ca._1905.jpg", "Australia photograph historical"),
     ("world_visual_arts", "wc_0957", "Croatia-Slavonia_ethnography_1910.jpg", "Croatia photograph historical ethnography"),
     ("world_visual_arts", "wc_0807", "Chad_2017_Faya_Largeau_Docteur_traditionelle_DSC0199.jpg", "Chad photograph traditional healer"),
+    ("world_visual_arts", "wc_0701", "Victoria_(Cameroon).jpg", "Cameroon painting historical colonial era"),
+    ("world_textiles_dress", "wc_0278", "Traditional_Wedding_Dress_of_Bahrain.jpg", "Bahrain textile traditional dress"),
+    ("world_textiles_dress", "wc_0503", "Traditional_Bosnian_clothing.jpg", "Bosnia and Herzegovina textile traditional"),
+    ("world_innovation", "wc_0309", "Swords_of_the_Bengal_Sultanate.webp", "Bangladesh weapon traditional historical sword"),
 ]
 
 

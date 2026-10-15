@@ -45866,7 +45866,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_visual_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0701.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_%28Cameroon%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Victoria_%28Cameroon%29.jpg",
+          "image_found_via_query": "Cameroon painting historical colonial era"
         },
         {
           "id": "wc_0707",
@@ -64489,7 +64492,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0278.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Wedding_Dress_of_Bahrain.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Wedding_Dress_of_Bahrain.jpg",
+          "image_found_via_query": "Bahrain textile traditional dress"
         },
         {
           "id": "wc_0295",
@@ -65293,7 +65299,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0503.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Bosnian_clothing.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Bosnian_clothing.jpg",
+          "image_found_via_query": "Bosnia and Herzegovina textile traditional"
         },
         {
           "id": "wc_0520",
@@ -69754,7 +69763,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0309.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Swords_of_the_Bengal_Sultanate.webp",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Swords_of_the_Bengal_Sultanate.webp",
+          "image_found_via_query": "Bangladesh weapon traditional historical sword"
         },
         {
           "id": "wc_0310",
