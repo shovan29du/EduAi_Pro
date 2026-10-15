@@ -349,6 +349,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_innovation", "wc_0734", "Tomahawk_pipe_and_compass_owned_by_Tecumseh,_Shawnee_Chief_(27874967397).jpg", "Canada weapon tomahawk historical"),
     ("world_innovation", "wc_0884", "Espada_y_baúl_de_Simón_Bolívar_en_la_Quinta_de_Bolívar._Bogotá._Colombia.jpg", "Colombia weapon sword independence historical"),
     ("world_innovation", "wc_0959", "Srbosjek_(knife)_used_in_Croatia_-_1941–1945.jpg", "Croatia weapon knife historical"),
+    ("world_archaeology_design", "wc_0024", "Bactrian_document_Northern_Afghanistan_4th_century.jpg", "Afghanistan archaeological artifact Bactria historical"),
+    ("world_archaeology_design", "wc_0074", "Timgad-_A_Roman_Colonial_City_and_UNESCO_World_Heritage_Site_in_the_Aurès_Mountains_57.jpg", "Algeria archaeological artifact Roman Timgad historical"),
+    ("world_archaeology_design", "wc_0249", "Petroglyphs_in_Gobustan_01.jpg", "Azerbaijan archaeological artifact Gobustan ancient historical"),
 ]
 
 
