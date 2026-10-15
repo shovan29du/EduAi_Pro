@@ -294,6 +294,14 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0520", "Traditional_Bosnian_clothing.jpg", "Bosnia and Herzegovina traditional clothing costume"),
     ("world_textiles_dress", "wc_0545", "Botswana's_traditional_attire.jpg", "Botswana traditional clothing costume"),
     ("world_textiles_dress", "wc_0570", "Baiana_do_acaraje.jpg", "Brazil traditional clothing costume baiana"),
+    ("world_textiles_dress", "wc_0578", "Brunei_batik_5338471770.jpg", "Brunei textile batik traditional"),
+    ("world_textiles_dress", "wc_0595", "Bruneian_women_in_traditional_kebaya_and_sarong_dress,_Sandakan,_British_North_Borneo,_c_1920–1930s.jpg", "Brunei traditional clothing costume"),
+    ("world_textiles_dress", "wc_0603", "Weaving_a_traditional_Bulgarian_wool_apron_on_a_loom.jpg", "Bulgaria textile embroidery weaving traditional"),
+    ("world_textiles_dress", "wc_0620", "BASA-2072K-1-337-325-National_costume_of_Bulgaria,_Karnobat.JPG", "Bulgaria traditional clothing costume"),
+    ("world_textiles_dress", "wc_0628", "Pagnes_tissés_faso_dan_fani.jpg", "Burkina Faso textile faso dan fani weaving"),
+    ("world_textiles_dress", "wc_0645", "Young_Girl_in_Traditional_Dress_-_Bani_-_Sahel_Region_-_Burkina_Faso_-_02.jpg", "Burkina Faso traditional clothing costume"),
+    ("world_textiles_dress", "wc_0678", "Khmersilk.JPG", "Cambodia textile silk weaving traditional"),
+    ("world_textiles_dress", "wc_0695", "Khmer_clothes_sampot_sbai.jpg", "Cambodia traditional clothing costume sampot"),
 ]
 
 
