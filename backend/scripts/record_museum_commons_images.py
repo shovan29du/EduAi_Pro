@@ -394,6 +394,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0541", "Traditional_House_at_the_national_museum_Botswana_2.jpg", "Botswana architecture model traditional historical"),
     ("world_innovation", "wc_0684", "Cambodia_royal_sword.jpg", "Cambodia weapon Khmer traditional historical"),
     ("world_textiles_dress", "wc_0428", "Femmes_du_Bénin_en_tenue_traditionnelle_du_sud_Benin_06.jpg", "Benin textile traditional"),
+    ("world_archaeology_design", "wc_0648", "Tiebele_traditional_house_decoration_Burkina_Faso.jpg", "Burkina Faso folk art traditional"),
+    ("world_archaeology_design", "wc_0723", "Danseur_danse_traditionnelle_bamiléké_cameroun_08.jpg", "Cameroon folk art traditional"),
+    ("world_archaeology_design", "wc_0298", "Bahrain_Pottery_Creator.jpg", "Bahrain folk art traditional pottery"),
 ]
 
 

@@ -78759,7 +78759,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0298.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahrain_Pottery_Creator.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bahrain_Pottery_Creator.jpg",
+          "image_found_via_query": "Bahrain folk art traditional pottery"
         },
         {
           "id": "wc_0299",
@@ -82416,7 +82419,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0648.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiebele_traditional_house_decoration_Burkina_Faso.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tiebele_traditional_house_decoration_Burkina_Faso.jpg",
+          "image_found_via_query": "Burkina Faso folk art traditional"
         },
         {
           "id": "wc_0649",
@@ -83196,7 +83202,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0723.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Danseur_danse_traditionnelle_bamil%C3%A9k%C3%A9_cameroun_08.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Danseur_danse_traditionnelle_bamil%C3%A9k%C3%A9_cameroun_08.jpg",
+          "image_found_via_query": "Cameroon folk art traditional"
         },
         {
           "id": "wc_0724",
