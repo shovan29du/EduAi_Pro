@@ -78772,7 +78772,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0299.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Coper_head_of_bull_Dilmun1.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Coper_head_of_bull_Dilmun1.jpg",
+          "image_found_via_query": "Bahrain archaeological artifact Dilmun ancient historical"
         },
         {
           "id": "wc_0300",
@@ -79030,7 +79033,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0324.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahasthan_Brahmi_Inscription_of_Asoka.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mahasthan_Brahmi_Inscription_of_Asoka.png",
+          "image_found_via_query": "Bangladesh archaeological artifact Mahasthangarh ancient historical"
         },
         {
           "id": "wc_0325",
@@ -79804,7 +79810,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0399.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Roman_dodecahedron%2C_Gallo-Roman_Museum_of_Tongeren%2C_Belgium_%2827543850102%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_dodecahedron%2C_Gallo-Roman_Museum_of_Tongeren%2C_Belgium_%2827543850102%29.jpg",
+          "image_found_via_query": "Belgium archaeological artifact Roman ancient historical"
         },
         {
           "id": "wc_0400",
@@ -80836,7 +80845,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0499.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Monolito_Ponce_%28Tiwanaku%2C_Bolivia%29_%2836765790702%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Monolito_Ponce_%28Tiwanaku%2C_Bolivia%29_%2836765790702%29.jpg",
+          "image_found_via_query": "Bolivia archaeological artifact Tiwanaku ancient historical"
         },
         {
           "id": "wc_0500",
@@ -82126,7 +82138,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0624.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bronze_Thracian_Chestplate%2C_400_BC%2C_National_Archeological_Museum_of_the_Bulgaria.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bronze_Thracian_Chestplate%2C_400_BC%2C_National_Archeological_Museum_of_the_Bulgaria.jpg",
+          "image_found_via_query": "Bulgaria archaeological artifact Thracian ancient historical"
         },
         {
           "id": "wc_0625",
@@ -82900,7 +82915,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0699.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cambodia_2638B_-_Angkor_Wat.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cambodia_2638B_-_Angkor_Wat.jpg",
+          "image_found_via_query": "Cambodia archaeological artifact Angkor ancient historical"
         },
         {
           "id": "wc_0700",

@@ -352,6 +352,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0024", "Bactrian_document_Northern_Afghanistan_4th_century.jpg", "Afghanistan archaeological artifact Bactria historical"),
     ("world_archaeology_design", "wc_0074", "Timgad-_A_Roman_Colonial_City_and_UNESCO_World_Heritage_Site_in_the_Aurès_Mountains_57.jpg", "Algeria archaeological artifact Roman Timgad historical"),
     ("world_archaeology_design", "wc_0249", "Petroglyphs_in_Gobustan_01.jpg", "Azerbaijan archaeological artifact Gobustan ancient historical"),
+    ("world_archaeology_design", "wc_0299", "Coper_head_of_bull_Dilmun1.jpg", "Bahrain archaeological artifact Dilmun ancient historical"),
+    ("world_archaeology_design", "wc_0324", "Mahasthan_Brahmi_Inscription_of_Asoka.png", "Bangladesh archaeological artifact Mahasthangarh ancient historical"),
+    ("world_archaeology_design", "wc_0399", "Ancient_Roman_dodecahedron,_Gallo-Roman_Museum_of_Tongeren,_Belgium_(27543850102).jpg", "Belgium archaeological artifact Roman ancient historical"),
+    ("world_archaeology_design", "wc_0499", "Monolito_Ponce_(Tiwanaku,_Bolivia)_(36765790702).jpg", "Bolivia archaeological artifact Tiwanaku ancient historical"),
+    ("world_archaeology_design", "wc_0624", "Bronze_Thracian_Chestplate,_400_BC,_National_Archeological_Museum_of_the_Bulgaria.jpg", "Bulgaria archaeological artifact Thracian ancient historical"),
+    ("world_archaeology_design", "wc_0699", "Cambodia_2638B_-_Angkor_Wat.jpg", "Cambodia archaeological artifact Angkor ancient historical"),
 ]
 
 
