@@ -66721,7 +66721,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0920.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Homme_portant_le_kofia_comorien.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Homme_portant_le_kofia_comorien.jpg",
+          "image_found_via_query": "Comoros traditional clothing costume kofia"
         },
         {
           "id": "wc_0928",
@@ -66853,7 +66856,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0953.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Pa%C5%A1ka_%C4%8Dipka_-_uzorak_u_okviru.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Pa%C5%A1ka_%C4%8Dipka_-_uzorak_u_okviru.JPG",
+          "image_found_via_query": "Croatia textile lace embroidery traditional Pag"
         },
         {
           "id": "wc_0970",
