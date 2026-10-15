@@ -56748,7 +56748,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0054.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Poterie_kabyle.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Poterie_kabyle.jpg",
+          "image_found_via_query": "Algeria ceramic pottery traditional Kabyle"
         },
         {
           "id": "wc_0061",
@@ -56791,7 +56794,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0061.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bijou_Kabyle.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bijou_Kabyle.jpg",
+          "image_found_via_query": "Algeria jewelry traditional silver Kabyle"
         },
         {
           "id": "wc_0062",
@@ -56877,7 +56883,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0065.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Poterie_kabyle_3.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Poterie_kabyle_3.jpg",
+          "image_found_via_query": "Algeria vessel pottery traditional Kabyle"
         },
         {
           "id": "wc_0079",
