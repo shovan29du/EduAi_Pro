@@ -58240,7 +58240,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0262.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/2_dollar_Bahamas_1970.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:2_dollar_Bahamas_1970.png",
+          "image_found_via_query": "Bahamas coin numismatic historical"
         },
         {
           "id": "wc_0265",
@@ -58412,7 +58415,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0287.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahrain_100_fils_1992.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bahrain_100_fils_1992.jpg",
+          "image_found_via_query": "Bahrain coin numismatic historical"
         },
         {
           "id": "wc_0290",
@@ -58498,7 +58504,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0304.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Pottery_art_of_Bangladesh.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Pottery_art_of_Bangladesh.jpg",
+          "image_found_via_query": "Bangladesh ceramic pottery terracotta traditional"
         },
         {
           "id": "wc_0311",
@@ -58584,7 +58593,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0312.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/50_and_25_paise_coins_from_Bangladesh.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:50_and_25_paise_coins_from_Bangladesh.jpg",
+          "image_found_via_query": "Bangladesh coin numismatic historical"
         },
         {
           "id": "wc_0315",
@@ -58928,7 +58940,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0362.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Porthos_%28silver%29_rv.gif",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Porthos_%28silver%29_rv.gif",
+          "image_found_via_query": "Belarus coin numismatic historical commemorative"
         },
         {
           "id": "wc_0365",
@@ -59100,7 +59115,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0387.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_coin_of_1_franc_Boudewijn_I_in_Dutch.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Belgian_coin_of_1_franc_Boudewijn_I_in_Dutch.jpg",
+          "image_found_via_query": "Belgium coin numismatic historical"
         },
         {
           "id": "wc_0390",
