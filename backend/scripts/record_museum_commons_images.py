@@ -427,6 +427,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0906", "Comoros_country_map_1976,_CIA.jpg", "Comoros map historical"),
     ("world_textiles_dress", "wc_0370", "2024.11.03_Traditional_Clothing_Straw_Art_Pavuk_Spinning_Wheel_Distaff_in_Museum_of_Belarusian_Folk_Art.jpg", "Belarus costume traditional"),
     ("world_textiles_dress", "wc_0670", "Les_habits_qu'on_pendant_la_dot_Au_Burundi.jpg", "Burundi costume traditional"),
+    ("world_archaeology_design", "wc_0049", "Tombstone_with_an_Illyrian_name._Apollonia,_Albania.jpg", "Albania archaeological artifact ancient Illyrian"),
+    ("world_sculpture_ritual", "wc_0242", "Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg", "Azerbaijan religious object ancient Caucasian Albania Mingachevir"),
+    ("world_sculpture_ritual", "wc_0667", "Tambours_du_Burundi,_instruments_à_percussion_traditionnels.jpg", "Burundi religious object traditional royal drums"),
 ]
 
 
