@@ -62407,7 +62407,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0862.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Chinese_Coin_String_%2815874097297%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Coin_String_%2815874097297%29.jpg",
+          "image_found_via_query": "China coin numismatic ancient historical"
         },
         {
           "id": "wc_0865",
@@ -62579,7 +62582,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0887.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Moneda_de_mil_pesos_Colombianos.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Moneda_de_mil_pesos_Colombianos.png",
+          "image_found_via_query": "Colombia coin numismatic historical"
         },
         {
           "id": "wc_0890",
@@ -62923,7 +62929,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0937.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa_Rica_1897_20_Colones_%28proof%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Costa_Rica_1897_20_Colones_%28proof%29.jpg",
+          "image_found_via_query": "Costa Rica coin numismatic historical"
         },
         {
           "id": "wc_0940",
@@ -63095,7 +63104,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0962.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Croatian_euro_coins_%288%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Croatian_euro_coins_%288%29.jpg",
+          "image_found_via_query": "Croatia coin numismatic historical"
         },
         {
           "id": "wc_0965",
