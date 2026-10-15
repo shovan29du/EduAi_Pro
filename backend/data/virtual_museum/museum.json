@@ -71392,7 +71392,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0508.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Sargija.svg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Sargija.svg",
+          "image_found_via_query": "Bosnia and Herzegovina musical instrument sargija traditional"
         },
         {
           "id": "wc_0509",

@@ -345,6 +345,7 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_innovation", "wc_0859", "Bronze_jian_of_the_Terracotta_Army.jpg", "China weapon sword jian historical"),
     ("world_innovation", "wc_0139", "Gauchos_mateando.jpg", "Argentina tool mate gourd gaucho traditional"),
     ("world_innovation", "wc_0860", "Qing_Armor.jpg", "China armor historical Qing"),
+    ("world_innovation", "wc_0508", "Sargija.svg", "Bosnia and Herzegovina musical instrument sargija traditional"),
 ]
 
 
