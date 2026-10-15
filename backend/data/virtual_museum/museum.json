@@ -84336,7 +84336,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0841.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruca_Mapuche.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ruca_Mapuche.jpg",
+          "image_found_via_query": "Chile architecture model traditional dwelling"
         },
         {
           "id": "wc_0844",
@@ -84465,7 +84468,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0848.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mapuche_sculptures_in_Museum_of_PreColumbian_Art_Santiago4.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mapuche_sculptures_in_Museum_of_PreColumbian_Art_Santiago4.JPG",
+          "image_found_via_query": "Chile folk art Mapuche traditional"
         },
         {
           "id": "wc_0849",
@@ -84861,7 +84867,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0891.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Baroque_Colonial_houses_at_Cartagena_de_Indias_ca._1850-1930.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Baroque_Colonial_houses_at_Cartagena_de_Indias_ca._1850-1930.jpg",
+          "image_found_via_query": "Colombia architecture model colonial Cartagena traditional historical"
         },
         {
           "id": "wc_0894",
@@ -84990,7 +84999,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0898.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Mask_used_on_folk_ritual_Kamentsa_on_Chaquiras_indigenous_people_of_Colombia.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Mask_used_on_folk_ritual_Kamentsa_on_Chaquiras_indigenous_people_of_Colombia.jpg",
+          "image_found_via_query": "Colombia folk art traditional"
         },
         {
           "id": "wc_0899",
@@ -85380,7 +85392,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0941.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo_de_Arte_Costarricense.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Costarricense.jpg",
+          "image_found_via_query": "Costa Rica architecture model colonial traditional historical"
         },
         {
           "id": "wc_0944",
@@ -85641,7 +85656,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0966.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Diocletian%27s_Palace_%28original_appearance%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Diocletian%27s_Palace_%28original_appearance%29.jpg",
+          "image_found_via_query": "Croatia architecture model Diocletian palace traditional historical"
         },
         {
           "id": "wc_0969",
@@ -85770,7 +85788,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0973.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Licitarska_srca_Medvednica_Samobor_EMZ_300109.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Licitarska_srca_Medvednica_Samobor_EMZ_300109.jpg",
+          "image_found_via_query": "Croatia folk art traditional Licitar"
         },
         {
           "id": "wc_0974",

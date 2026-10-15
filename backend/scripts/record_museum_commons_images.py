@@ -378,6 +378,13 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0691", "Angkor_Wat_M2.png", "Cambodia architecture model Angkor Wat traditional historical"),
     ("world_archaeology_design", "wc_0741", "Haida_Houses.jpg", "Canada architecture model totem pole Haida traditional historical"),
     ("world_archaeology_design", "wc_0866", "20251018_Model_of_Yongning_Temple_Pagoda.jpg", "China architecture model pagoda traditional historical"),
+    ("world_archaeology_design", "wc_0841", "Ruca_Mapuche.jpg", "Chile architecture model traditional dwelling"),
+    ("world_archaeology_design", "wc_0848", "Mapuche_sculptures_in_Museum_of_PreColumbian_Art_Santiago4.JPG", "Chile folk art Mapuche traditional"),
+    ("world_archaeology_design", "wc_0891", "Baroque_Colonial_houses_at_Cartagena_de_Indias_ca._1850-1930.jpg", "Colombia architecture model colonial Cartagena traditional historical"),
+    ("world_archaeology_design", "wc_0898", "Mask_used_on_folk_ritual_Kamentsa_on_Chaquiras_indigenous_people_of_Colombia.jpg", "Colombia folk art traditional"),
+    ("world_archaeology_design", "wc_0966", "Diocletian's_Palace_(original_appearance).jpg", "Croatia architecture model Diocletian palace traditional historical"),
+    ("world_archaeology_design", "wc_0973", "Licitarska_srca_Medvednica_Samobor_EMZ_300109.jpg", "Croatia folk art traditional Licitar"),
+    ("world_archaeology_design", "wc_0941", "Museo_de_Arte_Costarricense.jpg", "Costa Rica architecture model colonial traditional historical"),
 ]
 
 
