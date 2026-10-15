@@ -50510,7 +50510,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0567.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Orixa_Ossain_Sacerdote_das_folhas.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Orixa_Ossain_Sacerdote_das_folhas.JPG",
+          "image_found_via_query": "Brazil religious object Candomble Orixa"
         },
         {
           "id": "wc_0577",
@@ -50774,7 +50777,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0617.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_John_of_Rila_%28Ivan_Rilski%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint_John_of_Rila_%28Ivan_Rilski%29.jpg",
+          "image_found_via_query": "Bulgaria religious object icon monastery Rila"
         },
         {
           "id": "wc_0627",
@@ -52097,7 +52103,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0867.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ding_cauldron_of_Duke_Mao.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ding_cauldron_of_Duke_Mao.jpg",
+          "image_found_via_query": "China religious object bronze ritual vessel ding"
         },
         {
           "id": "wc_0877",
@@ -52229,7 +52238,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0892.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Muisca_raft_Legend_of_El_Dorado_Offerings_of_gold.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Muisca_raft_Legend_of_El_Dorado_Offerings_of_gold.jpg",
+          "image_found_via_query": "Colombia religious object gold Muisca offering"
         },
         {
           "id": "wc_0902",

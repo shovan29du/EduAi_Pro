@@ -163,6 +163,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_sculpture_ritual", "wc_0492", "Arte_Cusquenha_-_Virgem_de_Copacabana-1.jpg", "Bolivia religious object Virgin Copacabana"),
     ("world_sculpture_ritual", "wc_0627", "Beeld,_Lobi,_Burkina_Faso,_Afrika_Museum,_Berg_en_Dal,_Nr._606-12.JPG", "Burkina Faso Lobi sculpture statue figure"),
     ("world_sculpture_ritual", "wc_0702", "Königsthron_Bamum_EthnM_IIIC33341.jpg", "Cameroon Bamum sculpture throne statue"),
+    ("world_sculpture_ritual", "wc_0567", "Orixa_Ossain_Sacerdote_das_folhas.JPG", "Brazil religious object Candomble Orixa"),
+    ("world_sculpture_ritual", "wc_0617", "Saint_John_of_Rila_(Ivan_Rilski).jpg", "Bulgaria religious object icon monastery Rila"),
+    ("world_sculpture_ritual", "wc_0867", "Ding_cauldron_of_Duke_Mao.jpg", "China religious object bronze ritual vessel ding"),
+    ("world_sculpture_ritual", "wc_0892", "Muisca_raft_Legend_of_El_Dorado_Offerings_of_gold.jpg", "Colombia religious object gold Muisca offering"),
 ]
 
 
