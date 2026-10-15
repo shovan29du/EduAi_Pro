@@ -70087,7 +70087,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0358.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Sacharau_z_dudoju.jpeg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Sacharau_z_dudoju.jpeg",
+          "image_found_via_query": "Belarus musical instrument dudka traditional"
         },
         {
           "id": "wc_0359",
@@ -72679,7 +72682,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0658.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tambours_du_Burundi%2C_instruments_%C3%A0_percussion_traditionnels.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tambours_du_Burundi%2C_instruments_%C3%A0_percussion_traditionnels.jpg",
+          "image_found_via_query": "Burundi musical instrument drum traditional"
         },
         {
           "id": "wc_0659",
@@ -73112,7 +73118,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0708.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Balafon-Bamougoum_%281%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Balafon-Bamougoum_%281%29.jpg",
+          "image_found_via_query": "Cameroon musical instrument balafon traditional"
         },
         {
           "id": "wc_0709",
@@ -74187,7 +74196,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0833.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Instrument_Mapuche.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Instrument_Mapuche.JPG",
+          "image_found_via_query": "Chile musical instrument trutruca Mapuche traditional"
         },
         {
           "id": "wc_0834",
@@ -74402,7 +74414,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0858.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Guzheng.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Guzheng.jpg",
+          "image_found_via_query": "China musical instrument guzheng traditional"
         },
         {
           "id": "wc_0859",
@@ -74617,7 +74632,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0883.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Acorde%C3%B3n_vallenato.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Acorde%C3%B3n_vallenato.jpg",
+          "image_found_via_query": "Colombia musical instrument vallenato accordion traditional"
         },
         {
           "id": "wc_0884",
@@ -75262,7 +75280,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0958.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bisernica%2C_instrument.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bisernica%2C_instrument.png",
+          "image_found_via_query": "Croatia musical instrument tamburica traditional"
         },
         {
           "id": "wc_0959",
@@ -75477,7 +75498,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0983.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Guiro_cubano.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Guiro_cubano.jpg",
+          "image_found_via_query": "Cuba musical instrument guiro traditional"
         },
         {
           "id": "wc_0984",
