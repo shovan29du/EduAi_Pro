@@ -68180,7 +68180,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0134.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaucho_1868c.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Gaucho_1868c.jpg",
+          "image_found_via_query": "Argentina weapon facon knife gaucho traditional"
         },
         {
           "id": "wc_0135",
@@ -72295,7 +72298,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0609.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Falx%2C_Thracian_and_Dacian_Weapon.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Falx%2C_Thracian_and_Dacian_Weapon.jpg",
+          "image_found_via_query": "Bulgaria weapon Thracian historical"
         },
         {
           "id": "wc_0610",
@@ -73164,7 +73170,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0709.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cameroon_Prestige_knife.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cameroon_Prestige_knife.jpg",
+          "image_found_via_query": "Cameroon weapon knife traditional"
         },
         {
           "id": "wc_0710",
@@ -74460,7 +74469,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_innovation",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0859.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bronze_jian_of_the_Terracotta_Army.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bronze_jian_of_the_Terracotta_Army.jpg",
+          "image_found_via_query": "China weapon sword jian historical"
         },
         {
           "id": "wc_0860",

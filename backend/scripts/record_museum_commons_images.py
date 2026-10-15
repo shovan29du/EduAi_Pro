@@ -339,6 +339,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_innovation", "wc_0883", "Acordeón_vallenato.jpg", "Colombia musical instrument vallenato accordion traditional"),
     ("world_innovation", "wc_0958", "Bisernica,_instrument.png", "Croatia musical instrument tamburica traditional"),
     ("world_innovation", "wc_0983", "Guiro_cubano.jpg", "Cuba musical instrument guiro traditional"),
+    ("world_innovation", "wc_0134", "Gaucho_1868c.jpg", "Argentina weapon facon knife gaucho traditional"),
+    ("world_innovation", "wc_0609", "Falx,_Thracian_and_Dacian_Weapon.jpg", "Bulgaria weapon Thracian historical"),
+    ("world_innovation", "wc_0709", "Cameroon_Prestige_knife.jpg", "Cameroon weapon knife traditional"),
+    ("world_innovation", "wc_0859", "Bronze_jian_of_the_Terracotta_Army.jpg", "China weapon sword jian historical"),
 ]
 
 
