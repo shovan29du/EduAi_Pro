@@ -50203,7 +50203,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0513.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Tradition_mask_from_Bosnia_at_festival_in_Ptuj_Slovenia_%2852700524245%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Tradition_mask_from_Bosnia_at_festival_in_Ptuj_Slovenia_%2852700524245%29.jpg",
+          "image_found_via_query": "Bosnia and Herzegovina mask traditional ritual"
         },
         {
           "id": "wc_0517",
@@ -50734,7 +50737,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_sculpture_ritual",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0613.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuker_mask_from_the_Surva_Festival%2C_Pernik%2C_Bulgaria.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Kuker_mask_from_the_Surva_Festival%2C_Pernik%2C_Bulgaria.jpg",
+          "image_found_via_query": "Bulgaria mask traditional ritual Kukeri"
         },
         {
           "id": "wc_0617",
@@ -75759,7 +75765,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0016.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_village_-_Outside_Herat%2C_Afghanistan_%284112258646%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_village_-_Outside_Herat%2C_Afghanistan_%284112258646%29.jpg",
+          "image_found_via_query": "Afghanistan architecture model traditional village historical"
         },
         {
           "id": "wc_0019",
@@ -82026,7 +82035,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0616.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Arhitectur%C4%83-dobrogean%C4%83.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Arhitectur%C4%83-dobrogean%C4%83.jpg",
+          "image_found_via_query": "Bulgaria architecture model vernacular traditional historical"
         },
         {
           "id": "wc_0619",
