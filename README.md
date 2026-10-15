@@ -7,7 +7,7 @@ A rule that holds across the entire codebase: **nothing is fabricated**. Every l
 ## Feature tour
 
 ### Dashboard & core learning
-- **Dashboard** — study timer, Fact of the Day, History of the Day, and Art of the Day (with a real image resolved live from Wikipedia), plus continue-learning and recommended-next-action widgets.
+- **Dashboard** — a customizable world news feed (pick your topics and outlets; headlines refresh from live RSS), study timer, Fact of the Day, History of the Day, and Art of the Day (with a real image resolved live from Wikipedia), plus continue-learning and recommended-next-action widgets.
 - **Subjects** — a persistent, explainable per-learner concept mastery map. Practice answers and lesson mini-checks update a Bayesian-style mastery estimate, schedule spaced reviews, track misconceptions, pick an adaptive difficulty, and recommend the next lesson with a visible reason.
 - **Academic levels** — Grades 1–10 plus C1, C2 (college), UG1–UG4 (undergraduate), and M1, M2 (master's), each with its own curriculum minimum (20 lessons at Levels 1–3 up to 120 at M1–M2) and its own safety profile — genuinely harmful content is always blocked at every level, while child-only topic restrictions relax for college/university/adult levels.
 - **Professional workspace** (adult/college/university) — research projects with local-document import and ranked search, bibliography/BibTeX export, configurable assessments, assignments, portfolios, career pathways, cohorts, discussions, and SCORM/xAPI/LTI export for institutional deployments.

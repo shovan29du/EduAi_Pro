@@ -8,6 +8,7 @@ import StudyTimer from './StudyTimer.jsx';
 import FactOfTheDay from './FactOfTheDay.jsx';
 import HistoryOfTheDay from './HistoryOfTheDay.jsx';
 import ArtOfTheDay from './ArtOfTheDay.jsx';
+import NewsFeed from './NewsFeed.jsx';
 
 const SECTIONS = ['Dashboard'];
 
@@ -88,6 +89,7 @@ export default function ProfessionalWorkspace({ level = '1', onNavigate, fullGra
                 <h3 className="text-xl font-bold">Welcome, {user?.display_name || 'learner'}</h3>
                 <p className="text-sm text-gray-500">Your learning, research and professional evidence in one place.</p>
               </div>
+              <NewsFeed />
               {onNavigate && (
                 <Panel title="Favourites">
                   <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
