@@ -53129,7 +53129,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0081.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Andorra_map.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Andorra_map.png",
+          "image_found_via_query": "Andorra old map historical"
         },
         {
           "id": "wc_0105",
@@ -53215,7 +53218,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0106.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Portuguese_Angola%2C_c._1500-1800.svg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Portuguese_Angola%2C_c._1500-1800.svg",
+          "image_found_via_query": "Angola old map Portuguese colonial"
         },
         {
           "id": "wc_0130",
@@ -53258,7 +53264,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0130.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Argentina._Acta_de_Independencia_%28Provincias_Unidas_en_Sud-Am%C3%A9rica%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Argentina._Acta_de_Independencia_%28Provincias_Unidas_en_Sud-Am%C3%A9rica%29.jpg",
+          "image_found_via_query": "Argentina manuscript independence document"
         },
         {
           "id": "wc_0131",
@@ -53301,7 +53310,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0131.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map.rep.arg.1883.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map.rep.arg.1883.jpg",
+          "image_found_via_query": "Argentina old map historical 19th century"
         },
         {
           "id": "wc_0155",
@@ -53344,7 +53356,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0155.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_the_Covenant%2C_Horn_Players%2C_Bible%2C_Constantinople%2C_Etchmiadzin%2C_1686%2C_illuminated_by_Icone-maker_Markos%2C_Maghakia_of_Constantinople%2C_Matenadaran_N_349%2C_089b.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ark_of_the_Covenant%2C_Horn_Players%2C_Bible%2C_Constantinople%2C_Etchmiadzin%2C_1686%2C_illuminated_by_Icone-maker_Markos%2C_Maghakia_of_Constantinople%2C_Matenadaran_N_349%2C_089b.JPG",
+          "image_found_via_query": "Armenia manuscript Matenadaran illuminated"
         },
         {
           "id": "wc_0156",
@@ -53387,7 +53402,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0156.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/The_First_Armenian_Republic_1918-1920.gif",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:The_First_Armenian_Republic_1918-1920.gif",
+          "image_found_via_query": "Armenia old map historical"
         },
         {
           "id": "wc_0180",

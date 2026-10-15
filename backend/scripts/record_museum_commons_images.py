@@ -170,6 +170,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0006", "1850_Mitchell_Map_of_Arabia,_Persia,_Afghanistan_-_Geographicus_-_Arabia-mitchell-1850.jpg", "Afghanistan old map 19th century"),
     ("world_texts_maps", "wc_0030", "Elbasan_Gospel_Manuscript.jpg", "Albania manuscript Gospel Berat"),
     ("world_texts_maps", "wc_0056", "1852_Levasseur_Map_of_Algeria_-_Geographicus_-_Algeria-levasseur-1852.jpg", "Algeria old map historical 19th century"),
+    ("world_texts_maps", "wc_0081", "Andorra_map.png", "Andorra old map historical"),
+    ("world_texts_maps", "wc_0106", "Portuguese_Angola,_c._1500-1800.svg", "Angola old map Portuguese colonial"),
+    ("world_texts_maps", "wc_0130", "Argentina._Acta_de_Independencia_(Provincias_Unidas_en_Sud-América).jpg", "Argentina manuscript independence document"),
+    ("world_texts_maps", "wc_0131", "Map.rep.arg.1883.jpg", "Argentina old map historical 19th century"),
+    ("world_texts_maps", "wc_0155", "Ark_of_the_Covenant,_Horn_Players,_Bible,_Constantinople,_Etchmiadzin,_1686,_illuminated_by_Icone-maker_Markos,_Maghakia_of_Constantinople,_Matenadaran_N_349,_089b.JPG", "Armenia manuscript Matenadaran illuminated"),
+    ("world_texts_maps", "wc_0156", "The_First_Armenian_Republic_1918-1920.gif", "Armenia old map historical"),
 ]
 
 
