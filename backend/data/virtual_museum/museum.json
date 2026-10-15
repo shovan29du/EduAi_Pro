@@ -55470,7 +55470,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0731.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/18th_Century_French_map_of_what_is_now_southern_Ontario_and_southern_Quebec.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:18th_Century_French_map_of_what_is_now_southern_Ontario_and_southern_Quebec.png",
+          "image_found_via_query": "Canada old map historical 18th century"
         },
         {
           "id": "wc_0755",
@@ -55513,7 +55516,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0755.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Cape_Verde_WDL534.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_of_Cape_Verde_WDL534.png",
+          "image_found_via_query": "Cape Verde manuscript map pen-and-ink watercolor historical"
         },
         {
           "id": "wc_0756",
@@ -55556,7 +55562,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0756.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Verde_Map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Cape_Verde_Map.jpg",
+          "image_found_via_query": "Cape Verde old map historical"
         },
         {
           "id": "wc_0780",

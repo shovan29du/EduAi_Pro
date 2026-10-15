@@ -205,6 +205,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0506", "Bosnia-Herzegovina_and_Sanjak_of_Novibazar.JPG", "Bosnia and Herzegovina old map historical 1904"),
     ("world_texts_maps", "wc_0555", "Inscricoes-Manuscrito-512.png", "Brazil manuscript colonial document Manuscrito 512"),
     ("world_texts_maps", "wc_0706", "Cameroon_Map.jpg", "Cameroon old map historical"),
+    ("world_texts_maps", "wc_0731", "18th_Century_French_map_of_what_is_now_southern_Ontario_and_southern_Quebec.png", "Canada old map historical 18th century"),
+    ("world_texts_maps", "wc_0755", "Map_of_Cape_Verde_WDL534.png", "Cape Verde manuscript map pen-and-ink watercolor historical"),
+    ("world_texts_maps", "wc_0756", "Cape_Verde_Map.jpg", "Cape Verde old map historical"),
 ]
 
 
