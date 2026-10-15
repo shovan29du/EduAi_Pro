@@ -56613,7 +56613,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0036.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Filigree.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Filigree.JPG",
+          "image_found_via_query": "Albania jewelry traditional silver filigree"
         },
         {
           "id": "wc_0037",
@@ -57586,7 +57589,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0165.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ceramic_boot-shaped_vessel_from_Urartu_%28ancient_Armenia%29_800-600_BCE_%2844451273505%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ceramic_boot-shaped_vessel_from_Urartu_%28ancient_Armenia%29_800-600_BCE_%2844451273505%29.jpg",
+          "image_found_via_query": "Armenia vessel traditional pottery Urartu"
         },
         {
           "id": "wc_0179",
@@ -60699,7 +60705,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0612.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan-shishman-coin-cng.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Ivan-shishman-coin-cng.jpg",
+          "image_found_via_query": "Bulgaria coin numismatic historical medieval"
         },
         {
           "id": "wc_0615",
@@ -60742,7 +60751,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0615.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Neolithic_vessel_%28front_view%29%2C_National_Archaeological_Museum%2C_Bulgaria.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Neolithic_vessel_%28front_view%29%2C_National_Archaeological_Museum%2C_Bulgaria.jpg",
+          "image_found_via_query": "Bulgaria vessel pottery traditional"
         },
         {
           "id": "wc_0629",
