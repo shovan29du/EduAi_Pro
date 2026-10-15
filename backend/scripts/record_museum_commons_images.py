@@ -358,6 +358,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_archaeology_design", "wc_0499", "Monolito_Ponce_(Tiwanaku,_Bolivia)_(36765790702).jpg", "Bolivia archaeological artifact Tiwanaku ancient historical"),
     ("world_archaeology_design", "wc_0624", "Bronze_Thracian_Chestplate,_400_BC,_National_Archeological_Museum_of_the_Bulgaria.jpg", "Bulgaria archaeological artifact Thracian ancient historical"),
     ("world_archaeology_design", "wc_0699", "Cambodia_2638B_-_Angkor_Wat.jpg", "Cambodia archaeological artifact Angkor ancient historical"),
+    ("world_archaeology_design", "wc_0724", "Spider;_Artifact_of_the_West_Region,_Cameroon.jpg", "Cameroon archaeological artifact historical"),
+    ("world_archaeology_design", "wc_0849", "San-Pedro-de-Atacama_R-P-Gustavo_Le_Paige_Museum.JPG", "Chile archaeological artifact Atacama ancient historical"),
+    ("world_archaeology_design", "wc_0872", "Su_shi-calligraphy.jpg", "China calligraphy traditional historical"),
+    ("world_archaeology_design", "wc_0899", "San_Agustin_parque_arqueologic.jpg", "Colombia archaeological artifact San Agustin ancient historical"),
+    ("world_archaeology_design", "wc_0949", "Diquis_Stone_Spheres_in_situ_Finca_6_CR_12_2020.jpg", "Costa Rica archaeological artifact stone sphere ancient historical"),
+    ("world_archaeology_design", "wc_0999", "Bohio_at_the_Tainos_village_in_Cuba.jpg", "Cuba archaeological artifact Taino ancient historical"),
 ]
 
 
