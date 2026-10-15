@@ -176,6 +176,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0131", "Map.rep.arg.1883.jpg", "Argentina old map historical 19th century"),
     ("world_texts_maps", "wc_0155", "Ark_of_the_Covenant,_Horn_Players,_Bible,_Constantinople,_Etchmiadzin,_1686,_illuminated_by_Icone-maker_Markos,_Maghakia_of_Constantinople,_Matenadaran_N_349,_089b.JPG", "Armenia manuscript Matenadaran illuminated"),
     ("world_texts_maps", "wc_0156", "The_First_Armenian_Republic_1918-1920.gif", "Armenia old map historical"),
+    ("world_texts_maps", "wc_0181", "Leichhardt-map.jpg", "Australia old map historical exploration"),
+    ("world_texts_maps", "wc_0206", "Map_Vienna_1547.jpg", "Austria old map historical Vienna"),
+    ("world_texts_maps", "wc_0256", "Nassau_old_town_inset_cropped_from_Bahamas_1901_Edward_Stanford_Atlas_map.jpg", "Bahamas old map historical"),
 ]
 
 

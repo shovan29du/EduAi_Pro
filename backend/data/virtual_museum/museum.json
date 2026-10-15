@@ -53491,7 +53491,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0181.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Leichhardt-map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Leichhardt-map.jpg",
+          "image_found_via_query": "Australia old map historical exploration"
         },
         {
           "id": "wc_0205",
@@ -53577,7 +53580,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0206.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_Vienna_1547.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_Vienna_1547.jpg",
+          "image_found_via_query": "Austria old map historical Vienna"
         },
         {
           "id": "wc_0230",
@@ -53749,7 +53755,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0256.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Nassau_old_town_inset_cropped_from_Bahamas_1901_Edward_Stanford_Atlas_map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Nassau_old_town_inset_cropped_from_Bahamas_1901_Edward_Stanford_Atlas_map.jpg",
+          "image_found_via_query": "Bahamas old map historical"
         },
         {
           "id": "wc_0280",
