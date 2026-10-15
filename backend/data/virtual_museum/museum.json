@@ -57359,7 +57359,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0137.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_20_centavos_1883.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Argentina_20_centavos_1883.jpg",
+          "image_found_via_query": "Argentina coin numismatic historical"
         },
         {
           "id": "wc_0140",
@@ -57445,7 +57448,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0154.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_Ceramics_P1130684.JPG",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Armenian_Ceramics_P1130684.JPG",
+          "image_found_via_query": "Armenia ceramic traditional"
         },
         {
           "id": "wc_0161",
@@ -57531,7 +57537,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0162.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Coin_of_Tiridates_II_of_Armenia.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Coin_of_Tiridates_II_of_Armenia.jpg",
+          "image_found_via_query": "Armenia coin numismatic historical"
         },
         {
           "id": "wc_0165",
@@ -57789,7 +57798,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0204.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Registered_as_chamber_pot%2C_Vienna_porcelain%2C_boat_shaped_Wellcome_L0008742.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Registered_as_chamber_pot%2C_Vienna_porcelain%2C_boat_shaped_Wellcome_L0008742.jpg",
+          "image_found_via_query": "Austria ceramic porcelain traditional Vienna"
         },
         {
           "id": "wc_0211",
@@ -57875,7 +57887,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_decorative_arts",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0212.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Austria_1908_100_Kronen.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Austria_1908_100_Kronen.jpg",
+          "image_found_via_query": "Austria coin numismatic historical"
         },
         {
           "id": "wc_0215",

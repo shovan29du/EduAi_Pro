@@ -216,6 +216,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0054", "Poterie_kabyle.jpg", "Algeria ceramic pottery traditional Kabyle"),
     ("world_decorative_arts", "wc_0061", "Bijou_Kabyle.jpg", "Algeria jewelry traditional silver Kabyle"),
     ("world_decorative_arts", "wc_0065", "Poterie_kabyle_3.jpg", "Algeria vessel pottery traditional Kabyle"),
+    ("world_decorative_arts", "wc_0137", "Argentina_20_centavos_1883.jpg", "Argentina coin numismatic historical"),
+    ("world_decorative_arts", "wc_0154", "Armenian_Ceramics_P1130684.JPG", "Armenia ceramic traditional"),
+    ("world_decorative_arts", "wc_0162", "Coin_of_Tiridates_II_of_Armenia.jpg", "Armenia coin numismatic historical"),
+    ("world_decorative_arts", "wc_0204", "Registered_as_chamber_pot,_Vienna_porcelain,_boat_shaped_Wellcome_L0008742.jpg", "Austria ceramic porcelain traditional Vienna"),
+    ("world_decorative_arts", "wc_0212", "Austria_1908_100_Kronen.jpg", "Austria coin numismatic historical"),
 ]
 
 
