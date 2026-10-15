@@ -64398,7 +64398,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0270.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Junkanoo_costume.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Junkanoo_costume.jpg",
+          "image_found_via_query": "Bahamas traditional clothing costume Junkanoo"
         },
         {
           "id": "wc_0278",
@@ -64484,7 +64487,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0295.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Wedding_Dress_of_Bahrain.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Wedding_Dress_of_Bahrain.jpg",
+          "image_found_via_query": "Bahrain traditional clothing costume"
         },
         {
           "id": "wc_0303",
@@ -64527,7 +64533,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0303.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Weaving_jamdani_at_BSCIC_Jamdani_palli%2C_Narayanganj_75.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Weaving_jamdani_at_BSCIC_Jamdani_palli%2C_Narayanganj_75.jpg",
+          "image_found_via_query": "Bangladesh textile jamdani weaving traditional"
         },
         {
           "id": "wc_0320",
@@ -64570,7 +64579,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0320.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Bangladeshi_girls_wearing_traditional_sari_with_flower_crown_at_Pohela_Boishakh_celebration_2016_%2801%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Bangladeshi_girls_wearing_traditional_sari_with_flower_crown_at_Pohela_Boishakh_celebration_2016_%2801%29.jpg",
+          "image_found_via_query": "Bangladesh traditional clothing costume sari"
         },
         {
           "id": "wc_0328",
@@ -64914,7 +64926,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0420.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Garifuna_dancers_in_Dangriga%2C_Belize.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Garifuna_dancers_in_Dangriga%2C_Belize.jpg",
+          "image_found_via_query": "Belize traditional clothing costume Garifuna"
         },
         {
           "id": "wc_0428",

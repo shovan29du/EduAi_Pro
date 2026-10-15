@@ -281,6 +281,11 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0220", "Gruppe_von_Damen_in_der_Wörthersee_Tracht,_der_Herr_im_Kärntner_Anzug,_Österreich.jpg", "Austria traditional clothing Tracht costume"),
     ("world_textiles_dress", "wc_0228", "Pileless_Dragon_carpet_from_Azerbaijan,_19th_century,_wool,_cotton,_red_warp,_249_x_100_cm,_T138-1959.jpg", "Azerbaijan textile carpet weaving traditional"),
     ("world_textiles_dress", "wc_0245", "Azerbaijan_national_costume_from_Karabakh_in_Heydar_Aliyev_Center.jpg", "Azerbaijan traditional clothing costume"),
+    ("world_textiles_dress", "wc_0270", "Junkanoo_costume.jpg", "Bahamas traditional clothing costume Junkanoo"),
+    ("world_textiles_dress", "wc_0295", "Traditional_Wedding_Dress_of_Bahrain.jpg", "Bahrain traditional clothing costume"),
+    ("world_textiles_dress", "wc_0303", "Weaving_jamdani_at_BSCIC_Jamdani_palli,_Narayanganj_75.jpg", "Bangladesh textile jamdani weaving traditional"),
+    ("world_textiles_dress", "wc_0320", "Bangladeshi_girls_wearing_traditional_sari_with_flower_crown_at_Pohela_Boishakh_celebration_2016_(01).jpg", "Bangladesh traditional clothing costume sari"),
+    ("world_textiles_dress", "wc_0420", "Garifuna_dancers_in_Dangriga,_Belize.jpg", "Belize traditional clothing costume Garifuna"),
 ]
 
 
