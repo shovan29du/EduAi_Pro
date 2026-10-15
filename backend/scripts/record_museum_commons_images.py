@@ -261,6 +261,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_decorative_arts", "wc_0437", "50_francs_CFA_(XOF)_avers.png", "Benin coin West African CFA franc numismatic"),
     ("world_decorative_arts", "wc_0637", "100_francs_CFA_(XOF)_revers.png", "Burkina Faso coin West African CFA franc numismatic"),
     ("world_decorative_arts", "wc_0837", "Peso_Chileno_1933.jpg", "Chile coin numismatic historical"),
+    ("world_decorative_arts", "wc_0886", "Objetos_de_adorno_precolombinos_de_Colombia.JPG", "Colombia jewelry gold pre-Columbian traditional"),
+    ("world_decorative_arts", "wc_0929", "Pre-Columbian_pottery_of_Costa_Rica_(1).jpg", "Costa Rica ceramic pottery traditional"),
+    ("world_decorative_arts", "wc_0936", "Oro_precolombino._Jaguar._Costa_Rica.JPG", "Costa Rica jewelry gold pre-Columbian traditional"),
 ]
 
 
