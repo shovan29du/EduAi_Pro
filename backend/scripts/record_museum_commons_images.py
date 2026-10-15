@@ -210,6 +210,9 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0756", "Cape_Verde_Map.jpg", "Cape Verde old map historical"),
     ("world_texts_maps", "wc_0781", "Central_African_Republic_Map.jpg", "Central African Republic map historical"),
     ("world_texts_maps", "wc_0806", "Chad_relief_location_map.jpg", "Chad map historical"),
+    ("world_decorative_arts", "wc_0012", "Coin_of_Ahmad_Shah_Durrani,_Mashhad_Mint.png", "Afghanistan coin ancient numismatic"),
+    ("world_decorative_arts", "wc_0037", "Face_of_King_Gentius_on_Ancient_Illyrian_coin.jpg", "Albania coin ancient numismatic"),
+    ("world_decorative_arts", "wc_0040", "Albania_plate.JPG", "Albania vessel pottery traditional"),
 ]
 
 
