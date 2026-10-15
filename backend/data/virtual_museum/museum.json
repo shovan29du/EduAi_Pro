@@ -79011,7 +79011,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0323.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Woman_painting_traditional_Bengali_art_%2C_Patachitra.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Woman_painting_traditional_Bengali_art_%2C_Patachitra.jpg",
+          "image_found_via_query": "Bangladesh folk art Patachitra traditional"
         },
         {
           "id": "wc_0324",
@@ -79659,7 +79662,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0391.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Grande_Place%2C_the_Old_Houses%2C_Brussels%2C_Belgium_WDL4142.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:La_Grande_Place%2C_the_Old_Houses%2C_Brussels%2C_Belgium_WDL4142.png",
+          "image_found_via_query": "Belgium architecture model Grand Place traditional historical"
         },
         {
           "id": "wc_0394",
@@ -81471,7 +81477,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0566.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Arquitetura_colonial_%28Ouro_Preto%29.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Arquitetura_colonial_%28Ouro_Preto%29.jpg",
+          "image_found_via_query": "Brazil architecture model colonial Ouro Preto traditional historical"
         },
         {
           "id": "wc_0569",
@@ -82116,7 +82125,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0623.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Martenitsa-bracelet-01.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Martenitsa-bracelet-01.jpg",
+          "image_found_via_query": "Bulgaria folk art Martenitsa traditional"
         },
         {
           "id": "wc_0624",
@@ -82764,7 +82776,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0691.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat_M2.png",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_M2.png",
+          "image_found_via_query": "Cambodia architecture model Angkor Wat traditional historical"
         },
         {
           "id": "wc_0694",
@@ -83286,7 +83301,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0741.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Haida_Houses.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Haida_Houses.jpg",
+          "image_found_via_query": "Canada architecture model totem pole Haida traditional historical"
         },
         {
           "id": "wc_0744",
@@ -84579,7 +84597,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_archaeology_design",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0866.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/20251018_Model_of_Yongning_Temple_Pagoda.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:20251018_Model_of_Yongning_Temple_Pagoda.jpg",
+          "image_found_via_query": "China architecture model pagoda traditional historical"
         },
         {
           "id": "wc_0869",
