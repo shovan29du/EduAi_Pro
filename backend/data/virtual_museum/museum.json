@@ -65966,7 +65966,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0703.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Togho_03.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Togho_03.jpg",
+          "image_found_via_query": "Cameroon textile toghu weaving traditional"
         },
         {
           "id": "wc_0720",
@@ -66009,7 +66012,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0720.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Bakossi_traditional_outfits.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Bakossi_traditional_outfits.jpg",
+          "image_found_via_query": "Cameroon traditional clothing costume"
         },
         {
           "id": "wc_0728",
@@ -66095,7 +66101,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0745.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Canadian_First_Nations_girl%2C_costume_with_integrated_Hello_Kitty_earrings.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Canadian_First_Nations_girl%2C_costume_with_integrated_Hello_Kitty_earrings.jpg",
+          "image_found_via_query": "Canada First Nations traditional clothing costume"
         },
         {
           "id": "wc_0753",
@@ -66181,7 +66190,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0770.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Carnival_participant_in_Mindelo%2C_Cape_Verde.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Carnival_participant_in_Mindelo%2C_Cape_Verde.jpg",
+          "image_found_via_query": "Cape Verde traditional clothing costume"
         },
         {
           "id": "wc_0778",
@@ -66439,7 +66451,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0845.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Poncho_de_Huaso.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Poncho_de_Huaso.jpg",
+          "image_found_via_query": "Chile traditional clothing costume huaso"
         },
         {
           "id": "wc_0853",
@@ -66525,7 +66540,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_textiles_dress",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0870.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_woman_in_Qipao.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Chinese_woman_in_Qipao.jpg",
+          "image_found_via_query": "China traditional clothing qipao costume"
         },
         {
           "id": "wc_0878",

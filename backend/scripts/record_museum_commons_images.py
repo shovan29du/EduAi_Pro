@@ -302,6 +302,12 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_textiles_dress", "wc_0645", "Young_Girl_in_Traditional_Dress_-_Bani_-_Sahel_Region_-_Burkina_Faso_-_02.jpg", "Burkina Faso traditional clothing costume"),
     ("world_textiles_dress", "wc_0678", "Khmersilk.JPG", "Cambodia textile silk weaving traditional"),
     ("world_textiles_dress", "wc_0695", "Khmer_clothes_sampot_sbai.jpg", "Cambodia traditional clothing costume sampot"),
+    ("world_textiles_dress", "wc_0703", "Togho_03.jpg", "Cameroon textile toghu weaving traditional"),
+    ("world_textiles_dress", "wc_0720", "The_Bakossi_traditional_outfits.jpg", "Cameroon traditional clothing costume"),
+    ("world_textiles_dress", "wc_0745", "Canadian_First_Nations_girl,_costume_with_integrated_Hello_Kitty_earrings.jpg", "Canada First Nations traditional clothing costume"),
+    ("world_textiles_dress", "wc_0770", "Carnival_participant_in_Mindelo,_Cape_Verde.jpg", "Cape Verde traditional clothing costume"),
+    ("world_textiles_dress", "wc_0845", "Poncho_de_Huaso.jpg", "Chile traditional clothing costume huaso"),
+    ("world_textiles_dress", "wc_0870", "Chinese_woman_in_Qipao.jpg", "China traditional clothing qipao costume"),
 ]
 
 
