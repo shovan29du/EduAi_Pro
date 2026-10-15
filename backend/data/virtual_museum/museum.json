@@ -54599,7 +54599,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0505.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarajevo_Haggadah_Ma_Nishtana.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Sarajevo_Haggadah_Ma_Nishtana.jpg",
+          "image_found_via_query": "Bosnia Herzegovina manuscript Haggadah illuminated"
         },
         {
           "id": "wc_0506",
@@ -54728,7 +54731,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0531.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/British_bechuanaland_1887.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:British_bechuanaland_1887.jpg",
+          "image_found_via_query": "Botswana old map historical Bechuanaland"
         },
         {
           "id": "wc_0555",
@@ -54814,7 +54820,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0556.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_16thc_map.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Brazil_16thc_map.jpg",
+          "image_found_via_query": "Brazil old map historical colonial"
         },
         {
           "id": "wc_0580",
@@ -54900,7 +54909,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0581.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Brunei_Oct1844.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Map_of_Brunei_Oct1844.jpg",
+          "image_found_via_query": "Brunei old map historical"
         },
         {
           "id": "wc_0605",
