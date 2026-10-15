@@ -179,6 +179,10 @@ MATCHES: list[tuple[str, str, str, str]] = [
     ("world_texts_maps", "wc_0181", "Leichhardt-map.jpg", "Australia old map historical exploration"),
     ("world_texts_maps", "wc_0206", "Map_Vienna_1547.jpg", "Austria old map historical Vienna"),
     ("world_texts_maps", "wc_0256", "Nassau_old_town_inset_cropped_from_Bahamas_1901_Edward_Stanford_Atlas_map.jpg", "Bahamas old map historical"),
+    ("world_texts_maps", "wc_0281", "Sketch_map_of_Qatar_and_Bahrain_in_1933.jpg", "Bahrain old map historical"),
+    ("world_texts_maps", "wc_0306", "1786_-_A_map_of_Bengal,_Bahar,_Oude_&_Allahabad_-_James_Rennell_-_William_Faden.jpg", "Bangladesh old map historical Bengal"),
+    ("world_texts_maps", "wc_0331", "An_accurate_map_of_the_island_of_Barbadoes._Drawn_from_an_actual_survey_containing_all_the_towns,_churches,_fortifications,_roads,_paths,_plantations,_etc._LOC_74693271.jpg", "Barbados old map historical"),
+    ("world_texts_maps", "wc_0355", "Skaryna_1517.jpg", "Belarus manuscript Statute Francysk Skaryna"),
 ]
 
 

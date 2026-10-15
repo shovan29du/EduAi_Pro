@@ -53844,7 +53844,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0281.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Sketch_map_of_Qatar_and_Bahrain_in_1933.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Sketch_map_of_Qatar_and_Bahrain_in_1933.jpg",
+          "image_found_via_query": "Bahrain old map historical"
         },
         {
           "id": "wc_0305",
@@ -53930,7 +53933,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0306.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/1786_-_A_map_of_Bengal%2C_Bahar%2C_Oude_%26_Allahabad_-_James_Rennell_-_William_Faden.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:1786_-_A_map_of_Bengal%2C_Bahar%2C_Oude_%26_Allahabad_-_James_Rennell_-_William_Faden.jpg",
+          "image_found_via_query": "Bangladesh old map historical Bengal"
         },
         {
           "id": "wc_0330",
@@ -54016,7 +54022,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0331.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/An_accurate_map_of_the_island_of_Barbadoes._Drawn_from_an_actual_survey_containing_all_the_towns%2C_churches%2C_fortifications%2C_roads%2C_paths%2C_plantations%2C_etc._LOC_74693271.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:An_accurate_map_of_the_island_of_Barbadoes._Drawn_from_an_actual_survey_containing_all_the_towns%2C_churches%2C_fortifications%2C_roads%2C_paths%2C_plantations%2C_etc._LOC_74693271.jpg",
+          "image_found_via_query": "Barbados old map historical"
         },
         {
           "id": "wc_0355",
@@ -54059,7 +54068,10 @@
           },
           "wiki_title": "",
           "collection_category": "world_texts_maps",
-          "thumbnail_local": "/museum-resource/thumbnails/world_collections/wc-0355.svg"
+          "thumbnail_local": "https://commons.wikimedia.org/wiki/Special:FilePath/Skaryna_1517.jpg",
+          "image_source": "wikimedia_commons",
+          "image_source_url": "https://commons.wikimedia.org/wiki/File:Skaryna_1517.jpg",
+          "image_found_via_query": "Belarus manuscript Statute Francysk Skaryna"
         },
         {
           "id": "wc_0356",
