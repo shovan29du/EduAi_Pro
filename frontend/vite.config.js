@@ -1,0 +1,79 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { VitePWA } from 'vite-plugin-pwa';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
+const pkg = JSON.parse(readFileSync(fileURLToPath(new URL('./package.json', import.meta.url)), 'utf-8'));
+
+export default defineConfig({
+  define: {
+    __APP_VERSION__: JSON.stringify(pkg.version),
+  },
+  plugins: [
+    react(),
+    VitePWA({
+      // 'prompt' (not 'autoUpdate') so a newly installed version waits for
+      // the user to explicitly accept the update via UpdatePrompt.jsx,
+      // instead of silently swapping the app out from under someone
+      // mid-exam or mid-code-editor session.
+      registerType: 'prompt',
+      injectRegister: 'auto',
+      manifest: {
+        name: 'EduAi_Pro',
+        short_name: 'EduAi_Pro',
+        start_url: '/',
+        display: 'standalone',
+        background_color: '#f9fafb',
+        theme_color: '#7c3aed',
+        icons: [
+          { src: '/pwa-192x192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: '/pwa-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: '/maskable-icon-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+        ],
+      },
+      workbox: {
+        navigateFallback: '/index.html',
+        runtimeCaching: [
+          {
+            // Cache syllabus data so a grade already viewed once stays
+            // readable offline; refresh from the network when available.
+            urlPattern: /\/api\/grade\/\d+$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'syllabus-cache',
+              expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24 * 7 },
+            },
+          },
+          {
+            urlPattern: /\/api\/(safe-music|safe-channels|profiles)$/,
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'static-data-cache' },
+          },
+        ],
+      },
+    }),
+  ],
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': process.env.BACKEND_URL || 'http://localhost:8000',
+      '/movie-thumbnails': process.env.BACKEND_URL || 'http://localhost:8000',
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          recharts: ['recharts'],
+          'react-player': ['react-player'],
+        },
+      },
+    },
+  },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './tests/setup.js',
+  },
+});

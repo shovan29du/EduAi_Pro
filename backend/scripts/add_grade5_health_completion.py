@@ -1,0 +1,205 @@
+#!/usr/bin/env python3
+"""Depth pass, Grade 5 Health Education: fill in real, hand-checked
+data_table content for the 28 Grade 5 Health Education lessons not
+covered by the earlier breadth-first batch. Brings Grade 5 Health
+Education to full 30/30 coverage.
+
+Content covers standard, uncontroversial, age-appropriate health
+guidance -- nothing fabricated or presented as fact when it's actually
+invented. Sensitive topics (puberty, relationships, consent) stick to
+general, factual, age-appropriate framing that emphasizes trusted
+adults and healthcare providers for specifics.
+
+Idempotent: only fills in fields that aren't already set.
+
+Re-run after editing:
+    python3 backend/scripts/add_grade5_health_completion.py
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+SYLLABUS_PATH = BASE_DIR / "syllabus" / "grade5.json"
+
+
+def table(headers, rows):
+    return {"headers": headers, "rows": rows}
+
+
+CHARTS: dict[str, dict] = {
+    "he-g5-l1": {
+        "data_table": table(["Fact", "Detail"], [
+            ["Puberty", "A stage of physical growth and change"], ["Timing", "Varies from person to person"],
+        ]),
+    },
+    "hlt-g5-l3": {
+        "data_table": table(["Friendship Quality", "Example"], [
+            ["Kindness", "Sharing and helping"], ["Trust", "Keeping promises"],
+        ]),
+    },
+    "hlt-g5-l4": {
+        "data_table": table(["Substance", "Risk"], [
+            ["Tobacco", "Harms the lungs and heart"], ["Alcohol", "Impairs judgment and harms the body"],
+        ]),
+    },
+    "hlt-g5-l5": {
+        "data_table": table(["Age Group", "CDC-Recommended Sleep"], [
+            ["School age (6-12 years)", "9-12 hours"], ["Teens (13-18 years)", "8-10 hours"],
+        ]),
+    },
+    "hlt-g5-l6": {
+        "data_table": table(["Concept", "Meaning"], [
+            ["Body image", "How a person views their own body"], ["Self-esteem", "How a person values themselves"],
+        ]),
+    },
+    "health-education-g5-l7": {
+        "data_table": table(["Feeling", "What It Might Look Like"], [
+            ["Happy", "Smiling, laughing"], ["Frustrated", "Furrowed brow, clenched fists"],
+        ]),
+    },
+    "health-education-g5-l8": {
+        "data_table": table(["Strategy", "How It Helps"], [
+            ["Deep breathing", "Calms the body"], ["Talking to a trusted adult", "Helps process feelings"],
+        ]),
+    },
+    "health-education-g5-l9": {
+        "data_table": table(["Exercise Benefit", "Example"], [
+            ["Stronger heart", "Running, swimming"], ["Stronger muscles", "Climbing, jumping"],
+        ]),
+    },
+    "health-education-g5-l10": {
+        "data_table": table(["Nutrient", "Function"], [
+            ["Protein", "Builds and repairs muscle"], ["Carbohydrates", "Provides energy"], ["Fiber", "Aids digestion"],
+        ]),
+    },
+    "health-education-g5-l11": {
+        "data_table": table(["Fact", "Detail"], [
+            ["Human body water content", "About 60% water (average adult)"],
+            ["General guidance", "Drink water throughout the day, more when active"],
+        ]),
+    },
+    "health-education-g5-l12": {
+        "data_table": table(["Hygiene Habit", "Frequency"], [
+            ["Brushing teeth", "Twice daily"], ["Bathing", "Daily"],
+        ]),
+    },
+    "health-education-g5-l13": {
+        "data_table": table(["Way Germs Spread", "Example"], [
+            ["Touching", "Shaking hands with a sick person"], ["Coughing/sneezing", "Droplets in the air"],
+        ]),
+    },
+    "health-education-g5-l14": {
+        "data_table": table(["Trusted Adult Example", "Why"], [
+            ["Parent or guardian", "Responsible for your care"], ["School nurse", "Trained to help with health concerns"],
+        ]),
+    },
+    "health-education-g5-l15": {
+        "data_table": table(["Fact", "Detail"], [
+            ["Media images", "Often edited and not fully realistic"],
+            ["Healthy mindset", "Focus on how your body feels and functions"],
+        ]),
+    },
+    "health-education-g5-l16": {
+        "data_table": table(["Friendship Quality", "Example"], [
+            ["Respect", "Valuing each other's boundaries"], ["Support", "Being there in tough times"],
+        ]),
+    },
+    "health-education-g5-l17": {
+        "data_table": table(["Step", "Action"], [
+            ["Tell a trusted adult", "Reports the behavior"], ["Support the person being bullied", "Reduces isolation"],
+        ]),
+    },
+    "health-education-g5-l18": {
+        "data_table": table(["Term", "Meaning"], [
+            ["Peer pressure", "Influence from friends to act a certain way"],
+            ["Healthy response", "Making your own informed choices"],
+        ]),
+    },
+    "health-education-g5-l19": {
+        "data_table": table(["Term", "Meaning"], [
+            ["Mental health", "Emotional and psychological well-being"],
+        ]),
+    },
+    "health-education-g5-l21": {
+        "data_table": table(["Rule", "Why"], [
+            ["Only take medicine given by a trusted adult", "Prevents accidental overdose"],
+            ["Never share medicine", "Different medicines suit different people"],
+        ]),
+    },
+    "health-education-g5-l22": {
+        "data_table": table(["Strategy", "How It Helps"], [
+            ["Naming the emotion", "Helps process it"], ["Taking a break", "Provides space to calm down"],
+        ]),
+    },
+    "health-education-g5-l23": {
+        "data_table": table(["Gland", "Function"], [
+            ["Thyroid", "Regulates metabolism"], ["Pituitary", "Controls growth and other hormones"],
+        ]),
+    },
+    "health-education-g5-l24": {
+        "data_table": table(["Habit", "Recommendation"], [
+            ["Screen breaks", "Take regular breaks from screens"],
+            ["Balance", "Combine screen time with physical activity"],
+        ]),
+    },
+    "health-education-g5-l25": {
+        "data_table": table(["Term", "Meaning"], [
+            ["Consent", "Agreeing to something willingly"],
+            ["Personal space", "The physical distance a person needs to feel comfortable"],
+        ]),
+    },
+    "health-education-g5-l26": {
+        "data_table": table(["Source Type", "Reliability"], [
+            ["Healthcare provider", "Trained and reliable"], ["Unverified social media post", "May be inaccurate"],
+        ]),
+    },
+    "health-education-g5-l27": {
+        "data_table": table(["Habit", "Why"], [
+            ["Covering coughs and sneezes", "Reduces germ spread"], ["Staying home when sick", "Protects others"],
+        ]),
+    },
+    "health-education-g5-l28": {
+        "data_table": table(["Term", "Meaning"], [
+            ["Allergy", "When the body reacts strongly to something harmless"],
+            ["Allergic reaction", "Symptoms like sneezing, rash, or swelling"],
+        ]),
+    },
+    "health-education-g5-l29": {
+        "data_table": table(["Strategy", "How It Helps"], [
+            ["Celebrating small wins", "Builds confidence over time"],
+            ["Positive self-talk", "Encourages a healthy mindset"],
+        ]),
+    },
+    "health-education-g5-l30": {
+        "data_table": table(["Goal Type", "Example"], [
+            ["Short-term", "Drink more water this week"], ["Long-term", "Build a regular exercise habit"],
+        ]),
+    },
+}
+
+
+def main() -> None:
+    data = json.loads(SYLLABUS_PATH.read_text(encoding="utf-8"))
+    lessons = data["subjects"]["Health Education"]["lessons"]
+    by_id = {l["id"]: l for l in lessons}
+
+    missing = [lid for lid in CHARTS if lid not in by_id]
+    if missing:
+        raise SystemExit(f"Lesson ids not found in grade5.json Health Education: {missing}")
+
+    updated = 0
+    for lid, fields in CHARTS.items():
+        lesson = by_id[lid]
+        for key, value in fields.items():
+            if key not in lesson:
+                lesson[key] = value
+                updated += 1
+
+    SYLLABUS_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    print(f"Added {updated} fields across {len(CHARTS)} Grade 5 Health Education lessons (completing 30/30).")
+
+
+if __name__ == "__main__":
+    main()
