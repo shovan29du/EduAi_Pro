@@ -29,6 +29,10 @@ IS_MAC = platform.system() == "Darwin"
 IS_LINUX = platform.system() == "Linux"
 MIN_PYTHON = (3, 9)
 MIN_NODE = (20, 19, 0)
+# Backend port for the dev-mode launcher (separate backend + frontend dev
+# server, as opposed to start.sh's single built-and-served setup). Not 8000,
+# since that's commonly already taken by other local dev tools.
+BACKEND_PORT = 8080
 
 
 def check_python_version():
@@ -126,8 +130,9 @@ def write_launcher() -> Path:
         launcher.write_text(
             "@echo off\r\n"
             f'cd "{BACKEND_DIR}"\r\n'
-            f'start "EduAi_Pro backend" "{py}" -m uvicorn app.main:app --port 8000\r\n'
+            f'start "EduAi_Pro backend" "{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
             f'cd "{FRONTEND_DIR}"\r\n'
+            f'set BACKEND_URL=http://localhost:{BACKEND_PORT}\r\n'
             f'start "EduAi_Pro frontend" "{npm}" run dev\r\n'
             "timeout /t 3 >nul\r\n"
             "start http://localhost:5173\r\n"
@@ -138,8 +143,8 @@ def write_launcher() -> Path:
         open_cmd = "open" if IS_MAC else "xdg-open"
         launcher.write_text(
             "#!/usr/bin/env bash\n"
-            f'cd "{BACKEND_DIR}" && "{py}" -m uvicorn app.main:app --port 8000 &\n'
-            f'cd "{FRONTEND_DIR}" && npm run dev &\n'
+            f'cd "{BACKEND_DIR}" && "{py}" -m uvicorn app.main:app --port {BACKEND_PORT} &\n'
+            f'cd "{FRONTEND_DIR}" && BACKEND_URL=http://localhost:{BACKEND_PORT} npm run dev &\n'
             "sleep 3\n"
             f"{open_cmd} http://localhost:5173\n"
             "wait\n"
