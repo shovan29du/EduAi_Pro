@@ -11,13 +11,20 @@ export default function LanguageAcademy() {
   const [quizData, setQuizData] = useState([]);
   const [tab, setTab] = useState('overview');
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [reloadToken, setReloadToken] = useState(0);
 
   useEffect(() => {
+    setLoading(true);
+    setError('');
     fetch('/api/languages')
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`Server returned ${r.status}`);
+        return r.json();
+      })
       .then((d) => { setLanguages(d.languages || []); setLoading(false); })
-      .catch(() => setLoading(false));
-  }, []);
+      .catch((err) => { setError(err.message || 'Could not load languages.'); setLoading(false); });
+  }, [reloadToken]);
 
   async function selectLang(code) {
     setLoading(true);
@@ -62,6 +69,22 @@ export default function LanguageAcademy() {
           <h2 className="text-xl font-bold">🌍 Language Academy</h2>
           <p className="text-sm opacity-90">Learn 10 world languages</p>
         </div>
+        {error && (
+          <div role="alert" className="rounded-lg border border-red-300 bg-red-50 p-4 text-red-700 dark:border-red-700 dark:bg-red-950 dark:text-red-300">
+            <p className="font-semibold">Could not load languages</p>
+            <p className="mt-1 text-sm">{error}</p>
+            <button
+              type="button"
+              onClick={() => setReloadToken((n) => n + 1)}
+              className="mt-2 rounded-lg bg-red-600 px-3 py-1 text-sm font-medium text-white hover:bg-red-700"
+            >
+              Try again
+            </button>
+          </div>
+        )}
+        {!error && languages.length === 0 && (
+          <p className="text-sm text-gray-500 dark:text-gray-400">No languages available right now.</p>
+        )}
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
           {languages.map((lang) => (
             <button
