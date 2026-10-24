@@ -134,8 +134,17 @@ def write_launcher() -> Path:
             "@echo off\r\n"
             f'cd "{FRONTEND_DIR}"\r\n'
             f'"{npm}" run build\r\n'
+            "if errorlevel 1 (\r\n"
+            "  echo.\r\n"
+            "  echo Frontend build failed -- see the error above.\r\n"
+            "  pause\r\n"
+            "  exit /b 1\r\n"
+            ")\r\n"
             f'cd "{BACKEND_DIR}"\r\n'
-            f'start "EduAi_Pro" "{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
+            # Runs the server in its own window via "cmd /k" (not just the
+            # bare command) so that window stays open and shows the error
+            # if uvicorn fails to start, instead of flashing shut.
+            f'start "EduAi_Pro" cmd /k ""{py}" -m uvicorn app.main:app --port {BACKEND_PORT}"\r\n'
             "timeout /t 3 >nul\r\n"
             f"start http://localhost:{BACKEND_PORT}\r\n"
         )
