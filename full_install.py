@@ -121,21 +121,23 @@ def install_frontend():
 
 
 def write_launcher() -> Path:
-    """Writes a script that starts the backend and frontend dev servers and
-    opens the app in a browser, returning its path."""
+    """Writes a script that builds the frontend and starts the backend,
+    which serves both the API and the built frontend on one single port --
+    the same single-process setup start.sh uses, so there is never a
+    separate frontend dev server/proxy to keep in sync with the backend.
+    Returns the launcher's path."""
     if IS_WINDOWS:
         launcher = REPO_ROOT / "start_EduAi_Pro.bat"
         py = venv_python()
         npm = shutil.which("npm") or "npm"
         launcher.write_text(
             "@echo off\r\n"
-            f'cd "{BACKEND_DIR}"\r\n'
-            f'start "EduAi_Pro backend" "{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
             f'cd "{FRONTEND_DIR}"\r\n'
-            f'set BACKEND_URL=http://localhost:{BACKEND_PORT}\r\n'
-            f'start "EduAi_Pro frontend" "{npm}" run dev\r\n'
+            f'"{npm}" run build\r\n'
+            f'cd "{BACKEND_DIR}"\r\n'
+            f'start "EduAi_Pro" "{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
             "timeout /t 3 >nul\r\n"
-            "start http://localhost:5173\r\n"
+            f"start http://localhost:{BACKEND_PORT}\r\n"
         )
     else:
         launcher = REPO_ROOT / "start_EduAi_Pro.sh"
@@ -143,10 +145,10 @@ def write_launcher() -> Path:
         open_cmd = "open" if IS_MAC else "xdg-open"
         launcher.write_text(
             "#!/usr/bin/env bash\n"
+            f'cd "{FRONTEND_DIR}" && npm run build\n'
             f'cd "{BACKEND_DIR}" && "{py}" -m uvicorn app.main:app --port {BACKEND_PORT} &\n'
-            f'cd "{FRONTEND_DIR}" && BACKEND_URL=http://localhost:{BACKEND_PORT} npm run dev &\n'
             "sleep 3\n"
-            f"{open_cmd} http://localhost:5173\n"
+            f"{open_cmd} http://localhost:{BACKEND_PORT}\n"
             "wait\n"
         )
         launcher.chmod(launcher.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
