@@ -193,6 +193,14 @@ def desktop_dirs():
 
 def create_shortcut_windows(desktop_dir: Path, launcher: Path):
     shortcut_path = desktop_dir / "EduAi_Pro.lnk"
+    # Delete any existing shortcut (or an older fallback .bat copy) first,
+    # so a stale target/icon/working-directory from a previous install can
+    # never linger -- every run starts from a clean slate.
+    for stale in (shortcut_path, desktop_dir / "EduAi_Pro.bat"):
+        try:
+            stale.unlink(missing_ok=True)
+        except OSError as exc:
+            print(f"Could not remove old shortcut {stale}: {exc}")
     try:
         icon_line = (
             f"$shortcut.IconLocation = '{str(ICON_ICO).replace(chr(39), chr(39) * 2)}'; "
