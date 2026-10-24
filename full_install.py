@@ -130,9 +130,26 @@ def write_launcher() -> Path:
         launcher = REPO_ROOT / "start_EduAi_Pro.bat"
         py = venv_python()
         npm = shutil.which("npm") or "npm"
+
+        # The backend gets its own tiny script file rather than being
+        # launched as a "start cmd /k ..." one-liner: nested quotes in that
+        # form are notoriously unreliable in cmd.exe and can silently fail
+        # to launch anything at all. A real .bat file, with an unconditional
+        # pause at the end, always opens its own window and can never
+        # vanish without showing whatever uvicorn printed.
+        run_backend = BACKEND_DIR / "run_backend.bat"
+        run_backend.write_text(
+            "@echo off\r\n"
+            f'cd /d "{BACKEND_DIR}"\r\n'
+            f'"{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
+            "echo.\r\n"
+            "echo Backend stopped (or failed to start -- see any error above).\r\n"
+            "pause\r\n"
+        )
+
         launcher.write_text(
             "@echo off\r\n"
-            f'cd "{FRONTEND_DIR}"\r\n'
+            f'cd /d "{FRONTEND_DIR}"\r\n'
             f'"{npm}" run build\r\n'
             "if errorlevel 1 (\r\n"
             "  echo.\r\n"
@@ -140,11 +157,10 @@ def write_launcher() -> Path:
             "  pause\r\n"
             "  exit /b 1\r\n"
             ")\r\n"
-            f'cd "{BACKEND_DIR}"\r\n'
-            # Runs the server in its own window via "cmd /k" (not just the
-            # bare command) so that window stays open and shows the error
-            # if uvicorn fails to start, instead of flashing shut.
-            f'start "EduAi_Pro" cmd /k ""{py}" -m uvicorn app.main:app --port {BACKEND_PORT}"\r\n'
+            # The leading "" is the empty-title argument "start" expects
+            # before the program to run -- without it, "start" can mistake
+            # a quoted path for the window title instead of the command.
+            f'start "" "{run_backend}"\r\n'
             "timeout /t 3 >nul\r\n"
             f"start http://localhost:{BACKEND_PORT}\r\n"
         )
