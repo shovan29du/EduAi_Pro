@@ -131,12 +131,8 @@ def write_launcher() -> Path:
         py = venv_python()
         npm = shutil.which("npm") or "npm"
 
-        # The backend gets its own tiny script file rather than being
-        # launched as a "start cmd /k ..." one-liner: nested quotes in that
-        # form are notoriously unreliable in cmd.exe and can silently fail
-        # to launch anything at all. A real .bat file, with an unconditional
-        # pause at the end, always opens its own window and can never
-        # vanish without showing whatever uvicorn printed.
+        # A standalone script to (re-)start just the backend, for manual use
+        # (e.g. after a crash) without rebuilding the frontend every time.
         run_backend = BACKEND_DIR / "run_backend.bat"
         run_backend.write_text(
             "@echo off\r\n"
@@ -147,6 +143,17 @@ def write_launcher() -> Path:
             "pause\r\n"
         )
 
+        # The main launcher runs the backend directly in its own window
+        # (the one the shortcut opens) instead of trying to spawn a separate
+        # window for it with "start": that relies on cmd.exe/Windows Terminal
+        # window-spawning behaviour that proved unreliable -- it could fail
+        # to open anything at all, with no error, no second window, nothing.
+        # Running everything in one window can't have that failure mode: the
+        # browser is opened (a URL launch, not spawning a console app, which
+        # is the part that was unreliable) just before uvicorn starts, with
+        # a short delay for the server to come up; uvicorn then runs in the
+        # foreground so this window is both the server's console and the
+        # thing that stays open if it crashes.
         launcher.write_text(
             "@echo off\r\n"
             f'cd /d "{FRONTEND_DIR}"\r\n'
@@ -157,12 +164,13 @@ def write_launcher() -> Path:
             "  pause\r\n"
             "  exit /b 1\r\n"
             ")\r\n"
-            # The leading "" is the empty-title argument "start" expects
-            # before the program to run -- without it, "start" can mistake
-            # a quoted path for the window title instead of the command.
-            f'start "" "{run_backend}"\r\n'
-            "timeout /t 3 >nul\r\n"
+            f'cd /d "{BACKEND_DIR}"\r\n'
+            "timeout /t 2 >nul\r\n"
             f"start http://localhost:{BACKEND_PORT}\r\n"
+            f'"{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
+            "echo.\r\n"
+            "echo Backend stopped (or failed to start -- see any error above).\r\n"
+            "pause\r\n"
         )
     else:
         launcher = REPO_ROOT / "start_EduAi_Pro.sh"
