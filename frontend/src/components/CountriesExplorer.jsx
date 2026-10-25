@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
 import { MAP_WIDTH, MAP_HEIGHT, project } from '../utils/mapProjection.js';
 import { WORLD_LAND_PATH } from '../utils/worldLandPath.js';
+import { WORLD_COUNTRY_BORDERS } from '../utils/worldCountryBorders.js';
 
 const CONTINENTS = ['All', 'Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Antarctica'];
 
@@ -235,6 +236,22 @@ function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail 
         <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="w-full h-auto select-none" role="img" aria-label="World map of country capitals">
           <rect x="0" y="0" width={MAP_WIDTH} height={MAP_HEIGHT} className="fill-sky-100 dark:fill-slate-800" />
           <path d={WORLD_LAND_PATH} className="fill-emerald-200/80 dark:fill-slate-700 stroke-emerald-500/70 dark:stroke-slate-500" strokeWidth="0.75" />
+          {countries.map((c) => {
+            const borderPath = WORLD_COUNTRY_BORDERS[c.code];
+            if (!borderPath) return null;
+            const isActive = pinCode === c.code;
+            return (
+              <path
+                key={`border-${c.code}`}
+                d={borderPath}
+                fill={isActive ? (CONTINENT_COLOR[c.continent] || '#64748b') : 'none'}
+                fillOpacity={isActive ? 0.25 : 0}
+                className={isActive ? 'stroke-amber-500 dark:stroke-amber-400' : 'stroke-emerald-700/40 dark:stroke-slate-400/40'}
+                strokeWidth={isActive ? 1.5 : 0.5}
+                pointerEvents="none"
+              />
+            );
+          })}
           {meridians.map((lng) => {
             const { x } = project(0, lng);
             return <line key={lng} x1={x} y1={0} x2={x} y2={MAP_HEIGHT} className="stroke-sky-200 dark:stroke-slate-700" strokeWidth="1" />;
@@ -262,7 +279,7 @@ function WorldMap({ countries, pinCode, setPinCode, pinnedCountry, onOpenDetail 
         </svg>
       </div>
       <p className="text-[11px] text-gray-400 text-center">
-        A schematic locator map (simplified coastlines, not political borders) — pins mark each capital's real coordinates. Tap a pin, then open it in Google Maps or Google Earth for the real view.
+        A schematic locator map with simplified political borders (about 30 of the smallest nations are too small to show as a separate shape at this scale) — pins mark each capital's real coordinates. Tap a pin, then open it in Google Maps or Google Earth for the real view.
       </p>
 
       {pinnedCountry && (
