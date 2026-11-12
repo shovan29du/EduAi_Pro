@@ -171,11 +171,16 @@ function DisciplineView({ discipline, onBack }) {
 export default function StemLab() {
   const [overview, setOverview] = useState(null);
   const [selectedDisc, setSelectedDisc] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`${API}/stem-lab`).then(r => r.json()).then(setOverview);
+    fetch(`${API}/stem-lab`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load STEM Lab'))))
+      .then(setOverview)
+      .catch(err => setError(err.message));
   }, []);
 
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading STEM Lab…</div>;
 
   if (selectedDisc) return (

@@ -144,11 +144,16 @@ export default function PlayerBiographies() {
   const [search, setSearch] = useState('');
   const [filterSport, setFilterSport] = useState('all');
   const [genderFilter, setGenderFilter] = useState('all');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`${API}/sports-detail/players`).then(r => r.json()).then(setData);
+    fetch(`${API}/sports-detail/players`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load player biographies'))))
+      .then(setData)
+      .catch(err => setError(err.message));
   }, []);
 
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!data) return <div className="p-8 text-center text-gray-500">Loading player biographies…</div>;
 
   if (selectedPlayer) {

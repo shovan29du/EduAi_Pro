@@ -276,7 +276,14 @@ function CategoryView({ cat, catId, onBack }) {
 export default function SurvivalSkills() {
   const [overview, setOverview] = useState(null);
   const [selectedCat, setSelectedCat] = useState(null);
-  useEffect(() => { fetch(`${API}/survival-skills`).then(r => r.json()).then(setOverview); }, []);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    fetch(`${API}/survival-skills`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load Survival Skills'))))
+      .then(setOverview)
+      .catch(err => setError(err.message));
+  }, []);
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedCat) return (
     <div className="max-w-3xl mx-auto p-4">

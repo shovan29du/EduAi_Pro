@@ -125,7 +125,14 @@ function ModuleView({ mod, onBack }) {
 export default function Civics() {
   const [overview, setOverview] = useState(null);
   const [selectedMod, setSelectedMod] = useState(null);
-  useEffect(() => { fetch(`${API}/civics`).then(r => r.json()).then(setOverview); }, []);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    fetch(`${API}/civics`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load Civics'))))
+      .then(setOverview)
+      .catch(err => setError(err.message));
+  }, []);
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedMod) return <div className="max-w-3xl mx-auto p-4"><ModuleView mod={selectedMod} onBack={() => setSelectedMod(null)} /></div>;
   return (

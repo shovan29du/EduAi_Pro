@@ -186,7 +186,14 @@ export default function WorldLiteratureLibrary() {
   const [selectedSection, setSelectedSection] = useState(null);
   const [openBook, setOpenBook] = useState(null); // { section, bookId } from search results
   const [query, setQuery] = useState('');
-  useEffect(() => { fetch(`${API}/world-literature`).then(r => r.json()).then(setOverview); }, []);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    fetch(`${API}/world-literature`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load World Literature library'))))
+      .then(setOverview)
+      .catch(err => setError(err.message));
+  }, []);
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (openBook) {
     return (

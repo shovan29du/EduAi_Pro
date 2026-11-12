@@ -199,11 +199,16 @@ function ReligionDetail({ religionId, onBack }) {
 export default function WorldReligions() {
   const [overview, setOverview] = useState(null);
   const [selectedReligion, setSelectedReligion] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`${API}/world-religions`).then(r => r.json()).then(setOverview);
+    fetch(`${API}/world-religions`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load World Religions'))))
+      .then(setOverview)
+      .catch(err => setError(err.message));
   }, []);
 
+  if (error) return <div className="p-8 text-center text-red-600" role="alert">{error}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
 
   if (selectedReligion) return (
