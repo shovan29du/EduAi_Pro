@@ -89,6 +89,11 @@ def temp_grade_path():
     yield path
     if path.exists():
         os.remove(path)
+    # curate_resource()'s out-of-range fallback writes grade11.json instead
+    # (see app/curate.py); clean that up too so it doesn't leak into the repo.
+    fallback_path = SYLLABUS_DIR / "grade11.json"
+    if fallback_path.exists():
+        os.remove(fallback_path)
 
 
 def _seed_subject_with_lessons(path, lessons):
