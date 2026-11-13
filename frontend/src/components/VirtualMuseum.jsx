@@ -142,32 +142,42 @@ function SortControl({ value, onChange }) {
 // Fetches once per wiki_title and caches in module-level map so sibling cards share results.
 const thumbCache = {};
 
-function WikiThumbnail({ wikiTitle, thumbnailLocal, category, size = 'list' }) {
-  const cacheKey = thumbnailLocal || wikiTitle || '';
-  const [src, setSrc] = useState(thumbnailLocal || thumbCache[wikiTitle] || null);
+// Search text used to find a picture when a card has no Wikipedia article.
+const museumImageQuery = (o) => [o.name, o.origin].filter(Boolean).join(' ');
+
+function WikiThumbnail({ wikiTitle, query, thumbnailLocal, category, size = 'list' }) {
+  const cacheKey = thumbnailLocal || wikiTitle || query || '';
+  const lookupKey = wikiTitle || (query ? `q:${query}` : '');
+  const hasRealPhoto = /^https?:/.test(thumbnailLocal || '');
+  const [src, setSrc] = useState(thumbnailLocal || thumbCache[lookupKey] || null);
   const mounted = useRef(true);
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
 
   useEffect(() => {
-    // Local SVG is already set as initial state; try to upgrade to real Wikipedia photo
-    if (!wikiTitle) return;
-    if (thumbCache[wikiTitle] && thumbCache[wikiTitle] !== 'loading') {
-      if (thumbCache[wikiTitle]) setSrc(thumbCache[wikiTitle]);
+    // A real photo is already set; otherwise try to upgrade the placeholder.
+    if (!lookupKey || hasRealPhoto) return;
+    if (thumbCache[lookupKey] && thumbCache[lookupKey] !== 'loading') {
+      setSrc(thumbCache[lookupKey]);
       return;
     }
-    thumbCache[wikiTitle] = 'loading';
+    if (thumbCache[lookupKey] === 'loading') return;
+    thumbCache[lookupKey] = 'loading';
     // Resolved server-side (and cached to disk there) rather than hitting
     // Wikipedia directly from the browser on every view — see
-    // GET /api/museum/thumbnail in backend/app/main.py.
-    fetch(`${API}/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
+    // GET /api/museum/thumbnail in backend/app/main.py. Cards without a
+    // Wikipedia article fall back to a Commons search for `query`.
+    const params = new URLSearchParams();
+    if (wikiTitle) params.set('wiki_title', wikiTitle);
+    if (query) params.set('q', query);
+    fetch(`${API}/museum/thumbnail?${params}`)
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         const url = d?.thumbnail_url ?? null;
-        thumbCache[wikiTitle] = url || '';
+        thumbCache[lookupKey] = url || '';
         if (mounted.current && url) setSrc(url);
       })
-      .catch(() => { thumbCache[wikiTitle] = ''; });
-  }, [wikiTitle]);
+      .catch(() => { thumbCache[lookupKey] = ''; });
+  }, [lookupKey, wikiTitle, query, hasRealPhoto]);
 
   const emoji = catEmoji(category);
 
@@ -323,7 +333,7 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       <button onClick={onBack} className="mb-4 text-sm text-indigo-600 hover:underline">← Back</button>
 
       {/* Hero thumbnail */}
-      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="hero" />
+      <WikiThumbnail wikiTitle={obj.wiki_title} query={museumImageQuery(obj)} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="hero" />
 
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-2xl font-bold text-gray-800 mb-1">{obj.name}</h2>
@@ -414,7 +424,7 @@ function ObjectTile({ obj, onClick }) {
   return (
     <button onClick={onClick}
       className="group relative aspect-square rounded-xl overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all text-left">
-      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="tile" />
+      <WikiThumbnail wikiTitle={obj.wiki_title} query={museumImageQuery(obj)} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="tile" />
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent px-2.5 pb-2 pt-8">
         <p className="text-white font-semibold text-xs sm:text-sm leading-tight line-clamp-2">{obj.name}</p>
         {(obj.artist || obj.architect) && (
@@ -545,7 +555,7 @@ function FeaturedToday({ onOpen }) {
       className="museum-featured-card group relative w-full overflow-hidden rounded-2xl text-left mb-8 shadow-md hover:shadow-xl transition-shadow"
     >
       <div className={`relative h-56 sm:h-72 bg-gradient-to-br ${tileColor(featured.wiki_title || featured.name)}`}>
-        <WikiThumbnail wikiTitle={featured.wiki_title} thumbnailLocal={featured.thumbnail_local} category={featured.category} size="tile" />
+        <WikiThumbnail wikiTitle={featured.wiki_title} query={museumImageQuery(featured)} thumbnailLocal={featured.thumbnail_local} category={featured.category} size="tile" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
           <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-white bg-white/20 backdrop-blur px-2.5 py-1 rounded-full mb-2">

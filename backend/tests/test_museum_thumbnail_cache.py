@@ -85,3 +85,58 @@ def test_museum_thumbnail_falls_back_to_stale_cache_on_fetch_failure(monkeypatch
     body = resp.json()
     assert body["thumbnail_url"] == "https://example.org/stale.jpg"
     assert body.get("stale") is True
+
+
+def _commons_payload():
+    return {"query": {"pages": {
+        "1": {"index": 1, "title": "File:Flag of Andorra.jpg",
+              "imageinfo": [{"mime": "image/jpeg", "thumburl": "https://example.org/flag.jpg"}]},
+        "2": {"index": 2, "title": "File:Map of Andorra.svg",
+              "imageinfo": [{"mime": "image/svg+xml", "thumburl": "https://example.org/map.svg"}]},
+        "3": {"index": 3, "title": "File:Romanesque mural, Andorra.jpg",
+              "imageinfo": [{"mime": "image/jpeg", "thumburl": "https://example.org/mural.jpg"}]},
+    }}}
+
+
+def test_museum_thumbnail_q_only_uses_commons_and_skips_flags(monkeypatch, tmp_path):
+    monkeypatch.setattr(main, "_MUSEUM_THUMB_CACHE_DIR", tmp_path)
+    calls = []
+
+    def fake_urlopen(req, timeout=5):
+        calls.append(req.full_url)
+        return _FakeResponse(_commons_payload())
+
+    monkeypatch.setattr(main, "urlopen", fake_urlopen)
+    body = client.get("/api/museum/thumbnail", params={"q": "Andorra Painting"}).json()
+    assert body["thumbnail_url"] == "https://example.org/mural.jpg"
+    assert len(calls) == 1 and "commons.wikimedia.org" in calls[0]
+    assert client.get("/api/museum/thumbnail", params={"q": "Andorra Painting"}).json()["cached"] is True
+    assert len(calls) == 1
+
+
+def test_museum_thumbnail_q_is_only_a_fallback_for_wikipedia(monkeypatch, tmp_path):
+    monkeypatch.setattr(main, "_MUSEUM_THUMB_CACHE_DIR", tmp_path)
+    calls = []
+
+    def fake_urlopen(req, timeout=5):
+        calls.append(req.full_url)
+        if "wikipedia.org" in req.full_url:
+            return _FakeResponse({"thumbnail": {"source": "https://example.org/wiki.jpg"}})
+        return _FakeResponse(_commons_payload())
+
+    monkeypatch.setattr(main, "urlopen", fake_urlopen)
+    body = client.get("/api/museum/thumbnail", params={"wiki_title": "Mona Lisa", "q": "Mona Lisa Italy"}).json()
+    assert body["thumbnail_url"] == "https://example.org/wiki.jpg"
+    assert all("wikipedia.org" in c for c in calls)
+
+
+def test_museum_thumbnail_failed_lookup_is_not_cached(monkeypatch, tmp_path):
+    monkeypatch.setattr(main, "_MUSEUM_THUMB_CACHE_DIR", tmp_path)
+
+    def broken_urlopen(req, timeout=5):
+        raise OSError("network unavailable")
+
+    monkeypatch.setattr(main, "urlopen", broken_urlopen)
+    body = client.get("/api/museum/thumbnail", params={"q": "Chad Print"}).json()
+    assert body["thumbnail_url"] is None
+    assert list(tmp_path.glob("*.json")) == []

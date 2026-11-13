@@ -3115,23 +3115,56 @@ def _museum_thumb_cache_path(wiki_title: str) -> Path:
     return _MUSEUM_THUMB_CACHE_DIR / f"{digest}.json"
 
 
-@app.get("/api/museum/thumbnail")
-def museum_thumbnail(wiki_title: str = ""):
-    """Server-side cache/proxy for Wikipedia page-summary thumbnails.
+_COMMONS_SKIP_WORDS = ("flag", "logo", "coat of arms", "locator", "location", "icon", "map of", "seal of", "stamp")
+_MUSEUM_HTTP_HEADERS = {
+    "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+    "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+}
 
-    Museum object thumbnails come from Wikipedia's REST summary API. Fetching
-    that live from every browser, on every view, means the same handful of
-    popular objects get re-fetched from Wikipedia over and over across
-    sessions and users. This caches the resolved thumbnail URL to a small
-    JSON record on disk (keyed by a hash of wiki_title) with a TTL, so repeat
-    requests for the same object are served locally instead of hitting
-    Wikipedia again.
+
+def _commons_search_thumbnail(query: str) -> str | None:
+    """Best-effort representative photo from a Wikimedia Commons file search.
+
+    Used for study cards that have no Wikipedia article of their own (e.g. a
+    generic "Andorra Painting" card), so every museum card can still show a
+    real picture. Skips flags, logos, maps and other non-object results.
+    """
+    url = (
+        "https://commons.wikimedia.org/w/api.php?action=query&generator=search"
+        f"&gsrnamespace=6&gsrlimit=8&gsrsearch={quote_plus(query + ' filetype:bitmap')}"
+        "&prop=imageinfo&iiprop=url%7Cmime&iiurlwidth=600&format=json"
+    )
+    with urlopen(Request(url, headers=_MUSEUM_HTTP_HEADERS), timeout=5) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+    pages = sorted(((payload.get("query") or {}).get("pages") or {}).values(), key=lambda p: p.get("index", 0))
+    for page in pages:
+        title = (page.get("title") or "").lower()
+        if any(word in title for word in _COMMONS_SKIP_WORDS):
+            continue
+        info = (page.get("imageinfo") or [{}])[0]
+        if info.get("mime") in ("image/jpeg", "image/png"):
+            return info.get("thumburl") or info.get("url")
+    return None
+
+
+@app.get("/api/museum/thumbnail")
+def museum_thumbnail(wiki_title: str = "", q: str = ""):
+    """Server-side cache/proxy for museum object photos.
+
+    Resolution order: the Wikipedia page-summary thumbnail for `wiki_title`,
+    then (when `q` is given) a Wikimedia Commons image search for `q`. The
+    result is cached to a small JSON record on disk (keyed by a hash of the
+    lookup key) with a TTL, so repeat requests for the same object are served
+    locally instead of hitting Wikipedia/Commons again. A failed lookup is not
+    cached, so a transient network error can't hide an image for days.
     """
     wiki_title = (wiki_title or "").strip()
-    if not wiki_title:
+    q = (q or "").strip()[:200]
+    if not wiki_title and not q:
         raise HTTPException(status_code=400, detail="wiki_title is required")
 
-    cache_path = _museum_thumb_cache_path(wiki_title)
+    cache_key = wiki_title or f"q:{q}"
+    cache_path = _museum_thumb_cache_path(cache_key)
     now = time.time()
     cached = None
     if cache_path.exists():
@@ -3143,25 +3176,28 @@ def museum_thumbnail(wiki_title: str = ""):
             return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True}
 
     thumbnail_url = None
-    fetch_ok = False
-    encoded = quote(wiki_title.replace(" ", "_"))
-    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
-    try:
-        req = Request(url, headers={
-            "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
-            "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
-        })
-        with urlopen(req, timeout=5) as resp:
-            payload = json.loads(resp.read().decode("utf-8"))
-        thumbnail_url = (payload.get("thumbnail") or {}).get("source") or (payload.get("originalimage") or {}).get("source")
-        fetch_ok = True
-    except Exception:
-        fetch_ok = False
+    fetch_ok = True
+    if wiki_title:
+        encoded = quote(wiki_title.replace(" ", "_"))
+        url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
+        try:
+            with urlopen(Request(url, headers=_MUSEUM_HTTP_HEADERS), timeout=5) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            thumbnail_url = (payload.get("thumbnail") or {}).get("source") or (payload.get("originalimage") or {}).get("source")
+        except Exception:
+            fetch_ok = False
+    if fetch_ok and not thumbnail_url and q:
+        try:
+            thumbnail_url = _commons_search_thumbnail(q)
+        except Exception:
+            fetch_ok = False
 
-    if not fetch_ok and cached:
-        # Wikipedia is unreachable/rate-limited right now -- serve the stale
-        # cached value rather than nothing, and don't overwrite it.
-        return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True, "stale": True}
+    if not fetch_ok:
+        if cached:
+            # Upstream is unreachable/rate-limited right now -- serve the stale
+            # cached value rather than nothing, and don't overwrite it.
+            return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True, "stale": True}
+        return {"wiki_title": wiki_title, "thumbnail_url": None, "cached": False}
 
     record = {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "fetched_at": now}
     try:
