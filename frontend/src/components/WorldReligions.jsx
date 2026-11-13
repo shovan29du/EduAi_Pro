@@ -4,12 +4,18 @@ const API = '/api';
 
 function ReligionDetail({ religionId, onBack }) {
   const [religion, setReligion] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedLesson, setSelectedLesson] = useState(null);
 
   useEffect(() => {
-    fetch(`${API}/world-religions/${religionId}`).then(r => r.json()).then(setReligion);
+    fetch(`${API}/world-religions/${religionId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setReligion)
+      .catch(err => setLoadError(err.message));
   }, [religionId]);
+
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
 
   if (!religion) return <div className="p-4 text-gray-500">Loading…</div>;
 

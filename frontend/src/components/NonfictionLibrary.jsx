@@ -37,9 +37,14 @@ function LinkBar({ links }) {
 
 function BookDetail({ category, bookId, onBack }) {
   const [book, setBook] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/nonfiction/${category}/${bookId}`).then(r => r.json()).then(setBook);
+    fetch(`${API}/nonfiction/${category}/${bookId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setBook)
+      .catch(err => setLoadError(err.message));
   }, [category, bookId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!book) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -104,16 +109,20 @@ function BookDetail({ category, bookId, onBack }) {
 
 function CategoryView({ category, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedBook, setSelectedBook] = useState(null);
   useEffect(() => {
-    fetch(`${API}/nonfiction/${category.id}`).then(r => r.json()).then(setData);
+    fetch(`${API}/nonfiction/${category.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [category.id]);
   if (selectedBook) return <BookDetail category={category.id} bookId={selectedBook} onBack={() => setSelectedBook(null)} />;
   return (
     <div>
       <button onClick={onBack} className="mb-3 text-sm text-amber-600 hover:underline">← All Categories</button>
       <h2 className="text-2xl font-bold mb-4">{category.emoji} {category.label}</h2>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="p-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <div className="grid sm:grid-cols-2 gap-4">
           {data.books?.map(book => (
             <button key={book.id} onClick={() => setSelectedBook(book.id)}

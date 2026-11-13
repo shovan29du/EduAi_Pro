@@ -257,8 +257,12 @@ function ModuleView({ module: mod, colour, onBack }) {
 function PathwayView({ pathway, onBack }) {
   const [data, setData] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/practical-skills/${pathway.id}`).then(r => r.json()).then(setData);
+    fetch(`${API}/practical-skills/${pathway.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [pathway.id]);
 
   const colour = COLOURS[pathway.id] || '#6366f1';
@@ -279,7 +283,7 @@ function PathwayView({ pathway, onBack }) {
         <h2 className="text-2xl font-bold text-gray-800">{pathway.label}</h2>
       </div>
       {data?.description && <p className="text-gray-500 mb-4 text-sm">{data.description}</p>}
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         modules.length > 0 ? (
           <div className="space-y-3">
             {modules.map((mod, i) => (
@@ -312,8 +316,13 @@ function PathwayView({ pathway, onBack }) {
 
 export default function PracticalSkills() {
   const [overview, setOverview] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedPathway, setSelectedPathway] = useState(null);
-  useEffect(() => { fetch(`${API}/practical-skills`).then(r => r.json()).then(setOverview); }, []);
+  useEffect(() => { fetch(`${API}/practical-skills`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setOverview)
+      .catch(err => setLoadError(err.message)); }, []);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedPathway) return (
     <div className="max-w-3xl mx-auto p-4">

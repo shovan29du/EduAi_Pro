@@ -237,9 +237,13 @@ function SkillDetail({ skill, onBack }) {
 
 function CategoryView({ cat, catId, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedSkill, setSelectedSkill] = useState(null);
   useEffect(() => {
-    fetch(`${API}/survival-skills/${catId}`).then(r => r.json()).then(setData);
+    fetch(`${API}/survival-skills/${catId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [catId]);
 
   if (selectedSkill) return <SkillDetail skill={selectedSkill} onBack={() => setSelectedSkill(null)} />;
@@ -249,7 +253,7 @@ function CategoryView({ cat, catId, onBack }) {
     <div>
       <button onClick={onBack} className="mb-3 text-sm text-green-700 hover:underline">← All Categories</button>
       <h2 className="text-2xl font-bold mb-4">{cat.emoji} {cat.label}</h2>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="p-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <div className="space-y-3">
           {skills.map((skill, i) => (
             <button key={i} onClick={() => setSelectedSkill(skill)}

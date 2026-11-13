@@ -323,9 +323,14 @@ function ObjectQuiz({ quiz }) {
 // ── Object detail view ────────────────────────────────────────────────────────
 function ObjectDetail({ gallery, objectId, onBack }) {
   const [obj, setObj] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/museum/${gallery}/${objectId}`).then(r => r.json()).then(setObj);
+    fetch(`${API}/museum/${gallery}/${objectId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setObj)
+      .catch(err => setLoadError(err.message));
   }, [gallery, objectId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!obj) return <div className="p-4 text-gray-500">Loading…</div>;
 
   return (
@@ -446,8 +451,14 @@ function GalleryView({ gallery, onBack }) {
   const [sortBy, setSortBy] = useState('default');
   const PAGE_SIZE = 24;
 
+  const [loadError, setLoadError] = useState(null);
+
   useEffect(() => {
-    fetch(`${API}/museum/${gallery.id}`).then(r => r.json()).then(setData);
+    setLoadError(null);
+    fetch(`${API}/museum/${gallery.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
     setPage(0);
   }, [gallery.id]);
 
@@ -472,7 +483,7 @@ function GalleryView({ gallery, onBack }) {
           <SortControl value={sortBy} onChange={(v) => { setSortBy(v); setPage(0); }} />
         </div>
       </div>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {visible.map(obj => (
@@ -500,12 +511,16 @@ function SearchView() {
   const [q, setQ] = useState('');
   const [results, setResults] = useState([]);
   const [searched, setSearched] = useState(false);
+  const [searchFailed, setSearchFailed] = useState(false);
   const [selectedObj, setSelectedObj] = useState(null);
   const [sortBy, setSortBy] = useState('default');
   const search = () => {
     if (q.length < 2) return;
-    fetch(`${API}/museum/search?q=${encodeURIComponent(q)}`).then(r => r.json())
-      .then(d => { setResults(d.results || []); setSearched(true); });
+    setSearchFailed(false);
+    fetch(`${API}/museum/search?q=${encodeURIComponent(q)}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('search failed'))))
+      .then(d => { setResults(d.results || []); setSearched(true); })
+      .catch(() => { setResults([]); setSearched(false); setSearchFailed(true); });
   };
   if (selectedObj) return (
     <div className="max-w-3xl mx-auto">
@@ -525,6 +540,7 @@ function SearchView() {
         <QuizScoreBadge />
         {results.length > 0 && <SortControl value={sortBy} onChange={setSortBy} />}
       </div>
+      {searchFailed && <p className="text-red-600 text-sm" role="alert">Search is unavailable right now. Please try again.</p>}
       {searched && results.length === 0 && <p className="text-gray-500 text-sm">No results found.</p>}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
         {sortedResults.map(obj => (

@@ -51,9 +51,14 @@ function QuizBlock({ quiz }) {
 
 function TopicDetail({ unitId, topicId, onBack }) {
   const [topic, setTopic] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/environmental-science/${unitId}/${topicId}`).then(r => r.json()).then(setTopic);
+    fetch(`${API}/environmental-science/${unitId}/${topicId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setTopic)
+      .catch(err => setLoadError(err.message));
   }, [unitId, topicId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!topic) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -82,16 +87,20 @@ function TopicDetail({ unitId, topicId, onBack }) {
 
 function UnitView({ unit, unitId, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
   useEffect(() => {
-    fetch(`${API}/environmental-science/${unitId}`).then(r => r.json()).then(setData);
+    fetch(`${API}/environmental-science/${unitId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [unitId]);
   if (selectedTopic) return <TopicDetail unitId={unitId} topicId={selectedTopic} onBack={() => setSelectedTopic(null)} />;
   return (
     <div>
       <button onClick={onBack} className="mb-3 text-sm text-teal-700 hover:underline">← All Units</button>
       <h2 className="text-2xl font-bold mb-4">{unit.emoji} {unit.label}</h2>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="p-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <div className="space-y-3">
           {data.topics?.map((topic, i) => (
             <button key={topic.id} onClick={() => setSelectedTopic(topic.id)}

@@ -51,10 +51,15 @@ function QuizBlock({ quiz }) {
 
 function LessonDetail({ moduleId, lessonId, onBack }) {
   const [lesson, setLesson] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   useEffect(() => {
-    fetch(`${API}/world-politics/${moduleId}/${lessonId}`).then(r => r.json()).then(setLesson);
+    fetch(`${API}/world-politics/${moduleId}/${lessonId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setLesson)
+      .catch(err => setLoadError(err.message));
   }, [moduleId, lessonId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!lesson) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -93,9 +98,14 @@ function LessonDetail({ moduleId, lessonId, onBack }) {
 
 function CountryDetail({ countryId, onBack }) {
   const [country, setCountry] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/world-politics/countries/${countryId}`).then(r => r.json()).then(setCountry);
+    fetch(`${API}/world-politics/countries/${countryId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setCountry)
+      .catch(err => setLoadError(err.message));
   }, [countryId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!country) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -190,9 +200,13 @@ function InfoCard({ label, value }) {
 function CountriesView({ onBack }) {
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState(null);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
-    fetch(`${API}/world-politics/countries`).then(r => r.json()).then(d => setCountries(d.countries || []));
+    fetch(`${API}/world-politics/countries`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(d => setCountries(d.countries || []))
+      .catch(err => setLoadError(err.message));
   }, []);
 
   if (selectedCountry) return <CountryDetail countryId={selectedCountry} onBack={() => setSelectedCountry(null)} />;
@@ -202,7 +216,7 @@ function CountriesView({ onBack }) {
       <button onClick={onBack} className="mb-3 text-sm text-blue-700 hover:underline">← All Modules</button>
       <h2 className="text-2xl font-bold mb-1 dark:text-white">🗺️ Country Profiles</h2>
       <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">Government systems and international relations of key nations.</p>
-      {!countries.length ? <p className="text-gray-400">Loading countries…</p> : (
+      {loadError ? <p className="text-red-600" role="alert">{loadError}</p> : !countries.length ? <p className="text-gray-400">Loading countries…</p> : (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {countries.map(c => (
             <button key={c.id} onClick={() => setSelectedCountry(c.id)}
@@ -220,12 +234,16 @@ function CountriesView({ onBack }) {
 
 function ModuleView({ mod, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedLesson, setSelectedLesson] = useState(null);
 
   useEffect(() => {
     if (mod.id === 'country_profiles') return;
     setData(null);
-    fetch(`${API}/world-politics/${mod.id}`).then(r => r.json()).then(setData);
+    fetch(`${API}/world-politics/${mod.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [mod.id]);
 
   // Country profiles module handled separately
@@ -237,7 +255,7 @@ function ModuleView({ mod, onBack }) {
       <button onClick={onBack} className="mb-3 text-sm text-blue-700 hover:underline">← All Modules</button>
       <h2 className="text-2xl font-bold mb-1 dark:text-white">{mod.emoji} {mod.label}</h2>
       <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">{mod.description}</p>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="p-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <div className="space-y-3">
           {data.lessons?.map((lesson, i) => (
             <button key={lesson.id} onClick={() => setSelectedLesson(lesson.id)}

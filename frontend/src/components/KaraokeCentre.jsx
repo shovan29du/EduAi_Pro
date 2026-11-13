@@ -350,6 +350,7 @@ const PAGE_SIZE = 20;
 
 function SongCatalog() {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selected, setSelected] = useState(null);
   const [search, setSearch] = useState('');
   const [filterGenre, setFilterGenre] = useState('');
@@ -357,7 +358,10 @@ function SongCatalog() {
   const [filterLang, setFilterLang] = useState('');
   const [page, setPage] = useState(1);
   useEffect(() => {
-    fetch(`${API}/songs`).then(r => r.json()).then(setData);
+    fetch(`${API}/songs`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, []);
 
   const filtered = useMemo(() => {
@@ -378,6 +382,7 @@ function SongCatalog() {
 
   function resetPage() { setPage(1); }
 
+  if (loadError) return <div className="p-8 text-center text-red-600" role="alert">{loadError}</div>;
   if (!data) return <div className="p-8 text-center text-gray-400">Loading Song Centre…</div>;
 
   if (selected) return <SongDetail song={selected} onBack={() => setSelected(null)} />;

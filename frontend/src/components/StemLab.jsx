@@ -53,10 +53,14 @@ function QuizPanel({ quiz }) {
 
 function ExperimentDetail({ discipline, experimentId, colour, onBack }) {
   const [exp, setExp] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
     fetch(`${API}/stem-lab/${discipline}/${experimentId}`)
-      .then(r => r.json()).then(setExp);
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setExp)
+      .catch(err => setLoadError(err.message));
   }, [discipline, experimentId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!exp) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -123,8 +127,12 @@ function ExperimentDetail({ discipline, experimentId, colour, onBack }) {
 function DisciplineView({ discipline, onBack }) {
   const [data, setData] = useState(null);
   const [selectedExp, setSelectedExp] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/stem-lab/${discipline.id}`).then(r => r.json()).then(setData);
+    fetch(`${API}/stem-lab/${discipline.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [discipline.id]);
 
   if (selectedExp) return (
@@ -146,7 +154,7 @@ function DisciplineView({ discipline, onBack }) {
           <p className="text-gray-500 text-sm">{discipline.description}</p>
         </div>
       </div>
-      {!data ? <p className="mt-4 text-gray-400">Loading experiments…</p> : (
+      {loadError ? <p className="mt-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="mt-4 text-gray-400">Loading experiments…</p> : (
         <div className="mt-4 grid sm:grid-cols-2 gap-4">
           {data.experiments?.map(exp => (
             <button

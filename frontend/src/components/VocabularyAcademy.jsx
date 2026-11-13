@@ -130,14 +130,17 @@ function LevelDetail({ levelId, onBack }) {
   const [data, setData] = useState(null);
   const [activeTab, setActiveTab] = useState('browse');
   const [activeCat, setActiveCat] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const colours = LEVEL_COLOURS[levelId] || LEVEL_COLOURS.beginner;
 
   useEffect(() => {
     fetch(`${API}/vocabulary/${levelId}`)
-      .then(r => r.json())
-      .then(d => { setData(d); setActiveCat(Object.keys(d.categories || {})[0]); });
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(d => { setData(d); setActiveCat(Object.keys(d.categories || {})[0]); })
+      .catch(err => setLoadError(err.message));
   }, [levelId]);
 
+  if (loadError) return <div className="p-8 text-center text-red-600" role="alert">{loadError}</div>;
   if (!data) return <div className="p-8 text-center text-gray-500">Loading…</div>;
 
   const categories = data.categories || {};
@@ -212,12 +215,15 @@ function SearchPanel() {
   const [q, setQ] = useState('');
   const [results, setResults] = useState([]);
   const [searched, setSearched] = useState(false);
+  const [searchFailed, setSearchFailed] = useState(false);
 
   const search = () => {
     if (q.length < 2) return;
+    setSearchFailed(false);
     fetch(`${API}/vocabulary/search?q=${encodeURIComponent(q)}`)
-      .then(r => r.json())
-      .then(d => { setResults(d.results || []); setSearched(true); });
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('search failed'))))
+      .then(d => { setResults(d.results || []); setSearched(true); })
+      .catch(() => { setResults([]); setSearched(false); setSearchFailed(true); });
   };
 
   return (
@@ -235,6 +241,7 @@ function SearchPanel() {
           className="px-4 py-2 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700"
         >Search</button>
       </div>
+      {searchFailed && <p className="text-red-600 text-sm" role="alert">Search is unavailable right now. Please try again.</p>}
       {searched && results.length === 0 && <p className="text-gray-500 text-sm">No results found.</p>}
       <div className="grid sm:grid-cols-2 gap-3">
         {results.map((entry, i) => (

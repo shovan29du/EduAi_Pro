@@ -478,12 +478,16 @@ function LessonList({ title, lessons }) {
 
 function InstrumentDetail({ instrumentId, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
     fetch(`${API}/instrument/${instrumentId}`)
-      .then((r) => r.json())
-      .then(setData);
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [instrumentId]);
+
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
 
   if (!data) return <div className="p-4 text-gray-500">Loading…</div>;
 
@@ -559,12 +563,16 @@ function InstrumentDetail({ instrumentId, onBack }) {
 
 function CategoryDetail({ categoryId, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
     fetch(`${API}/category/${categoryId}`)
-      .then((r) => r.json())
-      .then(setData);
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [categoryId]);
+
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
 
   if (!data) return <div className="p-4 text-gray-500">Loading…</div>;
 

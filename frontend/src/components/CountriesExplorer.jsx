@@ -25,6 +25,7 @@ export default function CountriesExplorer() {
   const [loading, setLoading] = useState(true);
   const [view, setView] = useState('map');
   const [pinCode, setPinCode] = useState(null);
+  const [detailError, setDetailError] = useState(null);
 
   useEffect(() => {
     fetch('/api/countries')
@@ -34,9 +35,14 @@ export default function CountriesExplorer() {
   }, []);
 
   async function loadCountry(code) {
-    const data = await fetch(`/api/countries/${code}`).then((r) => r.json());
-    setSelected(data);
-    setPinCode(null);
+    setDetailError(null);
+    try {
+      const data = await fetch(`/api/countries/${code}`).then((r) => (r.ok ? r.json() : Promise.reject(new Error('load failed'))));
+      setSelected(data);
+      setPinCode(null);
+    } catch {
+      setDetailError('Could not load that country right now. Please try again.');
+    }
   }
 
   const filtered = useMemo(() => {
@@ -162,6 +168,8 @@ export default function CountriesExplorer() {
         <h2 className="text-xl font-bold">🌍 Countries Explorer</h2>
         <p className="text-sm opacity-90">Discover all {countries.length} countries of the world — take a virtual tour with Google Maps &amp; Google Earth</p>
       </div>
+
+      {detailError && <p className="rounded-lg bg-red-50 p-3 text-sm text-red-700" role="alert">{detailError}</p>}
 
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <input

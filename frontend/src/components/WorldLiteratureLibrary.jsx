@@ -36,9 +36,14 @@ function LinkBar({ links }) {
 
 function BookDetail({ section, bookId, onBack }) {
   const [book, setBook] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   useEffect(() => {
-    fetch(`${API}/world-literature/${section}/${bookId}`).then(r => r.json()).then(setBook);
+    fetch(`${API}/world-literature/${section}/${bookId}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setBook)
+      .catch(err => setLoadError(err.message));
   }, [section, bookId]);
+  if (loadError) return <div className="p-4 text-red-600" role="alert">{loadError}</div>;
   if (!book) return <div className="p-4 text-gray-500">Loading…</div>;
   return (
     <div>
@@ -125,9 +130,13 @@ function BookCard({ book, onClick }) {
 
 function SectionView({ section, onBack }) {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(null);
   const [selectedBook, setSelectedBook] = useState(null);
   useEffect(() => {
-    fetch(`${API}/world-literature/${section.id}`).then(r => r.json()).then(setData);
+    fetch(`${API}/world-literature/${section.id}`)
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('Could not load this section right now.'))))
+      .then(setData)
+      .catch(err => setLoadError(err.message));
   }, [section.id]);
   if (selectedBook) return <BookDetail section={section.id} bookId={selectedBook} onBack={() => setSelectedBook(null)} />;
   return (
@@ -135,7 +144,7 @@ function SectionView({ section, onBack }) {
       <button onClick={onBack} className="mb-3 text-sm text-emerald-600 hover:underline">← All Sections</button>
       <h2 className="text-2xl font-bold mb-1">{section.emoji} {section.label}</h2>
       <p className="text-sm text-gray-500 mb-4">Ages {section.age_range}</p>
-      {!data ? <p className="text-gray-400">Loading…</p> : (
+      {loadError ? <p className="p-4 text-red-600" role="alert">{loadError}</p> : !data ? <p className="text-gray-400">Loading…</p> : (
         <div className="grid sm:grid-cols-2 gap-4">
           {data.books?.map(book => (
             <BookCard key={book.id} book={book} onClick={() => setSelectedBook(book.id)} />
@@ -148,19 +157,23 @@ function SectionView({ section, onBack }) {
 
 function SearchResults({ query, onOpenBook }) {
   const [data, setData] = useState(null);
+  const [failed, setFailed] = useState(false);
   useEffect(() => {
     let active = true;
     const q = query.trim();
     if (q.length < 2) { setData(null); return; }
     const t = setTimeout(() => {
+      setFailed(false);
       fetch(`${API}/world-literature/search?q=${encodeURIComponent(q)}`)
-        .then(r => r.json())
-        .then(d => { if (active) setData(d); });
+        .then(r => (r.ok ? r.json() : Promise.reject(new Error('search failed'))))
+        .then(d => { if (active) setData(d); })
+        .catch(() => { if (active) setFailed(true); });
     }, 250);
     return () => { active = false; clearTimeout(t); };
   }, [query]);
 
   if (query.trim().length < 2) return <p className="text-sm text-gray-400">Type at least 2 characters to search across every section.</p>;
+  if (failed) return <p className="text-sm text-red-600" role="alert">Search is unavailable right now. Please try again.</p>;
   if (!data) return <p className="text-gray-400">Searching…</p>;
   if (data.results.length === 0) return <p className="text-sm text-gray-500">No titles matched "{query}".</p>;
 

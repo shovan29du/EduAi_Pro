@@ -60,6 +60,7 @@ export default function AssessmentCentre() {
   const [submitted, setSubmitted] = useState(false);
   const [report, setReport] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(null);
   const [showHistory, setShowHistory] = useState(false);
   const [historyKey, setHistoryKey] = useState(0); // bump to force HistoryPanel to refetch after a submit
 
@@ -75,10 +76,16 @@ export default function AssessmentCentre() {
     setAnswers({});
     setSubmitted(false);
     setReport(null);
-    const data = await fetch(`/api/assessment/${groupId}`).then((r) => r.json());
-    setSelectedGroup(groupId);
-    setAssessment(data);
-    setLoading(false);
+    setLoadError(null);
+    try {
+      const data = await fetch(`/api/assessment/${groupId}`).then((r) => (r.ok ? r.json() : Promise.reject(new Error('load failed'))));
+      setSelectedGroup(groupId);
+      setAssessment(data);
+    } catch {
+      setLoadError('Could not load this assessment right now. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function loadRetake(groupId, weakSkills) {
@@ -88,10 +95,16 @@ export default function AssessmentCentre() {
     setReport(null);
     setShowHistory(false);
     const params = new URLSearchParams({ weak_skills: (weakSkills || []).join(',') });
-    const data = await fetch(`/api/assessment/${groupId}/retake?${params}`).then((r) => r.json());
-    setSelectedGroup(groupId);
-    setAssessment(data);
-    setLoading(false);
+    setLoadError(null);
+    try {
+      const data = await fetch(`/api/assessment/${groupId}/retake?${params}`).then((r) => (r.ok ? r.json() : Promise.reject(new Error('load failed'))));
+      setSelectedGroup(groupId);
+      setAssessment(data);
+    } catch {
+      setLoadError('Could not load the retake right now. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function submitAssessment() {
@@ -115,6 +128,8 @@ export default function AssessmentCentre() {
         <p className="text-sm opacity-90">Discover your learning strengths</p>
         <p className="mt-1 text-xs opacity-75">Note: This is an educational exercise, not a clinical assessment.</p>
       </div>
+
+      {loadError && <p className="rounded-lg bg-red-50 p-3 text-sm text-red-700" role="alert">{loadError}</p>}
 
       {!selectedGroup && (
         <>
