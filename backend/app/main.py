@@ -74,6 +74,7 @@ from app import chess_tutor
 from app import study_coach
 from app.professional_api import router as professional_router
 from app.news_api import router as news_router
+from app.lesson_examples import router as lesson_examples_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -103,6 +104,7 @@ app.add_middleware(
 )
 app.include_router(professional_router)
 app.include_router(news_router)
+app.include_router(lesson_examples_router)
 
 _museum_resource_dir = Path(__file__).parent.parent / "data" / "museum_resource"
 if _museum_resource_dir.exists():

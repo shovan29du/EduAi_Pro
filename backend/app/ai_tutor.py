@@ -379,6 +379,34 @@ CONTENT: [a short outline of what the lesson covers, one paragraph]
     return _parse_lesson_plan_response(raw)
 
 
+_AI_UNAVAILABLE_PREFIXES = ("Ark AI is offline", "Ark AI is temporarily unavailable")
+
+
+def generate_real_world_example(
+    title: str, subject: str, grade: int = 1, level: str | None = None,
+    key_concepts: list[str] | None = None, summary: str = "",
+) -> str | None:
+    """One concrete real-world example for a lesson, or None when the AI is
+    offline/unavailable (so callers never cache an error message)."""
+    info = _resolve_level(level, grade)
+    strict = info["category"] == levels_module.SCHOOL_CATEGORY
+    system = _build_system_prompt(level, grade, subject)
+    user = (
+        f"Lesson: {title} ({subject}, {info['label']}).\n"
+        + (f"Lesson summary: {summary[:400]}\n" if summary else "")
+        + (f"Key concepts: {', '.join(key_concepts[:8])}\n" if key_concepts else "")
+        + "\nGive ONE concrete real-world example that shows this lesson in action: a real "
+        "place, product, event, job or everyday situation the student could recognise. "
+        "Write 3-5 sentences: describe the situation first, then say exactly how the lesson "
+        "idea explains or applies to it. Do not invent statistics, dates or quotations; if "
+        "you are not certain of a specific fact, choose an everyday situation instead."
+    )
+    text = _call(system, user, max_tokens=400, strict=strict).strip()
+    if not text or text.startswith(_AI_UNAVAILABLE_PREFIXES):
+        return None
+    return text
+
+
 def _parse_grammar_mistake_response(raw: str) -> dict:
     passage_m = re.search(r"PASSAGE:\s*(.*?)(?=\nMISTAKE:|\Z)", raw.strip(), re.S)
     passage = passage_m.group(1).strip() if passage_m else ""

@@ -36,7 +36,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "When you run for a bus, your muscular system moves your legs, your respiratory system makes you breathe faster, your circulatory system pumps more blood to your muscles and your nervous system coordinates it all."
         },
         {
           "id": "heart_health",
@@ -68,7 +69,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "Counting your pulse at the wrist for 15 seconds and multiplying by four estimates your heart rate; comparing it at rest and after exercise shows how fitness affects the heart."
         },
         {
           "id": "puberty_growth",
@@ -100,7 +102,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "Classmates start puberty at different ages, roughly between 8 and 14, so a student who has grown taller than friends, or not yet, is within the normal range and comparing says little about health."
         }
       ]
     },
@@ -138,7 +141,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "A school lunch of wholegrain pasta (carbohydrate), chicken or lentils (protein) and a dressing made with olive oil (fat), served with vegetables, provides all three macronutrients."
         },
         {
           "id": "micronutrients",
@@ -170,7 +174,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "Sailors on long voyages once got scurvy from lacking vitamin C; today a piece of citrus fruit or a pepper provides enough, and some breakfast cereals are fortified with iron and B vitamins."
         }
       ]
     },
@@ -208,7 +213,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "A student who feels nervous before an exam but copes with breathing exercises and a study plan is using good mental-health skills; if worry lasts for weeks and affects sleep and daily life, talking to a trusted adult or doctor is the right step."
         },
         {
           "id": "stress_management",
@@ -240,7 +246,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "Before a big exam, five slow breaths, a short walk and a full night's sleep can lower stress better than staying up late to cram."
         }
       ]
     },
@@ -278,7 +285,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "If someone collapses in a shopping centre and is not breathing normally, a bystander who calls the emergency number and starts chest compressions at about 100-120 a minute until an AED or ambulance arrives can double the person's chance of survival."
         },
         {
           "id": "common_emergencies",
@@ -310,7 +318,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "If a friend burns a hand on a hot pan, hold it under cool running water for at least 20 minutes; do not use ice or butter."
         }
       ]
     },
@@ -328,7 +337,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -399,7 +408,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1628 William Harvey showed that blood circulates around the body, replacing older ideas that the liver kept making blood that was used up. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -470,7 +479,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -541,7 +550,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -612,7 +621,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -683,7 +692,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1628 William Harvey showed that blood circulates around the body, replacing older ideas that the liver kept making blood that was used up. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -754,7 +763,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1628 William Harvey showed that blood circulates around the body, replacing older ideas that the liver kept making blood that was used up. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -825,7 +834,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1628 William Harvey showed that blood circulates around the body, replacing older ideas that the liver kept making blood that was used up. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -896,7 +905,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Blood groups A, B, AB and O decide who can safely donate blood to whom, a fact discovered by Karl Landsteiner in 1901. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -967,7 +976,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1628 William Harvey showed that blood circulates around the body, replacing older ideas that the liver kept making blood that was used up. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1038,7 +1047,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Blood groups A, B, AB and O decide who can safely donate blood to whom, a fact discovered by Karl Landsteiner in 1901. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1109,7 +1118,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Blood groups A, B, AB and O decide who can safely donate blood to whom, a fact discovered by Karl Landsteiner in 1901. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1180,7 +1189,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1251,7 +1260,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Your heart beats roughly 100,000 times a day, pumping blood that delivers oxygen and removes waste; a nurse feeling your pulse at the wrist is counting those beats. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1322,7 +1331,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Human Biology: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Blood groups A, B, AB and O decide who can safely donate blood to whom, a fact discovered by Karl Landsteiner in 1901. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Human Biology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1400,7 +1409,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1471,7 +1480,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many countries add iodine to table salt to prevent goitre and learning difficulties caused by iodine deficiency. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1542,7 +1551,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1613,7 +1622,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1684,7 +1693,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1755,7 +1764,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many countries add iodine to table salt to prevent goitre and learning difficulties caused by iodine deficiency. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1826,7 +1835,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many countries add iodine to table salt to prevent goitre and learning difficulties caused by iodine deficiency. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1897,7 +1906,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many countries add iodine to table salt to prevent goitre and learning difficulties caused by iodine deficiency. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1968,7 +1977,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Reading a food label and comparing sugar, salt and fibre per 100 grams lets shoppers choose between two breakfast cereals. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2039,7 +2048,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many countries add iodine to table salt to prevent goitre and learning difficulties caused by iodine deficiency. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2110,7 +2119,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Reading a food label and comparing sugar, salt and fibre per 100 grams lets shoppers choose between two breakfast cereals. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2181,7 +2190,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Reading a food label and comparing sugar, salt and fibre per 100 grams lets shoppers choose between two breakfast cereals. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2252,7 +2261,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2323,7 +2332,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1747 the Scottish naval doctor James Lind ran a trial on sailors with scurvy and found that oranges and lemons cured them, an early demonstration that a lack of vitamin C causes disease. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2394,7 +2403,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Nutrition: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Reading a food label and comparing sugar, salt and fibre per 100 grams lets shoppers choose between two breakfast cereals. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Nutrition. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2472,7 +2481,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2543,7 +2552,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Parkrun began in London in 2004 with 13 runners and has grown into free weekly 5 km events in many countries. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2614,7 +2623,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2685,7 +2694,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2756,7 +2765,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2827,7 +2836,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Parkrun began in London in 2004 with 13 runners and has grown into free weekly 5 km events in many countries. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2898,7 +2907,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Parkrun began in London in 2004 with 13 runners and has grown into free weekly 5 km events in many countries. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2969,7 +2978,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Parkrun began in London in 2004 with 13 runners and has grown into free weekly 5 km events in many countries. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3040,7 +3049,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Walking or cycling to school builds activity into an ordinary day without needing a gym. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3111,7 +3120,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Parkrun began in London in 2004 with 13 runners and has grown into free weekly 5 km events in many countries. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3182,7 +3191,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Walking or cycling to school builds activity into an ordinary day without needing a gym. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3253,7 +3262,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Walking or cycling to school builds activity into an ordinary day without needing a gym. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3324,7 +3333,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3395,7 +3404,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Health Organization guidelines recommend at least 150 minutes of moderate activity a week for adults and an average of 60 minutes a day for children and teenagers. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3466,7 +3475,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Physical Activity: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Walking or cycling to school builds activity into an ordinary day without needing a gym. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Physical Activity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3544,7 +3553,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3615,7 +3624,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Mental Health Day, observed every year on 10 October, is used to raise awareness and reduce stigma. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3686,7 +3695,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3757,7 +3766,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3828,7 +3837,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3899,7 +3908,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Mental Health Day, observed every year on 10 October, is used to raise awareness and reduce stigma. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3970,7 +3979,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Mental Health Day, observed every year on 10 October, is used to raise awareness and reduce stigma. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4041,7 +4050,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Mental Health Day, observed every year on 10 October, is used to raise awareness and reduce stigma. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4112,7 +4121,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Helplines such as Samaritans in the UK and 988 in the United States offer free, confidential support to people in distress. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4183,7 +4192,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "World Mental Health Day, observed every year on 10 October, is used to raise awareness and reduce stigma. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4254,7 +4263,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Helplines such as Samaritans in the UK and 988 in the United States offer free, confidential support to people in distress. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4325,7 +4334,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Helplines such as Samaritans in the UK and 988 in the United States offer free, confidential support to people in distress. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4396,7 +4405,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4467,7 +4476,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Many schools teach children to name their emotions and use breathing exercises, because recognising feelings early makes them easier to manage. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4538,7 +4547,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Mental Health: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Helplines such as Samaritans in the UK and 988 in the United States offer free, confidential support to people in distress. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Mental Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4616,7 +4625,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4687,7 +4696,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Smallpox, which once killed millions, was declared eradicated in 1980 after a worldwide vaccination campaign led by the World Health Organization. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4758,7 +4767,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4829,7 +4838,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4900,7 +4909,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4971,7 +4980,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Smallpox, which once killed millions, was declared eradicated in 1980 after a worldwide vaccination campaign led by the World Health Organization. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5042,7 +5051,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Smallpox, which once killed millions, was declared eradicated in 1980 after a worldwide vaccination campaign led by the World Health Organization. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5113,7 +5122,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Smallpox, which once killed millions, was declared eradicated in 1980 after a worldwide vaccination campaign led by the World Health Organization. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5184,7 +5193,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Clean water and sanitation programmes prevent diarrhoeal disease, which is why public health agencies fund wells and toilets. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5255,7 +5264,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Smallpox, which once killed millions, was declared eradicated in 1980 after a worldwide vaccination campaign led by the World Health Organization. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5326,7 +5335,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Clean water and sanitation programmes prevent diarrhoeal disease, which is why public health agencies fund wells and toilets. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5397,7 +5406,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Clean water and sanitation programmes prevent diarrhoeal disease, which is why public health agencies fund wells and toilets. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5468,7 +5477,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5539,7 +5548,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 1854 John Snow mapped cholera deaths in Soho, London, traced them to the Broad Street water pump and persuaded officials to remove its handle. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5610,7 +5619,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Public Health: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Clean water and sanitation programmes prevent diarrhoeal disease, which is why public health agencies fund wells and toilets. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Public Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5688,7 +5697,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5759,7 +5768,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Washing hands with soap for about 20 seconds removes germs and reduces infections such as colds and diarrhoea. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5830,7 +5839,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5901,7 +5910,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5972,7 +5981,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6043,7 +6052,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Washing hands with soap for about 20 seconds removes germs and reduces infections such as colds and diarrhoea. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6114,7 +6123,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Washing hands with soap for about 20 seconds removes germs and reduces infections such as colds and diarrhoea. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6185,7 +6194,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Washing hands with soap for about 20 seconds removes germs and reduces infections such as colds and diarrhoea. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6256,7 +6265,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Insecticide-treated mosquito nets have helped reduce malaria deaths in Africa. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6327,7 +6336,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Washing hands with soap for about 20 seconds removes germs and reduces infections such as colds and diarrhoea. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6398,7 +6407,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Insecticide-treated mosquito nets have helped reduce malaria deaths in Africa. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6469,7 +6478,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Insecticide-treated mosquito nets have helped reduce malaria deaths in Africa. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6540,7 +6549,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6611,7 +6620,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Vaccination campaigns have almost eliminated polio: wild poliovirus is now found in only a few countries. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6682,7 +6691,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Disease Prevention: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Insecticide-treated mosquito nets have helped reduce malaria deaths in Africa. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Disease Prevention. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6760,7 +6769,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6831,7 +6840,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thailand's universal coverage scheme, launched in 2002, extended health insurance to most of the population. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6902,7 +6911,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6973,7 +6982,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7044,7 +7053,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7115,7 +7124,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thailand's universal coverage scheme, launched in 2002, extended health insurance to most of the population. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7186,7 +7195,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thailand's universal coverage scheme, launched in 2002, extended health insurance to most of the population. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7257,7 +7266,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thailand's universal coverage scheme, launched in 2002, extended health insurance to most of the population. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7328,7 +7337,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In many countries a person with a health problem first sees a general practitioner or nurse who treats common conditions and refers patients to specialists when needed. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7399,7 +7408,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thailand's universal coverage scheme, launched in 2002, extended health insurance to most of the population. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7470,7 +7479,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In many countries a person with a health problem first sees a general practitioner or nurse who treats common conditions and refers patients to specialists when needed. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7541,7 +7550,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In many countries a person with a health problem first sees a general practitioner or nurse who treats common conditions and refers patients to specialists when needed. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7612,7 +7621,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7683,7 +7692,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UK's National Health Service was founded in 1948 and provides most care free at the point of use, paid for through taxation. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7754,7 +7763,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Health Systems: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In many countries a person with a health problem first sees a general practitioner or nurse who treats common conditions and refers patients to specialists when needed. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Health Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7832,7 +7841,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7903,7 +7912,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thalidomide, sold in the late 1950s for morning sickness, caused birth defects in thousands of babies and led to much stricter drug-testing rules. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7974,7 +7983,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8045,7 +8054,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8116,7 +8125,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8187,7 +8196,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thalidomide, sold in the late 1950s for morning sickness, caused birth defects in thousands of babies and led to much stricter drug-testing rules. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8258,7 +8267,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thalidomide, sold in the late 1950s for morning sickness, caused birth defects in thousands of babies and led to much stricter drug-testing rules. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8329,7 +8338,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thalidomide, sold in the late 1950s for morning sickness, caused birth defects in thousands of babies and led to much stricter drug-testing rules. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8400,7 +8409,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Alexander Fleming noticed in 1928 that mould killed bacteria on a dish, and Howard Florey and Ernst Chain later developed penicillin into a medicine. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8471,7 +8480,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Thalidomide, sold in the late 1950s for morning sickness, caused birth defects in thousands of babies and led to much stricter drug-testing rules. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8542,7 +8551,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Alexander Fleming noticed in 1928 that mould killed bacteria on a dish, and Howard Florey and Ernst Chain later developed penicillin into a medicine. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8613,7 +8622,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Alexander Fleming noticed in 1928 that mould killed bacteria on a dish, and Howard Florey and Ernst Chain later developed penicillin into a medicine. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8684,7 +8693,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8755,7 +8764,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The 1948 Medical Research Council trial of streptomycin for tuberculosis in the UK was an early randomised controlled trial, comparing treated patients with a control group to see whether the drug really worked. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8826,7 +8835,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Medicines and Evidence: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Alexander Fleming noticed in 1928 that mould killed bacteria on a dish, and Howard Florey and Ernst Chain later developed penicillin into a medicine. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Medicines and Evidence. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8904,7 +8913,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8975,7 +8984,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Hard hats, ear protection and safety training reduce injuries on building sites, where health and safety law requires employers to assess risks. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9046,7 +9055,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9117,7 +9126,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9188,7 +9197,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9259,7 +9268,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Hard hats, ear protection and safety training reduce injuries on building sites, where health and safety law requires employers to assess risks. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9330,7 +9339,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Hard hats, ear protection and safety training reduce injuries on building sites, where health and safety law requires employers to assess risks. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9401,7 +9410,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Hard hats, ear protection and safety training reduce injuries on building sites, where health and safety law requires employers to assess risks. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9472,7 +9481,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Some employers offer employee assistance programmes so that staff can get confidential counselling for stress and personal problems. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9543,7 +9552,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Hard hats, ear protection and safety training reduce injuries on building sites, where health and safety law requires employers to assess risks. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9614,7 +9623,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Some employers offer employee assistance programmes so that staff can get confidential counselling for stress and personal problems. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9685,7 +9694,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Some employers offer employee assistance programmes so that staff can get confidential counselling for stress and personal problems. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9756,7 +9765,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9827,7 +9836,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Office workers can reduce back pain by adjusting chair height, keeping the screen at eye level and standing to stretch every hour. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9898,7 +9907,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Workplace Health: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Some employers offer employee assistance programmes so that staff can get confidential counselling for stress and personal problems. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Workplace Health. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9976,7 +9985,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10047,7 +10056,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "During the COVID-19 pandemic the WHO described an 'infodemic', an overload of information including false claims, that made reliable guidance hard to find. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10118,7 +10127,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10189,7 +10198,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10260,7 +10269,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10331,7 +10340,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "During the COVID-19 pandemic the WHO described an 'infodemic', an overload of information including false claims, that made reliable guidance hard to find. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10402,7 +10411,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "During the COVID-19 pandemic the WHO described an 'infodemic', an overload of information including false claims, that made reliable guidance hard to find. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10473,7 +10482,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "During the COVID-19 pandemic the WHO described an 'infodemic', an overload of information including false claims, that made reliable guidance hard to find. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10544,7 +10553,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A smartwatch can measure heart rate but is not a medical diagnosis; unusual readings should be checked by a clinician. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10615,7 +10624,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "During the COVID-19 pandemic the WHO described an 'infodemic', an overload of information including false claims, that made reliable guidance hard to find. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10686,7 +10695,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A smartwatch can measure heart rate but is not a medical diagnosis; unusual readings should be checked by a clinician. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10757,7 +10766,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A smartwatch can measure heart rate but is not a medical diagnosis; unusual readings should be checked by a clinician. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10828,7 +10837,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10899,7 +10908,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Before trusting a health website, look for the author's credentials, the date and whether it cites sources such as the WHO or a national health service. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10970,7 +10979,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Digital Health Literacy: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A smartwatch can measure heart rate but is not a medical diagnosis; unusual readings should be checked by a clinician. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Digital Health Literacy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {

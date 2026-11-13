@@ -34,4 +34,5 @@ backend/data/museum_thumbnail_cache/
 backend/data/paintings/
 backend/data/app_settings.json
 backend/data/news_cache/
+backend/data/lesson_examples/
 backend/data/news_preferences.json

@@ -36,7 +36,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "A school pond is a small ecosystem: water lilies and algae (producers) feed snails and tadpoles, dragonfly larvae eat those, and bacteria in the mud break down dead material, all depending on sunlight, water and temperature."
         },
         {
           "id": "food_chains",
@@ -68,7 +69,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "On the African savanna, grass is eaten by zebra and zebra are hunted by lions; if disease cut the zebra population, lions would have less food and the grass would be grazed less."
         },
         {
           "id": "biodiversity",
@@ -90,7 +92,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "Coral reefs cover less than 1 per cent of the ocean floor yet are home to roughly a quarter of marine species; when heat bleaches a reef, the fish and the fishing communities that rely on it are affected."
         }
       ]
     },
@@ -128,7 +131,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "When steam from a boiling kettle fogs a cold window and runs down it as droplets, you are watching evaporation, condensation and precipitation on a small scale."
         },
         {
           "id": "greenhouse_effect",
@@ -160,7 +164,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "A car parked in the sun with its windows shut warms up inside because sunlight comes in and the heat cannot easily escape, a small-scale picture of how greenhouse gases trap heat around the Earth."
         }
       ]
     },
@@ -198,7 +203,8 @@
               ],
               "answer": 1
             }
-          ]
+          ],
+          "example": "Denmark's offshore wind farms in the North Sea supply a large share of its electricity, while a coal power station burns fuel formed over millions of years and releases the carbon stored in it."
         },
         {
           "id": "reduce_reuse_recycle",
@@ -230,7 +236,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "Taking a refillable water bottle to school (reduce), using a jar as a pencil holder (reuse) and putting paper in the recycling bin (recycle) show the three Rs in a single day."
         },
         {
           "id": "ocean_plastics",
@@ -252,7 +259,8 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": "The Great Pacific Garbage Patch, a region of the North Pacific where currents gather floating plastic, is mostly small fragments rather than an island of rubbish; organisations such as The Ocean Cleanup try to remove plastic from rivers before it reaches the sea."
         }
       ]
     },
@@ -270,7 +278,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -341,7 +349,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Rachel Carson's 1962 book Silent Spring described how pesticides such as DDT were harming birds and food chains, helping start the modern environmental movement. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -412,7 +420,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -483,7 +491,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -554,7 +562,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -625,7 +633,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Rachel Carson's 1962 book Silent Spring described how pesticides such as DDT were harming birds and food chains, helping start the modern environmental movement. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -696,7 +704,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Rachel Carson's 1962 book Silent Spring described how pesticides such as DDT were harming birds and food chains, helping start the modern environmental movement. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -767,7 +775,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Rachel Carson's 1962 book Silent Spring described how pesticides such as DDT were harming birds and food chains, helping start the modern environmental movement. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -838,7 +846,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A pond ecosystem includes plants, insects, fish, microbes and the water and sunlight they depend on; removing one part, such as the insects, affects all the others. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -909,7 +917,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Rachel Carson's 1962 book Silent Spring described how pesticides such as DDT were harming birds and food chains, helping start the modern environmental movement. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -980,7 +988,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A pond ecosystem includes plants, insects, fish, microbes and the water and sunlight they depend on; removing one part, such as the insects, affects all the others. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1051,7 +1059,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A pond ecosystem includes plants, insects, fish, microbes and the water and sunlight they depend on; removing one part, such as the insects, affects all the others. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1122,7 +1130,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1193,7 +1201,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Off California, sea otters eat sea urchins that graze on kelp; when otters were hunted nearly to extinction in the 1800s, urchins multiplied and kelp forests shrank. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1264,7 +1272,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Ecology: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "A pond ecosystem includes plants, insects, fish, microbes and the water and sunlight they depend on; removing one part, such as the insects, affects all the others. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Ecology. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1342,7 +1350,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1413,7 +1421,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "El Nino years, when the tropical Pacific warms, change rainfall patterns around the world, bringing floods to some regions and drought to others. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1484,7 +1492,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1555,7 +1563,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1626,7 +1634,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1697,7 +1705,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "El Nino years, when the tropical Pacific warms, change rainfall patterns around the world, bringing floods to some regions and drought to others. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1768,7 +1776,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "El Nino years, when the tropical Pacific warms, change rainfall patterns around the world, bringing floods to some regions and drought to others. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1839,7 +1847,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "El Nino years, when the tropical Pacific warms, change rainfall patterns around the world, bringing floods to some regions and drought to others. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1910,7 +1918,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The June 2021 heat wave in the Pacific Northwest of North America broke temperature records, and scientists concluded that human-caused warming made such an event far more likely. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -1981,7 +1989,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "El Nino years, when the tropical Pacific warms, change rainfall patterns around the world, bringing floods to some regions and drought to others. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2052,7 +2060,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The June 2021 heat wave in the Pacific Northwest of North America broke temperature records, and scientists concluded that human-caused warming made such an event far more likely. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2123,7 +2131,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The June 2021 heat wave in the Pacific Northwest of North America broke temperature records, and scientists concluded that human-caused warming made such an event far more likely. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2194,7 +2202,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2265,7 +2273,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Keeling Curve, begun by Charles David Keeling at Mauna Loa in Hawaii in 1958, shows atmospheric carbon dioxide rising year after year with a seasonal wiggle as plants grow and die back. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2336,7 +2344,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Climate Systems: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The June 2021 heat wave in the Pacific Northwest of North America broke temperature records, and scientists concluded that human-caused warming made such an event far more likely. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Climate Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2414,7 +2422,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2485,7 +2493,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Kunming-Montreal Global Biodiversity Framework, agreed in December 2022, aims to protect 30 per cent of the world's land and sea by 2030. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2556,7 +2564,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2627,7 +2635,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2698,7 +2706,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2769,7 +2777,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Kunming-Montreal Global Biodiversity Framework, agreed in December 2022, aims to protect 30 per cent of the world's land and sea by 2030. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2840,7 +2848,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Kunming-Montreal Global Biodiversity Framework, agreed in December 2022, aims to protect 30 per cent of the world's land and sea by 2030. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2911,7 +2919,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Kunming-Montreal Global Biodiversity Framework, agreed in December 2022, aims to protect 30 per cent of the world's land and sea by 2030. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -2982,7 +2990,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Bees and other pollinators help produce many crops, so farmers in some regions now rent hives or plant flower strips beside fields to support them. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3053,7 +3061,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Kunming-Montreal Global Biodiversity Framework, agreed in December 2022, aims to protect 30 per cent of the world's land and sea by 2030. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3124,7 +3132,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Bees and other pollinators help produce many crops, so farmers in some regions now rent hives or plant flower strips beside fields to support them. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3195,7 +3203,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Bees and other pollinators help produce many crops, so farmers in some regions now rent hives or plant flower strips beside fields to support them. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3266,7 +3274,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3337,7 +3345,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Amazon rainforest is estimated to hold roughly one in ten of the species known on Earth, which is why its loss matters far beyond South America. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3408,7 +3416,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Biodiversity: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Bees and other pollinators help produce many crops, so farmers in some regions now rent hives or plant flower strips beside fields to support them. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Biodiversity. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3486,7 +3494,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3557,7 +3565,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Aral Sea in Central Asia shrank dramatically from the 1960s after the rivers feeding it were diverted to irrigate cotton fields. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3628,7 +3636,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3699,7 +3707,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3770,7 +3778,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3841,7 +3849,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Aral Sea in Central Asia shrank dramatically from the 1960s after the rivers feeding it were diverted to irrigate cotton fields. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3912,7 +3920,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Aral Sea in Central Asia shrank dramatically from the 1960s after the rivers feeding it were diverted to irrigate cotton fields. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -3983,7 +3991,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Aral Sea in Central Asia shrank dramatically from the 1960s after the rivers feeding it were diverted to irrigate cotton fields. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4054,7 +4062,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore reuses treated wastewater as 'NEWater' and collects rainwater, reducing its dependence on imported water. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4125,7 +4133,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Aral Sea in Central Asia shrank dramatically from the 1960s after the rivers feeding it were diverted to irrigate cotton fields. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4196,7 +4204,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore reuses treated wastewater as 'NEWater' and collects rainwater, reducing its dependence on imported water. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4267,7 +4275,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore reuses treated wastewater as 'NEWater' and collects rainwater, reducing its dependence on imported water. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4338,7 +4346,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4409,7 +4417,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "In 2018 Cape Town, South Africa, came close to 'Day Zero', when taps might have been turned off, and strict limits on household water use helped avoid it. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4480,7 +4488,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Water Security: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore reuses treated wastewater as 'NEWater' and collects rainwater, reducing its dependence on imported water. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Water Security. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4558,7 +4566,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4629,7 +4637,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Industrial Revolution moved Britain from wood and water power to coal in the 18th and 19th centuries; today's shift from fossil fuels to renewables is the next big change in energy sources. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4700,7 +4708,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4771,7 +4779,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4842,7 +4850,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4913,7 +4921,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Industrial Revolution moved Britain from wood and water power to coal in the 18th and 19th centuries; today's shift from fossil fuels to renewables is the next big change in energy sources. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -4984,7 +4992,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Industrial Revolution moved Britain from wood and water power to coal in the 18th and 19th centuries; today's shift from fossil fuels to renewables is the next big change in energy sources. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5055,7 +5063,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Industrial Revolution moved Britain from wood and water power to coal in the 18th and 19th centuries; today's shift from fossil fuels to renewables is the next big change in energy sources. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5126,7 +5134,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Costa Rica has produced nearly all of its electricity from renewable sources, mainly hydro, geothermal and wind, in recent years. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5197,7 +5205,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Industrial Revolution moved Britain from wood and water power to coal in the 18th and 19th centuries; today's shift from fossil fuels to renewables is the next big change in energy sources. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5268,7 +5276,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Costa Rica has produced nearly all of its electricity from renewable sources, mainly hydro, geothermal and wind, in recent years. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5339,7 +5347,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Costa Rica has produced nearly all of its electricity from renewable sources, mainly hydro, geothermal and wind, in recent years. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5410,7 +5418,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5481,7 +5489,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Denmark now generates close to half of its electricity from wind power, among the highest shares in the world. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5552,7 +5560,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Energy Transitions: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Costa Rica has produced nearly all of its electricity from renewable sources, mainly hydro, geothermal and wind, in recent years. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Energy Transitions. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5630,7 +5638,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5701,7 +5709,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Montreal Protocol of 1987 phased out chemicals that damaged the ozone layer, and the ozone hole is expected to recover during this century. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5772,7 +5780,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5843,7 +5851,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5914,7 +5922,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -5985,7 +5993,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Montreal Protocol of 1987 phased out chemicals that damaged the ozone layer, and the ozone hole is expected to recover during this century. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6056,7 +6064,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Montreal Protocol of 1987 phased out chemicals that damaged the ozone layer, and the ozone hole is expected to recover during this century. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6127,7 +6135,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Montreal Protocol of 1987 phased out chemicals that damaged the ozone layer, and the ozone hole is expected to recover during this century. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6198,7 +6206,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "After 2013 Beijing limited coal burning and vehicle use, and average levels of fine-particle air pollution fell substantially over the following years. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6269,7 +6277,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Montreal Protocol of 1987 phased out chemicals that damaged the ozone layer, and the ozone hole is expected to recover during this century. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6340,7 +6348,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "After 2013 Beijing limited coal burning and vehicle use, and average levels of fine-particle air pollution fell substantially over the following years. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6411,7 +6419,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "After 2013 Beijing limited coal burning and vehicle use, and average levels of fine-particle air pollution fell substantially over the following years. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6482,7 +6490,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6553,7 +6561,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "London's Great Smog of December 1952 was linked to thousands of deaths and led to the UK's Clean Air Act of 1956. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6624,7 +6632,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Pollution Control: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "After 2013 Beijing limited coal burning and vehicle use, and average levels of fine-particle air pollution fell substantially over the following years. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Pollution Control. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6702,7 +6710,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6773,7 +6781,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Curitiba, Brazil, introduced a bus rapid transit system in the 1970s with dedicated lanes and raised boarding tubes, a design copied by many cities. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6844,7 +6852,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6915,7 +6923,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -6986,7 +6994,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7057,7 +7065,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Curitiba, Brazil, introduced a bus rapid transit system in the 1970s with dedicated lanes and raised boarding tubes, a design copied by many cities. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7128,7 +7136,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Curitiba, Brazil, introduced a bus rapid transit system in the 1970s with dedicated lanes and raised boarding tubes, a design copied by many cities. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7199,7 +7207,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Curitiba, Brazil, introduced a bus rapid transit system in the 1970s with dedicated lanes and raised boarding tubes, a design copied by many cities. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7270,7 +7278,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore's green roofs and Gardens by the Bay show how cities can add plants, shade buildings and cool the air. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7341,7 +7349,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Curitiba, Brazil, introduced a bus rapid transit system in the 1970s with dedicated lanes and raised boarding tubes, a design copied by many cities. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7412,7 +7420,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore's green roofs and Gardens by the Bay show how cities can add plants, shade buildings and cool the air. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7483,7 +7491,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore's green roofs and Gardens by the Bay show how cities can add plants, shade buildings and cool the air. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7554,7 +7562,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7625,7 +7633,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Copenhagen has built extensive protected cycle lanes, and a large share of its residents travel to work or school by bike. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7696,7 +7704,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Sustainable Cities: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Singapore's green roofs and Gardens by the Bay show how cities can add plants, shade buildings and cool the air. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Sustainable Cities. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7774,7 +7782,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7845,7 +7853,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Green Revolution from the 1960s used high-yield wheat and rice varieties, which Norman Borlaug helped develop, and greatly increased harvests in places such as India and Mexico. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7916,7 +7924,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -7987,7 +7995,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8058,7 +8066,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8129,7 +8137,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Green Revolution from the 1960s used high-yield wheat and rice varieties, which Norman Borlaug helped develop, and greatly increased harvests in places such as India and Mexico. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8200,7 +8208,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Green Revolution from the 1960s used high-yield wheat and rice varieties, which Norman Borlaug helped develop, and greatly increased harvests in places such as India and Mexico. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8271,7 +8279,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Green Revolution from the 1960s used high-yield wheat and rice varieties, which Norman Borlaug helped develop, and greatly increased harvests in places such as India and Mexico. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8342,7 +8350,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Farmers' markets and community-supported agriculture shorten the distance between growers and eaters and let shoppers ask how food was produced. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8413,7 +8421,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Green Revolution from the 1960s used high-yield wheat and rice varieties, which Norman Borlaug helped develop, and greatly increased harvests in places such as India and Mexico. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8484,7 +8492,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Farmers' markets and community-supported agriculture shorten the distance between growers and eaters and let shoppers ask how food was produced. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8555,7 +8563,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Farmers' markets and community-supported agriculture shorten the distance between growers and eaters and let shoppers ask how food was produced. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8626,7 +8634,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8697,7 +8705,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The UN Food and Agriculture Organization estimates that around a third of the food produced for people is lost or wasted. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8768,7 +8776,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Food Systems: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Farmers' markets and community-supported agriculture shorten the distance between growers and eaters and let shoppers ask how food was produced. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Food Systems. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8846,7 +8854,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8917,7 +8925,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The European Union Emissions Trading System, started in 2005, caps total emissions and lets companies buy and sell permits. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -8988,7 +8996,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9059,7 +9067,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9130,7 +9138,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9201,7 +9209,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The European Union Emissions Trading System, started in 2005, caps total emissions and lets companies buy and sell permits. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9272,7 +9280,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The European Union Emissions Trading System, started in 2005, caps total emissions and lets companies buy and sell permits. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9343,7 +9351,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The European Union Emissions Trading System, started in 2005, caps total emissions and lets companies buy and sell permits. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9414,7 +9422,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Since 1997 Costa Rica has paid landowners to protect forests, an example of putting a value on nature's benefits. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9485,7 +9493,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The European Union Emissions Trading System, started in 2005, caps total emissions and lets companies buy and sell permits. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9556,7 +9564,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Since 1997 Costa Rica has paid landowners to protect forests, an example of putting a value on nature's benefits. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9627,7 +9635,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Since 1997 Costa Rica has paid landowners to protect forests, an example of putting a value on nature's benefits. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9698,7 +9706,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9769,7 +9777,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "British Columbia introduced a carbon tax in 2008, putting a price on emissions from burning fossil fuels. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9840,7 +9848,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Environmental Economics: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Since 1997 Costa Rica has paid landowners to protect forests, an example of putting a value on nature's benefits. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Environmental Economics. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9918,7 +9926,7 @@
             "Foundations and Vocabulary requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Foundations and Vocabulary to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on foundations and vocabulary: List the key terms this case depends on and define each in your own words.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -9989,7 +9997,7 @@
             "Historical Development requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Historical Development to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Convention on International Trade in Endangered Species (CITES), in force since 1975, regulates international trade in thousands of animal and plant species. For this lesson on historical development: Trace which earlier events or ideas made this case possible.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10060,7 +10068,7 @@
             "Core Models and Frameworks requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Core Models and Frameworks to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on core models and frameworks: Choose one standard model from this field and use it to explain what happened.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10131,7 +10139,7 @@
             "Evidence and Research Methods requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Evidence and Research Methods to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on evidence and research methods: Decide what evidence you would need to check the claims made about this case, and where you would find it.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10202,7 +10210,7 @@
             "Data Interpretation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Data Interpretation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on data interpretation: Name one number or trend that would show whether this case worked, and say what could mislead you about it.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10273,7 +10281,7 @@
             "Ethics and Responsibility requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Ethics and Responsibility to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Convention on International Trade in Endangered Species (CITES), in force since 1975, regulates international trade in thousands of animal and plant species. For this lesson on ethics and responsibility: Identify who benefited, who bore the costs, and what duties the people involved had.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10344,7 +10352,7 @@
             "Law, Policy and Regulation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Law, Policy and Regulation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Convention on International Trade in Endangered Species (CITES), in force since 1975, regulates international trade in thousands of animal and plant species. For this lesson on law, policy and regulation: Find the rules or laws that shaped what happened and ask whether they worked.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10415,7 +10423,7 @@
             "Institutions and Governance requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Institutions and Governance to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Convention on International Trade in Endangered Species (CITES), in force since 1975, regulates international trade in thousands of animal and plant species. For this lesson on institutions and governance: Identify the organisations that made the decisions and who held them to account.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10486,7 +10494,7 @@
             "Technology and Innovation requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Technology and Innovation to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Mountain gorilla numbers in the Virunga region have increased with protected areas and tourism fees that benefit local communities. For this lesson on technology and innovation: Explain how a new tool or technology changed what was possible here.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10557,7 +10565,7 @@
             "Global and Comparative Perspectives requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Global and Comparative Perspectives to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "The Convention on International Trade in Endangered Species (CITES), in force since 1975, regulates international trade in thousands of animal and plant species. For this lesson on global and comparative perspectives: Compare this case with a similar one in another country and explain the differences.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10628,7 +10636,7 @@
             "Risk and Resilience requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Risk and Resilience to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Mountain gorilla numbers in the Virunga region have increased with protected areas and tourism fees that benefit local communities. For this lesson on risk and resilience: List what could have gone wrong and what would have made the outcome more resilient.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10699,7 +10707,7 @@
             "Equity and Inclusion requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Equity and Inclusion to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Mountain gorilla numbers in the Virunga region have increased with protected areas and tourism fees that benefit local communities. For this lesson on equity and inclusion: Ask who was included or left out, and how the outcome might differ for different groups.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10770,7 +10778,7 @@
             "Professional Practice requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Professional Practice to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on professional practice: Describe what a professional in this field would actually do on their first day working on this case.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10841,7 +10849,7 @@
             "Case Study Analysis requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Case Study Analysis to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Yellowstone, established in 1872, is generally considered the world's first national park. For this lesson on case study analysis: Write a short case study: the situation, the options considered, the decision and the result.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {
@@ -10912,7 +10920,7 @@
             "Future Challenges and Solutions requires comparison of at least two plausible perspectives.",
             "A strong conclusion states uncertainty, limitations and the conditions under which it may change."
           ],
-          "example": "A professional team applies Conservation Policy: Future Challenges and Solutions to a real proposal, builds a comparison table, tests one counterargument and records why the final option was selected.",
+          "example": "Mountain gorilla numbers in the Virunga region have increased with protected areas and tourism fees that benefit local communities. For this lesson on future challenges and solutions: Predict how this case might look in twenty years and propose one improvement.",
           "exercise": "Choose a current case involving Conservation Policy. Define the issue, list three evidence sources, compare two responses and defend one recommendation.",
           "exercise_answer": "A complete response defines terms, cites credible evidence, compares alternatives consistently, acknowledges uncertainty and links the recommendation to the evidence.",
           "worked_example": {

@@ -12,6 +12,7 @@ import MiniCheck from './MiniCheck.jsx';
 import PersonalizedLearningPanel from './PersonalizedLearningPanel.jsx';
 import { recordLearningEvidence } from '../api/personalized.js';
 import CodeEditor from './CodeEditor.jsx';
+import { getLessonExample } from '../api/lessonExamples.js';
 
 const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
 
@@ -267,7 +268,48 @@ const LESSON_GROUPS = [
   },
 ];
 
-function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLessonId }) {
+export function RealWorldExample({ lesson, subjectName, levelId }) {
+  const [state, setState] = useState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '' });
+
+  useEffect(() => {
+    setState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '' });
+  }, [lesson.id, lesson.real_world_example]);
+
+  function load() {
+    setState({ status: 'loading', text: '' });
+    getLessonExample({
+      lessonId: lesson.id,
+      title: lesson.title,
+      subject: subjectName,
+      level: levelId,
+      summary: (lesson.reading_material || '').split('\n\n')[0],
+      concepts: lesson.key_concepts,
+    })
+      .then((data) => setState(data.example ? { status: 'done', text: data.example } : { status: 'unavailable', text: '' }))
+      .catch(() => setState({ status: 'error', text: '' }));
+  }
+
+  return (
+    <section className="mt-5 rounded-xl border border-emerald-200 bg-emerald-50 p-5 dark:border-emerald-800 dark:bg-emerald-950" aria-label="Real-world example">
+      <h5 className="font-semibold">Real-world example</h5>
+      {state.status === 'done' && <p className="mt-2 whitespace-pre-line leading-7">{state.text}</p>}
+      {state.status === 'loading' && <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">Finding a real-world example…</p>}
+      {state.status === 'unavailable' && (
+        <p className="mt-2 text-sm text-gray-700 dark:text-gray-300" role="status">
+          Real-world examples need the AI tutor. Add your Anthropic API key in Settings to unlock one for every lesson.
+        </p>
+      )}
+      {state.status === 'error' && <p className="mt-2 text-sm text-red-600" role="alert">Could not load an example right now.</p>}
+      {(state.status === 'idle' || state.status === 'unavailable' || state.status === 'error') && (
+        <button type="button" onClick={load} className="mt-3 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700">
+          {state.status === 'idle' ? 'Show a real-world example' : 'Try again'}
+        </button>
+      )}
+    </section>
+  );
+}
+
+function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLessonId, subjectName, levelId }) {
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(0);
   const [selectedId, setSelectedId] = useState(lessons[0]?.id || '');
@@ -380,6 +422,7 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
                 </div>
               </>
             )}
+            <RealWorldExample lesson={selected} subjectName={subjectName} levelId={levelId} />
             {selected.technical_detail && (
               <section className="mt-6 rounded-xl border border-indigo-200 bg-indigo-50 p-5 dark:border-indigo-800 dark:bg-indigo-950">
                 <h5 className="font-semibold">Technical detail</h5>
@@ -534,6 +577,8 @@ function LessonContent({ groupId, subject, completed, onComplete, levelId, recom
         completed={completed}
         onComplete={onComplete}
         recommendedLessonId={recommendedLessonId}
+        subjectName={subject.__name}
+        levelId={levelId}
       />
     );
   }
