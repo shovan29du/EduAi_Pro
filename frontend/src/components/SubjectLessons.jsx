@@ -13,6 +13,7 @@ import PersonalizedLearningPanel from './PersonalizedLearningPanel.jsx';
 import { recordLearningEvidence } from '../api/personalized.js';
 import CodeEditor from './CodeEditor.jsx';
 import { getLessonExample } from '../api/lessonExamples.js';
+import ExampleQuiz from './ExampleQuiz.jsx';
 import ReportProblem from './ReportProblem.jsx';
 
 const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
@@ -270,10 +271,10 @@ const LESSON_GROUPS = [
 ];
 
 export function RealWorldExample({ lesson, subjectName, levelId }) {
-  const [state, setState] = useState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '' });
+  const [state, setState] = useState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '', vetted: !!lesson.real_world_example });
 
   useEffect(() => {
-    setState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '' });
+    setState({ status: lesson.real_world_example ? 'done' : 'idle', text: lesson.real_world_example || '', vetted: !!lesson.real_world_example });
   }, [lesson.id, lesson.real_world_example]);
 
   function load() {
@@ -286,14 +287,22 @@ export function RealWorldExample({ lesson, subjectName, levelId }) {
       summary: (lesson.reading_material || '').split('\n\n')[0],
       concepts: lesson.key_concepts,
     })
-      .then((data) => setState(data.example ? { status: 'done', text: data.example } : { status: 'unavailable', text: '' }))
+      .then((data) => setState(data.example ? { status: 'done', text: data.example, vetted: !!data.vetted } : { status: 'unavailable', text: '' }))
       .catch(() => setState({ status: 'error', text: '' }));
   }
 
   return (
     <section className="mt-5 rounded-xl border border-emerald-200 bg-emerald-50 p-5 dark:border-emerald-800 dark:bg-emerald-950" aria-label="Real-world example">
-      <h5 className="font-semibold">Real-world example</h5>
+      <h5 className="font-semibold">
+        Real-world example
+        {state.status === 'done' && state.vetted && (
+          <span className="ml-2 rounded-full bg-emerald-600 px-2 py-0.5 text-xs font-medium text-white" title="Checked by a person">Reviewed</span>
+        )}
+      </h5>
       {state.status === 'done' && <p className="mt-2 whitespace-pre-line leading-7">{state.text}</p>}
+      {state.status === 'done' && (
+        <ExampleQuiz example={state.text} title={lesson.title} subject={subjectName} level={levelId} concepts={lesson.key_concepts} />
+      )}
       {state.status === 'loading' && <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">Finding a real-world example…</p>}
       {state.status === 'unavailable' && (
         <p className="mt-2 text-sm text-gray-700 dark:text-gray-300" role="status">
