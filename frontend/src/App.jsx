@@ -61,6 +61,7 @@ const Civics = lazy(() => import('./components/Civics.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
+const ProblemReportsPanel = lazy(() => import('./components/ProblemReportsPanel.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
@@ -307,7 +308,7 @@ export default function App() {
 
           {activeTab === 'Resource Tab' && <ResourceTab standard={standard} level={level} child={child} />}
 
-          {activeTab === 'Users' && <UserManager />}
+          {activeTab === 'Users' && <><UserManager /><ProblemReportsPanel /></>}
 
           {activeTab === 'Ark AI Tutor' && <AiTutor level={level} subjectName={activeSubject || ''} />}
 

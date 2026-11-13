@@ -35,4 +35,5 @@ backend/data/paintings/
 backend/data/app_settings.json
 backend/data/news_cache/
 backend/data/lesson_examples/
+backend/data/problem_reports/
 backend/data/news_preferences.json

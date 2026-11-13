@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ReportProblem from './ReportProblem.jsx';
 
 const API = '/api';
 
@@ -126,6 +127,7 @@ function ExperimentDetail({ discipline, experimentId, colour, onBack }) {
         )}
 
         <QuizPanel quiz={exp.quiz} />
+        <ReportProblem kind="stem_experiment" itemId={exp.id} title={exp.title} context={discipline} />
       </div>
     </div>
   );

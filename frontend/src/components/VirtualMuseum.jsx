@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import CMACollection from './CMACollection.jsx';
 import FavoriteButton from './FavoriteButton.jsx';
 import { useChild } from '../contexts/ChildContext.jsx';
+import ReportProblem from './ReportProblem.jsx';
 import { postProgress } from '../api/progress.js';
 import './VirtualMuseum.css';
 
@@ -420,6 +421,7 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       )}
 
       <ObjectLinks links={obj.links} />
+      <ReportProblem kind="museum_object" itemId={obj.id} title={obj.name} context={gallery} />
     </div>
   );
 }

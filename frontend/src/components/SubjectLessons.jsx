@@ -13,6 +13,7 @@ import PersonalizedLearningPanel from './PersonalizedLearningPanel.jsx';
 import { recordLearningEvidence } from '../api/personalized.js';
 import CodeEditor from './CodeEditor.jsx';
 import { getLessonExample } from '../api/lessonExamples.js';
+import ReportProblem from './ReportProblem.jsx';
 
 const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
 
@@ -562,6 +563,9 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
             >
               {completed.includes(selected.id) ? 'Completed ✓' : 'Mark this lesson complete'}
             </button>
+            <div>
+              <ReportProblem kind="lesson" itemId={selected.id} title={selected.title} context={[subjectName, levelId].filter(Boolean).join(' · ')} />
+            </div>
           </article>
         )}
       </div>
