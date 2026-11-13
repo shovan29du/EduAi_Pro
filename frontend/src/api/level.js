@@ -1,3 +1,5 @@
+import { fetchJsonWithOffline, isLevelSaved } from '../utils/offlineLessons.js';
+
 export async function fetchLevels() {
   const res = await fetch('/api/levels');
   if (!res.ok) throw new Error('Could not load levels');
@@ -10,18 +12,21 @@ export async function fetchLevel(levelId) {
   return res.json();
 }
 
+// Overview and subject data fall back to the copy saved for offline use when
+// the network or server is unreachable (see utils/offlineLessons.js).
 export async function fetchLevelOverview(levelId) {
-  const res = await fetch(`/api/level/${encodeURIComponent(levelId)}/overview`);
-  if (!res.ok) throw new Error(`Level ${levelId} not available`);
-  return res.json();
+  const result = await fetchJsonWithOffline(`/api/level/${encodeURIComponent(levelId)}/overview`, { keep: isLevelSaved(levelId) });
+  if (!result.ok) throw new Error(`Level ${levelId} not available`);
+  return result.data;
 }
 
 export async function fetchLevelSubject(levelId, subjectName) {
-  const res = await fetch(
-    `/api/level/${encodeURIComponent(levelId)}/subjects/${encodeURIComponent(subjectName)}`
+  const result = await fetchJsonWithOffline(
+    `/api/level/${encodeURIComponent(levelId)}/subjects/${encodeURIComponent(subjectName)}`,
+    { keep: isLevelSaved(levelId) },
   );
-  if (!res.ok) throw new Error(`${subjectName} is not available at level ${levelId}`);
-  return res.json();
+  if (!result.ok) throw new Error(`${subjectName} is not available at level ${levelId}`);
+  return result.data;
 }
 
 export async function searchLevel(levelId, query) {

@@ -63,6 +63,7 @@ const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const ProblemReportsPanel = lazy(() => import('./components/ProblemReportsPanel.jsx'));
 const ExampleReviewPanel = lazy(() => import('./components/ExampleReviewPanel.jsx'));
+const OfflineDownload = lazy(() => import('./components/OfflineDownload.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
@@ -249,6 +250,7 @@ export default function App() {
         <Suspense fallback={<LoadingSpinner />}>
           {!loading && !error && activeTab === 'Subjects' && grade && (
             <div className="space-y-4">
+              <OfflineDownload level={level} levelLabel={grade.level_info?.label} />
               <div>
                 <p className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">Choose a subject to start learning:</p>
                 <div className="flex flex-wrap gap-2">

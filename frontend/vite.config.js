@@ -46,6 +46,23 @@ export default defineConfig({
             },
           },
           {
+            // The lessons themselves. No expiry: copies saved with "Save for
+            // offline use" (src/utils/offlineLessons.js) share this cache and
+            // must not be evicted behind the learner's back.
+            urlPattern: /\/api\/level\/[^/]+\/(overview|subjects\/[^/]+)$/,
+            handler: 'NetworkFirst',
+            options: { cacheName: 'eduai-offline-lessons', networkTimeoutSeconds: 8 },
+          },
+          {
+            urlPattern: /\/api\/lesson-example\?/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'lesson-examples-cache',
+              networkTimeoutSeconds: 8,
+              expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 30 },
+            },
+          },
+          {
             urlPattern: /\/api\/(safe-music|safe-channels|profiles)$/,
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'static-data-cache' },
