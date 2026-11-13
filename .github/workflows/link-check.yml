@@ -1,0 +1,78 @@
+name: Link check
+
+# Weekly live check of the links in the lessons, library and museum data.
+# The report is attached to the run (artifact + job summary). When something is
+# broken, a single "Broken link report" issue is created or updated.
+on:
+  schedule:
+    - cron: "17 5 * * 1" # Mondays 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check links
+        id: check
+        # Exit status 1 means broken links were found; the report is still written.
+        run: python backend/scripts/link_check_report.py --out-dir link-report
+        continue-on-error: true
+
+      - name: Publish report
+        if: always()
+        run: |
+          if [ -f link-report/link_report.md ]; then
+            cat link-report/link_report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The link check did not produce a report." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-report
+          path: link-report/
+          if-no-files-found: warn
+
+      - name: Open or update the tracking issue
+        if: steps.check.outcome == 'failure' && hashFiles('link-report/link_report.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          TITLE="Broken link report"
+          { head -c 60000 link-report/link_report.md; printf '\n\n---\nFull report and JSON: %s\n' "$RUN_URL"; } > issue-body.md
+          NUMBER=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number,title \
+            --jq "[.[] | select(.title == \"$TITLE\")][0].number // empty")
+          if [ -n "$NUMBER" ]; then
+            gh issue edit "$NUMBER" --body-file issue-body.md
+            gh issue comment "$NUMBER" --body "Updated by the weekly link check: $RUN_URL"
+          else
+            gh issue create --title "$TITLE" --body-file issue-body.md
+          fi
+
+      - name: Close the tracking issue when everything is fixed
+        if: steps.check.outcome == 'success' && hashFiles('link-report/link_report.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "Incomplete check" link-report/link_report.md; then
+            echo "Check was incomplete (many links unreachable); leaving any open issue as it is."
+            exit 0
+          fi
+          TITLE="Broken link report"
+          NUMBER=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number,title \
+            --jq "[.[] | select(.title == \"$TITLE\")][0].number // empty")
+          if [ -n "$NUMBER" ]; then
+            gh issue close "$NUMBER" --comment "The weekly link check found no broken links."
+          fi
