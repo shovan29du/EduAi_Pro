@@ -3,6 +3,7 @@ import CMACollection from './CMACollection.jsx';
 import FavoriteButton from './FavoriteButton.jsx';
 import { useChild } from '../contexts/ChildContext.jsx';
 import ReportProblem from './ReportProblem.jsx';
+import ImageCredit from './ImageCredit.jsx';
 import { postProgress } from '../api/progress.js';
 import './VirtualMuseum.css';
 
@@ -204,12 +205,15 @@ function WikiThumbnail({ wikiTitle, query, thumbnailLocal, category, size = 'lis
   }
   // hero size for detail view — full-bleed, Google Arts & Culture-style viewer
   return (
-    <div className={`h-64 sm:h-96 -mx-4 sm:mx-0 sm:rounded-2xl overflow-hidden bg-gradient-to-br ${tileColor(cacheKey || category)} flex items-center justify-center mb-4`}>
-      {src
-        ? <img src={src} alt="" className="w-full h-full object-contain" onError={() => setSrc('')} />
-        : <span className="text-7xl opacity-70">{emoji}</span>
-      }
-    </div>
+    <>
+      <div className={`h-64 sm:h-96 -mx-4 sm:mx-0 sm:rounded-2xl overflow-hidden bg-gradient-to-br ${tileColor(cacheKey || category)} flex items-center justify-center mb-4`}>
+        {src
+          ? <img src={src} alt="" className="w-full h-full object-contain" onError={() => setSrc('')} />
+          : <span className="text-7xl opacity-70">{emoji}</span>
+        }
+      </div>
+      <ImageCredit src={src} />
+    </>
   );
 }
 

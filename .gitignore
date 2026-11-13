@@ -37,4 +37,5 @@ backend/data/news_cache/
 backend/data/lesson_examples/
 backend/data/lesson_examples_pending/
 backend/data/problem_reports/
+backend/data/museum_credit_cache/
 backend/data/news_preferences.json
