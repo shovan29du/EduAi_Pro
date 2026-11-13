@@ -1127,6 +1127,17 @@ def test_stem_overview():
     assert "chemistry" in ids
     assert "biology" in ids
 
+def test_every_stem_experiment_has_a_distinct_real_world_connection():
+    seen = set()
+    for disc in client.get("/api/stem-lab").json()["disciplines"]:
+        for exp in client.get(f"/api/stem-lab/{disc['id']}").json()["experiments"]:
+            detail = client.get(f"/api/stem-lab/{disc['id']}/{exp['id']}").json()
+            assert len(detail.get("real_world", "")) > 40, exp["id"]
+            assert detail["real_world"] not in seen, exp["id"]
+            seen.add(detail["real_world"])
+    assert len(seen) >= 170
+
+
 def test_stem_discipline_detail():
     r = client.get("/api/stem-lab/physics")
     assert r.status_code == 200

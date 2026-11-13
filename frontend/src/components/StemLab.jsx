@@ -111,6 +111,13 @@ function ExperimentDetail({ discipline, experimentId, colour, onBack }) {
           <p className="text-sm text-yellow-900">{exp.explanation}</p>
         </div>
 
+        {exp.real_world && (
+          <div className="mt-4 p-4 rounded-lg bg-emerald-50 border border-emerald-200">
+            <h3 className="font-semibold text-emerald-800 mb-1">🌍 In the real world</h3>
+            <p className="text-sm text-emerald-900">{exp.real_world}</p>
+          </div>
+        )}
+
         {exp.video && (
           <a href={exp.video} target="_blank" rel="noopener noreferrer"
             className="mt-5 inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium bg-red-50 text-red-700 border-red-200 hover:bg-red-100 transition-colors">

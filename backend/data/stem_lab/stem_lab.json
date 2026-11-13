@@ -54,7 +54,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Gravity+%26+Free+Fall+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Gravity+%26+Free+Fall+experiment+demonstration",
+          "real_world": "In 1971 Apollo 15 astronaut David Scott dropped a hammer and a falcon feather on the Moon; with no air to slow the feather, both hit the ground together, exactly as Galileo had predicted."
         },
         {
           "id": "pendulum",
@@ -104,7 +105,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=The+Pendulum+%26+Period+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=The+Pendulum+%26+Period+experiment+demonstration",
+          "real_world": "Grandfather clocks keep time with a swinging pendulum: because the period depends on length, a clockmaker speeds up a slow clock by nudging the weight slightly higher."
         },
         {
           "id": "optics_rainbow",
@@ -152,7 +154,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Make+a+Rainbow+%28Refraction%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Make+a+Rainbow+%28Refraction%29+experiment+demonstration",
+          "real_world": "A rainbow after rain is the same effect on a huge scale: each raindrop bends sunlight and splits it into colours, just as your glass of water or prism does."
         },
         {
           "id": "physics_001",
@@ -190,7 +193,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Pendulum+Period+and+Length+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Pendulum+Period+and+Length+experiment+demonstration",
+          "real_world": "Christiaan Huygens built the first pendulum clock in 1656, making clocks far more accurate; the same length-and-period rule means a playground swing takes roughly the same time for each swing whether you go a little or a lot."
         },
         {
           "id": "physics_002",
@@ -225,7 +229,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Newton%27s+Cradle+Momentum+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Newton%27s+Cradle+Momentum+experiment+demonstration",
+          "real_world": "When a cue ball hits another ball head-on in snooker or pool, it stops and the second ball rolls away with almost all the motion, the same momentum transfer you see in Newton's cradle."
         },
         {
           "id": "physics_003",
@@ -263,7 +268,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Balloon+Rocket+%28Newton%27s+Third+Law%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Balloon+Rocket+%28Newton%27s+Third+Law%29+experiment+demonstration",
+          "real_world": "Rockets such as the Saturn V and SpaceX's Falcon 9 work like your balloon: hot gas is pushed out of the back, and the rocket is pushed forward with an equal and opposite force."
         },
         {
           "id": "physics_004",
@@ -300,7 +306,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Egg+Drop+Impact+Protection+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Egg+Drop+Impact+Protection+experiment+demonstration",
+          "real_world": "Car airbags and crumple zones do the job of your egg packaging: they make a crash last a little longer, so the force on the passengers is much smaller."
         },
         {
           "id": "physics_005",
@@ -337,7 +344,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Simple+Machines%3A+Inclined+Plane+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Simple+Machines%3A+Inclined+Plane+experiment+demonstration",
+          "real_world": "Wheelchair ramps and winding mountain roads are inclined planes: you travel further, but you need less force than going straight up."
         },
         {
           "id": "physics_006",
@@ -376,7 +384,8 @@
               "answer": 0
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Density+Tower+with+Liquids+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Density+Tower+with+Liquids+experiment+demonstration",
+          "real_world": "After an oil spill at sea the oil floats on top of the water because it is less dense, which is why clean-up crews can skim it from the surface with floating booms."
         },
         {
           "id": "physics_007",
@@ -413,7 +422,8 @@
               "answer": 0
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Static+Electricity+with+a+Balloon+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Static+Electricity+with+a+Balloon+experiment+demonstration",
+          "real_world": "Lightning is static electricity on a giant scale: charge builds up inside a storm cloud and then jumps to the ground, like the tiny spark you feel after walking on carpet."
         },
         {
           "id": "physics_008",
@@ -451,7 +461,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+an+Electromagnet+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+an+Electromagnet+experiment+demonstration",
+          "real_world": "Scrapyard cranes use a powerful electromagnet to lift old cars and drop them by switching the current off, and MRI scanners in hospitals use electromagnets to see inside the body."
         },
         {
           "id": "physics_009",
@@ -488,7 +499,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Refraction%3A+Disappearing+Glass+Rod+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Refraction%3A+Disappearing+Glass+Rod+experiment+demonstration",
+          "real_world": "A straw in a glass of water looks bent and a swimming pool looks shallower than it is, for the same reason your glass rod vanishes: light changes direction when it moves between materials."
         },
         {
           "id": "physics_010",
@@ -524,7 +536,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Sound+Waves+and+Vibrating+Rulers+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Sound+Waves+and+Vibrating+Rulers+experiment+demonstration",
+          "real_world": "On a guitar, pressing a string against a fret makes the vibrating part shorter and the note higher, just like sliding the ruler so less of it hangs over the desk."
         },
         {
           "id": "physics_011",
@@ -562,7 +575,8 @@
               "answer": 0
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Convex+and+Concave+Lens+Exploration+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Convex+and+Concave+Lens+Exploration+experiment+demonstration",
+          "real_world": "Glasses for short-sighted people use concave lenses and glasses for long-sighted people use convex ones; cameras and microscopes use convex lenses to focus light into a sharp image."
         },
         {
           "id": "physics_012",
@@ -599,7 +613,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Center+of+Mass+Balancing+Challenge+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Center+of+Mass+Balancing+Challenge+experiment+demonstration",
+          "real_world": "Tightrope walkers carry a long pole to keep their centre of mass over the rope, and racing cars are built low to the ground so they do not tip over on corners."
         },
         {
           "id": "physics_013",
@@ -636,7 +651,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Friction+and+Surface+Materials+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Friction+and+Surface+Materials+experiment+demonstration",
+          "real_world": "Car tyres have a tread pattern to keep friction with a wet road, while ice skates work because there is very little friction between the blade and the ice."
         },
         {
           "id": "physics_014",
@@ -674,7 +690,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Projectile+Motion+with+a+Marble+Launcher+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Projectile+Motion+with+a+Marble+Launcher+experiment+demonstration",
+          "real_world": "A basketball shot follows a curved path called a parabola; players learn by practice which launch angle and speed will send the ball through the hoop."
         },
         {
           "id": "physics_015",
@@ -711,7 +728,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Archimedes%27+Principle%3A+Floating+and+Sinking+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Archimedes%27+Principle%3A+Floating+and+Sinking+experiment+demonstration",
+          "real_world": "A steel ship floats even though steel is denser than water, because its hollow hull pushes aside a weight of water equal to the ship's own weight."
         },
         {
           "id": "physics_016",
@@ -750,7 +768,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Heat+Transfer%3A+Conduction+Race+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Heat+Transfer%3A+Conduction+Race+experiment+demonstration",
+          "real_world": "Saucepans are made of metal so heat reaches the food quickly, but their handles are plastic or wood so the heat does not travel to your hand."
         },
         {
           "id": "physics_017",
@@ -789,7 +808,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Simple+Circuit%3A+Series+vs+Parallel+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Simple+Circuit%3A+Series+vs+Parallel+experiment+demonstration",
+          "real_world": "The lights in a house are wired in parallel, so one bulb failing does not switch off the others; old strings of fairy lights wired in series all went dark when one bulb blew."
         },
         {
           "id": "physics_018",
@@ -825,7 +845,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Doppler+Effect+with+Sound+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Doppler+Effect+with+Sound+experiment+demonstration",
+          "real_world": "An ambulance siren sounds higher as it comes towards you and lower as it drives away; police speed guns use the same effect with radio waves to measure a car's speed."
         },
         {
           "id": "physics_019",
@@ -862,7 +883,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Torque+and+Wrench+Length+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Torque+and+Wrench+Length+experiment+demonstration",
+          "real_world": "A door handle is placed far from the hinges so a small push opens the door, and a mechanic uses a longer spanner to loosen a tight nut."
         },
         {
           "id": "physics_020",
@@ -900,7 +922,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Standing+Waves+on+a+String+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Standing+Waves+on+a+String+experiment+demonstration",
+          "real_world": "Violin and guitar strings vibrate as standing waves; touching a string lightly at its midpoint produces a higher note called a harmonic."
         },
         {
           "id": "physics_021",
@@ -937,7 +960,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Terminal+Velocity+with+Falling+Objects+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Terminal+Velocity+with+Falling+Objects+experiment+demonstration",
+          "real_world": "A skydiver stops speeding up at roughly 190-200 km/h when lying flat, because air resistance then balances gravity; opening a parachute lowers that speed to a safe one."
         },
         {
           "id": "physics_022",
@@ -974,7 +998,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Periscope+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Periscope+experiment+demonstration",
+          "real_world": "Submarines use periscopes to look above the surface while staying hidden underwater, using two mirrors or prisms just like your model."
         }
       ]
     },
@@ -1032,7 +1057,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Baking+Soda+Volcano+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Baking+Soda+Volcano+experiment+demonstration",
+          "real_world": "Baking soda in a cake batter reacts with an acid such as buttermilk or lemon juice to release carbon dioxide bubbles, which is what makes the cake rise."
         },
         {
           "id": "chromatography",
@@ -1082,7 +1108,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Ink+Chromatography+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Ink+Chromatography+experiment+demonstration",
+          "real_world": "Forensic scientists use chromatography to compare inks, for example to check whether a signature on a document was written with a particular pen."
         },
         {
           "id": "density_tower",
@@ -1134,7 +1161,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Liquid+Density+Tower+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Liquid+Density+Tower+experiment+demonstration",
+          "real_world": "Oil and vinegar in a salad dressing separate into layers because oil is less dense and does not mix with water, the same reason your tower stays in stripes."
         },
         {
           "id": "chemistry_001",
@@ -1172,7 +1200,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Baking+Soda+and+Vinegar+Reaction+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Baking+Soda+and+Vinegar+Reaction+experiment+demonstration",
+          "real_world": "Antacid tablets for indigestion work the same way: a base in the tablet neutralises some of the acid in your stomach."
         },
         {
           "id": "chemistry_002",
@@ -1210,7 +1239,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Elephant+Toothpaste+%28Decomposition%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Elephant+Toothpaste+%28Decomposition%29+experiment+demonstration",
+          "real_world": "Hydrogen peroxide fizzes when it is put on a cut because an enzyme in your body called catalase breaks it down rapidly into water and oxygen."
         },
         {
           "id": "chemistry_003",
@@ -1248,7 +1278,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Red+Cabbage+pH+Indicator+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Red+Cabbage+pH+Indicator+experiment+demonstration",
+          "real_world": "Hydrangea flowers work as natural indicators: in acidic soil they tend to be blue and in alkaline soil pink, so gardeners change the colour by changing the soil."
         },
         {
           "id": "chemistry_004",
@@ -1286,7 +1317,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Crystal+Growing+with+Sugar+or+Salt+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Crystal+Growing+with+Sugar+or+Salt+experiment+demonstration",
+          "real_world": "Rock candy is made by growing sugar crystals on a string, and sea salt is harvested by letting sea water evaporate in shallow ponds until salt crystals form."
         },
         {
           "id": "chemistry_005",
@@ -1324,7 +1356,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Density+Rainbow+with+Sugar+Water+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Density+Rainbow+with+Sugar+Water+experiment+demonstration",
+          "real_world": "Where a river meets the sea, fresh water floats on top of the denser salty water, forming layers like those in your density rainbow."
         },
         {
           "id": "chemistry_006",
@@ -1362,7 +1395,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Milk+and+Food+Coloring+Chemistry+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Milk+and+Food+Coloring+Chemistry+experiment+demonstration",
+          "real_world": "Washing-up liquid cleans greasy plates for the same reason the colours race: soap molecules grab on to fat and pull it away into the water."
         },
         {
           "id": "chemistry_007",
@@ -1400,7 +1434,8 @@
               "answer": 0
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Rust+Formation+%28Oxidation%29+Race+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Rust+Formation+%28Oxidation%29+Race+experiment+demonstration",
+          "real_world": "The Eiffel Tower is repainted about every seven years to keep air and water away from its iron, and cars rust faster in places where salt is spread on winter roads."
         },
         {
           "id": "chemistry_008",
@@ -1437,7 +1472,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Making+Slime+%28Polymer+Cross-Linking%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Making+Slime+%28Polymer+Cross-Linking%29+experiment+demonstration",
+          "real_world": "Car tyres are made from rubber whose long molecules have been cross-linked with sulfur, a process called vulcanisation that Charles Goodyear patented in 1844."
         },
         {
           "id": "chemistry_009",
@@ -1474,7 +1510,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Flame+Tests+for+Metal+Ions+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Flame+Tests+for+Metal+Ions+experiment+demonstration",
+          "real_world": "Fireworks get their colours from metal salts: strontium gives red, barium gives green and copper gives blue, the same colours you see in a flame test."
         },
         {
           "id": "chemistry_010",
@@ -1513,7 +1550,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Electrolysis+of+Water+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Electrolysis+of+Water+experiment+demonstration",
+          "real_world": "'Green hydrogen' is made by using electricity from wind or solar power to split water, and it can then be used as a clean fuel."
         },
         {
           "id": "chemistry_011",
@@ -1551,7 +1589,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Chromatography%3A+Separating+Ink+Colors+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Chromatography%3A+Separating+Ink+Colors+experiment+demonstration",
+          "real_world": "Laboratories use more advanced forms of chromatography to test athletes' samples for banned drugs and to check food for contamination."
         },
         {
           "id": "chemistry_012",
@@ -1589,7 +1628,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Acid-Base+Neutralization+Titration+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Acid-Base+Neutralization+Titration+experiment+demonstration",
+          "real_world": "Farmers and gardeners spread lime on soil that is too acidic, and water companies adjust the pH of drinking water, both using neutralisation."
         },
         {
           "id": "chemistry_013",
@@ -1626,7 +1666,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Endothermic+Reaction%3A+Instant+Cold+Pack+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Endothermic+Reaction%3A+Instant+Cold+Pack+experiment+demonstration",
+          "real_world": "Instant cold packs in first-aid kits contain water and a salt such as ammonium nitrate; squeezing the pack mixes them and the dissolving takes in heat."
         },
         {
           "id": "chemistry_014",
@@ -1664,7 +1705,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exothermic+Reaction%3A+Hand+Warmers+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exothermic+Reaction%3A+Hand+Warmers+experiment+demonstration",
+          "real_world": "Disposable hand warmers contain iron powder that rusts quickly when exposed to air, and that reaction gives out heat for several hours."
         },
         {
           "id": "chemistry_015",
@@ -1701,7 +1743,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Testing+for+Starch+with+Iodine+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Testing+for+Starch+with+Iodine+experiment+demonstration",
+          "real_world": "Food scientists use iodine to check foods for starch, and plant biologists use it to show that a leaf kept in the dark has made no starch because it turns no blue-black colour."
         },
         {
           "id": "chemistry_016",
@@ -1738,7 +1781,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Solubility+and+Temperature+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Solubility+and+Temperature+experiment+demonstration",
+          "real_world": "More sugar dissolves in hot tea than in iced tea, and fizzy drinks go flat faster when warm because gases dissolve less well at higher temperatures."
         },
         {
           "id": "chemistry_017",
@@ -1776,7 +1820,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Lemon+Battery+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Lemon+Battery+experiment+demonstration",
+          "real_world": "Alessandro Volta built the first battery in 1800 from stacked discs of zinc and copper separated by cloth soaked in salt water, the same idea as your lemon cell."
         },
         {
           "id": "chemistry_018",
@@ -1814,7 +1859,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Polymer+Bouncy+Ball+Making+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Polymer+Bouncy+Ball+Making+experiment+demonstration",
+          "real_world": "Charles Goodyear's vulcanised rubber made bouncy, durable products possible; modern sports balls are still made from cross-linked polymers."
         },
         {
           "id": "chemistry_019",
@@ -1851,7 +1897,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Carbon+Dioxide+and+Limewater+Test+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Carbon+Dioxide+and+Limewater+Test+experiment+demonstration",
+          "real_world": "Limewater turning cloudy is the reaction that hardens lime mortar in old buildings: the lime slowly absorbs carbon dioxide from the air and turns back into limestone."
         },
         {
           "id": "chemistry_020",
@@ -1888,7 +1935,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Saponification%3A+Making+Simple+Soap+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Saponification%3A+Making+Simple+Soap+experiment+demonstration",
+          "real_world": "Soap has been made for thousands of years by heating fats or oils with an alkali; traditional Aleppo soap from Syria is made from olive oil and laurel oil."
         },
         {
           "id": "chemistry_021",
@@ -1925,7 +1973,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Iron+Filings+and+Magnetism+vs+Chemistry+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Iron+Filings+and+Magnetism+vs+Chemistry+experiment+demonstration",
+          "real_world": "Recycling plants use large magnets to pull steel cans out of mixed rubbish, a physical separation that does not change the material."
         }
       ]
     },
@@ -1983,7 +2032,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Oxygen+from+Photosynthesis+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Oxygen+from+Photosynthesis+experiment+demonstration",
+          "real_world": "Aquarium plants release small bubbles of oxygen in bright light, and scientists estimate that photosynthesis by ocean plankton produces roughly half of the oxygen made on Earth each year."
         },
         {
           "id": "mould_growth",
@@ -2033,7 +2083,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Mould+Growth+Experiment+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Mould+Growth+Experiment+experiment+demonstration",
+          "real_world": "In 1928 Alexander Fleming noticed that a mould growing on one of his dishes had killed the bacteria around it, a discovery that led to the antibiotic penicillin."
         },
         {
           "id": "biology_001",
@@ -2071,7 +2122,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Observing+Onion+Cells+Under+a+Microscope+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Observing+Onion+Cells+Under+a+Microscope+experiment+demonstration",
+          "real_world": "In 1665 Robert Hooke looked at a thin slice of cork through his microscope and named the tiny compartments he saw 'cells'."
         },
         {
           "id": "biology_002",
@@ -2109,7 +2161,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Photosynthesis%3A+Leaf+Disc+Assay+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Photosynthesis%3A+Leaf+Disc+Assay+experiment+demonstration",
+          "real_world": "Commercial greenhouses add extra light and sometimes extra carbon dioxide to speed up photosynthesis and grow more tomatoes and salad crops."
         },
         {
           "id": "biology_003",
@@ -2147,7 +2200,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Osmosis+with+Potato+Strips+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Osmosis+with+Potato+Strips+experiment+demonstration",
+          "real_world": "Salting vegetables to make pickles draws water out of them by osmosis, and a wilted lettuce becomes crisp again when soaked in fresh water."
         },
         {
           "id": "biology_004",
@@ -2186,7 +2240,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Yeast+Fermentation+and+CO2+Production+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Yeast+Fermentation+and+CO2+Production+experiment+demonstration",
+          "real_world": "Bread rises because yeast in the dough ferments sugar and releases carbon dioxide, which gets trapped as bubbles."
         },
         {
           "id": "biology_005",
@@ -2224,7 +2279,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=DNA+Extraction+from+Strawberries+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=DNA+Extraction+from+Strawberries+experiment+demonstration",
+          "real_world": "Forensic scientists extract DNA from tiny samples at crime scenes, and in 1984 Alec Jeffreys developed DNA fingerprinting to tell individuals apart."
         },
         {
           "id": "biology_006",
@@ -2260,7 +2316,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Heart+Rate+and+Exercise+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Heart+Rate+and+Exercise+experiment+demonstration",
+          "real_world": "Athletes and fitness watches track heart rate to judge how hard to train, and a lower resting heart rate is often a sign of good fitness."
         },
         {
           "id": "biology_007",
@@ -2298,7 +2355,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Seed+Germination+Conditions+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Seed+Germination+Conditions+experiment+demonstration",
+          "real_world": "The Svalbard Global Seed Vault in Norway stores seeds cold and dry so they do not germinate, keeping them safe for future use."
         },
         {
           "id": "biology_008",
@@ -2335,7 +2393,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Enzyme+Activity%3A+Catalase+in+Liver%2FPotato+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Enzyme+Activity%3A+Catalase+in+Liver%2FPotato+experiment+demonstration",
+          "real_world": "Biological washing powders contain enzymes that break down food and grease stains at low temperatures, which is why they work in a cool wash."
         },
         {
           "id": "biology_009",
@@ -2371,7 +2430,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Human+Reaction+Time+Test+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Human+Reaction+Time+Test+experiment+demonstration",
+          "real_world": "A sprinter is disqualified for a false start if they react in less than 0.1 seconds after the gun, because humans cannot respond faster than that."
         },
         {
           "id": "biology_010",
@@ -2408,7 +2468,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Mold+Growth+on+Bread+%28Controlled+Variables%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Mold+Growth+on+Bread+%28Controlled+Variables%29+experiment+demonstration",
+          "real_world": "Bread kept in the fridge goes mouldy more slowly than bread in a warm kitchen, which is why temperature and moisture are controlled when food is stored."
         },
         {
           "id": "biology_011",
@@ -2443,7 +2504,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Blood+Type+and+Genetics+Simulation+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Blood+Type+and+Genetics+Simulation+experiment+demonstration",
+          "real_world": "Hospitals check a patient's blood group before a transfusion; group O negative blood can be given to almost anyone in an emergency."
         },
         {
           "id": "biology_012",
@@ -2480,7 +2542,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Plant+Transpiration+Rate+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Plant+Transpiration+Rate+experiment+demonstration",
+          "real_world": "A large tree can release hundreds of litres of water a day through its leaves, and forests such as the Amazon help to make their own rain."
         },
         {
           "id": "biology_013",
@@ -2518,7 +2581,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Comparing+Animal+and+Plant+Cells+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Comparing+Animal+and+Plant+Cells+experiment+demonstration",
+          "real_world": "Plant cell walls contain cellulose, which gives celery its crunch and which is used to make paper and cotton fabric; animal cells have no cell wall."
         },
         {
           "id": "biology_014",
@@ -2556,7 +2620,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Ecosystem+in+a+Bottle+%28Terrarium%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Ecosystem+in+a+Bottle+%28Terrarium%29+experiment+demonstration",
+          "real_world": "Biosphere 2 in Arizona sealed eight people inside a giant closed ecosystem from 1991 to 1993 to study whether such a system could support life."
         },
         {
           "id": "biology_015",
@@ -2593,7 +2658,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Bacterial+Growth+and+Hand+Sanitizer+Test+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Bacterial+Growth+and+Hand+Sanitizer+Test+experiment+demonstration",
+          "real_world": "Surgeons scrub their hands thoroughly before operating, a practice that spread after Joseph Lister introduced antiseptic methods in the 1860s."
         },
         {
           "id": "biology_016",
@@ -2629,7 +2695,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Bird+Beak+Adaptation+Simulation+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Bird+Beak+Adaptation+Simulation+experiment+demonstration",
+          "real_world": "Charles Darwin studied finches on the Galapagos Islands whose beaks differ according to their food, from thick beaks for cracking seeds to thin ones for catching insects."
         },
         {
           "id": "biology_017",
@@ -2665,7 +2732,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Measuring+Lung+Capacity+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Measuring+Lung+Capacity+experiment+demonstration",
+          "real_world": "Doctors measure how much air a person can breathe out with a device called a spirometer to help diagnose asthma."
         },
         {
           "id": "biology_018",
@@ -2701,7 +2769,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Investigating+Food+Webs+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Investigating+Food+Webs+experiment+demonstration",
+          "real_world": "When sea otters were hunted off the Pacific coast, sea urchins multiplied and ate the kelp forests, showing how removing one species affects a whole food web."
         },
         {
           "id": "biology_019",
@@ -2736,7 +2805,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Antibiotic+Resistance+Simulation+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Antibiotic+Resistance+Simulation+experiment+demonstration",
+          "real_world": "MRSA is a bacterium that has become resistant to several antibiotics, which is why doctors ask patients to finish the full course they are prescribed."
         },
         {
           "id": "biology_020",
@@ -2774,7 +2844,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Vitamin+C+Concentration+Test+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Vitamin+C+Concentration+Test+experiment+demonstration",
+          "real_world": "In 1747 James Lind showed that citrus fruit cured sailors of scurvy, a disease we now know is caused by a lack of vitamin C."
         }
       ]
     },
@@ -2832,7 +2903,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Spaghetti+Bridge+Challenge+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Spaghetti+Bridge+Challenge+experiment+demonstration",
+          "real_world": "The Forth Bridge in Scotland, opened in 1890, is built from a network of steel triangles and still carries trains across the estuary today."
         },
         {
           "id": "paper_tower",
@@ -2880,7 +2952,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Tallest+Paper+Tower+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Tallest+Paper+Tower+experiment+demonstration",
+          "real_world": "The Burj Khalifa in Dubai, about 828 metres tall, has a wide Y-shaped base that narrows as it rises, which helps keep it stable in the wind."
         },
         {
           "id": "engineering_001",
@@ -2918,7 +2991,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+the+Tallest+Spaghetti+Tower+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+the+Tallest+Spaghetti+Tower+experiment+demonstration",
+          "real_world": "The Eiffel Tower, completed in 1889, is a lattice of iron triangles: it uses surprisingly little material for its height because triangles hold their shape."
         },
         {
           "id": "engineering_002",
@@ -2955,7 +3029,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Bridge+Load+Testing+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Bridge+Load+Testing+experiment+demonstration",
+          "real_world": "Engineers load-test new bridges before opening them, sometimes by parking heavy lorries on the deck and measuring how much it bends."
         },
         {
           "id": "engineering_003",
@@ -2991,7 +3066,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Egg+Drop+Protective+Device+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Egg+Drop+Protective+Device+experiment+demonstration",
+          "real_world": "NASA landed the Spirit and Opportunity rovers on Mars in 2004 inside clusters of airbags that bounced across the surface before coming to rest."
         },
         {
           "id": "engineering_004",
@@ -3030,7 +3106,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Basic+Water+Filter+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Basic+Water+Filter+experiment+demonstration",
+          "real_world": "Water treatment plants pass water through beds of sand and gravel to remove particles; slow sand filters were first used for a city's water supply in the 1800s."
         },
         {
           "id": "engineering_005",
@@ -3068,7 +3145,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Designing+a+Wind+Turbine+Blade+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Designing+a+Wind+Turbine+Blade+experiment+demonstration",
+          "real_world": "Blades on modern offshore wind turbines can be more than 100 metres long, and they are shaped like aircraft wings to turn wind into rotation efficiently."
         },
         {
           "id": "engineering_006",
@@ -3106,7 +3184,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Catapult+Design+and+Trajectory+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Catapult+Design+and+Trajectory+experiment+demonstration",
+          "real_world": "Medieval armies used the trebuchet, a kind of catapult powered by a falling counterweight, to throw heavy stones at castle walls."
         },
         {
           "id": "engineering_007",
@@ -3144,7 +3223,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Working+Elevator%2FPulley+System+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Working+Elevator%2FPulley+System+experiment+demonstration",
+          "real_world": "Lifts in tall buildings use a counterweight and pulleys so the motor only has to lift the difference in weight; Elisha Otis demonstrated his safety lift in 1854."
         },
         {
           "id": "engineering_008",
@@ -3182,7 +3262,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Marble+Run+Engineering+Challenge+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Marble+Run+Engineering+Challenge+experiment+demonstration",
+          "real_world": "A roller coaster is pulled to the top of the first hill and then runs on gravity alone, turning stored energy into speed, like the marble in your run."
         },
         {
           "id": "engineering_009",
@@ -3219,7 +3300,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Designing+an+Earthquake-Resistant+Building+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Designing+an+Earthquake-Resistant+Building+Model+experiment+demonstration",
+          "real_world": "The Taipei 101 tower contains a 660-tonne steel ball that swings against the building's motion to reduce swaying in typhoons and earthquakes."
         },
         {
           "id": "engineering_010",
@@ -3257,7 +3339,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Hydraulic+Arm+from+Syringes+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Hydraulic+Arm+from+Syringes+experiment+demonstration",
+          "real_world": "Excavators use hydraulic cylinders to move their arms, and a car's brake pedal pushes fluid through pipes to squeeze the brakes on all four wheels."
         },
         {
           "id": "engineering_011",
@@ -3294,7 +3377,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Paper+Airplane+Aerodynamics+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Paper+Airplane+Aerodynamics+experiment+demonstration",
+          "real_world": "The Wright brothers built their own wind tunnel in 1901 to test wing shapes before making the first powered flight in 1903."
         },
         {
           "id": "engineering_012",
@@ -3332,7 +3416,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Robotic+Arm+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Robotic+Arm+experiment+demonstration",
+          "real_world": "Robotic arms weld and paint cars in factories, and the Canadarm2 on the International Space Station moves equipment and helps dock spacecraft."
         },
         {
           "id": "engineering_013",
@@ -3370,7 +3455,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Solar+Oven+Construction+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Solar+Oven+Construction+experiment+demonstration",
+          "real_world": "Solar cookers are used in sunny regions to cook food without firewood, reducing smoke in homes and the need to collect fuel."
         },
         {
           "id": "engineering_014",
@@ -3408,7 +3494,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Testing+Different+Wing+Shapes+in+a+Homemade+Wind+Tunnel+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Testing+Different+Wing+Shapes+in+a+Homemade+Wind+Tunnel+experiment+demonstration",
+          "real_world": "Aircraft makers and Formula 1 teams test scale models in wind tunnels to measure lift and drag before building the real thing."
         },
         {
           "id": "engineering_015",
@@ -3446,7 +3533,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Rube+Goldberg+Chain+Reaction+Machine+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Rube+Goldberg+Chain+Reaction+Machine+experiment+demonstration",
+          "real_world": "The American cartoonist Rube Goldberg drew absurdly complicated machines for simple tasks; today contests named after him are held for students."
         },
         {
           "id": "engineering_016",
@@ -3484,7 +3572,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Testing+Bridge+Truss+Designs+%28Beam+vs+Arch+vs+Truss%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Testing+Bridge+Truss+Designs+%28Beam+vs+Arch+vs+Truss%29+experiment+demonstration",
+          "real_world": "The Sydney Harbour Bridge is an arch bridge, the Golden Gate is a suspension bridge and many railway bridges are trusses; engineers choose the design that suits the span and load."
         },
         {
           "id": "engineering_017",
@@ -3521,7 +3610,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Model+Water+Wheel+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Model+Water+Wheel+experiment+demonstration",
+          "real_world": "Water wheels powered mills for grinding grain for many centuries, and modern hydroelectric dams use turbines that work on the same principle."
         },
         {
           "id": "engineering_018",
@@ -3559,7 +3649,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Insulation+Material+Testing+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Insulation+Material+Testing+experiment+demonstration",
+          "real_world": "Homes are insulated with materials such as mineral wool or foam that trap air, and a down jacket keeps you warm in the same way."
         },
         {
           "id": "engineering_019",
@@ -3596,7 +3687,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Geodesic+Dome+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Geodesic+Dome+Model+experiment+demonstration",
+          "real_world": "Buckminster Fuller popularised the geodesic dome; the Montreal Biosphere, built for Expo 67, and the Eden Project in Cornwall both use the idea."
         },
         {
           "id": "engineering_020",
@@ -3634,7 +3726,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Designing+a+Better+Mousetrap+Car+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Designing+a+Better+Mousetrap+Car+experiment+demonstration",
+          "real_world": "A wind-up toy car stores energy in a spring, and hybrid cars recover energy when braking and reuse it to accelerate."
         }
       ]
     },
@@ -3691,7 +3784,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Solar+System+to+Scale+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Solar+System+to+Scale+experiment+demonstration",
+          "real_world": "Sweden has a scale model of the solar system stretching across the country, with a large arena in Stockholm standing in for the Sun."
         },
         {
           "id": "moon_phases",
@@ -3737,7 +3831,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Moon+Phases+with+a+Ball+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Moon+Phases+with+a+Ball+experiment+demonstration",
+          "real_world": "The Islamic and Chinese calendars are based on the Moon's phases, which is why the dates of Ramadan and Chinese New Year shift from year to year in the solar calendar."
         },
         {
           "id": "astronomy_001",
@@ -3773,7 +3868,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Scale+Model+of+the+Solar+System+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Scale+Model+of+the+Solar+System+experiment+demonstration",
+          "real_world": "The Voyager 1 probe, launched in 1977, took about 35 years to leave the Sun's protective bubble and enter interstellar space in 2012."
         },
         {
           "id": "astronomy_002",
@@ -3810,7 +3906,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Moon+Phase+Simulation+with+a+Lamp+and+Ball+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Moon+Phase+Simulation+with+a+Lamp+and+Ball+experiment+demonstration",
+          "real_world": "Tides are highest around the full and new Moon, when the Sun, Earth and Moon line up, so sailors and fishers still follow the Moon's phases."
         },
         {
           "id": "astronomy_003",
@@ -3846,7 +3943,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Measuring+Star+Brightness+%28Magnitude%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Measuring+Star+Brightness+%28Magnitude%29+experiment+demonstration",
+          "real_world": "The Greek astronomer Hipparchus ranked stars by brightness more than 2,000 years ago, and astronomers still use a magnitude scale based on his."
         },
         {
           "id": "astronomy_004",
@@ -3882,7 +3980,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+Solar+and+Lunar+Eclipses+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+Solar+and+Lunar+Eclipses+experiment+demonstration",
+          "real_world": "The total solar eclipse of 8 April 2024 crossed Mexico, the United States and Canada, and millions of people watched the Moon cover the Sun."
         },
         {
           "id": "astronomy_005",
@@ -3918,7 +4017,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Tracking+Sunspot+Activity+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Tracking+Sunspot+Activity+experiment+demonstration",
+          "real_world": "A huge solar storm in 1859, known as the Carrington Event, disrupted telegraph systems; today space-weather forecasters watch sunspots to protect satellites and power grids."
         },
         {
           "id": "astronomy_006",
@@ -3956,7 +4056,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Reflecting+Telescope+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Reflecting+Telescope+Model+experiment+demonstration",
+          "real_world": "Isaac Newton built the first practical reflecting telescope in 1668, and the James Webb Space Telescope uses a 6.5-metre mirror made of 18 gold-coated segments."
         },
         {
           "id": "astronomy_007",
@@ -3992,7 +4093,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Calculating+Your+Weight+on+Other+Planets+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Calculating+Your+Weight+on+Other+Planets+experiment+demonstration",
+          "real_world": "Apollo astronauts could hop easily across the Moon because gravity there is about one-sixth as strong as on Earth."
         },
         {
           "id": "astronomy_008",
@@ -4029,7 +4131,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Constellation+Mapping+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Constellation+Mapping+experiment+demonstration",
+          "real_world": "Sailors in the Northern Hemisphere have long found north using Polaris, the North Star, and Polynesian navigators crossed the Pacific guided by the stars."
         },
         {
           "id": "astronomy_009",
@@ -4066,7 +4169,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+the+Earth%27s+Tilt+and+Seasons+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+the+Earth%27s+Tilt+and+Seasons+experiment+demonstration",
+          "real_world": "December is summer in Australia and winter in Europe because the Earth's tilt points the Southern Hemisphere towards the Sun at that time of year."
         },
         {
           "id": "astronomy_010",
@@ -4102,7 +4206,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Estimating+the+Speed+of+Light+with+Jupiter%27s+Moons+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Estimating+the+Speed+of+Light+with+Jupiter%27s+Moons+experiment+demonstration",
+          "real_world": "In 1676 the Danish astronomer Ole Romer noticed that eclipses of Jupiter's moon Io appeared late when Jupiter was far from Earth, the first evidence that light takes time to travel."
         },
         {
           "id": "astronomy_011",
@@ -4139,7 +4244,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Sundial+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Sundial+experiment+demonstration",
+          "real_world": "Sundials were used for thousands of years to tell the time, and the Jantar Mantar observatory in Jaipur, India, built in the 1700s, includes a sundial about 27 metres tall."
         },
         {
           "id": "astronomy_012",
@@ -4176,7 +4282,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Comparing+Planetary+Orbital+Periods+%28Kepler%27s+Third+Law%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Comparing+Planetary+Orbital+Periods+%28Kepler%27s+Third+Law%29+experiment+demonstration",
+          "real_world": "Mercury orbits the Sun in about 88 days while Neptune takes about 165 years, a pattern explained by the law Johannes Kepler published in 1619."
         },
         {
           "id": "astronomy_013",
@@ -4214,7 +4321,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Identifying+Craters+and+Impact+Physics+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Identifying+Craters+and+Impact+Physics+experiment+demonstration",
+          "real_world": "Meteor Crater in Arizona, about 1.2 kilometres across, was made by an impact around 50,000 years ago, and the Moon's surface is covered in such craters."
         },
         {
           "id": "astronomy_014",
@@ -4251,7 +4359,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Observing+the+International+Space+Station+Pass+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Observing+the+International+Space+Station+Pass+experiment+demonstration",
+          "real_world": "The International Space Station orbits about 400 kilometres up and circles the Earth roughly every 90 minutes, so the crew see about 16 sunrises a day."
         },
         {
           "id": "astronomy_015",
@@ -4287,7 +4396,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+Light+Years+and+Cosmic+Distance+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+Light+Years+and+Cosmic+Distance+experiment+demonstration",
+          "real_world": "Light from the Sun takes about 8 minutes to reach us, and light from the next nearest star system, Alpha Centauri, takes more than four years."
         },
         {
           "id": "astronomy_016",
@@ -4324,7 +4434,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+Exoplanet+Detection+%28Transit+Method%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+Exoplanet+Detection+%28Transit+Method%29+experiment+demonstration",
+          "real_world": "NASA's Kepler space telescope, launched in 2009, found thousands of planets around other stars by measuring the tiny dip in a star's light as a planet passed in front."
         },
         {
           "id": "astronomy_017",
@@ -4361,7 +4472,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Model+of+the+Phases+of+Venus+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Model+of+the+Phases+of+Venus+experiment+demonstration",
+          "real_world": "In 1610 Galileo saw through his telescope that Venus shows phases like the Moon, strong evidence that Venus orbits the Sun and not the Earth."
         },
         {
           "id": "astronomy_018",
@@ -4397,7 +4509,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Comparing+Planetary+Atmospheres+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Comparing+Planetary+Atmospheres+experiment+demonstration",
+          "real_world": "Venus has a thick carbon dioxide atmosphere and a surface temperature of about 465 degrees Celsius, while Mars has a thin atmosphere and is very cold."
         },
         {
           "id": "astronomy_019",
@@ -4434,7 +4547,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Tracking+the+Path+of+the+Sun+Across+the+Sky+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Tracking+the+Path+of+the+Sun+Across+the+Sky+experiment+demonstration",
+          "real_world": "Stonehenge in England is aligned with sunrise at the summer solstice, showing that people tracked the Sun's path thousands of years ago."
         },
         {
           "id": "astronomy_020",
@@ -4470,7 +4584,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Model+Rocket+and+Studying+Newton%27s+Laws+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Model+Rocket+and+Studying+Newton%27s+Laws+experiment+demonstration",
+          "real_world": "The Saturn V rocket that sent astronauts to the Moon was about 110 metres tall and burned its fuel in stages, dropping empty sections to save weight."
         }
       ]
     },
@@ -4527,7 +4642,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Fibonacci+in+Nature+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Fibonacci+in+Nature+experiment+demonstration",
+          "real_world": "Count the spirals on a sunflower head or a pine cone and you will usually find neighbouring Fibonacci numbers, such as 34 and 55."
         },
         {
           "id": "probability_coins",
@@ -4576,7 +4692,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Probability+with+Coins+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Probability+with+Coins+experiment+demonstration",
+          "real_world": "Football matches start with a coin toss to decide which team kicks off, because each side has an equal chance of winning it."
         },
         {
           "id": "mathematics_001",
@@ -4612,7 +4729,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Fibonacci+Sequence+in+Nature+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Fibonacci+Sequence+in+Nature+experiment+demonstration",
+          "real_world": "Fibonacci described the sequence in 1202 with a puzzle about breeding rabbits, and the same numbers appear in the spirals of pineapples and pine cones."
         },
         {
           "id": "mathematics_002",
@@ -4649,7 +4767,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+the+Golden+Ratio+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+the+Golden+Ratio+experiment+demonstration",
+          "real_world": "The golden ratio appears in the regular pentagon and five-pointed star, where a diagonal is about 1.618 times as long as a side."
         },
         {
           "id": "mathematics_003",
@@ -4686,7 +4805,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Probability+with+Dice+and+Coins+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Probability+with+Dice+and+Coins+experiment+demonstration",
+          "real_world": "Insurance companies use probability and large amounts of data to estimate how often accidents happen and so set their prices."
         },
         {
           "id": "mathematics_004",
@@ -4723,7 +4843,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Tessellations+and+Geometric+Tiling+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Tessellations+and+Geometric+Tiling+experiment+demonstration",
+          "real_world": "The tiled walls of the Alhambra palace in Spain show many repeating patterns, and they inspired the artist M. C. Escher's tessellations."
         },
         {
           "id": "mathematics_005",
@@ -4760,7 +4881,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Measuring+Pi+with+Circular+Objects+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Measuring+Pi+with+Circular+Objects+experiment+demonstration",
+          "real_world": "More than 2,000 years ago Archimedes estimated pi by drawing polygons with 96 sides inside and outside a circle, showing it lies between 3 10/71 and 3 1/7."
         },
         {
           "id": "mathematics_006",
@@ -4798,7 +4920,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+3D+Geometric+Solids+%28Platonic+Solids%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+3D+Geometric+Solids+%28Platonic+Solids%29+experiment+demonstration",
+          "real_world": "Dice used in tabletop games come in the shapes of the five Platonic solids, with 4, 6, 8, 12 and 20 faces, because every face is equally likely to land up."
         },
         {
           "id": "mathematics_007",
@@ -4835,7 +4958,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+Fractals+%28Sierpinski+Triangle%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+Fractals+%28Sierpinski+Triangle%29+experiment+demonstration",
+          "real_world": "Coastlines, fern leaves and Romanesco broccoli show self-similar patterns, and Benoit Mandelbrot coined the word 'fractal' for such shapes in 1975."
         },
         {
           "id": "mathematics_008",
@@ -4871,7 +4995,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Statistics%3A+Mean%2C+Median%2C+and+Mode+with+Real+Data+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Statistics%3A+Mean%2C+Median%2C+and+Mode+with+Real+Data+experiment+demonstration",
+          "real_world": "Reports on pay usually quote the median wage and not the mean, because a few very high earners would pull the mean upwards."
         },
         {
           "id": "mathematics_009",
@@ -4908,7 +5033,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Graph+Theory%3A+Solving+the+Bridges+of+K%C3%B6nigsberg+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Graph+Theory%3A+Solving+the+Bridges+of+K%C3%B6nigsberg+experiment+demonstration",
+          "real_world": "Leonhard Euler solved the Konigsberg bridges puzzle in 1736; the same kind of maths now helps sat-nav apps find routes through road networks."
         },
         {
           "id": "mathematics_010",
@@ -4944,7 +5070,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Compound+Interest+and+Exponential+Growth+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Compound+Interest+and+Exponential+Growth+experiment+demonstration",
+          "real_world": "Money in a savings account earns interest on its interest, which is why savings started early grow much larger than the same amount saved later."
         },
         {
           "id": "mathematics_011",
@@ -4980,7 +5107,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Symmetry+Hunt+and+Line%2FRotational+Symmetry+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Symmetry+Hunt+and+Line%2FRotational+Symmetry+experiment+demonstration",
+          "real_world": "Snowflakes have six-fold symmetry, and the Taj Mahal is famous for the mirror symmetry of its design."
         },
         {
           "id": "mathematics_012",
@@ -5017,7 +5145,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+Exponential+Decay+with+M%26Ms+or+Dice+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+Exponential+Decay+with+M%26Ms+or+Dice+experiment+demonstration",
+          "real_world": "Carbon dating works because carbon-14 has a half-life of about 5,730 years, so scientists can estimate the age of ancient wood or bone."
         },
         {
           "id": "mathematics_013",
@@ -5054,7 +5183,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Angle+Measurement+and+the+Unit+Circle+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Angle+Measurement+and+the+Unit+Circle+experiment+demonstration",
+          "real_world": "Sailors and pilots use angles and trigonometry to navigate, and surveyors use them to measure the heights of mountains."
         },
         {
           "id": "mathematics_014",
@@ -5091,7 +5221,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Optimization%3A+Maximizing+Area+with+Fixed+Perimeter+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Optimization%3A+Maximizing+Area+with+Fixed+Perimeter+experiment+demonstration",
+          "real_world": "Honeybees build combs from hexagons, a shape that divides a surface into equal cells using the least wax."
         },
         {
           "id": "mathematics_015",
@@ -5128,7 +5259,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Cryptography%3A+Caesar+Cipher+Basics+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Cryptography%3A+Caesar+Cipher+Basics+experiment+demonstration",
+          "real_world": "Julius Caesar is said to have sent military messages by shifting each letter three places along the alphabet; modern online banking uses far stronger mathematical encryption."
         },
         {
           "id": "mathematics_016",
@@ -5165,7 +5297,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+Population+Growth+with+Logistic+Curves+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+Population+Growth+with+Logistic+Curves+experiment+demonstration",
+          "real_world": "Yeast in a jar and bacteria in a dish grow quickly at first and then level off as food and space run out, following a logistic curve."
         },
         {
           "id": "mathematics_017",
@@ -5201,7 +5334,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+and+Testing+a+Random+Number+Generator+%28Dice+Simulation%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+and+Testing+a+Random+Number+Generator+%28Dice+Simulation%29+experiment+demonstration",
+          "real_world": "Lotteries use machines with numbered balls to produce random results, and computers use random numbers to keep online connections secure."
         },
         {
           "id": "mathematics_018",
@@ -5237,7 +5371,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=The+Mathematics+of+Music%3A+Frequency+Ratios+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=The+Mathematics+of+Music%3A+Frequency+Ratios+experiment+demonstration",
+          "real_world": "Pythagoras is credited with noticing that strings whose lengths are in simple ratios, such as 2 to 1 for an octave, sound pleasant together."
         },
         {
           "id": "mathematics_019",
@@ -5274,7 +5409,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Estimating+Area+Under+a+Curve+%28Intro+Calculus%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Estimating+Area+Under+a+Curve+%28Intro+Calculus%29+experiment+demonstration",
+          "real_world": "Engineers estimate the area under a speed-time graph to work out how far a vehicle has travelled, the same method as adding up your rectangles."
         },
         {
           "id": "mathematics_020",
@@ -5310,7 +5446,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Game+Theory%3A+The+Prisoner%27s+Dilemma+Simulation+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Game+Theory%3A+The+Prisoner%27s+Dilemma+Simulation+experiment+demonstration",
+          "real_world": "Game theory is used to study why countries find it hard to agree on cutting pollution or fishing less, even when all would benefit from cooperating."
         }
       ]
     },
@@ -5369,7 +5506,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Build+a+Simple+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Build+a+Simple+Circuit+experiment+demonstration",
+          "real_world": "A torch is a simple circuit: batteries, a switch and a bulb or LED connected in a loop."
         },
         {
           "id": "electronics_001",
@@ -5408,7 +5546,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Basic+LED+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Basic+LED+Circuit+experiment+demonstration",
+          "real_world": "The blue LED, developed in the early 1990s, made white LED lighting possible and won its inventors the 2014 Nobel Prize in Physics."
         },
         {
           "id": "electronics_002",
@@ -5446,7 +5585,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Series+vs+Parallel+Resistors+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Series+vs+Parallel+Resistors+experiment+demonstration",
+          "real_world": "The sockets in a house are wired in parallel so each appliance gets the full mains voltage and works independently of the others."
         },
         {
           "id": "electronics_003",
@@ -5484,7 +5624,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Switch+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Switch+Circuit+experiment+demonstration",
+          "real_world": "A light switch on the wall opens or closes the circuit to the lamp, and a doorbell button closes a circuit only while it is pressed."
         },
         {
           "id": "electronics_004",
@@ -5522,7 +5663,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Understanding+Ohm%27s+Law+with+a+Multimeter+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Understanding+Ohm%27s+Law+with+a+Multimeter+experiment+demonstration",
+          "real_world": "Phone chargers are designed using Ohm's law so that the right current flows at the right voltage, and electricians use multimeters to find faults."
         },
         {
           "id": "electronics_005",
@@ -5560,7 +5702,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Alarm+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Alarm+Circuit+experiment+demonstration",
+          "real_world": "Burglar alarms use a switch on a door or window that triggers a buzzer when the door opens, and a fridge beeps the same way if its door is left open."
         },
         {
           "id": "electronics_006",
@@ -5598,7 +5741,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Transistor+as+a+Switch+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Transistor+as+a+Switch+experiment+demonstration",
+          "real_world": "A modern computer chip contains billions of tiny transistors acting as switches; the transistor was invented at Bell Labs in 1947."
         },
         {
           "id": "electronics_007",
@@ -5637,7 +5781,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+AM+Radio+Receiver+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+AM+Radio+Receiver+experiment+demonstration",
+          "real_world": "Crystal radio sets in the 1920s let families listen to broadcasts with no battery at all, powered only by the radio waves they received."
         },
         {
           "id": "electronics_008",
@@ -5676,7 +5821,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Capacitor+Charge+and+Discharge+Timing+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Capacitor+Charge+and+Discharge+Timing+experiment+demonstration",
+          "real_world": "A camera flash charges a capacitor over a second or two and then releases the energy in a brief burst of light."
         },
         {
           "id": "electronics_009",
@@ -5713,7 +5859,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Metal+Detector+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Metal+Detector+experiment+demonstration",
+          "real_world": "Airport security gates and beach treasure hunters' detectors both use coils that sense the change a piece of metal makes to a magnetic field."
         },
         {
           "id": "electronics_010",
@@ -5751,7 +5898,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Photoresistor+Light+Sensor+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Photoresistor+Light+Sensor+Circuit+experiment+demonstration",
+          "real_world": "Street lamps switch on automatically at dusk using a light sensor, and a phone dims its screen in the dark the same way."
         },
         {
           "id": "electronics_011",
@@ -5788,7 +5936,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Solar-Powered+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Solar-Powered+Circuit+experiment+demonstration",
+          "real_world": "Solar-powered calculators have used small solar cells since the late 1970s, and garden lights charge by day and shine at night."
         },
         {
           "id": "electronics_012",
@@ -5827,7 +5976,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=555+Timer+LED+Blinker+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=555+Timer+LED+Blinker+Circuit+experiment+demonstration",
+          "real_world": "The 555 timer chip, introduced in 1972, is one of the most widely used chips ever made and still appears in toys, timers and flashing lights."
         },
         {
           "id": "electronics_013",
@@ -5865,7 +6015,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Morse+Code+Buzzer+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Morse+Code+Buzzer+experiment+demonstration",
+          "real_world": "In 1844 Samuel Morse sent the message 'What hath God wrought' by telegraph from Washington to Baltimore, and SOS in Morse code became the international distress signal."
         },
         {
           "id": "electronics_014",
@@ -5903,7 +6054,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+Diodes+and+Rectification+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+Diodes+and+Rectification+experiment+demonstration",
+          "real_world": "A phone charger contains diodes that turn the alternating current from the wall socket into the direct current a battery needs."
         },
         {
           "id": "electronics_015",
@@ -5940,7 +6092,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Theremin-Style+Pitch+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Theremin-Style+Pitch+Circuit+experiment+demonstration",
+          "real_world": "Leon Theremin invented the theremin around 1920; it is played without being touched and produced the eerie sounds in many old science-fiction films."
         },
         {
           "id": "electronics_016",
@@ -5978,7 +6131,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Measuring+Voltage+Drop+Across+Components+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Measuring+Voltage+Drop+Across+Components+experiment+demonstration",
+          "real_world": "A very long extension lead can make a power tool run weakly because some voltage is lost along the cable, which is why thicker cables are used for long runs."
         },
         {
           "id": "electronics_017",
@@ -6015,7 +6169,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+FM+Bug+Detector+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+FM+Bug+Detector+Circuit+experiment+demonstration",
+          "real_world": "Engineers use radio-frequency detectors to find sources of interference, and airports monitor radio signals to keep aircraft communications clear."
         },
         {
           "id": "electronics_018",
@@ -6053,7 +6208,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Understanding+Short+Circuits+Safely+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Understanding+Short+Circuits+Safely+experiment+demonstration",
+          "real_world": "Fuses and circuit breakers cut off the power when too much current flows, which prevents wires from overheating and starting fires."
         },
         {
           "id": "electronics_019",
@@ -6090,7 +6246,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Data+Logging+Thermometer+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Data+Logging+Thermometer+experiment+demonstration",
+          "real_world": "Weather stations record temperature automatically every few minutes, and vaccine fridges use data loggers to prove the contents stayed cold."
         },
         {
           "id": "electronics_020",
@@ -6129,7 +6286,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Joule+Thief+Circuit+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Joule+Thief+Circuit+experiment+demonstration",
+          "real_world": "Solar garden lights use a small boost circuit so that a single low-voltage rechargeable cell can light an LED that needs a higher voltage."
         }
       ]
     },
@@ -6191,7 +6349,8 @@
               "answer": 2
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Solar+Oven+from+a+Pizza+Box+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Solar+Oven+from+a+Pizza+Box+experiment+demonstration",
+          "real_world": "Large solar thermal plants use fields of mirrors to focus sunlight and heat a fluid; the Noor complex near Ouarzazate in Morocco is one of the biggest."
         },
         {
           "id": "renewable_energy_001",
@@ -6229,7 +6388,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Mini+Solar+Car+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Mini+Solar+Car+experiment+demonstration",
+          "real_world": "Every two years university teams race solar-powered cars about 3,000 kilometres across Australia from Darwin to Adelaide in the World Solar Challenge."
         },
         {
           "id": "renewable_energy_002",
@@ -6267,7 +6427,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Wind+Turbine+Generator+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Wind+Turbine+Generator+experiment+demonstration",
+          "real_world": "Hornsea, off the coast of Yorkshire, is one of the world's largest offshore wind farms and supplies electricity to more than a million homes."
         },
         {
           "id": "renewable_energy_003",
@@ -6304,7 +6465,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Solar+Oven+Efficiency+Testing+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Solar+Oven+Efficiency+Testing+experiment+demonstration",
+          "real_world": "Solar cooker projects test designs just as you do, measuring how fast water heats, so the most efficient ovens can be given to families in sunny regions."
         },
         {
           "id": "renewable_energy_004",
@@ -6342,7 +6504,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Hydroelectric+Generator+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Hydroelectric+Generator+Model+experiment+demonstration",
+          "real_world": "The Three Gorges Dam in China is the world's largest power station by capacity, and the Hoover Dam in the United States has made hydroelectricity since the 1930s."
         },
         {
           "id": "renewable_energy_005",
@@ -6380,7 +6543,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Comparing+Solar+Panel+Angles+and+Output+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Comparing+Solar+Panel+Angles+and+Output+experiment+demonstration",
+          "real_world": "Rooftop solar panels are tilted to face the Sun, and some solar farms use trackers that turn the panels to follow it across the sky."
         },
         {
           "id": "renewable_energy_006",
@@ -6418,7 +6582,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Biogas+Model+%28Anaerobic+Digestion+Concept%29+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Biogas+Model+%28Anaerobic+Digestion+Concept%29+experiment+demonstration",
+          "real_world": "Millions of rural households in India and China have used small biogas digesters that turn animal dung and food waste into gas for cooking."
         },
         {
           "id": "renewable_energy_007",
@@ -6455,7 +6620,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Geothermal+Energy+Concept+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Geothermal+Energy+Concept+Model+experiment+demonstration",
+          "real_world": "Iceland heats about nine out of ten homes with geothermal hot water, and The Geysers in California is one of the largest geothermal power fields."
         },
         {
           "id": "renewable_energy_008",
@@ -6493,7 +6659,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Piezoelectric+Generator+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Piezoelectric+Generator+experiment+demonstration",
+          "real_world": "The spark in a gas lighter comes from a piezoelectric crystal being struck, and some experimental floors generate small amounts of power from footsteps."
         },
         {
           "id": "renewable_energy_009",
@@ -6531,7 +6698,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Measuring+Energy+Output+of+Different+Renewable+Sources+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Measuring+Energy+Output+of+Different+Renewable+Sources+experiment+demonstration",
+          "real_world": "Countries choose a mix of energy sources: Norway gets most of its electricity from hydropower, while Denmark relies heavily on wind."
         },
         {
           "id": "renewable_energy_010",
@@ -6569,7 +6737,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Solar+Water+Heater+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Solar+Water+Heater+Model+experiment+demonstration",
+          "real_world": "Rooftop solar water heaters are common in Israel, Cyprus and China, where they provide hot water for millions of homes."
         },
         {
           "id": "renewable_energy_011",
@@ -6607,7 +6776,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+Energy+Storage%3A+Simple+Battery+vs+Capacitor+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+Energy+Storage%3A+Simple+Battery+vs+Capacitor+experiment+demonstration",
+          "real_world": "The Hornsdale Power Reserve in South Australia, opened in 2017, is a very large battery that stores electricity and releases it in a fraction of a second when the grid needs it."
         },
         {
           "id": "renewable_energy_012",
@@ -6644,7 +6814,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Calculating+a+Home%27s+Potential+Solar+Energy+Savings+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Calculating+a+Home%27s+Potential+Solar+Energy+Savings+experiment+demonstration",
+          "real_world": "Households with solar panels compare the cost of installation with the electricity bills they save to work out how many years it takes to pay back."
         },
         {
           "id": "renewable_energy_013",
@@ -6681,7 +6852,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Tidal+Energy+Model+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Tidal+Energy+Model+experiment+demonstration",
+          "real_world": "The La Rance tidal power station in France has generated electricity from the rise and fall of the tide since 1966."
         },
         {
           "id": "renewable_energy_014",
@@ -6719,7 +6891,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+Energy+Efficiency%3A+LED+vs+Incandescent+Bulbs+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+Energy+Efficiency%3A+LED+vs+Incandescent+Bulbs+experiment+demonstration",
+          "real_world": "An LED bulb uses roughly a tenth of the electricity of an old incandescent bulb for the same light, which is why many countries have phased out incandescent bulbs."
         },
         {
           "id": "renewable_energy_015",
@@ -6756,7 +6929,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Small-Scale+Biofuel+Demonstration+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Small-Scale+Biofuel+Demonstration+experiment+demonstration",
+          "real_world": "Brazil has run many of its cars on ethanol made from sugar cane since the 1970s, and used cooking oil can be turned into biodiesel."
         },
         {
           "id": "renewable_energy_016",
@@ -6794,7 +6968,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Investigating+Passive+Solar+Home+Design+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Investigating+Passive+Solar+Home+Design+experiment+demonstration",
+          "real_world": "Passive houses, a standard developed in Germany around 1990, use thick insulation and sun-facing windows so they need very little heating."
         },
         {
           "id": "renewable_energy_017",
@@ -6832,7 +7007,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Micro-Hydro+Turbine+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Simple+Micro-Hydro+Turbine+experiment+demonstration",
+          "real_world": "Small hydro turbines on mountain streams provide electricity to villages in Nepal that are too remote to connect to the national grid."
         },
         {
           "id": "renewable_energy_018",
@@ -6868,7 +7044,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Exploring+the+Carbon+Footprint+of+Energy+Sources+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Exploring+the+Carbon+Footprint+of+Energy+Sources+experiment+demonstration",
+          "real_world": "Burning coal releases far more carbon dioxide for each unit of electricity than wind, solar or nuclear power, which is why many countries are closing coal plants."
         },
         {
           "id": "renewable_energy_019",
@@ -6906,7 +7083,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Building+a+Combined+Solar-Wind+Hybrid+Charger+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Building+a+Combined+Solar-Wind+Hybrid+Charger+experiment+demonstration",
+          "real_world": "Remote mobile phone towers and island villages often combine solar panels and wind turbines so that power is available when either the sun shines or the wind blows."
         },
         {
           "id": "renewable_energy_020",
@@ -6943,7 +7121,8 @@
               "answer": 1
             }
           ],
-          "video": "https://www.youtube.com/results?search_query=Modeling+Energy+Payback+Time+for+Solar+Panels+experiment+demonstration"
+          "video": "https://www.youtube.com/results?search_query=Modeling+Energy+Payback+Time+for+Solar+Panels+experiment+demonstration",
+          "real_world": "Studies generally find that a solar panel produces the energy used to make it within about one to four years, yet it can keep working for 25 years or more."
         }
       ]
     }
