@@ -1,0 +1,77 @@
+{
+  "title": "Ingredient Alternatives & Substitutions",
+  "description": "Reliable swaps for common ingredients, plus a dedicated halal substitute list for recipes that traditionally call for a haram animal ingredient -- every swap below uses chicken, beef, mutton, lamb, duck, fish/seafood, or a plant-based alternative.",
+  "categories": [
+    {
+      "id": "halal_substitutes",
+      "label": "Halal Substitutes for Haram Ingredients",
+      "emoji": "🐄",
+      "items": [
+        { "ingredient": "Pork bacon", "alternatives": ["Chicken bacon", "Beef bacon", "Turkey bacon"], "notes": "Chicken bacon is the closest match for streaky, smoky bacon strips in breakfasts, salads, and sandwiches." },
+        { "ingredient": "Ham", "alternatives": ["Chicken ham", "Smoked chicken breast", "Beef pastrami"], "notes": "Chicken ham (pressed, cured chicken) slices and cooks the same way as regular ham in sandwiches and quiches." },
+        { "ingredient": "Guanciale / pancetta (cured pork jowl or belly)", "alternatives": ["Beef bacon", "Chicken bacon"], "notes": "Used in Carbonara and Amatriciana; beef or chicken bacon gives a similar salty, rendered-fat base." },
+        { "ingredient": "Chorizo (pork sausage)", "alternatives": ["Beef chorizo", "Chicken chorizo"], "notes": "Beef chorizo is widely available and carries the same smoked-paprika flavour." },
+        { "ingredient": "Prosciutto / cured pork ham", "alternatives": ["Bresaola (cured beef)", "Cured duck breast"], "notes": "Bresaola is a real, traditional air-dried beef product from Italy, not an imitation -- a genuine like-for-like swap." },
+        { "ingredient": "Pepperoni", "alternatives": ["Beef pepperoni", "Chicken pepperoni"], "notes": "Widely sold pre-made; works identically on pizza." },
+        { "ingredient": "Bratwurst / German sausage", "alternatives": ["Beef bratwurst", "Chicken bratwurst"], "notes": "Beef bratwurst holds its shape and snap on the grill the same way." },
+        { "ingredient": "Lard (rendered pork fat)", "alternatives": ["Beef tallow", "Ghee", "Vegetable shortening"], "notes": "Beef tallow behaves closest to lard in pastry for flakiness." },
+        { "ingredient": "Gelatin (often pork-derived)", "alternatives": ["Beef gelatin (halal-certified)", "Agar-agar (plant-based)"], "notes": "Check that beef gelatin is halal-certified; agar-agar is a reliable plant-based setting agent for jellies and desserts." },
+        { "ingredient": "Fish sauce with non-halal additives", "alternatives": ["Halal-certified fish sauce", "Soy sauce + a squeeze of lime"], "notes": "Most fish sauce is naturally halal (fermented fish and salt); check the label if unsure." },
+        { "ingredient": "Snails / escargot", "alternatives": ["Grilled chicken skewers with garlic-herb butter"], "notes": "No true equivalent exists; the garlic-parsley-butter sauce is the part worth recreating, served instead over chicken." },
+        { "ingredient": "Frog legs", "alternatives": ["Chicken drumettes or wings"], "notes": "Chicken wings take on the same garlic-butter or curry preparations frog legs are typically cooked in." },
+        { "ingredient": "Wine (as a cooking ingredient)", "alternatives": [], "notes": "Cooking wine is commonly considered acceptable in this collection since the alcohol content largely cooks off during simmering or baking -- use freely where a recipe calls for it." }
+      ]
+    },
+    {
+      "id": "dairy",
+      "label": "Dairy",
+      "emoji": "🥛",
+      "items": [
+        { "ingredient": "Buttermilk", "alternatives": ["1 cup milk + 1 tbsp lemon juice or vinegar, rested 5 minutes"], "notes": "Curdles slightly, mimicking buttermilk's tang and acidity for baking." },
+        { "ingredient": "Heavy cream", "alternatives": ["3/4 cup milk + 1/4 cup melted butter"], "notes": "Won't whip into peaks, but works for cooking and baking." },
+        { "ingredient": "Sour cream", "alternatives": ["Plain Greek yogurt (equal amount)"], "notes": "Nearly interchangeable in both flavour and texture." },
+        { "ingredient": "Butter", "alternatives": ["Neutral vegetable oil (3/4 the amount)", "Margarine"], "notes": "Best for savoury cooking; baking texture changes slightly with oil." },
+        { "ingredient": "Milk", "alternatives": ["Oat milk", "Almond milk", "Evaporated milk + water"], "notes": "Any plant milk works in most savoury and baking applications." }
+      ]
+    },
+    {
+      "id": "baking",
+      "label": "Baking",
+      "emoji": "🍞",
+      "items": [
+        { "ingredient": "Eggs (in baking)", "alternatives": ["1/4 cup unsweetened applesauce per egg", "1 mashed ripe banana per egg", "1 tbsp ground flaxseed + 3 tbsp water per egg"], "notes": "Best for cakes, muffins, and quick breads; less reliable for meringues or soufflés." },
+        { "ingredient": "Brown sugar", "alternatives": ["1 cup white sugar + 1 tbsp molasses"], "notes": "Mix well; restores the moisture and flavour brown sugar adds." },
+        { "ingredient": "Cornstarch (as a thickener)", "alternatives": ["Flour (double the amount)", "Arrowroot powder (equal amount)"], "notes": "Arrowroot gives a clearer thickened sauce than flour." },
+        { "ingredient": "Baking powder", "alternatives": ["1/4 tsp baking soda + 1/2 tsp cream of tartar per 1 tsp"], "notes": "Use immediately, as the reaction starts right away." },
+        { "ingredient": "Self-rising flour", "alternatives": ["1 cup all-purpose flour + 1.5 tsp baking powder + 1/4 tsp salt"], "notes": "Standard self-rising flour substitution ratio." },
+        { "ingredient": "Cake flour", "alternatives": ["1 cup all-purpose flour minus 2 tbsp, plus 2 tbsp cornstarch"], "notes": "Sift together well for an even, lighter crumb." },
+        { "ingredient": "Active dry yeast", "alternatives": ["Instant yeast (equal amount, skip proofing step)"], "notes": "Instant yeast can be mixed directly into dry ingredients." }
+      ]
+    },
+    {
+      "id": "sauces_condiments",
+      "label": "Sauces & Condiments",
+      "emoji": "🍶",
+      "items": [
+        { "ingredient": "Soy sauce", "alternatives": ["Tamari (gluten-free)", "Coconut aminos"], "notes": "Coconut aminos are sweeter and less salty; use slightly more." },
+        { "ingredient": "Rice vinegar", "alternatives": ["Apple cider vinegar + a pinch of sugar"], "notes": "Balances the mellow sweetness rice vinegar has." },
+        { "ingredient": "Tahini", "alternatives": ["Peanut butter", "Sunflower seed butter"], "notes": "Works in hummus and dressings, though the flavour becomes nuttier." },
+        { "ingredient": "Gochujang (Korean chilli paste)", "alternatives": ["White miso + chilli paste + a touch of sugar"], "notes": "Approximates the sweet-savoury-spicy balance of gochujang." },
+        { "ingredient": "Worcestershire sauce", "alternatives": ["Soy sauce + a splash of vinegar + a pinch of sugar"], "notes": "A reasonable stand-in when the anchovy-based original isn't available." },
+        { "ingredient": "Panko breadcrumbs", "alternatives": ["Crushed crackers", "Regular breadcrumbs, lightly toasted"], "notes": "Toasting regular breadcrumbs adds back some of panko's crunch." }
+      ]
+    },
+    {
+      "id": "produce_aromatics",
+      "label": "Produce & Aromatics",
+      "emoji": "🧄",
+      "items": [
+        { "ingredient": "Fresh herbs", "alternatives": ["Dried herbs (use 1/3 the amount)"], "notes": "Dried herbs are more concentrated; add earlier in cooking to rehydrate." },
+        { "ingredient": "Shallots", "alternatives": ["Onion + a little garlic"], "notes": "Combine roughly 1 small onion and half a garlic clove per shallot." },
+        { "ingredient": "Fresh ginger", "alternatives": ["Ground ginger (1/4 the amount)"], "notes": "Best for cooked dishes rather than raw applications." },
+        { "ingredient": "Coconut milk", "alternatives": ["Heavy cream", "Cashew cream (blended soaked cashews + water)"], "notes": "Cashew cream is the closer match for dairy-free cooking." },
+        { "ingredient": "Lemongrass", "alternatives": ["Lemon zest + a little ginger"], "notes": "Not identical, but captures the citrusy-aromatic quality." }
+      ]
+    }
+  ]
+}

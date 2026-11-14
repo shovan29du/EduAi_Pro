@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Get Out thumbnail</title>
+  <desc id="desc">Original EduAI Pro catalogue graphic for Get Out, 2017.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f2937"/><stop offset="1" stop-color="#4b5563"/></linearGradient>
+    <pattern id="grain" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.5" fill="#fbbf24" opacity=".18"/></pattern>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="540" rx="28" fill="url(#grain)"/>
+  <circle cx="762" cy="115" r="168" fill="#fbbf24" opacity=".12"/>
+  <circle cx="822" cy="420" r="220" fill="#1f2937" opacity=".32"/>
+  <text x="64" y="72" fill="#fbbf24" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="4">EDUAI PRO · FILM STUDIES</text>
+  <text x="64" y="224" fill="#fff" font-family="Georgia,serif" font-size="104" font-weight="700">GO</text>
+  <foreignObject x="62" y="274" width="800" height="135"><div xmlns="http://www.w3.org/1999/xhtml" style="font:700 42px/1.12 Georgia,serif;color:white;letter-spacing:-1px">Get Out</div></foreignObject>
+  <text x="64" y="446" fill="#fff" opacity=".82" font-family="Segoe UI,Arial,sans-serif" font-size="24">Jordan Peele · 2017</text>
+  <text x="64" y="496" fill="#fbbf24" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">SIGHT &amp; SOUND TOP 200 · RANK 95</text>
+</svg>
