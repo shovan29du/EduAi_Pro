@@ -3,7 +3,8 @@
 shortcut that launches the app.
 
 Usage:
-    python3 full_install.py
+    python3 full_install.py                  # full install
+    python3 full_install.py --launcher-only  # only rewrite the launcher and shortcut
 
 Run from anywhere - the script locates the repo root from its own path.
 """
@@ -137,7 +138,8 @@ def write_launcher() -> Path:
         run_backend.write_text(
             "@echo off\r\n"
             f'cd /d "{BACKEND_DIR}"\r\n'
-            f'"{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
+            f"set EDUAI_PORT={BACKEND_PORT}\r\n"
+            f'"{py}" run_app.py\r\n'
             "echo.\r\n"
             "echo Backend stopped (or failed to start -- see any error above).\r\n"
             "pause\r\n"
@@ -148,12 +150,11 @@ def write_launcher() -> Path:
         # window for it with "start": that relies on cmd.exe/Windows Terminal
         # window-spawning behaviour that proved unreliable -- it could fail
         # to open anything at all, with no error, no second window, nothing.
-        # Running everything in one window can't have that failure mode: the
-        # browser is opened (a URL launch, not spawning a console app, which
-        # is the part that was unreliable) just before uvicorn starts, with
-        # a short delay for the server to come up; uvicorn then runs in the
-        # foreground so this window is both the server's console and the
-        # thing that stays open if it crashes.
+        # backend/run_app.py runs the server in the foreground (so this window
+        # is the server's console and stays open if it crashes) and opens
+        # Edge from a background thread only once the server answers. An
+        # earlier version opened the browser *before* the server was up, which
+        # left Edge on "This site can't be reached".
         launcher.write_text(
             "@echo off\r\n"
             f'cd /d "{FRONTEND_DIR}"\r\n'
@@ -165,9 +166,8 @@ def write_launcher() -> Path:
             "  exit /b 1\r\n"
             ")\r\n"
             f'cd /d "{BACKEND_DIR}"\r\n'
-            "timeout /t 2 >nul\r\n"
-            f"start http://localhost:{BACKEND_PORT}\r\n"
-            f'"{py}" -m uvicorn app.main:app --port {BACKEND_PORT}\r\n'
+            f"set EDUAI_PORT={BACKEND_PORT}\r\n"
+            f'"{py}" run_app.py\r\n'
             "echo.\r\n"
             "echo Backend stopped (or failed to start -- see any error above).\r\n"
             "pause\r\n"
@@ -175,14 +175,10 @@ def write_launcher() -> Path:
     else:
         launcher = REPO_ROOT / "start_EduAi_Pro.sh"
         py = venv_python()
-        open_cmd = "open" if IS_MAC else "xdg-open"
         launcher.write_text(
             "#!/usr/bin/env bash\n"
             f'cd "{FRONTEND_DIR}" && npm run build\n'
-            f'cd "{BACKEND_DIR}" && "{py}" -m uvicorn app.main:app --port {BACKEND_PORT} &\n'
-            "sleep 3\n"
-            f"{open_cmd} http://localhost:{BACKEND_PORT}\n"
-            "wait\n"
+            f'cd "{BACKEND_DIR}" && EDUAI_PORT={BACKEND_PORT} "{py}" run_app.py\n'
         )
         launcher.chmod(launcher.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)
     print(f"Launcher written to {launcher}")
@@ -332,6 +328,14 @@ def launch(launcher: Path):
 
 
 def main():
+    if "--launcher-only" in sys.argv:
+        # Quick refresh of the launcher script and desktop shortcut(s) without
+        # reinstalling any dependencies.
+        check_python_version()
+        launcher = write_launcher()
+        create_shortcuts(launcher)
+        print("\nLauncher and shortcut refreshed. Double-click the EduAi_Pro desktop shortcut to start the app.")
+        return
     check_python_version()
     install_backend()
     prepare_database()
