@@ -25,6 +25,7 @@ router = APIRouter(prefix="/api/virtual-tour", tags=["virtual-tour"])
 _BASE = Path(__file__).resolve().parent.parent
 COUNTRIES_PATH = _BASE / "data" / "countries" / "countries.json"
 TOUR_PATH = _BASE / "data" / "virtual_tour" / "tour.json"
+TRIPS_PATH = _BASE / "data" / "virtual_tour" / "road_trips.json"
 CACHE_DIR = _BASE / "data" / "virtual_tour_cache"
 WEATHER_TTL = 30 * 60
 RATES_TTL = 6 * 3600
@@ -105,6 +106,23 @@ def city_links(city: str, country: str) -> dict:
     }
 
 
+def road_trip_links(trip: dict) -> dict:
+    name = trip["name"]
+    directions = (
+        "https://www.google.com/maps/dir/?api=1"
+        f"&origin={_search(trip['start'])}&destination={_search(trip['end'])}&travelmode=driving"
+    )
+    if trip.get("via"):
+        directions += "&waypoints=" + quote_plus("|".join(trip["via"]))
+    return {
+        "route": directions,
+        "video": f"https://www.youtube.com/results?search_query={_search(name + ' road trip drive 4K')}",
+        "blog": f"https://www.google.com/search?q={_search(name + ' road trip itinerary blog')}",
+        "photos": f"https://commons.wikimedia.org/w/index.php?search={_search(name)}&ns6=1",
+        "earth": f"https://earth.google.com/web/search/{quote(trip['start'])}",
+    }
+
+
 def country_links(country: dict) -> dict:
     name = short_name(country)
     wiki = quote(name.replace(" ", "_"))
@@ -126,17 +144,34 @@ def country_links(country: dict) -> dict:
 
 # ── data ──────────────────────────────────────────────────────────────────────
 @lru_cache(maxsize=4)
-def _load(countries_mtime: float, tour_mtime: float) -> dict:
+def _load(countries_mtime: float, tour_mtime: float, trips_mtime: float) -> dict:
     countries = json.loads(COUNTRIES_PATH.read_text(encoding="utf-8")).get("countries", [])
     tour = {}
     if TOUR_PATH.exists():
         tour = json.loads(TOUR_PATH.read_text(encoding="utf-8")).get("countries", {})
-    return {"countries": {c["code"].upper(): c for c in countries}, "tour": tour}
+    trips = []
+    if TRIPS_PATH.exists():
+        trips = json.loads(TRIPS_PATH.read_text(encoding="utf-8")).get("road_trips", [])
+    return {"countries": {c["code"].upper(): c for c in countries}, "tour": tour, "trips": trips}
+
+
+def _mtime(path: Path) -> float:
+    return path.stat().st_mtime if path.exists() else 0.0
 
 
 def data() -> dict:
-    tour_mtime = TOUR_PATH.stat().st_mtime if TOUR_PATH.exists() else 0.0
-    return _load(COUNTRIES_PATH.stat().st_mtime, tour_mtime)
+    return _load(COUNTRIES_PATH.stat().st_mtime, _mtime(TOUR_PATH), _mtime(TRIPS_PATH))
+
+
+def _trip_view(trip: dict) -> dict:
+    countries = data()["countries"]
+    members = [countries[c] for c in trip["countries"] if c in countries]
+    return {
+        **trip,
+        "country_names": [short_name(c) for c in members],
+        "continent_ids": sorted({continent_of(c) for c in members}),
+        "links": road_trip_links(trip),
+    }
 
 
 def _entry(code: str) -> dict:
@@ -167,12 +202,16 @@ def overview():
             "id": cid, "label": label, "emoji": emoji, "country_count": len(members),
             "place_count": sum(s["place_count"] for s in members),
         })
+    trips = [_trip_view(t) for t in data()["trips"]]
+    for continent_entry in continents:
+        continent_entry["road_trip_count"] = sum(continent_entry["id"] in t["continent_ids"] for t in trips)
     return {
         "continents": continents,
         "totals": {
             "countries": len(summaries),
             "places": sum(s["place_count"] for s in summaries),
             "cities": sum(s["city_count"] for s in summaries),
+            "road_trips": len(trips),
         },
         "place_types": [{"id": t, "label": PLACE_TYPE_LABEL[t]} for t in PLACE_TYPES],
     }
@@ -216,9 +255,32 @@ def country_tour(code: str):
         "places": places,
         "cities": cities,
         "guide": entry.get("guide"),
+        "road_trips": [_trip_view(t) for t in data()["trips"] if country["code"] in t["countries"]],
         "links": country_links(country),
         "currency_code": currency_code(country),
     }
+
+
+@router.get("/road-trips")
+def road_trips(continent: str = "", country: str = "", kind: str = "", q: str = ""):
+    """Famous road trips, optionally filtered by continent, country code, kind or text."""
+    if continent and continent not in CONTINENT_LABEL:
+        raise HTTPException(status_code=404, detail="Continent not found")
+    needle = q.strip().lower()
+    result = []
+    for trip in data()["trips"]:
+        view = _trip_view(trip)
+        if continent and continent not in view["continent_ids"]:
+            continue
+        if country and country.upper() not in trip["countries"]:
+            continue
+        if kind and trip["kind"] != kind:
+            continue
+        if needle and needle not in " ".join([trip["name"], trip["start"], trip["end"], *view["country_names"], *trip["highlights"]]).lower():
+            continue
+        result.append(view)
+    kinds = sorted({t["kind"] for t in data()["trips"]})
+    return {"road_trips": result, "total": len(result), "kinds": kinds}
 
 
 @router.get("/search")

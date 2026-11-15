@@ -20,7 +20,7 @@ def test_every_country_has_places_cities_and_a_complete_guide():
         assert len(entry["cities"]) >= 1, code
         assert set(entry["guide"]) == GUIDE_FIELDS, code
         assert entry["guide"]["tier"] in {"$", "$$", "$$$", "$$$$"}, code
-        assert all(len(v) >= 3 for v in entry["guide"].values()), code
+        assert all(len(v) >= 3 for k, v in entry["guide"].items() if k != "tier"), code
 
 
 def test_places_have_valid_types_and_no_duplicates_or_leftovers():
@@ -65,3 +65,27 @@ def test_americas_are_split_and_transcontinental_countries_listed_once():
     assert by_code["BR"] == "south-america" and by_code["US"] == "north-america" and by_code["MX"] == "north-america"
     assert by_code["TR"] == "asia" and by_code["RU"] == "europe" and by_code["CY"] == "europe"
     assert client.get("/api/virtual-tour/continents/south-america").json()["countries"][0]["code"] in by_code
+
+
+TRIPS = json.loads((DATA / "virtual_tour" / "road_trips.json").read_text(encoding="utf-8"))["road_trips"]
+
+
+def test_road_trips_cover_every_continent_with_complete_details():
+    assert len(TRIPS) >= 90 and len({t["id"] for t in TRIPS}) == len(TRIPS)
+    for trip in TRIPS:
+        assert set(trip["countries"]) <= set(TOUR), trip["id"]
+        assert trip["km"] > 0 and len(trip["highlights"]) >= 3 and trip["tip"] and trip["summary"], trip["id"]
+    body = client.get("/api/virtual-tour").json()
+    assert body["totals"]["road_trips"] == len(TRIPS)
+    assert all(c["road_trip_count"] >= 8 for c in body["continents"])
+
+
+def test_famous_trips_are_present_with_working_route_links():
+    names = {t["name"] for t in client.get("/api/virtual-tour/road-trips").json()["road_trips"]}
+    for expected in ("Route 66", "Great Ocean Road", "Iceland Ring Road (Route 1)", "North Coast 500", "Garden Route",
+                     "Pacific Coast Highway (Highway 1)", "Karakoram Highway", "Carretera Austral", "Ruta 40"):
+        assert expected in names
+    usa = client.get("/api/virtual-tour/countries/US").json()["road_trips"]
+    assert {"Route 66", "Blue Ridge Parkway"} <= {t["name"] for t in usa}
+    for trip in usa:
+        assert trip["links"]["route"].startswith("https://www.google.com/maps/dir/?api=1&origin=")

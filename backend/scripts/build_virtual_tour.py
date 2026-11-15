@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 COUNTRIES = ROOT / "data" / "countries" / "countries.json"
 OUT = ROOT / "data" / "virtual_tour" / "tour.json"
+TRIPS_OUT = ROOT / "data" / "virtual_tour" / "road_trips.json"
 MODULES = ["africa", "asia", "europe", "americas", "oceania"]
 TYPES = {"a": "attraction", "n": "nature", "m": "museum", "r": "architecture"}
 GUIDE_FIELDS = ("tier", "cost", "transport", "stay", "food", "buy", "warn", "climate")
@@ -40,6 +41,26 @@ def parse_places(code: str, text: str) -> list[dict]:
         seen.add(name.lower())
         places.append({"name": name, "type": TYPES[kind]})
     return places
+
+
+def build_road_trips(known: dict) -> list[dict]:
+    from vt_data.road_trips import ROAD_TRIPS
+
+    seen, out = set(), []
+    for trip in ROAD_TRIPS:
+        tid = trip["id"]
+        if tid in seen:
+            raise SystemExit(f"road trip {tid}: duplicate id")
+        seen.add(tid)
+        bad = [c for c in trip["countries"] if c not in known]
+        if bad or not trip["countries"]:
+            raise SystemExit(f"road trip {tid}: unknown or missing countries {bad}")
+        if not (trip["name"] and trip["start"] and trip["end"] and trip["summary"] and trip["tip"] and trip["best_time"]):
+            raise SystemExit(f"road trip {tid}: empty field")
+        if len(trip["highlights"]) < 3 or len(trip["via"]) > 8 or not isinstance(trip["km"], int) or trip["km"] <= 0:
+            raise SystemExit(f"road trip {tid}: needs 3+ highlights, at most 8 waypoints and a positive km")
+        out.append(trip)
+    return out
 
 
 def main() -> None:
@@ -82,8 +103,11 @@ def main() -> None:
             raise SystemExit(f"{code}: needs at least {MIN_CITIES} city")
         out[code] = {"places": parsed, "cities": city_list, "guide": guide}
 
+    trips = build_road_trips(known)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"updated": "2026-11", "countries": out}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    TRIPS_OUT.write_text(json.dumps({"updated": "2026-11", "road_trips": trips}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{len(trips)} road trips -> {TRIPS_OUT}")
     total = sum(len(v["places"]) for v in out.values())
     print(f"{len(out)} countries, {total} places, {sum(len(v['cities']) for v in out.values())} cities -> {OUT}")
 

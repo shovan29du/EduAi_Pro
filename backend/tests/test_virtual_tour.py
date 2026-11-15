@@ -34,6 +34,16 @@ TOUR = {"countries": {
 }}
 
 
+TRIPS = [
+    {"id": "route-napoleon", "name": "Route Napoleon", "countries": ["FR"], "start": "Golfe-Juan", "end": "Grenoble",
+     "via": ["Grasse", "Gap"], "km": 325, "duration": "2 days", "best_time": "May to September", "kind": "historic",
+     "summary": "Follow Napoleon's 1815 return.", "highlights": ["Grasse", "Castellane", "Gap"], "tip": "Passes can be icy."},
+    {"id": "pan-american", "name": "Pan-American Highway", "countries": ["US", "BR"], "start": "Prudhoe Bay", "end": "Ushuaia",
+     "via": [], "km": 30000, "duration": "6-12 months", "best_time": "Varies", "kind": "cross-country",
+     "summary": "Arctic to Patagonia.", "highlights": ["Alaska", "Andes", "Patagonia"], "tip": "No road at the Darien Gap."},
+]
+
+
 @pytest.fixture(autouse=True)
 def _fixture_data(monkeypatch, tmp_path):
     countries = tmp_path / "countries.json"
@@ -42,6 +52,9 @@ def _fixture_data(monkeypatch, tmp_path):
     tour.write_text(json.dumps(TOUR), encoding="utf-8")
     monkeypatch.setattr(vt, "COUNTRIES_PATH", countries)
     monkeypatch.setattr(vt, "TOUR_PATH", tour)
+    trips = tmp_path / "road_trips.json"
+    trips.write_text(json.dumps({"road_trips": TRIPS}), encoding="utf-8")
+    monkeypatch.setattr(vt, "TRIPS_PATH", trips)
     monkeypatch.setattr(vt, "CACHE_DIR", tmp_path / "cache")
     vt._load.cache_clear()
     yield
@@ -54,7 +67,7 @@ def test_continents_split_the_americas_and_place_transcontinental_countries_once
     assert ids["europe"]["country_count"] == 1 and ids["asia"]["country_count"] == 1  # Turkey only in Asia
     assert ids["europe"]["place_count"] == 4
     totals = client.get("/api/virtual-tour").json()["totals"]
-    assert totals == {"countries": 6, "places": 5, "cities": 4}
+    assert totals == {"countries": 6, "places": 5, "cities": 4, "road_trips": 2}
 
 
 def test_continent_listing_and_unknown_continent():
@@ -156,3 +169,32 @@ def test_exchange_rate_unavailable_cases(monkeypatch):
     monkeypatch.setattr(vt, "urlopen", lambda *a, **k: _Resp({"result": "success", "rates": {"EUR": 1}}))
     assert client.get("/api/virtual-tour/rates/BR").json() == {"available": False, "currency": "BRL"}
     assert client.get("/api/virtual-tour/rates/ZZ").status_code == 404
+
+
+def test_road_trip_links_include_a_driving_route_with_waypoints():
+    body = client.get("/api/virtual-tour/road-trips").json()
+    assert body["total"] == 2 and body["kinds"] == ["cross-country", "historic"]
+    napoleon = next(t for t in body["road_trips"] if t["id"] == "route-napoleon")
+    links = napoleon["links"]
+    assert links["route"] == ("https://www.google.com/maps/dir/?api=1&origin=Golfe-Juan&destination=Grenoble"
+                              "&travelmode=driving&waypoints=Grasse%7CGap")
+    assert "Route+Napoleon+road+trip+drive+4K" in links["video"] and "road+trip+itinerary+blog" in links["blog"]
+    assert links["photos"].startswith("https://commons.wikimedia.org/") and links["earth"].endswith("Golfe-Juan")
+    assert napoleon["country_names"] == ["France"] and napoleon["continent_ids"] == ["europe"]
+    pan = next(t for t in body["road_trips"] if t["id"] == "pan-american")
+    assert "waypoints" not in pan["links"]["route"]
+    assert pan["continent_ids"] == ["north-america", "south-america"]
+
+
+def test_road_trips_can_be_filtered_and_appear_on_country_pages():
+    assert [t["id"] for t in client.get("/api/virtual-tour/road-trips", params={"continent": "europe"}).json()["road_trips"]] == ["route-napoleon"]
+    assert [t["id"] for t in client.get("/api/virtual-tour/road-trips", params={"continent": "south-america"}).json()["road_trips"]] == ["pan-american"]
+    assert [t["id"] for t in client.get("/api/virtual-tour/road-trips", params={"country": "br"}).json()["road_trips"]] == ["pan-american"]
+    assert [t["id"] for t in client.get("/api/virtual-tour/road-trips", params={"kind": "historic"}).json()["road_trips"]] == ["route-napoleon"]
+    assert [t["id"] for t in client.get("/api/virtual-tour/road-trips", params={"q": "patagonia"}).json()["road_trips"]] == ["pan-american"]
+    assert client.get("/api/virtual-tour/road-trips", params={"continent": "atlantis"}).status_code == 404
+    assert [t["id"] for t in client.get("/api/virtual-tour/countries/FR").json()["road_trips"]] == ["route-napoleon"]
+    assert client.get("/api/virtual-tour/countries/TR").json()["road_trips"] == []
+    overview = client.get("/api/virtual-tour").json()
+    assert overview["totals"]["road_trips"] == 2
+    assert {c["id"]: c["road_trip_count"] for c in overview["continents"]}["north-america"] == 1
