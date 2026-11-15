@@ -15,6 +15,7 @@ import CodeEditor from './CodeEditor.jsx';
 import { getLessonExample } from '../api/lessonExamples.js';
 import ExampleQuiz from './ExampleQuiz.jsx';
 import ReportProblem from './ReportProblem.jsx';
+import LessonEnrichment from './LessonEnrichment.jsx';
 
 const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
 
@@ -433,6 +434,7 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
               </>
             )}
             <RealWorldExample lesson={selected} subjectName={subjectName} levelId={levelId} />
+            <LessonEnrichment lessonId={selected.id} levelId={levelId} />
             {selected.technical_detail && (
               <section className="mt-6 rounded-xl border border-indigo-200 bg-indigo-50 p-5 dark:border-indigo-800 dark:bg-indigo-950">
                 <h5 className="font-semibold">Technical detail</h5>
