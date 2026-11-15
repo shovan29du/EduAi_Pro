@@ -44,7 +44,7 @@ const AiTutor = lazy(() => import('./components/AiTutor.jsx'));
 const LanguageAcademy = lazy(() => import('./components/LanguageAcademy.jsx'));
 const AssessmentCentre = lazy(() => import('./components/AssessmentCentre.jsx'));
 const GrammarAcademy = lazy(() => import('./components/GrammarAcademy.jsx'));
-const CountriesExplorer = lazy(() => import('./components/CountriesExplorer.jsx'));
+const VirtualTour = lazy(() => import('./components/VirtualTour.jsx'));
 const HistoricalWorldMap = lazy(() => import('./components/HistoricalWorldMap.jsx'));
 const VocabularyAcademy = lazy(() => import('./components/VocabularyAcademy.jsx'));
 const StemLab = lazy(() => import('./components/StemLab.jsx'));
@@ -104,7 +104,7 @@ const CHILD_TABS = [
   'Sports Centre',
   'Cuisine Centre',
   'Tools',
-  'Countries',
+  'Virtual Tour',
   'History Atlas',
   'Assessment',
   'Colouring',
@@ -367,7 +367,7 @@ export default function App() {
             />
           )}
 
-          {activeTab === 'Countries' && <CountriesExplorer />}
+          {activeTab === 'Virtual Tour' && <VirtualTour />}
 
           {activeTab === 'History Atlas' && <HistoricalWorldMap />}
 
