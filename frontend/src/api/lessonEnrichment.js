@@ -11,9 +11,10 @@ export const isEnrichedLevel = (level) => ENRICHED_LEVELS.includes(String(level 
 export const getLessonEnrichment = (level, lessonId) =>
   get(`/${encodeURIComponent(String(level).toUpperCase())}/${encodeURIComponent(lessonId)}`);
 
-export function getRelatedArticle({ title, query }) {
+export function getRelatedArticle({ title, query, context }) {
   const params = new URLSearchParams();
   if (title) params.set('title', title);
   if (query) params.set('q', query);
+  if (context) params.set('ctx', context);
   return get(`/wiki?${params}`);
 }

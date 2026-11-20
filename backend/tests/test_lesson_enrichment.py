@@ -158,3 +158,63 @@ def test_school_lessons_use_the_school_subject_sheet():
     assert body["subject_pack"]["tables"][0]["title"] == "Simple budget"
     adult = client.get("/api/lesson-enrichment/M1/finance-m1-l2").json()
     assert adult["subject_pack"]["tables"][0]["title"] == "Ratios"
+
+
+# ---- skill lessons: a picture for lessons whose title is not an article name ----
+
+def test_candidates_use_the_brackets_and_the_subject():
+    out = le._candidates("Installing a Zipper (Basic Centered Zipper)", "Sewing and Crafts")
+    assert out[0] == "Installing a Zipper (Basic Centered Zipper)"
+    assert "Installing a Zipper" in out and "Basic Centered Zipper" in out
+    assert out[-2:] == ["Installing a Zipper Sewing and Crafts", "Sewing and Crafts"]
+    assert le._candidates("Judo", "") == ["Judo"]
+
+
+def _searching(monkeypatch, titles=None, pages=None, page_hits=None):
+    """Wikipedia stand-in: `titles` answers title search, `page_hits` full-text search."""
+    from urllib.error import HTTPError
+    seen = []
+
+    def fake(url):
+        seen.append(url)
+        if "/search/title" in url:
+            return {"pages": [{"key": k} for k in (titles or {}).get(url.split("q=")[1].split("&")[0], [])]}
+        if "/search/page" in url:
+            return {"pages": [{"key": k} for k in (page_hits or {}).get(url.split("q=")[1].split("&")[0], [])]}
+        key = url.rsplit("/", 1)[-1]
+        if key not in pages:
+            raise HTTPError(url, 404, "Not Found", {}, None)
+        return pages[key]
+
+    monkeypatch.setattr(le, "_fetch_json", fake)
+    return seen
+
+
+def test_a_title_that_is_not_an_article_falls_back_to_search_instead_of_failing(monkeypatch):
+    _searching(monkeypatch, titles={"Timber%20Hitch%20Rope%20and%20Knots": ["Timber_hitch"]},
+               pages={"Timber_hitch": {**ARTICLE, "title": "Timber hitch"}})
+    body = client.get("/api/lesson-enrichment/wiki", params={
+        "title": "Timber Hitch", "q": "Timber Hitch", "ctx": "Rope and Knots"}).json()
+    assert body["available"] is True and body["title"] == "Timber hitch"
+
+
+def test_full_text_search_finds_descriptive_titles(monkeypatch):
+    _searching(monkeypatch, page_hits={"Stranger%20Awareness": ["Stranger_danger"]},
+               pages={"Stranger_danger": {**ARTICLE, "title": "Stranger danger"}})
+    body = client.get("/api/lesson-enrichment/wiki", params={"q": "Stranger Awareness"}).json()
+    assert body["title"] == "Stranger danger"
+
+
+def test_an_article_with_a_picture_beats_one_without(monkeypatch):
+    bare = {**ARTICLE, "title": "Stance", "thumbnail": None}
+    _searching(monkeypatch, titles={"Stance": ["Stance"], "Stance%20Judo": ["Judo"]},
+               pages={"Stance": bare, "Judo": {**ARTICLE, "title": "Judo"}})
+    body = client.get("/api/lesson-enrichment/wiki", params={"q": "Stance", "ctx": "Judo"}).json()
+    assert body["title"] == "Judo" and body["thumbnail_url"]
+
+
+def test_an_article_without_any_picture_is_still_returned(monkeypatch):
+    bare = {**ARTICLE, "title": "Stance", "thumbnail": None}
+    _searching(monkeypatch, titles={"Stance": ["Stance"]}, pages={"Stance": bare})
+    body = client.get("/api/lesson-enrichment/wiki", params={"q": "Stance"}).json()
+    assert body["available"] is True and body["thumbnail_url"] is None

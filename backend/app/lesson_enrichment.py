@@ -23,6 +23,7 @@ import time
 from functools import lru_cache
 from pathlib import Path
 from urllib.parse import quote
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from fastapi import APIRouter, HTTPException
@@ -40,6 +41,8 @@ HEADERS = {
     "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
 }
 SEARCH_URL = "https://en.wikipedia.org/w/rest.php/v1/search/title?q={q}&limit=5"
+PAGE_SEARCH_URL = "https://en.wikipedia.org/w/rest.php/v1/search/page?q={q}&limit=5"
+LOOKUP_BUDGET_SECONDS = 14
 SUMMARY_URL = "https://en.wikipedia.org/api/rest_v1/page/summary/{title}"
 
 _PREFIX = re.compile(r"^Graduate Theory:\s*", re.I)
@@ -76,7 +79,12 @@ def _fetch_json(url: str) -> dict:
 
 def _summary(title: str) -> dict | None:
     """Wikipedia page summary, or None for missing pages and disambiguations."""
-    payload = _fetch_json(SUMMARY_URL.format(title=quote(title.replace(" ", "_"), safe="")))
+    try:
+        payload = _fetch_json(SUMMARY_URL.format(title=quote(title.replace(" ", "_"), safe="")))
+    except HTTPError as exc:
+        if exc.code == 404:  # no article with exactly this name: not an error, keep searching
+            return None
+        raise
     if payload.get("type") != "standard" or not payload.get("extract"):
         return None
     image = (payload.get("thumbnail") or {}).get("source") or (payload.get("originalimage") or {}).get("source")
@@ -92,11 +100,24 @@ def _summary(title: str) -> dict | None:
     }
 
 
-def _candidates(q: str) -> list[str]:
-    parts = [q]
-    if ":" in q:
-        head, _, tail = q.partition(":")
+_PAREN = re.compile(r"\(([^)]*)\)")
+
+
+def _candidates(q: str, ctx: str = "") -> list[str]:
+    """Search phrases for a lesson title, most specific first.
+
+    "Installing a Zipper (Basic Centered Zipper)" is tried whole, without the
+    bracket, and as the bracket's own words; the subject (`ctx`, for example
+    "Sewing and Crafts") is added to narrow a short title and, last of all, used
+    on its own so a lesson at least gets a picture of its subject.
+    """
+    plain = re.sub(r"\s+", " ", _PAREN.sub(" ", q)).strip(" -:,")
+    parts = [q, plain] + [m.strip() for m in _PAREN.findall(q)]
+    if ":" in plain:
+        head, _, tail = plain.partition(":")
         parts += [tail.strip(), head.strip()]
+    if ctx:
+        parts += [f"{plain} {ctx}", ctx]
     seen, out = set(), []
     for part in parts:
         if part and part.lower() not in seen:
@@ -105,19 +126,36 @@ def _candidates(q: str) -> list[str]:
     return out
 
 
-def find_article(title: str = "", q: str = "") -> dict | None:
-    """Exact article when `title` is given, else the best search hit for `q`."""
+def find_article(title: str = "", q: str = "", ctx: str = "") -> dict | None:
+    """Exact article when `title` is given, else the best search hit for `q`.
+
+    A hit with a freely licensed picture beats one without; when none has a
+    picture the first article found is still returned for its description.
+    """
+    deadline = time.time() + LOOKUP_BUDGET_SECONDS
+    fallback = None
     if title:
         found = _summary(title)
         if found:
-            return found
-    for query in _candidates(q):
-        hits = _fetch_json(SEARCH_URL.format(q=quote(query))).get("pages") or []
-        for hit in hits[:3]:
-            found = _summary(hit.get("key") or hit.get("title") or "")
-            if found:
+            if found["thumbnail_url"]:
                 return found
-    return None
+            fallback = found
+    for query in _candidates(q, ctx):
+        for url in (SEARCH_URL, PAGE_SEARCH_URL):
+            if time.time() > deadline:
+                return fallback
+            try:
+                hits = _fetch_json(url.format(q=quote(query))).get("pages") or []
+            except Exception:
+                continue
+            for hit in hits[:3]:
+                found = _summary(hit.get("key") or hit.get("title") or "")
+                if not found:
+                    continue
+                if found["thumbnail_url"]:
+                    return found
+                fallback = fallback or found
+    return fallback
 
 
 def _credit(image_url: str | None) -> dict | None:
@@ -137,12 +175,16 @@ def _cache_path(key: str) -> Path:
 
 
 @router.get("/wiki")
-def related_article(title: str = "", q: str = ""):
-    """Related Wikipedia article (picture, description, credit) for a topic."""
-    title, q = title.strip()[:200], q.strip()[:200]
+def related_article(title: str = "", q: str = "", ctx: str = ""):
+    """Related Wikipedia article (picture, description, credit) for a topic.
+
+    `ctx` is the wider subject (for example "Judo" for a lesson called "Stance"),
+    used to narrow a short title and as the last-resort picture.
+    """
+    title, q, ctx = title.strip()[:200], q.strip()[:200], ctx.strip()[:100]
     if not title and not q:
         raise HTTPException(status_code=400, detail="title or q is required")
-    path = _cache_path(f"{title}|{q}")
+    path = _cache_path(f"{title}|{q}|{ctx}")
     try:
         cached = json.loads(path.read_text(encoding="utf-8"))
         if time.time() - cached.get("fetched_at", 0) < CACHE_TTL_SECONDS:
@@ -150,7 +192,7 @@ def related_article(title: str = "", q: str = ""):
     except (OSError, ValueError, KeyError):
         pass
     try:
-        article = find_article(title, q)
+        article = find_article(title, q, ctx)
     except Exception:
         return {"available": False}
     response = {"available": False}

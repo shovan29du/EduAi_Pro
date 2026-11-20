@@ -2,6 +2,7 @@ import React from 'react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import SurvivalSkills from '../src/components/SurvivalSkills.jsx';
+import { clearSkillPictureCache } from '../src/components/SkillPicture.jsx';
 
 const overview = {
   description: 'Essential life and safety skills.',
@@ -32,14 +33,18 @@ function mockFetch() {
     if (url === '/api/survival-skills/outdoor_and_navigation') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(categoryData) });
     }
-    if (String(url).startsWith('/api/museum/thumbnail')) {
-      return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: 'https://example.com/compass.jpg' }) });
+    if (String(url).startsWith('/api/lesson-enrichment/wiki')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ available: true, title: 'Picture of compass', description: 'A test article', page_url: 'https://en.wikipedia.org/wiki/Test', thumbnail_url: 'https://example.com/compass.jpg' }) });
+    }
+    if (String(url).startsWith('/api/museum/credit')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ known: false }) });
     }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
 }
 
 beforeEach(() => {
+  clearSkillPictureCache();
   global.fetch = mockFetch();
 });
 
@@ -72,5 +77,39 @@ describe('SurvivalSkills', () => {
 
     // Key facts (formulae)
     expect(screen.getByText('A full circle is 360 degrees')).toBeInTheDocument();
+  });
+});
+
+
+describe('SurvivalSkills lesson picture', () => {
+  it('shows a captioned, credited picture on the lesson page and searches with the subject', async () => {
+    render(<SurvivalSkills />);
+    await waitFor(() => expect(screen.getByText('Outdoor & Navigation')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Outdoor & Navigation'));
+    await waitFor(() => expect(screen.getByText('Using a Compass')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Using a Compass'));
+
+    const figure = await screen.findByTestId('skill-picture');
+    expect(figure.querySelector('img').getAttribute('src')).toMatch(/^https:\/\/example\.com\/.+\.jpg$/);
+    expect(figure).toHaveTextContent('Picture: Picture of');
+    expect(screen.getAllByRole('link', { name: 'Wikipedia' })[0]).toHaveAttribute('href', 'https://en.wikipedia.org/wiki/Test');
+    const lookup = global.fetch.mock.calls.map((c) => String(c[0])).find((u) => u.startsWith('/api/lesson-enrichment/wiki'));
+    const params = new URLSearchParams(lookup.split('?')[1]);
+    expect(params.get('q')).toBe('Using a Compass');
+    expect(params.get('ctx')).toBe('Outdoor & Navigation');
+  });
+
+  it('shows no picture box (and no error) when nothing matches', async () => {
+    const base = global.fetch;
+    global.fetch = vi.fn((url, ...rest) => String(url).startsWith('/api/lesson-enrichment/wiki')
+      ? Promise.resolve({ ok: true, json: () => Promise.resolve({ available: false }) })
+      : base(url, ...rest));
+    render(<SurvivalSkills />);
+    await waitFor(() => expect(screen.getByText('Outdoor & Navigation')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Outdoor & Navigation'));
+    await waitFor(() => expect(screen.getByText('Using a Compass')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Using a Compass'));
+    await screen.findByRole('heading', { name: 'Using a Compass' });
+    expect(screen.queryByTestId('skill-picture')).not.toBeInTheDocument();
   });
 });

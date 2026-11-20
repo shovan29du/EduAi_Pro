@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -186,9 +187,82 @@ def test_generated_windows_launchers_start_the_server_before_opening_the_browser
     monkeypatch.setattr(full_install, "BACKEND_DIR", backend)
     monkeypatch.setattr(full_install, "FRONTEND_DIR", tmp_path / "frontend")
     monkeypatch.setattr(full_install, "venv_python", lambda: tmp_path / "py.exe")
+    stale = backend / "run_backend.bat"
+    stale.write_text("old")
     launcher = full_install.write_launcher()
-    text = launcher.read_text()
-    assert "run_app.py" in text and "start http" not in text and "timeout /t" not in text
-    assert text.index("npm") < text.index("run_app.py")
-    backend_only = (backend / "run_backend.bat").read_text()
-    assert "set EDUAI_PORT=8080" in backend_only and "run_app.py" in backend_only and "-m uvicorn" not in backend_only
+    raw = launcher.read_bytes().decode()
+    assert launcher.name == "start_EduAi_Pro.bat" and "\r\n" in raw
+    assert "run_app.py" in raw and "start http" not in raw and "timeout /t" not in raw
+    assert "EDUAI_PORT=8080" in raw
+    # `npm run build` without `call` ends a batch file before the server line,
+    # so the launcher must not run npm at all (run_app.py builds the pages).
+    assert "npm" not in raw
+    # relative to the .bat, so moving the folder keeps the shortcut working
+    assert str(tmp_path) not in raw and "%~dp0" in raw
+    assert not stale.exists()
+
+
+# ---- building the pages -------------------------------------------------
+
+def _frontend(tmp_path, built=True):
+    front = tmp_path / "frontend"
+    (front / "src").mkdir(parents=True)
+    (front / "src" / "App.jsx").write_text("x")
+    (front / "package.json").write_text("{}")
+    if built:
+        (front / "dist").mkdir()
+        (front / "dist" / "index.html").write_text("<html>")
+        # sources older than the build
+        old = (front / "dist" / "index.html").stat().st_mtime - 100
+        for name in ("src/App.jsx", "package.json"):
+            os.utime(front / name, (old, old))
+    return front
+
+
+def test_build_needed_when_no_build_or_source_is_newer(tmp_path):
+    assert run_app.frontend_needs_build(_frontend(tmp_path / "a", built=False)) is True
+    fresh = _frontend(tmp_path / "b")
+    assert run_app.frontend_needs_build(fresh) is False
+    newer = (fresh / "dist" / "index.html").stat().st_mtime + 50
+    os.utime(fresh / "src" / "App.jsx", (newer, newer))
+    assert run_app.frontend_needs_build(fresh) is True
+
+
+def test_build_skipped_when_up_to_date(tmp_path, monkeypatch):
+    front = _frontend(tmp_path)
+    calls = []
+    monkeypatch.setattr(run_app.subprocess, "run", lambda *a, **k: calls.append(a))
+    assert run_app.build_frontend(front) is True
+    assert calls == []
+
+
+def test_build_runs_npm_and_reports_success(tmp_path, monkeypatch):
+    front = _frontend(tmp_path, built=False)
+    (front / "node_modules").mkdir()
+    calls = []
+    monkeypatch.setattr(run_app.shutil, "which", lambda name: "C:/node/npm.cmd")
+    monkeypatch.setattr(run_app.subprocess, "run", lambda cmd, **k: calls.append(cmd))
+    assert run_app.build_frontend(front) is True
+    assert calls == [["C:/node/npm.cmd", "run", "build"]]
+
+
+def test_failed_build_falls_back_to_the_old_build(tmp_path, monkeypatch):
+    front = _frontend(tmp_path)
+    newer = (front / "dist" / "index.html").stat().st_mtime + 50
+    os.utime(front / "src" / "App.jsx", (newer, newer))
+    (front / "node_modules").mkdir()
+
+    def boom(cmd, **k):
+        raise run_app.subprocess.CalledProcessError(1, cmd)
+
+    monkeypatch.setattr(run_app.shutil, "which", lambda name: "npm")
+    monkeypatch.setattr(run_app.subprocess, "run", boom)
+    assert run_app.build_frontend(front) is True  # old build still usable
+    (front / "dist" / "index.html").unlink()
+    assert run_app.build_frontend(front) is False  # nothing to serve
+
+
+def test_no_npm_and_no_build_is_a_clear_failure(tmp_path, monkeypatch):
+    front = _frontend(tmp_path, built=False)
+    monkeypatch.setattr(run_app.shutil, "which", lambda name: None)
+    assert run_app.build_frontend(front) is False

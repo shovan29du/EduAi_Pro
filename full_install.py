@@ -122,62 +122,57 @@ def install_frontend():
 
 
 def write_launcher() -> Path:
-    """Writes a script that builds the frontend and starts the backend,
+    """Writes a script that starts the backend (run_app.py builds the pages first when needed),
     which serves both the API and the built frontend on one single port --
     the same single-process setup start.sh uses, so there is never a
     separate frontend dev server/proxy to keep in sync with the backend.
     Returns the launcher's path."""
     if IS_WINDOWS:
         launcher = REPO_ROOT / "start_EduAi_Pro.bat"
-        py = venv_python()
-        npm = shutil.which("npm") or "npm"
 
-        # A standalone script to (re-)start just the backend, for manual use
-        # (e.g. after a crash) without rebuilding the frontend every time.
-        run_backend = BACKEND_DIR / "run_backend.bat"
-        run_backend.write_text(
-            "@echo off\r\n"
-            f'cd /d "{BACKEND_DIR}"\r\n'
-            f"set EDUAI_PORT={BACKEND_PORT}\r\n"
-            f'"{py}" run_app.py\r\n'
-            "echo.\r\n"
-            "echo Backend stopped (or failed to start -- see any error above).\r\n"
-            "pause\r\n"
-        )
+        # Paths are relative to the .bat itself (%~dp0), so the shortcut keeps
+        # working if the folder is moved or renamed.
+        #
+        # The page build is NOT done here any more. It used to be
+        # `npm run build` in this file, but npm is a .cmd, and a batch file that
+        # runs another .cmd without `call` never returns -- the backend line
+        # below was never reached, so the shortcut opened a window that closed
+        # and nothing started. backend/run_app.py now builds the pages (only
+        # when they changed), starts the server in this window, and opens Edge
+        # once the server answers.
+        lines = [
+            "@echo off",
+            "title EduAi_Pro",
+            'set "ROOT=%~dp0"',
+            'set "PY=%ROOT%backend\\.venv\\Scripts\\python.exe"',
+            'if not exist "%PY%" (',
+            "  echo EduAi_Pro is not installed in this folder yet.",
+            "  echo Open a terminal here and run:  python full_install.py",
+            "  pause",
+            "  exit /b 1",
+            ")",
+            'cd /d "%ROOT%backend"',
+            f"set EDUAI_PORT={BACKEND_PORT}",
+            '"%PY%" run_app.py',
+            "if errorlevel 1 (",
+            "  echo.",
+            "  echo EduAi_Pro stopped or failed to start -- see the messages above.",
+            "  pause",
+            ")",
+        ]
+        launcher.write_text("\r\n".join(lines) + "\r\n")
 
-        # The main launcher runs the backend directly in its own window
-        # (the one the shortcut opens) instead of trying to spawn a separate
-        # window for it with "start": that relies on cmd.exe/Windows Terminal
-        # window-spawning behaviour that proved unreliable -- it could fail
-        # to open anything at all, with no error, no second window, nothing.
-        # backend/run_app.py runs the server in the foreground (so this window
-        # is the server's console and stays open if it crashes) and opens
-        # Edge from a background thread only once the server answers. An
-        # earlier version opened the browser *before* the server was up, which
-        # left Edge on "This site can't be reached".
-        launcher.write_text(
-            "@echo off\r\n"
-            f'cd /d "{FRONTEND_DIR}"\r\n'
-            f'"{npm}" run build\r\n'
-            "if errorlevel 1 (\r\n"
-            "  echo.\r\n"
-            "  echo Frontend build failed -- see the error above.\r\n"
-            "  pause\r\n"
-            "  exit /b 1\r\n"
-            ")\r\n"
-            f'cd /d "{BACKEND_DIR}"\r\n'
-            f"set EDUAI_PORT={BACKEND_PORT}\r\n"
-            f'"{py}" run_app.py\r\n'
-            "echo.\r\n"
-            "echo Backend stopped (or failed to start -- see any error above).\r\n"
-            "pause\r\n"
-        )
+        # Older installs also wrote backend/run_backend.bat with absolute paths;
+        # remove it so a stale copy cannot be started by mistake.
+        try:
+            (BACKEND_DIR / "run_backend.bat").unlink(missing_ok=True)
+        except OSError:
+            pass
     else:
         launcher = REPO_ROOT / "start_EduAi_Pro.sh"
         py = venv_python()
         launcher.write_text(
             "#!/usr/bin/env bash\n"
-            f'cd "{FRONTEND_DIR}" && npm run build\n'
             f'cd "{BACKEND_DIR}" && EDUAI_PORT={BACKEND_PORT} "{py}" run_app.py\n'
         )
         launcher.chmod(launcher.stat().st_mode | stat.S_IEXEC | stat.S_IXGRP | stat.S_IXOTH)

@@ -1,43 +1,7 @@
 import { useState, useEffect } from 'react';
+import SkillPicture from './SkillPicture.jsx';
 
 const API = '/api';
-
-// ── Lazy Wikipedia thumbnail for a skill's real-world topic photo ──────────
-// Same honest pattern used across the app (Virtual Museum, Cuisine Centre,
-// Herbs & Spices, Subject Lessons): a live fetch of a real Wikipedia summary
-// thumbnail, with a graceful no-image fallback rather than ever showing a
-// fabricated photo. Showing one per module in a pathway's list view doubles
-// as a "series of pictures" gallery when browsing.
-const skillThumbCache = {};
-
-function SkillThumbnail({ wikiTitle, size = 'hero' }) {
-  const [src, setSrc] = useState(skillThumbCache[wikiTitle] || null);
-
-  useEffect(() => {
-    if (!wikiTitle) return;
-    if (skillThumbCache[wikiTitle] && skillThumbCache[wikiTitle] !== 'loading') {
-      setSrc(skillThumbCache[wikiTitle]);
-      return;
-    }
-    let cancelled = false;
-    skillThumbCache[wikiTitle] = 'loading';
-    fetch(`${API}/museum/thumbnail?wiki_title=${encodeURIComponent(wikiTitle)}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d) => {
-        const url = d?.thumbnail_url ?? null;
-        skillThumbCache[wikiTitle] = url || '';
-        if (!cancelled && url) setSrc(url);
-      })
-      .catch(() => { skillThumbCache[wikiTitle] = ''; });
-    return () => { cancelled = true; };
-  }, [wikiTitle]);
-
-  if (!src) return null;
-  if (size === 'thumb') {
-    return <img src={src} alt="" className="w-14 h-14 rounded-lg object-cover flex-shrink-0" onError={() => setSrc(null)} />;
-  }
-  return <img src={src} alt="" className="mt-3 max-h-56 w-full rounded-xl object-cover" onError={() => setSrc(null)} />;
-}
 
 // A small "Quick Facts" infographic box, built entirely from fields the
 // module already has -- no new data needed, just a more visual summary.
@@ -79,7 +43,7 @@ const COLOURS = {
   mobile_photography_vivo_x200_pro: '#0891b2',
 };
 
-function ModuleView({ module: mod, colour, onBack }) {
+function ModuleView({ module: mod, colour, context, onBack }) {
   const [quizAnswers, setQuizAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const quiz = mod.quiz || [];
@@ -93,7 +57,7 @@ function ModuleView({ module: mod, colour, onBack }) {
         <h2 className="text-2xl font-bold text-gray-800 mt-2">{mod.title}</h2>
         <p className="text-gray-600 mt-1">{mod.description}</p>
         <p className="text-sm text-gray-500 mt-1">⏱ {mod.duration_minutes} minutes</p>
-        {mod.wiki_title && <SkillThumbnail wikiTitle={mod.wiki_title} />}
+        <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={context} />
       </div>
 
       <QuickFacts mod={mod} colour={colour} />
@@ -269,7 +233,7 @@ function PathwayView({ pathway, onBack }) {
 
   if (selectedModule) return (
     <div>
-      <ModuleView module={selectedModule} colour={colour} onBack={() => setSelectedModule(null)} />
+      <ModuleView module={selectedModule} colour={colour} context={pathway.label} onBack={() => setSelectedModule(null)} />
     </div>
   );
 
@@ -292,7 +256,7 @@ function PathwayView({ pathway, onBack }) {
                 style={{ borderColor: colour }}>
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm flex items-center justify-center font-bold" style={{ backgroundColor: colour }}>{i + 1}</div>
-                  {mod.wiki_title && <SkillThumbnail wikiTitle={mod.wiki_title} size="thumb" />}
+                  <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={pathway.label} size="thumb" />
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800">{mod.title}</p>
                     <p className="text-xs text-gray-500 mt-1">{mod.description}</p>

@@ -2,6 +2,7 @@ import React from 'react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import PracticalSkills from '../src/components/PracticalSkills.jsx';
+import { clearSkillPictureCache } from '../src/components/SkillPicture.jsx';
 
 const overview = {
   description: 'Real-world skills for every age.',
@@ -35,14 +36,18 @@ function mockFetch() {
     if (url === '/api/practical-skills/cooking') {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(pathwayData) });
     }
-    if (String(url).startsWith('/api/museum/thumbnail')) {
-      return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: 'https://example.com/kitchen.jpg' }) });
+    if (String(url).startsWith('/api/lesson-enrichment/wiki')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ available: true, title: 'Picture of kitchen', description: 'A test article', page_url: 'https://en.wikipedia.org/wiki/Test', thumbnail_url: 'https://example.com/kitchen.jpg' }) });
+    }
+    if (String(url).startsWith('/api/museum/credit')) {
+      return Promise.resolve({ ok: true, json: () => Promise.resolve({ known: false }) });
     }
     return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
   });
 }
 
 beforeEach(() => {
+  clearSkillPictureCache();
   global.fetch = mockFetch();
 });
 
@@ -76,5 +81,39 @@ describe('PracticalSkills', () => {
 
     // Key facts (formulae)
     expect(screen.getByText('Wash hands for at least 20 seconds')).toBeInTheDocument();
+  });
+});
+
+
+describe('PracticalSkills lesson picture', () => {
+  it('shows a captioned, credited picture on the lesson page and searches with the subject', async () => {
+    render(<PracticalSkills />);
+    await waitFor(() => expect(screen.getByText('Cooking')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Cooking'));
+    await waitFor(() => expect(screen.getByText('Kitchen Safety Basics')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Kitchen Safety Basics'));
+
+    const figure = await screen.findByTestId('skill-picture');
+    expect(figure.querySelector('img').getAttribute('src')).toMatch(/^https:\/\/example\.com\/.+\.jpg$/);
+    expect(figure).toHaveTextContent('Picture: Picture of');
+    expect(screen.getAllByRole('link', { name: 'Wikipedia' })[0]).toHaveAttribute('href', 'https://en.wikipedia.org/wiki/Test');
+    const lookup = global.fetch.mock.calls.map((c) => String(c[0])).find((u) => u.startsWith('/api/lesson-enrichment/wiki'));
+    const params = new URLSearchParams(lookup.split('?')[1]);
+    expect(params.get('q')).toBe('Kitchen Safety Basics');
+    expect(params.get('ctx')).toBe('Cooking');
+  });
+
+  it('shows no picture box (and no error) when nothing matches', async () => {
+    const base = global.fetch;
+    global.fetch = vi.fn((url, ...rest) => String(url).startsWith('/api/lesson-enrichment/wiki')
+      ? Promise.resolve({ ok: true, json: () => Promise.resolve({ available: false }) })
+      : base(url, ...rest));
+    render(<PracticalSkills />);
+    await waitFor(() => expect(screen.getByText('Cooking')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Cooking'));
+    await waitFor(() => expect(screen.getByText('Kitchen Safety Basics')).toBeInTheDocument());
+    fireEvent.click(screen.getByText('Kitchen Safety Basics'));
+    await screen.findByRole('heading', { name: 'Kitchen Safety Basics' });
+    expect(screen.queryByTestId('skill-picture')).not.toBeInTheDocument();
   });
 });
