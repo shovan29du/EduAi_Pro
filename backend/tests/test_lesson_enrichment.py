@@ -10,6 +10,7 @@ client = TestClient(app)
 
 DATA = {
     "packs": {
+        "school:Finance": {"tables": [{"title": "Simple budget", "headers": ["Share", "Use"], "rows": [["50%", "Needs"]]}], "cases": [{"title": "Grameen", "when": "1983", "summary": "s", "takeaway": "t", "wiki": "Grameen Bank"}]},
         "Finance": {
             "tables": [{"title": "Ratios", "headers": ["Ratio", "Formula"], "rows": [["P/E", "Price ÷ EPS"]]}],
             "cases": [{"title": "LTCM", "when": "1998", "summary": "s", "takeaway": "t", "wiki": "Long-Term Capital Management"}],
@@ -25,6 +26,7 @@ DATA = {
         "finance-m1-l1": {"s": "Finance", "q": "Option Pricing", "r": ["options"]},
         "finance-m1-l2": {"s": "Finance", "q": "Bond Math"},
         "finance-m1-l3": {"s": "Finance", "q": "Option Pricing", "r": ["options", "options2"]},
+        "finance-g8-l1": {"s": "Finance", "q": "Budgeting", "p": "school:Finance"},
     },
 }
 
@@ -64,8 +66,10 @@ def test_lesson_without_topic_rules_still_gets_subject_pack():
 
 
 def test_other_levels_and_unknown_lessons_are_404():
-    assert client.get("/api/lesson-enrichment/C1/finance-m1-l1").status_code == 404
+    assert client.get("/api/lesson-enrichment/5/finance-m1-l1").status_code == 404  # Grades 1-5 are not enriched
     assert client.get("/api/lesson-enrichment/ug2/finance-m1-l1").status_code == 200  # level only gates which lessons are enriched
+    for level in ("6", "10", "C1", "c2"):
+        assert client.get(f"/api/lesson-enrichment/{level}/finance-m1-l1").status_code == 200
     assert client.get("/api/lesson-enrichment/M2/nope").status_code == 404
 
 
@@ -146,3 +150,11 @@ def test_items_shared_by_two_rules_are_listed_once():
     body = client.get("/api/lesson-enrichment/M1/finance-m1-l3").json()
     assert [c["title"] for c in body["topic"]["cases"]] == ["CBOE"]
     assert [f["label"] for f in body["topic"]["formulas"]] == ["Put–call parity"]
+
+
+def test_school_lessons_use_the_school_subject_sheet():
+    body = client.get("/api/lesson-enrichment/8/finance-g8-l1").json()
+    assert body["subject"] == "Finance"
+    assert body["subject_pack"]["tables"][0]["title"] == "Simple budget"
+    adult = client.get("/api/lesson-enrichment/M1/finance-m1-l2").json()
+    assert adult["subject_pack"]["tables"][0]["title"] == "Ratios"

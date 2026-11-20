@@ -26,3 +26,17 @@ from .rules_ug_social import RULES as _G  # noqa: E402
 from .rules_ug_tech import RULES as _H  # noqa: E402
 
 RULES = RULES + _E + _F + _G + _H
+
+from .rules_school import RULES as _S  # noqa: E402
+from .rules_school import SCHOOL_OK  # noqa: E402
+
+RULES = RULES + _S
+
+# Levels at which a rule applies. A rule that names no level suits College Level 1
+# upward; school Grades 6-10 only get rules that are explicitly marked for them.
+_ADULT = ["c1", "c2", "ug1", "ug2", "ug3", "ug4", "m1", "m2"]
+for _r in RULES:
+    if _r["levels"] is None:
+        _r["levels"] = list(_ADULT)
+    if _r["id"] in SCHOOL_OK:
+        _r["levels"] = sorted(set(_r["levels"]) | set(SCHOOL_OK[_r["id"]]), key=lambda x: (not x.isdigit(), int(x) if x.isdigit() else 0, x))

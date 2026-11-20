@@ -82,10 +82,19 @@ describe('LessonEnrichment', () => {
     expect(screen.queryByLabelText('Formulas and equations')).toBeNull(); // no equation unless the topic needs one
   });
 
-  it('does nothing at school and college levels', () => {
-    const { container } = render(<LessonEnrichment lessonId="x" levelId="C2" />);
-    expect(container).toBeEmptyDOMElement();
+  it('does nothing for the early school grades, which are not enriched', () => {
+    for (const level of [1, 5, '5']) {
+      const { container, unmount } = render(<LessonEnrichment lessonId="x" levelId={level} />);
+      expect(container).toBeEmptyDOMElement();
+      unmount();
+    }
     expect(global.fetch).not.toHaveBeenCalled();
+  });
+
+  it.each([[6], ['10'], ['C1'], ['c2']])('is enabled for level %s (school grades arrive as numbers)', async (level) => {
+    render(<LessonEnrichment lessonId="finance-ug2-l2" levelId={level} />);
+    expect(await screen.findByText(/Finance reference sheet/)).toBeInTheDocument();
+    expect(String(global.fetch.mock.calls[0][0])).toContain(`/api/lesson-enrichment/${String(level).toUpperCase()}/`);
   });
 
   it('stays quiet when enrichment cannot be loaded', async () => {

@@ -23,10 +23,14 @@ function seriesPoints(rows, key) {
 // ResponsiveContainer must receive the recharts chart element itself, not a wrapper component.
 function buildChart(chart) {
   const { kind, data, series, lines = [], log, x_label: xLabel, y_label: yLabel } = chart;
-  const common = { margin: { top: 8, right: 16, bottom: 28, left: 8 } };
+  const tilt = kind === 'bar' && (data.length > 4 || data.some((r) => String(r.x).length > 12)); // long names would overlap
+  const common = { margin: { top: 8, right: 16, bottom: tilt ? 40 : 28, left: 8 } };
   const axes = [
     <CartesianGrid key="g" strokeDasharray="3 3" />,
-    <XAxis key="x" dataKey="x" type={kind === 'bar' ? 'category' : 'number'} domain={['dataMin', 'dataMax']} label={{ value: xLabel, position: 'insideBottom', offset: -14 }} />,
+    <XAxis key="x" dataKey="x" type={kind === 'bar' ? 'category' : 'number'} domain={['dataMin', 'dataMax']}
+      interval={kind === 'bar' ? 0 : 'preserveEnd'} tick={{ fontSize: 12 }}
+      {...(tilt ? { angle: -30, textAnchor: 'end', height: 64 } : {})}
+      label={{ value: xLabel, position: 'insideBottom', offset: tilt ? -2 : -14 }} />,
     <YAxis key="y" type="number" scale={log ? 'log' : 'auto'} domain={yDomain(chart)} width={76} tickFormatter={(v) => (Math.abs(v) >= 10000 ? compact.format(v) : v)} label={{ value: yLabel, angle: -90, position: 'insideLeft', offset: -2, style: { textAnchor: 'middle' } }} />,
     <Tooltip key="t" />,
     <Legend key="l" verticalAlign="top" />,

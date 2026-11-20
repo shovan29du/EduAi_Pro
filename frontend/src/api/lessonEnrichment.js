@@ -4,7 +4,8 @@ async function get(path) {
   return response.json();
 }
 
-export const ENRICHED_LEVELS = ['UG1', 'UG2', 'UG3', 'UG4', 'M1', 'M2'];
+// School Grades 6-10, College 1-2, Undergraduate 1-4 and Master's 1-2 (earlier grades are not enriched).
+export const ENRICHED_LEVELS = ['6', '7', '8', '9', '10', 'C1', 'C2', 'UG1', 'UG2', 'UG3', 'UG4', 'M1', 'M2'];
 export const isEnrichedLevel = (level) => ENRICHED_LEVELS.includes(String(level || '').toUpperCase());
 
 export const getLessonEnrichment = (level, lessonId) =>

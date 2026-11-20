@@ -45,3 +45,5 @@ from .packs_humanities import PACKS as _H  # noqa: E402
 from .rules import RULES  # noqa: E402
 
 PACKS = {**_T, **_B, **_S, **_H}
+
+from .packs_school import PACKS_SCHOOL  # noqa: E402,F401

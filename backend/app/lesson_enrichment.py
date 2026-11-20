@@ -1,4 +1,5 @@
-"""Enrichment for Undergraduate (Years 1-4) and Master's (Years 1-2) lessons:
+"""Enrichment for school (Grades 6-10), College (Levels 1-2), Undergraduate (Years 1-4)
+and Master's (Years 1-2) lessons:
 formulas (only where the topic needs one), charts, data tables, case studies and
 real events, plus a related picture and description.
 
@@ -33,7 +34,7 @@ router = APIRouter(prefix="/api/lesson-enrichment", tags=["lessons"])
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "lesson_enrichment" / "enrichment.json"
 CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "lesson_enrichment_cache"
 CACHE_TTL_SECONDS = 30 * 24 * 3600
-LEVELS = ("UG1", "UG2", "UG3", "UG4", "M1", "M2")
+LEVELS = ("6", "7", "8", "9", "10", "C1", "C2", "UG1", "UG2", "UG3", "UG4", "M1", "M2")
 HEADERS = {
     "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
     "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
@@ -166,7 +167,7 @@ def related_article(title: str = "", q: str = ""):
 @router.get("/{level}/{lesson_id}")
 def lesson_enrichment(level: str, lesson_id: str):
     if level.upper() not in LEVELS:
-        raise HTTPException(status_code=404, detail="Enrichment is available for Undergraduate and Master's levels")
+        raise HTTPException(status_code=404, detail="Enrichment is available for Grades 6-10 and for college, undergraduate and master's levels")
     data = load()
     entry = data["lessons"].get(lesson_id)
     if not entry:
@@ -181,7 +182,7 @@ def lesson_enrichment(level: str, lesson_id: str):
                     seen.add(item[name])
                     out.append(item)
         return out
-    pack = data["packs"].get(entry["s"]) or {}
+    pack = data["packs"].get(entry.get("p") or entry["s"]) or {}
     return {
         "lesson_id": lesson_id,
         "subject": entry["s"],
