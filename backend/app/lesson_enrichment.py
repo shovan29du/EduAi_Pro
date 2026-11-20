@@ -1,5 +1,6 @@
-"""Enrichment for Master's Year 1 and 2 lessons: formulas, data tables, case
-studies and real events, plus a related picture and description.
+"""Enrichment for Undergraduate (Years 1-4) and Master's (Years 1-2) lessons:
+formulas (only where the topic needs one), charts, data tables, case studies and
+real events, plus a related picture and description.
 
 Two sources, kept apart so a student can tell them apart:
 
@@ -32,7 +33,7 @@ router = APIRouter(prefix="/api/lesson-enrichment", tags=["lessons"])
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "lesson_enrichment" / "enrichment.json"
 CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "lesson_enrichment_cache"
 CACHE_TTL_SECONDS = 30 * 24 * 3600
-LEVELS = ("M1", "M2")
+LEVELS = ("UG1", "UG2", "UG3", "UG4", "M1", "M2")
 HEADERS = {
     "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
     "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
@@ -165,12 +166,21 @@ def related_article(title: str = "", q: str = ""):
 @router.get("/{level}/{lesson_id}")
 def lesson_enrichment(level: str, lesson_id: str):
     if level.upper() not in LEVELS:
-        raise HTTPException(status_code=404, detail="Enrichment is available for Master's Year 1 and 2")
+        raise HTTPException(status_code=404, detail="Enrichment is available for Undergraduate and Master's levels")
     data = load()
     entry = data["lessons"].get(lesson_id)
     if not entry:
         raise HTTPException(status_code=404, detail="Lesson not found")
     rules = [data["rules"][rid] for rid in entry.get("r", []) if rid in data["rules"]]
+
+    def merged(key, name):
+        seen, out = set(), []
+        for rule in rules:
+            for item in rule.get(key, []):
+                if item[name] not in seen:  # two rules can share a case or chart
+                    seen.add(item[name])
+                    out.append(item)
+        return out
     pack = data["packs"].get(entry["s"]) or {}
     return {
         "lesson_id": lesson_id,
@@ -178,12 +188,12 @@ def lesson_enrichment(level: str, lesson_id: str):
         "query": entry["q"],
         "wiki_title": next((r["wiki"] for r in rules if r.get("wiki")), ""),
         "topic": {
-            "formulas": [f for r in rules for f in r.get("formulas", [])],
-            "tables": [t for r in rules for t in r.get("tables", [])],
-            "cases": [c for r in rules for c in r.get("cases", [])],
+            "formulas": merged("formulas", "label"),
+            "charts": merged("charts", "title"),
+            "tables": merged("tables", "title"),
+            "cases": merged("cases", "title"),
         },
         "subject_pack": {
-            "formulas": pack.get("formulas", []),
             "tables": pack.get("tables", []),
             "cases": pack.get("cases", []),
         },

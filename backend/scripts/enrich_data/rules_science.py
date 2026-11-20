@@ -9,7 +9,7 @@ Rule("quantum", r"Quantum (Mechanics|Field|Many|Matter|Theory|Entangle|Measure|O
       F("Born rule", "P(x) = |ψ(x)|²", ""),
       F("Hydrogen energy levels", "Eₙ = −13.6 eV ÷ n²", "")],
      [], [Case("Bell test experiments", "1972–2022", "Experiments by Clauser, Aspect and Zeilinger showed that quantum correlations violate Bell inequalities, ruling out local hidden variables; they shared the 2022 Nobel Prize in Physics.", "Entanglement is a real, testable feature of nature.", "Bell test")]),
-Rule("gr", r"Relativity|Black Hole|Gravitational|Cosmolog|Dark Energy|Dark Matter|Neutron Star|Cosmic|Big Bang|Inflation", "", ["Physics"],
+Rule("gr", r"(?<!Special )(?<!Relativistic )Relativity|Black Hole|Gravitational|Cosmolog|Dark Energy|Dark Matter|Neutron Star|Cosmic|Big Bang|Inflation", "", ["Physics"],
      [F("Schwarzschild radius", "r_s = 2GM ÷ c²", "Sun ≈ 2.95 km"),
       F("Lorentz factor", "γ = 1 ÷ √(1 − v²/c²);  Δt′ = γ Δt", ""),
       F("Friedmann equation", "(ȧ/a)² = 8πGρ/3 − kc²/a² + Λ/3", ""),

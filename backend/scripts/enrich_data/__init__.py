@@ -18,13 +18,24 @@ def Case(title, when, summary, takeaway, wiki=""):
     return {"title": title, "when": when, "summary": summary, "takeaway": takeaway, "wiki": wiki}
 
 
-def Pack(formulas=(), tables=(), cases=()):
-    return {"formulas": list(formulas), "tables": list(tables), "cases": list(cases)}
+def Pack(tables=(), cases=()):
+    """Subject reference sheet: a data table and landmark cases. Equations are
+    deliberately not part of it -- they appear only on lessons about a
+    quantitative topic (see Rule)."""
+    return {"tables": list(tables), "cases": list(cases)}
 
 
-def Rule(rid, pattern, wiki="", subjects=None, formulas=(), tables=(), cases=()):
+def Chart(title, kind, x_label, y_label, data, series, note="", log=False, lines=()):
+    """kind is 'line', 'bar' or 'scatter'; data is a list of {'x': .., <series>: ..} rows.
+    For 'scatter', `series` are drawn as points and `lines` as fitted lines."""
+    return {"title": title, "kind": kind, "x_label": x_label, "y_label": y_label,
+            "data": data, "series": list(series), "lines": list(lines), "note": note, "log": log}
+
+
+def Rule(rid, pattern, wiki="", subjects=None, formulas=(), tables=(), cases=(), charts=(), levels=None):
     return {"id": rid, "pattern": pattern, "wiki": wiki, "subjects": list(subjects) if subjects else None,
-            "formulas": list(formulas), "tables": list(tables), "cases": list(cases)}
+            "levels": [l.lower() for l in levels] if levels else None,
+            "formulas": list(formulas), "tables": list(tables), "cases": list(cases), "charts": list(charts)}
 
 
 from .packs_tech import PACKS as _T  # noqa: E402

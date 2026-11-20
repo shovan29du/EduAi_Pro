@@ -11,18 +11,20 @@ client = TestClient(app)
 DATA = {
     "packs": {
         "Finance": {
-            "formulas": [{"label": "NPV", "expr": "NPV = Σ CF/(1+r)^t", "note": ""}],
             "tables": [{"title": "Ratios", "headers": ["Ratio", "Formula"], "rows": [["P/E", "Price ÷ EPS"]]}],
             "cases": [{"title": "LTCM", "when": "1998", "summary": "s", "takeaway": "t", "wiki": "Long-Term Capital Management"}],
         },
     },
     "rules": {
+        "options2": {"cases": [{"title": "CBOE", "when": "1973", "summary": "dup", "takeaway": "dup", "wiki": ""}], "formulas": [{"label": "Put–call parity", "expr": "dup", "note": ""}]},
         "options": {"wiki": "Black–Scholes model", "formulas": [{"label": "Put–call parity", "expr": "C − P = S − K e^(−rT)", "note": ""}],
+                    "charts": [{"title": "Payoff", "kind": "line", "x_label": "S", "y_label": "P", "data": [{"x": 1, "Call": 0}], "series": ["Call"], "lines": [], "note": "", "log": False}],
                     "cases": [{"title": "CBOE", "when": "1973", "summary": "s", "takeaway": "t", "wiki": "Black–Scholes model"}]},
     },
     "lessons": {
         "finance-m1-l1": {"s": "Finance", "q": "Option Pricing", "r": ["options"]},
         "finance-m1-l2": {"s": "Finance", "q": "Bond Math"},
+        "finance-m1-l3": {"s": "Finance", "q": "Option Pricing", "r": ["options", "options2"]},
     },
 }
 
@@ -46,22 +48,24 @@ def test_lesson_gets_topic_content_and_subject_pack():
     body = client.get("/api/lesson-enrichment/M1/finance-m1-l1").json()
     assert body["wiki_title"] == "Black–Scholes model"
     assert body["topic"]["formulas"][0]["label"] == "Put–call parity"
+    assert body["topic"]["charts"][0]["title"] == "Payoff"
     assert body["topic"]["cases"][0]["title"] == "CBOE"
-    assert body["subject_pack"]["formulas"][0]["label"] == "NPV"
+    assert "formulas" not in body["subject_pack"]  # equations only come from topic rules
     assert body["subject_pack"]["tables"][0]["rows"] == [["P/E", "Price ÷ EPS"]]
     assert body["subject_pack"]["cases"][0]["wiki"] == "Long-Term Capital Management"
 
 
 def test_lesson_without_topic_rules_still_gets_subject_pack():
     body = client.get("/api/lesson-enrichment/m1/finance-m1-l2").json()
-    assert body["topic"] == {"formulas": [], "tables": [], "cases": []}
+    assert body["topic"] == {"formulas": [], "charts": [], "tables": [], "cases": []}
     assert body["wiki_title"] == ""
     assert body["query"] == "Bond Math"
     assert body["subject_pack"]["cases"]
 
 
 def test_other_levels_and_unknown_lessons_are_404():
-    assert client.get("/api/lesson-enrichment/UG1/finance-m1-l1").status_code == 404
+    assert client.get("/api/lesson-enrichment/C1/finance-m1-l1").status_code == 404
+    assert client.get("/api/lesson-enrichment/ug2/finance-m1-l1").status_code == 200  # level only gates which lessons are enriched
     assert client.get("/api/lesson-enrichment/M2/nope").status_code == 404
 
 
@@ -136,3 +140,9 @@ def test_non_commons_images_are_dropped(monkeypatch):
     _wiki(monkeypatch, {"summary": {"Logo": fair_use}})
     body = client.get("/api/lesson-enrichment/wiki", params={"title": "Logo"}).json()
     assert body["available"] is True and body["thumbnail_url"] is None and body["credit"] is None
+
+
+def test_items_shared_by_two_rules_are_listed_once():
+    body = client.get("/api/lesson-enrichment/M1/finance-m1-l3").json()
+    assert [c["title"] for c in body["topic"]["cases"]] == ["CBOE"]
+    assert [f["label"] for f in body["topic"]["formulas"]] == ["Put–call parity"]

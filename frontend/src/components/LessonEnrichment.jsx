@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { getLessonEnrichment, getRelatedArticle, isMastersLevel } from '../api/lessonEnrichment.js';
+import React, { Suspense, lazy, useEffect, useState } from 'react';
+import { getLessonEnrichment, getRelatedArticle, isEnrichedLevel } from '../api/lessonEnrichment.js';
 import ImageCredit from './ImageCredit.jsx';
+
+const LessonChart = lazy(() => import('./LessonChart.jsx'));
 
 const thumbCache = {};
 
@@ -126,7 +128,7 @@ function RelatedArticle({ wikiTitle, query }) {
 
 export default function LessonEnrichment({ lessonId, levelId }) {
   const [state, setState] = useState({ status: 'loading' });
-  const enabled = isMastersLevel(levelId) && !!lessonId;
+  const enabled = isEnrichedLevel(levelId) && !!lessonId;
 
   useEffect(() => {
     if (!enabled) return undefined;
@@ -142,7 +144,7 @@ export default function LessonEnrichment({ lessonId, levelId }) {
   if (state.status === 'loading') return <p className="mt-4 text-sm text-gray-500" role="status">Loading enrichment…</p>;
 
   const { topic, subject_pack: pack, subject, query, wiki_title: wikiTitle } = state.data;
-  const hasTopic = topic.formulas.length || topic.tables.length || topic.cases.length;
+  const hasTopic = topic.formulas.length || topic.charts.length || topic.tables.length || topic.cases.length;
   return (
     <section className="mt-6 space-y-5" aria-label="Lesson enrichment">
       <h5 className="text-lg font-semibold">Enrich this lesson</h5>
@@ -151,14 +153,18 @@ export default function LessonEnrichment({ lessonId, levelId }) {
         <div className="space-y-3">
           <h5 className="font-semibold">On this topic</h5>
           <FormulaList formulas={topic.formulas} />
+          {topic.charts.map((chart) => (
+            <Suspense key={chart.title} fallback={<p className="text-sm text-gray-500">Loading chart…</p>}>
+              <LessonChart chart={chart} />
+            </Suspense>
+          ))}
           <DataTables tables={topic.tables} />
           <CaseStudies cases={topic.cases} />
         </div>
       ) : null}
       <details open className="rounded-xl border p-4 dark:border-gray-700">
-        <summary className="cursor-pointer font-semibold">{subject} reference sheet — key formulas, data and landmark cases</summary>
+        <summary className="cursor-pointer font-semibold">{subject} reference sheet — key data and landmark cases</summary>
         <div className="mt-3 space-y-3">
-          <FormulaList formulas={pack.formulas} />
           <DataTables tables={pack.tables} />
           <CaseStudies cases={pack.cases} />
         </div>

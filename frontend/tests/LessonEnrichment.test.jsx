@@ -3,6 +3,15 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import LessonEnrichment from '../src/components/LessonEnrichment.jsx';
 
+vi.mock('recharts', () => {
+  const Stub = ({ children }) => <div data-testid="recharts">{children}</div>;
+  return {
+    ResponsiveContainer: Stub, LineChart: Stub, BarChart: Stub, ComposedChart: Stub,
+    Line: () => null, Bar: () => null, Scatter: () => null, XAxis: () => null, YAxis: () => null,
+    CartesianGrid: () => null, Tooltip: () => null, Legend: () => null,
+  };
+});
+
 const ok = (body) => Promise.resolve({ ok: true, json: () => Promise.resolve(body) });
 const fail = () => Promise.resolve({ ok: false, status: 500, json: () => Promise.resolve({}) });
 const COMMONS = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/BS.png/320px-BS.png';
@@ -11,11 +20,11 @@ const ENRICHMENT = {
   lesson_id: 'finance-m1-l1', subject: 'Finance', query: 'Option Pricing', wiki_title: 'Black–Scholes model',
   topic: {
     formulas: [{ label: 'Put–call parity', expr: 'C − P = S − K e^(−rT)', note: 'Links call and put prices' }],
+    charts: [{ title: 'Option payoff at expiry', kind: 'line', x_label: 'Share price', y_label: 'Payoff', series: ['Call'], lines: [], note: 'Illustrative numbers.', log: false, data: [{ x: 90, Call: 0 }, { x: 100, Call: 0 }, { x: 110, Call: 10 }] }],
     tables: [{ title: 'Greeks', headers: ['Greek', 'Measures'], rows: [['Delta', 'Price sensitivity']] }],
     cases: [{ title: 'Black–Scholes and the CBOE', when: '1973', summary: 'The formula appeared as options trading opened.', takeaway: 'A formula created a market.', wiki: 'Black–Scholes model' }],
   },
   subject_pack: {
-    formulas: [{ label: 'NPV', expr: 'NPV = Σ CF/(1+r)^t', note: '' }],
     tables: [{ title: 'Common financial ratios', headers: ['Ratio', 'Reads as'], rows: [['Current ratio', 'Liquidity']] }],
     cases: [{ title: 'Long-Term Capital Management', when: '1998', summary: 'A hedge fund failed.', takeaway: 'Leverage multiplies damage.', wiki: 'Long-Term Capital Management' }],
   },
@@ -36,7 +45,7 @@ function install({ enrichment = () => ok(ENRICHMENT), article = () => ok(ARTICLE
 beforeEach(() => install());
 
 describe('LessonEnrichment', () => {
-  it('shows the related picture, formulas, tables and case studies for a Master\'s lesson', async () => {
+  it('shows the related picture, formulas, a chart, tables and case studies for a lesson', async () => {
     render(<LessonEnrichment lessonId="finance-m1-l1" levelId="M1" />);
     expect(await screen.findByText('It estimates the price of options.')).toBeInTheDocument();
     expect(screen.getByRole('img', { name: 'Black–Scholes model' })).toHaveAttribute('src', COMMONS);
@@ -44,12 +53,15 @@ describe('LessonEnrichment', () => {
     expect(screen.getByText(/Text under CC BY-SA/)).toBeInTheDocument();
 
     expect(screen.getByText('C − P = S − K e^(−rT)')).toBeInTheDocument();
+    expect(await screen.findByText('Option payoff at expiry')).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: /Option payoff at expiry/ })).toBeInTheDocument();
+    expect(screen.getByText('Illustrative numbers.')).toBeInTheDocument();
+    expect(screen.getByText('View the data as a table')).toBeInTheDocument();
     expect(screen.getByRole('table', { name: 'Greeks' })).toBeInTheDocument();
     expect(screen.getByText(/The formula appeared as options trading opened/)).toBeInTheDocument();
     expect(screen.getByText(/A formula created a market./)).toBeInTheDocument();
 
     const sheet = screen.getByText(/Finance reference sheet/).closest('details');
-    expect(within(sheet).getByText('NPV = Σ CF/(1+r)^t')).toBeInTheDocument();
     expect(within(sheet).getByRole('table', { name: 'Common financial ratios' })).toBeInTheDocument();
     expect(await within(sheet).findByRole('img', { name: 'Long-Term Capital Management' })).toBeInTheDocument();
   });
@@ -63,14 +75,15 @@ describe('LessonEnrichment', () => {
   });
 
   it('shows only the subject reference sheet when a lesson has no topic-specific content', async () => {
-    install({ enrichment: () => ok({ ...ENRICHMENT, wiki_title: '', topic: { formulas: [], tables: [], cases: [] } }) });
-    render(<LessonEnrichment lessonId="finance-m1-l2" levelId="M2" />);
+    install({ enrichment: () => ok({ ...ENRICHMENT, wiki_title: '', topic: { formulas: [], charts: [], tables: [], cases: [] } }) });
+    render(<LessonEnrichment lessonId="finance-ug2-l2" levelId="UG2" />);
     expect(await screen.findByText(/Finance reference sheet/)).toBeInTheDocument();
     expect(screen.queryByText('On this topic')).toBeNull();
+    expect(screen.queryByLabelText('Formulas and equations')).toBeNull(); // no equation unless the topic needs one
   });
 
-  it('does nothing outside Master\'s levels', () => {
-    const { container } = render(<LessonEnrichment lessonId="x" levelId="UG3" />);
+  it('does nothing at school and college levels', () => {
+    const { container } = render(<LessonEnrichment lessonId="x" levelId="C2" />);
     expect(container).toBeEmptyDOMElement();
     expect(global.fetch).not.toHaveBeenCalled();
   });
