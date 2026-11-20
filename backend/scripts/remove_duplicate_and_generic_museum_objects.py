@@ -2,16 +2,19 @@
 """Remove duplicate and generic objects from the Virtual Museum.
 
 Duplicates: the same real thing listed more than once, found by (a) the same
-normalised title or (b) the same Wikipedia article (`wiki_title`). Of each
-group the best entry is kept: the one whose title is the article's title, then
-the one with a picture, a quiz and the fullest description, then the first
-gallery in the museum's own order. Different works that merely share a Wikidata
-item (a print and its woodblock) are not duplicates.
+normalised title or (b) the same Wikipedia article (`wiki_title`) together with
+a shared word between the object's name and the article's title (so a Stradivari
+guitar and a "Stradivarius" violin are not merged). Of each group the best entry
+is kept: the one whose title is the article's title, then the one with a quiz, a
+picture and the fullest description, then the first gallery in the museum's own
+order. Different works that merely share a Wikidata item (a print and its
+woodblock) are not duplicates.
 
 Generic: an object named only by what kind of thing it is ("Teapot", "Untitled",
 "Standing Buddha", "Tea Table") says nothing about which object it is and has no
-picture to find. Only objects drawn from the Cleveland and Met open-access lists
-are tested; hand-curated famous objects always carry a specific name and article.
+picture to find. So are the "Pacific Fiji Tool"-style country-and-type cards of the
+Oceania gallery. Cleveland and Met objects are tested by name; hand-curated famous
+objects only when listed in GENERIC_EXACT.
 
     python3 backend/scripts/remove_duplicate_and_generic_museum_objects.py [--dry-run]
 """
@@ -20,6 +23,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -37,12 +41,28 @@ one set miniature ceremonial decorative ancient old new young little big grand g
 walking dancing sleeping holy sacred royal imperial votive funerary drinking serving writing hanging""".split())
 
 
+PACIFIC_CARD = re.compile(r"^Pacific .+ (Jewelry|Ceremonial|Painting|Textile|Pottery|Navigation|Tool|Weapon)$")
+# Hand-written cards that are only a kind of object, not one object.
+GENERIC_EXACT = {"medieval stained glass panel", "medieval illuminated map", "brass astrolabe", "medieval astrolabe"}
+# Different objects that share one article: never merge these (looked up by name).
+KEEP_BOTH = {"persian astrolabe rete", "astrolabe of ibn al sarraj", "alhambra stucco panel", "alhambra palace tilework"}
+STOPWORDS = {"the", "a", "an", "of", "and", "in", "on", "for", "with", "to", "model", "reconstruction", "replica", "copy"}
+
+
 def norm(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
+    plain = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode()  # Meroë == Meroe
+    return re.sub(r"[^a-z0-9]+", " ", plain.lower()).strip()
+
+
+def norm_exact(text: str) -> str:
+    """Like norm, but keeps non-Latin letters: two works titled in different Chinese are not the same title."""
+    return re.sub(r"[\W_]+", " ", unicodedata.normalize("NFKC", text or "").lower()).strip()
 
 
 def is_generic(obj: dict) -> bool:
     """Named only by kind: every word is an object type or a plain modifier, and at least one is a type."""
+    if PACIFIC_CARD.match(obj.get("name", "")) or norm(obj.get("name")) in GENERIC_EXACT:
+        return True
     if obj.get("wiki_title"):
         return False
     if not str(obj.get("id", "")).startswith(("top2k_", "met_")):
@@ -74,16 +94,26 @@ def find_duplicates(entries: list[tuple[str, dict]]) -> list[tuple[str, dict, tu
     def union(a, b):
         parent[find(a)] = find(b)
 
-    for key_fn in (lambda o: norm(o.get("name")), lambda o: norm(o.get("wiki_title"))):
-        seen: dict[str, int] = {}
-        for i, (_, o) in enumerate(entries):
-            key = key_fn(o)
-            if not key:
-                continue
-            if key in seen:
-                union(i, seen[key])
-            else:
-                seen[key] = i
+    def words(text: str) -> set[str]:
+        return {w for w in norm(text).split() if w not in STOPWORDS}
+
+    by_name: dict[str, int] = {}
+    by_article: dict[str, list[int]] = defaultdict(list)
+    for i, (_, o) in enumerate(entries):
+        name = norm_exact(o.get("name"))
+        if name:
+            union(i, by_name.setdefault(name, i))
+        article = norm(o.get("wiki_title"))
+        if article and norm(o.get("name")) not in KEEP_BOTH:
+            by_article[article].append(i)
+    # Entries about the same article are the same thing only if their names share a word:
+    # "Stradivarius Violin" and "The Stradivari Guitar" do not, "Angkor Wat" and "Angkor Wat Reliefs" do.
+    for members in by_article.values():
+        for a in members:
+            for b in members:
+                if a < b and words(entries[a][1].get("name", "")) & words(entries[b][1].get("name", "")):
+                    union(a, b)
+
     groups = defaultdict(list)
     for i in range(len(entries)):
         groups[find(i)].append(i)

@@ -24,7 +24,8 @@ def test_object_ids_are_unique_within_each_gallery():
 
 def test_met_catalogue_is_large_and_ranked():
     assert len(MET) >= 5000
-    assert sorted(o["source_rank"] for o in MET) == list(range(1, len(MET) + 1))
+    ranks = [o["source_rank"] for o in MET]
+    assert len(set(ranks)) == len(ranks) and min(ranks) >= 1  # gaps are objects removed later as duplicates or generic
     assert len({o["met_id"] for o in MET}) == len(MET)
 
 
@@ -61,3 +62,51 @@ def test_the_museum_api_serves_the_new_galleries_with_local_picture_overlay():
     assert {"met_european_paintings", "met_egyptian_art", "met_islamic_art"} <= ids
     body = c.get("/api/museum/met_egyptian_art").json()
     assert body["objects"] and all(o["id"].startswith("met_") for o in body["objects"])
+
+
+def _cleaner():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("museum_cleaner", BASE / "scripts" / "remove_duplicate_and_generic_museum_objects.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_no_duplicate_or_generic_objects_remain():
+    cleaner = _cleaner()
+    assert [o["name"] for _, o in OBJECTS if cleaner.is_generic(o)] == []
+    assert [(g, o["name"], k[1]["name"]) for g, o, k in cleaner.find_duplicates(OBJECTS)] == []
+    assert not [o["name"] for _, o in OBJECTS if cleaner.PACIFIC_CARD.match(o["name"])]
+
+
+def test_the_cleaner_recognises_generic_names_and_keeps_specific_ones():
+    c = _cleaner()
+    for name in ("Teapot", "Untitled", "Tea Table", "Covered Vase (one of a pair)", "Seated Figure", "Pacific Fiji Tool", "Medieval Astrolabe"):
+        assert c.is_generic({"id": "met_1" if "Pacific" not in name else "x", "name": name}), name
+    for name in ("The Large Tree", "Wheat Field with Cypresses", "Nathaniel Hurd", "Standing Figure of Amun-Re"):
+        assert not c.is_generic({"id": "met_1", "name": name}), name
+    assert not c.is_generic({"id": "fm_1", "name": "Teapot", "wiki_title": "Teapot"})  # a curated article-backed object is never judged by its name
+
+
+def test_the_cleaner_merges_the_same_thing_but_not_different_objects_sharing_an_article():
+    c = _cleaner()
+    e = lambda g, i, name, wiki="", **kw: (g, {"id": i, "name": name, "wiki_title": wiki, "description": "x" * 50, **kw})
+    entries = [
+        e("a", "1", "Great Sphinx of Giza", "Great Sphinx of Giza"), e("b", "2", "The Great Sphinx of Giza", "Great Sphinx of Giza", quiz={"q": 1}),
+        e("a", "3", "Stradivarius Violin", "Stradivarius"), e("b", "4", "The Stradivari Guitar 'Sabionari'", "Stradivarius"),
+        e("a", "5", "Pyramids of Meroe", "Nubian pyramids"), e("b", "6", "Great Pyramid of Meroë", "Nubian pyramids"),
+        e("m", "7", "清 石濤 十六羅漢圖, The Sixteen Luohans"), e("m", "8", "明 吳彬 十六羅漢圖, The Sixteen Luohans"),
+        e("m", "9", "Chest of drawers"), e("m", "10", "Chest of Drawers"),
+        e("i", "11", "Persian Astrolabe Rete", "Astrolabe"), e("i", "12", "Astrolabe of Ibn al-Sarraj", "Astrolabe"),
+    ]
+    removed = {o["id"]: k[1]["id"] for _, o, k in c.find_duplicates(entries)}
+    assert not ({"3", "4", "7", "8", "11", "12"} & set(removed))  # different objects survive
+    assert removed["2"] == "1"  # the entry whose title is the article's title is kept
+    assert len({"5", "6"} & set(removed)) == 1 and len({"9", "10"} & set(removed)) == 1  # Meroe/Meroë and case-only variants merge
+
+
+def test_the_cleaner_is_idempotent():
+    c = _cleaner()
+    data = json.loads(json.dumps(MUSEUM))
+    report = c.clean(data)
+    assert report == {"generic": [], "duplicates": []}
