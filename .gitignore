@@ -45,3 +45,5 @@ backend/data/lesson_enrichment_cache/
 
 backend/data/museum_resource/images/
 backend/data/museum_resource/pictures.json
+backend/data/museum_resource/pictures_missing.json
+backend/data/museum_resource/link_report.json

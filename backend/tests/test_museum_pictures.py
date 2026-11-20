@@ -97,7 +97,7 @@ def test_download_pictures_saves_files_credits_and_resumes(monkeypatch):
     assert set(manifest) == {"met_9", "cma-1", "w_1"}
     assert manifest["met_9"]["license"].startswith("CC0") and (mp.IMAGES_DIR / manifest["met_9"]["file"]).read_bytes() == JPEG
     assert manifest["w_1"]["credit"] == "A. Photographer" and manifest["w_1"]["line"].startswith("A. Photographer")
-    assert lookups[0] == ("Wiki thing", "Wiki thing")  # the Met and Cleveland objects never use name search
+    assert lookups[0] == ("Wiki thing", "")  # its own article first; Met and Cleveland objects never search by name
 
     again = mp.download_pictures(objects, wiki, sleep=0, log=lambda *_: None)  # resumable: only the unfinished one is retried
     assert again["skipped"] == 3 and again["downloaded"] == 0
@@ -143,3 +143,155 @@ def test_the_limit_stops_the_run(monkeypatch):
     objects = [{"id": f"met_{i}", "met_id": i, "name": "X"} for i in range(1, 6)]
     stats = mp.download_pictures(objects, lambda *a: None, limit=2, sleep=0, log=lambda *_: None)
     assert stats["downloaded"] == 2
+
+
+# ── using the links an object already has ─────────────────────────────────────
+def test_wikipedia_article_links_give_the_article_title_but_search_pages_do_not():
+    assert mp.wikipedia_title("https://en.wikipedia.org/wiki/Rosetta_Stone") == "Rosetta Stone"
+    assert mp.wikipedia_title("https://en.wikipedia.org/wiki/Mona_Lisa_(painting)") == "Mona Lisa (painting)"
+    assert mp.wikipedia_title("https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night") == "Café Terrace at Night"
+    assert mp.wikipedia_title("https://en.wikipedia.org/w/index.php?search=Basket") is None
+    assert mp.wikipedia_title("https://example.org/wiki/X") is None
+
+
+def test_candidate_sources_try_the_objects_own_links_first_and_search_by_name_last():
+    obj = {"id": "x", "name": "Rosetta Stone", "origin": "Egypt", "wiki_title": "Rosetta Stone (artifact)",
+           "links": {"wikipedia": "https://en.wikipedia.org/wiki/Rosetta_Stone", "wikidata": "https://www.wikidata.org/wiki/Q48584",
+                     "museum_object": "https://www.britishmuseum.org/collection/object/Y_EA24"}}
+    kinds = [k for k, _ in mp.candidate_sources(obj)]
+    assert kinds == ["museum_page", "wikipedia_article", "wikidata_item", "wikipedia_article", "name_search"]
+    values = dict((k, v) for k, v in mp.candidate_sources(obj) if k in ("museum_page", "wikidata_item", "name_search"))
+    assert values == {"museum_page": "https://www.britishmuseum.org/collection/object/Y_EA24", "wikidata_item": "Q48584", "name_search": "Rosetta Stone Egypt"}
+
+
+def test_met_and_cleveland_links_use_their_open_access_sources_not_the_page():
+    met = {"id": "met_1", "met_id": 1, "name": "N", "links": {"museum_object": "https://www.metmuseum.org/art/collection/search/1"}}
+    assert [k for k, _ in mp.candidate_sources(met)][0] == "met_api" and "museum_page" not in [k for k, _ in mp.candidate_sources(met)]
+    cma = {"id": "cma-1915.534", "name": "N", "links": {"museum_object": "https://clevelandart.org/art/1915.534"}}
+    assert list(mp.candidate_sources(cma))[0] == ("image_url", "https://openaccess-cdn.clevelandart.org/1915.534/1915.534_web.jpg")
+
+
+def test_page_image_url_reads_og_image_in_either_attribute_order_and_resolves_relative_links():
+    page = '<head><meta property="og:image" content="/img/object.jpg"><meta name="x" content="y"></head>'
+    assert mp.page_image_url("https://museum.example/object/1", page) == "https://museum.example/img/object.jpg"
+    assert mp.page_image_url("https://m.example/o", '<meta content="https://cdn.example/a.png" name="twitter:image">') == "https://cdn.example/a.png"
+    assert mp.page_image_url("https://m.example/o", "<html>no picture</html>") is None
+
+
+def test_a_source_that_fails_is_skipped_and_the_next_link_is_tried(monkeypatch):
+    obj = {"id": "w", "name": "Thing", "wiki_title": "Thing", "links": {"wikipedia": "https://en.wikipedia.org/wiki/Thing",
+                                                                          "wikidata": "https://www.wikidata.org/wiki/Q1"}}
+
+    def broken_wikidata(qid):
+        raise OSError("404")
+
+    monkeypatch.setattr(mp, "wikidata_image_url", broken_wikidata)
+    monkeypatch.setattr(mp.image_credit, "credit_for", lambda url: None)
+    asked = []
+
+    def wiki(title, q):
+        asked.append((title, q))
+        return None if title == "Thing" else "https://upload.wikimedia.org/found.jpg"
+
+    tried = []
+    url, credit, how = mp.find_picture_url(obj, wiki, tried)
+    assert (url, how) == ("https://upload.wikimedia.org/found.jpg", "name_search")
+    assert asked == [("Thing", ""), ("", "Thing")] and any("wikidata_item" in t for t in tried)
+
+
+def test_wikidata_image_becomes_a_commons_url(monkeypatch):
+    monkeypatch.setattr(mp, "_get_json", lambda url: {"entities": {"Q9": {"claims": {"P18": [{"mainsnak": {"datavalue": {"value": "Mona Lisa, by Leonardo da Vinci.jpg"}}}]}}}})
+    url = mp.wikidata_image_url("Q9")
+    assert url.startswith("https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa%2C_by_Leonardo_da_Vinci.jpg")
+    assert image_credit.commons_filename(url).replace("_", " ") == "Mona Lisa, by Leonardo da Vinci.jpg"  # so its credit can be looked up
+    monkeypatch.setattr(mp, "_get_json", lambda url: {"entities": {"Q9": {"claims": {}}}})
+    assert mp.wikidata_image_url("Q9") is None
+
+
+def test_page_pictures_are_downloaded_with_an_honest_credit(monkeypatch):
+    monkeypatch.setattr(mp, "page_image_url", lambda url, page_html=None: "https://museum.example/o1.jpg")
+    monkeypatch.setattr(mp, "_fetch_image", lambda url: (JPEG, ".jpg"))
+    obj = {"id": "o1", "name": "Object", "links": {"museum_object": "https://museum.example/object/1"}}
+    stats = mp.download_pictures([obj], lambda *a: None, sleep=0, log=lambda *_: None)
+    entry = json.loads(mp.MANIFEST_PATH.read_text())["o1"]
+    assert stats["downloaded"] == 1 and entry["found_via"] == "museum_page" and entry["license"] is None
+    assert "check its terms" in entry["line"] and entry["source_url"] == "https://museum.example/object/1"
+
+
+def test_objects_with_no_picture_come_first(monkeypatch):
+    objs = [{"id": "cma-1", "name": "has url", "thumbnail_local": "https://cdn.example/1.jpg"}, {"id": "met_2", "met_id": 2, "name": "met"},
+            {"id": "none", "name": "no picture", "thumbnail_local": "/museum-resource/thumbnails/none.svg"}]
+    assert [o["id"] for o in mp.prioritise(objs)] == ["none", "met_2", "cma-1"]
+
+
+def test_only_missing_skips_objects_that_already_show_a_picture(monkeypatch):
+    _network(monkeypatch, {"https://cdn.example/1.jpg": (JPEG, ".jpg"), "https://upload.wikimedia.org/w.jpg": (JPEG, ".jpg")})
+    objs = [{"id": "cma-1", "name": "has url", "thumbnail_local": "https://cdn.example/1.jpg"}, {"id": "w", "name": "wiki", "wiki_title": "wiki"}]
+    stats = mp.download_pictures(objs, lambda t, q: "https://upload.wikimedia.org/w.jpg", sleep=0, log=lambda *_: None, only_missing=True)
+    assert stats["downloaded"] == 1 and stats["skipped"] == 1
+    assert set(json.loads(mp.MANIFEST_PATH.read_text())) == {"w"}
+
+
+def test_still_missing_objects_are_reported_with_what_was_tried(monkeypatch):
+    monkeypatch.setattr(mp.image_credit, "credit_for", lambda url: None)
+    obj = {"id": "m", "name": "Mystery", "links": {"wikipedia": "https://en.wikipedia.org/wiki/Mystery"}}
+    stats = mp.download_pictures([obj], lambda t, q: None, sleep=0, log=lambda *_: None)
+    report = json.loads(mp.MANIFEST_PATH.with_name("pictures_missing.json").read_text())
+    assert stats["no_picture"] == 1 and report["m"]["name"] == "Mystery"
+    assert any("wikipedia_article" in t for t in report["m"]["tried"]) and any("name_search" in t for t in report["m"]["tried"])
+
+
+# ── checking links ────────────────────────────────────────────────────────────
+def test_only_links_to_specific_pages_are_checked():
+    obj = {"links": {"museum_object": "https://www.metmuseum.org/art/collection/search/1", "wikipedia": "https://en.wikipedia.org/w/index.php?search=X",
+                     "wikidata": "https://www.wikidata.org/wiki/Q1", "video": "https://www.youtube.com/results?search_query=x", "image_search": "https://commons.wikimedia.org/w/index.php?search=x"}}
+    assert set(mp.checkable_links(obj)) == {"museum_object", "wikidata"}
+
+
+class _Resp:
+    def __init__(self, status):
+        self.status = status
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+
+def test_check_link_reports_status_and_falls_back_from_head_to_get(monkeypatch):
+    import urllib.error
+    methods = []
+
+    def fake(req, timeout=0):
+        methods.append(req.get_method())
+        if req.get_method() == "HEAD":
+            raise urllib.error.HTTPError(req.full_url, 405, "Method Not Allowed", {}, None)
+        return _Resp(200)
+
+    monkeypatch.setattr(mp, "urlopen", fake)
+    assert mp.check_link("https://a.example/x") == {"status": 200, "ok": True, "error": None}
+    assert methods == ["HEAD", "GET"]
+
+    def gone(req, timeout=0):
+        raise urllib.error.HTTPError(req.full_url, 404, "Not Found", {}, None)
+
+    monkeypatch.setattr(mp, "urlopen", gone)
+    result = mp.check_link("https://a.example/missing")
+    assert result["ok"] is False and result["status"] == 404
+
+    def offline(req, timeout=0):
+        raise OSError("no network")
+
+    monkeypatch.setattr(mp, "urlopen", offline)
+    assert mp.check_link("https://a.example/x")["ok"] is False
+
+
+def test_check_links_writes_a_report_of_broken_links(monkeypatch):
+    monkeypatch.setattr(mp, "check_link", lambda url: {"status": 404, "ok": False, "error": "x"} if "bad" in url else {"status": 200, "ok": True, "error": None})
+    objects = [{"id": "a", "links": {"museum_object": "https://m.example/good"}}, {"id": "b", "links": {"museum_object": "https://m.example/bad", "wikidata": "https://www.wikidata.org/wiki/Q2"}}]
+    logged = []
+    report = mp.check_links(objects, sleep=0, log=logged.append)
+    assert report["a"]["museum_object"]["ok"] and not report["b"]["museum_object"]["ok"] and report["b"]["wikidata"]["ok"]
+    assert any("broken museum_object: b" in line for line in logged)
+    assert json.loads(mp.MANIFEST_PATH.with_name("link_report.json").read_text()) == report

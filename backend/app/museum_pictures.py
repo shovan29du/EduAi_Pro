@@ -9,15 +9,20 @@ Three pieces work together:
   local file, so the museum works offline and loads fast.
 * ``download_pictures`` fills the manifest. It is run by
   backend/scripts/museum_download_pictures.py on a computer with Internet access.
+  It works from the links an object already has (its museum page, its Wikipedia
+  article, its Wikidata item) before searching by name, handles objects with no
+  picture first, and ``check_links`` reports which of those links are broken.
 """
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import re
 import time
 from functools import lru_cache
 from pathlib import Path
+from urllib.parse import quote, unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 from app import image_credit
@@ -96,29 +101,185 @@ def overlay(obj: dict) -> dict:
             "image_credit": {k: entry.get(k) for k in ("credit", "license", "license_url", "source_url", "line")}}
 
 
-# ── downloading ───────────────────────────────────────────────────────────────
-def find_picture_url(obj: dict, wiki_lookup) -> tuple[str | None, dict | None]:
-    """(image url, credit record) for an object, trying its most precise source first.
+# ── finding a picture from the links an object already has ────────────────────
+IMAGE_URL = re.compile(r"\.(jpe?g|png|webp|gif)(\?|$)", re.I)
+_META = re.compile(r"<meta\b[^>]*>", re.I)
+_ATTR = re.compile(r"""([a-zA-Z:_-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""")
 
-    `wiki_lookup(wiki_title, q)` returns a Wikipedia/Commons thumbnail URL or None."""
+
+def _fetch_text(url: str, limit: int = 1_000_000) -> str:
+    with urlopen(Request(url, headers={**HEADERS, "Accept": "text/html,*/*"}), timeout=15) as resp:
+        return resp.read(limit).decode("utf-8", "replace")
+
+
+def page_image_url(page_url: str, page_html: str | None = None) -> str | None:
+    """The picture a web page advertises (og:image / twitter:image), as an absolute URL."""
+    page_html = page_html if page_html is not None else _fetch_text(page_url)
+    for tag in _META.findall(page_html):
+        attrs = {m[0].lower(): html.unescape(m[1] or m[2]) for m in _ATTR.findall(tag)}
+        if (attrs.get("property") or attrs.get("name") or "").lower() in ("og:image", "og:image:url", "twitter:image") and attrs.get("content"):
+            return urljoin(page_url, attrs["content"].strip())
+    return None
+
+
+def wikipedia_title(url: str) -> str | None:
+    """'https://en.wikipedia.org/wiki/Rosetta_Stone' -> 'Rosetta Stone' (None for search pages and other sites)."""
+    parsed = urlparse(url or "")
+    if not parsed.netloc.endswith("wikipedia.org") or not parsed.path.startswith("/wiki/"):
+        return None
+    return unquote(parsed.path[len("/wiki/"):]).replace("_", " ").strip() or None
+
+
+def wikidata_image_url(qid: str) -> str | None:
+    """The picture (property P18) of a Wikidata item, as a Wikimedia Commons URL."""
+    record = _get_json(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+    claims = (record.get("entities", {}).get(qid, {}).get("claims", {})).get("P18") or []
+    name = claims and claims[0].get("mainsnak", {}).get("datavalue", {}).get("value")
+    return f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(name.replace(' ', '_'))}?width=900" if name else None
+
+
+def candidate_sources(obj: dict):
+    """Places to look for an object's picture, most precise first: (kind, value)."""
+    links = obj.get("links") or {}
+    for key in ("thumbnail_local", "image", "image_url"):
+        if re.match(r"https?://", obj.get(key) or ""):
+            yield "image_url", obj[key]
+    if links.get("image") and IMAGE_URL.search(links["image"]):
+        yield "image_url", links["image"]
     if obj.get("met_id"):
-        url = met_thumbnail(obj["met_id"])["thumbnail_url"]
-        return (url, met_credit(obj["met_id"])) if url else (None, None)
-    local = obj.get("thumbnail_local") or ""
-    if re.match(r"https?://", local):
-        try:
-            return local, image_credit.credit_for(local)
-        except Exception:
-            return local, None
-    url = wiki_lookup(obj.get("wiki_title") or "", " ".join(x for x in (obj.get("name"), obj.get("origin")) if x))
-    if not url:
-        return None, None
+        yield "met_api", obj["met_id"]
+    page = links.get("museum_object") or ""
+    cma = re.match(r"https?://(?:www\.)?clevelandart\.org/art/([\w.-]+)", page)
+    if cma:
+        yield "image_url", f"https://openaccess-cdn.clevelandart.org/{cma.group(1)}/{cma.group(1)}_web.jpg"
+    elif page and not obj.get("met_id") and "metmuseum.org" not in page:
+        yield "museum_page", page
+    title = wikipedia_title(links.get("wikipedia") or "")
+    if title:
+        yield "wikipedia_article", title
+    qid = re.search(r"(Q\d+)", links.get("wikidata") or "")
+    if qid:
+        yield "wikidata_item", qid.group(1)
+    if obj.get("wiki_title") and obj["wiki_title"] != title:
+        yield "wikipedia_article", obj["wiki_title"]
+    yield "name_search", " ".join(x for x in (obj.get("name"), obj.get("origin")) if x)
+
+
+def _credit_for(url: str):
     try:
-        return url, image_credit.credit_for(url)
+        return image_credit.credit_for(url)
     except Exception:
-        return url, None
+        return None
 
 
+def _resolve(kind: str, value, obj: dict, wiki_lookup) -> tuple[str | None, dict | None]:
+    if kind == "image_url":
+        return value, _credit_for(value)
+    if kind == "met_api":
+        url = met_thumbnail(value)["thumbnail_url"]
+        return (url, met_credit(value)) if url else (None, None)
+    if kind == "museum_page":
+        url = page_image_url(value)
+        host = urlparse(value).netloc
+        # The page does not state a licence we can read, so say so: the credit points back to the page.
+        return (url, {"credit": host, "license": None, "source_url": value,
+                      "line": f"Image from {host}: check its terms before reuse"}) if url else (None, None)
+    if kind == "wikipedia_article":
+        url = wiki_lookup(value, "")
+    elif kind == "wikidata_item":
+        url = wikidata_image_url(value)
+    else:  # name_search
+        url = wiki_lookup("", value)
+    return (url, _credit_for(url)) if url else (None, None)
+
+
+def find_picture_url(obj: dict, wiki_lookup, tried: list | None = None) -> tuple[str | None, dict | None, str | None]:
+    """(image url, credit, how it was found). A source that fails or has no picture is skipped, not fatal;
+    `tried` collects what was attempted, for the 'still missing' report."""
+    for kind, value in candidate_sources(obj):
+        try:
+            url, credit = _resolve(kind, value, obj, wiki_lookup)
+        except Exception as exc:
+            if tried is not None:
+                tried.append(f"{kind}: {exc}")
+            continue
+        if url:
+            return url, credit, kind
+        if tried is not None:
+            tried.append(f"{kind}: no picture")
+    return None, None, None
+
+
+def has_picture(obj: dict) -> bool:
+    """True if the object already shows a real picture (a web URL or a downloaded copy)."""
+    entry = manifest().get(obj.get("id"))
+    if entry and (IMAGES_DIR / entry["file"]).exists():
+        return True
+    return bool(re.match(r"https?://", obj.get("thumbnail_local") or ""))
+
+
+def prioritise(objects) -> list[dict]:
+    """Objects with no picture at all first, then Met objects (found by ID), then those that only need
+    their existing picture downloaded."""
+    def tier(obj):
+        if has_picture(obj):
+            return 2
+        return 1 if obj.get("met_id") else 0
+    return sorted(objects, key=tier)  # stable: the museum's own order is kept within a tier
+
+
+# ── checking links ────────────────────────────────────────────────────────────
+CHECKED_LINKS = ("museum_object", "wikipedia", "wikidata", "podcast", "museum_channel")
+
+
+def checkable_links(obj: dict) -> dict:
+    """The links worth checking: those pointing at a specific page (search pages always answer 200)."""
+    out = {}
+    for key in CHECKED_LINKS:
+        url = (obj.get("links") or {}).get(key)
+        parsed = urlparse(url or "")
+        is_search = ("search" in parsed.query or "q=" in parsed.query or parsed.path.rstrip("/").endswith("/search")
+                     or "/results" in parsed.path)
+        if url and not is_search:
+            out[key] = url
+    return out
+
+
+def check_link(url: str) -> dict:
+    """{'status': int | None, 'ok': bool, 'error': str | None}. Tries HEAD, then GET when HEAD is refused."""
+    last = None
+    for method in ("HEAD", "GET"):
+        try:
+            req = Request(url, headers={**HEADERS, "Accept": "*/*"}, method=method)
+            with urlopen(req, timeout=15) as resp:
+                return {"status": resp.status, "ok": 200 <= resp.status < 400, "error": None}
+        except Exception as exc:
+            code = getattr(exc, "code", None)
+            last = {"status": code, "ok": False, "error": f"{type(exc).__name__}: {exc}"}
+            if code in (404, 410):
+                return last
+    return last
+
+
+def check_links(objects, sleep: float = 0.2, log=print) -> dict:
+    """Check every object's own links. Returns {object id: {link: result}} and writes the report next to the manifest."""
+    report_path = MANIFEST_PATH.with_name("link_report.json")
+    report: dict = {}
+    for n, obj in enumerate(objects, 1):
+        for key, url in checkable_links(obj).items():
+            result = {**check_link(url), "url": url, "checked_at": int(time.time())}
+            report.setdefault(obj["id"], {})[key] = result
+            if not result["ok"]:
+                log(f"  broken {key}: {obj['id']} {url} ({result['status'] or result['error']})")
+            time.sleep(sleep)
+        if n % 100 == 0:
+            log(f"  {n} objects checked")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+    return report
+
+
+# ── downloading ───────────────────────────────────────────────────────────────
 def _fetch_image(url: str) -> tuple[bytes, str]:
     with urlopen(Request(url, headers=HEADERS), timeout=30) as resp:
         data = resp.read()
@@ -128,12 +289,18 @@ def _fetch_image(url: str) -> tuple[bytes, str]:
     return data, EXTENSIONS[kind]
 
 
-def download_pictures(objects, wiki_lookup, limit: int = 0, sleep: float = 0.2, log=print, save_every: int = 25) -> dict:
-    """Download a picture for every object without one. Resumable: finished objects are skipped,
-    failures are retried on the next run. Returns counts."""
+def download_pictures(objects, wiki_lookup, limit: int = 0, sleep: float = 0.2, log=print, save_every: int = 25,
+                      only_missing: bool = False) -> dict:
+    """Download a picture for every object without one, starting with the objects that have none at all.
+
+    Each object's own links are tried first (see ``candidate_sources``). Resumable: finished objects are
+    skipped and failures are retried on the next run. ``only_missing`` skips objects that already show a
+    picture from a web URL. Objects that still have no picture are listed, with what was tried, in
+    pictures_missing.json. Returns counts."""
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
     done = dict(manifest())
     stats = {"downloaded": 0, "no_picture": 0, "failed": 0, "skipped": 0}
+    missing: dict = {}
 
     def save():
         MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -142,34 +309,43 @@ def download_pictures(objects, wiki_lookup, limit: int = 0, sleep: float = 0.2, 
         tmp.replace(MANIFEST_PATH)
 
     attempted = 0
-    for obj in objects:
+    for obj in prioritise(objects):
         oid = obj.get("id")
         if oid in done and (IMAGES_DIR / done[oid]["file"]).exists():
+            stats["skipped"] += 1
+            continue
+        if only_missing and has_picture(obj):
             stats["skipped"] += 1
             continue
         if limit and attempted >= limit:
             break
         attempted += 1
+        tried: list = []
         try:
-            url, credit = find_picture_url(obj, wiki_lookup)
+            url, credit, how = find_picture_url(obj, wiki_lookup, tried)
             if not url:
                 stats["no_picture"] += 1
+                missing[oid] = {"name": obj.get("name"), "tried": tried}
                 continue
             data, ext = _fetch_image(url)
             name = re.sub(r"[^A-Za-z0-9_.-]", "_", oid) + ext
             (IMAGES_DIR / name).write_bytes(data)
             credit = credit or {}
-            done[oid] = {"file": name, "source_url": credit.get("source_url") or url, "image_url": url,
+            done[oid] = {"file": name, "found_via": how, "source_url": credit.get("source_url") or url, "image_url": url,
                          "credit": credit.get("artist") or credit.get("credit"), "license": credit.get("license"),
-                         "license_url": credit.get("license_url"), "line": image_credit.credit_line(credit) if credit else "",
+                         "license_url": credit.get("license_url"),
+                         "line": credit.get("line") or (image_credit.credit_line(credit) if credit else ""),
                          "sha1": hashlib.sha1(data).hexdigest(), "fetched_at": int(time.time())}
             stats["downloaded"] += 1
         except Exception as exc:  # network error, rate limit, bad image: retry on the next run
             stats["failed"] += 1
+            missing[oid] = {"name": obj.get("name"), "tried": tried + [f"download: {exc}"]}
             log(f"  {oid}: {exc}")
         if attempted % save_every == 0:
             save()
             log(f"  {attempted} tried — {stats}")
         time.sleep(sleep)
     save()
+    report = MANIFEST_PATH.with_name("pictures_missing.json")
+    report.write_text(json.dumps(missing, ensure_ascii=False, indent=1), encoding="utf-8")
     return stats
