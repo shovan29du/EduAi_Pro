@@ -47,9 +47,8 @@ def test_museum_overview_reflects_growth():
 
 def test_world_heritage_treasures_objects_have_wiki_title():
     # world_heritage_treasures is the real-curated-object successor to the
-    # old single "world_collections" gallery; the newer wc_-prefixed themed
-    # galleries (world_visual_arts etc.) are generic study cards without a
-    # single identifiable real-world source, so they don't carry a wiki_title.
+    # old single "world_collections" gallery (the generic study cards that
+    # followed it have since been deleted).
     resp = client.get("/api/museum/world_heritage_treasures")
     objects = resp.json()["objects"]
     assert len(objects) >= 1000

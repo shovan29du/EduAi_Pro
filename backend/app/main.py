@@ -79,6 +79,7 @@ from app.problem_reports import router as problem_reports_router
 from app.image_credit import router as image_credit_router
 from app.virtual_tour import router as virtual_tour_router
 from app.lesson_enrichment import router as lesson_enrichment_router
+from app import museum_pictures
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -3057,9 +3058,15 @@ _MUSEUM_THUMB_CACHE_DIR = Path(__file__).parent.parent / "data" / "museum_thumbn
 _MUSEUM_THUMB_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 _MUSEUM_THUMB_TTL_SECONDS = 5 * 24 * 3600  # Wikipedia thumbnails rarely change; a few days is plenty
 
-def _load_museum() -> dict:
+@lru_cache(maxsize=2)
+def _load_museum_cached(mtime: float) -> dict:
     with open(_MUSEUM_PATH, encoding="utf-8") as f:
         return json.load(f)
+
+
+def _load_museum() -> dict:
+    # The museum file is tens of megabytes: parse it once, and again only if it changes.
+    return _load_museum_cached(_MUSEUM_PATH.stat().st_mtime)
 
 @app.get("/api/museum")
 def museum_overview():
@@ -3095,7 +3102,7 @@ def museum_search(q: str = ""):
                 q_lower in obj.get("origin", "").lower() or
                 q_lower in obj.get("description", "").lower() or
                 any(q_lower in s.lower() for s in obj.get("related_subjects", []))):
-                results.append({**obj, "gallery": gallery_id, "gallery_label": gallery["label"]})
+                results.append({**museum_pictures.overlay(obj), "gallery": gallery_id, "gallery_label": gallery["label"]})
     return {"results": results[:20]}
 
 @app.get("/api/museum/featured")
@@ -3106,7 +3113,7 @@ def museum_featured():
     than random, so it's stable across repeated requests on the same day."""
     data = _load_museum()
     all_objects = [
-        {**obj, "gallery": gallery_id, "gallery_label": gallery["label"]}
+        {**museum_pictures.overlay(obj), "gallery": gallery_id, "gallery_label": gallery["label"]}
         for gallery_id, gallery in sorted(data["galleries"].items())
         for obj in gallery.get("objects", [])
         if obj.get("museum") and "see wikipedia" not in obj["museum"].lower()
@@ -3158,7 +3165,7 @@ def _commons_search_thumbnail(query: str) -> str | None:
 
 
 @app.get("/api/museum/thumbnail")
-def museum_thumbnail(wiki_title: str = "", q: str = ""):
+def museum_thumbnail(wiki_title: str = "", q: str = "", met_id: int = 0):
     """Server-side cache/proxy for museum object photos.
 
     Resolution order: the Wikipedia page-summary thumbnail for `wiki_title`,
@@ -3168,6 +3175,8 @@ def museum_thumbnail(wiki_title: str = "", q: str = ""):
     locally instead of hitting Wikipedia/Commons again. A failed lookup is not
     cached, so a transient network error can't hide an image for days.
     """
+    if met_id:  # a Metropolitan Museum object: its own open-access picture (CC0)
+        return {"met_id": met_id, **museum_pictures.met_thumbnail(met_id)}
     wiki_title = (wiki_title or "").strip()
     q = (q or "").strip()[:200]
     if not wiki_title and not q:
@@ -3222,7 +3231,8 @@ def museum_gallery(gallery: str):
     data = _load_museum()
     if gallery not in data["galleries"]:
         raise HTTPException(status_code=404, detail="Gallery not found")
-    return {"id": gallery, **data["galleries"][gallery]}
+    info = data["galleries"][gallery]
+    return {"id": gallery, **info, "objects": [museum_pictures.overlay(o) for o in info.get("objects", [])]}
 
 @app.get("/api/museum/{gallery}/{object_id}")
 def museum_object(gallery: str, object_id: str):
@@ -3231,7 +3241,7 @@ def museum_object(gallery: str, object_id: str):
         raise HTTPException(status_code=404, detail="Gallery not found")
     for obj in data["galleries"][gallery].get("objects", []):
         if obj["id"] == object_id:
-            return obj
+            return museum_pictures.overlay(obj)
     raise HTTPException(status_code=404, detail="Object not found")
 
 

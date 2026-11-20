@@ -154,4 +154,42 @@ describe('VirtualMuseum', () => {
     fireEvent.click(await screen.findByText('The Featured Piece'));
     expect(await screen.findByRole('heading', { name: 'The Featured Piece' })).toBeInTheDocument();
   });
+
+  describe('pictures', () => {
+    const metObject = { id: 'met_436532', name: 'Wheat Field with Cypresses by Vincent van Gogh', category: 'painting', year: '1889', met_id: 436532, links: {} };
+    const openGallery = async (objects, detail) => {
+      global.fetch = vi.fn((url) => {
+        const u = String(url);
+        if (u === '/api/museum') return Promise.resolve({ ok: true, json: () => Promise.resolve({ ...overview, galleries: [{ id: 'ancient_world', label: 'Ancient World', emoji: '🏺', object_count: objects.length }] }) });
+        if (u === '/api/museum/featured') return Promise.resolve({ ok: true, json: () => Promise.resolve(featuredObject) });
+        if (u === '/api/museum/ancient_world') return Promise.resolve({ ok: true, json: () => Promise.resolve({ ...galleryObjects, objects }) });
+        if (u.startsWith('/api/museum/thumbnail')) {
+          return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: u.includes('met_id=436532') ? 'https://images.metmuseum.org/CRDImages/ep/web-large/DT1567.jpg' : null }) });
+        }
+        if (u === '/api/museum/ancient_world/' + objects[0].id) return Promise.resolve({ ok: true, json: () => Promise.resolve(detail || objects[0]) });
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
+      });
+      render(<ChildProvider><VirtualMuseum /></ChildProvider>);
+      fireEvent.click(await screen.findByText('Ancient World'));
+      await screen.findByText(/Wheat Field with Cypresses/);
+    };
+
+    it('finds a Met object picture by its Met ID, never by guessing from its name', async () => {
+      await openGallery([metObject]);
+      await waitFor(() => expect(global.fetch.mock.calls.some((c) => String(c[0]).includes('/museum/thumbnail?met_id=436532'))).toBe(true));
+      const thumbCalls = global.fetch.mock.calls.map((c) => String(c[0])).filter((u) => u.includes('/museum/thumbnail'));
+      expect(thumbCalls.some((u) => u.includes('Wheat') || u.includes('Gogh'))).toBe(false); // no lookup by name
+      await waitFor(() => expect(document.querySelector('img[src*="images.metmuseum.org"]')).not.toBeNull());
+    });
+
+    it('shows a downloaded local picture with its credit and does not look it up again', async () => {
+      const local = { ...metObject, thumbnail_local: '/museum-resource/images/met_436532.jpg', image_credit: { line: 'The Metropolitan Museum of Art · CC0 1.0 (Open Access)' } };
+      await openGallery([local]);
+      fireEvent.click(await screen.findByText(/Wheat Field with Cypresses/));
+      expect(await screen.findByText(/Photo: The Metropolitan Museum of Art · CC0 1.0/)).toBeInTheDocument();
+      expect(document.querySelector('img[src="/museum-resource/images/met_436532.jpg"]')).not.toBeNull();
+      const lookups = global.fetch.mock.calls.map((c) => String(c[0])).filter((u) => u.includes('/museum/thumbnail'));
+      expect(lookups.some((u) => u.includes('met_id=436532') || u.includes('Wheat'))).toBe(false);
+    });
+  });
 });

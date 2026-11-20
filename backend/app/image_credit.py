@@ -93,6 +93,10 @@ def credit_for(image_url: str) -> dict | None:
     host = urlparse(image_url).netloc
     if host.endswith("clevelandart.org"):
         return _cma_credit(image_url)
+    if host == "images.metmuseum.org":
+        return {"artist": None, "credit": "The Metropolitan Museum of Art", "license": "CC0 1.0 (Open Access)",
+                "license_url": CC0_URL, "attribution_required": False,
+                "source_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"}
     filename = commons_filename(image_url)
     if filename:
         return _commons_credit(filename)

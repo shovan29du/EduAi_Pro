@@ -42,3 +42,6 @@ backend/data/virtual_tour_cache/
 backend/data/news_preferences.json
 /link-report/
 backend/data/lesson_enrichment_cache/
+
+backend/data/museum_resource/images/
+backend/data/museum_resource/pictures.json
