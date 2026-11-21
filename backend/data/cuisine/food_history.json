@@ -1,0 +1,111 @@
+{
+  "title": "Food History Timeline",
+  "description": "Key milestones in the history of food, agriculture, and how cuisines spread and mixed across the world.",
+  "timeline": [
+    {
+      "id": "agriculture-origins",
+      "era": "c. 10,000 BCE",
+      "title": "The Origins of Agriculture",
+      "summary": "Independent agricultural revolutions began in several world regions within a few thousand years of each other: wheat and barley in the Fertile Crescent (modern Iraq/Syria/Turkey/Levant), rice and millet in China, maize in Mesoamerica, and potatoes in the Andes. This shift from hunting and gathering to farming allowed permanent settlements and, eventually, cities.",
+      "regions": ["Fertile Crescent", "China", "Mesoamerica", "Andes"]
+    },
+    {
+      "id": "fermentation-brewing",
+      "era": "c. 7,000-6,000 BCE",
+      "title": "Early Fermentation and Brewing",
+      "summary": "Chemical residue found on pottery from Jiahu, China (c. 7000 BCE) and the Zagros Mountains of Iran (c. 6000 BCE, Godin Tepe) shows some of the earliest known evidence of fermented rice/honey/fruit beverages and beer, making fermentation one of humanity's oldest food technologies alongside bread-making.",
+      "regions": ["China", "Iran"]
+    },
+    {
+      "id": "silk-road",
+      "era": "c. 130 BCE onward",
+      "title": "The Silk Road Spice and Food Trade",
+      "summary": "Overland and maritime Silk Road trade routes connected China, Central Asia, India, the Middle East, and Europe, spreading noodles, tea, citrus fruit, and spices such as cinnamon and pepper across Eurasia over many centuries.",
+      "regions": ["China", "Central Asia", "Middle East", "Europe"]
+    },
+    {
+      "id": "islamic-golden-age-cuisine",
+      "era": "8th-13th century CE",
+      "title": "Islamic Golden Age Food Exchange",
+      "summary": "The expansion of Islamic trade networks across the Middle East, North Africa, and Iberia spread rice, sugarcane, citrus, saffron, and eggplant westward into Europe, and cookbooks from this period (such as 10th-century Baghdad's 'Kitab al-Tabikh') are among the earliest surviving structured recipe collections.",
+      "regions": ["Middle East", "North Africa", "Iberia"]
+    },
+    {
+      "id": "columbian-exchange",
+      "era": "1492 onward",
+      "title": "The Columbian Exchange",
+      "summary": "Christopher Columbus's voyages triggered a vast transfer of crops, animals, and foodways between the Americas and the rest of the world. Tomatoes, potatoes, maize, chillies, chocolate, and vanilla spread from the Americas to Europe, Africa, and Asia, while wheat, rice, coffee, sugarcane, and livestock like cattle and pigs spread to the Americas — permanently transforming cuisines on every continent.",
+      "regions": ["Americas", "Europe", "Africa", "Asia"]
+    },
+    {
+      "id": "spice-trade-exploration",
+      "era": "15th-17th century",
+      "title": "The Age of Exploration and the Spice Trade",
+      "summary": "European demand for South and Southeast Asian spices — pepper, cloves, nutmeg, and cinnamon — drove Portuguese, Spanish, Dutch, and British maritime expeditions, including Vasco da Gama's 1498 route to India, reshaping global trade, colonisation, and cuisine.",
+      "regions": ["Europe", "South Asia", "Southeast Asia"]
+    },
+    {
+      "id": "canning-invention",
+      "era": "1809-1810",
+      "title": "The Invention of Canning",
+      "summary": "French confectioner Nicolas Appert developed food preservation by sealing food in glass jars and heating it, in response to a prize offered by Napoleon's government for a way to preserve food for troops; Englishman Peter Durand patented the tin can shortly after in 1810, launching modern food preservation.",
+      "regions": ["France", "England"]
+    },
+    {
+      "id": "pasteurization",
+      "era": "1864",
+      "title": "Pasteurization",
+      "summary": "French scientist Louis Pasteur developed a heat-treatment process to kill spoilage-causing microbes in wine, later applied to milk and other foods, dramatically improving food safety and shelf life.",
+      "regions": ["France"]
+    },
+    {
+      "id": "refrigeration-food-transport",
+      "era": "Late 19th century",
+      "title": "Refrigerated Shipping",
+      "summary": "The development of mechanical refrigeration and refrigerated ships in the 1870s-1880s allowed meat, dairy, and produce to be shipped long distances (such as frozen lamb from Australia and New Zealand to Britain), transforming global food trade and urban diets.",
+      "regions": ["Australia", "New Zealand", "Britain"]
+    },
+    {
+      "id": "escoffier-codification",
+      "era": "Early 20th century",
+      "title": "Codification of French Haute Cuisine",
+      "summary": "Chef Auguste Escoffier simplified and modernised classical French cooking and kitchen organisation (the 'brigade de cuisine'), publishing 'Le Guide Culinaire' (1903), which became a foundational reference for professional Western cooking.",
+      "regions": ["France"]
+    },
+    {
+      "id": "green-revolution",
+      "era": "1940s-1960s",
+      "title": "The Green Revolution",
+      "summary": "New high-yield wheat and rice varieties, developed by researchers including Norman Borlaug, along with expanded irrigation and fertiliser use, dramatically increased global grain production and are credited with preventing widespread famine in many developing countries during the mid-20th century.",
+      "regions": ["Mexico", "India", "Global"]
+    },
+    {
+      "id": "fast-food-globalisation",
+      "era": "1950s-1970s",
+      "title": "Post-War Fast Food and Food Globalisation",
+      "summary": "The rise of standardised fast-food chains in the United States after World War II, combined with expanding air travel and later container shipping, accelerated the global spread and cross-pollination of national cuisines throughout the second half of the 20th century.",
+      "regions": ["United States", "Global"]
+    },
+    {
+      "id": "umami-identified",
+      "era": "1908",
+      "title": "Umami is Identified as a Taste",
+      "summary": "Japanese chemist Kikunae Ikeda isolated glutamate from kombu seaweed broth and identified 'umami' as a distinct fifth basic taste alongside sweet, sour, salty, and bitter — a discovery that took most of the 20th century to be widely accepted by Western food science.",
+      "regions": ["Japan"]
+    },
+    {
+      "id": "molecular-gastronomy",
+      "era": "1980s-2000s",
+      "title": "Molecular Gastronomy",
+      "summary": "Scientists and chefs including Hervé This and Nicholas Kurti coined the term 'molecular gastronomy' to describe the scientific study of cooking processes, later popularised by chefs such as Ferran Adrià (El Bulli, Spain) and Heston Blumenthal (The Fat Duck, England), who applied techniques like spherification and sous-vide to fine dining.",
+      "regions": ["Spain", "England", "Global"]
+    },
+    {
+      "id": "unesco-food-heritage",
+      "era": "2010-2020",
+      "title": "UNESCO Recognises Food Traditions as Cultural Heritage",
+      "summary": "UNESCO's Intangible Cultural Heritage list began formally recognising food traditions as cultural heritage worth protecting, including the 'gastronomic meal of the French' (2010), Mexican traditional cuisine (2010), Japanese washoku (2013), Korean kimjang/kimchi-making (2013), and Arab, Mediterranean, and North African couscous traditions (2020).",
+      "regions": ["France", "Mexico", "Japan", "South Korea", "North Africa"]
+    }
+  ]
+}

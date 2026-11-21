@@ -1,0 +1,2788 @@
+{
+ "updated": "2026-11",
+ "road_trips": [
+  {
+   "id": "route-66",
+   "name": "Route 66",
+   "countries": [
+    "US"
+   ],
+   "start": "Chicago, Illinois",
+   "end": "Santa Monica, California",
+   "via": [
+    "St. Louis",
+    "Tulsa",
+    "Albuquerque",
+    "Flagstaff"
+   ],
+   "km": 3940,
+   "duration": "10-14 days",
+   "best_time": "May to October",
+   "kind": "cross-country",
+   "summary": "America's 'Main Street': diners, neon signs and desert landscapes from Chicago to the Pacific.",
+   "highlights": [
+    "Cadillac Ranch",
+    "Petrified Forest National Park",
+    "Meteor Crater",
+    "Grand Canyon detour",
+    "Santa Monica Pier"
+   ],
+   "tip": "Parts of the original road are patchy, so use a Historic Route 66 map."
+  },
+  {
+   "id": "pacific-coast-highway",
+   "name": "Pacific Coast Highway (Highway 1)",
+   "countries": [
+    "US"
+   ],
+   "start": "San Francisco, California",
+   "end": "Los Angeles, California",
+   "via": [
+    "Monterey",
+    "Big Sur",
+    "Santa Barbara"
+   ],
+   "km": 700,
+   "duration": "3-5 days",
+   "best_time": "April to October",
+   "kind": "coastal",
+   "summary": "Sheer cliffs, redwoods and beaches along the California coast.",
+   "highlights": [
+    "Bixby Creek Bridge",
+    "Big Sur",
+    "Hearst Castle",
+    "Pismo Beach",
+    "Santa Barbara"
+   ],
+   "tip": "Landslides sometimes close stretches near Big Sur; check Caltrans before you go."
+  },
+  {
+   "id": "blue-ridge-parkway",
+   "name": "Blue Ridge Parkway",
+   "countries": [
+    "US"
+   ],
+   "start": "Waynesboro, Virginia",
+   "end": "Cherokee, North Carolina",
+   "via": [
+    "Asheville"
+   ],
+   "km": 755,
+   "duration": "3-5 days",
+   "best_time": "September to October for foliage",
+   "kind": "mountain",
+   "summary": "A slow, scenic ridge-top road through the Appalachian Mountains with no commercial traffic.",
+   "highlights": [
+    "Linn Cove Viaduct",
+    "Mabry Mill",
+    "Grandfather Mountain",
+    "Mount Mitchell",
+    "Great Smoky Mountains National Park"
+   ],
+   "tip": "Speed limits are low and fog is common; some sections close in winter."
+  },
+  {
+   "id": "overseas-highway",
+   "name": "Overseas Highway to Key West",
+   "countries": [
+    "US"
+   ],
+   "start": "Key Largo, Florida",
+   "end": "Key West, Florida",
+   "via": [
+    "Islamorada",
+    "Marathon"
+   ],
+   "km": 180,
+   "duration": "1-2 days",
+   "best_time": "November to April",
+   "kind": "island",
+   "summary": "A causeway road hopping across the Florida Keys over dozens of bridges.",
+   "highlights": [
+    "Seven Mile Bridge",
+    "John Pennekamp Coral Reef State Park",
+    "Bahia Honda State Park",
+    "Southernmost Point Key West"
+   ],
+   "tip": "Hurricane season runs June to November; expect heavy weekend traffic."
+  },
+  {
+   "id": "going-to-the-sun-road",
+   "name": "Going-to-the-Sun Road",
+   "countries": [
+    "US"
+   ],
+   "start": "West Glacier, Montana",
+   "end": "St. Mary, Montana",
+   "via": [
+    "Logan Pass"
+   ],
+   "km": 80,
+   "duration": "1 day",
+   "best_time": "Late June to September",
+   "kind": "mountain",
+   "summary": "An engineering marvel climbing across the Continental Divide in Glacier National Park.",
+   "highlights": [
+    "Lake McDonald",
+    "Weeping Wall",
+    "Logan Pass",
+    "Jackson Glacier Overlook",
+    "St. Mary Lake"
+   ],
+   "tip": "Snow closes the high section until summer; there are vehicle size limits and timed-entry rules, so check the park."
+  },
+  {
+   "id": "hana-highway",
+   "name": "Road to Hana",
+   "countries": [
+    "US"
+   ],
+   "start": "Kahului, Hawaii",
+   "end": "Hana, Hawaii",
+   "via": [
+    "Paia",
+    "Keanae"
+   ],
+   "km": 103,
+   "duration": "1-2 days",
+   "best_time": "April to October",
+   "kind": "island",
+   "summary": "A jungle road on Maui with hundreds of curves, one-lane bridges and waterfalls.",
+   "highlights": [
+    "Twin Falls",
+    "Keanae Peninsula",
+    "Waianapanapa Black Sand Beach",
+    "Wailua Falls",
+    "Haleakala National Park"
+   ],
+   "tip": "Start early, let locals pass and check your rental contract for road restrictions."
+  },
+  {
+   "id": "beartooth-highway",
+   "name": "Beartooth Highway",
+   "countries": [
+    "US"
+   ],
+   "start": "Red Lodge, Montana",
+   "end": "Cooke City, Montana",
+   "via": [
+    "Beartooth Pass"
+   ],
+   "km": 109,
+   "duration": "1 day",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "A high alpine road to nearly 3,300 metres, a famous approach to Yellowstone.",
+   "highlights": [
+    "Beartooth Pass",
+    "Rock Creek Vista",
+    "Clay Butte Lookout",
+    "Yellowstone northeast entrance"
+   ],
+   "tip": "Closed by snow for much of the year; weather changes fast."
+  },
+  {
+   "id": "oregon-coast-highway",
+   "name": "Oregon Coast Highway (US-101)",
+   "countries": [
+    "US"
+   ],
+   "start": "Astoria, Oregon",
+   "end": "Brookings, Oregon",
+   "via": [
+    "Cannon Beach",
+    "Newport",
+    "Coos Bay"
+   ],
+   "km": 580,
+   "duration": "3-4 days",
+   "best_time": "June to September",
+   "kind": "coastal",
+   "summary": "Sea stacks, lighthouses and sand dunes along the whole Oregon coast.",
+   "highlights": [
+    "Haystack Rock",
+    "Cannon Beach",
+    "Sea Lion Caves",
+    "Oregon Dunes",
+    "Cape Perpetua"
+   ],
+   "tip": "Pack layers; fog and wind are common even in summer."
+  },
+  {
+   "id": "natchez-trace-parkway",
+   "name": "Natchez Trace Parkway",
+   "countries": [
+    "US"
+   ],
+   "start": "Natchez, Mississippi",
+   "end": "Nashville, Tennessee",
+   "via": [
+    "Tupelo"
+   ],
+   "km": 715,
+   "duration": "3 days",
+   "best_time": "April to October",
+   "kind": "historic",
+   "summary": "A quiet parkway that follows an ancient trail used by Native Americans and early travellers.",
+   "highlights": [
+    "Emerald Mound",
+    "Mount Locust",
+    "Meriwether Lewis Monument",
+    "Double Arch Bridge",
+    "Tupelo"
+   ],
+   "tip": "Commercial vehicles are banned and services are sparse, so fill up in towns."
+  },
+  {
+   "id": "million-dollar-highway",
+   "name": "Million Dollar Highway",
+   "countries": [
+    "US"
+   ],
+   "start": "Ouray, Colorado",
+   "end": "Silverton, Colorado",
+   "via": [
+    "Red Mountain Pass"
+   ],
+   "km": 40,
+   "duration": "Half a day",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "A white-knuckle section of US-550 with steep drops and no guardrails.",
+   "highlights": [
+    "Red Mountain Pass",
+    "Ouray hot springs",
+    "Bear Creek Falls",
+    "Silverton",
+    "Durango and Silverton Railroad"
+   ],
+   "tip": "Take care in snow and storms; not recommended for nervous drivers."
+  },
+  {
+   "id": "dalton-highway",
+   "name": "Dalton Highway",
+   "countries": [
+    "US"
+   ],
+   "start": "Fox, Alaska",
+   "end": "Deadhorse, Alaska",
+   "via": [
+    "Arctic Circle"
+   ],
+   "km": 666,
+   "duration": "4-5 days",
+   "best_time": "June to August",
+   "kind": "arctic",
+   "summary": "A rugged gravel haul road across the Arctic to the Prudhoe Bay oil fields.",
+   "highlights": [
+    "Yukon River Bridge",
+    "Arctic Circle crossing",
+    "Atigun Pass",
+    "Brooks Range",
+    "Prudhoe Bay"
+   ],
+   "tip": "Services are very far apart; carry spare tyres, food and fuel."
+  },
+  {
+   "id": "alaska-highway",
+   "name": "Alaska Highway",
+   "countries": [
+    "CA",
+    "US"
+   ],
+   "start": "Dawson Creek, British Columbia",
+   "end": "Delta Junction, Alaska",
+   "via": [
+    "Fort Nelson",
+    "Watson Lake",
+    "Whitehorse"
+   ],
+   "km": 2232,
+   "duration": "6-8 days",
+   "best_time": "June to September",
+   "kind": "cross-country",
+   "summary": "A wartime road through northern wilderness with wildlife around every bend.",
+   "highlights": [
+    "Muncho Lake",
+    "Liard River Hot Springs",
+    "Watson Lake Signpost Forest",
+    "Kluane Lake",
+    "Delta Junction"
+   ],
+   "tip": "Fuel and lodging are limited; watch for bison and moose on the road."
+  },
+  {
+   "id": "icefields-parkway",
+   "name": "Icefields Parkway",
+   "countries": [
+    "CA"
+   ],
+   "start": "Lake Louise, Alberta",
+   "end": "Jasper, Alberta",
+   "via": [
+    "Columbia Icefield"
+   ],
+   "km": 232,
+   "duration": "1-2 days",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "One of the world's great mountain drives between Banff and Jasper National Parks.",
+   "highlights": [
+    "Bow Lake",
+    "Peyto Lake",
+    "Columbia Icefield",
+    "Athabasca Falls",
+    "Sunwapta Falls"
+   ],
+   "tip": "A national park pass is needed; use winter tyres in cold months."
+  },
+  {
+   "id": "cabot-trail",
+   "name": "Cabot Trail",
+   "countries": [
+    "CA"
+   ],
+   "start": "Baddeck, Nova Scotia",
+   "end": "Baddeck, Nova Scotia",
+   "via": [
+    "Cheticamp",
+    "Ingonish"
+   ],
+   "km": 298,
+   "duration": "2-3 days",
+   "best_time": "September to October for foliage",
+   "kind": "coastal",
+   "summary": "A loop around Cape Breton Island with ocean cliffs and highland scenery.",
+   "highlights": [
+    "Cape Breton Highlands National Park",
+    "Skyline Trail",
+    "Cheticamp",
+    "Ingonish",
+    "Meat Cove"
+   ],
+   "tip": "Moose cross the road at dusk; autumn weekends are busy."
+  },
+  {
+   "id": "trans-canada-highway",
+   "name": "Trans-Canada Highway",
+   "countries": [
+    "CA"
+   ],
+   "start": "St. John's, Newfoundland",
+   "end": "Victoria, British Columbia",
+   "via": [
+    "Halifax",
+    "Montreal",
+    "Banff",
+    "Vancouver"
+   ],
+   "km": 7800,
+   "duration": "2-3 weeks",
+   "best_time": "June to September",
+   "kind": "cross-country",
+   "summary": "Coast to coast across the world's second-largest country, with two ferry hops.",
+   "highlights": [
+    "Banff National Park",
+    "Lake Superior shore",
+    "Prairie skies",
+    "Thousand Islands region",
+    "Vancouver Island"
+   ],
+   "tip": "The route includes ferries at both ends; allow weeks and watch for winter storms."
+  },
+  {
+   "id": "sea-to-sky-highway",
+   "name": "Sea to Sky Highway",
+   "countries": [
+    "CA"
+   ],
+   "start": "Vancouver, British Columbia",
+   "end": "Whistler, British Columbia",
+   "via": [
+    "Squamish"
+   ],
+   "km": 120,
+   "duration": "1 day",
+   "best_time": "All year",
+   "kind": "mountain",
+   "summary": "A fjord-side road climbing from Vancouver to the mountains of Whistler.",
+   "highlights": [
+    "Shannon Falls",
+    "Sea to Sky Gondola",
+    "Squamish",
+    "Brandywine Falls",
+    "Whistler Village"
+   ],
+   "tip": "Winter tyres are required on many highways from October to April."
+  },
+  {
+   "id": "viking-trail",
+   "name": "Viking Trail (Newfoundland)",
+   "countries": [
+    "CA"
+   ],
+   "start": "Deer Lake, Newfoundland",
+   "end": "St. Anthony, Newfoundland",
+   "via": [
+    "Gros Morne National Park",
+    "Port au Choix"
+   ],
+   "km": 490,
+   "duration": "3-4 days",
+   "best_time": "June to September",
+   "kind": "coastal",
+   "summary": "A road to the northern tip of Newfoundland, ending at a real Viking settlement.",
+   "highlights": [
+    "Gros Morne National Park",
+    "Western Brook Pond",
+    "Port au Choix",
+    "L'Anse aux Meadows",
+    "Iceberg Alley (spring)"
+   ],
+   "tip": "Services are sparse, so refuel often; icebergs are best seen in spring."
+  },
+  {
+   "id": "gaspe-peninsula",
+   "name": "Gaspé Peninsula Loop",
+   "countries": [
+    "CA"
+   ],
+   "start": "Rimouski, Quebec",
+   "end": "Rimouski, Quebec",
+   "via": [
+    "Gaspe",
+    "Perce"
+   ],
+   "km": 900,
+   "duration": "5-7 days",
+   "best_time": "June to September",
+   "kind": "coastal",
+   "summary": "A coastal loop around the Gaspé Peninsula with fishing villages and sea cliffs.",
+   "highlights": [
+    "Forillon National Park",
+    "Perce Rock",
+    "Bonaventure Island",
+    "Gaspesie National Park",
+    "Matane"
+   ],
+   "tip": "Book accommodation early in July and August."
+  },
+  {
+   "id": "pan-american-highway",
+   "name": "Pan-American Highway",
+   "countries": [
+    "CA",
+    "US",
+    "MX",
+    "GT",
+    "SV",
+    "HN",
+    "NI",
+    "CR",
+    "PA",
+    "CO",
+    "EC",
+    "PE",
+    "CL",
+    "AR"
+   ],
+   "start": "Prudhoe Bay, Alaska",
+   "end": "Ushuaia, Argentina",
+   "via": [
+    "Mexico City",
+    "Panama City",
+    "Lima",
+    "Santiago"
+   ],
+   "km": 30000,
+   "duration": "6-12 months",
+   "best_time": "Varies by section",
+   "kind": "cross-country",
+   "summary": "One of the longest roads on Earth, from the Arctic to the tip of South America.",
+   "highlights": [
+    "Alaska wilderness",
+    "Mexican highlands",
+    "Panama Canal",
+    "Andes",
+    "Patagonia"
+   ],
+   "tip": "There is a gap with no road at the Darien Gap between Panama and Colombia, so vehicles are shipped around it."
+  },
+  {
+   "id": "baja-highway-1",
+   "name": "Baja California Highway 1",
+   "countries": [
+    "MX"
+   ],
+   "start": "Tijuana",
+   "end": "Cabo San Lucas",
+   "via": [
+    "Ensenada",
+    "Loreto",
+    "La Paz"
+   ],
+   "km": 1700,
+   "duration": "7-10 days",
+   "best_time": "October to May",
+   "kind": "desert",
+   "summary": "A long peninsula road between desert, mountains and two seas, ending at the tip of Baja.",
+   "highlights": [
+    "Ensenada",
+    "Bahia de los Angeles",
+    "Loreto",
+    "Todos Santos",
+    "Cabo San Lucas"
+   ],
+   "tip": "Fuel stops can be far apart; avoid driving at night because of cattle and potholes."
+  },
+  {
+   "id": "ruta-maya",
+   "name": "Ruta Maya: Cancun to Tikal",
+   "countries": [
+    "MX",
+    "BZ",
+    "GT"
+   ],
+   "start": "Cancun, Mexico",
+   "end": "Tikal, Guatemala",
+   "via": [
+    "Tulum",
+    "Bacalar",
+    "Corozal",
+    "Flores"
+   ],
+   "km": 1000,
+   "duration": "7-10 days",
+   "best_time": "November to April",
+   "kind": "historic",
+   "summary": "A tour of Maya cities and Caribbean coast across three countries.",
+   "highlights": [
+    "Tulum",
+    "Chichen Itza (short detour)",
+    "Bacalar Lagoon",
+    "Caracol",
+    "Tikal"
+   ],
+   "tip": "You cross two international borders, so check vehicle and entry rules."
+  },
+  {
+   "id": "costa-rica-volcano-loop",
+   "name": "Costa Rica Volcano and Cloud Forest Loop",
+   "countries": [
+    "CR"
+   ],
+   "start": "San Jose",
+   "end": "Manuel Antonio",
+   "via": [
+    "La Fortuna",
+    "Monteverde"
+   ],
+   "km": 600,
+   "duration": "7-10 days",
+   "best_time": "December to April",
+   "kind": "mountain",
+   "summary": "Volcanoes, hot springs, cloud forests and a Pacific beach in one small country.",
+   "highlights": [
+    "Arenal Volcano",
+    "La Fortuna Waterfall",
+    "Monteverde Cloud Forest",
+    "Manuel Antonio National Park",
+    "Poas Volcano"
+   ],
+   "tip": "Mountain roads are slow in the rainy season."
+  },
+  {
+   "id": "ruta-40",
+   "name": "Ruta 40",
+   "countries": [
+    "AR"
+   ],
+   "start": "La Quiaca",
+   "end": "Cabo Virgenes",
+   "via": [
+    "Salta",
+    "Mendoza",
+    "El Calafate"
+   ],
+   "km": 5194,
+   "duration": "3-5 weeks",
+   "best_time": "November to March for Patagonia",
+   "kind": "cross-country",
+   "summary": "Argentina's legendary highway along the Andes from the north to the far south.",
+   "highlights": [
+    "Quebrada de Humahuaca",
+    "Cafayate",
+    "Mendoza vineyards",
+    "Perito Moreno Glacier",
+    "Torres del Paine (nearby)"
+   ],
+   "tip": "Long gravel sections and strong Patagonian winds; fuel and tyres need planning."
+  },
+  {
+   "id": "carretera-austral",
+   "name": "Carretera Austral",
+   "countries": [
+    "CL"
+   ],
+   "start": "Puerto Montt",
+   "end": "Villa O'Higgins",
+   "via": [
+    "Chaiten",
+    "Coyhaique",
+    "Cochrane"
+   ],
+   "km": 1240,
+   "duration": "10-14 days",
+   "best_time": "November to March",
+   "kind": "scenic",
+   "summary": "A remote Patagonian road through fjords, glaciers and temperate rainforest.",
+   "highlights": [
+    "Pumalin Douglas Tompkins National Park",
+    "Queulat Hanging Glacier",
+    "Marble Caves",
+    "Cerro Castillo",
+    "Caleta Tortel"
+   ],
+   "tip": "Mostly gravel, and some links need ferries; book ahead in summer."
+  },
+  {
+   "id": "uyuni-southwest-circuit",
+   "name": "Salar de Uyuni and the Southwest Circuit",
+   "countries": [
+    "BO"
+   ],
+   "start": "Uyuni",
+   "end": "Uyuni",
+   "via": [
+    "Laguna Colorada",
+    "Sol de Manana"
+   ],
+   "km": 500,
+   "duration": "3-4 days",
+   "best_time": "May to October",
+   "kind": "desert",
+   "summary": "A 4x4 journey across the world's largest salt flat and colourful high-altitude lagoons.",
+   "highlights": [
+    "Train Cemetery",
+    "Salar de Uyuni",
+    "Laguna Colorada",
+    "Sol de Manana geysers",
+    "Laguna Verde"
+   ],
+   "tip": "Go with a guide and a good vehicle; altitudes are above 4,000 metres."
+  },
+  {
+   "id": "death-road-yungas",
+   "name": "North Yungas Road (Death Road)",
+   "countries": [
+    "BO"
+   ],
+   "start": "La Paz",
+   "end": "Coroico",
+   "via": [
+    "La Cumbre"
+   ],
+   "km": 64,
+   "duration": "1 day",
+   "best_time": "May to September",
+   "kind": "mountain",
+   "summary": "A dramatic descent from the Andes into the Amazon valleys, now popular for guided cycling.",
+   "highlights": [
+    "La Cumbre Pass",
+    "cloud forest",
+    "Yungas valleys",
+    "Coroico"
+   ],
+   "tip": "Use a reputable operator; the road is narrow with steep drops."
+  },
+  {
+   "id": "seven-lakes-route",
+   "name": "Route of the Seven Lakes",
+   "countries": [
+    "AR"
+   ],
+   "start": "San Martin de los Andes",
+   "end": "Villa La Angostura",
+   "via": [
+    "Lago Machonico"
+   ],
+   "km": 107,
+   "duration": "1 day",
+   "best_time": "October to April",
+   "kind": "scenic",
+   "summary": "A short lakeside road through Patagonian forests, lakes and mountains.",
+   "highlights": [
+    "Lago Lacar",
+    "Lago Machonico",
+    "Lago Falkner",
+    "Lago Villarino",
+    "Lago Correntoso"
+   ],
+   "tip": "Part of the road is gravel; stop at the miradores for views."
+  },
+  {
+   "id": "salta-cafayate",
+   "name": "Salta to Cafayate (Ruta 68)",
+   "countries": [
+    "AR"
+   ],
+   "start": "Salta",
+   "end": "Cafayate",
+   "via": [
+    "Quebrada de las Conchas"
+   ],
+   "km": 190,
+   "duration": "1-2 days",
+   "best_time": "All year",
+   "kind": "desert",
+   "summary": "Red rock canyons and high-altitude vineyards in northwest Argentina.",
+   "highlights": [
+    "Quebrada de las Conchas",
+    "Garganta del Diablo",
+    "Los Castillos",
+    "Cafayate wineries (Torrontes)"
+   ],
+   "tip": "Flash floods can close roads in the summer rains."
+  },
+  {
+   "id": "lima-cusco-southern-peru",
+   "name": "Southern Peru: Lima to Cusco",
+   "countries": [
+    "PE"
+   ],
+   "start": "Lima",
+   "end": "Cusco",
+   "via": [
+    "Paracas",
+    "Nazca",
+    "Arequipa",
+    "Colca Canyon"
+   ],
+   "km": 1800,
+   "duration": "10-14 days",
+   "best_time": "May to September",
+   "kind": "historic",
+   "summary": "The classic route past desert coast, ancient lines, volcano-ringed Arequipa and the Inca capital.",
+   "highlights": [
+    "Paracas National Reserve",
+    "Nazca Lines",
+    "Arequipa",
+    "Colca Canyon",
+    "Cusco",
+    "Sacred Valley"
+   ],
+   "tip": "Altitude rises quickly; allow time to acclimatise in Cusco."
+  },
+  {
+   "id": "avenue-of-the-volcanoes",
+   "name": "Avenue of the Volcanoes",
+   "countries": [
+    "EC"
+   ],
+   "start": "Quito",
+   "end": "Cuenca",
+   "via": [
+    "Cotopaxi",
+    "Banos",
+    "Riobamba"
+   ],
+   "km": 450,
+   "duration": "5-7 days",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "A highland road lined with snow-capped volcanoes, markets and thermal baths.",
+   "highlights": [
+    "Cotopaxi",
+    "Quilotoa Loop",
+    "Banos",
+    "Chimborazo",
+    "Ingapirca",
+    "Cuenca"
+   ],
+   "tip": "Altitude is high and mountain weather changes fast."
+  },
+  {
+   "id": "rio-santos",
+   "name": "Rio-Santos Coastal Road",
+   "countries": [
+    "BR"
+   ],
+   "start": "Rio de Janeiro",
+   "end": "Santos",
+   "via": [
+    "Angra dos Reis",
+    "Paraty",
+    "Ubatuba"
+   ],
+   "km": 500,
+   "duration": "3-4 days",
+   "best_time": "April to October",
+   "kind": "coastal",
+   "summary": "Rainforest-covered mountains meeting beaches and colonial towns on the Costa Verde.",
+   "highlights": [
+    "Angra dos Reis",
+    "Ilha Grande (by boat)",
+    "Paraty historic centre",
+    "Ubatuba beaches"
+   ],
+   "tip": "Holiday weekends bring heavy traffic; bring insect repellent for the beaches."
+  },
+  {
+   "id": "uruguay-atlantic-coast",
+   "name": "Uruguay's Atlantic Coast",
+   "countries": [
+    "UY"
+   ],
+   "start": "Punta del Este",
+   "end": "Punta del Diablo",
+   "via": [
+    "Jose Ignacio",
+    "Cabo Polonio",
+    "La Paloma"
+   ],
+   "km": 330,
+   "duration": "3-4 days",
+   "best_time": "December to March",
+   "kind": "coastal",
+   "summary": "Dunes, lighthouses and beach towns along the Rocha coast.",
+   "highlights": [
+    "Jose Ignacio",
+    "Cabo Polonio",
+    "La Paloma",
+    "Santa Teresa National Park",
+    "Punta del Diablo"
+   ],
+   "tip": "Cabo Polonio is reached on foot or by 4x4 across the dunes."
+  },
+  {
+   "id": "iceland-ring-road",
+   "name": "Iceland Ring Road (Route 1)",
+   "countries": [
+    "IS"
+   ],
+   "start": "Reykjavik",
+   "end": "Reykjavik",
+   "via": [
+    "Vik",
+    "Hofn",
+    "Akureyri"
+   ],
+   "km": 1332,
+   "duration": "7-10 days",
+   "best_time": "June to August; December to February for aurora",
+   "kind": "scenic",
+   "summary": "A circuit of the whole island with glaciers, waterfalls, volcanoes and black sand beaches.",
+   "highlights": [
+    "Seljalandsfoss",
+    "Skogafoss",
+    "Jokulsarlon Glacier Lagoon",
+    "Lake Myvatn",
+    "Akureyri",
+    "Golden Circle"
+   ],
+   "tip": "Winter storms close roads; gravel F-roads need 4x4 vehicles and are for summer only."
+  },
+  {
+   "id": "north-coast-500",
+   "name": "North Coast 500",
+   "countries": [
+    "GB"
+   ],
+   "start": "Inverness, Scotland",
+   "end": "Inverness, Scotland",
+   "via": [
+    "Applecross",
+    "Durness",
+    "John o' Groats"
+   ],
+   "km": 830,
+   "duration": "5-7 days",
+   "best_time": "May to September",
+   "kind": "coastal",
+   "summary": "Scotland's answer to Route 66: castles, beaches and dramatic Highland roads.",
+   "highlights": [
+    "Bealach na Ba pass",
+    "Smoo Cave",
+    "Dunrobin Castle",
+    "John o' Groats",
+    "Torridon"
+   ],
+   "tip": "Many single-track roads, so use passing places and book lodging early."
+  },
+  {
+   "id": "wild-atlantic-way",
+   "name": "Wild Atlantic Way",
+   "countries": [
+    "IE"
+   ],
+   "start": "Malin Head, Donegal",
+   "end": "Kinsale, Cork",
+   "via": [
+    "Sligo",
+    "Galway",
+    "Dingle"
+   ],
+   "km": 2500,
+   "duration": "10-14 days",
+   "best_time": "May to September",
+   "kind": "coastal",
+   "summary": "One of the world's longest coastal routes, following Ireland's rugged west coast.",
+   "highlights": [
+    "Slieve League",
+    "Cliffs of Moher",
+    "Connemara",
+    "Dingle Peninsula",
+    "Ring of Kerry"
+   ],
+   "tip": "Roads are narrow and weather changes quickly; allow extra time."
+  },
+  {
+   "id": "ring-of-kerry",
+   "name": "Ring of Kerry",
+   "countries": [
+    "IE"
+   ],
+   "start": "Killarney",
+   "end": "Killarney",
+   "via": [
+    "Cahersiveen",
+    "Waterville"
+   ],
+   "km": 179,
+   "duration": "1-2 days",
+   "best_time": "May to September",
+   "kind": "coastal",
+   "summary": "A loop around the Iveragh Peninsula with lakes, mountains and ocean views.",
+   "highlights": [
+    "Killarney National Park",
+    "Ladies View",
+    "Valentia Island",
+    "Staigue Fort",
+    "Derrynane"
+   ],
+   "tip": "Tour buses travel counter-clockwise, so drive the same direction to avoid squeezes."
+  },
+  {
+   "id": "causeway-coastal-route",
+   "name": "Causeway Coastal Route",
+   "countries": [
+    "GB"
+   ],
+   "start": "Belfast",
+   "end": "Derry~Londonderry",
+   "via": [
+    "Ballycastle",
+    "Portrush"
+   ],
+   "km": 190,
+   "duration": "2 days",
+   "best_time": "April to October",
+   "kind": "coastal",
+   "summary": "A dramatic coast road in Northern Ireland, famous for its filming locations.",
+   "highlights": [
+    "Carrick-a-Rede Rope Bridge",
+    "Giant's Causeway",
+    "Dunluce Castle",
+    "Dark Hedges",
+    "Mussenden Temple"
+   ],
+   "tip": "Book timed tickets for popular sites in summer."
+  },
+  {
+   "id": "route-des-grandes-alpes",
+   "name": "Route des Grandes Alpes",
+   "countries": [
+    "FR"
+   ],
+   "start": "Thonon-les-Bains",
+   "end": "Menton",
+   "via": [
+    "Chamonix",
+    "Col du Galibier",
+    "Barcelonnette"
+   ],
+   "km": 684,
+   "duration": "5-7 days",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "A high-mountain drive crossing 16 passes from Lake Geneva to the Mediterranean.",
+   "highlights": [
+    "Col de l'Iseran",
+    "Col du Galibier",
+    "Col d'Izoard",
+    "Gorges du Cians",
+    "Menton"
+   ],
+   "tip": "Most passes are closed by snow from about October to May."
+  },
+  {
+   "id": "romantic-road",
+   "name": "Romantic Road",
+   "countries": [
+    "DE"
+   ],
+   "start": "Wurzburg",
+   "end": "Fussen",
+   "via": [
+    "Rothenburg ob der Tauber",
+    "Augsburg"
+   ],
+   "km": 460,
+   "duration": "3-4 days",
+   "best_time": "April to October",
+   "kind": "historic",
+   "summary": "A route through half-timbered towns and fairy-tale castles in southern Germany.",
+   "highlights": [
+    "Rothenburg ob der Tauber",
+    "Nordlingen",
+    "Augsburg",
+    "Wieskirche",
+    "Neuschwanstein Castle"
+   ],
+   "tip": "Neuschwanstein tickets sell out in summer, so reserve ahead."
+  },
+  {
+   "id": "black-forest-high-road",
+   "name": "Black Forest High Road",
+   "countries": [
+    "DE"
+   ],
+   "start": "Baden-Baden",
+   "end": "Freudenstadt",
+   "via": [
+    "Mummelsee"
+   ],
+   "km": 60,
+   "duration": "1 day",
+   "best_time": "May to October",
+   "kind": "mountain",
+   "summary": "A ridge road through dark forests with views over the Rhine plain.",
+   "highlights": [
+    "Mummelsee",
+    "Hornisgrinde",
+    "Allerheiligen Waterfalls",
+    "Freudenstadt market square"
+   ],
+   "tip": "Snow may close the road in winter."
+  },
+  {
+   "id": "amalfi-coast-road",
+   "name": "Amalfi Coast Road (SS163)",
+   "countries": [
+    "IT"
+   ],
+   "start": "Sorrento",
+   "end": "Salerno",
+   "via": [
+    "Positano",
+    "Amalfi",
+    "Ravello"
+   ],
+   "km": 50,
+   "duration": "1-2 days",
+   "best_time": "April to June; September",
+   "kind": "coastal",
+   "summary": "Cliffside hairpins above the sea, through lemon groves and pastel villages.",
+   "highlights": [
+    "Positano",
+    "Praiano",
+    "Amalfi Cathedral",
+    "Ravello gardens",
+    "Atrani"
+   ],
+   "tip": "The road is very narrow with heavy bus traffic, so avoid July and August."
+  },
+  {
+   "id": "great-dolomites-road",
+   "name": "Great Dolomites Road",
+   "countries": [
+    "IT"
+   ],
+   "start": "Bolzano",
+   "end": "Cortina d'Ampezzo",
+   "via": [
+    "Pordoi Pass"
+   ],
+   "km": 110,
+   "duration": "1-2 days",
+   "best_time": "June to October",
+   "kind": "mountain",
+   "summary": "Jagged limestone peaks and high passes in the Italian Alps.",
+   "highlights": [
+    "Karersee (Lake Carezza)",
+    "Pordoi Pass",
+    "Sella Group",
+    "Cortina d'Ampezzo",
+    "Lago di Misurina"
+   ],
+   "tip": "Passes close in winter; mountain weather can change quickly."
+  },
+  {
+   "id": "tuscany-val-dorcia",
+   "name": "Tuscany: Chianti to Val d'Orcia",
+   "countries": [
+    "IT"
+   ],
+   "start": "Florence",
+   "end": "Montepulciano",
+   "via": [
+    "Greve in Chianti",
+    "Siena",
+    "Pienza"
+   ],
+   "km": 170,
+   "duration": "2-3 days",
+   "best_time": "April to June; September to October",
+   "kind": "scenic",
+   "summary": "Cypress-lined roads through vineyards, hill towns and rolling farmland.",
+   "highlights": [
+    "Greve in Chianti",
+    "Siena",
+    "San Gimignano",
+    "Montalcino",
+    "Pienza",
+    "Montepulciano"
+   ],
+   "tip": "Avoid city centres with restricted driving zones (ZTL)."
+  },
+  {
+   "id": "grossglockner-road",
+   "name": "Grossglockner High Alpine Road",
+   "countries": [
+    "AT"
+   ],
+   "start": "Bruck an der Grossglocknerstrasse",
+   "end": "Heiligenblut",
+   "via": [
+    "Fuscher Torl"
+   ],
+   "km": 48,
+   "duration": "1 day",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "Austria's highest paved mountain road, climbing to 2,500 metres.",
+   "highlights": [
+    "Fuscher Torl",
+    "Edelweiss Peak",
+    "Kaiser-Franz-Josefs-Hohe",
+    "Pasterze Glacier"
+   ],
+   "tip": "A toll applies and the road is closed in winter."
+  },
+  {
+   "id": "transfagarasan",
+   "name": "Transfagarasan",
+   "countries": [
+    "RO"
+   ],
+   "start": "Bascov",
+   "end": "Carta",
+   "via": [
+    "Vidraru Dam",
+    "Balea Lake"
+   ],
+   "km": 90,
+   "duration": "1 day",
+   "best_time": "July to September",
+   "kind": "mountain",
+   "summary": "A winding mountain road across the Carpathians with hairpin after hairpin.",
+   "highlights": [
+    "Vidraru Dam",
+    "Poenari Castle",
+    "Balea Lake",
+    "Balea Waterfall"
+   ],
+   "tip": "Open only in summer; closed from about October to June."
+  },
+  {
+   "id": "transalpina",
+   "name": "Transalpina (DN67C)",
+   "countries": [
+    "RO"
+   ],
+   "start": "Bumbesti-Jiu",
+   "end": "Sebes",
+   "via": [
+    "Ranca"
+   ],
+   "km": 148,
+   "duration": "1 day",
+   "best_time": "July to September",
+   "kind": "mountain",
+   "summary": "Romania's highest road, crossing the Parang Mountains at over 2,100 metres.",
+   "highlights": [
+    "Urdele Pass",
+    "Ranca resort",
+    "Parang Mountains",
+    "Sebes"
+   ],
+   "tip": "Closed to traffic by snow in winter."
+  },
+  {
+   "id": "adriatic-highway",
+   "name": "Croatia's Adriatic Highway (D8)",
+   "countries": [
+    "HR"
+   ],
+   "start": "Rijeka",
+   "end": "Dubrovnik",
+   "via": [
+    "Zadar",
+    "Split",
+    "Makarska"
+   ],
+   "km": 650,
+   "duration": "5-7 days",
+   "best_time": "May to June; September",
+   "kind": "coastal",
+   "summary": "A road down the Dalmatian coast between limestone cliffs and the blue Adriatic.",
+   "highlights": [
+    "Zadar",
+    "Krka National Park",
+    "Split",
+    "Makarska Riviera",
+    "Peljesac Bridge",
+    "Dubrovnik"
+   ],
+   "tip": "Summer traffic and ferry queues are heavy."
+  },
+  {
+   "id": "grand-tour-of-switzerland",
+   "name": "Grand Tour of Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "start": "Zurich",
+   "end": "Zurich",
+   "via": [
+    "Lucerne",
+    "Zermatt",
+    "Lausanne",
+    "St. Moritz"
+   ],
+   "km": 1643,
+   "duration": "8-10 days",
+   "best_time": "June to September",
+   "kind": "scenic",
+   "summary": "A circuit through lakes, Alpine passes and mountain resorts.",
+   "highlights": [
+    "Matterhorn views",
+    "Lake Geneva",
+    "Bernina Pass",
+    "Rhine Falls",
+    "Lucerne",
+    "Jungfrau region"
+   ],
+   "tip": "A motorway vignette is needed; high passes close in winter."
+  },
+  {
+   "id": "norway-atlantic-trollstigen",
+   "name": "Atlantic Road, Trollstigen and Geirangerfjord",
+   "countries": [
+    "NO"
+   ],
+   "start": "Kristiansund",
+   "end": "Geiranger",
+   "via": [
+    "Andalsnes",
+    "Trollstigen"
+   ],
+   "km": 300,
+   "duration": "3 days",
+   "best_time": "June to September",
+   "kind": "scenic",
+   "summary": "Bridges over the sea, a 'troll's ladder' of hairpins and one of the world's great fjords.",
+   "highlights": [
+    "Atlantic Ocean Road",
+    "Trollstigen",
+    "Trollveggen",
+    "Ornesvingen viewpoint",
+    "Geirangerfjord"
+   ],
+   "tip": "Mountain roads open only in summer; ferries run to schedule."
+  },
+  {
+   "id": "lofoten-e10",
+   "name": "Lofoten Islands (E10)",
+   "countries": [
+    "NO"
+   ],
+   "start": "Svolvaer",
+   "end": "A i Lofoten",
+   "via": [
+    "Henningsvaer",
+    "Nusfjord",
+    "Reine"
+   ],
+   "km": 170,
+   "duration": "2-3 days",
+   "best_time": "June to August; February to March for aurora",
+   "kind": "island",
+   "summary": "A road of fishing villages and jagged peaks above the Arctic Circle.",
+   "highlights": [
+    "Henningsvaer",
+    "Nusfjord",
+    "Reine",
+    "Haukland Beach",
+    "Hamnoy"
+   ],
+   "tip": "Winter driving can be icy; midnight sun lasts from late May to July."
+  },
+  {
+   "id": "nordkapp-road",
+   "name": "North Cape Road",
+   "countries": [
+    "FI",
+    "NO"
+   ],
+   "start": "Rovaniemi, Finland",
+   "end": "North Cape, Norway",
+   "via": [
+    "Inari",
+    "Karasjok",
+    "Honningsvag"
+   ],
+   "km": 1000,
+   "duration": "4-5 days",
+   "best_time": "June to August",
+   "kind": "arctic",
+   "summary": "Across Lapland to the northernmost point of mainland Europe.",
+   "highlights": [
+    "Santa Claus Village",
+    "Inari",
+    "Karasjok Sami Parliament",
+    "Honningsvag",
+    "North Cape"
+   ],
+   "tip": "Reindeer wander on the road; distances between fuel stops can be long."
+  },
+  {
+   "id": "portugal-n2",
+   "name": "Portugal's N2",
+   "countries": [
+    "PT"
+   ],
+   "start": "Chaves",
+   "end": "Faro",
+   "via": [
+    "Vila Real",
+    "Viseu",
+    "Faro"
+   ],
+   "km": 739,
+   "duration": "7-10 days",
+   "best_time": "April to June; September to October",
+   "kind": "cross-country",
+   "summary": "Portugal's answer to Route 66, running the length of the country on one road.",
+   "highlights": [
+    "Chaves",
+    "Douro wine region",
+    "Vila Real",
+    "Viseu",
+    "Algarve at Faro"
+   ],
+   "tip": "A slow, winding road, so allow time and book places in small villages."
+  },
+  {
+   "id": "route-napoleon",
+   "name": "Route Napoleon",
+   "countries": [
+    "FR"
+   ],
+   "start": "Golfe-Juan",
+   "end": "Grenoble",
+   "via": [
+    "Grasse",
+    "Castellane",
+    "Digne-les-Bains",
+    "Gap"
+   ],
+   "km": 325,
+   "duration": "2 days",
+   "best_time": "May to September",
+   "kind": "historic",
+   "summary": "Follow Napoleon's 1815 return from exile through Provence and the Alps.",
+   "highlights": [
+    "Grasse",
+    "Castellane and the Verdon Gorge",
+    "Digne-les-Bains",
+    "Gap",
+    "Grenoble"
+   ],
+   "tip": "Mountain passes can be icy outside summer."
+  },
+  {
+   "id": "andalusia-white-villages",
+   "name": "Andalusia's White Villages",
+   "countries": [
+    "ES"
+   ],
+   "start": "Arcos de la Frontera",
+   "end": "Ronda",
+   "via": [
+    "Grazalema",
+    "Zahara de la Sierra",
+    "Setenil"
+   ],
+   "km": 200,
+   "duration": "2-3 days",
+   "best_time": "March to May; September to October",
+   "kind": "historic",
+   "summary": "Whitewashed hill towns and cave-houses in the mountains of Cadiz and Malaga.",
+   "highlights": [
+    "Arcos de la Frontera",
+    "Zahara de la Sierra",
+    "Grazalema",
+    "Setenil de las Bodegas",
+    "Ronda"
+   ],
+   "tip": "Narrow village streets are hard to drive; park outside and walk."
+  },
+  {
+   "id": "peloponnese-loop",
+   "name": "Peloponnese Loop",
+   "countries": [
+    "GR"
+   ],
+   "start": "Athens",
+   "end": "Athens",
+   "via": [
+    "Nafplio",
+    "Mystras",
+    "Olympia"
+   ],
+   "km": 800,
+   "duration": "5-7 days",
+   "best_time": "April to June; September to October",
+   "kind": "historic",
+   "summary": "Ancient sites, castles and coastal villages south of Athens.",
+   "highlights": [
+    "Corinth Canal",
+    "Mycenae",
+    "Epidaurus Theatre",
+    "Mystras",
+    "Olympia",
+    "Monemvasia"
+   ],
+   "tip": "Midsummer heat is intense; plan sightseeing for mornings."
+  },
+  {
+   "id": "georgian-military-road",
+   "name": "Georgian Military Road",
+   "countries": [
+    "GE"
+   ],
+   "start": "Tbilisi",
+   "end": "Stepantsminda (Kazbegi)",
+   "via": [
+    "Ananuri",
+    "Gudauri"
+   ],
+   "km": 150,
+   "duration": "1-2 days",
+   "best_time": "June to October",
+   "kind": "mountain",
+   "summary": "A historic road through the Greater Caucasus to the foot of Mount Kazbek.",
+   "highlights": [
+    "Ananuri Fortress",
+    "Gudauri",
+    "Jvari Pass",
+    "Gergeti Trinity Church",
+    "Mount Kazbek views"
+   ],
+   "tip": "Snow and landslides can close the road, so check conditions."
+  },
+  {
+   "id": "turquoise-coast-d400",
+   "name": "Turquoise Coast (D400)",
+   "countries": [
+    "TR"
+   ],
+   "start": "Antalya",
+   "end": "Marmaris",
+   "via": [
+    "Olympos",
+    "Kas",
+    "Fethiye"
+   ],
+   "km": 450,
+   "duration": "4-5 days",
+   "best_time": "April to June; September to October",
+   "kind": "coastal",
+   "summary": "A winding coast road between pine-covered mountains and clear Mediterranean bays.",
+   "highlights": [
+    "Olympos and Chimaera",
+    "Kas",
+    "Patara Beach",
+    "Oludeniz",
+    "Fethiye"
+   ],
+   "tip": "Roads are winding and busy in summer."
+  },
+  {
+   "id": "albanian-riviera",
+   "name": "Albanian Riviera (SH8)",
+   "countries": [
+    "AL"
+   ],
+   "start": "Vlore",
+   "end": "Sarande",
+   "via": [
+    "Llogara Pass",
+    "Himare",
+    "Dhermi"
+   ],
+   "km": 130,
+   "duration": "1-2 days",
+   "best_time": "June to September",
+   "kind": "coastal",
+   "summary": "A mountain road above the Ionian Sea with hidden beaches.",
+   "highlights": [
+    "Llogara Pass",
+    "Dhermi",
+    "Himare",
+    "Ksamil",
+    "Butrint archaeological site"
+   ],
+   "tip": "Mountain bends are tight; take care with passing."
+  },
+  {
+   "id": "kotor-serpentine-lovcen",
+   "name": "Kotor Serpentine to Lovcen and Cetinje",
+   "countries": [
+    "ME"
+   ],
+   "start": "Kotor",
+   "end": "Cetinje",
+   "via": [
+    "Njegusi",
+    "Lovcen National Park"
+   ],
+   "km": 35,
+   "duration": "1 day",
+   "best_time": "May to October",
+   "kind": "mountain",
+   "summary": "A road with 25 hairpin bends climbing above the Bay of Kotor.",
+   "highlights": [
+    "Kotor Serpentine",
+    "Njegusi village",
+    "Lovcen National Park",
+    "Njegos Mausoleum",
+    "Cetinje"
+   ],
+   "tip": "The road is narrow; avoid driving in thick fog."
+  },
+  {
+   "id": "vrsic-pass-soca",
+   "name": "Vrsic Pass and the Soca Valley",
+   "countries": [
+    "SI"
+   ],
+   "start": "Kranjska Gora",
+   "end": "Bovec",
+   "via": [
+    "Vrsic Pass"
+   ],
+   "km": 50,
+   "duration": "1 day",
+   "best_time": "June to October",
+   "kind": "mountain",
+   "summary": "Slovenia's highest road pass leads to the emerald Soca River.",
+   "highlights": [
+    "Russian Chapel",
+    "Vrsic Pass",
+    "Trenta Valley",
+    "Soca River",
+    "Bovec"
+   ],
+   "tip": "The old stone-paved hairpins are steep; snow closes the pass in winter."
+  },
+  {
+   "id": "troodos-mountains",
+   "name": "Troodos Mountains Drive",
+   "countries": [
+    "CY"
+   ],
+   "start": "Limassol",
+   "end": "Kykkos Monastery",
+   "via": [
+    "Troodos",
+    "Platres"
+   ],
+   "km": 150,
+   "duration": "1-2 days",
+   "best_time": "April to October",
+   "kind": "mountain",
+   "summary": "Pine forests, wine villages and painted Byzantine churches above the Cyprus coast.",
+   "highlights": [
+    "Troodos Square",
+    "Kykkos Monastery",
+    "Omodos village",
+    "Painted Churches",
+    "Caledonia Falls"
+   ],
+   "tip": "Winter snow can close higher roads."
+  },
+  {
+   "id": "karakoram-highway",
+   "name": "Karakoram Highway",
+   "countries": [
+    "PK",
+    "CN"
+   ],
+   "start": "Islamabad, Pakistan",
+   "end": "Kashgar, China",
+   "via": [
+    "Hunza",
+    "Sost",
+    "Khunjerab Pass"
+   ],
+   "km": 1300,
+   "duration": "7-10 days",
+   "best_time": "May to October",
+   "kind": "mountain",
+   "summary": "The world's highest paved international road, through the Himalaya, Karakoram and Hindu Kush.",
+   "highlights": [
+    "Hunza Valley",
+    "Attabad Lake",
+    "Passu Cones",
+    "Khunjerab Pass",
+    "Karakul Lake",
+    "Kashgar"
+   ],
+   "tip": "Landslides and border-pass closures are common; check permits and current advice."
+  },
+  {
+   "id": "pamir-highway",
+   "name": "Pamir Highway",
+   "countries": [
+    "TJ",
+    "KG"
+   ],
+   "start": "Dushanbe, Tajikistan",
+   "end": "Osh, Kyrgyzstan",
+   "via": [
+    "Khorog",
+    "Murghab",
+    "Sary-Tash"
+   ],
+   "km": 1250,
+   "duration": "10-14 days",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "A high road across the roof of the world, among Central Asia's finest mountain scenery.",
+   "highlights": [
+    "Wakhan Valley",
+    "Khorog",
+    "Ak-Baital Pass",
+    "Karakul Lake",
+    "Murghab",
+    "Sary-Tash"
+   ],
+   "tip": "Permits are needed for the Pamir region; altitude is extreme and fuel is scarce."
+  },
+  {
+   "id": "manali-leh-highway",
+   "name": "Manali-Leh Highway",
+   "countries": [
+    "IN"
+   ],
+   "start": "Manali",
+   "end": "Leh",
+   "via": [
+    "Keylong",
+    "Sarchu"
+   ],
+   "km": 479,
+   "duration": "2-3 days",
+   "best_time": "June to September",
+   "kind": "mountain",
+   "summary": "One of the world's highest roads, crossing passes above 5,000 metres in the Himalaya.",
+   "highlights": [
+    "Atal Tunnel",
+    "Baralacha La",
+    "Sarchu",
+    "Tanglang La",
+    "Leh"
+   ],
+   "tip": "Open only in summer; altitude sickness is a real risk, so acclimatise."
+  },
+  {
+   "id": "sichuan-tibet-g318",
+   "name": "Sichuan-Tibet Highway (G318)",
+   "countries": [
+    "CN"
+   ],
+   "start": "Chengdu",
+   "end": "Lhasa",
+   "via": [
+    "Kangding",
+    "Litang",
+    "Nyingchi"
+   ],
+   "km": 2150,
+   "duration": "10-14 days",
+   "best_time": "April to October",
+   "kind": "mountain",
+   "summary": "One of China's most famous drives, through gorges and high plateaus to Lhasa.",
+   "highlights": [
+    "Kangding",
+    "Litang",
+    "Bomi",
+    "Nyingchi",
+    "Yamdrok Lake",
+    "Lhasa"
+   ],
+   "tip": "Foreign visitors need Tibet travel permits and usually a guide."
+  },
+  {
+   "id": "friendship-highway",
+   "name": "Friendship Highway",
+   "countries": [
+    "CN",
+    "NP"
+   ],
+   "start": "Lhasa, Tibet",
+   "end": "Kathmandu, Nepal",
+   "via": [
+    "Gyantse",
+    "Shigatse",
+    "Everest Base Camp"
+   ],
+   "km": 800,
+   "duration": "5-7 days",
+   "best_time": "April to October",
+   "kind": "mountain",
+   "summary": "From Lhasa across the Tibetan plateau past Everest to Kathmandu.",
+   "highlights": [
+    "Yamdrok Lake",
+    "Gyantse Kumbum",
+    "Tashilhunpo Monastery",
+    "Everest Base Camp (Tibet)",
+    "Kathmandu"
+   ],
+   "tip": "Permits are required and the border crossing status varies; check current rules."
+  },
+  {
+   "id": "mae-hong-son-loop",
+   "name": "Mae Hong Son Loop",
+   "countries": [
+    "TH"
+   ],
+   "start": "Chiang Mai",
+   "end": "Chiang Mai",
+   "via": [
+    "Pai",
+    "Mae Hong Son",
+    "Mae Sariang"
+   ],
+   "km": 600,
+   "duration": "3-5 days",
+   "best_time": "November to February",
+   "kind": "mountain",
+   "summary": "A loop of mountain curves, Shan villages and misty valleys in northern Thailand.",
+   "highlights": [
+    "Pai",
+    "Mae Hong Son",
+    "Doi Inthanon",
+    "Mae Sariang",
+    "hot springs"
+   ],
+   "tip": "Steep bends need care, especially in the rain; wear a helmet if riding."
+  },
+  {
+   "id": "ha-giang-loop",
+   "name": "Ha Giang Loop",
+   "countries": [
+    "VN"
+   ],
+   "start": "Ha Giang",
+   "end": "Ha Giang",
+   "via": [
+    "Quan Ba",
+    "Dong Van",
+    "Meo Vac"
+   ],
+   "km": 350,
+   "duration": "3-4 days",
+   "best_time": "September to November; March to April",
+   "kind": "mountain",
+   "summary": "Vietnam's most dramatic mountain loop, through limestone karst and rice terraces.",
+   "highlights": [
+    "Quan Ba Heaven's Gate",
+    "Dong Van Karst Plateau",
+    "Ma Pi Leng Pass",
+    "Nho Que River",
+    "Lung Cu Flag Tower"
+   ],
+   "tip": "Steep, foggy roads; many visitors hire a local rider as driver."
+  },
+  {
+   "id": "hai-van-pass",
+   "name": "Hai Van Pass and Central Vietnam Coast",
+   "countries": [
+    "VN"
+   ],
+   "start": "Hue",
+   "end": "Hoi An",
+   "via": [
+    "Hai Van Pass",
+    "Da Nang"
+   ],
+   "km": 125,
+   "duration": "1-2 days",
+   "best_time": "February to August",
+   "kind": "coastal",
+   "summary": "A coastal pass through clouds, with beaches and heritage towns at each end.",
+   "highlights": [
+    "Hai Van Pass",
+    "Lang Co Beach",
+    "Marble Mountains",
+    "Da Nang Dragon Bridge",
+    "Hoi An Ancient Town"
+   ],
+   "tip": "Fog and rain are common at the top of the pass."
+  },
+  {
+   "id": "bolaven-plateau-loop",
+   "name": "Bolaven Plateau Loop",
+   "countries": [
+    "LA"
+   ],
+   "start": "Pakse",
+   "end": "Pakse",
+   "via": [
+    "Paksong",
+    "Tad Lo"
+   ],
+   "km": 300,
+   "duration": "2-3 days",
+   "best_time": "November to February",
+   "kind": "scenic",
+   "summary": "Waterfalls, coffee plantations and minority villages on a cool highland plateau.",
+   "highlights": [
+    "Tad Fane Falls",
+    "Paksong coffee farms",
+    "Tad Lo",
+    "Tad Yuang",
+    "Tad Champi"
+   ],
+   "tip": "Roads can be rough after rain."
+  },
+  {
+   "id": "shimanami-kaido",
+   "name": "Shimanami Kaido",
+   "countries": [
+    "JP"
+   ],
+   "start": "Onomichi, Hiroshima",
+   "end": "Imabari, Ehime",
+   "via": [
+    "Innoshima",
+    "Omishima"
+   ],
+   "km": 60,
+   "duration": "1-2 days",
+   "best_time": "March to May; October to November",
+   "kind": "island",
+   "summary": "A string of bridges linking islands across the Seto Inland Sea, loved by drivers and cyclists.",
+   "highlights": [
+    "Tatara Bridge",
+    "Omishima",
+    "Ikuchijima",
+    "Kurushima-Kaikyo Bridge",
+    "Imabari"
+   ],
+   "tip": "Cycling and driving both work; tolls apply for cars."
+  },
+  {
+   "id": "kings-highway-jordan",
+   "name": "King's Highway (Jordan)",
+   "countries": [
+    "JO"
+   ],
+   "start": "Madaba",
+   "end": "Petra",
+   "via": [
+    "Karak",
+    "Dana",
+    "Shobak"
+   ],
+   "km": 250,
+   "duration": "2 days",
+   "best_time": "March to May; October to November",
+   "kind": "historic",
+   "summary": "A 3,000-year-old route through biblical sites, crusader castles and canyons to Petra.",
+   "highlights": [
+    "Mount Nebo",
+    "Madaba mosaics",
+    "Karak Castle",
+    "Dana Biosphere Reserve",
+    "Shobak Castle",
+    "Petra"
+   ],
+   "tip": "Roads are good but hilly; plan around summer heat."
+  },
+  {
+   "id": "grand-trunk-road",
+   "name": "Grand Trunk Road",
+   "countries": [
+    "IN",
+    "PK"
+   ],
+   "start": "Kolkata, India",
+   "end": "Peshawar, Pakistan",
+   "via": [
+    "Varanasi",
+    "Delhi",
+    "Amritsar",
+    "Lahore"
+   ],
+   "km": 2500,
+   "duration": "2-3 weeks",
+   "best_time": "October to March",
+   "kind": "historic",
+   "summary": "One of Asia's oldest and longest roads, linking Bengal to the Khyber.",
+   "highlights": [
+    "Varanasi",
+    "Agra (nearby)",
+    "Delhi",
+    "Amritsar's Golden Temple",
+    "Lahore Fort",
+    "Peshawar"
+   ],
+   "tip": "Border-crossing rules between India and Pakistan are strict; check current advice."
+  },
+  {
+   "id": "mongolia-gobi-circuit",
+   "name": "Mongolia's South Gobi Circuit",
+   "countries": [
+    "MN"
+   ],
+   "start": "Ulaanbaatar",
+   "end": "Ulaanbaatar",
+   "via": [
+    "Dalanzadgad",
+    "Khongoryn Els"
+   ],
+   "km": 1500,
+   "duration": "7-10 days",
+   "best_time": "May to September",
+   "kind": "desert",
+   "summary": "Camels, dunes, canyons and ger camps across the Gobi Desert.",
+   "highlights": [
+    "Yolyn Am",
+    "Khongoryn Els singing dunes",
+    "Flaming Cliffs",
+    "Ongi Monastery",
+    "ger camps"
+   ],
+   "tip": "Travel with a 4x4 and driver; roads are tracks and distances are huge."
+  },
+  {
+   "id": "oman-muscat-sur",
+   "name": "Muscat to Sur Coastal Road",
+   "countries": [
+    "OM"
+   ],
+   "start": "Muscat",
+   "end": "Sur",
+   "via": [
+    "Wadi Shab",
+    "Bimmah Sinkhole"
+   ],
+   "km": 330,
+   "duration": "2 days",
+   "best_time": "October to April",
+   "kind": "coastal",
+   "summary": "A coastal road past canyons, sinkholes and turtle beaches.",
+   "highlights": [
+    "Bimmah Sinkhole",
+    "Wadi Shab",
+    "Tiwi",
+    "Sur",
+    "Ras al Jinz Turtle Reserve"
+   ],
+   "tip": "Flash floods are possible in wadis; avoid midday heat."
+  },
+  {
+   "id": "uzbekistan-silk-road",
+   "name": "Silk Road in Uzbekistan",
+   "countries": [
+    "UZ"
+   ],
+   "start": "Tashkent",
+   "end": "Khiva",
+   "via": [
+    "Samarkand",
+    "Bukhara"
+   ],
+   "km": 1000,
+   "duration": "7-10 days",
+   "best_time": "April to June; September to October",
+   "kind": "historic",
+   "summary": "Blue-tiled madrasas, caravanserais and desert fortress cities.",
+   "highlights": [
+    "Registan Samarkand",
+    "Shah-i-Zinda",
+    "Bukhara Old City",
+    "Kyzylkum Desert",
+    "Khiva Ichan Kala"
+   ],
+   "tip": "Train and shared taxi also link the cities if you prefer not to drive."
+  },
+  {
+   "id": "sri-lanka-cultural-loop",
+   "name": "Sri Lanka Cultural Triangle and Hill Country",
+   "countries": [
+    "LK"
+   ],
+   "start": "Colombo",
+   "end": "Galle",
+   "via": [
+    "Sigiriya",
+    "Kandy",
+    "Ella"
+   ],
+   "km": 700,
+   "duration": "7-10 days",
+   "best_time": "December to March",
+   "kind": "scenic",
+   "summary": "Ancient cities, tea country, scenic railway and a colonial fort by the sea.",
+   "highlights": [
+    "Sigiriya Rock",
+    "Temple of the Tooth",
+    "Nuwara Eliya tea estates",
+    "Ella",
+    "Galle Fort"
+   ],
+   "tip": "Mountain roads are slow; use a driver if you are not used to local traffic."
+  },
+  {
+   "id": "taiwan-route-11",
+   "name": "Taiwan East Coast (Route 11)",
+   "countries": [
+    "TW"
+   ],
+   "start": "Hualien",
+   "end": "Taitung",
+   "via": [
+    "Shitiping",
+    "Sanxiantai"
+   ],
+   "km": 170,
+   "duration": "2 days",
+   "best_time": "April to November",
+   "kind": "coastal",
+   "summary": "A Pacific coast road with sea cliffs, rice fields and Indigenous culture.",
+   "highlights": [
+    "Taroko Gorge (start)",
+    "Qixingtan Beach",
+    "Shitiping",
+    "Sanxiantai",
+    "Taitung"
+   ],
+   "tip": "Typhoons can close roads from July to October."
+  },
+  {
+   "id": "trans-flores-highway",
+   "name": "Trans-Flores Highway",
+   "countries": [
+    "ID"
+   ],
+   "start": "Labuan Bajo",
+   "end": "Maumere",
+   "via": [
+    "Ruteng",
+    "Bajawa",
+    "Moni"
+   ],
+   "km": 700,
+   "duration": "7-10 days",
+   "best_time": "May to September",
+   "kind": "island",
+   "summary": "Volcanoes, rice terraces, traditional villages and a tri-coloured crater lake on Flores.",
+   "highlights": [
+    "Wae Rebo village",
+    "Ruteng rice terraces",
+    "Bajawa",
+    "Kelimutu crater lakes",
+    "Maumere"
+   ],
+   "tip": "Roads are winding and slow; allow a day for every 100 km."
+  },
+  {
+   "id": "issyk-kul-loop",
+   "name": "Issyk-Kul Loop",
+   "countries": [
+    "KG"
+   ],
+   "start": "Bishkek",
+   "end": "Bishkek",
+   "via": [
+    "Cholpon-Ata",
+    "Karakol",
+    "Barskoon"
+   ],
+   "km": 650,
+   "duration": "3-4 days",
+   "best_time": "June to September",
+   "kind": "scenic",
+   "summary": "A circuit around a vast alpine lake in the Tian Shan mountains.",
+   "highlights": [
+    "Cholpon-Ata",
+    "Jeti-Oguz",
+    "Karakol",
+    "Skazka Canyon",
+    "Barskoon Waterfall"
+   ],
+   "tip": "Lake weather can be windy; carry cash."
+  },
+  {
+   "id": "garden-route",
+   "name": "Garden Route",
+   "countries": [
+    "ZA"
+   ],
+   "start": "Cape Town",
+   "end": "Gqeberha (Port Elizabeth)",
+   "via": [
+    "Hermanus",
+    "Oudtshoorn",
+    "Knysna",
+    "Tsitsikamma"
+   ],
+   "km": 750,
+   "duration": "5-7 days",
+   "best_time": "September to April",
+   "kind": "coastal",
+   "summary": "A stretch of coast with lagoons, forests, beaches and wildlife.",
+   "highlights": [
+    "Hermanus whale watching",
+    "Cango Caves",
+    "Knysna Lagoon",
+    "Plettenberg Bay",
+    "Tsitsikamma National Park"
+   ],
+   "tip": "Park fees apply; book coastal stays early in December and January."
+  },
+  {
+   "id": "panorama-route",
+   "name": "Panorama Route",
+   "countries": [
+    "ZA"
+   ],
+   "start": "Graskop",
+   "end": "Hoedspruit",
+   "via": [
+    "God's Window",
+    "Blyde River Canyon"
+   ],
+   "km": 200,
+   "duration": "1-2 days",
+   "best_time": "April to September",
+   "kind": "scenic",
+   "summary": "Escarpment viewpoints, waterfalls and the world's third-largest canyon.",
+   "highlights": [
+    "God's Window",
+    "Bourke's Luck Potholes",
+    "Three Rondavels",
+    "Lisbon Falls",
+    "Pilgrim's Rest"
+   ],
+   "tip": "Mist can hide views, so go early in the morning."
+  },
+  {
+   "id": "route-62",
+   "name": "Route 62",
+   "countries": [
+    "ZA"
+   ],
+   "start": "Cape Town",
+   "end": "Oudtshoorn",
+   "via": [
+    "Montagu",
+    "Barrydale",
+    "Calitzdorp"
+   ],
+   "km": 850,
+   "duration": "3-5 days",
+   "best_time": "September to April",
+   "kind": "scenic",
+   "summary": "A quirky road through wine valleys, Karoo towns and mountain passes.",
+   "highlights": [
+    "Montagu",
+    "Barrydale",
+    "Calitzdorp",
+    "Cango Caves",
+    "Oudtshoorn ostrich farms"
+   ],
+   "tip": "Fuel and services are limited between towns; summers are hot."
+  },
+  {
+   "id": "namibia-classic-loop",
+   "name": "Namibia Classic Loop",
+   "countries": [
+    "NA"
+   ],
+   "start": "Windhoek",
+   "end": "Windhoek",
+   "via": [
+    "Sossusvlei",
+    "Swakopmund",
+    "Twyfelfontein",
+    "Etosha"
+   ],
+   "km": 2000,
+   "duration": "10-14 days",
+   "best_time": "May to October",
+   "kind": "desert",
+   "summary": "Red dunes, ghost towns, rock art and one of Africa's best game parks.",
+   "highlights": [
+    "Sossusvlei",
+    "Swakopmund",
+    "Spitzkoppe",
+    "Twyfelfontein",
+    "Etosha National Park"
+   ],
+   "tip": "Mostly gravel; carry spare tyres, water and plan fuel stops."
+  },
+  {
+   "id": "cairo-to-cape-town",
+   "name": "Cairo to Cape Town",
+   "countries": [
+    "EG",
+    "SD",
+    "ET",
+    "KE",
+    "TZ",
+    "ZM",
+    "BW",
+    "NA",
+    "ZA"
+   ],
+   "start": "Cairo, Egypt",
+   "end": "Cape Town, South Africa",
+   "via": [
+    "Nairobi",
+    "Lusaka",
+    "Windhoek"
+   ],
+   "km": 10500,
+   "duration": "2-4 months",
+   "best_time": "Varies by section",
+   "kind": "cross-country",
+   "summary": "The great African overland, from the pyramids to Table Mountain.",
+   "highlights": [
+    "Giza pyramids",
+    "Nile valley",
+    "Serengeti region",
+    "Victoria Falls",
+    "Okavango Delta",
+    "Cape Town"
+   ],
+   "tip": "Sections in Sudan and parts of Ethiopia are unsafe at the moment; many overlanders skip them by sea or air. Check current advice."
+  },
+  {
+   "id": "marrakech-sahara",
+   "name": "Marrakech to the Sahara",
+   "countries": [
+    "MA"
+   ],
+   "start": "Marrakech",
+   "end": "Merzouga",
+   "via": [
+    "Tizi n'Tichka Pass",
+    "Ait Benhaddou",
+    "Dades Gorge"
+   ],
+   "km": 560,
+   "duration": "3-4 days",
+   "best_time": "March to May; October to November",
+   "kind": "desert",
+   "summary": "Over the Atlas Mountains past kasbahs to the dunes of Erg Chebbi.",
+   "highlights": [
+    "Tizi n'Tichka Pass",
+    "Ait Benhaddou",
+    "Dades Gorge",
+    "Todra Gorge",
+    "Erg Chebbi dunes"
+   ],
+   "tip": "Mountain roads have bends and rock falls; avoid summer heat."
+  },
+  {
+   "id": "tanzania-northern-circuit",
+   "name": "Tanzania Northern Safari Circuit",
+   "countries": [
+    "TZ"
+   ],
+   "start": "Arusha",
+   "end": "Arusha",
+   "via": [
+    "Lake Manyara",
+    "Serengeti",
+    "Ngorongoro"
+   ],
+   "km": 700,
+   "duration": "5-7 days",
+   "best_time": "June to October; January to February",
+   "kind": "safari",
+   "summary": "A classic safari loop through four famous parks.",
+   "highlights": [
+    "Tarangire",
+    "Lake Manyara",
+    "Serengeti",
+    "Ngorongoro Crater"
+   ],
+   "tip": "Most visitors travel with an operator; park fees and vehicle rules apply."
+  },
+  {
+   "id": "madagascar-rn7",
+   "name": "Madagascar's RN7",
+   "countries": [
+    "MG"
+   ],
+   "start": "Antananarivo",
+   "end": "Toliara",
+   "via": [
+    "Antsirabe",
+    "Ranomafana",
+    "Isalo"
+   ],
+   "km": 940,
+   "duration": "7-10 days",
+   "best_time": "April to November",
+   "kind": "scenic",
+   "summary": "The island's main road through highlands, rainforests and canyons to the south-west coast.",
+   "highlights": [
+    "Antsirabe",
+    "Ambositra",
+    "Ranomafana National Park",
+    "Isalo National Park",
+    "Ifaty beaches"
+   ],
+   "tip": "Road quality varies and the trip is slow; many visitors hire a driver."
+  },
+  {
+   "id": "ethiopia-historic-route",
+   "name": "Ethiopia's Historic Route",
+   "countries": [
+    "ET"
+   ],
+   "start": "Addis Ababa",
+   "end": "Lalibela",
+   "via": [
+    "Bahir Dar",
+    "Gondar",
+    "Axum"
+   ],
+   "km": 2000,
+   "duration": "10-14 days",
+   "best_time": "October to March",
+   "kind": "historic",
+   "summary": "A journey through medieval churches, castles and ancient obelisks.",
+   "highlights": [
+    "Blue Nile Falls",
+    "Lake Tana monasteries",
+    "Gondar castles",
+    "Axum stelae",
+    "Lalibela rock churches"
+   ],
+   "tip": "Security conditions differ by region and many governments advise against some areas; check current advice."
+  },
+  {
+   "id": "egypt-white-desert",
+   "name": "Cairo to the White Desert",
+   "countries": [
+    "EG"
+   ],
+   "start": "Cairo",
+   "end": "Farafra",
+   "via": [
+    "Bahariya Oasis"
+   ],
+   "km": 650,
+   "duration": "3-4 days",
+   "best_time": "October to April",
+   "kind": "desert",
+   "summary": "A desert road from the capital to chalk rock sculptures and camping under stars.",
+   "highlights": [
+    "Bahariya Oasis",
+    "Black Desert",
+    "Crystal Mountain",
+    "White Desert chalk formations",
+    "Farafra Oasis"
+   ],
+   "tip": "Travel with a licensed operator and a permit; carry extra water."
+  },
+  {
+   "id": "great-ocean-road",
+   "name": "Great Ocean Road",
+   "countries": [
+    "AU"
+   ],
+   "start": "Torquay, Victoria",
+   "end": "Allansford, Victoria",
+   "via": [
+    "Lorne",
+    "Apollo Bay",
+    "Port Campbell"
+   ],
+   "km": 243,
+   "duration": "2-3 days",
+   "best_time": "November to April",
+   "kind": "coastal",
+   "summary": "A war-memorial road along Australia's southern coast and its limestone stacks.",
+   "highlights": [
+    "Bells Beach",
+    "Lorne",
+    "Otway National Park",
+    "Twelve Apostles",
+    "Loch Ard Gorge"
+   ],
+   "tip": "Sunset crowds at the Twelve Apostles are large; allow time for traffic."
+  },
+  {
+   "id": "stuart-highway",
+   "name": "Stuart Highway",
+   "countries": [
+    "AU"
+   ],
+   "start": "Darwin, Northern Territory",
+   "end": "Port Augusta, South Australia",
+   "via": [
+    "Katherine",
+    "Alice Springs",
+    "Coober Pedy"
+   ],
+   "km": 2834,
+   "duration": "7-10 days",
+   "best_time": "May to September",
+   "kind": "outback",
+   "summary": "The main road across the Australian outback from tropical north to southern coast.",
+   "highlights": [
+    "Katherine Gorge",
+    "Devils Marbles",
+    "Alice Springs",
+    "Uluru (detour)",
+    "Coober Pedy"
+   ],
+   "tip": "Fuel and water stops are far apart; avoid driving at dusk when kangaroos cross."
+  },
+  {
+   "id": "nullarbor-eyre-highway",
+   "name": "Nullarbor Plain (Eyre Highway)",
+   "countries": [
+    "AU"
+   ],
+   "start": "Perth, Western Australia",
+   "end": "Adelaide, South Australia",
+   "via": [
+    "Norseman",
+    "Eucla",
+    "Ceduna"
+   ],
+   "km": 2700,
+   "duration": "6-9 days",
+   "best_time": "April to October",
+   "kind": "outback",
+   "summary": "Australia's famous treeless plain and a long straight road along the Great Australian Bight.",
+   "highlights": [
+    "Ninety Mile Straight",
+    "Eucla",
+    "Head of Bight whale watching",
+    "Cocklebiddy Cave",
+    "Nullarbor Roadhouse"
+   ],
+   "tip": "Refuel at every roadhouse; whale season is June to October."
+  },
+  {
+   "id": "pacific-highway-australia",
+   "name": "Pacific Highway (Sydney to Brisbane)",
+   "countries": [
+    "AU"
+   ],
+   "start": "Sydney",
+   "end": "Brisbane",
+   "via": [
+    "Port Macquarie",
+    "Coffs Harbour",
+    "Byron Bay"
+   ],
+   "km": 920,
+   "duration": "5-7 days",
+   "best_time": "September to November",
+   "kind": "coastal",
+   "summary": "A coastal drive past beaches, national parks and surf towns.",
+   "highlights": [
+    "Port Macquarie",
+    "Coffs Harbour",
+    "Byron Bay",
+    "Gold Coast",
+    "Brisbane"
+   ],
+   "tip": "Holiday weekends bring heavy traffic."
+  },
+  {
+   "id": "cairns-cape-tribulation",
+   "name": "Cairns to Cape Tribulation",
+   "countries": [
+    "AU"
+   ],
+   "start": "Cairns",
+   "end": "Cape Tribulation",
+   "via": [
+    "Port Douglas",
+    "Mossman Gorge"
+   ],
+   "km": 140,
+   "duration": "1-2 days",
+   "best_time": "May to October",
+   "kind": "coastal",
+   "summary": "Where the rainforest meets the Great Barrier Reef.",
+   "highlights": [
+    "Port Douglas",
+    "Mossman Gorge",
+    "Daintree River cruise",
+    "Cape Tribulation",
+    "Daintree Rainforest"
+   ],
+   "tip": "Crocodiles live in rivers and sea; stinger season runs November to May."
+  },
+  {
+   "id": "gibb-river-road",
+   "name": "Gibb River Road",
+   "countries": [
+    "AU"
+   ],
+   "start": "Derby, Western Australia",
+   "end": "Kununurra, Western Australia",
+   "via": [
+    "Windjana Gorge",
+    "Bell Gorge",
+    "El Questro"
+   ],
+   "km": 660,
+   "duration": "7-10 days",
+   "best_time": "May to September",
+   "kind": "outback",
+   "summary": "A rugged Kimberley road to gorges, waterfalls and swimming holes.",
+   "highlights": [
+    "Windjana Gorge",
+    "Tunnel Creek",
+    "Bell Gorge",
+    "Manning Gorge",
+    "El Questro"
+   ],
+   "tip": "4x4 is needed; the road closes in the wet season."
+  },
+  {
+   "id": "tasmania-great-eastern-drive",
+   "name": "Great Eastern Drive (Tasmania)",
+   "countries": [
+    "AU"
+   ],
+   "start": "Orford, Tasmania",
+   "end": "St Helens, Tasmania",
+   "via": [
+    "Swansea",
+    "Coles Bay"
+   ],
+   "km": 176,
+   "duration": "2 days",
+   "best_time": "November to March",
+   "kind": "coastal",
+   "summary": "Tasmania's east coast with white beaches and pink granite.",
+   "highlights": [
+    "Freycinet National Park",
+    "Wineglass Bay",
+    "Coles Bay",
+    "Bay of Fires",
+    "St Helens"
+   ],
+   "tip": "Book Freycinet walking and campsites ahead in summer."
+  },
+  {
+   "id": "great-alpine-road",
+   "name": "Great Alpine Road",
+   "countries": [
+    "AU"
+   ],
+   "start": "Wangaratta, Victoria",
+   "end": "Bairnsdale, Victoria",
+   "via": [
+    "Bright",
+    "Mount Hotham",
+    "Omeo"
+   ],
+   "km": 307,
+   "duration": "2 days",
+   "best_time": "March to May; December to February",
+   "kind": "mountain",
+   "summary": "Victoria's alpine drive through autumn colours and snow country.",
+   "highlights": [
+    "Bright",
+    "Mount Hotham",
+    "Harrietville",
+    "Omeo",
+    "Mount Buffalo (nearby)"
+   ],
+   "tip": "Snow chains may be required in winter."
+  },
+  {
+   "id": "oodnadatta-track",
+   "name": "Oodnadatta Track",
+   "countries": [
+    "AU"
+   ],
+   "start": "Marree, South Australia",
+   "end": "Marla, South Australia",
+   "via": [
+    "William Creek"
+   ],
+   "km": 620,
+   "duration": "3-4 days",
+   "best_time": "May to September",
+   "kind": "outback",
+   "summary": "A remote desert track past Lake Eyre and artesian mound springs.",
+   "highlights": [
+    "Lake Eyre",
+    "Coward Springs",
+    "William Creek",
+    "The Painted Desert",
+    "Mount Dare"
+   ],
+   "tip": "Needs a rugged vehicle, spare tyres and plenty of water."
+  },
+  {
+   "id": "milford-road",
+   "name": "Milford Road",
+   "countries": [
+    "NZ"
+   ],
+   "start": "Te Anau",
+   "end": "Milford Sound",
+   "via": [
+    "Homer Tunnel"
+   ],
+   "km": 119,
+   "duration": "1 day",
+   "best_time": "October to April",
+   "kind": "mountain",
+   "summary": "A road through Fiordland National Park to one of the world's most photographed fjords.",
+   "highlights": [
+    "Mirror Lakes",
+    "Eglinton Valley",
+    "The Chasm",
+    "Homer Tunnel",
+    "Milford Sound"
+   ],
+   "tip": "Avalanche closures can occur; carry chains in winter."
+  },
+  {
+   "id": "southern-scenic-route",
+   "name": "Southern Scenic Route",
+   "countries": [
+    "NZ"
+   ],
+   "start": "Te Anau",
+   "end": "Dunedin",
+   "via": [
+    "Invercargill",
+    "Catlins",
+    "Bluff"
+   ],
+   "km": 440,
+   "duration": "3 days",
+   "best_time": "November to March",
+   "kind": "coastal",
+   "summary": "A wild south coast with waterfalls, sea lions and lighthouses.",
+   "highlights": [
+    "Waipapa Point",
+    "Curio Bay",
+    "Nugget Point",
+    "Slope Point",
+    "Dunedin"
+   ],
+   "tip": "Weather can be wet and windy even in summer."
+  },
+  {
+   "id": "twin-coast-discovery",
+   "name": "Twin Coast Discovery Route",
+   "countries": [
+    "NZ"
+   ],
+   "start": "Auckland",
+   "end": "Auckland",
+   "via": [
+    "Bay of Islands",
+    "Cape Reinga",
+    "Hokianga"
+   ],
+   "km": 800,
+   "duration": "4-5 days",
+   "best_time": "October to April",
+   "kind": "coastal",
+   "summary": "A loop of Northland between the Pacific and Tasman coasts.",
+   "highlights": [
+    "Waitangi Treaty Grounds",
+    "Cape Reinga",
+    "Ninety Mile Beach",
+    "Waipoua Forest (Tane Mahuta)",
+    "Hokianga Harbour"
+   ],
+   "tip": "Driving on Ninety Mile Beach is hazardous; check tide times and rental rules."
+  },
+  {
+   "id": "arthurs-pass",
+   "name": "Christchurch to Greymouth via Arthur's Pass",
+   "countries": [
+    "NZ"
+   ],
+   "start": "Christchurch",
+   "end": "Greymouth",
+   "via": [
+    "Arthur's Pass",
+    "Punakaiki"
+   ],
+   "km": 250,
+   "duration": "1-2 days",
+   "best_time": "October to April",
+   "kind": "mountain",
+   "summary": "Across the Southern Alps to the wild West Coast.",
+   "highlights": [
+    "Castle Hill",
+    "Arthur's Pass National Park",
+    "Otira Viaduct",
+    "kea parrots",
+    "Pancake Rocks at Punakaiki"
+   ],
+   "tip": "Mountain weather can change within minutes."
+  },
+  {
+   "id": "fiji-queens-road",
+   "name": "Queen's Road (Coral Coast)",
+   "countries": [
+    "FJ"
+   ],
+   "start": "Nadi",
+   "end": "Suva",
+   "via": [
+    "Sigatoka",
+    "Pacific Harbour"
+   ],
+   "km": 220,
+   "duration": "1-2 days",
+   "best_time": "May to October",
+   "kind": "coastal",
+   "summary": "A coast road across the main island of Viti Levu, past beaches and villages.",
+   "highlights": [
+    "Sigatoka Sand Dunes",
+    "Coral Coast beaches",
+    "Pacific Harbour",
+    "Suva Fiji Museum"
+   ],
+   "tip": "Roads can flood in heavy rain; take care in villages."
+  }
+ ]
+}

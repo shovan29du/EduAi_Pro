@@ -1,0 +1,69 @@
+from . import Tab, Case, Pack
+
+PACKS = {
+"Physics": Pack(
+    [Tab("Fundamental constants", ["Constant", "Value"],
+         ["Speed of light c", "299,792,458 m/s (exact)"], ["Planck constant h", "6.62607015 × 10⁻³⁴ J·s (exact)"], ["Elementary charge e", "1.602176634 × 10⁻¹⁹ C (exact)"],
+         ["Gravitational constant G", "≈ 6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻²"], ["Boltzmann constant k_B", "1.380649 × 10⁻²³ J/K (exact)"])],
+    [Case("Michelson–Morley experiment", "1887", "Attempts to detect Earth's motion through the 'luminiferous ether' found no effect, paving the way for special relativity.", "A null result can overturn a theory.", "Michelson–Morley experiment"),
+     Case("Discovery of the Higgs boson", "4 July 2012", "ATLAS and CMS at CERN announced a particle consistent with the Higgs boson, confirming the mechanism proposed in 1964.", "Predictions can wait half a century for confirmation.", "Higgs boson"),
+     Case("First detection of gravitational waves", "14 September 2015", "LIGO detected waves from two merging black holes about 1.3 billion light-years away, announced in February 2016.", "General relativity's last major prediction was confirmed.", "First observation of gravitational waves")]),
+"Chemistry": Pack(
+    [Tab("Periodic trends", ["Property", "Across a period →", "Down a group ↓"],
+         ["Atomic radius", "Decreases", "Increases"], ["Ionisation energy", "Increases", "Decreases"], ["Electronegativity", "Increases", "Decreases"], ["Metallic character", "Decreases", "Increases"])],
+    [Case("Haber–Bosch process", "1909–1913", "Fritz Haber and Carl Bosch made ammonia from atmospheric nitrogen, enabling synthetic fertiliser that feeds billions.", "One reaction reshaped agriculture and population.", "Haber process"),
+     Case("Thalidomide", "1957–1961", "A sedative sold for morning sickness in the late 1950s caused severe birth defects in thousands of babies before it was withdrawn in 1961; the disaster led to stricter drug-approval laws such as the 1962 Kefauver–Harris Amendment in the US.", "Drugs need rigorous safety testing, including in pregnancy.", "Thalidomide"),
+     Case("Flint water crisis", "2014–2019", "A switch to corrosive river water without corrosion control leached lead from pipes into Flint, Michigan's drinking water.", "Water chemistry and treatment decisions protect public health.", "Flint water crisis")]),
+"Biology": Pack(
+    [Tab("Central dogma", ["Step", "Process"],
+         ["DNA → DNA", "Replication"], ["DNA → RNA", "Transcription"], ["RNA → protein", "Translation"])],
+    [Case("Discovery of the DNA double helix", "1953", "Watson and Crick proposed the structure using X-ray data from Rosalind Franklin and Maurice Wilkins.", "Structure revealed how genetic information is copied.", "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"),
+     Case("Human Genome Project", "1990–2003", "An international effort sequenced the human genome at a cost of about $3 billion; a gap-free sequence followed in 2022.", "Open data accelerated biomedical research.", "Human Genome Project"),
+     Case("CRISPR gene editing", "2012", "Jennifer Doudna and Emmanuelle Charpentier showed CRISPR-Cas9 can be programmed to cut DNA, winning the 2020 Nobel Prize in Chemistry.", "Bacterial immune systems became a gene-editing tool.", "CRISPR")]),
+"Science": Pack(
+    [Tab("SI base units", ["Quantity", "Unit"],
+         ["Length", "metre (m)"], ["Mass", "kilogram (kg)"], ["Time", "second (s)"], ["Electric current", "ampere (A)"], ["Temperature", "kelvin (K)"], ["Amount of substance", "mole (mol)"], ["Luminous intensity", "candela (cd)"])],
+    [Case("Pasteur's swan-neck flask", "1859–1861", "Louis Pasteur showed that sterile broth stayed clear unless exposed to airborne microbes, refuting spontaneous generation.", "A well-designed controlled experiment settles a debate.", "Louis Pasteur"),
+     Case("Eddington's eclipse expedition", "29 May 1919", "Measurements of starlight bending during a solar eclipse supported Einstein's general relativity.", "Bold theories make testable predictions.", "Solar eclipse of May 29, 1919")]),
+"Environmental Science": Pack(
+    [Tab("Greenhouse gases (approximate)", ["Gas", "Main sources", "Note"],
+         ["Carbon dioxide", "Fossil fuels, deforestation", "Largest contributor to warming"], ["Methane", "Livestock, wetlands, gas leaks", "Short-lived but potent"],
+         ["Nitrous oxide", "Fertiliser, combustion", "Long-lived"], ["Fluorinated gases", "Cooling, industry", "Very high warming potential"])],
+    [Case("Montreal Protocol", "1987", "Nations agreed to phase out ozone-depleting chemicals such as CFCs, and the ozone layer is projected to recover this century.", "Global cooperation can solve a global problem.", "Montreal Protocol"),
+     Case("Silent Spring and DDT", "1962", "Rachel Carson's book documented the ecological harm of pesticides and helped spark the modern environmental movement.", "Science communication can change policy.", "Silent Spring"),
+     Case("Deepwater Horizon spill", "April–July 2010", "A well blowout killed 11 workers and released about 4.9 million barrels of oil (the US government's estimate) into the Gulf of Mexico.", "Safety culture and response planning matter.", "Deepwater Horizon oil spill")]),
+"Health Education": Pack(
+    [Tab("WHO activity guidance for adults", ["Activity", "Weekly amount"],
+         ["Moderate aerobic activity", "150–300 minutes"], ["or vigorous aerobic activity", "75–150 minutes"], ["Muscle strengthening", "2 or more days"])],
+    [Case("Smallpox eradication", "1967–1980", "A global vaccination and surveillance campaign led the WHO to declare smallpox eradicated in 1980.", "Coordinated public health can end a disease.", "Smallpox"),
+     Case("Doll and Hill smoking studies", "1950–1954", "Richard Doll and Austin Bradford Hill's studies of British doctors linked smoking to lung cancer.", "Large cohort studies establish risk.", "Richard Doll"),
+     Case("Broad Street pump", "1854", "John Snow's mapping of cholera deaths led to removal of a contaminated water pump handle.", "Epidemiology can act before the cause is fully understood.", "1854 Broad Street cholera outbreak")]),
+"First Aid": Pack(
+    [Tab("DRSABCD action plan", ["Step", "Action"],
+         ["D", "Check for danger"], ["R", "Check response"], ["S", "Send for help"], ["A", "Open airway"], ["B", "Check breathing"], ["C", "Start CPR"], ["D", "Attach a defibrillator (AED)"])],
+    [Case("Drowning and bystander CPR", "Ongoing", "Immediate CPR by bystanders substantially improves survival from cardiac arrest before ambulances arrive.", "Early action by trained bystanders saves lives.", "Cardiopulmonary resuscitation"),
+     Case("Public-access defibrillation", "2000s", "Placing AEDs in airports and casinos produced high survival rates for witnessed cardiac arrests when used within minutes.", "Every minute without defibrillation lowers survival.", "Automated external defibrillator")]),
+"Physical Education & Self-Defense": Pack(
+    [Tab("Components of fitness", ["Component", "Example test"],
+         ["Aerobic endurance", "Beep test"], ["Muscular strength", "1-rep maximum"], ["Flexibility", "Sit-and-reach"], ["Speed", "30 m sprint"], ["Agility", "Illinois agility test"])],
+    [Case("Judo's origins", "1882", "Jigoro Kano founded the Kodokan, building judo on principles of efficient use of force and mutual benefit.", "Technique and leverage can beat strength.", "Judo"),
+     Case("Roger Bannister's four-minute mile", "6 May 1954", "Bannister ran the mile in 3:59.4 after systematic training and pacing.", "Scientific training can break barriers.", "Roger Bannister")]),
+"Survival Skills": Pack(
+    [Tab("Survival priorities", ["Priority", "Action"],
+         ["1", "Stay calm and assess injuries"], ["2", "Shelter and warmth"], ["3", "Water"], ["4", "Signal for rescue"], ["5", "Food"])],
+    [Case("Apollo 13", "April 1970", "Improvisation and calm decision-making returned the crew safely after an onboard explosion.", "Prioritise survival basics and use what you have.", "Apollo 13"),
+     Case("Andes flight disaster", "October 1972", "Survivors of a plane crash in the Andes endured 72 days before two reached help.", "Teamwork and decision-making under extreme stress shape survival.", "Uruguayan Air Force Flight 571"),
+     Case("Aron Ralston", "2003", "A hiker trapped by a boulder in a Utah canyon survived by freeing himself after five days.", "Tell someone your plans — Ralston had not.", "Aron Ralston")]),
+"Cooking": Pack(
+    [Tab("Food safety temperatures", ["Food", "Safe internal temperature"],
+         ["Poultry", "74 °C (165 °F)"], ["Ground meat", "71 °C (160 °F)"], ["Whole cuts of beef, pork, lamb", "63 °C (145 °F) with rest time"], ["Fish", "63 °C (145 °F)"], ["Fridge", "≤ 4 °C (40 °F)"])],
+    [Case("Maillard reaction", "1912", "Louis-Camille Maillard described the browning reaction between amino acids and sugars that gives roast flavour.", "Chemistry explains why searing tastes good.", "Maillard reaction"),
+     Case("Spherification and molecular gastronomy", "2003", "Ferran Adrià's elBulli popularised techniques such as spherification using sodium alginate.", "Understanding food chemistry opens new techniques.", "Molecular gastronomy"),
+     Case("Salmonella egg recall", "2010", "About 550 million eggs were recalled in the US after a Salmonella outbreak; the CDC counted nearly 2,000 confirmed illnesses.", "Supply-chain hygiene prevents mass illness.", "2010 salmonella outbreak")]),
+"General Knowledge": Pack(
+    [Tab("Quick world facts", ["Fact", "Value"],
+         ["Population of Earth", "≈ 8 billion (reached November 2022)"], ["Speed of light", "≈ 300,000 km/s"], ["Earth–Sun distance", "≈ 150 million km"], ["Number of UN member states", "193"])],
+    [Case("Apollo 11 Moon landing", "20 July 1969", "Neil Armstrong and Buzz Aldrin landed on the Moon while Michael Collins orbited.", "A national goal can unite science and engineering.", "Apollo 11"),
+     Case("Fall of the Berlin Wall", "9 November 1989", "East Germany opened its border, and Germany reunified in October 1990.", "Political change can happen suddenly.", "Berlin Wall"),
+     Case("World Wide Web proposal", "March 1989", "Tim Berners-Lee at CERN proposed the hypertext system that became the Web.", "A simple shared standard changed global communication.", "World Wide Web")]),
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Cooking Techniques Glossary",
+  "description": "Core culinary techniques used across world cuisines, grouped by category.",
+  "categories": [
+    {
+      "id": "heat-dry",
+      "label": "Dry-Heat Methods",
+      "emoji": "🔥",
+      "techniques": [
+        { "name": "Roasting", "description": "Cooking food uncovered with hot, dry air, typically in an oven, producing browned exteriors via the Maillard reaction.", "example_dishes": ["Peking Duck", "Sunday roast", "Roasted vegetables"] },
+        { "name": "Grilling", "description": "Cooking directly over a heat source (charcoal, gas, or wood), giving food a charred exterior and smoky flavour.", "example_dishes": ["Korean BBQ (gogigui)", "Bún chả", "Argentinian asado"] },
+        { "name": "Sautéing", "description": "Cooking quickly in a small amount of fat over high heat, keeping food moving in the pan.", "example_dishes": ["Sautéed mushrooms", "Many French base preparations"] },
+        { "name": "Stir-frying", "description": "A Chinese technique of tossing small, uniformly cut pieces of food in a wok over very high heat for a very short time, prized for producing 'wok hei' (the smoky flavour from the seared, high-heat surface of the wok).", "example_dishes": ["Kung Pao Chicken", "Pad see ew"] },
+        { "name": "Deep-frying", "description": "Fully submerging food in hot oil, producing a crisp exterior through rapid moisture evaporation.", "example_dishes": ["Tempura", "Fried chicken", "Falafel"] },
+        { "name": "Baking", "description": "Cooking with dry, enclosed heat, typically used for breads, pastries, and casseroles.", "example_dishes": ["Croissants", "Lasagne al forno"] }
+      ]
+    },
+    {
+      "id": "heat-moist",
+      "label": "Moist-Heat Methods",
+      "emoji": "💧",
+      "techniques": [
+        { "name": "Braising", "description": "Searing food first, then slow-cooking it partially submerged in liquid in a covered pot — combines dry- and moist-heat cooking to tenderise tougher cuts.", "example_dishes": ["Coq au Vin", "Doro Wat", "Osso buco"] },
+        { "name": "Steaming", "description": "Cooking food with the vapour from boiling water, without direct contact with the liquid, preserving moisture and nutrients.", "example_dishes": ["Xiaolongbao", "Dim sum", "Couscous"] },
+        { "name": "Poaching", "description": "Gently cooking food fully submerged in liquid kept just below a simmer, ideal for delicate items like eggs and fish.", "example_dishes": ["Poached eggs", "Poached pears"] },
+        { "name": "Simmering", "description": "Cooking food in liquid held just below boiling point, used for stocks, soups, and stews.", "example_dishes": ["Phở broth", "Tom yum goong"] },
+        { "name": "Blanching", "description": "Briefly boiling food, then plunging it into ice water to halt cooking — used to set colour, loosen skins, or partially cook before freezing.", "example_dishes": ["Blanched green beans", "Peeled tomatoes"] },
+        { "name": "Sous-vide", "description": "Vacuum-sealing food and cooking it in a precisely temperature-controlled water bath for extended periods, a technique that emerged from French and industrial food-science research in the 1970s-1980s and later spread into fine dining.", "example_dishes": ["Sous-vide steak", "Modernist tasting-menu preparations"] }
+      ]
+    },
+    {
+      "id": "preservation",
+      "label": "Preservation Techniques",
+      "emoji": "🫙",
+      "techniques": [
+        { "name": "Fermentation", "description": "Using bacteria, yeast, or mould to transform food, developing flavour and preserving it — one of humanity's oldest food technologies.", "example_dishes": ["Kimchi", "Miso", "Sourdough bread", "Soy sauce"] },
+        { "name": "Curing", "description": "Preserving food (usually meat or fish) with salt, sugar, nitrates, or a combination, often followed by drying or smoking.", "example_dishes": ["Jamón Ibérico", "Gravlax", "Prosciutto"] },
+        { "name": "Smoking", "description": "Exposing food to smoke from smouldering wood, both flavouring and preserving it.", "example_dishes": ["Smoked salmon", "Texas BBQ brisket"] },
+        { "name": "Pickling", "description": "Preserving food in an acidic liquid (vinegar) or through fermentation in brine, extending shelf life while adding tang.", "example_dishes": ["Pickled vegetables in bánh mì", "Giardiniera"] },
+        { "name": "Canning", "description": "Sealing food in airtight containers and heat-treating it to destroy spoilage organisms — developed by Nicolas Appert in France in 1809-1810.", "example_dishes": ["Canned tomatoes", "Preserved fruit"] },
+        { "name": "Nixtamalization", "description": "Soaking and cooking corn in an alkaline solution (traditionally limewater), an ancient Mesoamerican technique that improves nutrition and makes corn grindable into masa.", "example_dishes": ["Tortillas", "Tamales"] }
+      ]
+    },
+    {
+      "id": "prep",
+      "label": "Preparation Techniques",
+      "emoji": "🥣",
+      "techniques": [
+        { "name": "Marinating", "description": "Soaking food (usually meat) in a seasoned liquid before cooking to add flavour and, with acidic or enzymatic marinades, tenderise it.", "example_dishes": ["Bulgogi", "Tandoori chicken"] },
+        { "name": "Tempering spices (tadka/tarka)", "description": "Briefly frying whole spices in hot oil or ghee to release their aromatic oils before adding them to a dish — foundational to Indian cooking.", "example_dishes": ["Dal tadka", "Many Indian curries"] },
+        { "name": "Emulsifying", "description": "Combining two liquids that don't normally mix (like oil and water) into a stable blend, usually with an emulsifier like egg yolk or mustard.", "example_dishes": ["Mayonnaise", "Hollandaise sauce", "Vinaigrette"] },
+        { "name": "Reduction", "description": "Simmering a liquid uncovered to evaporate water and concentrate flavour and thicken texture.", "example_dishes": ["Balsamic reduction", "Pan sauces"] },
+        { "name": "Laminating dough", "description": "Repeatedly folding butter or fat into dough to create many thin alternating layers, which puff apart during baking.", "example_dishes": ["Croissants", "Puff pastry", "Baklava's phyllo"] },
+        { "name": "Kneading", "description": "Working dough by hand or machine to develop gluten strands, giving bread its structure and chew.", "example_dishes": ["Sourdough bread", "Pizza dough", "Bagels"] },
+        { "name": "Whisking", "description": "Rapidly beating ingredients to incorporate air or combine them smoothly, used for everything from egg whites to sauces.", "example_dishes": ["Whipped cream", "Meringue", "Vinaigrette"] },
+        { "name": "Deglazing", "description": "Adding liquid (wine, stock, or water) to a hot pan to lift the browned, flavourful bits (fond) left after searing, forming the base of a pan sauce.", "example_dishes": ["Pan sauces", "Gravy"] },
+        { "name": "Basting", "description": "Spooning or brushing fat or pan juices over food as it cooks to keep it moist and add flavour to the surface.", "example_dishes": ["Roast turkey", "Basted eggs"] },
+        { "name": "Proofing", "description": "Letting yeasted dough rest in a warm place so the yeast produces gas and the dough rises before baking.", "example_dishes": ["Bread", "Pizza dough", "Cinnamon rolls"] }
+      ]
+    },
+    {
+      "id": "knife-skills",
+      "label": "Knife Skills & Cuts",
+      "emoji": "🔪",
+      "techniques": [
+        { "name": "Julienne", "description": "Cutting vegetables into long, thin matchstick strips, roughly 1/8 inch (3 mm) square and a few inches long.", "example_dishes": ["Julienned carrots", "Bánh mì pickled vegetables"] },
+        { "name": "Brunoise", "description": "A fine dice made by first julienning, then cutting across into tiny 1/8 inch (3 mm) cubes -- one of the smallest classic knife cuts.", "example_dishes": ["Brunoise mirepoix", "Garnishes for consommé"] },
+        { "name": "Batonnet", "description": "A thicker matchstick cut, about 1/4 inch (6 mm) square, often the starting point for a small dice.", "example_dishes": ["French fries (pommes frites)"] },
+        { "name": "Dicing", "description": "Cutting food into cubes, classically graded small, medium, or large depending on the size needed.", "example_dishes": ["Diced onion for soffritto", "Diced tomatoes"] },
+        { "name": "Mincing", "description": "Chopping food (especially garlic and herbs) into very small, irregular pieces, finer than a dice.", "example_dishes": ["Minced garlic", "Minced ginger"] },
+        { "name": "Chiffonade", "description": "Stacking and rolling leafy herbs or greens, then slicing across into thin ribbons.", "example_dishes": ["Basil chiffonade for Caprese salad", "Shredded lettuce"] },
+        { "name": "Rondelle", "description": "Slicing a cylindrical vegetable straight across into round discs.", "example_dishes": ["Sliced carrots", "Sliced cucumber"] },
+        { "name": "Paysanne", "description": "Thin, flat cuts of vegetables into small squares or triangles, traditionally used in rustic soups.", "example_dishes": ["Vegetable soup garnish"] },
+        { "name": "Tourné", "description": "A classic French technique for hand-carving a vegetable into a small, seven-sided, football-like shape with rounded ends.", "example_dishes": ["Tourné potatoes", "Classical French plated vegetables"] },
+        { "name": "Chopping", "description": "A rougher, less precise cut than dicing, used when uniform size matters less than speed.", "example_dishes": ["Roughly chopped onion for stock"] },
+        { "name": "Filleting", "description": "Using a flexible, sharp knife to separate fish flesh from its bones and skin in clean sheets.", "example_dishes": ["Fish fillets", "Sashimi preparation"] },
+        { "name": "Supreme (citrus segmenting)", "description": "Cutting away the peel and pith of a citrus fruit, then slicing between the membranes to release clean, membrane-free segments.", "example_dishes": ["Citrus salads", "Plated fruit garnishes"] }
+      ]
+    }
+  ]
+}

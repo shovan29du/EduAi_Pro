@@ -1,0 +1,6 @@
+# Force LF line endings for source files regardless of each contributor's
+# local core.autocrlf setting. Without this, Windows checkouts of files
+# this repo stores with LF endings can show as "locally modified" purely
+# from line-ending conversion on checkout -- nothing actually edited, but
+# git still blocks `git pull` on it ("local changes would be overwritten").
+* text=auto eol=lf
