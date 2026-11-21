@@ -4,7 +4,9 @@ import ImageCredit from './ImageCredit.jsx';
 
 // A picture for a lesson (Survival Skills, Practical Skills, subject lessons).
 //
-// By default it is the closest Wikipedia article's freely licensed picture:
+// By default it is the closest Wikipedia article's freely licensed picture. Download
+// searches much more widely (Wikimedia Commons, Openverse, museum collections, NASA, the
+// Library of Congress) and each press gives the next different picture:
 // lesson titles such as "Stranger Awareness" are not article names, so the
 // server tries the lesson's own `wiki_title`, a title search, a full-text
 // search, the title plus its subject, and last of all the subject alone. The
@@ -119,11 +121,13 @@ function Caption({ article }) {
   if (article.stored && article.source === 'upload') {
     return <>Your uploaded picture · saved in the database</>;
   }
+  const label = /wikipedia\.org/.test(article.page_url || '') ? 'Wikipedia' : 'Source';
   return (
     <>
       {article.stored ? 'Saved picture' : 'Picture'}: {article.title}{article.description ? ` — ${article.description}` : ''}
+      {article.source_name ? ` · from ${article.source_name}` : ''}
       {article.page_url && (
-        <> · <a href={article.page_url} target="_blank" rel="noopener noreferrer" className="underline">Wikipedia</a></>
+        <> · <a href={article.page_url} target="_blank" rel="noopener noreferrer" className="underline">{label}</a></>
       )}
     </>
   );

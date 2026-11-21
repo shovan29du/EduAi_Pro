@@ -118,7 +118,7 @@ describe('SurvivalSkills lesson picture', () => {
 
 
 describe('SurvivalSkills Download and Upload', () => {
-  const stored = (source) => ({ available: true, stored: true, source, title: source === 'upload' ? 'Your uploaded picture' : 'Stranger danger', description: '', page_url: '', credit: { line: source === 'upload' ? 'Picture uploaded by the owner of this app' : 'A. Photographer · CC BY-SA 4.0' }, thumbnail_url: `/api/lesson-picture?key=k&v=${source === 'upload' ? 2 : 1}` });
+  const stored = (source) => ({ available: true, stored: true, source, title: source === 'upload' ? 'Your uploaded picture' : 'Stranger danger', description: '', page_url: source === 'upload' ? '' : 'https://flickr.example/p/1', source_name: source === 'upload' ? '' : 'Openverse (flickr)', credit: { line: source === 'upload' ? 'Picture uploaded by the owner of this app' : 'A. Photographer · CC BY-SA 4.0' }, thumbnail_url: `/api/lesson-picture?key=k&v=${source === 'upload' ? 2 : 1}` });
 
   async function openLesson(handler) {
     const base = global.fetch;
@@ -139,7 +139,8 @@ describe('SurvivalSkills Download and Upload', () => {
     expect(JSON.parse(post[1].body).key).toBe('survival/outdoor_and_navigation/Using a Compass');
     await waitFor(() => expect(document.querySelector('img[src="/api/lesson-picture?key=k&v=1"]')).not.toBeNull());
     expect(screen.getByText(/Photo: A. Photographer/)).toBeInTheDocument();
-    expect(screen.getByText(/Saved picture: Stranger danger/)).toBeInTheDocument();
+    expect(screen.getByText(/Saved picture: Stranger danger · from Openverse \(flickr\)/)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Source' })).toHaveAttribute('href', 'https://flickr.example/p/1');
   });
 
   it('Upload sends the file and shows the uploaded picture', async () => {

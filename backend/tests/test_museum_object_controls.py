@@ -26,6 +26,7 @@ def museum(museum_db, tmp_path, monkeypatch):
     monkeypatch.setattr(main, "_MUSEUM_PATH", path)
     monkeypatch.setattr(mp, "IMAGES_DIR", tmp_path / "images")
     monkeypatch.setattr(mp, "MANIFEST_PATH", tmp_path / "pictures.json")
+    monkeypatch.setattr(mp.image_search, "search", lambda *a, **k: [])  # no live network in tests
     yield
     main._without_deleted.cache_clear()
 
@@ -88,7 +89,7 @@ def test_download_says_so_when_nothing_is_found_or_the_network_is_down(monkeypat
     def down(**k):
         raise OSError("<urlopen error [Errno -3] Temporary failure>")
 
-    monkeypatch.setattr(mp, "find_picture_url", lambda obj, wl, tried=None: (tried.append("name_search: <urlopen error x>") or (None, None, None)))
+    monkeypatch.setattr(mp, "find_picture_url", lambda obj, wl, tried=None, skip=(): (tried.append("name_search: <urlopen error x>") or (None, None, None)))
     assert client.post("/api/museum/g1/a/picture/download").status_code == 502
     assert not museum_store.has_picture("a")
 

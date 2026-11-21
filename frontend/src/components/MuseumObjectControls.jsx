@@ -35,7 +35,8 @@ async function errorText(response, fallback) {
   }
 }
 
-// Download / Upload / Delete for one museum object. Pictures are saved in the
+// Download / Upload / Delete for one museum object. Download searches every free image
+// collection (not only Wikipedia); pressing it again gives the next different picture. Pictures are saved in the
 // database (not as loose files), and deleting asks first.
 export default function MuseumObjectControls({ gallery, obj, onPictureChanged, onDeleted }) {
   const [busy, setBusy] = useState('');
@@ -119,7 +120,7 @@ export default function MuseumObjectControls({ gallery, obj, onPictureChanged, o
       <div className="flex flex-wrap gap-2">
         <button type="button" onClick={download} disabled={!!busy}
           className={`${button} border-indigo-300 bg-indigo-50 text-indigo-700 hover:bg-indigo-100`}>
-          {busy === 'download' ? 'Downloading…' : '⬇ Download picture'}
+          {busy === 'download' ? 'Downloading…' : obj.picture_source === 'download' ? '⬇ Download another picture' : '⬇ Download picture'}
         </button>
         <button type="button" onClick={() => fileInput.current?.click()} disabled={!!busy}
           className={`${button} border-emerald-300 bg-emerald-50 text-emerald-700 hover:bg-emerald-100`}>

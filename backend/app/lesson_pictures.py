@@ -17,7 +17,7 @@ from urllib.parse import quote, unquote
 from fastapi import APIRouter, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 
-from app import database, image_credit, lesson_enrichment, museum_pictures, museum_store
+from app import database, image_credit, image_search, lesson_enrichment, museum_pictures, museum_store
 from app.models import LessonPicture
 
 router = APIRouter(prefix="/api/lesson-picture", tags=["lessons"])
@@ -50,6 +50,7 @@ def stored_response(key: str) -> dict | None:
         "description": "", "extract": "",
         "thumbnail_url": f"/api/lesson-picture?key={quote(key, safe='')}&v={version}",
         "page_url": credit.get("page_url") or "",
+        "source_name": credit.get("source_name") or "",
         "credit": credit if credit.get("line") else None,
     }
 
@@ -116,31 +117,79 @@ class DownloadIn(BaseModel):
     wiki_title: str = Field(default="", max_length=200)
 
 
+def _tried(key: str) -> list:
+    try:
+        with database.session_scope() as db:
+            row = db.get(LessonPicture, key)
+            return list((row.credit or {}).get("tried") or []) if row else []
+    except Exception:
+        return []
+
+
+def _candidates(body: DownloadIn, problems: list) -> list[dict]:
+    """Pictures for the lesson from everywhere, best first: the closest Wikipedia article's picture,
+    then Wikimedia Commons, Openverse, museum collections, NASA and the Library of Congress."""
+    out = []
+    try:
+        article = lesson_enrichment.find_article(body.wiki_title.strip(), body.title.strip(), body.context.strip())
+    except Exception as exc:
+        article = None
+        problems.append(f"wikipedia: {exc}")
+    if article and article.get("thumbnail_url"):
+        try:
+            record = image_credit.credit_for(article["thumbnail_url"]) or {}
+        except Exception:
+            record = {}
+        out.append({"source": "Wikipedia", "url": article["thumbnail_url"], "fallback_url": "", "title": article["title"],
+                    "credit": {"credit": record.get("artist") or record.get("credit"), "license": record.get("license"),
+                               "license_url": record.get("license_url"), "source_url": article.get("page_url") or record.get("source_url"),
+                               "line": image_credit.credit_line(record) if record else "Picture from Wikipedia"}})
+    wanted = body.title.strip() or body.wiki_title.strip()
+    found = image_search.search(wanted, log=problems)
+    if len(found) < 4 and body.context.strip():
+        found += image_search.search(f"{wanted} {body.context.strip()}", log=problems)
+    seen = {c["url"] for c in out}
+    return out + [h for h in found if h["url"] not in seen]
+
+
 @router.post("/download")
 def download_picture(body: DownloadIn):
-    """Find a picture for the lesson on the web (the closest Wikipedia article with a free picture) and save it."""
+    """Find a picture for the lesson anywhere on the web's free image collections and save it.
+
+    Pressing it again gives the next different picture (the ones already used are remembered).
+    """
     key = valid_key(body.key)
     if not (body.title.strip() or body.wiki_title.strip()):
         raise HTTPException(status_code=400, detail="title is required")
-    try:
-        article = lesson_enrichment.find_article(body.wiki_title.strip(), body.title.strip(), body.context.strip())
-    except Exception:
+    problems: list = []
+    candidates = _candidates(body, problems)
+    if not candidates and len({p.split(':')[0] for p in problems}) >= 4:  # nearly every source failed: it is the connection
         raise HTTPException(status_code=502, detail="Could not reach the picture sources. Check the Internet connection and try again.")
-    if not article or not article.get("thumbnail_url"):
+    if not candidates:
         raise HTTPException(status_code=404, detail="No picture was found for this lesson. You can upload one instead.")
-    url = article["thumbnail_url"]
-    try:
-        data, _ = museum_pictures._fetch_image(url)
-    except Exception:
-        raise HTTPException(status_code=502, detail="Found a picture but could not download it. Check the Internet connection and try again.")
-    try:
-        record = image_credit.credit_for(url) or {}
-    except Exception:
-        record = {}
-    credit = {"title": article["title"], "page_url": article.get("page_url", ""), "credit": record.get("artist") or record.get("credit"),
-              "license": record.get("license"), "license_url": record.get("license_url"), "source_url": record.get("source_url"),
-              "line": image_credit.credit_line(record) if record else "Picture from Wikipedia"}
-    try:
-        return save(key, data, source="download", source_url=url, credit=credit)
-    except ValueError as exc:
-        raise HTTPException(status_code=502, detail=str(exc))
+    tried = _tried(key)
+    fresh = [c for c in candidates if c["url"] not in tried]
+    if not fresh:  # seen them all: start over
+        fresh, tried = candidates, []
+    unreachable = 0
+    for hit in fresh:
+        data = None
+        for url in (hit["url"], hit.get("fallback_url")):
+            if not url:
+                continue
+            try:
+                data, _ = museum_pictures._fetch_image(url)
+                hit = {**hit, "url": url}
+                break
+            except Exception:
+                continue
+        if data is None:
+            unreachable += 1
+            continue
+        credit = {**hit["credit"], "title": hit["title"], "page_url": hit["credit"].get("source_url") or "",
+                  "source_name": hit["source"], "tried": (tried + [hit["url"]])[-30:]}
+        try:
+            return save(key, data, source="download", source_url=hit["url"], credit=credit)
+        except ValueError:
+            continue
+    raise HTTPException(status_code=502, detail="Found pictures but could not download them. Check the Internet connection and try again.")

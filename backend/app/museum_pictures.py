@@ -25,7 +25,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
-from app import image_credit, museum_store
+from app import image_credit, image_search, museum_store
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 IMAGES_DIR = DATA / "museum_resource" / "images"
@@ -172,6 +172,7 @@ def candidate_sources(obj: dict):
     if obj.get("wiki_title") and obj["wiki_title"] != title:
         yield "wikipedia_article", obj["wiki_title"]
     yield "name_search", " ".join(x for x in (obj.get("name"), obj.get("origin")) if x)
+    yield "web_search", obj.get("name") or ""  # every free image collection, not only Wikipedia
 
 
 def _credit_for(url: str):
@@ -202,17 +203,29 @@ def _resolve(kind: str, value, obj: dict, wiki_lookup) -> tuple[str | None, dict
     return (url, _credit_for(url)) if url else (None, None)
 
 
-def find_picture_url(obj: dict, wiki_lookup, tried: list | None = None) -> tuple[str | None, dict | None, str | None]:
+def find_picture_url(obj: dict, wiki_lookup, tried: list | None = None, skip=()) -> tuple[str | None, dict | None, str | None]:
     """(image url, credit, how it was found). A source that fails or has no picture is skipped, not fatal;
-    `tried` collects what was attempted, for the 'still missing' report."""
+    `tried` collects what was attempted, for the 'still missing' report. Pictures whose URL is in `skip`
+    (ones already used or that would not download) are passed over."""
     for kind, value in candidate_sources(obj):
         try:
+            if kind == "web_search":
+                problems: list = []
+                hits = [h for h in image_search.search(value, order=image_search.ARTWORKS, log=problems)
+                        if h["url"] not in skip]
+                if problems and tried is not None:
+                    tried.extend(f"web_search {p}" for p in problems)
+                if hits:
+                    return hits[0]["url"], {**hits[0]["credit"], "found_in": hits[0]["source"]}, kind
+                if tried is not None:
+                    tried.append("web_search: no picture")
+                continue
             url, credit = _resolve(kind, value, obj, wiki_lookup)
         except Exception as exc:
             if tried is not None:
                 tried.append(f"{kind}: {exc}")
             continue
-        if url:
+        if url and url not in skip:
             return url, credit, kind
         if tried is not None:
             tried.append(f"{kind}: no picture")
@@ -309,24 +322,36 @@ class NoPicture(Exception):
 
 
 def download_for(obj: dict, wiki_lookup, gallery: str = "") -> dict:
-    """Find a picture for one object on the web and store it in the database.
+    """Find a picture for one object anywhere on the web's free image collections and store it in the database.
 
-    The object's own links are tried first (see ``candidate_sources``), then a search by name.
-    Raises NoPicture (with what was tried) or the network error that stopped the download.
+    The object's own links are tried first (see ``candidate_sources``), then Wikipedia and Commons by name,
+    then every other collection (Openverse, museum collections, NASA, Library of Congress). Calling it again
+    for an object that already has a downloaded picture gives the next different picture. Raises NoPicture
+    (with what was tried) or the error that stopped the download.
     """
     tried: list = []
-    url, credit, how = find_picture_url(obj, wiki_lookup, tried)
-    if not url:
+    previous = (museum_store.stored_pictures().get(obj["id"]) or {}).get("credit") or {}
+    skip = list(previous.get("tried") or [])
+    for _ in range(8):  # a picture that will not download is skipped for the next one
+        url, credit, how = find_picture_url(obj, wiki_lookup, tried, skip)
+        if not url and skip:
+            skip = []  # seen them all: start over
+            url, credit, how = find_picture_url(obj, wiki_lookup, tried, skip)
+        if not url:
+            raise NoPicture(tried)
+        try:
+            data, _ = _fetch_image(url)
+            break
+        except Exception as exc:
+            tried.append(f"download: {exc}")
+            skip.append(url)
+    else:
         raise NoPicture(tried)
-    try:
-        data, _ = _fetch_image(url)
-    except Exception as exc:
-        raise NoPicture(tried + [f"download: {exc}"]) from exc
     credit = credit or {}
     stored_credit = {"credit": credit.get("artist") or credit.get("credit"), "license": credit.get("license"),
                      "license_url": credit.get("license_url"), "source_url": credit.get("source_url") or url,
                      "line": credit.get("line") or (image_credit.credit_line(credit) if credit else ""),
-                     "found_via": how}
+                     "found_via": how, "found_in": credit.get("found_in"), "tried": (skip + [url])[-30:]}
     museum_store.save_picture(obj["id"], gallery, data, source="download", source_url=url, credit=stored_credit)
     return {"found_via": how, "image_url": url, "credit": stored_credit}
 

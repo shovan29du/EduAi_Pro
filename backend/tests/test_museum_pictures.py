@@ -18,6 +18,7 @@ def isolated(tmp_path, monkeypatch, museum_db):
     monkeypatch.setattr(mp, "IMAGES_DIR", tmp_path / "images")
     monkeypatch.setattr(mp, "MANIFEST_PATH", tmp_path / "pictures.json")
     monkeypatch.setattr(mp, "CACHE_DIR", tmp_path / "cache")
+    monkeypatch.setattr(mp.image_search, "search", lambda *a, **k: [])  # no live network in tests
 
 
 def test_met_thumbnail_returns_only_public_domain_pictures(monkeypatch):
@@ -161,7 +162,7 @@ def test_candidate_sources_try_the_objects_own_links_first_and_search_by_name_la
            "links": {"wikipedia": "https://en.wikipedia.org/wiki/Rosetta_Stone", "wikidata": "https://www.wikidata.org/wiki/Q48584",
                      "museum_object": "https://www.britishmuseum.org/collection/object/Y_EA24"}}
     kinds = [k for k, _ in mp.candidate_sources(obj)]
-    assert kinds == ["museum_page", "wikipedia_article", "wikidata_item", "wikipedia_article", "name_search"]
+    assert kinds == ["museum_page", "wikipedia_article", "wikidata_item", "wikipedia_article", "name_search", "web_search"]
     values = dict((k, v) for k, v in mp.candidate_sources(obj) if k in ("museum_page", "wikidata_item", "name_search"))
     assert values == {"museum_page": "https://www.britishmuseum.org/collection/object/Y_EA24", "wikidata_item": "Q48584", "name_search": "Rosetta Stone Egypt"}
 
@@ -297,3 +298,33 @@ def test_check_links_writes_a_report_of_broken_links(monkeypatch):
     assert report["a"]["museum_object"]["ok"] and not report["b"]["museum_object"]["ok"] and report["b"]["wikidata"]["ok"]
     assert any("broken museum_object: b" in line for line in logged)
     assert json.loads(mp.MANIFEST_PATH.with_name("link_report.json").read_text()) == report
+
+
+def _hit(n):
+    return {"source": "Openverse (flickr)", "url": f"https://img.example/{n}.jpg", "fallback_url": "", "title": f"Photo {n}",
+            "credit": {"credit": f"Person {n}", "license": "CC BY 2.0", "license_url": "l", "source_url": f"https://p/{n}", "line": f"Person {n} · CC BY 2.0"}}
+
+
+def test_searching_every_collection_is_the_last_resort_and_is_credited(monkeypatch):
+    searched = []
+    monkeypatch.setattr(mp.image_search, "search", lambda q, order=None, log=None, **k: searched.append((q, order)) or [_hit(1)])
+    monkeypatch.setattr(mp, "_fetch_image", lambda url: (JPEG, ".jpg"))
+    obj = {"id": "o", "name": "Obscure bowl"}
+    result = mp.download_for(obj, lambda t, q: None)
+    assert searched == [("Obscure bowl", mp.image_search.ARTWORKS)]  # museum collections first for museum objects
+    stored = museum_store.stored_pictures()["o"]["credit"]
+    assert result["found_via"] == "web_search" and stored["line"] == "Person 1 · CC BY 2.0" and stored["found_in"] == "Openverse (flickr)"
+
+
+def test_download_again_gives_the_next_picture_and_skips_ones_that_will_not_download(monkeypatch):
+    monkeypatch.setattr(mp.image_search, "search", lambda q, **k: [_hit(1), _hit(2), _hit(3)])
+
+    def fetch(url):
+        if url.endswith("/2.jpg"):
+            raise OSError("403")
+        return JPEG, ".jpg"
+
+    monkeypatch.setattr(mp, "_fetch_image", fetch)
+    obj = {"id": "o", "name": "Obscure bowl"}
+    urls = [mp.download_for(obj, lambda t, q: None)["image_url"] for _ in range(4)]
+    assert urls == ["https://img.example/1.jpg", "https://img.example/3.jpg", "https://img.example/1.jpg", "https://img.example/3.jpg"]
