@@ -16,7 +16,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote, quote_plus, unquote
 from urllib.request import Request, urlopen
 
-from fastapi import FastAPI, HTTPException, Request, Response, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, Response, UploadFile, File, Form
+from fastapi import Request as HttpRequest
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
@@ -3259,7 +3260,7 @@ def _museum_object_or_404(gallery: str, object_id: str) -> dict:
 
 
 @app.get("/api/museum/picture/{object_id}")
-def museum_picture(object_id: str, request: Request):
+def museum_picture(object_id: str, request: HttpRequest):
     """The picture stored in the database for an object."""
     found = museum_store.get_picture(object_id)
     if not found:
@@ -3272,7 +3273,7 @@ def museum_picture(object_id: str, request: Request):
 
 
 @app.put("/api/museum/{gallery}/{object_id}/picture")
-async def museum_upload_picture(gallery: str, object_id: str, request: Request):
+async def museum_upload_picture(gallery: str, object_id: str, request: HttpRequest):
     """Upload a picture for an object: the request body is the image file itself."""
     obj = _museum_object_or_404(gallery, object_id)
     declared = request.headers.get("content-length")
