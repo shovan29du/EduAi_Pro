@@ -83,6 +83,7 @@ from app.image_credit import router as image_credit_router
 from app.virtual_tour import router as virtual_tour_router
 from app.lesson_enrichment import router as lesson_enrichment_router
 from app import museum_pictures, museum_store
+from app.version import code_stamp
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -414,6 +415,15 @@ def export_syllabus_custom(standard: int, payload: dict):
 
 def _level_syllabus_path(level_id: str) -> Path:
     return SYLLABUS_DIR / levels_module.syllabus_filename(level_id)
+
+
+SERVER_CODE_STAMP = code_stamp()  # the code this server process started with
+
+
+@app.get("/api/health")
+def health():
+    """Lets the launcher tell whether the running server has the latest code (see app/version.py)."""
+    return {"app": "EduAi_Pro", "code_stamp": SERVER_CODE_STAMP}
 
 
 @app.get("/api/levels")

@@ -21,7 +21,10 @@ export function getRelatedArticle({ title, query, context, key }) {
 }
 
 // ── The owner's own picture for a lesson (Download / Upload), kept in the database ──
+export const STALE_SERVER_MESSAGE = 'The app is still running its old version. Close the black EduAi_Pro window, then open the EduAi_Pro shortcut again.';
+
 async function readError(response, fallback) {
+  if (response.status === 405) return STALE_SERVER_MESSAGE; // the running server predates this feature
   try {
     const body = await response.json();
     return typeof body.detail === 'string' ? body.detail : fallback;

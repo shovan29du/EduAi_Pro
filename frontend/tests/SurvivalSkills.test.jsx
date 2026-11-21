@@ -164,4 +164,10 @@ describe('SurvivalSkills Download and Upload', () => {
     await waitFor(() => expect(screen.getByRole('alert')).toHaveTextContent('JPEG, PNG, WebP or GIF'));
     expect(global.fetch.mock.calls.some((c) => c[1]?.method === 'PUT')).toBe(false);
   });
+
+  it('explains how to fix it when the running server is an old version (405)', async () => {
+    await openLesson(() => ({ ok: false, status: 405, json: () => Promise.resolve({ detail: 'Method Not Allowed' }) }));
+    fireEvent.click(screen.getByRole('button', { name: /Download (another )?picture/ }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('Close the black EduAi_Pro window');
+  });
 });

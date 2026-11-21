@@ -149,9 +149,59 @@ def test_main_opens_an_already_running_app_instead_of_starting_twice(monkeypatch
     opened = []
     monkeypatch.setattr(run_app, "is_listening", lambda *a: True)
     monkeypatch.setattr(run_app, "is_ours", lambda *a: True)
+    monkeypatch.setattr(run_app, "running_stamp", lambda *a: run_app.code_stamp())  # same code as on disk
     monkeypatch.setattr(run_app, "open_browser", lambda *a: opened.append(1) or "Microsoft Edge")
     monkeypatch.setitem(sys.modules, "uvicorn", None)  # importing it would raise
     assert run_app.main() == 0 and opened == [1]
+
+
+@pytest.mark.parametrize("running", [None, 1])  # no /api/health at all (an old server), or older code
+def test_main_replaces_a_server_that_still_runs_old_code(monkeypatch, tmp_path, capsys, running):
+    state = {"up": True, "stopped": []}
+    monkeypatch.setattr(run_app, "is_listening", lambda *a: state["up"])
+    monkeypatch.setattr(run_app, "is_ours", lambda *a: True)
+    monkeypatch.setattr(run_app, "running_stamp", lambda *a: running)
+    monkeypatch.setattr(run_app, "find_listening_pid", lambda *a: 4242)
+    monkeypatch.setattr(run_app, "stop_process", lambda pid: (state["stopped"].append(pid), state.update(up=False)))
+    monkeypatch.setattr(run_app, "build_frontend", lambda *a: True)
+    monkeypatch.setattr(run_app, "open_when_ready", lambda *a, **k: None)
+    started = {}
+    monkeypatch.setitem(sys.modules, "uvicorn", types.SimpleNamespace(run=lambda app, **kw: started.update(app=app)))
+    cwd = Path.cwd()
+    try:
+        assert run_app.main() == 0
+    finally:
+        os.chdir(cwd)
+    assert state["stopped"] == [4242] and started["app"] == "app.main:app"
+    assert "older copy" in capsys.readouterr().out
+
+
+def test_main_says_so_when_the_old_server_cannot_be_closed(monkeypatch, capsys):
+    monkeypatch.setattr(run_app, "is_listening", lambda *a: True)
+    monkeypatch.setattr(run_app, "is_ours", lambda *a: True)
+    monkeypatch.setattr(run_app, "running_stamp", lambda *a: None)
+    monkeypatch.setattr(run_app, "find_listening_pid", lambda *a: None)
+    monkeypatch.setitem(sys.modules, "uvicorn", None)
+    assert run_app.main() == 1
+    assert "Could not close the older copy" in capsys.readouterr().out
+
+
+def test_find_listening_pid_reads_windows_netstat(monkeypatch):
+    out = ("  Proto  Local Address          Foreign Address        State           PID\n"
+           "  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       10\n"
+           "  TCP    127.0.0.1:8080         0.0.0.0:0              LISTENING       4242\n"
+           "  TCP    127.0.0.1:50000        127.0.0.1:8080         ESTABLISHED     99\n")
+    monkeypatch.setattr(run_app.sys, "platform", "win32")
+    monkeypatch.setattr(run_app.subprocess, "run", lambda *a, **k: types.SimpleNamespace(stdout=out))
+    assert run_app.find_listening_pid(8080) == 4242
+    assert run_app.find_listening_pid(9999) is None
+
+
+def test_the_health_endpoint_reports_the_code_stamp():
+    from fastapi.testclient import TestClient
+    from app.main import app
+    body = TestClient(app).get("/api/health").json()
+    assert body["app"] == "EduAi_Pro" and isinstance(body["code_stamp"], int) and body["code_stamp"] > 0
 
 
 def test_main_refuses_when_another_program_owns_the_port(monkeypatch, capsys):

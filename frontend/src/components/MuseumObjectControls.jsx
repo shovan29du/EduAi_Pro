@@ -27,6 +27,7 @@ export function useMuseumChanges() {
 }
 
 async function errorText(response, fallback) {
+  if (response.status === 405) return 'The app is still running its old version. Close the black EduAi_Pro window, then open the EduAi_Pro shortcut again.';
   try {
     const body = await response.json();
     return typeof body.detail === 'string' ? body.detail : fallback;

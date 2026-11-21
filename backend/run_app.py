@@ -12,6 +12,7 @@ On Windows it opens Microsoft Edge (falling back to the default browser).
 """
 from __future__ import annotations
 
+import json
 import os
 import shutil
 import socket
@@ -24,6 +25,8 @@ import webbrowser
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BACKEND_DIR))
+from app.version import code_stamp  # noqa: E402
 PORT = int(os.environ.get("EDUAI_PORT", "8080"))
 URL = f"http://localhost:{PORT}"
 READY_TIMEOUT_SECONDS = 180
@@ -51,6 +54,57 @@ def is_ours(port: int = PORT) -> bool:
             return response.status == 200
     except Exception:
         return False
+
+
+def running_stamp(port: int = PORT):
+    """The code fingerprint the running server reports, or None (an older server has no /api/health)."""
+    try:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        with opener.open(f"http://127.0.0.1:{port}/api/health", timeout=3) as response:
+            return json.loads(response.read().decode("utf-8")).get("code_stamp")
+    except Exception:
+        return None
+
+
+def find_listening_pid(port: int = PORT):
+    """The process id of whatever is listening on the port (None if it cannot be found)."""
+    try:
+        if sys.platform == "win32":
+            out = subprocess.run(["netstat", "-ano", "-p", "tcp"], capture_output=True, text=True, timeout=15).stdout
+            for line in out.splitlines():
+                parts = line.split()
+                if len(parts) >= 5 and parts[3].upper() == "LISTENING" and parts[1].rsplit(":", 1)[-1] == str(port):
+                    return int(parts[4])
+        else:
+            out = subprocess.run(["lsof", "-ti", f"tcp:{port}", "-sTCP:LISTEN"], capture_output=True, text=True, timeout=15).stdout
+            return int(out.split()[0]) if out.split() else None
+    except (OSError, ValueError, subprocess.SubprocessError):
+        pass
+    return None
+
+
+def stop_process(pid: int) -> None:
+    if sys.platform == "win32":
+        subprocess.run(["taskkill", "/PID", str(pid), "/T", "/F"], capture_output=True, timeout=30)
+    else:
+        os.kill(pid, 15)
+
+
+def replace_stale_server(port: int = PORT, wait: float = 15.0) -> bool:
+    """Stop an out-of-date copy of EduAi_Pro that is still running. True once the port is free."""
+    pid = find_listening_pid(port)
+    if pid is None or pid == os.getpid():
+        return False
+    try:
+        stop_process(pid)
+    except (OSError, subprocess.SubprocessError):
+        return False
+    deadline = time.time() + wait
+    while time.time() < deadline:
+        if not is_listening(port):
+            return True
+        time.sleep(0.3)
+    return False
 
 
 def find_edge() -> str | None:
@@ -169,13 +223,20 @@ def build_frontend(frontend: Path = FRONTEND_DIR) -> bool:
 
 def main() -> int:
     if is_listening():
-        if is_ours():
+        if not is_ours():
+            print(f"Port {PORT} is being used by another program, so EduAi_Pro cannot start.")
+            print("Close that program (or restart the PC) and try again.")
+            return 1
+        if running_stamp() == code_stamp():
             print(f"EduAi_Pro is already running at {URL} - opening it.")
             _announce_open()
             return 0
-        print(f"Port {PORT} is being used by another program, so EduAi_Pro cannot start.")
-        print("Close that program (or restart the PC) and try again.")
-        return 1
+        # It was started before the last update, so it still has the old code in memory
+        # (new buttons then fail with "Method Not Allowed"). Close it and start fresh.
+        print("An older copy of EduAi_Pro is still running. Closing it so the updated version starts ...", flush=True)
+        if not replace_stale_server():
+            print("Could not close the older copy. Close its black window (or restart the PC) and try again.")
+            return 1
     if not build_frontend():
         print("There is no built copy of the pages, so the app cannot open. See the messages above.")
         return 1
