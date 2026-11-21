@@ -78,6 +78,7 @@ from app.professional_api import router as professional_router
 from app.news_api import router as news_router
 from app.lesson_examples import router as lesson_examples_router
 from app.problem_reports import router as problem_reports_router
+from app.lesson_pictures import router as lesson_pictures_router
 from app.image_credit import router as image_credit_router
 from app.virtual_tour import router as virtual_tour_router
 from app.lesson_enrichment import router as lesson_enrichment_router
@@ -116,6 +117,7 @@ app.include_router(professional_router)
 app.include_router(news_router)
 app.include_router(lesson_examples_router)
 app.include_router(problem_reports_router)
+app.include_router(lesson_pictures_router)
 app.include_router(image_credit_router)
 app.include_router(virtual_tour_router)
 app.include_router(lesson_enrichment_router)

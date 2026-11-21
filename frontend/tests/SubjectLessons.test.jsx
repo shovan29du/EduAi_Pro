@@ -156,8 +156,8 @@ describe('SubjectLessons book excerpts from library', () => {
       if (url === '/api/progress/Shovan') {
         return Promise.resolve({ ok: true, json: () => Promise.resolve({ completed_lessons: {} }) });
       }
-      if (String(url).startsWith('/api/museum/thumbnail')) {
-        return Promise.resolve({ ok: true, json: () => Promise.resolve({ thumbnail_url: 'https://example.com/photo.jpg' }) });
+      if (String(url).startsWith('/api/lesson-enrichment/wiki')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve({ available: true, title: 'Percentage', description: '', page_url: 'https://en.wikipedia.org/wiki/Percentage', thumbnail_url: 'https://example.com/photo.jpg' }) });
       }
       return Promise.resolve({ ok: true, json: () => Promise.resolve({}) });
     });
@@ -199,7 +199,9 @@ describe('SubjectLessons book excerpts from library', () => {
 
     // Real-photo lookup via the live Wikipedia thumbnail proxy
     await waitFor(() => expect(container.querySelector('img[src="https://example.com/photo.jpg"]')).toBeInTheDocument());
-    expect(global.fetch).toHaveBeenCalledWith('/api/museum/thumbnail?wiki_title=Percentages');
+    expect(global.fetch.mock.calls.some((c) => String(c[0]).startsWith('/api/lesson-enrichment/wiki') && decodeURIComponent(String(c[0])).includes('key=subject/'))).toBe(true);
+    expect(screen.getByRole('button', { name: /Download picture|Download another picture/ })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Upload picture/ })).toBeInTheDocument();
   });
 
   it('renders a Singapore Math approach section with method, explanation, and example table', async () => {

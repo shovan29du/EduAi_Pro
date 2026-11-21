@@ -175,13 +175,18 @@ def _cache_path(key: str) -> Path:
 
 
 @router.get("/wiki")
-def related_article(title: str = "", q: str = "", ctx: str = ""):
+def related_article(title: str = "", q: str = "", ctx: str = "", key: str = ""):
     """Related Wikipedia article (picture, description, credit) for a topic.
 
     `ctx` is the wider subject (for example "Judo" for a lesson called "Stance"),
     used to narrow a short title and as the last-resort picture.
     """
     title, q, ctx = title.strip()[:200], q.strip()[:200], ctx.strip()[:100]
+    if key:  # the owner's own picture for this lesson (uploaded or downloaded) wins
+        from app import lesson_pictures
+        stored = lesson_pictures.stored_response(lesson_pictures.valid_key(key))
+        if stored:
+            return stored
     if not title and not q:
         raise HTTPException(status_code=400, detail="title or q is required")
     path = _cache_path(f"{title}|{q}|{ctx}")

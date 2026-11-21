@@ -100,27 +100,19 @@ function RelatedArticle({ wikiTitle, query }) {
     return () => { active = false; };
   }, [wikiTitle, query]);
 
-  if (state.status !== 'ready') return null;
+  if (state.status !== 'ready' || !state.article.extract) return null;
   const a = state.article;
   return (
     <section className="rounded-xl border bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800" aria-label="Related article">
-      <h5 className="font-semibold">Related picture and background</h5>
-      <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-        {a.thumbnail_url && (
-          <div className="shrink-0 sm:w-56">
-            <img src={a.thumbnail_url} alt={a.title} loading="lazy" className="max-h-52 w-full rounded object-contain sm:w-56" />
-            <ImageCredit src={a.thumbnail_url} />
-          </div>
-        )}
-        <div className="min-w-0">
-          <p className="font-semibold">{a.title}{a.description ? <span className="font-normal text-gray-600 dark:text-gray-400"> — {a.description}</span> : null}</p>
-          <p className="mt-1 text-sm">{a.extract}</p>
-          <p className="mt-2 text-xs text-gray-600 dark:text-gray-400">
-            From the closest matching Wikipedia article (found automatically, so check it fits your lesson) ·{' '}
-            <a href={a.page_url} target="_blank" rel="noopener noreferrer" className="underline">Read the full article</a>{' '}
-            · Text under CC BY-SA
-          </p>
-        </div>
+      <h5 className="font-semibold">Background</h5>
+      <div className="mt-2 min-w-0">
+        <p className="font-semibold">{a.title}{a.description ? <span className="font-normal text-gray-600 dark:text-gray-400"> — {a.description}</span> : null}</p>
+        <p className="mt-1 text-sm">{a.extract}</p>
+        <p className="mt-2 text-xs text-gray-600 dark:text-gray-400">
+          From the closest matching Wikipedia article (found automatically, so check it fits your lesson) ·{' '}
+          <a href={a.page_url} target="_blank" rel="noopener noreferrer" className="underline">Read the full article</a>{' '}
+          · Text under CC BY-SA
+        </p>
       </div>
     </section>
   );

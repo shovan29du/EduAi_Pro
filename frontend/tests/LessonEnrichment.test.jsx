@@ -45,10 +45,10 @@ function install({ enrichment = () => ok(ENRICHMENT), article = () => ok(ARTICLE
 beforeEach(() => install());
 
 describe('LessonEnrichment', () => {
-  it('shows the related picture, formulas, a chart, tables and case studies for a lesson', async () => {
+  it('shows the background text, formulas, a chart, tables and case studies for a lesson', async () => {
     render(<LessonEnrichment lessonId="finance-m1-l1" levelId="M1" />);
     expect(await screen.findByText('It estimates the price of options.')).toBeInTheDocument();
-    expect(screen.getByRole('img', { name: 'Black–Scholes model' })).toHaveAttribute('src', COMMONS);
+    expect(screen.queryByRole('img', { name: 'Black–Scholes model' })).not.toBeInTheDocument(); // the lesson page shows the picture, with Download/Upload
     expect(screen.getByRole('link', { name: /Read the full article/ })).toHaveAttribute('href', ARTICLE.page_url);
     expect(screen.getByText(/Text under CC BY-SA/)).toBeInTheDocument();
 

@@ -11,10 +11,41 @@ export const isEnrichedLevel = (level) => ENRICHED_LEVELS.includes(String(level 
 export const getLessonEnrichment = (level, lessonId) =>
   get(`/${encodeURIComponent(String(level).toUpperCase())}/${encodeURIComponent(lessonId)}`);
 
-export function getRelatedArticle({ title, query, context }) {
+export function getRelatedArticle({ title, query, context, key }) {
   const params = new URLSearchParams();
   if (title) params.set('title', title);
   if (query) params.set('q', query);
   if (context) params.set('ctx', context);
+  if (key) params.set('key', key);
   return get(`/wiki?${params}`);
+}
+
+// ── The owner's own picture for a lesson (Download / Upload), kept in the database ──
+async function readError(response, fallback) {
+  try {
+    const body = await response.json();
+    return typeof body.detail === 'string' ? body.detail : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export async function downloadLessonPicture({ key, title, context, wikiTitle }) {
+  const response = await fetch('/api/lesson-picture/download', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ key, title, context: context || '', wiki_title: wikiTitle || '' }),
+  });
+  if (!response.ok) throw new Error(await readError(response, 'Could not download a picture.'));
+  return response.json();
+}
+
+export async function uploadLessonPicture(key, file) {
+  const response = await fetch(`/api/lesson-picture?key=${encodeURIComponent(key)}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': file.type, 'X-Filename': encodeURIComponent(file.name) },
+    body: file,
+  });
+  if (!response.ok) throw new Error(await readError(response, 'Could not upload the picture.'));
+  return response.json();
 }

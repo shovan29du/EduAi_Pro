@@ -43,7 +43,7 @@ const COLOURS = {
   mobile_photography_vivo_x200_pro: '#0891b2',
 };
 
-function ModuleView({ module: mod, colour, context, onBack }) {
+function ModuleView({ module: mod, colour, context, pathwayId, onBack }) {
   const [quizAnswers, setQuizAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const quiz = mod.quiz || [];
@@ -57,7 +57,7 @@ function ModuleView({ module: mod, colour, context, onBack }) {
         <h2 className="text-2xl font-bold text-gray-800 mt-2">{mod.title}</h2>
         <p className="text-gray-600 mt-1">{mod.description}</p>
         <p className="text-sm text-gray-500 mt-1">⏱ {mod.duration_minutes} minutes</p>
-        <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={context} />
+        <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={context} pictureKey={`practical/${pathwayId}/${mod.title}`} controls />
       </div>
 
       <QuickFacts mod={mod} colour={colour} />
@@ -233,7 +233,7 @@ function PathwayView({ pathway, onBack }) {
 
   if (selectedModule) return (
     <div>
-      <ModuleView module={selectedModule} colour={colour} context={pathway.label} onBack={() => setSelectedModule(null)} />
+      <ModuleView module={selectedModule} colour={colour} context={pathway.label} pathwayId={pathway.id} onBack={() => setSelectedModule(null)} />
     </div>
   );
 
@@ -256,7 +256,7 @@ function PathwayView({ pathway, onBack }) {
                 style={{ borderColor: colour }}>
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm flex items-center justify-center font-bold" style={{ backgroundColor: colour }}>{i + 1}</div>
-                  <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={pathway.label} size="thumb" />
+                  <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={pathway.label} pictureKey={`practical/${pathway.id}/${mod.title}`} size="thumb" />
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800">{mod.title}</p>
                     <p className="text-xs text-gray-500 mt-1">{mod.description}</p>

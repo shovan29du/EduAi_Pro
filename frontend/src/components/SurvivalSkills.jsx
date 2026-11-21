@@ -28,7 +28,7 @@ function QuickFacts({ skill }) {
   );
 }
 
-function SkillDetail({ skill, context, onBack }) {
+function SkillDetail({ skill, context, catId, onBack }) {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const quiz = skill.quiz || [];
@@ -45,7 +45,7 @@ function SkillDetail({ skill, context, onBack }) {
         </div>
         <h2 className="text-2xl font-bold text-gray-800 flex-1">{skill.name}</h2>
         <SpeakButton text={skill.name} lang="en" />
-        <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={context} />
+        <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={context} pictureKey={`survival/${catId}/${skill.name}`} controls />
       </div>
 
       <QuickFacts skill={skill} />
@@ -210,7 +210,7 @@ function CategoryView({ cat, catId, onBack }) {
       .catch(err => setLoadError(err.message));
   }, [catId]);
 
-  if (selectedSkill) return <SkillDetail skill={selectedSkill} context={cat.label} onBack={() => setSelectedSkill(null)} />;
+  if (selectedSkill) return <SkillDetail skill={selectedSkill} context={cat.label} catId={catId} onBack={() => setSelectedSkill(null)} />;
 
   const skills = data?.skills || [];
   return (
@@ -224,7 +224,7 @@ function CategoryView({ cat, catId, onBack }) {
               className="w-full text-left rounded-xl border-2 border-green-200 bg-green-50 p-4 hover:shadow-md transition-shadow">
               <div className="flex items-start gap-3">
                 <div className="w-7 h-7 rounded-full bg-green-700 text-white text-xs flex items-center justify-center font-bold flex-shrink-0">{i + 1}</div>
-                <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={cat.label} size="thumb" />
+                <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={cat.label} pictureKey={`survival/${catId}/${skill.name}`} size="thumb" />
                 <div className="flex-1">
                   <p className="font-semibold text-gray-800">{skill.name}</p>
                   <div className="flex gap-2 mt-1 flex-wrap">
