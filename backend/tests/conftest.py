@@ -27,3 +27,24 @@ def _ensure_test_children() -> None:
 
 
 _ensure_test_children()
+
+
+import pytest  # noqa: E402
+
+
+@pytest.fixture
+def museum_db(tmp_path, monkeypatch):
+    """A throwaway database for the museum's stored pictures and deleted objects."""
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
+
+    from app import database, museum_store
+    from app import models  # noqa: F401  (registers the tables)
+
+    engine = create_engine(f"sqlite:///{(tmp_path / 'museum.db').as_posix()}", connect_args={"check_same_thread": False})
+    database.Base.metadata.create_all(bind=engine)
+    monkeypatch.setattr(database, "SessionLocal", sessionmaker(bind=engine, autoflush=False, expire_on_commit=False))
+    museum_store.invalidate()
+    yield engine
+    museum_store.invalidate()
+    engine.dispose()

@@ -4,6 +4,7 @@ import FavoriteButton from './FavoriteButton.jsx';
 import { useChild } from '../contexts/ChildContext.jsx';
 import ReportProblem from './ReportProblem.jsx';
 import ImageCredit from './ImageCredit.jsx';
+import MuseumObjectControls, { useMuseumChanges } from './MuseumObjectControls.jsx';
 import { postProgress } from '../api/progress.js';
 import './VirtualMuseum.css';
 
@@ -152,9 +153,10 @@ function WikiThumbnail({ wikiTitle, query, thumbnailLocal, category, size = 'lis
   // Met objects have their own open-access picture, so they are looked up by Met ID, never by a guessed name.
   const lookupKey = wikiTitle || (metId ? `met:${metId}` : '') || (query ? `q:${query}` : '');
   // A photo already attached to the object: a web URL, or a copy downloaded into museum_resource/images/.
-  const hasRealPhoto = /^https?:|^\/museum-resource\/images\//.test(thumbnailLocal || '');
+  const hasRealPhoto = /^https?:|^\/museum-resource\/images\/|^\/api\/museum\/picture\//.test(thumbnailLocal || '');
   const [src, setSrc] = useState(thumbnailLocal || thumbCache[lookupKey] || null);
   const mounted = useRef(true);
+  useEffect(() => { if (thumbnailLocal) setSrc(thumbnailLocal); }, [thumbnailLocal]); // a new picture was saved
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
 
   useEffect(() => {
@@ -215,7 +217,7 @@ function WikiThumbnail({ wikiTitle, query, thumbnailLocal, category, size = 'lis
           : <span className="text-7xl opacity-70">{emoji}</span>
         }
       </div>
-      {/^\/museum-resource\//.test(src || '')
+      {/^\/museum-resource\/|^\/api\/museum\/picture\//.test(src || '')
         ? creditLine && <p className="-mt-2 mb-4 text-xs text-gray-500 dark:text-gray-400" data-testid="image-credit">Photo: {creditLine}</p>
         : <ImageCredit src={src} />}
     </>
@@ -430,6 +432,7 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       )}
 
       <ObjectLinks links={obj.links} />
+      <MuseumObjectControls gallery={gallery} obj={obj} onPictureChanged={setObj} onDeleted={onBack} />
       <ReportProblem kind="museum_object" itemId={obj.id} title={obj.name} context={gallery} />
     </div>
   );
@@ -461,6 +464,7 @@ function GalleryView({ gallery, onBack }) {
   const [page, setPage] = useState(0);
   const [sortBy, setSortBy] = useState('default');
   const PAGE_SIZE = 24;
+  const changes = useMuseumChanges();
 
   const [loadError, setLoadError] = useState(null);
 
@@ -479,7 +483,7 @@ function GalleryView({ gallery, onBack }) {
     </div>
   );
 
-  const objects = sortObjects(data?.objects ?? [], sortBy);
+  const objects = sortObjects((data?.objects ?? []).filter((o) => !changes.isDeleted(gallery.id, o.id)).map(changes.withPicture), sortBy);
   const pageCount = Math.ceil(objects.length / PAGE_SIZE);
   const visible = objects.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
@@ -525,6 +529,7 @@ function SearchView() {
   const [searchFailed, setSearchFailed] = useState(false);
   const [selectedObj, setSelectedObj] = useState(null);
   const [sortBy, setSortBy] = useState('default');
+  const changes = useMuseumChanges();
   const search = () => {
     if (q.length < 2) return;
     setSearchFailed(false);
@@ -538,7 +543,7 @@ function SearchView() {
       <ObjectDetail gallery={selectedObj.gallery} objectId={selectedObj.id} onBack={() => setSelectedObj(null)} />
     </div>
   );
-  const sortedResults = sortObjects(results, sortBy);
+  const sortedResults = sortObjects(results.filter((o) => !changes.isDeleted(o.gallery, o.id)).map(changes.withPicture), sortBy);
   return (
     <div>
       <div className="flex gap-2 mb-4">
@@ -571,7 +576,9 @@ function SearchView() {
 // automatically as the date changes (Google Arts & Culture-style homepage
 // spotlight), rather than always showing the same static entry point. ──────────
 function FeaturedToday({ onOpen }) {
-  const [featured, setFeatured] = useState(null);
+  const [shown, setFeatured] = useState(null);
+  const changes = useMuseumChanges();
+  const featured = shown && !changes.isDeleted(shown.gallery, shown.id) ? changes.withPicture(shown) : null;
   useEffect(() => {
     fetch(`${API}/museum/featured`).then(r => r.ok ? r.json() : null).then((d) => d?.name && setFeatured(d)).catch(() => {});
   }, []);

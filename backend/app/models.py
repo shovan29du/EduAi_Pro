@@ -12,6 +12,7 @@ from sqlalchemy import (
     ForeignKey,
     Index,
     Integer,
+    LargeBinary,
     JSON,
     String,
     Text,
@@ -337,6 +338,36 @@ class AuditEvent(Base):
     after: Mapped[dict | None] = mapped_column(JSON)
     metadata_json: Mapped[dict] = mapped_column(JSON, default=dict)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now, index=True)
+
+
+class MuseumPicture(Base):
+    """A Virtual Museum object's picture, stored in the database (uploaded or downloaded)."""
+    __tablename__ = "museum_pictures"
+    object_id: Mapped[str] = mapped_column(String(200), primary_key=True)
+    gallery: Mapped[str] = mapped_column(String(100), default="")
+    content_type: Mapped[str] = mapped_column(String(50))
+    data: Mapped[bytes] = mapped_column(LargeBinary)
+    size: Mapped[int] = mapped_column(Integer, default=0)
+    sha1: Mapped[str] = mapped_column(String(40), default="")
+    source: Mapped[str] = mapped_column(String(20), default="download")  # "download" or "upload"
+    source_url: Mapped[str | None] = mapped_column(Text)
+    filename: Mapped[str | None] = mapped_column(String(300))
+    credit: Mapped[dict] = mapped_column(JSON, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now, onupdate=now)
+
+
+class MuseumDeletedObject(Base):
+    """An object the owner deleted from the Virtual Museum.
+
+    Kept here, not in museum.json, so the deletion survives an app update that
+    replaces the catalogue file.
+    """
+    __tablename__ = "museum_deleted_objects"
+    gallery: Mapped[str] = mapped_column(String(100), primary_key=True)
+    object_id: Mapped[str] = mapped_column(String(200), primary_key=True)
+    name: Mapped[str] = mapped_column(String(300), default="")
+    deleted_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
 
 
 Index("idx_course_level_subject", Course.level_id, Course.subject)

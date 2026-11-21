@@ -1,5 +1,6 @@
 import hashlib
 import json
+import threading
 import os
 import re
 import sqlite3 as _sqlite3
@@ -12,10 +13,10 @@ from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, quote_plus
+from urllib.parse import quote, quote_plus, unquote
 from urllib.request import Request, urlopen
 
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, Request, Response, UploadFile, File, Form
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
@@ -79,7 +80,7 @@ from app.problem_reports import router as problem_reports_router
 from app.image_credit import router as image_credit_router
 from app.virtual_tour import router as virtual_tour_router
 from app.lesson_enrichment import router as lesson_enrichment_router
-from app import museum_pictures
+from app import museum_pictures, museum_store
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -92,6 +93,9 @@ async def lifespan(_app: FastAPI):
     # bootstrap covers portable/local SQLite installs whose database has not
     # yet been created.
     create_schema()
+    # Pictures an older version saved as loose files move into the database (once each, in the background).
+    threading.Thread(target=museum_store.import_legacy_files, daemon=True,
+                     args=(museum_pictures.IMAGES_DIR, museum_pictures.MANIFEST_PATH)).start()
     yield
 
 
@@ -3064,9 +3068,25 @@ def _load_museum_cached(mtime: float) -> dict:
         return json.load(f)
 
 
+@lru_cache(maxsize=4)
+def _without_deleted(data_id: int, mtime: float, deleted: frozenset) -> dict:
+    data = _load_museum_cached(mtime)
+    galleries = {}
+    for key, gallery in data["galleries"].items():
+        hidden = {oid for (gid, oid) in deleted if gid == key}
+        if hidden:
+            gallery = {**gallery, "objects": [o for o in gallery.get("objects", []) if o["id"] not in hidden]}
+        galleries[key] = gallery
+    return {**data, "galleries": galleries}
+
+
 def _load_museum() -> dict:
     # The museum file is tens of megabytes: parse it once, and again only if it changes.
-    return _load_museum_cached(_MUSEUM_PATH.stat().st_mtime)
+    mtime = _MUSEUM_PATH.stat().st_mtime
+    deleted = frozenset(museum_store.deleted_objects())
+    if not deleted:
+        return _load_museum_cached(mtime)
+    return _without_deleted(id(_load_museum_cached(mtime)), mtime, deleted)  # objects the owner deleted are left out
 
 @app.get("/api/museum")
 def museum_overview():
@@ -3225,6 +3245,87 @@ def museum_thumbnail(wiki_title: str = "", q: str = "", met_id: int = 0):
         pass
     return {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "cached": False}
 
+
+
+# ── Picture and delete controls on each object (Download / Upload / Delete) ────
+def _museum_object_or_404(gallery: str, object_id: str) -> dict:
+    data = _load_museum()
+    if gallery not in data["galleries"]:
+        raise HTTPException(status_code=404, detail="Gallery not found")
+    for obj in data["galleries"][gallery].get("objects", []):
+        if obj["id"] == object_id:
+            return obj
+    raise HTTPException(status_code=404, detail="Object not found")
+
+
+@app.get("/api/museum/picture/{object_id}")
+def museum_picture(object_id: str, request: Request):
+    """The picture stored in the database for an object."""
+    found = museum_store.get_picture(object_id)
+    if not found:
+        raise HTTPException(status_code=404, detail="No stored picture")
+    data, content_type, sha1 = found
+    headers = {"ETag": f'"{sha1}"', "Cache-Control": "public, max-age=86400", "X-Content-Type-Options": "nosniff"}
+    if request.headers.get("if-none-match") == headers["ETag"]:
+        return Response(status_code=304, headers=headers)
+    return Response(content=data, media_type=content_type, headers=headers)
+
+
+@app.put("/api/museum/{gallery}/{object_id}/picture")
+async def museum_upload_picture(gallery: str, object_id: str, request: Request):
+    """Upload a picture for an object: the request body is the image file itself."""
+    obj = _museum_object_or_404(gallery, object_id)
+    declared = request.headers.get("content-length")
+    if declared and declared.isdigit() and int(declared) > museum_store.MAX_BYTES + 1024:
+        raise HTTPException(status_code=413, detail="That picture is too large (limit 8 MB).")
+    data = await request.body()
+    filename = unquote(request.headers.get("x-filename", ""))
+    try:
+        museum_store.save_picture(
+            object_id, gallery, data, source="upload", filename=filename,
+            credit={"credit": "Uploaded by the owner", "license": None, "source_url": None,
+                    "line": "Picture uploaded by the owner of this app"})
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    return museum_pictures.overlay(obj)
+
+
+@app.post("/api/museum/{gallery}/{object_id}/picture/download")
+def museum_download_picture(gallery: str, object_id: str):
+    """Find the object's picture on the web (its own links first, then a name search) and save it in the database."""
+    obj = _museum_object_or_404(gallery, object_id)
+
+    def wiki_lookup(wiki_title: str, q: str):
+        try:
+            return museum_thumbnail(wiki_title=wiki_title, q=q).get("thumbnail_url")
+        except HTTPException:
+            return None
+
+    try:
+        museum_pictures.download_for(obj, wiki_lookup, gallery)
+    except museum_pictures.NoPicture as exc:
+        offline = any("urlopen error" in t or "timed out" in t for t in exc.tried)
+        raise HTTPException(
+            status_code=502 if offline else 404,
+            detail="Could not reach the picture sources. Check the Internet connection and try again." if offline
+            else "No picture was found for this object. You can upload one instead.")
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Could not save the picture: {exc}")
+    return museum_pictures.overlay(obj)
+
+
+@app.delete("/api/museum/{gallery}/{object_id}")
+def museum_delete_object(gallery: str, object_id: str, confirm: bool = False):
+    """Delete an object from the museum (and its stored picture). Needs ?confirm=true."""
+    obj = _museum_object_or_404(gallery, object_id)
+    if not confirm:
+        raise HTTPException(status_code=400, detail="Deleting an object needs confirmation (confirm=true).")
+    museum_store.mark_deleted(gallery, object_id, obj.get("name", ""))
+    # A picture is shared by every copy of the same object id; keep it while another gallery still shows it.
+    still_shown = any(o["id"] == object_id for g in _load_museum()["galleries"].values() for o in g.get("objects", []))
+    if not still_shown:
+        museum_store.delete_picture(object_id)
+    return {"deleted": True, "id": object_id, "gallery": gallery}
 
 @app.get("/api/museum/{gallery}")
 def museum_gallery(gallery: str):

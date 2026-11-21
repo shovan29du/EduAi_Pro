@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Download real pictures for the Virtual Museum's objects.
 
-Run this on a computer with Internet access. It saves each picture to
-backend/data/museum_resource/images/ and records its credit and licence in
-backend/data/museum_resource/pictures.json; the app then shows the local copy
-(works offline, loads fast, credit shown). It is resumable: run it again and it
-carries on, retrying only what failed.
+Run this on a computer with Internet access. It saves each picture, with its
+credit and licence, in the app's database (the museum_pictures table); the app
+then shows the stored copy (works offline, loads fast, credit shown). Each
+object page also has Download / Upload / Delete buttons that do the same one
+object at a time. It is resumable: run it again and it carries on, retrying
+only what failed.
 
 Objects with no picture at all are done first. For each object the links it already
 has are tried first, then a search by name:
@@ -41,11 +42,18 @@ MUSEUM = Path(__file__).resolve().parent.parent / "data" / "virtual_museum" / "m
 
 
 def iter_objects(gallery: str = ""):
+    """Every object (skipping ones the owner deleted), each tagged with its gallery id."""
+    from app import museum_store
+    from app.database import create_schema
+    create_schema()
+    deleted = museum_store.deleted_objects()
     data = json.loads(MUSEUM.read_text(encoding="utf-8"))
     for gid, g in data["galleries"].items():
         if gallery and gid != gallery:
             continue
-        yield from g["objects"]
+        for obj in g["objects"]:
+            if (gid, obj["id"]) not in deleted:
+                yield {**obj, "gallery": gid}
 
 
 def main() -> int:
@@ -64,8 +72,11 @@ def main() -> int:
         broken = [(oid, key, r["url"]) for oid, links in report.items() for key, r in links.items() if not r["ok"]]
         print(f"checked {sum(len(v) for v in report.values())} links on {len(todo)} objects: {len(broken)} broken (see link_report.json)")
         return 0
-    have = museum_pictures.manifest()
-    todo = [o for o in objects if not (o["id"] in have and (museum_pictures.IMAGES_DIR / have[o["id"]]["file"]).exists())]
+    from app import museum_store
+    from app.database import create_schema
+    create_schema()
+    have = set(museum_store.stored_pictures())
+    todo = [o for o in objects if o["id"] not in have]
     none_at_all = [o for o in todo if not museum_pictures.has_picture(o) and not o.get("met_id")]
     print(f"{len(objects)} objects, {len(objects) - len(todo)} already downloaded, {len(todo)} to go "
           f"({len(none_at_all)} with no picture at all, done first)")

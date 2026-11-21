@@ -5,6 +5,7 @@ from fastapi.testclient import TestClient
 
 from app import image_credit
 from app import museum_pictures as mp
+from app import museum_store
 from app.main import app
 
 client = TestClient(app)
@@ -13,7 +14,7 @@ JPEG = b"\xff\xd8\xff" + b"0" * 5000
 
 
 @pytest.fixture(autouse=True)
-def isolated(tmp_path, monkeypatch):
+def isolated(tmp_path, monkeypatch, museum_db):
     monkeypatch.setattr(mp, "IMAGES_DIR", tmp_path / "images")
     monkeypatch.setattr(mp, "MANIFEST_PATH", tmp_path / "pictures.json")
     monkeypatch.setattr(mp, "CACHE_DIR", tmp_path / "cache")
@@ -77,7 +78,7 @@ def _network(monkeypatch, images):
     monkeypatch.setattr(mp.image_credit, "credit_for", lambda url: {"artist": "A. Photographer", "credit": "A. Photographer", "license": "CC BY-SA 4.0", "license_url": "l", "source_url": "s"})
 
 
-def test_download_pictures_saves_files_credits_and_resumes(monkeypatch):
+def test_download_pictures_saves_to_the_database_with_credits_and_resumes(monkeypatch):
     _network(monkeypatch, {"https://images.metmuseum.org/m.jpg": (JPEG, ".jpg"), "https://cdn.example/cma.jpg": (JPEG, ".jpg"), "https://upload.wikimedia.org/w.jpg": (JPEG, ".jpg")})
     objects = [
         {"id": "met_9", "met_id": 9, "name": "Met thing"},
@@ -93,10 +94,11 @@ def test_download_pictures_saves_files_credits_and_resumes(monkeypatch):
 
     stats = mp.download_pictures(objects, wiki, sleep=0, log=lambda *_: None)
     assert stats == {"downloaded": 3, "no_picture": 1, "failed": 0, "skipped": 0}
-    manifest = json.loads(mp.MANIFEST_PATH.read_text())
-    assert set(manifest) == {"met_9", "cma-1", "w_1"}
-    assert manifest["met_9"]["license"].startswith("CC0") and (mp.IMAGES_DIR / manifest["met_9"]["file"]).read_bytes() == JPEG
-    assert manifest["w_1"]["credit"] == "A. Photographer" and manifest["w_1"]["line"].startswith("A. Photographer")
+    stored = museum_store.stored_pictures()
+    assert set(stored) == {"met_9", "cma-1", "w_1"}
+    assert stored["met_9"]["credit"]["license"].startswith("CC0") and museum_store.get_picture("met_9")[0] == JPEG
+    assert stored["w_1"]["credit"]["credit"] == "A. Photographer" and stored["w_1"]["credit"]["line"].startswith("A. Photographer")
+    assert not mp.IMAGES_DIR.exists() or not list(mp.IMAGES_DIR.iterdir())  # nothing written as a loose file
     assert lookups[0] == ("Wiki thing", "")  # its own article first; Met and Cleveland objects never search by name
 
     again = mp.download_pictures(objects, wiki, sleep=0, log=lambda *_: None)  # resumable: only the unfinished one is retried
@@ -115,7 +117,7 @@ def test_download_pictures_counts_failures_and_retries_them_later(monkeypatch):
     monkeypatch.setattr(mp, "_get_json", lambda url: {"isPublicDomain": True, "primaryImageSmall": "https://images.metmuseum.org/m.jpg"})
     objects = [{"id": "met_5", "met_id": 5, "name": "X"}]
     assert mp.download_pictures(objects, lambda *a: None, sleep=0, log=lambda *_: None)["failed"] == 1
-    assert not mp.MANIFEST_PATH.exists() or "met_5" not in json.loads(mp.MANIFEST_PATH.read_text())
+    assert not museum_store.has_picture("met_5")
     state["down"] = False
     assert mp.download_pictures(objects, lambda *a: None, sleep=0, log=lambda *_: None)["downloaded"] == 1
 
@@ -213,7 +215,7 @@ def test_page_pictures_are_downloaded_with_an_honest_credit(monkeypatch):
     monkeypatch.setattr(mp, "_fetch_image", lambda url: (JPEG, ".jpg"))
     obj = {"id": "o1", "name": "Object", "links": {"museum_object": "https://museum.example/object/1"}}
     stats = mp.download_pictures([obj], lambda *a: None, sleep=0, log=lambda *_: None)
-    entry = json.loads(mp.MANIFEST_PATH.read_text())["o1"]
+    entry = museum_store.stored_pictures()["o1"]["credit"]
     assert stats["downloaded"] == 1 and entry["found_via"] == "museum_page" and entry["license"] is None
     assert "check its terms" in entry["line"] and entry["source_url"] == "https://museum.example/object/1"
 
@@ -229,7 +231,7 @@ def test_only_missing_skips_objects_that_already_show_a_picture(monkeypatch):
     objs = [{"id": "cma-1", "name": "has url", "thumbnail_local": "https://cdn.example/1.jpg"}, {"id": "w", "name": "wiki", "wiki_title": "wiki"}]
     stats = mp.download_pictures(objs, lambda t, q: "https://upload.wikimedia.org/w.jpg", sleep=0, log=lambda *_: None, only_missing=True)
     assert stats["downloaded"] == 1 and stats["skipped"] == 1
-    assert set(json.loads(mp.MANIFEST_PATH.read_text())) == {"w"}
+    assert set(museum_store.stored_pictures()) == {"w"}
 
 
 def test_still_missing_objects_are_reported_with_what_was_tried(monkeypatch):

@@ -25,7 +25,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
-from app import image_credit
+from app import image_credit, museum_store
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 IMAGES_DIR = DATA / "museum_resource" / "images"
@@ -93,7 +93,16 @@ def manifest() -> dict:
 
 
 def overlay(obj: dict) -> dict:
-    """The object with its downloaded picture (and credit) attached, if there is one."""
+    """The object with its stored picture (and credit) attached, if there is one.
+
+    A picture in the database wins; older pictures saved as files are still shown.
+    """
+    stored = museum_store.stored_pictures().get(obj.get("id"))
+    if stored:
+        credit = stored.get("credit") or {}
+        return {**obj, "thumbnail_local": f"/api/museum/picture/{quote(obj['id'], safe='')}?v={stored['v']}",
+                "picture_source": stored.get("source"),
+                "image_credit": {k: credit.get(k) for k in ("credit", "license", "license_url", "source_url", "line")}}
     entry = manifest().get(obj.get("id"))
     if not entry or not (IMAGES_DIR / entry["file"]).exists():
         return obj
@@ -212,6 +221,8 @@ def find_picture_url(obj: dict, wiki_lookup, tried: list | None = None) -> tuple
 
 def has_picture(obj: dict) -> bool:
     """True if the object already shows a real picture (a web URL or a downloaded copy)."""
+    if museum_store.has_picture(obj.get("id")):
+        return True
     entry = manifest().get(obj.get("id"))
     if entry and (IMAGES_DIR / entry["file"]).exists():
         return True
@@ -289,29 +300,51 @@ def _fetch_image(url: str) -> tuple[bytes, str]:
     return data, EXTENSIONS[kind]
 
 
+class NoPicture(Exception):
+    """None of the places searched had a picture for the object."""
+
+    def __init__(self, tried: list):
+        super().__init__("no picture found")
+        self.tried = tried
+
+
+def download_for(obj: dict, wiki_lookup, gallery: str = "") -> dict:
+    """Find a picture for one object on the web and store it in the database.
+
+    The object's own links are tried first (see ``candidate_sources``), then a search by name.
+    Raises NoPicture (with what was tried) or the network error that stopped the download.
+    """
+    tried: list = []
+    url, credit, how = find_picture_url(obj, wiki_lookup, tried)
+    if not url:
+        raise NoPicture(tried)
+    try:
+        data, _ = _fetch_image(url)
+    except Exception as exc:
+        raise NoPicture(tried + [f"download: {exc}"]) from exc
+    credit = credit or {}
+    stored_credit = {"credit": credit.get("artist") or credit.get("credit"), "license": credit.get("license"),
+                     "license_url": credit.get("license_url"), "source_url": credit.get("source_url") or url,
+                     "line": credit.get("line") or (image_credit.credit_line(credit) if credit else ""),
+                     "found_via": how}
+    museum_store.save_picture(obj["id"], gallery, data, source="download", source_url=url, credit=stored_credit)
+    return {"found_via": how, "image_url": url, "credit": stored_credit}
+
+
 def download_pictures(objects, wiki_lookup, limit: int = 0, sleep: float = 0.2, log=print, save_every: int = 25,
                       only_missing: bool = False) -> dict:
     """Download a picture for every object without one, starting with the objects that have none at all.
 
-    Each object's own links are tried first (see ``candidate_sources``). Resumable: finished objects are
-    skipped and failures are retried on the next run. ``only_missing`` skips objects that already show a
-    picture from a web URL. Objects that still have no picture are listed, with what was tried, in
-    pictures_missing.json. Returns counts."""
-    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
-    done = dict(manifest())
+    Pictures go into the database. Each object's own links are tried first (see ``candidate_sources``).
+    Resumable: finished objects are skipped and failures are retried on the next run. ``only_missing``
+    skips objects that already show a picture from a web URL. Objects that still have no picture are
+    listed, with what was tried, in pictures_missing.json. Returns counts."""
     stats = {"downloaded": 0, "no_picture": 0, "failed": 0, "skipped": 0}
     missing: dict = {}
-
-    def save():
-        MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-        tmp = MANIFEST_PATH.with_suffix(".tmp")
-        tmp.write_text(json.dumps(done, ensure_ascii=False, indent=1), encoding="utf-8")
-        tmp.replace(MANIFEST_PATH)
-
     attempted = 0
     for obj in prioritise(objects):
         oid = obj.get("id")
-        if oid in done and (IMAGES_DIR / done[oid]["file"]).exists():
+        if museum_store.has_picture(oid) or (oid in manifest() and (IMAGES_DIR / manifest()[oid]["file"]).exists()):
             stats["skipped"] += 1
             continue
         if only_missing and has_picture(obj):
@@ -320,32 +353,23 @@ def download_pictures(objects, wiki_lookup, limit: int = 0, sleep: float = 0.2, 
         if limit and attempted >= limit:
             break
         attempted += 1
-        tried: list = []
         try:
-            url, credit, how = find_picture_url(obj, wiki_lookup, tried)
-            if not url:
-                stats["no_picture"] += 1
-                missing[oid] = {"name": obj.get("name"), "tried": tried}
-                continue
-            data, ext = _fetch_image(url)
-            name = re.sub(r"[^A-Za-z0-9_.-]", "_", oid) + ext
-            (IMAGES_DIR / name).write_bytes(data)
-            credit = credit or {}
-            done[oid] = {"file": name, "found_via": how, "source_url": credit.get("source_url") or url, "image_url": url,
-                         "credit": credit.get("artist") or credit.get("credit"), "license": credit.get("license"),
-                         "license_url": credit.get("license_url"),
-                         "line": credit.get("line") or (image_credit.credit_line(credit) if credit else ""),
-                         "sha1": hashlib.sha1(data).hexdigest(), "fetched_at": int(time.time())}
+            download_for(obj, wiki_lookup, obj.get("gallery", ""))
             stats["downloaded"] += 1
-        except Exception as exc:  # network error, rate limit, bad image: retry on the next run
+        except NoPicture as exc:
+            failed_download = any(t.startswith("download:") for t in exc.tried)
+            stats["failed" if failed_download else "no_picture"] += 1
+            missing[oid] = {"name": obj.get("name"), "tried": exc.tried}
+            if failed_download:
+                log(f"  {oid}: {exc.tried[-1]}")
+        except Exception as exc:  # database or other unexpected problem: retry on the next run
             stats["failed"] += 1
-            missing[oid] = {"name": obj.get("name"), "tried": tried + [f"download: {exc}"]}
+            missing[oid] = {"name": obj.get("name"), "tried": [f"error: {exc}"]}
             log(f"  {oid}: {exc}")
         if attempted % save_every == 0:
-            save()
             log(f"  {attempted} tried — {stats}")
         time.sleep(sleep)
-    save()
     report = MANIFEST_PATH.with_name("pictures_missing.json")
+    report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text(json.dumps(missing, ensure_ascii=False, indent=1), encoding="utf-8")
     return stats
