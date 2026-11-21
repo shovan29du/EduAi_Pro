@@ -211,8 +211,11 @@ def find_picture_url(obj: dict, wiki_lookup, tried: list | None = None, skip=())
         try:
             if kind == "web_search":
                 problems: list = []
-                hits = [h for h in image_search.search(value, order=image_search.ARTWORKS, log=problems)
-                        if h["url"] not in skip]
+                topic = {"title": obj.get("name") or "", "description": (obj.get("description") or "")[:400],
+                         "context": obj.get("origin") or ""}
+                # Only pictures whose own words fit the object (name and description); ones that do not are left out.
+                hits = [h for h in image_search.search(value, order=image_search.ARTWORKS, log=problems, topic=topic)
+                        if h["url"] not in skip and h.get("score", 1.0) >= image_search.POSSIBLE]
                 if problems and tried is not None:
                     tried.extend(f"web_search {p}" for p in problems)
                 if hits:

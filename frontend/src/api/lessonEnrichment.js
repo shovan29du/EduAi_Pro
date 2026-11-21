@@ -33,22 +33,30 @@ async function readError(response, fallback) {
   }
 }
 
-export async function downloadLessonPicture({ key, title, context, wikiTitle }) {
-  const response = await fetch('/api/lesson-picture/download', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ key, title, context: context || '', wiki_title: wikiTitle || '' }),
-  });
-  if (!response.ok) throw new Error(await readError(response, 'Could not download a picture.'));
+async function send(url, init, fallback) {
+  const response = await fetch(url, init);
+  if (!response.ok) throw new Error(await readError(response, fallback));
   return response.json();
 }
 
-export async function uploadLessonPicture(key, file) {
-  const response = await fetch(`/api/lesson-picture?key=${encodeURIComponent(key)}`, {
+const json = (body) => ({ method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+
+// Pictures found across many free collections, best fit first (nothing is saved yet).
+export const searchLessonPictures = ({ key, title, context, wikiTitle, description, exclude }) =>
+  send('/api/lesson-picture/search', json({
+    key, title, context: context || '', wiki_title: wikiTitle || '', description: (description || '').slice(0, 800), exclude: exclude || [],
+  }), 'Could not search for pictures.');
+
+// Save the pictures the owner picked (the candidates exactly as the search returned them).
+export const saveLessonPictures = (key, candidates) =>
+  send('/api/lesson-picture/save', json({ key, pictures: candidates }), 'Could not save the pictures.');
+
+export const uploadLessonPicture = (key, file) =>
+  send(`/api/lesson-picture?key=${encodeURIComponent(key)}`, {
     method: 'PUT',
     headers: { 'Content-Type': file.type, 'X-Filename': encodeURIComponent(file.name) },
     body: file,
-  });
-  if (!response.ok) throw new Error(await readError(response, 'Could not upload the picture.'));
-  return response.json();
-}
+  }, 'Could not upload the picture.');
+
+export const removeLessonPicture = (id) =>
+  send(`/api/lesson-picture/${encodeURIComponent(id)}`, { method: 'DELETE' }, 'Could not remove the picture.');

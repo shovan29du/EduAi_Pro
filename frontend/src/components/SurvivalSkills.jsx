@@ -45,7 +45,7 @@ function SkillDetail({ skill, context, catId, onBack }) {
         </div>
         <h2 className="text-2xl font-bold text-gray-800 flex-1">{skill.name}</h2>
         <SpeakButton text={skill.name} lang="en" />
-        <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={context} pictureKey={`survival/${catId}/${skill.name}`} controls />
+        <SkillPicture title={skill.name} wikiTitle={skill.wiki_title} context={context} description={[...(skill.learning_objectives || []), ...(skill.key_steps || []).slice(0, 2)].join('. ')} pictureKey={`survival/${catId}/${skill.name}`} controls />
       </div>
 
       <QuickFacts skill={skill} />

@@ -374,6 +374,25 @@ class LessonPicture(Base):
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now, onupdate=now)
 
 
+class LessonPictureItem(Base):
+    """One picture of a lesson. A lesson can have several (downloaded or uploaded), kept in order."""
+    __tablename__ = "lesson_picture_items"
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4)
+    key: Mapped[str] = mapped_column(String(400), index=True)  # e.g. "survival/personal_safety/Stranger Awareness"
+    position: Mapped[int] = mapped_column(Integer, default=0)
+    content_type: Mapped[str] = mapped_column(String(50))
+    data: Mapped[bytes] = mapped_column(LargeBinary)
+    size: Mapped[int] = mapped_column(Integer, default=0)
+    sha1: Mapped[str] = mapped_column(String(40), default="")
+    source: Mapped[str] = mapped_column(String(20), default="download")  # "download" or "upload"
+    source_url: Mapped[str | None] = mapped_column(Text)
+    filename: Mapped[str | None] = mapped_column(String(300))
+    title: Mapped[str] = mapped_column(String(300), default="")
+    credit: Mapped[dict] = mapped_column(JSON, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now, onupdate=now)
+
+
 class MuseumDeletedObject(Base):
     """An object the owner deleted from the Virtual Museum.
 

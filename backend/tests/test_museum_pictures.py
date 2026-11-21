@@ -316,8 +316,24 @@ def test_searching_every_collection_is_the_last_resort_and_is_credited(monkeypat
     assert result["found_via"] == "web_search" and stored["line"] == "Person 1 · CC BY 2.0" and stored["found_in"] == "Openverse (flickr)"
 
 
+def test_pictures_that_do_not_fit_the_object_are_left_out(monkeypatch):
+    def search(q, order=None, log=None, topic=None, **k):
+        assert topic["title"] == "Obscure bowl" and topic["context"] == "Peru"
+        return [{**_hit(1), "score": 0.05, "match": "Weak match"}, {**_hit(2), "score": 0.7, "match": "Good match"}]
+
+    monkeypatch.setattr(mp.image_search, "search", search)
+    monkeypatch.setattr(mp, "_fetch_image", lambda url: (JPEG, ".jpg"))
+    result = mp.download_for({"id": "o", "name": "Obscure bowl", "origin": "Peru", "description": "A bowl"}, lambda t, q: None)
+    assert result["image_url"] == "https://img.example/2.jpg"
+
+    monkeypatch.setattr(mp.image_search, "search", lambda *a, **k: [{**_hit(1), "score": 0.0, "match": "Weak match"}])
+    import pytest
+    with pytest.raises(mp.NoPicture):
+        mp.download_for({"id": "p", "name": "Other"}, lambda t, q: None)
+
+
 def test_download_again_gives_the_next_picture_and_skips_ones_that_will_not_download(monkeypatch):
-    monkeypatch.setattr(mp.image_search, "search", lambda q, **k: [_hit(1), _hit(2), _hit(3)])
+    monkeypatch.setattr(mp.image_search, "search", lambda q, **k: [_hit(1), _hit(2), _hit(3)])  # no score: not filtered
 
     def fetch(url):
         if url.endswith("/2.jpg"):

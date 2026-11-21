@@ -379,6 +379,7 @@ function CurriculumLessonBrowser({ lessons, completed, onComplete, recommendedLe
             </p>
             <h4 className="mt-1 text-xl font-bold">{selected.title}</h4>
             <SkillPicture title={selected.title} wikiTitle={selected.wiki_title} context={subjectName}
+              description={[...(selected.learning_objectives || []).map(displayText), ...(selected.key_concepts || []).map(displayText)].join('. ')}
               pictureKey={`subject/${levelId || 'all'}/${selected.id}`} controls />
             {selected.learning_objectives?.length > 0 && (
               <>

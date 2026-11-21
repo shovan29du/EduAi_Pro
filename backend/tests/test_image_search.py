@@ -75,3 +75,21 @@ def test_search_merges_sources_in_order_skips_failures_and_duplicates(monkeypatc
     assert [h["url"] for h in hits] == ["2", "3", "1"]  # c first, duplicate "2" dropped
     assert problems == ["b: down"]
     assert ims.search("   ") == []
+
+
+def test_relevance_checks_the_picture_against_the_lesson_topic_and_description():
+    on_topic = {"title": "How to tie a bowline knot", "text": "rope sailing loop"}
+    off_topic = {"title": "Sunset over the sea", "text": "beach holiday"}
+    partial = {"title": "A bowline on a boat", "text": ""}
+    title, desc = "Bowline Knot", "Tie a secure loop with a rope"
+    good, weak, mid = (ims.relevance(h, title, desc) for h in (on_topic, off_topic, partial))
+    assert good >= ims.STRONG and weak < ims.POSSIBLE and weak < mid < good
+    assert [ims.match_label(x) for x in (good, mid, weak)] == ["Good match", "Possible match", "Weak match"]
+    assert ims.relevance(on_topic, "") == 0.5  # nothing to compare against
+    assert ims.tokens("Knots and Ropes: the basics") == {"knot", "rope"}  # plurals and filler words ignored
+
+
+def test_search_with_a_topic_ranks_by_fit_and_labels_each_picture(monkeypatch):
+    monkeypatch.setattr(ims, "SOURCES", {"a": lambda q: [ims._hit("A", "1", "Sunset over the sea"), ims._hit("A", "2", "Bowline knot tied in rope")]})
+    hits = ims.search("bowline", order=("a",), topic={"title": "Bowline Knot", "description": "", "context": "Rope and Knots"})
+    assert [h["url"] for h in hits] == ["2", "1"] and hits[0]["match"] != "Weak match" and hits[1]["match"] == "Weak match"

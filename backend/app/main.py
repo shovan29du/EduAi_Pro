@@ -78,6 +78,7 @@ from app.professional_api import router as professional_router
 from app.news_api import router as news_router
 from app.lesson_examples import router as lesson_examples_router
 from app.problem_reports import router as problem_reports_router
+from app import lesson_pictures
 from app.lesson_pictures import router as lesson_pictures_router
 from app.image_credit import router as image_credit_router
 from app.virtual_tour import router as virtual_tour_router
@@ -97,6 +98,7 @@ async def lifespan(_app: FastAPI):
     # yet been created.
     create_schema()
     # Pictures an older version saved as loose files move into the database (once each, in the background).
+    lesson_pictures.import_legacy_single_pictures()
     threading.Thread(target=museum_store.import_legacy_files, daemon=True,
                      args=(museum_pictures.IMAGES_DIR, museum_pictures.MANIFEST_PATH)).start()
     yield

@@ -57,7 +57,7 @@ function ModuleView({ module: mod, colour, context, pathwayId, onBack }) {
         <h2 className="text-2xl font-bold text-gray-800 mt-2">{mod.title}</h2>
         <p className="text-gray-600 mt-1">{mod.description}</p>
         <p className="text-sm text-gray-500 mt-1">⏱ {mod.duration_minutes} minutes</p>
-        <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={context} pictureKey={`practical/${pathwayId}/${mod.title}`} controls />
+        <SkillPicture title={mod.title} wikiTitle={mod.wiki_title} context={context} description={[mod.description, ...(mod.learning_objectives || [])].filter(Boolean).join('. ')} pictureKey={`practical/${pathwayId}/${mod.title}`} controls />
       </div>
 
       <QuickFacts mod={mod} colour={colour} />

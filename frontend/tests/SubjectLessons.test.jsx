@@ -200,8 +200,8 @@ describe('SubjectLessons book excerpts from library', () => {
     // Real-photo lookup via the live Wikipedia thumbnail proxy
     await waitFor(() => expect(container.querySelector('img[src="https://example.com/photo.jpg"]')).toBeInTheDocument());
     expect(global.fetch.mock.calls.some((c) => String(c[0]).startsWith('/api/lesson-enrichment/wiki') && decodeURIComponent(String(c[0])).includes('key=subject/'))).toBe(true);
-    expect(screen.getByRole('button', { name: /Download picture|Download another picture/ })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Upload picture/ })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Download pictures/ })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Upload pictures/ })).toBeInTheDocument();
   });
 
   it('renders a Singapore Math approach section with method, explanation, and example table', async () => {

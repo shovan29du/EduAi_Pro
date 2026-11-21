@@ -38,10 +38,11 @@ def _text(value) -> str:
 
 
 def _hit(source: str, url: str, title: str, *, creator: str = "", license: str = "", license_url: str = "",
-         page: str = "", note: str = "", fallback_url: str = "") -> dict:
+         page: str = "", note: str = "", fallback_url: str = "", text: str = "") -> dict:
     who = creator or source
     line = " · ".join(p for p in (who, license, note) if p)
     return {"source": source, "url": url, "fallback_url": fallback_url, "title": _text(title) or source,
+            "text": _text(text)[:600],
             "credit": {"credit": who, "license": license or None, "license_url": license_url or None,
                        "source_url": page or url, "line": line}}
 
@@ -64,7 +65,7 @@ def commons(query: str) -> list[dict]:
         value = lambda name: _text((meta.get(name) or {}).get("value"))  # noqa: E731
         out.append(_hit("Wikimedia Commons", info.get("thumburl") or info.get("url"), re.sub(r"^File:|\.\w+$", "", title),
                         creator=value("Artist"), license=value("LicenseShortName"), license_url=value("LicenseUrl"),
-                        page=info.get("descriptionurl") or ""))
+                        page=info.get("descriptionurl") or "", text=value("ImageDescription") + " " + value("Categories")))
     return out
 
 
@@ -79,7 +80,8 @@ def openverse(query: str) -> list[dict]:
             if item.get("license") not in ("cc0", "pdm") else {"cc0": "CC0 1.0", "pdm": "Public Domain Mark"}[item["license"]]
         out.append(_hit(f"Openverse ({item.get('source') or item.get('provider') or 'various'})", url, item.get("title") or "",
                         creator=item.get("creator") or "", license=lic, license_url=item.get("license_url") or "",
-                        page=item.get("foreign_landing_url") or "", fallback_url=item.get("url") or ""))
+                        page=item.get("foreign_landing_url") or "", fallback_url=item.get("url") or "",
+                        text=" ".join(str(t.get("name") if isinstance(t, dict) else t) for t in (item.get("tags") or []))))
     return out
 
 
@@ -93,7 +95,8 @@ def met(query: str) -> list[dict]:
         if record.get("isPublicDomain") and url:
             out.append(_hit("The Metropolitan Museum of Art", url, record.get("title") or "",
                             creator=record.get("artistDisplayName") or "The Metropolitan Museum of Art",
-                            license="CC0 1.0 (Open Access)", license_url=CC0, page=record.get("objectURL") or ""))
+                            license="CC0 1.0 (Open Access)", license_url=CC0, page=record.get("objectURL") or "",
+                            text=" ".join(str(record.get(k) or "") for k in ("objectName", "culture", "period", "medium", "department"))))
     return out
 
 
@@ -118,7 +121,8 @@ def cleveland(query: str) -> list[dict]:
             creators = item.get("creators") or [{}]
             out.append(_hit("Cleveland Museum of Art", image, item.get("title") or "",
                             creator=_text(creators[0].get("description")) or "Cleveland Museum of Art",
-                            license="CC0 1.0 (Open Access)", license_url=CC0, page=item.get("url") or ""))
+                            license="CC0 1.0 (Open Access)", license_url=CC0, page=item.get("url") or "",
+                            text=_text(item.get("description")) + " " + _text(item.get("culture")) + " " + _text(item.get("type"))))
     return out
 
 
@@ -132,7 +136,8 @@ def nasa(query: str) -> list[dict]:
             out.append(_hit("NASA Image and Video Library", links[0]["href"], meta.get("title") or "",
                             creator=meta.get("photographer") or meta.get("center") or "NASA",
                             license="NASA media (generally public domain)",
-                            page=f"https://images.nasa.gov/details/{quote(str(meta.get('nasa_id') or ''))}"))
+                            page=f"https://images.nasa.gov/details/{quote(str(meta.get('nasa_id') or ''))}",
+                            text=_text(meta.get("description")) + " " + " ".join(meta.get("keywords") or [])))
     return out
 
 
@@ -146,7 +151,8 @@ def loc(query: str) -> list[dict]:
             if url.startswith("//"):
                 url = "https:" + url
             out.append(_hit("Library of Congress", url, item.get("title") or "", creator="Library of Congress",
-                            note="check rights before reuse", page=item.get("url") or item.get("id") or ""))
+                            note="check rights before reuse", page=item.get("url") or item.get("id") or "",
+                            text=" ".join(str(x) for x in (item.get("subject") or item.get("subjects") or []))))
     return out
 
 
@@ -156,8 +162,54 @@ GENERAL = ("commons", "openverse", "nasa", "loc", "met", "chicago", "cleveland")
 ARTWORKS = ("met", "chicago", "cleveland", "commons", "openverse", "loc", "nasa")
 
 
-def search(query: str, order: tuple = GENERAL, per_source: int = 3, log=None) -> list[dict]:
-    """Pictures for `query` from every source, in the order given (a failing source is skipped)."""
+# ── does the picture fit the lesson? ──────────────────────────────────────────
+STOP = set("""a an the of and or for to in on at by with from into over under about as is are was were be been being this that
+these those it its their your our you how what why when where which who basics basic introduction intro lesson lessons
+guide guides skill skills level levels part parts using use used uses understanding learn learning practice practical
+fundamentals foundations foundation overview deep dive study studies theory unit more than not also can will should would
+could safe safely rules rule""".split())
+STRONG, POSSIBLE = 0.6, 0.3
+
+
+def tokens(text: str) -> set:
+    """The meaningful words of a text, lower-cased with a plural 's' removed."""
+    words = re.findall(r"[a-z0-9]+", (text or "").lower())
+    out = set()
+    for word in words:
+        if len(word) < 3 or word in STOP:
+            continue
+        out.add(word[:-1] if len(word) > 4 and word.endswith("s") and not word.endswith("ss") else word)
+    return out
+
+
+def relevance(hit: dict, title: str, description: str = "", context: str = "") -> float:
+    """0-1: how well a picture's own words (title, description, tags) fit the lesson's title and description.
+
+    Mostly the share of the lesson title's key words that the picture's text also has, plus a smaller share for
+    the lesson description and a small nudge for the subject. It is a check, not a guarantee: the picture's
+    title is all most collections give us.
+    """
+    have = tokens(f"{hit.get('title', '')} {hit.get('text', '')}")
+    want = tokens(title)
+    if not want:
+        return 0.5
+    title_share = len(want & have) / len(want)
+    desc = tokens(description) - want
+    desc_share = min(1.0, len(desc & have) / 4) if desc else 0.0
+    subject = 0.1 if tokens(context) & have else 0.0
+    return round(min(1.0, title_share * 0.8 + desc_share * 0.3 + subject), 2)
+
+
+def match_label(score: float) -> str:
+    return "Good match" if score >= STRONG else "Possible match" if score >= POSSIBLE else "Weak match"
+
+
+def search(query: str, order: tuple = GENERAL, per_source: int = 3, log=None, topic: dict | None = None) -> list[dict]:
+    """Pictures for `query` from every source, in the order given (a failing source is skipped).
+
+    With `topic` ({title, description, context}) each picture gets a ``score`` and ``match`` label for how well
+    it fits the lesson, and the best fits come first.
+    """
     query = (query or "").strip()
     if not query:
         return []
@@ -178,4 +230,9 @@ def search(query: str, order: tuple = GENERAL, per_source: int = 3, log=None) ->
             if hit["url"] and hit["url"] not in seen:
                 seen.add(hit["url"])
                 out.append(hit)
+    if topic:
+        for hit in out:
+            hit["score"] = relevance(hit, topic.get("title", ""), topic.get("description", ""), topic.get("context", ""))
+            hit["match"] = match_label(hit["score"])
+        out.sort(key=lambda h: -h["score"])  # stable: equal scores keep the source order
     return out
